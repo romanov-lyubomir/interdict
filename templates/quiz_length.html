@@ -1,0 +1,53 @@
+{# Lets the user choose how many questions the quiz has #}
+<style>
+    .quiz-length {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .quiz-length label {
+        cursor: pointer;
+    }
+
+    .quiz-length input {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .quiz-length span {
+        display: block;
+        min-width: 40px;
+        text-align: center;
+        padding: 6px 12px;
+        border: 1px solid #707070;
+        border-radius: 20px;
+    }
+
+    .quiz-length label:hover span {
+        border-color: white;
+    }
+
+    .quiz-length input:checked + span {
+        border-color: white;
+        background: #505050;
+        font-weight: bold;
+    }
+
+    .quiz-length input:focus-visible + span {
+        outline: 2px solid white;
+        outline-offset: 2px;
+    }
+</style>
+<fieldset>
+    <legend>Number of questions</legend>
+    <div class="quiz-length">
+        {% for length in quiz_lengths %}
+        <label>
+            <input type="radio" name="length" value="{{ length }}" {% if length == selected_length %}checked{% endif %}>
+            <span>{{ length }}</span>
+        </label>
+        {% endfor %}
+    </div>
+</fieldset>

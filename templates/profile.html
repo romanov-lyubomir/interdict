@@ -3,6 +3,103 @@
 {% endblock %}
 
 {% block css %}
+<style>
+    .settings {
+        width: 90vw;
+        max-width: 860px;
+        margin: 0 auto 40px;
+    }
+
+    .notice {
+        background: #303030;
+        border-left: 4px solid #C0C0C0;
+        border-radius: 5px;
+        padding: 10px 15px;
+        margin-bottom: 20px;
+    }
+
+    .settings-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    @media screen and (min-width: 720px) {
+        .settings-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .settings-card {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 20px 25px;
+    }
+
+    .settings-card h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .settings-card .hint {
+        color: #C0C0C0;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .settings-card label {
+        font-size: 13px;
+        color: #C0C0C0;
+        margin-bottom: 4px;
+    }
+
+    .settings-card input[type="text"],
+    .settings-card input[type="password"],
+    .settings-card select {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    .settings-card select {
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .settings-card input[type="submit"] {
+        align-self: flex-start;
+        margin-top: auto;
+        padding: 8px 20px;
+    }
+
+    .account-details {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 10px 20px;
+    }
+
+    .account-details dt {
+        color: #C0C0C0;
+    }
+
+    .account-details dd {
+        overflow-wrap: anywhere;
+    }
+
+    .danger-zone {
+        grid-column: 1 / -1;
+        border: 1px solid #CF000F;
+    }
+
+    .settings-card input[type="submit"].danger {
+        background-color: #CF000F;
+    }
+
+    .settings-card input[type="submit"].danger:hover {
+        background-color: #a3000c;
+    }
+</style>
 {% endblock %}
 
 
@@ -11,7 +108,7 @@
 <a href="{{ url_for('index') }}">
     <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
         <g fill="none" fill-rule="evenodd">
-            <path 
+            <path
             fill="#fff"
             d="M6.93 8l-4.7-4.7a.76.76 0 1 1 1.06-1.08L8 6.92l4.7-4.7a.76.76 0 0 1 1.08 1.07L9.08 8l4.7 4.7a.76.76 0 1 1-1.07 1.08L8 9.08l-4.7 4.7a.76.76 0 0 1-1.08-1.07L6.92 8z">
             </path>
@@ -21,72 +118,73 @@
 <div class="center">
     <h1 class="title">Your profile</h1>
 </div>
-<div class="center">
-    <table>
-        <caption>Your data</caption>
-        <tbody>
-            <tr>
-                <th>Email</th>
-                <td>{{ current_user.email }}</td>
-            </tr>
-            <tr>
-                <th>Username</th>
-                <td>{{ current_user.username }}</td>
-            </tr>
-            <tr>
-                <th>Language</th>
-                <td>{{ current_user.language | capitalize}}</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-{% for message in messages %}
-<div class="center"><p>{{ message }}</p></div>
-{% endfor %}
-{% endif %}
-{% endwith %}
 
-<div class="center">
-    <form class="shadow" action="{{ url_for('change_password') }}" method="POST">
-        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-        <div class="center"><input placeholder="Current password" type="password" name="old_password" id="old_password" required></div>
-        <div class="center"><input placeholder="New password" type="password" name="new_password" id="new_password" required></div>
-        <div class="center"><input type="submit" name="submit" value="Change password"></div>
-    </form>
-</div>
+<div class="settings">
+    {% with messages = get_flashed_messages() %}
+    {% for message in messages %}
+    <div class="notice">{{ message }}</div>
+    {% endfor %}
+    {% endwith %}
 
-<div class="center">
-    <form class="shadow" action="{{ url_for('change_username') }}" method="POST">
-        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-        <div class="center"><input placeholder="Password" type="password" name="password" required></div>
-        <div class="center"><input placeholder="New username" type="text" name="new_username" required></div>
-        <div class="center"><input type="submit" name="submit" value="Change username"></div>
-    </form>
-</div>
-
-<!-- Create a change language form -->
-<div class="center">
-    <form class="shadow" action="{{ url_for('change_language') }}" method="POST">
-        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-        <div class="center">
-            <select name="new_language" id="language">
-                <option value="spanish">Spanish</option>
-                <option value="italian">Italian</option>
-                <option value="german">German</option>
-            </select>
+    <div class="settings-grid">
+        <div class="container shadow settings-card">
+            <h2>Account</h2>
+            <p class="hint">Your current details.</p>
+            <dl class="account-details">
+                <dt>Email</dt>
+                <dd>{{ current_user.email }}</dd>
+                <dt>Username</dt>
+                <dd>{{ current_user.username }}</dd>
+                <dt>Language</dt>
+                <dd>{{ current_user.language | capitalize }}</dd>
+            </dl>
         </div>
-        <div class="center"><input type="submit" name="submit" value="Change language"></div>
-    </form>
-</div>
 
-<div class="center">
-    <form action="{{ url_for('delete_profile') }}" method="POST"
-        onsubmit="return confirm('Are you sure you want to delete your profile?');">
-        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-        <input type="submit" name="delete" value="Delete profile">
-    </form>
+        <form class="shadow settings-card" action="{{ url_for('change_language') }}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <h2>Language</h2>
+            <p class="hint">The language you are learning.</p>
+            <label for="language">Language</label>
+            <select name="new_language" id="language">
+                {% for value in ["spanish", "italian", "german"] %}
+                <option value="{{ value }}" {% if value == current_user.language %}selected{% endif %}>
+                    {{ value | capitalize }}
+                </option>
+                {% endfor %}
+            </select>
+            <input type="submit" name="submit" value="Change language">
+        </form>
+
+        <form class="shadow settings-card" action="{{ url_for('change_username') }}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <h2>Username</h2>
+            <p class="hint">Letters, numbers and _ only.</p>
+            <label for="new_username">New username</label>
+            <input type="text" name="new_username" id="new_username" required>
+            <label for="username_password">Password</label>
+            <input type="password" name="password" id="username_password" required>
+            <input type="submit" name="submit" value="Change username">
+        </form>
+
+        <form class="shadow settings-card" action="{{ url_for('change_password') }}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <h2>Password</h2>
+            <p class="hint">At least 8 characters.</p>
+            <label for="old_password">Current password</label>
+            <input type="password" name="old_password" id="old_password" required>
+            <label for="new_password">New password</label>
+            <input type="password" name="new_password" id="new_password" required>
+            <input type="submit" name="submit" value="Change password">
+        </form>
+
+        <form class="shadow settings-card danger-zone" action="{{ url_for('delete_profile') }}" method="POST"
+            onsubmit="return confirm('Are you sure you want to delete your profile?');">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <h2>Delete profile</h2>
+            <p class="hint">This permanently removes your account and cannot be undone.</p>
+            <input class="danger" type="submit" name="delete" value="Delete profile">
+        </form>
+    </div>
 </div>
 
 {% endblock %}

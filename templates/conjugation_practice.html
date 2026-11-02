@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% block imports %}
+<script src="{{ url_for('static', filename='drill.js') }}"></script>
 {% endblock %}
 
 {% block css %}
 <style>
-    progress {
+    .quiz-progress {
         position: absolute;
         top: 70px;
     }
@@ -34,11 +35,6 @@
         text-align: center;
     }
 
-    .correct-verb {
-        border-radius: 5px;
-        padding: 5px;
-    }
-
     .settings-link {
         font-size: 13px;
         color: #C0C0C0;
@@ -65,78 +61,26 @@
     </svg>
 </a>
 
-{% if play_audio and audio_url %}
-<script>
-    const audio = new Audio("{{ audio_url }}");
-    audio.play().catch(() => {});
-</script>
-{% endif %}
-
-<div class="center">
-    <progress value="{{ progress }}" max="10"></progress>
-</div>
+{% include "quiz_progress.html" %}
 
 <div class="center">
     <div class="verb-correct-message">
-        {% if verb_is_correct == True %}
-        <div class="center">
-            <h3 style="color: green;">Correct!</h3>
-        </div>
-        <div class="center">
-            <div style="display: inline;" class="correct-verb">{{ answer }}</div>
-        </div>
-        <script>
-            const nextQuestion = () => {
-                window.location.href = "{{ url_for('conjugation_practice', progress=progress) }}";
-            };
-            {% if audio_url %}
-            audio.addEventListener('ended', nextQuestion);
-            // If the audio can't be played, still move on
-            audio.addEventListener('error', () => setTimeout(nextQuestion, 1500));
-            {% else %}
-            setTimeout(nextQuestion, 1500);
-            {% endif %}
-        </script>
-        {% elif verb_is_correct == False %}
-        <div class="center">
-            <h3 style="color: red;">Wrong!</h3>
-        </div>
-        <div class="center">
-            <h4>The correct answer is <div style="display: inline;" class="correct-verb">{{ answer }}</div></h4>
-        </div>
-        {% endif %}
-        {% with messages = get_flashed_messages() %}
-        {% for message in messages %}
-        <div class="center">
-            <div class="error">{{ message }}</div>
-        </div>
-        {% endfor %}
-        {% endwith %}
+        {% include "drill_feedback.html" %}
     </div>
 </div>
 
 <div class="image-form-div">
     <div class="center">
-        <form action="{{ url_for('conjugation_practice', progress=progress) }}" class="shadow" method="POST">
+        <form id="drillForm" action="{{ url_for('conjugation_practice') }}" class="shadow" method="POST">
             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-            <p class="form-label">{{ form_label }}</p>
-            {% if pronoun %}
-            <div class="center">
-                <p class="big">{{ pronoun }}</p>
+            <p id="formLabel" class="form-label">{{ form_label }}</p>
+            <div id="pronounRow" class="center" {% if not pronoun %}hidden{% endif %}>
+                <p id="pronoun" class="big">{{ pronoun or '' }}</p>
             </div>
-            {% endif %}
-            <div class="center">({{ verb }})</div>
+            <div class="center">(<span id="verb">{{ verb }}</span>)</div>
             <div class="center">
                 <input spellcheck="false" autocomplete="off" autocapitalize="off" autocorrect="off" id="inputField"
-                    {% if user_input %}value="{{ user_input }}"{% endif %} class="big" type="text" name="user_input"
-                    autofocus>
-                {% if user_input %}
-                <script>
-                    const field = document.getElementById("inputField");
-                    field.focus();
-                    field.setSelectionRange(field.value.length, field.value.length);
-                </script>
-                {% endif %}
+                    class="big" type="text" name="user_input" autofocus>
             </div>
             <input type="submit" hidden />
         </form>
@@ -146,4 +90,15 @@
     </div>
 </div>
 
+<script>
+    setupDrill({
+        audioUrl: {{ audio_url | tojson }},
+        showQuestion: (question) => {
+            document.getElementById("formLabel").textContent = question.form_label;
+            document.getElementById("pronoun").textContent = question.pronoun || "";
+            document.getElementById("pronounRow").hidden = !question.pronoun;
+            document.getElementById("verb").textContent = question.verb;
+        },
+    });
+</script>
 {% endblock %}

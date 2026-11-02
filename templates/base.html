@@ -14,8 +14,6 @@
     <meta name="theme-color" content="#1C6B2B">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="prefetch" href="{{ url_for('static', filename='fonts/JetBrainsMono-Regular.woff2') }}"
-        as="JetBrains Mono">
     <link rel="icon" href="{{ url_for('static', filename='icons/favicon.png') }}">
     <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}" />
     <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/manifest-icon-192.maskable.png') }}">
@@ -102,20 +100,10 @@
             --gradient-right: linear-gradient(to right, #303030, #202020);
         }
 
-        @font-face {
-            font-family: 'JetBrains Mono';
-            font-style: normal;
-            font-weight: 400;
-            src: local('JetBrains Mono'), local('JetBrains-Mono'), url("/static/fonts/JetBrainsMono-Regular.woff2") format("woff2");
-            /*src: url("/static/fonts/JetBrainsMono-Regular.woff2") format("woff2");*/
-            /*font-display: swap;*/
-        }
-
-
         * {
             margin: 0;
             padding: 0;
-            font-family: "JetBrains Mono", monospace;
+            font-family: "Bahnschrift", "DIN Alternate", "Arial Narrow", sans-serif;
             color: white;
         }
         body::-webkit-scrollbar {
@@ -213,6 +201,45 @@
             justify-content: center;
         }
 
+        .quiz-progress {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .quiz-progress progress {
+            width: min(65vw, 500px);
+            min-width: 0;
+        }
+
+        .quiz-progress span {
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .correct-answer {
+            display: inline;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        /* Noun genders in the drills */
+        .masculine {
+            background-color: red;
+        }
+
+        .feminine {
+            background-color: blue;
+        }
+
+        .neuter {
+            background-color: green;
+        }
+
+        .answer-line:not(.wrong) .answer-prefix {
+            display: none;
+        }
+
         .error {
             background-color: #CF000F;
             border-radius: 5px;
@@ -256,9 +283,19 @@
             text-decoration: none;
         }
 
+        /* Top-level links fill the whole bar, so the hover covers its full height */
+        nav > ul > li > a {
+            display: flex;
+            align-items: center;
+            height: 59px;
+            box-sizing: border-box;
+            padding: 0 14px;
+        }
+
         nav ul li ul {
             display: none;
             position: absolute;
+            top: 100%;
             background: var(--gradient-left);
             padding: 10px;
             border-radius: 0 0 10px 10px;

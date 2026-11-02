@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% block imports %}
+<script src="{{ url_for('static', filename='drill.js') }}"></script>
 {% endblock %}
 
 {% block css %}
 <style>
-    progress {
+    .quiz-progress {
         position: absolute;
         top: 70px;
     }
@@ -27,9 +28,12 @@
         font-size: 20px;
     }
 
-    .correct-word {
-        border-radius: 5px;
-        padding: 5px;
+    .word-image {
+        width: 80vw;
+        height: calc(80vw / 1.5);
+        max-width: 450px;
+        max-height: 300px;
+        margin-bottom: 30px;
     }
 
     @media screen and (min-width: 500px) {
@@ -38,63 +42,10 @@
         }
     }
 </style>
-{% if user_language == "german" %}
-{% if word.foreign[0:4] == "der ":%}
-<style>
-    .correct-word {
-        background-color: blue;
-    }
-</style>
-{% elif word.foreign[0:4] == "die ":%}
-<style>
-    .correct-word {
-        background-color: red;
-    }
-</style>
-{% elif word.foreign[0:4] == "das ":%}
-<style>
-    .correct-word {
-        background-color: green;
-    }
-</style>
-{% endif %}
-{% elif user_language == "spanish" %}
-{% if word.foreign[0:3] == "el " or word.foreign[0:4] == "los " :%}
-<style>
-    .correct-word {
-        background-color: blue;
-    }
-</style>
-{% elif word.foreign[0:3] == "la " or word.foreign[0:4] == "las ":%}
-<style>
-    .correct-word {
-        background-color: red;
-    }
-</style>
-{% endif %}
-{% elif user_language == "italian" %}
-{% if word.foreign[0:3] == "il " or word.foreign[0:3] == "lo " or
-word.foreign[0:2] == "i " or word.foreign[0:4] == "gli ":%}
-<style>
-    .correct-word {
-        background-color: blue;
-    }
-</style>
-{% elif word.foreign[0:3] == "la " or word.foreign[0:3] == "le ":%}
-<style>
-    .correct-word {
-        background-color: red;
-    }
-</style>
-{% endif %}
-{% endif %}
-
 {% endblock %}
 
 
 {% block body %}
-
-
 <a href="{{ url_for('vocabulary_topics') }}">
     <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
         <g fill="none" fill-rule="evenodd">
@@ -105,102 +56,49 @@ word.foreign[0:2] == "i " or word.foreign[0:4] == "gli ":%}
     </svg>
 </a>
 
-
-{% if word_is_correct == True or word_is_correct == False: %}
-<script>
-    const audio = new Audio("../../../../static/audio/{{user_language}}/vocabulary/{{ word.id }}.mp3");
-    audio.play();
-</script>
-{% endif %}
-
-<div class="center">
-    <progress value="{{ progress }}" max="10"></progress>
-</div>
+{% include "quiz_progress.html" %}
 
 <div class="center">
     <div class="word-correct-message">
-        {% if word_is_correct == True: %}
-        <div class="center">
-            <h3 style="color: green;">Correct!</h3>
-        </div>
-        {% if play_audio: %}
-        <div class="center">
-            <div style="display: inline;" class="correct-word">{{ word.foreign }}</div>
-        </div>
-        <script>
-            const nextWord = () => {
-                window.location.href = "{{ url_for('vocabulary_for_topic', topic=topic, progress=progress) }}";
-            };
-            audio.addEventListener('ended', nextWord);
-            // If the audio file is missing, still move on to the next word
-            audio.addEventListener('error', () => setTimeout(nextWord, 1500));
-        </script>
-        {% endif %}
-        {% elif word_is_correct == False: %}
-        <div class="center">
-            <h3 style="color: red;">Wrong!</h3>
-        </div>
-        {% if play_audio: %}
-        <div class="center">
-            <h4>The correct answer is <div style="display: inline;" class="correct-word">{{ word.foreign
-                    }}</div>
-            </h4>
-        </div>
-        {% endif %}
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-        {% for message in messages %}
-        <div class="center">
-            <div class="error">
-                {{ message }}
-            </div>
-        </div>
-        {% endfor %}
-        {% endif %}
-        {% endwith %}
-        {% endif %}
+        {% include "drill_feedback.html" %}
     </div>
 </div>
 
-
-
 <div class="image-form-div">
-    {% if word.image %}
-    {% set img_url = url_for('static', filename="images/vocabulary/" + topic + "/" + word.image) %}
     <div class="center">
-        <img class="shadow" src="{{ img_url }}" alt="{{ word.english }}"
-            style="width: 80vw; height: calc(80vw / 1.5); max-width: 450px; max-height: 300px; margin-bottom: 30px;">
+        <img id="wordImage" class="shadow word-image" src="{{ image_url or '' }}" alt="{{ english }}"
+            {% if not image_url %}hidden{% endif %}>
     </div>
-    {% endif %}
     <div class="center">
-        <form action="{{ url_for('vocabulary_for_topic', topic=topic, progress=progress) }}" class="shadow"
+        <form id="drillForm" action="{{ url_for('vocabulary_practice', topic=topic) }}" class="shadow"
             method="POST">
             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
             <div class="center">
-                <p class="big">Translate <b>{{ word.english }}</b> into {{ user_language | capitalize }}</p>
+                <p class="big">Translate <b id="english">{{ english }}</b> into {{ user_language | capitalize }}</p>
             </div>
             <div class="center">
-                {% if user_input: %}
-                <input spellcheck="false" autocomplete="off" autocapitalize="off" autocorrect="off" id="inputField"
-                    value="{{ user_input }}" class="big" type="text" name="user_input" autofocus>
-                <script>
-                    let end = document.getElementById("inputField");
-                    let len = end.value.length;
-                    if (end.setSelectionRange) {
-                        end.focus();
-                        end.setSelectionRange(len, len);
-                    }
-                </script>
-                {% else: %}
                 <input spellcheck="false" autocomplete="off" autocapitalize="off" autocorrect="off" id="inputField"
                     class="big" type="text" name="user_input" autofocus>
-                {% endif %}
             </div>
             <input type="submit" hidden />
         </form>
     </div>
-
 </div>
 
-
+<script>
+    const wordImage = document.getElementById("wordImage");
+    setupDrill({
+        audioUrl: {{ audio_url | tojson }},
+        showQuestion: (word) => {
+            document.getElementById("english").textContent = word.english;
+            wordImage.alt = word.english;
+            wordImage.hidden = !word.image_url;
+            if (word.image_url) {
+                wordImage.src = word.image_url;
+            } else {
+                wordImage.removeAttribute("src");
+            }
+        },
+    });
+</script>
 {% endblock %}

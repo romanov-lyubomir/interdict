@@ -8,6 +8,7 @@ from flask import (
     Flask,
     abort,
     flash,
+    jsonify,
     redirect,
     render_template,
     request,
@@ -50,6 +51,10 @@ app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get(
 # The CSRF token stays valid for the whole session, so a drill left open
 # for a long time doesn't fail on the next answer.
 app.config["WTF_CSRF_TIME_LIMIT"] = None
+# Only send the session cookie when it changes. Otherwise a slow response
+# (like an audio file still loading) can bring back an older cookie and undo
+# the drill's progress.
+app.config["SESSION_REFRESH_EACH_REQUEST"] = False
 
 Compress(app)
 CSRFProtect(app)
@@ -83,6 +88,26 @@ def read_csv(path):
         return list(csv.DictReader(csv_file))
 
 
+# The article at the start of a word decides the colour it is shown in
+ARTICLE_GENDERS = {
+    "german": {"der": "masculine", "die": "feminine", "das": "neuter"},
+    "spanish": {"el": "masculine", "los": "masculine", "la": "feminine", "las": "feminine"},
+    "italian": {
+        "il": "masculine",
+        "lo": "masculine",
+        "i": "masculine",
+        "gli": "masculine",
+        "la": "feminine",
+        "le": "feminine",
+    },
+}
+
+
+def word_gender(lang, foreign):
+    article = foreign.split(" ", 1)[0]
+    return ARTICLE_GENDERS.get(lang, {}).get(article) if " " in foreign else None
+
+
 def load_vocabulary(lang, topic):
     words = []
     for row in read_csv(os.path.join(DATA_DIR, lang, "vocabulary", f"{topic}.csv")):
@@ -93,6 +118,7 @@ def load_vocabulary(lang, topic):
                 "english": english,
                 "id": word_id,
                 "image": None if image in ("", "None") else image,
+                "gender": word_gender(lang, foreign),
             }
         )
     return words
@@ -171,10 +197,6 @@ def format(string_to_format):
     return string_to_format.replace("_", " ").capitalize()
 
 
-def get_progress():
-    return request.args.get("progress", 0, type=int)
-
-
 def check_answer(user_input, answer):
     # Returns (is_correct, missed_one_letter)
     is_correct = unidecode(user_input) == unidecode(answer)
@@ -236,6 +258,86 @@ def lesson_for_topic(topic):
     return render_template(f"lessons/{lang}/{topic}.html", current_user=current_user)
 
 
+QUIZ_LENGTHS = [5, 10, 20, 50, 100, 200]
+DEFAULT_QUIZ_LENGTH = 10
+
+
+def clean_quiz_length(value):
+    try:
+        value = int(value)
+    except (TypeError, ValueError):
+        return DEFAULT_QUIZ_LENGTH
+    return value if value in QUIZ_LENGTHS else DEFAULT_QUIZ_LENGTH
+
+
+def start_quiz(kind, length, topic=None):
+    session["quiz"] = {
+        "kind": kind,
+        "lang": get_lang(),
+        "topic": topic,
+        "total": length,
+        "done": 0,
+        "first_try": 0,
+        # Whether the current question has already been answered wrongly
+        "missed": False,
+    }
+
+
+def current_quiz(kind, topic=None):
+    # Returns the quiz saved in the session if it belongs to this drill
+    quiz = session.get("quiz")
+    if not isinstance(quiz, dict):
+        return None
+    if (quiz.get("kind"), quiz.get("lang"), quiz.get("topic")) != (kind, get_lang(), topic):
+        return None
+    if not all(isinstance(quiz.get(key), int) for key in ("total", "done", "first_try")):
+        return None
+    return quiz
+
+
+def quiz_finished(quiz):
+    return quiz["done"] >= quiz["total"]
+
+
+def record_answer(quiz, is_correct):
+    # A question counts as correct only if the first answer to it was right
+    if not is_correct:
+        quiz["missed"] = True
+    else:
+        quiz["done"] += 1
+        if not quiz.get("missed"):
+            quiz["first_try"] += 1
+        quiz["missed"] = False
+    session["quiz"] = quiz
+    result = dict(done=quiz["done"], total=quiz["total"])
+    if quiz_finished(quiz):
+        result["finished"] = url_for("quiz_report")
+    return result
+
+
+def setup_url(quiz):
+    if quiz["kind"] == "conjugation":
+        return url_for("conjugation_drill")
+    return url_for("vocabulary_for_topic", topic=quiz["topic"])
+
+
+@app.route("/quiz_report")
+@language_required
+def quiz_report():
+    quiz = session.get("quiz")
+    if isinstance(quiz, dict):
+        quiz = current_quiz(quiz.get("kind"), quiz.get("topic"))
+    if not quiz or not quiz_finished(quiz):
+        return redirect(url_for("index"))
+    return render_template(
+        "quiz_report.html",
+        quiz=quiz,
+        percent=round(100 * quiz["first_try"] / quiz["total"]),
+        new_quiz_url=setup_url(quiz),
+        current_user=current_user,
+    )
+
+
 def get_conjugation_settings(lang):
     saved = session.get("conjugation", {}).get(lang, {})
     return conjugation.clean_settings(
@@ -256,21 +358,26 @@ def conjugation_drill():
         if not forms:
             flash("Choose at least one verb form.")
             return redirect(url_for("conjugation_drill"))
+        length = clean_quiz_length(request.form.get("length"))
         settings = dict(session.get("conjugation", {}))
-        settings[lang] = {"forms": forms, "pronouns": pronouns}
+        settings[lang] = {"forms": forms, "pronouns": pronouns, "length": length}
         session["conjugation"] = settings
         # Remember the choice after the browser is closed
         session.permanent = True
         session.pop("conjugation_question", None)
+        start_quiz("conjugation", length)
         return redirect(url_for("conjugation_practice"))
 
     forms, pronouns = get_conjugation_settings(lang)
+    saved = session.get("conjugation", {}).get(lang, {})
     return render_template(
         "conjugation_drill.html",
         groups=conjugation.FORM_GROUPS[lang],
         pronoun_options=conjugation.PRONOUN_OPTIONS.get(lang, []),
         selected_forms=forms,
         selected_pronouns=pronouns,
+        quiz_lengths=QUIZ_LENGTHS,
+        selected_length=clean_quiz_length(saved.get("length")),
         current_user=current_user,
     )
 
@@ -281,52 +388,77 @@ def conjugation_drill_tenses():
     return redirect(url_for("conjugation_drill"))
 
 
+def leave_drill(target):
+    # Sends the browser elsewhere, as JSON for answers and as a redirect otherwise
+    if request.method == "POST":
+        return jsonify(redirect=target)
+    return redirect(target)
+
+
 @app.route("/conjugation_drill/practice", methods=["GET", "POST"])
 @language_required
 def conjugation_practice():
+    # GET renders the page, POST checks an answer and returns JSON
     lang = get_lang()
-    progress = get_progress()
     forms, pronouns = get_conjugation_settings(lang)
-    if not forms:
-        return redirect(url_for("conjugation_drill"))
+    quiz = current_quiz("conjugation")
+    if not forms or quiz is None:
+        return leave_drill(url_for("conjugation_drill"))
+    if quiz_finished(quiz):
+        return leave_drill(url_for("quiz_report"))
 
     # Only the question is kept in the session cookie, never the answer
     question = session.get("conjugation_question")
     accepted = None
-    if isinstance(question, dict) and question.get("language") == lang:
+    if (
+        isinstance(question, dict)
+        and question.get("language") == lang
+        and question.get("form") in forms
+    ):
         accepted = conjugation.answers(question)
 
-    user_input = request.form.get("user_input")
-    if request.method == "POST" and user_input is not None and accepted:
+    if request.method == "POST":
+        user_input = request.form.get("user_input", "")
+        if not accepted:
+            # The question expired, so just show a new one
+            return jsonify(next=next_conjugation_question(lang, forms, pronouns, question))
         verb_is_correct, missed_one_letter, answer = conjugation.check(
             user_input, accepted
         )
         if missed_one_letter:
-            flash("You missed one letter.")
-        elif verb_is_correct:
-            progress += 1
-        return render_template(
-            "conjugation_practice.html",
-            **conjugation_question_args(question),
+            record_answer(quiz, False)
+            return jsonify(message="You missed one letter.")
+        result = dict(
+            correct=verb_is_correct,
             answer=answer,
-            verb_is_correct=verb_is_correct,
-            user_input=user_input if missed_one_letter else None,
-            play_audio=True,
-            progress=progress,
-            current_user=current_user,
+            audio_url=conjugation_question_args(question)["audio_url"],
+            **record_answer(quiz, verb_is_correct),
         )
+        if verb_is_correct and "finished" not in result:
+            result["next"] = next_conjugation_question(lang, forms, pronouns, question)
+        return jsonify(result)
 
-    question = conjugation.pick_question(lang, forms, pronouns, previous=question)
-    if question is None:
-        flash("There is nothing to practise with these settings.")
-        return redirect(url_for("conjugation_drill"))
-    session["conjugation_question"] = question
+    # A reload keeps the current question, so it can't be skipped
+    if not accepted:
+        question = conjugation.pick_question(lang, forms, pronouns, previous=question)
+        if question is None:
+            flash("There is nothing to practise with these settings.")
+            return redirect(url_for("conjugation_drill"))
+        session["conjugation_question"] = question
     return render_template(
         "conjugation_practice.html",
         **conjugation_question_args(question),
-        progress=progress,
+        quiz=quiz,
         current_user=current_user,
     )
+
+
+def next_conjugation_question(lang, forms, pronouns, previous):
+    question = conjugation.pick_question(lang, forms, pronouns, previous=previous)
+    if question is None:
+        return None
+    session["conjugation_question"] = question
+    return conjugation_question_args(question)
 
 
 def conjugation_question_args(question):
@@ -340,56 +472,99 @@ def conjugation_question_args(question):
     )
 
 
+def pick_word(lang, topic):
+    words = VOCABULARY[lang][topic]
+    row = random.randrange(len(words))
+    session["word_drill"] = {"lang": lang, "topic": topic, "row": row}
+    return words[row]
+
+
+def word_question_args(lang, topic, word):
+    image = word["image"]
+    return dict(
+        english=word["english"],
+        image_url=(
+            url_for("static", filename=f"images/vocabulary/{topic}/{image}")
+            if image
+            else None
+        ),
+        audio_url=url_for(
+            "static", filename=f"audio/{lang}/vocabulary/{word['id']}.mp3"
+        ),
+    )
+
+
 @app.route("/vocabulary_for_topic/<topic>", methods=["GET", "POST"])
 @language_required
 def vocabulary_for_topic(topic):
-    lang = get_lang()
-    progress = get_progress()
-
+    # The start page of a vocabulary quiz
     if topic not in TOPICS:
         flash("Unknown topic: " + topic)
         return redirect(url_for("vocabulary_topics"))
 
+    if request.method == "POST":
+        length = clean_quiz_length(request.form.get("length"))
+        session["vocabulary_length"] = length
+        session.permanent = True
+        session.pop("word_drill", None)
+        start_quiz("vocabulary", length, topic)
+        return redirect(url_for("vocabulary_practice", topic=topic))
+
+    return render_template(
+        "vocabulary_setup.html",
+        topic=topic,
+        quiz_lengths=QUIZ_LENGTHS,
+        selected_length=clean_quiz_length(session.get("vocabulary_length")),
+        current_user=current_user,
+    )
+
+
+@app.route("/vocabulary_for_topic/<topic>/practice", methods=["GET", "POST"])
+@language_required
+def vocabulary_practice(topic):
+    # GET renders the page, POST checks an answer and returns JSON
+    lang = get_lang()
+    if topic not in TOPICS:
+        return leave_drill(url_for("vocabulary_topics"))
+    quiz = current_quiz("vocabulary", topic)
+    if quiz is None:
+        return leave_drill(url_for("vocabulary_for_topic", topic=topic))
+    if quiz_finished(quiz):
+        return leave_drill(url_for("quiz_report"))
+
     words = VOCABULARY[lang][topic]
     # Only the row number is kept in the session cookie, never the answer
-    drill = session.get("word_drill")
-    user_input = request.form.get("user_input")
-    if (
-        request.method == "POST"
-        and user_input is not None
-        and (row := drill_row(drill, len(words), lang=lang, topic=topic)) is not None
-    ):
+    row = drill_row(session.get("word_drill"), len(words), lang=lang, topic=topic)
+    if request.method == "POST":
+        if row is None:
+            # The question expired, so just show a new one
+            return jsonify(next=word_question_args(lang, topic, pick_word(lang, topic)))
         word = words[row]
-        word_is_correct, missed_one_letter = check_answer(user_input, word["foreign"])
-        template_args = dict(
-            topic=topic,
-            word=word,
-            word_is_correct=word_is_correct,
-            current_user=current_user,
-            play_audio=True,
+        word_is_correct, missed_one_letter = check_answer(
+            request.form.get("user_input", ""), word["foreign"]
         )
         if missed_one_letter:
-            flash("You missed one letter.")
-            return render_template(
-                "vocabulary_for_topic.html",
-                user_input=user_input,
-                progress=progress,
-                **template_args,
-            )
-        if word_is_correct:
-            progress += 1
-        return render_template(
-            "vocabulary_for_topic.html", progress=progress, **template_args
+            record_answer(quiz, False)
+            return jsonify(message="You missed one letter.")
+        result = dict(
+            correct=word_is_correct,
+            answer=word["foreign"],
+            gender=word["gender"],
+            audio_url=word_question_args(lang, topic, word)["audio_url"],
+            **record_answer(quiz, word_is_correct),
         )
+        if word_is_correct and "finished" not in result:
+            result["next"] = word_question_args(lang, topic, pick_word(lang, topic))
+        return jsonify(result)
 
-    row = random.randrange(len(words))
-    session["word_drill"] = {"lang": lang, "topic": topic, "row": row}
+    # A reload keeps the current word, so it can't be skipped
+    word = words[row] if row is not None else pick_word(lang, topic)
     return render_template(
         "vocabulary_for_topic.html",
         topic=topic,
-        word=words[row],
+        **word_question_args(lang, topic, word),
+        quiz=quiz,
         current_user=current_user,
-        progress=progress,
     )
 
 

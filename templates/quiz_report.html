@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block imports %}
+{% endblock %}
+
+{% block css %}
+<style>
+    .report {
+        width: 90vw;
+        max-width: 420px;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .report h2 {
+        font-size: 18px;
+        color: #C0C0C0;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+
+    .score {
+        font-size: 72px;
+        font-weight: bold;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+    .score.good {
+        color: #2EB82E;
+    }
+
+    .score.okay {
+        color: #F0A020;
+    }
+
+    .score.poor {
+        color: #E03030;
+    }
+
+    .score-detail {
+        color: #C0C0C0;
+        margin-bottom: 25px;
+    }
+
+    .report progress {
+        width: 100%;
+        min-width: 0;
+        margin-bottom: 25px;
+    }
+
+    .new-quiz {
+        font-size: 18px;
+        padding: 10px 30px;
+        margin-bottom: 15px;
+    }
+
+    .home-link {
+        display: block;
+        font-size: 13px;
+        color: #C0C0C0;
+        text-decoration: underline;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="center">
+    <h1 class="title">Quiz complete</h1>
+</div>
+
+<div class="center">
+    <div class="container shadow report">
+        <h2>
+            {% if quiz.kind == "conjugation" %}Conjugation drill{% else %}{{ quiz.topic | format }}{% endif %}
+        </h2>
+        <div class="score {% if percent >= 80 %}good{% elif percent >= 50 %}okay{% else %}poor{% endif %}">
+            {{ percent }}%
+        </div>
+        <p class="score-detail">
+            {{ quiz.first_try }} of {{ quiz.total }} questions right on the first try
+        </p>
+        <progress value="{{ quiz.first_try }}" max="{{ quiz.total }}"></progress>
+        <button class="new-quiz" type="button" onclick='window.location.href = {{ new_quiz_url | tojson }}'
+            autofocus>New quiz</button>
+        <a class="home-link" href="{{ url_for('index') }}">Back to home</a>
+    </div>
+</div>
+{% endblock %}

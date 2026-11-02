@@ -1,0 +1,7 @@
+{# Shows how far into the quiz the user is, updated by static/drill.js #}
+<div class="center">
+    <div class="quiz-progress">
+        <progress value="{{ quiz.done }}" max="{{ quiz.total }}"></progress>
+        <span id="questionCounter">{{ quiz.done + 1 }} / {{ quiz.total }}</span>
+    </div>
+</div>
