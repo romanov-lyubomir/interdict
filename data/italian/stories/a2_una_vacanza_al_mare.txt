@@ -1,0 +1,9 @@
+title: Una vacanza al mare
+translation: A holiday by the sea
+level: A2
+
+L'{the}estate{summer} scorsa{last} sono{andare: I} andata{andare: went} in{on} vacanza{holiday} in{in} Puglia{Apulia} con{with} due{two} amiche{l'amica: friends}. Siamo{partire: we} partite{partire: left} da{from} Milano{Milan} in{by} treno{train}. Il{the} viaggio{journey} è{essere: was} stato{essere: been} lungo{long}: ci{~volerci: it took} sono{~volerci: it took} volute{~volerci: it took} quasi{almost} nove{nine} ore{l'ora: hours}! Ma{but} quando{when} siamo{arrivare: we} arrivate{arrivare: arrived} e{and} abbiamo{vedere: we} visto{vedere: saw} il{the} mare{sea}, eravamo{essere: we were} felicissime{very happy}.
+
+Abbiamo{affittare: we} affittato{affittare: rented} un{a} piccolo{small} appartamento{flat} vicino{near} alla{to the} spiaggia{beach}. Ogni{every} mattina{morning} facevamo{fare: we went for} una{a} nuotata{swim} e{and} poi{then} prendevamo{prendere: we sunbathed} il{the} sole{sun}. Un{one} giorno{day} abbiamo{noleggiare: we} noleggiato{noleggiare: hired} le{the} biciclette{la bicicletta: bicycles} e{and} abbiamo{visitare: we} visitato{visitare: visited} Polignano{Polignano} a{a} Mare{Mare}, un{a} paese{town} bellissimo{very beautiful} sulle{on the} rocce{la roccia: rocks}.
+
+La{the} sera{evening} mangiavamo{mangiare: we ate} sempre{always} in{in} trattoria{a trattoria}. Il{the} pesce{fish} era{essere: was} freschissimo{very fresh} e{and} le{the} orecchiette{orecchiette pasta} erano{essere: were} buonissime{delicious}. L'{the}ultimo{last} giorno{day} ha{piovere: it} piovuto{piovere: rained}, ma{but} non{not} importa{importare: it matters}. È{essere: it was} stata{essere: been} una{a} vacanza{holiday} fantastica{fantastic} e{and} vogliamo{volere: we want} tornare{to go back} l'{the}anno{year} prossimo{next}.

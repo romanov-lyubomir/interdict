@@ -3,36 +3,36 @@
 {% endblock %}
 
 {% block css %}
+{% include "auth_form.html" %}
 {% endblock %}
 
 
 {% block body %}
-<div class="center">
-    <h1 class="title">Register</h1>
-</div>
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-{% for message in messages %}
-<div class="center"><p>{{ message }}</p></div>
-{% endfor %}
-{% endif %}
-{% endwith %}
-<div class="center">
+<div class="auth">
     <form class="shadow" action="{{ url_for('register') }}" method="POST">
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-        <div class="center"><input spellcheck="false" autocomplete="off" type="text" name="email" placeholder="Email"></div>
-        <div class="center"><input spellcheck="false" autocomplete="off" type="text" name="username" placeholder="Username"></div>
-        <div class="center"><input spellcheck="false"autocomplete="off" type="password" name="password" placeholder="Password"></div>
-        <!-- Create a dropdown menu -->
-        <div class="center">
-            <select name="language">
-                <option value="spanish">Spanish</option>
-                <option value="italian">Italian</option>
-                <option value="german">German</option>
-            </select>
-        </div>
-        <div class="center"><input type="submit" name="submit" value="Submit"></div>
-        <div class="center">Already have an account?&nbsp;<a class="link" href="{{ url_for('login') }}">Log in</a></div> 
+        <h1>Create an account</h1>
+        <p class="subtitle">Save your progress and practise on any device.</p>
+        {% with messages = get_flashed_messages() %}
+        {% for message in messages %}
+        <div class="error">{{ message }}</div>
+        {% endfor %}
+        {% endwith %}
+        <label for="email">Email</label>
+        <input spellcheck="false" autocomplete="email" type="text" name="email" id="email" autofocus>
+        <label for="username">Username</label>
+        <input spellcheck="false" autocomplete="username" type="text" name="username" id="username">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" autocomplete="new-password">
+        <label for="language">Language you want to learn</label>
+        <select name="language" id="language" required>
+            <option value="" disabled {% if not user_language %}selected{% endif %}>Choose a language</option>
+            {% for value in languages %}
+            <option value="{{ value }}" {% if value == user_language %}selected{% endif %}>{{ value | capitalize }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" name="submit" value="Sign up">
+        <p class="switch">Already have an account? <a class="link" href="{{ url_for('login') }}">Log in</a></p>
     </form>
 </div>
 {% endblock %}

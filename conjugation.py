@@ -2,8 +2,6 @@ import json
 import os
 import random
 
-from unidecode import unidecode
-
 import functions
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -36,6 +34,14 @@ PERSONS = {
         ("ihr", "ihr", 5),
         ("sie", "sie/Sie", 6),
     ],
+    "greek": [
+        ("ego", "εγώ", 1),
+        ("esy", "εσύ", 2),
+        ("aftos", "αυτός/αυτή/αυτό", 3),
+        ("emeis", "εμείς", 4),
+        ("eseis", "εσείς", 5),
+        ("aftoi", "αυτοί/αυτές/αυτά", 6),
+    ],
 }
 
 # In the imperative the 3rd person is the polite form
@@ -43,8 +49,9 @@ IMPERATIVE_LABELS = {
     "italian": {"lui": "Lei", "loro": "Loro"},
     "spanish": {"el": "usted", "nosotros": "nosotros", "vosotros": "vosotros", "ellos": "ustedes"},
     "german": {"sie": "Sie"},
+    "greek": {},
 }
-IMPERATIVE_FORMS = {"imperativo", "imperativo_afirmativo", "imperativo_negativo", "imperativ"}
+IMPERATIVE_FORMS = {"imperativo", "imperativo_afirmativo", "imperativo_negativo", "imperativ", "prostaktiki"}
 
 # Groups of forms shown as checkboxes: (group label, [(form key, label)])
 FORM_GROUPS = {
@@ -136,6 +143,23 @@ FORM_GROUPS = {
             ("partizip_zwei", "Partizip II"),
         ]),
     ],
+    "greek": [
+        ("Οριστική", [
+            ("enestotas", "Ενεστώτας"),
+            ("paratatikos", "Παρατατικός"),
+            ("aoristos", "Αόριστος"),
+            ("parakeimenos", "Παρακείμενος"),
+            ("ypersyntelikos", "Υπερσυντέλικος"),
+            ("mellontas_exakolouthitikos", "Εξακολουθητικός μέλλοντας"),
+            ("mellontas_stigmiaios", "Στιγμιαίος μέλλοντας"),
+        ]),
+        ("Υποτακτική", [
+            ("ypotaktiki", "Υποτακτική"),
+        ]),
+        ("Προστακτική", [
+            ("prostaktiki", "Προστακτική"),
+        ]),
+    ],
 }
 
 # Groups whose forms are named on their own in the drill ("Gerundio",
@@ -155,6 +179,7 @@ DEFAULT_FORMS = {
     "italian": ["presente"],
     "spanish": ["presente"],
     "german": ["praesens"],
+    "greek": ["enestotas"],
 }
 DEFAULT_PRONOUNS = {"spanish": ["tu", "vosotros"]}
 
@@ -244,7 +269,7 @@ def answers(question):
 
 
 def normalize(text):
-    return " ".join(unidecode(text).lower().split())
+    return " ".join(functions.fold_accents(text).lower().split())
 
 
 def check(user_input, accepted):

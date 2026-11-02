@@ -1,0 +1,11 @@
+title: Al mercato
+translation: At the market
+level: A1
+
+Oggi{today} è{essere: is} sabato{Saturday}. Sofia{Sofia} va{andare: goes} al{to the} mercato{market} con{with} sua{her} nonna{grandmother}. Il{the} mercato{market} è{essere: is} in{in} piazza{the square} ed{and} è{essere: is} molto{very} grande{big}. C'{ci: there}è{essere: is} tanta{a lot of} gente{people} e{and} tanti{lots of} colori{il colore: colours}.
+
+Prima{first} vanno{andare: they go} dal{to the} fruttivendolo{greengrocer}. La{the} nonna{grandmother} compra{comprare: buys} un{a} chilo{kilo} di{of} pomodori{il pomodoro: tomatoes}, tre{three} limoni{il limone: lemons} e{and} un{a} melone{melon}. Il{the} fruttivendolo{greengrocer} è{essere: is} gentile{kind} e{and} regala{regalare: gives} una{a} mela{apple} a{to} Sofia{Sofia}. «Grazie{thank you}!» dice{dire: says} Sofia{Sofia}.
+
+Poi{then} vanno{andare: they go} dal{to the} formaggiaio{cheese seller}. «Quanto{how much} costa{costare: does it cost} questo{this} formaggio{cheese}?» chiede{chiedere: asks} la{the} nonna{grandmother}. «Dodici{twelve} euro{euros} al{per} chilo{kilo}, signora{madam}.» La{the} nonna{grandmother} prende{prendere: takes} un{a} pezzo{piece} di{of} parmigiano{Parmesan} e{and} un{a} po'{a bit} di{of} mozzarella{mozzarella}.
+
+Alla{at the} fine{end} comprano{comprare: they buy} anche{also} il{the} pane{bread} e{and} i{the} fiori{il fiore: flowers}. Le{the} borse{la borsa: bags} sono{essere: are} pesanti{heavy}, ma{but} Sofia{Sofia} è{essere: is} contenta{happy}. Stasera{tonight} la{the} nonna{grandmother} prepara{preparare: is making} la{the} pizza{pizza} per{for} tutta{the whole} la{the} famiglia{family}.

@@ -460,11 +460,177 @@ def build_german():
     return result
 
 
+GR_PERSONS = ["ego", "esy", "aftos", "emeis", "eseis", "aftoi"]
+GR_IMPERATIVE_PERSONS = ["esy", "eseis"]
+GR_ECHO = "έχω, έχεις, έχει, έχουμε, έχετε, έχουν"
+GR_EICHA = "είχα, είχες, είχε, είχαμε, είχατε, είχαν"
+
+# present, imperfect, aorist, dependent (subjunctive) stem forms,
+# infinitive (απαρέμφατο) and imperative. Verbs without an aorist or an
+# imperative leave them out.
+GR_VERBS = {
+    "γράφω": {
+        "present": "γράφω, γράφεις, γράφει, γράφουμε, γράφετε, γράφουν",
+        "imperfect": "έγραφα, έγραφες, έγραφε, γράφαμε, γράφατε, έγραφαν",
+        "aorist": "έγραψα, έγραψες, έγραψε, γράψαμε, γράψατε, έγραψαν",
+        "dependent": "γράψω, γράψεις, γράψει, γράψουμε, γράψετε, γράψουν",
+        "infinitive": "γράψει",
+        "imperative": "γράψε, γράψτε",
+    },
+    "διαβάζω": {
+        "present": "διαβάζω, διαβάζεις, διαβάζει, διαβάζουμε, διαβάζετε, διαβάζουν",
+        "imperfect": "διάβαζα, διάβαζες, διάβαζε, διαβάζαμε, διαβάζατε, διάβαζαν",
+        "aorist": "διάβασα, διάβασες, διάβασε, διαβάσαμε, διαβάσατε, διάβασαν",
+        "dependent": "διαβάσω, διαβάσεις, διαβάσει, διαβάσουμε, διαβάσετε, διαβάσουν",
+        "infinitive": "διαβάσει",
+        "imperative": "διάβασε, διαβάστε",
+    },
+    "δουλεύω": {
+        "present": "δουλεύω, δουλεύεις, δουλεύει, δουλεύουμε, δουλεύετε, δουλεύουν",
+        "imperfect": "δούλευα, δούλευες, δούλευε, δουλεύαμε, δουλεύατε, δούλευαν",
+        "aorist": "δούλεψα, δούλεψες, δούλεψε, δουλέψαμε, δουλέψατε, δούλεψαν",
+        "dependent": "δουλέψω, δουλέψεις, δουλέψει, δουλέψουμε, δουλέψετε, δουλέψουν",
+        "infinitive": "δουλέψει",
+        "imperative": "δούλεψε, δουλέψτε",
+    },
+    "μένω": {
+        "present": "μένω, μένεις, μένει, μένουμε, μένετε, μένουν",
+        "imperfect": "έμενα, έμενες, έμενε, μέναμε, μένατε, έμεναν",
+        "aorist": "έμεινα, έμεινες, έμεινε, μείναμε, μείνατε, έμειναν",
+        "dependent": "μείνω, μείνεις, μείνει, μείνουμε, μείνετε, μείνουν",
+        "infinitive": "μείνει",
+        "imperative": "μείνε, μείνετε",
+    },
+    "κάνω": {
+        "present": "κάνω, κάνεις, κάνει, κάνουμε, κάνετε, κάνουν",
+        "imperfect": "έκανα, έκανες, έκανε, κάναμε, κάνατε, έκαναν",
+        "aorist": "έκανα, έκανες, έκανε, κάναμε, κάνατε, έκαναν",
+        "dependent": "κάνω, κάνεις, κάνει, κάνουμε, κάνετε, κάνουν",
+        "infinitive": "κάνει",
+        "imperative": "κάνε, κάντε",
+    },
+    "θέλω": {
+        "present": "θέλω, θέλεις, θέλει, θέλουμε, θέλετε, θέλουν",
+        "imperfect": "ήθελα, ήθελες, ήθελε, θέλαμε, θέλατε, ήθελαν",
+        "aorist": "θέλησα, θέλησες, θέλησε, θελήσαμε, θελήσατε, θέλησαν",
+        "dependent": "θελήσω, θελήσεις, θελήσει, θελήσουμε, θελήσετε, θελήσουν",
+        "infinitive": "θελήσει",
+    },
+    "βλέπω": {
+        "present": "βλέπω, βλέπεις, βλέπει, βλέπουμε, βλέπετε, βλέπουν",
+        "imperfect": "έβλεπα, έβλεπες, έβλεπε, βλέπαμε, βλέπατε, έβλεπαν",
+        "aorist": "είδα, είδες, είδε, είδαμε, είδατε, είδαν",
+        "dependent": "δω, δεις, δει, δούμε, δείτε, δουν",
+        "infinitive": "δει",
+        "imperative": "δες, δείτε",
+    },
+    "λέω": {
+        "present": "λέω, λες, λέει, λέμε, λέτε, λένε",
+        "imperfect": "έλεγα, έλεγες, έλεγε, λέγαμε, λέγατε, έλεγαν",
+        "aorist": "είπα, είπες, είπε, είπαμε, είπατε, είπαν",
+        "dependent": "πω, πεις, πει, πούμε, πείτε, πουν",
+        "infinitive": "πει",
+        "imperative": "πες, πείτε",
+    },
+    "τρώω": {
+        "present": "τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε",
+        "imperfect": "έτρωγα, έτρωγες, έτρωγε, τρώγαμε, τρώγατε, έτρωγαν",
+        "aorist": "έφαγα, έφαγες, έφαγε, φάγαμε, φάγατε, έφαγαν",
+        "dependent": "φάω, φας, φάει, φάμε, φάτε, φάνε",
+        "infinitive": "φάει",
+        "imperative": "φάε, φάτε",
+    },
+    "πηγαίνω": {
+        "present": "πηγαίνω|πάω, πηγαίνεις|πας, πηγαίνει|πάει, πηγαίνουμε|πάμε, πηγαίνετε|πάτε, πηγαίνουν|πάνε",
+        "imperfect": "πήγαινα, πήγαινες, πήγαινε, πηγαίναμε, πηγαίνατε, πήγαιναν",
+        "aorist": "πήγα, πήγες, πήγε, πήγαμε, πήγατε, πήγαν",
+        "dependent": "πάω, πας, πάει, πάμε, πάτε, πάνε",
+        "infinitive": "πάει",
+        "imperative": "πήγαινε, πηγαίνετε",
+    },
+    "μιλάω": {
+        "present": "μιλάω|μιλώ, μιλάς, μιλάει|μιλά, μιλάμε|μιλούμε, μιλάτε, μιλάνε|μιλούν",
+        "imperfect": "μιλούσα, μιλούσες, μιλούσε, μιλούσαμε, μιλούσατε, μιλούσαν",
+        "aorist": "μίλησα, μίλησες, μίλησε, μιλήσαμε, μιλήσατε, μίλησαν",
+        "dependent": "μιλήσω, μιλήσεις, μιλήσει, μιλήσουμε, μιλήσετε, μιλήσουν",
+        "infinitive": "μιλήσει",
+        "imperative": "μίλησε, μιλήστε",
+    },
+    "αγαπάω": {
+        "present": "αγαπάω|αγαπώ, αγαπάς, αγαπάει|αγαπά, αγαπάμε|αγαπούμε, αγαπάτε, αγαπάνε|αγαπούν",
+        "imperfect": "αγαπούσα, αγαπούσες, αγαπούσε, αγαπούσαμε, αγαπούσατε, αγαπούσαν",
+        "aorist": "αγάπησα, αγάπησες, αγάπησε, αγαπήσαμε, αγαπήσατε, αγάπησαν",
+        "dependent": "αγαπήσω, αγαπήσεις, αγαπήσει, αγαπήσουμε, αγαπήσετε, αγαπήσουν",
+        "infinitive": "αγαπήσει",
+        "imperative": "αγάπησε, αγαπήστε",
+    },
+    "μπορώ": {
+        "present": "μπορώ, μπορείς, μπορεί, μπορούμε, μπορείτε, μπορούν",
+        "imperfect": "μπορούσα, μπορούσες, μπορούσε, μπορούσαμε, μπορούσατε, μπορούσαν",
+        "aorist": "μπόρεσα, μπόρεσες, μπόρεσε, μπορέσαμε, μπορέσατε, μπόρεσαν",
+        "dependent": "μπορέσω, μπορέσεις, μπορέσει, μπορέσουμε, μπορέσετε, μπορέσουν",
+        "infinitive": "μπορέσει",
+    },
+    "έρχομαι": {
+        "present": "έρχομαι, έρχεσαι, έρχεται, ερχόμαστε, έρχεστε, έρχονται",
+        "imperfect": "ερχόμουν|ερχόμουνα, ερχόσουν|ερχόσουνα, ερχόταν|ερχότανε, ερχόμασταν|ερχόμαστε, ερχόσασταν|ερχόσαστε, έρχονταν|έρχονταν",
+        "aorist": "ήρθα, ήρθες, ήρθε, ήρθαμε, ήρθατε, ήρθαν",
+        "dependent": "έρθω, έρθεις, έρθει, έρθουμε, έρθετε, έρθουν",
+        "infinitive": "έρθει",
+        "imperative": "έλα, ελάτε",
+    },
+    # έχω and είμαι have no aorist: their futures and subjunctive use the present
+    "έχω": {
+        "present": GR_ECHO,
+        "imperfect": GR_EICHA,
+        "dependent": GR_ECHO,
+        "imperative": "έχε, έχετε",
+    },
+    "είμαι": {
+        "present": "είμαι, είσαι, είναι, είμαστε, είστε|είσαστε, είναι",
+        "imperfect": "ήμουν|ήμουνα, ήσουν|ήσουνα, ήταν|ήτανε, ήμασταν|ήμαστε, ήσασταν|ήσαστε, ήταν|ήτανε",
+        "dependent": "είμαι, είσαι, είναι, είμαστε, είστε|είσαστε, είναι",
+    },
+}
+
+
+def with_prefix(prefix, forms):
+    return {person: [f"{prefix} {form}" for form in options] for person, options in forms.items()}
+
+
+def with_greek_infinitive(aux_forms, infinitive):
+    return {person: [f"{aux} {infinitive}" for aux in options] for person, options in aux_forms.items()}
+
+
+def build_greek():
+    result = {}
+    for verb, data in GR_VERBS.items():
+        present = table(GR_PERSONS, data["present"])
+        dependent = table(GR_PERSONS, data["dependent"])
+        forms = {
+            "enestotas": present,
+            "paratatikos": table(GR_PERSONS, data["imperfect"]),
+            "mellontas_exakolouthitikos": with_prefix("θα", present),
+            "mellontas_stigmiaios": with_prefix("θα", dependent),
+            "ypotaktiki": with_prefix("να", dependent),
+        }
+        if "aorist" in data:
+            forms["aoristos"] = table(GR_PERSONS, data["aorist"])
+        if "infinitive" in data:
+            forms["parakeimenos"] = with_greek_infinitive(table(GR_PERSONS, GR_ECHO), data["infinitive"])
+            forms["ypersyntelikos"] = with_greek_infinitive(table(GR_PERSONS, GR_EICHA), data["infinitive"])
+        if "imperative" in data:
+            forms["prostaktiki"] = table(GR_IMPERATIVE_PERSONS, data["imperative"])
+        result[verb] = forms
+    return result
+
+
 def main():
     for language, build in (
         ("italian", build_italian),
         ("spanish", build_spanish),
         ("german", build_german),
+        ("greek", build_greek),
     ):
         path = os.path.join(ROOT, "data", language, "conjugations.json")
         with open(path, "w", encoding="utf-8") as json_file:

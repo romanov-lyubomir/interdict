@@ -1,3 +1,24 @@
+import re
+import unicodedata
+
+from unidecode import unidecode
+
+GREEK = re.compile("[Ͱ-Ͽἀ-῿]")
+
+
+def fold_accents(text):
+    """Removes accents so answers can be typed without them.
+
+    Latin text is transliterated ("ü" -> "u", "ß" -> "ss"). Greek text stays
+    Greek and only loses its accents, so ο and ω or η and ι aren't confused.
+    """
+    if not GREEK.search(text):
+        return unidecode(text)
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(char for char in text if not unicodedata.combining(char))
+    return text.replace("ς", "σ")
+
+
 def has_only_allowed_symbols(*args, allowed_symbols="_0123456789"):
     for arg in args:
         for letter in arg:

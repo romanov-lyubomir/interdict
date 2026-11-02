@@ -1,0 +1,52 @@
+{# Shared look for the log in and register forms #}
+<style>
+    .auth {
+        width: min(420px, calc(100vw - 32px));
+        margin: 40px auto 0;
+    }
+
+    .auth form {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 30px 30px 26px;
+    }
+
+    .auth h1 {
+        font-size: 28px;
+        margin-bottom: 4px;
+    }
+
+    .auth .subtitle {
+        color: var(--muted);
+        margin-bottom: 24px;
+    }
+
+    .auth label {
+        font-size: 13px;
+        color: var(--muted);
+        margin-bottom: 6px;
+    }
+
+    .auth input[type="text"],
+    .auth input[type="password"],
+    .auth select {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .auth input[type="submit"] {
+        margin-top: 6px;
+        padding: 12px;
+    }
+
+    .auth .switch {
+        margin-top: 18px;
+        text-align: center;
+        color: var(--muted);
+    }
+
+    .auth .error {
+        margin-bottom: 18px;
+    }
+</style>

@@ -4,13 +4,88 @@
 
 {% block css %}
 <style>
-    .option {
-        padding: 15px;
-        width: 90%;
+    .page {
+        width: min(760px, calc(100vw - 32px));
+        margin: 0 auto;
     }
 
-    .option:hover {
-        background: var(--gradient-right);
+    .tip {
+        display: flex;
+        gap: 14px;
+        margin: 0 0 22px;
+        padding: 16px 20px;
+    }
+
+    .tip-mark {
+        flex-shrink: 0;
+        display: grid;
+        place-items: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: var(--accent-soft);
+        color: var(--accent);
+        font-weight: 700;
+    }
+
+    .tip p {
+        color: #C9CBD1;
+    }
+
+    .tip i {
+        color: var(--text);
+    }
+
+    .topic-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    @media screen and (min-width: 560px) {
+        .topic-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .topic-card {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin: 0;
+        padding: 18px 20px;
+        transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+
+    .topic-card:hover {
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-hover);
+        border-color: var(--accent);
+    }
+
+    .topic-card img {
+        width: 52px;
+        height: 52px;
+        padding: 8px;
+        box-sizing: border-box;
+        border-radius: 14px;
+        background-color: white;
+    }
+
+    .topic-card h3 {
+        font-size: 18px;
+    }
+
+    .topic-card p {
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .topic-card .arrow {
+        margin-left: auto;
+        color: var(--faint);
+        font-size: 20px;
     }
 </style>
 {% endblock %}
@@ -27,73 +102,42 @@
     </svg>
 </a>
 
-<div class="center">
-    <h1 class="title">Choose a topic</h1>
-</div>
+<div class="page">
+    <h1 class="title">Vocabulary</h1>
 
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-{% for message in messages %}
-<div class="center">
-    <div class="error">
-        {{ message }}
+    {% with messages = get_flashed_messages() %}
+    {% for message in messages %}
+    <div class="center">
+        <div class="error">{{ message }}</div>
     </div>
-</div>
-{% endfor %}
-{% endif %}
-{% endwith %}
+    {% endfor %}
+    {% endwith %}
 
-<div class="center">
-    <div class="container shadow">
-        <div class="center">
-            <h3>Instructions</h3>
-        </div>
+    <div class="container shadow tip">
+        <span class="tip-mark">i</span>
         <p>
-            These are the topics you can practice.
             {% if user_language == 'italian' %}
-            For every noun, you have to provide a definite article (il/la/lo/l'/i/gli/le).<br>
-            For example: <i>lo zaino</i>
+            Give every noun with its definite article (il/la/lo/l'/i/gli/le), for example <i>lo zaino</i>.
             {% elif user_language == 'german' %}
-            For every noun, you have to provide a definite article (der/die/das).<br>
-            For example: <i>der Apfel</i>
+            Give every noun with its definite article (der/die/das), for example <i>der Apfel</i>.
             {% elif user_language == 'spanish' %}
-            For every noun, you have to provide a definite article (el/la/los/las).<br>
-            For example: <i>el coche</i>
+            Give every noun with its definite article (el/la/los/las), for example <i>el coche</i>.
             {% endif %}
         </p>
     </div>
-</div>
-<div class="center">
-    <div style="margin-top: 20px;" class="container shadow">
-        <a href="vocabulary_for_topic/foods">
-            <div class="center">
-                <div class="option">
-                    <div class="center">Foods</div>
-                </div>
+
+    <div class="topic-grid">
+        {% for topic, description in [("foods", "Meals, cutlery and the kitchen"), ("drinks", "Water, juice, wine and more"),
+        ("fruits", "From apples to watermelons"), ("transport", "Trains, tickets and stations")] %}
+        <a class="container shadow topic-card" href="{{ url_for('vocabulary_for_topic', topic=topic) }}">
+            <img src="{{ url_for('static', filename='icons/vocabulary/' + topic + '.png') }}" alt="">
+            <div>
+                <h3>{{ topic | format }}</h3>
+                <p>{{ description }}</p>
             </div>
+            <span class="arrow">&rarr;</span>
         </a>
-        <a href="vocabulary_for_topic/drinks">
-            <div class="center">
-                <div class="option">
-                    <div class="center">Drinks</div>
-                </div>
-            </div>
-        </a>
-        <a href="vocabulary_for_topic/fruits">
-            <div class="center">
-                <div class="option">
-                    <div class="center">Fruits</div>
-                </div>
-            </div>
-        </a>
-        <a href="vocabulary_for_topic/transport">
-            <div class="center">
-                <div class="option">
-                    <div class="center">Transport</div>
-                </div>
-            </div>
-        </a>
+        {% endfor %}
     </div>
 </div>
-
 {% endblock %}

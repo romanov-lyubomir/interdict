@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+{% block imports %}
+{% endblock %}
+
+{% block css %}
+<style>
+    .story {
+        width: 90vw;
+        max-width: 680px;
+        margin: 0 auto 60px;
+        padding: 25px 30px;
+        box-sizing: border-box;
+    }
+
+    .story header {
+        margin-bottom: 20px;
+    }
+
+    .story h1 {
+        font-size: 28px;
+        margin: 10px 0 4px;
+    }
+
+    .story .subtitle {
+        color: var(--muted);
+    }
+
+    .story .hint {
+        color: var(--faint);
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .story p.text {
+        font-size: 20px;
+        line-height: 1.8;
+        margin-bottom: 18px;
+    }
+
+    .word {
+        border-radius: 4px;
+        cursor: help;
+        transition: background-color .1s;
+    }
+
+    .word:hover,
+    .word:focus,
+    .word.active {
+        outline: none;
+        background-color: var(--surface-3);
+    }
+
+    /* The two parts of a split word, like "lade ... herunter" */
+    .word.active.split {
+        background-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    }
+
+    .back-link {
+        display: inline-block;
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
+    .tooltip {
+        position: absolute;
+        z-index: 10;
+        max-width: 260px;
+        padding: 8px 12px;
+        border-radius: 10px;
+        background: #F2F2F2;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, .5);
+        pointer-events: none;
+        text-align: center;
+    }
+
+    .tooltip[hidden] {
+        display: none;
+    }
+
+    .tooltip * {
+        color: #202020;
+    }
+
+    .tooltip .lemma {
+        display: block;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .tooltip .meaning {
+        display: block;
+        font-size: 14px;
+    }
+
+    /* The arrow pointing at the word */
+    .tooltip::after {
+        content: "";
+        position: absolute;
+        left: var(--arrow-left, 50%);
+        top: 100%;
+        transform: translateX(-50%);
+        border: 8px solid transparent;
+        border-top-color: #F2F2F2;
+    }
+
+    .tooltip.below::after {
+        top: auto;
+        bottom: 100%;
+        border-top-color: transparent;
+        border-bottom-color: #F2F2F2;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<a href="{{ url_for('stories_list') }}">
+    <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+            <path fill="#fff"
+                d="M6.93 8l-4.7-4.7a.76.76 0 1 1 1.06-1.08L8 6.92l4.7-4.7a.76.76 0 0 1 1.08 1.07L9.08 8l4.7 4.7a.76.76 0 1 1-1.07 1.08L8 9.08l-4.7 4.7a.76.76 0 0 1-1.08-1.07L6.92 8z">
+            </path>
+        </g>
+    </svg>
+</a>
+
+<article class="container shadow story">
+    <header>
+        <span class="level-badge level-{{ story.level | lower }}">{{ story.level }}</span>
+        <h1>{{ story.title }}</h1>
+        <p class="subtitle">{{ story.translation }}</p>
+        <p class="hint">Point at a word, or tap it, to see its translation.</p>
+    </header>
+    {% for paragraph in story.paragraphs %}
+    <p class="text">
+        {%- for part in paragraph -%}
+        {%- if part.word -%}
+        <span class="word{% if part.group %} split{% endif %}" tabindex="0" data-meaning="{{ part.meaning }}"
+            {% if part.lemma %}data-lemma="{{ part.lemma }}"{% endif %}
+            {% if part.group %}data-group="{{ part.group }}"{% endif %}>{{ part.word }}</span>
+        {%- else -%}
+        {{ part.text }}
+        {%- endif -%}
+        {%- endfor -%}
+    </p>
+    {% endfor %}
+    <a class="back-link" href="{{ url_for('stories_list') }}">All stories</a>
+</article>
+
+<div id="tooltip" class="tooltip" role="tooltip" hidden>
+    <span class="lemma"></span>
+    <span class="meaning"></span>
+</div>
+
+<script>
+    const tooltip = document.getElementById("tooltip");
+    const lemma = tooltip.querySelector(".lemma");
+    const meaning = tooltip.querySelector(".meaning");
+    let current = null;
+
+    const partsOf = (word) => word.dataset.group
+        ? document.querySelectorAll(`.word[data-group="${word.dataset.group}"]`)
+        : [word];
+
+    const hide = () => {
+        if (current) {
+            partsOf(current).forEach((part) => part.classList.remove("active"));
+        }
+        current = null;
+        tooltip.hidden = true;
+    };
+
+    const show = (word) => {
+        if (word === current) {
+            return;
+        }
+        hide();
+        current = word;
+        partsOf(word).forEach((part) => part.classList.add("active"));
+
+        lemma.textContent = word.dataset.lemma || "";
+        lemma.hidden = !word.dataset.lemma;
+        meaning.textContent = word.dataset.meaning;
+        tooltip.hidden = false;
+
+        // Centre the balloon above the word, keep it on screen, and put it
+        // below the word when there is no room above
+        const box = word.getBoundingClientRect();
+        const width = tooltip.offsetWidth;
+        const height = tooltip.offsetHeight;
+        const gap = 10;
+        const navHeight = document.querySelector("nav").offsetHeight;
+        const centre = box.left + box.width / 2;
+        const left = Math.min(Math.max(centre - width / 2, 8), document.documentElement.clientWidth - width - 8);
+        const below = box.top - height - gap < navHeight;
+        const top = below ? box.bottom + gap : box.top - height - gap;
+
+        tooltip.classList.toggle("below", below);
+        tooltip.style.left = `${left + window.scrollX}px`;
+        tooltip.style.top = `${top + window.scrollY}px`;
+        tooltip.style.setProperty("--arrow-left", `${centre - left}px`);
+    };
+
+    document.querySelectorAll(".word").forEach((word) => {
+        word.addEventListener("mouseenter", () => show(word));
+        word.addEventListener("mouseleave", hide);
+        word.addEventListener("focus", () => show(word));
+        word.addEventListener("blur", hide);
+        // On touch screens a tap shows the translation
+        word.addEventListener("click", (event) => {
+            event.stopPropagation();
+            show(word);
+        });
+    });
+    document.addEventListener("click", hide);
+    window.addEventListener("resize", hide);
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            hide();
+        }
+    });
+</script>
+{% endblock %}

@@ -20,11 +20,11 @@ from flask_login import LoginManager, UserMixin, current_user, login_user, logou
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect
 from sqlalchemy.exc import IntegrityError
-from unidecode import unidecode
 from werkzeug.security import check_password_hash, generate_password_hash
 
 import conjugation
 import functions
+import stories
 
 app = Flask(__name__)
 
@@ -71,15 +71,37 @@ LANGUAGES = {
     "italian": {
         "lessons": ["the_alphabet", "definite_articles"],
         "cities": ["rome", "venice", "milan"],
-    },
-    "german": {
-        "lessons": ["the_alphabet"],
-        "cities": ["berlin", "frankfurt", "munich", "leipzig"],
+        "flag": "it",
+        "native": "Italiano",
     },
     "spanish": {
         "lessons": ["the_alphabet"],
         "cities": ["malaga"],
+        "flag": "es",
+        "native": "Español",
     },
+    "german": {
+        "lessons": ["the_alphabet"],
+        "cities": ["berlin", "frankfurt", "munich", "leipzig"],
+        "flag": "de",
+        "native": "Deutsch",
+    },
+    "greek": {
+        "lessons": ["the_alphabet"],
+        "cities": ["thessaloniki"],
+        "flag": "gr",
+        "native": "Ελληνικά",
+    },
+}
+
+# Pages the language switcher may send the user back to
+LANGUAGE_SWITCH_TARGETS = {
+    "index",
+    "vocabulary_topics",
+    "conjugation_drill",
+    "stories_list",
+    "lessons",
+    "profile",
 }
 
 
@@ -100,6 +122,7 @@ ARTICLE_GENDERS = {
         "la": "feminine",
         "le": "feminine",
     },
+    "greek": {"ο": "masculine", "η": "feminine", "το": "neuter", "τα": "neuter"},
 }
 
 
@@ -129,6 +152,7 @@ VOCABULARY = {
     lang: {topic: load_vocabulary(lang, topic) for topic in TOPICS}
     for lang in LANGUAGES
 }
+STORIES = {lang: stories.load_stories(lang) for lang in LANGUAGES}
 
 
 class User(UserMixin, db.Model):
@@ -189,7 +213,7 @@ def language_required(f):
 
 @app.context_processor
 def inject_language():
-    return dict(user_language=get_lang())
+    return dict(user_language=get_lang(), languages=LANGUAGES)
 
 
 @app.template_filter("format")
@@ -199,8 +223,9 @@ def format(string_to_format):
 
 def check_answer(user_input, answer):
     # Returns (is_correct, missed_one_letter)
-    is_correct = unidecode(user_input) == unidecode(answer)
-    return is_correct, functions.differ_by_single_char(user_input, answer)
+    typed, expected = functions.fold_accents(user_input), functions.fold_accents(answer)
+    is_correct = typed == expected
+    return is_correct, not is_correct and functions.differ_by_single_char(typed, expected)
 
 
 def drill_row(drill, row_count, **expected):
@@ -231,6 +256,8 @@ def index():
         current_user=current_user,
         topics=TOPICS,
         lessons_list=config["lessons"],
+        story_count=len(STORIES[lang]),
+        story_levels=stories.LEVELS,
         random_city=random.choice(config["cities"]),
     )
 
@@ -256,6 +283,27 @@ def lesson_for_topic(topic):
     if topic not in LANGUAGES[lang]["lessons"]:
         abort(404)
     return render_template(f"lessons/{lang}/{topic}.html", current_user=current_user)
+
+
+@app.route("/stories")
+@language_required
+def stories_list():
+    return render_template(
+        "stories.html",
+        levels=stories.by_level(STORIES[get_lang()]),
+        current_user=current_user,
+    )
+
+
+@app.route("/stories/<slug>")
+@language_required
+def story(slug):
+    lang_stories = STORIES[get_lang()]
+    if slug not in lang_stories:
+        abort(404)
+    return render_template(
+        "story.html", story=lang_stories[slug], current_user=current_user
+    )
 
 
 QUIZ_LENGTHS = [5, 10, 20, 50, 100, 200]
@@ -629,6 +677,20 @@ def create_session_profile(language):
     if language in LANGUAGES:
         session["language"] = language
     return redirect(url_for("index"))
+
+
+@app.route("/set_language", methods=["POST"])
+def set_language():
+    # The language switcher in the navigation bar
+    language = request.form.get("language")
+    if language in LANGUAGES:
+        if current_user.is_authenticated:
+            current_user.language = language
+            db.session.commit()
+        else:
+            session["language"] = language
+    target = request.form.get("next")
+    return redirect(url_for(target if target in LANGUAGE_SWITCH_TARGETS else "index"))
 
 
 @app.route("/login", methods=["GET", "POST"])

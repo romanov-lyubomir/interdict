@@ -1,0 +1,15 @@
+Greek,English,word_id,img
+ο σταθμός,station,62,None
+η στάση,stop,63,stop.webp
+η αποβάθρα,platform,64,track.webp
+το εκδοτήριο,ticket office,65,ticket_office.webp
+υψηλής ταχύτητας,high speed,66,high_speed.webp
+το μετρό,underground,69,underground.webp
+η καθυστέρηση,delay,70,delay.webp
+το ταξίδι,trip,72,trip.webp
+ο ταξιδιώτης,traveller,73,trip.webp
+επικυρώνω,to validate,76,None
+το εισιτήριο,ticket,77,ticket.webp
+ακυρώθηκε,cancelled,78,cancelled.webp
+καθυστερημένο,late,79,delay.webp
+το τρένο,train,84,train.webp

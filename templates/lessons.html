@@ -4,6 +4,48 @@
 
 {% block css %}
 <style>
+    .page {
+        width: min(620px, calc(100vw - 32px));
+        margin: 0 auto;
+    }
+
+    .lesson-card {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin: 0 0 14px;
+        padding: 18px 20px;
+        transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+
+    .lesson-card:hover {
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-hover);
+        border-color: var(--accent);
+    }
+
+    .lesson-number {
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+        background-color: var(--accent-soft);
+        color: var(--accent);
+        font-weight: 700;
+    }
+
+    .lesson-card h3 {
+        font-size: 18px;
+    }
+
+    .lesson-card .arrow {
+        margin-left: auto;
+        color: var(--faint);
+        font-size: 20px;
+    }
 </style>
 {% endblock %}
 
@@ -18,20 +60,14 @@
         </g>
     </svg>
 </a>
-<div class="center">
+<div class="page">
     <h1 class="title">Lessons</h1>
-</div>
-<div class="center">
-    <div style="width: 500px;" class="container shadow">
-        {% for lesson in lessons %}
-        <a href="{{ url_for('lesson_for_topic', topic=lesson)}}">
-            <div class="center">
-                <div class="option">
-                    <div class="center">{{ lesson | format }}</div>
-                </div>
-            </div>
-        </a>
-        {% endfor %}
-    </div>
+    {% for lesson in lessons %}
+    <a class="container shadow lesson-card" href="{{ url_for('lesson_for_topic', topic=lesson) }}">
+        <span class="lesson-number">{{ loop.index }}</span>
+        <h3>{{ lesson | format }}</h3>
+        <span class="arrow">&rarr;</span>
+    </a>
+    {% endfor %}
 </div>
 {% endblock %}

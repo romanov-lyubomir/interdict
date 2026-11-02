@@ -1,0 +1,11 @@
+title: Mi primer día en la universidad
+translation: My first day at university
+level: A2
+
+Ayer{yesterday} fue{ser: was} mi{my} primer{first} día{day} en{at} la{the} Universidad{University} de{of} Salamanca{Salamanca}. Me{~levantarse: I got up} levanté{~levantarse: I got up} muy{very} temprano{early} porque{because} estaba{estar: I was} nervioso{nervous}. Desayuné{desayunar: I had breakfast} rápido{quickly} y{and} fui{ir: I went} a{to} la{the} facultad{faculty} caminando{caminar: on foot}.
+
+El{the} edificio{building} era{ser: was} muy{very} antiguo{old} y{and} grande{big}. No{not} encontraba{encontrar: I could find} mi{my} clase{classroom}, así{so} que{that} le{to her} pregunté{preguntar: I asked} a{to} una{a} chica{girl}. Se{~llamarse: was called} llamaba{~llamarse: was called} Inés{Inés} y{and} también{also} estudiaba{estudiar: was studying} Historia{History}. ¡Estábamos{estar: we were} en{in} el{the} mismo{same} grupo{group}!
+
+La{the} primera{first} clase{lecture} fue{ser: was} un{a} poco{bit} difícil{difficult}. El{the} profesor{lecturer} hablaba{hablar: spoke} muy{very} rápido{fast} y{and} yo{I} no{not} entendí{entender: understood} todo{everything}. Por{por suerte: luckily} suerte{por suerte: luckily}, Inés{Inés} tomó{tomar: took} muchos{many} apuntes{el apunte: notes} y{and} me{to me} los{them} dejó{dejar: lent} después{afterwards}.
+
+A{at} la{the} hora{time} de{of} comer{lunch}, fuimos{ir: we went} a{to} la{the} cafetería{cafeteria} con{with} otros{other} compañeros{el compañero: classmates}. Hablamos{hablar: we talked} de{about} nuestras{our} ciudades{la ciudad: home towns} y{and} de{about} nuestros{our} planes{el plan: plans}. Por{in} la{the} tarde{evening} volví{volver: I went back} a{to} mi{my} piso{flat} cansado{tired}, pero{but} muy{very} contento{happy}. Creo{creer: I think} que{that} este{this} año{year} va{ir a: is going} a{to} ser{be} genial{great}.

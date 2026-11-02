@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block imports %}
+{% endblock %}
+
+{% block css %}
+<style>
+    .stories {
+        width: 90vw;
+        max-width: 760px;
+        margin: 0 auto 40px;
+    }
+
+    .stories .hint {
+        color: var(--muted);
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .level {
+        margin-bottom: 25px;
+    }
+
+    .level h2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .level-name {
+        color: var(--muted);
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .story-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    @media screen and (min-width: 600px) {
+        .story-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .story-card {
+        display: block;
+        margin: 0;
+        padding: 18px 20px;
+        transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+
+    .story-card:hover {
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-hover);
+        border-color: var(--accent);
+    }
+
+    .story-card h3 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .story-card p {
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .story-card .length {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<a href="{{ url_for('index') }}">
+    <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+            <path fill="#fff"
+                d="M6.93 8l-4.7-4.7a.76.76 0 1 1 1.06-1.08L8 6.92l4.7-4.7a.76.76 0 0 1 1.08 1.07L9.08 8l4.7 4.7a.76.76 0 1 1-1.07 1.08L8 9.08l-4.7 4.7a.76.76 0 0 1-1.08-1.07L6.92 8z">
+            </path>
+        </g>
+    </svg>
+</a>
+<div class="center">
+    <h1 class="title">Stories</h1>
+</div>
+
+<div class="stories">
+    <p class="hint">Short stories in {{ user_language | capitalize }}. Point at any word to see what it means.</p>
+    {% set level_names = {"A1": "Beginner", "A2": "Elementary", "B1": "Intermediate",
+    "B2": "Upper intermediate", "C1": "Advanced", "C2": "Proficient"} %}
+    {% for level, level_stories in levels if level_stories %}
+    <section class="level">
+        <h2><span class="level-badge level-{{ level | lower }}">{{ level }}</span>
+            <span class="level-name">{{ level_names[level] }}</span></h2>
+        <div class="story-grid">
+            {% for story in level_stories %}
+            <a class="container shadow story-card" href="{{ url_for('story', slug=story.slug) }}">
+                <h3>{{ story.title }}</h3>
+                <p>{{ story.translation }}</p>
+                <p class="length">{{ story.words }} words</p>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+{% endblock %}

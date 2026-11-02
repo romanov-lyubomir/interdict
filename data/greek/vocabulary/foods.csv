@@ -1,0 +1,40 @@
+Greek,English,word_id,img
+το πρωινό,breakfast,1,None
+το μεσημεριανό,lunch,2,None
+το κολατσιό,snack,3,None
+το βραδινό,dinner,4,None
+το πιρούνι,fork,5,None
+το κουτάλι,spoon,6,None
+το μαχαίρι,knife,7,None
+το πιάτο,plate,8,None
+η χαρτοπετσέτα,napkin,9,None
+το φλιτζάνι,cup,10,None
+το ποτήρι,glass,11,None
+το μπουκάλι,bottle,12,None
+το γλυκό,dessert,14,None
+το παγωτό,ice cream,15,None
+το ψωμί,bread,16,None
+το βούτυρο,butter,17,None
+το αλάτι,salt,18,None
+το πιπέρι,pepper,19,None
+η ζάχαρη,sugar,20,None
+το μέλι,honey,21,None
+το ελαιόλαδο,olive oil,22,None
+το ξίδι,vinegar,23,None
+το γιαούρτι,yogurt,24,None
+το τυρί,cheese,25,None
+το αυγό,egg,26,None
+τα δημητριακά,cereal,27,None
+η σούπα,soup,28,None
+το ρύζι,rice,29,None
+η σαλάτα,salad,30,None
+το κοτόπουλο,chicken,31,None
+το μοσχάρι,beef,32,None
+το αρνί,lamb,33,None
+το χοιρινό,pork,34,None
+το κρέας,meat,35,None
+το φαγητό,food,36,None
+το ζαμπόν,ham,37,None
+η μπριζόλα,steak,38,None
+το λουκάνικο,sausage,39,None
+το ψάρι,fish,40,None

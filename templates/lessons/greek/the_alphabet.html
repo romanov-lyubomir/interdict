@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+
+{% block css %}
+<style>
+    .lesson {
+        width: min(720px, calc(100vw - 32px));
+        margin: 0 auto;
+    }
+
+    .lesson p {
+        color: var(--muted);
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .lesson h2 {
+        font-size: 20px;
+        margin: 30px 0 12px;
+    }
+
+    .lesson table {
+        width: 100%;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<a href="{{ url_for('lessons') }}">
+    <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+            <path fill="#fff"
+                d="M6.93 8l-4.7-4.7a.76.76 0 1 1 1.06-1.08L8 6.92l4.7-4.7a.76.76 0 0 1 1.08 1.07L9.08 8l4.7 4.7a.76.76 0 1 1-1.07 1.08L8 9.08l-4.7 4.7a.76.76 0 0 1-1.08-1.07L6.92 8z">
+            </path>
+        </g>
+    </svg>
+</a>
+<div class="lesson">
+    <h1 class="title">The alphabet and pronunciation</h1>
+    <p>The Greek alphabet has 24 letters. Once you know them, Greek is read almost exactly as it is written.
+        The accent mark (τόνος) shows which syllable is stressed.</p>
+    <table>
+        <tr>
+            <th>Letter</th>
+            <th>Name</th>
+            <th>Sound</th>
+        </tr>
+        <tr>
+            <td>Α α</td>
+            <td>άλφα (alfa)</td>
+            <td>a as in father</td>
+        </tr>
+        <tr>
+            <td>Β β</td>
+            <td>βήτα (vita)</td>
+            <td>v as in van</td>
+        </tr>
+        <tr>
+            <td>Γ γ</td>
+            <td>γάμμα (gama)</td>
+            <td>a soft g; y as in yes before e and i</td>
+        </tr>
+        <tr>
+            <td>Δ δ</td>
+            <td>δέλτα (delta)</td>
+            <td>th as in this</td>
+        </tr>
+        <tr>
+            <td>Ε ε</td>
+            <td>έψιλον (epsilon)</td>
+            <td>e as in pet</td>
+        </tr>
+        <tr>
+            <td>Ζ ζ</td>
+            <td>ζήτα (zita)</td>
+            <td>z as in zoo</td>
+        </tr>
+        <tr>
+            <td>Η η</td>
+            <td>ήτα (ita)</td>
+            <td>i as in machine</td>
+        </tr>
+        <tr>
+            <td>Θ θ</td>
+            <td>θήτα (thita)</td>
+            <td>th as in think</td>
+        </tr>
+        <tr>
+            <td>Ι ι</td>
+            <td>γιώτα (yota)</td>
+            <td>i as in machine</td>
+        </tr>
+        <tr>
+            <td>Κ κ</td>
+            <td>κάππα (kapa)</td>
+            <td>k as in kite</td>
+        </tr>
+        <tr>
+            <td>Λ λ</td>
+            <td>λάμδα (lamda)</td>
+            <td>l as in lamp</td>
+        </tr>
+        <tr>
+            <td>Μ μ</td>
+            <td>μι (mi)</td>
+            <td>m as in mother</td>
+        </tr>
+        <tr>
+            <td>Ν ν</td>
+            <td>νι (ni)</td>
+            <td>n as in net</td>
+        </tr>
+        <tr>
+            <td>Ξ ξ</td>
+            <td>ξι (ksi)</td>
+            <td>x as in taxi</td>
+        </tr>
+        <tr>
+            <td>Ο ο</td>
+            <td>όμικρον (omikron)</td>
+            <td>o as in hot</td>
+        </tr>
+        <tr>
+            <td>Π π</td>
+            <td>πι (pi)</td>
+            <td>p as in spin</td>
+        </tr>
+        <tr>
+            <td>Ρ ρ</td>
+            <td>ρο (ro)</td>
+            <td>a rolled r</td>
+        </tr>
+        <tr>
+            <td>Σ σ ς</td>
+            <td>σίγμα (sigma)</td>
+            <td>s as in sun; ς is used at the end of a word</td>
+        </tr>
+        <tr>
+            <td>Τ τ</td>
+            <td>ταυ (taf)</td>
+            <td>t as in stop</td>
+        </tr>
+        <tr>
+            <td>Υ υ</td>
+            <td>ύψιλον (ipsilon)</td>
+            <td>i as in machine</td>
+        </tr>
+        <tr>
+            <td>Φ φ</td>
+            <td>φι (fi)</td>
+            <td>f as in fun</td>
+        </tr>
+        <tr>
+            <td>Χ χ</td>
+            <td>χι (hi)</td>
+            <td>ch as in Scottish loch</td>
+        </tr>
+        <tr>
+            <td>Ψ ψ</td>
+            <td>ψι (psi)</td>
+            <td>ps as in lapse</td>
+        </tr>
+        <tr>
+            <td>Ω ω</td>
+            <td>ωμέγα (omega)</td>
+            <td>o as in hot</td>
+        </tr>
+    </table>
+
+    <h2>Letter combinations</h2>
+    <p>Some pairs of letters are read as one sound.</p>
+    <table>
+        <tr>
+            <th>Letters</th>
+            <th>Sound</th>
+        </tr>
+        <tr>
+            <td>ου</td>
+            <td>u as in food</td>
+        </tr>
+        <tr>
+            <td>αι</td>
+            <td>e as in pet</td>
+        </tr>
+        <tr>
+            <td>ει, οι, υι</td>
+            <td>i as in machine</td>
+        </tr>
+        <tr>
+            <td>αυ, ευ</td>
+            <td>av, ev (af, ef before voiceless consonants)</td>
+        </tr>
+        <tr>
+            <td>μπ</td>
+            <td>b at the start of a word, mb inside</td>
+        </tr>
+        <tr>
+            <td>ντ</td>
+            <td>d at the start of a word, nd inside</td>
+        </tr>
+        <tr>
+            <td>γκ</td>
+            <td>g at the start of a word, ng inside</td>
+        </tr>
+        <tr>
+            <td>τσ, τζ</td>
+            <td>ts, dz</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

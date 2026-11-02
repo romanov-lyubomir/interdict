@@ -11,8 +11,8 @@
     }
 
     .notice {
-        background: #303030;
-        border-left: 4px solid #C0C0C0;
+        background: var(--surface-2);
+        border-left: 4px solid var(--accent);
         border-radius: 5px;
         padding: 10px 15px;
         margin-bottom: 20px;
@@ -43,14 +43,14 @@
     }
 
     .settings-card .hint {
-        color: #C0C0C0;
+        color: var(--muted);
         font-size: 13px;
         margin-bottom: 15px;
     }
 
     .settings-card label {
         font-size: 13px;
-        color: #C0C0C0;
+        color: var(--muted);
         margin-bottom: 4px;
     }
 
@@ -80,7 +80,7 @@
     }
 
     .account-details dt {
-        color: #C0C0C0;
+        color: var(--muted);
     }
 
     .account-details dd {
@@ -89,15 +89,15 @@
 
     .danger-zone {
         grid-column: 1 / -1;
-        border: 1px solid #CF000F;
+        border: 1px solid color-mix(in srgb, var(--danger) 60%, transparent);
     }
 
     .settings-card input[type="submit"].danger {
-        background-color: #CF000F;
+        background-color: var(--danger);
     }
 
     .settings-card input[type="submit"].danger:hover {
-        background-color: #a3000c;
+        background-color: #C0373C;
     }
 </style>
 {% endblock %}
@@ -146,7 +146,7 @@
             <p class="hint">The language you are learning.</p>
             <label for="language">Language</label>
             <select name="new_language" id="language">
-                {% for value in ["spanish", "italian", "german"] %}
+                {% for value in languages %}
                 <option value="{{ value }}" {% if value == current_user.language %}selected{% endif %}>
                     {{ value | capitalize }}
                 </option>

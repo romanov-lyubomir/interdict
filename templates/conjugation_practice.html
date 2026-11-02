@@ -5,47 +5,23 @@
 
 {% block css %}
 <style>
-    .quiz-progress {
-        position: absolute;
-        top: 70px;
-    }
-
-    .verb-correct-message {
-        position: absolute;
-        top: 100px;
-    }
-
-    .error {
-        margin-top: 10px;
-    }
-
-    .image-form-div {
-        position: relative;
-        top: 150px;
-    }
-
     .big {
         font-size: 20px;
     }
 
     .form-label {
         font-size: 15px;
-        color: #C0C0C0;
+        color: var(--muted);
         margin-bottom: 10px;
         text-align: center;
     }
 
     .settings-link {
         font-size: 13px;
-        color: #C0C0C0;
+        color: var(--muted);
         text-decoration: underline;
     }
 
-    @media screen and (min-width: 500px) {
-        .form {
-            min-width: 400px;
-        }
-    }
 </style>
 {% endblock %}
 
@@ -64,7 +40,7 @@
 {% include "quiz_progress.html" %}
 
 <div class="center">
-    <div class="verb-correct-message">
+    <div class="drill-feedback verb-correct-message">
         {% include "drill_feedback.html" %}
     </div>
 </div>

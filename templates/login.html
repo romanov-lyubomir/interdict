@@ -3,28 +3,27 @@
 {% endblock %}
 
 {% block css %}
+{% include "auth_form.html" %}
 {% endblock %}
 
 
 {% block body %}
-<div class="center">
-    <h1 class="title">Log in</h1>
-</div>
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-{% for message in messages %}
-<div class="center"><p>{{ message }}</p></div>
-{% endfor %}
-{% endif %}
-{% endwith %}
-<div class="center">
+<div class="auth">
     <form class="shadow" action="{{ url_for('login') }}" method="POST">
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-        <div class="center"><input spellcheck="false" autocomplete="off" type="text" name="email" placeholder="Email or username"></div>
-        <div class="center"><input spellcheck="false" autocomplete="off" type="password" name="password" placeholder="Password"></div>
-        <div class="center"><input type="submit" name="submit" value="Submit"></div>
-        <div class="center">Don't have an account?&nbsp;<a class="link" href="{{ url_for('register') }}">Register</a></div> 
+        <h1>Welcome back</h1>
+        <p class="subtitle">Log in to keep your progress and settings.</p>
+        {% with messages = get_flashed_messages() %}
+        {% for message in messages %}
+        <div class="error">{{ message }}</div>
+        {% endfor %}
+        {% endwith %}
+        <label for="email">Email or username</label>
+        <input spellcheck="false" autocomplete="username" type="text" name="email" id="email" autofocus>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" autocomplete="current-password">
+        <input type="submit" name="submit" value="Log in">
+        <p class="switch">Don't have an account? <a class="link" href="{{ url_for('register') }}">Sign up</a></p>
     </form>
 </div>
-
 {% endblock %}

@@ -2,20 +2,43 @@
 {% block imports %}
 {% endblock %}
 {% block css %}
+<style>
+    .not-found {
+        max-width: 460px;
+        margin: 90px auto 0;
+        padding: 0 16px;
+        text-align: center;
+    }
+
+    .not-found .code {
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .not-found h1 {
+        margin: 12px 0 8px;
+        font-size: 26px;
+    }
+
+    .not-found p {
+        color: var(--muted);
+        margin-bottom: 26px;
+    }
+</style>
 {% endblock %}
 
 
 {% block body %}
-<div style="margin-top: 200px;" class="center">
-    <p style="font-size: 40px;">Error 404</p>
-</div>
-<div class="center">
-    <p style="font-size: 40px;">Page not found</p>
-</div>
-<div class="center">
-    <p style="font-size: 40px;">We are sorry</p>
-</div>
-<div class="center">
-    <a href="{{ url_for('index') }}"><button style="margin-top: 20px;">Home page</button></a>
+<div class="not-found">
+    <div class="code">404</div>
+    <h1>Page not found</h1>
+    <p>We are sorry, the page you are looking for doesn't exist or has moved.</p>
+    <a class="button" href="{{ url_for('index') }}">Back to home</a>
 </div>
 {% endblock %}

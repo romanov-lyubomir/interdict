@@ -1,197 +1,442 @@
 {% extends "base.html" %}
 {% block imports %}
 {% endblock %}
+
 {% block css %}
 <style>
-    .flag-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .page {
+        width: min(1140px, calc(100vw - 32px));
+        margin: 0 auto;
     }
 
-    @media screen and (min-width: 650px) {
-        .flag-container {
-            display: block;
-        }
-
-        .flags-container {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
+    .hero {
+        position: relative;
+        overflow: hidden;
+        margin-top: 24px;
+        border-radius: 24px;
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow);
+        background:
+            radial-gradient(700px 300px at 100% 0%, var(--accent-soft), transparent 70%),
+            linear-gradient(180deg, var(--surface-2), var(--surface));
     }
 
-    .flag-pic {
-        width: 200px;
-        height: 200px;
+    .hero-content {
+        max-width: 620px;
+        padding: 48px 48px 40px;
     }
 
-    .img {
-        height: 20px;
-        width: 20px;
+    /* The city illustrations have a white background, so they sit on a
+       white panel of their own instead of under a dark overlay */
+    .hero-art {
+        height: clamp(110px, 20vw, 210px);
         background-color: white;
-        float: left;
-        padding: 10px;
-        border-radius: 10px 0 0 10px;
-    }
-
-    .img img {
-        height: 20px;
-        width: 20px;
-    }
-
-    .background-div {
-        background-size: cover;
+        background-image: url("{{ url_for('static', filename='images/' ~ (random_city or 'europe') ~ '.webp') }}");
         background-repeat: no-repeat;
-        background-position: center;
-        height: 250px;
-        display: grid;
-        place-items: center;
+        background-position: center bottom;
+        background-size: auto 100%;
+        border-top: 1px solid var(--border);
     }
 
-    .grid {
+    .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 5px 12px 5px 6px;
+        border-radius: 999px;
+        background-color: rgba(255, 255, 255, .08);
+        border: 1px solid var(--border-strong);
+        font-size: 13px;
+        color: var(--muted);
+    }
+
+    .eyebrow img {
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+        border-radius: 0;
+    }
+
+    .hero h1 {
+        margin: 18px 0 14px;
+        font-size: clamp(32px, 5vw, 50px);
+        line-height: 1.05;
+        letter-spacing: -0.02em;
+    }
+
+    .hero h1 span {
+        color: var(--accent);
+    }
+
+    .hero .lead {
+        color: #D5D7DC;
+        font-size: 17px;
+        margin-bottom: 26px;
+    }
+
+    .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .quote {
+        margin-top: 34px;
+        padding-left: 14px;
+        border-left: 3px solid var(--accent);
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .quote b {
+        color: var(--text);
+        font-weight: 600;
+    }
+
+    .section-title {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 40px 2px 16px;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+    }
+
+    .section-title p {
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .features {
         display: grid;
         grid-template-columns: 1fr;
-        margin: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-        grid-gap: 10px;
+        gap: 18px;
     }
 
-
-    .content {
-        display: flex;
-        align-items: center;
-        height: 20px;
-        width: 140px;
-        background: var(--gradient-right);
-        float: right;
-        padding: 10px;
-        border-radius: 0 10px 10px 0;
-    }
-
-    .content-verbs {
-        display: flex;
-        align-items: center;
-        height: 20px;
-        width: 180px;
-        background: var(--gradient-right);
-        float: right;
-        padding: 10px;
-        border-radius: 10px 10px 10px 10px;
-    }
-
-    @media screen and (min-width: 500px) {
-        .grid {
+    @media screen and (min-width: 760px) {
+        .features {
             grid-template-columns: 1fr 1fr;
         }
     }
 
-    @media screen and (min-width: 700px) {
-        .grid {
-            grid-template-columns: 1fr 1fr 1fr;
+    .feature {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 24px;
+        transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+
+    .feature:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-hover);
+        border-color: var(--border-strong);
+    }
+
+    .feature-head {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 12px;
+    }
+
+    .feature-icon {
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+        width: 46px;
+        height: 46px;
+        border-radius: 14px;
+        background-color: var(--accent-soft);
+        color: var(--accent);
+        border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+    }
+
+    .feature h3 {
+        font-size: 19px;
+    }
+
+    .feature-head p {
+        color: var(--muted);
+        font-size: 13px;
+    }
+
+    .feature > p {
+        color: #C9CBD1;
+        margin-bottom: 18px;
+    }
+
+    .feature .more {
+        margin-top: auto;
+        align-self: flex-start;
+        color: var(--accent);
+        font-weight: 600;
+    }
+
+    .topics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    .topic {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 12px 8px 8px;
+        border-radius: 12px;
+        background-color: var(--surface);
+        border: 1px solid var(--border);
+        transition: border-color .15s, background-color .15s;
+    }
+
+    .topic:hover {
+        text-decoration: none;
+        border-color: var(--accent);
+        background-color: var(--surface-3);
+    }
+
+    .topic img {
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+        border-radius: 8px;
+        background-color: white;
+    }
+
+    .levels {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 18px;
+    }
+
+    .lesson-list {
+        list-style: none;
+        margin-bottom: 18px;
+    }
+
+    .lesson-list a {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 2px;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .lesson-list a:hover {
+        color: var(--accent);
+        text-decoration: none;
+    }
+
+    .languages {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    @media screen and (min-width: 560px) {
+        .languages {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media screen and (min-width: 960px) {
+        .languages {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    .language {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 30px 20px;
+        text-align: center;
+        transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+
+    .language:hover {
+        text-decoration: none;
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-hover);
+        border-color: var(--border-strong);
+    }
+
+    .language img {
+        width: 96px;
+        height: 96px;
+        object-fit: contain;
+        border-radius: 0;
+        margin-bottom: 8px;
+    }
+
+    .language h3 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .language p {
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .hero-content {
+            padding: 32px 22px 28px;
         }
     }
 </style>
-<style>
-    .background-div {
-        background-image: url("{{ url_for('static', filename='images/' ~ (random_city or 'europe') ~ '.webp') }}");
-    }
-</style>
-
 {% endblock %}
 
 {% block body %}
-<div class="background-div">
-    <div class="center">
-        <div style="padding: 10px; background-color: rgba(0, 0, 0, .8); border-radius: 10px">
-            <div class="center">
-                <h1 class="title">EuroDict</h1>
+<div class="page">
+    {% if user_language %}
+    <section class="hero">
+        <div class="hero-content">
+            <span class="eyebrow">
+                <img src="{{ url_for('static', filename='images/flags/' ~ languages[user_language].flag ~ '.png') }}" alt="">
+                You are learning {{ user_language | capitalize }}
+            </span>
+            <h1>Learn <span>{{ user_language | capitalize }}</span> one word at a time.</h1>
+            <p class="lead">Practise the words you need, drill the verb forms that trip you up, and read real
+                stories with a translation for every word.</p>
+            <div class="actions">
+                <a class="button" href="{{ url_for('vocabulary_topics') }}">Practise vocabulary</a>
+                <a class="button button-secondary" href="{{ url_for('stories_list') }}">Read a story</a>
+            </div>
+            <p class="quote"><i>"A different language is a different vision of life."</i> <b>Federico Fellini</b></p>
+        </div>
+        <div class="hero-art" role="img" aria-label="{{ random_city | capitalize }}"></div>
+    </section>
+
+    <div class="section-title">
+        <h2>Practice</h2>
+        <p>Pick up where you left off</p>
+    </div>
+
+    <div class="features">
+        <div class="container shadow feature">
+            <div class="feature-head">
+                <span class="feature-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <rect x="3" y="5" width="14" height="16" rx="2"></rect>
+                        <path d="M7 3h12a2 2 0 0 1 2 2v14"></path>
+                        <path d="M7 10h6M7 14h4"></path>
+                    </svg>
+                </span>
+                <div>
+                    <h3>Vocabulary</h3>
+                    <p>{{ topics | length }} topics with pictures and audio</p>
+                </div>
+            </div>
+            <p>Translate everyday words, together with their article, and hear how they sound.</p>
+            <div class="topics">
+                {% for topic in topics %}
+                <a class="topic" href="{{ url_for('vocabulary_for_topic', topic=topic) }}">
+                    <img src="{{ url_for('static', filename='icons/vocabulary/' + topic + '.png') }}" alt="">
+                    {{ topic | format }}
+                </a>
+                {% endfor %}
             </div>
         </div>
-    </div>
-</div>
-<div class="center" style="margin: 20px 0 0 0;">
-    <p style="font-size: 20px;"><i>"A different language is a different vision of life."</i></p>
-</div>
-<div class="center" style="margin: 0 0 20px 0;">
-    <p><b>Federico Fellini</b></p>
-</div>
-<!-- Check if the user has selected a language -->
-{% if user_language %}
-<div class="center">
-    <p>Vocabulary</p>
-</div>
-<div class="center">
-    <div class="grid">
-        <!--Loop trough all topics -->
-        {% for topic in topics %}
-        <div class="option" style="width: 200px; height: 50px;">
-            {% set img_url = url_for('static', filename='icons/vocabulary/' + topic + '.png') %}
-            {% set a_url = url_for('vocabulary_for_topic', topic=topic) %}
-            <a href="{{ a_url }}">
-                <div class="img shadow"><img src="{{img_url}}" alt=""></div>
-                <div class="content shadow">{{ topic | format }}</div>
-            </a>
+
+        <a class="container shadow feature" href="{{ url_for('conjugation_drill') }}">
+            <div class="feature-head">
+                <span class="feature-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M4 19 9 5l5 14M6 14h6"></path>
+                        <path d="M16 9h5M18.5 6.5v5M16 17h5"></path>
+                    </svg>
+                </span>
+                <div>
+                    <h3>Conjugation drill</h3>
+                    <p>Quizzes from 5 to 200 questions</p>
+                </div>
+            </div>
+            <p>Choose the tenses and moods you want to practise and get a report on what you got right first
+                time.</p>
+            <span class="more">Choose verb forms &rarr;</span>
+        </a>
+
+        <a class="container shadow feature" href="{{ url_for('stories_list') }}">
+            <div class="feature-head">
+                <span class="feature-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                </span>
+                <div>
+                    <h3>Stories</h3>
+                    <p>{{ story_count }} short stories</p>
+                </div>
+            </div>
+            <p>Read graded stories and point at any word to see what it means in that sentence.</p>
+            <div class="levels">
+                {% for level in story_levels %}
+                <span class="level-badge level-{{ level | lower }}">{{ level }}</span>
+                {% endfor %}
+            </div>
+            <span class="more">Start reading &rarr;</span>
+        </a>
+
+        <div class="container shadow feature">
+            <div class="feature-head">
+                <span class="feature-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M22 9 12 4 2 9l10 5z"></path>
+                        <path d="M6 11v5c3 2.5 9 2.5 12 0v-5"></path>
+                    </svg>
+                </span>
+                <div>
+                    <h3>Lessons</h3>
+                    <p>Grammar and pronunciation</p>
+                </div>
+            </div>
+            <ul class="lesson-list">
+                {% for lesson in lessons_list %}
+                <li><a href="{{ url_for('lesson_for_topic', topic=lesson) }}">{{ lesson | format }}<span>&rarr;</span></a></li>
+                {% endfor %}
+            </ul>
+            <a class="more" href="{{ url_for('lessons') }}">All lessons &rarr;</a>
         </div>
+    </div>
+    {% else %}
+    <section class="hero">
+        <div class="hero-content">
+            <span class="eyebrow">Italian &middot; Spanish &middot; German &middot; Greek</span>
+            <h1>Learn a European language, <span>one word at a time.</span></h1>
+            <p class="lead">Vocabulary quizzes with audio, conjugation drills and graded stories from A1 to C2.
+                Pick a language to get started, no account needed.</p>
+            <div class="actions">
+                <a class="button" href="#languages">Choose a language</a>
+                <a class="button button-secondary" href="{{ url_for('register') }}">Create an account</a>
+            </div>
+            <p class="quote"><i>"A different language is a different vision of life."</i> <b>Federico Fellini</b></p>
+        </div>
+        <div class="hero-art" role="img" aria-label="Europe"></div>
+    </section>
+
+    <div class="section-title" id="languages">
+        <h2>Which language do you want to learn?</h2>
+    </div>
+    <div class="languages">
+        {% for language, info in languages.items() %}
+        <a class="container shadow language" href="{{ url_for('create_session_profile', language=language) }}">
+            <img src="{{ url_for('static', filename='images/flags/' ~ info.flag ~ '.png') }}" alt="">
+            <h3>{{ language | capitalize }}</h3>
+            <p>{{ info.native }}</p>
+        </a>
         {% endfor %}
     </div>
+    {% endif %}
 </div>
-<div class="center">
-    <p>Conjugation drill</p>
-</div>
-<div class="center">
-    <div class="grid">
-        <a href="{{ url_for('conjugation_drill') }}">
-            <div class="option" style="width: 200px; height: 50px;">
-                <div class="content-verbs shadow">Choose verb forms</div>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="center">
-    <p>Lessons</p>
-</div>
-<div class="center">
-    <div class="grid">
-
-        {% for lesson in lessons_list %}
-        {% set a_url = url_for('lesson_for_topic', topic=lesson) %}
-        <a href="{{ a_url }}">
-            <div class="option" style="width: 200px; height: 50px;">
-                <div class="content-verbs shadow">{{ lesson | format }}</div>
-            </div>
-        </a>
-        {% endfor %}
-    </div>
-</div>
-{% else %}
-
-<div class="flags-container">
-    <div class="flag-container">
-        <a href="{{ url_for('create_session_profile', language='italian') }}">
-            <img class="flag-pic" src="{{ url_for('static', filename='images/italy_flag_big.png') }}" alt="">
-            <div class="center">
-                <p>Learn Italian</p>
-            </div>
-        </a>
-    </div>
-    <div class="flag-container">
-        <a href="{{ url_for('create_session_profile', language='spanish') }}">
-            <img class="flag-pic" src="{{ url_for('static', filename='images/spain_flag_big.png') }}" alt="">
-            <div class="center">
-                <p>Learn Spanish</p>
-            </div>
-        </a>
-    </div>
-    <div class="flag-container">
-        <a href="{{ url_for('create_session_profile', language='german') }}">
-            <img class="flag-pic" src="{{ url_for('static', filename='images/germany_flag_big.png') }}" alt="">
-            <div class="center">
-                <p>Learn German</p>
-            </div>
-        </a>
-    </div>
-</div>
-{% endif %}
 {% endblock %}
