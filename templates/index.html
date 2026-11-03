@@ -13,12 +13,9 @@
         position: relative;
         overflow: hidden;
         margin-top: 24px;
-        border-radius: 24px;
+        border-radius: var(--radius);
         border: 1px solid var(--border);
-        box-shadow: var(--shadow);
-        background:
-            radial-gradient(700px 300px at 100% 0%, var(--accent-soft), transparent 70%),
-            linear-gradient(180deg, var(--surface-2), var(--surface));
+        background: var(--surface);
     }
 
     .hero-content {
@@ -126,12 +123,10 @@
         flex-direction: column;
         margin: 0;
         padding: 24px;
-        transition: transform .2s, box-shadow .2s, border-color .2s;
+        transition: border-color .2s;
     }
 
     .feature:hover {
-        transform: translateY(-2px);
-        box-shadow: var(--shadow-hover);
         border-color: var(--border-strong);
     }
 
@@ -256,13 +251,11 @@
         margin: 0;
         padding: 30px 20px;
         text-align: center;
-        transition: transform .2s, box-shadow .2s, border-color .2s;
+        transition: border-color .2s;
     }
 
     .language:hover {
         text-decoration: none;
-        transform: translateY(-3px);
-        box-shadow: var(--shadow-hover);
         border-color: var(--border-strong);
     }
 
