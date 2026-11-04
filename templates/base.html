@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ url_for('static', filename='icons/favicon.png') }}">
     <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}" />
-    <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/manifest-icon-192.maskable.png') }}">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/apple-icon-180.png') }}">
     {% block imports %}
     {% endblock %}
     <title>EuroDict</title>
@@ -356,13 +356,10 @@
         }
 
         .brand-mark {
-            display: grid;
-            place-items: center;
-            width: 32px;
-            height: 32px;
-            border-radius: var(--radius-small);
-            background: var(--accent);
-            font-size: 16px;
+            display: block;
+            width: 34px;
+            height: 34px;
+            object-fit: contain;
         }
 
         .nav-links {
@@ -720,7 +717,7 @@
     <nav>
         <div class="nav-inner">
             <a class="brand" href="{{ url_for('index') }}">
-                <span class="brand-mark">E</span>EuroDict
+                <img class="brand-mark" src="{{ url_for('static', filename='icons/icon-192.png') }}" alt="">EuroDict
             </a>
             <ul class="nav-links nav-main">
                 {% for endpoint, label in feature_links %}
