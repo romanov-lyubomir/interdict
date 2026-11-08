@@ -1,0 +1,143 @@
+{
+  "title": "Moods across languages",
+  "intro": "The same tense on every row. The examples use studiare, estudiar, estudar and studieren. A dash means the language has no such tense.",
+  "languages": [
+    {"name": "Italian"},
+    {"name": "Spanish"},
+    {"name": "Portuguese"},
+    {"name": "German"}
+  ],
+  "moods": [
+    {
+      "names": ["Indicativo", "Indicativo", "Indicativo", "Indikativ"],
+      "rows": [
+        {"style": "t-ip", "cells": [
+          ["Presente", "studio"],
+          ["Presente", "estudio"],
+          ["Presente", "estudo"],
+          ["Präsens", "ich studiere"]
+        ]},
+        {"style": "t-im", "cells": [
+          ["Imperfetto", "studiavo"],
+          ["Pretérito imperfecto", "estudiaba"],
+          ["Pretérito imperfeito", "estudava"],
+          null
+        ]},
+        {"style": "t-pp", "cells": [
+          ["Passato prossimo", "ho studiato"],
+          ["Pretérito perfecto compuesto", "he estudiado"],
+          ["Pretérito perfeito composto", "tenho estudado"],
+          ["Perfekt", "ich habe studiert"]
+        ]},
+        {"style": "t-tp", "cells": [
+          ["Trapassato prossimo", "avevo studiato"],
+          ["Pretérito pluscuamperfecto", "había estudiado"],
+          ["Pretérito mais-que-perfeito composto", "tinha estudado"],
+          ["Plusquamperfekt", "ich hatte studiert"]
+        ]},
+        {"style": "t-pr", "cells": [
+          ["Passato remoto", "studiai"],
+          ["Pretérito perfecto simple", "estudié"],
+          ["Pretérito perfeito", "estudei"],
+          ["Präteritum", "ich studierte"]
+        ]},
+        {"style": "t-tr", "cells": [
+          ["Trapassato remoto", "ebbi studiato"],
+          ["Pretérito anterior", "hube estudiado"],
+          null,
+          null
+        ]},
+        {"style": "t-fs", "cells": [
+          ["Futuro semplice", "studierò"],
+          ["Futuro", "estudiaré"],
+          ["Futuro do presente simples", "estudarei"],
+          ["Futur I", "ich werde studieren"]
+        ]},
+        {"style": "t-fa", "cells": [
+          ["Futuro anteriore", "avrò studiato"],
+          ["Futuro perfecto", "habré estudiado"],
+          ["Futuro do presente composto", "terei estudado"],
+          ["Futur II", "ich werde studiert haben"]
+        ]}
+      ]
+    },
+    {
+      "names": ["Congiuntivo", "Subjuntivo", "Subjuntivo", "Konjunktiv I"],
+      "style": "mood-double",
+      "rows": [
+        {"style": "t-csp", "cells": [
+          ["Presente", "che io studi"],
+          ["Presente", "que yo estudie"],
+          ["Presente", "que eu estude"],
+          ["Gegenwart", "er studiere"]
+        ]},
+        {"style": "t-csi", "cells": [
+          ["Imperfetto", "che io studiassi"],
+          ["Pretérito imperfecto", "que yo estudiara / estudiase"],
+          ["Pretérito imperfeito", "que eu estudasse"],
+          null
+        ]},
+        {"style": "t-csa", "cells": [
+          ["Passato", "che io abbia studiato"],
+          ["Pretérito perfecto", "que yo haya estudiado"],
+          ["Pretérito perfeito", "que eu tenha estudado"],
+          ["Vergangenheit", "er habe studiert"]
+        ]},
+        {"style": "t-cst", "cells": [
+          ["Trapassato", "che io avessi studiato"],
+          ["Pretérito pluscuamperfecto", "que yo hubiera / hubiese estudiado"],
+          ["Pretérito mais-que-perfeito composto", "que eu tivesse estudado"],
+          null
+        ]},
+        {"style": "t-fs mood-double", "cells": [
+          null,
+          ["Futuro", "cuando yo estudiare"],
+          ["Futuro", "quando eu estudar"],
+          null
+        ]},
+        {"style": "t-fa mood-double", "cells": [
+          null,
+          ["Futuro perfecto", "cuando yo hubiere estudiado"],
+          ["Futuro composto", "quando eu tiver estudado"],
+          null
+        ]}
+      ]
+    },
+    {
+      "names": ["Condizionale", "Condicional", "Condicional", "Konjunktiv II"],
+      "style": "mood-wavy",
+      "rows": [
+        {"style": "t-cop", "cells": [
+          ["Presente", "studierei"],
+          ["Condicional simple *", "estudiaría"],
+          ["Futuro do pretérito do indicativo simples *", "estudaria"],
+          ["Gegenwart", "ich würde studieren"]
+        ]},
+        {"style": "t-cpa", "cells": [
+          ["Passato", "avrei studiato"],
+          ["Condicional perfecto", "habría estudiado"],
+          ["Futuro do pretérito composto", "teria estudado"],
+          ["Vergangenheit", "ich hätte studiert"]
+        ]}
+      ]
+    },
+    {
+      "names": ["Imperativo", "Imperativo", "Imperativo", "Imperativ"],
+      "style": "t-imv",
+      "rows": [
+        {"style": "t-imv", "cells": [
+          ["", "studia!"],
+          ["", "¡estudia!"],
+          ["", "estuda! (tu) / estude! (você)"],
+          ["", "studiere!"]
+        ]}
+      ]
+    }
+  ],
+  "notes": [
+    "* Counted as a tense of the indicative in Spanish and Portuguese.",
+    "Portuguese tenho estudado describes a repeated or ongoing action. For a single finished action, where Italian says ho studiato, Portuguese says estudei.",
+    "German Präteritum covers both the imperfetto and the passato remoto, and in speech the Perfekt often replaces the passato remoto.",
+    "In hypothetical clauses German uses the Konjunktiv II where Italian uses the congiuntivo imperfetto or trapassato: se studiassi = wenn ich studierte, se avessi studiato = wenn ich studiert hätte."
+  ]
+}

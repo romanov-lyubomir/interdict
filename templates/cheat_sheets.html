@@ -9,11 +9,6 @@
         margin: 0 auto 40px;
     }
 
-    .sheet-heading {
-        margin-bottom: 4px;
-        font-size: 22px;
-    }
-
     .sheet-intro {
         margin-bottom: 18px;
         color: var(--muted);
@@ -24,9 +19,44 @@
         padding: 26px 16px;
     }
 
-    .coming-soon {
+    .across-scroll {
+        overflow-x: auto;
+    }
+
+    .across-table {
+        width: 100%;
+        min-width: 760px;
+        table-layout: fixed;
+    }
+
+    .across-table .mood-name {
+        font-size: 13px;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+    }
+
+    .across-table td .name {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.6;
+    }
+
+    .across-table td small {
+        display: block;
+        margin-top: 2px;
         color: var(--muted);
-        text-align: center;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .across-table .none {
+        color: var(--muted);
+    }
+
+    .across-note {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 14px;
     }
 
     .orange { color: var(--tense-orange); }
@@ -224,6 +254,22 @@
         border-left: 1px solid var(--border-strong);
     }
 
+    /* Beside other branches, the line drops straight onto the rail */
+    .tree li.has-stack:not(:only-child)::before {
+        right: auto;
+        left: 0;
+        width: 6px;
+    }
+
+    .tree li.has-stack:not(:only-child)::after {
+        left: 6px;
+        width: calc(100% - 6px);
+    }
+
+    .tree li.has-stack:not(:only-child) > .stack::before {
+        display: none;
+    }
+
     /* On narrow screens the tree grows downwards along the left edge */
     @media screen and (max-width: 940px) {
         .mood {
@@ -290,7 +336,7 @@
 {% endmacro %}
 
 {% macro branch(item, root) %}
-<li>
+<li{% if item.stack %} class="has-stack"{% endif %}>
     {% if item.stack %}
     <div class="stack">
         {% for part in item.stack %}{{ node(part) }}{% endfor %}
@@ -327,8 +373,17 @@
 <div class="sheets">
     <h1 class="title">Cheat sheets</h1>
 
+    <div class="tabs" role="tablist" aria-label="Cheat sheets">
+        {% if sheet %}
+        <button class="tab" type="button" role="tab" id="tab-verb-tenses" aria-controls="verb-tenses"
+            aria-selected="true">{{ sheet.title }}</button>
+        {% endif %}
+        <button class="tab" type="button" role="tab" id="tab-across" aria-controls="across"
+            aria-selected="{{ 'false' if sheet else 'true' }}">{{ across.title }}</button>
+    </div>
+
     {% if sheet %}
-    <h2 class="sheet-heading">{{ sheet.title }}</h2>
+    <section id="verb-tenses" role="tabpanel" aria-labelledby="tab-verb-tenses">
     <p class="sheet-intro">{{ sheet.intro }}</p>
 
     {% for mood in sheet.moods %}
@@ -340,8 +395,52 @@
     {{ card(mood) }}
     {% endif %}
     {% endfor %}
-    {% else %}
-    <p class="coming-soon">Coming soon</p>
+    </section>
     {% endif %}
+
+    <section id="across" role="tabpanel" aria-labelledby="tab-across" {% if sheet %}hidden{% endif %}>
+        <p class="sheet-intro">{{ across.intro }}</p>
+
+        <div class="across-scroll">
+            <table class="across-table">
+                <thead>
+                    <tr>
+                        {% for language in across.languages %}
+                        <th>{{ language.name }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for mood in across.moods %}
+                    <tr>
+                        {% for name in mood.names %}
+                        <th><span class="mood-name {{ mood.style }}">{{ name }}</span></th>
+                        {% endfor %}
+                    </tr>
+                    {% for row in mood.rows %}
+                    <tr>
+                        {% for cell in row.cells %}
+                        {% if cell %}
+                        <td>
+                            {% if cell[0] %}<span class="name {{ row.style }}">{{ cell[0] }}</span>{% endif %}
+                            <small>{{ cell[1] }}</small>
+                        </td>
+                        {% else %}
+                        <td class="none">—</td>
+                        {% endif %}
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        {% for note in across.notes %}
+        <p class="across-note">{{ note }}</p>
+        {% endfor %}
+    </section>
 </div>
+
+<script src="{{ url_for('static', filename='tabs.js') }}"></script>
 {% endblock %}

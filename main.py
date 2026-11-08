@@ -173,6 +173,9 @@ def load_cheat_sheet(lang):
 
 CHEAT_SHEETS = {lang: load_cheat_sheet(lang) for lang in LANGUAGES}
 
+with open(os.path.join(DATA_DIR, "moods_across_languages.json"), encoding="utf-8") as across_file:
+    MOODS_ACROSS_LANGUAGES = json.load(across_file)
+
 
 class User(UserMixin, db.Model):
     __tablename__ = "users"
@@ -351,7 +354,10 @@ def vocabulary_topics():
 @language_required
 def cheat_sheets():
     return render_template(
-        "cheat_sheets.html", sheet=CHEAT_SHEETS.get(get_lang()), current_user=current_user
+        "cheat_sheets.html",
+        sheet=CHEAT_SHEETS.get(get_lang()),
+        across=MOODS_ACROSS_LANGUAGES,
+        current_user=current_user,
     )
 
 
