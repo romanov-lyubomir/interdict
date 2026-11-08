@@ -1,0 +1,383 @@
+{
+  "title": "Mentre {im:studiavo}, {pp:è arrivato} Luca",
+  "translation": "While I was studying, Luca arrived",
+  "topics": "The difference between the passato prossimo and the imperfetto",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Think of a film"
+      },
+      "The *imperfetto* is the scenery of the film: what was going on, what things were like. The *passato prossimo* is the event: what happened, one step at a time, and is now finished.",
+      {
+        "table": {
+          "head": [
+            "",
+            "Imperfetto",
+            "Passato prossimo"
+          ],
+          "rows": [
+            [
+              "Question it answers",
+              "What was it like? What was going on?",
+              "What happened?"
+            ],
+            [
+              "Length",
+              "No clear start or end",
+              "Finished, or a stated length of time"
+            ],
+            [
+              "Repetition",
+              "A habit: ogni giorno, di solito",
+              "A counted number of times: tre volte"
+            ]
+          ]
+        }
+      },
+      "*Ieri {im:pioveva}* tells you about the weather as a background. *Ieri {pp:è arrivato} Luca* tells you an event.",
+      {
+        "h": "One sentence, two tenses"
+      },
+      "When an event interrupts something that was already going on, the background is in the *imperfetto* and the interruption in the *passato prossimo*.",
+      {
+        "table": {
+          "head": [
+            "Background",
+            "Event"
+          ],
+          "rows": [
+            [
+              "Mentre {im:studiavo},",
+              "{pp:è arrivato} Luca."
+            ],
+            [
+              "Mentre {im:dormivo},",
+              "{pp:è suonato} il telefono."
+            ],
+            [
+              "{im:Pioveva} quando",
+              "{pp:siamo usciti}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Two actions side by side"
+      },
+      "If two actions were going on at the same time, both are in the *imperfetto*: *Mentre io {im:cucinavo}, lui {im:leggeva}*. If they happen one after another, both are in the *passato prossimo*: *{pp:Sono entrato} e {pp:ho acceso} la luce*.",
+      {
+        "h": "A stated length of time"
+      },
+      "Even if an action lasted long, a stated length makes it a finished block, so use the *passato prossimo*: *{pp:Ho vissuto} a Roma per dieci anni*. *{im:Abitavo} a Roma* only says that was your situation then."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right tense.",
+        "questions": [
+          {
+            "q": "Mentre ___, {pp:è arrivato} Luca.",
+            "options": [
+              "*{im:studiavo}",
+              "{pp:ho studiato}"
+            ]
+          },
+          {
+            "q": "Quando {im:ero} piccolo, la casa ___ grande.",
+            "options": [
+              "*{im:era}",
+              "{pp:è stata}"
+            ]
+          },
+          {
+            "q": "Ieri sera ___ un film e poi {pp:siamo usciti}.",
+            "options": [
+              "{im:guardavamo}",
+              "*{pp:abbiamo guardato}"
+            ]
+          },
+          {
+            "q": "Da bambino ___ ogni giorno al parco.",
+            "options": [
+              "*{im:andavo}",
+              "{pp:sono andato}"
+            ]
+          },
+          {
+            "q": "L'anno scorso ___ a Parigi tre volte.",
+            "options": [
+              "{im:andavo}",
+              "*{pp:sono andato}"
+            ]
+          },
+          {
+            "q": "{pp:Ho vissuto} a Roma ___ dieci anni.",
+            "options": [
+              "*per",
+              "mentre"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put each verb in the imperfetto or the passato prossimo.",
+        "questions": [
+          "Mentre [[dormivo#im]], [[è suonato#pp]] il telefono. (dormire, suonare)",
+          "Quando [[sono uscita#pp]], [[pioveva#im]]. (uscire, io – a woman; piovere)",
+          "Mentre io [[cucinavo#im]], lui [[leggeva#im]]. (cucinare, leggere)",
+          "Ieri [[sono andato#pp]] al cinema. (andare, io – a man)",
+          "Di solito [[mangiavamo#im]] a casa. (mangiare, noi)",
+          "Marco [[è entrato#pp]] e [[ha acceso#pp]] la luce. (entrare, accendere)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il telefono",
+        "telephone"
+      ],
+      [
+        "la pioggia",
+        "rain"
+      ],
+      [
+        "l'ombrello",
+        "umbrella"
+      ],
+      [
+        "la luce",
+        "light"
+      ],
+      [
+        "l'incidente",
+        "accident"
+      ],
+      [
+        "suonare",
+        "to ring, to play"
+      ],
+      [
+        "accendere",
+        "to turn on"
+      ],
+      [
+        "spegnere",
+        "to turn off"
+      ],
+      [
+        "cadere",
+        "to fall"
+      ],
+      [
+        "succedere",
+        "to happen"
+      ],
+      [
+        "all'improvviso",
+        "suddenly"
+      ],
+      [
+        "mentre",
+        "while"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la pioggia",
+            "rain"
+          ],
+          [
+            "l'ombrello",
+            "umbrella"
+          ],
+          [
+            "accendere",
+            "to turn on"
+          ],
+          [
+            "spegnere",
+            "to turn off"
+          ],
+          [
+            "cadere",
+            "to fall"
+          ],
+          [
+            "succedere",
+            "to happen"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Che cosa {pp:è} [[successo#pp]]? (happened)",
+          "[[All'improvviso]] {pp:è andata} via la luce. (suddenly)",
+          "{imv:Prendi} l'[[ombrello]]! (umbrella)",
+          "{pp:Ho visto} un [[incidente]] in strada. (accident)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "{im:Era} una sera d'inverno. Fuori {im:pioveva} e {im:faceva} freddo. Giulia {im:era} a casa da sola e {im:studiava} per un esame. All'improvviso {pp:è andata} via la luce e il telefono {pp:ha suonato}.",
+      "{im:Era} Luca: «{ip:Sono} qui sotto. Mi {ip:apri}?» Giulia {pp:è scesa} con una candela. Mentre {im:salivano} le scale, la luce {pp:è tornata}. {pp:Hanno riso} molto e poi {pp:hanno studiato} insieme fino a mezzanotte."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What was the weather like?",
+            "options": [
+              "Sunny and warm",
+              "*Rainy and cold",
+              "Snowy"
+            ]
+          },
+          {
+            "q": "What was Giulia doing?",
+            "options": [
+              "Sleeping",
+              "Cooking",
+              "*Studying"
+            ]
+          },
+          {
+            "q": "Who phoned her?",
+            "options": [
+              "*Luca",
+              "Her mother",
+              "A neighbour"
+            ]
+          },
+          {
+            "q": "When did the light come back?",
+            "options": [
+              "At midnight",
+              "*While they were going up the stairs",
+              "The next day"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Anna",
+        "Perché {pp:sei arrivato} in ritardo?"
+      ],
+      [
+        "Marco",
+        "Mentre {im:venivo} qui, {pp:ho visto} un incidente."
+      ],
+      [
+        "Anna",
+        "Davvero? Che cosa {pp:è successo}?"
+      ],
+      [
+        "Marco",
+        "{im:Pioveva} molto e una macchina {pp:è uscita} di strada."
+      ],
+      [
+        "Anna",
+        "Qualcuno si {pp:è fatto} male?"
+      ],
+      [
+        "Marco",
+        "No, per fortuna {im:stavano} tutti bene."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Mentre [[venivo#im]] qui, {pp:ho visto} un incidente.",
+          "Che cosa {pp:è} [[successo#pp]]?",
+          "[[Pioveva#im]] molto.",
+          "Per fortuna [[stavano#im]] tutti bene."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Marco saw an accident on his way.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Someone was badly hurt.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "While I was studying, Luca arrived.",
+            "a": [
+              "Mentre studiavo, è arrivato Luca.",
+              "Mentre studiavo, Luca è arrivato."
+            ]
+          },
+          {
+            "q": "It was raining.",
+            "a": [
+              "Pioveva."
+            ]
+          },
+          {
+            "q": "What happened?",
+            "a": [
+              "Che cosa è successo?",
+              "Cosa è successo?",
+              "Cos'è successo?"
+            ]
+          },
+          {
+            "q": "While I was cooking, he was reading.",
+            "a": [
+              "Mentre cucinavo, lui leggeva.",
+              "Mentre io cucinavo, lui leggeva."
+            ]
+          },
+          {
+            "q": "I lived in Rome for ten years.",
+            "a": [
+              "Ho vissuto a Roma per dieci anni.",
+              "Ho abitato a Roma per dieci anni."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

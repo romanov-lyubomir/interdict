@@ -1,9 +1,9 @@
-<h1 align="center">EuroDict</h1>
+<h1 align="center">InterDict</h1>
 
 
 ## Description
 
-The `EuroDict` project is a web app allows users to learn Italian, Spanish and German vocabulary and grammar. Use the vocabulary menu to learn new words on a particular topic.
+The `InterDict` project is a web app allows users to learn Italian, Spanish and German vocabulary and grammar. Use the vocabulary menu to learn new words on a particular topic.
 
 ## Setup
 

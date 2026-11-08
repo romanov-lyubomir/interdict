@@ -1,0 +1,423 @@
+{
+  "title": "{ip:Parlo} italiano e {ip:vivo} a Roma",
+  "translation": "I speak Italian and I live in Rome",
+  "topics": "The present tense: regular verbs in -are, -ere, -ire and fare, andare, stare",
+  "grammar": {
+    "explain": [
+      "Italian verbs are divided into three groups by the ending of the infinitive. Take off *-are, -ere* or *-ire* and add the endings of the present tense.",
+      {
+        "table": {
+          "head": [
+            "",
+            "parlare (speak)",
+            "vivere (live)",
+            "dormire (sleep)",
+            "capire (understand)"
+          ],
+          "rows": [
+            [
+              "io",
+              "{ip:parl**o**}",
+              "{ip:viv**o**}",
+              "{ip:dorm**o**}",
+              "{ip:cap**isco**}"
+            ],
+            [
+              "tu",
+              "{ip:parl**i**}",
+              "{ip:viv**i**}",
+              "{ip:dorm**i**}",
+              "{ip:cap**isci**}"
+            ],
+            [
+              "lui / lei",
+              "{ip:parl**a**}",
+              "{ip:viv**e**}",
+              "{ip:dorm**e**}",
+              "{ip:cap**isce**}"
+            ],
+            [
+              "noi",
+              "{ip:parl**iamo**}",
+              "{ip:viv**iamo**}",
+              "{ip:dorm**iamo**}",
+              "{ip:cap**iamo**}"
+            ],
+            [
+              "voi",
+              "{ip:parl**ate**}",
+              "{ip:viv**ete**}",
+              "{ip:dorm**ite**}",
+              "{ip:cap**ite**}"
+            ],
+            [
+              "loro",
+              "{ip:parl**ano**}",
+              "{ip:viv**ono**}",
+              "{ip:dorm**ono**}",
+              "{ip:cap**iscono**}"
+            ]
+          ]
+        }
+      },
+      "Some verbs in -ire, like *capire* and *finire*, add *-isc-* in every form except *noi* and *voi*.",
+      "These common verbs are irregular and must be learned by heart.",
+      {
+        "table": {
+          "head": [
+            "",
+            "fare (do, make)",
+            "andare (go)",
+            "stare (stay, be)"
+          ],
+          "rows": [
+            [
+              "io",
+              "{ip:faccio}",
+              "{ip:vado}",
+              "{ip:sto}"
+            ],
+            [
+              "tu",
+              "{ip:fai}",
+              "{ip:vai}",
+              "{ip:stai}"
+            ],
+            [
+              "lui / lei",
+              "{ip:fa}",
+              "{ip:va}",
+              "{ip:sta}"
+            ],
+            [
+              "noi",
+              "{ip:facciamo}",
+              "{ip:andiamo}",
+              "{ip:stiamo}"
+            ],
+            [
+              "voi",
+              "{ip:fate}",
+              "{ip:andate}",
+              "{ip:state}"
+            ],
+            [
+              "loro",
+              "{ip:fanno}",
+              "{ip:vanno}",
+              "{ip:stanno}"
+            ]
+          ]
+        }
+      },
+      "The present also describes plans: *Domani lavoro* (I'm working tomorrow). And remember: *Come {ip:stai}?* means *How are you?*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the present tense.",
+        "questions": [
+          "Io [[parlo#ip]] italiano. (parlare)",
+          "Tu [[vivi#ip]] a Roma? (vivere)",
+          "Marco [[dorme#ip]] molto. (dormire)",
+          "Noi [[lavoriamo#ip]] in centro. (lavorare)",
+          "Voi [[leggete#ip]] un libro. (leggere)",
+          "Loro [[mangiano#ip]] la pizza. (mangiare)",
+          "Io non [[capisco#ip]]. (capire)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Io ___ al mercato. (andare)",
+            "options": [
+              "*{ip:vado}",
+              "{ip:va}",
+              "{ip:vai}"
+            ]
+          },
+          {
+            "q": "Che cosa ___ tu? (fare)",
+            "options": [
+              "{ip:fa}",
+              "*{ip:fai}",
+              "{ip:fate}"
+            ]
+          },
+          {
+            "q": "Come ___ Anna? (stare)",
+            "options": [
+              "{ip:stai}",
+              "*{ip:sta}",
+              "{ip:stanno}"
+            ]
+          },
+          {
+            "q": "Noi ___ a scuola. (andare)",
+            "options": [
+              "{ip:andate}",
+              "{ip:vanno}",
+              "*{ip:andiamo}"
+            ]
+          },
+          {
+            "q": "Loro ___ colazione. (fare)",
+            "options": [
+              "*{ip:fanno}",
+              "{ip:fa}",
+              "{ip:fate}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "parlare",
+        "to speak"
+      ],
+      [
+        "lavorare",
+        "to work"
+      ],
+      [
+        "abitare",
+        "to live (in a place)"
+      ],
+      [
+        "mangiare",
+        "to eat"
+      ],
+      [
+        "studiare",
+        "to study"
+      ],
+      [
+        "leggere",
+        "to read"
+      ],
+      [
+        "scrivere",
+        "to write"
+      ],
+      [
+        "prendere",
+        "to take"
+      ],
+      [
+        "vivere",
+        "to live"
+      ],
+      [
+        "dormire",
+        "to sleep"
+      ],
+      [
+        "partire",
+        "to leave"
+      ],
+      [
+        "capire",
+        "to understand"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each verb with its translation.",
+        "pairs": [
+          [
+            "lavorare",
+            "to work"
+          ],
+          [
+            "studiare",
+            "to study"
+          ],
+          [
+            "scrivere",
+            "to write"
+          ],
+          [
+            "prendere",
+            "to take"
+          ],
+          [
+            "partire",
+            "to leave"
+          ],
+          [
+            "capire",
+            "to understand"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right verb in the present: studio, leggo, mangio or dormo.",
+        "questions": [
+          "[[Leggo#ip]] un libro.",
+          "[[Mangio#ip]] una pizza.",
+          "[[Studio#ip]] l'italiano.",
+          "[[Dormo#ip]] otto ore."
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Mi {ip:chiamo} Ana, {ip:sono} spagnola e {ip:vivo} a Roma. {ip:Lavoro} in un ristorante e {ip:studio} italiano. La mattina {ip:vado} a scuola e il pomeriggio lavoro.",
+      "Il mio amico Ahmed {ip:abita} con me. Lui {ip:parla} arabo, francese e un po' di italiano. La sera {ip:mangiamo} insieme e {ip:parliamo} molto. Ahmed {ip:capisce} quasi tutto, ma quando {ip:è} stanco {ip:dorme} davanti alla televisione!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Ana works…",
+            "options": [
+              "in a school",
+              "*in a restaurant",
+              "in a shop"
+            ]
+          },
+          {
+            "q": "When does Ana go to school?",
+            "options": [
+              "*In the morning",
+              "In the afternoon",
+              "In the evening"
+            ]
+          },
+          {
+            "q": "Ahmed speaks…",
+            "options": [
+              "only Arabic",
+              "*Arabic, French and some Italian",
+              "Spanish"
+            ]
+          },
+          {
+            "q": "When he is tired, Ahmed…",
+            "options": [
+              "goes out",
+              "studies",
+              "*sleeps in front of the TV"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Luca",
+        "Ciao, Ana! Come {ip:stai}?"
+      ],
+      [
+        "Ana",
+        "Bene, grazie! E tu?"
+      ],
+      [
+        "Luca",
+        "Non c'{ip:è} male. Dove {ip:vai}?"
+      ],
+      [
+        "Ana",
+        "{ip:Vado} al lavoro. {ip:Lavoro} fino alle dieci."
+      ],
+      [
+        "Luca",
+        "E domani che cosa {ip:fai}?"
+      ],
+      [
+        "Ana",
+        "Domani studio e la sera {ip:vado} al cinema con Ahmed."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Ciao, Ana! Come [[stai#ip]]?",
+          "[[Vado#ip]] al lavoro.",
+          "E domani che cosa [[fai#ip]]?",
+          "Domani [[studio]] e la sera {ip:vado} al cinema."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Ana is going to work.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Tomorrow evening Ana is going to the cinema.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian. You can leave out the pronouns.",
+        "questions": [
+          {
+            "q": "I speak Italian.",
+            "a": [
+              "Parlo italiano.",
+              "Io parlo italiano."
+            ]
+          },
+          {
+            "q": "Where do you live? (informal, vivere)",
+            "a": [
+              "Dove vivi?",
+              "Dove vivi tu?"
+            ]
+          },
+          {
+            "q": "We work in the morning.",
+            "a": [
+              "Lavoriamo la mattina.",
+              "Noi lavoriamo la mattina."
+            ]
+          },
+          {
+            "q": "How are you? (informal)",
+            "a": [
+              "Come stai?"
+            ]
+          },
+          {
+            "q": "They go to school.",
+            "a": [
+              "Vanno a scuola.",
+              "Loro vanno a scuola."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

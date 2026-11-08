@@ -1,0 +1,499 @@
+{
+  "title": "Ciao, Chiara! Che piacere!",
+  "translation": "Hi, Chiara! What a pleasure!",
+  "topics": "The alphabet, stress and the sounds c, g, ch, gh, sc",
+  "grammar": {
+    "explain": [
+      "The Italian alphabet has 21 letters: a, b, c, d, e, f, g, h, i, l, m, n, o, p, q, r, s, t, u, v, z. The letters j, k, w, x and y appear only in foreign words. Italian is read almost exactly as it is written, so once you know the few rules below, you can read any word.",
+      "Sounds are written between slashes: /k/ is the sound at the start of *kite*.",
+      {
+        "h": "Step 1: hard and soft vowels"
+      },
+      "Italian has five vowels. *a, o, u* are hard, and *e, i* are soft. A soft vowel softens the *c*, *g* or *sc* in front of it.",
+      {
+        "table": {
+          "head": [
+            "Letters",
+            "Before a, o, u: hard",
+            "Before e, i: soft"
+          ],
+          "rows": [
+            [
+              "c",
+              "/k/ as in *k*ite: casa, come, cuore",
+              "/tʃ/ as in *ch*urch: cena, cinema"
+            ],
+            [
+              "g",
+              "/g/ as in *g*o: gatto, gonna, gusto",
+              "/dʒ/ as in *j*am: gelato, giro"
+            ],
+            [
+              "sc",
+              "/sk/ as in *sk*y: scala, sconto, scuola",
+              "/ʃ/ as in *sh*op: scena, sci"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Step 2: to keep the sound hard before e or i, add h"
+      },
+      "The *h* stands between the consonant and the soft vowel, so the vowel cannot soften it. The *h* has no sound of its own, here or anywhere else in Italian.",
+      {
+        "table": {
+          "head": [
+            "Spelling",
+            "Sound",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "c**h**e, c**h**i",
+              "/k/",
+              "che, chilo"
+            ],
+            [
+              "g**h**e, g**h**i",
+              "/g/",
+              "spaghetti, laghi"
+            ],
+            [
+              "sc**h**e, sc**h**i",
+              "/sk/",
+              "scherzo, schiena"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Step 3: to make the sound soft before a, o or u, add i"
+      },
+      "This *i* only softens the consonant and is not pronounced: *ciao* is /ˈtʃao/, not /tʃiˈao/. The only exception is when the stress falls on that *i*: then you do hear it, as in *farmacia* /farmaˈtʃia/.",
+      {
+        "table": {
+          "head": [
+            "Spelling",
+            "Sound",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "c**i**a, c**i**o, c**i**u",
+              "/tʃ/",
+              "ciao, cioccolato, ciuffo"
+            ],
+            [
+              "g**i**a, g**i**o, g**i**u",
+              "/dʒ/",
+              "giallo, giorno, giusto"
+            ],
+            [
+              "sc**i**a, sc**i**o, sc**i**u",
+              "/ʃ/",
+              "sciarpa, sciopero, sciupare"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The whole system"
+      },
+      "With these three steps, each sound can go with each vowel. The underlined letters are the added *h* or *i*.",
+      {
+        "table": {
+          "groups": [
+            [
+              "",
+              1
+            ],
+            [
+              "Hard vowels",
+              3
+            ],
+            [
+              "Soft vowels",
+              2
+            ]
+          ],
+          "head": [
+            "Sound",
+            "+ a",
+            "+ o",
+            "+ u",
+            "+ e",
+            "+ i"
+          ],
+          "rows": [
+            [
+              "/k/",
+              "ca",
+              "co",
+              "cu",
+              "c**h**e",
+              "c**h**i"
+            ],
+            [
+              "/tʃ/",
+              "c**i**a",
+              "c**i**o",
+              "c**i**u",
+              "ce",
+              "ci"
+            ],
+            [
+              "/g/",
+              "ga",
+              "go",
+              "gu",
+              "g**h**e",
+              "g**h**i"
+            ],
+            [
+              "/dʒ/",
+              "g**i**a",
+              "g**i**o",
+              "g**i**u",
+              "ge",
+              "gi"
+            ],
+            [
+              "/sk/",
+              "sca",
+              "sco",
+              "scu",
+              "sc**h**e",
+              "sc**h**i"
+            ],
+            [
+              "/ʃ/",
+              "sc**i**a",
+              "sc**i**o",
+              "sc**i**u",
+              "sce",
+              "sci"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Two more sounds"
+      },
+      "*gn* is always one sound, /ɲ/, close to the *ny* in *canyon*: *gnocchi, bagno*. *gli* is also one sound, /ʎ/, close to the *lli* in *million*: *figli, famiglia*. In *famiglia*, the *i* before the *a* is again only spelling. Any other *gl* sounds as written: *inglese*.",
+      {
+        "h": "Double consonants"
+      },
+      "Double consonants are held longer: *pala* (shovel) and *palla* (ball) are different words.",
+      {
+        "h": "Stress"
+      },
+      "Most words are stressed on the second-to-last syllable: **CA**-sa, a-**MI**-co. When the stress falls on the last vowel, it is written with an accent: citt**à**, caff**è**, perch**é**."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which sound do the letters in brackets make?",
+        "questions": [
+          {
+            "q": "(c)ena",
+            "options": [
+              "/k/",
+              "*/tʃ/"
+            ]
+          },
+          {
+            "q": "(ch)iave",
+            "options": [
+              "*/k/",
+              "/tʃ/"
+            ]
+          },
+          {
+            "q": "(g)elato",
+            "options": [
+              "/g/",
+              "*/dʒ/"
+            ]
+          },
+          {
+            "q": "(gh)iaccio",
+            "options": [
+              "*/g/",
+              "/dʒ/"
+            ]
+          },
+          {
+            "q": "(sc)uola",
+            "options": [
+              "*/sk/",
+              "/ʃ/"
+            ]
+          },
+          {
+            "q": "pe(sc)e",
+            "options": [
+              "/sk/",
+              "*/ʃ/"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete each word with c, ch, g, gh or sc. The sound is given between slashes.",
+        "questions": [
+          "[[ch]]ilo /k/ — kilo",
+          "[[c]]asa /k/ — house",
+          "[[g]]iorno /dʒ/ — day",
+          "spa[[gh]]etti /g/ — spaghetti",
+          "[[c]]iao /tʃ/ — hi",
+          "[[sc]]ala /sk/ — stairs"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "ciao",
+        "hi / bye"
+      ],
+      [
+        "buongiorno",
+        "good morning"
+      ],
+      [
+        "buonasera",
+        "good evening"
+      ],
+      [
+        "arrivederci",
+        "goodbye"
+      ],
+      [
+        "grazie",
+        "thank you"
+      ],
+      [
+        "prego",
+        "you're welcome"
+      ],
+      [
+        "per favore",
+        "please"
+      ],
+      [
+        "scusa",
+        "sorry / excuse me (informal)"
+      ],
+      [
+        "piacere",
+        "nice to meet you"
+      ],
+      [
+        "sì",
+        "yes"
+      ],
+      [
+        "no",
+        "no"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "buonasera",
+            "good evening"
+          ],
+          [
+            "grazie",
+            "thank you"
+          ],
+          [
+            "prego",
+            "you're welcome"
+          ],
+          [
+            "per favore",
+            "please"
+          ],
+          [
+            "arrivederci",
+            "goodbye"
+          ],
+          [
+            "piacere",
+            "nice to meet you"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the short dialogues.",
+        "questions": [
+          "— Grazie! — [[Prego]]!",
+          "— Un caffè, per [[favore]].",
+          "— Mi {ip:chiamo} Anna. — [[Piacere]]!",
+          "— [[Sì]] o no? (yes)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Buongiorno! Mi {ip:chiamo} Chiara. {ip:Sono} di Genova, ma oggi {ip:sono} a Pisa. {ip:Sono} in un bar in centro. Il cameriere si {ip:chiama} Gino ed {ip:è} molto gentile.",
+      "«Buongiorno! Un caffè?» «Sì, grazie. E un gelato, per favore!» «Ecco. Prego!» «Grazie mille! Arrivederci!»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Chiara is from…",
+            "options": [
+              "Pisa",
+              "*Genoa",
+              "Rome"
+            ]
+          },
+          {
+            "q": "Where is Chiara today?",
+            "options": [
+              "At home",
+              "*In a bar",
+              "At school"
+            ]
+          },
+          {
+            "q": "Gino is…",
+            "options": [
+              "*the waiter",
+              "Chiara's brother",
+              "a tourist"
+            ]
+          },
+          {
+            "q": "What does Chiara order?",
+            "options": [
+              "A coffee and a sandwich",
+              "Only a coffee",
+              "*A coffee and an ice cream"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Luca",
+        "Ciao, mi {ip:chiamo} Luca. E tu?"
+      ],
+      [
+        "Chiara",
+        "Ciao, Luca! Mi {ip:chiamo} Chiara. Piacere!"
+      ],
+      [
+        "Luca",
+        "Piacere! {imv:Scusa}, come si {ip:scrive} «Chiara»?"
+      ],
+      [
+        "Chiara",
+        "Ci, acca, i, a, erre, a."
+      ],
+      [
+        "Luca",
+        "Grazie! E di dove {ip:sei}?"
+      ],
+      [
+        "Chiara",
+        "{ip:Sono} di Genova. Ciao, Luca, a domani!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Luca asks how to spell Chiara's name.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The second letter of Chiara's name is h (acca).",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Chiara is from Pisa.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Ciao, mi [[chiamo#ip]] Luca.",
+          "[[Scusa#imv]], come si {ip:scrive} «Chiara»?",
+          "Ciao, Luca, a [[domani]]!"
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Good morning!",
+            "a": [
+              "Buongiorno!"
+            ]
+          },
+          {
+            "q": "Thank you very much!",
+            "a": [
+              "Grazie mille!"
+            ]
+          },
+          {
+            "q": "A coffee, please.",
+            "a": [
+              "Un caffè, per favore."
+            ]
+          },
+          {
+            "q": "Goodbye!",
+            "a": [
+              "Arrivederci!"
+            ]
+          },
+          {
+            "q": "My name is Chiara.",
+            "a": [
+              "Mi chiamo Chiara."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

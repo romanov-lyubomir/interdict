@@ -1,0 +1,447 @@
+{
+  "title": "Se {ip:ho} tempo, domani {fs:partirò} con te",
+  "translation": "If I have time, I'll leave with you tomorrow",
+  "topics": "The future tense, real conditions with se, the present for future arrangements",
+  "grammar": {
+    "explain": [
+      {
+        "h": "How to form the future"
+      },
+      "Start from the infinitive and drop the final *-e*. Verbs in *-are* also change that *a* to *e*. The endings are the same for all groups.",
+      {
+        "table": {
+          "head": [
+            "",
+            "parlare → parler-",
+            "scrivere → scriver-",
+            "dormire → dormir-"
+          ],
+          "rows": [
+            [
+              "io",
+              "{fs:parler**ò**}",
+              "{fs:scriver**ò**}",
+              "{fs:dormir**ò**}"
+            ],
+            [
+              "tu",
+              "{fs:parler**ai**}",
+              "{fs:scriver**ai**}",
+              "{fs:dormir**ai**}"
+            ],
+            [
+              "lui / lei",
+              "{fs:parler**à**}",
+              "{fs:scriver**à**}",
+              "{fs:dormir**à**}"
+            ],
+            [
+              "noi",
+              "{fs:parler**emo**}",
+              "{fs:scriver**emo**}",
+              "{fs:dormir**emo**}"
+            ],
+            [
+              "voi",
+              "{fs:parler**ete**}",
+              "{fs:scriver**ete**}",
+              "{fs:dormir**ete**}"
+            ],
+            [
+              "loro",
+              "{fs:parler**anno**}",
+              "{fs:scriver**anno**}",
+              "{fs:dormir**anno**}"
+            ]
+          ]
+        }
+      },
+      "The spelling rules from lesson 1 of level A1 apply here too. The new *e* would soften *c* and *g*, so *-care* and *-gare* add *h* to stay hard: *{fs:cercherò}, {fs:pagherò}*. In *-ciare* and *-giare*, the *i* is no longer needed, since the *e* already softens: *{fs:comincerò}, {fs:mangerò}*.",
+      {
+        "h": "Irregular stems"
+      },
+      "The endings never change. Only the stem does, and in three simple ways.",
+      {
+        "table": {
+          "head": [
+            "What happens",
+            "Verbs"
+          ],
+          "rows": [
+            [
+              "The vowel before -r- drops",
+              "andare → {fs:andrò}, avere → {fs:avrò}, dovere → {fs:dovrò}, potere → {fs:potrò}, sapere → {fs:saprò}, vedere → {fs:vedrò}, vivere → {fs:vivrò}"
+            ],
+            [
+              "The stem ends in -rr-",
+              "bere → {fs:berrò}, venire → {fs:verrò}, volere → {fs:vorrò}, rimanere → {fs:rimarrò}"
+            ],
+            [
+              "The -a- stays",
+              "fare → {fs:farò}, dare → {fs:darò}, stare → {fs:starò}"
+            ],
+            [
+              "Unique",
+              "essere → {fs:sarò}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "When to use it"
+      },
+      {
+        "table": {
+          "head": [
+            "Use",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Plans",
+              "L'anno prossimo {fs:studierò} in Italia."
+            ],
+            [
+              "Predictions",
+              "Domani {fs:pioverà}."
+            ],
+            [
+              "Guesses about now",
+              "Marco non c'{ip:è}: {fs:sarà} a casa."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The present for the future"
+      },
+      "For fixed arrangements and timetables, Italians prefer the simple present, usually with a word of time: *Stasera {ip:ceno} con Marco. Il treno {ip:parte} alle otto.*",
+      {
+        "h": "Real conditions with se"
+      },
+      "When something really can happen, *se* takes an ordinary tense. Both parts can be in the present, which is the most common in speech, or both in the future.",
+      {
+        "table": {
+          "head": [
+            "If…",
+            "then…"
+          ],
+          "rows": [
+            [
+              "Se {ip:ho} tempo,",
+              "{ip:vengo}."
+            ],
+            [
+              "Se {fs:avrò} tempo,",
+              "{fs:verrò}."
+            ],
+            [
+              "Se {ip:piove},",
+              "{ip:resto} a casa."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the future.",
+        "questions": [
+          "Domani io [[partirò#fs]]. (partire)",
+          "Tu [[parlerai#fs]] con Marco? (parlare)",
+          "Anna [[scriverà#fs]] una lettera. (scrivere)",
+          "Noi [[pagheremo#fs]] il conto. (pagare)",
+          "Voi [[mangerete#fs]] da noi. (mangiare)",
+          "Loro [[cercheranno#fs]] una casa. (cercare)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "These verbs are irregular. Put them in the future.",
+        "questions": [
+          "Domani [[sarò#fs]] a Roma. (essere, io)",
+          "Tu [[avrai#fs]] tempo? (avere)",
+          "Marco [[verrà#fs]] da noi. (venire)",
+          "Noi [[andremo#fs]] al mare. (andare)",
+          "Che cosa [[farete#fs]]? (fare, voi)",
+          "Loro non [[potranno#fs]] venire. (potere)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the most natural form.",
+        "questions": [
+          {
+            "q": "Il treno ___ alle otto. (timetable)",
+            "options": [
+              "*{ip:parte}",
+              "{fs:partirà}",
+              "{im:partiva}"
+            ]
+          },
+          {
+            "q": "Se ___ tempo, {ip:vengo}.",
+            "options": [
+              "*{ip:ho}",
+              "{im:avevo}",
+              "avuto"
+            ]
+          },
+          {
+            "q": "Luca non {ip:risponde}: ___ al lavoro. (a guess)",
+            "options": [
+              "{pp:è stato}",
+              "*{fs:sarà}",
+              "{im:era}"
+            ]
+          },
+          {
+            "q": "Stasera ___ con Marco. (already arranged)",
+            "options": [
+              "*{ip:ceno}",
+              "{im:cenavo}",
+              "{pp:ho cenato}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il volo",
+        "flight"
+      ],
+      [
+        "la prenotazione",
+        "reservation"
+      ],
+      [
+        "la valigia",
+        "suitcase"
+      ],
+      [
+        "il passaporto",
+        "passport"
+      ],
+      [
+        "l'albergo",
+        "hotel"
+      ],
+      [
+        "il programma",
+        "plan, programme"
+      ],
+      [
+        "prenotare",
+        "to book"
+      ],
+      [
+        "partire",
+        "to leave"
+      ],
+      [
+        "pagare",
+        "to pay"
+      ],
+      [
+        "il conto",
+        "bill"
+      ],
+      [
+        "l'anno prossimo",
+        "next year"
+      ],
+      [
+        "forse",
+        "maybe"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il volo",
+            "flight"
+          ],
+          [
+            "la valigia",
+            "suitcase"
+          ],
+          [
+            "l'albergo",
+            "hotel"
+          ],
+          [
+            "prenotare",
+            "to book"
+          ],
+          [
+            "il conto",
+            "bill"
+          ],
+          [
+            "forse",
+            "maybe"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{pp:Ho fatto} la [[prenotazione]] online. (reservation)",
+          "Non dimenticare il [[passaporto]]! (passport)",
+          "L'[[anno]] prossimo {fs:andrò} in Italia. (year)",
+          "Qual {ip:è} il [[programma]] per domani? (plan)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "L'estate prossima io e Marta {fs:faremo} un viaggio in Sardegna. {ip:Partiamo} il 2 luglio: il volo {ip:è} alle sei di mattina e {pp:abbiamo} già {pp:prenotato} un piccolo albergo vicino al mare.",
+      "Se {fs:farà} bello, {fs:andremo} in spiaggia tutti i giorni. Se {ip:piove}, {fs:visiteremo} i musei di Cagliari. Marta {ip:dice} che {fs:imparerà} a nuotare, ma io non ci {ip:credo}: {fs:avrà} paura dell'acqua come sempre!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "They have already booked a hotel.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The flight leaves in the evening.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "If it rains, they will visit museums.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The speaker thinks Marta will learn to swim.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Marta",
+        "A che ora {ip:parte} il treno domani?"
+      ],
+      [
+        "Paolo",
+        "{ip:Parte} alle otto. {fs:Verrai} alla stazione?"
+      ],
+      [
+        "Marta",
+        "Se {ip:ho} tempo, {ip:vengo}. Stasera {ip:ceno} con i miei."
+      ],
+      [
+        "Paolo",
+        "Che tempo {fs:farà}?"
+      ],
+      [
+        "Marta",
+        "{ip:Dicono} che {fs:pioverà}."
+      ],
+      [
+        "Paolo",
+        "Allora {fs:prenderò} l'ombrello!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Parte#ip]] alle otto.",
+          "[[Verrai#fs]] alla stazione?",
+          "Se [[ho#ip]] tempo, {ip:vengo}.",
+          "{ip:Dicono} che [[pioverà#fs]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What is Marta doing this evening?",
+        "questions": [
+          {
+            "q": "This evening Marta…",
+            "options": [
+              "is going to the station",
+              "*is having dinner with her family",
+              "is leaving"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Tomorrow I will leave.",
+            "a": [
+              "Domani partirò.",
+              "Domani io partirò.",
+              "Partirò domani."
+            ]
+          },
+          {
+            "q": "Next year we will go to Italy.",
+            "a": [
+              "L'anno prossimo andremo in Italia."
+            ]
+          },
+          {
+            "q": "If I have time, I'll come.",
+            "a": [
+              "Se ho tempo, vengo.",
+              "Se avrò tempo, verrò."
+            ]
+          },
+          {
+            "q": "The train leaves at eight.",
+            "a": [
+              "Il treno parte alle otto."
+            ]
+          },
+          {
+            "q": "It will rain tomorrow.",
+            "a": [
+              "Domani pioverà.",
+              "Pioverà domani."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

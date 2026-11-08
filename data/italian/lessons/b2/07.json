@@ -1,0 +1,432 @@
+{
+  "title": "Non ci {ip:credo}: te ne {tp:avevo} già {tp:parlato}",
+  "translation": "I don't believe it: I had already told you about it",
+  "topics": "Combined pronouns in all positions, the different meanings of ci and ne",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Combined pronouns: where they stand"
+      },
+      "Before a conjugated verb, they stay separate, except *glie-*, which joins the next pronoun. After an infinitive, a gerund or an informal imperative, they form one word with the verb.",
+      {
+        "table": {
+          "head": [
+            "Position",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Before the verb",
+              "Te lo {ip:dico}. Glielo {ip:dico}. Ce li {ip:porta}."
+            ],
+            [
+              "After an infinitive",
+              "{ip:Voglio} dirtelo. {ip:Devo} portarglieli."
+            ],
+            [
+              "With a modal: both are possible",
+              "Te lo {ip:voglio} dire. {ip:Voglio} dirtelo."
+            ],
+            [
+              "After an informal command",
+              "{imv:Dammelo}! {imv:Portaglieli}!"
+            ],
+            [
+              "With a formal command",
+              "Me lo {imv:dia}! Gliela {imv:porti}!"
+            ],
+            [
+              "Negative command",
+              "Non dirmelo! Non me lo dire!"
+            ]
+          ]
+        }
+      },
+      "In the compound tenses, the participle agrees with *lo, la, li, le*, and with *ne* when it means a quantity: *Gliel'{pp:ho dat**a**}. Ce li {pp:ha portat**i**}. Ne {pp:ho mangiat**e**} due.*",
+      {
+        "h": "What ci can replace"
+      },
+      {
+        "table": {
+          "head": [
+            "It replaces",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "a place",
+              "Ci {ip:vado} domani.",
+              "there"
+            ],
+            [
+              "a + thing (idea)",
+              "Non ci {ip:credo}. (credere a)",
+              "in it"
+            ],
+            [
+              "a + thing",
+              "Ci {ip:penso} io. (pensare a)",
+              "about it"
+            ],
+            [
+              "su + thing",
+              "{ip:Puoi} contarci. (contare su)",
+              "on it"
+            ],
+            [
+              "con + person or thing",
+              "Ci {ip:esco} stasera. (uscire con)",
+              "with him / her"
+            ]
+          ]
+        }
+      },
+      "With people, *ci* is usually avoided: *{ip:Penso} a mia madre → {ip:Penso} a lei*, and verbs like *telefonare a* take *gli* or *le*.",
+      {
+        "h": "What ne can replace"
+      },
+      {
+        "table": {
+          "head": [
+            "It replaces",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "a quantity",
+              "Ne {ip:voglio} due.",
+              "of them"
+            ],
+            [
+              "di + thing",
+              "Ne {pp:abbiamo parlato}. (parlare di)",
+              "about it"
+            ],
+            [
+              "da + place",
+              "Ne {pp:sono} appena {pp:uscito}. (uscire da)",
+              "from there"
+            ],
+            [
+              "di + cause",
+              "Ne {ip:sono} contento. (contento di)",
+              "about it"
+            ]
+          ]
+        }
+      },
+      "Many verbs and adjectives take *a* or *di*, so that the preposition tells you which pronoun you need: *ricordarsi di → Me ne {ip:ricordo}*, *riuscire a → Ci riesco*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Replace the words in brackets with combined pronouns.",
+        "questions": [
+          "[[Te ne]] {pp:ho} già {pp:parlato}. (a te, di questo)",
+          "[[Glielo]] {ip:spiego} io. (a Marco, il problema)",
+          "[[Ce li]] {pp:hanno portati} ieri. (a noi, i documenti)",
+          "{ip:Voglio} [[dirtelo]] adesso. (a te, il segreto – attach to dire)",
+          "[[Portaglieli#imv]] subito! (a lui, i libri – attach to porta)",
+          "[[Me la]] {imv:dia}, per favore. (a me, la ricevuta)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose ci or ne.",
+        "questions": [
+          {
+            "q": "Non ___ {ip:credo}. (credere a)",
+            "options": [
+              "*ci",
+              "ne"
+            ]
+          },
+          {
+            "q": "___ {pp:abbiamo parlato} ieri. (parlare di)",
+            "options": [
+              "Ci",
+              "*Ne"
+            ]
+          },
+          {
+            "q": "Non ___ riesco. (riuscire a)",
+            "options": [
+              "*ci",
+              "ne"
+            ]
+          },
+          {
+            "q": "Me ___ ricordo bene. (ricordarsi di)",
+            "options": [
+              "ci",
+              "*ne"
+            ]
+          },
+          {
+            "q": "{ip:Puoi} contar___ . (contare su)",
+            "options": [
+              "*ci",
+              "ne"
+            ]
+          },
+          {
+            "q": "___ {ip:sono} contento. (contento di)",
+            "options": [
+              "Ci",
+              "*Ne"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Agree the participle.",
+        "questions": [
+          "La lettera? Gliel'{pp:ho} [[data#pp]].",
+          "I libri? Ce li {pp:ha} [[portati#pp]].",
+          "Quante mele {pp:hai mangiato}? Ne {pp:ho} [[mangiate#pp]] due.",
+          "Le chiavi? Me le {pp:ha} [[restituite#pp]]."
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la fiducia",
+        "trust"
+      ],
+      [
+        "il pettegolezzo",
+        "gossip"
+      ],
+      [
+        "la voce",
+        "rumour, voice"
+      ],
+      [
+        "la novità",
+        "news, novelty"
+      ],
+      [
+        "contare su",
+        "to count on"
+      ],
+      [
+        "fidarsi di",
+        "to trust"
+      ],
+      [
+        "accorgersi di",
+        "to notice"
+      ],
+      [
+        "rendersi conto di",
+        "to realise"
+      ],
+      [
+        "rinunciare a",
+        "to give up"
+      ],
+      [
+        "riuscire a",
+        "to manage to"
+      ],
+      [
+        "credere a",
+        "to believe"
+      ],
+      [
+        "sul serio",
+        "seriously"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la fiducia",
+            "trust"
+          ],
+          [
+            "fidarsi di",
+            "to trust"
+          ],
+          [
+            "accorgersi di",
+            "to notice"
+          ],
+          [
+            "rendersi conto di",
+            "to realise"
+          ],
+          [
+            "rinunciare a",
+            "to give up"
+          ],
+          [
+            "sul serio",
+            "seriously"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the preposition each verb takes.",
+        "questions": [
+          "Mi {ip:fido} [[di]] te.",
+          "Non {pp:ho rinunciato} [[al]] viaggio.",
+          "{pp:Sei riuscito} [[a]] finire?",
+          "Non mi {pp:sono reso} conto [[del]] problema."
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Ti {ip:ricordi} di Davide, il nostro compagno di università? Te ne {tp:avevo} già {tp:parlato}: {pp:ha lasciato} un ottimo lavoro in banca per aprire un agriturismo in Abruzzo. All'inizio nessuno ci {im:credeva}. Sua madre non se n'{pp:è} neppure {pp:accorta} per mesi, perché lui non gliel'{tp:aveva detto}.",
+      "Ora ci {ip:vive} tutto l'anno con la moglie e tre cani. {pp:Sono andata} a trovarlo: ci {pp:sono stata} una settimana e me ne {ip:sono} innamorata. Mi {pp:ha dato} due bottiglie del suo olio, ma ne {pp:ho} già {pp:regalata} una. Se {ip:vuoi}, te la {ip:porto}. {ip:Puoi} contarci!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Davide used to work in a bank.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "His mother knew from the start.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The writer spent a week at the farm.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "She still has both bottles of oil.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Lea",
+        "{pp:Hai saputo} di Davide? Non ci {ip:credo} ancora."
+      ],
+      [
+        "Nico",
+        "Sì, me l'{pp:ha detto} Paola. Ne {pp:avete parlato}?"
+      ],
+      [
+        "Lea",
+        "Certo, gliel'{pp:ho chiesto} ieri, ma non me ne {pp:ha voluto} parlare."
+      ],
+      [
+        "Nico",
+        "Si {ip:fida} di te. {fs:Riproverò} io a dirglielo."
+      ],
+      [
+        "Lea",
+        "Ci {fs:riuscirai}?"
+      ],
+      [
+        "Nico",
+        "Non lo {ip:so}, ma ci {ip:provo}. {imv:Contaci}!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Non [[ci]] {ip:credo} ancora.",
+          "[[Me l']]{pp:ha detto} Paola.",
+          "Non me [[ne]] {pp:ha voluto} parlare.",
+          "{fs:Riproverò} io a [[dirglielo]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Who told Nico?",
+        "questions": [
+          {
+            "q": "Nico heard the news from…",
+            "options": [
+              "Lea",
+              "*Paola",
+              "Davide"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I don't believe it.",
+            "a": [
+              "Non ci credo.",
+              "Io non ci credo."
+            ]
+          },
+          {
+            "q": "We talked about it yesterday.",
+            "a": [
+              "Ne abbiamo parlato ieri.",
+              "Ieri ne abbiamo parlato."
+            ]
+          },
+          {
+            "q": "I had already told you about it. (informal)",
+            "a": [
+              "Te ne avevo già parlato."
+            ]
+          },
+          {
+            "q": "I'll explain it to him. (a problem, il problema)",
+            "a": [
+              "Glielo spiego io.",
+              "Glielo spiego.",
+              "Glielo spiegherò."
+            ]
+          },
+          {
+            "q": "You can count on it. (informal)",
+            "a": [
+              "Puoi contarci.",
+              "Ci puoi contare."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

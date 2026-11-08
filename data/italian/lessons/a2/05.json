@@ -1,0 +1,416 @@
+{
+  "title": "Mi {pp:sono svegliata} presto: {ip:lavoro} qui da un anno",
+  "translation": "I woke up early: I've been working here for a year",
+  "topics": "Reflexive verbs in the past, expressing duration and frequency with da, per, fino a",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Reflexive verbs in the past"
+      },
+      "Reflexive verbs always take *essere* in the *passato prossimo*, so the participle agrees with the subject. The pronoun stays in front of the auxiliary.",
+      {
+        "table": {
+          "head": [
+            "",
+            "A man",
+            "A woman"
+          ],
+          "rows": [
+            [
+              "io",
+              "mi {pp:sono svegliat**o**}",
+              "mi {pp:sono svegliat**a**}"
+            ],
+            [
+              "tu",
+              "ti {pp:sei svegliat**o**}",
+              "ti {pp:sei svegliat**a**}"
+            ],
+            [
+              "lui / lei",
+              "si {pp:è svegliat**o**}",
+              "si {pp:è svegliat**a**}"
+            ],
+            [
+              "noi",
+              "ci {pp:siamo svegliat**i**}",
+              "ci {pp:siamo svegliat**e**}"
+            ],
+            [
+              "voi",
+              "vi {pp:siete svegliat**i**}",
+              "vi {pp:siete svegliat**e**}"
+            ],
+            [
+              "loro",
+              "si {pp:sono svegliat**i**}",
+              "si {pp:sono svegliat**e**}"
+            ]
+          ]
+        }
+      },
+      "*Non* comes before the pronoun: *Non mi {pp:sono svegliata} presto*.",
+      "Some verbs are reflexive in Italian only: *divertirsi* (to have fun), *riposarsi* (to rest), *ricordarsi* (to remember), *arrabbiarsi* (to get angry), *sentirsi* (to feel).",
+      {
+        "h": "With a modal verb or an infinitive"
+      },
+      "The pronoun attaches to the infinitive and matches the person: *{ip:Devo} alzarmi presto. {ip:Vuoi} riposarti?* It can also go before the modal: *Mi {ip:devo} alzare presto.*",
+      {
+        "h": "Da or per?"
+      },
+      "Ask whether the action is still going on. If it is, Italian uses the present with *da*, unlike English: *{ip:Studio} italiano da un anno* means that you started a year ago and you are still studying. If it is over, use the *passato prossimo* with *per*.",
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Use",
+            "Example"
+          ],
+          "rows": [
+            [
+              "da",
+              "still going on, since",
+              "{ip:Lavoro} qui da un anno. {ip:Abito} qui dal 2020."
+            ],
+            [
+              "per",
+              "finished block of time",
+              "{pp:Ho lavorato} lì per un anno."
+            ],
+            [
+              "fino a",
+              "until",
+              "{ip:Resto} fino a domenica."
+            ],
+            [
+              "da… a",
+              "from… to",
+              "{ip:Lavoro} dalle nove alle cinque."
+            ]
+          ]
+        }
+      },
+      "To ask: *Da quanto tempo {ip:studi} italiano?* (How long have you been studying Italian?)",
+      {
+        "h": "How often"
+      },
+      "*Ogni giorno* (every day), *una volta alla settimana* (once a week), *due volte al mese* (twice a month), *tutti i giorni* (every day), *di rado* (rarely)."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the reflexive verb in the passato prossimo.",
+        "questions": [
+          "Stamattina io [[mi sono svegliata#pp]] presto. (svegliarsi – a woman)",
+          "Marco [[si è alzato#pp]] tardi. (alzarsi)",
+          "Tu [[ti sei divertito#pp]] alla festa? (divertirsi – a man)",
+          "Noi [[ci siamo riposati#pp]] in vacanza. (riposarsi – a group of men)",
+          "Le ragazze [[si sono vestite#pp]] in fretta. (vestirsi)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Attach the right pronoun to the infinitive.",
+        "questions": [
+          "Domani io {ip:devo} [[alzarmi]] presto. (alzarsi)",
+          "Tu {ip:vuoi} [[riposarti]] un po'? (riposarsi)",
+          "{ip:Dobbiamo} [[prepararci]] per l'esame. (prepararsi)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "{ip:Studio} italiano ___ un anno. (I still study)",
+            "options": [
+              "*da",
+              "per",
+              "fino a"
+            ]
+          },
+          {
+            "q": "Ho vissuto a Milano ___ due anni. (it's over)",
+            "options": [
+              "da",
+              "*per",
+              "fino a"
+            ]
+          },
+          {
+            "q": "{ip:Lavoro} ___ nove alle cinque.",
+            "options": [
+              "*dalle",
+              "per le",
+              "fino le"
+            ]
+          },
+          {
+            "q": "{ip:Resto} qui ___ domenica.",
+            "options": [
+              "da",
+              "per",
+              "*fino a"
+            ]
+          },
+          {
+            "q": "I've lived here for two years.",
+            "options": [
+              "*{ip:Abito} qui da due anni.",
+              "{pp:Ho abitato} qui da due anni.",
+              "{ip:Abito} qui per due anni."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la sveglia",
+        "alarm clock"
+      ],
+      [
+        "la doccia",
+        "shower"
+      ],
+      [
+        "il lavoro",
+        "job, work"
+      ],
+      [
+        "l'ufficio",
+        "office"
+      ],
+      [
+        "il collega",
+        "colleague"
+      ],
+      [
+        "l'orario",
+        "timetable, hours"
+      ],
+      [
+        "divertirsi",
+        "to have fun"
+      ],
+      [
+        "riposarsi",
+        "to rest"
+      ],
+      [
+        "arrabbiarsi",
+        "to get angry"
+      ],
+      [
+        "sentirsi",
+        "to feel"
+      ],
+      [
+        "ricordarsi",
+        "to remember"
+      ],
+      [
+        "di rado",
+        "rarely"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la sveglia",
+            "alarm clock"
+          ],
+          [
+            "l'orario",
+            "timetable, hours"
+          ],
+          [
+            "divertirsi",
+            "to have fun"
+          ],
+          [
+            "riposarsi",
+            "to rest"
+          ],
+          [
+            "arrabbiarsi",
+            "to get angry"
+          ],
+          [
+            "sentirsi",
+            "to feel"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Lavoro} in un [[ufficio]] in centro. (office)",
+          "Mi {pp:sono fatta} la [[doccia]]. (shower)",
+          "Come ti [[senti#ip]] oggi? (do you feel)",
+          "{ip:Vado} in palestra [[una]] volta alla settimana. (once)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Mi {ip:chiamo} Irene e {ip:lavoro} in un ufficio a Bologna da un anno. Stamattina mi {pp:sono svegliata} presto, ma non {pp:ho sentito} la sveglia di mio marito. Lui si {pp:è alzato} tardi e si {pp:è arrabbiato} molto.",
+      "Il mio orario {ip:è} dalle nove alle cinque. Prima {pp:ho lavorato} in un negozio per tre anni, ma non mi {im:divertivo}. Adesso {ip:sto} bene e mi {ip:riposo} due volte alla settimana in piscina. {ip:Resto} a Bologna almeno fino a giugno."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "How long has Irene worked in the office?",
+            "options": [
+              "Three years",
+              "*One year",
+              "Since June"
+            ]
+          },
+          {
+            "q": "Why did her husband get angry?",
+            "options": [
+              "*He got up late",
+              "He lost his job",
+              "Irene was late"
+            ]
+          },
+          {
+            "q": "Irene worked in a shop for…",
+            "options": [
+              "one year",
+              "*three years",
+              "five years"
+            ]
+          },
+          {
+            "q": "How often does she go to the swimming pool?",
+            "options": [
+              "Every day",
+              "Once a month",
+              "*Twice a week"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Sandro",
+        "Da quanto tempo {ip:abiti} a Bologna?"
+      ],
+      [
+        "Irene",
+        "Da un anno. E tu?"
+      ],
+      [
+        "Sandro",
+        "Io {pp:ho abitato} qui per dieci anni, poi {pp:sono partito}."
+      ],
+      [
+        "Irene",
+        "Ti {pp:sei divertito} ieri alla festa?"
+      ],
+      [
+        "Sandro",
+        "Sì, ma mi {pp:sono addormentato} sul divano!"
+      ],
+      [
+        "Irene",
+        "Allora oggi {ip:devi} riposarti."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Da]] quanto tempo {ip:abiti} a Bologna?",
+          "{pp:Ho abitato} qui [[per]] dieci anni.",
+          "Ti {pp:sei} [[divertito#pp]] ieri alla festa?",
+          "Oggi {ip:devi} [[riposarti]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Sandro still lives in Bologna.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Sandro fell asleep on the sofa.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I woke up early. (a woman speaking)",
+            "a": [
+              "Mi sono svegliata presto.",
+              "Io mi sono svegliata presto."
+            ]
+          },
+          {
+            "q": "He got up late.",
+            "a": [
+              "Si è alzato tardi.",
+              "Lui si è alzato tardi."
+            ]
+          },
+          {
+            "q": "I have been studying Italian for a year.",
+            "a": [
+              "Studio italiano da un anno.",
+              "Studio l'italiano da un anno.",
+              "Io studio italiano da un anno."
+            ]
+          },
+          {
+            "q": "I work from nine to five.",
+            "a": [
+              "Lavoro dalle nove alle cinque.",
+              "Io lavoro dalle nove alle cinque."
+            ]
+          },
+          {
+            "q": "I have to get up early.",
+            "a": [
+              "Devo alzarmi presto.",
+              "Mi devo alzare presto."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "title": "Questo libro nuovo {ip:è} bello",
+  "translation": "This new book is beautiful",
+  "topics": "Agreement of adjectives, the demonstratives questo and quello",
+  "grammar": {
+    "explain": [
+      "An adjective agrees with its noun in gender and number. It usually comes after the noun: *un libro nuovo*.",
+      {
+        "table": {
+          "head": [
+            "Type",
+            "Masc. sing.",
+            "Fem. sing.",
+            "Masc. pl.",
+            "Fem. pl."
+          ],
+          "rows": [
+            [
+              "-o / -a",
+              "nuov**o**",
+              "nuov**a**",
+              "nuov**i**",
+              "nuov**e**"
+            ],
+            [
+              "-e",
+              "grand**e**",
+              "grand**e**",
+              "grand**i**",
+              "grand**i**"
+            ]
+          ]
+        }
+      },
+      "Examples: *un libro nuovo, due case nuove, un ragazzo inglese, una ragazza inglese*.",
+      "*Questo* (this) points to something near you and changes like an adjective in -o: *questo libro, questa casa, questi libri, queste case*. Before a vowel, the singular may become *quest'*.",
+      "*Quello* (that) points to something far away. Before a noun it changes like the definite article.",
+      {
+        "table": {
+          "head": [
+            "Like the article",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "il / i",
+              "**quel** libro",
+              "**quei** libri"
+            ],
+            [
+              "lo / gli",
+              "**quello** zaino",
+              "**quegli** zaini"
+            ],
+            [
+              "l' (masc.) / gli",
+              "**quell'**amico",
+              "**quegli** amici"
+            ],
+            [
+              "la / le",
+              "**quella** casa",
+              "**quelle** case"
+            ],
+            [
+              "l' (fem.) / le",
+              "**quell'**amica",
+              "**quelle** amiche"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the adjective in brackets in the right form.",
+        "questions": [
+          "una casa [[nuova]] (nuovo)",
+          "due libri [[belli]] (bello)",
+          "le ragazze [[inglesi]] (inglese)",
+          "un ragazzo [[alto]] (alto)",
+          "due chiavi [[piccole]] (piccolo)",
+          "una città [[grande]] (grande)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right demonstrative.",
+        "questions": [
+          {
+            "q": "___ libro (near you)",
+            "options": [
+              "*questo",
+              "questa",
+              "questi"
+            ]
+          },
+          {
+            "q": "___ case (near you)",
+            "options": [
+              "questa",
+              "questi",
+              "*queste"
+            ]
+          },
+          {
+            "q": "___ zaino (far away)",
+            "options": [
+              "quel",
+              "*quello",
+              "quella"
+            ]
+          },
+          {
+            "q": "___ libri (far away)",
+            "options": [
+              "*quei",
+              "quegli",
+              "quelle"
+            ]
+          },
+          {
+            "q": "___ amici (far away)",
+            "options": [
+              "quei",
+              "*quegli",
+              "quelli"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "nuovo",
+        "new"
+      ],
+      [
+        "vecchio",
+        "old"
+      ],
+      [
+        "bello",
+        "beautiful"
+      ],
+      [
+        "brutto",
+        "ugly"
+      ],
+      [
+        "grande",
+        "big"
+      ],
+      [
+        "piccolo",
+        "small"
+      ],
+      [
+        "alto",
+        "tall"
+      ],
+      [
+        "basso",
+        "short"
+      ],
+      [
+        "caro",
+        "expensive"
+      ],
+      [
+        "economico",
+        "cheap"
+      ],
+      [
+        "rosso",
+        "red"
+      ],
+      [
+        "bianco",
+        "white"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each adjective with its translation.",
+        "pairs": [
+          [
+            "vecchio",
+            "old"
+          ],
+          [
+            "brutto",
+            "ugly"
+          ],
+          [
+            "piccolo",
+            "small"
+          ],
+          [
+            "basso",
+            "short"
+          ],
+          [
+            "caro",
+            "expensive"
+          ],
+          [
+            "economico",
+            "cheap"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Write the opposite, in the same form.",
+        "questions": [
+          "un libro nuovo ≠ un libro [[vecchio]]",
+          "una casa grande ≠ una casa [[piccola]]",
+          "un ragazzo alto ≠ un ragazzo [[basso]]",
+          "due borse care ≠ due borse [[economiche]]"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Elena {ip:è} in un negozio con Sara. «{imv:Guarda} questa borsa rossa! {ip:È} molto bella.» «Sì, ma {ip:è} cara. Quella borsa bianca {ip:è} più economica.»",
+      "Elena {ip:preferisce} la borsa rossa. Sara {ip:guarda} due libri: questo libro {ip:è} nuovo e {ip:costa} venti euro, quel libro {ip:è} vecchio e {ip:costa} due euro. Sara {ip:compra} il libro vecchio."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "The red bag is…",
+            "options": [
+              "ugly and cheap",
+              "*beautiful but expensive",
+              "old"
+            ]
+          },
+          {
+            "q": "The white bag is…",
+            "options": [
+              "*cheaper",
+              "bigger",
+              "new"
+            ]
+          },
+          {
+            "q": "The old book costs…",
+            "options": [
+              "*two euros",
+              "ten euros",
+              "twenty euros"
+            ]
+          },
+          {
+            "q": "Which book does Sara buy?",
+            "options": [
+              "The new one",
+              "*The old one",
+              "Neither"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Paolo",
+        "Di chi {ip:è} quello zaino?"
+      ],
+      [
+        "Marta",
+        "Quale? Quello rosso?"
+      ],
+      [
+        "Paolo",
+        "No, quello grande e nero."
+      ],
+      [
+        "Marta",
+        "{ip:È} di Luca. Questo piccolo {ip:è} il mio."
+      ],
+      [
+        "Paolo",
+        "{ip:È} molto bello!"
+      ],
+      [
+        "Marta",
+        "Grazie, {ip:è} nuovo!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Di chi {ip:è} [[quello]] zaino?",
+          "No, quello grande e [[nero]].",
+          "[[Questo]] piccolo {ip:è} il mio.",
+          "Grazie, {ip:è} [[nuovo]]!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The big black backpack belongs to Luca.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Marta's backpack is old.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "a new book",
+            "a": [
+              "un libro nuovo"
+            ]
+          },
+          {
+            "q": "two small houses",
+            "a": [
+              "due case piccole"
+            ]
+          },
+          {
+            "q": "this red bag",
+            "a": [
+              "questa borsa rossa"
+            ]
+          },
+          {
+            "q": "that backpack",
+            "a": [
+              "quello zaino"
+            ]
+          },
+          {
+            "q": "This book is beautiful.",
+            "a": [
+              "Questo libro è bello."
+            ]
+          },
+          {
+            "q": "Those houses are big.",
+            "a": [
+              "Quelle case sono grandi."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

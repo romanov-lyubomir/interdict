@@ -1,0 +1,409 @@
+{
+  "title": "Finito il lavoro, {im:camminava} parlando al telefono",
+  "translation": "Once work was over, he walked along talking on the phone",
+  "topics": "Participle clauses, the gerund, infinitive constructions",
+  "grammar": {
+    "explain": [
+      {
+        "h": "The past participle on its own"
+      },
+      "A past participle can replace a whole time clause. It means *once this was done* and it's typical of written Italian. It agrees with the noun that follows, which is the thing that was completed.",
+      {
+        "table": {
+          "head": [
+            "Full clause",
+            "Participle clause"
+          ],
+          "rows": [
+            [
+              "Dopo che il lavoro {pp:è finito}, {pp:siamo usciti}.",
+              "Finit**o** il lavoro, {pp:siamo usciti}."
+            ],
+            [
+              "Dopo che {pp:ha letto} la lettera, {pp:ha pianto}.",
+              "Lett**a** la lettera, {pp:ha pianto}."
+            ],
+            [
+              "Dopo che {tp:erano arrivati} gli ospiti, {pp:abbiamo cenato}.",
+              "Arrivat**i** gli ospiti, {pp:abbiamo cenato}."
+            ]
+          ]
+        }
+      },
+      "Pronouns attach to the participle: *Salutatolo, {pp:è uscita}* (Having said goodbye to him, she left).",
+      {
+        "h": "The present participle"
+      },
+      "It is rarely a verb in modern Italian. Mostly it has become an adjective or a noun: *interessante, divertente, importante; il cantante, l'insegnante, lo studente*.",
+      {
+        "h": "What the gerund can mean"
+      },
+      "The gerund can express time, manner, cause or concession. Its subject must be the same as that of the main verb.",
+      {
+        "table": {
+          "head": [
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "While",
+              "{im:Camminava} parlando al telefono."
+            ],
+            [
+              "How",
+              "{pp:Ha imparato} leggendo."
+            ],
+            [
+              "Because",
+              "Avendo fame, {pp:ha mangiato}."
+            ],
+            [
+              "Although, with pur",
+              "Pur essendo stanco, {pp:ha lavorato}."
+            ]
+          ]
+        }
+      },
+      "The compound gerund shows that the action came first: *Avendo finito, {pp:sono uscito}. Essendo partita presto, {pp:è arrivata} prima.*",
+      {
+        "h": "Stare + gerund and andare + gerund"
+      },
+      "*Stare* shows an action in progress: *{ip:Sto} leggendo*. It cannot be used with a future idea, so *{ip:Sto} partendo domani* is wrong. *Andare* + gerund shows gradual progress: *La situazione {ip:va} migliorando.*",
+      {
+        "h": "The infinitive in linked clauses"
+      },
+      "When both parts have the same subject, the infinitive is usually preferred to a full clause.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example"
+          ],
+          "rows": [
+            [
+              "prima di + infinitive",
+              "Prima di uscire, {imv:chiudi} la porta."
+            ],
+            [
+              "dopo aver + participle",
+              "Dopo aver mangiato, {pp:siamo usciti}."
+            ],
+            [
+              "dopo essere + participle",
+              "Dopo essere arrivat**i**, {pp:abbiamo mangiato}."
+            ],
+            [
+              "senza + infinitive",
+              "{pp:È uscito} senza salutare."
+            ],
+            [
+              "per + infinitive",
+              "{ip:Studio} per superare l'esame."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the participle clause. Make the participle agree.",
+        "questions": [
+          "[[Finito]] il lavoro, {pp:siamo usciti}. (finire)",
+          "[[Letta]] la lettera, {pp:ha pianto}. (leggere)",
+          "[[Arrivati]] gli ospiti, {pp:abbiamo cenato}. (arrivare)",
+          "[[Chiuse#pr]] le finestre, {pp:è andato} a letto. (chiudere)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Use the gerund, simple or compound.",
+        "questions": [
+          "{im:Camminava} [[parlando]] al telefono. (parlare)",
+          "{pp:Ha imparato} [[leggendo]] molti libri. (leggere)",
+          "[[Avendo finito]], {pp:sono uscito}. (finire, earlier)",
+          "[[Essendo partita]] presto, {pp:è arrivata} prima. (partire, earlier)",
+          "Pur [[essendo]] stanco, {pp:ha lavorato}. (essere)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Dopo ___ mangiato, {pp:siamo usciti}.",
+            "options": [
+              "*aver",
+              "essere",
+              "avendo"
+            ]
+          },
+          {
+            "q": "Dopo ___ arrivati, {pp:abbiamo telefonato}.",
+            "options": [
+              "aver",
+              "*essere",
+              "avendo"
+            ]
+          },
+          {
+            "q": "{pp:È uscito} ___ salutare.",
+            "options": [
+              "*senza",
+              "prima",
+              "dopo"
+            ]
+          },
+          {
+            "q": "___ di uscire, {imv:chiudi} la porta.",
+            "options": [
+              "Dopo",
+              "*Prima",
+              "Senza"
+            ]
+          },
+          {
+            "q": "Domani ___ .",
+            "options": [
+              "{ip:sto} partendo",
+              "*{ip:parto}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il pendolare",
+        "commuter"
+      ],
+      [
+        "la fretta",
+        "hurry"
+      ],
+      [
+        "il marciapiede",
+        "pavement"
+      ],
+      [
+        "il passante",
+        "passer-by"
+      ],
+      [
+        "il cantante",
+        "singer"
+      ],
+      [
+        "l'insegnante",
+        "teacher"
+      ],
+      [
+        "camminare",
+        "to walk"
+      ],
+      [
+        "attraversare",
+        "to cross"
+      ],
+      [
+        "inciampare",
+        "to trip"
+      ],
+      [
+        "distrarsi",
+        "to get distracted"
+      ],
+      [
+        "distratto",
+        "absent-minded"
+      ],
+      [
+        "di corsa",
+        "in a rush"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il pendolare",
+            "commuter"
+          ],
+          [
+            "il marciapiede",
+            "pavement"
+          ],
+          [
+            "il passante",
+            "passer-by"
+          ],
+          [
+            "inciampare",
+            "to trip"
+          ],
+          [
+            "distrarsi",
+            "to get distracted"
+          ],
+          [
+            "di corsa",
+            "in a rush"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Ho} sempre [[fretta]] la mattina. (hurry)",
+          "Il mio [[insegnante]] {ip:è} molto bravo. (teacher)",
+          "{ip:Sei} proprio [[distratto]] oggi! (absent-minded)",
+          "{ip:È} pericoloso [[attraversare]] qui. (to cross)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Finito il turno in ufficio, Claudio {ip:esce} di corsa e si {ip:dirige} verso la stazione camminando con il telefono in mano. Pur sapendo che {ip:è} pericoloso, {ip:risponde} ai messaggi attraversando la strada. Ieri, distrattosi per un attimo, {pp:è inciampato} sul marciapiede davanti a tutti i passanti.",
+      "Dopo essersi rialzato, {pp:ha guardato} il telefono: {im:era rotto}. Avendo perso anche il treno, {pp:è tornato} a piedi, senza poter avvisare la moglie. Arrivato a casa, {pp:ha trovato} la cena fredda e un biglietto: «Prima di rispondere ai messaggi, {imv:guarda} dove {ip:metti} i piedi!»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Claudio knows that using his phone while walking is dangerous.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "He tripped on the pavement.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "He managed to catch the train.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "He called his wife to warn her.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Ida",
+        "Che cosa {ip:stai} facendo?"
+      ],
+      [
+        "Tullio",
+        "{ip:Sto} finendo la relazione. Finita quella, {ip:esco}."
+      ],
+      [
+        "Ida",
+        "{pp:Hai mangiato} qualcosa prima di metterti al lavoro?"
+      ],
+      [
+        "Tullio",
+        "No, {pp:ho lavorato} senza fermarmi."
+      ],
+      [
+        "Ida",
+        "Lavorando così ti {fs:ammalerai}!"
+      ],
+      [
+        "Tullio",
+        "Avendo una scadenza domani, non {pp:ho scelta}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:Sto} [[finendo]] la relazione.",
+          "[[Finita]] quella, {ip:esco}.",
+          "{pp:Ho lavorato} [[senza]] fermarmi.",
+          "[[Avendo]] una scadenza domani, non {pp:ho scelta}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why can't Tullio stop working?",
+        "questions": [
+          {
+            "q": "Tullio…",
+            "options": [
+              "is going on holiday",
+              "*has a deadline tomorrow",
+              "is ill"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Once work was finished, we went out. (use finito)",
+            "a": [
+              "Finito il lavoro, siamo usciti."
+            ]
+          },
+          {
+            "q": "After eating, we went out. (use dopo aver)",
+            "a": [
+              "Dopo aver mangiato, siamo usciti."
+            ]
+          },
+          {
+            "q": "He was walking along talking on the phone.",
+            "a": [
+              "Camminava parlando al telefono."
+            ]
+          },
+          {
+            "q": "Although he was tired, he worked. (use pur)",
+            "a": [
+              "Pur essendo stanco, ha lavorato."
+            ]
+          },
+          {
+            "q": "Before going out, close the door. (informal)",
+            "a": [
+              "Prima di uscire, chiudi la porta."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "title": "Mio nonno {pr:partì} nel '50 e non {pp:è} più {pp:tornato}",
+  "translation": "My grandfather left in 1950 and has never come back",
+  "topics": "Fine distinctions among the past tenses, regional and stylistic differences",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Passato prossimo or remoto: three factors"
+      },
+      {
+        "table": {
+          "head": [
+            "Factor",
+            "Passato prossimo",
+            "Passato remoto"
+          ],
+          "rows": [
+            [
+              "Link with the present",
+              "still felt today",
+              "closed and detached"
+            ],
+            [
+              "Text type",
+              "conversation, journalism",
+              "novels, history, biography"
+            ],
+            [
+              "Region",
+              "North: almost the only form",
+              "South: common in speech too; Tuscany: for finished time"
+            ]
+          ]
+        }
+      },
+      "Both tenses can appear in one sentence, because a closed event can have effects that last until today: *Mio nonno {pr:partì} nel '50 e non {pp:è} più {pp:tornato}.* The first verb is history, and the second one reaches up to now.",
+      {
+        "h": "Uses of the imperfetto you may not expect"
+      },
+      {
+        "table": {
+          "head": [
+            "Use",
+            "Example",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Courtesy",
+              "{im:Volevo} un caffè.",
+              "softens a request in the present"
+            ],
+            [
+              "Narrative, in journalism and novels",
+              "Un attimo dopo, il treno {im:deragliava}.",
+              "makes one event vivid, as if on film"
+            ],
+            [
+              "Future in the past, in speech",
+              "Mi {pp:ha detto} che {im:veniva}.",
+              "replaces {cpa:sarebbe venuto}"
+            ],
+            [
+              "Unreal condition, in speech",
+              "Se lo {im:sapevo}, {im:venivo}.",
+              "replaces the full conditional"
+            ],
+            [
+              "Children's games",
+              "{ip:Facciamo} che io {im:ero} il re.",
+              "creates an imagined world"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Verbs that change meaning with the tense"
+      },
+      "With some verbs, the tense decides what actually happened.",
+      {
+        "table": {
+          "head": [
+            "Verb",
+            "Imperfetto",
+            "Passato prossimo"
+          ],
+          "rows": [
+            [
+              "sapere",
+              "{im:Sapevo}. (I knew.)",
+              "{pp:Ho saputo}. (I found out.)"
+            ],
+            [
+              "conoscere",
+              "Conoscevo Anna. (I knew her.)",
+              "Ho conosciuto Anna. (I met her.)"
+            ],
+            [
+              "dovere",
+              "Dovevo uscire. (I was supposed to.)",
+              "Ho dovuto uscire. (I had to, and did.)"
+            ],
+            [
+              "potere",
+              "Potevo farlo. (I had the chance.)",
+              "{pp:Ho potuto} farlo. (I managed.)"
+            ],
+            [
+              "volere",
+              "Volevo partire. (That was my wish.)",
+              "Ho voluto partire. (I insisted and did.)"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The trapassato remoto"
+      },
+      "It's found only in formal narrative, right after *appena*, *dopo che* or *quando*, with a main verb in the *passato remoto*: *Appena {tr:ebbe finito}, {pr:uscì}*. In everyday writing, use *Dopo aver finito, {pr:uscì}*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the form that fits the meaning.",
+        "questions": [
+          {
+            "q": "Ieri ___ che Anna {ip:è} incinta. (I found out)",
+            "options": [
+              "{im:sapevo}",
+              "*{pp:ho saputo}"
+            ]
+          },
+          {
+            "q": "___ Marco a una festa nel 2010. (I met him)",
+            "options": [
+              "{im:Conoscevo}",
+              "*{pp:Ho conosciuto}"
+            ]
+          },
+          {
+            "q": "___ uscire, ma poi {pp:sono rimasta} a casa.",
+            "options": [
+              "*{im:Dovevo}",
+              "{pp:Ho dovuto}"
+            ]
+          },
+          {
+            "q": "Ho perso le chiavi e ___ chiamare un fabbro. (I actually did)",
+            "options": [
+              "{im:dovevo}",
+              "*{pp:ho dovuto}"
+            ]
+          },
+          {
+            "q": "Buongiorno, ___ un'informazione. (polite)",
+            "options": [
+              "*{im:volevo}",
+              "{pp:ho voluto}"
+            ]
+          },
+          {
+            "q": "Appena ___ , {pr:uscì}. (formal narrative)",
+            "options": [
+              "{pp:è finito}",
+              "*{tr:ebbe finito}",
+              "{csi:finisse}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the most suitable past tense for the text type.",
+        "questions": [
+          "Napoleone [[morì#pr]] a Sant'Elena nel 1821. (morire, history)",
+          "{imv:Scusa}, ieri non [[ho potuto#pp]] chiamarti. (potere, conversation)",
+          "Mio nonno [[nacque#pr]] nel 1920 e non [[ha#pp]] mai {pp:smesso} di lavorare. (nascere; avere)",
+          "Da ragazzo [[conoscevo#im]] tutti nel quartiere. (conoscere)",
+          "Finalmente ieri [[ho conosciuto#pp]] i tuoi genitori. (conoscere)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'emigrazione",
+        "emigration"
+      ],
+      [
+        "il fabbro",
+        "locksmith"
+      ],
+      [
+        "il dialetto",
+        "dialect"
+      ],
+      [
+        "la cronaca",
+        "news report"
+      ],
+      [
+        "il romanzo storico",
+        "historical novel"
+      ],
+      [
+        "la lapide",
+        "memorial stone"
+      ],
+      [
+        "emigrare",
+        "to emigrate"
+      ],
+      [
+        "deragliare",
+        "to derail"
+      ],
+      [
+        "tramandare",
+        "to hand down"
+      ],
+      [
+        "svanire",
+        "to fade away"
+      ],
+      [
+        "remoto",
+        "distant"
+      ],
+      [
+        "tutt'oggi",
+        "to this day"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il fabbro",
+            "locksmith"
+          ],
+          [
+            "la lapide",
+            "memorial stone"
+          ],
+          [
+            "tramandare",
+            "to hand down"
+          ],
+          [
+            "svanire",
+            "to fade away"
+          ],
+          [
+            "remoto",
+            "distant"
+          ],
+          [
+            "tutt'oggi",
+            "to this day"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Molti italiani [[emigrarono#pr]] in America. (emigrated)",
+          "Mia nonna {im:parlava} solo il [[dialetto]]. (dialect)",
+          "L'[[emigrazione]] {pp:ha cambiato} il Sud. (emigration)",
+          "{pp:Ho letto} la notizia nella [[cronaca]] locale. (news report)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Mio nonno {pr:partì} da Avellino nel 1950, con una valigia di cartone e l'indirizzo di un cugino a Buenos Aires. Non {pr:tornò} mai, e la sua casa, tutt'oggi, {pp:è rimasta} chiusa. Mia nonna lo {pr:seppe} da una lettera: lui {tp:aveva trovato} lavoro in un cantiere e l'{cpa:avrebbe chiamata} presto. Non lo {pr:fece}.",
+      "Quando io {pp:ho conosciuto} questa storia {im:avevo} quindici anni, e fino ad allora {im:credevo} che {cst:fosse morto} in guerra. Da mia nonna non {pp:ho} mai {pp:saputo} altro. Eppure, ogni domenica, {im:apparecchiava} per due. Ci {ip:sono} famiglie in cui il passato remoto non {ip:finisce} mai."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The grandfather eventually came home.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The grandmother learned of his job from a letter.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The narrator had believed he died in the war.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The grandmother continued to set the table for two.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Nina",
+        "{im:Sapevi} che Tullio si {pp:è trasferito}?"
+      ],
+      [
+        "Carlo",
+        "L'{pp:ho saputo} ieri. {im:Dovevo} vederlo, ma non {pp:ha potuto}."
+      ],
+      [
+        "Nina",
+        "Vi {im:conoscevate} da tanto?"
+      ],
+      [
+        "Carlo",
+        "Ci {pp:siamo conosciuti} all'università, nel '98."
+      ],
+      [
+        "Nina",
+        "E tu? Non {im:volevi} andare via anche tu?"
+      ],
+      [
+        "Carlo",
+        "Sì, ma poi {pp:ho voluto} restare per i miei."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "L'{pp:ho} [[saputo#pp]] ieri.",
+          "[[Dovevo#im]] vederlo, ma non {pp:ha potuto}.",
+          "Ci {pp:siamo} [[conosciuti#pp]] all'università.",
+          "Ma poi {pp:ho} [[voluto#pp]] restare per i miei."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Did Carlo see Tullio?",
+        "questions": [
+          {
+            "q": "Carlo…",
+            "options": [
+              "saw him yesterday",
+              "*didn't manage to see him",
+              "went away with him"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "My grandfather left in 1950 and has never come back. (remoto + prossimo)",
+            "a": [
+              "Mio nonno partì nel 1950 e non è più tornato.",
+              "Mio nonno partì nel '50 e non è più tornato."
+            ]
+          },
+          {
+            "q": "I found out yesterday.",
+            "a": [
+              "L'ho saputo ieri.",
+              "Ieri l'ho saputo."
+            ]
+          },
+          {
+            "q": "I met Anna at a party. (for the first time)",
+            "a": [
+              "Ho conosciuto Anna a una festa."
+            ]
+          },
+          {
+            "q": "I was supposed to go out, but I stayed at home. (a woman speaking)",
+            "a": [
+              "Dovevo uscire, ma sono rimasta a casa."
+            ]
+          },
+          {
+            "q": "Good morning, I wanted some information. (polite)",
+            "a": [
+              "Buongiorno, volevo un'informazione.",
+              "Buongiorno, volevo delle informazioni."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

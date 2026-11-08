@@ -1,0 +1,418 @@
+{
+  "title": "La città in cui {ip:vivo} {ip:è} quella che {ip:amo}",
+  "translation": "The city I live in is the one I love",
+  "topics": "Relative pronouns: che, cui, il quale, chi, quello che",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Che or cui?"
+      },
+      "You already know *che*, which replaces the subject or the direct object. As soon as there is a preposition, you need *cui*. *Cui* never changes.",
+      {
+        "table": {
+          "head": [
+            "Two sentences",
+            "One sentence"
+          ],
+          "rows": [
+            [
+              "La ragazza {ip:parla}. {ip:È} Anna.",
+              "La ragazza **che** {ip:parla} {ip:è} Anna."
+            ],
+            [
+              "{ip:Vivo} in questa città. {ip:È} bella.",
+              "La città **in cui** {ip:vivo} {ip:è} bella."
+            ],
+            [
+              "{ip:Parlo} con un amico. {ip:È} medico.",
+              "L'amico **con cui** {ip:parlo} {ip:è} medico."
+            ],
+            [
+              "{pp:Ho scritto} a una donna. {ip:È} mia zia.",
+              "La donna **a cui** {pp:ho scritto} {ip:è} mia zia."
+            ],
+            [
+              "Ti {pp:ho parlato} di un libro. Eccolo.",
+              "Ecco il libro **di cui** ti {pp:ho parlato}."
+            ]
+          ]
+        }
+      },
+      "*In cui* for a place can be replaced by *dove*: *La città dove {ip:vivo}*. For time, Italians often use *in cui* or *che*: *Il giorno in cui ti {pp:ho conosciuto}*.",
+      {
+        "h": "Il quale"
+      },
+      "*Il quale* means the same as *che* or *cui*, but it shows gender and number. You will see it in formal writing, and when it helps to avoid confusion. It always has the article.",
+      {
+        "table": {
+          "head": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Masculine",
+              "il quale",
+              "i quali"
+            ],
+            [
+              "Feminine",
+              "la quale",
+              "le quali"
+            ]
+          ]
+        }
+      },
+      "With a preposition, the article joins it as usual: *la donna **alla quale** {pp:ho scritto}, l'amico **con il quale** {ip:parlo}*.",
+      {
+        "h": "Chi: the person who"
+      },
+      "*Chi* means *the person who* or *those who* and takes a singular verb: *Chi {ip:studia}, {ip:impara}* (Those who study, learn). It already contains the person, so you don't need a noun in front of it.",
+      {
+        "h": "Quello che: what"
+      },
+      "*Quello che* and *ciò che* mean *what* or *the thing that*, in the middle of a sentence. *Che cosa* is only for questions.",
+      {
+        "table": {
+          "head": [
+            "Question",
+            "Statement"
+          ],
+          "rows": [
+            [
+              "Che cosa {ip:vuoi}?",
+              "Non so quello che vuoi."
+            ],
+            [
+              "Che cosa {pp:ha detto}?",
+              "{pp:Ho capito} ciò che {pp:ha detto}."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with che, or a preposition with cui.",
+        "questions": [
+          "La ragazza [[che]] {ip:parla} {ip:è} Anna.",
+          "Il libro [[che]] {ip:leggo} {ip:è} bello.",
+          "La città [[in cui]] {ip:vivo} {ip:è} grande.",
+          "L'amico [[con cui]] {ip:esco} {ip:è} simpatico.",
+          "La persona [[a cui]] {pp:ho telefonato} non c'{ip:è}.",
+          "Ecco il film [[di cui]] ti {pp:ho parlato}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right word.",
+        "questions": [
+          {
+            "q": "___ {ip:dorme} non piglia pesci.",
+            "options": [
+              "*Chi",
+              "Che",
+              "Cui"
+            ]
+          },
+          {
+            "q": "Non {ip:capisco} ___ {ip:dici}.",
+            "options": [
+              "*quello che",
+              "chi",
+              "cui"
+            ]
+          },
+          {
+            "q": "La signora ___ quale {pp:ho parlato} {ip:è} italiana.",
+            "options": [
+              "*con la",
+              "con il",
+              "con i"
+            ]
+          },
+          {
+            "q": "Gli studenti ___ quali {pp:ho scritto} {ip:sono} qui.",
+            "options": [
+              "*ai",
+              "alle",
+              "al"
+            ]
+          },
+          {
+            "q": "Il giorno ___ ti {pp:ho conosciuto} {im:pioveva}.",
+            "options": [
+              "*in cui",
+              "di chi",
+              "il quale"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Join the two sentences.",
+        "questions": [
+          {
+            "q": "{ip:Vivo} in questa casa. Questa casa {ip:è} piccola.",
+            "a": [
+              "La casa in cui vivo è piccola.",
+              "La casa dove vivo è piccola."
+            ]
+          },
+          {
+            "q": "{ip:Lavoro} con un collega. Il collega {ip:è} gentile.",
+            "a": [
+              "Il collega con cui lavoro è gentile."
+            ]
+          },
+          {
+            "q": "{pp:Ho comprato} una macchina. La macchina {ip:è} rossa.",
+            "a": [
+              "La macchina che ho comprato è rossa."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la periferia",
+        "suburbs"
+      ],
+      [
+        "il centro storico",
+        "old town"
+      ],
+      [
+        "il traffico",
+        "traffic"
+      ],
+      [
+        "il vicolo",
+        "alley"
+      ],
+      [
+        "l'abitante",
+        "inhabitant"
+      ],
+      [
+        "il cittadino",
+        "citizen"
+      ],
+      [
+        "amare",
+        "to love"
+      ],
+      [
+        "trasferirsi",
+        "to move (house)"
+      ],
+      [
+        "crescere",
+        "to grow up"
+      ],
+      [
+        "inquinato",
+        "polluted"
+      ],
+      [
+        "affollato",
+        "crowded"
+      ],
+      [
+        "vivace",
+        "lively"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la periferia",
+            "suburbs"
+          ],
+          [
+            "il vicolo",
+            "alley"
+          ],
+          [
+            "trasferirsi",
+            "to move (house)"
+          ],
+          [
+            "crescere",
+            "to grow up"
+          ],
+          [
+            "inquinato",
+            "polluted"
+          ],
+          [
+            "affollato",
+            "crowded"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Abito} nel centro [[storico]]. (old town)",
+          "A quest'ora c'{ip:è} molto [[traffico]]. (traffic)",
+          "{ip:È} una città molto [[vivace]]. (lively)",
+          "Mi {pp:sono} [[trasferito#pp]] a Napoli. (moved)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "La città in cui {pp:sono cresciuto} {ip:è} Napoli. {ip:È} una città di cui si {ip:parla} spesso male, ma quello che molti non {ip:sanno} {ip:è} quanto {csp:sia} generosa. Il quartiere dove {im:abitavo} {im:era} pieno di vicoli affollati e di persone che si {im:conoscevano} tutte.",
+      "Chi la visita per la prima volta {ip:ha} spesso paura del traffico. La signora da cui {im:compravo} il pane mi {im:chiamava} per nome. Oggi {ip:vivo} a Torino, una città che {ip:apprezzo}, ma Napoli {ip:è} quella che {ip:amo}."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The speaker grew up in Naples.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "According to him, people often speak badly of Naples.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "In his old neighbourhood people didn't know each other.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "He now lives in Rome.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Livia",
+        "{ip:È} questo il ristorante di cui mi {im:parlavi}?"
+      ],
+      [
+        "Ugo",
+        "Sì, {ip:è} quello in cui {pp:ho conosciuto} Marta."
+      ],
+      [
+        "Livia",
+        "Chi {ip:è} il signore con cui {ip:parla} il cameriere?"
+      ],
+      [
+        "Ugo",
+        "{ip:È} il proprietario, la persona che {pp:ha aperto} il locale."
+      ],
+      [
+        "Livia",
+        "Non {ip:so} ancora quello che {ip:voglio} mangiare."
+      ],
+      [
+        "Ugo",
+        "{imv:Prendi} quello che ti {ip:consiglia} lui!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:È} questo il ristorante [[di]] cui mi {im:parlavi}?",
+          "{ip:È} quello [[in]] cui {pp:ho conosciuto} Marta.",
+          "La persona [[che]] {pp:ha aperto} il locale.",
+          "Non {ip:so} ancora [[quello]] che {ip:voglio} mangiare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Who is the man talking to the waiter?",
+        "questions": [
+          {
+            "q": "The man is…",
+            "options": [
+              "*the owner",
+              "a customer",
+              "Marta's father"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "The city I live in is big. (use in cui)",
+            "a": [
+              "La città in cui vivo è grande.",
+              "La città in cui abito è grande."
+            ]
+          },
+          {
+            "q": "The friend I go out with is nice.",
+            "a": [
+              "L'amico con cui esco è simpatico.",
+              "L'amica con cui esco è simpatica."
+            ]
+          },
+          {
+            "q": "Here is the book I told you about. (informal)",
+            "a": [
+              "Ecco il libro di cui ti ho parlato."
+            ]
+          },
+          {
+            "q": "Those who study, learn.",
+            "a": [
+              "Chi studia impara.",
+              "Chi studia, impara."
+            ]
+          },
+          {
+            "q": "I don't know what you want. (informal)",
+            "a": [
+              "Non so quello che vuoi.",
+              "Non so cosa vuoi.",
+              "Non so che cosa vuoi."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

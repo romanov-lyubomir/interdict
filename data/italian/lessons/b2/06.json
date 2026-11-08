@@ -1,0 +1,396 @@
+{
+  "title": "La persona a cui {pp:ho telefonato} {pp:ha detto} che {cpa:sarebbe arrivata} tardi",
+  "translation": "The person I phoned said she would arrive late",
+  "topics": "Reported statements, questions and commands, relative clauses with prepositions",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Reported speech: the full picture"
+      },
+      "After a reporting verb in the past, each tense moves one step back. Tenses that cannot move further stay as they are.",
+      {
+        "table": {
+          "head": [
+            "Direct",
+            "Reported"
+          ],
+          "rows": [
+            [
+              "Presente: «{ip:Parto}.»",
+              "Imperfetto: {im:partiva}"
+            ],
+            [
+              "Passato prossimo: «{pp:Sono partito}.»",
+              "Trapassato: {tp:era partito}"
+            ],
+            [
+              "Futuro: «{fs:Partirò}.»",
+              "Condizionale passato: {cpa:sarebbe partito}"
+            ],
+            [
+              "Condizionale: «{cop:Partirei}.»",
+              "Condizionale passato: {cpa:sarebbe partito}"
+            ],
+            [
+              "Congiuntivo presente: «{ip:Penso} che {csp:parta}.»",
+              "Congiuntivo imperfetto: {im:pensava} che {csi:partisse}"
+            ],
+            [
+              "Imperfetto, trapassato: no change",
+              "{im:partiva}, {tp:era partito}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Reported questions"
+      },
+      "A reported question can use the indicative or, more formally, the *congiuntivo*: *Mi {pp:ha chiesto} dove {im:andavo}* or *dove {csi:andassi}*. A question with no question word takes *se*.",
+      {
+        "h": "Reported commands"
+      },
+      "A command becomes *di* + infinitive: *«{imv:Vieni}!» → Mi {pp:ha detto} di venire*. To express strong will, you can use *che* + *congiuntivo*: *{pp:Ha ordinato} che tutti {csi:uscissero}*.",
+      {
+        "h": "Reporting verbs"
+      },
+      "To avoid repeating *dire*, choose a verb that shows the speaker's intention: *affermare* (state), *spiegare* (explain), *rispondere* (answer), *ammettere* (admit), *negare* (deny), *promettere* (promise), *suggerire* (suggest).",
+      {
+        "h": "Relative clauses: the choices"
+      },
+      {
+        "table": {
+          "head": [
+            "Pronoun",
+            "When",
+            "Example"
+          ],
+          "rows": [
+            [
+              "che",
+              "subject or direct object",
+              "La persona che {pp:ho chiamato}."
+            ],
+            [
+              "cui",
+              "after a preposition",
+              "La persona a cui {pp:ho telefonato}."
+            ],
+            [
+              "il quale",
+              "formal, or to avoid ambiguity",
+              "Il fratello di Anna, il quale {ip:vive} a Roma."
+            ],
+            [
+              "il cui",
+              "whose",
+              "Lo scrittore il cui libro {pp:ho letto}."
+            ]
+          ]
+        }
+      },
+      "*Il quale* shows gender and number, so it can clear up doubts. In *Il fratello di Anna, che {ip:vive} a Roma* it's unclear who lives there. In *Il fratello di Anna, la quale {ip:vive} a Roma* it is Anna.",
+      "*Il cui* agrees with the thing possessed, not with the owner: *la scrittrice **il** cui libro*, *lo scrittore **la** cui opera*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Report each sentence, changing the tense.",
+        "questions": [
+          "«{ip:Arrivo} tardi.» → {pp:Ha detto} che [[arrivava#im]] tardi.",
+          "«{pp:Ho perso} il treno.» → {pp:Ha detto} che [[aveva perso#tp]] il treno.",
+          "«{fs:Arriverò} tardi.» → {pp:Ha detto} che [[sarebbe arrivato#cpa]] tardi.",
+          "«{imv:Telefona} a Maria!» → Mi {pp:ha detto} [[di telefonare]] a Maria.",
+          "«{ip:Sei} stanco?» → Mi {pp:ha chiesto} [[se ero#im]] stanco.",
+          "«{ip:Credo} che {csp:sia} vero.» → {pp:Ha detto} che {im:credeva} che [[fosse#csi]] vero."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with che, cui, or the right form of il quale or il cui.",
+        "questions": [
+          "La persona [[a cui]] {pp:ho telefonato} non {ip:risponde}. (to whom)",
+          "Il film [[che]] {pp:ho visto} {im:era} noioso.",
+          "L'azienda [[per cui]] lavoro {ip:è} tedesca. (for which)",
+          "La signora [[con la quale]] {im:parlavi} {ip:è} la mia vicina. (with whom, il quale)",
+          "Lo scrittore [[il cui]] libro {pp:ho letto} {ip:è} di Bari. (whose, masculine thing)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the best reporting verb.",
+        "questions": [
+          {
+            "q": "«{ip:È} vero, {pp:ho sbagliato} io.» → {ip:Ha} ___ di aver sbagliato.",
+            "options": [
+              "*ammesso",
+              "promesso",
+              "suggerito"
+            ]
+          },
+          {
+            "q": "«Non l'{pp:ho fatto} io!» → {ip:Ha} ___ di averlo fatto.",
+            "options": [
+              "ammesso",
+              "*negato",
+              "promesso"
+            ]
+          },
+          {
+            "q": "«Ti {fs:aiuterò}.» → {ip:Ha} ___ di aiutarmi.",
+            "options": [
+              "negato",
+              "*promesso",
+              "ammesso"
+            ]
+          },
+          {
+            "q": "«Perché non {ip:prendi} il treno?» → Mi {ip:ha} ___ di prendere il treno.",
+            "options": [
+              "*suggerito",
+              "negato",
+              "ammesso"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'intervista",
+        "interview"
+      ],
+      [
+        "la dichiarazione",
+        "statement"
+      ],
+      [
+        "il portavoce",
+        "spokesperson"
+      ],
+      [
+        "la smentita",
+        "denial"
+      ],
+      [
+        "la riunione",
+        "meeting"
+      ],
+      [
+        "affermare",
+        "to state"
+      ],
+      [
+        "ammettere",
+        "to admit"
+      ],
+      [
+        "suggerire",
+        "to suggest"
+      ],
+      [
+        "garantire",
+        "to guarantee"
+      ],
+      [
+        "rivelare",
+        "to reveal"
+      ],
+      [
+        "ufficiale",
+        "official"
+      ],
+      [
+        "riservato",
+        "confidential"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la dichiarazione",
+            "statement"
+          ],
+          [
+            "il portavoce",
+            "spokesperson"
+          ],
+          [
+            "la smentita",
+            "denial"
+          ],
+          [
+            "affermare",
+            "to state"
+          ],
+          [
+            "garantire",
+            "to guarantee"
+          ],
+          [
+            "riservato",
+            "confidential"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "La [[riunione]] {ip:è} alle dieci. (meeting)",
+          "{pp:Ha} [[ammesso#pp]] il suo errore. (admitted)",
+          "{pp:Ho letto} un'[[intervista]] al ministro. (interview)",
+          "Non {pp:ha voluto} [[rivelare]] il nome. (to reveal)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il portavoce dell'azienda per cui {ip:lavora} mio cugino {pp:ha dichiarato} ieri che i licenziamenti annunciati non ci {cpa:sarebbero stati}. {pp:Ha spiegato} che la società {tp:aveva trovato} un nuovo investitore, il cui nome {cpa:sarebbe stato} {cpa:reso} noto entro la fine del mese.",
+      "I sindacati, con i quali l'azienda si {tp:era incontrata} la settimana prima, {pp:hanno chiesto} se le promesse {csi:fossero garantite} per iscritto. Il portavoce {pp:ha risposto} di non preoccuparsi. Mio cugino, che ci {ip:lavora} da vent'anni, mi {pp:ha detto} che ci {cpa:avrebbe creduto} solo vedendo il contratto."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What did the spokesperson announce?",
+            "options": [
+              "New redundancies",
+              "*That there would be no redundancies",
+              "That the firm had closed"
+            ]
+          },
+          {
+            "q": "What did the firm find?",
+            "options": [
+              "*A new investor",
+              "A new director",
+              "A new factory"
+            ]
+          },
+          {
+            "q": "What did the unions ask for?",
+            "options": [
+              "Higher pay",
+              "A new meeting",
+              "*Written guarantees"
+            ]
+          },
+          {
+            "q": "What will convince the cousin?",
+            "options": [
+              "The spokesperson's words",
+              "*Seeing the contract",
+              "The unions"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Capo",
+        "{pp:Ha telefonato} la signora Neri?"
+      ],
+      [
+        "Segretaria",
+        "Sì. {pp:Ha detto} che {cpa:sarebbe arrivata} tardi."
+      ],
+      [
+        "Capo",
+        "Le {pp:ha chiesto} se {im:aveva} i documenti?"
+      ],
+      [
+        "Segretaria",
+        "Sì, e {pp:ha risposto} che li {tp:aveva} già {tp:spediti}."
+      ],
+      [
+        "Capo",
+        "A chi?"
+      ],
+      [
+        "Segretaria",
+        "Alla collega con cui {pp:ha parlato} ieri. Mi {pp:ha detto} di ricordarglielo."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{pp:Ha detto} che [[sarebbe#cpa]] {cpa:arrivata} tardi.",
+          "Le {pp:ha chiesto} [[se]] {im:aveva} i documenti?",
+          "{pp:Ha risposto} che li [[aveva#tp]] già {tp:spediti}.",
+          "Alla collega con [[cui]] {pp:ha parlato} ieri."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Who received the documents?",
+        "questions": [
+          {
+            "q": "The documents were sent to…",
+            "options": [
+              "the boss",
+              "the secretary",
+              "*a colleague"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "He said he would arrive late.",
+            "a": [
+              "Ha detto che sarebbe arrivato tardi."
+            ]
+          },
+          {
+            "q": "She told me to phone Maria.",
+            "a": [
+              "Mi ha detto di telefonare a Maria."
+            ]
+          },
+          {
+            "q": "He asked me if I was tired. (a man speaking)",
+            "a": [
+              "Mi ha chiesto se ero stanco.",
+              "Mi ha chiesto se fossi stanco."
+            ]
+          },
+          {
+            "q": "The person I phoned doesn't answer.",
+            "a": [
+              "La persona a cui ho telefonato non risponde."
+            ]
+          },
+          {
+            "q": "The company I work for is German.",
+            "a": [
+              "L'azienda per cui lavoro è tedesca.",
+              "La ditta per cui lavoro è tedesca."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

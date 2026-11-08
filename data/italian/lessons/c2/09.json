@@ -1,0 +1,442 @@
+{
+  "title": "Di lui, nessuno {pr:seppe} più nulla",
+  "translation": "As for him, nobody ever heard of him again",
+  "topics": "Inversion, topics, emphasis and ellipsis according to communicative purpose",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Topic and contrast: a crucial difference"
+      },
+      "Putting an element at the start of the sentence can do two different things, and the pronoun shows which one.",
+      {
+        "table": {
+          "head": [
+            "Type",
+            "Example",
+            "Function"
+          ],
+          "rows": [
+            [
+              "Topic, with a pronoun",
+              "Il libro l'{pp:ho letto}.",
+              "As for the book…"
+            ],
+            [
+              "Contrastive focus, no pronoun",
+              "IL LIBRO {pp:ho letto}, non il giornale.",
+              "That's what I read, not something else."
+            ]
+          ]
+        }
+      },
+      "The first says what we are talking about. The second corrects an expectation, and is marked in speech by stress on the fronted element.",
+      {
+        "h": "Verb first, subject last"
+      },
+      "With verbs of appearing, arriving and happening, a subject that brings new information naturally follows the verb: *{pp:È arrivata} una lettera. {pp:È successo} un guaio. Manca il sale.* Putting the subject first would suggest that we were already talking about it.",
+      {
+        "h": "Fronting for style"
+      },
+      {
+        "table": {
+          "head": [
+            "Device",
+            "Example",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Fronted complement",
+              "Di lui, nessuno {pr:seppe} più nulla.",
+              "gives the topic prominence"
+            ],
+            [
+              "Fronted adjective",
+              "Grande {pr:fu} la sorpresa.",
+              "elevated, literary"
+            ],
+            [
+              "Hanging topic",
+              "La politica, non ne {ip:voglio} sapere.",
+              "lively, spoken"
+            ],
+            [
+              "Rhetorical inversion",
+              "Bella, la vita!",
+              "exclamatory"
+            ],
+            [
+              "Quanto a",
+              "Quanto a me, {ip:resto}.",
+              "introduces a new topic"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "What can be left out"
+      },
+      "Ellipsis means dropping what the context supplies. It's normal in conversation, and in some written genres it's the rule.",
+      {
+        "table": {
+          "head": [
+            "Context",
+            "Example",
+            "Omitted"
+          ],
+          "rows": [
+            [
+              "Reply",
+              "— {ip:Vieni}? — Io no.",
+              "the verb"
+            ],
+            [
+              "Headline",
+              "Maltempo al Nord, tre feriti.",
+              "the verb"
+            ],
+            [
+              "Notice",
+              "Vietato fumare.",
+              "{ip:è}"
+            ],
+            [
+              "Literary nominal style",
+              "Silenzio. Una finestra accesa. Nessuno.",
+              "everything but the essential"
+            ],
+            [
+              "Coordination",
+              "Lui {ip:ama} il mare; lei, la montagna.",
+              "the repeated verb"
+            ]
+          ]
+        }
+      },
+      "In the last example the comma stands in for the missing verb. It's one of the few cases where a comma can separate a subject from what follows."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which version fits the context?",
+        "questions": [
+          {
+            "q": "— {pp:Hai letto} il libro? — Sì, ___",
+            "options": [
+              "*il libro l'{pp:ho letto}.",
+              "IL LIBRO {pp:ho letto}, non il giornale."
+            ]
+          },
+          {
+            "q": "— {pp:Hai letto} il giornale? — No, ___",
+            "options": [
+              "il libro l'{pp:ho letto}.",
+              "*IL LIBRO {pp:ho letto}, non il giornale."
+            ]
+          },
+          {
+            "q": "(new information) ___",
+            "options": [
+              "*{pp:È arrivata} una lettera.",
+              "Una lettera {pp:è arrivata}."
+            ]
+          },
+          {
+            "q": "(a newspaper headline)",
+            "options": [
+              "Il maltempo {pp:ha colpito} il Nord e ci {pp:sono stati} tre feriti.",
+              "*Maltempo al Nord, tre feriti."
+            ]
+          },
+          {
+            "q": "(elevated style)",
+            "options": [
+              "*Grande {pr:fu} la sorpresa.",
+              "Mamma mia che sorpresa!"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite the sentence, putting the words in brackets first.",
+        "questions": [
+          {
+            "q": "Nessuno {pr:seppe} più nulla di lui. (Di lui)",
+            "a": [
+              "Di lui, nessuno seppe più nulla.",
+              "Di lui nessuno seppe più nulla."
+            ]
+          },
+          {
+            "q": "La sorpresa {pr:fu} grande. (Grande)",
+            "a": [
+              "Grande fu la sorpresa."
+            ]
+          },
+          {
+            "q": "Ho letto il libro. (Il libro, as a topic)",
+            "a": [
+              "Il libro l'ho letto."
+            ]
+          },
+          {
+            "q": "Lui ama il mare; lei ama la montagna. (omit the second verb)",
+            "a": [
+              "Lui ama il mare; lei, la montagna.",
+              "Lui ama il mare, lei la montagna."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Add the pronoun if a topic needs one. Write the correct word.",
+        "questions": [
+          "La politica, non [[ne]] {ip:voglio} sapere.",
+          "Le chiavi [[le]] {ip:ho} io.",
+          "A Marco [[gli]] {pp:ho telefonato} ieri. (conversational)",
+          "Di questo [[ne]] {ip:parliamo} domani. (conversational)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'ellissi",
+        "ellipsis"
+      ],
+      [
+        "il titolo",
+        "headline"
+      ],
+      [
+        "il rilievo",
+        "prominence"
+      ],
+      [
+        "la contrapposizione",
+        "contrast"
+      ],
+      [
+        "il risalto",
+        "emphasis"
+      ],
+      [
+        "omettere",
+        "to omit"
+      ],
+      [
+        "sottacere",
+        "to pass over in silence"
+      ],
+      [
+        "sparire",
+        "to vanish"
+      ],
+      [
+        "spiccare",
+        "to stand out"
+      ],
+      [
+        "conciso",
+        "concise"
+      ],
+      [
+        "lapidario",
+        "terse"
+      ],
+      [
+        "quanto a",
+        "as for"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il rilievo",
+            "prominence"
+          ],
+          [
+            "il risalto",
+            "emphasis"
+          ],
+          [
+            "sottacere",
+            "to pass over in silence"
+          ],
+          [
+            "spiccare",
+            "to stand out"
+          ],
+          [
+            "lapidario",
+            "terse"
+          ],
+          [
+            "quanto a",
+            "as for"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il suo stile {ip:è} molto [[conciso]]. (concise)",
+          "{pp:Ha preferito} [[omettere]] i dettagli. (to omit)",
+          "Il [[titolo]] dell'articolo {ip:è} fuorviante. (headline)",
+          "Di lui si {pr:perse} ogni traccia: {tp:era} [[sparito#tp]]. (vanished)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Di lui, nessuno {pr:seppe} più nulla. La casa, l'{tp:avevano venduta} i nipoti. Il giardino, quello no, {tp:era rimasto} com'{im:era}: rose, un pozzo, un cancello arrugginito. Grande {pr:fu} la mia sorpresa quando, trent'anni dopo, {pr:trovai} una lettera sotto il davanzale.",
+      "Poche righe. Nessuna firma. Una data: 12 ottobre. {pp:È arrivata} tardi, {pr:pensai}, come tutte le cose importanti. Quanto a chi l'{cst:avesse scritta}, {im:potevo} solo tirare a indovinare. Lui {im:amava} i libri; lei, il silenzio. Forse {im:era} questo, il loro segreto."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Who sold the house?",
+            "options": [
+              "*The nephews",
+              "The narrator",
+              "The man himself"
+            ]
+          },
+          {
+            "q": "What was found under the windowsill?",
+            "options": [
+              "A key",
+              "*A letter",
+              "A rose"
+            ]
+          },
+          {
+            "q": "«Poche righe. Nessuna firma.» is an example of…",
+            "options": [
+              "the passive",
+              "*nominal style",
+              "reported speech"
+            ]
+          },
+          {
+            "q": "In «Lui amava i libri; lei, il silenzio», what's omitted?",
+            "options": [
+              "The subject",
+              "The object",
+              "*The verb"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Ada",
+        "E il contratto?"
+      ],
+      [
+        "Elvio",
+        "Il contratto l'{pp:ho firmato} ieri."
+      ],
+      [
+        "Ada",
+        "Marta, l'{pp:hai sentita}?"
+      ],
+      [
+        "Elvio",
+        "Marta no. A LUCA {pp:ho telefonato}, non a lei."
+      ],
+      [
+        "Ada",
+        "Quanto al resto?"
+      ],
+      [
+        "Elvio",
+        "Tutto a posto. {pp:È arrivata} la conferma stamattina."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Il contratto [[l']]{pp:ho firmato} ieri.",
+          "Marta, [[l']]{pp:hai sentita}?",
+          "[[Quanto]] al resto?",
+          "{pp:È} [[arrivata#pp]] la conferma stamattina."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Who did Elvio phone?",
+        "questions": [
+          {
+            "q": "Elvio phoned…",
+            "options": [
+              "Marta",
+              "*Luca",
+              "Ada"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "As for him, nobody ever heard of him again. (start with Di lui)",
+            "a": [
+              "Di lui, nessuno seppe più nulla.",
+              "Di lui nessuno seppe più nulla."
+            ]
+          },
+          {
+            "q": "A letter has arrived. (new information)",
+            "a": [
+              "È arrivata una lettera."
+            ]
+          },
+          {
+            "q": "As for me, I'm staying.",
+            "a": [
+              "Quanto a me, resto."
+            ]
+          },
+          {
+            "q": "Great was the surprise. (elevated)",
+            "a": [
+              "Grande fu la sorpresa."
+            ]
+          },
+          {
+            "q": "He loves the sea; she, the mountains.",
+            "a": [
+              "Lui ama il mare; lei, la montagna.",
+              "Lui ama il mare; lei, le montagne."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

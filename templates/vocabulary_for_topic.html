@@ -46,7 +46,7 @@
             {% if not image_url %}hidden{% endif %}>
     </div>
     <div class="center">
-        <form id="drillForm" action="{{ url_for('vocabulary_practice', topic=topic) }}" class="shadow"
+        <form id="drillForm" action="{{ request.path }}" class="shadow"
             method="POST">
             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
             <div class="center">

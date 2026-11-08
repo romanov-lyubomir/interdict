@@ -1,0 +1,438 @@
+{
+  "title": "Se {cst:avessi accettato}, ora {cop:lavorerei} a Roma",
+  "translation": "If I had accepted, I would now be working in Rome",
+  "topics": "Conditional sentences in all their forms, the uses of the condizionale",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Mixed conditions"
+      },
+      "A real or unreal condition can belong to one time and its result to another. Each half simply takes the form that matches its own time.",
+      {
+        "table": {
+          "head": [
+            "Condition",
+            "Result",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Past, unreal",
+              "Present",
+              "Se {cst:avessi accettato}, ora {cop:lavorerei} a Roma."
+            ],
+            [
+              "Present, unreal",
+              "Past",
+              "Se {csi:fossi} più attento, non {cpa:avresti sbagliato}."
+            ],
+            [
+              "Present, unreal",
+              "Future",
+              "Se non {csi:fosse} così tardi, domani {cop:partirei}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Conditions without se"
+      },
+      "Written and spoken Italian often replace the *se* clause with a shorter form.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Equivalent"
+          ],
+          "rows": [
+            [
+              "a + infinitive",
+              "A saperlo, {cpa:sarei venuto}.",
+              "Se l'{cst:avessi saputo}…"
+            ],
+            [
+              "gerund",
+              "Volendo, {cop:potresti} farlo.",
+              "Se {csi:volessi}…"
+            ],
+            [
+              "past participle",
+              "Fatto per tempo, {cpa:sarebbe costato} meno.",
+              "Se {cst:fosse stato} {cst:fatto}…"
+            ],
+            [
+              "con / senza + noun",
+              "Senza il tuo aiuto, {cpa:avrei rinunciato}.",
+              "Se non ci {cst:fosse stato}…"
+            ],
+            [
+              "congiuntivo alone",
+              "{csi:Avessi} vent'anni di meno!",
+              "Se {csi:avessi}…"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Other conjunctions"
+      },
+      "*Qualora*, *nel caso in cui*, *ammesso che*, *posto che* and *sempre che* all take the *congiuntivo*. They are typical of formal and legal writing: *Qualora il pagamento non {csi:venisse} effettuato, il contratto si {fs:intenderà} risolto.*",
+      {
+        "h": "The condizionale beyond conditions"
+      },
+      {
+        "table": {
+          "head": [
+            "Use",
+            "Example",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Courtesy",
+              "Le {cop:dispiacerebbe} chiudere?",
+              "softens a request"
+            ],
+            [
+              "Attenuation",
+              "{cop:Direi} che {ip:è} sufficiente.",
+              "softens an opinion"
+            ],
+            [
+              "Unconfirmed report",
+              "Il ministro si {cpa:sarebbe dimesso}.",
+              "distances the writer"
+            ],
+            [
+              "Future in the past",
+              "{im:Sapevo} che {cpa:avrebbe rinunciato}.",
+              "future seen from the past"
+            ],
+            [
+              "Rhetorical question",
+              "E chi lo {cop:direbbe}?",
+              "expresses surprise"
+            ]
+          ]
+        }
+      },
+      "The conditional of reporting needs a source to be fair: *Secondo alcune fonti…*, *Stando alle prime ricostruzioni…*. A reader takes the same sentence in the indicative as an established fact."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete these conditions, watching the time of each half.",
+        "questions": [
+          "Se [[avessi accettato#cst]], ora [[lavorerei#cop]] a Roma. (accettare, lavorare – io)",
+          "Se tu {csi:fossi} più attenta, non [[avresti sbagliato#cpa]] ieri. (sbagliare)",
+          "Se l'[[avessimo saputo#cst]] prima, oggi non {cop:saremmo} qui. (sapere, noi)",
+          "Se non [[fosse#csi]] così pigro, ieri {cpa:sarebbe venuto}. (essere, in general)",
+          "Qualora il treno [[fosse#csi]] in ritardo, {imv:avvisami}. (essere)"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence with se.",
+        "questions": [
+          {
+            "q": "A saperlo, {cpa:sarei venuto}.",
+            "a": [
+              "Se l'avessi saputo, sarei venuto.",
+              "Se lo avessi saputo, sarei venuto."
+            ]
+          },
+          {
+            "q": "Volendo, {cop:potresti} farlo.",
+            "a": [
+              "Se volessi, potresti farlo."
+            ]
+          },
+          {
+            "q": "Senza il tuo aiuto, {cpa:avrei rinunciato}.",
+            "a": [
+              "Se non ci fosse stato il tuo aiuto, avrei rinunciato.",
+              "Se tu non mi avessi aiutato, avrei rinunciato.",
+              "Se non mi avessi aiutato, avrei rinunciato."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does the condizionale do here?",
+        "questions": [
+          {
+            "q": "Secondo la polizia, l'uomo {cop:sarebbe} fuggito in Svizzera.",
+            "options": [
+              "a regret",
+              "*an unconfirmed report",
+              "a future plan"
+            ]
+          },
+          {
+            "q": "Le {cop:dispiacerebbe} aprire la finestra?",
+            "options": [
+              "*courtesy",
+              "a guess",
+              "a warning"
+            ]
+          },
+          {
+            "q": "{cop:Direi} che {ip:può} bastare.",
+            "options": [
+              "a fact",
+              "an order",
+              "*a softened opinion"
+            ]
+          },
+          {
+            "q": "{im:Ero} certa che ci {cpa:avresti pensato} tu.",
+            "options": [
+              "*a future seen from the past",
+              "a polite request",
+              "unconfirmed news"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la fonte",
+        "source"
+      ],
+      [
+        "la ricostruzione",
+        "account, reconstruction"
+      ],
+      [
+        "l'inadempienza",
+        "breach of contract"
+      ],
+      [
+        "la clausola",
+        "clause"
+      ],
+      [
+        "l'inchiesta",
+        "inquiry"
+      ],
+      [
+        "rinunciare",
+        "to decline"
+      ],
+      [
+        "effettuare",
+        "to carry out"
+      ],
+      [
+        "risolvere",
+        "to terminate, to solve"
+      ],
+      [
+        "rescindere",
+        "to rescind"
+      ],
+      [
+        "trapelare",
+        "to leak out"
+      ],
+      [
+        "stando a",
+        "according to"
+      ],
+      [
+        "per tempo",
+        "in good time"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'inadempienza",
+            "breach of contract"
+          ],
+          [
+            "la clausola",
+            "clause"
+          ],
+          [
+            "l'inchiesta",
+            "inquiry"
+          ],
+          [
+            "rescindere",
+            "to rescind"
+          ],
+          [
+            "trapelare",
+            "to leak out"
+          ],
+          [
+            "stando a",
+            "according to"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il pagamento {ip:va} [[effettuato]] entro il 30. (carried out)",
+          "Secondo alcune [[fonti]], si {cpa:sarebbe dimesso}. (sources)",
+          "{ip:Bisogna} intervenire [[per tempo]]. (in good time)",
+          "{pp:Ha} [[rinunciato#pp]] all'incarico. (declined)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Stando alle prime ricostruzioni, l'amministratore delegato {cpa:avrebbe lasciato} l'azienda dopo un duro scontro con il consiglio. Secondo fonti interne, gli {cpa:sarebbe stata} {cpa:offerta} una buonuscita di due milioni, che egli {cpa:avrebbe rifiutato}. Nessuna conferma ufficiale {ip:è} finora trapelata.",
+      "«A saperlo prima, {cpa:avremmo agito} diversamente», {ip:ammette} un dipendente. «Se la crisi {cst:fosse stata} affrontata per tempo, oggi non {cop:saremmo} in questa situazione.» Qualora le voci {csi:venissero} {ip:confermate}, l'azienda {cop:dovrebbe} nominare un successore entro trenta giorni, come previsto da una clausola dello statuto."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "How does the article present the departure?",
+            "options": [
+              "As a confirmed fact",
+              "*As unconfirmed",
+              "As a future plan"
+            ]
+          },
+          {
+            "q": "What was he reportedly offered?",
+            "options": [
+              "A new role",
+              "*A severance payment",
+              "A place on the board"
+            ]
+          },
+          {
+            "q": "What does the employee regret?",
+            "options": [
+              "*The crisis was not tackled in time",
+              "The size of the payment",
+              "The new successor"
+            ]
+          },
+          {
+            "q": "What happens if the rumours are confirmed?",
+            "options": [
+              "The firm will close",
+              "*A successor must be appointed within 30 days",
+              "The clause will be changed"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Mara",
+        "Ti {pp:sei} mai {pp:pentito} di aver rifiutato quel posto?"
+      ],
+      [
+        "Sergio",
+        "Ogni tanto. Se {cst:avessi accettato}, ora {cop:lavorerei} a Roma."
+      ],
+      [
+        "Mara",
+        "A saperlo prima, ti {cpa:avrei consigliato} di andare."
+      ],
+      [
+        "Sergio",
+        "Senza mia moglie, l'{cpa:avrei fatto}."
+      ],
+      [
+        "Mara",
+        "E se te lo {csi:riproponessero}?"
+      ],
+      [
+        "Sergio",
+        "{cop:Direi} che {ip:è} troppo tardi. Ma non si {ip:sa} mai."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Se {cst:avessi accettato}, ora [[lavorerei#cop]] a Roma.",
+          "[[A]] saperlo prima, ti {cpa:avrei consigliato} di andare.",
+          "[[Senza]] mia moglie, l'{cpa:avrei fatto}.",
+          "[[Direi#cop]] che {ip:è} troppo tardi."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why did Sergio turn the job down?",
+        "questions": [
+          {
+            "q": "Probably because of…",
+            "options": [
+              "the salary",
+              "*his wife",
+              "Mara's advice"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "If I had accepted, I would now be working in Rome.",
+            "a": [
+              "Se avessi accettato, ora lavorerei a Roma.",
+              "Se avessi accettato, adesso lavorerei a Roma."
+            ]
+          },
+          {
+            "q": "Had I known, I would have come. (a man speaking, use a + infinitive)",
+            "a": [
+              "A saperlo, sarei venuto."
+            ]
+          },
+          {
+            "q": "According to some sources, the minister has resigned. (reported)",
+            "a": [
+              "Secondo alcune fonti, il ministro si sarebbe dimesso."
+            ]
+          },
+          {
+            "q": "Would you mind closing the window? (polite)",
+            "a": [
+              "Le dispiacerebbe chiudere la finestra?"
+            ]
+          },
+          {
+            "q": "Should the train be late, let me know. (informal, use qualora)",
+            "a": [
+              "Qualora il treno fosse in ritardo, avvisami."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

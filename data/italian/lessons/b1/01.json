@@ -1,0 +1,460 @@
+{
+  "title": "{ip:Penso} che {csp:sia} una buona idea",
+  "translation": "I think it's a good idea",
+  "topics": "The congiuntivo presente: forms and when to use it",
+  "grammar": {
+    "explain": [
+      {
+        "h": "What the congiuntivo is for"
+      },
+      "The indicative states facts. The *congiuntivo* presents something through someone's mind: an opinion, a doubt, a feeling or a wish. It almost always appears after *che*.",
+      {
+        "table": {
+          "head": [
+            "The main verb expresses",
+            "Examples",
+            "Sentence"
+          ],
+          "rows": [
+            [
+              "Opinion",
+              "{ip:penso} che, {ip:credo} che, mi {ip:sembra} che",
+              "{ip:Penso} che {csp:sia} vero."
+            ],
+            [
+              "Doubt",
+              "{ip:dubito} che, non {ip:sono} sicuro che",
+              "{ip:Dubito} che {csp:venga}."
+            ],
+            [
+              "Feeling",
+              "{ip:sono} contento che, {ip:ho} paura che, mi {ip:dispiace} che",
+              "{ip:Sono} contento che tu {csp:stia} bene."
+            ],
+            [
+              "Wish",
+              "{ip:voglio} che, {ip:spero} che, {ip:preferisco} che",
+              "{ip:Spero} che tu {csp:possa} venire."
+            ],
+            [
+              "Impersonal judgement",
+              "{ip:è} importante che, {ip:è} meglio che, {ip:bisogna} che",
+              "{ip:È} meglio che tu {csp:parta}."
+            ]
+          ]
+        }
+      },
+      "When the speaker is certain, use the indicative: *{ip:So} che {ip:è} vero. {ip:Sono} sicuro che {ip:viene}.*",
+      {
+        "h": "How to form it"
+      },
+      "The vowels swap: *-are* verbs take *-i*, while *-ere* and *-ire* verbs take *-a*. The three singular persons are identical, so you often need the pronoun: *che io {ip:parli}, che tu {csp:parli}*. The *noi* form is the same as in the present.",
+      {
+        "table": {
+          "head": [
+            "",
+            "parlare",
+            "scrivere",
+            "dormire",
+            "capire"
+          ],
+          "rows": [
+            [
+              "io, tu, lui / lei",
+              "{csp:parl**i**}",
+              "{csp:scriv**a**}",
+              "{csp:dorm**a**}",
+              "{csp:capisc**a**}"
+            ],
+            [
+              "noi",
+              "{csp:parl**iamo**}",
+              "{csp:scriv**iamo**}",
+              "{csp:dorm**iamo**}",
+              "{csp:cap**iamo**}"
+            ],
+            [
+              "voi",
+              "{csp:parl**iate**}",
+              "{csp:scriv**iate**}",
+              "{csp:dorm**iate**}",
+              "{csp:cap**iate**}"
+            ],
+            [
+              "loro",
+              "{csp:parl**ino**}",
+              "{csp:scriv**ano**}",
+              "{csp:dorm**ano**}",
+              "{csp:capisc**ano**}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "A shortcut for irregular verbs"
+      },
+      "Take the *io* form of the present and change the final *-o* to *-a*: *{ip:faccio} → {csp:faccia}, {ip:vengo} → {csp:venga}, {ip:dico} → {csp:dica}, {ip:esco} → {csp:esca}, {ip:bevo} → {csp:beva}, {ip:posso} → {csp:possa}, {ip:voglio} → {csp:voglia}*.",
+      "Only a few verbs need learning by heart.",
+      {
+        "table": {
+          "head": [
+            "",
+            "essere",
+            "avere",
+            "andare",
+            "stare",
+            "dare"
+          ],
+          "rows": [
+            [
+              "io, tu, lui / lei",
+              "{csp:sia}",
+              "{csp:abbia}",
+              "{imv:vada}",
+              "{csp:stia}",
+              "{imv:dia}"
+            ],
+            [
+              "noi",
+              "{csp:siamo}",
+              "{csp:abbiamo}",
+              "{csp:andiamo}",
+              "{csp:stiamo}",
+              "{csp:diamo}"
+            ],
+            [
+              "voi",
+              "{csp:siate}",
+              "{csp:abbiate}",
+              "{csp:andiate}",
+              "{csp:stiate}",
+              "{csp:diate}"
+            ],
+            [
+              "loro",
+              "{csp:siano}",
+              "{csp:abbiano}",
+              "{csp:vadano}",
+              "{csp:stiano}",
+              "{csp:diano}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Same person? Use the infinitive"
+      },
+      "If the two parts of the sentence have the same subject, Italian uses *di* with an infinitive instead: *{ip:Penso} di partire* (I think I'll leave), but *{ip:Penso} che tu {csp:parta}* (I think you are leaving). Verbs of wish take no *di*: *{ip:Voglio} partire*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the congiuntivo presente.",
+        "questions": [
+          "{ip:Penso} che Marco [[parli#csp]] bene. (parlare)",
+          "{ip:Credo} che loro [[partano#csp]] domani. (partire)",
+          "{ip:Spero} che voi [[capiate#csp]]. (capire)",
+          "{ip:È} meglio che tu [[scriva#csp]] una lettera. (scrivere)",
+          "{ip:Dubito} che noi [[arriviamo#csp]] in tempo. (arrivare)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "These verbs are irregular. Put them in the congiuntivo presente.",
+        "questions": [
+          "{ip:Penso} che [[sia#csp]] una buona idea. (essere)",
+          "{ip:Credo} che Anna [[abbia#csp]] ragione. (avere)",
+          "{ip:Spero} che tu [[stia#csp]] bene. (stare)",
+          "{ip:È} importante che lui [[faccia#csp]] attenzione. (fare)",
+          "Non {ip:credo} che [[vengano#csp]] oggi. (venire, loro)",
+          "{ip:Bisogna} che io [[vada#csp]] a casa. (andare)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the indicative or the congiuntivo.",
+        "questions": [
+          {
+            "q": "So che Marco ___ a casa.",
+            "options": [
+              "*{ip:è}",
+              "{csp:sia}"
+            ]
+          },
+          {
+            "q": "{ip:Credo} che Marco ___ a casa.",
+            "options": [
+              "{ip:è}",
+              "*{csp:sia}"
+            ]
+          },
+          {
+            "q": "{ip:Sono} sicuro che lei ___ ragione.",
+            "options": [
+              "*{ip:ha}",
+              "{csp:abbia}"
+            ]
+          },
+          {
+            "q": "{ip:Ho} paura che lei ___ torto.",
+            "options": [
+              "{ip:ha}",
+              "*{csp:abbia}"
+            ]
+          },
+          {
+            "q": "Penso ___ partire domani. (I'm the one leaving)",
+            "options": [
+              "che",
+              "*di"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'idea",
+        "idea"
+      ],
+      [
+        "il dubbio",
+        "doubt"
+      ],
+      [
+        "la paura",
+        "fear"
+      ],
+      [
+        "la speranza",
+        "hope"
+      ],
+      [
+        "sperare",
+        "to hope"
+      ],
+      [
+        "dubitare",
+        "to doubt"
+      ],
+      [
+        "temere",
+        "to fear"
+      ],
+      [
+        "bisogna",
+        "it's necessary"
+      ],
+      [
+        "sicuro",
+        "sure"
+      ],
+      [
+        "necessario",
+        "necessary"
+      ],
+      [
+        "probabile",
+        "likely"
+      ],
+      [
+        "mi dispiace",
+        "I'm sorry"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il dubbio",
+            "doubt"
+          ],
+          [
+            "la speranza",
+            "hope"
+          ],
+          [
+            "temere",
+            "to fear"
+          ],
+          [
+            "bisogna",
+            "it's necessary"
+          ],
+          [
+            "probabile",
+            "likely"
+          ],
+          [
+            "mi dispiace",
+            "I'm sorry"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "[[Spero#ip]] che tu {csp:stia} bene. (I hope)",
+          "{ip:È} una buona [[idea]]. (idea)",
+          "Non {ip:sono} [[sicuro]] che {csp:venga}. (sure)",
+          "{ip:Ho} [[paura]] che {csp:piova}. (fear)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il mio amico Fabio {ip:vuole} aprire un ristorante a Lisbona. Io {ip:penso} che {csp:sia} una buona idea, perché {ip:cucina} benissimo, ma sua madre {ip:ha} paura che lui {csp:perda} tutti i suoi soldi. {ip:Dice} che {ip:è} meglio che {csp:resti} in Italia e {csp:trovi} un lavoro sicuro.",
+      "Fabio {ip:sa} che il rischio {ip:è} grande, però {ip:spera} che la sua famiglia {csp:capisca}. Secondo me {ip:bisogna} che {csp:faccia} un piano preciso e che {csp:parli} con qualcuno che {ip:conosce} bene il portoghese. {ip:Sono} contento che {csp:abbia} il coraggio di provare."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Where does Fabio want to open a restaurant?",
+            "options": [
+              "In Italy",
+              "*In Lisbon",
+              "In Madrid"
+            ]
+          },
+          {
+            "q": "What is his mother afraid of?",
+            "options": [
+              "That he will cook badly",
+              "*That he will lose his money",
+              "That he will marry"
+            ]
+          },
+          {
+            "q": "What does the speaker think Fabio needs?",
+            "options": [
+              "*A precise plan",
+              "A new family",
+              "More money from his mother"
+            ]
+          },
+          {
+            "q": "How does the speaker feel about Fabio's decision?",
+            "options": [
+              "Worried",
+              "Angry",
+              "*Glad"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Giorgia",
+        "{pp:Hai sentito}? Fabio {ip:parte} per Lisbona."
+      ],
+      [
+        "Marco",
+        "Sì, ma non {ip:credo} che {csp:sia} il momento giusto."
+      ],
+      [
+        "Giorgia",
+        "Perché? Io {ip:penso} che {csp:possa} farcela."
+      ],
+      [
+        "Marco",
+        "{ip:Dubito} che {csp:abbia} abbastanza soldi."
+      ],
+      [
+        "Giorgia",
+        "{ip:So} che {pp:ha} già {pp:trovato} un locale."
+      ],
+      [
+        "Marco",
+        "Davvero? Allora {ip:spero} che {csp:vada} tutto bene."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Non {ip:credo} che [[sia#csp]] il momento giusto.",
+          "Io {ip:penso} che [[possa#csp]] farcela.",
+          "{ip:Dubito} che [[abbia#csp]] abbastanza soldi.",
+          "{ip:Spero} che [[vada#csp]] tutto bene."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Marco is optimistic from the start.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Fabio has already found premises.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I think it's a good idea.",
+            "a": [
+              "Penso che sia una buona idea.",
+              "Credo che sia una buona idea."
+            ]
+          },
+          {
+            "q": "I hope you are well. (informal)",
+            "a": [
+              "Spero che tu stia bene."
+            ]
+          },
+          {
+            "q": "I know that he is at home.",
+            "a": [
+              "So che è a casa.",
+              "So che lui è a casa."
+            ]
+          },
+          {
+            "q": "It's better for you to leave. (informal)",
+            "a": [
+              "È meglio che tu parta."
+            ]
+          },
+          {
+            "q": "I'm afraid it will rain.",
+            "a": [
+              "Ho paura che piova."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

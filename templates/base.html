@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta property="site_name" content="EuroDict">
-    <meta name="title" content="EuroDict">
-    <meta property="title" content="EuroDict">
+    <meta property="site_name" content="InterDict">
+    <meta name="title" content="InterDict">
+    <meta property="title" content="InterDict">
     <meta name="description" content="An application to learn Italian, Spanish, German and Greek more easily">
     <meta name="keywords" content="Italian, Italiano, Learn Italian, Imparare l'Italiano, German, Deutsch, Learn German, Lerne Deutsch">
     <meta property="url" content="https://eurodict.herokuapp.com/">
@@ -27,7 +27,7 @@
     <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/apple-icon-180.png') }}">
     {% block imports %}
     {% endblock %}
-    <title>EuroDict</title>
+    <title>InterDict</title>
     <style>
         :root {
             --accent: {{ accent }};
@@ -169,6 +169,14 @@
             padding: 8px 14px;
         }
 
+        .notice {
+            background: var(--surface-2);
+            border-left: 4px solid var(--accent);
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+        }
+
         /* Buttons */
         button,
         input[type=submit],
@@ -300,10 +308,10 @@
 
         /* The round "back" button at the top left of most pages */
         .svg-x {
-            position: absolute;
+            position: fixed;
             top: 90px;
             left: 28px;
-            z-index: 0;
+            z-index: 5;
             display: none;
             padding: 12px;
             border-radius: 50%;
@@ -319,6 +327,13 @@
         @media screen and (min-width: 600px) {
             .svg-x {
                 display: block;
+            }
+        }
+
+        /* On narrower screens it must not cover the page while scrolling */
+        @media screen and (max-width: 800px) {
+            .svg-x {
+                left: 10px;
             }
         }
 
@@ -534,7 +549,7 @@
             transform: none;
         }
 
-        @media screen and (max-width: 899px) {
+        @media screen and (max-width: 1039px) {
             .nav-inner {
                 flex-wrap: wrap;
                 gap: 0 12px;
@@ -581,6 +596,79 @@
                 border-radius: var(--radius-small);
                 font-size: 16px;
             }
+        }
+
+        /* Tabs that show one part of a page at a time */
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 18px;
+        }
+
+        .tab {
+            padding: 6px 14px;
+            background: none;
+            border: 1px solid var(--border-strong);
+            border-radius: 999px;
+            color: var(--muted);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .tab:hover {
+            background: none;
+            color: var(--text);
+            border-color: var(--accent);
+        }
+
+        .tab[aria-selected="true"],
+        .tab[aria-selected="true"]:hover {
+            background-color: var(--accent-soft);
+            border-color: var(--accent);
+            color: var(--text);
+        }
+
+        /* Verb forms: the colour shows the time, the line and frame the mood or tense */
+        :root {
+            --tense-orange: #FF9F43;
+            --tense-red: #FF6B6B;
+            --tense-blue: #5DA9FF;
+            --tense-green: #4CD97B;
+            --tense-pink: #FF7EC8;
+            --tense-purple: #B98CFF;
+        }
+
+        .t-ip, .t-cop, .t-csp { color: var(--tense-orange); }
+        .t-pp, .t-tp, .t-cpa, .t-csa, .t-cst { color: var(--tense-red); }
+        .t-pr, .t-tr { color: var(--tense-blue); }
+        .t-im, .t-csi { color: var(--tense-green); }
+        .t-fs, .t-fa { color: var(--tense-pink); }
+        .t-imv { color: var(--tense-purple); }
+
+        .t-cop, .t-cpa {
+            text-decoration: underline wavy;
+            text-decoration-skip-ink: none;
+            text-underline-offset: 3px;
+        }
+
+        .t-csp, .t-csa, .t-csi, .t-cst {
+            text-decoration: underline double;
+            text-decoration-skip-ink: none;
+            text-underline-offset: 3px;
+        }
+
+        span.t-tp, span.t-tr, span.t-fa, span.t-cst {
+            padding: 0 3px;
+            border: 1px solid currentColor;
+            border-radius: 3px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+        }
+
+        /* An underlined ending stays visible below the wavy or double line */
+        .t-cop u, .t-cpa u, .t-csp u, .t-csa u, .t-csi u, .t-cst u {
+            text-underline-offset: 7px;
         }
 
         /* Footer */
@@ -704,6 +792,7 @@
         ("conjugation_drill", "Conjugation"),
         ("stories_list", "Stories"),
         ("lessons", "Lessons"),
+        ("cheat_sheets", "Cheat sheets"),
     ] if user_language else [("index", "Home")] %}
     {# The section of the site the current page belongs to #}
     {% set sections = {
@@ -712,12 +801,16 @@
         "conjugation_practice": "conjugation_drill",
         "story": "stories_list",
         "lesson_for_topic": "lessons",
+        "lesson": "lessons",
+        "word_list": "vocabulary_topics",
+        "word_list_quiz": "vocabulary_topics",
+        "word_list_practice": "vocabulary_topics",
     } %}
     {% set section = sections.get(request.endpoint, request.endpoint) %}
     <nav>
         <div class="nav-inner">
             <a class="brand" href="{{ url_for('index') }}">
-                <img class="brand-mark" src="{{ url_for('static', filename='icons/icon-192.png') }}" alt="">EuroDict
+                <img class="brand-mark" src="{{ url_for('static', filename='icons/icon-192.png') }}" alt="">InterDict
             </a>
             <ul class="nav-links nav-main">
                 {% for endpoint, label in feature_links %}
@@ -774,7 +867,7 @@
     </main>
     <footer>
         <div class="footer-inner">
-            <span>EuroDict</span>
+            <span>InterDict</span>
             <span>Learn Italian, Spanish, German and Greek, one word at a time.</span>
         </div>
     </footer>

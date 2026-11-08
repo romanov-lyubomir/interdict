@@ -1,0 +1,489 @@
+{
+  "title": "{ip:Dipende} da te: non rinunciare a insistere",
+  "translation": "It's up to you: don't give up insisting",
+  "topics": "Choosing prepositions, verbs and adjectives with fixed constructions",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Learn the verb together with its preposition"
+      },
+      "The preposition often can't be deduced by logic, so a verb and its preposition should be treated as one item. Grouping them by preposition makes them easier to remember.",
+      {
+        "table": {
+          "head": [
+            "Preposition",
+            "Verbs"
+          ],
+          "rows": [
+            [
+              "a",
+              "contribuire a, rinunciare a, tendere a, abituarsi a, riferirsi a, servire a"
+            ],
+            [
+              "di",
+              "accorgersi di, occuparsi di, fidarsi di, trattarsi di, vergognarsi di, dubitare di"
+            ],
+            [
+              "da",
+              "dipendere da, derivare da, provenire da, astenersi da, guardarsi da"
+            ],
+            [
+              "su",
+              "insistere su, basarsi su, contare su, riflettere su, soffermarsi su"
+            ],
+            [
+              "in",
+              "consistere in, credere in, specializzarsi in, sfociare in"
+            ],
+            [
+              "con",
+              "confrontarsi con, scontrarsi con, congratularsi con"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Before an infinitive"
+      },
+      "A verb also decides how an infinitive is linked to it.",
+      {
+        "table": {
+          "head": [
+            "Link",
+            "Verbs",
+            "Example"
+          ],
+          "rows": [
+            [
+              "a",
+              "cominciare, riuscire, convincere, costringere, continuare",
+              "L'{pp:ho convinto} a restare."
+            ],
+            [
+              "di",
+              "decidere, smettere, finire, rischiare, cercare, permettere",
+              "{pp:Ha smesso} di fumare."
+            ],
+            [
+              "nothing",
+              "potere, volere, dovere, sapere, preferire, bisognare",
+              "{ip:Preferisco} restare."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "One verb, two prepositions, two meanings"
+      },
+      {
+        "table": {
+          "head": [
+            "Verb",
+            "First meaning",
+            "Second meaning"
+          ],
+          "rows": [
+            [
+              "pensare",
+              "pensare a: have in mind",
+              "pensare di: have an opinion, or to intend"
+            ],
+            [
+              "credere",
+              "credere a: believe what's said",
+              "credere in: have faith in"
+            ],
+            [
+              "finire",
+              "finire di: stop doing",
+              "finire per: end up doing"
+            ],
+            [
+              "decidere",
+              "decidere di: choose to",
+              "decidersi a: make up one's mind"
+            ],
+            [
+              "tenere",
+              "tenere a: care about",
+              "tenere per: support (a team)"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Adjectives and nouns"
+      },
+      {
+        "table": {
+          "head": [
+            "Preposition",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "a",
+              "incline a, disposto a, adatto a, contrario a, attento a"
+            ],
+            [
+              "di",
+              "capace di, degno di, ricco di, privo di, consapevole di"
+            ],
+            [
+              "in",
+              "esperto in, fiducia in"
+            ],
+            [
+              "per",
+              "interesse per, rispetto per, passione per"
+            ],
+            [
+              "verso",
+              "gentile verso, atteggiamento verso"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with the right preposition (joined with the article if needed).",
+        "questions": [
+          "Tutto {ip:dipende} [[da]] te.",
+          "Non rinunciare [[a]] insistere.",
+          "{ip:Insiste} [[su]] questo punto.",
+          "Non mi {pp:sono accorto} [[del]] problema.",
+          "Il lavoro {ip:consiste} [[nel]] tradurre testi.",
+          "{ip:Hanno} contribuito [[al]] successo del progetto.",
+          "{ip:È} una persona incline [[alla]] polemica."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right link before the infinitive.",
+        "questions": [
+          {
+            "q": "L'{pp:ho convinto} ___ restare.",
+            "options": [
+              "*a",
+              "di",
+              "—"
+            ]
+          },
+          {
+            "q": "{pp:Ha smesso} ___ fumare.",
+            "options": [
+              "a",
+              "*di",
+              "—"
+            ]
+          },
+          {
+            "q": "{ip:Preferisco} ___ restare a casa.",
+            "options": [
+              "a",
+              "di",
+              "*—"
+            ]
+          },
+          {
+            "q": "{ip:Rischi} ___ perdere il treno.",
+            "options": [
+              "a",
+              "*di",
+              "—"
+            ]
+          },
+          {
+            "q": "{pp:Sono riuscita} ___ finire.",
+            "options": [
+              "*a",
+              "di",
+              "—"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which preposition gives the meaning in brackets?",
+        "questions": [
+          {
+            "q": "Penso ___ partire. (I intend to)",
+            "options": [
+              "a",
+              "*di"
+            ]
+          },
+          {
+            "q": "Penso ___ te. (you are on my mind)",
+            "options": [
+              "*a",
+              "di"
+            ]
+          },
+          {
+            "q": "Non {ip:credo} ___ Dio. (faith)",
+            "options": [
+              "a",
+              "*in"
+            ]
+          },
+          {
+            "q": "Non ti {ip:credo}: non {ip:credo} ___ quello che {ip:dici}.",
+            "options": [
+              "*a",
+              "in"
+            ]
+          },
+          {
+            "q": "{pp:Ha finito} ___ accettare. (ended up)",
+            "options": [
+              "di",
+              "*per"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'attitudine",
+        "aptitude"
+      ],
+      [
+        "la consapevolezza",
+        "awareness"
+      ],
+      [
+        "la tendenza",
+        "tendency"
+      ],
+      [
+        "il contributo",
+        "contribution"
+      ],
+      [
+        "astenersi",
+        "to abstain"
+      ],
+      [
+        "soffermarsi",
+        "to dwell on"
+      ],
+      [
+        "sfociare",
+        "to lead to, to flow into"
+      ],
+      [
+        "provenire",
+        "to come from"
+      ],
+      [
+        "degno",
+        "worthy"
+      ],
+      [
+        "privo",
+        "lacking"
+      ],
+      [
+        "consapevole",
+        "aware"
+      ],
+      [
+        "incline",
+        "prone"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'attitudine",
+            "aptitude"
+          ],
+          [
+            "astenersi",
+            "to abstain"
+          ],
+          [
+            "soffermarsi",
+            "to dwell on"
+          ],
+          [
+            "sfociare",
+            "to lead to, to flow into"
+          ],
+          [
+            "privo",
+            "lacking"
+          ],
+          [
+            "incline",
+            "prone"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Sono} [[consapevole]] del rischio. (aware)",
+          "{ip:È} un gesto [[degno]] di rispetto. (worthy)",
+          "{pp:Ha dato} un grande [[contributo]]. (contribution)",
+          "C'{ip:è} una [[tendenza]] a semplificare. (tendency)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il successo di una lingua non {ip:dipende} dalla facilità della sua grammatica, bensì dal prestigio di chi la {ip:parla}. Il linguista Marini {ip:insiste} su questo punto da anni e si {ip:sofferma}, nel suo ultimo saggio, sul caso dell'italiano, che {pp:ha finito} per affermarsi grazie alla letteratura più che alla politica.",
+      "Chi {ip:impara} una lingua {ip:tende} a credere che {csp:basti} studiare le regole. Eppure, consapevole o no, ogni studente si {ip:scontra} con centinaia di costruzioni che {ip:consistono} in abbinamenti fissi. Non si {ip:tratta} di logica, ma di abitudine. Chi {ip:rinuncia} a memorizzarle {ip:rischia} di restare, per sempre, privo di naturalezza."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "According to Marini, what does a language's success depend on?",
+            "options": [
+              "Its easy grammar",
+              "*The prestige of its speakers",
+              "Its age"
+            ]
+          },
+          {
+            "q": "What helped Italian to establish itself?",
+            "options": [
+              "*Literature more than politics",
+              "Trade",
+              "Television"
+            ]
+          },
+          {
+            "q": "What are fixed pairings a matter of?",
+            "options": [
+              "Logic",
+              "*Habit",
+              "Pronunciation"
+            ]
+          },
+          {
+            "q": "What is the risk of not memorising them?",
+            "options": [
+              "*A lack of naturalness",
+              "Failing exams",
+              "Forgetting words"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Laura",
+        "{pp:Hai deciso} di accettare?"
+      ],
+      [
+        "Bruno",
+        "Non {ip:so}. {ip:Dipende} da quello che {fs:dirà} il direttore."
+      ],
+      [
+        "Laura",
+        "Non rinunciare a un'occasione così."
+      ],
+      [
+        "Bruno",
+        "Si {ip:tratta} di trasferirsi a Londra. {ip:Devo} riflettere su tutto."
+      ],
+      [
+        "Laura",
+        "{ip:Credo} in te. {fs:Finirai} per accettare."
+      ],
+      [
+        "Bruno",
+        "{ip:Sono} consapevole dei rischi, ma ci {ip:tengo}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:Dipende} [[da]] quello che {fs:dirà} il direttore.",
+          "Non rinunciare [[a]] un'occasione così.",
+          "{ip:Devo} riflettere [[su]] tutto.",
+          "{fs:Finirai} [[per]] accettare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What would the new job involve?",
+        "questions": [
+          {
+            "q": "Bruno would have to…",
+            "options": [
+              "change career",
+              "*move to London",
+              "work with Laura"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "It's up to you. (informal, use dipendere)",
+            "a": [
+              "Dipende da te."
+            ]
+          },
+          {
+            "q": "Don't give up! (informal, use rinunciare and a + it)",
+            "a": [
+              "Non rinunciarci!",
+              "Non ci rinunciare!"
+            ]
+          },
+          {
+            "q": "I am aware of the risk.",
+            "a": [
+              "Sono consapevole del rischio."
+            ]
+          },
+          {
+            "q": "He has stopped smoking.",
+            "a": [
+              "Ha smesso di fumare."
+            ]
+          },
+          {
+            "q": "I convinced him to stay.",
+            "a": [
+              "L'ho convinto a restare.",
+              "L'ho convinto a rimanere."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

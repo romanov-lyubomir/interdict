@@ -7,7 +7,7 @@
     .story {
         width: 90vw;
         max-width: 680px;
-        margin: 0 auto 60px;
+        margin: 28px auto 60px;
         padding: 25px 30px;
         box-sizing: border-box;
     }
@@ -75,6 +75,11 @@
         text-align: center;
     }
 
+    /* Logged-in users can move the pointer onto the balloon to save the word */
+    .tooltip.can-save {
+        pointer-events: auto;
+    }
+
     .tooltip[hidden] {
         display: none;
     }
@@ -92,6 +97,83 @@
     .tooltip .meaning {
         display: block;
         font-size: 14px;
+    }
+
+    .tooltip .save-toggle {
+        margin-top: 6px;
+        padding: 3px 10px;
+        color: white;
+        font-size: 13px;
+    }
+
+    .tooltip .save-panel {
+        width: 220px;
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px solid #D0D0D0;
+    }
+
+    .tooltip .save-lists {
+        max-height: 160px;
+        margin-bottom: 8px;
+        overflow-y: auto;
+    }
+
+    .tooltip .save-list {
+        justify-content: flex-start;
+        width: 100%;
+        padding: 5px 8px;
+        background: none;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        overflow-wrap: anywhere;
+    }
+
+    .tooltip .save-list:hover:not(:disabled) {
+        background-color: #DEDEDE;
+    }
+
+    .tooltip .save-list:disabled {
+        color: #1F7A3A;
+        cursor: default;
+    }
+
+    .tooltip form {
+        display: flex;
+        gap: 6px;
+        margin: 0;
+        padding: 0;
+        background: none;
+        border: 0;
+    }
+
+    .tooltip input[type="text"] {
+        flex: 1;
+        width: auto;
+        min-width: 0;
+        margin: 0;
+        padding: 5px 8px;
+        background-color: white;
+        border-color: #B5B5B5;
+        font-size: 14px;
+    }
+
+    .tooltip form button {
+        padding: 5px 10px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .tooltip form button:disabled {
+        background-color: #A8A8A8;
+        cursor: default;
+    }
+
+    .tooltip .save-error {
+        margin-top: 6px;
+        color: #B3261E;
+        font-size: 13px;
     }
 
     /* The arrow pointing at the word */
@@ -135,12 +217,12 @@
     {% for paragraph in story.paragraphs %}
     <p class="text">
         {%- for part in paragraph -%}
-        {%- if part.word -%}
-        <span class="word{% if part.group %} split{% endif %}" tabindex="0" data-meaning="{{ part.meaning }}"
+        {%- if part.key -%}
+        <span class="word{% if part.group %} split{% endif %}" tabindex="0" data-key="{{ part.key }}" data-meaning="{{ part.meaning }}"
             {% if part.lemma %}data-lemma="{{ part.lemma }}"{% endif %}
             {% if part.group %}data-group="{{ part.group }}"{% endif %}>{{ part.word }}</span>
         {%- else -%}
-        {{ part.text }}
+        {{ part.word or part.text }}
         {%- endif -%}
         {%- endfor -%}
     </p>
@@ -148,42 +230,64 @@
     <a class="back-link" href="{{ url_for('stories_list') }}">All stories</a>
 </article>
 
-<div id="tooltip" class="tooltip" role="tooltip" hidden>
+<div id="tooltip" class="tooltip{% if current_user.is_authenticated %} can-save{% endif %}" hidden>
     <span class="lemma"></span>
     <span class="meaning"></span>
+    <button class="save-toggle" type="button" hidden></button>
+    <div class="save-panel" hidden>
+        <div class="save-lists"></div>
+        <form class="save-new">
+            <input type="text" maxlength="{{ max_list_name_length }}" placeholder="New list name" aria-label="New list name">
+            <button type="submit" disabled>Create</button>
+        </form>
+        <p class="save-error" hidden></p>
+    </div>
 </div>
 
 <script>
     const tooltip = document.getElementById("tooltip");
     const lemma = tooltip.querySelector(".lemma");
     const meaning = tooltip.querySelector(".meaning");
+    const saveToggle = tooltip.querySelector(".save-toggle");
+    const savePanel = tooltip.querySelector(".save-panel");
+    const saveLists = tooltip.querySelector(".save-lists");
+    const saveForm = tooltip.querySelector(".save-new");
+    const saveName = saveForm.querySelector("input");
+    const saveCreate = saveForm.querySelector("button");
+    const saveError = tooltip.querySelector(".save-error");
+    const canSave = {{ current_user.is_authenticated | tojson }};
+    const wordLists = {{ word_lists | tojson }};
     let current = null;
+    // While the save panel is open the balloon stays until it is dismissed
+    let pinned = false;
+    let saving = false;
+    let hideTimer = null;
 
     const partsOf = (word) => word.dataset.group
         ? document.querySelectorAll(`.word[data-group="${word.dataset.group}"]`)
         : [word];
 
     const hide = () => {
+        clearTimeout(hideTimer);
         if (current) {
             partsOf(current).forEach((part) => part.classList.remove("active"));
         }
         current = null;
+        pinned = false;
         tooltip.hidden = true;
+        savePanel.hidden = true;
+        saveError.hidden = true;
     };
 
-    const show = (word) => {
-        if (word === current) {
-            return;
+    // The short delay lets the pointer travel from the word onto the balloon
+    const hideSoon = () => {
+        clearTimeout(hideTimer);
+        if (!pinned) {
+            hideTimer = setTimeout(hide, 200);
         }
-        hide();
-        current = word;
-        partsOf(word).forEach((part) => part.classList.add("active"));
+    };
 
-        lemma.textContent = word.dataset.lemma || "";
-        lemma.hidden = !word.dataset.lemma;
-        meaning.textContent = word.dataset.meaning;
-        tooltip.hidden = false;
-
+    const place = (word) => {
         // Centre the balloon above the word, keep it on screen, and put it
         // below the word when there is no room above
         const box = word.getBoundingClientRect();
@@ -202,19 +306,158 @@
         tooltip.style.setProperty("--arrow-left", `${centre - left}px`);
     };
 
+    const renderSave = () => {
+        const key = current.dataset.key;
+        saveToggle.textContent = wordLists.some((list) => list.keys.includes(key))
+            ? "\u2713 Saved"
+            : "+ Add to list";
+        saveLists.hidden = !wordLists.length;
+        saveLists.replaceChildren(...wordLists.map((list) => {
+            const saved = list.keys.includes(key);
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "save-list";
+            button.disabled = saved;
+            button.textContent = saved ? `\u2713 ${list.name}` : list.name;
+            button.addEventListener("click", () => saveWord({ list_id: list.id }));
+            return button;
+        }));
+    };
+
+    const openSavePanel = () => {
+        clearTimeout(hideTimer);
+        pinned = true;
+        saveToggle.hidden = true;
+        savePanel.hidden = false;
+        renderSave();
+        place(current);
+    };
+
+    const showSaveError = (message) => {
+        saveError.textContent = message;
+        saveError.hidden = false;
+        place(current);
+    };
+
+    const saveWord = async (fields) => {
+        if (saving) {
+            return;
+        }
+        saving = true;
+        saveError.hidden = true;
+        const word = current;
+        const body = new FormData();
+        body.append("csrf_token", "{{ csrf_token() }}");
+        body.append("story", "{{ story.slug }}");
+        body.append("key", word.dataset.key);
+        Object.entries(fields).forEach(([name, value]) => body.append(name, value));
+        try {
+            const response = await fetch("{{ url_for('add_word_to_list') }}", { method: "POST", body });
+            const result = await response.json();
+            if (!response.ok) {
+                if (word === current) {
+                    showSaveError(result.error);
+                }
+                return;
+            }
+            let list = wordLists.find((item) => item.id === result.id);
+            if (!list) {
+                list = { id: result.id, name: result.name, keys: [] };
+                wordLists.push(list);
+            }
+            list.keys.push(word.dataset.key);
+            if (word === current) {
+                pinned = false;
+                saveName.value = "";
+                saveCreate.disabled = true;
+                renderSave();
+                place(current);
+            }
+        } catch (error) {
+            if (word === current) {
+                showSaveError("Could not save the word. Please try again.");
+            }
+        } finally {
+            saving = false;
+        }
+    };
+
+    const show = (word) => {
+        clearTimeout(hideTimer);
+        if (word === current) {
+            return;
+        }
+        hide();
+        current = word;
+        partsOf(word).forEach((part) => part.classList.add("active"));
+
+        lemma.textContent = word.dataset.lemma || "";
+        lemma.hidden = !word.dataset.lemma;
+        meaning.textContent = word.dataset.meaning;
+        tooltip.hidden = false;
+        saveToggle.hidden = !canSave;
+        if (canSave) {
+            renderSave();
+        }
+        place(word);
+    };
+
     document.querySelectorAll(".word").forEach((word) => {
-        word.addEventListener("mouseenter", () => show(word));
-        word.addEventListener("mouseleave", hide);
-        word.addEventListener("focus", () => show(word));
-        word.addEventListener("blur", hide);
+        word.addEventListener("mouseenter", () => {
+            if (!pinned) {
+                show(word);
+            }
+        });
+        word.addEventListener("mouseleave", hideSoon);
+        word.addEventListener("focus", () => {
+            if (!pinned) {
+                show(word);
+            }
+        });
+        word.addEventListener("blur", () => {
+            if (!tooltip.matches(":hover")) {
+                hideSoon();
+            }
+        });
         // On touch screens a tap shows the translation
         word.addEventListener("click", (event) => {
             event.stopPropagation();
+            pinned = false;
             show(word);
         });
+        // Enter opens the save panel from the keyboard
+        word.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" && canSave) {
+                event.preventDefault();
+                show(word);
+                openSavePanel();
+                (savePanel.querySelector("button:not(:disabled)") || saveName).focus();
+            }
+        });
+    });
+    tooltip.addEventListener("click", (event) => event.stopPropagation());
+    tooltip.addEventListener("mouseenter", () => clearTimeout(hideTimer));
+    tooltip.addEventListener("mouseleave", hideSoon);
+    tooltip.addEventListener("focusin", () => clearTimeout(hideTimer));
+    saveToggle.addEventListener("click", openSavePanel);
+    saveName.addEventListener("input", () => {
+        saveCreate.disabled = !saveName.value.trim();
+    });
+    saveForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        if (saveName.value.trim()) {
+            saveWord({ name: saveName.value });
+        }
     });
     document.addEventListener("click", hide);
-    window.addEventListener("resize", hide);
+    // The on-screen keyboard resizes the window while a list name is typed
+    window.addEventListener("resize", () => {
+        if (pinned) {
+            place(current);
+        } else {
+            hide();
+        }
+    });
     document.addEventListener("keydown", (event) => {
         if (event.key === "Escape") {
             hide();

@@ -1,0 +1,406 @@
+{
+  "title": "Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}",
+  "translation": "When I arrived, the train had already left",
+  "topics": "The trapassato prossimo, the futuro anteriore, recognising the passato remoto",
+  "grammar": {
+    "explain": [
+      {
+        "h": "One step further back: the trapassato prossimo"
+      },
+      "Use it for something that happened before another event in the past. It is the *passato prossimo* with the auxiliary in the *imperfetto*.",
+      {
+        "table": {
+          "head": [
+            "",
+            "mangiare (avere)",
+            "partire (essere)"
+          ],
+          "rows": [
+            [
+              "io",
+              "{tp:avevo mangiato}",
+              "{tp:ero partit**o**} / partit**a**"
+            ],
+            [
+              "tu",
+              "{tp:avevi mangiato}",
+              "{tp:eri partit**o**} / partit**a**"
+            ],
+            [
+              "lui / lei",
+              "{tp:aveva mangiato}",
+              "{tp:era partit**o**} / partit**a**"
+            ],
+            [
+              "noi",
+              "{tp:avevamo mangiato}",
+              "{tp:eravamo partit**i**} / {ip:partit**e**}"
+            ],
+            [
+              "voi",
+              "{tp:avevate mangiato}",
+              "{tp:eravate partit**i**} / {ip:partit**e**}"
+            ],
+            [
+              "loro",
+              "{tp:avevano mangiato}",
+              "{tp:erano partit**i**} / {ip:partit**e**}"
+            ]
+          ]
+        }
+      },
+      "Compare the order of events: *Quando {pp:sono arrivato}, il treno {pp:è partito}* means that I arrived first. *Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}* means that the train had left first.",
+      {
+        "h": "One step before the future: the futuro anteriore"
+      },
+      "It's the same idea, with the auxiliary in the future: *{fa:avrò mangiato}, {fa:sarò partito}*. Use it for an action that will be finished before another future one.",
+      {
+        "table": {
+          "head": [
+            "First",
+            "Then"
+          ],
+          "rows": [
+            [
+              "Quando {fa:avrò finito},",
+              "ti {fs:chiamerò}."
+            ],
+            [
+              "Dopo che {fa:sarete arrivati},",
+              "{fs:mangeremo}."
+            ],
+            [
+              "Appena {fa:avrà letto} la lettera,",
+              "{fs:capirà}."
+            ]
+          ]
+        }
+      },
+      "It can also express a guess about the past: *Marco non c'{ip:è}: {fa:sarà} già {fa:partito}* (he must have left already).",
+      {
+        "h": "Recognising the passato remoto"
+      },
+      "In books and history, you will meet the *passato remoto*. In most of Italy, people use it little in speech, so at this level it's enough to recognise it, especially the third person.",
+      {
+        "table": {
+          "head": [
+            "Regular",
+            "Irregular"
+          ],
+          "rows": [
+            [
+              "{pr:parlò}, {pr:parlarono}",
+              "fu (was), furono (were)"
+            ],
+            [
+              "{pr:credé} / {pr:credette}, {pr:crederono}",
+              "ebbe (had), fece (did), disse (said)"
+            ],
+            [
+              "{pr:dormì}, {pr:dormirono}",
+              "nacque (was born), scrisse (wrote), vide (saw)"
+            ]
+          ]
+        }
+      },
+      "*Dante {pr:nacque} a Firenze nel 1265. {pr:Scrisse} la Divina Commedia.*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the trapassato prossimo.",
+        "questions": [
+          "Quando {pp:sono arrivato}, il treno [[era partito#tp]]. (partire)",
+          "Non {im:avevo} fame perché [[avevo mangiato#tp]]. (mangiare, io)",
+          "Anna {pp:ha detto} che [[aveva visto#tp]] Luca. (vedere)",
+          "Noi [[eravamo già usciti#tp]] quando {pp:ha telefonato}. (già, uscire – a group of men)",
+          "Le ragazze [[erano tornate#tp]] tardi. (tornare)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the futuro anteriore.",
+        "questions": [
+          "Quando [[avrò finito#fa]], ti {fs:chiamerò}. (finire, io)",
+          "Appena [[sarai arrivato#fa]], {fs:mangeremo}. (arrivare, tu – a man)",
+          "Dopo che [[avremo pagato#fa]], {fs:usciremo}. (pagare, noi)",
+          "Marco non {ip:risponde}: [[sarà uscito#fa]]. (uscire)"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match the passato remoto with the passato prossimo.",
+        "pairs": [
+          [
+            "{pr:nacque}",
+            "è nato"
+          ],
+          [
+            "{pr:fu}",
+            "è stato"
+          ],
+          [
+            "{pr:scrisse}",
+            "ha scritto"
+          ],
+          [
+            "{pr:fece}",
+            "ha fatto"
+          ],
+          [
+            "{pr:disse}",
+            "ha detto"
+          ],
+          [
+            "{pr:vide}",
+            "ha visto"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il binario",
+        "platform"
+      ],
+      [
+        "la coincidenza",
+        "connection"
+      ],
+      [
+        "lo sciopero",
+        "strike"
+      ],
+      [
+        "il capolavoro",
+        "masterpiece"
+      ],
+      [
+        "lo scrittore",
+        "writer"
+      ],
+      [
+        "il secolo",
+        "century"
+      ],
+      [
+        "accadere",
+        "to happen"
+      ],
+      [
+        "scoprire",
+        "to discover"
+      ],
+      [
+        "sparire",
+        "to disappear"
+      ],
+      [
+        "fortunatamente",
+        "fortunately"
+      ],
+      [
+        "nel frattempo",
+        "in the meantime"
+      ],
+      [
+        "ormai",
+        "by then"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il binario",
+            "platform"
+          ],
+          [
+            "la coincidenza",
+            "connection"
+          ],
+          [
+            "lo sciopero",
+            "strike"
+          ],
+          [
+            "il capolavoro",
+            "masterpiece"
+          ],
+          [
+            "accadere",
+            "to happen"
+          ],
+          [
+            "sparire",
+            "to disappear"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Oggi c'{ip:è} lo [[sciopero]] dei treni. (strike)",
+          "Il treno {ip:parte} dal [[binario]] tre. (platform)",
+          "[[Nel frattempo]] {ip:ho} bevuto un caffè. (in the meantime)",
+          "Dante {ip:è} uno [[scrittore]] famoso. (writer)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il mese scorso {pp:sono andato} a Venezia per un convegno. Quando {pp:sono arrivato} alla stazione, il treno {tp:era} già {tp:partito} perché {tp:avevo sbagliato} orario. Ormai {tp:avevo perso} anche la coincidenza. Nel frattempo {tp:era cominciato} uno sciopero.",
+      "{pp:Sono arrivato} solo la sera. Fortunatamente il mio collega mi {tp:aveva lasciato} le chiavi in albergo. Gli {pp:ho scritto}: «Quando {fa:avrò finito} la mia presentazione, ti {fs:offrirò} una cena.» {ip:Spero} che se ne {csp:ricordi}!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Why did the speaker miss the train?",
+            "options": [
+              "It left early",
+              "*He got the time wrong",
+              "There was a strike"
+            ]
+          },
+          {
+            "q": "When did he reach Venice?",
+            "options": [
+              "In the morning",
+              "At lunchtime",
+              "*In the evening"
+            ]
+          },
+          {
+            "q": "Who had left the keys?",
+            "options": [
+              "The receptionist",
+              "*His colleague",
+              "His wife"
+            ]
+          },
+          {
+            "q": "What does he promise?",
+            "options": [
+              "A train ticket",
+              "*A dinner",
+              "A present"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Lidia",
+        "Com'{pp:è andato} il viaggio?"
+      ],
+      [
+        "Piero",
+        "Malissimo. Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}."
+      ],
+      [
+        "Lidia",
+        "Ma non {tp:avevi controllato} l'orario?"
+      ],
+      [
+        "Piero",
+        "Sì, ma {tp:avevano cambiato} tutto per lo sciopero."
+      ],
+      [
+        "Lidia",
+        "E adesso che cosa {fs:farai}?"
+      ],
+      [
+        "Piero",
+        "Quando {fa:avrò parlato} con il capo, {fs:prenoterò} un altro biglietto."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Il treno [[era#tp]] già {tp:partito}.",
+          "Ma non [[avevi#tp]] {tp:controllato} l'orario?",
+          "[[Avevano#tp]] {tp:cambiato} tutto per lo sciopero.",
+          "Quando [[avrò#fa]] {fa:parlato} con il capo, {fs:prenoterò} un altro biglietto."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The timetable had been changed.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Piero will book a ticket before talking to his boss.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "When I arrived, the train had already left.",
+            "a": [
+              "Quando sono arrivato, il treno era già partito.",
+              "Quando sono arrivata, il treno era già partito."
+            ]
+          },
+          {
+            "q": "I had eaten.",
+            "a": [
+              "Avevo mangiato.",
+              "Io avevo mangiato."
+            ]
+          },
+          {
+            "q": "When I have finished, I will call you. (informal)",
+            "a": [
+              "Quando avrò finito, ti chiamerò."
+            ]
+          },
+          {
+            "q": "He must have left already.",
+            "a": [
+              "Sarà già partito."
+            ]
+          },
+          {
+            "q": "Anna said that she had seen Luca.",
+            "a": [
+              "Anna ha detto che aveva visto Luca."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

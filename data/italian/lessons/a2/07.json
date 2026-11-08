@@ -1,0 +1,455 @@
+{
+  "title": "C'{ip:è} qualcuno? Non {ip:voglio} niente!",
+  "translation": "Is anybody there? I don't want anything!",
+  "topics": "Indefinite words, quantity words and the adverbs già, ancora, appena, quasi",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Somebody, something, nobody, nothing"
+      },
+      {
+        "table": {
+          "head": [
+            "Positive",
+            "Negative"
+          ],
+          "rows": [
+            [
+              "qualcuno: somebody",
+              "nessuno: nobody"
+            ],
+            [
+              "qualcosa: something",
+              "niente / nulla: nothing"
+            ]
+          ]
+        }
+      },
+      "Italian keeps both negative words when the negative word comes after the verb: *Non {ip:voglio} niente. Non c'{ip:è} nessuno.* Literally, *I don't want nothing*. If *nessuno* or *niente* comes before the verb, there is no *non*: *Nessuno {ip:parla}.*",
+      {
+        "h": "Every, all and some"
+      },
+      "*Ogni* and *qualche* never change and are always followed by a singular noun, even though *qualche* means *some*: *ogni giorno, qualche volta*.",
+      "*Tutto* agrees with the noun and takes the article after it. *Ogni giorno* and *tutti i giorni* mean the same.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "tutto il",
+              "tutto il giorno",
+              "all day"
+            ],
+            [
+              "tutta la",
+              "tutta la casa",
+              "the whole house"
+            ],
+            [
+              "tutti i",
+              "tutti i giorni",
+              "every day"
+            ],
+            [
+              "tutte le",
+              "tutte le sere",
+              "every evening"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "How much"
+      },
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "troppo",
+              "too, too much",
+              "{ip:È} troppo caro. {ip:Mangio} troppo."
+            ],
+            [
+              "abbastanza",
+              "quite, enough",
+              "{ip:È} abbastanza caro. {ip:Ho} abbastanza soldi."
+            ],
+            [
+              "quasi",
+              "almost",
+              "{pp:Ho} quasi {pp:finito}."
+            ]
+          ]
+        }
+      },
+      "*Troppo* changes before a noun: *troppa gente, troppi soldi*. *Abbastanza* and *quasi* never change.",
+      {
+        "h": "Già, ancora and appena"
+      },
+      "In the *passato prossimo*, these words stand between the auxiliary and the participle.",
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "già",
+              "already",
+              "{pp:Ho} già {pp:mangiato}."
+            ],
+            [
+              "non… ancora",
+              "not yet",
+              "Non {pp:ho} ancora {pp:mangiato}."
+            ],
+            [
+              "appena",
+              "just",
+              "{pp:Sono} appena {pp:arrivato}."
+            ],
+            [
+              "ancora",
+              "still",
+              "{ip:Sei} ancora qui?"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with qualcuno, qualcosa, nessuno or niente.",
+        "questions": [
+          "C'{ip:è} [[qualcuno]] in casa? (somebody)",
+          "{ip:Vuoi} mangiare [[qualcosa]]? (something)",
+          "Non c'{ip:è} [[nessuno]]. (nobody)",
+          "Non {ip:voglio} [[niente|nulla]]. (nothing)",
+          "[[Nessuno]] {ip:parla} in classe. (nobody)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "___ giorno {ip:vado} al lavoro.",
+            "options": [
+              "*Ogni",
+              "Tutti",
+              "Qualche"
+            ]
+          },
+          {
+            "q": "___ i giorni {ip:vado} al lavoro.",
+            "options": [
+              "Ogni",
+              "*Tutti",
+              "Tutto"
+            ]
+          },
+          {
+            "q": "{pp:Ho letto} ___ libro.",
+            "options": [
+              "*qualche",
+              "qualcuno",
+              "qualcosa"
+            ]
+          },
+          {
+            "q": "{pp:Ho lavorato} ___ la settimana.",
+            "options": [
+              "tutto",
+              "*tutta",
+              "tutti"
+            ]
+          },
+          {
+            "q": "C'{ip:è} ___ gente!",
+            "options": [
+              "troppo",
+              "*troppa",
+              "troppi"
+            ]
+          },
+          {
+            "q": "Nessuno ___ .",
+            "options": [
+              "*{ip:parla}",
+              "non {ip:parla}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with già, ancora, appena or quasi.",
+        "questions": [
+          "{pp:Ho} [[già]] {pp:mangiato}, grazie. (already)",
+          "Non {pp:ho} [[ancora]] {pp:finito}. (not yet)",
+          "{pp:Sono} [[appena]] {pp:arrivato}. (just)",
+          "{ip:Sono} [[quasi]] le otto. (almost)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "i soldi",
+        "money"
+      ],
+      [
+        "la spesa",
+        "shopping"
+      ],
+      [
+        "il frigorifero",
+        "fridge"
+      ],
+      [
+        "il pacco",
+        "parcel"
+      ],
+      [
+        "la chiave",
+        "key"
+      ],
+      [
+        "il vicino di casa",
+        "neighbour"
+      ],
+      [
+        "bussare",
+        "to knock"
+      ],
+      [
+        "cercare",
+        "to look for"
+      ],
+      [
+        "trovare",
+        "to find"
+      ],
+      [
+        "finire",
+        "to finish"
+      ],
+      [
+        "vuoto",
+        "empty"
+      ],
+      [
+        "pieno",
+        "full"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "i soldi",
+            "money"
+          ],
+          [
+            "il frigorifero",
+            "fridge"
+          ],
+          [
+            "il pacco",
+            "parcel"
+          ],
+          [
+            "bussare",
+            "to knock"
+          ],
+          [
+            "vuoto",
+            "empty"
+          ],
+          [
+            "pieno",
+            "full"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Devo} fare la [[spesa]]. (shopping)",
+          "[[Cerco#ip]] le chiavi. (I'm looking for)",
+          "Non {pp:ho} [[trovato#pp]] niente. (found)",
+          "Il mio [[vicino]] di casa {ip:è} gentile. (neighbour)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Ieri sera {pp:sono tornata} a casa tardi. {pp:Ho bussato} alla porta: «C'{ip:è} qualcuno?» Non {pp:ha risposto} nessuno. {pp:Ho aperto} il frigorifero, ma {im:era} quasi vuoto: non c'{im:era} niente da mangiare.",
+      "{tp:Ero} appena {tp:uscita} per fare la spesa quando {pp:ho incontrato} il mio vicino. Mi {pp:ha detto}: «{pp:Ho} già {pp:cucinato} troppo per me. {ip:Vuoi} qualcosa?» {pp:Abbiamo mangiato} insieme e {pp:ho scoperto} che {ip:abita} qui da tutta la vita!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Who answered at the door?",
+            "options": [
+              "Her husband",
+              "The neighbour",
+              "*Nobody"
+            ]
+          },
+          {
+            "q": "The fridge was…",
+            "options": [
+              "full",
+              "*almost empty",
+              "broken"
+            ]
+          },
+          {
+            "q": "What was the neighbour's offer?",
+            "options": [
+              "To go shopping together",
+              "*Some of the food he had cooked",
+              "A key to the house"
+            ]
+          },
+          {
+            "q": "The neighbour has lived there…",
+            "options": [
+              "for a year",
+              "*all his life",
+              "since yesterday"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Mamma",
+        "{pp:Hai} già {pp:fatto} i compiti?"
+      ],
+      [
+        "Figlio",
+        "Non ancora. {pp:Sono} appena {pp:tornato}!"
+      ],
+      [
+        "Mamma",
+        "{pp:Hai mangiato} qualcosa?"
+      ],
+      [
+        "Figlio",
+        "No, non {pp:ho mangiato} niente tutto il giorno."
+      ],
+      [
+        "Mamma",
+        "C'{ip:è} un po' di pasta. {ip:È} abbastanza?"
+      ],
+      [
+        "Figlio",
+        "Sì, grazie. Quasi quasi ne {ip:mangio} due piatti!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{pp:Hai} [[già]] {pp:fatto} i compiti?",
+          "{pp:Sono} [[appena]] {pp:tornato}!",
+          "Non {pp:ho mangiato} [[niente]] tutto il giorno.",
+          "{ip:È} [[abbastanza]]?"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The son has finished his homework.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The son has eaten nothing all day.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Is anybody there?",
+            "a": [
+              "C'è qualcuno?"
+            ]
+          },
+          {
+            "q": "I don't want anything.",
+            "a": [
+              "Non voglio niente.",
+              "Non voglio nulla.",
+              "Io non voglio niente."
+            ]
+          },
+          {
+            "q": "I have already eaten.",
+            "a": [
+              "Ho già mangiato.",
+              "Io ho già mangiato."
+            ]
+          },
+          {
+            "q": "I haven't finished yet.",
+            "a": [
+              "Non ho ancora finito.",
+              "Io non ho ancora finito."
+            ]
+          },
+          {
+            "q": "It is too expensive.",
+            "a": [
+              "È troppo caro.",
+              "È troppo cara."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

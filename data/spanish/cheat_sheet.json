@@ -1,0 +1,52 @@
+{
+  "title": "Verb tenses",
+  "intro": "All moods and tenses at a glance. The examples use hablar.",
+  "moods": [
+    {
+      "name": "Indicativo", "color": "grey",
+      "children": [
+        {"name": "Presente", "example": "hablo", "color": "orange", "style": "t-ip"},
+        {
+          "name": "Pasado", "color": "grey",
+          "children": [
+            {"name": "Imperfecto", "example": "hablaba", "color": "green", "style": "t-im"},
+            {"stack": [
+              {"name": "Pretérito perfecto", "example": "he hablado", "color": "red", "style": "t-pp"},
+              {"name": "Pluscuamperfecto", "example": "había hablado", "color": "red", "style": "t-tp"}
+            ]},
+            {"stack": [
+              {"name": "Indefinido", "example": "hablé", "color": "blue", "style": "t-pr"},
+              {"name": "Pretérito anterior", "example": "hube hablado", "color": "blue", "style": "t-tr"}
+            ]}
+          ]
+        },
+        {
+          "name": "Futuro", "color": "grey",
+          "children": [
+            {"stack": [
+              {"name": "Futuro simple", "example": "hablaré", "color": "pink", "style": "t-fs"},
+              {"name": "Futuro compuesto", "example": "habré hablado", "color": "pink", "style": "t-fa"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Condicional", "color": "grey", "style": "mood-wavy",
+      "children": [
+        {"name": "Simple", "example": "hablaría", "color": "orange", "style": "t-cop"},
+        {"name": "Compuesto", "example": "habría hablado", "color": "red", "style": "t-cpa"}
+      ]
+    },
+    {"name": "Imperativo", "example": "¡habla!", "color": "purple", "style": "t-imv"},
+    {
+      "name": "Subjuntivo", "color": "grey", "style": "mood-double",
+      "children": [
+        {"name": "Presente", "example": "que hable", "color": "orange", "style": "t-csp"},
+        {"name": "Pretérito perfecto", "example": "que haya hablado", "color": "red", "style": "t-csa"},
+        {"name": "Imperfecto", "example": "que hablara", "color": "green", "style": "t-csi"},
+        {"name": "Pluscuamperfecto", "example": "que hubiera hablado", "color": "red", "style": "t-cst"}
+      ]
+    }
+  ]
+}

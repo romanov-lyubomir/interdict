@@ -1,0 +1,409 @@
+{
+  "title": "Benché {csp:sia} tardi, ce la {fs:faremo}",
+  "translation": "Although it's late, we'll make it",
+  "topics": "Conjunctions with the congiuntivo, verbs with pronouns: farcela, andarsene, metterci, volerci",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Conjunctions that require the congiuntivo"
+      },
+      "These conjunctions introduce something that is conceded, a condition or a purpose. They are always followed by the *congiuntivo*.",
+      {
+        "table": {
+          "head": [
+            "Idea",
+            "Conjunctions",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Although",
+              "benché, sebbene, nonostante",
+              "Benché {csp:sia} tardi, {ip:esco}."
+            ],
+            [
+              "On condition that",
+              "purché, a patto che",
+              "{ip:Vengo}, purché tu {csp:paghi}."
+            ],
+            [
+              "So that",
+              "affinché, perché",
+              "Te lo {ip:dico} perché tu lo {csp:sappia}."
+            ],
+            [
+              "Before",
+              "prima che",
+              "{imv:Parti} prima che {csp:piova}."
+            ],
+            [
+              "Without",
+              "senza che",
+              "{pp:È uscito} senza che lo {csi:vedessi}."
+            ]
+          ]
+        }
+      },
+      "Compare the two uses of *perché*. *Because* takes the indicative: *{ip:Resto} perché {ip:piove}*. *{ip:So} that* takes the *congiuntivo*: *{ip:Parlo} piano perché tu {csp:capisca}*.",
+      "*Anche se* (even if, although) takes the indicative, so it's the easy option in everyday speech: *Anche se {ip:è} tardi, {ip:esco}*.",
+      {
+        "h": "Same person? Use the infinitive"
+      },
+      "With *prima* and *senza*, when both parts have the same subject, use *di* or nothing with an infinitive: *{ip:Mangio} prima di uscire. {ip:Esco} senza salutare.*",
+      {
+        "h": "Verbs with a built-in pronoun"
+      },
+      "Some very common verbs have *ci*, *ne* or *la* fixed inside them, and the meaning changes completely.",
+      {
+        "table": {
+          "head": [
+            "Verb",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "farcela",
+              "to manage, to make it",
+              "Ce la {ip:faccio}. Non ce la {ip:faccio} più!"
+            ],
+            [
+              "andarsene",
+              "to go away",
+              "Me ne {ip:vado}. Se n'{pp:è andato}."
+            ],
+            [
+              "metterci",
+              "to take (a person's time)",
+              "Ci {ip:metto} due ore."
+            ],
+            [
+              "volerci",
+              "to take (time needed in general)",
+              "Ci {ip:vuole} un'ora. Ci {ip:vogliono} due ore."
+            ],
+            [
+              "avercela con",
+              "to be angry with",
+              "Ce l'{ip:ho} con te."
+            ]
+          ]
+        }
+      },
+      "The conjugated part changes as usual, and the small words are fixed: *ce la {ip:faccio}, ce la {ip:fai}, ce la {ip:fa}*; *me ne {ip:vado}, te ne {ip:vai}, se ne {ip:va}*.",
+      "*Metterci* has a person as its subject: *Marco ci {ip:mette} un'ora*. *Volerci* is impersonal, and agrees with the amount of time: *ci {ip:vuole} un'ora, ci {ip:vogliono} due ore*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the congiuntivo presente.",
+        "questions": [
+          "Benché [[sia#csp]] tardi, {ip:esco}. (essere)",
+          "Sebbene [[piova#csp]], {ip:vado} a piedi. (piovere)",
+          "{ip:Vengo}, purché tu [[paghi#csp]]. (pagare)",
+          "Te lo {ip:dico} affinché tu lo [[sappia#csp]]. (sapere)",
+          "{imv:Parti} prima che [[faccia#csp]] buio. (fare)",
+          "Nonostante [[abbia#csp]] poco tempo, ti {ip:aiuto}. (avere, io)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Anche se ___ tardi, {ip:esco}.",
+            "options": [
+              "*{ip:è}",
+              "{csp:sia}"
+            ]
+          },
+          {
+            "q": "{ip:Resto} a casa perché ___ .",
+            "options": [
+              "*{ip:piove}",
+              "{csp:piova}"
+            ]
+          },
+          {
+            "q": "Parlo piano perché tu ___ . (so that)",
+            "options": [
+              "{ip:capisci}",
+              "*{csp:capisca}"
+            ]
+          },
+          {
+            "q": "{ip:Mangio} ___ di uscire.",
+            "options": [
+              "*prima",
+              "benché",
+              "senza"
+            ]
+          },
+          {
+            "q": "___ {ip:vuole} un'ora per arrivare.",
+            "options": [
+              "*Ci",
+              "Ne",
+              "La"
+            ]
+          },
+          {
+            "q": "Ci ___ due ore.",
+            "options": [
+              "{ip:vuole}",
+              "*{ip:vogliono}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the verb in the right form.",
+        "questions": [
+          "Non ce la [[faccio#ip]] più! (farcela, io)",
+          "Ce la [[farai#fs]], non preoccuparti! (farcela, tu, future)",
+          "Me ne [[vado#ip]]. (andarsene, io)",
+          "Marco ci [[mette#ip]] un'ora per arrivare. (metterci)",
+          "Perché ce l'[[hai#ip]] con me? (avercela, tu)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la scadenza",
+        "deadline"
+      ],
+      [
+        "lo sforzo",
+        "effort"
+      ],
+      [
+        "la fatica",
+        "hard work"
+      ],
+      [
+        "la pazienza",
+        "patience"
+      ],
+      [
+        "il traguardo",
+        "finish line, goal"
+      ],
+      [
+        "resistere",
+        "to hold out"
+      ],
+      [
+        "arrendersi",
+        "to give up"
+      ],
+      [
+        "riuscire",
+        "to succeed"
+      ],
+      [
+        "preoccuparsi",
+        "to worry"
+      ],
+      [
+        "nonostante",
+        "in spite of"
+      ],
+      [
+        "faticoso",
+        "tiring"
+      ],
+      [
+        "in tempo",
+        "in time"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la scadenza",
+            "deadline"
+          ],
+          [
+            "lo sforzo",
+            "effort"
+          ],
+          [
+            "il traguardo",
+            "finish line, goal"
+          ],
+          [
+            "arrendersi",
+            "to give up"
+          ],
+          [
+            "riuscire",
+            "to succeed"
+          ],
+          [
+            "faticoso",
+            "tiring"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Non [[preoccuparti]]! (worry, to a friend)",
+          "{pp:Siamo arrivati} [[in tempo]]. (in time)",
+          "Ci {ip:vuole} molta [[pazienza]]. (patience)",
+          "{ip:È} un lavoro molto [[faticoso]]. (tiring)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Benché {csi:avessimo} poco tempo, quest'anno io e Marina {pp:abbiamo deciso} di correre la maratona di Roma. All'inizio {im:credevo} di non farcela: ci {im:mettevo} un'ora per fare otto chilometri. Ci {ip:vogliono} mesi di allenamento, purché si {csp:abbia} costanza.",
+      "Nonostante {csp:faccia} molto freddo la mattina, {ip:usciamo} ogni giorno prima che la città si {csp:svegli}. Marina si {pp:è stancata} e {im:voleva} andarsene a metà percorso, ma l'{pp:ho convinta}. Anche se {fs:arriveremo} per ultimi, ce la {fs:faremo}!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What are they training for?",
+            "options": [
+              "A swimming race",
+              "*The Rome marathon",
+              "A cycling race"
+            ]
+          },
+          {
+            "q": "How long did 8 km take at first?",
+            "options": [
+              "*An hour",
+              "Half an hour",
+              "Two hours"
+            ]
+          },
+          {
+            "q": "When do they go out to train?",
+            "options": [
+              "In the evening",
+              "*Early in the morning",
+              "At lunchtime"
+            ]
+          },
+          {
+            "q": "How does the speaker feel about finishing?",
+            "options": [
+              "Doubtful",
+              "*Confident, even if they finish last",
+              "Sure of winning"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Tina",
+        "Non ce la {ip:faccio} più con questo lavoro!"
+      ],
+      [
+        "Aldo",
+        "Perché? Quanto ci {ip:metti} ad arrivare in ufficio?"
+      ],
+      [
+        "Tina",
+        "Ci {ip:vogliono} due ore. E il capo ce l'{ip:ha} con me."
+      ],
+      [
+        "Aldo",
+        "Allora {imv:vattene}!"
+      ],
+      [
+        "Tina",
+        "Me ne {cop:andrei} subito, purché {csi:trovassi} un altro posto."
+      ],
+      [
+        "Aldo",
+        "Ce la {fs:farai}, {fs:vedrai}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Non ce la [[faccio#ip]] più!",
+          "Ci [[vogliono#ip]] due ore.",
+          "Il capo ce l'[[ha#ip]] con me.",
+          "Ce la [[farai#fs]], {fs:vedrai}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How long is Tina's trip to the office?",
+        "questions": [
+          {
+            "q": "Tina's trip takes…",
+            "options": [
+              "one hour",
+              "*two hours",
+              "three hours"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Although it's late, I'm going out. (use benché)",
+            "a": [
+              "Benché sia tardi, esco."
+            ]
+          },
+          {
+            "q": "We'll make it.",
+            "a": [
+              "Ce la faremo."
+            ]
+          },
+          {
+            "q": "I can't take it any more.",
+            "a": [
+              "Non ce la faccio più."
+            ]
+          },
+          {
+            "q": "I'm going away.",
+            "a": [
+              "Me ne vado.",
+              "Io me ne vado."
+            ]
+          },
+          {
+            "q": "It takes two hours.",
+            "a": [
+              "Ci vogliono due ore."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

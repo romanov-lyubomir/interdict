@@ -1,0 +1,500 @@
+{
+  "title": "{im:Mirava} a convincerli, onde evitare lo scontro",
+  "translation": "He aimed to convince them, so as to avoid a clash",
+  "topics": "Fine distinctions among conjunctions, prepositions and verb patterns",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Choosing among close conjunctions"
+      },
+      "Conjunctions that seem interchangeable differ in logic, register or the mood that follows.",
+      {
+        "table": {
+          "head": [
+            "Relation",
+            "Everyday",
+            "Formal",
+            "Mood"
+          ],
+          "rows": [
+            [
+              "Cause",
+              "perché, siccome",
+              "giacché, poiché, in quanto",
+              "indicative"
+            ],
+            [
+              "Purpose",
+              "per, perché",
+              "affinché, onde + infinitive",
+              "congiuntivo, or infinitive"
+            ],
+            [
+              "Time",
+              "quando",
+              "allorché, allorquando",
+              "indicative"
+            ],
+            [
+              "Concession",
+              "anche se",
+              "ancorché, sebbene, quantunque",
+              "congiuntivo (not anche se)"
+            ],
+            [
+              "Condition",
+              "se",
+              "qualora, ove, purché",
+              "congiuntivo (not se + real)"
+            ],
+            [
+              "Contrast",
+              "mentre",
+              "laddove, invece che",
+              "indicative"
+            ],
+            [
+              "Extent",
+              "come",
+              "nella misura in cui",
+              "indicative"
+            ]
+          ]
+        }
+      },
+      "*Giacché* presents the cause as already known, while *perché* introduces it as new information. So *Giacché ci {ip:sei}, {imv:aiutami}* is natural, because you are obviously here.",
+      {
+        "h": "Expressions that structure an argument"
+      },
+      {
+        "table": {
+          "head": [
+            "Expression",
+            "Function",
+            "Example"
+          ],
+          "rows": [
+            [
+              "fermo restando che",
+              "keeping something fixed",
+              "Fermo restando che il budget non {ip:cambia}, …"
+            ],
+            [
+              "a prescindere da",
+              "excluding a factor",
+              "A prescindere dal costo, {ip:è} un errore."
+            ],
+            [
+              "alla luce di",
+              "considering",
+              "Alla luce dei dati, …"
+            ],
+            [
+              "in virtù di",
+              "by reason of",
+              "In virtù dell'accordo, …"
+            ],
+            [
+              "onde evitare",
+              "so as to avoid",
+              "Onde evitare equivoci, ribadisco…"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Verbs that look alike"
+      },
+      "Close synonyms can require different constructions.",
+      {
+        "table": {
+          "head": [
+            "Verb",
+            "Pattern",
+            "Example"
+          ],
+          "rows": [
+            [
+              "mirare",
+              "a + noun or infinitive",
+              "{ip:Mira} a convincerli."
+            ],
+            [
+              "aspirare",
+              "a",
+              "{ip:Aspira} alla presidenza."
+            ],
+            [
+              "ambire",
+              "a",
+              "{ip:Ambisce} al successo."
+            ],
+            [
+              "contare",
+              "su",
+              "{ip:Conta} su di te."
+            ],
+            [
+              "confidare",
+              "in",
+              "{ip:Confido} nella tua discrezione."
+            ],
+            [
+              "attenersi",
+              "a",
+              "Si attiene alle regole."
+            ],
+            [
+              "avvalersi",
+              "di",
+              "Si {ip:avvale} di consulenti."
+            ],
+            [
+              "prescindere",
+              "da",
+              "Non si {ip:può} prescindere dai fatti."
+            ],
+            [
+              "vertere",
+              "su",
+              "L'esame {ip:verte} sulla storia."
+            ],
+            [
+              "ovviare",
+              "a",
+              "{ip:Bisogna} ovviare al problema."
+            ],
+            [
+              "esimersi",
+              "da",
+              "Non {ip:posso} esimermi dal dire."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with the right preposition.",
+        "questions": [
+          "{im:Mirava} [[a]] convincerli.",
+          "{ip:Confido} [[nella]] tua discrezione.",
+          "Si {ip:avvale} [[di]] consulenti esterni.",
+          "La discussione {ip:verte} [[su]] questo punto.",
+          "Non si {ip:può} prescindere [[dai]] fatti.",
+          "{ip:Bisogna} ovviare [[al]] problema.",
+          "Non {ip:posso} esimermi [[dal]] dire la verità."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the best word for the context.",
+        "questions": [
+          {
+            "q": "___ ci sei, aiutami. (the cause is obvious)",
+            "options": [
+              "*Giacché",
+              "Affinché",
+              "Ancorché"
+            ]
+          },
+          {
+            "q": "(formal) ___ evitare equivoci, ribadisco il punto.",
+            "options": [
+              "*Onde",
+              "Giacché",
+              "Mentre"
+            ]
+          },
+          {
+            "q": "(formal contrast) Il primo {ip:è} costoso, ___ il secondo {ip:è} gratuito.",
+            "options": [
+              "ancorché",
+              "*laddove",
+              "onde"
+            ]
+          },
+          {
+            "q": "(formal concession) ___ malato, {pr:volle} partire.",
+            "options": [
+              "Allorché",
+              "*Ancorché",
+              "Giacché"
+            ]
+          },
+          {
+            "q": "Lavoriamo ___ i fondi lo consentono. (to the extent that)",
+            "options": [
+              "*nella misura in cui",
+              "fermo restando",
+              "onde"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence more formally, using the word in brackets.",
+        "questions": [
+          {
+            "q": "Per evitare equivoci, lo {ip:ripeto}. (onde)",
+            "a": [
+              "Onde evitare equivoci, lo ripeto."
+            ]
+          },
+          {
+            "q": "Quando {pr:giunse}, tutti {pr:tacquero}. (allorché)",
+            "a": [
+              "Allorché giunse, tutti tacquero."
+            ]
+          },
+          {
+            "q": "Non considerando il costo, {ip:è} un errore. (a prescindere da)",
+            "a": [
+              "A prescindere dal costo, è un errore."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "lo scontro",
+        "clash"
+      ],
+      [
+        "la mediazione",
+        "mediation"
+      ],
+      [
+        "la disputa",
+        "dispute"
+      ],
+      [
+        "il consenso",
+        "consensus"
+      ],
+      [
+        "mirare",
+        "to aim"
+      ],
+      [
+        "aspirare",
+        "to aspire"
+      ],
+      [
+        "attenersi",
+        "to abide by"
+      ],
+      [
+        "avvalersi",
+        "to make use of"
+      ],
+      [
+        "ovviare",
+        "to remedy"
+      ],
+      [
+        "vertere",
+        "to concern"
+      ],
+      [
+        "esimersi",
+        "to refrain"
+      ],
+      [
+        "fermo restando",
+        "without prejudice to"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la mediazione",
+            "mediation"
+          ],
+          [
+            "attenersi",
+            "to abide by"
+          ],
+          [
+            "avvalersi",
+            "to make use of"
+          ],
+          [
+            "ovviare",
+            "to remedy"
+          ],
+          [
+            "vertere",
+            "to concern"
+          ],
+          [
+            "esimersi",
+            "to refrain"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{pp:Hanno evitato} lo [[scontro]]. (clash)",
+          "{im:Cercava} il [[consenso]] di tutti. (consensus)",
+          "[[Aspira#ip]] a una carriera politica. (aspires)",
+          "La [[disputa]] {pp:è durata} anni. (dispute)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il nuovo presidente {im:mirava} a convincere i soci, onde evitare uno scontro in assemblea. Fermo restando che il bilancio non {im:poteva} essere rivisto, si {pr:avvalse} di un mediatore esterno, confidando nella sua reputazione. Allorché la discussione {pr:passò} agli stipendi, tuttavia, il clima {pr:mutò}.",
+      "A prescindere dai numeri, i soci storici {im:aspiravano} a mantenere il controllo, laddove i nuovi investitori {im:ambivano} a un rapido profitto. Ancorché sconfitto al primo voto, il presidente non {pr:esitò} a presentare una seconda proposta. Alla luce dei fatti, {pr:fu} una scelta sensata."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Why did the president use a mediator?",
+            "options": [
+              "*To avoid a clash",
+              "To review the budget",
+              "To sell shares"
+            ]
+          },
+          {
+            "q": "When did the mood change?",
+            "options": [
+              "At the start",
+              "*When salaries were discussed",
+              "After the second vote"
+            ]
+          },
+          {
+            "q": "What did the older partners want?",
+            "options": [
+              "Quick profit",
+              "*To keep control",
+              "A new president"
+            ]
+          },
+          {
+            "q": "«Ancorché sconfitto» means…",
+            "options": [
+              "Because he was defeated",
+              "*Although defeated",
+              "When he was defeated"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Presidente",
+        "Giacché {ip:siamo} tutti presenti, {ip:cominciamo}."
+      ],
+      [
+        "Socio",
+        "A prescindere dal bilancio, a cosa {ip:miriamo}?"
+      ],
+      [
+        "Presidente",
+        "{ip:Miriamo} a un accordo, fermo restando il budget."
+      ],
+      [
+        "Socio",
+        "Vi {ip:avvalete} ancora del vecchio consulente?"
+      ],
+      [
+        "Presidente",
+        "Sì, e {ip:confido} nella sua esperienza."
+      ],
+      [
+        "Socio",
+        "Non {ip:posso} esimermi dal dire che {ip:ho} dei dubbi."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Giacché]] {ip:siamo} tutti presenti, {ip:cominciamo}.",
+          "A prescindere [[dal]] bilancio, a cosa {ip:miriamo}?",
+          "Vi {ip:avvalete} ancora [[del]] vecchio consulente?",
+          "Non {ip:posso} esimermi [[dal]] dire che {ip:ho} dei dubbi."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What is fixed in the discussion?",
+        "questions": [
+          {
+            "q": "What can't change is…",
+            "options": [
+              "the consultant",
+              "*the budget",
+              "the president"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "He aimed to convince them, so as to avoid a clash. (imperfetto, use onde)",
+            "a": [
+              "Mirava a convincerli, onde evitare lo scontro.",
+              "Mirava a convincerli, onde evitare uno scontro."
+            ]
+          },
+          {
+            "q": "Regardless of the cost, it's a mistake. (a prescindere)",
+            "a": [
+              "A prescindere dal costo, è un errore."
+            ]
+          },
+          {
+            "q": "I trust in your discretion. (confidare, informal)",
+            "a": [
+              "Confido nella tua discrezione."
+            ]
+          },
+          {
+            "q": "The exam concerns history. (vertere)",
+            "a": [
+              "L'esame verte sulla storia."
+            ]
+          },
+          {
+            "q": "We must remedy the problem. (ovviare)",
+            "a": [
+              "Dobbiamo ovviare al problema.",
+              "Bisogna ovviare al problema."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

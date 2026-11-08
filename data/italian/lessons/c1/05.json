@@ -1,0 +1,453 @@
+{
+  "title": "La proposta {ip:va} rivista: si {ip:ritiene} che {csp:sia} troppo costosa",
+  "translation": "The proposal must be revised: it is considered too expensive",
+  "topics": "Passive constructions with essere, venire, andare and rimanere, impersonal and passive si",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Choosing the right passive"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "What it adds",
+            "Example"
+          ],
+          "rows": [
+            [
+              "essere",
+              "neutral, all tenses",
+              "La proposta {pp:è stata} {pp:rivista}."
+            ],
+            [
+              "venire",
+              "the process, simple tenses only",
+              "La proposta {ip:viene} discussa ogni anno."
+            ],
+            [
+              "andare",
+              "obligation, simple tenses only",
+              "La proposta {ip:va} rivista."
+            ],
+            [
+              "rimanere",
+              "an unexpected result",
+              "{pp:È rimasto} ferito nell'incidente."
+            ],
+            [
+              "essere da + infinitive",
+              "something still to be done",
+              "La proposta {ip:è} da rivedere."
+            ]
+          ]
+        }
+      },
+      "*Andare* with verbs such as *perdere, smarrire* or *distruggere* does not express an obligation but a loss: *I documenti {pp:sono andati} perduti.*",
+      {
+        "h": "The passive in formal and academic writing"
+      },
+      "Omitting the agent makes a text sound impersonal and objective. That is why it is common in reports and science: *I dati {pp:sono stati} {pp:raccolti} in tre fasi*. Use it deliberately, because a long chain of passives quickly makes a text heavy.",
+      {
+        "h": "Si with verbs of thinking and saying"
+      },
+      "These impersonal expressions present an opinion as generally held. After a verb of opinion, formal Italian uses the *congiuntivo*.",
+      {
+        "table": {
+          "head": [
+            "Expression",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "si {ip:ritiene} che",
+              "Si {ip:ritiene} che {csp:sia} troppo costosa.",
+              "It is considered…"
+            ],
+            [
+              "si {ip:pensa} che",
+              "Si {ip:pensa} che {csi:fosse} un pittore.",
+              "He is thought to have been…"
+            ],
+            [
+              "si {ip:dice} che",
+              "Si {ip:dice} che {csa:abbia venduto} tutto.",
+              "They say that…"
+            ],
+            [
+              "si {ip:prevede} che",
+              "Si {ip:prevede} che aumenterà.",
+              "It is expected that…"
+            ]
+          ]
+        }
+      },
+      "*Si {ip:prevede}* looks to the future, so it usually takes the future: *Si {ip:prevede} che i prezzi aumenteranno*.",
+      {
+        "h": "Agreement with si: a full summary"
+      },
+      {
+        "table": {
+          "head": [
+            "Case",
+            "Verb",
+            "Example"
+          ],
+          "rows": [
+            [
+              "No object",
+              "singular",
+              "Si {pp:è parlato} molto."
+            ],
+            [
+              "Singular object",
+              "singular, agrees",
+              "Si {pp:è venduta} la casa."
+            ],
+            [
+              "Plural object",
+              "plural, agrees",
+              "Si {pp:sono vendut**i**} tutti i biglietti."
+            ],
+            [
+              "Verb normally with essere",
+              "participle plural",
+              "Si {pp:è partit**i**} presto."
+            ],
+            [
+              "Adjective after essere",
+              "adjective plural",
+              "Si {ip:è} content**i**."
+            ]
+          ]
+        }
+      },
+      "Unlike the passive with *essere*, a sentence with *si* can't name the agent: *Si {pp:è venduta} la casa da Marco* is wrong."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the form that fits the meaning.",
+        "questions": [
+          {
+            "q": "La proposta ___ rivista entro lunedì. (must be)",
+            "options": [
+              "*{ip:va}",
+              "{ip:viene}",
+              "{ip:ha}"
+            ]
+          },
+          {
+            "q": "Due persone {ip:sono} ___ ferite nello scontro. (unexpected result)",
+            "options": [
+              "{ip:andate}",
+              "*rimaste",
+              "venute"
+            ]
+          },
+          {
+            "q": "Molti documenti {ip:sono} ___ perduti nell'incendio.",
+            "options": [
+              "*andati",
+              "venuti",
+              "fatti"
+            ]
+          },
+          {
+            "q": "Questo testo {ip:è} ___ correggere.",
+            "options": [
+              "per",
+              "a",
+              "*da"
+            ]
+          },
+          {
+            "q": "Si ___ tutti i biglietti.",
+            "options": [
+              "{ip:è venduto}",
+              "*{ip:sono venduti}",
+              "{pp:ha venduti}"
+            ]
+          },
+          {
+            "q": "Si {ip:ritiene} che il progetto ___ troppo costoso.",
+            "options": [
+              "{pp:è stato}",
+              "*{csp:sia}",
+              "essere"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite with the construction in brackets.",
+        "questions": [
+          {
+            "q": "{ip:Bisogna} rivedere la proposta. (andare)",
+            "a": [
+              "La proposta va rivista."
+            ]
+          },
+          {
+            "q": "Tutti {ip:pensano} che {csp:sia} troppo costosa. (si {ip:pensa})",
+            "a": [
+              "Si pensa che sia troppo costosa."
+            ]
+          },
+          {
+            "q": "Il comune {pp:ha chiuso} il teatro. (essere)",
+            "a": [
+              "Il teatro è stato chiuso dal comune."
+            ]
+          },
+          {
+            "q": "{pp:Hanno venduto} tutti i biglietti. (si)",
+            "a": [
+              "Si sono venduti tutti i biglietti."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il bilancio",
+        "budget"
+      ],
+      [
+        "lo stanziamento",
+        "allocation of funds"
+      ],
+      [
+        "la delibera",
+        "resolution"
+      ],
+      [
+        "la bozza",
+        "draft"
+      ],
+      [
+        "l'emendamento",
+        "amendment"
+      ],
+      [
+        "il rapporto",
+        "report"
+      ],
+      [
+        "rivedere",
+        "to revise"
+      ],
+      [
+        "stanziare",
+        "to allocate"
+      ],
+      [
+        "approvare",
+        "to approve"
+      ],
+      [
+        "bocciare",
+        "to reject"
+      ],
+      [
+        "smarrire",
+        "to mislay"
+      ],
+      [
+        "oneroso",
+        "costly"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "lo stanziamento",
+            "allocation of funds"
+          ],
+          [
+            "la bozza",
+            "draft"
+          ],
+          [
+            "l'emendamento",
+            "amendment"
+          ],
+          [
+            "stanziare",
+            "to allocate"
+          ],
+          [
+            "bocciare",
+            "to reject"
+          ],
+          [
+            "oneroso",
+            "costly"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il [[bilancio]] {pp:è stato} {pp:approvato}. (budget)",
+          "Il [[rapporto]] {fs:sarà pubblicato} domani. (report)",
+          "La proposta {pp:è stata} [[bocciata#pp]]. (rejected)",
+          "{pp:Ho} [[smarrito#pp]] la ricevuta. (mislaid)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "La proposta di riforma dei trasporti urbani, presentata lo scorso anno, {ip:va} rivista in profondità. {ip:È} quanto {ip:emerge} dal rapporto pubblicato ieri dalla commissione. Si {ip:ritiene} che i costi {csa:siano stati} sottostimati di almeno il trenta per cento e si {ip:prevede} che i lavori {fs:dureranno} più a lungo del previsto.",
+      "Alcuni documenti, inoltre, {cpa:sarebbero andati} perduti durante il trasloco degli uffici. Tre consiglieri {pp:sono rimasti} sorpresi dalla severità del giudizio. La bozza {ip:viene} ora discussa in sede tecnica: gli stanziamenti {ip:sono} ancora da definire e la delibera finale non {fs:sarà votata} prima di giugno."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What does the report conclude about the reform?",
+            "options": [
+              "It should be approved at once",
+              "*It must be thoroughly revised",
+              "It has been cancelled"
+            ]
+          },
+          {
+            "q": "What is said about the costs?",
+            "options": [
+              "They were overestimated",
+              "*They were underestimated by at least 30%",
+              "They are final"
+            ]
+          },
+          {
+            "q": "«sarebbero andati perduti» tells us that…",
+            "options": [
+              "*the loss is reported, not confirmed",
+              "the documents were found",
+              "someone must lose them"
+            ]
+          },
+          {
+            "q": "When will the final resolution be voted?",
+            "options": [
+              "Tomorrow",
+              "This year in March",
+              "*Not before June"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Direttore",
+        "La bozza {pp:è stata} {pp:letta} da tutti?"
+      ],
+      [
+        "Assistente",
+        "Sì, ma {ip:va} rivista: si {ip:ritiene} che {csp:sia} troppo onerosa."
+      ],
+      [
+        "Direttore",
+        "Chi lo {ip:dice}? Si {pp:è parlato} di cifre precise?"
+      ],
+      [
+        "Assistente",
+        "Si {pp:sono discussi} tutti i punti. Il capitolo sui costi {ip:è} da rifare."
+      ],
+      [
+        "Direttore",
+        "E i dati del 2022?"
+      ],
+      [
+        "Assistente",
+        "Purtroppo {pp:sono andati} perduti."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Sì, ma [[va#ip]] rivista.",
+          "[[Si]] {ip:ritiene} che {csp:sia} troppo onerosa.",
+          "Il capitolo sui costi {ip:è} [[da]] rifare.",
+          "Purtroppo {pp:sono} [[andati#pp]] perduti."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What must be redone?",
+        "questions": [
+          {
+            "q": "The part to redo is…",
+            "options": [
+              "the introduction",
+              "*the chapter on costs",
+              "the 2022 data"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "The proposal must be revised. (use andare)",
+            "a": [
+              "La proposta va rivista."
+            ]
+          },
+          {
+            "q": "It is thought that it is too expensive. (use si, la proposta)",
+            "a": [
+              "Si ritiene che sia troppo costosa.",
+              "Si pensa che sia troppo costosa."
+            ]
+          },
+          {
+            "q": "All the tickets have been sold. (use si)",
+            "a": [
+              "Si sono venduti tutti i biglietti."
+            ]
+          },
+          {
+            "q": "Two people were injured. (use rimanere)",
+            "a": [
+              "Due persone sono rimaste ferite."
+            ]
+          },
+          {
+            "q": "The documents were lost. (use andare)",
+            "a": [
+              "I documenti sono andati perduti.",
+              "I documenti sono andati persi."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

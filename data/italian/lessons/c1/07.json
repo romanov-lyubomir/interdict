@@ -1,0 +1,437 @@
+{
+  "title": "Non contarci: ne {ip:ho} abbastanza e me ne {ip:vado}",
+  "translation": "Don't count on it: I've had enough and I'm leaving",
+  "topics": "Pronoun combinations in all positions, ci and ne as pronouns, adverbs and in idioms",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Pronouns with fare and lasciare"
+      },
+      "With *fare* or *lasciare* + infinitive, pronouns stand before the first verb, because the two verbs act as one unit: *Glielo {ip:faccio} fare*, *Me lo {ip:lasci} vedere?*",
+      {
+        "table": {
+          "head": [
+            "Without pronouns",
+            "With pronouns"
+          ],
+          "rows": [
+            [
+              "{ip:Faccio} riparare la macchina a Luca.",
+              "Gliela {ip:faccio} riparare."
+            ],
+            [
+              "Mi {ip:lasci} leggere la lettera?",
+              "Me la {ip:lasci} leggere?"
+            ],
+            [
+              "Ci {pp:ha fatto} vedere le foto.",
+              "Ce le {pp:ha fatte} vedere."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Where each combination goes"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example"
+          ],
+          "rows": [
+            [
+              "ce ne",
+              "Ce ne {ip:vogliono} due."
+            ],
+            [
+              "ve li",
+              "Ve li {ip:porto} domani."
+            ],
+            [
+              "se ne",
+              "Se ne {pp:è andato}."
+            ],
+            [
+              "With infinitive",
+              "Non {ip:voglio} parlartene."
+            ],
+            [
+              "With tu command",
+              "{imv:Portamene} due!"
+            ],
+            [
+              "With Lei command",
+              "Me ne {imv:porti} due!"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Ci and ne: beyond replacing words"
+      },
+      "In many everyday expressions, *ci* and *ne* no longer replace anything specific. They are part of the verb, and its meaning has to be learned as a whole.",
+      {
+        "table": {
+          "head": [
+            "Expression",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "contarci",
+              "to count on it",
+              "Non contarci!"
+            ],
+            [
+              "vederci",
+              "to be able to see",
+              "Non ci {ip:vedo} bene."
+            ],
+            [
+              "sentirci",
+              "to be able to hear",
+              "Non ci {ip:sento} da questo orecchio."
+            ],
+            [
+              "entrarci",
+              "to be relevant",
+              "Che c'{ip:entra}?"
+            ],
+            [
+              "tenerci",
+              "to care about it",
+              "Ci {ip:tengo} molto."
+            ],
+            [
+              "averne abbastanza",
+              "to have had enough",
+              "Ne {ip:ho} abbastanza."
+            ],
+            [
+              "andarsene",
+              "to leave",
+              "Me ne {ip:vado}."
+            ],
+            [
+              "farne a meno",
+              "to do without it",
+              "Non {ip:posso} farne a meno."
+            ],
+            [
+              "valerne la pena",
+              "to be worth it",
+              "Ne {ip:vale} la pena."
+            ],
+            [
+              "non poterne più",
+              "not to be able to stand it",
+              "Non ne {ip:posso} più!"
+            ],
+            [
+              "infischiarsene",
+              "not to care",
+              "Me ne {ip:infischio}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "With la: more fixed verbs"
+      },
+      "The pronoun *la* is also fixed in some verbs: *farcela* (to manage), *cavarsela* (to get by), *prendersela* (to take offence), *smetterla* (to stop it), *avercela con* (to have it in for).",
+      "In the compound tenses, *la* makes the participle feminine: *Ce l'{pp:ho fatta}. Se l'{pp:è cavata}. Se l'{pp:è presa}.*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Replace the words with pronouns.",
+        "questions": [
+          "{ip:Faccio} riparare la macchina a Luca. → [[Gliela]] {ip:faccio} riparare.",
+          "Ci {pp:ha fatto} vedere le foto. → [[Ce le]] {pp:ha fatte} vedere.",
+          "Non {ip:voglio} parlarti di questo. → Non {ip:voglio} [[parlartene]].",
+          "{imv:Porta} due caffè a me! → [[Portamene#imv]] due!",
+          "Vi {ip:porto} i documenti domani. → [[Ve li]] {ip:porto} domani."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each expression with its meaning.",
+        "pairs": [
+          [
+            "Non ne {ip:posso} più!",
+            "I can't stand it any more!"
+          ],
+          [
+            "Che c'{ip:entra}?",
+            "What's that got to do with it?"
+          ],
+          [
+            "Ne {ip:vale} la pena.",
+            "It's worth it."
+          ],
+          [
+            "Non contarci!",
+            "Don't count on it!"
+          ],
+          [
+            "Ci {ip:tengo}.",
+            "It matters to me."
+          ],
+          [
+            "Non {ip:posso} farne a meno.",
+            "I can't do without it."
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the participle. Remember that la makes it feminine.",
+        "questions": [
+          "Finalmente ce l'{pp:ho} [[fatta#pp]]. (fare)",
+          "Marco se l'{pp:è} [[cavata#pp]] bene. (cavare)",
+          "Non {im:volevo} offenderla, ma se l'{pp:è} [[presa#pp]]. (prendere)",
+          "Se n'{pp:è} [[andato#pp]] senza salutare. (andare, lui)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la pazienza",
+        "patience"
+      ],
+      [
+        "il rancore",
+        "resentment"
+      ],
+      [
+        "la lite",
+        "argument"
+      ],
+      [
+        "l'offesa",
+        "insult"
+      ],
+      [
+        "la ripicca",
+        "spite"
+      ],
+      [
+        "sopportare",
+        "to put up with"
+      ],
+      [
+        "litigare",
+        "to quarrel"
+      ],
+      [
+        "sfogarsi",
+        "to let off steam"
+      ],
+      [
+        "scusarsi",
+        "to apologise"
+      ],
+      [
+        "permaloso",
+        "touchy"
+      ],
+      [
+        "testardo",
+        "stubborn"
+      ],
+      [
+        "una volta per tutte",
+        "once and for all"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il rancore",
+            "resentment"
+          ],
+          [
+            "la ripicca",
+            "spite"
+          ],
+          [
+            "sopportare",
+            "to put up with"
+          ],
+          [
+            "sfogarsi",
+            "to let off steam"
+          ],
+          [
+            "permaloso",
+            "touchy"
+          ],
+          [
+            "testardo",
+            "stubborn"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{pp:Abbiamo} [[litigato#pp]] per una sciocchezza. (quarrelled)",
+          "{pp:Ho perso} la [[pazienza]]. (patience)",
+          "{imv:Parliamone} [[una volta per tutte]]. (once and for all)",
+          "Almeno si {pp:è} [[scusato#pp]]. (apologised)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "«Ne {ip:ho} abbastanza», {pr:disse} Ada posando le chiavi sul tavolo. «Me ne {ip:vado}.» Pietro {pr:alzò} appena gli occhi dal giornale. «E non {ip:pensi} che ci {csp:sia} qualcosa da dire?» «Non ne {ip:vale} la pena. Te ne {pp:ho parlato} cento volte. Tu te ne {ip:infischi}.»",
+      "Lui se la {pr:prese} subito: «Che c'{ip:entra} adesso? Ci {im:tenevo} anche io!» «Non contarci più, Pietro. Da sola me la {fs:caverò} benissimo.» Gliele {tp:aveva dette} tutte, finalmente. Uscendo {pr:sentì} che non ne {im:poteva} davvero più, ma per la prima volta dopo anni si {pr:accorse} che ce l'{cpa:avrebbe fatta}."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What does Ada decide?",
+            "options": [
+              "To talk it over",
+              "*To leave",
+              "To read the newspaper"
+            ]
+          },
+          {
+            "q": "According to Ada, Pietro…",
+            "options": [
+              "*doesn't care",
+              "is too jealous",
+              "works too much"
+            ]
+          },
+          {
+            "q": "How does Pietro react?",
+            "options": [
+              "He apologises",
+              "*He takes offence",
+              "He leaves as well"
+            ]
+          },
+          {
+            "q": "How does Ada feel at the end?",
+            "options": [
+              "Regretful",
+              "Frightened",
+              "*Confident she will manage"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Gina",
+        "Non ne {ip:posso} più di questo ufficio!"
+      ],
+      [
+        "Ugo",
+        "Che c'{ip:entra} l'ufficio? Te la {pp:sei presa} con il capo?"
+      ],
+      [
+        "Gina",
+        "Sì, e ora me ne {ip:vado}. Non contarci più per il progetto."
+      ],
+      [
+        "Ugo",
+        "Ma ci {im:tenevi} tanto!"
+      ],
+      [
+        "Gina",
+        "Ne {ip:ho} abbastanza. Non ne {ip:vale} la pena."
+      ],
+      [
+        "Ugo",
+        "{fs:Vedrai} che te la {fs:caverai}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Non [[ne]] {ip:posso} più di questo ufficio!",
+          "Te la {pp:sei} [[presa#pp]] con il capo?",
+          "Non [[contarci]] più per il progetto.",
+          "{fs:Vedrai} che te la [[caverai#fs]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What is Gina going to do?",
+        "questions": [
+          {
+            "q": "Gina…",
+            "options": [
+              "will finish the project",
+              "*is leaving",
+              "will talk to the boss again"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I've had enough and I'm leaving.",
+            "a": [
+              "Ne ho abbastanza e me ne vado."
+            ]
+          },
+          {
+            "q": "Don't count on it! (informal)",
+            "a": [
+              "Non contarci!",
+              "Non ci contare!"
+            ]
+          },
+          {
+            "q": "I can't stand it any more!",
+            "a": [
+              "Non ne posso più!"
+            ]
+          },
+          {
+            "q": "It's worth it.",
+            "a": [
+              "Ne vale la pena."
+            ]
+          },
+          {
+            "q": "I made it! (farcela, past)",
+            "a": [
+              "Ce l'ho fatta!"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

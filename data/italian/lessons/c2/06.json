@@ -1,0 +1,424 @@
+{
+  "title": "{ip:Va} detto che si {pp:è fatto} il possibile",
+  "translation": "It must be said that everything possible was done",
+  "topics": "Choosing among passive and impersonal forms according to focus and style",
+  "grammar": {
+    "explain": [
+      {
+        "h": "One event, many focuses"
+      },
+      "Each form answers a slightly different need. Choosing well means deciding what should be foregrounded and who should stay in the dark.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Active",
+              "Il governo {pp:ha ridotto} le tasse.",
+              "names who is responsible"
+            ],
+            [
+              "Passive with essere",
+              "Le tasse {pp:sono state} {pp:ridotte} dal governo.",
+              "foregrounds the tax"
+            ],
+            [
+              "Passive without agent",
+              "Le tasse {pp:sono state} {pp:ridotte}.",
+              "hides who did it"
+            ],
+            [
+              "Passive si",
+              "Si {pp:sono ridotte} le tasse.",
+              "general, impersonal"
+            ],
+            [
+              "venire",
+              "Le tasse {ip:vengono} ridotte ogni anno.",
+              "shows a process"
+            ],
+            [
+              "andare",
+              "Le tasse {ip:vanno} ridotte.",
+              "says it's necessary"
+            ],
+            [
+              "Third person plural",
+              "{pp:Hanno ridotto} le tasse.",
+              "«they», informal"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Who is hiding behind the passive?"
+      },
+      "*{pp:Sono stati} {pp:commessi} errori* admits a fault without saying whose. Being able to spot this is as useful as being able to write it, and the phrase is typical of institutional language.",
+      {
+        "h": "Ways of saying «people»"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Register"
+          ],
+          "rows": [
+            [
+              "si",
+              "Si {ip:dice} che {csp:sia} vero.",
+              "neutral"
+            ],
+            [
+              "uno",
+              "Uno non {ip:sa} mai che fare.",
+              "colloquial, personal"
+            ],
+            [
+              "tu generic",
+              "{ip:Lavori} tutta la vita e poi…",
+              "colloquial, involving"
+            ],
+            [
+              "noi",
+              "Come {pp:abbiamo visto}, …",
+              "academic, inclusive"
+            ],
+            [
+              "loro",
+              "{ip:Dicono} che {csp:sia} vero.",
+              "conversational"
+            ],
+            [
+              "la gente",
+              "La gente {ip:pensa} che…",
+              "conversational"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Keeping si under control"
+      },
+      "With a reflexive verb, the sequence becomes *ci si*: *Ci si abitua a tutto*. With a pronoun, *lo* comes first: *Lo si {ip:vede} subito*. And *ne* gives *se ne {ip:parla}*. Don't stack too many impersonal forms, or the reader will lose track of the subject.",
+      {
+        "h": "Fixed expressions"
+      },
+      "*{ip:Viene} da pensare* (one is led to think), *{ip:va} detto che* (it must be said), *{ip:va} da sé* (it goes without saying), *si {ip:fa} per dire* (so to speak), *si salvi chi {ip:può}* (every man for himself)."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which form best fits the purpose?",
+        "questions": [
+          {
+            "q": "(hiding who is responsible)",
+            "options": [
+              "Il direttore {pp:ha commesso} errori.",
+              "*{pp:Sono stati} {pp:commessi} errori.",
+              "{pp:Ho commesso} errori."
+            ]
+          },
+          {
+            "q": "(saying it is necessary)",
+            "options": [
+              "Le tasse {ip:sono ridotte}.",
+              "*Le tasse {ip:vanno} ridotte.",
+              "{pp:Hanno ridotto} le tasse."
+            ]
+          },
+          {
+            "q": "(academic, including the reader)",
+            "options": [
+              "Uno {ip:vede} che…",
+              "{ip:Vedi} che…",
+              "*Come {pp:abbiamo visto},"
+            ]
+          },
+          {
+            "q": "(friendly conversation)",
+            "options": [
+              "Si addiviene alla conclusione che…",
+              "*Uno non {ip:sa} mai che fare.",
+              "Si {ip:ritiene} opportuno che…"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right impersonal form.",
+        "questions": [
+          "Ci [[si]] abitua a tutto. (reflexive impersonal)",
+          "[[Lo]] si {ip:vede} subito. (pronoun before si)",
+          "Se [[ne]] {ip:parla} da anni. (ne)",
+          "[[Va#ip]] detto che si {pp:è fatto} il possibile. (must)",
+          "[[Viene#ip]] da pensare che {csp:abbia} ragione. (one is led to)"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite with the form in brackets.",
+        "questions": [
+          {
+            "q": "Il governo ha ridotto le tasse. (passive with essere, no agent)",
+            "a": [
+              "Le tasse sono state ridotte."
+            ]
+          },
+          {
+            "q": "{ip:Bisogna} rivedere il piano. (andare)",
+            "a": [
+              "Il piano va rivisto."
+            ]
+          },
+          {
+            "q": "{ip:Dicono} che {csp:sia} vero. (si)",
+            "a": [
+              "Si dice che sia vero."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la responsabilità",
+        "responsibility"
+      ],
+      [
+        "il capro espiatorio",
+        "scapegoat"
+      ],
+      [
+        "l'omissione",
+        "omission"
+      ],
+      [
+        "l'eufemismo",
+        "euphemism"
+      ],
+      [
+        "addivenire",
+        "to reach (a decision)"
+      ],
+      [
+        "addossare",
+        "to pin on"
+      ],
+      [
+        "minimizzare",
+        "to play down"
+      ],
+      [
+        "occultare",
+        "to conceal"
+      ],
+      [
+        "riconoscere",
+        "to acknowledge"
+      ],
+      [
+        "vago",
+        "vague"
+      ],
+      [
+        "impersonale",
+        "impersonal"
+      ],
+      [
+        "va da sé",
+        "it goes without saying"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il capro espiatorio",
+            "scapegoat"
+          ],
+          [
+            "l'eufemismo",
+            "euphemism"
+          ],
+          [
+            "addossare",
+            "to pin on"
+          ],
+          [
+            "minimizzare",
+            "to play down"
+          ],
+          [
+            "occultare",
+            "to conceal"
+          ],
+          [
+            "va da sé",
+            "it goes without saying"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Nessuno si {pp:è assunto} la [[responsabilità]]. (responsibility)",
+          "Il comunicato {ip:è} molto [[vago]]. (vague)",
+          "{ip:Bisogna} [[riconoscere]] gli errori. (to acknowledge)",
+          "{ip:È} un'[[omissione]] grave. (omission)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "«{pp:Sono stati} {pp:commessi} degli errori», {ip:recita} il comunicato dell'azienda dopo il guasto che {pp:ha lasciato} trecentomila utenti senza luce. {ip:Va} detto che si {pp:è fatto} il possibile, {ip:aggiunge} il testo, e che la situazione {ip:viene} monitorata costantemente. Chi {csa:abbia sbagliato}, tuttavia, non si {ip:dice}.",
+      "{ip:Viene} da pensare che il linguaggio impersonale {csp:serva} proprio a questo. Si {ip:minimizza}, si {ip:diluisce}, si {ip:evita} di nominare. Uno {ip:legge} e {ip:resta} con l'impressione che i guasti {csp:accadano} da soli. Eppure, {ip:va} da sé, dietro ogni decisione c'{ip:è} qualcuno. Ed {ip:è} quel qualcuno che {cop:andrebbe} chiamato a rispondere."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The statement names who made the mistake.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The author thinks impersonal language hides responsibility.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "According to the author, faults really happen by themselves.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "«Andrebbe chiamato» expresses what ought to be done.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Cronista",
+        "Chi {pp:ha preso} la decisione?"
+      ],
+      [
+        "Portavoce",
+        "{pp:È stata} {pp:presa} collegialmente."
+      ],
+      [
+        "Cronista",
+        "Si {pp:sono commessi} errori?"
+      ],
+      [
+        "Portavoce",
+        "{ip:Va} detto che si {pp:è fatto} il possibile."
+      ],
+      [
+        "Cronista",
+        "Chi ne {fs:risponderà}?"
+      ],
+      [
+        "Portavoce",
+        "{fs:Saranno adottate} le misure opportune."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{pp:È} [[stata#pp]] {pp:presa} collegialmente.",
+          "[[Si]] {pp:sono commessi} errori?",
+          "[[Va#ip]] detto che si {pp:è fatto} il possibile.",
+          "[[Saranno#fs]] {fs:adottate} le misure opportune."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does the spokesperson's language do?",
+        "questions": [
+          {
+            "q": "It…",
+            "options": [
+              "names those responsible",
+              "*avoids naming anyone",
+              "apologises directly"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "It must be said that everything possible was done.",
+            "a": [
+              "Va detto che si è fatto il possibile."
+            ]
+          },
+          {
+            "q": "Mistakes were made.",
+            "a": [
+              "Sono stati commessi errori.",
+              "Sono stati commessi degli errori.",
+              "Si sono commessi errori."
+            ]
+          },
+          {
+            "q": "You get used to everything. (use ci si)",
+            "a": [
+              "Ci si abitua a tutto."
+            ]
+          },
+          {
+            "q": "One can see it at once. (use lo si)",
+            "a": [
+              "Lo si vede subito."
+            ]
+          },
+          {
+            "q": "It goes without saying.",
+            "a": [
+              "Va da sé."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

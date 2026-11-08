@@ -1,0 +1,415 @@
+{
+  "title": "{csi:Fossi} anche d'accordo, non {cop:potrei} accettare",
+  "translation": "Even if I agreed, I couldn't accept",
+  "topics": "Complex and mixed conditions, conditions without se, formal patterns",
+  "grammar": {
+    "explain": [
+      {
+        "h": "A condition without a conjunction"
+      },
+      "The *congiuntivo* placed at the start of a sentence can do the work of *se*. The tone is elegant, and the sentence gains speed.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Sense"
+          ],
+          "rows": [
+            [
+              "{csi:Fossi} anche…",
+              "{csi:Fossi} anche d'accordo, non {cop:potrei} accettare.",
+              "Even if I were…"
+            ],
+            [
+              "{csi:Avessi}…",
+              "{cst:Avessi avuto} vent'anni, {cpa:sarei partito}.",
+              "Had I been…"
+            ],
+            [
+              "{csi:Dovesse}…",
+              "{csi:Dovesse} piovere, {ip:restiamo} a casa.",
+              "Should it…"
+            ],
+            [
+              "Non {cst:fosse stato} per…",
+              "Non {cst:fosse stato} per te, {cpa:avrei rinunciato}.",
+              "But for…"
+            ],
+            [
+              "Se non {csi:fosse} che…",
+              "{cop:Verrei}, se non {csi:fosse} che {ip:ho} da fare.",
+              "If it weren't that…"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Formal conjunctions"
+      },
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Register",
+            "Example"
+          ],
+          "rows": [
+            [
+              "qualora",
+              "formal, administrative",
+              "Qualora si {csi:verificasse} un guasto, contattare l'assistenza."
+            ],
+            [
+              "ove, laddove",
+              "very formal, legal",
+              "Ove necessario, si {fs:procederà} al rimborso."
+            ],
+            [
+              "nell'eventualità che",
+              "formal",
+              "Nell'eventualità che {csp:piova}, la festa {ip:è rinviata}."
+            ],
+            [
+              "posto che, ammesso che",
+              "argumentative",
+              "Ammesso che {csp:sia} vero, che cosa {ip:cambia}?"
+            ],
+            [
+              "semmai, se mai",
+              "suggests something unlikely",
+              "Se mai {csi:dovessi} passare, {imv:chiamami}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Three times in one sentence"
+      },
+      "A condition may refer to a permanent trait, a result to the past and a further consequence to the present: *Se {csi:fosse} più prudente, non {cpa:avrebbe firmato}, e ora non si {cop:troverebbe} nei guai.*",
+      {
+        "h": "A condition within a condition"
+      },
+      "Long legal and academic sentences stack conditions. Treat each one separately: *Qualora il contraente, ove ne {csp:ricorrano} i presupposti, {csi:intendesse} recedere, {fs:dovrà} darne comunicazione scritta.* The main clause here is only *{fs:dovrà} darne comunicazione scritta*.",
+      {
+        "h": "Concession that sounds like a condition"
+      },
+      "*Anche se* and *{csi:fosse} anche* grant a hypothesis in order to reject its consequences: *Anche se {csi:fosse} vero, non {cop:cambierebbe} nulla.*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence without se, starting with the words given.",
+        "questions": [
+          {
+            "q": "Se anche {csi:fossi} d'accordo, non {cop:potrei} accettare. ({csi:Fossi} anche)",
+            "a": [
+              "Fossi anche d'accordo, non potrei accettare."
+            ]
+          },
+          {
+            "q": "Se {csi:dovesse} piovere, {ip:restiamo} a casa. ({csi:Dovesse})",
+            "a": [
+              "Dovesse piovere, restiamo a casa."
+            ]
+          },
+          {
+            "q": "Se tu non ci {cst:fossi stato}, {cpa:avrei rinunciato}. (Non {cst:fosse stato} per)",
+            "a": [
+              "Non fosse stato per te, avrei rinunciato."
+            ]
+          },
+          {
+            "q": "Se {cst:avessi avuto} vent'anni, {cpa:sarei partito}. ({csi:Avessi})",
+            "a": [
+              "Avessi avuto vent'anni, sarei partito."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete these complex conditions.",
+        "questions": [
+          "Se [[fosse#csi]] più prudente, non {cpa:avrebbe firmato}. (essere, permanent trait)",
+          "Se {cst:avesse firmato}, ora [[sarebbe#cop]] nei guai. (essere, present result)",
+          "Qualora si [[verificasse#csi]] un guasto, contattare l'assistenza. (verificarsi)",
+          "Ammesso che [[sia#csp]] vero, che cosa {ip:cambia}? (essere)",
+          "{cop:Verrei}, se non [[fosse#csi]] che {ip:ho} da fare. (essere)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the appropriate formula for the context.",
+        "questions": [
+          {
+            "q": "(a user manual)",
+            "options": [
+              "*Qualora si {csi:verificasse} un guasto,",
+              "Se si {ip:rompe}, boh,",
+              "{csi:Dovesse} mai rompersi, ahimè,"
+            ]
+          },
+          {
+            "q": "(a contract)",
+            "options": [
+              "Se {ip:serve},",
+              "*Ove necessario,",
+              "Se mai ti {csi:servisse},"
+            ]
+          },
+          {
+            "q": "(to a friend)",
+            "options": [
+              "*Se {ip:passi} da qui, {imv:chiamami}.",
+              "Qualora Ella transitasse, La si prega di telefonare.",
+              "Ove transitassi, contattami."
+            ]
+          },
+          {
+            "q": "(an academic argument)",
+            "options": [
+              "*Ammesso che i dati {csp:siano} affidabili,",
+              "Se i dati {ip:vanno} bene,",
+              "Magari i dati {ip:sono} giusti,"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il contraente",
+        "contracting party"
+      ],
+      [
+        "il recesso",
+        "withdrawal"
+      ],
+      [
+        "il presupposto",
+        "prerequisite"
+      ],
+      [
+        "l'eventualità",
+        "eventuality"
+      ],
+      [
+        "il guasto",
+        "fault"
+      ],
+      [
+        "recedere",
+        "to withdraw"
+      ],
+      [
+        "ricorrere",
+        "to apply, to occur"
+      ],
+      [
+        "verificarsi",
+        "to occur"
+      ],
+      [
+        "adempiere",
+        "to fulfil"
+      ],
+      [
+        "vincolante",
+        "binding"
+      ],
+      [
+        "ipotetico",
+        "hypothetical"
+      ],
+      [
+        "ove",
+        "where, if"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il contraente",
+            "contracting party"
+          ],
+          [
+            "il recesso",
+            "withdrawal"
+          ],
+          [
+            "l'eventualità",
+            "eventuality"
+          ],
+          [
+            "adempiere",
+            "to fulfil"
+          ],
+          [
+            "vincolante",
+            "binding"
+          ],
+          [
+            "ipotetico",
+            "hypothetical"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "C'{ip:è} un [[guasto]] alla linea. (fault)",
+          "Mancano i [[presupposti]] per un accordo. (prerequisites)",
+          "Il contratto {ip:è} [[vincolante]]. (binding)",
+          "Se {csi:dovesse} [[verificarsi]] un problema, {imv:avvisi}. (occur)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "{csi:Fossi} anche d'accordo con lei, signor Direttore, non {cop:potrei} firmare. Ammesso che i dati {csp:siano corretti}, {ip:resta} il fatto che il contratto non {ip:è} vincolante per i soci. Qualora questi, ove ne {csp:ricorrano} i presupposti, {csi:decidessero} di recedere, l'intera operazione {cop:crollerebbe}.",
+      "Non {cst:fosse stato} per l'intervento del Suo predecessore, oggi non {cop:saremmo} in questa situazione. Se {cst:avesse ascoltato} i tecnici, non {cpa:avrebbe stipulato} quell'accordo, e noi {cop:avremmo} ancora un margine di manovra. {csi:Dovesse} la banca chiedere garanzie, non {cop:sapremmo} che cosa offrire."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The writer is willing to sign.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "If the partners withdrew, the operation would collapse.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The previous director listened to the technicians.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The company has plenty of guarantees to offer.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Fulvio",
+        "E se te lo {csi:proponessero} di nuovo?"
+      ],
+      [
+        "Vanna",
+        "{csi:Fossi} anche matta, non {cop:accetterei}."
+      ],
+      [
+        "Fulvio",
+        "{csi:Dovesse} andare male con questo lavoro?"
+      ],
+      [
+        "Vanna",
+        "Non {cst:fosse stato} per te, me ne {cpa:sarei} già {cpa:andata}."
+      ],
+      [
+        "Fulvio",
+        "Ammesso che {csp:sia} una buona idea, a che {ip:serve} restare?"
+      ],
+      [
+        "Vanna",
+        "{cop:Verrei} via anche domani, se non {csi:fosse} che {ip:ho} un mutuo."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Fossi#csi]] anche matta, non {cop:accetterei}.",
+          "[[Dovesse#csi]] andare male con questo lavoro?",
+          "Non [[fosse#cst]] {cst:stato} per te, me ne {cpa:sarei} già {cpa:andata}.",
+          "Se non {csi:fosse} [[che]] {ip:ho} un mutuo."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What is keeping Vanna there?",
+        "questions": [
+          {
+            "q": "Vanna stays mainly because of…",
+            "options": [
+              "her colleagues",
+              "*her mortgage",
+              "a promotion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Even if I agreed, I couldn't accept. (start with Fossi)",
+            "a": [
+              "Fossi anche d'accordo, non potrei accettare."
+            ]
+          },
+          {
+            "q": "Should it rain, we'll stay at home. (start with Dovesse)",
+            "a": [
+              "Dovesse piovere, restiamo a casa.",
+              "Dovesse piovere, resteremo a casa."
+            ]
+          },
+          {
+            "q": "But for you, I would have given up. (informal)",
+            "a": [
+              "Non fosse stato per te, avrei rinunciato."
+            ]
+          },
+          {
+            "q": "Assuming it's true, what changes?",
+            "a": [
+              "Ammesso che sia vero, che cosa cambia?",
+              "Ammesso che sia vero, cosa cambia?"
+            ]
+          },
+          {
+            "q": "I would come, if it weren't that I'm busy.",
+            "a": [
+              "Verrei, se non fosse che ho da fare."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "title": "Io {ip:sono} Marco e {ip:ho} vent'anni",
+  "translation": "I am Marco and I am twenty years old",
+  "topics": "Personal pronouns, essere and avere, numbers, age and quantities",
+  "grammar": {
+    "explain": [
+      "The personal pronouns are often left out, because the verb ending already shows the person: *{ip:Sono} italiano* is more natural than *Io {ip:sono} italiano*. Use them for emphasis or contrast. *Lei* with a capital letter is the polite *you*.",
+      {
+        "table": {
+          "head": [
+            "Pronoun",
+            "Meaning",
+            "essere (to be)",
+            "avere (to have)"
+          ],
+          "rows": [
+            [
+              "io",
+              "I",
+              "{ip:sono}",
+              "{ip:ho}"
+            ],
+            [
+              "tu",
+              "you",
+              "{ip:sei}",
+              "{ip:hai}"
+            ],
+            [
+              "lui / lei / Lei",
+              "he / she / you (polite)",
+              "{ip:è}",
+              "{ip:ha}"
+            ],
+            [
+              "noi",
+              "we",
+              "{ip:siamo}",
+              "{ip:abbiamo}"
+            ],
+            [
+              "voi",
+              "you (plural)",
+              "{ip:siete}",
+              "{ip:avete}"
+            ],
+            [
+              "loro",
+              "they",
+              "{ip:sono}",
+              "{ip:hanno}"
+            ]
+          ]
+        }
+      },
+      "Careful: *{ip:è}* with an accent means *is*, while *e* means *and*. The *h* in *{ip:ho}, {ip:hai}, {ip:ha}, {ip:hanno}* is silent.",
+      "In Italian, you have your age: *{ip:Ho} vent'anni* (I am twenty). Ask: *Quanti anni {ip:hai}?*",
+      {
+        "table": {
+          "head": [
+            "1–10",
+            "11–20",
+            "Tens"
+          ],
+          "rows": [
+            [
+              "uno, due, tre, quattro, cinque",
+              "undici, dodici, tredici, quattordici, quindici",
+              "venti, trenta, quaranta"
+            ],
+            [
+              "{ip:sei}, sette, otto, nove, dieci",
+              "sedici, diciassette, diciotto, diciannove, venti",
+              "cinquanta, sessanta, settanta, ottanta, novanta, cento"
+            ]
+          ]
+        }
+      },
+      "Quantities: *un po' di* pane (a little bread), *molto* pane / *molta* acqua (a lot of), *poco* tempo (little), *tanti* amici (many). Before a noun, *molto, poco* and *tanto* agree with it."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with the right form of essere.",
+        "questions": [
+          "Io [[sono#ip]] Marco.",
+          "Tu [[sei#ip]] italiana?",
+          "Lui [[è#ip]] di Roma.",
+          "Noi [[siamo#ip]] studenti.",
+          "Voi [[siete#ip]] amici.",
+          "Loro [[sono#ip]] a casa."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right form of avere.",
+        "questions": [
+          "Io [[ho#ip]] vent'anni.",
+          "Quanti anni [[hai#ip]]?",
+          "Anna [[ha#ip]] un cane.",
+          "Noi [[abbiamo#ip]] due libri.",
+          "Voi [[avete#ip]] una casa grande.",
+          "Loro [[hanno#ip]] molti amici."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right word.",
+        "questions": [
+          {
+            "q": "Marco ___ Anna {ip:sono} amici.",
+            "options": [
+              "*e",
+              "{ip:è}"
+            ]
+          },
+          {
+            "q": "Marco ___ italiano.",
+            "options": [
+              "e",
+              "*{ip:è}"
+            ]
+          },
+          {
+            "q": "Ho ___ acqua. (a lot of)",
+            "options": [
+              "molto",
+              "*molta",
+              "molti"
+            ]
+          },
+          {
+            "q": "17 =",
+            "options": [
+              "*diciassette",
+              "settantuno",
+              "diciotto"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'anno",
+        "year"
+      ],
+      [
+        "la famiglia",
+        "family"
+      ],
+      [
+        "il fratello",
+        "brother"
+      ],
+      [
+        "la sorella",
+        "sister"
+      ],
+      [
+        "il cane",
+        "dog"
+      ],
+      [
+        "il gatto",
+        "cat"
+      ],
+      [
+        "italiano / italiana",
+        "Italian"
+      ],
+      [
+        "bulgaro / bulgara",
+        "Bulgarian"
+      ],
+      [
+        "l'acqua",
+        "water"
+      ],
+      [
+        "il pane",
+        "bread"
+      ],
+      [
+        "il tempo",
+        "time"
+      ],
+      [
+        "un po' di",
+        "a little"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il fratello",
+            "brother"
+          ],
+          [
+            "la sorella",
+            "sister"
+          ],
+          [
+            "il gatto",
+            "cat"
+          ],
+          [
+            "l'acqua",
+            "water"
+          ],
+          [
+            "il pane",
+            "bread"
+          ],
+          [
+            "l'anno",
+            "year"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Write the number in words.",
+        "questions": [
+          "12 = [[dodici]]",
+          "20 = [[venti]]",
+          "30 = [[trenta]]",
+          "16 = [[sedici]]"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Ciao! Io {ip:sono} Marco, {ip:sono} italiano e {ip:ho} vent'anni. {ip:Ho} una sorella, Anna, e un fratello, Luca. Anna {ip:ha} sedici anni e Luca {ip:ha} dodici anni.",
+      "{ip:Abbiamo} un cane e due gatti. La nostra famiglia {ip:è} di Bologna. {ip:Ho} molti amici, ma {ip:ho} poco tempo: {ip:sono} studente e {ip:lavoro} in un bar."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "How old is Marco?",
+            "options": [
+              "12",
+              "16",
+              "*20"
+            ]
+          },
+          {
+            "q": "How old is Anna?",
+            "options": [
+              "*16",
+              "12",
+              "20"
+            ]
+          },
+          {
+            "q": "The family has…",
+            "options": [
+              "two dogs and a cat",
+              "*a dog and two cats",
+              "only a dog"
+            ]
+          },
+          {
+            "q": "Marco has…",
+            "options": [
+              "few friends",
+              "*little time",
+              "a lot of time"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Sara",
+        "Ciao! Come ti {ip:chiami}?"
+      ],
+      [
+        "Ivan",
+        "Mi {ip:chiamo} Ivan. {ip:Sono} bulgaro."
+      ],
+      [
+        "Sara",
+        "Io {ip:sono} Sara. Quanti anni {ip:hai}?"
+      ],
+      [
+        "Ivan",
+        "{ip:Ho} ventitré anni. E tu?"
+      ],
+      [
+        "Sara",
+        "{ip:Ho} diciannove anni. {ip:Hai} fratelli?"
+      ],
+      [
+        "Ivan",
+        "Sì, {ip:ho} una sorella."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:Sono} [[bulgaro]].",
+          "[[Quanti]] anni {ip:hai}?",
+          "[[Ho#ip]] diciannove anni.",
+          "Sì, {ip:ho} una [[sorella]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How old is Ivan?",
+        "questions": [
+          {
+            "q": "Ivan is…",
+            "options": [
+              "19",
+              "*23",
+              "33"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian. You can leave out the pronouns.",
+        "questions": [
+          {
+            "q": "I am Italian. (a man speaking)",
+            "a": [
+              "Sono italiano.",
+              "Io sono italiano."
+            ]
+          },
+          {
+            "q": "I am twenty years old.",
+            "a": [
+              "Ho vent'anni.",
+              "Io ho vent'anni.",
+              "Ho venti anni."
+            ]
+          },
+          {
+            "q": "How old are you? (informal)",
+            "a": [
+              "Quanti anni hai?",
+              "Quanti anni hai tu?"
+            ]
+          },
+          {
+            "q": "We have a dog.",
+            "a": [
+              "Abbiamo un cane.",
+              "Noi abbiamo un cane."
+            ]
+          },
+          {
+            "q": "They are at home.",
+            "a": [
+              "Sono a casa.",
+              "Loro sono a casa."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

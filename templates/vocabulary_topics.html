@@ -71,13 +71,64 @@
         background-color: white;
     }
 
+    .topic-card > div {
+        min-width: 0;
+    }
+
     .topic-card h3 {
         font-size: 18px;
+        overflow-wrap: anywhere;
     }
 
     .topic-card p {
         color: var(--muted);
         font-size: 14px;
+    }
+
+    .list-heading {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 26px 0 12px;
+        font-size: 20px;
+    }
+
+    /* As tall and wide as the heading text */
+    .add-list {
+        position: relative;
+        flex-shrink: 0;
+        width: 1em;
+        height: 1em;
+        padding: 0;
+    }
+
+    .add-list svg {
+        width: 70%;
+        height: 70%;
+    }
+
+    /* A bigger area to tap on touch screens */
+    .add-list::after {
+        content: "";
+        position: absolute;
+        inset: -10px;
+    }
+
+    .new-list {
+        display: flex;
+        gap: 10px;
+        margin: 0 0 16px;
+    }
+
+    .new-list input[type="text"] {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .no-lists {
+        color: var(--muted);
+        text-align: center;
     }
 
     .topic-card .arrow {
@@ -124,6 +175,7 @@
         </p>
     </div>
 
+    <h2 class="list-heading">Built-in</h2>
     <div class="topic-grid">
         {% for topic, description in [("foods", "Meals, cutlery and the kitchen"), ("drinks", "Water, juice, wine and more"),
         ("fruits", "From apples to watermelons"), ("transport", "Trains, tickets and stations")] %}
@@ -137,5 +189,55 @@
         </a>
         {% endfor %}
     </div>
+
+    {% if current_user.is_authenticated %}
+    <h2 class="list-heading">
+        Custom
+        <button id="newListToggle" class="add-list" type="button" aria-label="New list" aria-expanded="false"
+            aria-controls="newListForm">
+            <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+            </svg>
+        </button>
+    </h2>
+    <form id="newListForm" class="new-list shadow" action="{{ url_for('create_word_list') }}" method="POST" hidden>
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <input type="text" name="name" maxlength="{{ max_list_name_length }}" placeholder="New list name"
+            aria-label="New list name" pattern=".*\S.*" title="Enter at least one character." required>
+        <input type="submit" value="Create">
+    </form>
+    <div class="topic-grid">
+        {% for word_list in word_lists %}
+        <a class="container shadow topic-card" href="{{ url_for('word_list', list_id=word_list.id) }}">
+            <img src="{{ url_for('static', filename='icons/vocabulary/word_list.svg') }}" alt="">
+            <div>
+                <h3>{{ word_list.name }}</h3>
+                <p>{{ word_list.entries | length }} word{{ "" if word_list.entries | length == 1 else "s" }}</p>
+            </div>
+            <span class="arrow">&rarr;</span>
+        </a>
+        {% endfor %}
+    </div>
+    {% if not word_lists %}
+    <p class="no-lists">
+        You have no lists yet. Press + to create one, or point at a word in a
+        <a class="link" href="{{ url_for('stories_list') }}">story</a> and add it to a new list.
+    </p>
+    {% endif %}
+    {% endif %}
 </div>
+
+{% if current_user.is_authenticated %}
+<script>
+    const newListToggle = document.getElementById("newListToggle");
+    const newListForm = document.getElementById("newListForm");
+    newListToggle.addEventListener("click", () => {
+        newListForm.hidden = !newListForm.hidden;
+        newListToggle.setAttribute("aria-expanded", !newListForm.hidden);
+        if (!newListForm.hidden) {
+            newListForm.querySelector("input[name=name]").focus();
+        }
+    });
+</script>
+{% endif %}
 {% endblock %}

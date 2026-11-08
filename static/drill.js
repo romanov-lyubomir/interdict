@@ -3,7 +3,12 @@
 //
 // The page passes showQuestion(question), which fills in a new question,
 // and audioUrl, the recording for the question shown on load.
+
+// Played on a wrong answer; resolved next to this script so it works under any static path
+const INCORRECT_SOUND_URL = new URL("sounds/incorrect.mp3", document.currentScript.src).href;
+
 function setupDrill({ showQuestion, audioUrl }) {
+    const incorrectSound = new Audio(INCORRECT_SOUND_URL);
     const form = document.getElementById("drillForm");
     const input = document.getElementById("inputField");
     const progress = document.querySelector("progress");
@@ -128,8 +133,21 @@ function setupDrill({ showQuestion, audioUrl }) {
                 nextQuestion(result.next);
             });
         } else {
-            // The same question stays, so the user can type it again
-            playAudio(result.audio_url, () => {});
+            // The same question stays, so the user can type it again.
+            // The error sound plays first, then the recording of the right answer.
+            let played = false;
+            const playAnswer = () => {
+                if (!played) {
+                    played = true;
+                    if (result.audio_url) {
+                        playAudio(result.audio_url, () => {});
+                    }
+                }
+            };
+            incorrectSound.addEventListener("ended", playAnswer, { once: true });
+            incorrectSound.addEventListener("error", playAnswer, { once: true });
+            incorrectSound.currentTime = 0;
+            incorrectSound.play().catch(playAnswer);
             input.value = "";
             input.focus();
             busy = false;

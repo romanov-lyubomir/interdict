@@ -1,0 +1,422 @@
+{
+  "title": "Questo libro {pp:è stato} {pp:scritto} da Calvino",
+  "translation": "This book was written by Calvino",
+  "topics": "The passive with essere, venire and andare, the passive with si",
+  "grammar": {
+    "explain": [
+      {
+        "h": "What the passive does"
+      },
+      "In a passive sentence, the thing that receives the action becomes the subject. The one who does it comes after *da*, or isn't mentioned at all.",
+      {
+        "table": {
+          "head": [
+            "Active",
+            "Passive"
+          ],
+          "rows": [
+            [
+              "Calvino {pp:ha scritto} questo libro.",
+              "Questo libro {pp:è stato} {pp:scritt**o**} da Calvino."
+            ],
+            [
+              "Molti turisti {ip:visitano} Pisa.",
+              "Pisa {ip:è visitat**a**} da molti turisti."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "How to form it"
+      },
+      "Use *essere* in the tense of the active verb, with the participle. Because the auxiliary is *essere*, the participle always agrees with the subject.",
+      {
+        "table": {
+          "head": [
+            "Tense",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Presente",
+              "La casa {ip:è venduta}."
+            ],
+            [
+              "Passato prossimo",
+              "La casa {pp:è stata} {pp:venduta}."
+            ],
+            [
+              "Imperfetto",
+              "La casa {im:era venduta}."
+            ],
+            [
+              "Futuro",
+              "La casa {fs:sarà venduta}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Venire instead of essere"
+      },
+      "In simple tenses, you can use *venire* instead of *essere*. It stresses the action taking place: *La pasta {ip:viene} preparata in casa*. It cannot be used in compound tenses, so never say *{pp:è venuta} preparata*.",
+      {
+        "h": "Andare: it must be done"
+      },
+      "*Andare* with a participle means that something must be done: *Questo lavoro {ip:va} finito oggi* (This work must be finished today). *Il vino bianco {ip:va} servito freddo.*",
+      {
+        "h": "The passive with si"
+      },
+      "You already know *si* for people in general. With a direct object, it works as a passive, and the verb agrees with that object. This is the form you see on signs and in recipes.",
+      {
+        "table": {
+          "head": [
+            "Object",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Singular",
+              "Si {ip:vend**e**} questa casa.",
+              "This house is for sale."
+            ],
+            [
+              "Plural",
+              "Si {ip:vend**ono**} case.",
+              "Houses for sale."
+            ],
+            [
+              "Singular",
+              "Si {ip:parl**a**} italiano.",
+              "Italian is spoken."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Make each sentence passive.",
+        "questions": [
+          {
+            "q": "Calvino {pp:ha scritto} questo libro.",
+            "a": [
+              "Questo libro è stato scritto da Calvino."
+            ]
+          },
+          {
+            "q": "Molti turisti {ip:visitano} Roma.",
+            "a": [
+              "Roma è visitata da molti turisti."
+            ]
+          },
+          {
+            "q": "Mio padre {pp:ha costruito} queste case.",
+            "a": [
+              "Queste case sono state costruite da mio padre."
+            ]
+          },
+          {
+            "q": "Il cuoco {ip:prepara} la cena.",
+            "a": [
+              "La cena è preparata dal cuoco.",
+              "La cena viene preparata dal cuoco."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right form of the participle.",
+        "questions": [
+          "La lettera {pp:è stata} [[spedita#pp]] ieri. (spedire)",
+          "I biglietti {pp:sono stati} [[venduti#pp]]. (vendere)",
+          "Le case {pp:sono state} [[costruite#pp]] nel 1900. (costruire)",
+          "Il ladro {pp:è stato} [[preso#pp]]. (prendere)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Questo lavoro ___ finito oggi. (must be)",
+            "options": [
+              "*{ip:va}",
+              "{ip:viene}",
+              "{pp:è stato}"
+            ]
+          },
+          {
+            "q": "La pasta ___ preparata in casa. (the action)",
+            "options": [
+              "*{ip:viene}",
+              "{ip:va}",
+              "{ip:fa}"
+            ]
+          },
+          {
+            "q": "La casa ___ venduta ieri.",
+            "options": [
+              "{ip:viene}",
+              "{ip:va}",
+              "*{pp:è stata}"
+            ]
+          },
+          {
+            "q": "Qui si ___ biglietti.",
+            "options": [
+              "{ip:vende}",
+              "*{ip:vendono}"
+            ]
+          },
+          {
+            "q": "In Svizzera si ___ francese.",
+            "options": [
+              "*{ip:parla}",
+              "{ip:parlano}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'opera d'arte",
+        "work of art"
+      ],
+      [
+        "il quadro",
+        "painting"
+      ],
+      [
+        "la statua",
+        "statue"
+      ],
+      [
+        "il romanzo",
+        "novel"
+      ],
+      [
+        "il pittore",
+        "painter"
+      ],
+      [
+        "il monumento",
+        "monument"
+      ],
+      [
+        "costruire",
+        "to build"
+      ],
+      [
+        "dipingere",
+        "to paint"
+      ],
+      [
+        "pubblicare",
+        "to publish"
+      ],
+      [
+        "distruggere",
+        "to destroy"
+      ],
+      [
+        "restaurare",
+        "to restore"
+      ],
+      [
+        "famoso",
+        "famous"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il quadro",
+            "painting"
+          ],
+          [
+            "il romanzo",
+            "novel"
+          ],
+          [
+            "dipingere",
+            "to paint"
+          ],
+          [
+            "pubblicare",
+            "to publish"
+          ],
+          [
+            "distruggere",
+            "to destroy"
+          ],
+          [
+            "restaurare",
+            "to restore"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Questa [[statua]] {ip:è} molto antica. (statue)",
+          "Il Colosseo {ip:è} un [[monumento]] famoso. (monument)",
+          "Il [[pittore]] {pp:ha lavorato} per anni. (painter)",
+          "Questo palazzo {pp:è stato} [[costruito#pp]] nel Seicento. (built)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "La Torre di Pisa {ip:è} uno dei monumenti più famosi d'Italia. {pp:È stata} {pp:costruita} in quasi duecento anni e {pp:ha cominciato} a inclinarsi già durante i lavori. Ogni anno {ip:viene} visitata da milioni di turisti.",
+      "Negli ultimi decenni {pp:è stata} {pp:restaurata} con molta attenzione, perché {im:rischiava} di cadere. Ora si {ip:possono} salire i suoi gradini, ma i biglietti {ip:vanno} prenotati in anticipo. La torre non {pp:è stata} {pp:raddrizzata} del tutto: altrimenti, chi {cop:verrebbe} più a vederla?"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The tower took almost 200 years to build.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "It began to lean only recently.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Tickets should be booked in advance.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The tower has been completely straightened.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Guida",
+        "Questo quadro {pp:è stato} {pp:dipinto} nel Cinquecento."
+      ],
+      [
+        "Turista",
+        "Da chi {pp:è stato} {pp:dipinto}?"
+      ],
+      [
+        "Guida",
+        "Da un allievo di Raffaello. {pp:È stato} {pp:restaurato} due anni fa."
+      ],
+      [
+        "Turista",
+        "Si {ip:possono} fare fotografie?"
+      ],
+      [
+        "Guida",
+        "No, le fotografie {ip:sono vietate}. E le borse {ip:vanno} {ip:lasciate} all'ingresso."
+      ],
+      [
+        "Turista",
+        "{ip:Capisco}. Grazie."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Questo quadro {pp:è stato} [[dipinto#pp]] nel Cinquecento.",
+          "{pp:È stato} [[restaurato#pp]] due anni fa.",
+          "[[Si]] {ip:possono} fare fotografie?",
+          "Le borse [[vanno#ip]] {ip:lasciate} all'ingresso."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Who painted the picture?",
+        "questions": [
+          {
+            "q": "The painter was…",
+            "options": [
+              "Raphael",
+              "*a pupil of Raphael",
+              "Michelangelo"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "This book was written by Calvino.",
+            "a": [
+              "Questo libro è stato scritto da Calvino."
+            ]
+          },
+          {
+            "q": "The house has been sold.",
+            "a": [
+              "La casa è stata venduta."
+            ]
+          },
+          {
+            "q": "This work must be finished today. (use andare)",
+            "a": [
+              "Questo lavoro va finito oggi.",
+              "Questo lavoro oggi va finito."
+            ]
+          },
+          {
+            "q": "Tickets are sold here. (use si)",
+            "a": [
+              "Qui si vendono biglietti.",
+              "Si vendono biglietti qui.",
+              "Qui si vendono i biglietti."
+            ]
+          },
+          {
+            "q": "Rome is visited by many tourists.",
+            "a": [
+              "Roma è visitata da molti turisti.",
+              "Roma viene visitata da molti turisti."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

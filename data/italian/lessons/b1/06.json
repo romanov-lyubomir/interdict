@@ -1,0 +1,389 @@
+{
+  "title": "Se {csi:avessi} tempo, {cop:viaggerei} di più",
+  "translation": "If I had time, I would travel more",
+  "topics": "Conditional sentences: real, possible and impossible",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Three degrees of reality"
+      },
+      "A sentence with *se* has two parts: the condition and the result. The tenses show how real the speaker thinks the condition is.",
+      {
+        "table": {
+          "head": [
+            "How real?",
+            "After se",
+            "Result",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Real",
+              "present or future",
+              "present or future",
+              "Se {ip:ho} tempo, viaggio."
+            ],
+            [
+              "Possible, or imagined now",
+              "congiuntivo imperfetto",
+              "condizionale presente",
+              "Se {csi:avessi} tempo, {cop:viaggerei}."
+            ],
+            [
+              "Impossible: it's already over",
+              "congiuntivo trapassato",
+              "condizionale passato",
+              "Se {cst:avessi avuto} tempo, {cpa:avrei viaggiato}."
+            ]
+          ]
+        }
+      },
+      "*Se {csi:avessi} tempo, {cop:viaggerei}* means that I don't have time now, but I'm imagining it. *Se {cst:avessi avuto} tempo, {cpa:avrei viaggiato}* means that it was in the past and it can no longer be changed.",
+      {
+        "h": "The golden rule"
+      },
+      "The conditional never comes directly after *se*. *Se {cop:avrei} tempo* is one of the most common mistakes, even among Italians, so avoid it.",
+      {
+        "h": "How to form the congiuntivo trapassato"
+      },
+      "You met it briefly in lesson 3. It is the auxiliary in the *congiuntivo imperfetto* with the participle.",
+      {
+        "table": {
+          "head": [
+            "",
+            "avere",
+            "essere"
+          ],
+          "rows": [
+            [
+              "io, tu",
+              "{csi:avessi} + studiato",
+              "{csi:fossi} + partito / partita"
+            ],
+            [
+              "lui / lei",
+              "{csi:avesse} + studiato",
+              "{csi:fosse} + partito / partita"
+            ],
+            [
+              "noi",
+              "{csi:avessimo} + studiato",
+              "{csi:fossimo} + partiti / {ip:partite}"
+            ],
+            [
+              "voi",
+              "{csi:aveste} + studiato",
+              "{csi:foste} + partiti / {ip:partite}"
+            ],
+            [
+              "loro",
+              "{csi:avessero} + studiato",
+              "{csi:fossero} + partiti / {ip:partite}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Mixing past and present"
+      },
+      "A past condition can have a result in the present: *Se {cst:avessi studiato}, adesso {cop:avrei} un lavoro migliore* (If I had studied, I would have a better job now).",
+      {
+        "h": "Advice"
+      },
+      "*Se {csi:fossi} in te…* (If I were you…) is a very common way to give advice: *Se {csi:fossi} in te, {cop:parlerei} con lui.*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete these possible conditions with the right verb forms.",
+        "questions": [
+          "Se [[avessi#csi]] tempo, [[viaggerei#cop]] di più. (avere, viaggiare – io)",
+          "Se [[fossi#csi]] ricco, [[comprerei#cop]] una casa. (essere, comprare – io)",
+          "Se tu [[studiassi#csi]], [[capiresti#cop]]. (studiare, capire)",
+          "Se [[potessimo#csi]], [[verremmo#cop]] subito. (potere, venire – noi)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete these impossible conditions.",
+        "questions": [
+          "Se [[avessi studiato#cst]], [[avrei superato#cpa]] l'esame. (studiare, superare – io)",
+          "Se tu [[fossi venuto#cst]], ti [[saresti divertito#cpa]]. (venire, divertirsi – a man)",
+          "Se Anna [[avesse telefonato#cst]], [[sarei andato#cpa]] da lei. (telefonare; andare – io, a man)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Se ___ soldi, {cop:partirei}.",
+            "options": [
+              "{cop:avrei}",
+              "*{csi:avessi}",
+              "{pp:ho avuto}"
+            ]
+          },
+          {
+            "q": "Se {ip:piove}, ___ a casa.",
+            "options": [
+              "*{ip:resto}",
+              "{cop:resterei}",
+              "{cst:fossi rimasto}"
+            ]
+          },
+          {
+            "q": "Se {csi:fossi} in te, ___ con lui.",
+            "options": [
+              "{ip:parlo}",
+              "*{cop:parlerei}",
+              "{csi:parlassi}"
+            ]
+          },
+          {
+            "q": "Se {cst:fossi partito} prima, ___ il treno.",
+            "options": [
+              "{ip:prendo}",
+              "{cop:prenderei}",
+              "*{cpa:avrei preso}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la lotteria",
+        "lottery"
+      ],
+      [
+        "il sogno",
+        "dream"
+      ],
+      [
+        "la fortuna",
+        "luck"
+      ],
+      [
+        "la possibilità",
+        "possibility"
+      ],
+      [
+        "l'ipotesi",
+        "hypothesis"
+      ],
+      [
+        "sognare",
+        "to dream"
+      ],
+      [
+        "risparmiare",
+        "to save (money)"
+      ],
+      [
+        "spendere",
+        "to spend"
+      ],
+      [
+        "cambiare vita",
+        "to change one's life"
+      ],
+      [
+        "ricco",
+        "rich"
+      ],
+      [
+        "povero",
+        "poor"
+      ],
+      [
+        "di più",
+        "more"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il sogno",
+            "dream"
+          ],
+          [
+            "la fortuna",
+            "luck"
+          ],
+          [
+            "risparmiare",
+            "to save (money)"
+          ],
+          [
+            "spendere",
+            "to spend"
+          ],
+          [
+            "ricco",
+            "rich"
+          ],
+          [
+            "povero",
+            "poor"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Se {csi:vincessi} alla [[lotteria]], {cop:smetterei} di lavorare. (lottery)",
+          "{ip:È} il mio [[sogno]] da sempre. (dream)",
+          "{cop:Vorrei} [[cambiare]] vita. (to change)",
+          "{ip:Devo} [[risparmiare]] per le vacanze. (to save)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Che cosa {cop:faresti} se {csi:vincessi} alla lotteria? Mio fratello non {ip:ha} dubbi: {cop:comprerebbe} una barca e {cop:farebbe} il giro del mondo. Io, se {csi:avessi} tanti soldi, {cop:aprirei} una libreria in un piccolo paese di mare.",
+      "Però mia madre {ip:dice} sempre: «Se {cst:avessi risparmiato} da giovane, adesso {cop:saresti} più tranquillo.» Forse {ip:ha} ragione. Se {cst:fossi stato} più attento, non {cpa:avrei speso} tutto in viaggi. Ma, se {csi:dovessi} scegliere di nuovo, {cop:partirei} ancora!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The brother would buy a boat.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The speaker would open a restaurant.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The mother thinks he should have saved money.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The speaker regrets all his travels.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Sofia",
+        "Se {csi:potessi} vivere ovunque, dove {cop:andresti}?"
+      ],
+      [
+        "Tommaso",
+        "In Giappone. E tu?"
+      ],
+      [
+        "Sofia",
+        "Se {csi:avessi} coraggio, {cop:partirei} per l'Australia."
+      ],
+      [
+        "Tommaso",
+        "Ci {cpa:saresti} già {cpa:andata}, se {cst:avessi voluto} davvero!"
+      ],
+      [
+        "Sofia",
+        "Forse. Se tu {csi:fossi} in me, che cosa {cop:faresti}?"
+      ],
+      [
+        "Tommaso",
+        "Se {csi:fossi} in te, {cop:comprerei} subito il biglietto."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Se [[potessi#csi]] vivere ovunque, dove {cop:andresti}?",
+          "Se {csi:avessi} coraggio, [[partirei#cop]] per l'Australia.",
+          "Ci [[saresti#cpa]] già {cpa:andata}, se {cst:avessi voluto} davvero!",
+          "Se [[fossi#csi]] in te, {cop:comprerei} subito il biglietto."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Where would Tommaso like to live?",
+        "questions": [
+          {
+            "q": "Tommaso would go to…",
+            "options": [
+              "Australia",
+              "*Japan",
+              "America"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "If I had time, I would travel more.",
+            "a": [
+              "Se avessi tempo, viaggerei di più."
+            ]
+          },
+          {
+            "q": "If I were rich, I would buy a house. (a man speaking)",
+            "a": [
+              "Se fossi ricco, comprerei una casa."
+            ]
+          },
+          {
+            "q": "If I were you, I would talk to him.",
+            "a": [
+              "Se fossi in te, parlerei con lui."
+            ]
+          },
+          {
+            "q": "If I had studied, I would have passed the exam.",
+            "a": [
+              "Se avessi studiato, avrei superato l'esame."
+            ]
+          },
+          {
+            "q": "If it rains, I'll stay at home.",
+            "a": [
+              "Se piove, resto a casa.",
+              "Se pioverà, resterò a casa.",
+              "Se piove, sto a casa."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

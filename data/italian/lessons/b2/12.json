@@ -1,0 +1,419 @@
+{
+  "title": "{ip:È} a Maria che {pp:ho telefonato}",
+  "translation": "It was Maria I phoned",
+  "topics": "Word order and emphasis, punctuation in complex sentences",
+  "grammar": {
+    "explain": [
+      {
+        "h": "New information goes last"
+      },
+      "Italian word order is flexible. Normally what's already known comes first and what's new comes at the end. Moving a word changes what the sentence emphasises.",
+      {
+        "table": {
+          "head": [
+            "Question",
+            "Natural answer"
+          ],
+          "rows": [
+            [
+              "Che cosa {pp:ha fatto} Maria?",
+              "Maria {pp:ha telefonato}."
+            ],
+            [
+              "Chi {pp:ha telefonato}?",
+              "{pp:Ha telefonato} Maria."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Three ways of moving the focus"
+      },
+      {
+        "table": {
+          "head": [
+            "Name",
+            "How it works",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Cleft sentence",
+              "è + the focus + che",
+              "{ip:È} a Maria che {pp:ho telefonato}."
+            ],
+            [
+              "Moving to the front",
+              "topic first, pronoun repeats it",
+              "Il pane l'{pp:ho comprato} io."
+            ],
+            [
+              "Moving to the end",
+              "pronoun first, topic after it",
+              "L'{pp:ho comprato} io, il pane."
+            ]
+          ]
+        }
+      },
+      "In a cleft sentence, a preposition stays with the focus: *{ip:È} di questo che {im:volevo} parlarti*. When a direct object is moved in front of the verb, a pronoun must repeat it: *La pizza la {ip:prendo} io*. Without the pronoun, the sentence sounds wrong in everyday use.",
+      {
+        "h": "When is a comma needed?"
+      },
+      {
+        "table": {
+          "head": [
+            "Rule",
+            "Right",
+            "Wrong"
+          ],
+          "rows": [
+            [
+              "Never between subject and verb",
+              "Mia sorella {ip:abita} a Roma.",
+              "Mia sorella, {ip:abita} a Roma."
+            ],
+            [
+              "Never between verb and object",
+              "{pp:Ho comprato} il pane.",
+              "{pp:Ho comprato}, il pane."
+            ],
+            [
+              "Before ma, però, tuttavia",
+              "{ip:È} tardi, ma {ip:esco}.",
+              "{ip:È} tardi ma, {ip:esco}."
+            ],
+            [
+              "After a subordinate clause at the start",
+              "Se {ip:piove}, {ip:resto}.",
+              "Se {ip:piove} {ip:resto},"
+            ],
+            [
+              "Around extra information",
+              "Mio padre, che {ip:è} medico, {ip:lavora}.",
+              "Mio padre che {ip:è} medico, {ip:lavora}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Relative clauses and commas"
+      },
+      "A comma changes the meaning. *I ragazzi, che {im:erano} stanchi, {pp:sono andati} a letto* means all the boys were tired. *I ragazzi che {im:erano} stanchi {pp:sono andati} a letto* means only some went: those who were tired.",
+      {
+        "h": "Colon and semicolon"
+      },
+      "A colon (:) introduces an explanation, a list or a quotation: *{pp:Ho capito} una cosa: non {ip:devo} arrendermi.* A semicolon (;) separates two independent but closely linked thoughts: *Lui {pp:è partito}; lei {pp:è rimasta}.*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence as a cleft sentence that stresses the words in brackets.",
+        "questions": [
+          {
+            "q": "{pp:Ho telefonato} a Maria. (a Maria)",
+            "a": [
+              "È a Maria che ho telefonato."
+            ]
+          },
+          {
+            "q": "Luca {pp:ha rotto} il vaso. (Luca)",
+            "a": [
+              "È Luca che ha rotto il vaso.",
+              "È stato Luca a rompere il vaso."
+            ]
+          },
+          {
+            "q": "{im:Volevo} parlarti di questo. (di questo)",
+            "a": [
+              "È di questo che volevo parlarti."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Add the pronoun that repeats the moved word.",
+        "questions": [
+          "Il pane [[l']]{pp:ho comprato} io.",
+          "La pizza [[la]] {ip:prendo} io.",
+          "I libri [[li]] {ip:porto} domani.",
+          "[[L']]{pp:ho vista} ieri, Anna."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence is punctuated correctly?",
+        "questions": [
+          {
+            "q": "Choose one.",
+            "options": [
+              "Mia sorella, {ip:abita} a Roma.",
+              "*Mia sorella {ip:abita} a Roma."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "*Se {ip:piove}, {ip:restiamo} a casa.",
+              "Se {ip:piove} {ip:restiamo}, a casa."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "{pp:Ho comprato}, il pane e il latte.",
+              "*{pp:Ho comprato} il pane e il latte."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "*{pp:Ho capito} una cosa: non {ip:devo} arrendermi.",
+              "{pp:Ho capito}: una cosa non {ip:devo} arrendermi."
+            ]
+          },
+          {
+            "q": "«I ragazzi che {im:erano} stanchi {pp:sono andati} a letto.» means…",
+            "options": [
+              "all the boys were tired",
+              "*only the tired boys went to bed"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'argomento",
+        "topic"
+      ],
+      [
+        "il punto di vista",
+        "point of view"
+      ],
+      [
+        "la frase",
+        "sentence"
+      ],
+      [
+        "la virgola",
+        "comma"
+      ],
+      [
+        "il punto",
+        "full stop"
+      ],
+      [
+        "i due punti",
+        "colon"
+      ],
+      [
+        "il punto e virgola",
+        "semicolon"
+      ],
+      [
+        "il tono",
+        "tone"
+      ],
+      [
+        "sottolineare",
+        "to underline"
+      ],
+      [
+        "mettere in evidenza",
+        "to highlight"
+      ],
+      [
+        "riassumere",
+        "to summarise"
+      ],
+      [
+        "chiarire",
+        "to clarify"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'argomento",
+            "topic"
+          ],
+          [
+            "la virgola",
+            "comma"
+          ],
+          [
+            "i due punti",
+            "colon"
+          ],
+          [
+            "il punto e virgola",
+            "semicolon"
+          ],
+          [
+            "sottolineare",
+            "to underline"
+          ],
+          [
+            "riassumere",
+            "to summarise"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Questa [[frase]] {ip:è} troppo lunga. (sentence)",
+          "{cop:Vorrei} [[chiarire]] un punto. (to clarify)",
+          "Dal mio [[punto]] di vista, {ip:hai} ragione. (point)",
+          "Non mi {ip:piace} il [[tono]] di questa lettera. (tone)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Una virgola {ip:può} cambiare tutto. Si {ip:racconta} di un re che {im:doveva} decidere la sorte di un prigioniero e che {pr:scrisse}: «Grazia impossibile, mandare in Siberia.» Il ministro, che {im:era} un uomo buono, {pr:spostò} la virgola: «Grazia, impossibile mandare in Siberia.» Il prigioniero {pr:fu liberato}.",
+      "{ip:È} proprio questo che molti studenti non {ip:capiscono}: la punteggiatura non {ip:è} un dettaglio. Le virgole, le insegnanti le {ip:spiegano} per anni, eppure gli errori {ip:restano}. Non si {ip:separa} mai il soggetto dal verbo; si {ip:usano} i due punti per spiegare. Una regola, questa, che {ip:vale} la pena ricordare."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The minister changed the position of a comma.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Thanks to this, the prisoner was sent to Siberia.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The text says punctuation is a minor detail.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The sentence «Le virgole, le insegnanti le spiegano» moves the object to the front.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Paola",
+        "Chi {pp:ha telefonato} alla direttrice? {pp:Sei stato} tu?"
+      ],
+      [
+        "Enzo",
+        "No, {ip:è} Giulia che le {pp:ha telefonato}."
+      ],
+      [
+        "Paola",
+        "Ma il contratto, l'{pp:hai firmato}?"
+      ],
+      [
+        "Enzo",
+        "Il contratto l'{pp:ho firmato} ieri. Il problema {ip:è} un altro."
+      ],
+      [
+        "Paola",
+        "Cioè?"
+      ],
+      [
+        "Enzo",
+        "{ip:È} di soldi che {ip:dobbiamo} parlare."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "No, {ip:è} Giulia [[che]] le {pp:ha telefonato}.",
+          "Ma il contratto, [[l']]{pp:hai firmato}?",
+          "Il contratto [[l']]{pp:ho firmato} ieri.",
+          "{ip:È} [[di]] soldi che {ip:dobbiamo} parlare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does Enzo really want to discuss?",
+        "questions": [
+          {
+            "q": "He wants to talk about…",
+            "options": [
+              "the director",
+              "the contract",
+              "*money"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "It was Maria I phoned.",
+            "a": [
+              "È a Maria che ho telefonato."
+            ]
+          },
+          {
+            "q": "The bread, I bought it. (move the bread to the front)",
+            "a": [
+              "Il pane l'ho comprato io.",
+              "Il pane l'ho comprato."
+            ]
+          },
+          {
+            "q": "It's about this that I wanted to talk to you. (informal)",
+            "a": [
+              "È di questo che volevo parlarti."
+            ]
+          },
+          {
+            "q": "Luca phoned. (stress who phoned, verb first)",
+            "a": [
+              "Ha telefonato Luca."
+            ]
+          },
+          {
+            "q": "I understood one thing: I must not give up.",
+            "a": [
+              "Ho capito una cosa: non devo arrendermi."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Verb tenses",
+  "intro": "All moods and tenses at a glance. The examples use machen.",
+  "moods": [
+    {
+      "name": "Indikativ", "color": "grey",
+      "children": [
+        {"name": "Präsens", "example": "ich mache", "color": "orange", "style": "t-ip"},
+        {
+          "name": "Vergangenheit", "color": "grey",
+          "children": [
+            {"stack": [
+              {"name": "Perfekt", "example": "ich habe gemacht", "color": "red", "style": "t-pp"},
+              {"name": "Plusquamperfekt", "example": "ich hatte gemacht", "color": "red", "style": "t-tp"}
+            ]},
+            {"name": "Präteritum", "example": "ich machte", "color": "blue", "style": "t-pr"}
+          ]
+        },
+        {
+          "name": "Zukunft", "color": "grey",
+          "children": [
+            {"stack": [
+              {"name": "Futur I", "example": "ich werde machen", "color": "pink", "style": "t-fs"},
+              {"name": "Futur II", "example": "ich werde gemacht haben", "color": "pink", "style": "t-fa"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Konjunktiv II", "color": "grey", "style": "mood-wavy",
+      "children": [
+        {"name": "Gegenwart", "example": "ich würde machen", "color": "orange", "style": "t-cop"},
+        {"name": "Vergangenheit", "example": "ich hätte gemacht", "color": "red", "style": "t-cpa"}
+      ]
+    },
+    {"name": "Imperativ", "example": "mach!", "color": "purple", "style": "t-imv"},
+    {
+      "name": "Konjunktiv I", "color": "grey", "style": "mood-double",
+      "children": [
+        {"name": "Gegenwart", "example": "er mache", "color": "orange", "style": "t-csp"},
+        {"name": "Vergangenheit", "example": "er habe gemacht", "color": "red", "style": "t-csa"},
+        {"name": "Zukunft", "example": "er werde machen", "color": "pink", "style": "mood-double"}
+      ]
+    }
+  ]
+}

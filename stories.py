@@ -10,20 +10,28 @@ Each story is a text file in data/<language>/stories/ that looks like this:
 
 Every word is followed by its translation in this context in braces,
 optionally with its base form first: {base form: translation}.
+The base form of a noun has its definite article and is in the singular, and
+when the translation in the text is not the translation of the base form, that
+one follows after "=": colori{il colore = colour: colours}. Nouns are saved to
+word lists in this form.
 A leading ~ marks one part of a word split up in the sentence, like a
 German separable verb. All parts with the same base form in one sentence
 belong together and show the same translation. Paragraphs are separated
-by blank lines.
+by blank lines. A word spelled like its translation, such as a name, is shown
+as plain text because there is nothing to translate.
 """
 
 import os
 import re
+
+import functions
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"]
 
 WORD = re.compile(r"([\w'’-]+)\{([^{}]*)\}")
 SENTENCE_END = re.compile(r"[.!?…;:]")
+NOUN_BASE_FORM = re.compile(r"(?:(?:il|lo|i|gli|la|le|el|los|las|der|die|das|ο|η|το|οι|τα) |l')")
 
 
 class StoryError(ValueError):
@@ -37,7 +45,12 @@ def parse_gloss(gloss):
     lemma, sep, meaning = gloss.partition(":")
     if not sep:
         lemma, meaning = "", gloss
-    return lemma.strip(), meaning.strip(), split
+    lemma, _, base_meaning = lemma.partition("=")
+    return lemma.strip(), base_meaning.strip(), meaning.strip(), split
+
+
+def same_spelling(word, meaning):
+    return functions.fold_accents(word).casefold() == functions.fold_accents(meaning).casefold()
 
 
 def end_sentence(path, groups):
@@ -55,7 +68,7 @@ def parse_paragraph(text, path, groups):
         parts.append({"text": text[position:match.start()]})
         if SENTENCE_END.search(parts[-1]["text"]):
             end_sentence(path, groups)
-        lemma, meaning, split = parse_gloss(match.group(2))
+        lemma, base_meaning, meaning, split = parse_gloss(match.group(2))
         if not meaning:
             raise StoryError(f"{path}: no translation for {match.group(1)!r}")
         word = {"word": match.group(1), "lemma": lemma, "meaning": meaning}
@@ -68,6 +81,12 @@ def parse_paragraph(text, path, groups):
                 groups["open"][lemma] = [groups["count"], 0]
             groups["open"][lemma][1] += 1
             word["group"] = groups["open"][lemma][0]
+        if lemma or not same_spelling(word["word"], meaning):
+            # Nouns are saved under their base form, and so are split words,
+            # since one part of them means nothing
+            word["saved"] = lemma if split or NOUN_BASE_FORM.match(lemma) else word["word"]
+            word["saved_meaning"] = base_meaning or meaning
+            word["key"] = f"{word['saved']}|{word['saved_meaning']}".casefold()
         parts.append(word)
         position = match.end()
     parts.append({"text": text[position:]})
@@ -112,6 +131,9 @@ def load_story(path):
         "level": meta["level"],
         "paragraphs": paragraphs,
         "words": word_count(paragraphs),
+        "vocabulary": {
+            part["key"]: part for paragraph in paragraphs for part in paragraph if "key" in part
+        },
     }
 
 

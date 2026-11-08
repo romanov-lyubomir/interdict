@@ -1,0 +1,402 @@
+{
+  "title": "{im:Era} già sera quando {pr:giunse} la lettera",
+  "translation": "It was already evening when the letter arrived",
+  "topics": "Fine choices among the past tenses and their stylistic effects",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Tenses as narrative lighting"
+      },
+      "In narrative, the choice of tense decides what stands in the light. The *imperfetto* lays out the scene, the *passato remoto* moves the action forward and the *trapassato* opens a window onto what came before.",
+      {
+        "table": {
+          "head": [
+            "Function",
+            "Tense",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Scene",
+              "Imperfetto",
+              "{im:Era} già sera e {im:pioveva}."
+            ],
+            [
+              "Event in the foreground",
+              "Passato remoto",
+              "{pr:Giunse} la lettera."
+            ],
+            [
+              "Flashback",
+              "Trapassato prossimo",
+              "L'{tp:aveva scritta} suo padre."
+            ],
+            [
+              "Immediately before, formal",
+              "Trapassato remoto",
+              "Appena l'{tr:ebbe letta}, {pr:uscì}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Changing the tense changes the scene"
+      },
+      {
+        "table": {
+          "head": [
+            "Version",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Il treno {pr:deragliò} alle sei.",
+              "A plain record of a historic event."
+            ],
+            [
+              "Il treno {pp:è deragliato} alle sei.",
+              "News close to the present."
+            ],
+            [
+              "Alle sei, il treno {im:deragliava}.",
+              "The narrative imperfetto: as if we were watching."
+            ],
+            [
+              "Alle sei il treno {ip:deraglia}.",
+              "The historic present: immediate, dramatic."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Leaving a flashback"
+      },
+      "A long flashback in the *trapassato* quickly becomes heavy. Writers often open it with one or two *trapassati*, and then continue in the *passato remoto*, trusting the reader to follow.",
+      {
+        "h": "Mixing with intent"
+      },
+      "Moving from the *passato remoto* to the *passato prossimo* brings a story up to the narrator's present. It's a powerful effect, but it must be deliberate: *{pr:Partì} senza voltarsi. Non l'{pp:ho} più {pp:rivisto}.*",
+      {
+        "h": "Verbs of state in the foreground"
+      },
+      "A verb of state in the *imperfetto* describes, and in the *passato remoto* it marks a limit or a change. *{pr:Fu} felice* suggests a completed period of happiness, whereas *{im:Era} felice* describes how things were."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Restore the tenses of this narrative: imperfetto, passato remoto or trapassato.",
+        "questions": [
+          "[[Era#im]] già sera quando [[giunse#pr]] la lettera. (essere; giungere)",
+          "La [[aveva scritta#tp]] suo padre, anni prima. (scrivere, flashback)",
+          "[[Pioveva#im]] e la strada [[era#im]] deserta. (piovere; essere)",
+          "Appena l'[[ebbe letta#tr]], {pr:uscì} senza una parola. (leggere, formal)",
+          "Non l'[[ho#pp]] più {pp:rivisto} da allora. (avere, up to the present)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which effect does each version create?",
+        "questions": [
+          {
+            "q": "Alle sei, il treno {im:deragliava}.",
+            "options": [
+              "a plain record",
+              "*the scene as if on film",
+              "a repeated habit"
+            ]
+          },
+          {
+            "q": "Nel 1860 Garibaldi sbarca in Sicilia.",
+            "options": [
+              "*historic present",
+              "a future plan",
+              "a habit"
+            ]
+          },
+          {
+            "q": "{pr:Fu} felice.",
+            "options": [
+              "an ongoing description",
+              "*a completed period",
+              "a future wish"
+            ]
+          },
+          {
+            "q": "{pr:Partì} senza voltarsi. Non l'{pp:ho} più {pp:rivisto}.",
+            "options": [
+              "*the story reaches the narrator's present",
+              "a grammatical error",
+              "a future event"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite in the tense given.",
+        "questions": [
+          {
+            "q": "Il treno {pr:deragliò} alle sei. (narrative imperfetto)",
+            "a": [
+              "Il treno deragliava alle sei.",
+              "Alle sei, il treno deragliava.",
+              "Alle sei il treno deragliava."
+            ]
+          },
+          {
+            "q": "Dopo che {tr:ebbe finito}, {pr:uscì}. (dopo + past infinitive)",
+            "a": [
+              "Dopo aver finito, uscì."
+            ]
+          },
+          {
+            "q": "Garibaldi sbarcò in Sicilia nel 1860. (historic present)",
+            "a": [
+              "Garibaldi sbarca in Sicilia nel 1860.",
+              "Nel 1860 Garibaldi sbarca in Sicilia."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il crepuscolo",
+        "twilight"
+      ],
+      [
+        "la soglia",
+        "threshold"
+      ],
+      [
+        "l'antefatto",
+        "background events"
+      ],
+      [
+        "il racconto",
+        "tale"
+      ],
+      [
+        "la vicenda",
+        "course of events"
+      ],
+      [
+        "giungere",
+        "to arrive"
+      ],
+      [
+        "voltarsi",
+        "to turn round"
+      ],
+      [
+        "indugiare",
+        "to linger"
+      ],
+      [
+        "balenare",
+        "to flash"
+      ],
+      [
+        "svanire",
+        "to vanish"
+      ],
+      [
+        "deserto",
+        "deserted"
+      ],
+      [
+        "d'un tratto",
+        "all of a sudden"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il crepuscolo",
+            "twilight"
+          ],
+          [
+            "l'antefatto",
+            "background events"
+          ],
+          [
+            "giungere",
+            "to arrive"
+          ],
+          [
+            "indugiare",
+            "to linger"
+          ],
+          [
+            "balenare",
+            "to flash"
+          ],
+          [
+            "d'un tratto",
+            "all of a sudden"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Si {pr:fermò} sulla [[soglia]]. (threshold)",
+          "La piazza {im:era} [[deserta]]. (deserted)",
+          "Se ne {pr:andò} senza [[voltarsi]]. (turning round)",
+          "{ip:Scrive} un [[racconto]] ogni anno. (tale)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "{im:Era} già il crepuscolo quando {pr:giunse} la lettera. Il postino {pr:indugiò} sulla soglia, come se {csi:temesse} di consegnarla. Mia madre l'{pr:aprì} in piedi. L'{tp:aveva scritta} suo fratello, partito per l'Argentina prima della guerra e di cui nessuno {tp:aveva} più {tp:saputo} nulla. Da ragazzi {tp:avevano diviso} tutto; poi una lite per un campo li {pr:separò} per sempre.",
+      "Appena l'{tr:ebbe letta}, si {pr:sedette} e non {pr:disse} una parola. Fuori {im:pioveva}. D'un tratto si {pr:alzò}, {pr:gettò} il foglio nel camino e {pr:tornò} a preparare la cena. Non ne {pr:parlammo} mai. Ancora oggi non {ip:so} che cosa ci {cst:fosse scritto}, e ormai non l'{pp:ho} più {pp:chiesto} a nessuno."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Who wrote the letter?",
+            "options": [
+              "*The mother's brother",
+              "The postman",
+              "The narrator's father"
+            ]
+          },
+          {
+            "q": "Which tense opens the flashback?",
+            "options": [
+              "Passato remoto",
+              "*Trapassato prossimo",
+              "Presente"
+            ]
+          },
+          {
+            "q": "What did the mother do with the letter?",
+            "options": [
+              "She kept it",
+              "She read it aloud",
+              "*She burned it"
+            ]
+          },
+          {
+            "q": "The move to «non l'ho più chiesto» shows that…",
+            "options": [
+              "*the effects reach the narrator's present",
+              "the story is about the future",
+              "the letter arrived today"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Voce narrante",
+        "{im:Era} già sera. {im:Pioveva} da ore."
+      ],
+      [
+        "Voce narrante",
+        "Il vecchio {pr:aprì} la porta e {pr:rimase} immobile."
+      ],
+      [
+        "Voce narrante",
+        "Non {im:vedeva} suo figlio da vent'anni."
+      ],
+      [
+        "Voce narrante",
+        "Si {tp:erano lasciati} male, una mattina d'inverno."
+      ],
+      [
+        "Voce narrante",
+        "D'un tratto il ragazzo gli {pr:sorrise}."
+      ],
+      [
+        "Voce narrante",
+        "Non si {pr:dissero} nulla. Io li {pp:ho visti}, e non l'{pp:ho dimenticato}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the text.",
+        "questions": [
+          "Il vecchio [[aprì#pr]] la porta e {pr:rimase} immobile.",
+          "Non [[vedeva#im]] suo figlio da vent'anni.",
+          "Si [[erano#tp]] {tp:lasciati} male.",
+          "Io li [[ho#pp]] {pp:visti}, e non l'{pp:ho dimenticato}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What is special about the last sentence?",
+        "questions": [
+          {
+            "q": "It shows that…",
+            "options": [
+              "the story is imaginary",
+              "*the narrator witnessed it and remembers it now",
+              "the events are in the future"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "It was already evening when the letter arrived. (use giungere, passato remoto)",
+            "a": [
+              "Era già sera quando giunse la lettera."
+            ]
+          },
+          {
+            "q": "As soon as he had read it, he left. (a letter, trapassato remoto)",
+            "a": [
+              "Appena l'ebbe letta, uscì.",
+              "Appena l'ebbe letta, partì."
+            ]
+          },
+          {
+            "q": "He left without turning round. I have never seen him again. (passato remoto, then passato prossimo)",
+            "a": [
+              "Partì senza voltarsi. Non l'ho più rivisto.",
+              "Se ne andò senza voltarsi. Non l'ho più rivisto."
+            ]
+          },
+          {
+            "q": "It was raining and the street was deserted.",
+            "a": [
+              "Pioveva e la strada era deserta."
+            ]
+          },
+          {
+            "q": "His father had written it. (a letter)",
+            "a": [
+              "L'aveva scritta suo padre.",
+              "Suo padre l'aveva scritta."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "title": "Questa casa {ip:è} la più bella di tutte",
+  "translation": "This house is the most beautiful of all",
+  "topics": "Comparatives and superlatives, questo and quello as adjectives and pronouns",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Comparing two things"
+      },
+      "Use *più* (more) or *meno* (less) before the adjective, and *di* before the second thing. *Di* joins the article as usual.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example"
+          ],
+          "rows": [
+            [
+              "più… di",
+              "La mia casa {ip:è} più grande **della** tua."
+            ],
+            [
+              "meno… di",
+              "Il treno {ip:è} meno caro **dell'**aereo."
+            ],
+            [
+              "tanto… quanto",
+              "Anna {ip:è} tanto alta quanto Sara."
+            ],
+            [
+              "(così)… come",
+              "Anna {ip:è} alta come Sara."
+            ]
+          ]
+        }
+      },
+      "Use *che* instead of *di* when you compare two adjectives, two verbs or two words with prepositions, because then it is not about two different things: *{ip:È} più bello che utile. Mi {ip:piace} più leggere che guardare la TV.*",
+      {
+        "h": "The most"
+      },
+      "The superlative is simply a comparative with the article in front. What you compare within comes after *di*.",
+      {
+        "table": {
+          "head": [
+            "",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Masculine",
+              "**il** più interessante",
+              "the most interesting"
+            ],
+            [
+              "Feminine",
+              "**la** più bella di tutte",
+              "the most beautiful of all"
+            ],
+            [
+              "Plural",
+              "**i** più giovani della classe",
+              "the youngest in the class"
+            ]
+          ]
+        }
+      },
+      "To say *very*, without comparing anything, use *molto* or the ending *-issimo*, which agrees like an adjective: *bello → bell**issimo**, bell**issima***.",
+      {
+        "h": "Special forms"
+      },
+      {
+        "table": {
+          "head": [
+            "Adjective",
+            "Better / worse",
+            "The best / worst"
+          ],
+          "rows": [
+            [
+              "buono",
+              "migliore",
+              "il migliore"
+            ],
+            [
+              "cattivo",
+              "peggiore",
+              "il peggiore"
+            ],
+            [
+              "bene (adverb)",
+              "meglio",
+              "il meglio"
+            ],
+            [
+              "male (adverb)",
+              "peggio",
+              "il peggio"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Questo and quello"
+      },
+      "*Questo* behaves like any adjective in *-o*: *questo, questa, questi, queste*. Before a noun, *quello* changes like the definite article, which you already know: *il → quel, lo → quello, l' → quell', la → quella, i → quei, gli → quegli, le → quelle*.",
+      "Without a noun, they are pronouns, and *quello* then has only the four regular forms.",
+      {
+        "table": {
+          "head": [
+            "Before a noun",
+            "Alone"
+          ],
+          "rows": [
+            [
+              "{ip:Vuoi} quel libro?",
+              "Sì, {ip:voglio} **quello**."
+            ],
+            [
+              "{ip:Compro} quei fiori.",
+              "{ip:Compro} **quelli**."
+            ],
+            [
+              "{ip:Preferisco} quegli stivali.",
+              "{ip:Preferisco} **quelli**."
+            ],
+            [
+              "Queste scarpe {ip:sono} care.",
+              "**Queste** {ip:sono} care."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with di (joined with the article if needed), che or quanto.",
+        "questions": [
+          "Roma {ip:è} più grande [[di]] Firenze.",
+          "La mia casa {ip:è} più piccola [[della]] tua.",
+          "Il treno {ip:è} meno caro [[dell']]aereo.",
+          "{ip:È} più bello [[che]] utile.",
+          "Marco {ip:è} tanto simpatico [[quanto]] Luca."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "the most beautiful house",
+            "options": [
+              "*la casa più bella",
+              "la più casa bella",
+              "la casa bella più"
+            ]
+          },
+          {
+            "q": "Questo vino {ip:è} ___ di quello.",
+            "options": [
+              "più migliore",
+              "*migliore",
+              "il più migliore"
+            ]
+          },
+          {
+            "q": "a very beautiful film",
+            "options": [
+              "*un film bellissimo",
+              "un film più bello",
+              "un film il più bello"
+            ]
+          },
+          {
+            "q": "{ip:Vuoi} questi libri o ___?",
+            "options": [
+              "quei",
+              "*quelli",
+              "quegli"
+            ]
+          },
+          {
+            "q": "{ip:Preferisco} ___ zaino.",
+            "options": [
+              "quel",
+              "*quello",
+              "quell'"
+            ]
+          },
+          {
+            "q": "___ scarpe {ip:sono} care.",
+            "options": [
+              "*Quelle",
+              "Quei",
+              "Quegli"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Write the right form of quello before the noun.",
+        "questions": [
+          "[[quel]] ragazzo",
+          "[[quello]] studente",
+          "[[quell']]albero",
+          "[[quegli]] amici",
+          "[[quei]] bambini"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'affitto",
+        "rent"
+      ],
+      [
+        "il palazzo",
+        "building"
+      ],
+      [
+        "il quartiere",
+        "neighbourhood"
+      ],
+      [
+        "il bagno",
+        "bathroom"
+      ],
+      [
+        "la camera",
+        "bedroom"
+      ],
+      [
+        "il soggiorno",
+        "living room"
+      ],
+      [
+        "luminoso",
+        "bright"
+      ],
+      [
+        "comodo",
+        "comfortable"
+      ],
+      [
+        "rumoroso",
+        "noisy"
+      ],
+      [
+        "moderno",
+        "modern"
+      ],
+      [
+        "utile",
+        "useful"
+      ],
+      [
+        "simpatico",
+        "nice"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'affitto",
+            "rent"
+          ],
+          [
+            "il quartiere",
+            "neighbourhood"
+          ],
+          [
+            "il soggiorno",
+            "living room"
+          ],
+          [
+            "luminoso",
+            "bright"
+          ],
+          [
+            "comodo",
+            "comfortable"
+          ],
+          [
+            "rumoroso",
+            "noisy"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "L'[[affitto]] {ip:è} troppo caro. (rent)",
+          "Questa [[camera]] {ip:è} molto grande. (bedroom)",
+          "{ip:Abito} in un [[palazzo]] moderno. (building)",
+          "Questo libro {ip:è} molto [[utile]]. (useful)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Io e Davide {ip:cerchiamo} un appartamento e ne {pp:abbiamo visti} tre. Il primo {ip:è} il più economico, ma {ip:è} anche il più piccolo e il quartiere {ip:è} molto rumoroso. Il secondo {ip:è} più grande del primo, però l'affitto {ip:è} carissimo.",
+      "Il terzo {ip:è} la casa migliore: {ip:è} tanto luminosa quanto la seconda, {ip:ha} un soggiorno comodissimo e {ip:costa} meno. Quella cucina moderna {ip:è} bellissima! {ip:Credo} che {fs:prenderemo} quello."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The first flat is the smallest.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The second flat is smaller than the first.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The third flat costs less than the second.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "They will probably choose the first flat.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Agente",
+        "Questo {ip:è} l'appartamento più bello del palazzo."
+      ],
+      [
+        "Davide",
+        "{ip:È} più caro di quello al primo piano?"
+      ],
+      [
+        "Agente",
+        "Sì, ma {ip:è} molto più luminoso."
+      ],
+      [
+        "Davide",
+        "E quella camera lì?"
+      ],
+      [
+        "Agente",
+        "{ip:È} la camera più grande. La migliore, secondo me."
+      ],
+      [
+        "Davide",
+        "Bellissima. Ci {ip:pensiamo} e la {ip:richiamo}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:È} l'appartamento più bello [[del]] palazzo.",
+          "{ip:È} più caro [[di]] quello al primo piano?",
+          "E [[quella]] camera lì?",
+          "La [[migliore]], secondo me."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does Davide say at the end?",
+        "questions": [
+          {
+            "q": "Davide…",
+            "options": [
+              "rents the flat at once",
+              "*will think about it and call back",
+              "doesn't like the flat"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "My house is bigger than yours. (informal)",
+            "a": [
+              "La mia casa è più grande della tua."
+            ]
+          },
+          {
+            "q": "This is the most interesting book.",
+            "a": [
+              "Questo è il libro più interessante."
+            ]
+          },
+          {
+            "q": "This wine is better than that one.",
+            "a": [
+              "Questo vino è migliore di quello."
+            ]
+          },
+          {
+            "q": "The film is very beautiful. (use -issimo)",
+            "a": [
+              "Il film è bellissimo."
+            ]
+          },
+          {
+            "q": "I prefer those shoes.",
+            "a": [
+              "Preferisco quelle scarpe.",
+              "Io preferisco quelle scarpe."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

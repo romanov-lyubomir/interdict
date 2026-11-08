@@ -1,0 +1,467 @@
+{
+  "title": "Un politicante da strapazzo, {cop:direbbe} il cronista",
+  "translation": "A second-rate politician, the reporter would say",
+  "topics": "Moving between registers, the stylistic force of word formation",
+  "grammar": {
+    "explain": [
+      {
+        "h": "One fact, five registers"
+      },
+      "Register isn't only vocabulary. Grammar, sentence length and even the choice of subject change with it.",
+      {
+        "table": {
+          "head": [
+            "Register",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Conversation",
+              "{ip:Hanno} tagliato le tasse, finalmente!"
+            ],
+            [
+              "Journalism",
+              "Via libera al taglio delle tasse."
+            ],
+            [
+              "Academic",
+              "La riduzione della pressione fiscale {ip:risulta} riconducibile a…"
+            ],
+            [
+              "Administrative",
+              "Si {ip:dispone} la riduzione delle aliquote vigenti."
+            ],
+            [
+              "Literary",
+              "Le tasse, quell'anno, {pr:furono} più lievi."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "What moves when the register rises"
+      },
+      {
+        "table": {
+          "head": [
+            "Feature",
+            "Lower",
+            "Higher"
+          ],
+          "rows": [
+            [
+              "Subject pronoun",
+              "lui, lei",
+              "egli, ella (literary)"
+            ],
+            [
+              "Verb",
+              "fare, dire, avere",
+              "effettuare, affermare, disporre di"
+            ],
+            [
+              "Noun or verb",
+              "Quando {pp:è arrivato}…",
+              "All'arrivo…"
+            ],
+            [
+              "Connective",
+              "però, quindi",
+              "tuttavia, pertanto"
+            ],
+            [
+              "Mood",
+              "{ip:Penso} che {ip:è}…",
+              "{ip:Ritengo} che {csp:sia}…"
+            ]
+          ]
+        }
+      },
+      "Mixing registers by accident sounds strange, whereas doing so on purpose can be powerful: a sudden colloquial word in a formal text can produce irony.",
+      {
+        "h": "Suffixes as judgements"
+      },
+      "Evaluative endings can state an opinion without an extra word.",
+      {
+        "table": {
+          "head": [
+            "Suffix",
+            "Nuance",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "-ante",
+              "from a neutral verb, sometimes scornful",
+              "politicante, commediante"
+            ],
+            [
+              "-astro",
+              "inferior, not the real thing",
+              "poetastro, giovinastro"
+            ],
+            [
+              "-aglia",
+              "contemptuous collective",
+              "gentaglia, plebaglia"
+            ],
+            [
+              "-iccio, -ognolo, -astro",
+              "approximate, a bit unpleasant",
+              "malaticcio, giallognolo, dolciastro"
+            ],
+            [
+              "-uncolo, -ucolo",
+              "petty",
+              "omuncolo, professorucolo"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Learned formations"
+      },
+      "Greek and Latin elements build words in all the specialised languages: *-logia* (study), *-crazia* (power), *-fobia* (fear), *-mania* (obsession), *-cida* (killer). The prefixes *stra-* and *arci-* intensify: *strapieno*, *arcinoto*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Identify the register.",
+        "questions": [
+          {
+            "q": "{ip:Hanno} tagliato le tasse, finalmente!",
+            "options": [
+              "*conversation",
+              "administrative",
+              "literary"
+            ]
+          },
+          {
+            "q": "Si {ip:dispone} la riduzione delle aliquote vigenti.",
+            "options": [
+              "conversation",
+              "*administrative",
+              "journalism"
+            ]
+          },
+          {
+            "q": "Via libera al taglio delle tasse.",
+            "options": [
+              "literary",
+              "*journalism",
+              "academic"
+            ]
+          },
+          {
+            "q": "Le tasse, quell'anno, {pr:furono} più lievi.",
+            "options": [
+              "conversation",
+              "administrative",
+              "*literary"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word with the nuance of its suffix.",
+        "pairs": [
+          [
+            "poetastro",
+            "an inferior poet"
+          ],
+          [
+            "gentaglia",
+            "contemptible people"
+          ],
+          [
+            "giallognolo",
+            "an unpleasant yellowish colour"
+          ],
+          [
+            "politicante",
+            "a scorned politician"
+          ],
+          [
+            "strapieno",
+            "packed full"
+          ],
+          [
+            "arcinoto",
+            "extremely well known"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence in the register in brackets.",
+        "questions": [
+          {
+            "q": "Quando {pp:è arrivato} il direttore, ... (formal, All'arrivo)",
+            "a": [
+              "All'arrivo del direttore, ...",
+              "All'arrivo del direttore,",
+              "All'arrivo del direttore"
+            ]
+          },
+          {
+            "q": "Però non {ip:è} vero. (formal connective)",
+            "a": [
+              "Tuttavia, non è vero.",
+              "Ciononostante, non è vero."
+            ]
+          },
+          {
+            "q": "{ip:Penso} che {ip:è} giusto. (formal)",
+            "a": [
+              "Ritengo che sia giusto."
+            ]
+          },
+          {
+            "q": "{pp:Ha fatto} il pagamento. (formal, effettuare)",
+            "a": [
+              "Ha effettuato il pagamento."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il cronista",
+        "reporter"
+      ],
+      [
+        "il politicante",
+        "petty politician"
+      ],
+      [
+        "la gentaglia",
+        "riff-raff"
+      ],
+      [
+        "la burocrazia",
+        "bureaucracy"
+      ],
+      [
+        "l'aliquota",
+        "tax rate"
+      ],
+      [
+        "la pressione fiscale",
+        "tax burden"
+      ],
+      [
+        "riconducibile a",
+        "attributable to"
+      ],
+      [
+        "disporre",
+        "to order, to arrange"
+      ],
+      [
+        "da strapazzo",
+        "second-rate"
+      ],
+      [
+        "malaticcio",
+        "sickly"
+      ],
+      [
+        "arcinoto",
+        "extremely well known"
+      ],
+      [
+        "strapieno",
+        "packed full"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il cronista",
+            "reporter"
+          ],
+          [
+            "l'aliquota",
+            "tax rate"
+          ],
+          [
+            "riconducibile a",
+            "attributable to"
+          ],
+          [
+            "da strapazzo",
+            "second-rate"
+          ],
+          [
+            "malaticcio",
+            "sickly"
+          ],
+          [
+            "strapieno",
+            "packed full"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Sono} stufo della [[burocrazia]]. (bureaucracy)",
+          "Il teatro {im:era} [[strapieno]]. (packed)",
+          "La [[pressione]] fiscale {ip:è} aumentata. (burden)",
+          "{ip:È} un fatto [[arcinoto]]. (extremely well known)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il sindaco {pp:ha inaugurato} ieri la nuova piazza, gremita di cittadini. Nel suo intervento {pp:ha ribadito} l'impegno dell'amministrazione a favore del decoro urbano. Il cronista, più sobrio, {cpa:avrebbe scritto}: un discorso di venti minuti su una fontana che ancora non {ip:funziona}.",
+      "«Quel politicante da strapazzo», {im:borbottava} un anziano in prima fila, «ci {pp:ha promesso} la fontana tre volte. E {imv:guarda} che gentaglia gli {ip:sta} intorno!» Il comunicato ufficiale {fs:parlerà} di «ampia partecipazione» e di «clima di condivisione». La piazza, quella sera, {im:era} soltanto strapiena e un po' delusa."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The fountain is working.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The elderly man speaks in a formal register.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "«Clima di condivisione» is typical of official language.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The text deliberately contrasts several registers.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Conduttrice",
+        "Assessore, come {ip:commenta} l'accaduto?"
+      ],
+      [
+        "Assessore",
+        "Si {pp:è proceduto} al ripristino della viabilità."
+      ],
+      [
+        "Conduttrice",
+        "Tradotto: {ip:avete} riaperto la strada?"
+      ],
+      [
+        "Assessore",
+        "Esatto. Dopo le opportune verifiche."
+      ],
+      [
+        "Conduttrice",
+        "E i cittadini {ip:dicono} che {ip:è} un disastro."
+      ],
+      [
+        "Assessore",
+        "{ip:Comprendo} il disagio arrecato."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Si {pp:è} [[proceduto#pp]] al ripristino della viabilità.",
+          "[[Tradotto]]: {ip:avete} riaperto la strada?",
+          "Dopo le opportune [[verifiche]].",
+          "{ip:Comprendo} il [[disagio]] arrecato."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the presenter doing?",
+        "questions": [
+          {
+            "q": "She is…",
+            "options": [
+              "agreeing with the councillor",
+              "*translating bureaucratic language into plain Italian",
+              "reading the news"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write the same idea in the register requested.",
+        "questions": [
+          {
+            "q": "«{ip:Hanno} riaperto la strada.» (administrative, use si {pp:è proceduto})",
+            "a": [
+              "Si è proceduto alla riapertura della strada."
+            ]
+          },
+          {
+            "q": "«{pp:Ha detto} che non {ip:è} vero.» (more formal verb)",
+            "a": [
+              "Ha affermato che non è vero.",
+              "Ha affermato che non sia vero."
+            ]
+          },
+          {
+            "q": "a bad poet (one word)",
+            "a": [
+              "un poetastro",
+              "poetastro"
+            ]
+          },
+          {
+            "q": "a second-rate politician",
+            "a": [
+              "un politicante da strapazzo",
+              "politicante da strapazzo"
+            ]
+          },
+          {
+            "q": "«{ip:Ho} i soldi.» (formal, disporre di)",
+            "a": [
+              "Dispongo dei fondi.",
+              "Dispongo del denaro.",
+              "Dispongo dei soldi."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

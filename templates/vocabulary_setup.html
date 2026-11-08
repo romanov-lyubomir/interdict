@@ -35,7 +35,7 @@
 {% endblock %}
 
 {% block body %}
-<a href="{{ url_for('vocabulary_topics') }}">
+<a href="{{ back_url }}">
     <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
         <g fill="none" fill-rule="evenodd">
             <path fill="#fff"
@@ -45,14 +45,13 @@
     </svg>
 </a>
 <div class="center">
-    <h1 class="title">{{ topic | format }}</h1>
+    <h1 class="title">{{ title }}</h1>
 </div>
 
 <div class="center">
-    <form class="shadow settings" action="{{ url_for('vocabulary_for_topic', topic=topic) }}" method="POST">
+    <form class="shadow settings" action="{{ request.path }}" method="POST">
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-        <p class="hint">Translate each word into {{ user_language | capitalize }}, together with its definite
-            article.</p>
+        <p class="hint">{{ hint }}</p>
 
         {% include "quiz_length.html" %}
 

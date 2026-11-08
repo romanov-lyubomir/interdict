@@ -1,0 +1,495 @@
+{% extends "base.html" %}
+{% block imports %}
+{% endblock %}
+
+{% block css %}
+<style>
+    .lesson {
+        width: min(760px, calc(100vw - 32px));
+        margin: 28px auto 40px;
+    }
+
+    .lesson-head {
+        margin: 0 0 18px;
+    }
+
+    .lesson-head h1 {
+        font-size: 28px;
+        margin: 10px 0 4px;
+    }
+
+    .lesson-head .subtitle {
+        color: var(--muted);
+    }
+
+    .lesson-head .topics {
+        margin-top: 10px;
+        color: var(--faint);
+        font-size: 14px;
+    }
+
+    .lesson-section {
+        margin: 0 0 18px;
+    }
+
+    .lesson-section > h2 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .lesson-section p {
+        margin-bottom: 10px;
+    }
+
+    .lesson-section table {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    .grammar-heading {
+        margin: 18px 0 8px;
+        font-size: 17px;
+    }
+
+    /* The line also runs under letters with tails, like g */
+    .lesson-section u {
+        text-decoration-color: var(--accent);
+        text-decoration-thickness: 2px;
+        text-decoration-skip-ink: none;
+        text-underline-offset: 3px;
+    }
+
+    .brace-row th {
+        padding: 10px 12px 0;
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .brace-row svg {
+        display: block;
+        width: 100%;
+        height: 12px;
+        margin-top: 4px;
+    }
+
+    .brace-row path {
+        fill: none;
+        stroke: var(--accent);
+        stroke-width: 2px;
+        vector-effect: non-scaling-stroke;
+    }
+
+    /* Wide tables scroll on their own instead of widening the page */
+    .table-scroll {
+        overflow-x: auto;
+    }
+
+    @media screen and (max-width: 560px) {
+        .lesson-section {
+            padding: 16px;
+        }
+
+        .lesson-section th,
+        .lesson-section td {
+            padding: 6px 8px;
+            font-size: 14px;
+        }
+    }
+
+    .reading-text {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    .audio-note {
+        color: var(--faint);
+        font-size: 14px;
+    }
+
+    .transcript {
+        margin-bottom: 14px;
+        padding: 12px 16px;
+        border-radius: var(--radius-small);
+        background: var(--surface-2);
+    }
+
+    .transcript p {
+        margin-bottom: 6px;
+    }
+
+    .transcript b {
+        color: var(--muted);
+    }
+
+    .exercise {
+        margin-top: 18px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border);
+    }
+
+    .exercise h3 {
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+
+    .ex-list {
+        list-style: none;
+    }
+
+    .ex-list > li {
+        margin-bottom: 12px;
+    }
+
+    .answer[data-state="wrong"] .field {
+        border-color: var(--danger);
+    }
+
+    .answer[data-state="correct"] .field,
+    .answer[data-state="revealed"] .field {
+        opacity: 1;
+        cursor: default;
+    }
+
+    .answer[data-state="correct"] .field {
+        border-color: var(--success);
+    }
+
+    .answer[data-state="revealed"] .field {
+        border-color: var(--accent);
+    }
+
+    .mark {
+        display: inline-block;
+        width: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .answer[data-state="correct"] .mark::before {
+        content: "\2713";
+        color: var(--success);
+    }
+
+    .answer[data-state="wrong"] .mark::before {
+        content: "\2717";
+        color: var(--danger);
+    }
+
+    .gap-line {
+        line-height: 2.5;
+    }
+
+    .gap-line input[type="text"] {
+        width: auto;
+        max-width: 100%;
+        margin: 0 2px;
+        padding: 3px 8px;
+        text-align: center;
+    }
+
+    .choice .options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 6px;
+    }
+
+    .choice label {
+        cursor: pointer;
+    }
+
+    .choice input {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .choice label span {
+        display: block;
+        padding: 5px 14px;
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+    }
+
+    .choice label:hover span {
+        border-color: var(--text);
+    }
+
+    .choice input:checked + span {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+    }
+
+    .choice input:focus-visible + span {
+        outline: 2px solid var(--text);
+        outline-offset: 2px;
+    }
+
+    .choice input:disabled + span {
+        cursor: default;
+        border-color: var(--border);
+    }
+
+    .answer[data-state="wrong"] .choice input:checked + span {
+        border-color: var(--danger);
+    }
+
+    .answer[data-state="correct"] .choice input:checked + span {
+        border-color: var(--success);
+    }
+
+    .match-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 1.2em;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .match-row select {
+        width: 100%;
+        margin: 0;
+        padding: 6px 8px;
+    }
+
+    .write-row label {
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .write-row .input-line {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .write-row input[type="text"] {
+        flex: 1;
+        min-width: 0;
+        width: auto;
+        margin: 0;
+        padding: 7px 10px;
+    }
+
+    .accents {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 12px;
+    }
+
+    .accent {
+        min-width: 34px;
+        padding: 4px 8px;
+        background-color: var(--surface-3);
+        border: 1px solid var(--border-strong);
+        font-weight: 500;
+    }
+
+    .accent:hover {
+        background-color: #393B42;
+    }
+
+    .ex-actions {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 4px;
+    }
+
+    .ex-actions button {
+        padding: 7px 18px;
+    }
+
+    .ex-actions button:disabled {
+        opacity: .45;
+        cursor: default;
+    }
+
+    .ex-status {
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .lesson-nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        margin-top: 22px;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+{% macro exercise(ex, id) %}
+<div class="exercise">
+    <h3>{{ ex.prompt }}</h3>
+    {% if ex.type in ("gap", "write") %}
+    <div class="accents" aria-label="Letters with accents">
+        {% for letter in "àèéìòù" %}<button class="accent" type="button">{{ letter }}</button>{% endfor %}
+    </div>
+    {% endif %}
+    <ol class="ex-list">
+        {% if ex.type == "gap" %}
+        {% for line in ex.questions %}
+        <li class="gap-line">
+            {%- for part in line -%}
+            {%- if part.accepted -%}
+            <span class="answer"><input class="field" type="text" spellcheck="false" autocomplete="off" autocapitalize="off"
+                    aria-label="Answer" size="{{ part.width }}" data-accepted='{{ part.accepted | tojson }}'{% if part.tense %} data-tense="{{ part.tense }}"{% endif %}><span class="mark" aria-hidden="true"></span></span>
+            {%- else -%}
+            {{ part.text | rich }}
+            {%- endif -%}
+            {%- endfor -%}
+        </li>
+        {% endfor %}
+        {% elif ex.type == "choice" %}
+        {% for question in ex.questions %}
+        {% set group = id ~ "-" ~ loop.index %}
+        <li class="answer">
+            <div class="choice">
+                <div>{{ question.q | rich }}<span class="mark" aria-hidden="true"></span></div>
+                <div class="options">
+                    {% for option in question.options %}
+                    <label><input type="radio" name="{{ group }}" {% if option.correct %}data-correct="true"{% endif %}><span>{{ option.text | rich }}</span></label>
+                    {% endfor %}
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+        {% elif ex.type == "match" %}
+        {% for left, right in ex.pairs %}
+        <li class="answer match-row">
+            <span>{{ left | rich }}</span>
+            <select class="field" aria-label="Translation of {{ left | plain }}" data-accepted='{{ [right] | tojson }}'>
+                <option value=""></option>
+                {% for option in ex.options %}<option>{{ option }}</option>{% endfor %}
+            </select>
+            <span class="mark" aria-hidden="true"></span>
+        </li>
+        {% endfor %}
+        {% elif ex.type == "write" %}
+        {% for question in ex.questions %}
+        <li class="answer write-row">
+            <label for="{{ id }}-{{ loop.index }}">{{ question.q | rich }}</label>
+            <div class="input-line">
+                <input id="{{ id }}-{{ loop.index }}" class="field" type="text" spellcheck="false" autocomplete="off"
+                    autocapitalize="off" data-accepted='{{ question.a | tojson }}'>
+                <span class="mark" aria-hidden="true"></span>
+            </div>
+        </li>
+        {% endfor %}
+        {% endif %}
+    </ol>
+    <div class="ex-actions">
+        <button class="check" type="button">Check</button>
+        <button class="reveal button-secondary" type="button">Reveal</button>
+        <span class="ex-status" aria-live="polite"></span>
+    </div>
+</div>
+{% endmacro %}
+
+<a href="{{ url_for('lessons', _anchor=level | lower) }}">
+    <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+            <path fill="#fff"
+                d="M6.93 8l-4.7-4.7a.76.76 0 1 1 1.06-1.08L8 6.92l4.7-4.7a.76.76 0 0 1 1.08 1.07L9.08 8l4.7 4.7a.76.76 0 1 1-1.07 1.08L8 9.08l-4.7 4.7a.76.76 0 0 1-1.08-1.07L6.92 8z">
+            </path>
+        </g>
+    </svg>
+</a>
+
+<div class="lesson">
+    <header class="container shadow lesson-head">
+        <span class="level-badge level-{{ level | lower }}">{{ level }}</span>
+        <h1>{{ lesson.number }}. {{ lesson.title | rich }}</h1>
+        <p class="subtitle">{{ lesson.translation }}</p>
+        <p class="topics">{{ lesson.topics }}</p>
+    </header>
+
+    <div class="tabs" role="tablist" aria-label="Parts of this lesson">
+        {% for key, label in lesson_sections %}
+        <button class="tab" type="button" role="tab" id="tab-{{ key }}" aria-controls="{{ key }}"
+            aria-selected="{{ 'true' if loop.first else 'false' }}">{{ label }}</button>
+        {% endfor %}
+    </div>
+
+    {% for key, label in lesson_sections %}
+    {% set section = lesson[key] %}
+    <section id="{{ key }}" class="container shadow lesson-section" role="tabpanel" aria-labelledby="tab-{{ key }}"
+        {% if not loop.first %}hidden{% endif %}>
+        <h2>{{ label }}</h2>
+
+        {% if key == "grammar" %}
+        {% for block in section.explain %}
+        {% if block is string %}
+        <p>{{ block | rich }}</p>
+        {% elif block.h %}
+        <h3 class="grammar-heading">{{ block.h }}</h3>
+        {% else %}
+        <div class="table-scroll">
+            <table>
+                {% if block.table.groups %}
+                <tr class="brace-row">
+                    {% for label, span in block.table.groups %}
+                    <th colspan="{{ span }}">
+                        {% if label %}
+                        {{ label }}
+                        <svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true">
+                            <path d="M0 12 C0 6 2 6 4 6 L46 6 C48 6 50 6 50 0 C50 6 52 6 54 6 L96 6 C98 6 100 6 100 12"></path>
+                        </svg>
+                        {% endif %}
+                    </th>
+                    {% endfor %}
+                </tr>
+                {% endif %}
+                <tr>{% for cell in block.table.head %}<th>{{ cell | rich }}</th>{% endfor %}</tr>
+                {% for row in block.table.rows %}
+                <tr>{% for cell in row %}<td>{{ cell | rich }}</td>{% endfor %}</tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% elif key == "vocabulary" %}
+        <table>
+            <tr><th>{{ user_language | capitalize }}</th><th>English</th></tr>
+            {% for word, translation in section.words %}
+            <tr><td>{{ word }}</td><td>{{ translation }}</td></tr>
+            {% endfor %}
+        </table>
+        {% elif key == "reading" %}
+        {% for paragraph in section.text %}
+        <p class="reading-text">{{ paragraph | rich }}</p>
+        {% endfor %}
+        {% elif key == "listening" %}
+        <p class="audio-note">The audio is coming soon. For now, read the transcript.</p>
+        <div class="transcript">
+            {% for speaker, line in section.transcript %}
+            <p><b>{{ speaker }}:</b> {{ line | rich }}</p>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% for ex in section.exercises %}
+        {{ exercise(ex, key ~ "-" ~ loop.index) }}
+        {% endfor %}
+    </section>
+    {% endfor %}
+
+    <div class="lesson-nav">
+        {% if previous %}
+        <a class="button button-secondary" href="{{ url_for('lesson', level=level | lower, number=previous.number) }}">&larr; Lesson {{ previous.number }}</a>
+        {% else %}<span></span>{% endif %}
+        {% if following %}
+        <a class="button" href="{{ url_for('lesson', level=level | lower, number=following.number) }}">Lesson {{ following.number }} &rarr;</a>
+        {% else %}
+        <a class="button" href="{{ url_for('lessons', _anchor=level | lower) }}">All lessons</a>
+        {% endif %}
+    </div>
+</div>
+<script src="{{ url_for('static', filename='lesson.js') }}"></script>
+<script src="{{ url_for('static', filename='tabs.js') }}"></script>
+{% endblock %}

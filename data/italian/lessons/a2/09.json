@@ -1,0 +1,457 @@
+{
+  "title": "Ci {ip:vado} domani. {imv:Dimmi}, ne {ip:vuoi} due?",
+  "translation": "I'm going there tomorrow. Tell me, do you want two of them?",
+  "topics": "The pronouns ci and ne, informal commands with pronouns",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Ci replaces a place"
+      },
+      "*Ci* means *there*. It replaces a place that has already been mentioned, so that you don't have to repeat it. Like other pronouns, it comes before the verb.",
+      {
+        "table": {
+          "head": [
+            "Question",
+            "Answer"
+          ],
+          "rows": [
+            [
+              "{ip:Vai} a Roma?",
+              "Sì, **ci** {ip:vado} domani."
+            ],
+            [
+              "{pp:Sei} mai {pp:stato} in Sicilia?",
+              "No, non **ci** {pp:sono} mai {pp:stato}."
+            ],
+            [
+              "Quando {ip:vieni} da noi?",
+              "**Ci** {ip:vengo} sabato."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Ne replaces a quantity"
+      },
+      "*Ne* means *of it* or *of them*. Use it when you say how much of something, and leave out the noun. The number or quantity stays.",
+      {
+        "table": {
+          "head": [
+            "Question",
+            "Answer"
+          ],
+          "rows": [
+            [
+              "Quante mele {ip:vuoi}?",
+              "**Ne** {ip:voglio} due."
+            ],
+            [
+              "{ip:Hai} fratelli?",
+              "Sì, **ne** {ip:ho} uno."
+            ],
+            [
+              "{ip:Vuoi} del pane?",
+              "Sì, **ne** {cop:vorrei} un po'."
+            ],
+            [
+              "{ip:Hai} dei soldi?",
+              "No, non **ne** {ip:ho}."
+            ]
+          ]
+        }
+      },
+      "If you mean the whole thing rather than a quantity, use *lo, la, li, le* instead: *{ip:Compro} le mele → Le {ip:compro}*, but *{ip:Compro} due mele → Ne {ip:compro} due*. With an infinitive, *ci* and *ne* attach like other pronouns: *{ip:Voglio} andarci. {ip:Posso} prenderne due.*",
+      {
+        "h": "Informal commands"
+      },
+      "For *noi* and *voi*, commands are the same as the present tense: *{imv:Andiamo}! {imv:Guardate}!* Only the *tu* form of *-are* verbs is special, as it ends in *-a*.",
+      {
+        "table": {
+          "head": [
+            "",
+            "-are",
+            "-ere",
+            "-ire"
+          ],
+          "rows": [
+            [
+              "tu",
+              "{imv:parl**a**}!",
+              "{imv:prend**i**}!",
+              "{imv:sent**i**}!"
+            ],
+            [
+              "tu, negative",
+              "non parlare!",
+              "non prendere!",
+              "non sentire!"
+            ],
+            [
+              "voi",
+              "{imv:parlate}!",
+              "{imv:prendete}!",
+              "{imv:sentite}!"
+            ],
+            [
+              "voi, negative",
+              "non {imv:parlate}!",
+              "non {imv:prendete}!",
+              "non {imv:sentite}!"
+            ]
+          ]
+        }
+      },
+      "A few common verbs have a short *tu* form: *fare → {ip:fa}'*, *dare → da'*, *stare → {ip:sta}'*, *andare → {ip:va}'*, *dire → di'*. Also *essere → {imv:sii}* and *avere → {imv:abbi}*.",
+      {
+        "h": "Commands with pronouns"
+      },
+      "In a positive command, the pronoun attaches to the end. After a short form, its first consonant doubles.",
+      {
+        "table": {
+          "head": [
+            "Command",
+            "Pronoun attached",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "{ip:guarda} + lo",
+              "{imv:guarda**lo**}!",
+              "look at it!"
+            ],
+            [
+              "{ip:alza} + ti",
+              "{imv:alza**ti**}!",
+              "get up!"
+            ],
+            [
+              "di' + mi",
+              "{imv:di**mmi**}!",
+              "tell me!"
+            ],
+            [
+              "{ip:fa}' + lo",
+              "{imv:fa**llo**}!",
+              "do it!"
+            ],
+            [
+              "da' + mi",
+              "{imv:da**mmi**}!",
+              "give me!"
+            ]
+          ]
+        }
+      },
+      "In a negative command you can put the pronoun in either place: *Non lo fare!* or *Non farlo!*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose ci, ne or the object pronoun.",
+        "questions": [
+          {
+            "q": "{ip:Vai} al cinema? Sì, ___ {ip:vado} stasera.",
+            "options": [
+              "*ci",
+              "ne",
+              "lo"
+            ]
+          },
+          {
+            "q": "Quanti caffè {ip:bevi}? ___ {ip:bevo} tre.",
+            "options": [
+              "Ci",
+              "*Ne",
+              "Li"
+            ]
+          },
+          {
+            "q": "{pp:Hai comprato} il pane? Sì, ___ {pp:ho comprato}.",
+            "options": [
+              "ci",
+              "ne",
+              "*l'"
+            ]
+          },
+          {
+            "q": "{ip:Vuoi} un po' di vino? Sì, ___ {cop:vorrei} un po'.",
+            "options": [
+              "ci",
+              "*ne",
+              "lo"
+            ]
+          },
+          {
+            "q": "{pp:Sei stato} a Bari? No, non ___ {pp:sono} mai {pp:stato}.",
+            "options": [
+              "*ci",
+              "ne",
+              "la"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Write the tu command.",
+        "questions": [
+          "[[Parla#imv]] piano! (parlare)",
+          "[[Prendi#imv]] l'autobus! (prendere)",
+          "[[Senti#imv]]! (sentire)",
+          "Non [[parlare]]! (parlare, negative)",
+          "[[Sii#imv]] gentile! (essere)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Attach the pronoun in brackets to the command.",
+        "questions": [
+          "[[Guardalo#imv]]! (guarda + lo)",
+          "[[Dimmi#imv]]! (di' + mi)",
+          "[[Fallo#imv]] subito! (fa' + lo)",
+          "[[Dammi#imv]] la mano! (da' + mi)",
+          "[[Alzati#imv]]! (alza + ti)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la pasticceria",
+        "pastry shop"
+      ],
+      [
+        "il dolce",
+        "cake, dessert"
+      ],
+      [
+        "la bottiglia",
+        "bottle"
+      ],
+      [
+        "il pezzo",
+        "piece"
+      ],
+      [
+        "il chilo",
+        "kilo"
+      ],
+      [
+        "l'etto",
+        "100 grams"
+      ],
+      [
+        "la fetta",
+        "slice"
+      ],
+      [
+        "vorrei",
+        "I would like"
+      ],
+      [
+        "portare",
+        "to bring"
+      ],
+      [
+        "assaggiare",
+        "to taste"
+      ],
+      [
+        "dare",
+        "to give"
+      ],
+      [
+        "basta",
+        "that's enough"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la bottiglia",
+            "bottle"
+          ],
+          [
+            "l'etto",
+            "100 grams"
+          ],
+          [
+            "la fetta",
+            "slice"
+          ],
+          [
+            "portare",
+            "to bring"
+          ],
+          [
+            "assaggiare",
+            "to taste"
+          ],
+          [
+            "basta",
+            "that's enough"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "[[Vorrei#cop]] un caffè, per favore. (I would like)",
+          "Mi {imv:dia} due [[etti]] di prosciutto. (100 grams, plural)",
+          "{ip:Prendo} una [[fetta]] di torta. (slice)",
+          "Una [[bottiglia]] d'acqua, grazie. (bottle)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "«{ip:Vai} in pasticceria?» mi {ip:chiede} mio fratello. «Sì, ci {ip:vado} adesso. {ip:Vuoi} qualcosa?» «{imv:Prendi} dei cornetti. Anzi, {imv:comprane} quattro: {ip:viene} anche la zia!»",
+      "In pasticceria {ip:vedo} una torta bellissima. La commessa me ne {ip:dà} una fetta da assaggiare. Mio fratello mi {ip:scrive}: «{imv:Dimmi}, {pp:hai preso} i cornetti?» {ip:Rispondo}: «Sì, e {pp:ho preso} anche una torta. Non dirlo alla mamma!»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "How many croissants should the speaker buy?",
+            "options": [
+              "Two",
+              "*Four",
+              "Six"
+            ]
+          },
+          {
+            "q": "Who is coming too?",
+            "options": [
+              "*The aunt",
+              "The mother",
+              "A friend"
+            ]
+          },
+          {
+            "q": "What does the shop assistant give the speaker?",
+            "options": [
+              "A free croissant",
+              "*A slice to taste",
+              "A bottle"
+            ]
+          },
+          {
+            "q": "What should the brother not do?",
+            "options": [
+              "Eat the cake",
+              "*Tell their mother",
+              "Come to the shop"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Commesso",
+        "Buongiorno, {imv:dimmi} pure!"
+      ],
+      [
+        "Bianca",
+        "{cop:Vorrei} delle mele."
+      ],
+      [
+        "Commesso",
+        "Quante ne {ip:vuoi}?"
+      ],
+      [
+        "Bianca",
+        "Ne {ip:prendo} {ip:sei}. E il formaggio? {ip:È} buono?"
+      ],
+      [
+        "Commesso",
+        "Buonissimo. {imv:Assaggialo}!"
+      ],
+      [
+        "Bianca",
+        "Sì, {ip:è} ottimo. {imv:Dammene} due etti, grazie."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Quante [[ne]] {ip:vuoi}?",
+          "[[Ne]] {ip:prendo} {ip:sei}.",
+          "Buonissimo. [[Assaggialo#imv]]!",
+          "[[Dammene#imv]] due etti, grazie."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How much cheese does Bianca buy?",
+        "questions": [
+          {
+            "q": "Bianca buys…",
+            "options": [
+              "six slices",
+              "*200 grams",
+              "a kilo"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I'm going there tomorrow.",
+            "a": [
+              "Ci vado domani.",
+              "Domani ci vado."
+            ]
+          },
+          {
+            "q": "I want two of them.",
+            "a": [
+              "Ne voglio due.",
+              "Io ne voglio due."
+            ]
+          },
+          {
+            "q": "Tell me! (to a friend)",
+            "a": [
+              "Dimmi!"
+            ]
+          },
+          {
+            "q": "Don't do it! (to a friend)",
+            "a": [
+              "Non lo fare!",
+              "Non farlo!"
+            ]
+          },
+          {
+            "q": "Get up! (to a friend)",
+            "a": [
+              "Alzati!"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

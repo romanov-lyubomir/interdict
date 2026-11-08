@@ -1,0 +1,441 @@
+{
+  "title": "Il libro {pp:è stato} {pp:pubblicato} e si {ip:vende} bene",
+  "translation": "The book has been published and it sells well",
+  "topics": "The passive with essere, venire and andare, si as passive and as impersonal",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Three auxiliaries for the passive"
+      },
+      "Each one adds its own shade of meaning.",
+      {
+        "table": {
+          "head": [
+            "Auxiliary",
+            "Meaning",
+            "Tenses",
+            "Example"
+          ],
+          "rows": [
+            [
+              "essere",
+              "neutral, or a resulting state",
+              "all",
+              "Il libro {pp:è stato} {pp:pubblicato}."
+            ],
+            [
+              "venire",
+              "the action as it takes place",
+              "simple tenses only",
+              "Il libro {ip:viene} pubblicato ogni anno."
+            ],
+            [
+              "andare",
+              "necessity: it must be done",
+              "simple tenses",
+              "Questo libro {ip:va} letto."
+            ]
+          ]
+        }
+      },
+      "*La porta {ip:è chiusa}* can describe a state, whereas *La porta {ip:viene} chiusa alle otto* can only be an action.",
+      {
+        "h": "Why use the passive?"
+      },
+      "It moves the focus onto what the action affects, and it lets you leave out who did it. That is why you find it so often in news and official language: *{pp:Sono stati} arrestati due uomini.*",
+      {
+        "h": "Two different kinds of si"
+      },
+      "Look at what follows the verb. If there is no direct object, *si* is impersonal and means *people in general*. If there is one, *si* is passive and the verb agrees with it.",
+      {
+        "table": {
+          "head": [
+            "Kind",
+            "Example",
+            "Verb"
+          ],
+          "rows": [
+            [
+              "Impersonal, no object",
+              "In Italia si {ip:cena} tardi.",
+              "always singular"
+            ],
+            [
+              "Passive, singular object",
+              "Si {ip:vend**e**} la casa.",
+              "singular"
+            ],
+            [
+              "Passive, plural object",
+              "Si {ip:vend**ono**} appartamenti.",
+              "plural"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Si in more complex sentences"
+      },
+      {
+        "table": {
+          "head": [
+            "Situation",
+            "Rule",
+            "Example"
+          ],
+          "rows": [
+            [
+              "With a reflexive verb",
+              "si becomes ci si",
+              "Ci si {ip:alza} presto."
+            ],
+            [
+              "With essere + adjective",
+              "the adjective is plural",
+              "Quando si {ip:è} giovan**i**…"
+            ],
+            [
+              "Past, verb with avere",
+              "participle in -o",
+              "Si {pp:è mangiat**o**} bene."
+            ],
+            [
+              "Past, verb with essere",
+              "participle in -i",
+              "Si {pp:è arrivat**i**} tardi."
+            ],
+            [
+              "Past, passive",
+              "participle agrees",
+              "Si {pp:è vendut**a**} la casa."
+            ]
+          ]
+        }
+      },
+      "In the past, the auxiliary is always *essere*, even for verbs that normally take *avere*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Il negozio ___ chiuso ogni sera alle otto. (action)",
+            "options": [
+              "*{ip:viene}",
+              "{ip:va}",
+              "{pp:è stato}"
+            ]
+          },
+          {
+            "q": "Questo modulo ___ compilato in stampatello. (must be)",
+            "options": [
+              "{ip:viene}",
+              "*{ip:va}",
+              "{ip:ha}"
+            ]
+          },
+          {
+            "q": "Il romanzo ___ pubblicato nel 1980.",
+            "options": [
+              "{ip:va}",
+              "*{pp:è stato}",
+              "{ip:ha}"
+            ]
+          },
+          {
+            "q": "In questo ristorante si ___ bene.",
+            "options": [
+              "*{ip:mangia}",
+              "{ip:mangiano}"
+            ]
+          },
+          {
+            "q": "Qui si ___ prodotti locali.",
+            "options": [
+              "{ip:vende}",
+              "*{ip:vendono}"
+            ]
+          },
+          {
+            "q": "La mattina ___ {ip:alza} presto.",
+            "options": [
+              "si si",
+              "*ci si",
+              "si ci"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Make each sentence passive with essere.",
+        "questions": [
+          {
+            "q": "La polizia {ip:ha} arrestato due uomini.",
+            "a": [
+              "Due uomini sono stati arrestati dalla polizia."
+            ]
+          },
+          {
+            "q": "Il comune {fs:restaurerà} il teatro.",
+            "a": [
+              "Il teatro sarà restaurato dal comune."
+            ]
+          },
+          {
+            "q": "L'autore {im:presentava} il libro.",
+            "a": [
+              "Il libro era presentato dall'autore.",
+              "Il libro veniva presentato dall'autore."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the past with si.",
+        "questions": [
+          "Ieri [[si è mangiato#pp]] benissimo. (mangiare)",
+          "A quella festa [[si è ballato#pp]] molto. (ballare)",
+          "Con il treno [[si è arrivati#pp]] in orario. (arrivare)",
+          "Finalmente [[si è venduta#pp]] la casa. (vendere)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la casa editrice",
+        "publishing house"
+      ],
+      [
+        "l'edizione",
+        "edition"
+      ],
+      [
+        "la tiratura",
+        "print run"
+      ],
+      [
+        "la recensione",
+        "review"
+      ],
+      [
+        "il successo",
+        "success"
+      ],
+      [
+        "il pubblico",
+        "audience"
+      ],
+      [
+        "tradurre",
+        "to translate"
+      ],
+      [
+        "diffondere",
+        "to spread"
+      ],
+      [
+        "premiare",
+        "to award"
+      ],
+      [
+        "vietare",
+        "to forbid"
+      ],
+      [
+        "esaurito",
+        "sold out"
+      ],
+      [
+        "locale",
+        "local"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la casa editrice",
+            "publishing house"
+          ],
+          [
+            "la tiratura",
+            "print run"
+          ],
+          [
+            "la recensione",
+            "review"
+          ],
+          [
+            "diffondere",
+            "to spread"
+          ],
+          [
+            "premiare",
+            "to award"
+          ],
+          [
+            "esaurito",
+            "sold out"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il romanzo {pp:ha avuto} molto [[successo]]. (success)",
+          "Il libro {pp:è stato} [[tradotto#pp]] in dieci lingue. (translated)",
+          "La prima [[edizione]] {ip:è} del 1950. (edition)",
+          "Il [[pubblico]] {ip:ha} applaudito. (audience)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il romanzo d'esordio di Laura Conti {pp:è stato} {pp:pubblicato} a marzo da una piccola casa editrice di Lecce. La prima tiratura, di appena mille copie, {pp:è andata} esaurita in due settimane. Ora il libro {ip:viene} tradotto in sei lingue e si {ip:vende} benissimo anche all'estero.",
+      "«Quando si {ip:è} giovani si {ip:pensa} di poter cambiare il mondo», {ip:dice} l'autrice. «Poi ci si {ip:accorge} che {ip:basta} raccontarlo bene.» Il libro {ip:va} letto lentamente, {ip:scrivono} i critici. In città si {ip:parla} già di un film: si {pp:sono svolti} i primi incontri con un regista."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The first print run was large.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The novel is being translated into six languages.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Critics say it should be read quickly.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "There has been talk of a film.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Cliente",
+        "{imv:Scusi}, il nuovo libro di Conti?"
+      ],
+      [
+        "Libraio",
+        "Purtroppo {ip:è esaurito}. {pp:È stato} {pp:venduto} tutto in un giorno."
+      ],
+      [
+        "Cliente",
+        "Davvero? {ip:Viene} ristampato?"
+      ],
+      [
+        "Libraio",
+        "Sì, la nuova edizione {fs:sarà} pronta tra una settimana."
+      ],
+      [
+        "Cliente",
+        "Si {ip:può} prenotare?"
+      ],
+      [
+        "Libraio",
+        "Certo. Il modulo {ip:va} compilato qui."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{pp:È stato} [[venduto#pp]] tutto in un giorno.",
+          "[[Viene#ip]] ristampato?",
+          "[[Si]] {ip:può} prenotare?",
+          "Il modulo [[va#ip]] compilato qui."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "When will the book be available again?",
+        "questions": [
+          {
+            "q": "The new edition will be ready…",
+            "options": [
+              "tomorrow",
+              "*in a week",
+              "in a month"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "The book has been published.",
+            "a": [
+              "Il libro è stato pubblicato."
+            ]
+          },
+          {
+            "q": "Local products are sold here. (use si)",
+            "a": [
+              "Qui si vendono prodotti locali.",
+              "Si vendono prodotti locali qui."
+            ]
+          },
+          {
+            "q": "In Italy people have dinner late.",
+            "a": [
+              "In Italia si cena tardi."
+            ]
+          },
+          {
+            "q": "This book must be read. (use andare)",
+            "a": [
+              "Questo libro va letto."
+            ]
+          },
+          {
+            "q": "In the morning people get up early. (use ci si)",
+            "a": [
+              "La mattina ci si alza presto.",
+              "Di mattina ci si alza presto."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

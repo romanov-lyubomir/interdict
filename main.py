@@ -1,6 +1,8 @@
 import csv
+import json
 import os
 import random
+import re
 import secrets
 from functools import wraps
 
@@ -19,11 +21,13 @@ from flask_compress import Compress
 from flask_login import LoginManager, UserMixin, current_user, login_user, logout_user
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect
+from markupsafe import Markup, escape
 from sqlalchemy.exc import IntegrityError
 from werkzeug.security import check_password_hash, generate_password_hash
 
 import conjugation
 import functions
+import grammar_lessons
 import stories
 
 app = Flask(__name__)
@@ -63,13 +67,14 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 
 MIN_PASSWORD_LENGTH = 8
+MAX_LIST_NAME_LENGTH = 100
 DATA_DIR = os.path.join(app.root_path, "data")
 
 TOPICS = ["foods", "drinks", "fruits", "transport"]
 
 LANGUAGES = {
     "italian": {
-        "lessons": ["the_alphabet", "definite_articles"],
+        "lessons": [],
         "cities": ["rome", "venice", "milan"],
         "flag": "it",
         "native": "Italiano",
@@ -100,6 +105,7 @@ LANGUAGE_SWITCH_TARGETS = {
     "vocabulary_topics",
     "conjugation_drill",
     "stories_list",
+    "cheat_sheets",
     "lessons",
     "profile",
 }
@@ -153,6 +159,19 @@ VOCABULARY = {
     for lang in LANGUAGES
 }
 STORIES = {lang: stories.load_stories(lang) for lang in LANGUAGES}
+LESSONS = {lang: grammar_lessons.load_lessons(lang) for lang in LANGUAGES}
+HOME_PAGE_LESSONS = 4
+
+
+def load_cheat_sheet(lang):
+    path = os.path.join(DATA_DIR, lang, "cheat_sheet.json")
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as sheet_file:
+        return json.load(sheet_file)
+
+
+CHEAT_SHEETS = {lang: load_cheat_sheet(lang) for lang in LANGUAGES}
 
 
 class User(UserMixin, db.Model):
@@ -162,6 +181,31 @@ class User(UserMixin, db.Model):
     password = db.Column(db.String(100), nullable=False)
     username = db.Column(db.String(100), unique=True, nullable=False)
     language = db.Column(db.String(10), nullable=False)
+    word_lists = db.relationship("WordList", cascade="all, delete-orphan")
+
+
+class WordList(db.Model):
+    # A list holds words of one language, so it only shows up while learning it
+    __tablename__ = "word_lists"
+    __table_args__ = (db.UniqueConstraint("user_id", "language", "name"),)
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False, index=True)
+    language = db.Column(db.String(10), nullable=False)
+    name = db.Column(db.String(MAX_LIST_NAME_LENGTH), nullable=False)
+    entries = db.relationship(
+        "WordListEntry", cascade="all, delete-orphan", order_by="WordListEntry.id"
+    )
+
+
+class WordListEntry(db.Model):
+    __tablename__ = "word_list_entries"
+    __table_args__ = (db.UniqueConstraint("list_id", "word_key"),)
+    id = db.Column(db.Integer, primary_key=True)
+    list_id = db.Column(db.Integer, db.ForeignKey("word_lists.id"), nullable=False, index=True)
+    word_key = db.Column(db.String(255), nullable=False)
+    word = db.Column(db.String(100), nullable=False)
+    lemma = db.Column(db.String(100), nullable=False)
+    meaning = db.Column(db.String(255), nullable=False)
 
 
 @login_manager.user_loader
@@ -221,6 +265,24 @@ def format(string_to_format):
     return string_to_format.replace("_", " ").capitalize()
 
 
+TENSE_MARK = re.compile(r"\{(\w+):([^{}]+)\}")
+
+
+@app.template_filter("plain")
+def plain(text):
+    # The text of a verb without its tense mark
+    return TENSE_MARK.sub(r"\2", text)
+
+
+@app.template_filter("rich")
+def rich(text):
+    # Turns {tag:form} into a verb in its tense's style, **text** into
+    # underlined text and *text* into italics
+    tensed = TENSE_MARK.sub(r'<span class="t-\1">\2</span>', str(escape(text)))
+    underlined = re.sub(r"\*\*(.+?)\*\*", r"<u>\1</u>", tensed)
+    return Markup(re.sub(r"\*(.+?)\*", r"<i>\1</i>", underlined))
+
+
 def check_answer(user_input, answer):
     # Returns (is_correct, missed_one_letter)
     typed, expected = functions.fold_accents(user_input), functions.fold_accents(answer)
@@ -245,6 +307,17 @@ def hash_password(password):
     return generate_password_hash(password, method="pbkdf2:sha256", salt_length=8)
 
 
+def home_page_lessons(lang):
+    new_lessons = [
+        (lesson["title"], url_for("lesson", level="a1", number=lesson["number"]))
+        for lesson in LESSONS[lang].get("A1", [])[:HOME_PAGE_LESSONS]
+    ]
+    return new_lessons or [
+        (format(topic), url_for("lesson_for_topic", topic=topic))
+        for topic in LANGUAGES[lang]["lessons"]
+    ]
+
+
 @app.route("/")
 def index():
     lang = get_lang()
@@ -255,24 +328,67 @@ def index():
         "index.html",
         current_user=current_user,
         topics=TOPICS,
-        lessons_list=config["lessons"],
+        lessons_list=home_page_lessons(lang),
         story_count=len(STORIES[lang]),
         story_levels=stories.LEVELS,
         random_city=random.choice(config["cities"]),
+        word_lists=user_word_lists(),
     )
 
 
 @app.route("/vocabulary_topics")
 @language_required
 def vocabulary_topics():
-    return render_template("vocabulary_topics.html", current_user=current_user)
+    return render_template(
+        "vocabulary_topics.html",
+        word_lists=user_word_lists(),
+        max_list_name_length=MAX_LIST_NAME_LENGTH,
+        current_user=current_user,
+    )
+
+
+@app.route("/cheat_sheets")
+@language_required
+def cheat_sheets():
+    return render_template(
+        "cheat_sheets.html", sheet=CHEAT_SHEETS.get(get_lang()), current_user=current_user
+    )
 
 
 @app.route("/lessons")
 @language_required
 def lessons():
+    lang = get_lang()
     return render_template(
-        "lessons.html", lessons=LANGUAGES[get_lang()]["lessons"], current_user=current_user
+        "lessons.html",
+        levels=stories.LEVELS,
+        lessons_by_level=LESSONS[lang],
+        older=LANGUAGES[lang]["lessons"],
+        current_user=current_user,
+    )
+
+
+@app.route("/lessons/<level>/<int:number>")
+@language_required
+def lesson(level, number):
+    level = level.upper()
+    level_lessons = LESSONS[get_lang()].get(level, [])
+    position = next(
+        (index for index, item in enumerate(level_lessons) if item["number"] == number), None
+    )
+    if position is None:
+        abort(404)
+    return render_template(
+        "lesson.html",
+        lesson=level_lessons[position],
+        level=level,
+        lesson_sections=[
+            (key, label.format(language=get_lang().capitalize()))
+            for key, label in grammar_lessons.SECTIONS
+        ],
+        previous=level_lessons[position - 1] if position else None,
+        following=level_lessons[position + 1] if position + 1 < len(level_lessons) else None,
+        current_user=current_user,
     )
 
 
@@ -301,9 +417,134 @@ def story(slug):
     lang_stories = STORIES[get_lang()]
     if slug not in lang_stories:
         abort(404)
+    lists_for_page = [
+        {
+            "id": word_list.id,
+            "name": word_list.name,
+            "keys": [entry.word_key for entry in word_list.entries],
+        }
+        for word_list in user_word_lists()
+    ]
     return render_template(
-        "story.html", story=lang_stories[slug], current_user=current_user
+        "story.html",
+        story=lang_stories[slug],
+        word_lists=lists_for_page,
+        max_list_name_length=MAX_LIST_NAME_LENGTH,
+        current_user=current_user,
     )
+
+
+def user_word_lists():
+    if not current_user.is_authenticated:
+        return []
+    return (
+        WordList.query.filter_by(user_id=current_user.id, language=get_lang())
+        .order_by(WordList.id)
+        .all()
+    )
+
+
+def owned_word_list(list_id):
+    return WordList.query.filter_by(id=list_id, user_id=current_user.id).first_or_404()
+
+
+def new_word_list(raw_name):
+    # Returns (word_list, error). The caller commits the new list.
+    name = " ".join(raw_name.split())
+    if not name:
+        return None, "The name needs at least one character."
+    if len(name) > MAX_LIST_NAME_LENGTH:
+        return None, f"The name can have at most {MAX_LIST_NAME_LENGTH} characters."
+    if any(word_list.name.casefold() == name.casefold() for word_list in user_word_lists()):
+        return None, "You already have a list with that name."
+    word_list = WordList(user_id=current_user.id, language=get_lang(), name=name)
+    db.session.add(word_list)
+    return word_list, None
+
+
+@app.route("/word_lists", methods=["POST"])
+@logged_in
+def create_word_list():
+    _, error = new_word_list(request.form.get("name", ""))
+    if error:
+        flash(error)
+        return redirect(url_for("vocabulary_topics"))
+    try:
+        db.session.commit()
+    except IntegrityError:
+        db.session.rollback()
+        flash("You already have a list with that name.")
+    return redirect(url_for("vocabulary_topics"))
+
+
+@app.route("/word_lists/<int:list_id>")
+@logged_in
+def word_list(list_id):
+    return render_template(
+        "word_list.html", word_list=owned_word_list(list_id), current_user=current_user
+    )
+
+
+@app.route("/word_lists/<int:list_id>/delete", methods=["POST"])
+@logged_in
+def delete_word_list(list_id):
+    db.session.delete(owned_word_list(list_id))
+    db.session.commit()
+    return redirect(url_for("vocabulary_topics"))
+
+
+@app.route("/word_lists/<int:list_id>/remove/<int:entry_id>", methods=["POST"])
+@logged_in
+def remove_list_word(list_id, entry_id):
+    target = owned_word_list(list_id)
+    entry = next((entry for entry in target.entries if entry.id == entry_id), None)
+    if entry is None:
+        abort(404)
+    target.entries.remove(entry)
+    db.session.commit()
+    return redirect(url_for("word_list", list_id=list_id))
+
+
+@app.route("/word_lists/add_word", methods=["POST"])
+@logged_in
+def add_word_to_list():
+    # Adds a word from a story to an existing list or to a new one (when "name" is sent)
+    lang = get_lang()
+    story_data = STORIES[lang].get(request.form.get("story"))
+    key = request.form.get("key")
+    part = story_data["vocabulary"].get(key) if story_data else None
+    if part is None:
+        return jsonify(error="That word could not be found."), 404
+
+    if "name" in request.form:
+        target, error = new_word_list(request.form["name"])
+        if error:
+            return jsonify(error=error), 400
+    else:
+        target = WordList.query.filter_by(
+            id=request.form.get("list_id", type=int),
+            user_id=current_user.id,
+            language=lang,
+        ).first()
+        if target is None:
+            return jsonify(error="That list no longer exists."), 404
+
+    if all(entry.word_key != key for entry in target.entries):
+        has_other_base_form = part["lemma"].casefold() != part["saved"].casefold()
+        target.entries.append(
+            WordListEntry(
+                word_key=key,
+                word=part["saved"],
+                lemma=part["lemma"] if has_other_base_form else "",
+                meaning=part["saved_meaning"],
+            )
+        )
+    try:
+        db.session.commit()
+    except IntegrityError:
+        db.session.rollback()
+        return jsonify(error="That list has just changed. Please try again."), 409
+    return jsonify(id=target.id, name=target.name)
 
 
 QUIZ_LENGTHS = [5, 10, 20, 50, 100, 200]
@@ -318,11 +559,12 @@ def clean_quiz_length(value):
     return value if value in QUIZ_LENGTHS else DEFAULT_QUIZ_LENGTH
 
 
-def start_quiz(kind, length, topic=None):
+def start_quiz(kind, length, topic=None, title=None):
     session["quiz"] = {
         "kind": kind,
         "lang": get_lang(),
         "topic": topic,
+        "title": title,
         "total": length,
         "done": 0,
         "first_try": 0,
@@ -366,6 +608,8 @@ def record_answer(quiz, is_correct):
 def setup_url(quiz):
     if quiz["kind"] == "conjugation":
         return url_for("conjugation_drill")
+    if quiz["kind"] == "word_list":
+        return url_for("word_list_quiz", list_id=quiz["topic"])
     return url_for("vocabulary_for_topic", topic=quiz["topic"])
 
 
@@ -520,9 +764,9 @@ def conjugation_question_args(question):
     )
 
 
-def pick_word(lang, topic):
-    words = VOCABULARY[lang][topic]
-    row = random.randrange(len(words))
+def pick_word(lang, topic, words, previous=None):
+    # Short lists would otherwise ask the same word twice in a row very often
+    row = random.choice([row for row in range(len(words)) if row != previous] or [previous])
     session["word_drill"] = {"lang": lang, "topic": topic, "row": row}
     return words[row]
 
@@ -536,61 +780,63 @@ def word_question_args(lang, topic, word):
             if image
             else None
         ),
-        audio_url=url_for(
-            "static", filename=f"audio/{lang}/vocabulary/{word['id']}.mp3"
+        audio_url=(
+            url_for("static", filename=f"audio/{lang}/vocabulary/{word['id']}.mp3")
+            if word["id"]
+            else None
         ),
     )
 
 
-@app.route("/vocabulary_for_topic/<topic>", methods=["GET", "POST"])
-@language_required
-def vocabulary_for_topic(topic):
-    # The start page of a vocabulary quiz
-    if topic not in TOPICS:
-        flash("Unknown topic: " + topic)
-        return redirect(url_for("vocabulary_topics"))
+def check_word(user_input, word):
+    # Returns (is_correct, missed_one_letter)
+    accepted = word.get("accepted")
+    if accepted is None:
+        return check_answer(user_input, word["foreign"])
+    # List words keep the capital they had in the sentence, so capitals don't count
+    results = [check_answer(user_input.casefold(), answer.casefold()) for answer in accepted]
+    is_correct = any(correct for correct, _ in results)
+    return is_correct, not is_correct and any(missed for _, missed in results)
 
+
+def word_setup_page(kind, topic, title, hint, practice_url, back_url, quiz_title=None):
+    # The start page of a vocabulary quiz
     if request.method == "POST":
         length = clean_quiz_length(request.form.get("length"))
         session["vocabulary_length"] = length
         session.permanent = True
         session.pop("word_drill", None)
-        start_quiz("vocabulary", length, topic)
-        return redirect(url_for("vocabulary_practice", topic=topic))
+        start_quiz(kind, length, topic, quiz_title)
+        return redirect(practice_url)
 
     return render_template(
         "vocabulary_setup.html",
-        topic=topic,
+        title=title,
+        hint=hint,
+        back_url=back_url,
         quiz_lengths=QUIZ_LENGTHS,
         selected_length=clean_quiz_length(session.get("vocabulary_length")),
         current_user=current_user,
     )
 
 
-@app.route("/vocabulary_for_topic/<topic>/practice", methods=["GET", "POST"])
-@language_required
-def vocabulary_practice(topic):
+def word_practice_page(kind, topic, words, setup_page):
     # GET renders the page, POST checks an answer and returns JSON
     lang = get_lang()
-    if topic not in TOPICS:
-        return leave_drill(url_for("vocabulary_topics"))
-    quiz = current_quiz("vocabulary", topic)
+    quiz = current_quiz(kind, topic)
     if quiz is None:
-        return leave_drill(url_for("vocabulary_for_topic", topic=topic))
+        return leave_drill(setup_page)
     if quiz_finished(quiz):
         return leave_drill(url_for("quiz_report"))
 
-    words = VOCABULARY[lang][topic]
     # Only the row number is kept in the session cookie, never the answer
     row = drill_row(session.get("word_drill"), len(words), lang=lang, topic=topic)
     if request.method == "POST":
         if row is None:
             # The question expired, so just show a new one
-            return jsonify(next=word_question_args(lang, topic, pick_word(lang, topic)))
+            return jsonify(next=word_question_args(lang, topic, pick_word(lang, topic, words)))
         word = words[row]
-        word_is_correct, missed_one_letter = check_answer(
-            request.form.get("user_input", ""), word["foreign"]
-        )
+        word_is_correct, missed_one_letter = check_word(request.form.get("user_input", ""), word)
         if missed_one_letter:
             record_answer(quiz, False)
             return jsonify(message="You missed one letter.")
@@ -602,17 +848,106 @@ def vocabulary_practice(topic):
             **record_answer(quiz, word_is_correct),
         )
         if word_is_correct and "finished" not in result:
-            result["next"] = word_question_args(lang, topic, pick_word(lang, topic))
+            result["next"] = word_question_args(lang, topic, pick_word(lang, topic, words, row))
         return jsonify(result)
 
     # A reload keeps the current word, so it can't be skipped
-    word = words[row] if row is not None else pick_word(lang, topic)
+    word = words[row] if row is not None else pick_word(lang, topic, words)
     return render_template(
         "vocabulary_for_topic.html",
-        topic=topic,
         **word_question_args(lang, topic, word),
         quiz=quiz,
         current_user=current_user,
+    )
+
+
+@app.route("/vocabulary_for_topic/<topic>", methods=["GET", "POST"])
+@language_required
+def vocabulary_for_topic(topic):
+    if topic not in TOPICS:
+        flash("Unknown topic: " + topic)
+        return redirect(url_for("vocabulary_topics"))
+    return word_setup_page(
+        "vocabulary",
+        topic,
+        format(topic),
+        f"Translate each word into {get_lang().capitalize()}, together with its definite article.",
+        url_for("vocabulary_practice", topic=topic),
+        url_for("vocabulary_topics"),
+    )
+
+
+@app.route("/vocabulary_for_topic/<topic>/practice", methods=["GET", "POST"])
+@language_required
+def vocabulary_practice(topic):
+    if topic not in TOPICS:
+        return leave_drill(url_for("vocabulary_topics"))
+    return word_practice_page(
+        "vocabulary",
+        topic,
+        VOCABULARY[get_lang()][topic],
+        url_for("vocabulary_for_topic", topic=topic),
+    )
+
+
+def practice_list(list_id):
+    # A list can only be practised while its language is the one being learned
+    return WordList.query.filter_by(
+        id=list_id, user_id=current_user.id, language=get_lang()
+    ).first()
+
+
+def list_quiz_words(word_list):
+    # Words with the same translation, like "il" and "la", are all accepted
+    same_meaning = {}
+    for entry in word_list.entries:
+        same_meaning.setdefault(entry.meaning.casefold(), []).append(entry.word)
+    return [
+        {
+            "foreign": entry.word,
+            "english": entry.meaning,
+            "id": None,
+            "image": None,
+            "gender": word_gender(word_list.language, entry.word),
+            "accepted": same_meaning[entry.meaning.casefold()],
+        }
+        for entry in word_list.entries
+    ]
+
+
+@app.route("/word_lists/<int:list_id>/quiz", methods=["GET", "POST"])
+@logged_in
+def word_list_quiz(list_id):
+    target = practice_list(list_id)
+    if target is None:
+        return redirect(url_for("vocabulary_topics"))
+    if not target.entries:
+        flash("Add some words to this list before starting a quiz.")
+        return redirect(url_for("word_list", list_id=list_id))
+    return word_setup_page(
+        "word_list",
+        list_id,
+        target.name,
+        f"Translate each word into {get_lang().capitalize()}. Give every noun with its definite article.",
+        url_for("word_list_practice", list_id=list_id),
+        url_for("word_list", list_id=list_id),
+        target.name,
+    )
+
+
+@app.route("/word_lists/<int:list_id>/quiz/practice", methods=["GET", "POST"])
+@logged_in
+def word_list_practice(list_id):
+    target = practice_list(list_id)
+    if target is None:
+        return leave_drill(url_for("vocabulary_topics"))
+    if not target.entries:
+        return leave_drill(url_for("word_list", list_id=list_id))
+    return word_practice_page(
+        "word_list",
+        list_id,
+        list_quiz_words(target),
+        url_for("word_list_quiz", list_id=list_id),
     )
 
 

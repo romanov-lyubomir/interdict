@@ -1,0 +1,424 @@
+{
+  "title": "Dove {ip:vai}? Perché non {ip:resti}?",
+  "translation": "Where are you going? Why don't you stay?",
+  "topics": "Questions, negation with non, the linking words e, ma, o, perché, quindi",
+  "grammar": {
+    "explain": [
+      "A yes/no question has the same word order as a statement. Only the voice rises, and in writing you add a question mark: *{ip:Parli} italiano?*",
+      {
+        "table": {
+          "head": [
+            "Question word",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "chi",
+              "who",
+              "Chi {ip:è}?"
+            ],
+            [
+              "che cosa",
+              "what",
+              "Che cosa {ip:fai}?"
+            ],
+            [
+              "dove",
+              "where",
+              "Dove {ip:abiti}?"
+            ],
+            [
+              "quando",
+              "when",
+              "Quando {ip:parti}?"
+            ],
+            [
+              "come",
+              "how",
+              "Come ti {ip:chiami}?"
+            ],
+            [
+              "perché",
+              "why",
+              "Perché {ip:studi} italiano?"
+            ],
+            [
+              "quanto",
+              "how much",
+              "Quanto {ip:costa}?"
+            ]
+          ]
+        }
+      },
+      "*Quanto* agrees with the noun that follows: *quanti anni, quante persone*. And *perché* means both *why* and *because*.",
+      "To make a sentence negative, put *non* directly before the verb: *Non {ip:parlo} inglese. Marco non {ip:lavora}.*",
+      {
+        "table": {
+          "head": [
+            "Linking word",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "e",
+              "and",
+              "Luca e Anna"
+            ],
+            [
+              "ma",
+              "but",
+              "{ip:Sono} stanco, ma {ip:lavoro}."
+            ],
+            [
+              "o",
+              "or",
+              "Caffè o tè?"
+            ],
+            [
+              "perché",
+              "because",
+              "{ip:Resto} a casa perché {ip:piove}."
+            ],
+            [
+              "quindi",
+              "so, therefore",
+              "{ip:Piove}, quindi {ip:resto} a casa."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right question word.",
+        "questions": [
+          {
+            "q": "___ {ip:abiti}? — A Roma.",
+            "options": [
+              "Chi",
+              "*Dove",
+              "Quando"
+            ]
+          },
+          {
+            "q": "___ {ip:è}? — {ip:È} Marco.",
+            "options": [
+              "*Chi",
+              "Come",
+              "Dove"
+            ]
+          },
+          {
+            "q": "___ {ip:parti}? — Domani.",
+            "options": [
+              "Perché",
+              "Dove",
+              "*Quando"
+            ]
+          },
+          {
+            "q": "___ {ip:costa}? — Due euro.",
+            "options": [
+              "Come",
+              "*Quanto",
+              "Chi"
+            ]
+          },
+          {
+            "q": "___ ti {ip:chiami}? — Anna.",
+            "options": [
+              "*Come",
+              "Che cosa",
+              "Dove"
+            ]
+          },
+          {
+            "q": "___ {ip:fai}? — {ip:Leggo}.",
+            "options": [
+              "Chi",
+              "*Che cosa",
+              "Quanto"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with e, ma, o, perché or quindi.",
+        "questions": [
+          "{ip:Vuoi} un caffè [[o]] un tè?",
+          "{ip:Sono} stanco, [[ma]] {ip:vado} al lavoro.",
+          "{ip:Resto} a casa [[perché]] {ip:sono} malato.",
+          "{ip:Piove}, [[quindi]] {ip:prendo} l'autobus.",
+          "Anna [[e]] Paolo {ip:sono} amici."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Make each sentence negative.",
+        "questions": [
+          {
+            "q": "{ip:Parlo} inglese.",
+            "a": [
+              "Non parlo inglese."
+            ]
+          },
+          {
+            "q": "Marco {ip:lavora} oggi.",
+            "a": [
+              "Marco non lavora oggi."
+            ]
+          },
+          {
+            "q": "{ip:Abitiamo} a Roma.",
+            "a": [
+              "Non abitiamo a Roma."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "restare",
+        "to stay"
+      ],
+      [
+        "costare",
+        "to cost"
+      ],
+      [
+        "venire",
+        "to come"
+      ],
+      [
+        "il treno",
+        "train"
+      ],
+      [
+        "l'autobus",
+        "bus"
+      ],
+      [
+        "la stazione",
+        "station"
+      ],
+      [
+        "il biglietto",
+        "ticket"
+      ],
+      [
+        "stanco",
+        "tired"
+      ],
+      [
+        "malato",
+        "ill"
+      ],
+      [
+        "contento",
+        "happy"
+      ],
+      [
+        "adesso",
+        "now"
+      ],
+      [
+        "purtroppo",
+        "unfortunately"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "restare",
+            "to stay"
+          ],
+          [
+            "il treno",
+            "train"
+          ],
+          [
+            "la stazione",
+            "station"
+          ],
+          [
+            "il biglietto",
+            "ticket"
+          ],
+          [
+            "stanco",
+            "tired"
+          ],
+          [
+            "adesso",
+            "now"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il [[biglietto]] {ip:costa} dieci euro. (ticket)",
+          "Marco {ip:è} [[malato]]. (ill)",
+          "{ip:Vado} alla [[stazione]]. (station)",
+          "[[Purtroppo]] non {ip:posso} venire. (unfortunately)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Paolo {ip:è} alla stazione. {ip:Va} a Firenze, ma il treno non {ip:arriva}. {ip:Chiede} a un signore: «{imv:Scusi}, quando {ip:parte} il treno per Firenze?» «Non lo {ip:so}. Perché non {ip:chiede} all'ufficio?»",
+      "Paolo {ip:va} all'ufficio e {ip:chiede}: «Quanto {ip:costa} un biglietto per l'autobus?» «Dodici euro.» Il treno {ip:è} in ritardo, quindi Paolo {ip:prende} l'autobus. Non {ip:è} contento, perché l'autobus {ip:è} lento."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Paolo is going to Florence.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The man knows when the train leaves.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "A bus ticket costs twelve euros.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Paolo is happy to take the bus.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Anna",
+        "Dove {ip:vai}?"
+      ],
+      [
+        "Marco",
+        "{ip:Vado} a casa."
+      ],
+      [
+        "Anna",
+        "Perché? {ip:È} presto! Perché non {ip:resti}?"
+      ],
+      [
+        "Marco",
+        "Perché {ip:sono} stanco e domani lavoro."
+      ],
+      [
+        "Anna",
+        "Quando {ip:finisci} domani?"
+      ],
+      [
+        "Marco",
+        "Alle sei. {ip:Vieni} al bar o {ip:resti} a casa?"
+      ],
+      [
+        "Anna",
+        "{ip:Vengo}!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Dove]] {ip:vai}?",
+          "Perché non [[resti#ip]]?",
+          "[[Quando]] {ip:finisci} domani?",
+          "{ip:Vieni} al bar [[o]] {ip:resti} a casa?"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why is Marco going home?",
+        "questions": [
+          {
+            "q": "Marco is going home because…",
+            "options": [
+              "he is ill",
+              "*he is tired and works tomorrow",
+              "it is late"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Where are you going? (informal)",
+            "a": [
+              "Dove vai?",
+              "Dove vai tu?"
+            ]
+          },
+          {
+            "q": "Why are you staying at home? (informal)",
+            "a": [
+              "Perché resti a casa?"
+            ]
+          },
+          {
+            "q": "How much does it cost?",
+            "a": [
+              "Quanto costa?"
+            ]
+          },
+          {
+            "q": "I don't speak English.",
+            "a": [
+              "Non parlo inglese.",
+              "Io non parlo inglese."
+            ]
+          },
+          {
+            "q": "I am tired, but I'm working.",
+            "a": [
+              "Sono stanco, ma lavoro.",
+              "Sono stanca, ma lavoro."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

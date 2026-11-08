@@ -1,0 +1,389 @@
+{
+  "title": "{im:Temevo} che, se {cst:fosse arrivato}, {cpa:avrebbe capito} che {tp:avevo mentito}",
+  "translation": "I was afraid that, if he arrived, he would realise I had lied",
+  "topics": "The sequence of tenses in sentences with several levels of dependence",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Every verb has an anchor"
+      },
+      "In a sentence with several levels, each verb depends on the one directly above it. To choose its tense, find that verb and ask how the action relates to it.",
+      {
+        "table": {
+          "head": [
+            "Verb",
+            "Depends on",
+            "Relation",
+            "Form"
+          ],
+          "rows": [
+            [
+              "{im:Temevo}",
+              "the moment of narration",
+              "past",
+              "imperfetto"
+            ],
+            [
+              "se {cst:fosse arrivato}",
+              "{im:Temevo}",
+              "future, a hypothesis",
+              "congiuntivo trapassato"
+            ],
+            [
+              "{cpa:avrebbe capito}",
+              "{im:Temevo}",
+              "future from the past",
+              "condizionale passato"
+            ],
+            [
+              "che {tp:avevo mentito}",
+              "{cpa:avrebbe capito}",
+              "before",
+              "trapassato prossimo"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Future within a future in the past"
+      },
+      "When something is future from a past viewpoint and comes before another such future, both can go in the *condizionale passato*, and Italian often simplifies them with the *imperfetto* or the *congiuntivo*: *{im:Sapevo} che, quando {cpa:avresti letto} la lettera, {cpa:sarei} già {cpa:partito}.*",
+      {
+        "h": "Point of view decides"
+      },
+      "The same fact can be reported from different moments in time.",
+      {
+        "table": {
+          "head": [
+            "Sentence",
+            "Point of view"
+          ],
+          "rows": [
+            [
+              "{pr:Disse} che {cpa:sarebbe partito} domani.",
+              "Reporter's now: domani is still to come."
+            ],
+            [
+              "{pr:Disse} che {fs:partirà} domani.",
+              "Highlights that it's still valid."
+            ],
+            [
+              "{pr:Disse} che {cpa:sarebbe partito} il giorno dopo.",
+              "Entirely inside the past."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Probability inside the chain"
+      },
+      "Dependent verbs can also carry a shade of probability, using the future or the conditional: *Mi {ip:chiedo} dove {fa:sarà andato}* expresses wondering now, *Mi {im:chiedevo} dove {cpa:sarebbe andato}* refers to the past, and *Mi {im:chiedevo} dove {cst:fosse andato}* looks at a past event.",
+      {
+        "h": "A practical method for long sentences"
+      },
+      "Mark each verb, draw an arrow to the verb it depends on, then note whether it's before, during or after. If a sentence needs more than three levels, consider splitting it. Clarity outranks virtuosity."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Find the anchor of each verb, and complete.",
+        "questions": [
+          "{im:Temevo} che, se [[fosse arrivato#cst]], {cpa:avrebbe capito} che [[avevo mentito#tp]]. (arrivare; mentire)",
+          "{im:Sapevo} che, quando [[avresti letto#cpa]] la lettera, {cpa:sarei} già {cpa:partito}. (leggere)",
+          "{im:Credevo} che, una volta finito il lavoro, lui [[sarebbe tornato#cpa]]. (tornare)",
+          "Mi {pr:disse} che {im:pensava} che tu [[fossi partita#cst]] il giorno prima. (partire)",
+          "{ip:Spero} che, quando [[avrai finito#fa]], tu {csp:possa} riposarti. (finire)",
+          "{im:Ero} certo che [[avrebbe negato#cpa]] di aver [[parlato]]. (negare; parlare)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the sentence that matches the point of view.",
+        "questions": [
+          {
+            "q": "He's still expected tomorrow, and I stress that.",
+            "options": [
+              "*{pp:Ha detto} che {fs:arriverà} domani.",
+              "{pr:Disse} che {cpa:sarebbe arrivato} il giorno dopo."
+            ]
+          },
+          {
+            "q": "In a novel set in 1920.",
+            "options": [
+              "{pr:Disse} che {fs:arriverà} domani.",
+              "*{pr:Disse} che {cpa:sarebbe arrivato} il giorno dopo."
+            ]
+          },
+          {
+            "q": "I'm wondering now about something in the past.",
+            "options": [
+              "*Mi {ip:chiedo} dove {fa:sarà andato}.",
+              "Mi {im:chiedevo} dove {csi:andasse}."
+            ]
+          },
+          {
+            "q": "I was wondering then about something earlier.",
+            "options": [
+              "Mi {ip:chiedo} dove {csa:sia andato}.",
+              "*Mi {im:chiedevo} dove {cst:fosse andato}."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Split or simplify each long sentence into two sentences, keeping the meaning. Use the words given.",
+        "questions": [
+          {
+            "q": "{im:Temevo} che {cpa:avrebbe capito} che {tp:avevo mentito}. ({tp:Avevo mentito}. {im:Temevo}…)",
+            "a": [
+              "Avevo mentito. Temevo che l'avrebbe capito.",
+              "Avevo mentito. Temevo che lo capisse."
+            ]
+          },
+          {
+            "q": "{im:Sapevo} che {cpa:sarebbe partito} dopo aver firmato. ({cpa:Avrebbe firmato}. Poi…)",
+            "a": [
+              "Avrebbe firmato. Poi sarebbe partito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il sotterfugio",
+        "subterfuge"
+      ],
+      [
+        "l'inganno",
+        "deception"
+      ],
+      [
+        "il sospetto",
+        "suspicion"
+      ],
+      [
+        "l'attesa",
+        "wait"
+      ],
+      [
+        "il presagio",
+        "foreboding"
+      ],
+      [
+        "presagire",
+        "to foretell"
+      ],
+      [
+        "paventare",
+        "to dread"
+      ],
+      [
+        "svelare",
+        "to reveal"
+      ],
+      [
+        "ingannare",
+        "to deceive"
+      ],
+      [
+        "celare",
+        "to hide"
+      ],
+      [
+        "ignaro",
+        "unaware"
+      ],
+      [
+        "di lì a poco",
+        "shortly afterwards"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il sotterfugio",
+            "subterfuge"
+          ],
+          [
+            "il presagio",
+            "foreboding"
+          ],
+          [
+            "paventare",
+            "to dread"
+          ],
+          [
+            "celare",
+            "to hide"
+          ],
+          [
+            "ignaro",
+            "unaware"
+          ],
+          [
+            "di lì a poco",
+            "shortly afterwards"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Non {ip:vuole} [[svelare]] il segreto. (to reveal)",
+          "{pp:È stato} vittima di un [[inganno]]. (deception)",
+          "Nell'[[attesa]], {pr:lesse} un libro. (wait)",
+          "{im:Avevo} un brutto [[presagio]]. (foreboding)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "{im:Paventavo} che, se mio fratello {cst:avesse aperto} quel cassetto, {cpa:avrebbe scoperto} che {tp:avevo venduto} l'orologio di nostro padre. Mi {im:ero} illuso che, una volta trovato un compratore discreto, la cosa {cpa:sarebbe rimasta} segreta e che, quando lui {cst:fosse tornato}, {cpa:avrei} già {cpa:ricomprato} l'oggetto.",
+      "Ignaro di tutto, egli mi {pr:scrisse} che {cpa:sarebbe arrivato} di lì a poco e che {im:sperava} che {cst:avessi conservato} i ricordi di famiglia. {im:Sapevo} che, appena {cst:avesse visto} il vuoto nell'astuccio, {cpa:avrebbe capito}. Quella sera mi {pr:chiesi} quanto tempo {cpa:sarebbe durata} ancora la mia menzogna."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The narrator had sold his father's watch.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The brother knew about it when he wrote.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The narrator hoped to buy the watch back.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "«appena avesse visto» refers to something that had already happened.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Ines",
+        "{im:Temevo} che, se ti {cst:avessi chiamato}, {cpa:avresti capito} tutto."
+      ],
+      [
+        "Dario",
+        "{im:Pensavi} che non me ne {cst:fossi accorto}?"
+      ],
+      [
+        "Ines",
+        "{im:Speravo} che, quando {cst:avessi saputo}, mi {cpa:avresti perdonata}."
+      ],
+      [
+        "Dario",
+        "Mi {im:chiedevo} solo perché non me l'{cst:avessi detto} prima."
+      ],
+      [
+        "Ines",
+        "{im:Credevo} che ti {cpa:saresti arrabbiato}."
+      ],
+      [
+        "Dario",
+        "E {im:avevi} ragione."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Se ti [[avessi#cst]] {cst:chiamato}, {cpa:avresti capito} tutto.",
+          "{im:Pensavi} che non me ne [[fossi#cst]] {cst:accorto}?",
+          "Mi {im:chiedevo} solo perché non me l'[[avessi#cst]] {cst:detto} prima.",
+          "{im:Credevo} che ti [[saresti#cpa]] {cpa:arrabbiato}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How does the conversation end?",
+        "questions": [
+          {
+            "q": "Dario…",
+            "options": [
+              "forgives her at once",
+              "*admits that he is angry",
+              "didn't know anything"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I was afraid that, if he arrived, he would realise I had lied.",
+            "a": [
+              "Temevo che, se fosse arrivato, avrebbe capito che avevo mentito."
+            ]
+          },
+          {
+            "q": "I knew that, by the time you read the letter, I would already have left. (a man speaking, informal)",
+            "a": [
+              "Sapevo che, quando avresti letto la lettera, sarei già partito."
+            ]
+          },
+          {
+            "q": "I wondered where he had gone.",
+            "a": [
+              "Mi chiedevo dove fosse andato.",
+              "Mi chiesi dove fosse andato."
+            ]
+          },
+          {
+            "q": "He told me he thought you had left. (informal, to a woman)",
+            "a": [
+              "Mi ha detto che pensava che fossi partita.",
+              "Mi disse che pensava che fossi partita."
+            ]
+          },
+          {
+            "q": "I hope that, when you've finished, you can rest. (informal)",
+            "a": [
+              "Spero che, quando avrai finito, tu possa riposarti.",
+              "Spero che, quando avrai finito, tu possa riposare."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

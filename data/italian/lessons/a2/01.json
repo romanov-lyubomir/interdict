@@ -1,0 +1,473 @@
+{
+  "title": "{pp:Siamo arrivati} tardi e poi {pp:abbiamo visto} Maria",
+  "translation": "We arrived late and then we saw Maria",
+  "topics": "Choosing avere or essere, agreement of the participle, words for the order of events",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Choosing the auxiliary"
+      },
+      "Ask one question: can the verb take a direct object, that is, can you ask *what?* or *whom?* after it? If yes, the auxiliary is *avere*: *{pp:Ho visto} Maria* (whom? Maria).",
+      "If not, and the verb describes movement, staying or a change of state, the auxiliary is *essere*: *{pp:Siamo arrivati} tardi*. You cannot *arrive something*.",
+      {
+        "table": {
+          "head": [
+            "Kind of verb",
+            "Auxiliary",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Takes a direct object",
+              "avere",
+              "vedere, mangiare, comprare, leggere"
+            ],
+            [
+              "Movement",
+              "essere",
+              "andare, venire, arrivare, partire, tornare, entrare, uscire"
+            ],
+            [
+              "Staying",
+              "essere",
+              "restare, rimanere, stare, essere"
+            ],
+            [
+              "Change of state",
+              "essere",
+              "nascere, morire, diventare"
+            ]
+          ]
+        }
+      },
+      "A few verbs without an object still take *avere*, and you learn them as exceptions: *dormire, lavorare, telefonare, camminare, viaggiare*.",
+      {
+        "h": "Agreement of the participle"
+      },
+      "With *essere*, the participle behaves like an adjective and agrees with the subject. A mixed group is masculine. With *avere*, it never changes.",
+      {
+        "table": {
+          "head": [
+            "Subject",
+            "With essere",
+            "With avere"
+          ],
+          "rows": [
+            [
+              "Marco",
+              "{pp:è arrivat**o**}",
+              "{pp:ha mangiato}"
+            ],
+            [
+              "Anna",
+              "{pp:è arrivat**a**}",
+              "{pp:ha mangiato}"
+            ],
+            [
+              "Marco e Luca",
+              "{pp:sono arrivat**i**}",
+              "{pp:hanno mangiato}"
+            ],
+            [
+              "Anna e Sara",
+              "{pp:sono arrivat**e**}",
+              "{pp:hanno mangiato}"
+            ],
+            [
+              "Marco e Anna",
+              "{pp:sono arrivat**i**}",
+              "{pp:hanno mangiato}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Irregular participles come in families"
+      },
+      {
+        "table": {
+          "head": [
+            "Ending",
+            "Verbs"
+          ],
+          "rows": [
+            [
+              "-so",
+              "prendere → preso, chiudere → chiuso, decidere → deciso, perdere → perso, mettere → messo"
+            ],
+            [
+              "-{ip:sto}",
+              "vedere → visto, chiedere → chiesto, rispondere → risposto, rimanere → rimasto"
+            ],
+            [
+              "-tto",
+              "fare → fatto, dire → detto, leggere → letto, scrivere → scritto"
+            ],
+            [
+              "-rto",
+              "aprire → aperto, morire → morto"
+            ],
+            [
+              "Others",
+              "venire → venuto, nascere → nato, bere → bevuto, essere → stato"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Putting events in order"
+      },
+      "*Prima*, *poi* and *dopo* stand alone. *Durante* needs a noun, while *mentre* and *appena* need a verb.",
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "prima",
+              "first, before",
+              "Prima {pp:ho mangiato}."
+            ],
+            [
+              "poi",
+              "then",
+              "Poi {pp:sono uscito}."
+            ],
+            [
+              "dopo",
+              "afterwards",
+              "Dopo {pp:ho dormito}."
+            ],
+            [
+              "durante",
+              "during + noun",
+              "Durante il film {pp:ho dormito}."
+            ],
+            [
+              "mentre",
+              "while + verb",
+              "Mentre {ip:mangio}, {ip:leggo}."
+            ],
+            [
+              "appena",
+              "as soon as + verb",
+              "Appena arrivo, ti {ip:chiamo}."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose avere or essere.",
+        "questions": [
+          {
+            "q": "Ieri ___ visto Maria.",
+            "options": [
+              "*{ip:ho}",
+              "{ip:sono}"
+            ]
+          },
+          {
+            "q": "Il treno ___ partito alle otto.",
+            "options": [
+              "{ip:ha}",
+              "*{ip:è}"
+            ]
+          },
+          {
+            "q": "Luca ___ dormito fino a mezzogiorno.",
+            "options": [
+              "*{ip:ha}",
+              "{ip:è}"
+            ]
+          },
+          {
+            "q": "Mia nonna ___ nata a Bari.",
+            "options": [
+              "{ip:ha}",
+              "*{ip:è}"
+            ]
+          },
+          {
+            "q": "Noi ___ rimasti a casa.",
+            "options": [
+              "{ip:abbiamo}",
+              "*{ip:siamo}"
+            ]
+          },
+          {
+            "q": "Voi ___ telefonato a Paolo?",
+            "options": [
+              "*{ip:avete}",
+              "{ip:siete}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the passato prossimo.",
+        "questions": [
+          "Anna [[è arrivata#pp]] tardi. (arrivare)",
+          "Io [[ho preso#pp]] il treno. (prendere)",
+          "Marco e Luca [[sono tornati#pp]] ieri. (tornare)",
+          "Tu [[hai chiuso#pp]] la porta? (chiudere)",
+          "Le ragazze [[sono uscite#pp]] alle nove. (uscire)",
+          "Noi [[abbiamo letto#pp]] il giornale. (leggere)",
+          "Che cosa [[hai detto#pp]]? (dire, tu)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with prima, poi, durante, mentre or appena.",
+        "questions": [
+          "[[Durante]] la lezione non {ip:parlo}.",
+          "[[Mentre]] {ip:cucino}, ascolto la radio.",
+          "[[Appena]] arrivo a casa, mi {ip:riposo}.",
+          "[[Prima]] {pp:ho fatto} la spesa, [[poi]] {pp:ho cucinato}."
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'appuntamento",
+        "appointment"
+      ],
+      [
+        "il ritardo",
+        "delay"
+      ],
+      [
+        "la festa",
+        "party"
+      ],
+      [
+        "la cena",
+        "dinner"
+      ],
+      [
+        "l'ospite",
+        "guest"
+      ],
+      [
+        "la sorpresa",
+        "surprise"
+      ],
+      [
+        "invitare",
+        "to invite"
+      ],
+      [
+        "decidere",
+        "to decide"
+      ],
+      [
+        "perdere",
+        "to lose, to miss"
+      ],
+      [
+        "rimanere",
+        "to remain"
+      ],
+      [
+        "diventare",
+        "to become"
+      ],
+      [
+        "tardi",
+        "late"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'appuntamento",
+            "appointment"
+          ],
+          [
+            "il ritardo",
+            "delay"
+          ],
+          [
+            "l'ospite",
+            "guest"
+          ],
+          [
+            "invitare",
+            "to invite"
+          ],
+          [
+            "perdere",
+            "to lose, to miss"
+          ],
+          [
+            "diventare",
+            "to become"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il treno {ip:è} in [[ritardo]]. (delay)",
+          "Sabato c'{ip:è} una [[festa]] a casa mia. (party)",
+          "Non {ip:posso} venire, {ip:ho} un [[appuntamento]]. (appointment)",
+          "{pp:Siamo arrivati} [[tardi]]. (late)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Sabato scorso io e Paolo {pp:siamo andati} a una festa a Torino. Prima {pp:abbiamo preso} il treno, ma {pp:è partito} in ritardo e {pp:abbiamo perso} l'autobus. {pp:Siamo arrivati} tardi e tutti {im:mangiavano} già.",
+      "Appena {pp:siamo entrati}, {pp:abbiamo visto} Maria, una vecchia amica. Durante la cena {pp:abbiamo parlato} molto. Poi Maria ci {pp:ha detto} una grande notizia: {pp:è diventata} mamma! {pp:Siamo rimasti} fino a mezzanotte e {pp:siamo tornati} in taxi."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The train left on time.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "They missed the bus.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Maria has had a baby.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "They went home by bus.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Sara",
+        "Com'{pp:è andata} la festa?"
+      ],
+      [
+        "Paolo",
+        "Bene, ma {pp:siamo arrivati} tardi."
+      ],
+      [
+        "Sara",
+        "Perché? {pp:Avete perso} il treno?"
+      ],
+      [
+        "Paolo",
+        "No, ma il treno {pp:è partito} in ritardo."
+      ],
+      [
+        "Sara",
+        "E chi {pp:avete visto}?"
+      ],
+      [
+        "Paolo",
+        "Maria! Appena {pp:siamo entrati}, l'{pp:abbiamo vista}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{pp:Siamo} [[arrivati#pp]] tardi.",
+          "{pp:Avete} [[perso#pp]] il treno?",
+          "Il treno {pp:è} [[partito#pp]] in ritardo.",
+          "[[Appena]] {pp:siamo entrati}, l'{pp:abbiamo vista}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why were they late?",
+        "questions": [
+          {
+            "q": "They were late because…",
+            "options": [
+              "they missed the train",
+              "*the train left late",
+              "they forgot the party"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "We arrived late.",
+            "a": [
+              "Siamo arrivati tardi.",
+              "Noi siamo arrivati tardi.",
+              "Siamo arrivate tardi."
+            ]
+          },
+          {
+            "q": "I saw Maria yesterday.",
+            "a": [
+              "Ho visto Maria ieri.",
+              "Ieri ho visto Maria."
+            ]
+          },
+          {
+            "q": "Anna went out at nine.",
+            "a": [
+              "Anna è uscita alle nove."
+            ]
+          },
+          {
+            "q": "First I ate, then I went out. (a man speaking)",
+            "a": [
+              "Prima ho mangiato, poi sono uscito."
+            ]
+          },
+          {
+            "q": "Did you close the door? (informal)",
+            "a": [
+              "Hai chiuso la porta?",
+              "Tu hai chiuso la porta?"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

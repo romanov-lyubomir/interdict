@@ -1,0 +1,382 @@
+{
+  "title": "Lo zaino, i libri e l'amica",
+  "translation": "The backpack, the books and the friend",
+  "topics": "Gender and number of nouns, definite and indefinite articles",
+  "grammar": {
+    "explain": [
+      "Every Italian noun is masculine or feminine. Usually the ending tells you which. Words in *-e* can be either, so learn them with their article.",
+      {
+        "table": {
+          "head": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Masculine in -o",
+              "ragazz**o**",
+              "ragazz**i**"
+            ],
+            [
+              "Feminine in -a",
+              "ragazz**a**",
+              "ragazz**e**"
+            ],
+            [
+              "Masculine or feminine in -e",
+              "il can**e**, la chiav**e**",
+              "i can**i**, le chiav**i**"
+            ]
+          ]
+        }
+      },
+      "Words ending in an accented vowel, like *città* and *caffè*, do not change in the plural: *la città, le città*.",
+      "The article depends on the gender, the number and the first letter of the next word.",
+      {
+        "table": {
+          "head": [
+            "Next word begins with",
+            "the (singular)",
+            "the (plural)",
+            "a / an"
+          ],
+          "rows": [
+            [
+              "Masculine: a consonant",
+              "**il** libro",
+              "**i** libri",
+              "**un** libro"
+            ],
+            [
+              "Masculine: s + consonant, z, ps, gn",
+              "**lo** zaino",
+              "**gli** zaini",
+              "**uno** zaino"
+            ],
+            [
+              "Masculine: a vowel",
+              "**l'**amico",
+              "**gli** amici",
+              "**un** amico"
+            ],
+            [
+              "Feminine: a consonant",
+              "**la** casa",
+              "**le** case",
+              "**una** casa"
+            ],
+            [
+              "Feminine: a vowel",
+              "**l'**amica",
+              "**le** amiche",
+              "**un'**amica"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the definite article: il, lo, l', la, i, gli or le.",
+        "questions": [
+          "[[il]] libro",
+          "[[lo]] studente",
+          "[[l']]amica",
+          "[[gli]] zaini",
+          "[[le]] case",
+          "[[i]] ragazzi",
+          "[[la]] città",
+          "[[gli]] amici"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the indefinite article.",
+        "questions": [
+          {
+            "q": "___ zaino",
+            "options": [
+              "un",
+              "*uno",
+              "una"
+            ]
+          },
+          {
+            "q": "___ amica",
+            "options": [
+              "un",
+              "una",
+              "*un'"
+            ]
+          },
+          {
+            "q": "___ amico",
+            "options": [
+              "*un",
+              "uno",
+              "un'"
+            ]
+          },
+          {
+            "q": "___ chiave (feminine)",
+            "options": [
+              "un",
+              "uno",
+              "*una"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Write the plural of each noun.",
+        "questions": [
+          "il ragazzo → i [[ragazzi]]",
+          "la ragazza → le [[ragazze]]",
+          "il cane → i [[cani]]",
+          "la città → le [[città]]",
+          "lo studente → gli [[studenti]]"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il libro",
+        "book"
+      ],
+      [
+        "lo zaino",
+        "backpack"
+      ],
+      [
+        "lo studente",
+        "student"
+      ],
+      [
+        "la penna",
+        "pen"
+      ],
+      [
+        "il quaderno",
+        "notebook"
+      ],
+      [
+        "la chiave",
+        "key"
+      ],
+      [
+        "il ragazzo",
+        "boy"
+      ],
+      [
+        "la ragazza",
+        "girl"
+      ],
+      [
+        "l'amico",
+        "friend (male)"
+      ],
+      [
+        "l'amica",
+        "friend (female)"
+      ],
+      [
+        "la scuola",
+        "school"
+      ],
+      [
+        "la casa",
+        "house"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "lo zaino",
+            "backpack"
+          ],
+          [
+            "la penna",
+            "pen"
+          ],
+          [
+            "il quaderno",
+            "notebook"
+          ],
+          [
+            "la chiave",
+            "key"
+          ],
+          [
+            "la scuola",
+            "school"
+          ],
+          [
+            "la casa",
+            "house"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Ho} un [[libro]]. (book)",
+          "{ip:Ho} una [[penna]]. (pen)",
+          "Luca {ip:è} uno [[studente]]. (student)",
+          "Anna {ip:è} un'[[amica]]. (friend)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Oggi {ip:è} il primo giorno di scuola. Nello zaino di Marta ci {ip:sono} due libri, un quaderno e una penna. A scuola ci {ip:sono} molti ragazzi e molte ragazze.",
+      "Marta {ip:ha} un'amica, Giulia, e un amico, Paolo. Giulia {ip:ha} uno zaino rosso. Paolo non {ip:ha} lo zaino: {ip:ha} solo una penna e le chiavi di casa!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Marta has two books in her backpack.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Giulia has a red backpack.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Paolo has a backpack too.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Paolo has his house keys.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Commessa",
+        "Buongiorno! {ip:Desidera}?"
+      ],
+      [
+        "Marta",
+        "Buongiorno. Un quaderno e due penne, per favore."
+      ],
+      [
+        "Commessa",
+        "Ecco il quaderno e le penne. Altro?"
+      ],
+      [
+        "Marta",
+        "Sì, uno zaino per la scuola."
+      ],
+      [
+        "Commessa",
+        "Questo?"
+      ],
+      [
+        "Marta",
+        "Sì, grazie!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with the article you read.",
+        "questions": [
+          "[[Un]] quaderno e due penne.",
+          "Ecco [[il]] quaderno e [[le]] penne.",
+          "Sì, [[uno]] zaino per [[la]] scuola."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How many pens does Marta want?",
+        "questions": [
+          {
+            "q": "Marta wants…",
+            "options": [
+              "one pen",
+              "*two pens",
+              "three pens"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian, with the article.",
+        "questions": [
+          {
+            "q": "the backpack",
+            "a": [
+              "lo zaino"
+            ]
+          },
+          {
+            "q": "a friend (female)",
+            "a": [
+              "un'amica"
+            ]
+          },
+          {
+            "q": "the books",
+            "a": [
+              "i libri"
+            ]
+          },
+          {
+            "q": "the friends (male)",
+            "a": [
+              "gli amici"
+            ]
+          },
+          {
+            "q": "a student (male)",
+            "a": [
+              "uno studente"
+            ]
+          },
+          {
+            "q": "the keys",
+            "a": [
+              "le chiavi"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

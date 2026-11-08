@@ -1,0 +1,436 @@
+{
+  "title": "Benché {csi:piovesse}, {im:eravamo} così felici che {pp:siamo usciti}",
+  "translation": "Although it was raining, we were so happy that we went out",
+  "topics": "Clauses of cause, purpose, concession and result, connecting words",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Which conjunctions take which mood?"
+      },
+      "A simple logic helps: what's real and stated as a fact, such as a cause or a result, takes the indicative. What is conceded, intended or only conditional takes the *congiuntivo*.",
+      {
+        "table": {
+          "head": [
+            "Meaning",
+            "Conjunctions",
+            "Mood",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Cause",
+              "perché, poiché, siccome, dato che",
+              "indicative",
+              "Poiché {im:pioveva}, {pp:siamo rimasti}."
+            ],
+            [
+              "Result",
+              "così… che, tanto… che, quindi",
+              "indicative",
+              "{im:Era} così stanco che {ip:è crollato}."
+            ],
+            [
+              "Purpose",
+              "affinché, perché",
+              "congiuntivo",
+              "Te lo {ip:dico} affinché tu lo {csp:sappia}."
+            ],
+            [
+              "Concession",
+              "benché, sebbene, nonostante",
+              "congiuntivo",
+              "Benché {csi:piovesse}, {pp:siamo usciti}."
+            ],
+            [
+              "Condition",
+              "purché, a patto che, a meno che",
+              "congiuntivo",
+              "{ip:Vengo}, purché tu {csp:guidi}."
+            ]
+          ]
+        }
+      },
+      "*Siccome* goes at the start of the sentence: *Siccome {im:pioveva}, {pp:siamo rimasti}.* *Anche se* takes the indicative, so it is the everyday alternative to *benché*.",
+      {
+        "h": "Same subject? Use the infinitive"
+      },
+      "Purpose is usually expressed with *per* + infinitive when both parts have the same subject: *{ip:Studio} per imparare*, but *Ti {ip:spiego} la regola affinché tu la {csp:capisca}*. Concession can be expressed with *pur* + gerund: *Pur essendo stanco, {pp:è uscito}*.",
+      {
+        "h": "Nonostante: two uses"
+      },
+      "As a conjunction, it takes the *congiuntivo*: *Nonostante {csi:piovesse}, {pp:siamo usciti}*. As a preposition, it takes a noun: *Nonostante la pioggia, {pp:siamo usciti}*.",
+      {
+        "h": "Linking words between sentences"
+      },
+      "These words connect ideas and organise a text. They do not change the verb.",
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Function",
+            "Example"
+          ],
+          "rows": [
+            [
+              "tuttavia",
+              "however",
+              "{im:Era} tardi; tuttavia {pp:è uscito}."
+            ],
+            [
+              "inoltre",
+              "moreover",
+              "{ip:È} economico. Inoltre, {ip:è} comodo."
+            ],
+            [
+              "dunque",
+              "therefore",
+              "{ip:Penso}, dunque {ip:sono}."
+            ],
+            [
+              "perciò",
+              "for this reason",
+              "{im:Era} malato, perciò {pp:è rimasto} a casa."
+            ],
+            [
+              "infatti",
+              "indeed",
+              "Non {ip:sta} bene: infatti non {pp:è venuto}."
+            ],
+            [
+              "invece",
+              "instead, on the contrary",
+              "{im:Pensavo} di restare; invece {pp:sono partito}."
+            ]
+          ]
+        }
+      },
+      "Be careful: *infatti* confirms what was just said, and it never means *in fact* as a correction."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right mood.",
+        "questions": [
+          {
+            "q": "Poiché ___ , {pp:siamo rimasti} a casa.",
+            "options": [
+              "*{im:pioveva}",
+              "{csi:piovesse}"
+            ]
+          },
+          {
+            "q": "Benché ___ , {pp:siamo usciti}.",
+            "options": [
+              "{im:pioveva}",
+              "*{csi:piovesse}"
+            ]
+          },
+          {
+            "q": "Anche se ___ , {pp:siamo usciti}.",
+            "options": [
+              "*{im:pioveva}",
+              "{csi:piovesse}"
+            ]
+          },
+          {
+            "q": "{ip:Vengo}, purché lui ___ .",
+            "options": [
+              "guida",
+              "*{ip:guidi}"
+            ]
+          },
+          {
+            "q": "{im:Era} così stanco che ___ .",
+            "options": [
+              "*si {pp:è addormentato}",
+              "si {csa:sia addormentato}"
+            ]
+          },
+          {
+            "q": "Te lo {ip:ripeto} affinché lui lo ___ .",
+            "options": [
+              "{ip:ricorda}",
+              "*{ip:ricordi}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right linking word: tuttavia, inoltre, perciò, infatti.",
+        "questions": [
+          "L'albergo {ip:è} comodo. [[Inoltre]], {ip:costa} poco.",
+          "{im:Era} molto malato, [[perciò]] {pp:è rimasto} a letto.",
+          "Il film {im:era} lungo; [[tuttavia]] non mi {ip:sono} annoiato.",
+          "Non {ip:sta} bene: [[infatti]] oggi non {pp:è venuto}."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Join the sentences with the word in brackets.",
+        "questions": [
+          {
+            "q": "{im:Pioveva}. {pp:Siamo usciti}. (nonostante + la pioggia)",
+            "a": [
+              "Nonostante la pioggia, siamo usciti.",
+              "Siamo usciti nonostante la pioggia."
+            ]
+          },
+          {
+            "q": "{im:Era} tardi. {pp:Ha continuato} a lavorare. (benché)",
+            "a": [
+              "Benché fosse tardi, ha continuato a lavorare.",
+              "Ha continuato a lavorare benché fosse tardi."
+            ]
+          },
+          {
+            "q": "{im:Ero} stanco. Non {pp:sono uscito}. (siccome)",
+            "a": [
+              "Siccome ero stanco, non sono uscito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il motivo",
+        "reason"
+      ],
+      [
+        "lo scopo",
+        "aim"
+      ],
+      [
+        "l'ostacolo",
+        "obstacle"
+      ],
+      [
+        "il tempo libero",
+        "free time"
+      ],
+      [
+        "la pioggia",
+        "rain"
+      ],
+      [
+        "il temporale",
+        "storm"
+      ],
+      [
+        "causare",
+        "to cause"
+      ],
+      [
+        "ostacolare",
+        "to hinder"
+      ],
+      [
+        "annullare",
+        "to cancel"
+      ],
+      [
+        "rimandare",
+        "to postpone"
+      ],
+      [
+        "malgrado",
+        "despite"
+      ],
+      [
+        "a causa di",
+        "because of"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il motivo",
+            "reason"
+          ],
+          [
+            "lo scopo",
+            "aim"
+          ],
+          [
+            "l'ostacolo",
+            "obstacle"
+          ],
+          [
+            "annullare",
+            "to cancel"
+          ],
+          [
+            "rimandare",
+            "to postpone"
+          ],
+          [
+            "malgrado",
+            "despite"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "La partita {pp:è stata} {pp:annullata} [[a causa di]] un temporale. (because of)",
+          "Qual {ip:è} lo [[scopo]] di questa riunione? (aim)",
+          "Non c'{ip:è} nessun [[motivo]] di preoccuparsi. (reason)",
+          "Il [[temporale]] {pp:è durato} tutta la notte. (storm)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Benché le previsioni {csi:annunciassero} un temporale, {pp:abbiamo deciso} di non rimandare la gita. Siccome {im:era} il compleanno di Elena, {im:volevamo} farle una sorpresa. {tp:Avevamo preparato} tutto affinché lei non si {csi:accorgesse} di niente. Il sentiero {im:era} così scivoloso che {ip:abbiamo} impiegato tre ore per arrivare al rifugio.",
+      "Nonostante la pioggia, {im:eravamo} felicissimi. Inoltre, il proprietario del rifugio ci {pp:ha offerto} la cena, purché {csi:cantassimo} qualcosa per lui. Elena si {pp:è commossa}; infatti non si {im:aspettava} affatto una festa. Tuttavia, il giorno dopo {im:eravamo} tutti raffreddati."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Why did they not postpone the trip?",
+            "options": [
+              "The weather was good",
+              "*It was Elena's birthday",
+              "The hut was booked"
+            ]
+          },
+          {
+            "q": "Why did it take three hours?",
+            "options": [
+              "They got lost",
+              "*The path was slippery",
+              "Elena was tired"
+            ]
+          },
+          {
+            "q": "What did the owner ask for in return for dinner?",
+            "options": [
+              "Money",
+              "*That they sing something",
+              "That they clean up"
+            ]
+          },
+          {
+            "q": "What happened the next day?",
+            "options": [
+              "They went home",
+              "It rained again",
+              "*They all had colds"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Zeno",
+        "Siccome {ip:piove}, {ip:annulliamo} la gita?"
+      ],
+      [
+        "Marta",
+        "No, {ip:vengo} lo stesso, a meno che non ci {csp:sia} un temporale."
+      ],
+      [
+        "Zeno",
+        "Benché {csp:sia} prudente, non {ip:ho} paura della pioggia."
+      ],
+      [
+        "Marta",
+        "Inoltre {ip:abbiamo} gli impermeabili."
+      ],
+      [
+        "Zeno",
+        "{ip:Portiamo} anche la cena, perché Elena {csp:possa} riposarsi."
+      ],
+      [
+        "Marta",
+        "Perfetto, purché la {csp:prepari} tu!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Siccome]] {ip:piove}, {ip:annulliamo} la gita?",
+          "A meno che non [[ci]] {csp:sia} un temporale.",
+          "Benché [[sia#csp]] prudente, non {ip:ho} paura della pioggia.",
+          "Perfetto, purché la [[prepari#csp]] tu!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "On what condition does Marta agree?",
+        "questions": [
+          {
+            "q": "Marta agrees as long as…",
+            "options": [
+              "it doesn't rain",
+              "*Zeno prepares the dinner",
+              "Elena comes"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Although it was raining, we went out. (use benché)",
+            "a": [
+              "Benché piovesse, siamo usciti.",
+              "Benché piovesse, siamo uscite."
+            ]
+          },
+          {
+            "q": "He was so tired that he fell asleep.",
+            "a": [
+              "Era così stanco che si è addormentato."
+            ]
+          },
+          {
+            "q": "Despite the rain, we went out. (use nonostante)",
+            "a": [
+              "Nonostante la pioggia, siamo usciti.",
+              "Nonostante la pioggia, siamo uscite."
+            ]
+          },
+          {
+            "q": "I'll come, as long as you drive. (informal, use purché)",
+            "a": [
+              "Vengo, purché tu guidi.",
+              "Verrò, purché tu guidi."
+            ]
+          },
+          {
+            "q": "It's cheap. Moreover, it's comfortable.",
+            "a": [
+              "È economico. Inoltre, è comodo.",
+              "È economica. Inoltre, è comoda."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "title": "{ip:Credo} che la ragazza che {ip:parla} {csp:sia} Anna",
+  "translation": "I think the girl who is speaking is Anna",
+  "topics": "Giving opinions and preferences, linking words, the relative pronoun che",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Giving an opinion"
+      },
+      "The simplest way uses an ordinary tense: *Secondo me {ip:è} interessante* (In my opinion it's interesting). *Per me* works the same way.",
+      "After *{ip:penso} che* and *{ip:credo} che*, Italian uses a special verb form, the *congiuntivo*. You will study it properly at a later level. For now, just recognise the most common forms: *{csp:sia}* (is), *{csp:abbia}* (has), *{imv:vada}* (goes).",
+      {
+        "table": {
+          "head": [
+            "Without congiuntivo",
+            "With congiuntivo"
+          ],
+          "rows": [
+            [
+              "Secondo me {ip:è} difficile.",
+              "{ip:Penso} che {csp:**sia**} difficile."
+            ],
+            [
+              "Per me Luca {ip:ha} ragione.",
+              "{ip:Credo} che Luca {csp:**abbia**} ragione."
+            ]
+          ]
+        }
+      },
+      "If the person who thinks is the same as the one who acts, use *di* with an infinitive: *{ip:Penso} di partire domani*.",
+      {
+        "h": "Saying what you prefer"
+      },
+      "*Preferire* follows the pattern of *capire*, with *-isc-*: *{ip:preferisco}, {ip:preferisci}, {ip:preferisce}, {ip:preferiamo}, {ip:preferite}, {ip:preferiscono}*. It can be followed by a noun or a verb: *{ip:Preferisco} il tè. {ip:Preferisco} restare a casa.*",
+      {
+        "h": "Linking ideas"
+      },
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "però",
+              "but, however",
+              "{ip:È} caro, però {ip:è} bello."
+            ],
+            [
+              "quindi",
+              "so",
+              "{ip:Piove}, quindi {ip:resto} a casa."
+            ],
+            [
+              "allora",
+              "so, then",
+              "{ip:Sei} stanco? Allora {imv:riposati}."
+            ],
+            [
+              "mentre",
+              "while",
+              "Mentre {ip:mangio}, {ip:leggo}."
+            ],
+            [
+              "quando",
+              "when",
+              "Quando {ip:arrivo}, ti {ip:chiamo}."
+            ],
+            [
+              "perché",
+              "because",
+              "Non {ip:esco} perché {ip:piove}."
+            ]
+          ]
+        }
+      },
+      "To join two actions done by the same person, use these with an infinitive.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "prima di + infinitive",
+              "Prima di uscire, {ip:mangio}.",
+              "Before going out, I eat."
+            ],
+            [
+              "dopo aver + participle",
+              "Dopo aver mangiato, {ip:esco}.",
+              "After eating, I go out."
+            ],
+            [
+              "dopo essere + participle",
+              "Dopo essere arrivata, {pp:ho chiamato}.",
+              "After arriving, I called."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Che joins two sentences"
+      },
+      "*Che* replaces the noun that the two sentences share. It works for people and things and never changes. In English you can sometimes leave out *who* or *that*, but in Italian *che* must always be there.",
+      {
+        "table": {
+          "head": [
+            "Two sentences",
+            "One sentence"
+          ],
+          "rows": [
+            [
+              "La ragazza {ip:parla}. {ip:È} mia sorella.",
+              "La ragazza **che** {ip:parla} {ip:è} mia sorella."
+            ],
+            [
+              "{ip:Leggo} un libro. Il libro {ip:è} bello.",
+              "Il libro **che** {ip:leggo} {ip:è} bello."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right word.",
+        "questions": [
+          {
+            "q": "{ip:È} caro, ___ lo {ip:compro}.",
+            "options": [
+              "*però",
+              "perché",
+              "quando"
+            ]
+          },
+          {
+            "q": "{ip:Piove}, ___ {ip:prendo} l'ombrello.",
+            "options": [
+              "mentre",
+              "*quindi",
+              "prima"
+            ]
+          },
+          {
+            "q": "Non {ip:esco} ___ {ip:sono} stanco.",
+            "options": [
+              "*perché",
+              "però",
+              "allora"
+            ]
+          },
+          {
+            "q": "___ uscire, {ip:chiudo} la finestra.",
+            "options": [
+              "*Prima di",
+              "Dopo",
+              "Mentre"
+            ]
+          },
+          {
+            "q": "___ aver mangiato, {ip:faccio} una passeggiata.",
+            "options": [
+              "Prima di",
+              "*Dopo",
+              "Mentre"
+            ]
+          },
+          {
+            "q": "{ip:Credo} che Marta ___ a casa.",
+            "options": [
+              "*{csp:sia}",
+              "{ip:siamo}",
+              "{ip:sei}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb preferire in the right form.",
+        "questions": [
+          "Io [[preferisco#ip]] il mare.",
+          "Tu che cosa [[preferisci#ip]]?",
+          "Anna [[preferisce#ip]] restare a casa.",
+          "Noi [[preferiamo#ip]] il vino rosso."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Join the two sentences with che.",
+        "questions": [
+          {
+            "q": "La ragazza {ip:parla}. {ip:È} mia sorella.",
+            "a": [
+              "La ragazza che parla è mia sorella."
+            ]
+          },
+          {
+            "q": "{pp:Ho comprato} un libro. Il libro {ip:è} bello.",
+            "a": [
+              "Il libro che ho comprato è bello."
+            ]
+          },
+          {
+            "q": "{ip:Conosco} un ragazzo. Il ragazzo {ip:parla} cinese.",
+            "a": [
+              "Conosco un ragazzo che parla cinese."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'opinione",
+        "opinion"
+      ],
+      [
+        "la ragione",
+        "reason"
+      ],
+      [
+        "avere ragione",
+        "to be right"
+      ],
+      [
+        "avere torto",
+        "to be wrong"
+      ],
+      [
+        "pensare",
+        "to think"
+      ],
+      [
+        "credere",
+        "to believe"
+      ],
+      [
+        "preferire",
+        "to prefer"
+      ],
+      [
+        "sembrare",
+        "to seem"
+      ],
+      [
+        "d'accordo",
+        "agreed"
+      ],
+      [
+        "difficile",
+        "difficult"
+      ],
+      [
+        "facile",
+        "easy"
+      ],
+      [
+        "interessante",
+        "interesting"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'opinione",
+            "opinion"
+          ],
+          [
+            "avere ragione",
+            "to be right"
+          ],
+          [
+            "avere torto",
+            "to be wrong"
+          ],
+          [
+            "sembrare",
+            "to seem"
+          ],
+          [
+            "d'accordo",
+            "agreed"
+          ],
+          [
+            "facile",
+            "easy"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Hai} [[ragione]], {ip:è} tardi. (you're right)",
+          "[[Secondo]] me {ip:è} un bel film. (in my opinion)",
+          "Questo esercizio {ip:è} [[difficile]]. (difficult)",
+          "{ip:Sono} d'[[accordo]] con te. (agreed)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Ieri sera {pp:sono andato} al cinema con Chiara. Il film che {pp:abbiamo visto} {im:era} molto lungo, però secondo me {im:era} interessante. Chiara non {ip:è} d'accordo: {ip:preferisce} i film comici e {ip:pensa} che questo {csp:sia} noioso.",
+      "Prima di tornare a casa {pp:siamo andati} in un bar. Dopo aver bevuto un caffè, {pp:abbiamo parlato} ancora del film. Alla fine mi {pp:ha detto}: «Forse {ip:hai} ragione, ma la prossima volta {ip:scelgo} io!»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The speaker found the film interesting.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Chiara prefers comedies.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "They went to a bar after the cinema.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Next time, the speaker will choose the film.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Luca",
+        "Chi {ip:è} la ragazza che {ip:parla} con Marco?"
+      ],
+      [
+        "Sara",
+        "{ip:Credo} che {csp:sia} Anna, la sua collega."
+      ],
+      [
+        "Luca",
+        "Secondo me {ip:è} la sorella."
+      ],
+      [
+        "Sara",
+        "No, {ip:hai} torto. La sorella {ip:è} la ragazza che {pp:abbiamo visto} ieri."
+      ],
+      [
+        "Luca",
+        "Allora {ip:vado} a salutarla."
+      ],
+      [
+        "Sara",
+        "Prima di andare, {imv:finisci} il caffè!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Chi {ip:è} la ragazza [[che]] {ip:parla} con Marco?",
+          "{ip:Credo} che [[sia#csp]] Anna.",
+          "No, {ip:hai} [[torto]].",
+          "[[Prima]] di andare, {imv:finisci} il caffè!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Who does Sara think the girl is?",
+        "questions": [
+          {
+            "q": "According to Sara, the girl is…",
+            "options": [
+              "Marco's sister",
+              "*Marco's colleague",
+              "Luca's friend"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "In my opinion it is difficult.",
+            "a": [
+              "Secondo me è difficile."
+            ]
+          },
+          {
+            "q": "I prefer to stay at home.",
+            "a": [
+              "Preferisco restare a casa.",
+              "Io preferisco restare a casa.",
+              "Preferisco stare a casa."
+            ]
+          },
+          {
+            "q": "The girl who is speaking is my sister.",
+            "a": [
+              "La ragazza che parla è mia sorella."
+            ]
+          },
+          {
+            "q": "Before going out, I eat.",
+            "a": [
+              "Prima di uscire, mangio."
+            ]
+          },
+          {
+            "q": "It is raining, so I'm staying at home.",
+            "a": [
+              "Piove, quindi resto a casa.",
+              "Piove, quindi sto a casa."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "title": "Con la presente, {ip:desideriamo} informarLa",
+  "translation": "We hereby wish to inform you",
+  "topics": "Word formation and compounds, register and style, punctuation in long sentences",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Compound words"
+      },
+      "Italian forms compounds by joining two words, and the type of compound decides its plural.",
+      {
+        "table": {
+          "head": [
+            "Parts",
+            "Example",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "verb + noun",
+              "il portafoglio, l'asciugamano",
+              "i portafogli, gli asciugamani"
+            ],
+            [
+              "noun + noun",
+              "il capolavoro, l'arcobaleno",
+              "i capolavori, gli arcobaleni"
+            ],
+            [
+              "noun + adjective",
+              "la cassaforte",
+              "le casseforti"
+            ],
+            [
+              "capo + person",
+              "il capostazione",
+              "i capistazione"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The feeling behind a suffix"
+      },
+      "The same suffix can praise or belittle, depending on the context. *Un lavoretto* may be a small job or a pat on the back, and *un ministrucolo* is clearly contemptuous. *-astro* (*poetastro*) and *-ucolo* always carry a negative judgement. A suffix can also make a new word: *cavallo → cavalletto* (an easel).",
+      {
+        "h": "Nouns from verbs"
+      },
+      "Formal writing replaces verbs with nouns. This is called nominal style: *Dopo che il contratto {pp:è stato} {pp:firmato}* becomes *Dopo la firma del contratto*. Use it moderately, as too much of it makes a text heavy.",
+      {
+        "h": "Four registers, one idea"
+      },
+      {
+        "table": {
+          "head": [
+            "Register",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Conversation",
+              "Se non {ip:paghi}, {ip:sono} guai."
+            ],
+            [
+              "Journalism",
+              "In caso di mancato pagamento, {ip:sono previste} sanzioni."
+            ],
+            [
+              "Academic",
+              "Il mancato pagamento {cop:comporterebbe} l'applicazione di sanzioni."
+            ],
+            [
+              "Bureaucratic",
+              "Il mancato versamento {fs:darà} luogo all'irrogazione delle sanzioni previste."
+            ]
+          ]
+        }
+      },
+      "Formal texts prefer verbs like *recarsi* (*andare*), *effettuare* (*fare*), *comunicare* (*dire*) and *ritenere* (*pensare*). Formulas include *Con la presente* (Hereby), *In riferimento a* (With reference to) and *Restando in attesa* (Looking forward to).",
+      "In a very formal letter, the courtesy pronouns are capitalised, even when attached: *informarLa, inviarLe*.",
+      {
+        "h": "Punctuation in long sentences"
+      },
+      {
+        "table": {
+          "head": [
+            "Case",
+            "Example"
+          ],
+          "rows": [
+            [
+              "A comma before and after an insertion",
+              "Il direttore, a quanto {ip:pare}, si {pp:è dimesso}."
+            ],
+            [
+              "Both commas or none",
+              "Il sindaco, che {im:era} assente, {pp:ha scritto}."
+            ],
+            [
+              "A semicolon between long items",
+              "{ip:Sono} presenti: Rossi, sindaco; Bianchi, assessore."
+            ],
+            [
+              "Dashes for a stronger break",
+              "La decisione – presa ieri – {ip:è} definitiva."
+            ],
+            [
+              "No comma before che in a restrictive clause",
+              "Il libro che {pp:ho letto} {ip:è} bello."
+            ]
+          ]
+        }
+      },
+      "A subordinate clause placed before the main clause is followed by a comma: *Sebbene {csi:fosse} tardi, {pr:continuò}*. After the main clause, a comma depends on how closely the two parts are linked."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the plural of each compound.",
+        "questions": [
+          "il portafoglio → i [[portafogli]]",
+          "il capolavoro → i [[capolavori]]",
+          "l'asciugamano → gli [[asciugamani]]",
+          "la cassaforte → le [[casseforti]]",
+          "il capostazione → i [[capistazione]]"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which version suits the register in brackets?",
+        "questions": [
+          {
+            "q": "(formal letter)",
+            "options": [
+              "Ti {ip:scrivo} per dirti che…",
+              "*Con la presente, {ip:desideriamo} informarLa che…"
+            ]
+          },
+          {
+            "q": "(conversation)",
+            "options": [
+              "*Se non {ip:paghi}, {ip:sono} guai.",
+              "Il mancato versamento {fs:darà} luogo a sanzioni."
+            ]
+          },
+          {
+            "q": "(bureaucratic: andare)",
+            "options": [
+              "andare",
+              "*recarsi"
+            ]
+          },
+          {
+            "q": "(contemptuous: a bad poet)",
+            "options": [
+              "*un poetastro",
+              "un poetino",
+              "un poetone"
+            ]
+          },
+          {
+            "q": "Correct punctuation?",
+            "options": [
+              "*Il direttore, a quanto {ip:pare}, si {pp:è dimesso}.",
+              "Il direttore a quanto {ip:pare}, si {pp:è dimesso}."
+            ]
+          },
+          {
+            "q": "Correct punctuation?",
+            "options": [
+              "Il libro, che {pp:ho letto} ieri {ip:è} bello.",
+              "*Il libro che {pp:ho letto} ieri {ip:è} bello."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Replace the clause with a noun, in nominal style.",
+        "questions": [
+          {
+            "q": "Dopo che il contratto {pp:è stato} {pp:firmato}… (la firma)",
+            "a": [
+              "Dopo la firma del contratto…",
+              "Dopo la firma del contratto"
+            ]
+          },
+          {
+            "q": "Prima che il treno {csp:parta}… (la partenza)",
+            "a": [
+              "Prima della partenza del treno…",
+              "Prima della partenza del treno"
+            ]
+          },
+          {
+            "q": "Poiché il pagamento non {pp:è stato} {pp:effettuato}… (il mancato pagamento)",
+            "a": [
+              "A causa del mancato pagamento…",
+              "A causa del mancato pagamento",
+              "Per il mancato pagamento…",
+              "Per il mancato pagamento"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la presente",
+        "this letter"
+      ],
+      [
+        "il versamento",
+        "payment"
+      ],
+      [
+        "la sanzione",
+        "penalty"
+      ],
+      [
+        "l'adempimento",
+        "fulfilment"
+      ],
+      [
+        "il destinatario",
+        "addressee"
+      ],
+      [
+        "il mittente",
+        "sender"
+      ],
+      [
+        "recarsi",
+        "to go"
+      ],
+      [
+        "inoltrare",
+        "to forward"
+      ],
+      [
+        "pervenire",
+        "to reach, to arrive"
+      ],
+      [
+        "sollecitare",
+        "to urge"
+      ],
+      [
+        "suddetto",
+        "aforesaid"
+      ],
+      [
+        "distinti saluti",
+        "yours faithfully"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il versamento",
+            "payment"
+          ],
+          [
+            "la sanzione",
+            "penalty"
+          ],
+          [
+            "il mittente",
+            "sender"
+          ],
+          [
+            "inoltrare",
+            "to forward"
+          ],
+          [
+            "pervenire",
+            "to reach, to arrive"
+          ],
+          [
+            "suddetto",
+            "aforesaid"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il [[destinatario]] {ip:è} assente. (addressee)",
+          "La {ip:invitiamo} a [[recarsi]] presso i nostri uffici. (to go)",
+          "Con la [[presente]], La {ip:informiamo}. (this letter)",
+          "[[Distinti]] saluti. (yours faithfully)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Gentile Signora Moretti, con la presente {ip:desideriamo} informarLa che, in riferimento alla Sua richiesta del 3 marzo, non {pp:è stato} possibile procedere al rimborso, in quanto il suddetto versamento non {ip:risulta} pervenuto. La {ip:invitiamo} pertanto a recarsi presso i nostri uffici, muniti di ricevuta, entro trenta giorni. Restando a disposizione, {ip:porgiamo} distinti saluti.",
+      "«Marta, ti {ip:giuro}, che lettera! Non {pp:ho capito} un tubo. In pratica, {ip:dicono} che i soldi non {pp:sono arrivati} e che {ip:devo} andare lì con la ricevuta. Ma {ip:dico} io, non {im:potevano} scriverlo così? Quei burocrati da quattro soldi!»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Why was the refund not made?",
+            "options": [
+              "The request was late",
+              "*The payment hasn't been received",
+              "The office was closed"
+            ]
+          },
+          {
+            "q": "What must Signora Moretti bring?",
+            "options": [
+              "Her passport",
+              "*The receipt",
+              "A letter"
+            ]
+          },
+          {
+            "q": "What is the difference between the two texts?",
+            "options": [
+              "*Register: formal letter against spoken complaint",
+              "They contain different facts",
+              "One is older"
+            ]
+          },
+          {
+            "q": "«Non {pp:ho capito} un tubo» means…",
+            "options": [
+              "I understood the plumbing",
+              "*I understood nothing at all",
+              "I understood everything"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Impiegato",
+        "Le {ip:comunichiamo} che la Sua pratica {pp:è stata} {pp:inoltrata}."
+      ],
+      [
+        "Utente",
+        "{imv:Scusi}, in parole povere?"
+      ],
+      [
+        "Impiegato",
+        "{pp:Abbiamo mandato} la domanda all'ufficio giusto."
+      ],
+      [
+        "Utente",
+        "E quando {fs:riceverò} una risposta?"
+      ],
+      [
+        "Impiegato",
+        "L'esito Le {fs:perverrà} entro trenta giorni."
+      ],
+      [
+        "Utente",
+        "Cioè, mi {ip:scrivete} entro un mese. Grazie!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "La Sua pratica {pp:è stata} [[inoltrata#pp]].",
+          "{imv:Scusi}, in parole [[povere]]?",
+          "L'esito Le [[perverrà#fs]] entro trenta giorni.",
+          "Cioè, mi {ip:scrivete} [[entro]] un mese."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the citizen doing?",
+        "questions": [
+          {
+            "q": "The citizen…",
+            "options": [
+              "is complaining about a fine",
+              "*keeps asking for plain language",
+              "is writing a letter"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence in a more formal register.",
+        "questions": [
+          {
+            "q": "Ti scrivo per dirti che… (start with Con la presente, La)",
+            "a": [
+              "Con la presente, La informo che…",
+              "Con la presente, desidero informarLa che…",
+              "Con la presente, La informiamo che…",
+              "Con la presente, desideriamo informarLa che…",
+              "Con la presente La informo che…"
+            ]
+          },
+          {
+            "q": "{ip:Devi} andare in ufficio. (Lei, recarsi)",
+            "a": [
+              "Deve recarsi in ufficio.",
+              "La invitiamo a recarsi in ufficio."
+            ]
+          },
+          {
+            "q": "Ci {pp:hanno detto} che… (use comunicare)",
+            "a": [
+              "Ci hanno comunicato che…",
+              "Ci è stato comunicato che…"
+            ]
+          },
+          {
+            "q": "Ciao, a presto! (a closing for a formal letter)",
+            "a": [
+              "Distinti saluti.",
+              "Cordiali saluti."
+            ]
+          },
+          {
+            "q": "I soldi non {pp:sono arrivati}. (use il versamento, pervenire)",
+            "a": [
+              "Il versamento non è pervenuto.",
+              "Il versamento non risulta pervenuto."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

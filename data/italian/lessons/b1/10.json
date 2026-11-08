@@ -1,0 +1,451 @@
+{
+  "title": "{ip:Sto} studiando: sbagliando si {ip:impara}",
+  "translation": "I'm studying: you learn from your mistakes",
+  "topics": "The gerund, stare + gerund, infinitive constructions",
+  "grammar": {
+    "explain": [
+      {
+        "h": "How to form the gerund"
+      },
+      "It never changes. Verbs in *-are* take *-ando*, and verbs in *-ere* and *-ire* take *-endo*.",
+      {
+        "table": {
+          "head": [
+            "Infinitive",
+            "Gerund"
+          ],
+          "rows": [
+            [
+              "parlare",
+              "parl**ando**"
+            ],
+            [
+              "leggere",
+              "legg**endo**"
+            ],
+            [
+              "dormire",
+              "dorm**endo**"
+            ],
+            [
+              "fare",
+              "fac**endo**"
+            ],
+            [
+              "dire",
+              "dic**endo**"
+            ],
+            [
+              "bere",
+              "bev**endo**"
+            ]
+          ]
+        }
+      },
+      "*Fare*, *dire* and *bere* use the same long stems as in the *imperfetto*.",
+      {
+        "h": "Stare + gerund: right now"
+      },
+      "Use *stare* with the gerund to stress that something is in progress at this very moment. It works in the present and in the *imperfetto*.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Now",
+              "{ip:Sto} studiando.",
+              "I'm studying right now."
+            ],
+            [
+              "In the past",
+              "{im:Stavo} leggendo quando {pp:ha chiamato}.",
+              "I was reading when he called."
+            ]
+          ]
+        }
+      },
+      "Italian uses this form less than English does. For something that's happening these days, the simple present is normal: *{ip:Studio} medicina* (I'm studying medicine). Don't confuse it with *stare per* + infinitive: *{ip:Sto} per uscire* means *I'm about to go out*.",
+      {
+        "h": "The gerund on its own"
+      },
+      "A gerund can replace a whole clause. It is only possible when both parts of the sentence have the same subject.",
+      {
+        "table": {
+          "head": [
+            "Meaning",
+            "Example",
+            "Could also be"
+          ],
+          "rows": [
+            [
+              "While",
+              "Tornando a casa, {pp:ho visto} Anna.",
+              "Mentre {im:tornavo} a casa…"
+            ],
+            [
+              "How, by doing",
+              "Sbagliando si {ip:impara}.",
+              "Se si {ip:sbaglia}…"
+            ],
+            [
+              "Why",
+              "Essendo stanco, {pp:sono rimasto} a casa.",
+              "Poiché {im:ero} stanco…"
+            ]
+          ]
+        }
+      },
+      "Pronouns attach to the gerund: *Guardandolo, {pp:ho capito}*. With *stare*, they usually go in front: *Lo {ip:sto} leggendo*.",
+      {
+        "h": "Useful infinitive constructions"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "senza + infinitive",
+              "without doing",
+              "{pp:È uscito} senza salutare."
+            ],
+            [
+              "invece di + infinitive",
+              "instead of doing",
+              "Invece di studiare, {ip:dorme}."
+            ],
+            [
+              "per + infinitive",
+              "in order to",
+              "{ip:Studio} per imparare."
+            ],
+            [
+              "fare + infinitive",
+              "to have something done",
+              "{ip:Faccio} riparare la macchina."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the gerund.",
+        "questions": [
+          "parlare → [[parlando]]",
+          "leggere → [[leggendo]]",
+          "partire → [[partendo]]",
+          "fare → [[facendo]]",
+          "dire → [[dicendo]]",
+          "bere → [[bevendo]]"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Use stare + gerund.",
+        "questions": [
+          "Adesso io [[sto studiando#ip]]. (studiare)",
+          "Che cosa [[stai facendo#ip]]? (fare, tu)",
+          "Marco [[sta dormendo#ip]]. (dormire)",
+          "Ieri alle otto [[stavamo cenando#im]]. (cenare, noi, in the past)",
+          "Il telefono {pp:ha suonato} mentre [[stavo leggendo#im]]. (leggere, io, in the past)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "___ si {ip:impara}.",
+            "options": [
+              "*Sbagliando",
+              "Sbagliato",
+              "Sbagliare"
+            ]
+          },
+          {
+            "q": "Il film ___ per cominciare. (about to)",
+            "options": [
+              "*{ip:sta}",
+              "{ip:va}",
+              "{ip:è}"
+            ]
+          },
+          {
+            "q": "{pp:È uscito} ___ salutare.",
+            "options": [
+              "*senza",
+              "con",
+              "invece"
+            ]
+          },
+          {
+            "q": "Il libro? ___ {ip:sto} leggendo.",
+            "options": [
+              "*Lo",
+              "Ne",
+              "Gli"
+            ]
+          },
+          {
+            "q": "I'm having my car repaired.",
+            "options": [
+              "*{ip:Faccio} riparare la macchina.",
+              "{ip:Sto} riparando la macchina.",
+              "{ip:Riparo} la macchina."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la pratica",
+        "practice"
+      ],
+      [
+        "l'abilità",
+        "skill"
+      ],
+      [
+        "il tentativo",
+        "attempt"
+      ],
+      [
+        "il meccanico",
+        "mechanic"
+      ],
+      [
+        "il progresso",
+        "progress"
+      ],
+      [
+        "imparare",
+        "to learn"
+      ],
+      [
+        "provare",
+        "to try"
+      ],
+      [
+        "migliorare",
+        "to improve"
+      ],
+      [
+        "riparare",
+        "to repair"
+      ],
+      [
+        "salutare",
+        "to greet"
+      ],
+      [
+        "paziente",
+        "patient"
+      ],
+      [
+        "pian piano",
+        "little by little"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'abilità",
+            "skill"
+          ],
+          [
+            "il tentativo",
+            "attempt"
+          ],
+          [
+            "provare",
+            "to try"
+          ],
+          [
+            "migliorare",
+            "to improve"
+          ],
+          [
+            "riparare",
+            "to repair"
+          ],
+          [
+            "pian piano",
+            "little by little"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Devo} portare la macchina dal [[meccanico]]. (mechanic)",
+          "{ip:Sto} [[imparando]] a suonare la chitarra. (learning)",
+          "Con la [[pratica]] si {ip:migliora}. (practice)",
+          "{ip:Devi} essere [[paziente]]. (patient)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Da sei mesi {ip:sto} imparando a suonare il pianoforte. All'inizio {im:pensavo} che {csi:fosse} impossibile. Suonando ogni giorno, però, {pp:ho fatto} molti progressi. Il mio maestro {ip:dice} sempre: «Sbagliando si {ip:impara}. Non correre, {imv:prova} pian piano.»",
+      "Ieri {im:stavo} provando un pezzo nuovo quando {pp:è arrivato} il mio vicino. Invece di lamentarsi, si {pp:è seduto} ad ascoltare. {pp:È rimasto} un'ora senza dire una parola, e poi mi {pp:ha chiesto} di insegnargli!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "How long has the speaker been learning?",
+            "options": [
+              "One month",
+              "*Six months",
+              "Six years"
+            ]
+          },
+          {
+            "q": "What does the teacher say?",
+            "options": [
+              "Play faster",
+              "*You learn from mistakes",
+              "Stop playing"
+            ]
+          },
+          {
+            "q": "How did the neighbour react?",
+            "options": [
+              "He complained",
+              "He left",
+              "*He sat down to listen"
+            ]
+          },
+          {
+            "q": "What did the neighbour ask?",
+            "options": [
+              "*To be taught",
+              "To be quiet",
+              "To borrow the piano"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Franca",
+        "Che cosa {ip:stai} facendo?"
+      ],
+      [
+        "Gino",
+        "{ip:Sto} riparando la bici."
+      ],
+      [
+        "Franca",
+        "Da solo? Non la {ip:fai} riparare dal meccanico?"
+      ],
+      [
+        "Gino",
+        "No, {ip:sto} imparando guardando dei video."
+      ],
+      [
+        "Franca",
+        "E {ip:funziona}?"
+      ],
+      [
+        "Gino",
+        "Beh, sbagliando si {ip:impara}!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Che cosa {ip:stai} [[facendo]]?",
+          "{ip:Sto} [[riparando]] la bici.",
+          "Non la [[fai#ip]] riparare dal meccanico?",
+          "{ip:Sto} imparando [[guardando]] dei video."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How is Gino learning?",
+        "questions": [
+          {
+            "q": "Gino is learning…",
+            "options": [
+              "from a mechanic",
+              "from a book",
+              "*by watching videos"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I'm studying right now.",
+            "a": [
+              "Sto studiando adesso.",
+              "Adesso sto studiando.",
+              "Sto studiando ora."
+            ]
+          },
+          {
+            "q": "What are you doing? (informal)",
+            "a": [
+              "Che cosa stai facendo?",
+              "Cosa stai facendo?",
+              "Che stai facendo?"
+            ]
+          },
+          {
+            "q": "You learn from your mistakes. (Italian proverb, two words + si)",
+            "a": [
+              "Sbagliando si impara."
+            ]
+          },
+          {
+            "q": "He went out without saying goodbye. (salutare)",
+            "a": [
+              "È uscito senza salutare."
+            ]
+          },
+          {
+            "q": "I'm having my car repaired.",
+            "a": [
+              "Faccio riparare la macchina.",
+              "Faccio riparare la mia macchina."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

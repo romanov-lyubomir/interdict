@@ -1,0 +1,414 @@
+{
+  "title": "{pr:Disse} che il libro di cui {im:parlavamo} {tp:era uscito}",
+  "translation": "He said that the book we were talking about had come out",
+  "topics": "Reported speech in different time frames, relative clauses of all kinds",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Three time frames"
+      },
+      "What changes in reported speech depends on the time of the reporting verb.",
+      {
+        "table": {
+          "head": [
+            "Reporting verb",
+            "«Partirò domani.»"
+          ],
+          "rows": [
+            [
+              "Present: {ip:Dice} che…",
+              "{fs:partirà} domani."
+            ],
+            [
+              "Recent past, still relevant: {pp:Ha detto} che…",
+              "{fs:partirà} domani. / {cpa:sarebbe partito} domani."
+            ],
+            [
+              "Past, closed: {pr:Disse} che…",
+              "{cpa:sarebbe partito} il giorno dopo."
+            ]
+          ]
+        }
+      },
+      "If what was said is still true or still to come, spoken Italian often keeps the original tense: *{pp:Ha detto} che {ip:arriva} alle otto*. Formal texts and exams prefer the full shift.",
+      {
+        "h": "Questions, commands and a choice of mood"
+      },
+      {
+        "table": {
+          "head": [
+            "Direct",
+            "Reported, ordinary",
+            "Reported, formal"
+          ],
+          "rows": [
+            [
+              "«Dove {ip:sei}?»",
+              "{pr:Chiese} dov'{im:ero}.",
+              "{pr:Chiese} dove {csi:fossi}."
+            ],
+            [
+              "«{imv:Vieni}!»",
+              "Mi {pr:disse} di venire.",
+              "{pr:Ordinò} che {csi:venissi}."
+            ],
+            [
+              "«{pp:Hai finito}?»",
+              "{pr:Chiese} se {tp:avevo finito}.",
+              "{pr:Chiese} se {cst:avessi finito}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Restrictive or explanatory?"
+      },
+      "A restrictive clause identifies which one you mean and has no commas. An explanatory clause adds information about someone already identified and sits between commas.",
+      {
+        "table": {
+          "head": [
+            "Type",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Restrictive",
+              "Gli studenti che {pp:hanno studiato} {pp:hanno passato} l'esame.",
+              "only those who studied"
+            ],
+            [
+              "Explanatory",
+              "Gli studenti, che {pp:hanno studiato}, {pp:hanno passato} l'esame.",
+              "all of them, and they had studied"
+            ]
+          ]
+        }
+      },
+      "*Il quale* is possible in an explanatory clause, but it can't introduce a restrictive one as a subject or object: *Gli studenti i quali {pp:hanno studiato}* sounds wrong in this sense.",
+      {
+        "h": "More relative forms"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Refers to",
+            "Example"
+          ],
+          "rows": [
+            [
+              "cui (no preposition)",
+              "indirect object, formal",
+              "La persona cui mi {ip:rivolgo}."
+            ],
+            [
+              "il cui",
+              "possession",
+              "Un autore i cui romanzi {ip:amo}."
+            ],
+            [
+              "chi",
+              "whoever, singular verb",
+              "Chi {ip:tace} {ip:acconsente}."
+            ],
+            [
+              "colui che",
+              "the one who, formal",
+              "Colui che {ip:parla} {ip:è} il direttore."
+            ],
+            [
+              "quanto",
+              "all that",
+              "{pp:Ho fatto} quanto {im:potevo}."
+            ],
+            [
+              "il che",
+              "the whole previous clause",
+              "Non {pp:ha risposto}, il che mi {ip:preoccupa}."
+            ]
+          ]
+        }
+      },
+      "Don't confuse *il che*, which sums up a whole idea, with *che*, which refers to a single noun."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Report in a closed past, shifting tenses and time words.",
+        "questions": [
+          "«Il libro {pp:è uscito}.» → {pr:Disse} che il libro [[era uscito#tp]].",
+          "«{fs:Partirò} domani.» → {pr:Disse} che [[sarebbe partito#cpa]] [[il giorno dopo]].",
+          "«{imv:Vieni} qui!» → Mi {pr:disse} di [[venire]] [[lì]].",
+          "«Che cosa {ip:vuoi}?» → Mi {pr:chiese} che cosa [[volessi|volevo#csi]].",
+          "«Ieri {im:ero} malato.» → {pr:Disse} che [[il giorno prima]] {im:era} malato."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right relative form.",
+        "questions": [
+          "Il libro [[di cui]] {im:parlavamo} {pp:è uscito}. (about which)",
+          "{ip:È} un autore [[i cui]] romanzi {ip:amo} molto. (whose, plural)",
+          "Non {pp:ha risposto}, [[il che]] mi {ip:preoccupa}. (which, the whole idea)",
+          "[[Chi]] {ip:tace} {ip:acconsente}. (whoever)",
+          "{pp:Ho fatto} [[quanto]] {im:potevo}. (all that)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does the punctuation tell you?",
+        "questions": [
+          {
+            "q": "I turisti, che {tp:avevano prenotato}, {pp:sono entrati}.",
+            "options": [
+              "*All the tourists had booked and went in.",
+              "Only some of the tourists went in."
+            ]
+          },
+          {
+            "q": "I turisti che {tp:avevano prenotato} {pp:sono entrati}.",
+            "options": [
+              "All the tourists had booked and went in.",
+              "*Only the tourists who had booked went in."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'editore",
+        "publisher"
+      ],
+      [
+        "il saggio",
+        "essay"
+      ],
+      [
+        "la citazione",
+        "quotation"
+      ],
+      [
+        "la prefazione",
+        "preface"
+      ],
+      [
+        "il manoscritto",
+        "manuscript"
+      ],
+      [
+        "l'autore",
+        "author"
+      ],
+      [
+        "citare",
+        "to quote"
+      ],
+      [
+        "rivolgersi a",
+        "to address, to turn to"
+      ],
+      [
+        "acconsentire",
+        "to consent"
+      ],
+      [
+        "attribuire",
+        "to attribute"
+      ],
+      [
+        "inedito",
+        "unpublished"
+      ],
+      [
+        "l'indomani",
+        "the next day"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il saggio",
+            "essay"
+          ],
+          [
+            "il manoscritto",
+            "manuscript"
+          ],
+          [
+            "rivolgersi a",
+            "to address, to turn to"
+          ],
+          [
+            "acconsentire",
+            "to consent"
+          ],
+          [
+            "attribuire",
+            "to attribute"
+          ],
+          [
+            "inedito",
+            "unpublished"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "La [[citazione]] {ip:è} di Dante. (quotation)",
+          "{pr:Disse} che {cpa:sarebbe tornato} l'[[indomani]]. (next day)",
+          "L'[[editore]] {pp:ha accettato} il testo. (publisher)",
+          "{pp:Ha scritto} la [[prefazione]] al romanzo. (preface)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il vecchio editore mi {pr:ricevette} nel suo studio e mi {pr:disse} che il manoscritto di cui {tp:avevamo parlato} {im:era scomparso}. {pr:Spiegò} che l'{tp:aveva affidato} a un collaboratore, il quale si {tp:era trasferito} a Parigi senza lasciare un indirizzo, il che {im:rendeva} ogni ricerca assai difficile.",
+      "Gli {pr:chiesi} se {csi:avesse} almeno una copia. {pr:Rispose} di non averne e {pr:aggiunse} che, chi l'{cst:avesse trovata}, {cpa:avrebbe avuto} tra le mani un romanzo inedito di un autore i cui libri {im:erano} ormai introvabili. L'indomani {pr:tornai} con una lettera. Mi {pr:disse} di lasciarla sul tavolo, accanto a quanto {im:restava} del suo archivio."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The manuscript had been entrusted to a collaborator.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The collaborator left a forwarding address.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The publisher had a copy of the text.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "In «il che rendeva», «il che» refers to the whole situation described.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Dora",
+        "Che cosa ti {pp:ha detto} l'editore?"
+      ],
+      [
+        "Leo",
+        "Mi {pp:ha detto} che il libro di cui {im:parlavamo} {pp:è uscito}."
+      ],
+      [
+        "Dora",
+        "Ti {pp:ha chiesto} se {cst:avessi} già {cst:letto} le bozze?"
+      ],
+      [
+        "Leo",
+        "Sì, e mi {pp:ha detto} di mandargli la prefazione."
+      ],
+      [
+        "Dora",
+        "Non mi {pp:ha} ancora {pp:risposto}, il che {ip:è} strano."
+      ],
+      [
+        "Leo",
+        "Chi {ip:lavora} con lui {ip:sa} che {ip:è} sempre in ritardo."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Il libro [[di]] cui {im:parlavamo} {pp:è uscito}.",
+          "Ti {pp:ha chiesto} se [[avessi#cst]] già {cst:letto} le bozze?",
+          "Non mi {pp:ha} ancora {pp:risposto}, [[il]] che {ip:è} strano.",
+          "[[Chi]] {ip:lavora} con lui {ip:sa} che {ip:è} sempre in ritardo."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What did the publisher ask Leo to send?",
+        "questions": [
+          {
+            "q": "Leo should send…",
+            "options": [
+              "the proofs",
+              "*the preface",
+              "a letter"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "He said that the book we were talking about had come out. (use disse)",
+            "a": [
+              "Disse che il libro di cui parlavamo era uscito."
+            ]
+          },
+          {
+            "q": "He asked me where I was. (formal, congiuntivo; use chiese)",
+            "a": [
+              "Mi chiese dove fossi."
+            ]
+          },
+          {
+            "q": "He didn't answer, which worries me.",
+            "a": [
+              "Non ha risposto, il che mi preoccupa."
+            ]
+          },
+          {
+            "q": "An author whose novels I love.",
+            "a": [
+              "Un autore i cui romanzi amo."
+            ]
+          },
+          {
+            "q": "I did all I could.",
+            "a": [
+              "Ho fatto quanto potevo.",
+              "Ho fatto tutto quello che potevo.",
+              "Ho fatto quanto ho potuto."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

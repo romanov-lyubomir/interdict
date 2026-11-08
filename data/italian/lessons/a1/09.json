@@ -1,0 +1,400 @@
+{
+  "title": "La mia casa {ip:è} più grande della tua",
+  "translation": "My house is bigger than yours",
+  "topics": "Possessives, comparisons with più, meno and come",
+  "grammar": {
+    "explain": [
+      "Possessives agree with the thing possessed, not with the owner, and they usually come with the article: *la mia famiglia, il suo libro*.",
+      {
+        "table": {
+          "head": [
+            "Owner",
+            "Masc. sing.",
+            "Fem. sing.",
+            "Masc. pl.",
+            "Fem. pl."
+          ],
+          "rows": [
+            [
+              "io",
+              "il mio",
+              "la mia",
+              "i miei",
+              "le mie"
+            ],
+            [
+              "tu",
+              "il tuo",
+              "la tua",
+              "i tuoi",
+              "le tue"
+            ],
+            [
+              "lui / lei",
+              "il suo",
+              "la sua",
+              "i suoi",
+              "le sue"
+            ],
+            [
+              "noi",
+              "il nostro",
+              "la nostra",
+              "i nostri",
+              "le nostre"
+            ],
+            [
+              "voi",
+              "il vostro",
+              "la vostra",
+              "i vostri",
+              "le vostre"
+            ],
+            [
+              "loro",
+              "il loro",
+              "la loro",
+              "i loro",
+              "le loro"
+            ]
+          ]
+        }
+      },
+      "*Suo* means both *his* and *her*: *Marco {ip:ama} la sua casa. Anna {ip:ama} la sua casa.*",
+      "With a single family member, leave out the article: *mia madre, tuo fratello*. Keep it in the plural (*i miei fratelli*) and with *loro* (*la loro madre*).",
+      "To compare two things, use *più… di* (more… than), *meno… di* (less… than) and *come* (as).",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "più + adjective + di",
+              "Roma {ip:è} più grande di Pisa.",
+              "Rome is bigger than Pisa."
+            ],
+            [
+              "meno + adjective + di",
+              "Pisa {ip:è} meno grande di Roma.",
+              "Pisa is less big than Rome."
+            ],
+            [
+              "adjective + come",
+              "Anna {ip:è} alta come Sara.",
+              "Anna is as tall as Sara."
+            ]
+          ]
+        }
+      },
+      "*Di* joins with the article: *più grande **della** tua casa, più caro **del** pane*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with the possessive in the right form, with its article.",
+        "questions": [
+          "[[il mio]] libro (io)",
+          "[[la tua]] casa (tu)",
+          "[[i suoi]] amici (lui)",
+          "[[le nostre]] chiavi (noi)",
+          "[[la vostra]] famiglia (voi)",
+          "[[i loro]] cani (loro)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "___ madre è italiana. (my)",
+            "options": [
+              "La mia",
+              "*Mia",
+              "Il mio"
+            ]
+          },
+          {
+            "q": "___ amici sono qui. (my)",
+            "options": [
+              "*I miei",
+              "Miei",
+              "I mii"
+            ]
+          },
+          {
+            "q": "Anna e ___ fratello. (her)",
+            "options": [
+              "sua",
+              "*suo",
+              "il suo"
+            ]
+          },
+          {
+            "q": "___ genitori sono giovani. (their)",
+            "options": [
+              "Loro",
+              "I suoi",
+              "*I loro"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with più, meno, di or come.",
+        "questions": [
+          "Roma {ip:è} [[più]] grande di Pisa.",
+          "Il treno {ip:è} più veloce [[dell']]autobus.",
+          "Una bicicletta {ip:è} [[meno]] cara di una macchina.",
+          "Anna {ip:è} alta [[come]] Sara.",
+          "Luca {ip:è} più giovane [[di]] Marco."
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la madre",
+        "mother"
+      ],
+      [
+        "il padre",
+        "father"
+      ],
+      [
+        "i genitori",
+        "parents"
+      ],
+      [
+        "il figlio",
+        "son"
+      ],
+      [
+        "la figlia",
+        "daughter"
+      ],
+      [
+        "il marito",
+        "husband"
+      ],
+      [
+        "la moglie",
+        "wife"
+      ],
+      [
+        "il nonno",
+        "grandfather"
+      ],
+      [
+        "la nonna",
+        "grandmother"
+      ],
+      [
+        "giovane",
+        "young"
+      ],
+      [
+        "veloce",
+        "fast"
+      ],
+      [
+        "lento",
+        "slow"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "i genitori",
+            "parents"
+          ],
+          [
+            "il figlio",
+            "son"
+          ],
+          [
+            "il marito",
+            "husband"
+          ],
+          [
+            "la moglie",
+            "wife"
+          ],
+          [
+            "veloce",
+            "fast"
+          ],
+          [
+            "giovane",
+            "young"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Mia [[madre]] si {ip:chiama} Rosa. (mother)",
+          "Il padre di mio padre {ip:è} mio [[nonno]]. (grandfather)",
+          "La [[figlia]] di Anna {ip:ha} tre anni. (daughter)",
+          "L'autobus {ip:è} [[lento]]. (slow)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "La mia famiglia {ip:è} piccola. Mio padre {ip:è} medico e mia madre {ip:è} insegnante. Mio fratello Davide {ip:è} più giovane di me: {ip:ha} diciotto anni. I miei nonni {ip:abitano} in campagna.",
+      "Il mio amico Tommaso {ip:ha} una famiglia più grande della mia: {ip:ha} tre sorelle e due fratelli. La loro casa {ip:è} molto grande, ma Tommaso {ip:preferisce} la mia, perché {ip:è} meno rumorosa della sua!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "The speaker's mother is…",
+            "options": [
+              "a doctor",
+              "*a teacher",
+              "a nurse"
+            ]
+          },
+          {
+            "q": "Davide is…",
+            "options": [
+              "*younger than the speaker",
+              "older than the speaker",
+              "the same age as the speaker"
+            ]
+          },
+          {
+            "q": "Tommaso has…",
+            "options": [
+              "three brothers",
+              "two sisters",
+              "*three sisters and two brothers"
+            ]
+          },
+          {
+            "q": "Why does Tommaso prefer the speaker's house?",
+            "options": [
+              "It is bigger",
+              "*It is less noisy",
+              "It is in the country"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Sara",
+        "{ip:È} questa la tua famiglia?"
+      ],
+      [
+        "Elena",
+        "Sì! Questa {ip:è} mia madre e questo {ip:è} mio padre."
+      ],
+      [
+        "Sara",
+        "E quelle due ragazze?"
+      ],
+      [
+        "Elena",
+        "{ip:Sono} le mie sorelle. Giada {ip:è} più alta di Marta."
+      ],
+      [
+        "Sara",
+        "Tua sorella Marta {ip:è} molto giovane!"
+      ],
+      [
+        "Elena",
+        "Sì, ma {ip:è} simpatica come Giada."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:È} questa la [[tua]] famiglia?",
+          "Questa {ip:è} [[mia]] madre.",
+          "{ip:Sono} [[le]] mie sorelle.",
+          "Giada {ip:è} più alta [[di]] Marta."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Giada is taller than Marta.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Marta is nicer than Giada.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "my family",
+            "a": [
+              "la mia famiglia"
+            ]
+          },
+          {
+            "q": "my mother",
+            "a": [
+              "mia madre"
+            ]
+          },
+          {
+            "q": "our keys",
+            "a": [
+              "le nostre chiavi"
+            ]
+          },
+          {
+            "q": "Rome is bigger than Pisa.",
+            "a": [
+              "Roma è più grande di Pisa."
+            ]
+          },
+          {
+            "q": "Your house is bigger than mine. (informal)",
+            "a": [
+              "La tua casa è più grande della mia."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

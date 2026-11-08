@@ -1,0 +1,468 @@
+{
+  "title": "Una casetta inutile, gentile signora",
+  "translation": "A useless little house, dear madam",
+  "topics": "Prefixes and suffixes, register and polite language",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Changing the meaning with an ending"
+      },
+      "Italian can add a shade of size or feeling to a word with a suffix, so a single word does the work of an adjective.",
+      {
+        "table": {
+          "head": [
+            "Suffix",
+            "Meaning",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "-ino, -etto, -ello",
+              "small, dear",
+              "tavol**ino**, cas**etta**, albero → alber**ello**"
+            ],
+            [
+              "-one",
+              "big",
+              "libr**one**, nas**one**"
+            ],
+            [
+              "-accio",
+              "bad, ugly",
+              "temp**accio**, parol**accia**"
+            ],
+            [
+              "-uccio",
+              "small and endearing",
+              "cas**uccia**, cald**uccio**"
+            ]
+          ]
+        }
+      },
+      "A feminine noun can become masculine with *-one*: *la porta → il portone*. Be careful with words that only look altered: *il bottone* isn't a big *botte*, *il lampone* is a raspberry, and *il mattone* is a brick.",
+      {
+        "h": "Changing the meaning with a prefix"
+      },
+      {
+        "table": {
+          "head": [
+            "Prefix",
+            "Meaning",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "in- (im-, il-, ir-)",
+              "not",
+              "**in**utile, **im**possibile, **il**legale, **ir**regolare"
+            ],
+            [
+              "s-",
+              "opposite, not",
+              "**s**contento, **s**fortuna"
+            ],
+            [
+              "dis-",
+              "opposite",
+              "**dis**ordine, **dis**onesto"
+            ],
+            [
+              "ri-",
+              "again",
+              "**ri**fare, **ri**leggere"
+            ],
+            [
+              "pre-",
+              "before",
+              "**pre**vedere"
+            ]
+          ]
+        }
+      },
+      "*In-* changes with the next letter, so that it is easier to say: *im-* before *p, b, m*, *il-* before *l* and *ir-* before *r*.",
+      {
+        "h": "Making new words from old ones"
+      },
+      {
+        "table": {
+          "head": [
+            "From",
+            "Ending",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Adjective → adverb",
+              "-mente",
+              "lento → lenta**mente**"
+            ],
+            [
+              "Verb → noun",
+              "-zione",
+              "spiegare → spiega**zione**"
+            ],
+            [
+              "Verb → person",
+              "-tore / -trice",
+              "scrivere → scrit**tore**, scrit**trice**"
+            ],
+            [
+              "Adjective → noun",
+              "-ità",
+              "facile → facil**ità**"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Register: choosing how formal to be"
+      },
+      "Register is the level of formality that suits the situation. Formal Italian uses *Lei* with the verb in the third person, the conditional for requests, and more precise words.",
+      {
+        "table": {
+          "head": [
+            "Informal",
+            "Formal"
+          ],
+          "rows": [
+            [
+              "Ciao!",
+              "Buongiorno. / Salve."
+            ],
+            [
+              "{ip:Puoi} aiutarmi?",
+              "{cop:Potrebbe} aiutarmi, per cortesia?"
+            ],
+            [
+              "Ti {ip:scrivo} per…",
+              "Le {ip:scrivo} per…"
+            ],
+            [
+              "Ti {ip:chiedo} scusa.",
+              "La prego di scusarmi."
+            ],
+            [
+              "dare",
+              "fornire"
+            ],
+            [
+              "dire",
+              "comunicare"
+            ],
+            [
+              "avere",
+              "disporre di"
+            ],
+            [
+              "chiedere",
+              "richiedere"
+            ]
+          ]
+        }
+      },
+      "In a formal letter, open with *Gentile Signora* or *Egregio Dottore*, and close with *Cordiali saluti* or *Distinti saluti*. *Ciao* and *un abbraccio* are for friends."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Form the word with the suffix.",
+        "questions": [
+          "una piccola casa → una [[casetta]] (-etta)",
+          "un grande libro → un [[librone]] (-one)",
+          "un brutto tempo → un [[tempaccio]] (-accio)",
+          "una piccola borsa → una [[borsetta]] (-etta)",
+          "un piccolo gatto → un [[gattino]] (-ino)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Write the opposite with the right prefix.",
+        "questions": [
+          "utile → [[inutile]]",
+          "possibile → [[impossibile]]",
+          "legale → [[illegale]]",
+          "regolare → [[irregolare]]",
+          "contento → [[scontento]]",
+          "onesto → [[disonesto]]"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which version is right for a formal email?",
+        "questions": [
+          {
+            "q": "Opening",
+            "options": [
+              "Ciao Marco,",
+              "*Gentile Dottor Rossi,",
+              "Ehi Marco!"
+            ]
+          },
+          {
+            "q": "A request",
+            "options": [
+              "Mi {ip:mandi} il file?",
+              "{imv:Mandami} il file!",
+              "*{cop:Potrebbe} inviarmi il documento?"
+            ]
+          },
+          {
+            "q": "Apologising",
+            "options": [
+              "*La prego di scusarmi.",
+              "{imv:Scusa} tanto!",
+              "Sorry!"
+            ]
+          },
+          {
+            "q": "Closing",
+            "options": [
+              "Un abbraccio",
+              "Ciao ciao",
+              "*Cordiali saluti"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la richiesta",
+        "request"
+      ],
+      [
+        "la domanda",
+        "application, question"
+      ],
+      [
+        "il curriculum",
+        "CV"
+      ],
+      [
+        "l'allegato",
+        "attachment"
+      ],
+      [
+        "l'oggetto",
+        "subject (of an email)"
+      ],
+      [
+        "la disponibilità",
+        "availability"
+      ],
+      [
+        "fornire",
+        "to provide"
+      ],
+      [
+        "comunicare",
+        "to inform"
+      ],
+      [
+        "allegare",
+        "to attach"
+      ],
+      [
+        "ringraziare",
+        "to thank"
+      ],
+      [
+        "cordiale",
+        "cordial"
+      ],
+      [
+        "in attesa di",
+        "looking forward to"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la richiesta",
+            "request"
+          ],
+          [
+            "l'allegato",
+            "attachment"
+          ],
+          [
+            "la disponibilità",
+            "availability"
+          ],
+          [
+            "fornire",
+            "to provide"
+          ],
+          [
+            "allegare",
+            "to attach"
+          ],
+          [
+            "in attesa di",
+            "looking forward to"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the formal letter.",
+        "questions": [
+          "[[Gentile]] Signora Rossi, (dear)",
+          "La [[ringrazio#ip]] per la Sua risposta. (I thank)",
+          "In allegato {ip:trova} il mio [[curriculum]]. (CV)",
+          "[[Cordiali]] saluti. (kind)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Gentile Signora Ferri, Le {ip:scrivo} in merito alla casetta che Lei {ip:affitta} in via dei Pini. {pp:Ho letto} il Suo annuncio e {cop:sarei} interessato a visitarla. Mi {ip:sono} però accorto che il giardino non {ip:è indicato} sulla planimetria che mi {ip:ha} inviato. {cop:Potrebbe} gentilmente fornirmi qualche informazione? La {ip:ringrazio} per la disponibilità. Cordiali saluti, Mario Lodi",
+      "Caro Mario, {pp:ho visto} quella casuccia di cui mi {im:parlavi}. Ti {ip:dico} la verità: {ip:è} una topaia! Il giardinetto {ip:è} pieno di erbacce e la porta non si {ip:chiude}. {imv:Lascia} perdere, {ip:è} un postaccio. Un abbraccio, Gigi"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What is Mario asking about?",
+            "options": [
+              "The rent",
+              "*The garden",
+              "The neighbours"
+            ]
+          },
+          {
+            "q": "Which text is formal?",
+            "options": [
+              "*The first",
+              "The second",
+              "Both"
+            ]
+          },
+          {
+            "q": "What does Gigi think of the house?",
+            "options": [
+              "It's a bargain",
+              "*It's a dump",
+              "It's too expensive"
+            ]
+          },
+          {
+            "q": "What does the suffix in «postaccio» express?",
+            "options": [
+              "A big place",
+              "A small place",
+              "*A nasty place"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Segretaria",
+        "Buongiorno, dottoressa. In cosa {ip:posso} esserLe utile?"
+      ],
+      [
+        "Cliente",
+        "{cop:Avrei} bisogno di un'informazione sul contratto."
+      ],
+      [
+        "Segretaria",
+        "Certamente. {cop:Potrebbe} comunicarmi il numero?"
+      ],
+      [
+        "Cliente",
+        "Sì. Le {ip:chiedo} scusa, ma non l'{ip:ho} con me."
+      ],
+      [
+        "Segretaria",
+        "Non si {ip:preoccupi}. {ip:Può} inviarcelo per email."
+      ],
+      [
+        "Cliente",
+        "La {ip:ringrazio}. Arrivederci."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Avrei#cop]] bisogno di un'informazione sul contratto.",
+          "[[Potrebbe#cop]] comunicarmi il numero?",
+          "[[Le]] {ip:chiedo} scusa.",
+          "Non si [[preoccupi#ip]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How do the speakers address each other?",
+        "questions": [
+          {
+            "q": "They use…",
+            "options": [
+              "tu",
+              "voi",
+              "*Lei"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Rewrite these sentences in formal Italian, using Lei.",
+        "questions": [
+          {
+            "q": "{ip:Puoi} aiutarmi?",
+            "a": [
+              "Potrebbe aiutarmi?",
+              "Può aiutarmi?",
+              "Mi potrebbe aiutare?"
+            ]
+          },
+          {
+            "q": "Ti {ip:scrivo} per chiederti un'informazione.",
+            "a": [
+              "Le scrivo per chiederLe un'informazione.",
+              "Le scrivo per chiederle un'informazione."
+            ]
+          },
+          {
+            "q": "Ti {ip:ringrazio}.",
+            "a": [
+              "La ringrazio."
+            ]
+          },
+          {
+            "q": "{imv:Scusami}.",
+            "a": [
+              "Mi scusi."
+            ]
+          },
+          {
+            "q": "{imv:Dimmi} quando {ip:sei} libero.",
+            "a": [
+              "Mi dica quando è libero."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

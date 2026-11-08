@@ -1,0 +1,455 @@
+{
+  "title": "{im:Speravo} che {csi:venissi}: {im:credevo} che {cst:fossi partito}",
+  "translation": "I hoped you would come: I thought you had left",
+  "topics": "All four tenses of the congiuntivo and how to choose among them",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Two questions decide the tense"
+      },
+      "First, is the main verb in the present or in the past? Second, does the action in the *che* part happen at the same time or earlier? The answers lead to one of four tenses.",
+      {
+        "table": {
+          "head": [
+            "Main verb",
+            "Same time or later",
+            "Earlier"
+          ],
+          "rows": [
+            [
+              "Present: {ip:Spero} che…",
+              "tu {csp:venga}",
+              "tu {csa:sia venuto}"
+            ],
+            [
+              "Past: {im:Speravo} che…",
+              "tu {csi:venissi}",
+              "tu {cst:fossi venuto}"
+            ],
+            [
+              "Conditional: {cop:Vorrei} che…",
+              "tu {csi:venissi}",
+              "tu {cst:fossi venuto}"
+            ]
+          ]
+        }
+      },
+      "The conditional behaves like a past tense, so *{cop:Vorrei} che tu {csp:venga}* is wrong. The same holds for its past: *{cpa:Avrei voluto} che tu {csi:venissi}*.",
+      {
+        "h": "After the main verb in the past: a future"
+      },
+      "When the *che* part is future in relation to a past main verb, you can use the *congiuntivo imperfetto* or the *condizionale passato*: *{im:Credevo} che {csi:venisse}* or *{im:Credevo} che {cpa:sarebbe venuto}*. The second one makes the future meaning clearer.",
+      {
+        "h": "Where the congiuntivo appears"
+      },
+      {
+        "table": {
+          "head": [
+            "After",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Opinion, doubt",
+              "{ip:Penso} che {csp:sia} utile."
+            ],
+            [
+              "Wish",
+              "{cop:Vorrei} che {csi:fosse} qui."
+            ],
+            [
+              "Emotion",
+              "Mi {ip:dispiace} che tu {csa:sia partito}."
+            ],
+            [
+              "Necessity",
+              "{ip:È} necessario che tu {csp:venga}."
+            ],
+            [
+              "A negated fact",
+              "Non {ip:è} vero che {csa:sia partito}."
+            ],
+            [
+              "A superlative",
+              "{ip:È} il film più bello che {csa:abbia visto}."
+            ],
+            [
+              "A sought person or thing",
+              "{ip:Cerco} qualcuno che {csp:parli} russo."
+            ],
+            [
+              "Whoever, whatever",
+              "Chiunque {csp:sia}, non aprire."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Indicative or congiuntivo?"
+      },
+      "The choice can change the meaning. The indicative presents a fact and the *congiuntivo* something that isn't certain.",
+      {
+        "table": {
+          "head": [
+            "Indicative: it exists",
+            "Congiuntivo: I hope it exists"
+          ],
+          "rows": [
+            [
+              "{ip:Conosco} una persona che {ip:parla} russo.",
+              "{ip:Cerco} una persona che {csp:parli} russo."
+            ],
+            [
+              "So che è arrivato.",
+              "Non so se sia arrivato."
+            ]
+          ]
+        }
+      },
+      "After *non {ip:so} se*, both are possible: *Non {ip:so} se {pp:è arrivato}* is simply less formal."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right tense of the congiuntivo.",
+        "questions": [
+          {
+            "q": "{ip:Spero} che tu ___ domani.",
+            "options": [
+              "*{imv:venga}",
+              "{csi:venissi}",
+              "{cst:fossi venuto}"
+            ]
+          },
+          {
+            "q": "{im:Speravo} che tu ___ ieri.",
+            "options": [
+              "{imv:venga}",
+              "*{csi:venissi}",
+              "{csa:sia venuto}"
+            ]
+          },
+          {
+            "q": "{ip:Credo} che Anna ___ ieri.",
+            "options": [
+              "{csp:parta}",
+              "{csi:partisse}",
+              "*{csa:sia partita}"
+            ]
+          },
+          {
+            "q": "{im:Credevo} che Anna ___ il giorno prima.",
+            "options": [
+              "{csp:parta}",
+              "{csa:sia partita}",
+              "*{cst:fosse partita}"
+            ]
+          },
+          {
+            "q": "{cop:Vorrei} che voi ___ qui adesso.",
+            "options": [
+              "{csp:siate}",
+              "*{csi:foste}",
+              "{cst:foste stati}"
+            ]
+          },
+          {
+            "q": "{ip:È} il libro più bello che io ___ .",
+            "options": [
+              "{pp:ho letto}",
+              "*{csa:abbia letto}",
+              "{csi:leggessi}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the right tense of the congiuntivo.",
+        "questions": [
+          "{ip:Penso} che Marco [[abbia#csp]] ragione. (avere, now)",
+          "{im:Pensavo} che Marco [[avesse#csi]] ragione. (avere, then)",
+          "Mi {ip:dispiace} che voi non [[siate venuti#csa]]. (venire, earlier – a group of men)",
+          "Non {im:sapevo} che lei [[fosse tornata#cst]]. (tornare, earlier)",
+          "{cop:Vorrei} che tu mi [[ascoltassi#csi]]. (ascoltare)",
+          "{ip:Cerco} un collega che [[sappia#csp]] il tedesco. (sapere)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Indicative or congiuntivo?",
+        "questions": [
+          {
+            "q": "So che Luca ___ qui.",
+            "options": [
+              "*{ip:abita}",
+              "{ip:abiti}"
+            ]
+          },
+          {
+            "q": "Non {ip:è} vero che Luca ___ qui.",
+            "options": [
+              "{ip:abita}",
+              "*{ip:abiti}"
+            ]
+          },
+          {
+            "q": "{ip:Ho} un amico che ___ il cinese.",
+            "options": [
+              "*{ip:parla}",
+              "{ip:parli}"
+            ]
+          },
+          {
+            "q": "{ip:Cerchiamo} un'assistente che ___ il cinese.",
+            "options": [
+              "{ip:parla}",
+              "*{ip:parli}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'aspettativa",
+        "expectation"
+      ],
+      [
+        "la delusione",
+        "disappointment"
+      ],
+      [
+        "il rimprovero",
+        "reproach"
+      ],
+      [
+        "la nostalgia",
+        "homesickness, nostalgia"
+      ],
+      [
+        "l'equivoco",
+        "misunderstanding"
+      ],
+      [
+        "aspettarsi",
+        "to expect"
+      ],
+      [
+        "deludere",
+        "to disappoint"
+      ],
+      [
+        "illudersi",
+        "to fool oneself"
+      ],
+      [
+        "rimproverare",
+        "to reproach"
+      ],
+      [
+        "pretendere",
+        "to demand"
+      ],
+      [
+        "inaspettato",
+        "unexpected"
+      ],
+      [
+        "chiunque",
+        "whoever"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'aspettativa",
+            "expectation"
+          ],
+          [
+            "la delusione",
+            "disappointment"
+          ],
+          [
+            "deludere",
+            "to disappoint"
+          ],
+          [
+            "illudersi",
+            "to fool oneself"
+          ],
+          [
+            "pretendere",
+            "to demand"
+          ],
+          [
+            "inaspettato",
+            "unexpected"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Non mi [[aspettavo#im]] una cosa simile. (expected)",
+          "{pp:È stato} un [[equivoco]]. (misunderstanding)",
+          "[[Chiunque]] {csp:venga}, {imv:digli} che non ci {ip:sono}. (whoever)",
+          "Non mi {ip:devi} [[rimproverare]]. (to reproach)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Cara Giovanna, ti {ip:scrivo} perché {cop:vorrei} che tu {csi:sapessi} la verità. Quando {pp:sei partita}, {im:credevo} che {cst:fossi arrabbiata} con me e {pp:ho pensato} che non {csi:volessi} più vedermi. {im:Speravo} che mi {csi:telefonassi}, ma non l'{pp:hai fatto}.",
+      "Solo adesso {pp:ho scoperto} che ti {tp:avevano detto} che {tp:ero partito} anch'io. Mi {ip:dispiace} che tu {csa:abbia creduto} a quella storia. {ip:È} la cosa più triste che mi {csa:sia capitata}. Non {ip:pretendo} che tu mi {csp:perdoni} subito, ma {ip:spero} che tu {csp:possa} leggere queste righe senza rabbia. Tuo, Andrea"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What did Andrea think when Giovanna left?",
+            "options": [
+              "*That she was angry with him",
+              "That she was ill",
+              "That she would be back soon"
+            ]
+          },
+          {
+            "q": "What was Giovanna told?",
+            "options": [
+              "That Andrea had married",
+              "*That Andrea had left too",
+              "That Andrea was angry"
+            ]
+          },
+          {
+            "q": "What does Andrea hope?",
+            "options": [
+              "That she will come back tomorrow",
+              "That she will phone at once",
+              "*That she can read the letter without anger"
+            ]
+          },
+          {
+            "q": "Why does the letter use the congiuntivo so much?",
+            "options": [
+              "Because it is about the future",
+              "*Because it expresses feelings, hopes and beliefs",
+              "Because it is very informal"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Irma",
+        "Ma come? {im:Credevo} che {cst:fossi partito}!"
+      ],
+      [
+        "Bruno",
+        "{pp:Ho perso} l'aereo. {im:Pensavo} che te l'{cst:avesse detto} Luca."
+      ],
+      [
+        "Irma",
+        "No. {im:Speravo} tanto che {csi:venissi} alla festa."
+      ],
+      [
+        "Bruno",
+        "Mi {ip:dispiace} che tu {csa:abbia aspettato}."
+      ],
+      [
+        "Irma",
+        "Non {ip:importa}. {cop:Vorrei} solo che mi {csi:avvisassi} la prossima volta."
+      ],
+      [
+        "Bruno",
+        "Promesso. {ip:È} la cosa minima che io {csp:possa} fare."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{im:Credevo} che [[fossi#cst]] {cst:partito}!",
+          "{im:Pensavo} che te l'[[avesse#cst]] {cst:detto} Luca.",
+          "{im:Speravo} tanto che [[venissi#csi]] alla festa.",
+          "{ip:È} la cosa minima che io [[possa#csp]] fare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why is Bruno still there?",
+        "questions": [
+          {
+            "q": "Bruno…",
+            "options": [
+              "changed his mind",
+              "*missed his plane",
+              "was waiting for Luca"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I hoped you would come. (informal)",
+            "a": [
+              "Speravo che venissi.",
+              "Speravo che tu venissi."
+            ]
+          },
+          {
+            "q": "I thought you had left. (informal, to a man)",
+            "a": [
+              "Credevo che fossi partito.",
+              "Pensavo che fossi partito.",
+              "Credevo che tu fossi partito."
+            ]
+          },
+          {
+            "q": "I'm sorry you waited. (informal)",
+            "a": [
+              "Mi dispiace che tu abbia aspettato."
+            ]
+          },
+          {
+            "q": "It's the most beautiful film I have seen.",
+            "a": [
+              "È il film più bello che abbia visto.",
+              "È il film più bello che io abbia visto."
+            ]
+          },
+          {
+            "q": "I'm looking for someone who speaks Russian.",
+            "a": [
+              "Cerco qualcuno che parli russo.",
+              "Cerco una persona che parli russo."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

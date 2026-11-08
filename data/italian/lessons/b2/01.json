@@ -1,0 +1,506 @@
+{
+  "title": "Quando {pp:sono arrivato}, Maria {tp:era} già {tp:partita}",
+  "translation": "When I arrived, Maria had already left",
+  "topics": "Choosing among the past tenses, the passato remoto, sequence of events in the past",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Four past tenses, four points of view"
+      },
+      "You know all these forms. At this level, the question is which one fits what you want to say.",
+      {
+        "table": {
+          "head": [
+            "Tense",
+            "Point of view",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Passato prossimo",
+              "A finished event, still connected to the present",
+              "{pp:Ho perso} le chiavi."
+            ],
+            [
+              "Imperfetto",
+              "Background, habit, something in progress",
+              "{im:Pioveva} e tutti {im:correvano}."
+            ],
+            [
+              "Trapassato prossimo",
+              "An event before another past event",
+              "Maria {tp:era} già {tp:partita}."
+            ],
+            [
+              "Passato remoto",
+              "A finished event, cut off from the present",
+              "Dante {pr:nacque} nel 1265."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Passato prossimo or passato remoto?"
+      },
+      "The difference is psychological rather than a matter of time. *Mio nonno {pp:è morto} trent'anni fa* suggests that it still touches me. *Mio nonno {pr:morì} trent'anni fa* tells it as closed history. In writing, the *passato remoto* is the tense of novels and history. In speech it depends on the region: it's rare in the North and common in parts of the South.",
+      {
+        "h": "Forming the passato remoto"
+      },
+      {
+        "table": {
+          "head": [
+            "",
+            "parlare",
+            "credere",
+            "dormire"
+          ],
+          "rows": [
+            [
+              "io",
+              "{pr:parl**ai**}",
+              "{pr:cred**ei**} / {pr:cred**etti**}",
+              "{pr:dorm**ii**}"
+            ],
+            [
+              "tu",
+              "{pr:parl**asti**}",
+              "{pr:cred**esti**}",
+              "{pr:dorm**isti**}"
+            ],
+            [
+              "lui / lei",
+              "{pr:parl**ò**}",
+              "{pr:cred**é**} / {pr:cred**ette**}",
+              "{pr:dorm**ì**}"
+            ],
+            [
+              "noi",
+              "{pr:parl**ammo**}",
+              "{pr:cred**emmo**}",
+              "{pr:dorm**immo**}"
+            ],
+            [
+              "voi",
+              "{csi:parl**aste**}",
+              "{csi:cred**este**}",
+              "{csi:dorm**iste**}"
+            ],
+            [
+              "loro",
+              "{pr:parl**arono**}",
+              "{pr:cred**erono**} / {pr:cred**ettero**}",
+              "{pr:dorm**irono**}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The 1-3-3 rule for irregular verbs"
+      },
+      "Most irregular verbs are irregular only in the first person singular and in the third persons, singular and plural. The rest is regular.",
+      {
+        "table": {
+          "head": [
+            "",
+            "scrivere",
+            "avere",
+            "fare",
+            "dire"
+          ],
+          "rows": [
+            [
+              "io",
+              "{pr:**scrissi**}",
+              "{pr:**ebbi**}",
+              "{pr:**feci**}",
+              "{pr:**dissi**}"
+            ],
+            [
+              "tu",
+              "{pr:scrivesti}",
+              "{pr:avesti}",
+              "{pr:facesti}",
+              "{pr:dicesti}"
+            ],
+            [
+              "lui / lei",
+              "{pr:**scrisse**}",
+              "{pr:**ebbe**}",
+              "{pr:**fece**}",
+              "{pr:**disse**}"
+            ],
+            [
+              "noi",
+              "{pr:scrivemmo}",
+              "{pr:avemmo}",
+              "{pr:facemmo}",
+              "{pr:dicemmo}"
+            ],
+            [
+              "voi",
+              "{csi:scriveste}",
+              "{csi:aveste}",
+              "{csi:faceste}",
+              "{csi:diceste}"
+            ],
+            [
+              "loro",
+              "{pr:**scrissero**}",
+              "{pr:**ebbero**}",
+              "{pr:**fecero**}",
+              "{pr:**dissero**}"
+            ]
+          ]
+        }
+      },
+      "*Essere* is completely irregular: *{pr:fui}, {pr:fosti}, {pr:fu}, {pr:fummo}, {pr:foste}, {pr:furono}*.",
+      {
+        "h": "Before, during, after in the past"
+      },
+      "Once the main event is in the past, the other verbs place themselves in relation to it.",
+      {
+        "table": {
+          "head": [
+            "Relation to the main event",
+            "Tense",
+            "Example: Sapevo che Maria…"
+          ],
+          "rows": [
+            [
+              "Before it",
+              "Trapassato prossimo",
+              "{tp:era partita}."
+            ],
+            [
+              "At the same time",
+              "Imperfetto",
+              "{im:partiva} quel giorno."
+            ],
+            [
+              "After it",
+              "Condizionale passato",
+              "{cpa:sarebbe partita}."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the tense that fits the point of view.",
+        "questions": [
+          {
+            "q": "Quando {pp:sono arrivato}, Maria ___ già.",
+            "options": [
+              "*{tp:era partita}",
+              "{im:partiva}",
+              "{pr:partì}"
+            ]
+          },
+          {
+            "q": "Michelangelo ___ a Caprese nel 1475.",
+            "options": [
+              "{tp:era nato}",
+              "*{pr:nacque}",
+              "{im:nasceva}"
+            ]
+          },
+          {
+            "q": "Da piccolo ___ sempre in montagna.",
+            "options": [
+              "{pp:sono andato}",
+              "*{im:andavo}",
+              "{tp:ero andato}"
+            ]
+          },
+          {
+            "q": "{im:Sapevo} che Luca ___ il giorno dopo. (later)",
+            "options": [
+              "{pp:è partito}",
+              "{tp:era partito}",
+              "*{cpa:sarebbe partito}"
+            ]
+          },
+          {
+            "q": "{pp:Ho capito} che Anna ___ . (earlier)",
+            "options": [
+              "{cpa:sarebbe uscita}",
+              "*{tp:era uscita}",
+              "{ip:esce}"
+            ]
+          },
+          {
+            "q": "Mentre ___ , {pp:è suonato} il telefono.",
+            "options": [
+              "*{im:cenavamo}",
+              "{pp:abbiamo cenato}",
+              "{tp:avevamo cenato}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the passato remoto.",
+        "questions": [
+          "Garibaldi [[partì#pr]] da Quarto nel 1860. (partire)",
+          "I soldati [[combatterono]] tutta la notte. (combattere)",
+          "Allora io [[dissi#pr]] la verità. (dire)",
+          "Manzoni [[scrisse#pr]] I promessi sposi. (scrivere)",
+          "Quel giorno loro [[ebbero#pr]] paura. (avere)",
+          "La guerra [[fu#pr]] lunga. (essere)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the sequence of events in the past.",
+        "questions": [
+          "Non {im:avevo} fame perché [[avevo già pranzato#im]]. (già, pranzare)",
+          "Marco mi {pp:ha detto} che [[sarebbe arrivato#cpa]] alle otto. (arrivare, later)",
+          "Quando l'{pp:ho incontrata}, [[portava#im]] un cappotto rosso. (portare, background)",
+          "{pp:Ho scoperto} che i miei amici [[erano partiti#tp]] senza di me. (partire, earlier)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la vicenda",
+        "story, affair"
+      ],
+      [
+        "l'avvenimento",
+        "event"
+      ],
+      [
+        "il ricordo",
+        "memory"
+      ],
+      [
+        "la guerra",
+        "war"
+      ],
+      [
+        "il protagonista",
+        "main character"
+      ],
+      [
+        "l'epoca",
+        "era"
+      ],
+      [
+        "ricostruire",
+        "to reconstruct"
+      ],
+      [
+        "narrare",
+        "to narrate"
+      ],
+      [
+        "svolgersi",
+        "to take place"
+      ],
+      [
+        "risalire a",
+        "to date back to"
+      ],
+      [
+        "all'epoca",
+        "at the time"
+      ],
+      [
+        "in seguito",
+        "subsequently"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la vicenda",
+            "story, affair"
+          ],
+          [
+            "l'avvenimento",
+            "event"
+          ],
+          [
+            "narrare",
+            "to narrate"
+          ],
+          [
+            "svolgersi",
+            "to take place"
+          ],
+          [
+            "risalire a",
+            "to date back to"
+          ],
+          [
+            "in seguito",
+            "subsequently"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "La storia si [[svolge#ip]] a Venezia. (takes place)",
+          "{ip:Ho} un bel [[ricordo]] di quell'estate. (memory)",
+          "[[All'epoca]] non c'{im:era} internet. (at the time)",
+          "Il [[protagonista]] del romanzo {ip:è} un medico. (main character)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Quando {pr:arrivai} a Trieste, nell'autunno del 1962, mia zia {tp:aveva} già {tp:venduto} la casa di famiglia. Non lo {im:sapevo}: nessuno me l'{tp:aveva scritto}. {im:Pioveva}, la città {im:era} grigia e io non {im:avevo} un posto dove dormire. Mi {pr:fermai} in un caffè vicino al porto.",
+      "Un vecchio signore, che mi {im:guardava} da un po', si {pr:avvicinò} e mi {pr:chiese} se {im:ero} il nipote della signora Bianchi. Mi {pr:disse} che lei si {tp:era trasferita} a Udine e che {cpa:sarebbe tornata} la settimana dopo. {pp:Sono passati} sessant'anni, e {ip:ricordo} ancora il suo sorriso. Quella sera non {pp:ho} più {pp:avuto} paura."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What had the aunt done?",
+            "options": [
+              "Written a letter",
+              "*Sold the family house",
+              "Moved to Trieste"
+            ]
+          },
+          {
+            "q": "What was the weather like?",
+            "options": [
+              "Sunny",
+              "*Rainy",
+              "Snowy"
+            ]
+          },
+          {
+            "q": "Where had the aunt gone?",
+            "options": [
+              "*To Udine",
+              "To the port",
+              "To Venice"
+            ]
+          },
+          {
+            "q": "The passato prossimo at the end shows that…",
+            "options": [
+              "the story is invented",
+              "the events happened yesterday",
+              "*the memory is still alive for the narrator"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Nora",
+        "{pp:Sei} poi {pp:riuscito} a vedere Maria?"
+      ],
+      [
+        "Elio",
+        "No. Quando {pp:sono arrivato}, {tp:era} già {tp:partita}."
+      ],
+      [
+        "Nora",
+        "Ma non ti {tp:aveva detto} che {cpa:sarebbe rimasta} fino a lunedì?"
+      ],
+      [
+        "Elio",
+        "Sì, ma suo padre si {tp:era sentito} male e {pp:ha dovuto} tornare."
+      ],
+      [
+        "Nora",
+        "Mi {ip:dispiace}. E tu che cosa {pp:hai fatto}?"
+      ],
+      [
+        "Elio",
+        "Mentre {im:tornavo} in stazione, {pp:ho incontrato} suo fratello, che mi {pp:ha spiegato} tutto."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Quando {pp:sono arrivato}, [[era#tp]] già {tp:partita}.",
+          "Non ti {tp:aveva detto} che [[sarebbe#cpa]] {cpa:rimasta} fino a lunedì?",
+          "Suo padre si [[era#tp]] {tp:sentito} male.",
+          "Mentre [[tornavo#im]] in stazione, {pp:ho incontrato} suo fratello."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why did Maria leave early?",
+        "questions": [
+          {
+            "q": "Maria left because…",
+            "options": [
+              "she had argued with Elio",
+              "*her father had been taken ill",
+              "her brother had called her"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "When I arrived, Maria had already left. (a man speaking)",
+            "a": [
+              "Quando sono arrivato, Maria era già partita."
+            ]
+          },
+          {
+            "q": "I knew he would arrive late.",
+            "a": [
+              "Sapevo che sarebbe arrivato tardi.",
+              "Io sapevo che sarebbe arrivato tardi."
+            ]
+          },
+          {
+            "q": "It was raining and I had no umbrella.",
+            "a": [
+              "Pioveva e non avevo l'ombrello.",
+              "Pioveva e non avevo un ombrello."
+            ]
+          },
+          {
+            "q": "Dante wrote the Divine Comedy. (passato remoto)",
+            "a": [
+              "Dante scrisse la Divina Commedia."
+            ]
+          },
+          {
+            "q": "I found out they had left without me.",
+            "a": [
+              "Ho scoperto che erano partiti senza di me.",
+              "Ho scoperto che se ne erano andati senza di me."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

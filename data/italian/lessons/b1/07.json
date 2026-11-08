@@ -1,0 +1,464 @@
+{
+  "title": "Me lo {imv:dia}, per favore: glielo {ip:spiego} io",
+  "translation": "Give it to me, please: I'll explain it to him",
+  "topics": "Combined pronouns, the formal imperative",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Two pronouns together"
+      },
+      "When a verb has an indirect and a direct pronoun, the indirect one comes first. It changes slightly: its *-i* becomes *-e*, and *gli* or *le* both become *glie-*, written as one word with the next pronoun.",
+      {
+        "table": {
+          "head": [
+            "Indirect",
+            "+ lo",
+            "+ la",
+            "+ li",
+            "+ le",
+            "+ ne"
+          ],
+          "rows": [
+            [
+              "mi",
+              "m**e** lo",
+              "m**e** la",
+              "m**e** li",
+              "m**e** le",
+              "m**e** ne"
+            ],
+            [
+              "ti",
+              "t**e** lo",
+              "t**e** la",
+              "t**e** li",
+              "t**e** le",
+              "t**e** ne"
+            ],
+            [
+              "gli / le",
+              "**glie**lo",
+              "**glie**la",
+              "**glie**li",
+              "**glie**le",
+              "**glie**ne"
+            ],
+            [
+              "ci",
+              "c**e** lo",
+              "c**e** la",
+              "c**e** li",
+              "c**e** le",
+              "c**e** ne"
+            ],
+            [
+              "vi",
+              "v**e** lo",
+              "v**e** la",
+              "v**e** li",
+              "v**e** le",
+              "v**e** ne"
+            ]
+          ]
+        }
+      },
+      "Since *glielo* covers both *to him* and *to her*, only the context tells you which one is meant.",
+      {
+        "table": {
+          "head": [
+            "Sentence",
+            "With pronouns"
+          ],
+          "rows": [
+            [
+              "Ti {ip:dico} il segreto.",
+              "Te lo {ip:dico}."
+            ],
+            [
+              "{ip:Do} il libro a Marco.",
+              "Glielo {ip:do}."
+            ],
+            [
+              "{ip:Do} la lettera ad Anna.",
+              "Gliela {ip:do}."
+            ],
+            [
+              "Ci {imv:porti} due caffè.",
+              "Ce ne {imv:porti} due."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Where they go"
+      },
+      "They follow the same rules as single pronouns. They stand before a conjugated verb and attach to an infinitive: *Te lo {ip:voglio} dire* or *{ip:Voglio} dirtelo*. In the *passato prossimo* the participle agrees with *lo, la, li, le*: *Te l'{pp:ho dett**o**}. Gliel'{pp:ho dat**a**}.*",
+      {
+        "h": "The formal imperative"
+      },
+      "To address someone as *Lei*, the endings swap, as in the *congiuntivo*: *-are* verbs take *-i*, and *-ere* and *-ire* verbs take *-a*.",
+      {
+        "table": {
+          "head": [
+            "Infinitive",
+            "tu",
+            "Lei"
+          ],
+          "rows": [
+            [
+              "parlare",
+              "{imv:parl**a**}!",
+              "{imv:parl**i**}!"
+            ],
+            [
+              "prendere",
+              "{imv:prend**i**}!",
+              "{imv:prend**a**}!"
+            ],
+            [
+              "sentire",
+              "{imv:sent**i**}!",
+              "{imv:sent**a**}!"
+            ],
+            [
+              "finire",
+              "{imv:fin**isci**}!",
+              "{imv:fin**isca**}!"
+            ]
+          ]
+        }
+      },
+      "Irregular forms come from the *io* form of the present: *{ip:vengo} → {csp:venga}, {ip:faccio} → {csp:faccia}, {ip:dico} → {csp:dica}, {ip:vado} → {csp:vada}, {ip:esco} → {csp:esca}*. Also *essere → {csp:sia}*, *avere → {csp:abbia}*, *dare → {csp:dia}*, *stare → {csp:stia}*.",
+      {
+        "h": "Pronouns in commands"
+      },
+      "With *Lei*, pronouns always come before the verb. With *tu*, they are attached to it.",
+      {
+        "table": {
+          "head": [
+            "tu",
+            "Lei"
+          ],
+          "rows": [
+            [
+              "{imv:Dimmi}!",
+              "Mi {imv:dica}!"
+            ],
+            [
+              "{imv:Dammelo}!",
+              "Me lo {imv:dia}!"
+            ],
+            [
+              "{imv:Alzati}!",
+              "Si {imv:alzi}!"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Replace the words with combined pronouns.",
+        "questions": [
+          "Ti {ip:dico} il segreto. → [[Te lo]] {ip:dico}.",
+          "Mi {ip:dai} le chiavi? → [[Me le]] {ip:dai}?",
+          "{ip:Do} il libro a Marco. → [[Glielo]] {ip:do}.",
+          "{ip:Spiego} la regola ad Anna. → [[Gliela]] {ip:spiego}.",
+          "Vi {ip:mando} i documenti. → [[Ve li]] {ip:mando}.",
+          "Ci {ip:porta} due caffè. → [[Ce ne]] {ip:porta} due."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Write the formal imperative (Lei).",
+        "questions": [
+          "[[Parli#imv]] piano, per favore. (parlare)",
+          "[[Prenda#imv]] l'autobus. (prendere)",
+          "[[Senta#imv]], {imv:scusi}! (sentire)",
+          "[[Venga#imv]] qui! (venire)",
+          "[[Faccia#imv]] attenzione! (fare)",
+          "Mi [[dica#imv]]! (dire)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Give it to me! (to a friend, a book)",
+            "options": [
+              "*{imv:Dammelo}!",
+              "Me lo {imv:dia}!",
+              "Me lo {imv:dai}!"
+            ]
+          },
+          {
+            "q": "Give it to me! (to a customer, a book)",
+            "options": [
+              "{imv:Dammelo}!",
+              "*Me lo {imv:dia}!",
+              "{imv:Dia} melo!"
+            ]
+          },
+          {
+            "q": "Voglio ___ . (say it to you)",
+            "options": [
+              "te lo dire",
+              "*dirtelo",
+              "dire telo"
+            ]
+          },
+          {
+            "q": "{pp:Hai dato} la lettera ad Anna? Sì, ___ .",
+            "options": [
+              "*gliel'{pp:ho data}",
+              "le l'{pp:ho data}",
+              "gliel'{pp:ho dato}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il documento",
+        "document"
+      ],
+      [
+        "il modulo",
+        "form"
+      ],
+      [
+        "la firma",
+        "signature"
+      ],
+      [
+        "la ricevuta",
+        "receipt"
+      ],
+      [
+        "lo sportello",
+        "counter"
+      ],
+      [
+        "l'impiegato",
+        "clerk"
+      ],
+      [
+        "compilare",
+        "to fill in"
+      ],
+      [
+        "firmare",
+        "to sign"
+      ],
+      [
+        "consegnare",
+        "to hand in"
+      ],
+      [
+        "ritirare",
+        "to collect"
+      ],
+      [
+        "restituire",
+        "to give back"
+      ],
+      [
+        "aspetti",
+        "wait (polite)"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il modulo",
+            "form"
+          ],
+          [
+            "la firma",
+            "signature"
+          ],
+          [
+            "la ricevuta",
+            "receipt"
+          ],
+          [
+            "lo sportello",
+            "counter"
+          ],
+          [
+            "compilare",
+            "to fill in"
+          ],
+          [
+            "restituire",
+            "to give back"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Deve} [[firmare]] qui. (to sign)",
+          "{pp:Ho perso} un [[documento]]. (document)",
+          "{ip:Devo} [[consegnare]] questo modulo. (to hand in)",
+          "L'[[impiegato]] {ip:è} molto gentile. (clerk)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Ieri {pp:sono andata} in posta a ritirare un pacco. L'impiegato mi {pp:ha chiesto} il documento e io gliel'{pp:ho dato}. Poi mi {pp:ha detto}: «{imv:Compili} questo modulo e lo {ip:firmi} qui, per favore.» Non {im:capivo} una domanda e gliel'{pp:ho chiesto}.",
+      "Lui me l'{pp:ha spiegata} con pazienza. Alla fine mi {pp:ha restituito} il documento: «Eccolo. Se lo {imv:metta} in borsa, signora, e non lo {csp:perda}!» {pp:Ho ritirato} il pacco e l'{pp:ho portato} a mia figlia. Gliel'{tp:aveva mandato} sua zia."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Why did she go to the post office?",
+            "options": [
+              "To send a letter",
+              "*To collect a parcel",
+              "To pay a bill"
+            ]
+          },
+          {
+            "q": "What did the clerk ask her to do?",
+            "options": [
+              "*Fill in and sign a form",
+              "Come back later",
+              "Pay ten euros"
+            ]
+          },
+          {
+            "q": "How was the clerk?",
+            "options": [
+              "Rude",
+              "In a hurry",
+              "*Patient"
+            ]
+          },
+          {
+            "q": "Who sent the parcel?",
+            "options": [
+              "Her mother",
+              "*Her daughter's aunt",
+              "The clerk"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Impiegata",
+        "Buongiorno, mi {csp:dica}."
+      ],
+      [
+        "Cliente",
+        "{ip:Devo} rinnovare il passaporto."
+      ],
+      [
+        "Impiegata",
+        "{ip:Ha} il vecchio documento? Me lo {imv:dia}, per favore."
+      ],
+      [
+        "Cliente",
+        "Eccolo. Glielo {ip:lascio} qui?"
+      ],
+      [
+        "Impiegata",
+        "Sì. {imv:Compili} questo modulo e me lo {ip:porti} allo sportello due."
+      ],
+      [
+        "Cliente",
+        "{ip:Va} bene, grazie. Glielo {ip:porto} subito."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Buongiorno, mi [[dica#csp]].",
+          "[[Me lo]] {imv:dia}, per favore.",
+          "[[Compili#imv]] questo modulo.",
+          "[[Glielo]] {ip:porto} subito."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Where should the customer take the form?",
+        "questions": [
+          {
+            "q": "To…",
+            "options": [
+              "the first counter",
+              "*counter two",
+              "the manager"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I'll tell it to you tomorrow. (informal)",
+            "a": [
+              "Te lo dico domani.",
+              "Domani te lo dico.",
+              "Te lo dirò domani."
+            ]
+          },
+          {
+            "q": "I'm giving it to him. (a book)",
+            "a": [
+              "Glielo do.",
+              "Io glielo do."
+            ]
+          },
+          {
+            "q": "Give it to me, please. (polite, a book)",
+            "a": [
+              "Me lo dia, per favore."
+            ]
+          },
+          {
+            "q": "Tell me! (polite)",
+            "a": [
+              "Mi dica!"
+            ]
+          },
+          {
+            "q": "I want to explain it to you. (informal, a rule, la regola)",
+            "a": [
+              "Voglio spiegartela.",
+              "Te la voglio spiegare."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

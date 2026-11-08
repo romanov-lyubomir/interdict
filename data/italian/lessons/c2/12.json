@@ -1,0 +1,540 @@
+{
+  "title": "A me mi {ip:piace}: si {ip:dice} o non si {ip:dice}?",
+  "translation": "«To me I like it»: can you say that or not?",
+  "topics": "Recognising regional, historical and genre variation",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Understanding is not the same as using"
+      },
+      "A very advanced speaker can understand variation and can say whether a form is regional, old-fashioned or typical of a genre. The aim here is to recognise these forms and to keep them apart from the neutral standard.",
+      {
+        "h": "Regional variation"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Where",
+            "Standard"
+          ],
+          "rows": [
+            [
+              "La Maria {pp:è uscita}.",
+              "North: article with names",
+              "Maria {pp:è uscita}."
+            ],
+            [
+              "Ho mangiato (for all pasts)",
+              "North",
+              "the choice of tense varies"
+            ],
+            [
+              "{pr:Mangiai} ieri.",
+              "South: passato remoto in speech",
+              "{pp:Ho mangiato} ieri."
+            ],
+            [
+              "{ip:Tengo} fame.",
+              "South: tenere for avere",
+              "{ip:Ho} fame."
+            ],
+            [
+              "{ip:Sto} a casa.",
+              "Centre and South: stare for essere",
+              "{ip:Sono} a casa."
+            ],
+            [
+              "{ip:Sto} a mangiare.",
+              "Rome",
+              "{ip:Sto} mangiando."
+            ],
+            [
+              "Noi si {ip:va}.",
+              "Tuscany",
+              "Noi {ip:andiamo}."
+            ],
+            [
+              "Mo' {ip:vengo}.",
+              "Centre and South",
+              "{ip:Vengo} subito."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Spoken forms that are spreading"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Status",
+            "Formal writing"
+          ],
+          "rows": [
+            [
+              "A me mi {ip:piace}.",
+              "very common for emphasis",
+              "A me {ip:piace}."
+            ],
+            [
+              "Gli ho detto (to her)",
+              "colloquial",
+              "Le {pp:ho detto}."
+            ],
+            [
+              "Il giorno che ti {pp:ho visto}",
+              "common, often accepted",
+              "Il giorno in cui ti {pp:ho visto}"
+            ],
+            [
+              "Te {ip:vieni}?",
+              "regional: te as a subject",
+              "Tu {ip:vieni}?"
+            ],
+            [
+              "Se lo {im:sapevo}, {im:venivo}.",
+              "conversational",
+              "Se l'{cst:avessi saputo}, {cpa:sarei venuto}."
+            ],
+            [
+              "Cosa {ip:fai}?",
+              "standard now",
+              "Che cosa {ip:fai}?"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Old forms you will meet in books"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Meaning",
+            "Today"
+          ],
+          "rows": [
+            [
+              "egli, ella, essi",
+              "he, she, they",
+              "lui, lei, loro"
+            ],
+            [
+              "codesto",
+              "that (near you)",
+              "Tuscany and bureaucracy"
+            ],
+            [
+              "ove, onde",
+              "where, whence",
+              "formal or poetic"
+            ],
+            [
+              "sovente",
+              "often",
+              "spesso"
+            ],
+            [
+              "giammai",
+              "never",
+              "mai"
+            ],
+            [
+              "-ea, -eano (avea)",
+              "imperfetto ending",
+              "{im:aveva}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Genre conventions"
+      },
+      {
+        "table": {
+          "head": [
+            "Genre",
+            "Feature",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Recipes",
+              "infinitive or imperative",
+              "Far bollire. {imv:Aggiungete} il sale."
+            ],
+            [
+              "Headlines",
+              "no verb, or the present",
+              "{ip:Crolla} il ponte: due feriti."
+            ],
+            [
+              "Legal texts",
+              "present with force of command",
+              "Il contraente {ip:è tenuto} a…"
+            ],
+            [
+              "Sports reporting",
+              "narrative imperfetto",
+              "Al 90', Rossi segnava."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each form with its origin.",
+        "pairs": [
+          [
+            "{ip:Tengo} fame.",
+            "Southern usage"
+          ],
+          [
+            "La Maria {pp:è uscita}.",
+            "Northern usage"
+          ],
+          [
+            "Noi si {ip:va} al mare.",
+            "Tuscan usage"
+          ],
+          [
+            "Avea paura.",
+            "old literary form"
+          ],
+          [
+            "Far bollire l'acqua.",
+            "recipe convention"
+          ],
+          [
+            "{ip:Sto} a mangiare.",
+            "Roman usage"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence in neutral standard Italian.",
+        "questions": [
+          {
+            "q": "A me mi {ip:piace} il mare.",
+            "a": [
+              "A me piace il mare.",
+              "Mi piace il mare."
+            ]
+          },
+          {
+            "q": "{ip:Tengo} fame.",
+            "a": [
+              "Ho fame."
+            ]
+          },
+          {
+            "q": "{ip:Sto} a mangiare.",
+            "a": [
+              "Sto mangiando."
+            ]
+          },
+          {
+            "q": "La Maria {pp:è uscita}.",
+            "a": [
+              "Maria è uscita."
+            ]
+          },
+          {
+            "q": "Noi si {ip:va} al mare.",
+            "a": [
+              "Noi andiamo al mare.",
+              "Andiamo al mare."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Is it appropriate in a formal essay?",
+        "questions": [
+          {
+            "q": "Se lo {im:sapevo}, {im:venivo}.",
+            "options": [
+              "Yes",
+              "*No"
+            ]
+          },
+          {
+            "q": "Cosa ne {ip:pensa} l'autore?",
+            "options": [
+              "*Yes",
+              "No"
+            ]
+          },
+          {
+            "q": "Gli {pp:ho detto} a Maria di venire.",
+            "options": [
+              "Yes",
+              "*No"
+            ]
+          },
+          {
+            "q": "Il giorno in cui {pr:partì}.",
+            "options": [
+              "*Yes",
+              "No"
+            ]
+          },
+          {
+            "q": "Egli avea paura. (in a modern essay)",
+            "options": [
+              "Yes",
+              "*No"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il regionalismo",
+        "regional usage"
+      ],
+      [
+        "l'arcaismo",
+        "archaism"
+      ],
+      [
+        "il dialetto",
+        "dialect"
+      ],
+      [
+        "l'accento",
+        "accent"
+      ],
+      [
+        "il neologismo",
+        "new word"
+      ],
+      [
+        "la cadenza",
+        "lilt"
+      ],
+      [
+        "la norma",
+        "norm"
+      ],
+      [
+        "storpiare",
+        "to mangle"
+      ],
+      [
+        "desueto",
+        "obsolete"
+      ],
+      [
+        "forbito",
+        "polished, elegant"
+      ],
+      [
+        "sovente",
+        "often"
+      ],
+      [
+        "giammai",
+        "never"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'arcaismo",
+            "archaism"
+          ],
+          [
+            "il neologismo",
+            "new word"
+          ],
+          [
+            "la cadenza",
+            "lilt"
+          ],
+          [
+            "storpiare",
+            "to mangle"
+          ],
+          [
+            "desueto",
+            "obsolete"
+          ],
+          [
+            "forbito",
+            "polished, elegant"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Ha} un forte [[accento]] siciliano. (accent)",
+          "Mia nonna {ip:parla} ancora il [[dialetto]]. (dialect)",
+          "Questa parola {ip:è} un [[regionalismo]]. (regional usage)",
+          "Rispetta la [[norma]] grammaticale. (norm)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "In treno da Milano a Palermo si {ip:attraversa} l'Italia anche con le orecchie. A Milano una signora {ip:chiede} se {pp:è arrivata} la Giulia. A Firenze due studenti si {ip:salutano}: «Noi si {ip:va}, ci si {ip:vede} domani.» A Roma un ragazzo al telefono: «{ip:Sto} ad arrivà!» A Napoli qualcuno {ip:tiene} sonno e a Palermo un vecchio {ip:racconta} che ieri {pr:mangiò} pesce.",
+      "Nessuna di queste frasi {ip:è} un errore nel luogo in cui {ip:viene} detta, sebbene {cop:sarebbero} fuori posto in una tesi di laurea. La lingua colta, un tempo forbita e desueta, si {pp:è avvicinata} al parlato. Ciò che {ip:distingue} un parlante esperto non {ip:è} la rinuncia alle varietà, bensì la capacità di scegliere, ogni volta, quella giusta."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "«la Giulia» is typical of…",
+            "options": [
+              "*the North",
+              "Sicily",
+              "Tuscany"
+            ]
+          },
+          {
+            "q": "«ieri mangiò» is an example of…",
+            "options": [
+              "an error",
+              "*the southern use of the passato remoto",
+              "an archaism"
+            ]
+          },
+          {
+            "q": "According to the text, regional sentences are…",
+            "options": [
+              "always wrong",
+              "*fine in their place but out of place in a thesis",
+              "correct everywhere"
+            ]
+          },
+          {
+            "q": "What distinguishes an expert speaker?",
+            "options": [
+              "Avoiding all varieties",
+              "Using only the literary norm",
+              "*Choosing the right variety each time"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Prof.ssa",
+        "«{ip:Tengo} fame»: dove lo {cop:sentireste}?"
+      ],
+      [
+        "Studente",
+        "Al Sud, {ip:credo}. A Napoli."
+      ],
+      [
+        "Prof.ssa",
+        "Esatto. E «la Maria»?"
+      ],
+      [
+        "Studente",
+        "Al Nord. Ma in una tesi non lo {cop:scriverei}."
+      ],
+      [
+        "Prof.ssa",
+        "Bravo. E «sovente»?"
+      ],
+      [
+        "Studente",
+        "{ip:È} un po' antiquato: oggi si {ip:dice} «spesso»."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Tengo#ip]] fame: dove lo {cop:sentireste}?",
+          "Ma in una [[tesi]] non lo {cop:scriverei}.",
+          "{ip:È} un po' [[antiquato]].",
+          "Oggi si {ip:dice} [[spesso]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does the student understand?",
+        "questions": [
+          {
+            "q": "He knows…",
+            "options": [
+              "only standard Italian",
+              "*where a form comes from and when not to use it",
+              "how to speak Neapolitan"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Rewrite in the standard form, for a formal text.",
+        "questions": [
+          {
+            "q": "Il giorno che ti {pp:ho visto}. (formal)",
+            "a": [
+              "Il giorno in cui ti ho visto."
+            ]
+          },
+          {
+            "q": "Gli {pp:ho detto} a Maria di venire.",
+            "a": [
+              "Ho detto a Maria di venire.",
+              "Le ho detto di venire."
+            ]
+          },
+          {
+            "q": "Se lo {im:sapevo}, {im:venivo}. (a man speaking)",
+            "a": [
+              "Se l'avessi saputo, sarei venuto.",
+              "Se lo avessi saputo, sarei venuto."
+            ]
+          },
+          {
+            "q": "Mo' {ip:vengo}.",
+            "a": [
+              "Vengo subito.",
+              "Arrivo subito."
+            ]
+          },
+          {
+            "q": "Sovente {im:andava} al mare. (modern word)",
+            "a": [
+              "Spesso andava al mare.",
+              "Andava spesso al mare."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

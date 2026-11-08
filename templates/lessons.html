@@ -5,16 +5,44 @@
 {% block css %}
 <style>
     .page {
-        width: min(620px, calc(100vw - 32px));
-        margin: 0 auto;
+        width: min(760px, calc(100vw - 32px));
+        margin: 0 auto 40px;
+    }
+
+    .level {
+        margin-bottom: 26px;
+    }
+
+    .level h2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .level-name {
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .coming-soon {
+        margin-left: auto;
+        padding: 3px 12px;
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: normal;
     }
 
     .lesson-card {
         display: flex;
         align-items: center;
         gap: 16px;
-        margin: 0 0 14px;
-        padding: 18px 20px;
+        margin: 0 0 12px;
+        padding: 16px 20px;
         transition: border-color .2s;
     }
 
@@ -35,8 +63,17 @@
         font-weight: 700;
     }
 
+    .lesson-card > div {
+        min-width: 0;
+    }
+
     .lesson-card h3 {
         font-size: 18px;
+    }
+
+    .lesson-card p {
+        color: var(--muted);
+        font-size: 14px;
     }
 
     .lesson-card .arrow {
@@ -60,12 +97,45 @@
 </a>
 <div class="page">
     <h1 class="title">Lessons</h1>
-    {% for lesson in lessons %}
-    <a class="container shadow lesson-card" href="{{ url_for('lesson_for_topic', topic=lesson) }}">
-        <span class="lesson-number">{{ loop.index }}</span>
-        <h3>{{ lesson | format }}</h3>
-        <span class="arrow">&rarr;</span>
-    </a>
+    <div class="tabs" role="tablist" aria-label="Levels">
+        {% for level in levels %}
+        <button class="tab" type="button" role="tab" id="tab-{{ level | lower }}" aria-controls="{{ level | lower }}"
+            aria-selected="{{ 'true' if loop.first else 'false' }}">{{ level }}</button>
+        {% endfor %}
+    </div>
+    {% set level_names = {"A1": "Beginner", "A2": "Elementary", "B1": "Intermediate",
+    "B2": "Upper intermediate", "C1": "Advanced", "C2": "Proficient"} %}
+    {% for level in levels %}
+    {% set level_lessons = lessons_by_level.get(level, []) %}
+    {% set older_lessons = older if level == "A1" else [] %}
+    <section class="level" id="{{ level | lower }}" role="tabpanel" aria-labelledby="tab-{{ level | lower }}"
+        {% if not loop.first %}hidden{% endif %}>
+        <h2>
+            <span class="level-badge level-{{ level | lower }}">{{ level }}</span>
+            <span class="level-name">{{ level_names[level] }}</span>
+            {% if not level_lessons and not older_lessons %}<span class="coming-soon">Coming soon</span>{% endif %}
+        </h2>
+        {% for lesson in level_lessons %}
+        <a class="container shadow lesson-card" href="{{ url_for('lesson', level=level | lower, number=lesson.number) }}">
+            <span class="lesson-number">{{ lesson.number }}</span>
+            <div>
+                <h3>{{ lesson.title | rich }}</h3>
+                <p>{{ lesson.topics }}</p>
+            </div>
+            <span class="arrow">&rarr;</span>
+        </a>
+        {% endfor %}
+        {% for lesson in older_lessons %}
+        <a class="container shadow lesson-card" href="{{ url_for('lesson_for_topic', topic=lesson) }}">
+            <span class="lesson-number">{{ loop.index }}</span>
+            <div>
+                <h3>{{ lesson | format }}</h3>
+            </div>
+            <span class="arrow">&rarr;</span>
+        </a>
+        {% endfor %}
+    </section>
     {% endfor %}
 </div>
+<script src="{{ url_for('static', filename='tabs.js') }}"></script>
 {% endblock %}

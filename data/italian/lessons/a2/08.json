@@ -1,0 +1,456 @@
+{
+  "title": "{ip:Vado} dal medico, vicino alla stazione",
+  "translation": "I'm going to the doctor's, near the station",
+  "topics": "Wider use of prepositions, tra and fra, prepositions of place",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Where are you going?"
+      },
+      "The choice depends on what kind of place follows.",
+      {
+        "table": {
+          "head": [
+            "Place",
+            "Preposition",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Cities",
+              "a",
+              "{ip:Vado} a Roma. {ip:Abito} a Sofia."
+            ],
+            [
+              "Countries and regions",
+              "in",
+              "{ip:Vado} in Italia. {ip:Vivo} in Toscana."
+            ],
+            [
+              "A person, a doctor, a friend",
+              "da",
+              "{ip:Vado} **dal** medico. {ip:Vado} **da** Luca."
+            ],
+            [
+              "A named or specific place with an article",
+              "a",
+              "{ip:Vado} **al** cinema, **alla** stazione."
+            ],
+            [
+              "Shops and places in -ia, plus room words",
+              "in",
+              "{ip:Vado} in farmacia, in banca, in centro, in cucina."
+            ],
+            [
+              "Fixed expressions",
+              "a",
+              "a casa, a scuola, a letto, a teatro"
+            ]
+          ]
+        }
+      },
+      "Transport takes *in*: *in treno, in macchina, in aereo*. The exception is *a piedi* (on foot).",
+      {
+        "h": "Other main uses"
+      },
+      {
+        "table": {
+          "head": [
+            "Preposition",
+            "Use",
+            "Example"
+          ],
+          "rows": [
+            [
+              "di",
+              "owner or material",
+              "la macchina di Marco; una borsa di pelle"
+            ],
+            [
+              "da",
+              "coming from; purpose",
+              "{ip:Vengo} da Milano. Una camera da letto."
+            ],
+            [
+              "con",
+              "with, by means of",
+              "{ip:Scrivo} con la penna."
+            ],
+            [
+              "su",
+              "on; about",
+              "Un libro sull'arte."
+            ],
+            [
+              "per",
+              "destination; purpose",
+              "Il treno per Roma. {ip:Studio} per l'esame."
+            ],
+            [
+              "tra / fra",
+              "between; in (a future time)",
+              "{ip:Parto} tra due giorni."
+            ]
+          ]
+        }
+      },
+      "*Tra* and *fra* are the same word. Be careful: *in due giorni* means it takes two days to do something, and *tra due giorni* means two days from now.",
+      {
+        "h": "Saying exactly where something is"
+      },
+      "Most words of place need a small preposition after them, and that preposition joins the article as usual.",
+      {
+        "table": {
+          "head": [
+            "Expression",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "davanti a",
+              "in front of",
+              "davanti **alla** casa"
+            ],
+            [
+              "dietro a",
+              "behind",
+              "dietro **al** bar"
+            ],
+            [
+              "vicino a",
+              "near",
+              "vicino **alla** stazione"
+            ],
+            [
+              "accanto a",
+              "next to",
+              "accanto **al** cinema"
+            ],
+            [
+              "lontano da",
+              "far from",
+              "lontano **dal** mare"
+            ],
+            [
+              "sopra",
+              "above, on",
+              "sopra il tavolo"
+            ],
+            [
+              "sotto",
+              "under",
+              "sotto il letto"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right preposition.",
+        "questions": [
+          {
+            "q": "{ip:Vado} ___ Napoli.",
+            "options": [
+              "*a",
+              "in",
+              "da"
+            ]
+          },
+          {
+            "q": "{ip:Vado} ___ Spagna.",
+            "options": [
+              "a",
+              "*in",
+              "da"
+            ]
+          },
+          {
+            "q": "{ip:Vado} ___ medico.",
+            "options": [
+              "al",
+              "nel",
+              "*dal"
+            ]
+          },
+          {
+            "q": "{ip:Vado} ___ farmacia.",
+            "options": [
+              "a",
+              "*in",
+              "da"
+            ]
+          },
+          {
+            "q": "Parto ___ due giorni. (two days from now)",
+            "options": [
+              "in",
+              "per",
+              "*tra"
+            ]
+          },
+          {
+            "q": "{ip:Vado} al lavoro ___ macchina.",
+            "options": [
+              "a",
+              "*in",
+              "con"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right preposition, joined with the article if needed.",
+        "questions": [
+          "{ip:Abito} vicino [[alla]] stazione.",
+          "Il bar {ip:è} accanto [[al]] cinema.",
+          "La casa {ip:è} lontano [[dal]] mare.",
+          "Il gatto {ip:è} sotto [[il]] letto.",
+          "La macchina {ip:è} davanti [[alla]] scuola.",
+          "{ip:Vado} [[da]] Luca stasera.",
+          "Il treno [[per]] Roma {ip:parte} alle otto."
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il medico",
+        "doctor"
+      ],
+      [
+        "la farmacia",
+        "pharmacy"
+      ],
+      [
+        "la banca",
+        "bank"
+      ],
+      [
+        "l'ospedale",
+        "hospital"
+      ],
+      [
+        "la fermata",
+        "stop"
+      ],
+      [
+        "l'incrocio",
+        "crossroads"
+      ],
+      [
+        "il semaforo",
+        "traffic light"
+      ],
+      [
+        "l'angolo",
+        "corner"
+      ],
+      [
+        "girare",
+        "to turn"
+      ],
+      [
+        "attraversare",
+        "to cross"
+      ],
+      [
+        "a destra",
+        "to the right"
+      ],
+      [
+        "a sinistra",
+        "to the left"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la fermata",
+            "stop"
+          ],
+          [
+            "l'incrocio",
+            "crossroads"
+          ],
+          [
+            "il semaforo",
+            "traffic light"
+          ],
+          [
+            "l'angolo",
+            "corner"
+          ],
+          [
+            "girare",
+            "to turn"
+          ],
+          [
+            "attraversare",
+            "to cross"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{imv:Giri} [[a destra]] al semaforo. (to the right)",
+          "{ip:Vado} in [[farmacia]]. (pharmacy)",
+          "La [[banca]] {ip:è} in centro. (bank)",
+          "Mio fratello {ip:è} in [[ospedale]]. (hospital)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Domani {ip:devo} andare dal medico. Il suo studio {ip:è} in centro, vicino alla stazione, accanto a una farmacia. {ip:Abito} abbastanza lontano dal centro, quindi {ip:vado} in autobus: la fermata {ip:è} proprio davanti a casa mia.",
+      "Dopo la visita {ip:vado} in banca e poi da mia sorella. Lei {ip:abita} in Via Dante, dietro al teatro. Tra due settimane {ip:parto} per la Sicilia, e prima {ip:devo} fare tutto questo!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The doctor's office is next to a pharmacy.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The speaker goes to the centre on foot.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The sister lives behind the theatre.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The speaker leaves for Sicily in two days.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Turista",
+        "{imv:Scusi}, c'{ip:è} una farmacia qui vicino?"
+      ],
+      [
+        "Passante",
+        "Sì, {imv:vada} dritto e al semaforo {ip:giri} a sinistra."
+      ],
+      [
+        "Turista",
+        "{ip:È} lontano da qui?"
+      ],
+      [
+        "Passante",
+        "No, cinque minuti a piedi. {ip:È} accanto alla banca."
+      ],
+      [
+        "Turista",
+        "Davanti alla fermata dell'autobus?"
+      ],
+      [
+        "Passante",
+        "Esatto. Non {ip:può} sbagliare!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Al semaforo {ip:giri} a [[sinistra]].",
+          "{ip:È} lontano [[da]] qui?",
+          "Cinque minuti [[a]] piedi.",
+          "{ip:È} [[accanto]] alla banca."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Where is the pharmacy?",
+        "questions": [
+          {
+            "q": "The pharmacy is…",
+            "options": [
+              "behind the bank",
+              "*next to the bank",
+              "far from the bank"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I'm going to the doctor's.",
+            "a": [
+              "Vado dal medico.",
+              "Io vado dal medico."
+            ]
+          },
+          {
+            "q": "I live near the station.",
+            "a": [
+              "Abito vicino alla stazione.",
+              "Vivo vicino alla stazione.",
+              "Io abito vicino alla stazione."
+            ]
+          },
+          {
+            "q": "I'm leaving in two days.",
+            "a": [
+              "Parto tra due giorni.",
+              "Parto fra due giorni.",
+              "Io parto tra due giorni."
+            ]
+          },
+          {
+            "q": "The bar is next to the cinema.",
+            "a": [
+              "Il bar è accanto al cinema."
+            ]
+          },
+          {
+            "q": "The cat is under the bed.",
+            "a": [
+              "Il gatto è sotto il letto."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

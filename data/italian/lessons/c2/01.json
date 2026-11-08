@@ -1,0 +1,435 @@
+{
+  "title": "Che lo {csi:sapesse} o no, poco {ip:importa}",
+  "translation": "Whether he knew or not hardly matters",
+  "topics": "Choosing mood and tense according to meaning, including the less common forms",
+  "grammar": {
+    "explain": [
+      {
+        "h": "From rules to meaning"
+      },
+      "There are no new forms here. The point is that a competent writer can change a mood and thereby change what's being said.",
+      {
+        "table": {
+          "head": [
+            "Sentence",
+            "What it implies"
+          ],
+          "rows": [
+            [
+              "{ip:Cerco} una casa che {ip:ha} il giardino.",
+              "I have a particular house in mind."
+            ],
+            [
+              "{ip:Cerco} una casa che {csp:abbia} il giardino.",
+              "Any house with a garden will do."
+            ],
+            [
+              "Non {ip:dico} che {ip:ha} torto.",
+              "He is wrong, but I'm not saying so."
+            ],
+            [
+              "Non {ip:dico} che {csp:abbia} torto.",
+              "I'm not claiming that he is wrong."
+            ],
+            [
+              "{ip:Temo} che {fs:verrà}.",
+              "I'm afraid that he will come: I expect it."
+            ],
+            [
+              "{ip:Temo} che {csp:venga}.",
+              "I'm afraid that he may come."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "A denied cause"
+      },
+      "A cause that's being rejected isn't asserted, so it takes the *congiuntivo*: *{pp:È partito} perché {im:era} stanco*, but *{pp:È partito} non perché {csi:fosse} stanco, ma perché si annoiava*.",
+      {
+        "h": "Forms worth having in your range"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Alternative with che",
+              "Che lo {csi:sapesse} o no, poco {ip:importa}.",
+              "whether… or not"
+            ],
+            [
+              "Exhortation",
+              "{imv:Dicano} pure ciò che {ip:vogliono}.",
+              "let them…"
+            ],
+            [
+              "Come se",
+              "{ip:Parla} come se {csi:sapesse} tutto.",
+              "as if"
+            ],
+            [
+              "Comparison",
+              "{ip:È} più difficile di quanto {csi:pensassi}.",
+              "than I thought"
+            ],
+            [
+              "Future of doubt",
+              "{fs:Sarà}, ma non ci {ip:credo}.",
+              "that may be, but…"
+            ],
+            [
+              "Exclamatory infinitive",
+              "Io, tradirti?",
+              "indignant rejection"
+            ],
+            [
+              "Conditional in a question",
+              "{cop:Sarebbe} a dire?",
+              "meaning what?"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "When more than one form is right"
+      },
+      "After *{ip:spero} che*, both *{imv:venga}* and *{fs:verrà}* are correct: the future sounds more confident. After *{ip:credo} che*, the indicative is heard in speech, but it lowers the register. The skill at this level isn't knowing what's possible, but knowing what each choice says about you."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which form conveys the meaning in brackets?",
+        "questions": [
+          {
+            "q": "{ip:Cerco} un medico che ___ il russo. (any such doctor)",
+            "options": [
+              "{ip:parla}",
+              "*{ip:parli}"
+            ]
+          },
+          {
+            "q": "{ip:Cerco} un medico che ___ il russo: me ne {pp:ha parlato} Anna. (a particular one)",
+            "options": [
+              "*{ip:parla}",
+              "{ip:parli}"
+            ]
+          },
+          {
+            "q": "Non {ip:dico} che ___ torto. (I'm making no such claim)",
+            "options": [
+              "{ip:ha}",
+              "*{csp:abbia}"
+            ]
+          },
+          {
+            "q": "{pp:È partito} non perché ___ stanco, ma per noia.",
+            "options": [
+              "{im:era}",
+              "*{csi:fosse}"
+            ]
+          },
+          {
+            "q": "{ip:È} più difficile di quanto ___ . (formal)",
+            "options": [
+              "*{csi:pensassi}",
+              "{ip:penso}",
+              "{cop:penserei}"
+            ]
+          },
+          {
+            "q": "{ip:Parla} come se ___ tutto.",
+            "options": [
+              "{ip:sa}",
+              "*{csi:sapesse}",
+              "{cop:saprebbe}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the form that the sense requires.",
+        "questions": [
+          "Che lo [[sapesse#csi]] o no, poco {ip:importa}. (sapere, past)",
+          "[[Dicano#imv]] pure ciò che {ip:vogliono}. (dire, loro)",
+          "Si {ip:comporta} come se nulla [[fosse#cst]] {cst:successo}. (essere)",
+          "Non che io [[voglia#csp]] criticarti, ma… (volere)",
+          "Chiunque l'[[abbia#csa]] {csa:detto}, {pp:ha mentito}. (avere)"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each sentence with what it conveys.",
+        "pairs": [
+          [
+            "{fs:Sarà}, ma non ci {ip:credo}.",
+            "polite disbelief"
+          ],
+          [
+            "Io, tradirti?",
+            "indignant rejection"
+          ],
+          [
+            "{cop:Sarebbe} a dire?",
+            "a request to explain"
+          ],
+          [
+            "Magari {csi:fosse} così!",
+            "a wish thought unlikely"
+          ],
+          [
+            "{imv:Dicano} pure.",
+            "a resigned permission"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'allusione",
+        "allusion"
+      ],
+      [
+        "l'insinuazione",
+        "insinuation"
+      ],
+      [
+        "il sottinteso",
+        "implied meaning"
+      ],
+      [
+        "la reticenza",
+        "reticence"
+      ],
+      [
+        "l'ambiguità",
+        "ambiguity"
+      ],
+      [
+        "insinuare",
+        "to insinuate"
+      ],
+      [
+        "sottintendere",
+        "to imply"
+      ],
+      [
+        "tradire",
+        "to betray"
+      ],
+      [
+        "disilluso",
+        "disillusioned"
+      ],
+      [
+        "ambiguo",
+        "ambiguous"
+      ],
+      [
+        "beninteso",
+        "of course, mind you"
+      ],
+      [
+        "semmai",
+        "if anything"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'insinuazione",
+            "insinuation"
+          ],
+          [
+            "il sottinteso",
+            "implied meaning"
+          ],
+          [
+            "la reticenza",
+            "reticence"
+          ],
+          [
+            "sottintendere",
+            "to imply"
+          ],
+          [
+            "disilluso",
+            "disillusioned"
+          ],
+          [
+            "semmai",
+            "if anything"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "La sua frase {ip:è} volutamente [[ambigua]]. (ambiguous)",
+          "Non {ip:accetto} queste [[insinuazioni]]! (insinuations)",
+          "Non mi {pp:ha} [[tradito#pp]] mai. (betrayed)",
+          "[[Beninteso]], si {ip:tratta} di un'ipotesi. (mind you)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Che il vecchio notaio {csi:sapesse} o no di quella seconda famiglia, poco {ip:importa}, ormai. Non {ip:è} che gli eredi {csi:volessero} nascondere qualcosa; semmai, {cpa:avrebbero preferito} che nessuno {csi:ponesse} domande. {fs:Sarà}, {im:diceva} il maresciallo, ma una lettera non si {ip:smarrisce} come se {csi:fosse} un ombrello.",
+      "{pr:Fu} più difficile di quanto chiunque {csi:immaginasse}. {im:Cercavano} una persona che {csi:ricordasse} quegli anni, e l'unica che ne {csi:fosse} in grado {im:era} una domestica ultranovantenne. {pr:Parlò} non perché la {csi:interrogassero}, ma perché, {pr:disse}, a una certa età si {ip:ha} fretta di dire il vero. {imv:Dicano} pure, {pr:aggiunse}, che {ip:sono} pazza."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "«Che il notaio sapesse o no» suggests that…",
+            "options": [
+              "he certainly knew",
+              "*the question no longer matters",
+              "he certainly didn't know"
+            ]
+          },
+          {
+            "q": "What would the heirs have preferred?",
+            "options": [
+              "A public inquiry",
+              "*That nobody asked questions",
+              "To sell the house"
+            ]
+          },
+          {
+            "q": "Why did the maid speak?",
+            "options": [
+              "She was questioned",
+              "She was paid",
+              "*She felt the urge to tell the truth"
+            ]
+          },
+          {
+            "q": "«{imv:Dicano} pure» expresses…",
+            "options": [
+              "*defiant indifference",
+              "a formal request",
+              "uncertainty about the past"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Anselmo",
+        "{ip:Dicono} che {csi:sapesse} tutto fin dall'inizio."
+      ],
+      [
+        "Bice",
+        "{fs:Sarà}. Non che mi {csp:stupisca}, comunque."
+      ],
+      [
+        "Anselmo",
+        "Si {ip:comporta} come se nulla {csi:fosse}."
+      ],
+      [
+        "Bice",
+        "Non {ip:dico} che {csa:abbia mentito}, ma {ip:è} strano."
+      ],
+      [
+        "Anselmo",
+        "{cop:Sarebbe} a dire?"
+      ],
+      [
+        "Bice",
+        "{ip:È} più furbo di quanto tu {csp:creda}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:Dicono} che [[sapesse#csi]] tutto fin dall'inizio.",
+          "Non che mi [[stupisca#csp]], comunque.",
+          "Non {ip:dico} che [[abbia#csa]] {csa:mentito}.",
+          "{ip:È} più furbo di quanto tu [[creda#csp]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How does Bice express her view?",
+        "questions": [
+          {
+            "q": "Bice…",
+            "options": [
+              "accuses him openly",
+              "*hints, without quite accusing him",
+              "defends him fully"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Whether he knew or not hardly matters.",
+            "a": [
+              "Che lo sapesse o no, poco importa.",
+              "Che lo sapesse o meno, poco importa."
+            ]
+          },
+          {
+            "q": "He behaves as if nothing had happened.",
+            "a": [
+              "Si comporta come se nulla fosse successo.",
+              "Si comporta come se niente fosse successo."
+            ]
+          },
+          {
+            "q": "It's harder than I thought.",
+            "a": [
+              "È più difficile di quanto pensassi.",
+              "È più difficile di quanto credessi."
+            ]
+          },
+          {
+            "q": "He left not because he was tired, but because he was bored.",
+            "a": [
+              "È partito non perché fosse stanco, ma perché si annoiava.",
+              "Se n'è andato non perché fosse stanco, ma perché si annoiava."
+            ]
+          },
+          {
+            "q": "Let them say what they want.",
+            "a": [
+              "Dicano ciò che vogliono.",
+              "Dicano pure ciò che vogliono.",
+              "Dicano quello che vogliono."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

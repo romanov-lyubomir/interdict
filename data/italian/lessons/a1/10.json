@@ -1,0 +1,406 @@
+{
+  "title": "Mi {ip:piace} il caffè e lo {ip:bevo} sempre",
+  "translation": "I like coffee and I always drink it",
+  "topics": "Direct object pronouns, piacere and sapere",
+  "grammar": {
+    "explain": [
+      "A direct object pronoun replaces a noun and answers *whom?* or *what?*. It comes before the verb: *{ip:Compro} il pane. → Lo {ip:compro}.*",
+      {
+        "table": {
+          "head": [
+            "Pronoun",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "mi",
+              "me",
+              "Mi {ip:chiami} domani?"
+            ],
+            [
+              "ti",
+              "you",
+              "Ti {ip:vedo} stasera."
+            ],
+            [
+              "lo",
+              "him, it (masc.)",
+              "Il libro? Lo {ip:leggo}."
+            ],
+            [
+              "la",
+              "her, it (fem.)",
+              "La pizza? La {ip:mangio}."
+            ],
+            [
+              "ci",
+              "us",
+              "Ci {ip:aspetti}?"
+            ],
+            [
+              "vi",
+              "you (plural)",
+              "Vi {ip:invito}."
+            ],
+            [
+              "li",
+              "them (masc.)",
+              "I libri? Li {ip:leggo}."
+            ],
+            [
+              "le",
+              "them (fem.)",
+              "Le chiavi? Le {ip:prendo}."
+            ]
+          ]
+        }
+      },
+      "*Non* goes before the pronoun: *Non lo {ip:bevo}.*",
+      "*Piacere* works differently from *to like*: the thing you like is the subject. Use *{ip:piace}* with one thing or a verb, and *{ip:piacciono}* with several things.",
+      {
+        "table": {
+          "head": [
+            "Who likes",
+            "One thing or a verb",
+            "Several things"
+          ],
+          "rows": [
+            [
+              "I",
+              "Mi {ip:**piace**} il caffè.",
+              "Mi {ip:**piacciono**} i gatti."
+            ],
+            [
+              "you",
+              "Ti {ip:**piace**} leggere?",
+              "Ti {ip:**piacciono**} i film?"
+            ],
+            [
+              "he / she",
+              "Gli / Le {ip:**piace**} Roma.",
+              "Gli / Le {ip:**piacciono**} i fiori."
+            ]
+          ]
+        }
+      },
+      "*Sapere* means *to know* (a fact), and with an infinitive *to know how to*: *{ip:So} nuotare* (I can swim).",
+      {
+        "table": {
+          "head": [
+            "io",
+            "tu",
+            "lui / lei",
+            "noi",
+            "voi",
+            "loro"
+          ],
+          "rows": [
+            [
+              "so",
+              "{ip:sai}",
+              "{ip:sa}",
+              "{ip:sappiamo}",
+              "{ip:sapete}",
+              "{ip:sanno}"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Replace the noun with lo, la, li or le.",
+        "questions": [
+          "{ip:Compro} il pane. → [[Lo]] {ip:compro}.",
+          "{ip:Mangio} la pizza. → [[La]] {ip:mangio}.",
+          "{ip:Leggo} i libri. → [[Li]] {ip:leggo}.",
+          "{ip:Prendo} le chiavi. → [[Le]] {ip:prendo}.",
+          "Non {ip:bevo} il tè. → Non [[lo]] {ip:bevo}.",
+          "{ip:Vedo} Anna. → [[La]] {ip:vedo}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose piace or piacciono.",
+        "questions": [
+          {
+            "q": "Mi ___ il gelato.",
+            "options": [
+              "*{ip:piace}",
+              "{ip:piacciono}"
+            ]
+          },
+          {
+            "q": "Mi ___ i cani.",
+            "options": [
+              "{ip:piace}",
+              "*{ip:piacciono}"
+            ]
+          },
+          {
+            "q": "Ti ___ leggere?",
+            "options": [
+              "*{ip:piace}",
+              "{ip:piacciono}"
+            ]
+          },
+          {
+            "q": "Le ___ le mele.",
+            "options": [
+              "{ip:piace}",
+              "*{ip:piacciono}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right form of sapere.",
+        "questions": [
+          "Io non [[so#ip]] nuotare.",
+          "Tu [[sai#ip]] dov'{ip:è} la stazione?",
+          "Marco [[sa#ip]] cucinare.",
+          "Noi [[sappiamo#ip]] parlare inglese.",
+          "Voi [[sapete#ip]] guidare?",
+          "Loro non [[sanno#ip]] la risposta."
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "bere",
+        "to drink (io bevo)"
+      ],
+      [
+        "il tè",
+        "tea"
+      ],
+      [
+        "il vino",
+        "wine"
+      ],
+      [
+        "la birra",
+        "beer"
+      ],
+      [
+        "il gelato",
+        "ice cream"
+      ],
+      [
+        "la musica",
+        "music"
+      ],
+      [
+        "il film",
+        "film"
+      ],
+      [
+        "nuotare",
+        "to swim"
+      ],
+      [
+        "cucinare",
+        "to cook"
+      ],
+      [
+        "guidare",
+        "to drive"
+      ],
+      [
+        "ballare",
+        "to dance"
+      ],
+      [
+        "vedere",
+        "to see"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la birra",
+            "beer"
+          ],
+          [
+            "la musica",
+            "music"
+          ],
+          [
+            "nuotare",
+            "to swim"
+          ],
+          [
+            "cucinare",
+            "to cook"
+          ],
+          [
+            "guidare",
+            "to drive"
+          ],
+          [
+            "ballare",
+            "to dance"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il caffè? Lo [[bevo#ip]] sempre. (I drink)",
+          "Mi {ip:piace} il [[vino]] rosso. (wine)",
+          "{ip:So} [[cucinare]] la pasta. (to cook)",
+          "Ti {ip:piace} [[ballare]]? (to dance)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Mi {ip:chiamo} Nadia. Mi {ip:piace} molto il caffè e lo {ip:bevo} sempre al bar sotto casa. Non mi {ip:piace} il tè: non lo {ip:bevo} mai. Mi {ip:piacciono} i film italiani e li {ip:guardo} con mio marito.",
+      "Lui {ip:sa} cucinare molto bene, io no! Però {ip:so} nuotare e {ip:so} guidare. A mio marito {ip:piace} il mare, ma non {ip:sa} nuotare. Quest'estate gli {ip:insegno} io!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Nadia never drinks tea.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Nadia watches Italian films with her husband.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Nadia cooks very well.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Her husband can swim.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Marco",
+        "Ti {ip:piace} questo ristorante?"
+      ],
+      [
+        "Giulia",
+        "Sì, mi {ip:piace} molto! E ti {ip:piacciono} gli spaghetti?"
+      ],
+      [
+        "Marco",
+        "Li {ip:adoro}! Li {ip:mangio} ogni settimana."
+      ],
+      [
+        "Giulia",
+        "{ip:Sai} cucinare?"
+      ],
+      [
+        "Marco",
+        "No, non {ip:so} cucinare. E tu?"
+      ],
+      [
+        "Giulia",
+        "Io sì. Ti {ip:invito} a casa mia!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Ti [[piace#ip]] questo ristorante?",
+          "[[Li]] {ip:adoro}!",
+          "No, non [[so#ip]] cucinare.",
+          "[[Ti]] {ip:invito} a casa mia!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Who can cook?",
+        "questions": [
+          {
+            "q": "The person who can cook is…",
+            "options": [
+              "Marco",
+              "*Giulia",
+              "both of them"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I like coffee.",
+            "a": [
+              "Mi piace il caffè."
+            ]
+          },
+          {
+            "q": "I like cats.",
+            "a": [
+              "Mi piacciono i gatti."
+            ]
+          },
+          {
+            "q": "The book? I'm reading it.",
+            "a": [
+              "Il libro? Lo leggo."
+            ]
+          },
+          {
+            "q": "I can swim.",
+            "a": [
+              "So nuotare.",
+              "Io so nuotare."
+            ]
+          },
+          {
+            "q": "Do you know where Anna is? (informal)",
+            "a": [
+              "Sai dov'è Anna?",
+              "Sai dove è Anna?"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

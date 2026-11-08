@@ -194,6 +194,11 @@
         background-color: var(--surface-3);
     }
 
+    .topic-name {
+        min-width: 0;
+        overflow-wrap: anywhere;
+    }
+
     .topic img {
         width: 30px;
         height: 30px;
@@ -335,6 +340,12 @@
                     {{ topic | format }}
                 </a>
                 {% endfor %}
+                {% for word_list in word_lists %}
+                <a class="topic" href="{{ url_for('word_list', list_id=word_list.id) }}">
+                    <img src="{{ url_for('static', filename='icons/vocabulary/word_list.svg') }}" alt="">
+                    <span class="topic-name">{{ word_list.name }}</span>
+                </a>
+                {% endfor %}
             </div>
         </div>
 
@@ -395,8 +406,8 @@
                 </div>
             </div>
             <ul class="lesson-list">
-                {% for lesson in lessons_list %}
-                <li><a href="{{ url_for('lesson_for_topic', topic=lesson) }}">{{ lesson | format }}<span>&rarr;</span></a></li>
+                {% for title, url in lessons_list %}
+                <li><a href="{{ url }}">{{ title | rich }}<span>&rarr;</span></a></li>
                 {% endfor %}
             </ul>
             <a class="more" href="{{ url_for('lessons') }}">All lessons &rarr;</a>

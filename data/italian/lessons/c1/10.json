@@ -1,0 +1,438 @@
+{
+  "title": "{ip:È} proprio questo che {ip:intendo}",
+  "translation": "This is exactly what I mean",
+  "topics": "Word order and information focus, advanced comparative patterns",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Tools for focusing information"
+      },
+      {
+        "table": {
+          "head": [
+            "Construction",
+            "Example",
+            "What it does"
+          ],
+          "rows": [
+            [
+              "Explicit cleft",
+              "{ip:È} proprio questo che {ip:intendo}.",
+              "isolates the key element"
+            ],
+            [
+              "Cleft with a + infinitive",
+              "{pp:È stato} Luca a dirmelo.",
+              "focuses on who did it"
+            ],
+            [
+              "Pseudo-cleft",
+              "Quello che mi {ip:sorprende} {ip:è} il silenzio.",
+              "builds up to the key point"
+            ],
+            [
+              "Subject after the verb",
+              "{pp:Sono arrivati} i tuoi.",
+              "presents new information"
+            ],
+            [
+              "Moved to the front",
+              "Di questo, {fs:parleremo} domani.",
+              "sets the topic"
+            ],
+            [
+              "Moved to the end",
+              "Non l'{pp:ho} ancora {pp:letto}, il giornale.",
+              "adds the topic afterwards"
+            ]
+          ]
+        }
+      },
+      "A cleft sentence often names one thing and quietly excludes others: *{ip:È} Luca che {ip:deve} scusarsi* implies that nobody else needs to.",
+      {
+        "h": "Pronouns with moved elements"
+      },
+      "A direct object moved to the front must be repeated by a pronoun: *Il libro l'{pp:ho letto}*. An element with a preposition can do without it in formal style: *A Marco {pp:ho scritto} ieri*. Doubling it with a pronoun is typical of speech: *A me mi {ip:piace}* is considered a mistake in careful writing.",
+      {
+        "h": "A topic with no grammatical link"
+      },
+      "In conversation, a topic can simply be placed first, and the sentence then continues with a pronoun: *Marco, non gli {ip:parlo} più*. It's lively, but avoid it in formal texts.",
+      {
+        "h": "Comparative patterns"
+      },
+      {
+        "table": {
+          "head": [
+            "Pattern",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "tanto più… quanto più",
+              "the more… the more",
+              "Si {ip:impara} tanto più quanto più si {ip:legge}."
+            ],
+            [
+              "quanto più… tanto più",
+              "the more… the more",
+              "Quanto più lo {ip:conosco}, tanto più lo {ip:stimo}."
+            ],
+            [
+              "tanto più che",
+              "all the more since",
+              "{ip:Resto}, tanto più che {ip:piove}."
+            ],
+            [
+              "sempre meno",
+              "less and less",
+              "Lo {ip:vedo} sempre meno."
+            ],
+            [
+              "il meno possibile",
+              "as little as possible",
+              "{ip:Spendo} il meno possibile."
+            ],
+            [
+              "più che altro",
+              "more than anything",
+              "{ip:È} stanco, più che altro."
+            ],
+            [
+              "a dir poco",
+              "to say the least",
+              "{pp:È stato} a dir poco imbarazzante."
+            ],
+            [
+              "il più delle volte",
+              "most of the time",
+              "Il più delle volte {ip:ha} ragione."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Più di or più che?"
+      },
+      "Use *di* when comparing two different people or things by the same quality. Use *che* when comparing two qualities, two actions, or two elements preceded by prepositions: *{ip:È} più furbo che intelligente. Meglio tardi che mai. {ip:Lavora} più a Roma che a Milano.*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence using the construction in brackets.",
+        "questions": [
+          {
+            "q": "Luca me l'{pp:ha detto}. ({pp:è stato}… a)",
+            "a": [
+              "È stato Luca a dirmelo."
+            ]
+          },
+          {
+            "q": "{ip:Intendo} proprio questo. ({ip:è}… che)",
+            "a": [
+              "È proprio questo che intendo."
+            ]
+          },
+          {
+            "q": "Il silenzio mi {ip:sorprende}. (quello che)",
+            "a": [
+              "Quello che mi sorprende è il silenzio.",
+              "Ciò che mi sorprende è il silenzio."
+            ]
+          },
+          {
+            "q": "Ho letto il libro. (move the object to the front)",
+            "a": [
+              "Il libro l'ho letto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the comparative patterns.",
+        "questions": [
+          "Quanto più lo {ip:conosco}, [[tanto]] più lo {ip:stimo}.",
+          "{ip:Spendo} il [[meno]] possibile.",
+          "{ip:Resto} a casa, tanto più [[che]] {ip:piove}.",
+          "{pp:È stato}, a dir [[poco]], imbarazzante.",
+          "Lo {ip:vedo} [[sempre]] meno."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Di or che?",
+        "questions": [
+          {
+            "q": "{ip:È} più furbo ___ intelligente.",
+            "options": [
+              "di",
+              "*che"
+            ]
+          },
+          {
+            "q": "Marco {ip:è} più alto ___ Luca.",
+            "options": [
+              "*di",
+              "che"
+            ]
+          },
+          {
+            "q": "{ip:Lavoro} più a Roma ___ a Milano.",
+            "options": [
+              "di",
+              "*che"
+            ]
+          },
+          {
+            "q": "Meglio tardi ___ mai.",
+            "options": [
+              "di",
+              "*che"
+            ]
+          },
+          {
+            "q": "Which is careful written Italian?",
+            "options": [
+              "A me mi {ip:piace} il mare.",
+              "*A me {ip:piace} il mare."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il malinteso",
+        "misunderstanding"
+      ],
+      [
+        "il nocciolo",
+        "heart of the matter"
+      ],
+      [
+        "la sfumatura",
+        "nuance"
+      ],
+      [
+        "l'enfasi",
+        "emphasis"
+      ],
+      [
+        "intendere",
+        "to mean"
+      ],
+      [
+        "ribadire",
+        "to reiterate"
+      ],
+      [
+        "alludere",
+        "to allude"
+      ],
+      [
+        "precisare",
+        "to specify"
+      ],
+      [
+        "stimare",
+        "to esteem"
+      ],
+      [
+        "furbo",
+        "cunning"
+      ],
+      [
+        "imbarazzante",
+        "embarrassing"
+      ],
+      [
+        "per l'appunto",
+        "precisely"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il nocciolo",
+            "heart of the matter"
+          ],
+          [
+            "la sfumatura",
+            "nuance"
+          ],
+          [
+            "ribadire",
+            "to reiterate"
+          ],
+          [
+            "alludere",
+            "to allude"
+          ],
+          [
+            "furbo",
+            "cunning"
+          ],
+          [
+            "per l'appunto",
+            "precisely"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Che cosa [[intendi#ip]] dire? (do you mean)",
+          "{cop:Vorrei} [[precisare]] un punto. (to specify)",
+          "{pp:È stato} un semplice [[malinteso]]. (misunderstanding)",
+          "{ip:È} una situazione [[imbarazzante]]. (embarrassing)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Non {ip:è} la mancanza di tempo che {ip:impedisce} agli italiani di leggere: {ip:è}, piuttosto, la mancanza di abitudine. Quello che {ip:colpisce}, nei dati di quest'anno, {ip:è} il divario fra le regioni. Il Nord {ip:legge} più del Sud, ma {ip:è} nelle città medie che si {ip:registrano} i progressi maggiori.",
+      "I libri, li {ip:comprano} soprattutto le donne. {pp:Sono state} loro, negli ultimi vent'anni, a sostenere il mercato. Quanto più si {ip:è} istruiti, tanto più si {ip:legge}, e il dato non {ip:stupisce}. {ip:Stupisce}, semmai, che un laureato su quattro {csp:dichiari} di non aprire un libro da un anno: un risultato, a dir poco, preoccupante."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The author blames lack of time above all.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The greatest progress is in medium-sized cities.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Women have supported the book market.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The author is not concerned by the graduates' figure.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Mirko",
+        "Quindi {ip:pensi} che {csa:abbia sbagliato} io?"
+      ],
+      [
+        "Agata",
+        "Non {pp:ho detto} questo. {ip:È} il modo che non mi {pp:è piaciuto}."
+      ],
+      [
+        "Mirko",
+        "Ma {pp:è stato} Luca a cominciare!"
+      ],
+      [
+        "Agata",
+        "Luca, non gli {ip:parlo} da una settimana."
+      ],
+      [
+        "Mirko",
+        "Quello che {ip:voglio} {ip:è} solo chiarire."
+      ],
+      [
+        "Agata",
+        "{ip:È} proprio questo che {ip:intendo}. Tanto più che {ip:lavoriamo} insieme."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:È} il modo [[che]] non mi {pp:è piaciuto}.",
+          "{pp:È stato} Luca [[a]] cominciare!",
+          "Luca, non [[gli]] {ip:parlo} da una settimana.",
+          "Tanto più [[che]] {ip:lavoriamo} insieme."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What didn't Agata like?",
+        "questions": [
+          {
+            "q": "Agata didn't like…",
+            "options": [
+              "what Mirko said",
+              "*the way he did it",
+              "Luca's work"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "This is exactly what I mean.",
+            "a": [
+              "È proprio questo che intendo."
+            ]
+          },
+          {
+            "q": "It was Luca who told me. (use a + infinitive)",
+            "a": [
+              "È stato Luca a dirmelo."
+            ]
+          },
+          {
+            "q": "The more I know him, the more I respect him. (quanto più… tanto più)",
+            "a": [
+              "Quanto più lo conosco, tanto più lo stimo.",
+              "Quanto più lo conosco, tanto più lo rispetto."
+            ]
+          },
+          {
+            "q": "I spend as little as possible.",
+            "a": [
+              "Spendo il meno possibile."
+            ]
+          },
+          {
+            "q": "He is more cunning than intelligent.",
+            "a": [
+              "È più furbo che intelligente."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

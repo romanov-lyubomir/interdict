@@ -1,0 +1,439 @@
+{
+  "title": "Oggi {ip:vado} al mercato con Anna",
+  "translation": "Today I'm going to the market with Anna",
+  "topics": "Prepositions, prepositions with the article, adverbs of place and time",
+  "grammar": {
+    "explain": [
+      {
+        "table": {
+          "head": [
+            "Preposition",
+            "Main uses",
+            "Example"
+          ],
+          "rows": [
+            [
+              "a",
+              "to, at; before cities",
+              "{ip:Vado} a Roma. {ip:Sono} a casa."
+            ],
+            [
+              "di",
+              "of, from (origin)",
+              "il libro di Anna; {ip:Sono} di Sofia."
+            ],
+            [
+              "da",
+              "from; at someone's place",
+              "{ip:Arrivo} da Milano. {ip:Vado} da Luca."
+            ],
+            [
+              "in",
+              "in, to; before countries",
+              "{ip:Vivo} in Italia. {ip:Vado} in centro."
+            ],
+            [
+              "con",
+              "with",
+              "{ip:Esco} con Anna."
+            ],
+            [
+              "su",
+              "on",
+              "Il libro {ip:è} sul tavolo."
+            ],
+            [
+              "per",
+              "for",
+              "Un regalo per te."
+            ]
+          ]
+        }
+      },
+      "When *a, di, da, in, su* come before a definite article, they join with it into one word.",
+      {
+        "table": {
+          "head": [
+            "",
+            "il",
+            "lo",
+            "l'",
+            "la",
+            "i",
+            "gli",
+            "le"
+          ],
+          "rows": [
+            [
+              "a",
+              "al",
+              "allo",
+              "all'",
+              "alla",
+              "ai",
+              "agli",
+              "alle"
+            ],
+            [
+              "di",
+              "del",
+              "dello",
+              "dell'",
+              "della",
+              "dei",
+              "degli",
+              "delle"
+            ],
+            [
+              "da",
+              "dal",
+              "dallo",
+              "dall'",
+              "dalla",
+              "dai",
+              "dagli",
+              "dalle"
+            ],
+            [
+              "in",
+              "nel",
+              "nello",
+              "nell'",
+              "nella",
+              "nei",
+              "negli",
+              "nelle"
+            ],
+            [
+              "su",
+              "sul",
+              "sullo",
+              "sull'",
+              "sulla",
+              "sui",
+              "sugli",
+              "sulle"
+            ]
+          ]
+        }
+      },
+      "*Con* and *per* normally stay separate: *con il cane, per la mamma*.",
+      "Adverbs of place: *qui / qua* (here), *lì / là* (there). Adverbs of time: *oggi* (today), *domani* (tomorrow), *ieri* (yesterday), *prima* (before, first), *dopo* (after, later), *adesso* (now)."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Join the preposition and the article.",
+        "questions": [
+          "{ip:Vado} [[al]] mercato. (a + il)",
+          "La casa [[della]] nonna. (di + la)",
+          "Il libro {ip:è} [[nello]] zaino. (in + lo)",
+          "Le chiavi {ip:sono} [[sul]] tavolo. (su + il)",
+          "{ip:Torno} [[dal]] lavoro. (da + il)",
+          "I libri [[degli]] studenti. (di + gli)",
+          "{ip:Vado} [[alla]] stazione. (a + la)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right preposition.",
+        "questions": [
+          {
+            "q": "{ip:Vivo} ___ Roma.",
+            "options": [
+              "*a",
+              "in",
+              "di"
+            ]
+          },
+          {
+            "q": "{ip:Vivo} ___ Italia.",
+            "options": [
+              "a",
+              "*in",
+              "da"
+            ]
+          },
+          {
+            "q": "{ip:Sono} ___ Sofia. (origin)",
+            "options": [
+              "a",
+              "*di",
+              "per"
+            ]
+          },
+          {
+            "q": "Questo regalo {ip:è} ___ te.",
+            "options": [
+              "con",
+              "su",
+              "*per"
+            ]
+          },
+          {
+            "q": "{ip:Vado} al cinema ___ Paolo.",
+            "options": [
+              "*con",
+              "di",
+              "su"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with oggi, domani, qui or lì.",
+        "questions": [
+          "Ieri {im:era} lunedì, [[oggi]] {ip:è} martedì e domani {ip:è} mercoledì.",
+          "Oggi lavoro, [[domani]] riposo.",
+          "{imv:Vieni} [[qui]], vicino a me!",
+          "{ip:Vedi} quella casa? {ip:Abito} [[lì]]."
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il mercato",
+        "market"
+      ],
+      [
+        "il negozio",
+        "shop"
+      ],
+      [
+        "il tavolo",
+        "table"
+      ],
+      [
+        "la strada",
+        "street"
+      ],
+      [
+        "la piazza",
+        "square"
+      ],
+      [
+        "il centro",
+        "centre"
+      ],
+      [
+        "la frutta",
+        "fruit"
+      ],
+      [
+        "la verdura",
+        "vegetables"
+      ],
+      [
+        "il formaggio",
+        "cheese"
+      ],
+      [
+        "il regalo",
+        "present"
+      ],
+      [
+        "comprare",
+        "to buy"
+      ],
+      [
+        "tornare",
+        "to return"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il negozio",
+            "shop"
+          ],
+          [
+            "il tavolo",
+            "table"
+          ],
+          [
+            "la strada",
+            "street"
+          ],
+          [
+            "la verdura",
+            "vegetables"
+          ],
+          [
+            "il formaggio",
+            "cheese"
+          ],
+          [
+            "comprare",
+            "to buy"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Compro} la [[frutta]] al mercato. (fruit)",
+          "Questo [[regalo]] {ip:è} per te. (present)",
+          "Il bar {ip:è} in [[piazza]]. (square)",
+          "[[Torno#ip]] a casa alle otto. (I return)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Oggi {ip:è} sabato. Prima {ip:vado} al mercato con Anna, in piazza. {ip:Compriamo} la frutta, la verdura e il formaggio per la nonna di Anna.",
+      "Dopo {ip:andiamo} dal fruttivendolo in via Roma, perché le mele del mercato {ip:sono} care. Alle undici {ip:andiamo} al bar e {ip:prendiamo} un caffè. Domani {ip:torno} a Milano in treno, ma adesso {ip:sto} qui con Anna."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Where is the market?",
+            "options": [
+              "*In the square",
+              "In Via Roma",
+              "At the station"
+            ]
+          },
+          {
+            "q": "Who is the cheese for?",
+            "options": [
+              "For the speaker",
+              "*For Anna's grandmother",
+              "For the greengrocer"
+            ]
+          },
+          {
+            "q": "Why do they go to the greengrocer?",
+            "options": [
+              "He is a friend",
+              "*The market apples are expensive",
+              "The market is closed"
+            ]
+          },
+          {
+            "q": "When does the speaker return to Milan?",
+            "options": [
+              "Today",
+              "*Tomorrow",
+              "On Saturday"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Turista",
+        "{imv:Scusi}, dov'{ip:è} la stazione?"
+      ],
+      [
+        "Signora",
+        "{ip:È} in centro, vicino alla piazza."
+      ],
+      [
+        "Turista",
+        "{ip:Vado} a piedi?"
+      ],
+      [
+        "Signora",
+        "No, {ip:è} lontana. {imv:Prenda} l'autobus numero sei, qui davanti al negozio."
+      ],
+      [
+        "Turista",
+        "Grazie mille!"
+      ],
+      [
+        "Signora",
+        "Di niente. Buona giornata!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:È} in centro, vicino [[alla]] piazza.",
+          "{ip:Vado} [[a]] piedi?",
+          "{imv:Prenda} l'autobus numero sei, qui davanti [[al]] negozio."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The station is close enough to walk.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The tourist should take bus number six.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I'm going to the market.",
+            "a": [
+              "Vado al mercato.",
+              "Io vado al mercato."
+            ]
+          },
+          {
+            "q": "The keys are on the table.",
+            "a": [
+              "Le chiavi sono sul tavolo."
+            ]
+          },
+          {
+            "q": "I live in Italy.",
+            "a": [
+              "Vivo in Italia.",
+              "Abito in Italia.",
+              "Io vivo in Italia."
+            ]
+          },
+          {
+            "q": "I'm going to the cinema with Anna.",
+            "a": [
+              "Vado al cinema con Anna."
+            ]
+          },
+          {
+            "q": "Today I'm working, tomorrow I'm going to Rome.",
+            "a": [
+              "Oggi lavoro, domani vado a Roma."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

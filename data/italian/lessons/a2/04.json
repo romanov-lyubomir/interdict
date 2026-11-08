@@ -1,0 +1,436 @@
+{
+  "title": "Le {ip:telefono}: {ip:voglio} aiutarla",
+  "translation": "I'm phoning her: I want to help her",
+  "topics": "Direct and indirect object pronouns, pronouns with infinitives and modal verbs",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Direct or indirect?"
+      },
+      "Look at the question the verb answers. *Whom? What?* needs a direct pronoun: *{ip:Conosco} Luca → Lo {ip:conosco}*. *To whom?*, with the preposition *a* in front of the person, needs an indirect one: *{ip:Telefono} a Luca → Gli {ip:telefono}*.",
+      "The two sets are identical except in the third person, so that is the only part you have to learn.",
+      {
+        "table": {
+          "head": [
+            "Person",
+            "Direct: whom?",
+            "Indirect: to whom?"
+          ],
+          "rows": [
+            [
+              "me",
+              "mi",
+              "mi"
+            ],
+            [
+              "you",
+              "ti",
+              "ti"
+            ],
+            [
+              "him",
+              "**lo**",
+              "**gli**"
+            ],
+            [
+              "her",
+              "**la**",
+              "**le**"
+            ],
+            [
+              "us",
+              "ci",
+              "ci"
+            ],
+            [
+              "you (plural)",
+              "vi",
+              "vi"
+            ],
+            [
+              "them (masc.)",
+              "**li**",
+              "**gli**"
+            ],
+            [
+              "them (fem.)",
+              "**le**",
+              "**gli**"
+            ]
+          ]
+        }
+      },
+      "Common verbs with an indirect person: *telefonare a, parlare a, scrivere a, dire a, dare a, regalare a, chiedere a, rispondere a*.",
+      {
+        "h": "Where the pronoun goes"
+      },
+      "It normally stands right before the verb: *Le {ip:telefono} stasera. Non lo {ip:conosco}.*",
+      "With an infinitive, it attaches to the end, and the infinitive loses its final *-e*: *comprare + lo → comprarlo*.",
+      "With *potere, volere* and *dovere* you may choose: the two versions mean exactly the same.",
+      {
+        "table": {
+          "head": [
+            "Before the modal",
+            "After the infinitive"
+          ],
+          "rows": [
+            [
+              "**Lo** {ip:voglio} comprare.",
+              "{ip:Voglio} comprar**lo**."
+            ],
+            [
+              "**Ti** {ip:posso} aiutare.",
+              "{ip:Posso} aiutar**ti**."
+            ],
+            [
+              "**Gli** {ip:devo} telefonare.",
+              "{ip:Devo} telefonar**gli**."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "In the passato prossimo"
+      },
+      "Direct pronouns *lo, la, li, le* make the participle agree with them, as if it were an adjective. *Lo* and *la* become *l'* before the auxiliary. Indirect pronouns change nothing.",
+      {
+        "table": {
+          "head": [
+            "Pronoun",
+            "Example"
+          ],
+          "rows": [
+            [
+              "lo",
+              "L'{pp:ho vist**o**}."
+            ],
+            [
+              "la",
+              "L'{pp:ho vist**a**}."
+            ],
+            [
+              "li",
+              "Li {pp:ho vist**i**}."
+            ],
+            [
+              "le",
+              "Le {pp:ho vist**e**}."
+            ],
+            [
+              "gli / le (indirect)",
+              "Le {pp:ho telefonato}."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right pronoun.",
+        "questions": [
+          {
+            "q": "{ip:Conosco} Marco. ___ {ip:conosco}.",
+            "options": [
+              "*Lo",
+              "Gli"
+            ]
+          },
+          {
+            "q": "{ip:Telefono} a Marco. ___ {ip:telefono}.",
+            "options": [
+              "Lo",
+              "*Gli"
+            ]
+          },
+          {
+            "q": "{ip:Telefono} ad Anna. ___ {ip:telefono}.",
+            "options": [
+              "La",
+              "*Le"
+            ]
+          },
+          {
+            "q": "{ip:Vedo} Anna. ___ {ip:vedo}.",
+            "options": [
+              "*La",
+              "Le"
+            ]
+          },
+          {
+            "q": "{ip:Scrivo} ai miei amici. ___ {ip:scrivo}.",
+            "options": [
+              "Li",
+              "*Gli"
+            ]
+          },
+          {
+            "q": "{ip:Compro} le mele. ___ {ip:compro}.",
+            "options": [
+              "*Le",
+              "Gli"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Rewrite with the pronoun attached to the infinitive.",
+        "questions": [
+          "Lo {ip:voglio} comprare. → {ip:Voglio} [[comprarlo]].",
+          "Ti {ip:posso} aiutare. → {ip:Posso} [[aiutarti]].",
+          "Le {ip:devo} telefonare. → {ip:Devo} [[telefonarle]].",
+          "La {ip:vogliamo} invitare. → {ip:Vogliamo} [[invitarla]]."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the participle.",
+        "questions": [
+          "{pp:Hai visto} Anna? Sì, l'{pp:ho} [[vista#pp]].",
+          "{pp:Hai comprato} il pane? Sì, l'{pp:ho} [[comprato#pp]].",
+          "{pp:Hai preso} le chiavi? Sì, le {pp:ho} [[prese#pp]].",
+          "{pp:Hai letto} i libri? Sì, li {pp:ho} [[letti#pp]].",
+          "{pp:Hai telefonato} a Sara? Sì, le {pp:ho} [[telefonato#pp]]."
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il messaggio",
+        "message"
+      ],
+      [
+        "il regalo",
+        "present"
+      ],
+      [
+        "la risposta",
+        "answer"
+      ],
+      [
+        "il consiglio",
+        "advice"
+      ],
+      [
+        "il favore",
+        "favour"
+      ],
+      [
+        "conoscere",
+        "to know (a person)"
+      ],
+      [
+        "aiutare",
+        "to help"
+      ],
+      [
+        "regalare",
+        "to give as a present"
+      ],
+      [
+        "chiedere",
+        "to ask"
+      ],
+      [
+        "rispondere",
+        "to answer"
+      ],
+      [
+        "prestare",
+        "to lend"
+      ],
+      [
+        "mandare",
+        "to send"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il consiglio",
+            "advice"
+          ],
+          [
+            "il favore",
+            "favour"
+          ],
+          [
+            "conoscere",
+            "to know (a person)"
+          ],
+          [
+            "regalare",
+            "to give as a present"
+          ],
+          [
+            "prestare",
+            "to lend"
+          ],
+          [
+            "mandare",
+            "to send"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Ti {pp:ho mandato} un [[messaggio]]. (message)",
+          "Mi {ip:fai} un [[favore]]? (favour)",
+          "Non {pp:ho ricevuto} una [[risposta]]. (answer)",
+          "Mi {ip:puoi} [[aiutare]]? (to help)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Domenica {ip:è} il compleanno di Rosa, mia sorella. {ip:Voglio} regalarle qualcosa di speciale, ma non {ip:so} che cosa. Ieri {pp:ho telefonato} a Pietro, suo marito, e gli {pp:ho chiesto} un consiglio.",
+      "Lui mi {pp:ha detto}: «Le {ip:piacciono} i libri di cucina. Ne {pp:ho visto} uno bellissimo in centro. {ip:Puoi} comprarlo lì.» Oggi l'{pp:ho comprato} e l'{pp:ho nascosto} nell'armadio. Rosa non lo {ip:sa} ancora!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "It is Rosa's birthday on Sunday.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The speaker asked Pietro for advice.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The present is a cookbook.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Rosa knows about the present.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Carla",
+        "{pp:Hai visto} Giulia oggi?"
+      ],
+      [
+        "Marco",
+        "No, non l'{pp:ho vista}. Perché?"
+      ],
+      [
+        "Carla",
+        "{ip:Devo} parlarle. {ip:Puoi} telefonarle tu?"
+      ],
+      [
+        "Marco",
+        "Le {pp:ho} già {pp:telefonato}, ma non {ip:risponde}."
+      ],
+      [
+        "Carla",
+        "Allora le {ip:mando} un messaggio."
+      ],
+      [
+        "Marco",
+        "Sì, e se {ip:vuoi} {ip:posso} aiutarti."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "No, non l'{pp:ho} [[vista#pp]].",
+          "{ip:Devo} [[parlarle]].",
+          "[[Le]] {pp:ho} già {pp:telefonato}.",
+          "Se {ip:vuoi} {ip:posso} [[aiutarti]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does Carla decide to do?",
+        "questions": [
+          {
+            "q": "Carla is going to…",
+            "options": [
+              "*send Giulia a message",
+              "go to Giulia's house",
+              "wait until tomorrow"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I know him.",
+            "a": [
+              "Lo conosco.",
+              "Io lo conosco."
+            ]
+          },
+          {
+            "q": "I'm phoning her.",
+            "a": [
+              "Le telefono.",
+              "Io le telefono."
+            ]
+          },
+          {
+            "q": "I want to buy it. (masculine thing)",
+            "a": [
+              "Voglio comprarlo.",
+              "Lo voglio comprare."
+            ]
+          },
+          {
+            "q": "Can I help you? (informal)",
+            "a": [
+              "Posso aiutarti?",
+              "Ti posso aiutare?"
+            ]
+          },
+          {
+            "q": "I saw her yesterday.",
+            "a": [
+              "L'ho vista ieri.",
+              "Ieri l'ho vista."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

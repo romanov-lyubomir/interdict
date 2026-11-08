@@ -1,0 +1,436 @@
+{
+  "title": "Se {cst:avessi studiato}, {cpa:avrei superato} l'esame",
+  "translation": "If I had studied, I would have passed the exam",
+  "topics": "Real, possible and unreal conditions, mixed conditions, alternatives to se",
+  "grammar": {
+    "explain": [
+      {
+        "h": "The three types at a glance"
+      },
+      {
+        "table": {
+          "head": [
+            "Type",
+            "Condition",
+            "Result",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Real",
+              "se + present or future",
+              "present, future or imperative",
+              "Se {ip:hai} tempo, {ip:vieni}."
+            ],
+            [
+              "Possible",
+              "se + congiuntivo imperfetto",
+              "condizionale presente",
+              "Se {csi:avessi} tempo, {cop:viaggerei}."
+            ],
+            [
+              "Unreal",
+              "se + congiuntivo trapassato",
+              "condizionale passato",
+              "Se {cst:avessi studiato}, {cpa:avrei superato} l'esame."
+            ]
+          ]
+        }
+      },
+      "The type depends on the speaker's view rather than on the facts. *Se {ip:vinco}, {ip:compro} una casa* sounds confident. *Se {csi:vincessi}, {cop:comprerei} una casa* treats it as a dream.",
+      {
+        "h": "Mixed conditions"
+      },
+      "Past and present can cross when the condition and the result belong to different times.",
+      {
+        "table": {
+          "head": [
+            "Condition",
+            "Result",
+            "Example"
+          ],
+          "rows": [
+            [
+              "In the past",
+              "Now",
+              "Se {cst:avessi studiato}, ora {cop:avrei} un lavoro migliore."
+            ],
+            [
+              "Always true",
+              "In the past",
+              "Se {csi:fossi} più prudente, non {cpa:avresti avuto} quell'incidente."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "A colloquial shortcut"
+      },
+      "In everyday speech, you will hear the *imperfetto* in both halves of an unreal condition: *Se lo {im:sapevo}, {im:venivo}* instead of *Se l'{cst:avessi saputo}, {cpa:sarei venuto}*. It is fine in conversation, but keep the full form in writing and exams.",
+      {
+        "h": "Other ways of saying if"
+      },
+      "These words are more formal, or add a nuance, and they are followed by the *congiuntivo*.",
+      {
+        "table": {
+          "head": [
+            "Conjunction",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "qualora",
+              "if, should",
+              "Qualora {csi:arrivasse}, {imv:avvisami}."
+            ],
+            [
+              "nel caso in cui",
+              "in case",
+              "Nel caso in cui {csp:piova}, {ip:restiamo}."
+            ],
+            [
+              "a condizione che",
+              "on condition that",
+              "{ip:Accetto}, a condizione che {csp:paghi} tu."
+            ],
+            [
+              "a meno che (non)",
+              "unless",
+              "{ip:Vengo}, a meno che non {csp:piova}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Without any se"
+      },
+      "The *congiuntivo* alone can express a wish or a regret, and the *se* disappears: *{cst:Avessi saputo}!* (If only I had known!) *{csi:Fossi} in te, non lo {cop:farei}.*",
+      "And the rule stays the same at every level: the conditional never comes directly after *se*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete these conditions with the right forms.",
+        "questions": [
+          "Se [[avessi#csi]] tempo, [[viaggerei#cop]]. (avere, viaggiare – io, possible)",
+          "Se [[avessi studiato#cst]], [[avrei superato#cpa]] l'esame. (studiare, superare – io, unreal)",
+          "Se tu mi [[avessi ascoltato#cst]], ora non [[saresti#cop]] nei guai. (ascoltare, essere – mixed)",
+          "Se [[vieni#ip]], ti [[preparo#ip]] la cena. (venire – tu; preparare – io, real)",
+          "Se {csi:fossi} più gentile, [[avresti#cop]] più amici. (avere, possible)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Se ___ prima, {cpa:avremmo preso} il treno.",
+            "options": [
+              "{cpa:saremmo partiti}",
+              "*{cst:fossimo partiti}",
+              "{im:partivano}"
+            ]
+          },
+          {
+            "q": "Se {cst:avessi vinto}, ora ___ ricco.",
+            "options": [
+              "*{cop:sarei}",
+              "{csi:fossi}",
+              "{fs:sarò}"
+            ]
+          },
+          {
+            "q": "{ip:Vengo}, a meno che non ___ .",
+            "options": [
+              "{ip:piove}",
+              "*{csp:piova}",
+              "{cop:pioverebbe}"
+            ]
+          },
+          {
+            "q": "Qualora ___ , {imv:avvisami}.",
+            "options": [
+              "{ip:arriva}",
+              "{cop:arriverebbe}",
+              "*{csi:arrivasse}"
+            ]
+          },
+          {
+            "q": "___ saputo! (If only I had known!)",
+            "options": [
+              "*{csi:Avessi}",
+              "{cop:Avrei}",
+              "{ip:Ho}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite these colloquial sentences in standard Italian.",
+        "questions": [
+          {
+            "q": "Se lo {im:sapevo}, {im:venivo}.",
+            "a": [
+              "Se l'avessi saputo, sarei venuto.",
+              "Se lo avessi saputo, sarei venuto.",
+              "Se l'avessi saputo, sarei venuta.",
+              "Se lo avessi saputo, sarei venuta."
+            ]
+          },
+          {
+            "q": "Se {im:studiavi}, {im:passavi} l'esame.",
+            "a": [
+              "Se avessi studiato, avresti passato l'esame."
+            ]
+          },
+          {
+            "q": "Se {im:partivamo} prima, {im:arrivavamo} in tempo.",
+            "a": [
+              "Se fossimo partiti prima, saremmo arrivati in tempo.",
+              "Se fossimo partite prima, saremmo arrivate in tempo."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la condizione",
+        "condition"
+      ],
+      [
+        "il rischio",
+        "risk"
+      ],
+      [
+        "la conseguenza",
+        "consequence"
+      ],
+      [
+        "l'imprevisto",
+        "unforeseen event"
+      ],
+      [
+        "il guaio",
+        "trouble"
+      ],
+      [
+        "l'assicurazione",
+        "insurance"
+      ],
+      [
+        "evitare",
+        "to avoid"
+      ],
+      [
+        "rischiare",
+        "to risk"
+      ],
+      [
+        "avvisare",
+        "to warn"
+      ],
+      [
+        "rimediare",
+        "to put right"
+      ],
+      [
+        "prudente",
+        "cautious"
+      ],
+      [
+        "altrimenti",
+        "otherwise"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'imprevisto",
+            "unforeseen event"
+          ],
+          [
+            "il guaio",
+            "trouble"
+          ],
+          [
+            "evitare",
+            "to avoid"
+          ],
+          [
+            "rimediare",
+            "to put right"
+          ],
+          [
+            "prudente",
+            "cautious"
+          ],
+          [
+            "altrimenti",
+            "otherwise"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Ogni scelta {ip:ha} una [[conseguenza]]. (consequence)",
+          "Non {ip:voglio} correre questo [[rischio]]. (risk)",
+          "Mi {pp:hai fatto} un [[guaio]]! (trouble)",
+          "{ip:Devi} [[avvisare]] tua madre. (to warn)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Se tre anni fa non {cst:avessi perso} quel treno, oggi non {cop:sarei} qui a raccontarlo. {im:Stavo} andando a un colloquio a Milano. Se {cst:fossi arrivato} in tempo, probabilmente {cpa:avrei accettato} il lavoro e adesso {cop:vivrei} in un ufficio al ventesimo piano.",
+      "Invece {pp:ho chiesto} un caffè nel bar della stazione e {pp:ho conosciuto} Lucia, che {tp:aveva} appena {tp:aperto} una piccola casa editrice. «Se {csi:sapessi} scrivere, ti {cop:assumerei}», mi {pp:ha detto} ridendo. Le {pp:ho mostrato} un racconto. Da allora {ip:lavoriamo} insieme. A volte {ip:penso}: {cst:avessi preso} quel treno, che vita {cpa:avrei fatto}?"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The narrator caught the train to Milan.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "He met Lucia in a station bar.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Lucia runs a small publishing house.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "He works in an office on the twentieth floor.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Olga",
+        "{pp:Hai saputo}? Mauro {pp:ha avuto} un incidente."
+      ],
+      [
+        "Remo",
+        "Te l'{tp:avevo detto}! Se {cst:fosse stato} più prudente, non {cpa:sarebbe successo}."
+      ],
+      [
+        "Olga",
+        "Sì, ma se {cst:avesse avuto} l'assicurazione, adesso non {cop:avrebbe} tutti questi guai."
+      ],
+      [
+        "Remo",
+        "Se {csi:fossi} in lui, {cop:venderei} la moto."
+      ],
+      [
+        "Olga",
+        "A meno che non la {csp:ripari} suo fratello."
+      ],
+      [
+        "Remo",
+        "{csi:Avessi} ancora i miei vent'anni, la {cop:riparerei} io!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Se {cst:fosse stato} più prudente, non [[sarebbe#cpa]] {cpa:successo}.",
+          "Se [[avesse#cst]] {cst:avuto} l'assicurazione, adesso non {cop:avrebbe} tutti questi guai.",
+          "Se [[fossi#csi]] in lui, {cop:venderei} la moto.",
+          "A meno che non la [[ripari#csp]] suo fratello."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does Remo advise?",
+        "questions": [
+          {
+            "q": "If he were Mauro, Remo would…",
+            "options": [
+              "buy a new motorbike",
+              "*sell the motorbike",
+              "get insurance"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "If I had studied, I would have passed the exam.",
+            "a": [
+              "Se avessi studiato, avrei superato l'esame.",
+              "Se avessi studiato, avrei passato l'esame."
+            ]
+          },
+          {
+            "q": "If I had time, I would travel.",
+            "a": [
+              "Se avessi tempo, viaggerei."
+            ]
+          },
+          {
+            "q": "If you had listened to me, you wouldn't be in trouble now. (informal)",
+            "a": [
+              "Se mi avessi ascoltato, ora non saresti nei guai.",
+              "Se mi avessi ascoltato, adesso non saresti nei guai."
+            ]
+          },
+          {
+            "q": "I'll come, unless it rains.",
+            "a": [
+              "Vengo, a meno che non piova.",
+              "Verrò, a meno che non piova."
+            ]
+          },
+          {
+            "q": "If only I had known!",
+            "a": [
+              "Avessi saputo!",
+              "Se avessi saputo!",
+              "Se l'avessi saputo!"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

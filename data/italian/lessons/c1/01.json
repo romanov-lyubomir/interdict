@@ -1,0 +1,392 @@
+{
+  "title": "{im:Pensavo} che {cst:avessero} già {cst:deciso}",
+  "translation": "I thought they had already decided",
+  "topics": "Choosing mood and tense precisely, the sequence of tenses in complex sentences",
+  "grammar": {
+    "explain": [
+      {
+        "h": "What each mood really does"
+      },
+      "At this level, the choice of mood is a choice of meaning. The indicative asserts something, the *congiuntivo* presents it without asserting it, and the conditional makes it depend on something or distances the speaker from it.",
+      {
+        "table": {
+          "head": [
+            "Verb",
+            "With the indicative",
+            "With the congiuntivo"
+          ],
+          "rows": [
+            [
+              "capire che",
+              "Capisco che è stanco. (I realise it.)",
+              "{ip:Capisco} che {csp:sia} stanco. (I sympathise.)"
+            ],
+            [
+              "dire che",
+              "Dico che viene. (I'm stating it.)",
+              "Dico che venga. (I want him to come.)"
+            ],
+            [
+              "ammettere che",
+              "Ammetto che ho sbagliato. (I confess it.)",
+              "{ip:Ammettiamo} che {csa:abbia sbagliato}. (Let's {pr:suppose}.)"
+            ],
+            [
+              "il fatto che",
+              "Il fatto {ip:è} che {ip:ha} ragione. (assertion)",
+              "Il fatto che {csp:abbia} ragione non {ip:cambia} nulla. (topic)"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The complete sequence of tenses"
+      },
+      "Two things determine the tense of the dependent verb: the time of the main verb, and whether the action comes before, during or after it.",
+      {
+        "table": {
+          "head": [
+            "Main verb",
+            "Before",
+            "During",
+            "After"
+          ],
+          "rows": [
+            [
+              "{ip:Credo} che (congiuntivo)",
+              "{csa:abbiano deciso}",
+              "{csp:decidano}",
+              "{fs:decideranno}"
+            ],
+            [
+              "{im:Credevo} che (congiuntivo)",
+              "{cst:avessero deciso}",
+              "{csi:decidessero}",
+              "{cpa:avrebbero deciso}"
+            ],
+            [
+              "So che (indicative)",
+              "{pp:hanno deciso}",
+              "{ip:decidono}",
+              "{fs:decideranno}"
+            ],
+            [
+              "{im:Sapevo} che (indicative)",
+              "{tp:avevano deciso}",
+              "{im:decidevano}",
+              "{cpa:avrebbero deciso}"
+            ]
+          ]
+        }
+      },
+      "Note that the future after a main verb in the past is always the *condizionale passato*, whatever the mood of the main clause.",
+      {
+        "h": "A main verb in the conditional"
+      },
+      "*{cop:Vorrei}* and similar verbs count as past tenses for this purpose: *{cop:Vorrei} che {csi:decidessero}*. With the past conditional, the choice shows when the wish applied: *{cpa:Avrei voluto} che {csi:decidessero}* (at that time) or *che {cst:avessero deciso}* (before that).",
+      {
+        "h": "When the sequence is broken"
+      },
+      "A statement that is always true can stay in the present: *Galileo {pr:sostenne} che la Terra {ip:gira} attorno al Sole.* In speech, the *imperfetto* often replaces the *condizionale passato* for a future in the past: *Mi {pp:ha detto} che {im:veniva}*. Keep the full form in writing."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the form that expresses the meaning given in brackets.",
+        "questions": [
+          {
+            "q": "{ip:Capisco} che tu ___ deluso. (I sympathise)",
+            "options": [
+              "{ip:sei}",
+              "*{csp:sia}"
+            ]
+          },
+          {
+            "q": "Dico che ___ subito. (I want them to leave)",
+            "options": [
+              "{ip:partono}",
+              "*{csp:partano}"
+            ]
+          },
+          {
+            "q": "Il fatto che non ___ risposto mi {ip:preoccupa}.",
+            "options": [
+              "{ip:ha}",
+              "*{csp:abbia}",
+              "{cop:avrebbe}"
+            ]
+          },
+          {
+            "q": "{im:Sapevo} che ___ il giorno dopo. (later)",
+            "options": [
+              "*{cpa:sarebbe tornato}",
+              "{pp:è tornato}",
+              "{cst:fosse tornato}"
+            ]
+          },
+          {
+            "q": "{im:Pensavo} che ___ già deciso. (earlier)",
+            "options": [
+              "{csp:abbiano}",
+              "{cop:avrebbero}",
+              "*{csi:avessero}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the right tense and mood.",
+        "questions": [
+          "{ip:Credo} che ieri [[abbiano firmato#csa]] il contratto. (firmare, before)",
+          "{im:Credevo} che il giorno prima [[avessero firmato#cst]] il contratto. (firmare, before)",
+          "Non {im:immaginavo} che lui [[sarebbe partito#cpa]] la settimana dopo. (partire, after)",
+          "{cpa:Avrei voluto} che tu [[fossi#csi]] qui in quel momento. (essere, during)",
+          "Galileo {pr:sostenne} che la Terra [[gira#ip]] attorno al Sole. (girare, general truth)",
+          "{im:Sapevo} che loro [[stavano#im]] già lavorando. (stare, during)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la decisione",
+        "decision"
+      ],
+      [
+        "il compromesso",
+        "compromise"
+      ],
+      [
+        "l'esito",
+        "outcome"
+      ],
+      [
+        "la premessa",
+        "premise"
+      ],
+      [
+        "la presa di posizione",
+        "stance"
+      ],
+      [
+        "deliberare",
+        "to resolve formally"
+      ],
+      [
+        "ponderare",
+        "to weigh up"
+      ],
+      [
+        "prevedere",
+        "to foresee"
+      ],
+      [
+        "esitare",
+        "to hesitate"
+      ],
+      [
+        "presumere",
+        "to presume"
+      ],
+      [
+        "inequivocabile",
+        "unambiguous"
+      ],
+      [
+        "tempestivamente",
+        "promptly"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il compromesso",
+            "compromise"
+          ],
+          [
+            "l'esito",
+            "outcome"
+          ],
+          [
+            "la presa di posizione",
+            "stance"
+          ],
+          [
+            "ponderare",
+            "to weigh up"
+          ],
+          [
+            "presumere",
+            "to presume"
+          ],
+          [
+            "inequivocabile",
+            "unambiguous"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Bisogna} intervenire [[tempestivamente]]. (promptly)",
+          "L'[[esito]] della votazione {ip:è} incerto. (outcome)",
+          "Non {pp:abbiamo} [[esitato#pp]] un attimo. (hesitated)",
+          "{pp:Hanno raggiunto} un [[compromesso]]. (compromise)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Fino all'ultimo, i consiglieri {im:erano convinti} che il sindaco {cst:avesse} già {cst:deciso} e che la riunione {csi:fosse} una pura formalità. Nessuno {im:sospettava} che, poche ore prima, egli {cst:avesse ricevuto} una lettera dei commercianti, nella quale si {im:minacciava} una protesta se il progetto {cst:fosse stato} {cst:approvato}.",
+      "Il fatto che il sindaco non ne {csa:abbia fatto} parola {pp:ha irritato} molti. {ip:Capisco} che {csa:abbia voluto} ponderare la questione, {pp:ha ammesso} un consigliere, ma {cpa:avrei preferito} che ci {csi:informasse} prima. Oggi nessuno {ip:può} prevedere quale {fs:sarà} l'esito, e c'{ip:è} già chi {ip:dice} che il progetto non {fs:vedrà} mai la luce."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What did the councillors believe?",
+            "options": [
+              "*That the mayor had already decided",
+              "That the meeting was cancelled",
+              "That the shopkeepers agreed"
+            ]
+          },
+          {
+            "q": "What did the letter contain?",
+            "options": [
+              "An offer of money",
+              "*The threat of a protest",
+              "The mayor's resignation"
+            ]
+          },
+          {
+            "q": "«Capisco che abbia voluto» suggests that the councillor…",
+            "options": [
+              "doesn't know the facts",
+              "*shows some sympathy",
+              "is giving an order"
+            ]
+          },
+          {
+            "q": "What is the situation now?",
+            "options": [
+              "The project has been approved",
+              "*The outcome is uncertain",
+              "The mayor has resigned"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Renata",
+        "{im:Pensavo} che {cst:avessero} già {cst:deciso} sul bilancio."
+      ],
+      [
+        "Vito",
+        "Anch'io. Invece la commissione {pp:ha chiesto} più tempo."
+      ],
+      [
+        "Renata",
+        "Il fatto che rinviino di nuovo non mi {ip:stupisce}."
+      ],
+      [
+        "Vito",
+        "Mi {tp:avevano assicurato} che {cpa:avrebbero votato} oggi."
+      ],
+      [
+        "Renata",
+        "{ip:Capisco} che tu {csp:sia} deluso, ma {im:era} prevedibile."
+      ],
+      [
+        "Vito",
+        "{cpa:Avrei voluto} che qualcuno me lo {csi:dicesse} prima."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{im:Pensavo} che [[avessero#cst]] già {cst:deciso} sul bilancio.",
+          "Il fatto che [[rinviino]] di nuovo non mi {ip:stupisce}.",
+          "Mi {tp:avevano assicurato} che [[avrebbero#cpa]] {cpa:votato} oggi.",
+          "{ip:Capisco} che tu [[sia#csp]] deluso."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What did the commission do?",
+        "questions": [
+          {
+            "q": "The commission…",
+            "options": [
+              "approved the budget",
+              "*asked for more time",
+              "rejected the budget"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I thought they had already decided.",
+            "a": [
+              "Pensavo che avessero già deciso.",
+              "Credevo che avessero già deciso."
+            ]
+          },
+          {
+            "q": "I knew he would come back.",
+            "a": [
+              "Sapevo che sarebbe tornato.",
+              "Io sapevo che sarebbe tornato."
+            ]
+          },
+          {
+            "q": "I understand that you may be tired. (sympathising, informal)",
+            "a": [
+              "Capisco che tu sia stanco.",
+              "Capisco che tu sia stanca.",
+              "Capisco che sia stanco."
+            ]
+          },
+          {
+            "q": "The fact that he hasn't answered worries me.",
+            "a": [
+              "Il fatto che non abbia risposto mi preoccupa."
+            ]
+          },
+          {
+            "q": "I would have liked you to be here. (informal)",
+            "a": [
+              "Avrei voluto che tu fossi qui.",
+              "Avrei voluto che fossi qui."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

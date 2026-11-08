@@ -1,0 +1,390 @@
+{
+  "title": "Ieri {pp:ho mangiato} e {pp:sono andata} al mare",
+  "translation": "Yesterday I ate and I went to the seaside",
+  "topics": "The passato prossimo with avere and essere",
+  "grammar": {
+    "explain": [
+      "The *passato prossimo* describes finished actions. It has two parts: the present of *avere* or *essere* and the past participle of the verb.",
+      {
+        "table": {
+          "head": [
+            "Infinitive",
+            "Participle",
+            "Example"
+          ],
+          "rows": [
+            [
+              "parl**are**",
+              "parl**ato**",
+              "{pp:Ho parlato}."
+            ],
+            [
+              "vend**ere**",
+              "vend**uto**",
+              "{pp:Ho venduto}."
+            ],
+            [
+              "dorm**ire**",
+              "dorm**ito**",
+              "{pp:Ho dormito}."
+            ]
+          ]
+        }
+      },
+      "Many common verbs have an irregular participle: *fare → fatto, vedere → visto, prendere → preso, leggere → letto, scrivere → scritto, bere → bevuto, essere → stato, venire → venuto*.",
+      "Most verbs take *avere*, and the participle does not change: *Anna {pp:ha mangiato}*.",
+      "Verbs of movement or change of state take *essere*: *andare, venire, arrivare, partire, tornare, uscire, entrare, restare, essere*. With essere, the participle agrees with the subject, like an adjective.",
+      {
+        "table": {
+          "head": [
+            "",
+            "mangiare (avere)",
+            "andare (essere)"
+          ],
+          "rows": [
+            [
+              "io",
+              "{pp:ho mangiato}",
+              "{pp:sono andat**o**} / andat**a**"
+            ],
+            [
+              "tu",
+              "{pp:hai mangiato}",
+              "{pp:sei andat**o**} / andat**a**"
+            ],
+            [
+              "lui / lei",
+              "{pp:ha mangiato}",
+              "{pp:è andat**o**} / andat**a**"
+            ],
+            [
+              "noi",
+              "{pp:abbiamo mangiato}",
+              "{pp:siamo andat**i**} / {ip:andat**e**}"
+            ],
+            [
+              "voi",
+              "{pp:avete mangiato}",
+              "{pp:siete andat**i**} / {ip:andat**e**}"
+            ],
+            [
+              "loro",
+              "{pp:hanno mangiato}",
+              "{pp:sono andat**i**} / {ip:andat**e**}"
+            ]
+          ]
+        }
+      },
+      "*Non* goes before the auxiliary: *Non {pp:ho mangiato}.* Useful time words: *ieri* (yesterday), *la settimana scorsa* (last week), *due giorni fa* (two days ago)."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the past participle.",
+        "questions": [
+          "parlare → [[parlato]]",
+          "dormire → [[dormito]]",
+          "fare → [[fatto]]",
+          "vedere → [[visto]]",
+          "leggere → [[letto]]",
+          "bere → [[bevuto]]"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose avere or essere.",
+        "questions": [
+          {
+            "q": "Ieri ___ mangiato la pizza.",
+            "options": [
+              "*{ip:ho}",
+              "{ip:sono}"
+            ]
+          },
+          {
+            "q": "Marta ___ andata a Roma.",
+            "options": [
+              "{ip:ha}",
+              "*{ip:è}"
+            ]
+          },
+          {
+            "q": "Noi ___ dormito molto.",
+            "options": [
+              "*{ip:abbiamo}",
+              "{ip:siamo}"
+            ]
+          },
+          {
+            "q": "Loro ___ partiti ieri.",
+            "options": [
+              "{ip:hanno}",
+              "*{ip:sono}"
+            ]
+          },
+          {
+            "q": "Tu ___ letto il libro?",
+            "options": [
+              "*{ip:hai}",
+              "{ip:sei}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the passato prossimo.",
+        "questions": [
+          "Ieri io [[ho lavorato#pp]] molto. (lavorare)",
+          "Anna [[è tornata#pp]] a casa. (tornare)",
+          "Noi [[abbiamo visto#pp]] un film. (vedere)",
+          "Marco e Luca [[sono usciti#pp]] ieri sera. (uscire)",
+          "Tu [[hai fatto#pp]] colazione? (fare)",
+          "Sara e Giulia [[sono arrivate#pp]] alle due. (arrivare)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "ieri",
+        "yesterday"
+      ],
+      [
+        "l'estate",
+        "summer"
+      ],
+      [
+        "il mare",
+        "sea"
+      ],
+      [
+        "la spiaggia",
+        "beach"
+      ],
+      [
+        "la montagna",
+        "mountains"
+      ],
+      [
+        "le vacanze",
+        "holidays"
+      ],
+      [
+        "il viaggio",
+        "trip"
+      ],
+      [
+        "arrivare",
+        "to arrive"
+      ],
+      [
+        "visitare",
+        "to visit"
+      ],
+      [
+        "incontrare",
+        "to meet"
+      ],
+      [
+        "fare il bagno",
+        "to go for a swim"
+      ],
+      [
+        "fa",
+        "ago"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la spiaggia",
+            "beach"
+          ],
+          [
+            "la montagna",
+            "mountains"
+          ],
+          [
+            "le vacanze",
+            "holidays"
+          ],
+          [
+            "il viaggio",
+            "trip"
+          ],
+          [
+            "visitare",
+            "to visit"
+          ],
+          [
+            "incontrare",
+            "to meet"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "[[Ieri]] {pp:sono andata} al mare. (yesterday)",
+          "D'[[estate]] {ip:fa} caldo. (summer)",
+          "{pp:Ho fatto} il [[bagno]] in mare. (swim)",
+          "{pp:Sono partito} due giorni [[fa]]. (ago)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "La settimana scorsa {pp:sono andata} al mare in Sicilia con la mia amica Laura. {pp:Siamo partite} lunedì mattina e {pp:siamo arrivate} a Palermo la sera. {pp:Abbiamo mangiato} il pesce in un piccolo ristorante.",
+      "Martedì {pp:abbiamo visitato} la città e {pp:abbiamo comprato} alcuni regali. Il giorno dopo {pp:abbiamo fatto} il bagno e {pp:abbiamo incontrato} due ragazzi di Napoli. {pp:Sono tornata} a casa ieri, stanca ma molto contenta!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The two friends went to Sicily.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "They arrived in Palermo on Monday morning.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "On Tuesday they visited the city.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The speaker came back home yesterday.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Paolo",
+        "Ciao, Laura! Che cosa {pp:hai fatto} ieri?"
+      ],
+      [
+        "Laura",
+        "{pp:Sono andata} al mare. E tu?"
+      ],
+      [
+        "Paolo",
+        "Io non {pp:sono uscito}. {pp:Ho studiato} tutto il giorno."
+      ],
+      [
+        "Laura",
+        "Poverino! {pp:Hai mangiato} almeno?"
+      ],
+      [
+        "Paolo",
+        "Sì, {pp:ho preso} una pizza e {pp:ho visto} un film."
+      ],
+      [
+        "Laura",
+        "Allora non {pp:è andata} così male!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Che cosa [[hai#pp]] {pp:fatto} ieri?",
+          "[[Sono#pp]] {pp:andata} al mare.",
+          "Io non {pp:sono} [[uscito#pp]].",
+          "{pp:Ho preso} una pizza e {pp:ho} [[visto#pp]] un film."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Paolo went to the seaside.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Paolo studied all day.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I ate a pizza.",
+            "a": [
+              "Ho mangiato una pizza.",
+              "Io ho mangiato una pizza."
+            ]
+          },
+          {
+            "q": "We saw a film.",
+            "a": [
+              "Abbiamo visto un film.",
+              "Noi abbiamo visto un film."
+            ]
+          },
+          {
+            "q": "Anna went to Rome.",
+            "a": [
+              "Anna è andata a Roma."
+            ]
+          },
+          {
+            "q": "Did you sleep? (informal)",
+            "a": [
+              "Hai dormito?",
+              "Tu hai dormito?"
+            ]
+          },
+          {
+            "q": "Yesterday I didn't work.",
+            "a": [
+              "Ieri non ho lavorato.",
+              "Ieri io non ho lavorato."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

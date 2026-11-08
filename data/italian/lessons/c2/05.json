@@ -1,0 +1,428 @@
+{
+  "title": "{cpa:Avrebbe dichiarato} di non saperne nulla",
+  "translation": "He is reported to have stated that he knew nothing about it",
+  "topics": "Reporting others' words with precision and distance",
+  "grammar": {
+    "explain": [
+      {
+        "h": "How much do you stand behind what you report?"
+      },
+      "Reporting is never neutral. The form you choose shows how far you trust the source.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example",
+            "The speaker's position"
+          ],
+          "rows": [
+            [
+              "Indicative",
+              "{pp:Ha dichiarato} di non saperne nulla.",
+              "It's a fact that he said so."
+            ],
+            [
+              "Conditional",
+              "{cpa:Avrebbe dichiarato} di non saperne nulla.",
+              "I can't confirm he said so."
+            ],
+            [
+              "A detta di",
+              "A detta sua, non ne {im:sapeva} nulla.",
+              "It's his version."
+            ],
+            [
+              "{ip:Pare} che",
+              "{ip:Pare} che non ne {csi:sapesse} nulla.",
+              "It's what people say."
+            ],
+            [
+              "Sedicente",
+              "Il sedicente esperto {pp:ha dichiarato}…",
+              "I doubt that he is what he says."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The reporting verb is a judgement"
+      },
+      {
+        "table": {
+          "head": [
+            "Verb",
+            "What it suggests"
+          ],
+          "rows": [
+            [
+              "dire, dichiarare",
+              "neutral"
+            ],
+            [
+              "affermare, sostenere",
+              "a claim that could be disputed"
+            ],
+            [
+              "pretendere",
+              "a claim the speaker finds excessive"
+            ],
+            [
+              "ammettere",
+              "something the person would rather hide"
+            ],
+            [
+              "insinuare, lasciar intendere",
+              "something suggested but not said"
+            ],
+            [
+              "precisare, puntualizzare",
+              "correcting a possible misreading"
+            ],
+            [
+              "millantare",
+              "boasting about something false"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Words for doubt"
+      },
+      "*Presunto*, *sedicente*, *cosiddetto* and *eventuale* tell the reader not to take something for granted. In journalism and law, *presunto* protects the rights of someone not yet convicted: *il presunto autore del furto*.",
+      {
+        "h": "Free indirect speech"
+      },
+      "Literature often merges the narrator's voice with a character's thoughts, without *{pr:disse} che*: *{cpa:Sarebbe tornato}, ne {im:era} certa. Lui non l'{cpa:avrebbe} mai {cpa:lasciata}.* The tenses are those of reported speech, but the feeling is direct.",
+      {
+        "h": "Quotation marks as distance"
+      },
+      "Quotation marks around a single word can signal irony or disagreement: *la sua «riforma»*. Use them sparingly, as they tend to weaken an argument when overused."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which verb reflects the attitude in brackets?",
+        "questions": [
+          {
+            "q": "{ip:Ha} ___ di aver sbagliato. (reluctantly conceded)",
+            "options": [
+              "*ammesso",
+              "millantato",
+              "preteso"
+            ]
+          },
+          {
+            "q": "{ip:Ha} ___ di essere amico del ministro. (false boast)",
+            "options": [
+              "puntualizzato",
+              "*millantato",
+              "ammesso"
+            ]
+          },
+          {
+            "q": "{ip:Ha} ___ che {cst:fossi stato} io, senza dirlo. (only suggested)",
+            "options": [
+              "dichiarato",
+              "*lasciato intendere",
+              "precisato"
+            ]
+          },
+          {
+            "q": "Il portavoce {ip:ha} ___ che i dati {im:erano} provvisori. (avoiding misreading)",
+            "options": [
+              "millantato",
+              "preteso",
+              "*precisato"
+            ]
+          },
+          {
+            "q": "{ip:Pretende} ___ avere ragione.",
+            "options": [
+              "*di",
+              "che",
+              "a"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rewrite each sentence to show that the information isn't confirmed.",
+        "questions": [
+          {
+            "q": "Il ministro si {pp:è dimesso}. (conditional)",
+            "a": [
+              "Il ministro si sarebbe dimesso."
+            ]
+          },
+          {
+            "q": "L'uomo {pp:ha dichiarato} di non saperne nulla. (conditional)",
+            "a": [
+              "L'uomo avrebbe dichiarato di non saperne nulla."
+            ]
+          },
+          {
+            "q": "I ladri {ip:sono} fuggiti in moto. (conditional)",
+            "a": [
+              "I ladri sarebbero fuggiti in moto."
+            ]
+          },
+          {
+            "q": "Non ne sapeva nulla. (start with Pare che)",
+            "a": [
+              "Pare che non ne sapesse nulla."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with presunto, sedicente or cosiddetto, in the right form.",
+        "questions": [
+          "Il [[presunto]] autore del furto {pp:è stato} {pp:interrogato}. (alleged)",
+          "Una [[sedicente]] esperta {ip:ha} truffato i clienti. (self-styled)",
+          "Il [[cosiddetto]] piano di rilancio non {ip:convince}. (so-called)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la smentita",
+        "denial"
+      ],
+      [
+        "l'indiscrezione",
+        "leak"
+      ],
+      [
+        "la fuga di notizie",
+        "news leak"
+      ],
+      [
+        "il sedicente",
+        "self-styled person"
+      ],
+      [
+        "millantare",
+        "to boast falsely"
+      ],
+      [
+        "puntualizzare",
+        "to clarify"
+      ],
+      [
+        "trapelare",
+        "to leak"
+      ],
+      [
+        "attribuire",
+        "to ascribe"
+      ],
+      [
+        "avallare",
+        "to endorse"
+      ],
+      [
+        "attendibile",
+        "reliable"
+      ],
+      [
+        "infondato",
+        "groundless"
+      ],
+      [
+        "a detta di",
+        "according to"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'indiscrezione",
+            "leak"
+          ],
+          [
+            "millantare",
+            "to boast falsely"
+          ],
+          [
+            "avallare",
+            "to endorse"
+          ],
+          [
+            "attendibile",
+            "reliable"
+          ],
+          [
+            "infondato",
+            "groundless"
+          ],
+          [
+            "a detta di",
+            "according to"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "La notizia {ip:è} [[infondata]]. (groundless)",
+          "{cop:Vorrei} [[puntualizzare]] un aspetto. (to clarify)",
+          "{pp:È arrivata} la [[smentita]] del ministero. (denial)",
+          "Dalla riunione non {ip:è} [[trapelato#ip]] nulla. (leaked)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il sedicente consulente finanziario che, a detta degli investigatori, {cpa:avrebbe sottratto} oltre due milioni di euro a decine di pensionati si {pp:è presentato} ieri in procura. L'uomo, che {im:millantava} amicizie influenti, {cpa:avrebbe dichiarato} di non saperne nulla. Il suo legale {pp:ha puntualizzato} che si {ip:tratta} di accuse infondate.",
+      "Stando a indiscrezioni, il presunto truffatore {cpa:avrebbe lasciato} intendere di agire per conto di una banca, che {ip:ha} però smentito ogni rapporto. {ip:Pare} che alcune vittime, per vergogna, non {csa:abbiano sporto} denuncia. La sua cosiddetta «società di investimenti» {im:consisteva}, secondo gli inquirenti, in una stanza e un telefono."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Which word shows doubt about his profession?",
+            "options": [
+              "*sedicente",
+              "investigatori",
+              "pensionati"
+            ]
+          },
+          {
+            "q": "How is his statement presented?",
+            "options": [
+              "As certain",
+              "*As unconfirmed",
+              "As false"
+            ]
+          },
+          {
+            "q": "What did the bank do?",
+            "options": [
+              "Confirmed the link",
+              "*Denied any relationship",
+              "Refused to comment"
+            ]
+          },
+          {
+            "q": "Why might some victims not have reported him?",
+            "options": [
+              "They were paid back",
+              "*Out of shame",
+              "They didn't know"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Giornalista",
+        "Lei {pp:ha sostenuto} di non saperne nulla?"
+      ],
+      [
+        "Avvocato",
+        "Il mio cliente {pp:ha precisato} di non aver firmato."
+      ],
+      [
+        "Giornalista",
+        "Secondo la procura, {cpa:avrebbe incassato} due milioni."
+      ],
+      [
+        "Avvocato",
+        "{ip:È} un'indiscrezione priva di fondamento."
+      ],
+      [
+        "Giornalista",
+        "{ip:Ammette} almeno di conoscere le vittime?"
+      ],
+      [
+        "Avvocato",
+        "Non {fs:lascerò} intendere nulla. Buona giornata."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Il mio cliente {pp:ha} [[precisato#pp]] di non aver firmato.",
+          "Secondo la procura, [[avrebbe#cpa]] {cpa:incassato} due milioni.",
+          "{ip:È} un'[[indiscrezione]] priva di fondamento.",
+          "Non [[lascerò#fs]] intendere nulla."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How does the lawyer answer?",
+        "questions": [
+          {
+            "q": "The lawyer…",
+            "options": [
+              "admits everything",
+              "*avoids giving anything away",
+              "accuses the prosecutor"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "He is reported to have stated that he knew nothing about it.",
+            "a": [
+              "Avrebbe dichiarato di non saperne nulla.",
+              "Avrebbe dichiarato di non saperne niente."
+            ]
+          },
+          {
+            "q": "According to him, he knew nothing about it. (use a detta sua)",
+            "a": [
+              "A detta sua, non ne sapeva nulla.",
+              "A detta sua, non ne sapeva niente."
+            ]
+          },
+          {
+            "q": "the alleged thief",
+            "a": [
+              "il presunto ladro"
+            ]
+          },
+          {
+            "q": "the self-styled expert (a man)",
+            "a": [
+              "il sedicente esperto"
+            ]
+          },
+          {
+            "q": "He hinted that it was me. (lasciar intendere, a man speaking)",
+            "a": [
+              "Ha lasciato intendere che fossi stato io.",
+              "Ha lasciato intendere che ero stato io."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

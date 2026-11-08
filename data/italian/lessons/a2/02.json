@@ -1,0 +1,466 @@
+{
+  "title": "Da bambino {im:giocavo} spesso al mare",
+  "translation": "As a child I often played at the seaside",
+  "topics": "The imperfetto: habits, descriptions and actions in progress in the past",
+  "grammar": {
+    "explain": [
+      {
+        "h": "What the imperfetto is for"
+      },
+      "The *imperfetto* looks at the past from the inside, without saying when something started or ended. It has three main uses.",
+      {
+        "table": {
+          "head": [
+            "Use",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Habits",
+              "Da bambino {im:giocavo} spesso.",
+              "As a child I often played."
+            ],
+            [
+              "Descriptions",
+              "La casa {im:era} piccola.",
+              "The house was small."
+            ],
+            [
+              "Actions in progress",
+              "{im:Leggevo} un libro.",
+              "I was reading a book."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "How to form it"
+      },
+      "Take the infinitive, remove the final *-re*, and add the same endings for all three groups. The vowel of the infinitive stays, so you don't have to learn three patterns.",
+      {
+        "table": {
+          "head": [
+            "",
+            "parlare",
+            "leggere",
+            "dormire"
+          ],
+          "rows": [
+            [
+              "io",
+              "{im:parla**vo**}",
+              "{im:legge**vo**}",
+              "{im:dormi**vo**}"
+            ],
+            [
+              "tu",
+              "{im:parla**vi**}",
+              "{im:legge**vi**}",
+              "{im:dormi**vi**}"
+            ],
+            [
+              "lui / lei",
+              "{im:parla**va**}",
+              "{im:legge**va**}",
+              "{im:dormi**va**}"
+            ],
+            [
+              "noi",
+              "{im:parla**vamo**}",
+              "{im:legge**vamo**}",
+              "{im:dormi**vamo**}"
+            ],
+            [
+              "voi",
+              "{im:parla**vate**}",
+              "{im:legge**vate**}",
+              "{im:dormi**vate**}"
+            ],
+            [
+              "loro",
+              "{im:parla**vano**}",
+              "{im:legge**vano**}",
+              "{im:dormi**vano**}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The few irregular verbs"
+      },
+      "*Essere* is truly irregular. *Fare*, *bere* and *dire* only use their longer old stems, with the normal endings.",
+      {
+        "table": {
+          "head": [
+            "",
+            "essere",
+            "fare",
+            "bere",
+            "dire"
+          ],
+          "rows": [
+            [
+              "io",
+              "{im:ero}",
+              "{im:fa**ce**vo}",
+              "be**ve**vo",
+              "{im:di**ce**vo}"
+            ],
+            [
+              "tu",
+              "{im:eri}",
+              "{im:fa**ce**vi}",
+              "be**ve**vi",
+              "{im:di**ce**vi}"
+            ],
+            [
+              "lui / lei",
+              "{im:era}",
+              "{im:fa**ce**va}",
+              "be**ve**va",
+              "{im:di**ce**va}"
+            ],
+            [
+              "noi",
+              "{im:eravamo}",
+              "{im:fa**ce**vamo}",
+              "be**ve**vamo",
+              "{im:di**ce**vamo}"
+            ],
+            [
+              "voi",
+              "{im:eravate}",
+              "{im:fa**ce**vate}",
+              "be**ve**vate",
+              "{im:di**ce**vate}"
+            ],
+            [
+              "loro",
+              "{im:erano}",
+              "{im:fa**ce**vano}",
+              "be**ve**vano",
+              "{im:di**ce**vano}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Words that often go with it"
+      },
+      "*Da bambino* (as a child), *di solito* (usually), *ogni estate* (every summer), *sempre* (always), *spesso* (often), *mentre* (while)."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the imperfetto.",
+        "questions": [
+          "Da bambino [[giocavo#im]] al mare. (giocare, io)",
+          "Tu [[abitavi#im]] a Napoli? (abitare)",
+          "Mia nonna [[cucinava#im]] sempre la domenica. (cucinare)",
+          "Noi [[leggevamo#im]] molti libri. (leggere)",
+          "Voi [[dormivate#im]] poco. (dormire)",
+          "I miei genitori [[lavoravano#im]] molto. (lavorare)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right form of the irregular verb.",
+        "questions": [
+          "La casa [[era#im]] piccola. (essere)",
+          "Noi [[eravamo#im]] molto giovani. (essere)",
+          "Che cosa [[facevi#im]] ieri alle sei? (fare, tu)",
+          "Mio nonno [[beveva#im]] solo vino. (bere)",
+          "I bambini non [[dicevano#im]] niente. (dire)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does the imperfetto express here?",
+        "questions": [
+          {
+            "q": "Ogni estate {im:andavamo} in montagna.",
+            "options": [
+              "*a habit",
+              "a description",
+              "an action in progress"
+            ]
+          },
+          {
+            "q": "Il mare {im:era} azzurro.",
+            "options": [
+              "a habit",
+              "*a description",
+              "an action in progress"
+            ]
+          },
+          {
+            "q": "Alle otto {im:guardavo} un film.",
+            "options": [
+              "a habit",
+              "a description",
+              "*an action in progress"
+            ]
+          },
+          {
+            "q": "Di solito mi {im:alzavo} presto.",
+            "options": [
+              "*a habit",
+              "a description",
+              "an action in progress"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il bambino",
+        "child"
+      ],
+      [
+        "l'infanzia",
+        "childhood"
+      ],
+      [
+        "il paese",
+        "village, country"
+      ],
+      [
+        "la campagna",
+        "countryside"
+      ],
+      [
+        "il giocattolo",
+        "toy"
+      ],
+      [
+        "il compagno di scuola",
+        "schoolmate"
+      ],
+      [
+        "giocare",
+        "to play"
+      ],
+      [
+        "ricordare",
+        "to remember"
+      ],
+      [
+        "correre",
+        "to run"
+      ],
+      [
+        "di solito",
+        "usually"
+      ],
+      [
+        "felice",
+        "happy"
+      ],
+      [
+        "tranquillo",
+        "quiet, calm"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'infanzia",
+            "childhood"
+          ],
+          [
+            "la campagna",
+            "countryside"
+          ],
+          [
+            "il giocattolo",
+            "toy"
+          ],
+          [
+            "ricordare",
+            "to remember"
+          ],
+          [
+            "correre",
+            "to run"
+          ],
+          [
+            "tranquillo",
+            "quiet, calm"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Da [[bambino]] {im:abitavo} in campagna. (child)",
+          "[[Di solito]] mi {ip:alzo} alle sette. (usually)",
+          "{im:Ero} molto [[felice]]. (happy)",
+          "[[Ricordo#ip]] bene quella casa. (I remember)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Quando {im:ero} piccola, {im:abitavo} in un paese vicino al mare. La nostra casa {im:era} bianca e {im:aveva} un giardino con molti fiori. Ogni mattina mio padre {im:andava} a pescare e mia madre {im:lavorava} in un negozio.",
+      "D'estate {im:giocavo} sulla spiaggia con i miei compagni di scuola. {im:Correvamo}, {im:nuotavamo} e {im:tornavamo} a casa solo per mangiare. La sera mia nonna {im:raccontava} storie. Non {im:avevamo} la televisione, ma {im:eravamo} felici."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "The house was…",
+            "options": [
+              "*white, with a garden",
+              "big and grey",
+              "in the mountains"
+            ]
+          },
+          {
+            "q": "The father…",
+            "options": [
+              "worked in a shop",
+              "*went fishing",
+              "told stories"
+            ]
+          },
+          {
+            "q": "In the evening, the grandmother…",
+            "options": [
+              "cooked",
+              "watched television",
+              "*told stories"
+            ]
+          },
+          {
+            "q": "The family…",
+            "options": [
+              "had a television",
+              "*had no television",
+              "lived in a city"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Luca",
+        "Dove {im:abitavi} da bambina?"
+      ],
+      [
+        "Elena",
+        "{im:Abitavo} in campagna, con i miei nonni."
+      ],
+      [
+        "Luca",
+        "E che cosa {im:facevi} tutto il giorno?"
+      ],
+      [
+        "Elena",
+        "{im:Giocavo} con il cane e {im:aiutavo} mia nonna in cucina."
+      ],
+      [
+        "Luca",
+        "{im:Andavi} a scuola a piedi?"
+      ],
+      [
+        "Elena",
+        "Sì, di solito {im:camminavo} con mia cugina. {im:Era} lontana, ma {im:ero} contenta."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Dove [[abitavi#im]] da bambina?",
+          "E che cosa [[facevi#im]] tutto il giorno?",
+          "[[Giocavo#im]] con il cane.",
+          "[[Era#im]] lontana, ma {im:ero} contenta."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Elena lived with her grandparents.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Elena went to school by bus.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian, using the imperfetto.",
+        "questions": [
+          {
+            "q": "As a child I often played. (a man speaking)",
+            "a": [
+              "Da bambino giocavo spesso.",
+              "Da bambino io giocavo spesso."
+            ]
+          },
+          {
+            "q": "The house was small.",
+            "a": [
+              "La casa era piccola."
+            ]
+          },
+          {
+            "q": "We lived in the countryside.",
+            "a": [
+              "Abitavamo in campagna.",
+              "Noi abitavamo in campagna.",
+              "Vivevamo in campagna."
+            ]
+          },
+          {
+            "q": "What were you doing? (informal, singular)",
+            "a": [
+              "Che cosa facevi?",
+              "Cosa facevi?",
+              "Che facevi?"
+            ]
+          },
+          {
+            "q": "My grandfather usually drank wine.",
+            "a": [
+              "Di solito mio nonno beveva vino.",
+              "Mio nonno di solito beveva vino.",
+              "Mio nonno beveva di solito vino."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

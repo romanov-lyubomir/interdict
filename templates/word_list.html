@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block imports %}
+{% endblock %}
+
+{% block css %}
+<style>
+    .word-list {
+        width: 90vw;
+        max-width: 680px;
+        margin: 0 auto 40px;
+    }
+
+    .word-list h1.title {
+        overflow-wrap: anywhere;
+    }
+
+    .word-list table {
+        width: 100%;
+    }
+
+    .word-list td:not(.actions) {
+        overflow-wrap: anywhere;
+    }
+
+    .word-list .base-form {
+        display: block;
+        color: var(--muted);
+        font-size: 13px;
+    }
+
+    .word-list td.actions {
+        width: 1%;
+        text-align: right;
+    }
+
+    .word-list form {
+        margin: 0;
+        padding: 0;
+        background: none;
+        border: 0;
+    }
+
+    .word-list .remove {
+        padding: 4px 10px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .word-list .list-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .word-list .delete-list {
+        background-color: var(--danger);
+    }
+
+    .word-list .delete-list:hover {
+        background-color: #C0373C;
+    }
+
+    .empty {
+        color: var(--muted);
+        text-align: center;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<a href="{{ url_for('vocabulary_topics') }}">
+    <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+            <path fill="#fff"
+                d="M6.93 8l-4.7-4.7a.76.76 0 1 1 1.06-1.08L8 6.92l4.7-4.7a.76.76 0 0 1 1.08 1.07L9.08 8l4.7 4.7a.76.76 0 1 1-1.07 1.08L8 9.08l-4.7 4.7a.76.76 0 0 1-1.08-1.07L6.92 8z">
+            </path>
+        </g>
+    </svg>
+</a>
+
+<div class="word-list">
+    <h1 class="title">{{ word_list.name }}</h1>
+
+    {% with messages = get_flashed_messages() %}
+    {% for message in messages %}
+    <div class="notice">{{ message }}</div>
+    {% endfor %}
+    {% endwith %}
+
+    {% if word_list.entries %}
+    <table class="shadow">
+        <tr>
+            <th>Word</th>
+            <th>Translation</th>
+            <th></th>
+        </tr>
+        {% for entry in word_list.entries %}
+        <tr>
+            <td>{{ entry.word }}{% if entry.lemma %}<span class="base-form">{{ entry.lemma }}</span>{% endif %}</td>
+            <td>{{ entry.meaning }}</td>
+            <td class="actions">
+                <form action="{{ url_for('remove_list_word', list_id=word_list.id, entry_id=entry.id) }}" method="POST">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <button class="remove button-secondary" type="submit" aria-label="Remove {{ entry.word }}">Remove</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p class="empty">
+        This list is empty. Point at a word in a
+        <a class="link" href="{{ url_for('stories_list') }}">story</a> to add it here.
+    </p>
+    {% endif %}
+
+    <div class="list-actions">
+        <form action="{{ url_for('delete_word_list', list_id=word_list.id) }}" method="POST"
+            onsubmit="return confirm('Delete this list and all its words?');">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <button class="delete-list" type="submit">Delete list</button>
+        </form>
+        {% if word_list.entries %}
+        <a class="button" href="{{ url_for('word_list_quiz', list_id=word_list.id) }}">Start quiz</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

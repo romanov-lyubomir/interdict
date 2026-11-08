@@ -1,0 +1,445 @@
+{
+  "title": "Mi {pp:ha detto} che {cpa:sarebbe venuto}",
+  "translation": "He told me he would come",
+  "topics": "Reported speech: changes of tense, person, place and time",
+  "grammar": {
+    "explain": [
+      {
+        "h": "When the tense changes"
+      },
+      "If the reporting verb is in the present, nothing changes: *Marco {ip:dice}: «{ip:Vengo}» → Marco {ip:dice} che {ip:viene}*. If it is in the past (*{pp:ha detto}, {im:diceva}*), the whole sentence moves one step back in time.",
+      {
+        "table": {
+          "head": [
+            "What was said",
+            "Direct speech",
+            "Reported: ha detto che…"
+          ],
+          "rows": [
+            [
+              "Presente",
+              "«{ip:Sono} stanco.»",
+              "{im:era} stanco"
+            ],
+            [
+              "Passato prossimo",
+              "«{pp:Ho mangiato}.»",
+              "{tp:aveva mangiato}"
+            ],
+            [
+              "Imperfetto",
+              "«{im:Ero} stanco.»",
+              "{im:era} stanco (no change)"
+            ],
+            [
+              "Futuro",
+              "«{fs:Verrò}.»",
+              "{cpa:sarebbe venuto}"
+            ],
+            [
+              "Condizionale presente",
+              "«{cop:Verrei}.»",
+              "{cpa:sarebbe venuto}"
+            ],
+            [
+              "Imperativo",
+              "«{imv:Vieni}!»",
+              "di venire"
+            ]
+          ]
+        }
+      },
+      "Note the future: where English says *would come*, Italian uses the *condizionale passato*, *{cpa:sarebbe venuto}*. It's the most typical mistake for learners, because the simple *{cop:verrebbe}* is wrong here.",
+      {
+        "h": "Person, place and time"
+      },
+      "As in English, the words change according to the new point of view.",
+      {
+        "table": {
+          "head": [
+            "Direct",
+            "Reported"
+          ],
+          "rows": [
+            [
+              "io, mio",
+              "lui / lei, suo"
+            ],
+            [
+              "qui",
+              "lì"
+            ],
+            [
+              "questo",
+              "quello"
+            ],
+            [
+              "oggi",
+              "quel giorno"
+            ],
+            [
+              "ieri",
+              "il giorno prima"
+            ],
+            [
+              "domani",
+              "il giorno dopo"
+            ],
+            [
+              "adesso",
+              "allora"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Reported questions and commands"
+      },
+      "A reported question keeps its question word. A question without one takes *se*. A command becomes *di* with an infinitive.",
+      {
+        "table": {
+          "head": [
+            "Direct",
+            "Reported"
+          ],
+          "rows": [
+            [
+              "«Dove {ip:vai}?»",
+              "Mi {pp:ha chiesto} **dove** {im:andavo}."
+            ],
+            [
+              "«{ip:Vieni}?»",
+              "Mi {pp:ha chiesto} **se** {im:venivo}."
+            ],
+            [
+              "«{imv:Aspetta}!»",
+              "Mi {pp:ha detto} **di** aspettare."
+            ],
+            [
+              "«Non parlare!»",
+              "Mi {pp:ha detto} **di non** parlare."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the right tense for reported speech.",
+        "questions": [
+          "«{ip:Sono} stanco.» → {pp:Ha detto} che [[era#im]] stanco.",
+          "«{pp:Ho mangiato}.» → {pp:Ha detto} che [[aveva mangiato#tp]].",
+          "«{fs:Verrò}.» → {pp:Ha detto} che [[sarebbe venuto#cpa]].",
+          "«{fs:Partirò}.» (Anna) → Anna {pp:ha detto} che [[sarebbe partita#cpa]].",
+          "«{ip:Abito} a Roma.» → {pp:Ha detto} che [[abitava#im]] a Roma.",
+          "«Ti {fs:chiamerò}.» → Mi {pp:ha detto} che mi [[avrebbe chiamato#cpa]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Marco {ip:dice} che ___ domani. (present reporting verb)",
+            "options": [
+              "*{ip:viene}",
+              "{cpa:sarebbe venuto}"
+            ]
+          },
+          {
+            "q": "«Domani {ip:parto}.» → {pp:Ha detto} che {cpa:sarebbe partito} ___ .",
+            "options": [
+              "domani",
+              "*il giorno dopo",
+              "ieri"
+            ]
+          },
+          {
+            "q": "«{ip:Sono} qui.» → {pp:Ha detto} che {im:era} ___ .",
+            "options": [
+              "qui",
+              "*lì",
+              "oggi"
+            ]
+          },
+          {
+            "q": "«{ip:Hai} fame?» → Mi {pp:ha chiesto} ___ {im:avevo} fame.",
+            "options": [
+              "che",
+              "*se",
+              "di"
+            ]
+          },
+          {
+            "q": "«{imv:Aspetta}!» → Mi {pp:ha detto} ___ aspettare.",
+            "options": [
+              "che",
+              "se",
+              "*di"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Report these sentences. Start with Ha detto che or Mi ha chiesto.",
+        "questions": [
+          {
+            "q": "«{ip:Sono} malato.» (Luca)",
+            "a": [
+              "Ha detto che era malato.",
+              "Luca ha detto che era malato."
+            ]
+          },
+          {
+            "q": "«Dove {ip:abiti}?»",
+            "a": [
+              "Mi ha chiesto dove abitavo."
+            ]
+          },
+          {
+            "q": "«{ip:Vieni} con noi?»",
+            "a": [
+              "Mi ha chiesto se venivo con loro."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la promessa",
+        "promise"
+      ],
+      [
+        "la notizia",
+        "piece of news"
+      ],
+      [
+        "il pettegolezzo",
+        "gossip"
+      ],
+      [
+        "il segreto",
+        "secret"
+      ],
+      [
+        "promettere",
+        "to promise"
+      ],
+      [
+        "raccontare",
+        "to tell"
+      ],
+      [
+        "riferire",
+        "to report"
+      ],
+      [
+        "ripetere",
+        "to repeat"
+      ],
+      [
+        "aggiungere",
+        "to add"
+      ],
+      [
+        "confermare",
+        "to confirm"
+      ],
+      [
+        "negare",
+        "to deny"
+      ],
+      [
+        "sostenere",
+        "to claim"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la promessa",
+            "promise"
+          ],
+          [
+            "il pettegolezzo",
+            "gossip"
+          ],
+          [
+            "riferire",
+            "to report"
+          ],
+          [
+            "aggiungere",
+            "to add"
+          ],
+          [
+            "negare",
+            "to deny"
+          ],
+          [
+            "sostenere",
+            "to claim"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Ti [[prometto#ip]] che {fs:verrò}. (I promise)",
+          "{ip:Ho} una bella [[notizia]]. (piece of news)",
+          "Mi {pp:ha} [[raccontato#pp]] una storia. (told)",
+          "{ip:Sai} mantenere un [[segreto]]? (secret)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Venerdì Stefano mi {pp:ha telefonato} e mi {pp:ha detto} che {cpa:sarebbe venuto} a cena da noi il giorno dopo. {pp:Ha aggiunto} che {cpa:avrebbe portato} il vino e mi {pp:ha chiesto} se {im:doveva} portare anche il dolce. Gli {pp:ho detto} di non preoccuparsi.",
+      "Sabato {pp:abbiamo aspettato} fino alle dieci. Non {pp:è venuto} nessuno. La domenica mi {pp:ha scritto} che si {tp:era dimenticato} e che gli {im:dispiaceva} moltissimo. Mi {pp:ha promesso} che la prossima volta non {cpa:sarebbe successo}."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Stefano said he would bring the wine.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Stefano came to dinner on Saturday.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Stefano forgot about the dinner.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "He promised it wouldn't happen again.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Elsa",
+        "{pp:Hai parlato} con Stefano? Che cosa ti {pp:ha detto}?"
+      ],
+      [
+        "Rita",
+        "Mi {pp:ha detto} che {im:era} stanco e che {tp:aveva lavorato} tutta la notte."
+      ],
+      [
+        "Elsa",
+        "Ti {pp:ha chiesto} se {im:andavi} alla festa?"
+      ],
+      [
+        "Rita",
+        "Sì, e mi {pp:ha detto} di portare un amico."
+      ],
+      [
+        "Elsa",
+        "E lui {fs:verrà}?"
+      ],
+      [
+        "Rita",
+        "{pp:Ha detto} che {cpa:sarebbe venuto} più tardi."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Mi {pp:ha detto} che [[era#im]] stanco.",
+          "Ti {pp:ha chiesto} [[se]] {im:andavi} alla festa?",
+          "Mi {pp:ha detto} [[di]] portare un amico.",
+          "{pp:Ha detto} che [[sarebbe#cpa]] {cpa:venuto} più tardi."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why was Stefano tired?",
+        "questions": [
+          {
+            "q": "Stefano…",
+            "options": [
+              "*had worked all night",
+              "had been to a party",
+              "was ill"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "He told me he would come.",
+            "a": [
+              "Mi ha detto che sarebbe venuto."
+            ]
+          },
+          {
+            "q": "She said she was tired.",
+            "a": [
+              "Ha detto che era stanca.",
+              "Lei ha detto che era stanca."
+            ]
+          },
+          {
+            "q": "He asked me where I lived.",
+            "a": [
+              "Mi ha chiesto dove abitavo.",
+              "Mi ha chiesto dove vivevo."
+            ]
+          },
+          {
+            "q": "She told me to wait.",
+            "a": [
+              "Mi ha detto di aspettare."
+            ]
+          },
+          {
+            "q": "He asked me if I was coming.",
+            "a": [
+              "Mi ha chiesto se venivo."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

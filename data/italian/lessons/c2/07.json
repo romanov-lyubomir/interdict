@@ -1,0 +1,429 @@
+{
+  "title": "{cpa:Avrei voluto} potergliene parlare",
+  "translation": "I would have liked to be able to talk to him about it",
+  "topics": "Choosing and placing pronouns in longer verb constructions",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Pronouns that climb"
+      },
+      "In a chain of verbs, pronouns may stay on the last infinitive or move up in front of the first verb. Both are correct, and the second one is often more natural in speech.",
+      {
+        "table": {
+          "head": [
+            "On the infinitive",
+            "Moved up"
+          ],
+          "rows": [
+            [
+              "{ip:Voglio} parlargliene.",
+              "Gliene {ip:voglio} parlare."
+            ],
+            [
+              "{cpa:Avrei voluto} potergliene parlare.",
+              "Gliene {cpa:avrei voluto} poter parlare."
+            ],
+            [
+              "{ip:Vado} a prenderlo.",
+              "Lo {ip:vado} a prendere."
+            ],
+            [
+              "{ip:Sto} per dirtelo.",
+              "Te lo {ip:sto} per dire."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "When they cannot climb"
+      },
+      "Pronouns can move up only with modal verbs, verbs of motion, and a few aspect verbs such as *stare per*, *cominciare a*, *finire di* and *continuare a*. After other verbs followed by *di*, they must stay where they are: *{ip:Cerco} di dirtelo*, never *Te lo {ip:cerco} di dire*.",
+      {
+        "h": "Climbing can change the auxiliary"
+      },
+      "A modal verb takes the auxiliary of the infinitive that follows it. If a pronoun has moved up in front of it, *essere* becomes necessary with verbs that require it.",
+      {
+        "table": {
+          "head": [
+            "Without moving",
+            "Moved up"
+          ],
+          "rows": [
+            [
+              "{pp:Ho dovuto} alzarmi presto.",
+              "Mi {pp:sono dovuto} alzare presto."
+            ],
+            [
+              "{pp:Ho voluto} andarci.",
+              "Ci {pp:sono voluto} andare."
+            ],
+            [
+              "{pp:Ho potuto} parlargli.",
+              "Gli {pp:ho potuto} parlare."
+            ]
+          ]
+        }
+      },
+      "The third example keeps *avere*, because *parlare* takes *avere*.",
+      {
+        "h": "A neutral lo"
+      },
+      "*Lo* can replace a whole idea or an adjective: *{ip:Sei} stanco? Lo {ip:sono}.* *Bella lo {ip:è}, ma…* In speech, it often anticipates a clause: *Lo {im:sapevo} che {cpa:saresti venuto}*.",
+      {
+        "h": "Pronouns with impersonal si"
+      },
+      {
+        "table": {
+          "head": [
+            "Combination",
+            "Example"
+          ],
+          "rows": [
+            [
+              "lo + si",
+              "Lo si {ip:dice} spesso."
+            ],
+            [
+              "si + ne",
+              "Se ne {ip:parla}."
+            ],
+            [
+              "ci + si (reflexive)",
+              "Ci si {ip:lava}."
+            ],
+            [
+              "ci + si (place)",
+              "Ci si {ip:va} in treno."
+            ],
+            [
+              "ci + si + ne",
+              "Ci se ne {ip:accorge} subito."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Move the pronouns up in front of the first verb.",
+        "questions": [
+          {
+            "q": "{ip:Voglio} parlargliene.",
+            "a": [
+              "Gliene voglio parlare."
+            ]
+          },
+          {
+            "q": "{ip:Vado} a prenderlo.",
+            "a": [
+              "Lo vado a prendere."
+            ]
+          },
+          {
+            "q": "{ip:Sto} per dirtelo.",
+            "a": [
+              "Te lo sto per dire."
+            ]
+          },
+          {
+            "q": "{pp:Ho dovuto} alzarmi presto. (a man speaking)",
+            "a": [
+              "Mi sono dovuto alzare presto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence is correct?",
+        "questions": [
+          {
+            "q": "Choose one.",
+            "options": [
+              "Te lo {ip:cerco} di dire.",
+              "*{ip:Cerco} di dirtelo."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "*Ci {pp:sono voluto} andare.",
+              "Ci {pp:ho voluto} andare."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "*Gli {pp:ho potuto} parlare.",
+              "Gli {pp:sono potuto} parlare."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "Si lo {ip:dice} spesso.",
+              "*Lo si {ip:dice} spesso."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "*Ci si abitua.",
+              "Si si abitua."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the pronoun or auxiliary.",
+        "questions": [
+          "{ip:Sei} stanca? Sì, [[lo]] {ip:sono}. (neutral)",
+          "Mi [[sono#pp]] {pp:dovuta} alzare presto. (auxiliary)",
+          "[[Ho#pp]] {pp:dovuto} alzarmi presto. (auxiliary)",
+          "Ci se [[ne]] {ip:accorge} subito.",
+          "[[Lo]] {im:sapevo} che {cpa:saresti venuto}. (anticipating)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'incombenza",
+        "chore, task"
+      ],
+      [
+        "il rammarico",
+        "regret"
+      ],
+      [
+        "il cruccio",
+        "torment"
+      ],
+      [
+        "l'occasione mancata",
+        "missed opportunity"
+      ],
+      [
+        "confidare",
+        "to confide"
+      ],
+      [
+        "sfiorare",
+        "to touch on"
+      ],
+      [
+        "rimpiangere",
+        "to regret"
+      ],
+      [
+        "tralasciare",
+        "to leave out"
+      ],
+      [
+        "accennare",
+        "to mention"
+      ],
+      [
+        "pudico",
+        "modest, bashful"
+      ],
+      [
+        "restio",
+        "reluctant"
+      ],
+      [
+        "a malincuore",
+        "reluctantly"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'incombenza",
+            "chore, task"
+          ],
+          [
+            "il cruccio",
+            "torment"
+          ],
+          [
+            "sfiorare",
+            "to touch on"
+          ],
+          [
+            "tralasciare",
+            "to leave out"
+          ],
+          [
+            "restio",
+            "reluctant"
+          ],
+          [
+            "a malincuore",
+            "reluctantly"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Non mi {pp:ha} mai [[confidato#pp]] nulla. (confided)",
+          "[[Rimpiango#ip]] quegli anni. (I regret)",
+          "Ne {pp:ha} solo [[accennato#pp]]. (mentioned)",
+          "{im:Era} un uomo [[pudico]] nei sentimenti. (bashful)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "{cpa:Avrei voluto} potergliene parlare prima che {csi:fosse} troppo tardi. Mio padre {im:era} uomo restio alle confidenze: l'argomento, lo si {im:sfiorava} appena, e subito lui {im:cambiava} discorso. Gliene {im:volevo} parlare da anni. Te lo {fs:dirò} domani, mi {im:ripetevo}, e il domani non {im:arrivava} mai.",
+      "Una sera {pp:sono dovuto} tornare a casa per sbrigare certe incombenze. Mi ci {pp:sono dovuto} mettere d'impegno per trovare il coraggio. Lo {im:sapevo} che non {cpa:sarebbe stato} facile. {pr:Cominciai} a dirglielo a malincuore, e mi {pr:accorsi} che lui lo {im:sapeva} già. Forse, ci si {ip:capisce} meglio quando non ci si {ip:dice} nulla."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "What kind of man was the father?",
+            "options": [
+              "Talkative",
+              "*Reluctant to share confidences",
+              "Angry"
+            ]
+          },
+          {
+            "q": "What did the narrator keep putting off?",
+            "options": [
+              "Going home",
+              "*Talking to his father",
+              "Writing a letter"
+            ]
+          },
+          {
+            "q": "What did he discover?",
+            "options": [
+              "*His father already knew",
+              "His father was ill",
+              "His father had left"
+            ]
+          },
+          {
+            "q": "«Gliene volevo parlare» is an example of…",
+            "options": [
+              "a passive",
+              "*pronouns moved up to the modal",
+              "a future"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Silvano",
+        "Gliel'{pp:hai detto}, alla fine?"
+      ],
+      [
+        "Rosa",
+        "Gliene {im:volevo} parlare, ma non ci {pp:sono riuscita}."
+      ],
+      [
+        "Silvano",
+        "{imv:Cerca} di dirglielo domani."
+      ],
+      [
+        "Rosa",
+        "Te lo {ip:prometto}. Ci {cpa:sarei voluta} andare già ieri."
+      ],
+      [
+        "Silvano",
+        "Ma lo {im:sapevi} che si {cpa:sarebbe arrabbiato}."
+      ],
+      [
+        "Rosa",
+        "Sì, lo {im:sapevo}. {ip:È} per questo che non ce l'{pp:ho fatta}."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Gliene]] {im:volevo} parlare.",
+          "{imv:Cerca} di [[dirglielo]] domani.",
+          "Ci [[sarei#cpa]] {cpa:voluta} andare già ieri.",
+          "Non ce l'[[ho#pp]] {pp:fatta}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why didn't Rosa tell him?",
+        "questions": [
+          {
+            "q": "Rosa feared he would…",
+            "options": [
+              "leave her",
+              "*get angry",
+              "tell the others"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I would have liked to be able to talk to him about it.",
+            "a": [
+              "Avrei voluto potergliene parlare.",
+              "Gliene avrei voluto poter parlare."
+            ]
+          },
+          {
+            "q": "I'm trying to tell you. (informal, cercare di + lo)",
+            "a": [
+              "Cerco di dirtelo."
+            ]
+          },
+          {
+            "q": "I had to get up early. (a woman speaking, pronoun moved up)",
+            "a": [
+              "Mi sono dovuta alzare presto."
+            ]
+          },
+          {
+            "q": "One notices it at once. (use ci se ne)",
+            "a": [
+              "Ci se ne accorge subito."
+            ]
+          },
+          {
+            "q": "Are you tired? I am. (use neutral lo, informal)",
+            "a": [
+              "Sei stanco? Lo sono.",
+              "Sei stanca? Lo sono."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

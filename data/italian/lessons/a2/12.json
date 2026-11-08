@@ -1,0 +1,416 @@
+{
+  "title": "In Italia si {ip:mangia} tardi: {ip:sai} perché?",
+  "translation": "In Italy people eat late: do you know why?",
+  "topics": "Impersonal si, direct and indirect questions",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Si: people in general"
+      },
+      "When you talk about what people do in general, without saying who, use *si* with the verb in the third person: *In Italia si {ip:mangia} tardi*. English says *people eat*, *you eat* or *one eats*.",
+      {
+        "table": {
+          "head": [
+            "Italian",
+            "English"
+          ],
+          "rows": [
+            [
+              "In Italia si {ip:mangia} tardi.",
+              "In Italy people eat late."
+            ],
+            [
+              "Qui si {ip:parla} inglese.",
+              "English is spoken here."
+            ],
+            [
+              "Come si {ip:dice} «book»?",
+              "How do you say «book»?"
+            ],
+            [
+              "Non si {ip:può} entrare.",
+              "You can't go in."
+            ]
+          ]
+        }
+      },
+      "If the verb has a plural thing as its object, the verb becomes plural too: *Si {ip:mangi**a**} la pizza*, but *Si {ip:mangi**ano**} gli spaghetti*.",
+      {
+        "h": "Direct questions"
+      },
+      "A direct question is what you actually ask: *Dov'{ip:è} la stazione? Quanto {ip:costa}?*",
+      {
+        "h": "Indirect questions"
+      },
+      "An indirect question sits inside a longer sentence, and that is more polite. It starts with an expression such as *{ip:Sai}…?* or *Mi {ip:puoi} dire…?* The question word stays the same and so does the verb.",
+      {
+        "table": {
+          "head": [
+            "Direct",
+            "Indirect"
+          ],
+          "rows": [
+            [
+              "Dov'{ip:è} la stazione?",
+              "{ip:Sai} **dov'{ip:è**} la stazione?"
+            ],
+            [
+              "Quanto {ip:costa}?",
+              "Mi {ip:puoi} dire **quanto** {ip:costa}?"
+            ],
+            [
+              "Quando {ip:parte} il treno?",
+              "Non so **quando** parte il treno."
+            ],
+            [
+              "Perché {ip:piange}?",
+              "Mi {ip:chiedo} **perché** {ip:piange}."
+            ]
+          ]
+        }
+      },
+      "A question without a question word is linked with *se*, which here means *whether*.",
+      {
+        "table": {
+          "head": [
+            "Direct",
+            "Indirect"
+          ],
+          "rows": [
+            [
+              "{ip:Viene} Marco?",
+              "Non so **se** viene Marco."
+            ],
+            [
+              "{ip:È aperto}?",
+              "Mi {ip:sai} dire **se** {ip:è aperto}?"
+            ]
+          ]
+        }
+      },
+      "To be polite with someone you don't know, use *Lei*: *Mi {ip:può} dire dov'{ip:è} la stazione?* or *{ip:Sa} dov'{ip:è} la stazione?*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the impersonal form with si.",
+        "questions": [
+          "In Italia [[si mangia#ip]] tardi. (mangiare)",
+          "Come [[si dice#ip]] «thank you» in italiano? (dire)",
+          "Qui non [[si può#ip]] fumare. (potere)",
+          "In questo bar [[si beve#ip]] un buon caffè. (bere)",
+          "Qui [[si vendono#ip]] i biglietti. (vendere, plural)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right word.",
+        "questions": [
+          {
+            "q": "Non so ___ viene Marco. (whether)",
+            "options": [
+              "*se",
+              "che",
+              "come"
+            ]
+          },
+          {
+            "q": "{ip:Sai} ___ {ip:è} la stazione?",
+            "options": [
+              "*dov'",
+              "che",
+              "se"
+            ]
+          },
+          {
+            "q": "Mi {ip:può} dire ___ {ip:costa}?",
+            "options": [
+              "che",
+              "*quanto",
+              "chi"
+            ]
+          },
+          {
+            "q": "Polite: Do you know where it is?",
+            "options": [
+              "{ip:Sai} dov'{ip:è}?",
+              "*{ip:Sa} dov'{ip:è}?",
+              "{ip:Sapete} dov'{ip:è}?"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Turn the direct question into an indirect one, starting with the words given.",
+        "questions": [
+          {
+            "q": "Dov'{ip:è} il museo? → {ip:Sai}…",
+            "a": [
+              "Sai dov'è il museo?",
+              "Sai dove è il museo?"
+            ]
+          },
+          {
+            "q": "Quanto {ip:costa} il biglietto? → Mi {ip:puoi} dire…",
+            "a": [
+              "Mi puoi dire quanto costa il biglietto?"
+            ]
+          },
+          {
+            "q": "Quando arriva Luca? → Non so…",
+            "a": [
+              "Non so quando arriva Luca."
+            ]
+          },
+          {
+            "q": "Il negozio è aperto? → Non so…",
+            "a": [
+              "Non so se il negozio è aperto."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'abitudine",
+        "habit"
+      ],
+      [
+        "il pranzo",
+        "lunch"
+      ],
+      [
+        "la cena",
+        "dinner"
+      ],
+      [
+        "la colazione",
+        "breakfast"
+      ],
+      [
+        "l'orario",
+        "hours, timetable"
+      ],
+      [
+        "il biglietto",
+        "ticket"
+      ],
+      [
+        "il museo",
+        "museum"
+      ],
+      [
+        "fumare",
+        "to smoke"
+      ],
+      [
+        "vendere",
+        "to sell"
+      ],
+      [
+        "aperto",
+        "open"
+      ],
+      [
+        "chiuso",
+        "closed"
+      ],
+      [
+        "vietato",
+        "forbidden"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'abitudine",
+            "habit"
+          ],
+          [
+            "il pranzo",
+            "lunch"
+          ],
+          [
+            "fumare",
+            "to smoke"
+          ],
+          [
+            "vendere",
+            "to sell"
+          ],
+          [
+            "chiuso",
+            "closed"
+          ],
+          [
+            "vietato",
+            "forbidden"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il museo {ip:è} [[aperto#ip]] fino alle sei. (open)",
+          "{ip:Faccio} [[colazione]] al bar. (breakfast)",
+          "{ip:È} [[vietato#ip]] entrare. (forbidden)",
+          "Qual {ip:è} l'[[orario]] del negozio? (hours)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Quando si {ip:viaggia} in Italia, {ip:è} utile conoscere qualche abitudine. La mattina si {ip:fa} colazione al bar, spesso in piedi. A pranzo si {ip:mangia} verso l'una e la cena {ip:è} tardi, alle otto o alle nove.",
+      "Nei negozi piccoli non si {ip:trova} nessuno all'ora di pranzo: molti {ip:chiudono} per due o tre ore. Se non {ip:sai} quando {ip:riaprono}, {imv:chiedi}: «Mi {ip:può} dire a che ora {ip:apre}?» E {imv:ricorda}: dopo pranzo non si {ip:ordina} mai un cappuccino!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Where do Italians often have breakfast?",
+            "options": [
+              "At home in bed",
+              "*At a bar, standing",
+              "At work"
+            ]
+          },
+          {
+            "q": "At what time is dinner?",
+            "options": [
+              "At five or six",
+              "*At eight or nine",
+              "At midnight"
+            ]
+          },
+          {
+            "q": "Many small shops at lunchtime…",
+            "options": [
+              "stay open",
+              "*close for a few hours",
+              "sell food"
+            ]
+          },
+          {
+            "q": "After lunch you should not order…",
+            "options": [
+              "a coffee",
+              "*a cappuccino",
+              "water"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Turista",
+        "{imv:Scusi}, {ip:sa} dov'{ip:è} il Museo Egizio?"
+      ],
+      [
+        "Signore",
+        "Sì, {ip:è} in centro. {ip:Sa} come si {ip:arriva}?"
+      ],
+      [
+        "Turista",
+        "No. Mi {ip:può} dire quale autobus {ip:devo} prendere?"
+      ],
+      [
+        "Signore",
+        "Il sedici. Ma non {ip:so} se oggi {ip:è aperto}."
+      ],
+      [
+        "Turista",
+        "{ip:Sa} quanto {ip:costa} il biglietto?"
+      ],
+      [
+        "Signore",
+        "Purtroppo no. Si {ip:può} chiedere all'ufficio turistico."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{imv:Scusi}, [[sa#ip]] dov'{ip:è} il Museo Egizio?",
+          "{ip:Sa} come [[si]] {ip:arriva}?",
+          "Non {ip:so} [[se]] oggi {ip:è aperto}.",
+          "Si [[può#ip]] chiedere all'ufficio turistico."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which bus should the tourist take?",
+        "questions": [
+          {
+            "q": "The tourist should take bus number…",
+            "options": [
+              "six",
+              "*sixteen",
+              "sixty"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "In Italy people eat late.",
+            "a": [
+              "In Italia si mangia tardi."
+            ]
+          },
+          {
+            "q": "How do you say «book» in Italian?",
+            "a": [
+              "Come si dice «book» in italiano?",
+              "Come si dice book in italiano?"
+            ]
+          },
+          {
+            "q": "Do you know where the station is? (informal)",
+            "a": [
+              "Sai dov'è la stazione?",
+              "Sai dove è la stazione?"
+            ]
+          },
+          {
+            "q": "I don't know if Marco is coming.",
+            "a": [
+              "Non so se viene Marco.",
+              "Non so se Marco viene."
+            ]
+          },
+          {
+            "q": "Can you tell me how much it costs? (polite)",
+            "a": [
+              "Mi può dire quanto costa?",
+              "Può dirmi quanto costa?"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

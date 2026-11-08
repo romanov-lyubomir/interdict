@@ -1,0 +1,435 @@
+{
+  "title": "Il ministro, del cui operato si {ip:è} a lungo discusso, {ip:tace}",
+  "translation": "The minister, whose conduct has long been debated, remains silent",
+  "topics": "Relative clauses and insertions, punctuation that shows the structure of a text",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Relative clauses that carry weight"
+      },
+      "Written Italian packs information into relative clauses. A preposition and *cui* can come before the noun they belong to.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Example"
+          ],
+          "rows": [
+            [
+              "del cui + noun",
+              "Il ministro, del cui operato si {pp:è discusso}, {ip:tace}."
+            ],
+            [
+              "alla cui + noun",
+              "L'azienda, alla cui guida {im:era} il padre, {pr:fallì}."
+            ],
+            [
+              "sul quale",
+              "Il dossier, sul quale si basa l'inchiesta, {ip:è} segreto."
+            ],
+            [
+              "dal che",
+              "Non {pr:rispose}, dal che si {pr:dedusse} che {im:sapeva}."
+            ],
+            [
+              "per cui",
+              "{im:Era} tardi, per cui {pr:rinunciammo}."
+            ]
+          ]
+        }
+      },
+      "*Per cui* with the sense of *therefore* belongs mostly to speech and informal writing. In formal prose, prefer *pertanto* or *perciò*.",
+      {
+        "h": "Commas decide the meaning"
+      },
+      "A restrictive clause can't be removed without changing the sense, and it takes no commas. An explanatory one can be removed, and it's set off by commas on both sides.",
+      {
+        "table": {
+          "head": [
+            "Punctuation",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "I docenti che {pp:hanno protestato} {pp:sono stati} {pp:ascoltati}.",
+              "only those who protested"
+            ],
+            [
+              "I docenti, che {pp:hanno protestato}, {pp:sono stati} {pp:ascoltati}.",
+              "all of them protested"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Choosing the right mark for an insertion"
+      },
+      {
+        "table": {
+          "head": [
+            "Mark",
+            "Function",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Commas",
+              "a light aside, part of the flow",
+              "Il ministro, a quanto {ip:pare}, {ip:tace}."
+            ],
+            [
+              "Dashes",
+              "a marked break, a comment",
+              "Il ministro – chi l'{cpa:avrebbe detto}? – {ip:tace}."
+            ],
+            [
+              "Brackets",
+              "a secondary note",
+              "Il ministro (in carica dal 2020) {ip:tace}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The most common errors in long sentences"
+      },
+      {
+        "table": {
+          "head": [
+            "Error",
+            "Example",
+            "Correction"
+          ],
+          "rows": [
+            [
+              "One comma where two are needed",
+              "Il ministro, a quanto {ip:pare} si {pp:è dimesso}.",
+              "Il ministro, a quanto {ip:pare}, si {pp:è dimesso}."
+            ],
+            [
+              "Comma between subject and verb after a long subject",
+              "Il decreto approvato ieri sera, {fs:entrerà} in vigore.",
+              "Il decreto approvato ieri sera {fs:entrerà} in vigore."
+            ],
+            [
+              "Comma splice between independent sentences",
+              "{im:Era} tardi, non c'{im:era} nessuno.",
+              "{im:Era} tardi: non c'{im:era} nessuno."
+            ]
+          ]
+        }
+      },
+      "A colon explains or expands what comes before it. A semicolon separates parts of equal weight, and it is useful for marking off groups that already contain commas."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with the right form of the relative.",
+        "questions": [
+          "Il ministro, del [[cui]] operato si {pp:è discusso}, {ip:tace}.",
+          "L'azienda, alla [[cui]] guida {im:era} il padre, {pr:fallì}.",
+          "Il dossier, sul [[quale]] si basa l'inchiesta, {ip:è} segreto.",
+          "Non {pr:rispose}, [[dal]] che si {pr:dedusse} che {im:sapeva}.",
+          "Le colleghe, [[delle]] quali ti {pp:ho parlato}, {ip:arrivano} domani."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which version is correctly punctuated?",
+        "questions": [
+          {
+            "q": "Choose one.",
+            "options": [
+              "Il ministro, a quanto {ip:pare} si {pp:è dimesso}.",
+              "*Il ministro, a quanto {ip:pare}, si {pp:è dimesso}."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "*Il decreto approvato ieri sera {fs:entrerà} in vigore domani.",
+              "Il decreto approvato ieri sera, {fs:entrerà} in vigore domani."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "{im:Era} tardi, non c'{im:era} nessuno.",
+              "*{im:Era} tardi: non c'{im:era} nessuno."
+            ]
+          },
+          {
+            "q": "Only the teachers who protested were heard.",
+            "options": [
+              "*I docenti che {pp:hanno protestato} {pp:sono stati} {pp:ascoltati}.",
+              "I docenti, che {pp:hanno protestato}, {pp:sono stati} {pp:ascoltati}."
+            ]
+          },
+          {
+            "q": "A strong break with a comment:",
+            "options": [
+              "Il ministro, chi l'{cpa:avrebbe detto}? {ip:tace}.",
+              "*Il ministro – chi l'{cpa:avrebbe detto}? – {ip:tace}."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Join the two sentences into one with the relative in brackets, using commas.",
+        "questions": [
+          {
+            "q": "Il ministro {ip:tace}. Si {pp:è discusso} del suo operato. (del cui)",
+            "a": [
+              "Il ministro, del cui operato si è discusso, tace."
+            ]
+          },
+          {
+            "q": "Il dossier {ip:è} segreto. L'inchiesta si basa sul dossier. (sul quale)",
+            "a": [
+              "Il dossier, sul quale si basa l'inchiesta, è segreto."
+            ]
+          },
+          {
+            "q": "L'autrice {pp:è tornata}. {pp:Ho letto} i suoi libri. (i cui)",
+            "a": [
+              "L'autrice, i cui libri ho letto, è tornata."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'operato",
+        "conduct, actions"
+      ],
+      [
+        "l'inciso",
+        "aside"
+      ],
+      [
+        "la parentesi",
+        "bracket"
+      ],
+      [
+        "il trattino",
+        "dash, hyphen"
+      ],
+      [
+        "il decreto",
+        "decree"
+      ],
+      [
+        "il dossier",
+        "file"
+      ],
+      [
+        "tacere",
+        "to be silent"
+      ],
+      [
+        "dedurre",
+        "to infer"
+      ],
+      [
+        "entrare in vigore",
+        "to come into force"
+      ],
+      [
+        "scindere",
+        "to split"
+      ],
+      [
+        "vigente",
+        "in force"
+      ],
+      [
+        "a quanto pare",
+        "apparently"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'operato",
+            "conduct, actions"
+          ],
+          [
+            "l'inciso",
+            "aside"
+          ],
+          [
+            "dedurre",
+            "to infer"
+          ],
+          [
+            "scindere",
+            "to split"
+          ],
+          [
+            "vigente",
+            "in force"
+          ],
+          [
+            "a quanto pare",
+            "apparently"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Il [[decreto]] {pp:è stato} {pp:approvato} ieri. (decree)",
+          "La legge {fs:entrerà} in [[vigore]] a gennaio. (force)",
+          "Il ministro {ip:continua} a [[tacere]]. (to be silent)",
+          "{imv:Metti} la nota tra [[parentesi]]. (brackets)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Il ministro della Cultura, del cui operato si {ip:è} a lungo discusso in queste settimane, {ip:tace}. Il decreto sui musei – approvato, a quanto {ip:pare}, senza neppure consultare i direttori – {fs:entrerà} in vigore a gennaio. I soprintendenti che {pp:hanno protestato} {pp:sono stati} {pp:convocati}; gli altri, dai quali non {pp:è giunta} alcuna obiezione, {ip:aspettano}.",
+      "Dal silenzio del ministero si {ip:può} dedurre una sola cosa: non c'{ip:è} ancora una linea (o, se c'{ip:è}, non la si {ip:vuole} rivelare). L'associazione dei musei, alla cui guida {ip:siede} da poco una giovane storica dell'arte, {ip:chiede} un incontro; il che, nel clima attuale, non {ip:è} poco."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "According to the text, all the superintendents protested.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The directors were apparently not consulted.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The brackets add a secondary, ironic remark.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "«il che» refers only to the word «incontro».",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Cronista",
+        "Il ministro, del cui operato si {ip:parla} da settimane, non {ip:risponde}."
+      ],
+      [
+        "Ospite",
+        "Il decreto – {ip:va} detto – {pp:è stato} {pp:approvato} in fretta."
+      ],
+      [
+        "Cronista",
+        "I direttori che {pp:hanno protestato} {pp:sono stati} {pp:convocati}?"
+      ],
+      [
+        "Ospite",
+        "Sì; gli altri, a quanto {ip:pare}, {ip:aspettano}."
+      ],
+      [
+        "Cronista",
+        "Dal che si {ip:deduce}…?"
+      ],
+      [
+        "Ospite",
+        "Che non c'{ip:è} ancora una linea."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Il ministro, del [[cui]] operato si {ip:parla} da settimane, non {ip:risponde}.",
+          "I direttori [[che]] {pp:hanno protestato} {pp:sono stati} {pp:convocati}?",
+          "Gli altri, a [[quanto]] {ip:pare}, {ip:aspettano}.",
+          "[[Dal]] che si {ip:deduce}…?"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Who was summoned?",
+        "questions": [
+          {
+            "q": "Those summoned were…",
+            "options": [
+              "all the directors",
+              "*only those who protested",
+              "the journalists"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian, with the correct punctuation.",
+        "questions": [
+          {
+            "q": "The minister, whose conduct has been debated, remains silent. (del cui)",
+            "a": [
+              "Il ministro, del cui operato si è discusso, tace."
+            ]
+          },
+          {
+            "q": "The minister, apparently, has resigned.",
+            "a": [
+              "Il ministro, a quanto pare, si è dimesso."
+            ]
+          },
+          {
+            "q": "It was late: there was nobody there.",
+            "a": [
+              "Era tardi: non c'era nessuno."
+            ]
+          },
+          {
+            "q": "The decree approved yesterday will come into force in January.",
+            "a": [
+              "Il decreto approvato ieri entrerà in vigore a gennaio."
+            ]
+          },
+          {
+            "q": "He did not answer, from which it was inferred that he knew. (dal che)",
+            "a": [
+              "Non rispose, dal che si dedusse che sapeva."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

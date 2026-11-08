@@ -1,0 +1,431 @@
+{
+  "title": "{fa:Avrà dimenticato} le chiavi: io {cpa:avrei telefonato}",
+  "translation": "He must have forgotten the keys: I would have phoned",
+  "topics": "Futuro semplice and anteriore, condizionale presente and passato, and what each expresses",
+  "grammar": {
+    "explain": [
+      {
+        "h": "The future is not only about the future"
+      },
+      "Italians constantly use the future to make a guess. The simple future guesses about now, and the *futuro anteriore* guesses about the past.",
+      {
+        "table": {
+          "head": [
+            "Use",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Plan or prediction",
+              "L'anno prossimo {fs:cambierò} lavoro.",
+              "Next year I'll change jobs."
+            ],
+            [
+              "Guess about now",
+              "{fs:Saranno} le tre.",
+              "It must be about three."
+            ],
+            [
+              "Guess about the past",
+              "{fa:Avrà dimenticato} le chiavi.",
+              "He must have forgotten the keys."
+            ],
+            [
+              "Before another future action",
+              "Quando {fa:avrò finito}, {fs:uscirò}.",
+              "When I've finished, I'll go out."
+            ],
+            [
+              "Concession",
+              "{fs:Sarà} anche bravo, ma {ip:è} antipatico.",
+              "He may well be good, but he's unpleasant."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "What the conditional can do"
+      },
+      {
+        "table": {
+          "head": [
+            "Use",
+            "Present",
+            "Past"
+          ],
+          "rows": [
+            [
+              "Polite request or wish",
+              "{cop:Vorrei} un caffè.",
+              "{cpa:Avrei voluto} un caffè."
+            ],
+            [
+              "Advice or regret",
+              "{cop:Dovresti} parlargli.",
+              "{cpa:Avresti dovuto} parlargli."
+            ],
+            [
+              "Imagined choice",
+              "{cop:Accetterei}.",
+              "{cpa:Avrei accettato}."
+            ],
+            [
+              "Unconfirmed news",
+              "Il presidente {cop:partirebbe} domani.",
+              "Il presidente {cpa:sarebbe partito} ieri."
+            ]
+          ]
+        }
+      },
+      "The last use is typical of newspapers. It tells the reader that the journalist is reporting something not yet confirmed: *Secondo alcune fonti, il ministro si {cpa:sarebbe dimesso}* (According to some sources, the minister has resigned).",
+      {
+        "h": "The future seen from the past"
+      },
+      "When you talk about a future from a point in the past, Italian always uses the *condizionale passato*, even where English has a simple *would*: *{im:Sapevo} che {cpa:avresti capito}* (I knew you would understand).",
+      {
+        "h": "Present or past conditional?"
+      },
+      "Ask whether the opportunity is still open. *{cop:Accetterei}* means that I could still accept. *{cpa:Avrei accettato}* means it's too late.",
+      {
+        "h": "Things people often mix up"
+      },
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Tense",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "{fs:parler**emo**}",
+              "Futuro",
+              "we will speak"
+            ],
+            [
+              "{cop:parler**emmo**}",
+              "Condizionale",
+              "we would speak"
+            ],
+            [
+              "{cpa:avr**ei** detto}",
+              "Condizionale passato",
+              "I would have said"
+            ],
+            [
+              "{fa:avr**ò** detto}",
+              "Futuro anteriore",
+              "I will have said, I must have said"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "What does the verb express here?",
+        "questions": [
+          {
+            "q": "Non {ip:risponde}: {fs:starà} dormendo.",
+            "options": [
+              "a plan",
+              "*a guess about now",
+              "a regret"
+            ]
+          },
+          {
+            "q": "Luca {ip:è} in ritardo: {fa:avrà perso} il treno.",
+            "options": [
+              "*a guess about the past",
+              "a future event",
+              "an order"
+            ]
+          },
+          {
+            "q": "Il sindaco {cpa:avrebbe lasciato} la città.",
+            "options": [
+              "a regret",
+              "a polite request",
+              "*unconfirmed news"
+            ]
+          },
+          {
+            "q": "{cpa:Avrei dovuto} ascoltarti.",
+            "options": [
+              "a guess",
+              "*a regret",
+              "a future plan"
+            ]
+          },
+          {
+            "q": "{fs:Sarà} anche ricco, ma non {ip:è} felice.",
+            "options": [
+              "a prediction",
+              "*a concession",
+              "a wish"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the futuro semplice or futuro anteriore to make a guess.",
+        "questions": [
+          "Che ore {ip:sono}? [[Saranno#fs]] le sei. (essere, now)",
+          "Marco non c'{ip:è}: [[sarà uscito#fa]]. (uscire, past)",
+          "Anna {ip:è} molto stanca: [[avrà lavorato#fa]] tutta la notte. (lavorare, past)",
+          "Quanti anni {ip:ha}? [[Avrà#fs]] quarant'anni. (avere, now)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the condizionale presente or passato.",
+        "questions": [
+          "Se {csi:potessi}, [[accetterei#cop]] subito. (accettare, io, still possible)",
+          "Ormai {ip:è} tardi, ma io [[avrei accettato#cpa]]. (accettare, too late)",
+          "{im:Sapevo} che voi [[avreste capito#cpa]]. (capire)",
+          "Secondo la polizia, i ladri [[sarebbero fuggiti#cop]] in moto. (fuggire, news)",
+          "[[Dovresti#cop]] parlare con lui. (dovere, tu, advice)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la fonte",
+        "source"
+      ],
+      [
+        "l'ipotesi",
+        "hypothesis"
+      ],
+      [
+        "la previsione",
+        "forecast"
+      ],
+      [
+        "il sospetto",
+        "suspicion"
+      ],
+      [
+        "l'indagine",
+        "investigation"
+      ],
+      [
+        "il testimone",
+        "witness"
+      ],
+      [
+        "ipotizzare",
+        "to assume"
+      ],
+      [
+        "dimettersi",
+        "to resign"
+      ],
+      [
+        "smentire",
+        "to deny"
+      ],
+      [
+        "confermare",
+        "to confirm"
+      ],
+      [
+        "presunto",
+        "alleged"
+      ],
+      [
+        "probabilmente",
+        "probably"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la fonte",
+            "source"
+          ],
+          [
+            "l'indagine",
+            "investigation"
+          ],
+          [
+            "il testimone",
+            "witness"
+          ],
+          [
+            "dimettersi",
+            "to resign"
+          ],
+          [
+            "smentire",
+            "to deny"
+          ],
+          [
+            "presunto",
+            "alleged"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Le [[previsioni]] del tempo {ip:dicono} che {fs:pioverà}. (forecasts)",
+          "La notizia non {pp:è stata} [[confermata#pp]]. (confirmed)",
+          "{ip:Ho} un [[sospetto]] su di lui. (suspicion)",
+          "{ip:È} [[probabilmente]] la soluzione migliore. (probably)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Secondo alcune fonti, l'assessore alla cultura si {cpa:sarebbe dimesso} ieri sera, dopo l'apertura di un'indagine sui lavori al teatro comunale. Il comune non {pp:ha} ancora {pp:confermato} né smentito la notizia. Un testimone {cpa:avrebbe visto} l'assessore uscire dal municipio con una scatola di documenti.",
+      "«{fa:Avrà avuto} le sue ragioni», {ip:commenta} un collega. «Io al suo posto {cpa:avrei parlato} subito con i giornalisti.» L'opposizione {ip:chiede} chiarezza: «Quando {fa:avremo letto} i documenti, {fs:sapremo} la verità. {cop:Dovrebbe} essere il sindaco a spiegare che cosa {pp:è successo}.»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The resignation has been officially confirmed.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "There is an investigation into work at the theatre.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The colleague would have spoken to the journalists at once.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The opposition says the mayor should explain.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Vera",
+        "Che strano, Paolo non {pp:è} ancora {pp:arrivato}."
+      ],
+      [
+        "Gianni",
+        "{fa:Avrà perso} il treno. O {fa:sarà rimasto} in ufficio."
+      ],
+      [
+        "Vera",
+        "{cpa:Avrebbe potuto} telefonare, però."
+      ],
+      [
+        "Gianni",
+        "{fa:Avrà dimenticato} il telefono. {ip:Sai} com'{pp:è fatto}."
+      ],
+      [
+        "Vera",
+        "Io al posto suo {cpa:avrei mandato} almeno un messaggio."
+      ],
+      [
+        "Gianni",
+        "Quando {fa:sarà arrivato}, glielo {fs:dirai} tu!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Avrà#fa]] {fa:perso} il treno.",
+          "[[Avrebbe#cpa]] {cpa:potuto} telefonare, però.",
+          "Io al posto suo [[avrei#cpa]] {cpa:mandato} almeno un messaggio.",
+          "Quando [[sarà#fa]] {fa:arrivato}, glielo {fs:dirai} tu!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Does anyone know why Paolo is late?",
+        "questions": [
+          {
+            "q": "They…",
+            "options": [
+              "have received a message from him",
+              "*are only guessing",
+              "have spoken to his boss"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "He must have forgotten the keys.",
+            "a": [
+              "Avrà dimenticato le chiavi.",
+              "Lui avrà dimenticato le chiavi."
+            ]
+          },
+          {
+            "q": "It must be about six.",
+            "a": [
+              "Saranno le sei."
+            ]
+          },
+          {
+            "q": "I would have accepted.",
+            "a": [
+              "Avrei accettato.",
+              "Io avrei accettato."
+            ]
+          },
+          {
+            "q": "You should have talked to him. (informal)",
+            "a": [
+              "Avresti dovuto parlargli.",
+              "Avresti dovuto parlare con lui.",
+              "Gli avresti dovuto parlare."
+            ]
+          },
+          {
+            "q": "I knew you would understand. (informal)",
+            "a": [
+              "Sapevo che avresti capito."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

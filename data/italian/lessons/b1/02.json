@@ -1,0 +1,420 @@
+{
+  "title": "{ip:Spero} che tu {csa:abbia capito}",
+  "translation": "I hope you have understood",
+  "topics": "The congiuntivo passato, impersonal expressions with the congiuntivo",
+  "grammar": {
+    "explain": [
+      {
+        "h": "A finished action seen through someone's mind"
+      },
+      "The *congiuntivo passato* is the past version of what you learned in lesson 1. Use it when the main verb is in the present and the action in the *che* part has already happened.",
+      {
+        "table": {
+          "head": [
+            "The action happens",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Now or later",
+              "{ip:Penso} che {csp:arrivi}.",
+              "I think he's arriving."
+            ],
+            [
+              "Before",
+              "{ip:Penso} che {csa:**sia arrivato**}.",
+              "I think he has arrived."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "How to form it"
+      },
+      "It works exactly like the *passato prossimo*, only the auxiliary is in the *congiuntivo presente*. The choice of auxiliary and the agreement stay the same.",
+      {
+        "table": {
+          "head": [
+            "",
+            "mangiare (avere)",
+            "partire (essere)"
+          ],
+          "rows": [
+            [
+              "io, tu, lui / lei",
+              "{csa:abbia mangiato}",
+              "{csa:sia partit**o**} / partit**a**"
+            ],
+            [
+              "noi",
+              "{pp:abbiamo mangiato}",
+              "{pp:siamo partit**i**} / {ip:partit**e**}"
+            ],
+            [
+              "voi",
+              "{csa:abbiate mangiato}",
+              "{csa:siate partit**i**} / {ip:partit**e**}"
+            ],
+            [
+              "loro",
+              "{csa:abbiano mangiato}",
+              "{csa:siano partit**i**} / {ip:partit**e**}"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Impersonal expressions"
+      },
+      "These expressions judge something or leave it open, so they take the *congiuntivo*.",
+      {
+        "table": {
+          "head": [
+            "Expression",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "{ip:è} possibile che",
+              "it's possible that",
+              "{ip:È} possibile che {csa:abbia dimenticato}."
+            ],
+            [
+              "{ip:è} probabile che",
+              "it's likely that",
+              "{ip:È} probabile che {csa:sia uscito}."
+            ],
+            [
+              "{ip:sembra} che",
+              "it seems that",
+              "{ip:Sembra} che {csa:abbiano vinto}."
+            ],
+            [
+              "{ip:pare} che",
+              "apparently",
+              "{ip:Pare} che {csa:sia partita}."
+            ],
+            [
+              "{ip:è} un peccato che",
+              "it's a pity that",
+              "{ip:È} un peccato che non {csa:sia venuto}."
+            ],
+            [
+              "{ip:bisogna} che",
+              "it's necessary that",
+              "{ip:Bisogna} che tu {csp:parli}."
+            ],
+            [
+              "{ip:è} strano che",
+              "it's strange that",
+              "{ip:È} strano che non {csa:abbia chiamato}."
+            ]
+          ]
+        }
+      },
+      "Expressions that state a certainty keep the indicative: *{ip:È} vero che {pp:ha vinto}. {ip:È} chiaro che {pp:ha capito}.*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the congiuntivo passato.",
+        "questions": [
+          "{ip:Spero} che tu [[abbia capito#csa]]. (capire)",
+          "{ip:Penso} che Anna [[sia partita#csa]]. (partire)",
+          "{ip:Credo} che loro [[abbiano mangiato#csa]]. (mangiare)",
+          "{ip:Sembra} che i ragazzi [[siano usciti#csa]]. (uscire)",
+          "{ip:È} strano che voi non [[abbiate telefonato#csa]]. (telefonare)",
+          "{ip:È} un peccato che Maria non [[sia venuta#csa]]. (venire)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right tense.",
+        "questions": [
+          {
+            "q": "Ieri Marco {im:era} malato. {ip:Penso} che ___ il medico.",
+            "options": [
+              "{ip:chiami}",
+              "*{csa:abbia chiamato}"
+            ]
+          },
+          {
+            "q": "Domani {ip:parte}. {ip:Credo} che ___ alle otto.",
+            "options": [
+              "*{csp:parta}",
+              "{csa:sia partito}"
+            ]
+          },
+          {
+            "q": "{ip:È} vero che Luca ___ .",
+            "options": [
+              "*{pp:ha vinto}",
+              "{csa:abbia vinto}"
+            ]
+          },
+          {
+            "q": "{ip:È} possibile che Luca ___ .",
+            "options": [
+              "{pp:ha vinto}",
+              "*{csa:abbia vinto}"
+            ]
+          },
+          {
+            "q": "{ip:Sono} sicura che ___ .",
+            "options": [
+              "*{pp:hanno capito}",
+              "{csa:abbiano capito}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the right expression: peccato, possibile, sembra or bisogna.",
+        "questions": [
+          "{ip:È} un [[peccato]] che non {csa:sia venuto}. (a pity)",
+          "{ip:È} [[possibile]] che {csa:abbia dimenticato}. (possible)",
+          "[[Sembra#ip]] che {csa:abbiano vinto}. (it seems)",
+          "[[Bisogna#ip]] che tu {csp:parli} con lui. (it's necessary)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'esame",
+        "exam"
+      ],
+      [
+        "il voto",
+        "mark"
+      ],
+      [
+        "l'errore",
+        "mistake"
+      ],
+      [
+        "la spiegazione",
+        "explanation"
+      ],
+      [
+        "la scusa",
+        "excuse"
+      ],
+      [
+        "dimenticare",
+        "to forget"
+      ],
+      [
+        "spiegare",
+        "to explain"
+      ],
+      [
+        "sbagliare",
+        "to make a mistake"
+      ],
+      [
+        "superare",
+        "to pass (an exam)"
+      ],
+      [
+        "vincere",
+        "to win"
+      ],
+      [
+        "strano",
+        "strange"
+      ],
+      [
+        "chiaro",
+        "clear"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il voto",
+            "mark"
+          ],
+          [
+            "l'errore",
+            "mistake"
+          ],
+          [
+            "la scusa",
+            "excuse"
+          ],
+          [
+            "dimenticare",
+            "to forget"
+          ],
+          [
+            "superare",
+            "to pass (an exam)"
+          ],
+          [
+            "strano",
+            "strange"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Puoi} [[spiegare]] questa regola? (to explain)",
+          "{pp:Ho fatto} un [[errore]]. (mistake)",
+          "{pp:Ho superato} l'[[esame]]. (exam)",
+          "Non {ip:è} [[chiaro]]. (clear)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Caro professore, Le {ip:scrivo} perché mi {ip:dispiace} che Lei {csa:abbia dovuto} aspettarmi ieri. {ip:Credo} che ci {csa:sia stato} un errore: {im:pensavo} che l'esame {csi:fosse} oggi, ma il mio collega {ip:dice} che {ip:sembra} che {csa:abbiano cambiato} la data due settimane fa.",
+      "{ip:È} strano che nessuno mi {csa:abbia informato}. {ip:So} che {ip:è} colpa mia, perché non {pp:ho controllato} il sito. {ip:È} possibile che io {csp:possa} fare l'esame la prossima settimana? {ip:Spero} che Lei {csa:abbia capito} la situazione. Cordiali saluti, Elisa"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Elisa missed the exam.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "The date of the exam was changed.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Elisa blames only the professor.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "She asks to take the exam next week.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Davide",
+        "Non {ip:vedo} Marta. {ip:Credi} che {csa:sia} già {csa:andata} via?"
+      ],
+      [
+        "Clara",
+        "{ip:È} possibile. {ip:Sembra} che {csa:abbia avuto} un problema al lavoro."
+      ],
+      [
+        "Davide",
+        "Che peccato! {ip:Spero} che non {csp:sia} niente di grave."
+      ],
+      [
+        "Clara",
+        "{ip:Penso} di no. Ma {ip:è} strano che non {csa:abbia telefonato}."
+      ],
+      [
+        "Davide",
+        "Forse {pp:ha dimenticato} il telefono."
+      ],
+      [
+        "Clara",
+        "{ip:Bisogna} che le {csp:scriva} stasera."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:Credi} che [[sia#csa]] già {csa:andata} via?",
+          "{ip:Sembra} che [[abbia#csa]] {csa:avuto} un problema.",
+          "{ip:È} strano che non {csa:abbia} [[telefonato#csa]].",
+          "[[Bisogna#ip]] che le {csp:scriva} stasera."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What might have happened to Marta?",
+        "questions": [
+          {
+            "q": "It seems that Marta…",
+            "options": [
+              "went on holiday",
+              "*had a problem at work",
+              "is ill"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I hope you have understood. (informal)",
+            "a": [
+              "Spero che tu abbia capito."
+            ]
+          },
+          {
+            "q": "I think she has left.",
+            "a": [
+              "Penso che sia partita.",
+              "Credo che sia partita.",
+              "Penso che lei sia partita."
+            ]
+          },
+          {
+            "q": "It seems they have won.",
+            "a": [
+              "Sembra che abbiano vinto."
+            ]
+          },
+          {
+            "q": "It's a pity he didn't come.",
+            "a": [
+              "È un peccato che non sia venuto."
+            ]
+          },
+          {
+            "q": "It's true that she has won.",
+            "a": [
+              "È vero che ha vinto.",
+              "È vero che lei ha vinto."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "title": "{ip:Posso} entrare? {imv:Scusa}, {ip:sto} per uscire!",
+  "translation": "May I come in? Sorry, I'm about to go out!",
+  "topics": "potere, volere, dovere, the near future, basic commands",
+  "grammar": {
+    "explain": [
+      "*Potere* (can, may), *volere* (want) and *dovere* (must) are followed by an infinitive: *{ip:Posso} entrare? {ip:Voglio} mangiare. {ip:Devo} studiare.*",
+      {
+        "table": {
+          "head": [
+            "",
+            "potere",
+            "volere",
+            "dovere"
+          ],
+          "rows": [
+            [
+              "io",
+              "{ip:posso}",
+              "{ip:voglio}",
+              "{ip:devo}"
+            ],
+            [
+              "tu",
+              "{ip:puoi}",
+              "{ip:vuoi}",
+              "{ip:devi}"
+            ],
+            [
+              "lui / lei",
+              "{ip:può}",
+              "{ip:vuole}",
+              "{ip:deve}"
+            ],
+            [
+              "noi",
+              "{ip:possiamo}",
+              "{ip:vogliamo}",
+              "{ip:dobbiamo}"
+            ],
+            [
+              "voi",
+              "{ip:potete}",
+              "{ip:volete}",
+              "{ip:dovete}"
+            ],
+            [
+              "loro",
+              "{ip:possono}",
+              "{ip:vogliono}",
+              "{ip:devono}"
+            ]
+          ]
+        }
+      },
+      "To talk about the near future, Italian often uses simply the present: *Domani {ip:parto}*. You can also use two expressions.",
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "andare a + infinitive",
+              "going somewhere to do something",
+              "{ip:Vado} a mangiare."
+            ],
+            [
+              "stare per + infinitive",
+              "about to do something",
+              "{ip:Sto} per uscire."
+            ]
+          ]
+        }
+      },
+      "Commands depend on whom you are speaking to.",
+      {
+        "table": {
+          "head": [
+            "",
+            "-are",
+            "-ere",
+            "-ire"
+          ],
+          "rows": [
+            [
+              "tu",
+              "{imv:guard**a**}! {imv:scus**a**}!",
+              "{imv:prend**i**}!",
+              "{imv:sent**i**}!"
+            ],
+            [
+              "Lei (polite)",
+              "{imv:guard**i**}! {imv:scus**i**}!",
+              "{imv:prend**a**}!",
+              "{imv:sent**a**}!"
+            ],
+            [
+              "voi",
+              "{imv:guard**ate**}!",
+              "{imv:prend**ete**}!",
+              "{imv:sent**ite**}!"
+            ]
+          ]
+        }
+      },
+      "A negative command with *tu* uses *non + infinitive*: *Non parlare!*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in brackets in the right form.",
+        "questions": [
+          "[[Posso#ip]] entrare? (potere, io)",
+          "Tu [[vuoi#ip]] un caffè? (volere)",
+          "Marco [[deve#ip]] lavorare. (dovere)",
+          "Noi [[possiamo#ip]] venire. (potere)",
+          "Voi [[volete#ip]] mangiare? (volere)",
+          "Loro [[devono#ip]] partire. (dovere)",
+          "Noi [[dobbiamo#ip]] studiare. (dovere)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Il film ___ per cominciare. (it's about to start)",
+            "options": [
+              "{ip:va}",
+              "*{ip:sta}",
+              "{ip:è}"
+            ]
+          },
+          {
+            "q": "{ip:Vado} ___ dormire.",
+            "options": [
+              "*a",
+              "per",
+              "di"
+            ]
+          },
+          {
+            "q": "Excuse me, sir! (polite)",
+            "options": [
+              "{imv:Scusa}!",
+              "*{imv:Scusi}!",
+              "{imv:Scusate}!"
+            ]
+          },
+          {
+            "q": "Look! (to a friend)",
+            "options": [
+              "*{imv:Guarda}!",
+              "{imv:Guardi}!",
+              "{ip:Guardano}!"
+            ]
+          },
+          {
+            "q": "Take the bus! (polite)",
+            "options": [
+              "{imv:Prendi} l'autobus!",
+              "*{imv:Prenda} l'autobus!",
+              "{ip:Prende} l'autobus!"
+            ]
+          },
+          {
+            "q": "Don't speak! (to a friend)",
+            "options": [
+              "Non {imv:parli}!",
+              "*Non parlare!",
+              "Non {imv:parla}!"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "entrare",
+        "to enter"
+      ],
+      [
+        "uscire",
+        "to go out (io esco)"
+      ],
+      [
+        "aspettare",
+        "to wait"
+      ],
+      [
+        "aprire",
+        "to open"
+      ],
+      [
+        "chiudere",
+        "to close"
+      ],
+      [
+        "cominciare",
+        "to begin"
+      ],
+      [
+        "aiutare",
+        "to help"
+      ],
+      [
+        "sentire",
+        "to hear"
+      ],
+      [
+        "guardare",
+        "to look at"
+      ],
+      [
+        "la porta",
+        "door"
+      ],
+      [
+        "la finestra",
+        "window"
+      ],
+      [
+        "subito",
+        "right away"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "entrare",
+            "to enter"
+          ],
+          [
+            "aspettare",
+            "to wait"
+          ],
+          [
+            "chiudere",
+            "to close"
+          ],
+          [
+            "aiutare",
+            "to help"
+          ],
+          [
+            "la finestra",
+            "window"
+          ],
+          [
+            "subito",
+            "right away"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{ip:Puoi} [[aprire]] la finestra? (to open)",
+          "[[Aspetta#imv]] un momento! (wait, to a friend)",
+          "La [[porta]] {ip:è aperta}. (door)",
+          "{ip:Sto} per [[uscire]]. (to go out)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Oggi Valeria {ip:deve} andare dal dottore, ma la sua macchina non {ip:parte}. {ip:Chiama} sua sorella: «{ip:Puoi} venire qui? {ip:Devo} essere in centro alle dieci.» «{imv:Scusa}, non {ip:posso}. {ip:Sto} per uscire e {ip:devo} andare al lavoro.»",
+      "Valeria {ip:vuole} prendere un taxi, ma {ip:costa} troppo. Allora {ip:va} alla fermata. Un signore le {ip:dice}: «{imv:Prenda} il numero otto, signora. {ip:Sta} per arrivare!»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Where does Valeria have to go?",
+            "options": [
+              "To work",
+              "*To the doctor",
+              "To her sister's"
+            ]
+          },
+          {
+            "q": "What is the problem?",
+            "options": [
+              "*Her car won't start",
+              "She is late for work",
+              "She has no money"
+            ]
+          },
+          {
+            "q": "Why can't her sister help?",
+            "options": [
+              "She is ill",
+              "*She is about to go to work",
+              "She has no car"
+            ]
+          },
+          {
+            "q": "How does Valeria travel in the end?",
+            "options": [
+              "By taxi",
+              "By car",
+              "*By bus"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Studente",
+        "Permesso, {ip:posso} entrare?"
+      ],
+      [
+        "Professoressa",
+        "Sì, {imv:entra}! {imv:Chiudi} la porta, per favore."
+      ],
+      [
+        "Studente",
+        "{imv:Scusi}, {ip:devo} parlare con Lei."
+      ],
+      [
+        "Professoressa",
+        "Adesso non {ip:posso}, la lezione {ip:sta} per cominciare."
+      ],
+      [
+        "Studente",
+        "{ip:Va} bene. {ip:Vengo} dopo?"
+      ],
+      [
+        "Professoressa",
+        "Sì, {ip:aspetta} qui alla fine della lezione."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Permesso, [[posso#ip]] entrare?",
+          "[[Chiudi#imv]] la porta, per favore.",
+          "{imv:Scusi}, [[devo#ip]] parlare con Lei.",
+          "La lezione {ip:sta} [[per]] cominciare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The teacher can talk right now.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The student speaks politely to the teacher.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "May I come in?",
+            "a": [
+              "Posso entrare?"
+            ]
+          },
+          {
+            "q": "I want to eat.",
+            "a": [
+              "Voglio mangiare.",
+              "Io voglio mangiare."
+            ]
+          },
+          {
+            "q": "We must study.",
+            "a": [
+              "Dobbiamo studiare.",
+              "Noi dobbiamo studiare."
+            ]
+          },
+          {
+            "q": "I'm about to go out.",
+            "a": [
+              "Sto per uscire.",
+              "Io sto per uscire."
+            ]
+          },
+          {
+            "q": "Look! (to a friend)",
+            "a": [
+              "Guarda!"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

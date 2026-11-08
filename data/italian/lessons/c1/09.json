@@ -1,0 +1,464 @@
+{
+  "title": "{ip:Accetto}, a condizione che tu {csp:resti}; ciononostante, {ip:ho} dei dubbi",
+  "translation": "I accept, on condition that you stay; nevertheless, I have doubts",
+  "topics": "Subordinate clauses and the choice of mood, precise logical connectors",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Mood follows meaning"
+      },
+      {
+        "table": {
+          "head": [
+            "Relation",
+            "Conjunctions",
+            "Mood"
+          ],
+          "rows": [
+            [
+              "Cause",
+              "poiché, giacché, dal momento che, visto che, in quanto",
+              "indicative"
+            ],
+            [
+              "Result",
+              "così… che, tanto… che, sicché, cosicché",
+              "indicative"
+            ],
+            [
+              "Purpose",
+              "affinché, acciocché, perché, di modo che",
+              "congiuntivo"
+            ],
+            [
+              "Condition",
+              "purché, a condizione che, a patto che, sempre che, qualora",
+              "congiuntivo"
+            ],
+            [
+              "Concession",
+              "benché, sebbene, quantunque, malgrado, per quanto",
+              "congiuntivo"
+            ],
+            [
+              "Exclusion",
+              "senza che, a meno che",
+              "congiuntivo"
+            ],
+            [
+              "Opposition",
+              "mentre, laddove, anziché",
+              "indicative"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "One conjunction, two moods"
+      },
+      "Some conjunctions change their meaning with the mood.",
+      {
+        "table": {
+          "head": [
+            "Conjunction",
+            "With the indicative",
+            "With the congiuntivo"
+          ],
+          "rows": [
+            [
+              "perché",
+              "Cause: {ip:Resto} perché {ip:piove}.",
+              "Purpose: {ip:Resto} perché tu {csp:possa} uscire."
+            ],
+            [
+              "di modo che",
+              "Result: {pp:Ha parlato} chiaro, di modo che tutti {pp:hanno capito}.",
+              "Purpose: {imv:Parla} chiaro, di modo che tutti {csp:capiscano}."
+            ],
+            [
+              "come",
+              "Manner: {ip:Fai} come {ip:vuoi}.",
+              "Formal indirect question: Non so come sia andata."
+            ]
+          ]
+        }
+      },
+      "*In quanto* has two uses: as a conjunction it gives a cause, *Non partecipa in quanto {ip:è} malato*, and before a noun it gives a role, *In quanto medico, non {ip:posso} tacere*.",
+      {
+        "h": "Connectors between sentences"
+      },
+      "These words make logical relations explicit, and using the right one is a sign of mature writing. They don't affect the mood.",
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Relation",
+            "Example"
+          ],
+          "rows": [
+            [
+              "pertanto",
+              "conclusion, formal",
+              "I dati {ip:sono} incompleti; pertanto, non {ip:possiamo} procedere."
+            ],
+            [
+              "ciononostante",
+              "contrast with what precedes",
+              "{im:Era} malato; ciononostante, {pp:è venuto}."
+            ],
+            [
+              "nondimeno",
+              "contrast, literary",
+              "Il compito {ip:è} arduo; nondimeno, {ip:va} svolto."
+            ],
+            [
+              "tuttavia",
+              "contrast, neutral",
+              "{ip:È} caro; tuttavia, lo {ip:compro}."
+            ],
+            [
+              "bensì",
+              "correction after a negative",
+              "Non {ip:è} un errore, bensì una scelta."
+            ],
+            [
+              "ovvero, ossia",
+              "that is, in other words",
+              "L'ateneo, ossia l'università."
+            ],
+            [
+              "difatti",
+              "confirmation",
+              "{im:Era} tardi; difatti non c'{im:era} nessuno."
+            ]
+          ]
+        }
+      },
+      "*Bensì* appears only after a negative. *Ma* is more general, while *bensì* replaces one idea with another."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right mood.",
+        "questions": [
+          {
+            "q": "Poiché non ___ risposto, {pp:ho scritto} di nuovo.",
+            "options": [
+              "*{im:aveva}",
+              "{csi:avesse}"
+            ]
+          },
+          {
+            "q": "Malgrado ___ tardi, {pp:ha continuato}.",
+            "options": [
+              "{im:era}",
+              "*{csi:fosse}"
+            ]
+          },
+          {
+            "q": "Ha parlato chiaro, di modo che tutti ___ . (result, it happened)",
+            "options": [
+              "*{pp:hanno capito}",
+              "{csi:capissero}"
+            ]
+          },
+          {
+            "q": "{imv:Parla} chiaro, di modo che tutti ___ . (purpose)",
+            "options": [
+              "{ip:capiscono}",
+              "*{csp:capiscano}"
+            ]
+          },
+          {
+            "q": "{ip:Vengo}, sempre che non ___ .",
+            "options": [
+              "{ip:piove}",
+              "*{csp:piova}"
+            ]
+          },
+          {
+            "q": "{ip:Resto} perché tu ___ uscire. (purpose)",
+            "options": [
+              "{ip:puoi}",
+              "*{csp:possa}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the connector: pertanto, ciononostante, bensì or ossia.",
+        "questions": [
+          "I dati {ip:sono} incompleti; [[pertanto]], non {ip:possiamo} procedere. (conclusion)",
+          "{im:Era} malato; [[ciononostante]], {pp:è venuto} al lavoro. (contrast)",
+          "Non {ip:è} un errore, [[bensì]] una scelta. (correction)",
+          "L'ateneo, [[ossia]] l'università. (that is)"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Join the two ideas with the word in brackets.",
+        "questions": [
+          {
+            "q": "{ip:Accetto}. {ip:Devi} restare. (a condizione che)",
+            "a": [
+              "Accetto, a condizione che tu resti."
+            ]
+          },
+          {
+            "q": "{im:Era} tardi. {pp:Ha continuato}. (sebbene)",
+            "a": [
+              "Sebbene fosse tardi, ha continuato.",
+              "Ha continuato sebbene fosse tardi."
+            ]
+          },
+          {
+            "q": "Non {ip:è} malato. {ip:È} stanco. (bensì)",
+            "a": [
+              "Non è malato, bensì stanco."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "la trattativa",
+        "negotiation"
+      ],
+      [
+        "l'accordo",
+        "agreement"
+      ],
+      [
+        "la controversia",
+        "dispute"
+      ],
+      [
+        "l'ipotesi",
+        "hypothesis"
+      ],
+      [
+        "il presupposto",
+        "assumption"
+      ],
+      [
+        "il vincolo",
+        "constraint"
+      ],
+      [
+        "concordare",
+        "to agree"
+      ],
+      [
+        "negoziare",
+        "to negotiate"
+      ],
+      [
+        "contestare",
+        "to challenge"
+      ],
+      [
+        "procedere",
+        "to proceed"
+      ],
+      [
+        "arduo",
+        "arduous"
+      ],
+      [
+        "in linea di massima",
+        "broadly speaking"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la trattativa",
+            "negotiation"
+          ],
+          [
+            "la controversia",
+            "dispute"
+          ],
+          [
+            "il presupposto",
+            "assumption"
+          ],
+          [
+            "il vincolo",
+            "constraint"
+          ],
+          [
+            "contestare",
+            "to challenge"
+          ],
+          [
+            "in linea di massima",
+            "broadly speaking"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "{pp:Hanno raggiunto} un [[accordo]]. (agreement)",
+          "{ip:Possiamo} [[procedere]] con il piano. (to proceed)",
+          "{ip:È} un compito molto [[arduo]]. (arduous)",
+          "{ip:Dobbiamo} [[concordare]] una data. (to agree on)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Le trattative tra il sindacato e l'azienda si {pp:sono concluse} ieri sera, sebbene {csp:restino} aperti alcuni punti. L'accordo {ip:prevede} un aumento salariale del tre per cento, a condizione che la produttività {csp:cresca} nel prossimo biennio. Dal momento che i dati di mercato {ip:sono} incerti, la clausola {pp:è stata} {pp:contestata} da una parte dei lavoratori.",
+      "L'azienda {ip:sostiene} che non si {ip:tratti} di un vincolo, bensì di una garanzia. Ciononostante, molti delegati {pp:hanno votato} contro, affinché il dissenso {csi:restasse} agli atti. Il testo {fs:sarà}, pertanto, sottoposto a referendum, sempre che il consiglio direttivo non {csp:decida} altrimenti."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "On what is the pay rise conditional?",
+            "options": [
+              "*Productivity growing",
+              "A referendum",
+              "Market data improving"
+            ]
+          },
+          {
+            "q": "Why was the clause challenged?",
+            "options": [
+              "The rise was too small",
+              "*Market data are uncertain",
+              "It was illegal"
+            ]
+          },
+          {
+            "q": "Why did some delegates vote against?",
+            "options": [
+              "To stop the deal",
+              "*To put their dissent on record",
+              "To get a higher rise"
+            ]
+          },
+          {
+            "q": "What happens next?",
+            "options": [
+              "The deal comes into force at once",
+              "*A referendum, unless the board decides otherwise",
+              "New negotiations"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Avvocata",
+        "Il cliente {ip:accetta}, a condizione che i termini {csp:restino} invariati."
+      ],
+      [
+        "Socio",
+        "Sebbene {csp:sia} un buon accordo, {ip:ho} ancora dei dubbi."
+      ],
+      [
+        "Avvocata",
+        "Dal momento che il tempo {ip:stringe}, {ip:dobbiamo} decidere."
+      ],
+      [
+        "Socio",
+        "Non {ip:chiedo} un rinvio, bensì una verifica dei dati."
+      ],
+      [
+        "Avvocata",
+        "{ip:Va} bene; pertanto, ci {ip:vediamo} domani."
+      ],
+      [
+        "Socio",
+        "Purché {csp:arrivino} i documenti."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "A condizione che i termini [[restino#csp]] invariati.",
+          "[[Sebbene]] {csp:sia} un buon accordo, {ip:ho} ancora dei dubbi.",
+          "Non {ip:chiedo} un rinvio, [[bensì]] una verifica dei dati.",
+          "[[Purché]] {csp:arrivino} i documenti."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does the partner want?",
+        "questions": [
+          {
+            "q": "He wants…",
+            "options": [
+              "a postponement",
+              "*the data to be checked",
+              "a new contract"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I accept, on condition that you stay. (informal)",
+            "a": [
+              "Accetto, a condizione che tu resti.",
+              "Accetto a condizione che tu resti."
+            ]
+          },
+          {
+            "q": "It is not a mistake, but a choice. (use bensì)",
+            "a": [
+              "Non è un errore, bensì una scelta."
+            ]
+          },
+          {
+            "q": "The data are incomplete; therefore, we cannot proceed. (use pertanto)",
+            "a": [
+              "I dati sono incompleti; pertanto, non possiamo procedere.",
+              "I dati sono incompleti, pertanto non possiamo procedere."
+            ]
+          },
+          {
+            "q": "He was ill; nevertheless, he came. (use ciononostante)",
+            "a": [
+              "Era malato; ciononostante, è venuto.",
+              "Era malato, ciononostante è venuto."
+            ]
+          },
+          {
+            "q": "As a doctor, I cannot remain silent. (use in quanto)",
+            "a": [
+              "In quanto medico, non posso tacere."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

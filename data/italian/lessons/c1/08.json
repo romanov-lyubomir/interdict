@@ -1,0 +1,428 @@
+{
+  "title": "Pur avendo studiato, non {pr:superò} l'esame",
+  "translation": "Despite having studied, he didn't pass the exam",
+  "topics": "Infinitive, gerund and participle in shortened clauses, keeping track of the subject",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Who is doing the action?"
+      },
+      "A gerund or an infinitive has no subject of its own, so it takes that of the main verb. This rule prevents a very common mistake.",
+      {
+        "table": {
+          "head": [
+            "Wrong",
+            "Right"
+          ],
+          "rows": [
+            [
+              "Entrando in casa, il telefono squillò.",
+              "Mentre {im:entravo} in casa, il telefono squillò."
+            ],
+            [
+              "Essendo in ritardo, il capo si {pp:è arrabbiato} con me.",
+              "Poiché {im:ero} in ritardo, il capo si {pp:è arrabbiato} con me."
+            ]
+          ]
+        }
+      },
+      "The first wrong sentence says that the telephone was entering the house.",
+      {
+        "h": "The participle can have its own subject"
+      },
+      "Unlike the gerund, the absolute participle can have a subject that differs from the main verb. It comes after the participle: *Partito il treno, {pr:tornammo} a casa*. A gerund can do this only in formal style: *Essendo il treno partito, {pr:tornammo} a casa*.",
+      {
+        "h": "One idea, several shortened forms"
+      },
+      {
+        "table": {
+          "head": [
+            "Meaning",
+            "Form",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Time",
+              "nel + infinitive",
+              "Nel vederla, {pr:sorrise}."
+            ],
+            [
+              "Time",
+              "absolute participle",
+              "Finita la cena, {pr:uscimmo}."
+            ],
+            [
+              "Cause",
+              "gerund",
+              "Non avendo soldi, {pr:rinunciò}."
+            ],
+            [
+              "Cause",
+              "per + past infinitive",
+              "{pr:Fu licenziato} per aver mentito."
+            ],
+            [
+              "Condition",
+              "a + infinitive",
+              "A pensarci bene, {ip:hai} ragione."
+            ],
+            [
+              "Condition",
+              "gerund",
+              "Partendo ora, {cop:arriveresti} in tempo."
+            ],
+            [
+              "Concession",
+              "pur + gerund",
+              "Pur avendo studiato, non {pr:superò} l'esame."
+            ],
+            [
+              "Result",
+              "da + infinitive",
+              "{ip:È} così stanco da non reggersi in piedi."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The tense of the shortened form"
+      },
+      "The simple form shows that the action happens at the same time. The compound form shows that it comes first.",
+      {
+        "table": {
+          "head": [
+            "Same time",
+            "Before"
+          ],
+          "rows": [
+            [
+              "Studiando, ascolto musica.",
+              "Avendo studiato, {pp:ho superato} l'esame."
+            ],
+            [
+              "{ip:Credo} di capire.",
+              "{ip:Credo} di aver capito."
+            ],
+            [
+              "Prima di partire",
+              "Dopo essere partito"
+            ]
+          ]
+        }
+      },
+      "With a past infinitive, *essere* verbs keep their agreement with the subject: *Dopo essere arrivat**a**, Anna {pr:telefonò}.*"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which sentence is correct?",
+        "questions": [
+          {
+            "q": "Choose one.",
+            "options": [
+              "Tornando a casa, la pioggia mi {ip:ha} bagnato.",
+              "*Mentre {im:tornavo} a casa, la pioggia mi {ip:ha} bagnato."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "*Partito il treno, {pr:tornammo} a casa.",
+              "Partendo il treno, {pr:tornammo} a casa."
+            ]
+          },
+          {
+            "q": "Choose one.",
+            "options": [
+              "*Avendo perso il treno, Marco {pp:è arrivato} tardi.",
+              "Avendo perso il treno, il capo si {pp:è arrabbiato} con Marco."
+            ]
+          },
+          {
+            "q": "He was fired for lying.",
+            "options": [
+              "*{pr:Fu licenziato} per aver mentito.",
+              "{pr:Fu licenziato} per mentendo."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the shortened form of the verb in brackets.",
+        "questions": [
+          "Pur [[avendo studiato]], non {pr:superò} l'esame. (studiare, before)",
+          "[[Finita]] la cena, {pr:uscimmo}. (finire)",
+          "[[Nel]] vederla, {pr:sorrise}.",
+          "A [[pensarci]] bene, {ip:hai} ragione. (pensare + ci)",
+          "{ip:È} così stanco [[da]] non reggersi in piedi.",
+          "{ip:Credo} di [[aver capito]]. (capire, before)"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Shorten the clause, using the form in brackets.",
+        "questions": [
+          {
+            "q": "Benché {csi:fosse} stanco, {pr:lavorò}. (pur)",
+            "a": [
+              "Pur essendo stanco, lavorò."
+            ]
+          },
+          {
+            "q": "Dopo che la cena {tr:fu finita}, {pr:uscimmo}. (participle)",
+            "a": [
+              "Finita la cena, uscimmo."
+            ]
+          },
+          {
+            "q": "Poiché non {im:aveva} soldi, {pr:rinunciò}. (gerund)",
+            "a": [
+              "Non avendo soldi, rinunciò."
+            ]
+          },
+          {
+            "q": "Se ci {ip:pensi} bene, {ip:hai} ragione. (a + infinitive)",
+            "a": [
+              "A pensarci bene, hai ragione."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "l'ateneo",
+        "university"
+      ],
+      [
+        "la bocciatura",
+        "failure (in an exam)"
+      ],
+      [
+        "il voto",
+        "grade"
+      ],
+      [
+        "la tesi",
+        "thesis"
+      ],
+      [
+        "il relatore",
+        "supervisor"
+      ],
+      [
+        "l'impegno",
+        "commitment"
+      ],
+      [
+        "bocciare",
+        "to fail (someone)"
+      ],
+      [
+        "laurearsi",
+        "to graduate"
+      ],
+      [
+        "reggersi in piedi",
+        "to stay on one's feet"
+      ],
+      [
+        "licenziare",
+        "to dismiss"
+      ],
+      [
+        "mentire",
+        "to lie"
+      ],
+      [
+        "esaurito",
+        "exhausted"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "l'ateneo",
+            "university"
+          ],
+          [
+            "la tesi",
+            "thesis"
+          ],
+          [
+            "il relatore",
+            "supervisor"
+          ],
+          [
+            "laurearsi",
+            "to graduate"
+          ],
+          [
+            "licenziare",
+            "to dismiss"
+          ],
+          [
+            "mentire",
+            "to lie"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Si {pp:è} [[laureato#pp]] in medicina. (graduated)",
+          "Ci {ip:vuole} molto [[impegno]]. (commitment)",
+          "{ip:Sto} scrivendo la [[tesi]]. (thesis)",
+          "Dopo la [[bocciatura]], {pp:ha riprovato}. (failure)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Pur avendo studiato per mesi, Paolo non {pr:superò} l'esame di diritto. Nel leggere il risultato, {pr:rimase} immobile davanti alla bacheca. Tornato a casa, {pr:decise} di non dire nulla ai genitori. Non volendo deluderli, {pr:finse} per settimane di frequentare l'ateneo.",
+      "Scoperta la verità, il padre gli {pr:parlò} a lungo. «A pensarci bene», gli {pr:disse}, «anch'io mi {pp:sono ritirato} dopo aver fallito due volte.» Paolo {im:era} così sorpreso da non riuscire a rispondere. Rimessosi a studiare, si {pr:laureò} due anni dopo, avendo finalmente imparato a non aver paura di sbagliare."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Paolo hadn't studied.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "He hid his failure from his parents.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "His father had also failed exams.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Paolo never graduated.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Tea",
+        "Pur avendo studiato tanto, non {pp:ho passato} l'esame."
+      ],
+      [
+        "Livio",
+        "Mi {ip:dispiace}. A pensarci bene, {im:era} molto difficile."
+      ],
+      [
+        "Tea",
+        "Nel vedere il voto, mi {pp:sono sentita} male."
+      ],
+      [
+        "Livio",
+        "Finito l'esame, {tp:avevi capito} qualcosa?"
+      ],
+      [
+        "Tea",
+        "No, {im:ero} così stanca da non capire nulla."
+      ],
+      [
+        "Livio",
+        "Riposandoti un po', la prossima volta {fs:andrà} meglio."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Pur]] avendo studiato tanto, non {pp:ho passato} l'esame.",
+          "[[Nel]] vedere il voto, mi {pp:sono sentita} male.",
+          "[[Finito]] l'esame, {tp:avevi capito} qualcosa?",
+          "{im:Ero} così stanca [[da]] non capire nulla."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does Livio suggest?",
+        "questions": [
+          {
+            "q": "Livio suggests…",
+            "options": [
+              "studying more",
+              "changing university",
+              "*getting some rest"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Despite having studied, he didn't pass the exam.",
+            "a": [
+              "Pur avendo studiato, non superò l'esame.",
+              "Pur avendo studiato, non ha superato l'esame."
+            ]
+          },
+          {
+            "q": "Once dinner was finished, we went out. (participle, passato remoto)",
+            "a": [
+              "Finita la cena, uscimmo."
+            ]
+          },
+          {
+            "q": "On seeing her, he smiled. (nel + infinitive, passato remoto)",
+            "a": [
+              "Nel vederla, sorrise."
+            ]
+          },
+          {
+            "q": "He was fired for lying. (past infinitive, passato remoto)",
+            "a": [
+              "Fu licenziato per aver mentito."
+            ]
+          },
+          {
+            "q": "On reflection, you're right. (a + infinitive, informal)",
+            "a": [
+              "A pensarci bene, hai ragione."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

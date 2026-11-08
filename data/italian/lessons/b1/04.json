@@ -1,0 +1,420 @@
+{
+  "title": "{cop:Vorrei} venire, ma {cpa:avrei dovuto} studiare",
+  "translation": "I'd like to come, but I should have studied",
+  "topics": "The condizionale presente and passato",
+  "grammar": {
+    "explain": [
+      {
+        "h": "How to form the condizionale presente"
+      },
+      "If you know the future, you already know the stem. Only the endings change, and irregular verbs keep the same irregular stems: *{fs:sarò} → {cop:sarei}, {fs:avrò} → {cop:avrei}, {fs:verrò} → {cop:verrei}, {fs:andrò} → {cop:andrei}, {fs:farò} → {cop:farei}*.",
+      {
+        "table": {
+          "head": [
+            "",
+            "parlare → parler-",
+            "scrivere → scriver-",
+            "dormire → dormir-"
+          ],
+          "rows": [
+            [
+              "io",
+              "{cop:parler**ei**}",
+              "{cop:scriver**ei**}",
+              "{cop:dormir**ei**}"
+            ],
+            [
+              "tu",
+              "{cop:parler**esti**}",
+              "{cop:scriver**esti**}",
+              "{cop:dormir**esti**}"
+            ],
+            [
+              "lui / lei",
+              "{cop:parler**ebbe**}",
+              "{cop:scriver**ebbe**}",
+              "{cop:dormir**ebbe**}"
+            ],
+            [
+              "noi",
+              "{cop:parler**emmo**}",
+              "{cop:scriver**emmo**}",
+              "{cop:dormir**emmo**}"
+            ],
+            [
+              "voi",
+              "{cop:parler**este**}",
+              "{cop:scriver**este**}",
+              "{cop:dormir**este**}"
+            ],
+            [
+              "loro",
+              "{cop:parler**ebbero**}",
+              "{cop:scriver**ebbero**}",
+              "{cop:dormir**ebbero**}"
+            ]
+          ]
+        }
+      },
+      "Careful: the future *{fs:parleremo}* (we will speak) has one *m*, and the conditional *{cop:parleremmo}* (we would speak) has two.",
+      {
+        "h": "What it is for"
+      },
+      {
+        "table": {
+          "head": [
+            "Use",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Polite requests",
+              "{cop:Vorrei} un caffè. {cop:Potrebbe} aiutarmi?",
+              "I'd like… Could you…?"
+            ],
+            [
+              "Wishes",
+              "Mi {cop:piacerebbe} viaggiare.",
+              "I'd like to travel."
+            ],
+            [
+              "Advice",
+              "{cop:Dovresti} riposarti.",
+              "You should rest."
+            ],
+            [
+              "Unconfirmed news",
+              "Il ministro {cop:sarebbe} a Roma.",
+              "The minister is said to be in Rome."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The condizionale passato"
+      },
+      "It is formed like the *passato prossimo*, with the auxiliary in the conditional: *{cpa:avrei mangiato}, {cpa:sarei partito}*. The same rules for the auxiliary and agreement apply.",
+      "It describes what would have happened but did not. It is the tense of regret and missed chances.",
+      {
+        "table": {
+          "head": [
+            "Now",
+            "Too late"
+          ],
+          "rows": [
+            [
+              "{cop:Dovrei} studiare. (I should study.)",
+              "Avrei dovuto studiare. (I should have studied.)"
+            ],
+            [
+              "{cop:Potrei} venire. (I could come.)",
+              "Sarei potuto venire. (I could have come.)"
+            ],
+            [
+              "Vorrei partire. (I'd like to leave.)",
+              "Sarei voluto partire. (I would have liked to leave.)"
+            ]
+          ]
+        }
+      },
+      "With *dovere, potere* and *volere*, the auxiliary is the one the following infinitive would take: *{cpa:Avrei dovuto} studiare*, but *{cpa:Sarei dovuto} partire*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the condizionale presente.",
+        "questions": [
+          "[[Vorrei#cop]] un cappuccino. (volere, io)",
+          "[[Potresti#cop]] aprire la finestra? (potere, tu)",
+          "Noi [[parleremmo#cop]] volentieri con lui. (parlare)",
+          "Voi [[dovreste#cop]] studiare di più. (dovere)",
+          "Mi [[piacerebbe#cop]] vivere al mare. (piacere)",
+          "Loro [[verrebbero#cop]] con noi. (venire)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the condizionale passato.",
+        "questions": [
+          "[[Avrei studiato#cpa]] di più, ma non {im:avevo} tempo. (studiare, io)",
+          "Tu [[saresti venuto#cpa]] con noi? (venire – a man)",
+          "Anna [[sarebbe partita#cpa]] ieri, ma {im:era} malata. (partire)",
+          "Noi [[avremmo comprato#cpa]] la casa. (comprare)",
+          "[[Avresti dovuto#cpa]] telefonarmi. (dovere, tu)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "Domani ___ al cinema. (we will go, a fact)",
+            "options": [
+              "*{fs:andremo}",
+              "{cop:andremmo}"
+            ]
+          },
+          {
+            "q": "Se potessimo, ___ al cinema. (we would go)",
+            "options": [
+              "{fs:andremo}",
+              "*{cop:andremmo}"
+            ]
+          },
+          {
+            "q": "You should have told me.",
+            "options": [
+              "{cop:Dovresti} dirmelo.",
+              "*{cpa:Avresti dovuto} dirmelo."
+            ]
+          },
+          {
+            "q": "Polite: Could you help me? (Lei)",
+            "options": [
+              "*{cop:Potrebbe} aiutarmi?",
+              "{cop:Potresti} aiutarmi?",
+              "{cop:Potrebbero} aiutarmi?"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il rimpianto",
+        "regret"
+      ],
+      [
+        "il consiglio",
+        "advice"
+      ],
+      [
+        "il desiderio",
+        "wish"
+      ],
+      [
+        "l'occasione",
+        "opportunity"
+      ],
+      [
+        "la scelta",
+        "choice"
+      ],
+      [
+        "consigliare",
+        "to advise"
+      ],
+      [
+        "pentirsi",
+        "to regret"
+      ],
+      [
+        "rinunciare",
+        "to give up"
+      ],
+      [
+        "volentieri",
+        "gladly"
+      ],
+      [
+        "peccato",
+        "what a pity"
+      ],
+      [
+        "gentilmente",
+        "kindly"
+      ],
+      [
+        "ormai",
+        "by now, too late"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il rimpianto",
+            "regret"
+          ],
+          [
+            "il desiderio",
+            "wish"
+          ],
+          [
+            "l'occasione",
+            "opportunity"
+          ],
+          [
+            "rinunciare",
+            "to give up"
+          ],
+          [
+            "volentieri",
+            "gladly"
+          ],
+          [
+            "ormai",
+            "by now, too late"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "Mi {ip:puoi} [[consigliare]] un buon film? (to advise)",
+          "Non mi [[pento#ip]] di niente. (I regret)",
+          "{pp:È stata} una buona [[scelta]]. (choice)",
+          "{cop:Verrei} [[volentieri]]! (gladly)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Mia nonna {ip:dice} sempre: «{cpa:Avrei dovuto} viaggiare di più.» Da giovane le {tp:avevano offerto} un lavoro a Parigi, ma {pp:ha rinunciato} per restare vicino ai genitori. {cpa:Sarebbe voluta} partire, però non {pp:ha avuto} il coraggio.",
+      "Oggi mi {ip:ripete}: «Tu {cop:dovresti} partire finché {ip:sei} giovane. Io {cop:andrei} subito, se {csi:avessi} la tua età!» Le {pp:ho promesso} che l'{cpa:avrei portata} a Parigi. Lei {ip:ride}, ma {ip:so} che le {cop:piacerebbe} davvero vedere la Torre Eiffel."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The grandmother took a job in Paris.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "She regrets not having travelled more.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "She advises the speaker to leave while young.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "She has no wish to see the Eiffel Tower.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Barista",
+        "Buonasera, {ip:desidera}?"
+      ],
+      [
+        "Cliente",
+        "{cop:Vorrei} un tè, per favore. {cop:Potrebbe} portarmi anche il conto?"
+      ],
+      [
+        "Barista",
+        "Certo. Non {cop:vorrebbe} anche un dolce?"
+      ],
+      [
+        "Cliente",
+        "Mi {cop:piacerebbe}, ma non {cop:dovrei}: {ip:sono} a dieta."
+      ],
+      [
+        "Barista",
+        "Peccato, {cpa:avrebbe potuto} assaggiare la nostra torta."
+      ],
+      [
+        "Cliente",
+        "La prossima volta!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "[[Vorrei#cop]] un tè, per favore.",
+          "[[Potrebbe#cop]] portarmi anche il conto?",
+          "Mi [[piacerebbe#cop]], ma non {cop:dovrei}.",
+          "[[Avrebbe#cpa]] {cpa:potuto} assaggiare la nostra torta."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Why does the customer refuse the dessert?",
+        "questions": [
+          {
+            "q": "The customer…",
+            "options": [
+              "doesn't like cake",
+              "*is on a diet",
+              "has no money"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "I would like a coffee.",
+            "a": [
+              "Vorrei un caffè.",
+              "Io vorrei un caffè."
+            ]
+          },
+          {
+            "q": "You should rest. (informal)",
+            "a": [
+              "Dovresti riposarti.",
+              "Ti dovresti riposare."
+            ]
+          },
+          {
+            "q": "I should have studied.",
+            "a": [
+              "Avrei dovuto studiare."
+            ]
+          },
+          {
+            "q": "Could you help me? (polite)",
+            "a": [
+              "Potrebbe aiutarmi?",
+              "Mi potrebbe aiutare?"
+            ]
+          },
+          {
+            "q": "We would go gladly.",
+            "a": [
+              "Andremmo volentieri.",
+              "Noi andremmo volentieri."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

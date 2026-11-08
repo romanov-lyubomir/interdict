@@ -1,0 +1,423 @@
+{
+  "title": "Qualunque cosa {csp:accada}, {ip:è} giusto che lo {csp:sappia}",
+  "translation": "Whatever happens, it's right that he should know",
+  "topics": "The full range of the congiuntivo: judgements, relative and impersonal constructions, independent uses",
+  "grammar": {
+    "explain": [
+      {
+        "h": "The principle behind every use"
+      },
+      "The *congiuntivo* appears when a clause isn't asserted as fact but is instead wished for, evaluated, doubted, assumed or simply presented as a topic.",
+      {
+        "table": {
+          "head": [
+            "Attitude",
+            "Introduced by",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Opinion",
+              "{ip:ritengo} che, {ip:suppongo} che",
+              "{ip:Ritengo} che {csp:sia} opportuno."
+            ],
+            [
+              "Doubt",
+              "{ip:dubito} che, non {ip:è detto} che",
+              "Non {ip:è detto} che {csp:accetti}."
+            ],
+            [
+              "Emotion",
+              "mi {ip:rallegro} che, mi {ip:stupisce} che",
+              "Mi {ip:stupisce} che non lo {csp:sappia}."
+            ],
+            [
+              "Will",
+              "{ip:esigo} che, {ip:pretendo} che",
+              "{ip:Esigo} che si {imv:scusi}."
+            ],
+            [
+              "Evaluation",
+              "{ip:è} giusto che, {ip:è} assurdo che",
+              "{ip:È} giusto che lo {csp:sappia}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "In relative clauses"
+      },
+      "A relative clause takes the *congiuntivo* when it describes something that may not exist, or something singled out as unique.",
+      {
+        "table": {
+          "head": [
+            "Type",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Sought, not yet found",
+              "{ip:Cerco} un traduttore che {csp:conosca} il finlandese."
+            ],
+            [
+              "Denied",
+              "Non c'{ip:è} nessuno che {csp:possa} aiutarti."
+            ],
+            [
+              "After a superlative",
+              "{ip:È} la persona più onesta che io {csp:conosca}."
+            ],
+            [
+              "After unico, solo, primo, ultimo",
+              "{ip:È} l'unico che {csa:abbia capito}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "After indefinite words"
+      },
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "chiunque",
+              "whoever",
+              "Chiunque {csp:sia}, non aprire."
+            ],
+            [
+              "qualunque, qualsiasi",
+              "whatever, any",
+              "Qualunque cosa {csp:accada}, {imv:resta} qui."
+            ],
+            [
+              "ovunque, dovunque",
+              "wherever",
+              "Ovunque tu {csp:vada}, ti seguirò."
+            ],
+            [
+              "comunque",
+              "however",
+              "Comunque {csp:vada}, {fs:sarà} un successo."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "A clause moved to the front"
+      },
+      "When a *che* clause is placed at the start as a topic, it takes the *congiuntivo* even if the fact is certain: *Che {csp:sia} intelligente {ip:è} fuori discussione*.",
+      {
+        "h": "Without a main verb"
+      },
+      "The *congiuntivo* can stand alone to express a wish, a resigned permission or a doubt: *Che {csp:venga} pure! Magari {csi:fosse} vero! Non che mi {csp:dispiaccia}, ma…*",
+      {
+        "h": "A question of register"
+      },
+      "In relaxed speech, Italians often say *{ip:Penso} che {ip:è} vero*. It's widely heard, but in formal writing it's considered a mistake."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Put the verb in the congiuntivo.",
+        "questions": [
+          "Non {ip:è detto} che [[accetti#csp]]. (accettare, lui)",
+          "Mi {ip:stupisce} che voi non lo [[sappiate#csp]]. (sapere)",
+          "{ip:Cerco} un assistente che [[conosca#csp]] il cinese. (conoscere)",
+          "{ip:È} l'unico che [[abbia capito#csa]] il problema. (capire, past)",
+          "Qualunque cosa [[accada#csp]], {imv:resta} qui. (accadere)",
+          "Ovunque tu [[vada#csp]], ti seguirò. (andare)",
+          "Che [[sia#csp]] intelligente {ip:è} fuori discussione. (essere)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Indicative or congiuntivo?",
+        "questions": [
+          {
+            "q": "{pp:Ho trovato} un traduttore che ___ il finlandese.",
+            "options": [
+              "*{ip:conosce}",
+              "{csp:conosca}"
+            ]
+          },
+          {
+            "q": "Non c'{ip:è} nessuno che ___ aiutarti.",
+            "options": [
+              "{ip:può}",
+              "*{csp:possa}"
+            ]
+          },
+          {
+            "q": "{ip:È} la persona più onesta che io ___ .",
+            "options": [
+              "{ip:conosco}",
+              "*{csp:conosca}"
+            ]
+          },
+          {
+            "q": "Il libro che ___ {ip:è} molto bello.",
+            "options": [
+              "*{ip:sto} leggendo",
+              "{csp:stia} leggendo"
+            ]
+          },
+          {
+            "q": "So che è vero, ma che ___ vero non basta.",
+            "options": [
+              "{ip:è}",
+              "*{csp:sia}"
+            ]
+          },
+          {
+            "q": "___ cosa tu {csp:dica}, non ti {ip:credo}.",
+            "options": [
+              "*Qualunque",
+              "Chiunque",
+              "Comunque"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il pregiudizio",
+        "prejudice"
+      ],
+      [
+        "la convinzione",
+        "belief"
+      ],
+      [
+        "la perplessità",
+        "misgiving"
+      ],
+      [
+        "il rammarico",
+        "regret"
+      ],
+      [
+        "esigere",
+        "to demand"
+      ],
+      [
+        "ritenere",
+        "to consider"
+      ],
+      [
+        "supporre",
+        "to suppose"
+      ],
+      [
+        "rallegrarsi",
+        "to be glad"
+      ],
+      [
+        "stupire",
+        "to astonish"
+      ],
+      [
+        "opportuno",
+        "appropriate"
+      ],
+      [
+        "assurdo",
+        "absurd"
+      ],
+      [
+        "fuori discussione",
+        "beyond question"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "la perplessità",
+            "misgiving"
+          ],
+          [
+            "il rammarico",
+            "regret"
+          ],
+          [
+            "esigere",
+            "to demand"
+          ],
+          [
+            "supporre",
+            "to suppose"
+          ],
+          [
+            "opportuno",
+            "appropriate"
+          ],
+          [
+            "fuori discussione",
+            "beyond question"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "[[Ritengo#ip]] che {csp:sia} la scelta giusta. (I consider)",
+          "{ip:È} [[assurdo]] che {csp:debba} aspettare. (absurd)",
+          "{pp:Ha espresso} un forte [[rammarico]]. (regret)",
+          "Non {ip:ha} alcun [[pregiudizio]]. (prejudice)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Che il medico {csp:debba} dire la verità al paziente {ip:è}, oggi, un principio generalmente accettato. Non {ip:è detto}, tuttavia, che ogni malato {csp:desideri} conoscerla fino in fondo. Mi {ip:stupisce} che se ne {csp:parli} così poco: chiunque {csa:abbia assistito} un familiare {ip:sa} quanto {csp:sia} difficile trovare le parole.",
+      "{ip:È} giusto che il paziente {csp:sappia}, {ip:ritengono} i più, qualunque {csp:sia} la diagnosi. Eppure non c'{ip:è} protocollo che {csp:possa} sostituire la sensibilità di chi {ip:comunica}. {ip:È} forse l'aspetto più delicato che la medicina {csp:debba} affrontare, e l'unico che nessuna tecnologia {fs:riuscirà} a risolvere."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "The author believes every patient wants the whole truth.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The author is surprised that this is discussed so little.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "According to the text, a protocol can replace sensitivity.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "The author thinks technology cannot solve this issue.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Alda",
+        "{ip:Cerchiamo} qualcuno che {csp:sappia} gestire il gruppo."
+      ],
+      [
+        "Ezio",
+        "Non c'{ip:è} nessuno che {csp:abbia} più esperienza di Rita."
+      ],
+      [
+        "Alda",
+        "Non {ip:è detto} che {csp:accetti}, però."
+      ],
+      [
+        "Ezio",
+        "Qualunque {csp:sia} la sua risposta, {ip:è} giusto che glielo {csp:chiediamo}."
+      ],
+      [
+        "Alda",
+        "Non che mi {csp:dispiaccia}, ma {ip:temo} che {csp:sia} troppo impegnata."
+      ],
+      [
+        "Ezio",
+        "Chiunque {csp:scegliamo}, {fs:avrà} bisogno di aiuto."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "{ip:Cerchiamo} qualcuno che [[sappia#csp]] gestire il gruppo.",
+          "Non c'{ip:è} nessuno che [[abbia#csp]] più esperienza di Rita.",
+          "[[Qualunque]] {csp:sia} la sua risposta, {ip:è} giusto che glielo {csp:chiediamo}.",
+          "[[Chiunque]] {csp:scegliamo}, {fs:avrà} bisogno di aiuto."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What is Alda's concern about Rita?",
+        "questions": [
+          {
+            "q": "Alda fears Rita is…",
+            "options": [
+              "not experienced",
+              "*too busy",
+              "unwilling to work with Ezio"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "Whatever happens, it's right that he should know.",
+            "a": [
+              "Qualunque cosa accada, è giusto che lo sappia.",
+              "Qualsiasi cosa accada, è giusto che lo sappia."
+            ]
+          },
+          {
+            "q": "It's not certain that he will accept. (use non è detto)",
+            "a": [
+              "Non è detto che accetti."
+            ]
+          },
+          {
+            "q": "I'm looking for a translator who knows Finnish.",
+            "a": [
+              "Cerco un traduttore che conosca il finlandese."
+            ]
+          },
+          {
+            "q": "He is the only one who has understood.",
+            "a": [
+              "È l'unico che abbia capito."
+            ]
+          },
+          {
+            "q": "Wherever you go, I will follow you. (informal)",
+            "a": [
+              "Ovunque tu vada, ti seguirò.",
+              "Dovunque tu vada, ti seguirò."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

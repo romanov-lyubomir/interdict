@@ -1,0 +1,469 @@
+{
+  "title": "{ip:Conviene} partire il più presto possibile",
+  "translation": "It's best to leave as early as possible",
+  "topics": "Impersonal verbs and expressions, comparatives and superlatives at a higher level",
+  "grammar": {
+    "explain": [
+      {
+        "h": "Impersonal verbs"
+      },
+      "These verbs have no real subject and appear in the third person. Use the infinitive for a general statement, and *che* with the *congiuntivo* when you name who is concerned.",
+      {
+        "table": {
+          "head": [
+            "Verb",
+            "Meaning",
+            "General",
+            "For someone"
+          ],
+          "rows": [
+            [
+              "{ip:bisogna}",
+              "it is necessary",
+              "{ip:Bisogna} fare attenzione.",
+              "{ip:Bisogna} che tu {csp:faccia} attenzione."
+            ],
+            [
+              "{ip:occorre}",
+              "it is necessary",
+              "{ip:Occorre} prenotare.",
+              "{ip:Occorre} che {csp:prenotiate}."
+            ],
+            [
+              "{ip:conviene}",
+              "it's better, it pays",
+              "{ip:Conviene} partire presto.",
+              "Ti {ip:conviene} partire presto."
+            ],
+            [
+              "{ip:basta}",
+              "it is enough",
+              "{ip:Basta} chiedere.",
+              "{ip:Basta} che tu lo {csp:chieda}."
+            ],
+            [
+              "{ip:sembra} / {ip:pare}",
+              "it seems",
+              "{ip:Sembra} facile.",
+              "{ip:Sembra} che {csp:sia} facile."
+            ],
+            [
+              "{ip:capita}",
+              "it happens",
+              "{ip:Capita} di sbagliare.",
+              "{ip:Capita} che {csp:piova}."
+            ]
+          ]
+        }
+      },
+      "*Occorrere* and *bastare* can agree with what is needed: *{ip:Occorre} un'ora. {ip:Occorrono} due uova. {ip:Basta} un minuto. {ip:Bastano} due minuti.* *{ip:Bisogna}* never changes, and it is never followed by a noun.",
+      "*{ip:È}* + adjective works the same way: *{ip:È} importante studiare. {ip:È} importante che tu {csp:studi}.*",
+      {
+        "h": "More ways of comparing"
+      },
+      {
+        "table": {
+          "head": [
+            "Form",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "tanto… quanto",
+              "as… as",
+              "{ip:È} tanto bravo quanto simpatico."
+            ],
+            [
+              "sempre più",
+              "more and more",
+              "{ip:È} sempre più difficile."
+            ],
+            [
+              "più… più",
+              "the more… the more",
+              "Più studio, più {ip:capisco}."
+            ],
+            [
+              "il più… possibile",
+              "as… as possible",
+              "{imv:Parti} il più presto possibile."
+            ],
+            [
+              "il più + adj. + che + congiuntivo",
+              "the most… that",
+              "{ip:È} il più bello che {csa:abbia visto}."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Migliore or meglio?"
+      },
+      "It's the difference between an adjective and an adverb. An adjective describes a noun, so it can take an article and change in the plural. An adverb describes a verb and never changes.",
+      {
+        "table": {
+          "head": [
+            "Word",
+            "Type",
+            "Example"
+          ],
+          "rows": [
+            [
+              "buono → migliore",
+              "adjective",
+              "{ip:È} il migliore amico. {ip:Sono} i migliori."
+            ],
+            [
+              "bene → meglio",
+              "adverb",
+              "{ip:Canta} meglio di me."
+            ],
+            [
+              "cattivo → peggiore",
+              "adjective",
+              "La peggiore idea."
+            ],
+            [
+              "male → peggio",
+              "adverb",
+              "{ip:Sto} peggio di ieri."
+            ]
+          ]
+        }
+      },
+      "There are also the absolute forms *ottimo* (very good) and *pessimo* (very bad), which you shouldn't combine with *molto*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right form.",
+        "questions": [
+          {
+            "q": "___ fare attenzione.",
+            "options": [
+              "*{ip:Bisogna}",
+              "Bisognano",
+              "{ip:È} bisogno"
+            ]
+          },
+          {
+            "q": "___ due uova per questa torta.",
+            "options": [
+              "{ip:Occorre}",
+              "*{ip:Occorrono}",
+              "{ip:Bisogna}"
+            ]
+          },
+          {
+            "q": "{ip:Bisogna} che tu ___ subito.",
+            "options": [
+              "{ip:parti}",
+              "*{csp:parta}",
+              "partire"
+            ]
+          },
+          {
+            "q": "Mi ___ di dimenticare le chiavi.",
+            "options": [
+              "*{ip:capita}",
+              "{ip:capitano}",
+              "{ip:bisogna}"
+            ]
+          },
+          {
+            "q": "Ti ___ prendere il treno, {ip:costa} meno.",
+            "options": [
+              "*{ip:conviene}",
+              "{ip:occorrono}",
+              "{ip:pare} che"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Migliore or meglio, peggiore or peggio?",
+        "questions": [
+          {
+            "q": "Questo vino {ip:è} ___ di quello.",
+            "options": [
+              "*migliore",
+              "meglio"
+            ]
+          },
+          {
+            "q": "Luca {ip:parla} inglese ___ di me.",
+            "options": [
+              "migliore",
+              "*meglio"
+            ]
+          },
+          {
+            "q": "{pp:È stata} la ___ giornata della mia vita.",
+            "options": [
+              "*peggiore",
+              "peggio"
+            ]
+          },
+          {
+            "q": "Oggi mi {ip:sento} ___ di ieri.",
+            "options": [
+              "peggiore",
+              "*peggio"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the comparisons.",
+        "questions": [
+          "{imv:Torna} il più presto [[possibile]]. (as… as possible)",
+          "[[Più]] studio, più {ip:capisco}. (the more)",
+          "La vita {ip:è} [[sempre]] più cara. (more and more)",
+          "Lei {ip:è} tanto bella [[quanto]] intelligente. (as… as)",
+          "{ip:È} il film più lungo che io [[abbia#csa]] {csa:visto}. (avere)"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "il consumo",
+        "consumption"
+      ],
+      [
+        "il risparmio",
+        "saving"
+      ],
+      [
+        "l'offerta",
+        "offer"
+      ],
+      [
+        "lo sconto",
+        "discount"
+      ],
+      [
+        "la tariffa",
+        "rate, fare"
+      ],
+      [
+        "il vantaggio",
+        "advantage"
+      ],
+      [
+        "lo svantaggio",
+        "disadvantage"
+      ],
+      [
+        "convenire",
+        "to be worthwhile"
+      ],
+      [
+        "occorrere",
+        "to be needed"
+      ],
+      [
+        "capitare",
+        "to happen"
+      ],
+      [
+        "conveniente",
+        "good value"
+      ],
+      [
+        "ottimo",
+        "excellent"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word with its translation.",
+        "pairs": [
+          [
+            "il risparmio",
+            "saving"
+          ],
+          [
+            "lo sconto",
+            "discount"
+          ],
+          [
+            "la tariffa",
+            "rate, fare"
+          ],
+          [
+            "il vantaggio",
+            "advantage"
+          ],
+          [
+            "capitare",
+            "to happen"
+          ],
+          [
+            "conveniente",
+            "good value"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the Italian word.",
+        "questions": [
+          "C'{ip:è} un'[[offerta]] speciale. (offer)",
+          "{ip:È} un [[ottimo]] ristorante. (excellent)",
+          "Il [[consumo]] di energia {ip:è} aumentato. (consumption)",
+          "Quali {ip:sono} gli [[svantaggi]]? (disadvantages)"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      "Se {ip:volete} visitare Roma in agosto, vi {ip:conviene} partire il più presto possibile al mattino. {ip:Bisogna} prenotare i musei con largo anticipo, perché i posti {ip:sono} sempre più limitati. {ip:Basta} un clic, ma {ip:occorrono} almeno due settimane per trovare gli orari migliori.",
+      "{ip:Capita} spesso che i turisti si {csp:lamentino} del caldo. Più si {ip:aspetta}, peggio {ip:è}: a mezzogiorno il sole {ip:è} implacabile. {ip:È} meglio camminare la mattina presto e riposarsi nel pomeriggio. Il treno {ip:è} tanto comodo quanto economico, ed {ip:è} certamente il mezzo più conveniente che ci {csp:sia}."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "When should you go out in August?",
+            "options": [
+              "At midday",
+              "*Early in the morning",
+              "Only in the evening"
+            ]
+          },
+          {
+            "q": "How far ahead should you book?",
+            "options": [
+              "One day",
+              "*At least two weeks",
+              "Two months"
+            ]
+          },
+          {
+            "q": "What do tourists often complain about?",
+            "options": [
+              "The prices",
+              "The queues",
+              "*The heat"
+            ]
+          },
+          {
+            "q": "How is the train described?",
+            "options": [
+              "*Comfortable and cheap",
+              "Fast but expensive",
+              "Crowded and slow"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Agente",
+        "Le {ip:conviene} prenotare subito: lo sconto {ip:finisce} oggi."
+      ],
+      [
+        "Cliente",
+        "{ip:Bisogna} pagare tutto adesso?"
+      ],
+      [
+        "Agente",
+        "No, {ip:basta} un acconto. {ip:Occorrono} solo i documenti."
+      ],
+      [
+        "Cliente",
+        "{ip:È} il volo più economico che ci {csp:sia}?"
+      ],
+      [
+        "Agente",
+        "Sì, e anche il migliore come orario."
+      ],
+      [
+        "Cliente",
+        "Bene. Più ci {ip:penso}, più mi {ip:sembra} un affare."
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Le [[conviene#ip]] prenotare subito.",
+          "[[Bisogna#ip]] pagare tutto adesso?",
+          "[[Occorrono#ip]] solo i documenti.",
+          "[[Più]] ci {ip:penso}, più mi {ip:sembra} un affare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does the customer have to pay now?",
+        "questions": [
+          {
+            "q": "The customer pays…",
+            "options": [
+              "the whole price",
+              "*a deposit",
+              "nothing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "Write in Italian.",
+        "questions": [
+          {
+            "q": "It's necessary to be careful. (use bisogna)",
+            "a": [
+              "Bisogna fare attenzione.",
+              "Bisogna stare attenti."
+            ]
+          },
+          {
+            "q": "It's best to leave as early as possible. (use conviene)",
+            "a": [
+              "Conviene partire il più presto possibile."
+            ]
+          },
+          {
+            "q": "The more I study, the more I understand.",
+            "a": [
+              "Più studio, più capisco."
+            ]
+          },
+          {
+            "q": "He sings better than me.",
+            "a": [
+              "Canta meglio di me.",
+              "Lui canta meglio di me."
+            ]
+          },
+          {
+            "q": "Two eggs are needed. (use occorrere)",
+            "a": [
+              "Occorrono due uova."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -71,7 +71,7 @@
 <div class="center">
     <div class="container shadow report">
         <h2>
-            {% if quiz.kind == "conjugation" %}Conjugation drill{% else %}{{ quiz.topic | format }}{% endif %}
+            {% if quiz.kind == "conjugation" %}Conjugation drill{% else %}{{ quiz.title or quiz.topic | format }}{% endif %}
         </h2>
         <div class="score {% if percent >= 80 %}good{% elif percent >= 50 %}okay{% else %}poor{% endif %}">
             {{ percent }}%
