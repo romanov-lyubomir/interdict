@@ -5,7 +5,6 @@
     {
       "name": "Indicativo", "color": "grey",
       "children": [
-        {"name": "Presente", "example": "hablo", "color": "orange", "style": "t-ip"},
         {
           "name": "Pasado", "color": "grey",
           "children": [
@@ -20,6 +19,7 @@
             ]}
           ]
         },
+        {"name": "Presente", "example": "hablo", "color": "orange", "style": "t-ip"},
         {
           "name": "Futuro", "color": "grey",
           "children": [
@@ -31,21 +31,23 @@
         }
       ]
     },
-    {
-      "name": "Condicional", "color": "grey", "style": "mood-wavy",
-      "children": [
-        {"name": "Simple", "example": "hablaría", "color": "orange", "style": "t-cop"},
-        {"name": "Compuesto", "example": "habría hablado", "color": "red", "style": "t-cpa"}
-      ]
-    },
-    {"name": "Imperativo", "example": "¡habla!", "color": "purple", "style": "t-imv"},
+    {"row": [
+      {
+        "name": "Condicional", "color": "grey", "style": "mood-wavy",
+        "children": [
+          {"name": "Compuesto", "example": "habría hablado", "color": "red", "style": "t-cpa"},
+          {"name": "Simple", "example": "hablaría", "color": "orange", "style": "t-cop"}
+        ]
+      },
+      {"name": "Imperativo", "example": "¡habla!", "color": "purple", "style": "t-imv"}
+    ]},
     {
       "name": "Subjuntivo", "color": "grey", "style": "mood-double",
       "children": [
-        {"name": "Presente", "example": "que hable", "color": "orange", "style": "t-csp"},
-        {"name": "Pretérito perfecto", "example": "que haya hablado", "color": "red", "style": "t-csa"},
+        {"name": "Pluscuamperfecto", "example": "que hubiera hablado", "color": "red", "style": "t-cst"},
         {"name": "Imperfecto", "example": "que hablara", "color": "green", "style": "t-csi"},
-        {"name": "Pluscuamperfecto", "example": "que hubiera hablado", "color": "red", "style": "t-cst"}
+        {"name": "Pretérito perfecto", "example": "que haya hablado", "color": "red", "style": "t-csa"},
+        {"name": "Presente", "example": "que hable", "color": "orange", "style": "t-csp"}
       ]
     }
   ]

@@ -83,6 +83,28 @@
         text-underline-offset: 3px;
     }
 
+    /* Small moods share a line and wrap when they no longer fit */
+    .mood-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .mood-row .mood {
+        display: flex;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    /* A lone mood with a single form needs no full-width band */
+    .mood.narrow {
+        box-sizing: border-box;
+        width: 41.5%;
+    }
+
     /* The branches of the tree, drawn from the top of each item */
     .tree ul {
         position: relative;
@@ -163,20 +185,42 @@
         display: none;
     }
 
-    /* A simple tense with its compound tense below it */
+    /* Sibling tenses stacked to save width: a rail joins each one to the parent */
     .stack {
+        position: relative;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
         gap: 14px;
+        padding: 14px 0 0 18px;
     }
 
-    .stack .node + .node::before {
+    .stack::before {
         content: "";
         position: absolute;
-        top: -16px;
-        left: 50%;
-        height: 14px;
+        top: 0;
+        left: 0;
+        width: 50%;
+        border-top: 1px solid var(--border-strong);
+    }
+
+    .stack .node::before {
+        content: "";
+        position: absolute;
+        top: -15.5px;
+        left: -19.5px;
+        width: 18px;
+        height: calc(50% + 15.5px);
+        border-bottom: 1px solid var(--border-strong);
+        border-left: 1px solid var(--border-strong);
+    }
+
+    .stack .node:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        bottom: -15.5px;
+        left: -19.5px;
         border-left: 1px solid var(--border-strong);
     }
 
@@ -184,6 +228,14 @@
     @media screen and (max-width: 940px) {
         .mood {
             padding: 18px 14px;
+        }
+
+        .mood-row .mood {
+            justify-content: flex-start;
+        }
+
+        .mood.narrow {
+            width: calc(50% - 8px);
         }
 
         .tree ul {
@@ -203,7 +255,9 @@
         .tree ul ul::before,
         .tree li::before,
         .tree li::after,
-        .stack .node + .node::before {
+        .stack::before,
+        .stack .node::before,
+        .stack .node::after {
             display: none;
         }
 
@@ -215,6 +269,13 @@
         .stack {
             align-items: flex-start;
             gap: 8px;
+            padding: 0;
+        }
+    }
+
+    @media screen and (max-width: 560px) {
+        .mood.narrow {
+            width: 100%;
         }
     }
 </style>
@@ -245,6 +306,14 @@
 </li>
 {% endmacro %}
 
+{% macro card(mood) %}
+<section class="container shadow mood{% if mood.narrow %} narrow{% endif %}">
+    <div class="tree">
+        <ul>{{ branch(mood, true) }}</ul>
+    </div>
+</section>
+{% endmacro %}
+
 <a href="{{ url_for('index') }}">
     <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
         <g fill="none" fill-rule="evenodd">
@@ -263,11 +332,13 @@
     <p class="sheet-intro">{{ sheet.intro }}</p>
 
     {% for mood in sheet.moods %}
-    <section class="container shadow mood">
-        <div class="tree">
-            <ul>{{ branch(mood, true) }}</ul>
-        </div>
-    </section>
+    {% if mood.row %}
+    <div class="mood-row">
+        {% for part in mood.row %}{{ card(part) }}{% endfor %}
+    </div>
+    {% else %}
+    {{ card(mood) }}
+    {% endif %}
     {% endfor %}
     {% else %}
     <p class="coming-soon">Coming soon</p>

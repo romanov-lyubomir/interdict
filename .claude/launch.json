@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "eurodict",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "flask", "--app", "main", "run", "--port", "5057"],
+      "port": 5057,
+      "autoPort": false
+    }
+  ]
+}

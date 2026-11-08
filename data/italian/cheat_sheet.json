@@ -5,7 +5,6 @@
     {
       "name": "Indicativo", "color": "grey",
       "children": [
-        {"name": "Presente", "example": "parlo", "color": "orange", "style": "t-ip"},
         {
           "name": "Passato", "color": "grey",
           "children": [
@@ -20,6 +19,7 @@
             ]}
           ]
         },
+        {"name": "Presente", "example": "parlo", "color": "orange", "style": "t-ip"},
         {
           "name": "Futuro", "color": "grey",
           "children": [
@@ -31,21 +31,23 @@
         }
       ]
     },
-    {
-      "name": "Condizionale", "color": "grey", "style": "mood-wavy",
-      "children": [
-        {"name": "Presente", "example": "parlerei", "color": "orange", "style": "t-cop"},
-        {"name": "Passato", "example": "avrei parlato", "color": "red", "style": "t-cpa"}
-      ]
-    },
-    {"name": "Imperativo", "example": "parla!", "color": "purple", "style": "t-imv"},
+    {"row": [
+      {
+        "name": "Condizionale", "color": "grey", "style": "mood-wavy",
+        "children": [
+          {"name": "Passato", "example": "avrei parlato", "color": "red", "style": "t-cpa"},
+          {"name": "Presente", "example": "parlerei", "color": "orange", "style": "t-cop"}
+        ]
+      },
+      {"name": "Imperativo", "example": "parla!", "color": "purple", "style": "t-imv"}
+    ]},
     {
       "name": "Congiuntivo", "color": "grey", "style": "mood-double",
       "children": [
-        {"name": "Presente", "example": "che parli", "color": "orange", "style": "t-csp"},
-        {"name": "Passato", "example": "che abbia parlato", "color": "red", "style": "t-csa"},
+        {"name": "Trapassato", "example": "che avessi parlato", "color": "red", "style": "t-cst"},
         {"name": "Imperfetto", "example": "che parlassi", "color": "green", "style": "t-csi"},
-        {"name": "Trapassato", "example": "che avessi parlato", "color": "red", "style": "t-cst"}
+        {"name": "Passato", "example": "che abbia parlato", "color": "red", "style": "t-csa"},
+        {"name": "Presente", "example": "che parli", "color": "orange", "style": "t-csp"}
       ]
     }
   ]
