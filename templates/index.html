@@ -227,8 +227,22 @@
     }
 
     .lesson-list a:hover {
-        color: var(--accent);
         text-decoration: none;
+    }
+
+    .lesson-list a > span:first-child::before {
+        content: "\2192";
+        display: inline-block;
+        width: 0;
+        overflow: hidden;
+        opacity: 0;
+        vertical-align: bottom;
+        transition: width 0.15s ease, opacity 0.15s ease;
+    }
+
+    .lesson-list a:hover > span:first-child::before {
+        width: 1.4em;
+        opacity: 1;
     }
 
     .languages {
@@ -407,7 +421,7 @@
             </div>
             <ul class="lesson-list">
                 {% for title, url in lessons_list %}
-                <li><a href="{{ url }}">{{ title | rich }}<span>&rarr;</span></a></li>
+                <li><a href="{{ url }}"><span>{{ title | rich }}</span><span>&rarr;</span></a></li>
                 {% endfor %}
             </ul>
             <a class="more" href="{{ url_for('lessons') }}">All lessons &rarr;</a>
