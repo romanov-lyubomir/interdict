@@ -105,8 +105,30 @@
             font-weight: 600;
         }
 
-        a.link:hover {
-            color: var(--accent-hover);
+        /* Text links show an arrow on the left on hover instead of changing
+           colour, since colour is kept for the tenses */
+        a.link:hover,
+        a.hover-arrow:hover,
+        a:hover .hover-arrow {
+            text-decoration: none;
+        }
+
+        a.link::before,
+        .hover-arrow::before {
+            content: "\2192";
+            display: inline-block;
+            width: 0;
+            overflow: hidden;
+            opacity: 0;
+            vertical-align: bottom;
+            transition: width 0.15s ease, opacity 0.15s ease;
+        }
+
+        a.link:hover::before,
+        a.hover-arrow:hover::before,
+        a:hover .hover-arrow::before {
+            width: 1.4em;
+            opacity: 1;
         }
 
         input,
@@ -302,8 +324,10 @@
             border-top: 1px solid var(--border);
         }
 
-        table tr:hover td {
-            background-color: var(--surface-2);
+        /* Lines between the columns; the table's own border closes the last one */
+        table th:not(:last-child),
+        table td:not(:last-child) {
+            border-right: 1px solid var(--border);
         }
 
         /* The round "back" button at the top left of most pages */
@@ -639,12 +663,42 @@
             --tense-purple: #B98CFF;
         }
 
-        .t-ip, .t-cop, .t-csp { color: var(--tense-orange); }
-        .t-pp, .t-tp, .t-cpa, .t-csa, .t-cst { color: var(--tense-red); }
-        .t-pr, .t-tr { color: var(--tense-blue); }
-        .t-im, .t-csi { color: var(--tense-green); }
-        .t-fs, .t-fa { color: var(--tense-pink); }
-        .t-imv { color: var(--tense-purple); }
+        .t-ip, .t-cop, .t-csp, .tn-ip, .tn-cop, .tn-csp { color: var(--tense-orange); }
+        .t-pp, .t-tp, .t-cpa, .t-csa, .t-cst, .tn-pp, .tn-tp, .tn-cpa, .tn-csa, .tn-cst { color: var(--tense-red); }
+        .t-pr, .t-tr, .tn-pr, .tn-tr { color: var(--tense-blue); }
+        .t-im, .t-csi, .tn-im, .tn-csi { color: var(--tense-green); }
+        .t-fs, .t-fa, .tn-fs, .tn-fa { color: var(--tense-pink); }
+        .t-imv, .tn-imv { color: var(--tense-purple); }
+
+        /* Temporary: marks the lessons already updated, on a local server only */
+        .reviewed-mark {
+            display: inline-block;
+            margin: 2px 0 4px;
+            padding: 1px 8px;
+            border: 1px dashed var(--border-strong);
+            border-radius: 999px;
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: .02em;
+        }
+
+        /* A tense named in the text, boxed in its colour as on the Verb tenses sheet */
+        .tense-name {
+            display: inline-block;
+            padding: 0 9px;
+            border: 1.5px solid currentColor;
+            border-radius: 999px;
+            background-color: var(--surface-2);
+            font-size: .78em;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: .04em;
+            line-height: 1.7;
+            text-transform: uppercase;
+            white-space: nowrap;
+            vertical-align: .08em;
+        }
 
         /* Drawn as a background so a highlighted ending cannot break the wave */
         .t-cop, .t-cpa {

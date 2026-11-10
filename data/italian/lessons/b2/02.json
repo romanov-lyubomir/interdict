@@ -1,13 +1,13 @@
 {
   "title": "{fa:Avrà dimenticato} le chiavi: io {cpa:avrei telefonato}",
   "translation": "He must have forgotten the keys: I would have phoned",
-  "topics": "Futuro semplice and anteriore, condizionale presente and passato, and what each expresses",
+  "topics": "[fs:Futuro semplice] and [fa:futuro anteriore], [cop:condizionale presente] and [cpa:condizionale passato], and what each expresses",
   "grammar": {
     "explain": [
       {
         "h": "The future is not only about the future"
       },
-      "Italians constantly use the future to make a guess. The simple future guesses about now, and the *futuro anteriore* guesses about the past.",
+      "Italians constantly use the future to make a guess. The simple future guesses about now, and the [fa:futuro anteriore] guesses about the past.",
       {
         "table": {
           "head": [
@@ -82,7 +82,7 @@
       {
         "h": "The future seen from the past"
       },
-      "When you talk about a future from a point in the past, Italian always uses the *condizionale passato*, even where English has a simple *would*: *{im:Sapevo} che {cpa:avresti capito}* (I knew you would understand).",
+      "When you talk about a future from a point in the past, Italian always uses the [cpa:condizionale passato], even where English has a simple *would*: *{im:Sapevo} che {cpa:avresti capito}* (I knew you would understand).",
       {
         "h": "Present or past conditional?"
       },
@@ -110,12 +110,12 @@
             ],
             [
               "{cpa:avr**ei** detto}",
-              "Condizionale passato",
+              "[cpa:Condizionale passato]",
               "I would have said"
             ],
             [
               "{fa:avr**ò** detto}",
-              "Futuro anteriore",
+              "[fa:Futuro anteriore]",
               "I will have said, I must have said"
             ]
           ]
@@ -173,7 +173,7 @@
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the futuro semplice or futuro anteriore to make a guess.",
+        "prompt": "Put the verb in the [fs:futuro semplice] or [fa:futuro anteriore] to make a guess.",
         "questions": [
           "Che ore {ip:sono}? [[Saranno#fs]] le sei. (essere, now)",
           "Marco non c'{ip:è}: [[sarà uscito#fa]]. (uscire, past)",
@@ -183,7 +183,7 @@
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the condizionale presente or passato.",
+        "prompt": "Put the verb in the [cop:condizionale presente] or passato.",
         "questions": [
           "Se {csi:potessi}, [[accetterei#cop]] subito. (accettare, io, still possible)",
           "Ormai {ip:è} tardi, ma io [[avrei accettato#cpa]]. (accettare, too late)",

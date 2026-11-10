@@ -31,7 +31,7 @@
             ],
             [
               "{pr:Mangiai} ieri.",
-              "South: passato remoto in speech",
+              "South: [pr:passato remoto] in speech",
               "{pp:Ho mangiato} ieri."
             ],
             [
@@ -144,7 +144,7 @@
             ],
             [
               "-ea, -eano (avea)",
-              "imperfetto ending",
+              "[im:imperfetto] ending",
               "{im:aveva}"
             ]
           ]
@@ -178,7 +178,7 @@
             ],
             [
               "Sports reporting",
-              "narrative imperfetto",
+              "narrative [im:imperfetto]",
               "Al 90', Rossi segnava."
             ]
           ]
@@ -415,7 +415,7 @@
             "q": "«ieri mangiò» is an example of…",
             "options": [
               "an error",
-              "*the southern use of the passato remoto",
+              "*the southern use of the [pr:passato remoto]",
               "an archaism"
             ]
           },

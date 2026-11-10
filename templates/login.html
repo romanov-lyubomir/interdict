@@ -11,6 +11,7 @@
 <div class="auth">
     <form class="shadow" action="{{ url_for('login') }}" method="POST">
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        {% if request.args.next %}<input type="hidden" name="next" value="{{ request.args.next }}">{% endif %}
         <h1>Welcome back</h1>
         <p class="subtitle">Log in to keep your progress and settings.</p>
         {% with messages = get_flashed_messages() %}
@@ -23,7 +24,7 @@
         <label for="password">Password</label>
         <input type="password" name="password" id="password" autocomplete="current-password">
         <input type="submit" name="submit" value="Log in">
-        <p class="switch">Don't have an account? <a class="link" href="{{ url_for('register') }}">Sign up</a></p>
+        <p class="switch">Don't have an account? <a class="link" href="{{ url_for('register', next=request.args.next) }}">Sign up</a></p>
     </form>
 </div>
 {% endblock %}

@@ -1,237 +1,454 @@
 {
-  "title": "{pp:Siamo arrivati} tardi e poi {pp:abbiamo visto} Maria",
-  "translation": "We arrived late and then we saw Maria",
-  "topics": "Choosing avere or essere, agreement of the participle, words for the order of events",
+  "title": "Che lavoro {ip:fai}?",
+  "translation": "",
+  "topics": "Presentarsi: nome, provenienza, età, lavoro e stato civile; *vengo da* + articolo; il plurale dei nomi; i nomi di professione; il presente dei verbi regolari, irregolari e modali; i documenti",
   "grammar": {
     "explain": [
+      "Per presentarsi servono poche cose: il nome, la provenienza, il lavoro e qualche verbo al presente. Qui trovi tutto in una pagina, con le forme che già conosci e alcune nuove.",
       {
-        "h": "Choosing the auxiliary"
-      },
-      "Ask one question: can the verb take a direct object, that is, can you ask *what?* or *whom?* after it? If yes, the auxiliary is *avere*: *{pp:Ho visto} Maria* (whom? Maria).",
-      "If not, and the verb describes movement, staying or a change of state, the auxiliary is *essere*: *{pp:Siamo arrivati} tardi*. You cannot *arrive something*.",
-      {
-        "table": {
-          "head": [
-            "Kind of verb",
-            "Auxiliary",
-            "Examples"
-          ],
-          "rows": [
-            [
-              "Takes a direct object",
-              "avere",
-              "vedere, mangiare, comprare, leggere"
-            ],
-            [
-              "Movement",
-              "essere",
-              "andare, venire, arrivare, partire, tornare, entrare, uscire"
-            ],
-            [
-              "Staying",
-              "essere",
-              "restare, rimanere, stare, essere"
-            ],
-            [
-              "Change of state",
-              "essere",
-              "nascere, morire, diventare"
+        "grid": [
+          {
+            "table": {
+              "title": "*Vengo da* + articolo",
+              "rows": [
+                [
+                  "{ip:Vengo} da + la Spagna.",
+                  "{ip:Vengo} **dalla** Spagna."
+                ],
+                [
+                  "{ip:Vengo} da + il Brasile.",
+                  "{ip:Vengo} **dal** Brasile."
+                ],
+                [
+                  "{ip:Vengo} da + gli Stati Uniti.",
+                  "{ip:Vengo} **dagli** Stati Uniti."
+                ],
+                [
+                  "{ip:Vengo} da + l'Austria.",
+                  "{ip:Vengo} **dall'**Austria."
+                ],
+                [
+                  "{ip:Vengo} da + i Paesi Bassi.",
+                  "{ip:Vengo} **dai** Paesi Bassi."
+                ],
+                [
+                  "{ip:Vengo} da + le Maldive.",
+                  "{ip:Vengo} **dalle** Maldive."
+                ]
+              ]
+            },
+            "note": "Con i nomi di paese *da* si unisce all'articolo, come *a* e *di*. Con le città l'articolo non c'è: *{ip:vengo} da Madrid*. Per dire la città si usa anche *{ip:sono} di*: *{ip:sono} di Napoli*."
+          },
+          {
+            "table": {
+              "title": "Singolare e plurale di alcuni nomi",
+              "rows": [
+                [
+                  {
+                    "text": "maschile",
+                    "rows": 2
+                  },
+                  "singolare",
+                  "libr**o** / giornal**e** / film / tè"
+                ],
+                [
+                  null,
+                  "plurale",
+                  "libr**i** / giornal**i** / film / tè"
+                ],
+                [
+                  {
+                    "text": "femminile",
+                    "rows": 2
+                  },
+                  "singolare",
+                  "cas**a** / lezion**e** / città"
+                ],
+                [
+                  null,
+                  "plurale",
+                  "cas**e** / lezion**i** / città"
+                ]
+              ]
+            },
+            "note": "Non cambiano al plurale i nomi che finiscono con una consonante (*il film, i film*) e quelli con l'accento sull'ultima vocale (*il tè, i tè; la città, le città*)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Maschile e femminile di alcuni nomi di professione",
+              "head": [
+                "maschile singolare",
+                "maschile plurale",
+                "femminile singolare",
+                "femminile plurale"
+              ],
+              "rows": [
+                [
+                  "l'impiegat**o**",
+                  "gli impiegat**i**",
+                  "l'impiegat**a**",
+                  "le impiegat**e**"
+                ],
+                [
+                  "il cantant**e**",
+                  "i cantant**i**",
+                  "la cantant**e**",
+                  "le cantant**i**"
+                ],
+                [
+                  "l'infermier**e**",
+                  "gli infermier**i**",
+                  "l'infermier**a**",
+                  "le infermier**e**"
+                ],
+                [
+                  "il dentist**a**",
+                  "i dentist**i**",
+                  "la dentist**a**",
+                  "le dentist**e**"
+                ],
+                [
+                  "il dottor**e**",
+                  "i dottor**i**",
+                  "la dottor**essa**",
+                  "le dottor**esse**"
+                ],
+                [
+                  "l'at**tore**",
+                  "gli at**tori**",
+                  "l'at**trice**",
+                  "le at**trici**"
+                ]
+              ]
+            },
+            "note": [
+              "**-o / -a** cambiano come gli aggettivi: *l'impiegato, l'impiegata*.",
+              "**-e** spesso resta uguale (*il cantante, la cantante*), ma **-iere** diventa **-iera**: *l'infermiera, la cameriera*.",
+              "**-ista** è uguale al singolare; al plurale fa **-i** per gli uomini e **-e** per le donne: *i dentisti, le dentiste*.",
+              "Alcuni nomi prendono **-essa** (*la dottoressa, la professoressa, la studentessa*), quelli in **-tore** prendono **-trice** (*l'attrice, la pittrice*)."
             ]
-          ]
-        }
-      },
-      "A few verbs without an object still take *avere*, and you learn them as exceptions: *dormire, lavorare, telefonare, camminare, viaggiare*.",
-      {
-        "h": "Agreement of the participle"
-      },
-      "With *essere*, the participle behaves like an adjective and agrees with the subject. A mixed group is masculine. With *avere*, it never changes.",
-      {
-        "table": {
-          "head": [
-            "Subject",
-            "With essere",
-            "With avere"
-          ],
-          "rows": [
-            [
-              "Marco",
-              "{pp:è arrivat**o**}",
-              "{pp:ha mangiato}"
-            ],
-            [
-              "Anna",
-              "{pp:è arrivat**a**}",
-              "{pp:ha mangiato}"
-            ],
-            [
-              "Marco e Luca",
-              "{pp:sono arrivat**i**}",
-              "{pp:hanno mangiato}"
-            ],
-            [
-              "Anna e Sara",
-              "{pp:sono arrivat**e**}",
-              "{pp:hanno mangiato}"
-            ],
-            [
-              "Marco e Anna",
-              "{pp:sono arrivat**i**}",
-              "{pp:hanno mangiato}"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Irregular participles come in families"
-      },
-      {
-        "table": {
-          "head": [
-            "Ending",
-            "Verbs"
-          ],
-          "rows": [
-            [
-              "-so",
-              "prendere → preso, chiudere → chiuso, decidere → deciso, perdere → perso, mettere → messo"
-            ],
-            [
-              "-{ip:sto}",
-              "vedere → visto, chiedere → chiesto, rispondere → risposto, rimanere → rimasto"
-            ],
-            [
-              "-tto",
-              "fare → fatto, dire → detto, leggere → letto, scrivere → scritto"
-            ],
-            [
-              "-rto",
-              "aprire → aperto, morire → morto"
-            ],
-            [
-              "Others",
-              "venire → venuto, nascere → nato, bere → bevuto, essere → stato"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Putting events in order"
-      },
-      "*Prima*, *poi* and *dopo* stand alone. *Durante* needs a noun, while *mentre* and *appena* need a verb.",
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "prima",
-              "first, before",
-              "Prima {pp:ho mangiato}."
-            ],
-            [
-              "poi",
-              "then",
-              "Poi {pp:sono uscito}."
-            ],
-            [
-              "dopo",
-              "afterwards",
-              "Dopo {pp:ho dormito}."
-            ],
-            [
-              "durante",
-              "during + noun",
-              "Durante il film {pp:ho dormito}."
-            ],
-            [
-              "mentre",
-              "while + verb",
-              "Mentre {ip:mangio}, {ip:leggo}."
-            ],
-            [
-              "appena",
-              "as soon as + verb",
-              "Appena arrivo, ti {ip:chiamo}."
-            ]
-          ]
-        }
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il presente indicativo dei verbi regolari in *-are*, *-ere*, *-ire*",
+              "head": [
+                "",
+                "*parlare*",
+                "*prendere*",
+                "*partire*",
+                "*capire*"
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{ip:parl**o**}",
+                  "{ip:prend**o**}",
+                  "{ip:part**o**}",
+                  "{ip:cap**isco**}"
+                ],
+                [
+                  "tu",
+                  "{ip:parl**i**}",
+                  "{ip:prend**i**}",
+                  "{ip:part**i**}",
+                  "{ip:cap**isci**}"
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:parl**a**}",
+                  "{ip:prend**e**}",
+                  "{ip:part**e**}",
+                  "{ip:cap**isce**}"
+                ],
+                [
+                  "noi",
+                  "{ip:parl**iamo**}",
+                  "{ip:prend**iamo**}",
+                  "{ip:part**iamo**}",
+                  "{ip:cap**iamo**}"
+                ],
+                [
+                  "voi",
+                  "{ip:parl**ate**}",
+                  "{ip:prend**ete**}",
+                  "{ip:part**ite**}",
+                  "{ip:cap**ite**}"
+                ],
+                [
+                  "loro",
+                  "{ip:parl**ano**}",
+                  "{ip:prend**ono**}",
+                  "{ip:part**ono**}",
+                  "{ip:cap**iscono**}"
+                ]
+              ]
+            },
+            "note": "*-ere* e *-ire* hanno le stesse finali tranne con *voi*: *prendete, partite*. I verbi come *capire* (*finire, preferire, pulire*) aggiungono **-isc-** tranne con *noi* e *voi*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il presente indicativo di alcuni verbi irregolari",
+              "head": [
+                "",
+                "*essere*",
+                "*avere*",
+                "*andare*",
+                "*fare*",
+                "*venire*",
+                "*uscire*"
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{ip:sono}",
+                  "{ip:ho}",
+                  "{ip:vado}",
+                  "{ip:faccio}",
+                  "{ip:vengo}",
+                  "{ip:esco}"
+                ],
+                [
+                  "tu",
+                  "{ip:sei}",
+                  "{ip:hai}",
+                  "{ip:vai}",
+                  "{ip:fai}",
+                  "{ip:vieni}",
+                  "{ip:esci}"
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:è}",
+                  "{ip:ha}",
+                  "{ip:va}",
+                  "{ip:fa}",
+                  "{ip:viene}",
+                  "{ip:esce}"
+                ],
+                [
+                  "noi",
+                  "{ip:siamo}",
+                  "{ip:abbiamo}",
+                  "{ip:andiamo}",
+                  "{ip:facciamo}",
+                  "{ip:veniamo}",
+                  "{ip:usciamo}"
+                ],
+                [
+                  "voi",
+                  "{ip:siete}",
+                  "{ip:avete}",
+                  "{ip:andate}",
+                  "{ip:fate}",
+                  "{ip:venite}",
+                  "{ip:uscite}"
+                ],
+                [
+                  "loro",
+                  "{ip:sono}",
+                  "{ip:hanno}",
+                  "{ip:vanno}",
+                  "{ip:fanno}",
+                  "{ip:vengono}",
+                  "{ip:escono}"
+                ]
+              ]
+            },
+            "note": "Questi verbi si usano ogni giorno e si imparano a memoria. Attenzione all'accento di *è* (verbo) che non c'è in *e* (congiunzione)."
+          },
+          {
+            "table": {
+              "title": "Il presente indicativo dei verbi modali",
+              "head": [
+                "",
+                "*volere*",
+                "*dovere*",
+                "*potere*"
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{ip:voglio}",
+                  "{ip:devo}",
+                  "{ip:posso}"
+                ],
+                [
+                  "tu",
+                  "{ip:vuoi}",
+                  "{ip:devi}",
+                  "{ip:puoi}"
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:vuole}",
+                  "{ip:deve}",
+                  "{ip:può}"
+                ],
+                [
+                  "noi",
+                  "{ip:vogliamo}",
+                  "{ip:dobbiamo}",
+                  "{ip:possiamo}"
+                ],
+                [
+                  "voi",
+                  "{ip:volete}",
+                  "{ip:dovete}",
+                  "{ip:potete}"
+                ],
+                [
+                  "loro",
+                  "{ip:vogliono}",
+                  "{ip:devono}",
+                  "{ip:possono}"
+                ]
+              ]
+            },
+            "note": "Dopo *volere*, *dovere* e *potere* viene un verbo all'infinito: *{ip:voglio} imparare, {ip:devo} partire, {ip:posso} entrare?*"
+          }
+        ]
       }
     ]
   },
   "use": {
     "exercises": [
       {
+        "type": "gap",
+        "prompt": "Da dove {ip:vengono}? Scrivi *da* con l'articolo, se serve.",
+        "questions": [
+          "{ip:Vengo} [[dalla]] Francia.",
+          "Pedro {ip:viene} [[dal]] Portogallo.",
+          "Mike e Sam {ip:vengono} [[dagli]] Stati Uniti.",
+          "Lucía {ip:viene} [[dall']]Argentina.",
+          "Noi {ip:veniamo} [[dai]] Paesi Bassi.",
+          "{ip:Vengo} [[da]] Madrid."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il femminile o il plurale.",
+        "questions": [
+          "il cameriere → la [[cameriera]]",
+          "l'attore → l'[[attrice]]",
+          "il dottore → la [[dottoressa]]",
+          "il giornalista → la [[giornalista]]",
+          "lo studente → la [[studentessa]]",
+          "il pittore → la [[pittrice]]",
+          "la dentista → le [[dentiste]]",
+          "l'infermiere → gli [[infermieri]]"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il plurale. Attenzione: alcuni nomi non cambiano.",
+        "questions": [
+          "il film → i [[film]]",
+          "la città → le [[città]]",
+          "il caffè → i [[caffè]]",
+          "la lezione → le [[lezioni]]",
+          "il bar → i [[bar]]",
+          "lo sport → gli [[sport]]"
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose avere or essere.",
+        "prompt": "A quale gruppo appartiene il verbo?",
         "questions": [
           {
-            "q": "Ieri ___ visto Maria.",
+            "q": "viaggiare",
             "options": [
-              "*{ip:ho}",
-              "{ip:sono}"
+              "*-are, come parlare",
+              "-ere, come prendere",
+              "-ire, come partire",
+              "-isc-, come capire",
+              "irregolare"
             ]
           },
           {
-            "q": "Il treno ___ partito alle otto.",
+            "q": "scrivere",
             "options": [
-              "{ip:ha}",
-              "*{ip:è}"
+              "-are, come parlare",
+              "*-ere, come prendere",
+              "-ire, come partire",
+              "-isc-, come capire",
+              "irregolare"
             ]
           },
           {
-            "q": "Luca ___ dormito fino a mezzogiorno.",
+            "q": "dormire",
             "options": [
-              "*{ip:ha}",
-              "{ip:è}"
+              "-are, come parlare",
+              "-ere, come prendere",
+              "*-ire, come partire",
+              "-isc-, come capire",
+              "irregolare"
             ]
           },
           {
-            "q": "Mia nonna ___ nata a Bari.",
+            "q": "finire",
             "options": [
-              "{ip:ha}",
-              "*{ip:è}"
+              "-are, come parlare",
+              "-ere, come prendere",
+              "-ire, come partire",
+              "*-isc-, come capire",
+              "irregolare"
             ]
           },
           {
-            "q": "Noi ___ rimasti a casa.",
+            "q": "fare",
             "options": [
-              "{ip:abbiamo}",
-              "*{ip:siamo}"
+              "-are, come parlare",
+              "-ere, come prendere",
+              "-ire, come partire",
+              "-isc-, come capire",
+              "*irregolare"
             ]
           },
           {
-            "q": "Voi ___ telefonato a Paolo?",
+            "q": "vedere",
             "options": [
-              "*{ip:avete}",
-              "{ip:siete}"
+              "-are, come parlare",
+              "*-ere, come prendere",
+              "-ire, come partire",
+              "-isc-, come capire",
+              "irregolare"
+            ]
+          },
+          {
+            "q": "uscire",
+            "options": [
+              "-are, come parlare",
+              "-ere, come prendere",
+              "-ire, come partire",
+              "-isc-, come capire",
+              "*irregolare"
+            ]
+          },
+          {
+            "q": "preferire",
+            "options": [
+              "-are, come parlare",
+              "-ere, come prendere",
+              "-ire, come partire",
+              "*-isc-, come capire",
+              "irregolare"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the passato prossimo.",
+        "prompt": "Completa la tabella con il presente dei verbi.",
         "questions": [
-          "Anna [[è arrivata#pp]] tardi. (arrivare)",
-          "Io [[ho preso#pp]] il treno. (prendere)",
-          "Marco e Luca [[sono tornati#pp]] ieri. (tornare)",
-          "Tu [[hai chiuso#pp]] la porta? (chiudere)",
-          "Le ragazze [[sono uscite#pp]] alle nove. (uscire)",
-          "Noi [[abbiamo letto#pp]] il giornale. (leggere)",
-          "Che cosa [[hai detto#pp]]? (dire, tu)"
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Complete with prima, poi, durante, mentre or appena.",
-        "questions": [
-          "[[Durante]] la lezione non {ip:parlo}.",
-          "[[Mentre]] {ip:cucino}, ascolto la radio.",
-          "[[Appena]] arrivo a casa, mi {ip:riposo}.",
-          "[[Prima]] {pp:ho fatto} la spesa, [[poi]] {pp:ho cucinato}."
+          "io: abitare → [[abito#ip]], finire → [[finisco#ip]], avere → [[ho#ip]]",
+          "tu: dormire → [[dormi#ip]], essere → [[sei#ip]], potere → [[puoi#ip]]",
+          "lui: leggere → [[legge#ip]], fare → [[fa#ip]], venire → [[viene#ip]]",
+          "noi: leggere → [[leggiamo#ip]], andare → [[andiamo#ip]], dovere → [[dobbiamo#ip]]",
+          "voi: essere → [[siete#ip]], fare → [[fate#ip]], partire → [[partite#ip]]",
+          "loro: andare → [[vanno#ip]], capire → [[capiscono#ip]], volere → [[vogliono#ip]]"
         ]
       }
     ]
@@ -239,133 +456,313 @@
   "vocabulary": {
     "words": [
       [
-        "l'appuntamento",
-        "appointment"
+        "l'arte",
+        "la pittura, la scultura, i musei"
       ],
       [
-        "il ritardo",
-        "delay"
+        "il calcio",
+        "lo sport con la palla e due porte"
       ],
       [
-        "la festa",
-        "party"
+        "la moda",
+        "i vestiti che si portano in un periodo"
       ],
       [
-        "la cena",
-        "dinner"
+        "la natura",
+        "il mare, i boschi, le montagne"
       ],
       [
-        "l'ospite",
-        "guest"
+        "celibe",
+        "uomo che non è sposato"
       ],
       [
-        "la sorpresa",
-        "surprise"
+        "nubile",
+        "donna che non è sposata"
       ],
       [
-        "invitare",
-        "to invite"
+        "sposato/a",
+        "ha un marito o una moglie"
       ],
       [
-        "decidere",
-        "to decide"
+        "divorziato/a",
+        "non è più sposato con il marito o la moglie"
       ],
       [
-        "perdere",
-        "to lose, to miss"
+        "vedovo/a",
+        "il marito o la moglie è morto"
       ],
       [
-        "rimanere",
-        "to remain"
+        "il cuoco",
+        "prepara da mangiare in un ristorante"
       ],
       [
-        "diventare",
-        "to become"
+        "il commesso",
+        "lavora in un negozio e aiuta i clienti"
       ],
       [
-        "tardi",
-        "late"
+        "il giornalista",
+        "scrive articoli per un giornale"
+      ],
+      [
+        "l'infermiere",
+        "aiuta i malati in ospedale"
+      ],
+      [
+        "il poliziotto",
+        "lavora per la sicurezza delle persone"
+      ],
+      [
+        "il tassista",
+        "porta le persone in città con la sua macchina"
+      ],
+      [
+        "il pittore",
+        "dipinge quadri"
+      ],
+      [
+        "lo scrittore",
+        "scrive libri"
+      ],
+      [
+        "la carta d'identità",
+        "il documento con la tua foto e i tuoi dati"
+      ],
+      [
+        "il passaporto",
+        "il documento per viaggiare in altri paesi"
+      ],
+      [
+        "la patente",
+        "il documento per guidare la macchina"
+      ],
+      [
+        "il permesso di soggiorno",
+        "il documento per gli stranieri che vivono in Italia"
+      ],
+      [
+        "il modulo",
+        "il foglio da riempire per una domanda"
+      ],
+      [
+        "il rinnovo",
+        "quando un documento diventa di nuovo valido"
+      ],
+      [
+        "la scadenza",
+        "il giorno in cui un documento non è più valido"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni professione a quello che fa.",
         "pairs": [
           [
-            "l'appuntamento",
-            "appointment"
+            "il cuoco",
+            "prepara da mangiare in un ristorante"
           ],
           [
-            "il ritardo",
-            "delay"
+            "il commesso",
+            "lavora in un negozio e aiuta i clienti"
           ],
           [
-            "l'ospite",
-            "guest"
+            "il giornalista",
+            "scrive articoli per un giornale"
           ],
           [
-            "invitare",
-            "to invite"
+            "l'infermiere",
+            "aiuta i malati in ospedale"
           ],
           [
-            "perdere",
-            "to lose, to miss"
+            "il tassista",
+            "porta le persone in città con la sua macchina"
           ],
           [
-            "diventare",
-            "to become"
+            "lo scrittore",
+            "scrive libri"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con lo stato civile o il documento giusto.",
         "questions": [
-          "Il treno {ip:è} in [[ritardo]]. (delay)",
-          "Sabato c'{ip:è} una [[festa]] a casa mia. (party)",
-          "Non {ip:posso} venire, {ip:ho} un [[appuntamento]]. (appointment)",
-          "{pp:Siamo arrivati} [[tardi]]. (late)"
+          "Marco non {ip:è} sposato: {ip:è} [[celibe]].",
+          "Giulia non {ip:ha} un marito: {ip:è} [[nubile]].",
+          "Per guidare la macchina serve la [[patente]].",
+          "Per andare in Giappone serve il [[passaporto]].",
+          "Il passaporto non {ip:è} più valido dopo la [[scadenza]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Sabato scorso io e Paolo {pp:siamo andati} a una festa a Torino. Prima {pp:abbiamo preso} il treno, ma {pp:è partito} in ritardo e {pp:abbiamo perso} l'autobus. {pp:Siamo arrivati} tardi e tutti {im:mangiavano} già.",
-      "Appena {pp:siamo entrati}, {pp:abbiamo visto} Maria, una vecchia amica. Durante la cena {pp:abbiamo parlato} molto. Poi Maria ci {pp:ha detto} una grande notizia: {pp:è diventata} mamma! {pp:Siamo rimasti} fino a mezzanotte e {pp:siamo tornati} in taxi."
+      {
+        "h": "Chi parla?"
+      },
+      "**1** Salve! {ip:Sono} Davide Russo, {ip:sono} italiano, di Bari. {ip:Faccio} il cuoco e {ip:lavoro} quasi sempre la sera…",
+      "**2** Ciao. Io mi {ip:chiamo} Sara Neri, {ip:abito} a Bologna ma {pp:sono nata} a Verona. {ip:Faccio} la giornalista per una rivista di viaggi…",
+      "**3** Buongiorno a tutti. Mi {ip:presento}: {ip:sono} Ahmed Benali, {ip:vengo} dal Marocco e {ip:faccio} l'infermiere a Torino…",
+      "**a** Il mio lavoro mi {ip:piace} moltissimo perché {ip:viaggio} molto: ogni mese {ip:visito} un paese nuovo e poi {ip:scrivo} un articolo. {ip:Sono} nubile, ma {ip:ho} un ragazzo, Marco, che {ip:fa} il fotografo e spesso {ip:viene} con me. Quando {ip:sono} a casa, la sera {ip:usciamo} con gli amici o {ip:andiamo} al cinema. Mi {ip:piacciono} le città antiche e la cucina di tutto il mondo.",
+      "**b** {ip:Sono} in Italia da cinque anni. {ip:Lavoro} in un ospedale e il mio lavoro {ip:è} bello, ma a volte {ip:è} stancante perché {ip:faccio} anche la notte. {ip:Sono} sposato e mia moglie {ip:è} insegnante di francese. {ip:Abbiamo} una figlia di tre anni. {ip:Studio} l'italiano perché {ip:voglio} diventare cittadino italiano. Il fine settimana {ip:andiamo} al parco o {ip:visitiamo} un museo.",
+      "**c** Il mio lavoro non mi {ip:piace} molto perché {ip:finisco} sempre tardi e non {ip:ho} mai tempo libero. {ip:Sono} divorziato e mio figlio {ip:abita} a Roma con sua madre: lo {ip:vedo} una volta al mese. Quando non {ip:lavoro} {ip:dormo} molto, {ip:ascolto} la musica e {ip:guardo} il calcio in TV. {ip:Sono} un grande tifoso del Bari!",
+      {
+        "h": "Il permesso di soggiorno"
+      },
+      "Gli stranieri che **hanno intenzione di restare** in Italia per più di tre mesi {ip:devono} chiedere il permesso di soggiorno. Chi {ip:arriva} in Italia per la prima volta {ip:ha} otto giorni di tempo per fare la domanda.",
+      "Per avere il **rilascio** del permesso bisogna portare il **modulo** di richiesta, il passaporto con il **visto** di ingresso (se {ip:è} necessario), una fotocopia del passaporto, quattro foto tessera **uguali e recenti**, un **contributo** tra 80 e 200 euro e una **marca da bollo**.",
+      "Chi {ip:ha} già il permesso e lo {ip:ha} **in scadenza** {ip:deve} chiedere il **rinnovo** almeno sessanta giorni prima."
     ],
     "exercises": [
       {
+        "type": "match",
+        "prompt": "Abbina le tre presentazioni (1, 2, 3) ai testi (a, b, c).",
+        "pairs": [
+          [
+            "1 · Davide Russo",
+            "testo c"
+          ],
+          [
+            "2 · Sara Neri",
+            "testo a"
+          ],
+          [
+            "3 · Ahmed Benali",
+            "testo b"
+          ]
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "The train left on time.",
+            "q": "Sara {ip:viaggia} molto per il suo lavoro.",
             "options": [
-              "True",
-              "*False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "They missed the bus.",
+            "q": "Ahmed {ip:lavora} solo di giorno.",
             "options": [
-              "*True",
-              "False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Maria has had a baby.",
+            "q": "Ahmed {ip:studia} l'italiano perché {ip:vuole} diventare cittadino italiano.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "They went home by bus.",
+            "q": "Davide {ip:ha} molto tempo libero.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il figlio di Davide {ip:abita} con lui.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'infinito di questi verbi dei testi a, b, c.",
+        "questions": [
+          "viaggio → [[viaggiare]]",
+          "scrivo → [[scrivere]]",
+          "viene → [[venire]]",
+          "usciamo → [[uscire]]",
+          "faccio → [[fare]]",
+          "voglio → [[volere]]",
+          "finisco → [[finire]]",
+          "vedo → [[vedere]]"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Il permesso di soggiorno: abbina le parole evidenziate alle spiegazioni.",
+        "pairs": [
+          [
+            "hanno intenzione di restare",
+            "vogliono stare"
+          ],
+          [
+            "il rilascio",
+            "la consegna"
+          ],
+          [
+            "il modulo",
+            "il foglio da riempire"
+          ],
+          [
+            "il visto",
+            "il timbro sul passaporto"
+          ],
+          [
+            "uguali e recenti",
+            "identiche e non vecchie"
+          ],
+          [
+            "il contributo",
+            "una somma di denaro"
+          ],
+          [
+            "in scadenza",
+            "non più valido tra pochi giorni"
+          ],
+          [
+            "il rinnovo",
+            "l'estensione della validità"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Chi {ip:vuole} stare in Italia più di tre mesi {ip:deve} chiedere il permesso di soggiorno.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Per il permesso non {ip:serve} il passaporto.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Chi {ip:arriva} in Italia {ip:può} aspettare un mese per fare la domanda.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il permesso di soggiorno non {ip:costa} niente.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il rinnovo si {ip:chiede} almeno due mesi prima della scadenza.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
@@ -375,51 +772,91 @@
   "listening": {
     "transcript": [
       [
-        "Sara",
-        "Com'{pp:è andata} la festa?"
+        "Segretaria",
+        "Buongiorno! Come si {ip:chiama}?"
       ],
       [
-        "Paolo",
-        "Bene, ma {pp:siamo arrivati} tardi."
+        "Ana",
+        "Buongiorno. Mi {ip:chiamo} Ana Costa."
       ],
       [
-        "Sara",
-        "Perché? {pp:Avete perso} il treno?"
+        "Segretaria",
+        "Di dov'{ip:è}?"
       ],
       [
-        "Paolo",
-        "No, ma il treno {pp:è partito} in ritardo."
+        "Ana",
+        "{ip:Sono} brasiliana, {ip:vengo} da San Paolo."
       ],
       [
-        "Sara",
-        "E chi {pp:avete visto}?"
+        "Segretaria",
+        "Quanti anni {ip:ha}?"
       ],
       [
-        "Paolo",
-        "Maria! Appena {pp:siamo entrati}, l'{pp:abbiamo vista}."
+        "Ana",
+        "Ventinove."
+      ],
+      [
+        "Segretaria",
+        "Da quanto tempo {ip:è} in Italia?"
+      ],
+      [
+        "Ana",
+        "Da sei mesi. {ip:Studio} l'italiano perché {ip:lavoro} in un'azienda italiana."
+      ],
+      [
+        "Segretaria",
+        "{ip:È} sposata?"
+      ],
+      [
+        "Ana",
+        "No, {ip:sono} nubile."
+      ],
+      [
+        "Segretaria",
+        "Bene. {ip:Ha} un documento?"
+      ],
+      [
+        "Ana",
+        "Sì, ecco il passaporto."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{pp:Siamo} [[arrivati#pp]] tardi.",
-          "{pp:Avete} [[perso#pp]] il treno?",
-          "Il treno {pp:è} [[partito#pp]] in ritardo.",
-          "[[Appena]] {pp:siamo entrati}, l'{pp:abbiamo vista}."
+          "{ip:Sono} brasiliana, [[vengo#ip]] da San Paolo.",
+          "Da quanto tempo [[è#ip]] in Italia?",
+          "[[Studio#ip]] l'italiano perché [[lavoro#ip]] in un'azienda italiana.",
+          "No, {ip:sono} [[nubile]]."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Why were they late?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "They were late because…",
+            "q": "Da quanto tempo Ana {ip:è} in Italia?",
             "options": [
-              "they missed the train",
-              "*the train left late",
-              "they forgot the party"
+              "da tre mesi",
+              "*da sei mesi",
+              "da due anni"
+            ]
+          },
+          {
+            "q": "Perché Ana {ip:studia} l'italiano?",
+            "options": [
+              "perché suo marito è italiano",
+              "*per il lavoro",
+              "perché vuole visitare Roma"
+            ]
+          },
+          {
+            "q": "Che documento {ip:ha} Ana?",
+            "options": [
+              "la carta d'identità",
+              "la patente",
+              "*il passaporto"
             ]
           }
         ]
@@ -430,40 +867,52 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Scrivi la domanda per ogni risposta. Usa *tu*.",
         "questions": [
           {
-            "q": "We arrived late.",
+            "q": "— …? — Mi chiamo Ana.",
             "a": [
-              "Siamo arrivati tardi.",
-              "Noi siamo arrivati tardi.",
-              "Siamo arrivate tardi."
+              "Come ti chiami?"
             ]
           },
           {
-            "q": "I saw Maria yesterday.",
+            "q": "— …? — Ho trentadue anni.",
             "a": [
-              "Ho visto Maria ieri.",
-              "Ieri ho visto Maria."
+              "Quanti anni hai?"
             ]
           },
           {
-            "q": "Anna went out at nine.",
+            "q": "— …? — Vengo dalla Spagna.",
             "a": [
-              "Anna è uscita alle nove."
+              "Da dove vieni?",
+              "Di dove sei?"
             ]
           },
           {
-            "q": "First I ate, then I went out. (a man speaking)",
+            "q": "— …? — Sono in Italia da due anni.",
             "a": [
-              "Prima ho mangiato, poi sono uscito."
+              "Da quanto tempo sei in Italia?"
             ]
           },
           {
-            "q": "Did you close the door? (informal)",
+            "q": "— …? — Faccio il cameriere.",
             "a": [
-              "Hai chiuso la porta?",
-              "Tu hai chiuso la porta?"
+              "Che lavoro fai?",
+              "Che cosa fai?",
+              "Cosa fai?"
+            ]
+          },
+          {
+            "q": "— …? — No, sono divorziato.",
+            "a": [
+              "Sei sposato?"
+            ]
+          },
+          {
+            "q": "— …? — Mi piacciono il mare e la cucina.",
+            "a": [
+              "Che cosa ti piace dell'Italia?",
+              "Cosa ti piace dell'Italia?"
             ]
           }
         ]

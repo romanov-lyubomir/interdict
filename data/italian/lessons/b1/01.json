@@ -1,7 +1,7 @@
 {
   "title": "{ip:Penso} che {csp:sia} una buona idea",
   "translation": "I think it's a good idea",
-  "topics": "The congiuntivo presente: forms and when to use it",
+  "topics": "The [csp:congiuntivo presente]: forms and when to use it",
   "grammar": {
     "explain": [
       {
@@ -151,7 +151,7 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the congiuntivo presente.",
+        "prompt": "Put the verb in the [csp:congiuntivo presente].",
         "questions": [
           "{ip:Penso} che Marco [[parli#csp]] bene. (parlare)",
           "{ip:Credo} che loro [[partano#csp]] domani. (partire)",
@@ -162,7 +162,7 @@
       },
       {
         "type": "gap",
-        "prompt": "These verbs are irregular. Put them in the congiuntivo presente.",
+        "prompt": "These verbs are irregular. Put them in the [csp:congiuntivo presente].",
         "questions": [
           "{ip:Penso} che [[sia#csp]] una buona idea. (essere)",
           "{ip:Credo} che Anna [[abbia#csp]] ragione. (avere)",

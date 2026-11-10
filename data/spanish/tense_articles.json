@@ -20,42 +20,42 @@
      ],
      "rows": [
       [
-       "Presente",
+       "[ip:Presente]",
        "{ip:hablo}",
        "Now, habits, general truths, the near future"
       ],
       [
-       "Imperfecto",
+       "[im:Imperfecto]",
        "{im:hablaba}",
        "Past habits, descriptions, actions in progress"
       ],
       [
-       "Pretérito perfecto",
+       "[pp:Pretérito perfecto]",
        "{pp:he hablado}",
        "Past actions linked to the present"
       ],
       [
-       "Pluscuamperfecto",
+       "[tp:Pluscuamperfecto]",
        "{tp:había hablado}",
        "Before another past moment"
       ],
       [
-       "Indefinido",
+       "[pr:Indefinido]",
        "{pr:hablé}",
        "Completed actions in a finished time"
       ],
       [
-       "Pretérito anterior",
+       "[tr:Pretérito anterior]",
        "{tr:hube hablado}",
        "Just before another past action, literary"
       ],
       [
-       "Futuro simple",
+       "[fs:Futuro simple]",
        "{fs:hablaré}",
        "The future, guesses about the present"
       ],
       [
-       "Futuro compuesto",
+       "[fa:Futuro compuesto]",
        "{fa:habré hablado}",
        "Before a future moment, guesses about the past"
       ]
@@ -74,20 +74,20 @@
      ],
      "rows": [
       [
-       "Presente: {ip:he}",
-       "Pretérito perfecto: {pp:he hablado}"
+       "[ip:Presente]: {ip:he}",
+       "[pp:Pretérito perfecto]: {pp:he hablado}"
       ],
       [
-       "Imperfecto: {im:había}",
-       "Pluscuamperfecto: {tp:había hablado}"
+       "[im:Imperfecto]: {im:había}",
+       "[tp:Pluscuamperfecto]: {tp:había hablado}"
       ],
       [
-       "Indefinido: {pr:hube}",
-       "Pretérito anterior: {tr:hube hablado}"
+       "[pr:Indefinido]: {pr:hube}",
+       "[tr:Pretérito anterior]: {tr:hube hablado}"
       ],
       [
-       "Futuro simple: {fs:habré}",
-       "Futuro compuesto: {fa:habré hablado}"
+       "[fs:Futuro simple]: {fs:habré}",
+       "[fa:Futuro compuesto]: {fa:habré hablado}"
       ]
      ]
     }
@@ -400,9 +400,9 @@
     ]
    },
    {
-    "h": "Imperfecto or indefinido?"
+    "h": "[im:Imperfecto] or [pr:indefinido]?"
    },
-   "The *imperfecto* gives the background or a state with no clear end. The *indefinido* tells what happened: *{im:Hacía} frío, así que {pr:cerré} la ventana.*"
+   "The [im:imperfecto] gives the background or a state with no clear end. The [pr:indefinido] tells what happened: *{im:Hacía} frío, así que {pr:cerré} la ventana.*"
   ]
  },
  "preterito_perfecto": {
@@ -509,7 +509,7 @@
      "A time period that is not over: *Hoy {pp:he comido} tarde. Esta semana {pp:he trabajado} mucho.*",
      "Life experience: *¿{pp:Has estado} en México?*",
      "Recent events that still matter: *{pp:He perdido} las llaves.*",
-     "In much of Latin America the *indefinido* is preferred in these contexts: *Hoy comí tarde.*"
+     "In much of Latin America the [pr:indefinido] is preferred in these contexts: *Hoy comí tarde.*"
     ]
    }
   ]
@@ -522,7 +522,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *imperfecto* of *haber* and the participle.",
+   "Use the [im:imperfecto] of *haber* and the participle.",
    {
     "table": {
      "head": [
@@ -717,7 +717,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *indefinido* of *haber* and the participle.",
+   "Use the [pr:indefinido] of *haber* and the participle.",
    {
     "table": {
      "head": [
@@ -762,8 +762,8 @@
    {
     "h": "How it is used"
    },
-   "It appears after *apenas, en cuanto, tan pronto como, cuando* and *después de que*, with the main verb in the *indefinido*: *Apenas {tr:hubo terminado}, {pr:salió}.*",
-   "You only need to recognise it. Today people say *Apenas {pr:terminó}, {pr:salió}* or use the *pluscuamperfecto*."
+   "It appears after *apenas, en cuanto, tan pronto como, cuando* and *después de que*, with the main verb in the [pr:indefinido]: *Apenas {tr:hubo terminado}, {pr:salió}.*",
+   "You only need to recognise it. Today people say *Apenas {pr:terminó}, {pr:salió}* or use the [tp:pluscuamperfecto]."
   ]
  },
  "futuro_simple": {
@@ -893,7 +893,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *futuro simple* of *haber* and the participle.",
+   "Use the [fs:futuro simple] of *haber* and the participle.",
    {
     "table": {
      "head": [
@@ -1073,7 +1073,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *condicional simple* of *haber* and the participle.",
+   "Use the [cop:condicional simple] of *haber* and the participle.",
    {
     "table": {
      "head": [
@@ -1170,7 +1170,7 @@
    {
     "h": "How it is formed"
    },
-   "The *tú* form looks like the third person of the present. *Vosotros* replaces the final *-r* of the infinitive with *-d*. *Usted, ustedes* and *nosotros* come from the *subjuntivo presente*, so the vowels swap: *-ar* verbs take *-e*, the others *-a*.",
+   "The *tú* form looks like the third person of the present. *Vosotros* replaces the final *-r* of the infinitive with *-d*. *Usted, ustedes* and *nosotros* come from the [csp:subjuntivo presente], so the vowels swap: *-ar* verbs take *-e*, the others *-a*.",
    {
     "table": {
      "head": [
@@ -1317,7 +1317,7 @@
    {
     "h": "The negative"
    },
-   "Every negative command uses the *subjuntivo presente*, including *tú* and *vosotros*.",
+   "Every negative command uses the [csp:subjuntivo presente], including *tú* and *vosotros*.",
    {
     "table": {
      "head": [
@@ -1610,7 +1610,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *subjuntivo presente* of *haber* and the participle.",
+   "Use the [csp:subjuntivo presente] of *haber* and the participle.",
    {
     "table": {
      "head": [
@@ -1672,7 +1672,7 @@
    {
     "h": "How it is formed"
    },
-   "Take the third person plural of the *indefinido*, remove *-ron* and add one of two sets of endings. The two are interchangeable in most contexts, and the *-ra* set is more common.",
+   "Take the third person plural of the [pr:indefinido], remove *-ron* and add one of two sets of endings. The two are interchangeable in most contexts, and the *-ra* set is more common.",
    {
     "table": {
      "head": [
@@ -1721,7 +1721,7 @@
      ]
     }
    },
-   "Every irregularity comes from the *indefinido*: *tuvieron: tuviera; fueron: fuera; hicieron: hiciera; dijeron: dijera; pidieron: pidiera.*",
+   "Every irregularity comes from the [pr:indefinido]: *tuvieron: tuviera; fueron: fuera; hicieron: hiciera; dijeron: dijera; pidieron: pidiera.*",
    {
     "h": "How it is used"
    },
@@ -1744,7 +1744,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *imperfecto de subjuntivo* of *haber* and the participle. Both sets of endings are possible.",
+   "Use the [csi:imperfecto de subjuntivo] of *haber* and the participle. Both sets of endings are possible.",
    {
     "table": {
      "head": [

@@ -21,25 +21,25 @@
               "{im:Temevo}",
               "the moment of narration",
               "past",
-              "imperfetto"
+              "[im:imperfetto]"
             ],
             [
               "se {cst:fosse arrivato}",
               "{im:Temevo}",
               "future, a hypothesis",
-              "congiuntivo trapassato"
+              "[cst:congiuntivo trapassato]"
             ],
             [
               "{cpa:avrebbe capito}",
               "{im:Temevo}",
               "future from the past",
-              "condizionale passato"
+              "[cpa:condizionale passato]"
             ],
             [
               "che {tp:avevo mentito}",
               "{cpa:avrebbe capito}",
               "before",
-              "trapassato prossimo"
+              "[tp:trapassato prossimo]"
             ]
           ]
         }
@@ -47,7 +47,7 @@
       {
         "h": "Future within a future in the past"
       },
-      "When something is future from a past viewpoint and comes before another such future, both can go in the *condizionale passato*, and Italian often simplifies them with the *imperfetto* or the *congiuntivo*: *{im:Sapevo} che, quando {cpa:avresti letto} la lettera, {cpa:sarei} già {cpa:partito}.*",
+      "When something is future from a past viewpoint and comes before another such future, both can go in the [cpa:condizionale passato], and Italian often simplifies them with the [im:imperfetto] or the *congiuntivo*: *{im:Sapevo} che, quando {cpa:avresti letto} la lettera, {cpa:sarei} già {cpa:partito}.*",
       {
         "h": "Point of view decides"
       },

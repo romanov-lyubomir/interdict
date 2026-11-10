@@ -24,14 +24,14 @@
             ],
             [
               "Possible",
-              "se + congiuntivo imperfetto",
-              "condizionale presente",
+              "se + [csi:congiuntivo imperfetto]",
+              "[cop:condizionale presente]",
               "Se {csi:avessi} tempo, {cop:viaggerei}."
             ],
             [
               "Unreal",
-              "se + congiuntivo trapassato",
-              "condizionale passato",
+              "se + [cst:congiuntivo trapassato]",
+              "[cpa:condizionale passato]",
               "Se {cst:avessi studiato}, {cpa:avrei superato} l'esame."
             ]
           ]
@@ -66,7 +66,7 @@
       {
         "h": "A colloquial shortcut"
       },
-      "In everyday speech, you will hear the *imperfetto* in both halves of an unreal condition: *Se lo {im:sapevo}, {im:venivo}* instead of *Se l'{cst:avessi saputo}, {cpa:sarei venuto}*. It is fine in conversation, but keep the full form in writing and exams.",
+      "In everyday speech, you will hear the [im:imperfetto] in both halves of an unreal condition: *Se lo {im:sapevo}, {im:venivo}* instead of *Se l'{cst:avessi saputo}, {cpa:sarei venuto}*. It is fine in conversation, but keep the full form in writing and exams.",
       {
         "h": "Other ways of saying if"
       },

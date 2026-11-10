@@ -1,13 +1,13 @@
 {
   "title": "Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}",
   "translation": "When I arrived, the train had already left",
-  "topics": "The trapassato prossimo, the futuro anteriore, recognising the passato remoto",
+  "topics": "The [tp:trapassato prossimo], the [fa:futuro anteriore], recognising the [pr:passato remoto]",
   "grammar": {
     "explain": [
       {
-        "h": "One step further back: the trapassato prossimo"
+        "h": "One step further back: the [tp:trapassato prossimo]"
       },
-      "Use it for something that happened before another event in the past. It is the *passato prossimo* with the auxiliary in the *imperfetto*.",
+      "Use it for something that happened before another event in the past. It is the [pp:passato prossimo] with the auxiliary in the [im:imperfetto].",
       {
         "table": {
           "head": [
@@ -51,7 +51,7 @@
       },
       "Compare the order of events: *Quando {pp:sono arrivato}, il treno {pp:è partito}* means that I arrived first. *Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}* means that the train had left first.",
       {
-        "h": "One step before the future: the futuro anteriore"
+        "h": "One step before the future: the [fa:futuro anteriore]"
       },
       "It's the same idea, with the auxiliary in the future: *{fa:avrò mangiato}, {fa:sarò partito}*. Use it for an action that will be finished before another future one.",
       {
@@ -78,9 +78,9 @@
       },
       "It can also express a guess about the past: *Marco non c'{ip:è}: {fa:sarà} già {fa:partito}* (he must have left already).",
       {
-        "h": "Recognising the passato remoto"
+        "h": "Recognising the [pr:passato remoto]"
       },
-      "In books and history, you will meet the *passato remoto*. In most of Italy, people use it little in speech, so at this level it's enough to recognise it, especially the third person.",
+      "In books and history, you will meet the [pr:passato remoto]. In most of Italy, people use it little in speech, so at this level it's enough to recognise it, especially the third person.",
       {
         "table": {
           "head": [
@@ -110,7 +110,7 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the trapassato prossimo.",
+        "prompt": "Put the verb in the [tp:trapassato prossimo].",
         "questions": [
           "Quando {pp:sono arrivato}, il treno [[era partito#tp]]. (partire)",
           "Non {im:avevo} fame perché [[avevo mangiato#tp]]. (mangiare, io)",
@@ -121,7 +121,7 @@
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the futuro anteriore.",
+        "prompt": "Put the verb in the [fa:futuro anteriore].",
         "questions": [
           "Quando [[avrò finito#fa]], ti {fs:chiamerò}. (finire, io)",
           "Appena [[sarai arrivato#fa]], {fs:mangeremo}. (arrivare, tu – a man)",
@@ -131,7 +131,7 @@
       },
       {
         "type": "match",
-        "prompt": "Match the passato remoto with the passato prossimo.",
+        "prompt": "Match the [pr:passato remoto] with the [pp:passato prossimo].",
         "pairs": [
           [
             "{pr:nacque}",

@@ -1,195 +1,203 @@
 {
-  "title": "Oggi {ip:vado} al mercato con Anna",
-  "translation": "Today I'm going to the market with Anna",
-  "topics": "Prepositions, prepositions with the article, adverbs of place and time",
+  "title": "Il sabato {ip:esco} con gli amici",
+  "translation": "",
+  "topics": "I verbi irregolari uscire, venire e stare, gli avverbi di frequenza, il tempo libero",
   "grammar": {
     "explain": [
+      "Tre verbi irregolari per uscire, venire e restare, e le parole che dicono quante volte fai una cosa.",
       {
-        "table": {
-          "head": [
-            "Preposition",
-            "Main uses",
-            "Example"
-          ],
-          "rows": [
-            [
-              "a",
-              "to, at; before cities",
-              "{ip:Vado} a Roma. {ip:Sono} a casa."
-            ],
-            [
-              "di",
-              "of, from (origin)",
-              "il libro di Anna; {ip:Sono} di Sofia."
-            ],
-            [
-              "da",
-              "from; at someone's place",
-              "{ip:Arrivo} da Milano. {ip:Vado} da Luca."
-            ],
-            [
-              "in",
-              "in, to; before countries",
-              "{ip:Vivo} in Italia. {ip:Vado} in centro."
-            ],
-            [
-              "con",
-              "with",
-              "{ip:Esco} con Anna."
-            ],
-            [
-              "su",
-              "on",
-              "Il libro {ip:è} sul tavolo."
-            ],
-            [
-              "per",
-              "for",
-              "Un regalo per te."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "I verbi irregolari",
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*uscire*",
+                  2
+                ],
+                [
+                  "*venire*",
+                  2
+                ],
+                [
+                  "*stare*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{ip:esco}",
+                  {
+                    "text": "con le mie amiche.",
+                    "rows": 6
+                  },
+                  "{ip:vengo}",
+                  {
+                    "text": "alla festa.",
+                    "rows": 6
+                  },
+                  "{ip:sto}",
+                  {
+                    "text": "a letto.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:esci}",
+                  null,
+                  "{ip:vieni}",
+                  null,
+                  "{ip:stai}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:esce}",
+                  null,
+                  "{ip:viene}",
+                  null,
+                  "{ip:sta}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:usciamo}",
+                  null,
+                  "{ip:veniamo}",
+                  null,
+                  "{ip:stiamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:uscite}",
+                  null,
+                  "{ip:venite}",
+                  null,
+                  "{ip:state}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:escono}",
+                  null,
+                  "{ip:vengono}",
+                  null,
+                  "{ip:stanno}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "*Uscire*, *venire* e *stare* si imparano a memoria.",
+              "*Uscire* ha *esc-* dappertutto tranne con *noi* e *voi*: *usciamo, uscite*.",
+              "*Stare* dice anche come stai: *Come {ip:stai}? {ip:Sto} bene*."
             ]
-          ]
-        }
-      },
-      "When *a, di, da, in, su* come before a definite article, they join with it into one word.",
-      {
-        "table": {
-          "head": [
-            "",
-            "il",
-            "lo",
-            "l'",
-            "la",
-            "i",
-            "gli",
-            "le"
-          ],
-          "rows": [
-            [
-              "a",
-              "al",
-              "allo",
-              "all'",
-              "alla",
-              "ai",
-              "agli",
-              "alle"
-            ],
-            [
-              "di",
-              "del",
-              "dello",
-              "dell'",
-              "della",
-              "dei",
-              "degli",
-              "delle"
-            ],
-            [
-              "da",
-              "dal",
-              "dallo",
-              "dall'",
-              "dalla",
-              "dai",
-              "dagli",
-              "dalle"
-            ],
-            [
-              "in",
-              "nel",
-              "nello",
-              "nell'",
-              "nella",
-              "nei",
-              "negli",
-              "nelle"
-            ],
-            [
-              "su",
-              "sul",
-              "sullo",
-              "sull'",
-              "sulla",
-              "sui",
-              "sugli",
-              "sulle"
+          },
+          {
+            "table": {
+              "title": "Gli avverbi di frequenza",
+              "rows": [
+                [
+                  "La domenica {ip:cucino} **sempre**.",
+                  "+ + + + +"
+                ],
+                [
+                  "La domenica **di solito** {ip:cucino}.",
+                  "+ + + +"
+                ],
+                [
+                  "La domenica **spesso** {ip:cucino}.",
+                  "+ + +"
+                ],
+                [
+                  "La domenica **qualche volta** / **ogni tanto** {ip:cucino}.",
+                  "+ +"
+                ],
+                [
+                  "La domenica **non** {ip:cucino} **quasi mai**.",
+                  "+"
+                ],
+                [
+                  "La domenica **non** {ip:cucino} **mai**.",
+                  ""
+                ]
+              ]
+            },
+            "note": [
+              "*Mai* e *quasi mai* vogliono *non* prima del verbo: *non cucino mai*.",
+              "*Qualche volta* e *ogni tanto* vogliono dire la stessa cosa.",
+              "*Sempre* di solito viene dopo il verbo. Gli altri possono stare prima o dopo."
             ]
-          ]
-        }
-      },
-      "*Con* and *per* normally stay separate: *con il cane, per la mamma*.",
-      "Adverbs of place: *qui / qua* (here), *lì / là* (there). Adverbs of time: *oggi* (today), *domani* (tomorrow), *ieri* (yesterday), *prima* (before, first), *dopo* (after, later), *adesso* (now)."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Join the preposition and the article.",
+        "prompt": "Scrivi la forma giusta di uscire, venire o stare.",
         "questions": [
-          "{ip:Vado} [[al]] mercato. (a + il)",
-          "La casa [[della]] nonna. (di + la)",
-          "Il libro {ip:è} [[nello]] zaino. (in + lo)",
-          "Le chiavi {ip:sono} [[sul]] tavolo. (su + il)",
-          "{ip:Torno} [[dal]] lavoro. (da + il)",
-          "I libri [[degli]] studenti. (di + gli)",
-          "{ip:Vado} [[alla]] stazione. (a + la)"
-        ]
-      },
-      {
-        "type": "choice",
-        "prompt": "Choose the right preposition.",
-        "questions": [
-          {
-            "q": "{ip:Vivo} ___ Roma.",
-            "options": [
-              "*a",
-              "in",
-              "di"
-            ]
-          },
-          {
-            "q": "{ip:Vivo} ___ Italia.",
-            "options": [
-              "a",
-              "*in",
-              "da"
-            ]
-          },
-          {
-            "q": "{ip:Sono} ___ Sofia. (origin)",
-            "options": [
-              "a",
-              "*di",
-              "per"
-            ]
-          },
-          {
-            "q": "Questo regalo {ip:è} ___ te.",
-            "options": [
-              "con",
-              "su",
-              "*per"
-            ]
-          },
-          {
-            "q": "{ip:Vado} al cinema ___ Paolo.",
-            "options": [
-              "*con",
-              "di",
-              "su"
-            ]
-          }
+          "Io [[esco#ip]] con gli amici. (uscire)",
+          "Tu [[esci#ip]] stasera? (uscire)",
+          "Noi [[usciamo#ip]] alle otto. (uscire)",
+          "Lui [[viene#ip]] alla festa. (venire)",
+          "Voi [[venite#ip]] a cena? (venire)",
+          "Loro [[vengono#ip]] domani. (venire)",
+          "Come [[stai#ip]]? (stare)",
+          "Io [[sto#ip]] bene, grazie. (stare)",
+          "Loro [[stanno#ip]] a casa. (stare)"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with oggi, domani, qui or lì.",
+        "prompt": "Scrivi la parola che corrisponde ai segni +.",
         "questions": [
-          "Ieri {im:era} lunedì, [[oggi]] {ip:è} martedì e domani {ip:è} mercoledì.",
-          "Oggi lavoro, [[domani]] riposo.",
-          "{imv:Vieni} [[qui]], vicino a me!",
-          "{ip:Vedi} quella casa? {ip:Abito} [[lì]]."
+          "(+ + + + +) {ip:Bevo} [[sempre]] il caffè.",
+          "(+ + + +) [[Di solito]] {ip:mi alzo} alle sette.",
+          "(+ + +) {ip:Vado} [[spesso]] al cinema.",
+          "(+ +) {ip:Esco} [[ogni tanto|qualche volta]] con Luca.",
+          "(+) Non {ip:guardo} [[quasi mai]] la televisione.",
+          "( ) Non {ip:bevo} [[mai]] la birra."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Quale frase {ip:è} giusta?",
+            "options": [
+              "*Non vado mai al cinema.",
+              "Vado mai al cinema.",
+              "Mai vado non al cinema."
+            ]
+          },
+          {
+            "q": "Quale parola {ip:vuol} dire «molte volte»?",
+            "options": [
+              "*spesso",
+              "sempre",
+              "mai"
+            ]
+          },
+          {
+            "q": "Quale parola {ip:vuol} dire «qualche volta»?",
+            "options": [
+              "*ogni tanto",
+              "di solito",
+              "quasi mai"
+            ]
+          }
         ]
       }
     ]
@@ -197,137 +205,162 @@
   "vocabulary": {
     "words": [
       [
-        "il mercato",
-        "market"
+        "uscire",
+        "andare fuori di casa"
       ],
       [
-        "il negozio",
-        "shop"
+        "venire",
+        "arrivare qui, dove sono io"
       ],
       [
-        "il tavolo",
-        "table"
+        "stare",
+        "restare in un posto"
       ],
       [
-        "la strada",
-        "street"
+        "cucinare",
+        "preparare da mangiare"
       ],
       [
-        "la piazza",
-        "square"
+        "il fine settimana",
+        "il sabato e la domenica"
       ],
       [
-        "il centro",
-        "centre"
+        "la festa",
+        "si balla e si mangia con gli amici"
       ],
       [
-        "la frutta",
-        "fruit"
+        "la cena",
+        "il pasto della sera"
       ],
       [
-        "la verdura",
-        "vegetables"
+        "il cinema",
+        "qui guardi un film"
       ],
       [
-        "il formaggio",
-        "cheese"
+        "il concerto",
+        "qui ascolti musica dal vivo"
       ],
       [
-        "il regalo",
-        "present"
+        "la palestra",
+        "qui fai sport"
       ],
       [
-        "comprare",
-        "to buy"
+        "stasera",
+        "questa sera"
       ],
       [
-        "tornare",
-        "to return"
+        "sempre",
+        "tutte le volte"
+      ],
+      [
+        "di solito",
+        "quasi sempre"
+      ],
+      [
+        "spesso",
+        "molte volte"
+      ],
+      [
+        "qualche volta, ogni tanto",
+        "non spesso, ma non mai"
+      ],
+      [
+        "quasi mai",
+        "pochissime volte"
+      ],
+      [
+        "mai",
+        "nessuna volta"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il negozio",
-            "shop"
+            "la festa",
+            "si balla e si mangia con gli amici"
           ],
           [
-            "il tavolo",
-            "table"
+            "la palestra",
+            "qui fai sport"
           ],
           [
-            "la strada",
-            "street"
+            "stasera",
+            "questa sera"
           ],
           [
-            "la verdura",
-            "vegetables"
+            "spesso",
+            "molte volte"
           ],
           [
-            "il formaggio",
-            "cheese"
+            "mai",
+            "nessuna volta"
           ],
           [
-            "comprare",
-            "to buy"
+            "cucinare",
+            "preparare da mangiare"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "{ip:Compro} la [[frutta]] al mercato. (fruit)",
-          "Questo [[regalo]] {ip:è} per te. (present)",
-          "Il bar {ip:è} in [[piazza]]. (square)",
-          "[[Torno#ip]] a casa alle otto. (I return)"
+          "Il [[fine settimana]] (sabato e domenica) non {ip:lavoro}.",
+          "{ip:Vado} in [[palestra]] a fare sport.",
+          "Stasera {ip:ascoltiamo} musica dal vivo a un [[concerto]].",
+          "La sera, a [[cena]], {ip:mangio} la pasta.",
+          "{ip:Esci} [[stasera]] o domani sera?"
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Oggi {ip:è} sabato. Prima {ip:vado} al mercato con Anna, in piazza. {ip:Compriamo} la frutta, la verdura e il formaggio per la nonna di Anna.",
-      "Dopo {ip:andiamo} dal fruttivendolo in via Roma, perché le mele del mercato {ip:sono} care. Alle undici {ip:andiamo} al bar e {ip:prendiamo} un caffè. Domani {ip:torno} a Milano in treno, ma adesso {ip:sto} qui con Anna."
+      "Il fine settimana non {ip:lavoro} mai, quindi {ip:sto} poco a casa. Il sabato mattina {ip:vado} spesso in palestra.",
+      "Il sabato sera di solito {ip:esco} con le mie amiche: {ip:andiamo} al cinema o a un concerto. Qualche volta il mio ragazzo, Davide, {ip:viene} con noi.",
+      "La domenica {ip:sto} sempre a casa e {ip:cucino}. Ogni tanto i miei genitori {ip:vengono} a pranzo."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Where is the market?",
+            "q": "Il fine settimana lei {ip:lavora}.",
             "options": [
-              "*In the square",
-              "In Via Roma",
-              "At the station"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Who is the cheese for?",
+            "q": "Il sabato mattina {ip:va} spesso in palestra.",
             "options": [
-              "For the speaker",
-              "*For Anna's grandmother",
-              "For the greengrocer"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Why do they go to the greengrocer?",
+            "q": "Il sabato sera di solito {ip:esce} con le sue amiche.",
             "options": [
-              "He is a friend",
-              "*The market apples are expensive",
-              "The market is closed"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "When does the speaker return to Milan?",
+            "q": "Davide {ip:va} sempre con loro.",
             "options": [
-              "Today",
-              "*Tomorrow",
-              "On Saturday"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La domenica {ip:sta} sempre a casa.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
@@ -337,56 +370,51 @@
   "listening": {
     "transcript": [
       [
-        "Turista",
-        "{imv:Scusi}, dov'{ip:è} la stazione?"
+        "Marta",
+        "Ciao, Luca! Come {ip:stai}?"
       ],
       [
-        "Signora",
-        "{ip:È} in centro, vicino alla piazza."
+        "Luca",
+        "{ip:Sto} bene, grazie. E tu?"
       ],
       [
-        "Turista",
-        "{ip:Vado} a piedi?"
+        "Marta",
+        "Bene! Stasera {ip:esco} con Sara. {ip:Vieni} anche tu?"
       ],
       [
-        "Signora",
-        "No, {ip:è} lontana. {imv:Prenda} l'autobus numero sei, qui davanti al negozio."
+        "Luca",
+        "Stasera non {ip:posso}, {ip:sto} a casa a studiare. Ma sabato {ip:esco} volentieri!"
       ],
       [
-        "Turista",
-        "Grazie mille!"
+        "Marta",
+        "Va bene, sabato {ip:usciamo} insieme alle otto."
       ],
       [
-        "Signora",
-        "Di niente. Buona giornata!"
+        "Luca",
+        "Perfetto, a sabato!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:È} in centro, vicino [[alla]] piazza.",
-          "{ip:Vado} [[a]] piedi?",
-          "{imv:Prenda} l'autobus numero sei, qui davanti [[al]] negozio."
+          "[[Sto#ip]] bene, grazie.",
+          "Stasera [[esco#ip]] con Sara.",
+          "[[Vieni#ip]] anche tu?",
+          "Stasera non {ip:posso}, [[sto#ip]] a casa a studiare."
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The station is close enough to walk.",
+            "q": "Quando {ip:escono} insieme Marta e Luca?",
             "options": [
-              "True",
-              "*False"
-            ]
-          },
-          {
-            "q": "The tourist should take bus number six.",
-            "options": [
-              "*True",
-              "False"
+              "stasera",
+              "*sabato",
+              "domenica"
             ]
           }
         ]
@@ -397,39 +425,59 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "I'm going to the market.",
+            "q": "{ip:Chiedi} a un amico come {ip:sta}.",
             "a": [
-              "Vado al mercato.",
-              "Io vado al mercato."
+              "Come stai?"
             ]
           },
           {
-            "q": "The keys are on the table.",
+            "q": "{ip:Rispondi}: tutto bene, e {ip:ringrazi}.",
             "a": [
-              "Le chiavi sono sul tavolo."
+              "Sto bene, grazie.",
+              "Io sto bene, grazie.",
+              "Sto bene grazie.",
+              "Bene, grazie."
             ]
           },
           {
-            "q": "I live in Italy.",
+            "q": "Quando {ip:uscite} tu e i tuoi amici? (stasera)",
             "a": [
-              "Vivo in Italia.",
-              "Abito in Italia.",
-              "Io vivo in Italia."
+              "Usciamo stasera.",
+              "Stasera usciamo.",
+              "Noi usciamo stasera."
             ]
           },
           {
-            "q": "I'm going to the cinema with Anna.",
+            "q": "{ip:Chiedi} a Marta e Luca se {ip:vengono} alla festa.",
             "a": [
-              "Vado al cinema con Anna."
+              "Venite alla festa?",
+              "Voi venite alla festa?"
             ]
           },
           {
-            "q": "Today I'm working, tomorrow I'm going to Rome.",
+            "q": "{ip:Dici} che non {ip:cucini} nessuna volta.",
             "a": [
-              "Oggi lavoro, domani vado a Roma."
+              "Non cucino mai.",
+              "Io non cucino mai."
+            ]
+          },
+          {
+            "q": "Loro {ip:vanno} al cinema molte volte. (spesso)",
+            "a": [
+              "Vanno spesso al cinema.",
+              "Loro vanno spesso al cinema.",
+              "Spesso vanno al cinema."
+            ]
+          },
+          {
+            "q": "A che ora ti {ip:alzi} quasi sempre? (di solito, alle sette)",
+            "a": [
+              "Di solito mi alzo alle sette.",
+              "Mi alzo di solito alle sette.",
+              "Di solito mi alzo alle 7."
             ]
           }
         ]

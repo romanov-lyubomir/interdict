@@ -5,14 +5,14 @@
   "grammar": {
     "explain": [
       {
-        "h": "Passato prossimo or remoto: three factors"
+        "h": "[pp:Passato prossimo] or [pr:passato remoto]: three factors"
       },
       {
         "table": {
           "head": [
             "Factor",
-            "Passato prossimo",
-            "Passato remoto"
+            "[pp:Passato prossimo]",
+            "[pr:Passato remoto]"
           ],
           "rows": [
             [
@@ -35,7 +35,7 @@
       },
       "Both tenses can appear in one sentence, because a closed event can have effects that last until today: *Mio nonno {pr:partì} nel '50 e non {pp:è} più {pp:tornato}.* The first verb is history, and the second one reaches up to now.",
       {
-        "h": "Uses of the imperfetto you may not expect"
+        "h": "Uses of the [im:imperfetto] you may not expect"
       },
       {
         "table": {
@@ -81,8 +81,8 @@
         "table": {
           "head": [
             "Verb",
-            "Imperfetto",
-            "Passato prossimo"
+            "[im:Imperfetto]",
+            "[pp:Passato prossimo]"
           ],
           "rows": [
             [
@@ -114,9 +114,9 @@
         }
       },
       {
-        "h": "The trapassato remoto"
+        "h": "The [tr:trapassato remoto]"
       },
-      "It's found only in formal narrative, right after *appena*, *dopo che* or *quando*, with a main verb in the *passato remoto*: *Appena {tr:ebbe finito}, {pr:uscì}*. In everyday writing, use *Dopo aver finito, {pr:uscì}*."
+      "It's found only in formal narrative, right after *appena*, *dopo che* or *quando*, with a main verb in the [pr:passato remoto]: *Appena {tr:ebbe finito}, {pr:uscì}*. In everyday writing, use *Dopo aver finito, {pr:uscì}*."
     ]
   },
   "use": {

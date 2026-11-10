@@ -1,0 +1,68 @@
+[
+    {
+        "id": "por-para",
+        "title": "Por y para",
+        "intro": "Both often mean *for*. As a rule of thumb, *por* looks back at the cause or the way, and *para* looks ahead to the goal or the destination.",
+        "body": [
+            {
+                "table": {
+                    "head": ["", "por", "para"],
+                    "rows": [
+                        ["Why", "Cause, reason: *Lo hago **por** ti.* (because of you)", "Goal, purpose: *Lo hago **para** ti.* (for you to have)"],
+                        ["Where", "Through, around: *Paseamos **por** el parque.*", "Destination: *Salgo **para** Madrid.*"],
+                        ["When", "Duration, part of the day: *Estudio **por** la mañana.*", "Deadline: *Lo necesito **para** el lunes.*"],
+                        ["How", "Means: *Te llamo **por** teléfono.*", "Opinion: *Es muy fácil **para** mí.*"],
+                        ["Exchange", "Price, swap: *Lo compré **por** diez euros.*", ""],
+                        ["Who", "Agent of the passive: *Escrito **por** Cervantes.*", "Recipient: *Este regalo es **para** ti.*"]
+                    ]
+                }
+            },
+
+            {"h": "Por"},
+            {
+                "ul": [
+                    "Cause or motive: *Cerraron **por** la lluvia. Gracias **por** todo.*",
+                    "Movement through a place, or somewhere around it: *Entró **por** la ventana. Vive **por** aquí.*",
+                    "A length of time: *Estuve en Roma **por** dos semanas.* In Spain *durante* or no preposition is more usual: *Estuve dos semanas.*",
+                    "A part of the day: *Estudio **por** la mañana, **por** la tarde o **por** la noche.*",
+                    "Means of communication or transport: *Lo envío **por** correo o **por** avión.*",
+                    "Price or exchange: *Te cambio mi libro **por** el tuyo.*",
+                    "On behalf of, in place of: *Hoy trabajo **por** mi compañero.*",
+                    "Rate: *tres veces **por** semana, cien kilómetros **por** hora.*",
+                    "The agent of a passive: *La casa fue construida **por** mi abuelo.*",
+                    "Something still to be done: *La cama está **por** hacer.*"
+                ]
+            },
+
+            {"h": "Para"},
+            {
+                "ul": [
+                    "Purpose, with an infinitive: *Estudio **para** aprender.* With a new subject use *para que* + subjuntivo: *Te lo explico **para que** lo entiendas.*",
+                    "Recipient: *Las flores son **para** mi madre.*",
+                    "Destination: *El tren **para** Sevilla sale a las nueve.*",
+                    "Deadline: *Termínalo **para** mañana.*",
+                    "Opinion: *El español es fácil **para** mí.*",
+                    "Comparison with what is expected: *Hace calor **para** ser invierno.*",
+                    "Use or employer: *una taza **para** el café. Trabaja **para** una empresa alemana.*",
+                    "About to happen, with *estar*: *El tren está **para** salir.*"
+                ]
+            },
+
+            {"h": "The meaning changes"},
+            {
+                "table": {
+                    "head": ["por", "para"],
+                    "rows": [
+                        ["*Trabajo **por** mi hermano.* (in his place)", "*Trabajo **para** mi hermano.* (he is my boss)"],
+                        ["*Pasé **por** Madrid.* (through it)", "*Voy **para** Madrid.* (towards it)"],
+                        ["*Lo hice **por** ella.* (because of her)", "*Lo hice **para** ella.* (so that she has it)"],
+                        ["*Queda mucho **por** hacer.* (still to be done)", "*Es un ejercicio **para** hacer en casa.* (meant to be done at home)"]
+                    ]
+                }
+            },
+
+            {"h": "Set phrases with por"},
+            "**por favor**, **por fin**, **por ejemplo**, **por eso**, **por supuesto**, **por cierto**, **por lo menos**, **por si acaso**, **¿por qué?**"
+        ]
+    }
+]

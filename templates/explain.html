@@ -20,12 +20,104 @@
         margin-bottom: 6px;
     }
 
+    .cell-line + .cell-line {
+        margin-top: 2px;
+    }
+
+    table.bulleted .cell-line + .cell-line {
+        margin-top: 8px;
+    }
+
+    /* In a "bulleted" table each line of a list cell starts with a >, so it's
+       clear where each example begins */
+    table.bulleted td:not(:first-child) > .cell-line {
+        padding-left: 1em;
+        text-indent: -1em;
+    }
+
+    table.bulleted td:not(:first-child) > .cell-line::before {
+        content: ">";
+        display: inline-block;
+        width: 1em;
+        text-indent: 0;
+        color: var(--muted);
+        font-weight: 700;
+    }
+
+    table.bulleted td:first-child > .cell-line + .cell-line {
+        margin-top: 4px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    /* A short explanation under a table */
+    .lesson-section .table-note {
+        margin: -6px 2px 16px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .lesson-section ul.table-note {
+        padding-left: 18px;
+    }
+
+    .lesson-section ul.table-note li {
+        margin-bottom: 3px;
+    }
+
+    .table-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 0 14px;
+        align-items: start;
+    }
+
+    .table-grid > .wide {
+        grid-column: 1 / -1;
+    }
+
+    /* Tighter cells, so two tables fit side by side */
+    .table-grid th,
+    .table-grid td {
+        padding: 8px 10px;
+    }
+
+    /* A table's own title, in a row across all its columns */
+    .table-title th {
+        padding: 10px 12px;
+        background-color: var(--surface-3);
+        font-size: 14px;
+        letter-spacing: .06em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    /* Short entries that read better on one line, such as "29° = ventinovesimo" */
+    table.nowrap td {
+        padding: 7px 9px;
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    td.merged {
+        vertical-align: middle;
+        text-align: center;
+        border-left: 1px solid var(--border);
+    }
+
+    /* The merged cell draws the line along its whole height, so the cell
+       before it doesn't add a second one */
+    td:has(+ td.merged) {
+        border-right: none !important;
+    }
+
     .grammar-heading {
         margin: 18px 0 8px;
         font-size: 17px;
     }
 
     .brace-row th {
+        border-right: none !important;
         padding: 10px 12px 0;
         color: var(--muted);
         font-size: 14px;
@@ -66,25 +158,34 @@
 </style>
 {% endmacro %}
 
-{% macro blocks(items) %}
-{% for block in items %}
-{% if block is string %}
-<p>{{ block | rich }}</p>
-{% elif block.h %}
-<h3 class="grammar-heading">{{ block.h }}</h3>
-{% elif block.ul %}
-<ul>
-    {% for entry in block.ul %}<li>{{ entry | rich }}</li>{% endfor %}
-</ul>
-{% else %}
+{# A cell is a string, or a list of lines. In a "bulleted" table the first
+   column shows its first line as a label and the rest as a note under it #}
+{% macro cell_text(cell) %}
+{% if cell is string %}{{ cell | rich }}{% else %}
+{% for line in cell %}<div class="cell-line">{{ line | rich }}</div>{% endfor %}
+{% endif %}
+{% endmacro %}
+
+{# A cell can also be {"text": ..., "rows": n, "cols": n} to span rows or
+   columns; the cells it covers in the rows below are null #}
+{% macro cell(value) %}
+{% if value is mapping %}<td class="merged" rowspan="{{ value.rows or 1 }}" colspan="{{ value.cols or 1 }}">{{ cell_text(value.text) }}</td>
+{% elif value is not none %}<td>{{ cell_text(value) }}</td>{% endif %}
+{% endmacro %}
+
+{% macro table(block) %}
 <div class="table-scroll">
-    <table>
+    <table class="{% if block.table.bulleted %}bulleted{% endif %}{% if block.table.nowrap %} nowrap{% endif %}">
+        {% if block.table.title %}
+        {% set width = block.table.rows | map("length") | max %}
+        <tr class="table-title"><th colspan="{{ width }}">{{ block.table.title | rich }}</th></tr>
+        {% endif %}
         {% if block.table.groups %}
         <tr class="brace-row">
             {% for label, span in block.table.groups %}
             <th colspan="{{ span }}">
                 {% if label %}
-                {{ label }}
+                {{ label | rich }}
                 <svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true">
                     <path d="M0 12 C0 6 2 6 4 6 L46 6 C48 6 50 6 50 0 C50 6 52 6 54 6 L96 6 C98 6 100 6 100 12"></path>
                 </svg>
@@ -93,12 +194,37 @@
             {% endfor %}
         </tr>
         {% endif %}
-        <tr>{% for cell in block.table.head %}<th>{{ cell | rich }}</th>{% endfor %}</tr>
+        {% if block.table.head %}
+        <tr>{% for heading in block.table.head %}<th>{{ heading | rich }}</th>{% endfor %}</tr>
+        {% endif %}
         {% for row in block.table.rows %}
-        <tr>{% for cell in row %}<td>{{ cell | rich }}</td>{% endfor %}</tr>
+        <tr>{% for value in row %}{{ cell(value) }}{% endfor %}</tr>
         {% endfor %}
     </table>
 </div>
+{% if block.note is string %}<p class="table-note">{{ block.note | rich }}</p>
+{% elif block.note %}<ul class="table-note">{% for line in block.note %}<li>{{ line | rich }}</li>{% endfor %}</ul>{% endif %}
+{% endmacro %}
+
+{% macro blocks(items) %}
+{% for block in items %}
+{% if block is string %}
+<p>{{ block | rich }}</p>
+{% elif block.h %}
+<h3 class="grammar-heading">{{ block.h | rich }}</h3>
+{% elif block.ul %}
+<ul>
+    {% for entry in block.ul %}<li>{{ entry | rich }}</li>{% endfor %}
+</ul>
+{% elif block.grid %}
+{# Small tables side by side when there is room; "wide" ones take a whole row #}
+<div class="table-grid">
+    {% for item in block.grid %}
+    <div{% if item.wide %} class="wide"{% endif %}>{{ table(item) }}</div>
+    {% endfor %}
+</div>
+{% else %}
+{{ table(block) }}
 {% endif %}
 {% endfor %}
 {% endmacro %}

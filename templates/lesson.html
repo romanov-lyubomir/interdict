@@ -39,6 +39,16 @@
         margin-bottom: 12px;
     }
 
+    /* A reading can hold several texts, each with its own title */
+    .reading-title {
+        margin: 22px 0 8px;
+        font-size: 17px;
+    }
+
+    .reading-title:first-of-type {
+        margin-top: 0;
+    }
+
     .reading-text {
         font-size: 18px;
         line-height: 1.7;
@@ -258,7 +268,7 @@
         display: flex;
         justify-content: space-between;
         gap: 12px;
-        margin-top: 22px;
+        margin-top: 18px;
     }
 </style>
 {% endblock %}
@@ -266,9 +276,9 @@
 {% block body %}
 {% macro exercise(ex, id) %}
 <div class="exercise">
-    <h3>{{ ex.prompt }}</h3>
+    <h3>{{ ex.prompt | rich }}</h3>
     {% if ex.type in ("gap", "write") %}
-    <div class="accents" aria-label="Letters with accents">
+    <div class="accents" aria-label="{{ ui.accents }}">
         {% for letter in "àèéìòù" %}<button class="accent" type="button">{{ letter }}</button>{% endfor %}
     </div>
     {% endif %}
@@ -279,7 +289,7 @@
             {%- for part in line -%}
             {%- if part.accepted -%}
             <span class="answer"><input class="field" type="text" spellcheck="false" autocomplete="off" autocapitalize="off"
-                    aria-label="Answer" size="{{ part.width }}" data-accepted='{{ part.accepted | tojson }}'{% if part.tense %} data-tense="{{ part.tense }}"{% endif %}><span class="mark" aria-hidden="true"></span></span>
+                    aria-label="{{ ui.answer }}" size="{{ part.width }}" data-accepted='{{ part.accepted | tojson }}'{% if part.tense %} data-tense="{{ part.tense }}"{% endif %}><span class="mark" aria-hidden="true"></span></span>
             {%- else -%}
             {{ part.text | rich }}
             {%- endif -%}
@@ -304,7 +314,7 @@
         {% for left, right in ex.pairs %}
         <li class="answer match-row">
             <span>{{ left | rich }}</span>
-            <select class="field" aria-label="Translation of {{ left | plain }}" data-accepted='{{ [right] | tojson }}'>
+            <select class="field" aria-label="{{ ui.meaning_of }} {{ left | plain }}" data-accepted='{{ [right] | tojson }}'>
                 <option value=""></option>
                 {% for option in ex.options %}<option>{{ option }}</option>{% endfor %}
             </select>
@@ -325,8 +335,8 @@
         {% endif %}
     </ol>
     <div class="ex-actions">
-        <button class="check" type="button">Check</button>
-        <button class="reveal button-secondary" type="button">Reveal</button>
+        <button class="check" type="button">{{ ui.check }}</button>
+        <button class="reveal button-secondary" type="button">{{ ui.reveal }}</button>
         <span class="ex-status" aria-live="polite"></span>
     </div>
 </div>
@@ -342,15 +352,26 @@
     </svg>
 </a>
 
-<div class="lesson">
+<div class="lesson" data-score="{{ ui.score }}">
     <header class="container shadow lesson-head">
         <span class="level-badge level-{{ level | lower }}">{{ level }}</span>
+        {% if is_reviewed(level, lesson.number) %}<span class="reviewed-mark" title="Already updated (only shown locally)">✓ updated</span>{% endif %}
         <h1>{{ lesson.number }}. {{ lesson.title | rich }}</h1>
-        <p class="subtitle">{{ lesson.translation }}</p>
-        <p class="topics">{{ lesson.topics }}</p>
+        {% if lesson.translation %}<p class="subtitle">{{ lesson.translation }}</p>{% endif %}
+        <p class="topics">{{ lesson.topics | rich }}</p>
+        <div class="lesson-nav">
+            {% if previous %}
+            <a class="button button-secondary" href="{{ url_for('lesson', level=level | lower, number=previous.number) }}">&larr; {{ ui.lesson }} {{ previous.number }}</a>
+            {% else %}<span></span>{% endif %}
+            {% if following %}
+            <a class="button" href="{{ url_for('lesson', level=level | lower, number=following.number) }}">{{ ui.lesson }} {{ following.number }} &rarr;</a>
+            {% else %}
+            <a class="button" href="{{ url_for('lessons', _anchor=level | lower) }}">{{ ui.all_lessons }}</a>
+            {% endif %}
+        </div>
     </header>
 
-    <div class="tabs" role="tablist" aria-label="Parts of this lesson">
+    <div class="tabs" role="tablist" aria-label="{{ ui.parts }}">
         {% for key, label in lesson_sections %}
         <button class="tab" type="button" role="tab" id="tab-{{ key }}" aria-controls="{{ key }}"
             aria-selected="{{ 'true' if loop.first else 'false' }}">{{ label }}</button>
@@ -368,17 +389,21 @@
         {{ explain.blocks(section.explain) }}
         {% elif key == "vocabulary" %}
         <table>
-            <tr><th>{{ user_language | capitalize }}</th><th>English</th></tr>
+            <tr><th>{{ ui.word }}</th><th>{{ ui.meaning }}</th></tr>
             {% for word, translation in section.words %}
             <tr><td>{{ word }}</td><td>{{ translation }}</td></tr>
             {% endfor %}
         </table>
         {% elif key == "reading" %}
         {% for paragraph in section.text %}
+        {% if paragraph is mapping %}
+        <h3 class="reading-title">{{ paragraph.h | rich }}</h3>
+        {% else %}
         <p class="reading-text">{{ paragraph | rich }}</p>
+        {% endif %}
         {% endfor %}
         {% elif key == "listening" %}
-        <p class="audio-note">The audio is coming soon. For now, read the transcript.</p>
+        <p class="audio-note">{{ ui.audio_note }}</p>
         <div class="transcript">
             {% for speaker, line in section.transcript %}
             <p><b>{{ speaker }}:</b> {{ line | rich }}</p>
@@ -392,16 +417,6 @@
     </section>
     {% endfor %}
 
-    <div class="lesson-nav">
-        {% if previous %}
-        <a class="button button-secondary" href="{{ url_for('lesson', level=level | lower, number=previous.number) }}">&larr; Lesson {{ previous.number }}</a>
-        {% else %}<span></span>{% endif %}
-        {% if following %}
-        <a class="button" href="{{ url_for('lesson', level=level | lower, number=following.number) }}">Lesson {{ following.number }} &rarr;</a>
-        {% else %}
-        <a class="button" href="{{ url_for('lessons', _anchor=level | lower) }}">All lessons</a>
-        {% endif %}
-    </div>
 </div>
 <script src="{{ url_for('static', filename='lesson.js') }}"></script>
 <script src="{{ url_for('static', filename='tabs.js') }}"></script>

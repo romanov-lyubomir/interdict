@@ -1,13 +1,13 @@
 {
   "title": "{im:Pensavo} che {csi:fosse} Perugia",
   "translation": "I thought it was Perugia",
-  "topics": "The congiuntivo imperfetto and the sequence of tenses",
+  "topics": "The [csi:congiuntivo imperfetto] and the sequence of tenses",
   "grammar": {
     "explain": [
       {
         "h": "When the main verb moves to the past"
       },
-      "After a main verb in the past, the part with *che* moves to the *congiuntivo imperfetto*. *{ip:Penso} che {csp:sia} Perugia* becomes *{im:Pensavo} che {csi:fosse} Perugia*.",
+      "After a main verb in the past, the part with *che* moves to the [csi:congiuntivo imperfetto]. *{ip:Penso} che {csp:sia} Perugia* becomes *{im:Pensavo} che {csi:fosse} Perugia*.",
       {
         "table": {
           "head": [
@@ -29,7 +29,7 @@
           ]
         }
       },
-      "The form in the last cell is the *congiuntivo trapassato*: the auxiliary in the *congiuntivo imperfetto* with the participle. *{im:Pensavo} che {cst:avesse capito}* (I thought he had understood).",
+      "The form in the last cell is the [cst:congiuntivo trapassato]: the auxiliary in the [csi:congiuntivo imperfetto] with the participle. *{im:Pensavo} che {cst:avesse capito}* (I thought he had understood).",
       {
         "h": "How to form it"
       },
@@ -85,7 +85,7 @@
       {
         "h": "The few irregular verbs"
       },
-      "*Fare*, *bere* and *dire* use the long stems you already know from the *imperfetto*: *{csi:facessi}, {csi:bevessi}, {csi:dicessi}*. Only three are special.",
+      "*Fare*, *bere* and *dire* use the long stems you already know from the [im:imperfetto]: *{csi:facessi}, {csi:bevessi}, {csi:dicessi}*. Only three are special.",
       {
         "table": {
           "head": [
@@ -144,7 +144,7 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the congiuntivo imperfetto.",
+        "prompt": "Put the verb in the [csi:congiuntivo imperfetto].",
         "questions": [
           "{im:Pensavo} che [[fosse#csi]] Perugia. (essere)",
           "{im:Credevo} che tu [[parlassi#csi]] tedesco. (parlare)",
@@ -156,7 +156,7 @@
       },
       {
         "type": "gap",
-        "prompt": "These verbs are irregular. Put them in the congiuntivo imperfetto.",
+        "prompt": "These verbs are irregular. Put them in the [csi:congiuntivo imperfetto].",
         "questions": [
           "{im:Pensavo} che Luca [[facesse#csi]] il medico. (fare)",
           "{im:Credevo} che tu [[stessi#csi]] bene. (stare)",

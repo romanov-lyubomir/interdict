@@ -7,7 +7,7 @@
       {
         "h": "Tenses as narrative lighting"
       },
-      "In narrative, the choice of tense decides what stands in the light. The *imperfetto* lays out the scene, the *passato remoto* moves the action forward and the *trapassato* opens a window onto what came before.",
+      "In narrative, the choice of tense decides what stands in the light. The [im:imperfetto] lays out the scene, the [pr:passato remoto] moves the action forward and the *trapassato* opens a window onto what came before.",
       {
         "table": {
           "head": [
@@ -18,22 +18,22 @@
           "rows": [
             [
               "Scene",
-              "Imperfetto",
+              "[im:Imperfetto]",
               "{im:Era} già sera e {im:pioveva}."
             ],
             [
               "Event in the foreground",
-              "Passato remoto",
+              "[pr:Passato remoto]",
               "{pr:Giunse} la lettera."
             ],
             [
               "Flashback",
-              "Trapassato prossimo",
+              "[tp:Trapassato prossimo]",
               "L'{tp:aveva scritta} suo padre."
             ],
             [
               "Immediately before, formal",
-              "Trapassato remoto",
+              "[tr:Trapassato remoto]",
               "Appena l'{tr:ebbe letta}, {pr:uscì}."
             ]
           ]
@@ -59,7 +59,7 @@
             ],
             [
               "Alle sei, il treno {im:deragliava}.",
-              "The narrative imperfetto: as if we were watching."
+              "The narrative [im:imperfetto]: as if we were watching."
             ],
             [
               "Alle sei il treno {ip:deraglia}.",
@@ -71,22 +71,22 @@
       {
         "h": "Leaving a flashback"
       },
-      "A long flashback in the *trapassato* quickly becomes heavy. Writers often open it with one or two *trapassati*, and then continue in the *passato remoto*, trusting the reader to follow.",
+      "A long flashback in the *trapassato* quickly becomes heavy. Writers often open it with one or two *trapassati*, and then continue in the [pr:passato remoto], trusting the reader to follow.",
       {
         "h": "Mixing with intent"
       },
-      "Moving from the *passato remoto* to the *passato prossimo* brings a story up to the narrator's present. It's a powerful effect, but it must be deliberate: *{pr:Partì} senza voltarsi. Non l'{pp:ho} più {pp:rivisto}.*",
+      "Moving from the [pr:passato remoto] to the [pp:passato prossimo] brings a story up to the narrator's present. It's a powerful effect, but it must be deliberate: *{pr:Partì} senza voltarsi. Non l'{pp:ho} più {pp:rivisto}.*",
       {
         "h": "Verbs of state in the foreground"
       },
-      "A verb of state in the *imperfetto* describes, and in the *passato remoto* it marks a limit or a change. *{pr:Fu} felice* suggests a completed period of happiness, whereas *{im:Era} felice* describes how things were."
+      "A verb of state in the [im:imperfetto] describes, and in the [pr:passato remoto] it marks a limit or a change. *{pr:Fu} felice* suggests a completed period of happiness, whereas *{im:Era} felice* describes how things were."
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Restore the tenses of this narrative: imperfetto, passato remoto or trapassato.",
+        "prompt": "Restore the tenses of this narrative: [im:imperfetto], [pr:passato remoto] or trapassato.",
         "questions": [
           "[[Era#im]] già sera quando [[giunse#pr]] la lettera. (essere; giungere)",
           "La [[aveva scritta#tp]] suo padre, anni prima. (scrivere, flashback)",
@@ -138,7 +138,7 @@
         "prompt": "Rewrite in the tense given.",
         "questions": [
           {
-            "q": "Il treno {pr:deragliò} alle sei. (narrative imperfetto)",
+            "q": "Il treno {pr:deragliò} alle sei. (narrative [im:imperfetto])",
             "a": [
               "Il treno deragliava alle sei.",
               "Alle sei, il treno deragliava.",
@@ -277,9 +277,9 @@
           {
             "q": "Which tense opens the flashback?",
             "options": [
-              "Passato remoto",
-              "*Trapassato prossimo",
-              "Presente"
+              "[pr:Passato remoto]",
+              "*[tp:Trapassato prossimo]",
+              "[ip:Presente]"
             ]
           },
           {
@@ -363,20 +363,20 @@
         "prompt": "Write in Italian.",
         "questions": [
           {
-            "q": "It was already evening when the letter arrived. (use giungere, passato remoto)",
+            "q": "It was already evening when the letter arrived. (use giungere, [pr:passato remoto])",
             "a": [
               "Era già sera quando giunse la lettera."
             ]
           },
           {
-            "q": "As soon as he had read it, he left. (a letter, trapassato remoto)",
+            "q": "As soon as he had read it, he left. (a letter, [tr:trapassato remoto])",
             "a": [
               "Appena l'ebbe letta, uscì.",
               "Appena l'ebbe letta, partì."
             ]
           },
           {
-            "q": "He left without turning round. I have never seen him again. (passato remoto, then passato prossimo)",
+            "q": "He left without turning round. I have never seen him again. ([pr:passato remoto], then [pp:passato prossimo])",
             "a": [
               "Partì senza voltarsi. Non l'ho più rivisto.",
               "Se ne andò senza voltarsi. Non l'ho più rivisto."

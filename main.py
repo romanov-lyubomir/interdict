@@ -173,6 +173,18 @@ def load_cheat_sheet(lang):
 
 CHEAT_SHEETS = {lang: load_cheat_sheet(lang) for lang in LANGUAGES}
 
+
+# Further sheets on one grammar topic each, shown as their own tabs
+def load_extra_sheets(lang):
+    path = os.path.join(DATA_DIR, lang, "extra_sheets.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as sheets_file:
+        return json.load(sheets_file)
+
+
+EXTRA_SHEETS = {lang: load_extra_sheets(lang) for lang in LANGUAGES}
+
 with open(os.path.join(DATA_DIR, "moods_across_languages.json"), encoding="utf-8") as across_file:
     MOODS_ACROSS_LANGUAGES = json.load(across_file)
 
@@ -237,6 +249,17 @@ def get_lang():
     return session.get("language")
 
 
+def safe_next():
+    # The page to return to after logging in or signing up. Only paths on
+    # this site are accepted, so the link can't send people elsewhere
+    target = request.values.get("next", "")
+    # Browsers ignore tabs and newlines and read \ as /, which could turn
+    # "/\t/evil.com" or "/\evil.com" into a link to another site
+    if any(char in target for char in "\\\t\r\n") or not target.startswith("/") or target.startswith("//"):
+        return None
+    return target
+
+
 def not_logged_in(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
@@ -274,25 +297,54 @@ def inject_language():
     return dict(user_language=get_lang(), languages=LANGUAGES)
 
 
+def load_reviewed(lang):
+    # The lessons already brought up to date, as {level: {numbers}}
+    path = os.path.join(DATA_DIR, lang, "lessons", "reviewed.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as reviewed_file:
+        data = json.load(reviewed_file)
+    return {level: set(numbers) for level, numbers in data.items() if not level.startswith("_")}
+
+
+REVIEWED_LESSONS = {lang: load_reviewed(lang) for lang in LANGUAGES}
+LOCAL_HOSTS = {"localhost", "127.0.0.1", "::1", "[::1]"}
+
+
+@app.context_processor
+def inject_reviewed():
+    # A temporary mark on the lessons already updated. It only shows on a
+    # local development server, never on the deployed site
+    def is_reviewed(level, number):
+        if request.host.rsplit(":", 1)[0] not in LOCAL_HOSTS:
+            return False
+        return number in REVIEWED_LESSONS.get(get_lang(), {}).get(level.upper(), set())
+
+    return dict(is_reviewed=is_reviewed)
+
+
 @app.template_filter("format")
 def format(string_to_format):
     return string_to_format.replace("_", " ").capitalize()
 
 
 TENSE_MARK = re.compile(r"\{(\w+):([^{}]+)\}")
+# A tense named in the text, [tag:name], boxed as on the Verb tenses sheet
+TENSE_NAME = re.compile(r"\[(\w+):([^\[\]]+)\]")
 
 
 @app.template_filter("plain")
 def plain(text):
-    # The text of a verb without its tense mark
-    return TENSE_MARK.sub(r"\2", text)
+    # The text without its tense marks
+    return TENSE_NAME.sub(r"\2", TENSE_MARK.sub(r"\2", text))
 
 
 @app.template_filter("rich")
 def rich(text):
-    # Turns {tag:form} into a verb in its tense's style, **text** into
-    # highlighted text and *text* into italics
+    # Turns {tag:form} into a verb in its tense's style, [tag:name] into a
+    # boxed tense name, **text** into highlighted text and *text* into italics
     tensed = TENSE_MARK.sub(r'<span class="t-\1">\2</span>', str(escape(text)))
+    tensed = TENSE_NAME.sub(r'<span class="tense-name tn-\1"><span class="t-\1">\2</span></span>', tensed)
     underlined = re.sub(r"\*\*(.+?)\*\*", r"<u>\1</u>", tensed)
     return Markup(re.sub(r"\*(.+?)\*", r"<i>\1</i>", underlined))
 
@@ -367,6 +419,7 @@ def cheat_sheets():
     return render_template(
         "cheat_sheets.html",
         sheet=CHEAT_SHEETS.get(get_lang()),
+        extra_sheets=EXTRA_SHEETS.get(get_lang(), []),
         across=MOODS_ACROSS_LANGUAGES,
         current_user=current_user,
     )
@@ -408,9 +461,10 @@ def lesson(level, number):
         "lesson.html",
         lesson=level_lessons[position],
         level=level,
+        ui=grammar_lessons.ui_for(get_lang()),
         lesson_sections=[
-            (key, label.format(language=get_lang().capitalize()))
-            for key, label in grammar_lessons.SECTIONS
+            (key, grammar_lessons.ui_for(get_lang())["sections"][key])
+            for key, _ in grammar_lessons.SECTIONS
         ],
         previous=level_lessons[position - 1] if position else None,
         following=level_lessons[position + 1] if position + 1 < len(level_lessons) else None,
@@ -988,31 +1042,31 @@ def register():
 
         if functions.empty(email, username, password):
             flash("Don't leave fields empty!")
-            return redirect(url_for("register"))
+            return redirect(url_for("register", next=safe_next()))
 
         if not functions.is_valid_email(email):
             flash("Please enter a valid email address.")
-            return redirect(url_for("register"))
+            return redirect(url_for("register", next=safe_next()))
 
         if not functions.has_only_allowed_symbols(username):
             flash("Usernames can only contain letters, numbers and _.")
-            return redirect(url_for("register"))
+            return redirect(url_for("register", next=safe_next()))
 
         if len(password) < MIN_PASSWORD_LENGTH:
             flash(f"Your password must be at least {MIN_PASSWORD_LENGTH} characters.")
-            return redirect(url_for("register"))
+            return redirect(url_for("register", next=safe_next()))
 
         if language not in LANGUAGES:
             flash("Please choose a language.")
-            return redirect(url_for("register"))
+            return redirect(url_for("register", next=safe_next()))
 
         if User.query.filter_by(email=email).first():
             flash("You've already signed up with that email, log in instead!")
-            return redirect(url_for("register"))
+            return redirect(url_for("register", next=safe_next()))
 
         if User.query.filter_by(username=username).first():
             flash("That username is taken, please choose another one.")
-            return redirect(url_for("register"))
+            return redirect(url_for("register", next=safe_next()))
 
         new_user = User(
             email=email,
@@ -1026,9 +1080,9 @@ def register():
         except IntegrityError:
             db.session.rollback()
             flash("That email or username is already taken.")
-            return redirect(url_for("register"))
+            return redirect(url_for("register", next=safe_next()))
         login_user(new_user, remember=True)
-        return redirect(url_for("index"))
+        return redirect(safe_next() or url_for("index"))
 
     return render_template("register.html", current_user=current_user)
 
@@ -1068,12 +1122,12 @@ def login():
 
         if not user:
             flash("Profile not found!")
-            return redirect(url_for("login"))
+            return redirect(url_for("login", next=safe_next()))
         if not check_password_hash(user.password, password):
             flash("Password incorrect, please try again.")
-            return redirect(url_for("login"))
+            return redirect(url_for("login", next=safe_next()))
         login_user(user, remember=True)
-        return redirect(url_for("index"))
+        return redirect(safe_next() or url_for("index"))
     return render_template("login.html", current_user=current_user)
 
 

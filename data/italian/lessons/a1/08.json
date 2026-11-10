@@ -1,98 +1,174 @@
 {
-  "title": "Mi {ip:sveglio} sempre alle sette",
-  "translation": "I always wake up at seven",
-  "topics": "Reflexive verbs, the time, the date, the weather and words of frequency",
+  "title": "Quanto tempo ci {ip:vuole}?",
+  "translation": "",
+  "topics": "I verbi in -care e -gare, volerci e metterci, i pronomi diretti, la casa",
   "grammar": {
     "explain": [
-      "Reflexive verbs end in *-si* in the infinitive and use a reflexive pronoun before the verb.",
+      "Come la grafia conserva un suono, come dire quanto tempo ci vuole e le piccole parole che sostituiscono un nome già detto.",
       {
-        "table": {
-          "head": [
-            "",
-            "chiamarsi (be called)",
-            "svegliarsi (wake up)",
-            "vestirsi (get dressed)"
-          ],
-          "rows": [
-            [
-              "io",
-              "**mi** {ip:chiamo}",
-              "**mi** {ip:sveglio}",
-              "**mi** {ip:vesto}"
-            ],
-            [
-              "tu",
-              "**ti** {ip:chiami}",
-              "**ti** {ip:svegli}",
-              "**ti** {ip:vesti}"
-            ],
-            [
-              "lui / lei",
-              "**si** {ip:chiama}",
-              "**si** {ip:sveglia}",
-              "**si** {ip:veste}"
-            ],
-            [
-              "noi",
-              "**ci** {ip:chiamiamo}",
-              "**ci** {ip:svegliamo}",
-              "**ci** {ip:vestiamo}"
-            ],
-            [
-              "voi",
-              "**vi** {ip:chiamate}",
-              "**vi** {ip:svegliate}",
-              "**vi** {ip:vestite}"
-            ],
-            [
-              "loro",
-              "**si** {ip:chiamano}",
-              "**si** {ip:svegliano}",
-              "**si** {ip:vestono}"
+        "grid": [
+          {
+            "table": {
+              "title": "Il verbo *giocare*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:gioco}",
+                  {
+                    "text": "a tennis.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:gioc**h**i}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:gioca}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:gioc**h**iamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:giocate}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:giocano}",
+                  null
+                ]
+              ]
+            }
+          },
+          {
+            "table": {
+              "title": "Il verbo *spiegare*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:spiego}",
+                  {
+                    "text": "la lezione.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:spieg**h**i}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:spiega}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:spieg**h**iamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:spiegate}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:spiegano}",
+                  null
+                ]
+              ]
+            }
+          },
+          {
+            "wide": true,
+            "table": {
+              "rows": [
+                [
+                  "**ca, co, cu** → suono duro, come in *gioco*",
+                  "**ce, ci** → suono morbido, come in *ciao*",
+                  "**che, chi** → suono duro, come in *giochi*"
+                ],
+                [
+                  "**ga, go, gu** → suono duro, come in *spiego*",
+                  "**ge, gi** → suono morbido, come in *gelato*",
+                  "**ghe, ghi** → suono duro, come in *spieghi*"
+                ]
+              ]
+            },
+            "note": [
+              "*C* e *g* hanno un suono duro davanti ad *a, o, u*, ma morbido davanti ad *e* e *i*.",
+              "Le finali *-i* e *-iamo* li renderebbero morbidi, quindi i verbi in *-care* e *-gare* aggiungono una **h** per conservare il suono dell'infinito: *gioco → giochi*, non *gioci*; *spiego → spieghi*, non *spiegi*.",
+              "Lo stesso succede con *cercare* (*cerchi*), *pagare* (*paghi*) e tutti gli altri verbi in *-care* e *-gare*."
             ]
-          ]
-        }
-      },
-      "*Non* comes before the pronoun: *Non mi {ip:sveglio} presto.*",
-      "To ask the time: *Che ore {ip:sono}?* Use *{ip:sono} le* with hours and *{ip:è}* with one, noon and midnight: *{ip:Sono} le tre. {ip:È} l'una. {ip:È} mezzogiorno. {ip:È} mezzanotte.* Add minutes with *e* and *meno*: *{ip:Sono} le sette e mezza. {ip:Sono} le otto meno un quarto.* At a time: *alle sette, all'una*.",
-      "Dates: *il 5 maggio*, but the first of the month is *il primo maggio*. Weather: *{ip:Fa} caldo. {ip:Fa} freddo. {ip:Fa} bello. {ip:Piove}. Nevica. C'{ip:è} il sole.*",
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "sempre",
-              "always"
-            ],
-            [
-              "spesso",
-              "often"
-            ],
-            [
-              "qualche volta",
-              "sometimes"
-            ],
-            [
-              "non… mai",
-              "never: *Non {ip:bevo} mai caffè.*"
-            ],
-            [
-              "molto",
-              "very, a lot"
-            ],
-            [
-              "abbastanza",
-              "quite, enough"
-            ],
-            [
-              "poco",
-              "little, not much"
+          },
+          {
+            "table": {
+              "title": "Il verbo *volerci*",
+              "rows": [
+                [
+                  "Quanto tempo **ci {ip:vuole}** per andare in centro?"
+                ],
+                [
+                  "**Ci {ip:vuole}** un'ora."
+                ],
+                [
+                  "**Ci {ip:vogliono}** dieci minuti."
+                ]
+              ]
+            },
+            "note": "*Ci vuole* dice quanto tempo serve in generale. Va con una cosa sola (*ci vuole un'ora*), *ci vogliono* con più di una (*ci vogliono dieci minuti*)."
+          },
+          {
+            "table": {
+              "title": "Il verbo *metterci*",
+              "rows": [
+                [
+                  "Quanto tempo **ci {ip:metti}** per arrivare a scuola?"
+                ],
+                [
+                  "**Ci {ip:metto}** venti minuti."
+                ]
+              ]
+            },
+            "note": "*Metterci* dice quanto tempo serve a una persona, quindi cambia con la persona: *ci metto, ci metti, ci mette, ci mettiamo, ci mettete, ci mettono*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I pronomi diretti",
+              "rows": [
+                [
+                  "Dove {ip:mettiamo} **il tavolo**?",
+                  "**Lo** {ip:mettiamo} in cucina."
+                ],
+                [
+                  "Dove {ip:mettiamo} **la lampada**?",
+                  "**La** {ip:possiamo} mettere accanto al letto."
+                ],
+                [
+                  "Dove {ip:mettiamo} **i libri**?",
+                  "**Li** {ip:possiamo} mettere accanto alla finestra."
+                ],
+                [
+                  "Dove {ip:mettiamo} **le sedie**?",
+                  "**Le** {ip:mettiamo} intorno al tavolo."
+                ]
+              ]
+            },
+            "note": [
+              "**Lo**, **la**, **li** e **le** sostituiscono un nome che non vuoi ripetere. Si accordano con il nome nel genere e nel numero.",
+              "Vanno prima del verbo: *lo mettiamo*. Con *potere, dovere* e *volere* possono anche unirsi all'infinito: *la possiamo mettere* oppure *possiamo metterla*."
             ]
-          ]
-        }
+          }
+        ]
       }
     ]
   },
@@ -100,70 +176,73 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete with the reflexive pronoun: mi, ti, si, ci or vi.",
+        "prompt": "Scrivi la forma giusta del verbo. Ricorda la h.",
         "questions": [
-          "Io [[mi]] {ip:chiamo} Luca.",
-          "Tu [[ti]] {ip:svegli} presto.",
-          "Anna [[si]] {ip:veste}.",
-          "Noi [[ci]] {ip:alziamo} alle otto.",
-          "Voi [[vi]] {ip:lavate}.",
-          "Loro [[si]] {ip:chiamano} Paolo e Sara."
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Put the reflexive verb in the right form.",
-        "questions": [
-          "Marco [[si sveglia#ip]] alle sei. (svegliarsi)",
-          "Io [[mi alzo#ip]] tardi. (alzarsi)",
-          "Come [[ti chiami#ip]]? (chiamarsi)",
-          "Noi [[ci vestiamo#ip]] in fretta. (vestirsi)"
+          "Tu [[giochi#ip]] a calcio? (giocare)",
+          "Noi [[giochiamo#ip]] a tennis. (giocare)",
+          "Tu [[paghi#ip]] il conto? (pagare)",
+          "Noi [[paghiamo#ip]] l'affitto. (pagare)",
+          "Tu [[cerchi#ip]] le chiavi? (cercare)",
+          "Voi [[cercate#ip]] casa? (cercare)",
+          "L'insegnante [[spiega#ip]] la lezione. (spiegare)",
+          "Noi [[spieghiamo#ip]] tutto. (spiegare)"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Ci vuole o ci vogliono?",
         "questions": [
           {
-            "q": "It is 1:00.",
+            "q": "___ un'ora.",
             "options": [
-              "{ip:Sono} le una.",
-              "*{ip:È} l'una.",
-              "{ip:È} una."
+              "*Ci vuole",
+              "Ci vogliono"
             ]
           },
           {
-            "q": "It is 7:30.",
+            "q": "___ due ore.",
             "options": [
-              "*{ip:Sono} le sette e mezza.",
-              "{ip:È} sette e mezza.",
-              "{ip:Sono} sette mezza."
+              "Ci vuole",
+              "*Ci vogliono"
             ]
           },
           {
-            "q": "It is hot.",
+            "q": "___ dieci minuti.",
             "options": [
-              "{ip:È} caldo.",
-              "{ip:Ha} caldo.",
-              "*{ip:Fa} caldo."
+              "Ci vuole",
+              "*Ci vogliono"
             ]
           },
           {
-            "q": "May 1st",
+            "q": "___ mezz'ora.",
             "options": [
-              "*il primo maggio",
-              "il uno maggio",
-              "la prima maggio"
-            ]
-          },
-          {
-            "q": "I never drink coffee.",
-            "options": [
-              "{ip:Bevo} mai caffè.",
-              "*Non {ip:bevo} mai caffè.",
-              "Mai non {ip:bevo} caffè."
+              "*Ci vuole",
+              "Ci vogliono"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta di metterci.",
+        "questions": [
+          "Io [[ci metto#ip]] venti minuti.",
+          "Quanto tempo [[ci metti#ip]] tu?",
+          "Lui [[ci mette#ip]] un'ora.",
+          "Noi [[ci mettiamo#ip]] poco.",
+          "Loro [[ci mettono#ip]] molto."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi lo, la, li o le.",
+        "questions": [
+          "Dove {ip:metti} il libro? [[Lo]] {ip:metto} qui.",
+          "{ip:Compri} la pizza? Sì, [[la]] {ip:compro}.",
+          "Dove {ip:sono} i bambini? Non [[li]] {ip:vedo}.",
+          "{ip:Leggi} le riviste? Sì, [[le]] {ip:leggo}.",
+          "{ip:Conosci} Marco? Sì, [[lo]] {ip:conosco}.",
+          "{ip:Vuoi} la torta? Sì, [[la]] {ip:voglio}."
         ]
       }
     ]
@@ -171,133 +250,170 @@
   "vocabulary": {
     "words": [
       [
-        "svegliarsi",
-        "to wake up"
+        "giocare",
+        "fare un gioco o uno sport"
       ],
       [
-        "alzarsi",
-        "to get up"
+        "pagare",
+        "dare i soldi per una cosa"
       ],
       [
-        "lavarsi",
-        "to wash"
+        "cercare",
+        "provare a trovare"
       ],
       [
-        "vestirsi",
-        "to get dressed"
+        "spiegare",
+        "far capire una cosa"
+      ],
+      [
+        "mettere",
+        "portare una cosa in un posto"
+      ],
+      [
+        "l'affitto",
+        "i soldi che paghi ogni mese per la casa"
+      ],
+      [
+        "il divano",
+        "ci stai seduto in due o tre"
+      ],
+      [
+        "la poltrona",
+        "ci stai seduto da solo, è comoda"
+      ],
+      [
+        "la libreria",
+        "un mobile per i libri"
+      ],
+      [
+        "il quadro",
+        "un dipinto sulla parete"
+      ],
+      [
+        "la lampada",
+        "fa luce"
+      ],
+      [
+        "il letto",
+        "ci dormi"
+      ],
+      [
+        "la porta",
+        "da qui entri in una stanza"
+      ],
+      [
+        "la parete",
+        "il muro di una stanza"
+      ],
+      [
+        "i mobili",
+        "tavoli, sedie, letti, armadi…"
+      ],
+      [
+        "quanto tempo?",
+        "per chiedere ore e minuti"
       ],
       [
         "l'ora",
-        "hour"
+        "sessanta minuti"
       ],
       [
-        "la mattina",
-        "morning"
+        "mezz'ora",
+        "trenta minuti"
       ],
       [
-        "il pomeriggio",
-        "afternoon"
-      ],
-      [
-        "la sera",
-        "evening"
-      ],
-      [
-        "la notte",
-        "night"
-      ],
-      [
-        "lunedì",
-        "Monday"
-      ],
-      [
-        "la domenica",
-        "Sunday"
-      ],
-      [
-        "piovere",
-        "to rain"
+        "il minuto",
+        "sessanta secondi"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "alzarsi",
-            "to get up"
+            "il divano",
+            "ci stai seduto in due o tre"
           ],
           [
-            "lavarsi",
-            "to wash"
+            "la poltrona",
+            "ci stai seduto da solo, è comoda"
           ],
           [
-            "il pomeriggio",
-            "afternoon"
+            "la libreria",
+            "un mobile per i libri"
           ],
           [
-            "la sera",
-            "evening"
+            "l'affitto",
+            "i soldi che paghi ogni mese per la casa"
           ],
           [
-            "la notte",
-            "night"
+            "la parete",
+            "il muro di una stanza"
           ],
           [
-            "piovere",
-            "to rain"
+            "mezz'ora",
+            "trenta minuti"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "La [[mattina]] {ip:bevo} un caffè. (morning)",
-          "[[Lunedì]] {ip:vado} al lavoro. (Monday)",
-          "{ip:Vado} in palestra [[spesso]]. (often)",
-          "A gennaio [[fa#ip]] freddo. (it is, for weather)"
+          "Il [[quadro]] {ip:è} sulla parete.",
+          "La [[lampada]] accanto al letto {ip:fa} luce.",
+          "Il treno {ip:parte} tra dieci [[minuti]].",
+          "Ci {ip:vogliono} sessanta minuti: ci {ip:vuole} un'[[ora]].",
+          "{ip:Entriamo} dalla [[porta]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Mi {ip:chiamo} Giulia e {ip:faccio} l'infermiera. Mi {ip:sveglio} sempre alle sei e mezza. Mi {ip:lavo}, mi {ip:vesto} e {ip:faccio} colazione. Alle sette e un quarto {ip:prendo} l'autobus.",
-      "{ip:Finisco} di lavorare alle tre. Il pomeriggio {ip:vado} spesso in palestra, ma quando {ip:piove} {ip:resto} a casa. La sera {ip:ceno} con mio marito e ci {ip:addormentiamo} presto. La domenica non mi {ip:sveglio} mai prima delle nove!"
+      "Luca e io {ip:cerchiamo} casa da un mese. Finalmente {ip:troviamo} un appartamento vicino al centro: non {ip:paghiamo} molto di affitto e {ip:è} molto luminoso.",
+      "Per andare al lavoro ci {ip:vuole} poco: io ci {ip:metto} dieci minuti a piedi, Luca ci {ip:mette} venti minuti in autobus.",
+      "Oggi {ip:arrivano} i mobili. Il divano? Lo {ip:mettiamo} davanti alla finestra. La libreria? La {ip:mettiamo} accanto alla porta. E i quadri? Li {ip:mettiamo} domani!"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Giulia wakes up at 6:30.",
+            "q": "L'appartamento {ip:è} vicino al centro.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "She takes the bus at 7:45.",
+            "q": "L'affitto {ip:è} alto.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "When it rains, she stays at home.",
+            "q": "Lei {ip:va} al lavoro a piedi in dieci minuti.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "On Sundays she gets up before nine.",
+            "q": "Luca {ip:va} al lavoro a piedi.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Oggi {ip:mettono} i quadri sulla parete.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           }
         ]
@@ -307,51 +423,50 @@
   "listening": {
     "transcript": [
       [
-        "Paolo",
-        "Che ore {ip:sono}?"
+        "Anna",
+        "Ciao, Marco! {ip:Giochi} a tennis sabato?"
       ],
       [
-        "Sara",
-        "{ip:Sono} le otto meno dieci."
+        "Marco",
+        "Sì, ma il campo {ip:è} lontano. Quanto tempo ci {ip:vuole}?"
       ],
       [
-        "Paolo",
-        "Di già? {ip:Devo} andare! Che tempo fa?"
+        "Anna",
+        "Ci {ip:vogliono} venti minuti in macchina."
       ],
       [
-        "Sara",
-        "{ip:Fa} freddo e {ip:piove}."
+        "Marco",
+        "Va bene. E chi {ip:paga} il campo?"
       ],
       [
-        "Paolo",
-        "A che ora {ip:torni} stasera?"
+        "Anna",
+        "Lo {ip:paghiamo} insieme!"
       ],
       [
-        "Sara",
-        "{ip:Torno} alle sette. Oggi {ip:è} il due marzo, {ip:è} il compleanno di Luca!"
+        "Marco",
+        "Perfetto, a sabato!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:Sono} le otto [[meno]] dieci.",
-          "Che tempo [[fa]]?",
-          "{ip:Fa} freddo e [[piove#ip]].",
-          "{ip:Torno} [[alle]] sette."
+          "Ciao, Marco! [[Giochi#ip]] a tennis sabato?",
+          "Ci [[vogliono#ip]] venti minuti in macchina.",
+          "[[Lo]] [[paghiamo#ip]] insieme!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "What is the date today?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Today is…",
+            "q": "Quanto tempo ci {ip:vuole} per arrivare al campo?",
             "options": [
-              "*March 2nd",
-              "March 1st",
-              "February 3rd"
+              "dieci minuti",
+              "*venti minuti",
+              "un'ora"
             ]
           }
         ]
@@ -362,39 +477,54 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "I always wake up at seven.",
+            "q": "{ip:Chiedi} a un amico se {ip:gioca} a calcio.",
             "a": [
-              "Mi sveglio sempre alle sette.",
-              "Io mi sveglio sempre alle sette."
+              "Giochi a calcio?",
+              "Tu giochi a calcio?"
             ]
           },
           {
-            "q": "What time is it?",
+            "q": "Che cosa {ip:pagate} ogni mese tu e Luca? (l'affitto)",
             "a": [
-              "Che ore sono?",
-              "Che ora è?"
+              "Paghiamo l'affitto.",
+              "Noi paghiamo l'affitto."
             ]
           },
           {
-            "q": "It is three o'clock.",
+            "q": "{ip:Chiedi} quanto tempo {ip:serve}.",
             "a": [
-              "Sono le tre."
+              "Quanto tempo ci vuole?"
             ]
           },
           {
-            "q": "It is cold.",
+            "q": "{ip:Rispondi}: sessanta minuti.",
             "a": [
-              "Fa freddo."
+              "Ci vuole un'ora."
             ]
           },
           {
-            "q": "We often get up late.",
+            "q": "Quanto tempo ci {ip:metti} tu? (venti minuti)",
             "a": [
-              "Ci alziamo spesso tardi.",
-              "Spesso ci alziamo tardi."
+              "Ci metto venti minuti.",
+              "Io ci metto venti minuti."
+            ]
+          },
+          {
+            "q": "Il divano? (noi, mettere, qui)",
+            "a": [
+              "Il divano? Lo mettiamo qui.",
+              "Lo mettiamo qui."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:cerchi}? (le mie chiavi)",
+            "a": [
+              "Cerco le mie chiavi.",
+              "Io cerco le mie chiavi.",
+              "Cerco le chiavi."
             ]
           }
         ]

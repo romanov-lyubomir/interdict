@@ -1,11 +1,11 @@
 {
   "title": "{cop:Vorrei} venire, ma {cpa:avrei dovuto} studiare",
   "translation": "I'd like to come, but I should have studied",
-  "topics": "The condizionale presente and passato",
+  "topics": "The [cop:condizionale presente] and the [cpa:condizionale passato]",
   "grammar": {
     "explain": [
       {
-        "h": "How to form the condizionale presente"
+        "h": "How to form the [cop:condizionale presente]"
       },
       "If you know the future, you already know the stem. Only the endings change, and irregular verbs keep the same irregular stems: *{fs:sarò} → {cop:sarei}, {fs:avrò} → {cop:avrei}, {fs:verrò} → {cop:verrei}, {fs:andrò} → {cop:andrei}, {fs:farò} → {cop:farei}*.",
       {
@@ -92,9 +92,9 @@
         }
       },
       {
-        "h": "The condizionale passato"
+        "h": "The [cpa:condizionale passato]"
       },
-      "It is formed like the *passato prossimo*, with the auxiliary in the conditional: *{cpa:avrei mangiato}, {cpa:sarei partito}*. The same rules for the auxiliary and agreement apply.",
+      "It is formed like the [pp:passato prossimo], with the auxiliary in the conditional: *{cpa:avrei mangiato}, {cpa:sarei partito}*. The same rules for the auxiliary and agreement apply.",
       "It describes what would have happened but did not. It is the tense of regret and missed chances.",
       {
         "table": {
@@ -125,7 +125,7 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the condizionale presente.",
+        "prompt": "Put the verb in the [cop:condizionale presente].",
         "questions": [
           "[[Vorrei#cop]] un cappuccino. (volere, io)",
           "[[Potresti#cop]] aprire la finestra? (potere, tu)",
@@ -137,7 +137,7 @@
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the condizionale passato.",
+        "prompt": "Put the verb in the [cpa:condizionale passato].",
         "questions": [
           "[[Avrei studiato#cpa]] di più, ma non {im:avevo} tempo. (studiare, io)",
           "Tu [[saresti venuto#cpa]] con noi? (venire – a man)",

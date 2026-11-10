@@ -1,172 +1,338 @@
 {
-  "title": "Mi {ip:piace} il caffè e lo {ip:bevo} sempre",
-  "translation": "I like coffee and I always drink it",
-  "topics": "Direct object pronouns, piacere and sapere",
+  "title": "Ieri {pp:sono andata} al mare",
+  "translation": "",
+  "topics": "Il [pp:passato prossimo] con essere e avere, il participio passato, mai e la doppia negazione, ci per i luoghi",
   "grammar": {
     "explain": [
-      "A direct object pronoun replaces a noun and answers *whom?* or *what?*. It comes before the verb: *{ip:Compro} il pane. → Lo {ip:compro}.*",
+      "Il [pp:passato prossimo] racconta che cosa è successo ed è finito. Ha due parti: *essere* o *avere* al presente e il participio passato del verbo.",
       {
-        "table": {
-          "head": [
-            "Pronoun",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "mi",
-              "me",
-              "Mi {ip:chiami} domani?"
-            ],
-            [
-              "ti",
-              "you",
-              "Ti {ip:vedo} stasera."
-            ],
-            [
-              "lo",
-              "him, it (masc.)",
-              "Il libro? Lo {ip:leggo}."
-            ],
-            [
-              "la",
-              "her, it (fem.)",
-              "La pizza? La {ip:mangio}."
-            ],
-            [
-              "ci",
-              "us",
-              "Ci {ip:aspetti}?"
-            ],
-            [
-              "vi",
-              "you (plural)",
-              "Vi {ip:invito}."
-            ],
-            [
-              "li",
-              "them (masc.)",
-              "I libri? Li {ip:leggo}."
-            ],
-            [
-              "le",
-              "them (fem.)",
-              "Le chiavi? Le {ip:prendo}."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [pp:passato prossimo] con *essere*",
+              "groups": [
+                [
+                  "",
+                  2
+                ],
+                [
+                  "torn**are**",
+                  2
+                ],
+                [
+                  "cad**ere**",
+                  2
+                ],
+                [
+                  "usc**ire**",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  [
+                    "io",
+                    "tu",
+                    "lui, lei, Lei"
+                  ],
+                  [
+                    "{pp:sono}",
+                    "{pp:sei}",
+                    "{pp:è}"
+                  ],
+                  "{pp:torn**ato/a**}",
+                  {
+                    "text": "a casa.",
+                    "rows": 2
+                  },
+                  "{pp:cad**uto/a**}",
+                  {
+                    "text": "dalla bici.",
+                    "rows": 2
+                  },
+                  "{pp:usc**ito/a**}",
+                  {
+                    "text": "con Marta.",
+                    "rows": 2
+                  }
+                ],
+                [
+                  [
+                    "noi",
+                    "voi",
+                    "loro"
+                  ],
+                  [
+                    "{pp:siamo}",
+                    "{pp:siete}",
+                    "{pp:sono}"
+                  ],
+                  "{pp:torn**ati/e**}",
+                  null,
+                  "{pp:cad**uti/e**}",
+                  null,
+                  "{pp:usc**iti/e**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Con *essere* il participio si accorda con il soggetto, come un aggettivo: *Marco {pp:è tornato}, Anna {pp:è tornata}, Marco e Anna {pp:sono tornati}, Anna e Sofia {pp:sono tornate}*.",
+              "Prendono *essere* quasi tutti i verbi di movimento o di cambiamento (*andare, venire, arrivare, partire, tornare, uscire, cadere, nascere*), poi *essere*, *stare*, *rimanere* e *piacere*, e tutti i verbi riflessivi: *mi {pp:sono alzato}*."
             ]
-          ]
-        }
-      },
-      "*Non* goes before the pronoun: *Non lo {ip:bevo}.*",
-      "*Piacere* works differently from *to like*: the thing you like is the subject. Use *{ip:piace}* with one thing or a verb, and *{ip:piacciono}* with several things.",
-      {
-        "table": {
-          "head": [
-            "Who likes",
-            "One thing or a verb",
-            "Several things"
-          ],
-          "rows": [
-            [
-              "I",
-              "Mi {ip:**piace**} il caffè.",
-              "Mi {ip:**piacciono**} i gatti."
-            ],
-            [
-              "you",
-              "Ti {ip:**piace**} leggere?",
-              "Ti {ip:**piacciono**} i film?"
-            ],
-            [
-              "he / she",
-              "Gli / Le {ip:**piace**} Roma.",
-              "Gli / Le {ip:**piacciono**} i fiori."
-            ]
-          ]
-        }
-      },
-      "*Sapere* means *to know* (a fact), and with an infinitive *to know how to*: *{ip:So} nuotare* (I can swim).",
-      {
-        "table": {
-          "head": [
-            "io",
-            "tu",
-            "lui / lei",
-            "noi",
-            "voi",
-            "loro"
-          ],
-          "rows": [
-            [
-              "so",
-              "{ip:sai}",
-              "{ip:sa}",
-              "{ip:sappiamo}",
-              "{ip:sapete}",
-              "{ip:sanno}"
-            ]
-          ]
-        }
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [pp:passato prossimo] con *avere*",
+              "groups": [
+                [
+                  "",
+                  2
+                ],
+                [
+                  "mangi**are**",
+                  2
+                ],
+                [
+                  "vend**ere**",
+                  2
+                ],
+                [
+                  "fin**ire**",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  [
+                    "io",
+                    "tu",
+                    "lui, lei, Lei",
+                    "noi",
+                    "voi",
+                    "loro"
+                  ],
+                  [
+                    "{pp:ho}",
+                    "{pp:hai}",
+                    "{pp:ha}",
+                    "{pp:abbiamo}",
+                    "{pp:avete}",
+                    "{pp:hanno}"
+                  ],
+                  "{pp:mangi**ato**}",
+                  "una pizza.",
+                  "{pp:vend**uto**}",
+                  "la macchina.",
+                  "{pp:fin**ito**}",
+                  "il lavoro."
+                ]
+              ]
+            },
+            "note": "Con *avere* il participio non cambia: *Anna {pp:ha mangiato}*. Prendono *avere* quasi tutti gli altri verbi, e tutti quelli che possono avere un oggetto."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il participio passato",
+              "rows": [
+                [
+                  "infinito",
+                  "mangi**are**",
+                  "vend**ere**",
+                  "fin**ire**"
+                ],
+                [
+                  "participio passato",
+                  "mangi**ato**",
+                  "vend**uto**",
+                  "fin**ito**"
+                ]
+              ]
+            },
+            "note": "**-are** → **-ato**, **-ere** → **-uto**, **-ire** → **-ito**."
+          },
+          {
+            "table": {
+              "title": "L'uso di *mai* e la doppia negazione",
+              "rows": [
+                [
+                  [
+                    "{ip:Mangi} **mai** il pesce?",
+                    "No, **non** lo {ip:mangio} **mai**."
+                  ]
+                ],
+                [
+                  [
+                    "{pp:Sei} **mai** {pp:stato} a Venezia?",
+                    "No, **non** ci {pp:sono} **mai** {pp:stato}."
+                  ]
+                ]
+              ]
+            },
+            "note": "Nelle domande *mai* vuol dire «qualche volta nella vita». Nella risposta servono tutti e due, *non* e *mai*. Nel [pp:passato prossimo] *mai* va tra *essere* o *avere* e il participio."
+          },
+          {
+            "table": {
+              "title": "L'uso di *ci* (particella di luogo)",
+              "rows": [
+                [
+                  [
+                    "{ip:Vai} mai **a Venezia**?",
+                    "No, non **ci** {ip:vado} mai."
+                  ]
+                ],
+                [
+                  [
+                    "{pp:Sei} mai {pp:stato} **a Napoli**?",
+                    "No, non **ci** {pp:sono} mai {pp:stato}."
+                  ]
+                ]
+              ]
+            },
+            "note": "*Ci* sostituisce un luogo già detto, come *a Venezia* o *in Italia*. Va prima del verbo."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Alcuni participi passati irregolari",
+              "rows": [
+                [
+                  "aprire",
+                  "{pp:aperto}",
+                  "mettere",
+                  "{pp:messo}"
+                ],
+                [
+                  "bere",
+                  "{pp:bevuto}",
+                  "nascere*",
+                  "{pp:nato}"
+                ],
+                [
+                  "chiudere",
+                  "{pp:chiuso}",
+                  "prendere",
+                  "{pp:preso}"
+                ],
+                [
+                  "dire",
+                  "{pp:detto}",
+                  "rimanere*",
+                  "{pp:rimasto}"
+                ],
+                [
+                  "essere*",
+                  "{pp:stato}",
+                  "scrivere",
+                  "{pp:scritto}"
+                ],
+                [
+                  "fare",
+                  "{pp:fatto}",
+                  "vedere",
+                  "{pp:visto}"
+                ],
+                [
+                  "leggere",
+                  "{pp:letto}",
+                  "venire*",
+                  "{pp:venuto}"
+                ]
+              ]
+            },
+            "note": "Molti verbi comuni, quasi tutti in *-ere*, hanno un participio irregolare. Quelli con * prendono *essere*."
+          }
+        ]
       }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "gap",
-        "prompt": "Replace the noun with lo, la, li or le.",
-        "questions": [
-          "{ip:Compro} il pane. → [[Lo]] {ip:compro}.",
-          "{ip:Mangio} la pizza. → [[La]] {ip:mangio}.",
-          "{ip:Leggo} i libri. → [[Li]] {ip:leggo}.",
-          "{ip:Prendo} le chiavi. → [[Le]] {ip:prendo}.",
-          "Non {ip:bevo} il tè. → Non [[lo]] {ip:bevo}.",
-          "{ip:Vedo} Anna. → [[La]] {ip:vedo}."
-        ]
-      },
-      {
         "type": "choice",
-        "prompt": "Choose piace or piacciono.",
+        "prompt": "Essere o avere?",
         "questions": [
           {
-            "q": "Mi ___ il gelato.",
+            "q": "Ieri ___ andato al mare.",
             "options": [
-              "*{ip:piace}",
-              "{ip:piacciono}"
+              "*sono",
+              "ho"
             ]
           },
           {
-            "q": "Mi ___ i cani.",
+            "q": "Marta ___ mangiato una pizza.",
             "options": [
-              "{ip:piace}",
-              "*{ip:piacciono}"
+              "è",
+              "*ha"
             ]
           },
           {
-            "q": "Ti ___ leggere?",
+            "q": "Noi ___ partiti presto.",
             "options": [
-              "*{ip:piace}",
-              "{ip:piacciono}"
+              "*siamo",
+              "abbiamo"
             ]
           },
           {
-            "q": "Le ___ le mele.",
+            "q": "Tu ___ letto il libro?",
             "options": [
-              "{ip:piace}",
-              "*{ip:piacciono}"
+              "sei",
+              "*hai"
+            ]
+          },
+          {
+            "q": "Loro ___ arrivati tardi.",
+            "options": [
+              "*sono",
+              "hanno"
+            ]
+          },
+          {
+            "q": "Voi ___ visto il film?",
+            "options": [
+              "siete",
+              "*avete"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the right form of sapere.",
+        "prompt": "Scrivi il participio. Con essere si accorda con il soggetto.",
         "questions": [
-          "Io non [[so#ip]] nuotare.",
-          "Tu [[sai#ip]] dov'{ip:è} la stazione?",
-          "Marco [[sa#ip]] cucinare.",
-          "Noi [[sappiamo#ip]] parlare inglese.",
-          "Voi [[sapete#ip]] guidare?",
-          "Loro non [[sanno#ip]] la risposta."
+          "Anna {pp:è} [[tornata#pp]] a casa. (tornare)",
+          "Marco e Luca {pp:sono} [[usciti#pp]]. (uscire)",
+          "Le ragazze {pp:sono} [[arrivate#pp]] ieri. (arrivare)",
+          "Paolo {pp:è} [[caduto#pp]] dalla bici. (cadere)",
+          "Giulia {pp:è} [[partita#pp]] per Roma. (partire)",
+          "Sara e Anna {pp:sono} [[andate#pp]] al mare. (andare)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il participio. Alcuni sono irregolari.",
+        "questions": [
+          "{pp:Ho} [[mangiato#pp]] una pizza. (mangiare)",
+          "{pp:Hai} [[venduto#pp]] la macchina? (vendere)",
+          "{pp:Abbiamo} [[finito#pp]] il lavoro. (finire)",
+          "{pp:Ho} [[fatto#pp]] colazione. (fare)",
+          "{pp:Avete} [[visto#pp]] il film? (vedere)",
+          "Lei {pp:ha} [[scritto#pp]] una lettera. (scrivere)",
+          "{pp:Hanno} [[preso#pp]] il treno. (prendere)",
+          "{pp:Ho} [[letto#pp]] il giornale. (leggere)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi mai o ci.",
+        "questions": [
+          "{pp:Sei} [[mai]] {pp:stato} a Roma?",
+          "No, non [[ci]] {pp:sono} mai {pp:stato}.",
+          "{ip:Vai} spesso a Milano? No, non ci {ip:vado} [[mai]].",
+          "{ip:Andate} al mare? Sì, [[ci]] {ip:andiamo} domani."
         ]
       }
     ]
@@ -174,133 +340,170 @@
   "vocabulary": {
     "words": [
       [
-        "bere",
-        "to drink (io bevo)"
+        "ieri",
+        "il giorno prima di oggi"
       ],
       [
-        "il tè",
-        "tea"
+        "la settimana scorsa",
+        "la settimana prima di questa"
       ],
       [
-        "il vino",
-        "wine"
+        "l'anno scorso",
+        "l'anno prima di questo"
       ],
       [
-        "la birra",
-        "beer"
+        "due giorni fa",
+        "il giorno prima di ieri"
       ],
       [
-        "il gelato",
-        "ice cream"
+        "la vacanza",
+        "i giorni senza lavoro, per riposarsi o viaggiare"
       ],
       [
-        "la musica",
-        "music"
+        "il viaggio",
+        "quando vai in un posto lontano"
       ],
       [
-        "il film",
-        "film"
+        "il mare",
+        "acqua salata, ci fai il bagno d'estate"
       ],
       [
-        "nuotare",
-        "to swim"
+        "la montagna",
+        "un posto alto, ci vai a sciare"
       ],
       [
-        "cucinare",
-        "to cook"
+        "la macchina",
+        "ha quattro ruote, la guidi"
       ],
       [
-        "guidare",
-        "to drive"
+        "la bici",
+        "ha due ruote, vai con le gambe"
       ],
       [
-        "ballare",
-        "to dance"
+        "arrivare",
+        "il contrario di partire"
       ],
       [
-        "vedere",
-        "to see"
+        "tornare",
+        "andare di nuovo dove eri prima"
+      ],
+      [
+        "cadere",
+        "andare giù per terra"
+      ],
+      [
+        "vendere",
+        "il contrario di comprare"
+      ],
+      [
+        "visitare",
+        "andare a vedere un posto"
+      ],
+      [
+        "rimanere",
+        "non andare via, restare"
+      ],
+      [
+        "nascere",
+        "venire al mondo"
+      ],
+      [
+        "stanco",
+        "hai bisogno di riposare"
+      ],
+      [
+        "contento",
+        "felice"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la birra",
-            "beer"
+            "ieri",
+            "il giorno prima di oggi"
           ],
           [
-            "la musica",
-            "music"
+            "la settimana scorsa",
+            "la settimana prima di questa"
           ],
           [
-            "nuotare",
-            "to swim"
+            "il viaggio",
+            "quando vai in un posto lontano"
           ],
           [
-            "cucinare",
-            "to cook"
+            "cadere",
+            "andare giù per terra"
           ],
           [
-            "guidare",
-            "to drive"
+            "vendere",
+            "il contrario di comprare"
           ],
           [
-            "ballare",
-            "to dance"
+            "stanco",
+            "hai bisogno di riposare"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Il caffè? Lo [[bevo#ip]] sempre. (I drink)",
-          "Mi {ip:piace} il [[vino]] rosso. (wine)",
-          "{ip:So} [[cucinare]] la pasta. (to cook)",
-          "Ti {ip:piace} [[ballare]]? (to dance)"
+          "D'estate {ip:andiamo} al [[mare]] a fare il bagno.",
+          "L'[[anno]] scorso {pp:sono andato} in Spagna.",
+          "{pp:Siamo arrivati} due giorni [[fa]].",
+          "Domani {ip:torno} al lavoro: la [[vacanza]] {pp:è finita}.",
+          "{pp:Ho camminato} tutto il giorno: {ip:sono} [[stanca]] ma contenta."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Mi {ip:chiamo} Nadia. Mi {ip:piace} molto il caffè e lo {ip:bevo} sempre al bar sotto casa. Non mi {ip:piace} il tè: non lo {ip:bevo} mai. Mi {ip:piacciono} i film italiani e li {ip:guardo} con mio marito.",
-      "Lui {ip:sa} cucinare molto bene, io no! Però {ip:so} nuotare e {ip:so} guidare. A mio marito {ip:piace} il mare, ma non {ip:sa} nuotare. Quest'estate gli {ip:insegno} io!"
+      "La settimana scorsa Luca e io {pp:siamo andati} in vacanza a Napoli. {pp:Siamo partiti} venerdì mattina e {pp:abbiamo preso} il treno: ci {pp:abbiamo messo} cinque ore.",
+      "A Napoli {pp:abbiamo visitato} il centro e {pp:abbiamo mangiato} una pizza buonissima. Luca {pp:ha comprato} un regalo per Anna.",
+      "Sabato {pp:siamo stati} al mare tutto il giorno. Domenica sera {pp:siamo tornati} a casa stanchi ma contenti. Non {pp:sono} mai {pp:stata} così felice!"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Nadia never drinks tea.",
+            "q": "La settimana scorsa {pp:sono andati} a Napoli.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Nadia watches Italian films with her husband.",
+            "q": "{pp:Sono andati} in macchina.",
             "options": [
-              "*True",
-              "False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Nadia cooks very well.",
+            "q": "Ci {pp:hanno messo} cinque ore.",
             "options": [
-              "True",
-              "*False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Her husband can swim.",
+            "q": "Sabato {pp:hanno visitato} il centro.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "{pp:Sono tornati} a casa domenica sera.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
@@ -311,50 +514,50 @@
     "transcript": [
       [
         "Marco",
-        "Ti {ip:piace} questo ristorante?"
+        "Ciao, Giulia! Che cosa {pp:hai fatto} questo fine settimana?"
       ],
       [
         "Giulia",
-        "Sì, mi {ip:piace} molto! E ti {ip:piacciono} gli spaghetti?"
+        "{pp:Sono andata} in montagna con Paolo. E tu?"
       ],
       [
         "Marco",
-        "Li {ip:adoro}! Li {ip:mangio} ogni settimana."
+        "Io {pp:sono rimasto} a casa. {pp:Ho letto} un libro e {pp:ho dormito} molto."
       ],
       [
         "Giulia",
-        "{ip:Sai} cucinare?"
+        "{pp:Sei} mai {pp:stato} in Trentino?"
       ],
       [
         "Marco",
-        "No, non {ip:so} cucinare. E tu?"
+        "No, non ci {pp:sono} mai {pp:stato}."
       ],
       [
         "Giulia",
-        "Io sì. Ti {ip:invito} a casa mia!"
+        "Ci {ip:devi} andare, {ip:è} bellissimo!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Ti [[piace#ip]] questo ristorante?",
-          "[[Li]] {ip:adoro}!",
-          "No, non [[so#ip]] cucinare.",
-          "[[Ti]] {ip:invito} a casa mia!"
+          "[[Sono andata#pp]] in montagna con Paolo.",
+          "Io [[sono rimasto#pp]] a casa.",
+          "[[Ho letto#pp]] un libro e [[ho dormito#pp]] molto.",
+          "No, non [[ci]] {pp:sono} [[mai]] {pp:stato}."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Who can cook?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The person who can cook is…",
+            "q": "Che cosa {pp:ha fatto} Marco nel fine settimana?",
             "options": [
-              "Marco",
-              "*Giulia",
-              "both of them"
+              "*È rimasto a casa e ha letto.",
+              "È andato in montagna.",
+              "Ha visitato il Trentino."
             ]
           }
         ]
@@ -365,38 +568,54 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Scrivi la frase al [pp:passato prossimo].",
         "questions": [
           {
-            "q": "I like coffee.",
+            "q": "Oggi {ip:mangio} una pizza. → Ieri…",
             "a": [
-              "Mi piace il caffè."
+              "Ieri ho mangiato una pizza.",
+              "Ho mangiato una pizza ieri."
             ]
           },
           {
-            "q": "I like cats.",
+            "q": "Anna {ip:va} a Roma. → Ieri…",
             "a": [
-              "Mi piacciono i gatti."
+              "Ieri Anna è andata a Roma.",
+              "Anna è andata a Roma ieri.",
+              "Anna è andata a Roma."
             ]
           },
           {
-            "q": "The book? I'm reading it.",
+            "q": "Noi (Marco e Luca) {ip:partiamo} presto.",
             "a": [
-              "Il libro? Lo leggo."
+              "Siamo partiti presto.",
+              "Noi siamo partiti presto."
             ]
           },
           {
-            "q": "I can swim.",
+            "q": "{ip:Chiedi} a un ragazzo se una volta nella vita {ip:è} andato a Venezia.",
             "a": [
-              "So nuotare.",
-              "Io so nuotare."
+              "Sei mai stato a Venezia?"
             ]
           },
           {
-            "q": "Do you know where Anna is? (informal)",
+            "q": "Lui {ip:risponde}: no, nessuna volta.",
             "a": [
-              "Sai dov'è Anna?",
-              "Sai dove è Anna?"
+              "No, non ci sono mai stato."
+            ]
+          },
+          {
+            "q": "Loro {ip:vedono} un film.",
+            "a": [
+              "Hanno visto un film.",
+              "Loro hanno visto un film."
+            ]
+          },
+          {
+            "q": "Io {ip:leggo} il giornale.",
+            "a": [
+              "Ho letto il giornale.",
+              "Io ho letto il giornale."
             ]
           }
         ]

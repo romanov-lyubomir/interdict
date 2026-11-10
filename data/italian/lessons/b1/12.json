@@ -98,7 +98,7 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the congiuntivo presente.",
+        "prompt": "Put the verb in the [csp:congiuntivo presente].",
         "questions": [
           "Benché [[sia#csp]] tardi, {ip:esco}. (essere)",
           "Sebbene [[piova#csp]], {ip:vado} a piedi. (piovere)",

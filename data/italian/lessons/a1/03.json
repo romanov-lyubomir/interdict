@@ -1,75 +1,325 @@
 {
-  "title": "Questo libro nuovo {ip:è} bello",
-  "translation": "This new book is beautiful",
-  "topics": "Agreement of adjectives, the demonstratives questo and quello",
+  "title": "Questo {ip:è} il mio quaderno",
+  "translation": "",
+  "topics": "L'articolo determinativo, il plurale dei nomi, c'è e ci sono, gli aggettivi possessivi, i verbi in -are",
   "grammar": {
     "explain": [
-      "An adjective agrees with its noun in gender and number. It usually comes after the noun: *un libro nuovo*.",
+      "*Il, lo, la* e i loro plurali sono gli articoli determinativi. Quale usare dipende dal genere, dal numero e dalla prima lettera della parola che segue.",
       {
-        "table": {
-          "head": [
-            "Type",
-            "Masc. sing.",
-            "Fem. sing.",
-            "Masc. pl.",
-            "Fem. pl."
-          ],
-          "rows": [
-            [
-              "-o / -a",
-              "nuov**o**",
-              "nuov**a**",
-              "nuov**i**",
-              "nuov**e**"
-            ],
-            [
-              "-e",
-              "grand**e**",
-              "grand**e**",
-              "grand**i**",
-              "grand**i**"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "L'articolo determinativo",
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "maschile",
+                  3
+                ],
+                [
+                  "femminile",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "singolare",
+                  [
+                    "**il**",
+                    "il tavolo",
+                    "il quaderno",
+                    "il giornale"
+                  ],
+                  [
+                    "**l'**",
+                    "l'ombrello",
+                    "l'amico",
+                    "l'orologio"
+                  ],
+                  [
+                    "**lo**",
+                    "lo zaino",
+                    "lo studente",
+                    "lo specchio"
+                  ],
+                  [
+                    "**la**",
+                    "la sedia",
+                    "la borsa",
+                    "la finestra"
+                  ],
+                  [
+                    "**l'**",
+                    "l'aula",
+                    "l'insegnante"
+                  ]
+                ],
+                [
+                  "plurale",
+                  [
+                    "**i**",
+                    "i tavoli",
+                    "i quaderni",
+                    "i giornali"
+                  ],
+                  [
+                    "**gli**",
+                    "gli ombrelli",
+                    "gli amici",
+                    "gli orologi"
+                  ],
+                  [
+                    "**gli**",
+                    "gli zaini",
+                    "gli studenti",
+                    "gli specchi"
+                  ],
+                  [
+                    "**le**",
+                    "le sedie",
+                    "le borse",
+                    "le finestre"
+                  ],
+                  [
+                    "**le**",
+                    "le aule",
+                    "le insegnanti"
+                  ]
+                ]
+              ]
+            },
+            "note": [
+              "**il** → **i**: parole maschili che cominciano con una consonante.",
+              "**lo** → **gli**: parole maschili che cominciano con *s* + consonante, *z*, *ps* o *gn*, le stesse che prendono *uno*.",
+              "**l'** → **gli**: parole maschili che cominciano con una vocale.",
+              "**la** → **le**: parole femminili che cominciano con una consonante.",
+              "**l'** → **le**: parole femminili che cominciano con una vocale."
             ]
-          ]
-        }
-      },
-      "Examples: *un libro nuovo, due case nuove, un ragazzo inglese, una ragazza inglese*.",
-      "*Questo* (this) points to something near you and changes like an adjective in -o: *questo libro, questa casa, questi libri, queste case*. Before a vowel, the singular may become *quest'*.",
-      "*Quello* (that) points to something far away. Before a noun it changes like the definite article.",
-      {
-        "table": {
-          "head": [
-            "Like the article",
-            "Singular",
-            "Plural"
-          ],
-          "rows": [
-            [
-              "il / i",
-              "**quel** libro",
-              "**quei** libri"
-            ],
-            [
-              "lo / gli",
-              "**quello** zaino",
-              "**quegli** zaini"
-            ],
-            [
-              "l' (masc.) / gli",
-              "**quell'**amico",
-              "**quegli** amici"
-            ],
-            [
-              "la / le",
-              "**quella** casa",
-              "**quelle** case"
-            ],
-            [
-              "l' (fem.) / le",
-              "**quell'**amica",
-              "**quelle** amiche"
+          },
+          {
+            "table": {
+              "title": "Il nome plurale",
+              "head": [
+                "",
+                "singolare",
+                "plurale"
+              ],
+              "rows": [
+                [
+                  {
+                    "text": "maschile",
+                    "rows": 2
+                  },
+                  "il tavol**o**",
+                  "i tavol**i**"
+                ],
+                [
+                  null,
+                  "il giornal**e**",
+                  "i giornal**i**"
+                ],
+                [
+                  {
+                    "text": "femminile",
+                    "rows": 2
+                  },
+                  "la sedi**a**",
+                  "le sedi**e**"
+                ],
+                [
+                  null,
+                  "la lezion**e**",
+                  "le lezion**i**"
+                ]
+              ]
+            },
+            "note": [
+              "**-o** diventa **-i**, **-a** diventa **-e**, **-e** diventa **-i** per tutti e due i generi.",
+              "Le parole che finiscono con una vocale accentata non cambiano: *la città, le città*."
             ]
-          ]
-        }
+          },
+          {
+            "table": {
+              "title": "C'è / ci sono",
+              "rows": [
+                [
+                  "In cucina **{ip:c'è}** il tavolo."
+                ],
+                [
+                  "In aula **{ip:ci sono}** le sedie."
+                ]
+              ]
+            },
+            "note": "*C'è* va con una cosa sola, *ci sono* con più di una."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Gli aggettivi possessivi",
+              "groups": [
+                [
+                  "singolare",
+                  2
+                ],
+                [
+                  "plurale",
+                  2
+                ]
+              ],
+              "head": [
+                "maschile",
+                "femminile",
+                "maschile",
+                "femminile"
+              ],
+              "rows": [
+                [
+                  "Questo {ip:è} il **mio** zaino.",
+                  "Questa {ip:è} la **mia** borsa.",
+                  "Questi {ip:sono} i **miei** quaderni.",
+                  "Queste {ip:sono} le **mie** penne."
+                ],
+                [
+                  "Questo {ip:è} il **tuo** zaino.",
+                  "Questa {ip:è} la **tua** borsa.",
+                  "Questi {ip:sono} i **tuoi** quaderni.",
+                  "Queste {ip:sono} le **tue** penne."
+                ],
+                [
+                  "Questo {ip:è} il **suo** zaino.",
+                  "Questa {ip:è} la **sua** borsa.",
+                  "Questi {ip:sono} i **suoi** quaderni.",
+                  "Queste {ip:sono} le **sue** penne."
+                ],
+                [
+                  "Questo {ip:è} il **nostro** zaino.",
+                  "Questa {ip:è} la **nostra** borsa.",
+                  "Questi {ip:sono} i **nostri** quaderni.",
+                  "Queste {ip:sono} le **nostre** penne."
+                ],
+                [
+                  "Questo {ip:è} il **vostro** zaino.",
+                  "Questa {ip:è} la **vostra** borsa.",
+                  "Questi {ip:sono} i **vostri** quaderni.",
+                  "Queste {ip:sono} le **vostre** penne."
+                ],
+                [
+                  "Questo {ip:è} il **loro** zaino.",
+                  "Questa {ip:è} la **loro** borsa.",
+                  "Questi {ip:sono} i **loro** quaderni.",
+                  "Queste {ip:sono} le **loro** penne."
+                ]
+              ]
+            },
+            "note": [
+              "Le righe vanno da *io* (*mio*) a *loro* (*loro*). *Suo* è di lui o di lei, e anche la forma di cortesia (*Lei*).",
+              "Il possessivo si accorda con la cosa, non con chi la possiede: Marco e Giulia dicono tutti e due *la mia borsa*.",
+              "Va con l'articolo: *il mio zaino, la tua borsa*. *Loro* non cambia mai.",
+              "*Questo* e *questa* indicano una cosa sola, *questi* e *queste* più di una."
+            ]
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La prima coniugazione (verbi in *-are*)",
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "lavor**are**",
+                  2
+                ],
+                [
+                  "studi**are**",
+                  2
+                ],
+                [
+                  "chiam**arsi**",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{ip:lavor**o**}",
+                  {
+                    "text": "in un ristorante.",
+                    "rows": 6
+                  },
+                  "{ip:studi**o**}",
+                  {
+                    "text": "storia.",
+                    "rows": 6
+                  },
+                  "{ip:mi chiam**o**}",
+                  {
+                    "text": "Giulia.",
+                    "rows": 3
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:lavor**i**}",
+                  null,
+                  "{ip:stud**i**}",
+                  null,
+                  "{ip:ti chiam**i**}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:lavor**a**}",
+                  null,
+                  "{ip:studi**a**}",
+                  null,
+                  "{ip:si chiam**a**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:lavor**iamo**}",
+                  null,
+                  "{ip:stud**iamo**}",
+                  null,
+                  "{ip:ci chiam**iamo**}",
+                  {
+                    "text": "Giulia e Paolo.",
+                    "rows": 3
+                  }
+                ],
+                [
+                  "voi",
+                  "{ip:lavor**ate**}",
+                  null,
+                  "{ip:studi**ate**}",
+                  null,
+                  "{ip:vi chiam**ate**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:lavor**ano**}",
+                  null,
+                  "{ip:studi**ano**}",
+                  null,
+                  "{ip:si chiam**ano**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Si toglie *-are* e si aggiunge **-o, -i, -a, -iamo, -ate, -ano**.",
+              "I verbi in *-iare* come *studiare* non raddoppiano la *i*: *tu studi, noi studiamo*.",
+              "Nei verbi come *chiamarsi*, *mi, ti, si, ci, vi, si* vanno prima del verbo: *mi chiamo Giulia*."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -77,60 +327,90 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the adjective in brackets in the right form.",
+        "prompt": "Scrivi l'articolo determinativo: il, lo, l', la, i, gli o le.",
         "questions": [
-          "una casa [[nuova]] (nuovo)",
-          "due libri [[belli]] (bello)",
-          "le ragazze [[inglesi]] (inglese)",
-          "un ragazzo [[alto]] (alto)",
-          "due chiavi [[piccole]] (piccolo)",
-          "una città [[grande]] (grande)"
+          "[[il]] tavolo",
+          "[[lo]] specchio",
+          "[[l']]orologio",
+          "[[la]] finestra",
+          "[[l']]aula",
+          "[[i]] telefoni",
+          "[[gli]] zaini",
+          "[[gli]] amici",
+          "[[le]] sedie",
+          "[[le]] aule"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il plurale.",
+        "questions": [
+          "il libro → i [[libri]]",
+          "la finestra → le [[finestre]]",
+          "il giornale → i [[giornali]]",
+          "la lezione → le [[lezioni]]",
+          "lo studente → gli [[studenti]]",
+          "la città → le [[città]]"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right demonstrative.",
+        "prompt": "C'è o ci sono?",
         "questions": [
           {
-            "q": "___ libro (near you)",
+            "q": "In aula ___ una lavagna.",
             "options": [
-              "*questo",
-              "questa",
-              "questi"
+              "*c'è",
+              "ci sono"
             ]
           },
           {
-            "q": "___ case (near you)",
+            "q": "In cucina ___ quattro sedie.",
             "options": [
-              "questa",
-              "questi",
-              "*queste"
+              "c'è",
+              "*ci sono"
             ]
           },
           {
-            "q": "___ zaino (far away)",
+            "q": "In classe ___ molti studenti.",
             "options": [
-              "quel",
-              "*quello",
-              "quella"
+              "c'è",
+              "*ci sono"
             ]
           },
           {
-            "q": "___ libri (far away)",
+            "q": "Qui ___ un ristorante?",
             "options": [
-              "*quei",
-              "quegli",
-              "quelle"
-            ]
-          },
-          {
-            "q": "___ amici (far away)",
-            "options": [
-              "quei",
-              "*quegli",
-              "quelli"
+              "*c'è",
+              "ci sono"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'articolo e il possessivo.",
+        "questions": [
+          "(io) Questo {ip:è} [[il mio]] libro.",
+          "(tu) Questa {ip:è} [[la tua]] borsa.",
+          "(lui) Questi {ip:sono} [[i suoi]] quaderni.",
+          "(noi) Queste {ip:sono} [[le nostre]] penne.",
+          "(voi) Questo {ip:è} [[il vostro]] tavolo.",
+          "(loro) Questa {ip:è} [[la loro]] aula."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta del verbo.",
+        "questions": [
+          "Io [[lavoro#ip]] in un negozio. (lavorare)",
+          "Tu [[studi#ip]] storia? (studiare)",
+          "Lei [[parla#ip]] italiano. (parlare)",
+          "Noi [[abitiamo#ip]] a Roma. (abitare)",
+          "Voi [[lavorate#ip]] in un ristorante? (lavorare)",
+          "Loro [[studiano#ip]] medicina. (studiare)",
+          "Come [[ti chiami#ip]]? (chiamarsi)",
+          "Io [[mi chiamo#ip]] Paolo. (chiamarsi)"
         ]
       }
     ]
@@ -138,137 +418,174 @@
   "vocabulary": {
     "words": [
       [
-        "nuovo",
-        "new"
+        "il tavolo",
+        "ci mangi sopra"
       ],
       [
-        "vecchio",
-        "old"
+        "il telefono",
+        "lo usi per chiamare"
       ],
       [
-        "bello",
-        "beautiful"
+        "la finestra",
+        "da qui guardi fuori"
       ],
       [
-        "brutto",
-        "ugly"
+        "la lavagna",
+        "l'insegnante ci scrive in classe"
       ],
       [
-        "grande",
-        "big"
+        "l'aula",
+        "la stanza della lezione"
       ],
       [
-        "piccolo",
-        "small"
+        "la cucina",
+        "la stanza dove cucini"
       ],
       [
-        "alto",
-        "tall"
+        "la camera",
+        "la stanza dove dormi"
       ],
       [
-        "basso",
-        "short"
+        "l'appartamento",
+        "una casa in un palazzo"
       ],
       [
-        "caro",
-        "expensive"
+        "l'orologio",
+        "ti dice che ore sono"
       ],
       [
-        "economico",
-        "cheap"
+        "lo specchio",
+        "ti guardi qui la mattina"
       ],
       [
-        "rosso",
-        "red"
+        "il negozio",
+        "qui compri le cose"
       ],
       [
-        "bianco",
-        "white"
+        "il ristorante",
+        "qui mangi fuori casa"
+      ],
+      [
+        "l'insegnante",
+        "fa lezione agli studenti"
+      ],
+      [
+        "la storia",
+        "studia il passato"
+      ],
+      [
+        "lavorare",
+        "fare un lavoro"
+      ],
+      [
+        "studiare",
+        "imparare a scuola o sui libri"
+      ],
+      [
+        "parlare",
+        "dire parole"
+      ],
+      [
+        "abitare",
+        "avere la casa in un posto"
+      ],
+      [
+        "guardare",
+        "usare gli occhi"
+      ],
+      [
+        "chiamarsi",
+        "avere un nome"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each adjective with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "vecchio",
-            "old"
+            "la finestra",
+            "da qui guardi fuori"
           ],
           [
-            "brutto",
-            "ugly"
+            "la cucina",
+            "la stanza dove cucini"
           ],
           [
-            "piccolo",
-            "small"
+            "lo specchio",
+            "ti guardi qui la mattina"
           ],
           [
-            "basso",
-            "short"
+            "il negozio",
+            "qui compri le cose"
           ],
           [
-            "caro",
-            "expensive"
+            "l'aula",
+            "la stanza della lezione"
           ],
           [
-            "economico",
-            "cheap"
+            "abitare",
+            "avere la casa in un posto"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Write the opposite, in the same form.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "un libro nuovo ≠ un libro [[vecchio]]",
-          "una casa grande ≠ una casa [[piccola]]",
-          "un ragazzo alto ≠ un ragazzo [[basso]]",
-          "due borse care ≠ due borse [[economiche]]"
+          "In aula l'insegnante {ip:scrive} sulla [[lavagna]].",
+          "Marco {ip:lavora} in un [[ristorante]]: {ip:fa} il cameriere.",
+          "Il nostro [[appartamento]] {ip:è} in un palazzo del centro.",
+          "Giulia {ip:studia} il passato: {ip:studia} [[storia]].",
+          "L'[[insegnante]] {ip:fa} lezione agli studenti."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Elena {ip:è} in un negozio con Sara. «{imv:Guarda} questa borsa rossa! {ip:È} molto bella.» «Sì, ma {ip:è} cara. Quella borsa bianca {ip:è} più economica.»",
-      "Elena {ip:preferisce} la borsa rossa. Sara {ip:guarda} due libri: questo libro {ip:è} nuovo e {ip:costa} venti euro, quel libro {ip:è} vecchio e {ip:costa} due euro. Sara {ip:compra} il libro vecchio."
+      "Ciao! {ip:Mi chiamo} Giulia e {ip:abito} a Bologna con la mia amica Sara. Io {ip:studio} storia, Sara {ip:lavora} in un ristorante.",
+      "Il nostro appartamento {ip:è} piccolo. In cucina {ip:c'è} un tavolo e {ip:ci sono} quattro sedie. La mia camera {ip:ha} una finestra grande e uno specchio.",
+      "La sera Sara e io {ip:parliamo} in cucina e {ip:guardiamo} un film. I nostri amici Paolo e Marco {ip:abitano} qui vicino."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "The red bag is…",
+            "q": "Giulia {ip:studia} storia.",
             "options": [
-              "ugly and cheap",
-              "*beautiful but expensive",
-              "old"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "The white bag is…",
+            "q": "Sara {ip:lavora} in un negozio.",
             "options": [
-              "*cheaper",
-              "bigger",
-              "new"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "The old book costs…",
+            "q": "L'appartamento {ip:è} grande.",
             "options": [
-              "*two euros",
-              "ten euros",
-              "twenty euros"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Which book does Sara buy?",
+            "q": "In cucina {ip:ci sono} quattro sedie.",
             "options": [
-              "The new one",
-              "*The old one",
-              "Neither"
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La sera Giulia e Sara {ip:guardano} un film.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
@@ -278,57 +595,51 @@
   "listening": {
     "transcript": [
       [
-        "Paolo",
-        "Di chi {ip:è} quello zaino?"
-      ],
-      [
-        "Marta",
-        "Quale? Quello rosso?"
+        "Sara",
+        "Ciao! Come {ip:ti chiami}?"
       ],
       [
         "Paolo",
-        "No, quello grande e nero."
+        "{ip:Mi chiamo} Paolo. E tu?"
       ],
       [
-        "Marta",
-        "{ip:È} di Luca. Questo piccolo {ip:è} il mio."
+        "Sara",
+        "{ip:Mi chiamo} Sara. {ip:Studi} qui?"
       ],
       [
         "Paolo",
-        "{ip:È} molto bello!"
+        "No, non {ip:studio}, {ip:lavoro} qui. Questa {ip:è} la mia aula."
       ],
       [
-        "Marta",
-        "Grazie, {ip:è} nuovo!"
+        "Sara",
+        "Ah, {ip:sei} l'insegnante! E questi {ip:sono} i tuoi libri?"
+      ],
+      [
+        "Paolo",
+        "Sì, {ip:sono} i miei libri. Benvenuta!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Di chi {ip:è} [[quello]] zaino?",
-          "No, quello grande e [[nero]].",
-          "[[Questo]] piccolo {ip:è} il mio.",
-          "Grazie, {ip:è} [[nuovo]]!"
+          "Come [[ti chiami#ip]]?",
+          "[[Mi chiamo#ip]] Paolo.",
+          "No, non studio, [[lavoro#ip]] qui.",
+          "Sì, sono [[i miei]] libri."
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The big black backpack belongs to Luca.",
+            "q": "Paolo {ip:è}…",
             "options": [
-              "*True",
-              "False"
-            ]
-          },
-          {
-            "q": "Marta's backpack is old.",
-            "options": [
-              "True",
-              "*False"
+              "uno studente",
+              "*l'insegnante",
+              "un cameriere"
             ]
           }
         ]
@@ -339,42 +650,52 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "a new book",
+            "q": "una finestra → con l'articolo determinativo",
             "a": [
-              "un libro nuovo"
+              "la finestra"
             ]
           },
           {
-            "q": "two small houses",
+            "q": "uno zaino → al plurale, con l'articolo",
             "a": [
-              "due case piccole"
+              "gli zaini"
             ]
           },
           {
-            "q": "this red bag",
+            "q": "{ip:Dici} che in cucina c'{ip:è} un tavolo.",
             "a": [
-              "questa borsa rossa"
+              "In cucina c'è un tavolo.",
+              "C'è un tavolo in cucina."
             ]
           },
           {
-            "q": "that backpack",
+            "q": "{ip:Fai} vedere il tuo libro: «Questo…»",
             "a": [
-              "quello zaino"
+              "Questo è il mio libro."
             ]
           },
           {
-            "q": "This book is beautiful.",
+            "q": "{ip:Dici} che tu e la tua famiglia {ip:abitate} a Roma. (noi)",
             "a": [
-              "Questo libro è bello."
+              "Abitiamo a Roma.",
+              "Noi abitiamo a Roma."
             ]
           },
           {
-            "q": "Those houses are big.",
+            "q": "{ip:Chiedi} il nome a un ragazzo.",
             "a": [
-              "Quelle case sono grandi."
+              "Come ti chiami?"
+            ]
+          },
+          {
+            "q": "Giulia e Sara: che cosa {ip:studiano}? (storia)",
+            "a": [
+              "Studiano storia.",
+              "Loro studiano storia.",
+              "Giulia e Sara studiano storia."
             ]
           }
         ]

@@ -25,14 +25,14 @@
             ],
             [
               "Possible, or imagined now",
-              "congiuntivo imperfetto",
-              "condizionale presente",
+              "[csi:congiuntivo imperfetto]",
+              "[cop:condizionale presente]",
               "Se {csi:avessi} tempo, {cop:viaggerei}."
             ],
             [
               "Impossible: it's already over",
-              "congiuntivo trapassato",
-              "condizionale passato",
+              "[cst:congiuntivo trapassato]",
+              "[cpa:condizionale passato]",
               "Se {cst:avessi avuto} tempo, {cpa:avrei viaggiato}."
             ]
           ]
@@ -44,9 +44,9 @@
       },
       "The conditional never comes directly after *se*. *Se {cop:avrei} tempo* is one of the most common mistakes, even among Italians, so avoid it.",
       {
-        "h": "How to form the congiuntivo trapassato"
+        "h": "How to form the [cst:congiuntivo trapassato]"
       },
-      "You met it briefly in lesson 3. It is the auxiliary in the *congiuntivo imperfetto* with the participle.",
+      "You met it briefly in lesson 3. It is the auxiliary in the [csi:congiuntivo imperfetto] with the participle.",
       {
         "table": {
           "head": [

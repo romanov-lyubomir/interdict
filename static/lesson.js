@@ -10,6 +10,9 @@ const normalise = (text) => text
     .replace(/[.!?]+$/, "")
     .toLowerCase();
 
+// The score line, in the language of the lesson, such as "{right} of {total} correct"
+const scoreText = document.querySelector(".lesson").dataset.score;
+
 const isChoice = (field) => field.classList.contains("choice");
 
 const isEmpty = (field) => (isChoice(field)
@@ -72,7 +75,7 @@ function setupExercise(exercise) {
             }
         });
         const right = fields.filter((field) => field.closest(".answer").dataset.state === "correct").length;
-        status.textContent = `${right} of ${fields.length} correct`;
+        status.textContent = scoreText.replace("{right}", right).replace("{total}", fields.length);
         finishIfDone();
     });
 

@@ -1,181 +1,208 @@
 {
-  "title": "{ip:Posso} entrare? {imv:Scusa}, {ip:sto} per uscire!",
-  "translation": "May I come in? Sorry, I'm about to go out!",
-  "topics": "potere, volere, dovere, the near future, basic commands",
+  "title": "Mio fratello e i miei cugini",
+  "translation": "",
+  "topics": "Gli aggettivi possessivi con i nomi di parentela, la mia mamma e il mio papà, i participi nato, vissuto e morto, la famiglia",
   "grammar": {
     "explain": [
-      "*Potere* (can, may), *volere* (want) and *dovere* (must) are followed by an infinitive: *{ip:Posso} entrare? {ip:Voglio} mangiare. {ip:Devo} studiare.*",
+      "Parlare della famiglia: il possessivo con i nomi di parentela e tre participi che servono per raccontare una vita.",
       {
-        "table": {
-          "head": [
-            "",
-            "potere",
-            "volere",
-            "dovere"
-          ],
-          "rows": [
-            [
-              "io",
-              "{ip:posso}",
-              "{ip:voglio}",
-              "{ip:devo}"
-            ],
-            [
-              "tu",
-              "{ip:puoi}",
-              "{ip:vuoi}",
-              "{ip:devi}"
-            ],
-            [
-              "lui / lei",
-              "{ip:può}",
-              "{ip:vuole}",
-              "{ip:deve}"
-            ],
-            [
-              "noi",
-              "{ip:possiamo}",
-              "{ip:vogliamo}",
-              "{ip:dobbiamo}"
-            ],
-            [
-              "voi",
-              "{ip:potete}",
-              "{ip:volete}",
-              "{ip:dovete}"
-            ],
-            [
-              "loro",
-              "{ip:possono}",
-              "{ip:vogliono}",
-              "{ip:devono}"
-            ]
-          ]
-        }
-      },
-      "To talk about the near future, Italian often uses simply the present: *Domani {ip:parto}*. You can also use two expressions.",
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "andare a + infinitive",
-              "going somewhere to do something",
-              "{ip:Vado} a mangiare."
-            ],
-            [
-              "stare per + infinitive",
-              "about to do something",
-              "{ip:Sto} per uscire."
-            ]
-          ]
-        }
-      },
-      "Commands depend on whom you are speaking to.",
-      {
-        "table": {
-          "head": [
-            "",
-            "-are",
-            "-ere",
-            "-ire"
-          ],
-          "rows": [
-            [
-              "tu",
-              "{imv:guard**a**}! {imv:scus**a**}!",
-              "{imv:prend**i**}!",
-              "{imv:sent**i**}!"
-            ],
-            [
-              "Lei (polite)",
-              "{imv:guard**i**}! {imv:scus**i**}!",
-              "{imv:prend**a**}!",
-              "{imv:sent**a**}!"
-            ],
-            [
-              "voi",
-              "{imv:guard**ate**}!",
-              "{imv:prend**ete**}!",
-              "{imv:sent**ite**}!"
-            ]
-          ]
-        }
-      },
-      "A negative command with *tu* uses *non + infinitive*: *Non parlare!*"
+        "grid": [
+          {
+            "table": {
+              "title": "Gli aggettivi possessivi con i nomi di parentela al singolare",
+              "groups": [
+                [
+                  "maschile singolare",
+                  2
+                ],
+                [
+                  "femminile singolare",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  [
+                    "mio",
+                    "tuo",
+                    "suo",
+                    "nostro",
+                    "vostro"
+                  ],
+                  {
+                    "text": "cugino.",
+                    "rows": 2
+                  },
+                  [
+                    "mia",
+                    "tua",
+                    "sua",
+                    "nostra",
+                    "vostra"
+                  ],
+                  {
+                    "text": "cugina.",
+                    "rows": 2
+                  }
+                ],
+                [
+                  "**il** loro",
+                  null,
+                  "**la** loro",
+                  null
+                ]
+              ]
+            },
+            "note": "Con un parente al singolare il possessivo non ha l'articolo: *mio cugino, sua sorella, nostro padre*. Solo *loro* lo tiene: *il loro cugino*."
+          },
+          {
+            "table": {
+              "rows": [
+                [
+                  "**N.B.**: con *mamma* e *papà* l'aggettivo possessivo {ip:è} preceduto dall'articolo: *la mia mamma / il mio papà*."
+                ]
+              ]
+            },
+            "note": "*Mamma* e *papà* sono le parole affettuose, e per questo si comportano come nomi normali. *Madre* e *padre* seguono la regola: *mia madre, mio padre*."
+          },
+          {
+            "table": {
+              "title": "Gli aggettivi possessivi con i nomi di parentela al plurale",
+              "groups": [
+                [
+                  "maschile plurale",
+                  2
+                ],
+                [
+                  "femminile plurale",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  [
+                    "**i** miei",
+                    "**i** tuoi",
+                    "**i** suoi",
+                    "**i** nostri",
+                    "**i** vostri",
+                    "**i** loro"
+                  ],
+                  "cugini.",
+                  [
+                    "**le** mie",
+                    "**le** tue",
+                    "**le** sue",
+                    "**le** nostre",
+                    "**le** vostre",
+                    "**le** loro"
+                  ],
+                  "cugine."
+                ]
+              ]
+            },
+            "note": "Al plurale l'articolo torna: *i miei cugini, le mie cugine*."
+          },
+          {
+            "table": {
+              "title": "Alcuni participi passati irregolari",
+              "head": [
+                "infinito",
+                "participio passato"
+              ],
+              "rows": [
+                [
+                  "nascere*",
+                  "{pp:nato}"
+                ],
+                [
+                  "vivere",
+                  "{pp:vissuto}"
+                ],
+                [
+                  "morire*",
+                  "{pp:morto}"
+                ]
+              ]
+            },
+            "note": "*Nascere* e *morire* prendono *essere*: *{pp:è nata}, {pp:è morto}*. *Vivere* può prendere *avere* o *essere*: *{pp:ho vissuto}* oppure *{pp:sono vissuto} a Roma*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "gap",
-        "prompt": "Put the verb in brackets in the right form.",
+        "type": "choice",
+        "prompt": "Con l'articolo o senza?",
         "questions": [
-          "[[Posso#ip]] entrare? (potere, io)",
-          "Tu [[vuoi#ip]] un caffè? (volere)",
-          "Marco [[deve#ip]] lavorare. (dovere)",
-          "Noi [[possiamo#ip]] venire. (potere)",
-          "Voi [[volete#ip]] mangiare? (volere)",
-          "Loro [[devono#ip]] partire. (dovere)",
-          "Noi [[dobbiamo#ip]] studiare. (dovere)"
+          {
+            "q": "___ fratello {ip:si chiama} Luca.",
+            "options": [
+              "*Mio",
+              "Il mio"
+            ]
+          },
+          {
+            "q": "___ sorelle {ip:abitano} a Roma.",
+            "options": [
+              "*Le mie",
+              "Mie"
+            ]
+          },
+          {
+            "q": "___ mamma {ip:è} insegnante.",
+            "options": [
+              "*La mia",
+              "Mia"
+            ]
+          },
+          {
+            "q": "___ cugino {ip:è} simpatico. (loro)",
+            "options": [
+              "*Il loro",
+              "Loro"
+            ]
+          },
+          {
+            "q": "___ padre {ip:lavora} in banca.",
+            "options": [
+              "*Mio",
+              "Il mio"
+            ]
+          },
+          {
+            "q": "___ nonni {ip:sono} molto vecchi.",
+            "options": [
+              "*I miei",
+              "Miei"
+            ]
+          }
         ]
       },
       {
-        "type": "choice",
-        "prompt": "Choose the right form.",
+        "type": "gap",
+        "prompt": "Scrivi il possessivo, con l'articolo solo quando serve.",
         "questions": [
-          {
-            "q": "Il film ___ per cominciare. (it's about to start)",
-            "options": [
-              "{ip:va}",
-              "*{ip:sta}",
-              "{ip:è}"
-            ]
-          },
-          {
-            "q": "{ip:Vado} ___ dormire.",
-            "options": [
-              "*a",
-              "per",
-              "di"
-            ]
-          },
-          {
-            "q": "Excuse me, sir! (polite)",
-            "options": [
-              "{imv:Scusa}!",
-              "*{imv:Scusi}!",
-              "{imv:Scusate}!"
-            ]
-          },
-          {
-            "q": "Look! (to a friend)",
-            "options": [
-              "*{imv:Guarda}!",
-              "{imv:Guardi}!",
-              "{ip:Guardano}!"
-            ]
-          },
-          {
-            "q": "Take the bus! (polite)",
-            "options": [
-              "{imv:Prendi} l'autobus!",
-              "*{imv:Prenda} l'autobus!",
-              "{ip:Prende} l'autobus!"
-            ]
-          },
-          {
-            "q": "Don't speak! (to a friend)",
-            "options": [
-              "Non {imv:parli}!",
-              "*Non parlare!",
-              "Non {imv:parla}!"
-            ]
-          }
+          "(io) [[Mio]] padre {ip:si chiama} Marco.",
+          "(tu) [[Tua]] sorella {ip:è} simpatica.",
+          "(lui) [[Sua]] moglie {ip:lavora} a Milano.",
+          "(noi) [[I nostri]] figli {ip:studiano} a Bologna.",
+          "(voi) [[Vostra]] zia {ip:abita} qui?",
+          "(loro) [[Il loro]] nonno {ip:ha} novant'anni.",
+          "(io) [[Il mio]] papà {ip:cucina} bene."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il participio di nascere, vivere o morire.",
+        "questions": [
+          "Mia nonna {pp:è} [[nata#pp]] a Napoli. (nascere)",
+          "{pp:Ho} [[vissuto#pp]] a Roma per due anni. (vivere)",
+          "Il nonno di Luca {pp:è} [[morto#pp]] l'anno scorso. (morire)",
+          "I miei genitori {pp:sono} [[nati#pp]] a Torino. (nascere)",
+          "Mia zia {pp:ha} [[vissuto#pp]] in Francia. (vivere)"
         ]
       }
     ]
@@ -183,137 +210,178 @@
   "vocabulary": {
     "words": [
       [
-        "entrare",
-        "to enter"
+        "il padre",
+        "l'uomo che ti ha avuto come figlio"
       ],
       [
-        "uscire",
-        "to go out (io esco)"
+        "la madre",
+        "la donna che ti ha avuto come figlio"
       ],
       [
-        "aspettare",
-        "to wait"
+        "il papà",
+        "parola affettuosa per il padre"
       ],
       [
-        "aprire",
-        "to open"
+        "la mamma",
+        "parola affettuosa per la madre"
       ],
       [
-        "chiudere",
-        "to close"
+        "i genitori",
+        "il padre e la madre"
       ],
       [
-        "cominciare",
-        "to begin"
+        "il fratello",
+        "il figlio dei tuoi genitori"
       ],
       [
-        "aiutare",
-        "to help"
+        "la sorella",
+        "la figlia dei tuoi genitori"
       ],
       [
-        "sentire",
-        "to hear"
+        "il figlio",
+        "il bambino maschio di una coppia"
       ],
       [
-        "guardare",
-        "to look at"
+        "la figlia",
+        "la bambina femmina di una coppia"
       ],
       [
-        "la porta",
-        "door"
+        "il marito",
+        "l'uomo sposato con una donna"
       ],
       [
-        "la finestra",
-        "window"
+        "la moglie",
+        "la donna sposata con un uomo"
       ],
       [
-        "subito",
-        "right away"
+        "il nonno",
+        "il padre di tuo padre o di tua madre"
+      ],
+      [
+        "la nonna",
+        "la madre di tuo padre o di tua madre"
+      ],
+      [
+        "lo zio",
+        "il fratello di tuo padre o di tua madre"
+      ],
+      [
+        "la zia",
+        "la sorella di tuo padre o di tua madre"
+      ],
+      [
+        "il cugino",
+        "il figlio di tuo zio"
+      ],
+      [
+        "la cugina",
+        "la figlia di tuo zio"
+      ],
+      [
+        "sposato",
+        "ha un marito o una moglie"
+      ],
+      [
+        "nascere",
+        "venire al mondo"
+      ],
+      [
+        "vivere",
+        "essere vivo, abitare in un posto"
+      ],
+      [
+        "morire",
+        "il contrario di nascere"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "entrare",
-            "to enter"
+            "i genitori",
+            "il padre e la madre"
           ],
           [
-            "aspettare",
-            "to wait"
+            "la moglie",
+            "la donna sposata con un uomo"
           ],
           [
-            "chiudere",
-            "to close"
+            "il marito",
+            "l'uomo sposato con una donna"
           ],
           [
-            "aiutare",
-            "to help"
+            "lo zio",
+            "il fratello di tuo padre o di tua madre"
           ],
           [
-            "la finestra",
-            "window"
+            "la cugina",
+            "la figlia di tuo zio"
           ],
           [
-            "subito",
-            "right away"
+            "la figlia",
+            "la bambina femmina di una coppia"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "{ip:Puoi} [[aprire]] la finestra? (to open)",
-          "[[Aspetta#imv]] un momento! (wait, to a friend)",
-          "La [[porta]] {ip:è aperta}. (door)",
-          "{ip:Sto} per [[uscire]]. (to go out)"
+          "Il padre di mio padre {ip:è} mio [[nonno]].",
+          "La sorella di mia madre {ip:è} mia [[zia]].",
+          "Il figlio di mio zio {ip:è} mio [[cugino]].",
+          "Mio fratello {ip:ha} una moglie: {ip:è} [[sposato]].",
+          "Mio padre e mia madre: i miei [[genitori]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Oggi Valeria {ip:deve} andare dal dottore, ma la sua macchina non {ip:parte}. {ip:Chiama} sua sorella: «{ip:Puoi} venire qui? {ip:Devo} essere in centro alle dieci.» «{imv:Scusa}, non {ip:posso}. {ip:Sto} per uscire e {ip:devo} andare al lavoro.»",
-      "Valeria {ip:vuole} prendere un taxi, ma {ip:costa} troppo. Allora {ip:va} alla fermata. Un signore le {ip:dice}: «{imv:Prenda} il numero otto, signora. {ip:Sta} per arrivare!»"
+      "{ip:Mi chiamo} Elena e {pp:sono nata} a Bologna. Mio padre {ip:è} italiano e mia madre {ip:è} spagnola.",
+      "{ip:Ho} un fratello, Davide, e una sorella, Marta. Mio fratello {ip:è} sposato e sua moglie {ip:si chiama} Giulia. Loro {ip:hanno} due bambini.",
+      "I miei nonni {pp:sono vissuti} a Roma tutta la vita. Il nonno {pp:è morto} due anni fa, ma la nonna {ip:sta} bene. La domenica {ip:mangiamo} tutti insieme e la mia mamma {ip:cucina} per tutti!"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Where does Valeria have to go?",
+            "q": "Elena {pp:è nata} a Bologna.",
             "options": [
-              "To work",
-              "*To the doctor",
-              "To her sister's"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "What is the problem?",
+            "q": "La madre di Elena {ip:è} italiana.",
             "options": [
-              "*Her car won't start",
-              "She is late for work",
-              "She has no money"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Why can't her sister help?",
+            "q": "Il fratello di Elena {ip:è} sposato.",
             "options": [
-              "She is ill",
-              "*She is about to go to work",
-              "She has no car"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "How does Valeria travel in the end?",
+            "q": "I nonni di Elena {pp:sono vissuti} a Roma tutta la vita.",
             "options": [
-              "By taxi",
-              "By car",
-              "*By bus"
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La nonna di Elena {pp:è morta} due anni fa.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           }
         ]
@@ -323,57 +391,51 @@
   "listening": {
     "transcript": [
       [
-        "Studente",
-        "Permesso, {ip:posso} entrare?"
+        "Sara",
+        "Chi {ip:è} questo ragazzo?"
       ],
       [
-        "Professoressa",
-        "Sì, {imv:entra}! {imv:Chiudi} la porta, per favore."
+        "Luca",
+        "{ip:È} mio cugino Marco. {pp:È nato} in America e {pp:ha vissuto} a New York."
       ],
       [
-        "Studente",
-        "{imv:Scusi}, {ip:devo} parlare con Lei."
+        "Sara",
+        "E questa signora?"
       ],
       [
-        "Professoressa",
-        "Adesso non {ip:posso}, la lezione {ip:sta} per cominciare."
+        "Luca",
+        "{ip:È} mia zia, la mamma di Marco."
       ],
       [
-        "Studente",
-        "{ip:Va} bene. {ip:Vengo} dopo?"
+        "Sara",
+        "E i tuoi genitori dove {ip:sono}?"
       ],
       [
-        "Professoressa",
-        "Sì, {ip:aspetta} qui alla fine della lezione."
+        "Luca",
+        "Ecco i miei genitori, accanto ai miei nonni."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Permesso, [[posso#ip]] entrare?",
-          "[[Chiudi#imv]] la porta, per favore.",
-          "{imv:Scusi}, [[devo#ip]] parlare con Lei.",
-          "La lezione {ip:sta} [[per]] cominciare."
+          "{ip:È} [[mio]] cugino Marco.",
+          "[[È nato#pp]] in America e [[ha vissuto#pp]] a New York.",
+          "{ip:È} [[mia]] zia, la mamma di Marco.",
+          "Ecco [[i miei]] genitori."
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The teacher can talk right now.",
+            "q": "Chi {ip:è} la signora?",
             "options": [
-              "True",
-              "*False"
-            ]
-          },
-          {
-            "q": "The student speaks politely to the teacher.",
-            "options": [
-              "*True",
-              "False"
+              "*la zia di Luca",
+              "la mamma di Luca",
+              "la nonna di Luca"
             ]
           }
         ]
@@ -384,39 +446,57 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "May I come in?",
+            "q": "Come si {ip:chiama} tuo fratello? (Paolo)",
             "a": [
-              "Posso entrare?"
+              "Mio fratello si chiama Paolo.",
+              "Si chiama Paolo."
             ]
           },
           {
-            "q": "I want to eat.",
+            "q": "Dove {ip:abitano} le tue sorelle? (a Roma)",
             "a": [
-              "Voglio mangiare.",
-              "Io voglio mangiare."
+              "Le mie sorelle abitano a Roma.",
+              "Le mie sorelle vivono a Roma.",
+              "Abitano a Roma."
             ]
           },
           {
-            "q": "We must study.",
+            "q": "Com'{ip:è} il cugino di Luca e Anna? (loro, simpatico)",
             "a": [
-              "Dobbiamo studiare.",
-              "Noi dobbiamo studiare."
+              "Il loro cugino è simpatico."
             ]
           },
           {
-            "q": "I'm about to go out.",
+            "q": "Come {ip:cucina} la tua mamma? (bene)",
             "a": [
-              "Sto per uscire.",
-              "Io sto per uscire."
+              "La mia mamma cucina bene.",
+              "Mia mamma cucina bene."
             ]
           },
           {
-            "q": "Look! (to a friend)",
+            "q": "Dove {pp:sei nata}? (Torino)",
             "a": [
-              "Guarda!"
+              "Sono nata a Torino.",
+              "Io sono nata a Torino."
+            ]
+          },
+          {
+            "q": "Il tuo nonno non {ip:c'è} più: {pp:è}… (l'anno scorso)",
+            "a": [
+              "Mio nonno è morto l'anno scorso.",
+              "Il mio nonno è morto l'anno scorso.",
+              "È morto l'anno scorso."
+            ]
+          },
+          {
+            "q": "Dove {pp:avete vissuto} tu e la tua famiglia? (in Francia)",
+            "a": [
+              "Abbiamo vissuto in Francia.",
+              "Noi abbiamo vissuto in Francia.",
+              "Siamo vissuti in Francia."
             ]
           }
         ]

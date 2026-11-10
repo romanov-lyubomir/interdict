@@ -16,27 +16,27 @@
           ],
           "rows": [
             [
-              "Presente: «{ip:Parto}.»",
-              "Imperfetto: {im:partiva}"
+              "[ip:Presente]: «{ip:Parto}.»",
+              "[im:Imperfetto]: {im:partiva}"
             ],
             [
-              "Passato prossimo: «{pp:Sono partito}.»",
+              "[pp:Passato prossimo]: «{pp:Sono partito}.»",
               "Trapassato: {tp:era partito}"
             ],
             [
               "Futuro: «{fs:Partirò}.»",
-              "Condizionale passato: {cpa:sarebbe partito}"
+              "[cpa:Condizionale passato]: {cpa:sarebbe partito}"
             ],
             [
               "Condizionale: «{cop:Partirei}.»",
-              "Condizionale passato: {cpa:sarebbe partito}"
+              "[cpa:Condizionale passato]: {cpa:sarebbe partito}"
             ],
             [
-              "Congiuntivo presente: «{ip:Penso} che {csp:parta}.»",
-              "Congiuntivo imperfetto: {im:pensava} che {csi:partisse}"
+              "[csp:Congiuntivo presente]: «{ip:Penso} che {csp:parta}.»",
+              "[csi:Congiuntivo imperfetto]: {im:pensava} che {csi:partisse}"
             ],
             [
-              "Imperfetto, trapassato: no change",
+              "[im:Imperfetto], trapassato: no change",
               "{im:partiva}, {tp:era partito}"
             ]
           ]

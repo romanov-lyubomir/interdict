@@ -38,15 +38,15 @@
           ],
           "rows": [
             [
-              "Presente",
+              "[ip:Presente]",
               "La casa {ip:è venduta}."
             ],
             [
-              "Passato prossimo",
+              "[pp:Passato prossimo]",
               "La casa {pp:è stata} {pp:venduta}."
             ],
             [
-              "Imperfetto",
+              "[im:Imperfetto]",
               "La casa {im:era venduta}."
             ],
             [

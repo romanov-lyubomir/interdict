@@ -1,142 +1,308 @@
 {
-  "title": "Io {ip:sono} Marco e {ip:ho} vent'anni",
-  "translation": "I am Marco and I am twenty years old",
-  "topics": "Personal pronouns, essere and avere, numbers, age and quantities",
+  "title": "La mattina {ip:mi sveglio} alle sette",
+  "translation": "",
+  "topics": "I verbi in -are, -ere e -ire, i verbi irregolari fare e andare, i verbi riflessivi",
   "grammar": {
     "explain": [
-      "The personal pronouns are often left out, because the verb ending already shows the person: *{ip:Sono} italiano* is more natural than *Io {ip:sono} italiano*. Use them for emphasis or contrast. *Lei* with a capital letter is the polite *you*.",
+      "I verbi italiani si dividono in tre gruppi secondo la finale dell'infinito: *-are*, *-ere* e *-ire*. Alcuni verbi molto comuni, come *fare* e *andare*, non seguono nessun gruppo.",
       {
-        "table": {
-          "head": [
-            "Pronoun",
-            "Meaning",
-            "essere (to be)",
-            "avere (to have)"
-          ],
-          "rows": [
-            [
-              "io",
-              "I",
-              "{ip:sono}",
-              "{ip:ho}"
-            ],
-            [
-              "tu",
-              "you",
-              "{ip:sei}",
-              "{ip:hai}"
-            ],
-            [
-              "lui / lei / Lei",
-              "he / she / you (polite)",
-              "{ip:è}",
-              "{ip:ha}"
-            ],
-            [
-              "noi",
-              "we",
-              "{ip:siamo}",
-              "{ip:abbiamo}"
-            ],
-            [
-              "voi",
-              "you (plural)",
-              "{ip:siete}",
-              "{ip:avete}"
-            ],
-            [
-              "loro",
-              "they",
-              "{ip:sono}",
-              "{ip:hanno}"
+        "grid": [
+          {
+            "table": {
+              "title": "I verbi irregolari",
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*fare*",
+                  2
+                ],
+                [
+                  "*andare*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{ip:faccio}",
+                  {
+                    "text": "un caffè.",
+                    "rows": 6
+                  },
+                  "{ip:vado}",
+                  {
+                    "text": "a casa.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:fai}",
+                  null,
+                  "{ip:vai}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:fa}",
+                  null,
+                  "{ip:va}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:facciamo}",
+                  null,
+                  "{ip:andiamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:fate}",
+                  null,
+                  "{ip:andate}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:fanno}",
+                  null,
+                  "{ip:vanno}",
+                  null
+                ]
+              ]
+            },
+            "note": "*Fare* e *andare* si imparano a memoria. Davanti a una città o a *casa*, *andare* prende *a*: *vado a Roma, vado a casa*."
+          },
+          {
+            "table": {
+              "title": "I verbi riflessivi",
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*svegliarsi*",
+                  3
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "mi",
+                  "{ip:svegli**o**}",
+                  {
+                    "text": "alle 7.30.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "ti",
+                  "{ip:svegl**i**}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "si",
+                  "{ip:svegli**a**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "ci",
+                  "{ip:svegl**iamo**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "vi",
+                  "{ip:svegli**ate**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "si",
+                  "{ip:svegli**ano**}",
+                  null
+                ]
+              ]
+            },
+            "note": "Il verbo si coniuga come sempre, con *mi, ti, si, ci, vi, si* davanti. Molte azioni di ogni giorno funzionano così: *svegliarsi, alzarsi, lavarsi*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le tre coniugazioni (verbi in *-are*, *-ere*, *-ire*)",
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "guard**are**",
+                  2
+                ],
+                [
+                  "legg**ere**",
+                  2
+                ],
+                [
+                  "part**ire**",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{ip:guard**o**}",
+                  {
+                    "text": "la televisione.",
+                    "rows": 6
+                  },
+                  "{ip:legg**o**}",
+                  {
+                    "text": "un libro.",
+                    "rows": 6
+                  },
+                  "{ip:part**o**}",
+                  {
+                    "text": "domani.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:guard**i**}",
+                  null,
+                  "{ip:legg**i**}",
+                  null,
+                  "{ip:part**i**}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:guard**a**}",
+                  null,
+                  "{ip:legg**e**}",
+                  null,
+                  "{ip:part**e**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:guard**iamo**}",
+                  null,
+                  "{ip:legg**iamo**}",
+                  null,
+                  "{ip:part**iamo**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:guard**ate**}",
+                  null,
+                  "{ip:legg**ete**}",
+                  null,
+                  "{ip:part**ite**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:guard**ano**}",
+                  null,
+                  "{ip:legg**ono**}",
+                  null,
+                  "{ip:part**ono**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Si toglie *-are*, *-ere* o *-ire* e si aggiungono le finali del gruppo.",
+              "*-ere* e *-ire* hanno le stesse finali tranne con *voi*: *leggete* ma *partite*.",
+              "Alcuni verbi in *-ire*, come *finire* e *capire*, aggiungono **-isc-** tranne con *noi* e *voi*: *fin**isc**o, fin**isc**i, fin**isc**e, finiamo, finite, fin**isc**ono*.",
+              "La grafia resta regolare, ma il suono può cambiare: la *g* di *leggo* è dura, quella di *leggi* è morbida."
             ]
-          ]
-        }
-      },
-      "Careful: *{ip:è}* with an accent means *is*, while *e* means *and*. The *h* in *{ip:ho}, {ip:hai}, {ip:ha}, {ip:hanno}* is silent.",
-      "In Italian, you have your age: *{ip:Ho} vent'anni* (I am twenty). Ask: *Quanti anni {ip:hai}?*",
-      {
-        "table": {
-          "head": [
-            "1–10",
-            "11–20",
-            "Tens"
-          ],
-          "rows": [
-            [
-              "uno, due, tre, quattro, cinque",
-              "undici, dodici, tredici, quattordici, quindici",
-              "venti, trenta, quaranta"
-            ],
-            [
-              "{ip:sei}, sette, otto, nove, dieci",
-              "sedici, diciassette, diciotto, diciannove, venti",
-              "cinquanta, sessanta, settanta, ottanta, novanta, cento"
-            ]
-          ]
-        }
-      },
-      "Quantities: *un po' di* pane (a little bread), *molto* pane / *molta* acqua (a lot of), *poco* tempo (little), *tanti* amici (many). Before a noun, *molto, poco* and *tanto* agree with it."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete with the right form of essere.",
+        "prompt": "Scrivi la forma giusta del verbo.",
         "questions": [
-          "Io [[sono#ip]] Marco.",
-          "Tu [[sei#ip]] italiana?",
-          "Lui [[è#ip]] di Roma.",
-          "Noi [[siamo#ip]] studenti.",
-          "Voi [[siete#ip]] amici.",
-          "Loro [[sono#ip]] a casa."
+          "Io [[leggo#ip]] un giornale. (leggere)",
+          "Tu [[scrivi#ip]] una lettera? (scrivere)",
+          "Lui [[dorme#ip]] poco. (dormire)",
+          "Noi [[guardiamo#ip]] la televisione. (guardare)",
+          "Voi [[partite#ip]] domani? (partire)",
+          "Loro [[prendono#ip]] il treno. (prendere)",
+          "Voi [[leggete#ip]] molto. (leggere)",
+          "Io [[finisco#ip]] alle sei. (finire)"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the right form of avere.",
+        "prompt": "Scrivi la forma giusta di fare o andare.",
         "questions": [
-          "Io [[ho#ip]] vent'anni.",
-          "Quanti anni [[hai#ip]]?",
-          "Anna [[ha#ip]] un cane.",
-          "Noi [[abbiamo#ip]] due libri.",
-          "Voi [[avete#ip]] una casa grande.",
-          "Loro [[hanno#ip]] molti amici."
+          "Io [[faccio#ip]] colazione. (fare)",
+          "Tu [[vai#ip]] a casa? (andare)",
+          "Lei [[fa#ip]] un caffè. (fare)",
+          "Noi [[andiamo#ip]] a Roma. (andare)",
+          "Voi [[fate#ip]] una pausa? (fare)",
+          "Loro [[vanno#ip]] a scuola. (andare)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il verbo riflessivo con il suo pronome.",
+        "questions": [
+          "Io [[mi sveglio#ip]] alle sette. (svegliarsi)",
+          "Tu [[ti alzi#ip]] presto? (alzarsi)",
+          "Lui [[si chiama#ip]] Marco. (chiamarsi)",
+          "Noi [[ci alziamo#ip]] alle otto. (alzarsi)",
+          "Voi [[vi svegliate#ip]] tardi? (svegliarsi)",
+          "Loro [[si riposano#ip]] la domenica. (riposarsi)"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right word.",
+        "prompt": "Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Marco ___ Anna {ip:sono} amici.",
+            "q": "voi … (dormire)",
             "options": [
-              "*e",
-              "{ip:è}"
+              "*dormite",
+              "dormete"
             ]
           },
           {
-            "q": "Marco ___ italiano.",
+            "q": "voi … (scrivere)",
             "options": [
-              "e",
-              "*{ip:è}"
+              "*scrivete",
+              "scrivite"
             ]
           },
           {
-            "q": "Ho ___ acqua. (a lot of)",
+            "q": "io … (capire)",
             "options": [
-              "molto",
-              "*molta",
-              "molti"
+              "*capisco",
+              "capo"
             ]
           },
           {
-            "q": "17 =",
+            "q": "noi … (capire)",
             "options": [
-              "*diciassette",
-              "settantuno",
-              "diciotto"
+              "*capiamo",
+              "capischiamo"
             ]
           }
         ]
@@ -146,137 +312,174 @@
   "vocabulary": {
     "words": [
       [
-        "l'anno",
-        "year"
+        "guardare",
+        "usare gli occhi: un film, la televisione"
       ],
       [
-        "la famiglia",
-        "family"
+        "ascoltare",
+        "usare le orecchie: la musica, la radio"
       ],
       [
-        "il fratello",
-        "brother"
+        "leggere",
+        "un libro, un giornale"
       ],
       [
-        "la sorella",
-        "sister"
+        "scrivere",
+        "una lettera, un messaggio"
       ],
       [
-        "il cane",
-        "dog"
+        "prendere",
+        "il treno, l'autobus, un caffè"
       ],
       [
-        "il gatto",
-        "cat"
+        "dormire",
+        "lo fai a letto la notte"
       ],
       [
-        "italiano / italiana",
-        "Italian"
+        "partire",
+        "andare via per un viaggio"
       ],
       [
-        "bulgaro / bulgara",
-        "Bulgarian"
+        "tornare",
+        "andare di nuovo dove eri prima"
       ],
       [
-        "l'acqua",
-        "water"
+        "finire",
+        "il contrario di cominciare"
       ],
       [
-        "il pane",
-        "bread"
+        "capire",
+        "sapere che cosa vuol dire una cosa"
       ],
       [
-        "il tempo",
-        "time"
+        "fare colazione",
+        "mangiare la mattina"
       ],
       [
-        "un po' di",
-        "a little"
+        "svegliarsi",
+        "aprire gli occhi la mattina"
+      ],
+      [
+        "alzarsi",
+        "uscire dal letto"
+      ],
+      [
+        "riposarsi",
+        "stare tranquilli dopo il lavoro"
+      ],
+      [
+        "la mattina",
+        "la prima parte del giorno"
+      ],
+      [
+        "la sera",
+        "la parte del giorno dopo il lavoro"
+      ],
+      [
+        "presto",
+        "il contrario di tardi"
+      ],
+      [
+        "tardi",
+        "il contrario di presto"
+      ],
+      [
+        "poco",
+        "il contrario di molto"
+      ],
+      [
+        "molto",
+        "il contrario di poco"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il fratello",
-            "brother"
+            "leggere",
+            "un libro, un giornale"
           ],
           [
-            "la sorella",
-            "sister"
+            "dormire",
+            "lo fai a letto la notte"
           ],
           [
-            "il gatto",
-            "cat"
+            "partire",
+            "andare via per un viaggio"
           ],
           [
-            "l'acqua",
-            "water"
+            "capire",
+            "sapere che cosa vuol dire una cosa"
           ],
           [
-            "il pane",
-            "bread"
+            "svegliarsi",
+            "aprire gli occhi la mattina"
           ],
           [
-            "l'anno",
-            "year"
+            "tardi",
+            "il contrario di presto"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Write the number in words.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "12 = [[dodici]]",
-          "20 = [[venti]]",
-          "30 = [[trenta]]",
-          "16 = [[sedici]]"
+          "{ip:Mi alzo} alle sei: {ip:mi alzo} [[presto]].",
+          "La [[sera]], dopo il lavoro, {ip:guardiamo} un film.",
+          "La mattina {ip:faccio} [[colazione]] alle otto.",
+          "Marco {ip:dorme} cinque ore: {ip:dorme} [[poco]].",
+          "Loro {ip:leggono} tanti libri: {ip:leggono} [[molto]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Ciao! Io {ip:sono} Marco, {ip:sono} italiano e {ip:ho} vent'anni. {ip:Ho} una sorella, Anna, e un fratello, Luca. Anna {ip:ha} sedici anni e Luca {ip:ha} dodici anni.",
-      "{ip:Abbiamo} un cane e due gatti. La nostra famiglia {ip:è} di Bologna. {ip:Ho} molti amici, ma {ip:ho} poco tempo: {ip:sono} studente e {ip:lavoro} in un bar."
+      "{ip:Mi chiamo} Marco e {ip:lavoro} in un negozio a Torino. La mattina {ip:mi sveglio} alle sette, {ip:mi alzo} e {ip:faccio} colazione: un caffè e un cornetto.",
+      "Alle otto {ip:prendo} il tram e {ip:vado} a lavorare. {ip:Finisco} alle sei e {ip:torno} a casa.",
+      "La sera {ip:leggo} un libro o {ip:guardo} la televisione con Anna, la mia ragazza. Lei {ip:scrive} articoli per un giornale. Noi {ip:andiamo} a letto tardi e {ip:dormiamo} poco!"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "How old is Marco?",
+            "q": "Marco {ip:si sveglia} alle sette.",
             "options": [
-              "12",
-              "16",
-              "*20"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "How old is Anna?",
+            "q": "A colazione Marco {ip:beve} un tè.",
             "options": [
-              "*16",
-              "12",
-              "20"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "The family has…",
+            "q": "Marco {ip:finisce} di lavorare alle sei.",
             "options": [
-              "two dogs and a cat",
-              "*a dog and two cats",
-              "only a dog"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Marco has…",
+            "q": "Anna {ip:scrive} articoli.",
             "options": [
-              "few friends",
-              "*little time",
-              "a lot of time"
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Marco e Anna {ip:dormono} molto.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           }
         ]
@@ -286,51 +489,51 @@
   "listening": {
     "transcript": [
       [
-        "Sara",
-        "Ciao! Come ti {ip:chiami}?"
-      ],
-      [
-        "Ivan",
-        "Mi {ip:chiamo} Ivan. {ip:Sono} bulgaro."
+        "Luca",
+        "Ciao, Sara! Che cosa {ip:fai} stasera?"
       ],
       [
         "Sara",
-        "Io {ip:sono} Sara. Quanti anni {ip:hai}?"
+        "{ip:Vado} a casa e {ip:guardo} un film. E tu?"
       ],
       [
-        "Ivan",
-        "{ip:Ho} ventitré anni. E tu?"
+        "Luca",
+        "Io {ip:scrivo} un articolo. {ip:Finisco} tardi."
       ],
       [
         "Sara",
-        "{ip:Ho} diciannove anni. {ip:Hai} fratelli?"
+        "E domani {ip:partite} per Roma?"
       ],
       [
-        "Ivan",
-        "Sì, {ip:ho} una sorella."
+        "Luca",
+        "Sì, io e Marta {ip:partiamo} domani mattina. {ip:Ci svegliamo} alle sei!"
+      ],
+      [
+        "Sara",
+        "Alle sei? Buon viaggio!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:Sono} [[bulgaro]].",
-          "[[Quanti]] anni {ip:hai}?",
-          "[[Ho#ip]] diciannove anni.",
-          "Sì, {ip:ho} una [[sorella]]."
+          "[[Vado#ip]] a casa e [[guardo#ip]] un film.",
+          "Io [[scrivo#ip]] un articolo.",
+          "Io e Marta [[partiamo#ip]] domani mattina.",
+          "[[Ci svegliamo#ip]] alle sei!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "How old is Ivan?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Ivan is…",
+            "q": "Quando {ip:partono} per Roma Luca e Marta?",
             "options": [
-              "19",
-              "*23",
-              "33"
+              "stasera",
+              "*domani mattina",
+              "alle sei di sera"
             ]
           }
         ]
@@ -341,42 +544,60 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian. You can leave out the pronouns.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "I am Italian. (a man speaking)",
+            "q": "A che ora ti {ip:svegli}? (alle sette)",
             "a": [
-              "Sono italiano.",
-              "Io sono italiano."
+              "Mi sveglio alle sette.",
+              "Io mi sveglio alle sette.",
+              "Mi sveglio alle 7."
             ]
           },
           {
-            "q": "I am twenty years old.",
+            "q": "Dove {ip:andate} tu e Luca? (a casa)",
             "a": [
-              "Ho vent'anni.",
-              "Io ho vent'anni.",
-              "Ho venti anni."
+              "Andiamo a casa.",
+              "Noi andiamo a casa."
             ]
           },
           {
-            "q": "How old are you? (informal)",
+            "q": "Che cosa {ip:fa} Anna? (leggere un libro)",
             "a": [
-              "Quanti anni hai?",
-              "Quanti anni hai tu?"
+              "Legge un libro.",
+              "Anna legge un libro.",
+              "Lei legge un libro."
             ]
           },
           {
-            "q": "We have a dog.",
+            "q": "{ip:Chiedi} a Luca e Marta se {ip:dormono} molto.",
             "a": [
-              "Abbiamo un cane.",
-              "Noi abbiamo un cane."
+              "Dormite molto?",
+              "Voi dormite molto?"
             ]
           },
           {
-            "q": "They are at home.",
+            "q": "Che cosa {ip:fai} in cucina? (un caffè)",
             "a": [
-              "Sono a casa.",
-              "Loro sono a casa."
+              "Faccio un caffè.",
+              "Io faccio un caffè."
+            ]
+          },
+          {
+            "q": "Quando {ip:partono} Luca e Marta? (domani)",
+            "a": [
+              "Partono domani.",
+              "Loro partono domani.",
+              "Luca e Marta partono domani."
+            ]
+          },
+          {
+            "q": "{ip:Dici} che l'italiano non {ip:è} difficile per te: lo…",
+            "a": [
+              "Capisco l'italiano.",
+              "Io capisco l'italiano.",
+              "Capisco italiano.",
+              "Lo capisco."
             ]
           }
         ]

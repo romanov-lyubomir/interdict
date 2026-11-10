@@ -1,93 +1,117 @@
 {
-  "title": "Dove {ip:vai}? Perché non {ip:resti}?",
-  "translation": "Where are you going? Why don't you stay?",
-  "topics": "Questions, negation with non, the linking words e, ma, o, perché, quindi",
+  "title": "Mi {ip:piace} la pizza",
+  "translation": "",
+  "topics": "Mi piace e mi piacciono, il verbo bere, genere e numero degli aggettivi, il cibo e le bevande",
   "grammar": {
     "explain": [
-      "A yes/no question has the same word order as a statement. Only the voice rises, and in writing you add a question mark: *{ip:Parli} italiano?*",
+      "A tavola: come dire che cosa ti piace e come descrivere il cibo e le bevande.",
       {
-        "table": {
-          "head": [
-            "Question word",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "chi",
-              "who",
-              "Chi {ip:è}?"
-            ],
-            [
-              "che cosa",
-              "what",
-              "Che cosa {ip:fai}?"
-            ],
-            [
-              "dove",
-              "where",
-              "Dove {ip:abiti}?"
-            ],
-            [
-              "quando",
-              "when",
-              "Quando {ip:parti}?"
-            ],
-            [
-              "come",
-              "how",
-              "Come ti {ip:chiami}?"
-            ],
-            [
-              "perché",
-              "why",
-              "Perché {ip:studi} italiano?"
-            ],
-            [
-              "quanto",
-              "how much",
-              "Quanto {ip:costa}?"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "rows": [
+                [
+                  {
+                    "text": "Mi piace / mi piacciono",
+                    "rows": 2
+                  },
+                  "Mi {ip:piace}",
+                  "la pizza margherita."
+                ],
+                [
+                  null,
+                  "Mi {ip:piacciono}",
+                  "gli spaghetti."
+                ],
+                [
+                  {
+                    "text": "Non mi piace / non mi piacciono",
+                    "rows": 2
+                  },
+                  "Non mi {ip:piace}",
+                  "il pesce."
+                ],
+                [
+                  null,
+                  "Non mi {ip:piacciono}",
+                  "le olive."
+                ]
+              ]
+            },
+            "note": [
+              "Con *piacere*, la cosa che piace è il soggetto del verbo: *la pizza mi piace*.",
+              "**Mi piace** va con una cosa sola o con un verbo: *mi piace la pizza, mi piace cucinare*. **Mi piacciono** va con più di una cosa: *mi piacciono gli spaghetti*.",
+              "Per le altre persone *mi* cambia: *ti piace* (tu), *gli piace* (lui), *le piace* (lei e la forma di cortesia), *ci piace* (noi), *vi piace* (voi), *gli piace* (loro).",
+              "*Non* va prima di tutto: *non mi piace*."
             ]
-          ]
-        }
-      },
-      "*Quanto* agrees with the noun that follows: *quanti anni, quante persone*. And *perché* means both *why* and *because*.",
-      "To make a sentence negative, put *non* directly before the verb: *Non {ip:parlo} inglese. Marco non {ip:lavora}.*",
-      {
-        "table": {
-          "head": [
-            "Linking word",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "e",
-              "and",
-              "Luca e Anna"
-            ],
-            [
-              "ma",
-              "but",
-              "{ip:Sono} stanco, ma {ip:lavoro}."
-            ],
-            [
-              "o",
-              "or",
-              "Caffè o tè?"
-            ],
-            [
-              "perché",
-              "because",
-              "{ip:Resto} a casa perché {ip:piove}."
-            ],
-            [
-              "quindi",
-              "so, therefore",
-              "{ip:Piove}, quindi {ip:resto} a casa."
-            ]
-          ]
-        }
+          },
+          {
+            "table": {
+              "title": "Genere e numero degli aggettivi",
+              "rows": [
+                [
+                  "Il gelato {ip:è} fredd**o**.",
+                  "I gelati {ip:sono} fredd**i**."
+                ],
+                [
+                  "La minestra {ip:è} fredd**a**.",
+                  "Le minestre {ip:sono} fredd**e**."
+                ],
+                [
+                  "Il caffè {ip:è} dolc**e**.",
+                  "I caffè {ip:sono} dolc**i**."
+                ],
+                [
+                  "La torta {ip:è} dolc**e**.",
+                  "Le torte {ip:sono} dolc**i**."
+                ]
+              ]
+            },
+            "note": "Gli aggettivi si accordano con il nome, come quelli di nazionalità: **-o, -a, -i, -e** oppure **-e, -i**. Un nome come *il caffè* non cambia al plurale, ma il suo aggettivo sì: *i caffè sono dolci*."
+          },
+          {
+            "table": {
+              "title": "Il verbo *bere*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:bevo}",
+                  {
+                    "text": "volentieri un bicchiere di vino rosso.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:bevi}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:beve}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:beviamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:bevete}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:bevono}",
+                  null
+                ]
+              ]
+            },
+            "note": "*Bere* usa la radice *bev-*. Poi è un verbo regolare in *-ere*."
+          }
+        ]
       }
     ]
   },
@@ -95,91 +119,80 @@
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right question word.",
+        "prompt": "Piace o piacciono?",
         "questions": [
           {
-            "q": "___ {ip:abiti}? — A Roma.",
+            "q": "Mi ___ il caffè.",
             "options": [
-              "Chi",
-              "*Dove",
-              "Quando"
+              "*piace",
+              "piacciono"
             ]
           },
           {
-            "q": "___ {ip:è}? — {ip:È} Marco.",
+            "q": "Mi ___ gli spaghetti.",
             "options": [
-              "*Chi",
-              "Come",
-              "Dove"
+              "piace",
+              "*piacciono"
             ]
           },
           {
-            "q": "___ {ip:parti}? — Domani.",
+            "q": "Non mi ___ le olive.",
             "options": [
-              "Perché",
-              "Dove",
-              "*Quando"
+              "piace",
+              "*piacciono"
             ]
           },
           {
-            "q": "___ {ip:costa}? — Due euro.",
+            "q": "Ti ___ cucinare?",
             "options": [
-              "Come",
-              "*Quanto",
-              "Chi"
+              "*piace",
+              "piacciono"
             ]
           },
           {
-            "q": "___ ti {ip:chiami}? — Anna.",
+            "q": "Ci ___ i dolci.",
             "options": [
-              "*Come",
-              "Che cosa",
-              "Dove"
-            ]
-          },
-          {
-            "q": "___ {ip:fai}? — {ip:Leggo}.",
-            "options": [
-              "Chi",
-              "*Che cosa",
-              "Quanto"
+              "piace",
+              "*piacciono"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with e, ma, o, perché or quindi.",
+        "prompt": "Scrivi la parola giusta per la persona: mi, ti, gli, le, ci o vi.",
         "questions": [
-          "{ip:Vuoi} un caffè [[o]] un tè?",
-          "{ip:Sono} stanco, [[ma]] {ip:vado} al lavoro.",
-          "{ip:Resto} a casa [[perché]] {ip:sono} malato.",
-          "{ip:Piove}, [[quindi]] {ip:prendo} l'autobus.",
-          "Anna [[e]] Paolo {ip:sono} amici."
+          "(io) [[Mi]] {ip:piace} il gelato.",
+          "(tu) [[Ti]] {ip:piace} la pizza?",
+          "(lui) [[Gli]] {ip:piacciono} i funghi.",
+          "(lei) [[Le]] {ip:piace} il pesce.",
+          "(noi) [[Ci]] {ip:piacciono} le torte.",
+          "(voi) [[Vi]] {ip:piace} il vino?"
         ]
       },
       {
-        "type": "write",
-        "prompt": "Make each sentence negative.",
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta di bere.",
         "questions": [
-          {
-            "q": "{ip:Parlo} inglese.",
-            "a": [
-              "Non parlo inglese."
-            ]
-          },
-          {
-            "q": "Marco {ip:lavora} oggi.",
-            "a": [
-              "Marco non lavora oggi."
-            ]
-          },
-          {
-            "q": "{ip:Abitiamo} a Roma.",
-            "a": [
-              "Non abitiamo a Roma."
-            ]
-          }
+          "Io [[bevo#ip]] un caffè.",
+          "Tu che cosa [[bevi#ip]]?",
+          "Lei [[beve#ip]] il tè.",
+          "Noi [[beviamo#ip]] acqua.",
+          "Voi [[bevete#ip]] vino?",
+          "Loro [[bevono#ip]] birra."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'aggettivo con la finale giusta.",
+        "questions": [
+          "La pizza {ip:è} [[buona]]. (buono)",
+          "I gelati {ip:sono} [[freddi]]. (freddo)",
+          "Le torte {ip:sono} [[dolci]]. (dolce)",
+          "Il caffè {ip:è} [[caldo]]. (caldo)",
+          "Le minestre {ip:sono} [[calde]]. (caldo)",
+          "Il ristorante {ip:è} [[grande]]. (grande)",
+          "I piatti {ip:sono} [[buoni]]. (buono)"
         ]
       }
     ]
@@ -187,133 +200,186 @@
   "vocabulary": {
     "words": [
       [
-        "restare",
-        "to stay"
+        "la pizza",
+        "piatto di Napoli con pomodoro e mozzarella"
       ],
       [
-        "costare",
-        "to cost"
+        "gli spaghetti",
+        "pasta lunga e sottile"
       ],
       [
-        "venire",
-        "to come"
+        "la minestra",
+        "verdure cotte in acqua, si mangia col cucchiaio"
       ],
       [
-        "il treno",
-        "train"
+        "il pesce",
+        "vive nel mare"
       ],
       [
-        "l'autobus",
-        "bus"
+        "la carne",
+        "la mangi da un animale, per esempio la bistecca"
       ],
       [
-        "la stazione",
-        "station"
+        "le verdure",
+        "carote, patate, pomodori…"
       ],
       [
-        "il biglietto",
-        "ticket"
+        "i funghi",
+        "crescono nei boschi"
       ],
       [
-        "stanco",
-        "tired"
+        "le olive",
+        "piccole, verdi o nere, da cui viene l'olio"
       ],
       [
-        "malato",
-        "ill"
+        "il gelato",
+        "dolce freddo dell'estate"
       ],
       [
-        "contento",
-        "happy"
+        "la torta",
+        "dolce per il compleanno"
       ],
       [
-        "adesso",
-        "now"
+        "i dolci",
+        "torte, biscotti, cioccolato…"
       ],
       [
-        "purtroppo",
-        "unfortunately"
+        "l'acqua",
+        "la bevi quando hai sete"
+      ],
+      [
+        "il vino",
+        "bevanda rossa o bianca fatta con l'uva"
+      ],
+      [
+        "la birra",
+        "bevanda gialla con la schiuma"
+      ],
+      [
+        "il tè",
+        "bevanda calda, inglese per tradizione"
+      ],
+      [
+        "il bicchiere",
+        "ci bevi l'acqua o il vino"
+      ],
+      [
+        "buono",
+        "il contrario di cattivo"
+      ],
+      [
+        "caldo",
+        "il contrario di freddo"
+      ],
+      [
+        "freddo",
+        "il contrario di caldo"
+      ],
+      [
+        "dolce",
+        "con lo zucchero"
+      ],
+      [
+        "bere",
+        "mettere in bocca una bevanda"
+      ],
+      [
+        "piacere",
+        "essere bello o buono per qualcuno"
+      ],
+      [
+        "volentieri",
+        "con piacere"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "restare",
-            "to stay"
+            "il pesce",
+            "vive nel mare"
           ],
           [
-            "il treno",
-            "train"
+            "la carne",
+            "la mangi da un animale, per esempio la bistecca"
           ],
           [
-            "la stazione",
-            "station"
+            "le verdure",
+            "carote, patate, pomodori…"
           ],
           [
-            "il biglietto",
-            "ticket"
+            "la torta",
+            "dolce per il compleanno"
           ],
           [
-            "stanco",
-            "tired"
+            "il bicchiere",
+            "ci bevi l'acqua o il vino"
           ],
           [
-            "adesso",
-            "now"
+            "freddo",
+            "il contrario di caldo"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Il [[biglietto]] {ip:costa} dieci euro. (ticket)",
-          "Marco {ip:è} [[malato]]. (ill)",
-          "{ip:Vado} alla [[stazione]]. (station)",
-          "[[Purtroppo]] non {ip:posso} venire. (unfortunately)"
+          "Un [[bicchiere]] d'acqua, per favore.",
+          "D'estate {ip:mangio} un [[gelato]] al cioccolato.",
+          "Il tè {ip:è} [[caldo]], il gelato {ip:è} freddo.",
+          "Un caffè? Sì, [[volentieri]]!",
+          "{ip:Mangio} solo pesce e verdure: non mi {ip:piace} la [[carne]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Paolo {ip:è} alla stazione. {ip:Va} a Firenze, ma il treno non {ip:arriva}. {ip:Chiede} a un signore: «{imv:Scusi}, quando {ip:parte} il treno per Firenze?» «Non lo {ip:so}. Perché non {ip:chiede} all'ufficio?»",
-      "Paolo {ip:va} all'ufficio e {ip:chiede}: «Quanto {ip:costa} un biglietto per l'autobus?» «Dodici euro.» Il treno {ip:è} in ritardo, quindi Paolo {ip:prende} l'autobus. Non {ip:è} contento, perché l'autobus {ip:è} lento."
+      "{ip:Mi chiamo} Paolo e {ip:mi piace} molto mangiare. Mi {ip:piacciono} la pasta, la pizza e il pesce, ma non mi {ip:piace} la carne.",
+      "La mia ragazza, Giulia, {ip:è} diversa: le {ip:piace} la carne e non le {ip:piacciono} le verdure. A pranzo {ip:beve} acqua, ma la sera {ip:beviamo} un bicchiere di vino rosso.",
+      "Il sabato {ip:andiamo} in una trattoria vicino a casa. Il cuoco {ip:è} simpatico e i dolci {ip:sono} molto buoni!"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Paolo is going to Florence.",
+            "q": "A Paolo {ip:piace} il pesce.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "The man knows when the train leaves.",
+            "q": "A Paolo {ip:piace} la carne.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "A bus ticket costs twelve euros.",
+            "q": "A Giulia {ip:piacciono} le verdure.",
             "options": [
-              "*True",
-              "False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Paolo is happy to take the bus.",
+            "q": "La sera {ip:bevono} vino rosso.",
             "options": [
-              "True",
-              "*False"
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "I dolci della trattoria {ip:sono} buoni.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
@@ -323,55 +389,52 @@
   "listening": {
     "transcript": [
       [
-        "Anna",
-        "Dove {ip:vai}?"
-      ],
-      [
-        "Marco",
-        "{ip:Vado} a casa."
+        "Cameriere",
+        "Buongiorno, che cosa {ip:bevete}?"
       ],
       [
         "Anna",
-        "Perché? {ip:È} presto! Perché non {ip:resti}?"
+        "Io {ip:bevo} un caffè, grazie."
       ],
       [
-        "Marco",
-        "Perché {ip:sono} stanco e domani lavoro."
+        "Luca",
+        "Per me un tè freddo."
       ],
       [
-        "Anna",
-        "Quando {ip:finisci} domani?"
-      ],
-      [
-        "Marco",
-        "Alle sei. {ip:Vieni} al bar o {ip:resti} a casa?"
+        "Cameriere",
+        "{ip:Volete} anche una torta? Le nostre torte {ip:sono} molto buone."
       ],
       [
         "Anna",
-        "{ip:Vengo}!"
+        "Sì, mi {ip:piacciono} i dolci! Una torta al cioccolato, per favore."
+      ],
+      [
+        "Luca",
+        "Io no, non mi {ip:piace} il cioccolato."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Dove]] {ip:vai}?",
-          "Perché non [[resti#ip]]?",
-          "[[Quando]] {ip:finisci} domani?",
-          "{ip:Vieni} al bar [[o]] {ip:resti} a casa?"
+          "Buongiorno, che cosa [[bevete#ip]]?",
+          "Io [[bevo#ip]] un caffè, grazie.",
+          "Le nostre torte {ip:sono} molto [[buone]].",
+          "Sì, mi [[piacciono#ip]] i dolci!",
+          "Io no, non mi [[piace#ip]] il cioccolato."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Why is Marco going home?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Marco is going home because…",
+            "q": "Che cosa {ip:beve} Luca?",
             "options": [
-              "he is ill",
-              "*he is tired and works tomorrow",
-              "it is late"
+              "*un tè freddo",
+              "un caffè",
+              "un bicchiere di vino"
             ]
           }
         ]
@@ -382,39 +445,56 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "Where are you going? (informal)",
+            "q": "{ip:Dici} che la pizza {ip:è} il tuo piatto preferito: mi…",
             "a": [
-              "Dove vai?",
-              "Dove vai tu?"
+              "Mi piace la pizza.",
+              "Mi piace molto la pizza."
             ]
           },
           {
-            "q": "Why are you staying at home? (informal)",
+            "q": "{ip:Dici} che il pesce non {ip:è} buono per te.",
             "a": [
-              "Perché resti a casa?"
+              "Non mi piace il pesce."
             ]
           },
           {
-            "q": "How much does it cost?",
+            "q": "{ip:Chiedi} a un amico se gli spaghetti {ip:sono} buoni per lui.",
             "a": [
-              "Quanto costa?"
+              "Ti piacciono gli spaghetti?"
             ]
           },
           {
-            "q": "I don't speak English.",
+            "q": "Che cosa {ip:bevete} tu e Anna? (acqua)",
             "a": [
-              "Non parlo inglese.",
-              "Io non parlo inglese."
+              "Beviamo acqua.",
+              "Noi beviamo acqua.",
+              "Beviamo l'acqua.",
+              "Noi beviamo l'acqua."
             ]
           },
           {
-            "q": "I am tired, but I'm working.",
+            "q": "Le torte: come {ip:sono}? (buono)",
             "a": [
-              "Sono stanco, ma lavoro.",
-              "Sono stanca, ma lavoro."
+              "Le torte sono buone.",
+              "Sono buone."
+            ]
+          },
+          {
+            "q": "Il caffè: com'{ip:è}? (caldo)",
+            "a": [
+              "Il caffè è caldo.",
+              "È caldo."
+            ]
+          },
+          {
+            "q": "{ip:Chiedi} a un amico che cosa {ip:beve}.",
+            "a": [
+              "Che cosa bevi?",
+              "Cosa bevi?",
+              "Che bevi?"
             ]
           }
         ]

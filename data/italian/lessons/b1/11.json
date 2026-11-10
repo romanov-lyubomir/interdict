@@ -17,17 +17,17 @@
           ],
           "rows": [
             [
-              "Presente",
+              "[ip:Presente]",
               "«{ip:Sono} stanco.»",
               "{im:era} stanco"
             ],
             [
-              "Passato prossimo",
+              "[pp:Passato prossimo]",
               "«{pp:Ho mangiato}.»",
               "{tp:aveva mangiato}"
             ],
             [
-              "Imperfetto",
+              "[im:Imperfetto]",
               "«{im:Ero} stanco.»",
               "{im:era} stanco (no change)"
             ],
@@ -37,19 +37,19 @@
               "{cpa:sarebbe venuto}"
             ],
             [
-              "Condizionale presente",
+              "[cop:Condizionale presente]",
               "«{cop:Verrei}.»",
               "{cpa:sarebbe venuto}"
             ],
             [
-              "Imperativo",
+              "[imv:Imperativo]",
               "«{imv:Vieni}!»",
               "di venire"
             ]
           ]
         }
       },
-      "Note the future: where English says *would come*, Italian uses the *condizionale passato*, *{cpa:sarebbe venuto}*. It's the most typical mistake for learners, because the simple *{cop:verrebbe}* is wrong here.",
+      "Note the future: where English says *would come*, Italian uses the [cpa:condizionale passato], *{cpa:sarebbe venuto}*. It's the most typical mistake for learners, because the simple *{cop:verrebbe}* is wrong here.",
       {
         "h": "Person, place and time"
       },

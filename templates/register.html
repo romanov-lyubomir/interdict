@@ -11,6 +11,7 @@
 <div class="auth">
     <form class="shadow" action="{{ url_for('register') }}" method="POST">
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        {% if request.args.next %}<input type="hidden" name="next" value="{{ request.args.next }}">{% endif %}
         <h1>Create an account</h1>
         <p class="subtitle">Save your progress and practise on any device.</p>
         {% with messages = get_flashed_messages() %}
@@ -32,7 +33,7 @@
             {% endfor %}
         </select>
         <input type="submit" name="submit" value="Sign up">
-        <p class="switch">Already have an account? <a class="link" href="{{ url_for('login') }}">Log in</a></p>
+        <p class="switch">Already have an account? <a class="link" href="{{ url_for('login', next=request.args.next) }}">Log in</a></p>
     </form>
 </div>
 {% endblock %}

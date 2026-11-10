@@ -1,79 +1,207 @@
 {
-  "title": "Lo zaino, i libri e l'amica",
-  "translation": "The backpack, the books and the friend",
-  "topics": "Gender and number of nouns, definite and indefinite articles",
+  "title": "Un'amica francese",
+  "translation": "",
+  "topics": "Il genere dei nomi, l'articolo indeterminativo, gli aggettivi di nazionalità, domande e negazione, essere e avere",
   "grammar": {
     "explain": [
-      "Every Italian noun is masculine or feminine. Usually the ending tells you which. Words in *-e* can be either, so learn them with their article.",
+      "Ogni nome italiano è maschile o femminile: non ci sono vie di mezzo né eccezioni. Le parole che vanno con il nome, come gli articoli e gli aggettivi, cambiano per accordarsi con lui.",
       {
-        "table": {
-          "head": [
-            "",
-            "Singular",
-            "Plural"
-          ],
-          "rows": [
-            [
-              "Masculine in -o",
-              "ragazz**o**",
-              "ragazz**i**"
-            ],
-            [
-              "Feminine in -a",
-              "ragazz**a**",
-              "ragazz**e**"
-            ],
-            [
-              "Masculine or feminine in -e",
-              "il can**e**, la chiav**e**",
-              "i can**i**, le chiav**i**"
+        "grid": [
+          {
+            "table": {
+              "title": "Il nome singolare",
+              "head": [
+                "maschile",
+                "femminile"
+              ],
+              "rows": [
+                [
+                  "un tavol**o**",
+                  "una sedi**a**"
+                ],
+                [
+                  "un giornal**e**",
+                  "una lezion**e**"
+                ]
+              ]
+            },
+            "note": "I nomi in *-o* di solito sono maschili, quelli in *-a* femminili. I nomi in *-e* possono essere maschili o femminili: per questo si imparano con l'articolo."
+          },
+          {
+            "table": {
+              "title": "L'articolo indeterminativo",
+              "head": [
+                "maschile",
+                "femminile"
+              ],
+              "rows": [
+                [
+                  "**un** quaderno",
+                  "**una** borsa"
+                ],
+                [
+                  "**un** ombrello",
+                  "**un'**amica"
+                ],
+                [
+                  "**uno** zaino",
+                  ""
+                ]
+              ]
+            },
+            "note": "*Uno* va davanti a *s* + consonante, *z*, *ps* e *gn*: *uno zaino, uno studente*. *Un'* è solo per le parole femminili che cominciano con una vocale. Le parole maschili prendono *un* senza apostrofo: *un ombrello*."
+          },
+          {
+            "table": {
+              "title": "L'aggettivo di nazionalità",
+              "head": [
+                "",
+                "maschile",
+                "femminile"
+              ],
+              "rows": [
+                [
+                  {
+                    "text": "singolare",
+                    "rows": 2
+                  },
+                  "Pablo {ip:è} spagnol**o**",
+                  "Carmen {ip:è} spagnol**a**"
+                ],
+                [
+                  null,
+                  "Pierre {ip:è} frances**e**",
+                  "Claire {ip:è} frances**e**"
+                ],
+                [
+                  {
+                    "text": "plurale",
+                    "rows": 2
+                  },
+                  "Pablo e Diego {ip:sono} spagnol**i**",
+                  "Carmen e Lucía {ip:sono} spagnol**e**"
+                ],
+                [
+                  null,
+                  "Pierre e Louis {ip:sono} frances**i**",
+                  "Claire e Sophie {ip:sono} frances**i**"
+                ]
+              ]
+            },
+            "wide": true,
+            "note": [
+              "L'aggettivo si accorda con la persona nel genere e nel numero.",
+              "Gli aggettivi in **-o** hanno quattro finali: italian**o** (lui), italian**a** (lei), italian**i** (loro, uomini), italian**e** (loro, donne).",
+              "Gli aggettivi in **-e** ne hanno solo due, uguali per uomini e donne: frances**e** (lui o lei), frances**i** (loro).",
+              "Un gruppo di uomini e donne prende il maschile: *Pablo e Carmen {ip:sono} spagnoli*."
             ]
-          ]
-        }
-      },
-      "Words ending in an accented vowel, like *città* and *caffè*, do not change in the plural: *la città, le città*.",
-      "The article depends on the gender, the number and the first letter of the next word.",
-      {
-        "table": {
-          "head": [
-            "Next word begins with",
-            "the (singular)",
-            "the (plural)",
-            "a / an"
-          ],
-          "rows": [
-            [
-              "Masculine: a consonant",
-              "**il** libro",
-              "**i** libri",
-              "**un** libro"
-            ],
-            [
-              "Masculine: s + consonant, z, ps, gn",
-              "**lo** zaino",
-              "**gli** zaini",
-              "**uno** zaino"
-            ],
-            [
-              "Masculine: a vowel",
-              "**l'**amico",
-              "**gli** amici",
-              "**un** amico"
-            ],
-            [
-              "Feminine: a consonant",
-              "**la** casa",
-              "**le** case",
-              "**una** casa"
-            ],
-            [
-              "Feminine: a vowel",
-              "**l'**amica",
-              "**le** amiche",
-              "**un'**amica"
-            ]
-          ]
-        }
+          },
+          {
+            "table": {
+              "rows": [
+                [
+                  "La forma interrogativa",
+                  "{ip:Sei} spagnolo?"
+                ],
+                [
+                  "La forma affermativa",
+                  "Sì, {ip:sono} spagnolo."
+                ],
+                [
+                  "La forma negativa",
+                  "No, non {ip:sono} spagnolo."
+                ]
+              ]
+            },
+            "wide": true,
+            "note": "Una domanda ha le stesse parole di un'affermazione: cambia solo la voce, che sale alla fine. Per dire di no, si mette *non* subito prima del verbo."
+          },
+          {
+            "table": {
+              "title": "Il verbo *essere*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:sono}",
+                  {
+                    "text": "Giulia / Matteo.",
+                    "rows": 3
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:sei}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:è}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:siamo}",
+                  {
+                    "text": "Anna e Sara / Luca e Marco.",
+                    "rows": 3
+                  }
+                ],
+                [
+                  "voi",
+                  "{ip:siete}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:sono}",
+                  null
+                ]
+              ]
+            },
+            "note": "*Lei* con la lettera maiuscola è la forma di cortesia e ha la stessa forma di *lei*. Di solito il pronome non si dice: *{ip:Sono} Giulia*."
+          },
+          {
+            "table": {
+              "title": "Il verbo *avere*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:ho}",
+                  {
+                    "text": "una sorella a Roma.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:hai}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:ha}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:abbiamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:avete}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:hanno}",
+                  null
+                ]
+              ]
+            },
+            "note": "La *h* non si pronuncia mai: *ho* si legge come *o*."
+          }
+        ]
       }
     ]
   },
@@ -81,65 +209,72 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Write the definite article: il, lo, l', la, i, gli or le.",
+        "prompt": "Scrivi l'articolo indeterminativo: un, uno, una o un'.",
         "questions": [
-          "[[il]] libro",
-          "[[lo]] studente",
-          "[[l']]amica",
-          "[[gli]] zaini",
-          "[[le]] case",
-          "[[i]] ragazzi",
-          "[[la]] città",
-          "[[gli]] amici"
-        ]
-      },
-      {
-        "type": "choice",
-        "prompt": "Choose the indefinite article.",
-        "questions": [
-          {
-            "q": "___ zaino",
-            "options": [
-              "un",
-              "*uno",
-              "una"
-            ]
-          },
-          {
-            "q": "___ amica",
-            "options": [
-              "un",
-              "una",
-              "*un'"
-            ]
-          },
-          {
-            "q": "___ amico",
-            "options": [
-              "*un",
-              "uno",
-              "un'"
-            ]
-          },
-          {
-            "q": "___ chiave (feminine)",
-            "options": [
-              "un",
-              "uno",
-              "*una"
-            ]
-          }
+          "[[un]] quaderno",
+          "[[una]] borsa",
+          "[[uno]] zaino",
+          "[[un']]amica",
+          "[[un]] ombrello",
+          "[[uno]] studente",
+          "[[una]] lezione",
+          "[[un]] giornale"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Write the plural of each noun.",
+        "prompt": "Scrivi l'aggettivo con la finale giusta.",
         "questions": [
-          "il ragazzo → i [[ragazzi]]",
-          "la ragazza → le [[ragazze]]",
-          "il cane → i [[cani]]",
-          "la città → le [[città]]",
-          "lo studente → gli [[studenti]]"
+          "Marta {ip:è} [[italiana]]. (italiano)",
+          "Paolo e Carlo {ip:sono} [[italiani]]. (italiano)",
+          "Carmen e Lucía {ip:sono} [[spagnole]]. (spagnolo)",
+          "Pierre {ip:è} [[francese]]. (francese)",
+          "Claire e Sophie {ip:sono} [[francesi]]. (francese)",
+          "Diego {ip:è} [[spagnolo]]. (spagnolo)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta di essere o avere.",
+        "questions": [
+          "Io [[sono#ip]] Giulia.",
+          "Tu [[sei#ip]] italiano?",
+          "Noi [[siamo#ip]] studenti.",
+          "Loro [[sono#ip]] spagnoli.",
+          "Io [[ho#ip]] una sorella a Roma.",
+          "Lei [[ha#ip]] un amico a Napoli.",
+          "Voi [[avete#ip]] uno zaino?",
+          "Loro [[hanno#ip]] una casa al mare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "{ip:Sei} italiano? No, …",
+            "options": [
+              "*non sono italiano.",
+              "sono non italiano.",
+              "no sono italiano."
+            ]
+          },
+          {
+            "q": "{ip:Sei} spagnola? Sì, …",
+            "options": [
+              "*sono spagnola.",
+              "non sono spagnola.",
+              "sono spagnolo."
+            ]
+          },
+          {
+            "q": "Quale frase è una domanda?",
+            "options": [
+              "Pierre è francese.",
+              "*Pierre è francese?",
+              "Pierre non è francese."
+            ]
+          }
         ]
       }
     ]
@@ -147,133 +282,159 @@
   "vocabulary": {
     "words": [
       [
-        "il libro",
-        "book"
+        "un tavolo",
+        "ci mangi sopra"
       ],
       [
-        "lo zaino",
-        "backpack"
+        "una sedia",
+        "ti siedi qui"
       ],
       [
-        "lo studente",
-        "student"
+        "un giornale",
+        "lo leggi per avere le notizie"
       ],
       [
-        "la penna",
-        "pen"
+        "una lezione",
+        "l'ora di scuola con l'insegnante"
       ],
       [
-        "il quaderno",
-        "notebook"
+        "un quaderno",
+        "ci scrivi a scuola"
       ],
       [
-        "la chiave",
-        "key"
+        "una penna",
+        "con questa scrivi"
       ],
       [
-        "il ragazzo",
-        "boy"
+        "una borsa",
+        "ci metti le tue cose quando esci"
       ],
       [
-        "la ragazza",
-        "girl"
+        "un ombrello",
+        "lo apri quando piove"
       ],
       [
-        "l'amico",
-        "friend (male)"
+        "uno zaino",
+        "lo porti sulle spalle a scuola"
       ],
       [
-        "l'amica",
-        "friend (female)"
+        "uno studente",
+        "un ragazzo che studia"
       ],
       [
-        "la scuola",
-        "school"
+        "un amico",
+        "un ragazzo a cui vuoi bene"
       ],
       [
-        "la casa",
-        "house"
+        "un'amica",
+        "una ragazza a cui vuoi bene"
+      ],
+      [
+        "una sorella",
+        "la figlia dei tuoi genitori"
+      ],
+      [
+        "italiano",
+        "di Italia"
+      ],
+      [
+        "spagnolo",
+        "di Spagna"
+      ],
+      [
+        "francese",
+        "di Francia"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "lo zaino",
-            "backpack"
+            "una sedia",
+            "ti siedi qui"
           ],
           [
-            "la penna",
-            "pen"
+            "un giornale",
+            "lo leggi per avere le notizie"
           ],
           [
-            "il quaderno",
-            "notebook"
+            "una borsa",
+            "ci metti le tue cose quando esci"
           ],
           [
-            "la chiave",
-            "key"
+            "un ombrello",
+            "lo apri quando piove"
           ],
           [
-            "la scuola",
-            "school"
+            "uno zaino",
+            "lo porti sulle spalle a scuola"
           ],
           [
-            "la casa",
-            "house"
+            "una sorella",
+            "la figlia dei tuoi genitori"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "{ip:Ho} un [[libro]]. (book)",
-          "{ip:Ho} una [[penna]]. (pen)",
-          "Luca {ip:è} uno [[studente]]. (student)",
-          "Anna {ip:è} un'[[amica]]. (friend)"
+          "Piove: {ip:apro} l'[[ombrello]].",
+          "Carmen {ip:mette} le sue cose in una [[borsa]].",
+          "Pierre {ip:studia}: {ip:è} uno [[studente]].",
+          "Claire {ip:è} un'[[amica]] di Carmen.",
+          "{ip:Ho} una [[sorella]] a Roma.",
+          "Pablo {ip:è} di Spagna: {ip:è} [[spagnolo]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Oggi {ip:è} il primo giorno di scuola. Nello zaino di Marta ci {ip:sono} due libri, un quaderno e una penna. A scuola ci {ip:sono} molti ragazzi e molte ragazze.",
-      "Marta {ip:ha} un'amica, Giulia, e un amico, Paolo. Giulia {ip:ha} uno zaino rosso. Paolo non {ip:ha} lo zaino: {ip:ha} solo una penna e le chiavi di casa!"
+      "Ciao! {ip:Sono} Carmen e {ip:sono} spagnola. Oggi {ip:ho} una lezione di italiano. {ip:Ho} uno zaino, un quaderno e un ombrello.",
+      "{ip:Ho} anche un'amica, Claire. Claire non {ip:è} spagnola, {ip:è} francese. Lei non {ip:ha} uno zaino, {ip:ha} una borsa.",
+      "Pierre {ip:è} uno studente nuovo. {ip:È} italiano? No, non {ip:è} italiano: {ip:è} francese, come Claire!"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Marta has two books in her backpack.",
+            "q": "Carmen {ip:è} spagnola.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Giulia has a red backpack.",
+            "q": "Carmen {ip:ha} un ombrello.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Paolo has a backpack too.",
+            "q": "Claire {ip:è} spagnola.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Paolo has his house keys.",
+            "q": "Claire {ip:ha} uno zaino.",
             "options": [
-              "*True",
-              "False"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Pierre {ip:è} italiano.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           }
         ]
@@ -283,50 +444,58 @@
   "listening": {
     "transcript": [
       [
-        "Commessa",
-        "Buongiorno! {ip:Desidera}?"
+        "Carmen",
+        "Ciao! {ip:Sei} italiano?"
       ],
       [
-        "Marta",
-        "Buongiorno. Un quaderno e due penne, per favore."
+        "Pierre",
+        "No, non {ip:sono} italiano, {ip:sono} francese. E tu?"
       ],
       [
-        "Commessa",
-        "Ecco il quaderno e le penne. Altro?"
+        "Carmen",
+        "Io {ip:sono} spagnola. {ip:Sono} Carmen."
       ],
       [
-        "Marta",
-        "Sì, uno zaino per la scuola."
+        "Pierre",
+        "Piacere, {ip:sono} Pierre. {ip:Hai} un quaderno?"
       ],
       [
-        "Commessa",
-        "Questo?"
+        "Carmen",
+        "Sì, {ip:ho} un quaderno e una penna. Ecco!"
       ],
       [
-        "Marta",
-        "Sì, grazie!"
+        "Pierre",
+        "Grazie!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete with the article you read.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Un]] quaderno e due penne.",
-          "Ecco [[il]] quaderno e [[le]] penne.",
-          "Sì, [[uno]] zaino per [[la]] scuola."
+          "No, non [[sono#ip]] italiano, [[sono#ip]] francese.",
+          "Io [[sono#ip]] spagnola.",
+          "Sì, [[ho#ip]] [[un]] quaderno e [[una]] penna."
         ]
       },
       {
         "type": "choice",
-        "prompt": "How many pens does Marta want?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Marta wants…",
+            "q": "Pierre {ip:è}…",
             "options": [
-              "one pen",
-              "*two pens",
-              "three pens"
+              "italiano",
+              "*francese",
+              "spagnolo"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:chiede} Pierre?",
+            "options": [
+              "*un quaderno",
+              "una penna",
+              "una borsa"
             ]
           }
         ]
@@ -337,42 +506,51 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian, with the article.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "the backpack",
+            "q": "{ip:Chiedi} a un ragazzo se {ip:è} spagnolo.",
             "a": [
-              "lo zaino"
+              "Sei spagnolo?"
             ]
           },
           {
-            "q": "a friend (female)",
+            "q": "Pablo {ip:risponde} di sì.",
             "a": [
-              "un'amica"
+              "Sì, sono spagnolo.",
+              "Si, sono spagnolo.",
+              "Sì sono spagnolo.",
+              "Si sono spagnolo."
             ]
           },
           {
-            "q": "the books",
+            "q": "Claire {ip:risponde} che non {ip:è} spagnola, ma francese.",
             "a": [
-              "i libri"
+              "No, non sono spagnola, sono francese.",
+              "No, non sono spagnola. Sono francese.",
+              "Non sono spagnola, sono francese.",
+              "No, non sono spagnola, ma francese."
             ]
           },
           {
-            "q": "the friends (male)",
+            "q": "Claire e Sophie: di dove {ip:sono}? (Francia)",
             "a": [
-              "gli amici"
+              "Claire e Sophie sono francesi.",
+              "Sono francesi."
             ]
           },
           {
-            "q": "a student (male)",
+            "q": "{ip:Dici} che {ip:hai} una sorella a Roma.",
             "a": [
-              "uno studente"
+              "Ho una sorella a Roma.",
+              "Io ho una sorella a Roma."
             ]
           },
           {
-            "q": "the keys",
+            "q": "{ip:Dici} che tu e Marco {ip:avete} un amico a Napoli. (noi)",
             "a": [
-              "le chiavi"
+              "Abbiamo un amico a Napoli.",
+              "Noi abbiamo un amico a Napoli."
             ]
           }
         ]

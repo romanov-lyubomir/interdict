@@ -7,7 +7,7 @@
       {
         "h": "Reflexive verbs in the past"
       },
-      "Reflexive verbs always take *essere* in the *passato prossimo*, so the participle agrees with the subject. The pronoun stays in front of the auxiliary.",
+      "Reflexive verbs always take *essere* in the [pp:passato prossimo], so the participle agrees with the subject. The pronoun stays in front of the auxiliary.",
       {
         "table": {
           "head": [
@@ -58,7 +58,7 @@
       {
         "h": "Da or per?"
       },
-      "Ask whether the action is still going on. If it is, Italian uses the present with *da*, unlike English: *{ip:Studio} italiano da un anno* means that you started a year ago and you are still studying. If it is over, use the *passato prossimo* with *per*.",
+      "Ask whether the action is still going on. If it is, Italian uses the present with *da*, unlike English: *{ip:Studio} italiano da un anno* means that you started a year ago and you are still studying. If it is over, use the [pp:passato prossimo] with *per*.",
       {
         "table": {
           "head": [
@@ -101,7 +101,7 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the reflexive verb in the passato prossimo.",
+        "prompt": "Put the reflexive verb in the [pp:passato prossimo].",
         "questions": [
           "Stamattina io [[mi sono svegliata#pp]] presto. (svegliarsi – a woman)",
           "Marco [[si è alzato#pp]] tardi. (alzarsi)",

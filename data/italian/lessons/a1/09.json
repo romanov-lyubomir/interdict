@@ -1,158 +1,266 @@
 {
-  "title": "La mia casa {ip:è} più grande della tua",
-  "translation": "My house is bigger than yours",
-  "topics": "Possessives, comparisons with più, meno and come",
+  "title": "Questa gonna mi {ip:sta} bene?",
+  "translation": "",
+  "topics": "I colori, i pronomi indiretti, stare bene e piacere, il verbo dare, i vestiti",
   "grammar": {
     "explain": [
-      "Possessives agree with the thing possessed, not with the owner, and they usually come with the article: *la mia famiglia, il suo libro*.",
+      "Come descrivere i vestiti e come dire che cosa sta bene a qualcuno o che cosa gli piace.",
       {
-        "table": {
-          "head": [
-            "Owner",
-            "Masc. sing.",
-            "Fem. sing.",
-            "Masc. pl.",
-            "Fem. pl."
-          ],
-          "rows": [
-            [
-              "io",
-              "il mio",
-              "la mia",
-              "i miei",
-              "le mie"
-            ],
-            [
-              "tu",
-              "il tuo",
-              "la tua",
-              "i tuoi",
-              "le tue"
-            ],
-            [
-              "lui / lei",
-              "il suo",
-              "la sua",
-              "i suoi",
-              "le sue"
-            ],
-            [
-              "noi",
-              "il nostro",
-              "la nostra",
-              "i nostri",
-              "le nostre"
-            ],
-            [
-              "voi",
-              "il vostro",
-              "la vostra",
-              "i vostri",
-              "le vostre"
-            ],
-            [
-              "loro",
-              "il loro",
-              "la loro",
-              "i loro",
-              "le loro"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Gli aggettivi e i colori",
+              "rows": [
+                [
+                  "Il cappello {ip:è} ross**o**.",
+                  "La gonna {ip:è} ross**a**."
+                ],
+                [
+                  "I calzini {ip:sono} ross**i**.",
+                  "Le camicie {ip:sono} ross**e**."
+                ],
+                [
+                  "Il cappotto {ip:è} verd**e**.",
+                  "La giacca {ip:è} verd**e**."
+                ],
+                [
+                  "Gli stivali {ip:sono} verd**i**.",
+                  "Le gonne {ip:sono} verd**i**."
+                ],
+                [
+                  "Il vestito {ip:è} viol**a**.",
+                  "La borsa {ip:è} viol**a**."
+                ],
+                [
+                  "I maglioni {ip:sono} viol**a**.",
+                  "Le magliette {ip:sono} viol**a**."
+                ]
+              ]
+            },
+            "note": [
+              "I colori sono aggettivi e vengono dopo il nome.",
+              "Quasi tutti cambiano come *rosso* (**-o, -a, -i, -e**) o come *verde* (**-e, -i**).",
+              "Alcuni non cambiano mai: *blu, rosa, viola, beige*. *Le scarpe blu, i maglioni viola*."
             ]
-          ]
-        }
-      },
-      "*Suo* means both *his* and *her*: *Marco {ip:ama} la sua casa. Anna {ip:ama} la sua casa.*",
-      "With a single family member, leave out the article: *mia madre, tuo fratello*. Keep it in the plural (*i miei fratelli*) and with *loro* (*la loro madre*).",
-      "To compare two things, use *più… di* (more… than), *meno… di* (less… than) and *come* (as).",
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "più + adjective + di",
-              "Roma {ip:è} più grande di Pisa.",
-              "Rome is bigger than Pisa."
-            ],
-            [
-              "meno + adjective + di",
-              "Pisa {ip:è} meno grande di Roma.",
-              "Pisa is less big than Rome."
-            ],
-            [
-              "adjective + come",
-              "Anna {ip:è} alta come Sara.",
-              "Anna is as tall as Sara."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I pronomi indiretti",
+              "rows": [
+                [
+                  "A me le scarpe {ip:stanno} strette.",
+                  "Le scarpe",
+                  "**mi**",
+                  "{ip:stanno} strette."
+                ],
+                [
+                  "A te la gonna {ip:sta} bene.",
+                  "La gonna",
+                  "**ti**",
+                  "{ip:sta} bene."
+                ],
+                [
+                  "A Marco il verde {ip:sta} bene.",
+                  "Il verde",
+                  "**gli**",
+                  "{ip:sta} bene."
+                ],
+                [
+                  "A Sofia il cappotto {ip:sta} largo.",
+                  "Il cappotto",
+                  "**le**",
+                  "{ip:sta} largo."
+                ],
+                [
+                  "A Lei, signora, la giacca {ip:sta} bene?",
+                  "La giacca",
+                  "**Le**",
+                  "{ip:sta} bene?"
+                ],
+                [
+                  "A noi {ip:piacciono} questi colori.",
+                  "Questi colori",
+                  "**ci**",
+                  "{ip:piacciono}."
+                ],
+                [
+                  "A voi {ip:piace} questa camicia?",
+                  "Questa camicia",
+                  "**vi**",
+                  "{ip:piace}?"
+                ],
+                [
+                  "A Luca e Anna {ip:piacciono} i cappelli.",
+                  "I cappelli",
+                  "**gli**",
+                  "{ip:piacciono}."
+                ]
+              ]
+            },
+            "note": [
+              "Dicono *a chi*: *a me* = **mi**, *a te* = **ti**, *a lui* = **gli**, *a lei* = **le**, *a Lei* = **Le**, *a noi* = **ci**, *a voi* = **vi**, *a loro* = **gli**.",
+              "Vanno con *piacere* e con *stare* quando un vestito va bene a qualcuno. Il vestito è il soggetto, quindi il verbo si accorda con lui: *la gonna mi {ip:sta} bene, le scarpe mi {ip:stanno} strette*."
             ]
-          ]
-        }
-      },
-      "*Di* joins with the article: *più grande **della** tua casa, più caro **del** pane*."
+          },
+          {
+            "table": {
+              "rows": [
+                [
+                  {
+                    "text": "(non)",
+                    "rows": 4
+                  },
+                  {
+                    "text": [
+                      "mi",
+                      "ti",
+                      "gli, le, Le",
+                      "ci",
+                      "vi",
+                      "gli"
+                    ],
+                    "rows": 4
+                  },
+                  "{ip:sta} bene questo vestito."
+                ],
+                [
+                  null,
+                  null,
+                  "{ip:stanno} bene queste scarpe."
+                ],
+                [
+                  null,
+                  null,
+                  "{ip:piace} questa gonna."
+                ],
+                [
+                  null,
+                  null,
+                  "{ip:piacciono} questi colori."
+                ]
+              ]
+            },
+            "note": "*Non* va prima del pronome: *non mi {ip:sta} bene*. Il verbo è singolare per una cosa sola e plurale per più di una."
+          },
+          {
+            "table": {
+              "title": "Il verbo *dare*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:do}",
+                  {
+                    "text": "un regalo a Sofia.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:dai}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:dà}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:diamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:date}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:danno}",
+                  null
+                ]
+              ]
+            },
+            "note": "*Dare* è irregolare. *Dà* ha l'accento per non confondersi con la preposizione *da*. La persona a cui dai qualcosa prende *a*: *do un regalo a Sofia*, cioè *le do un regalo*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete with the possessive in the right form, with its article.",
+        "prompt": "Scrivi il colore con la finale giusta.",
         "questions": [
-          "[[il mio]] libro (io)",
-          "[[la tua]] casa (tu)",
-          "[[i suoi]] amici (lui)",
-          "[[le nostre]] chiavi (noi)",
-          "[[la vostra]] famiglia (voi)",
-          "[[i loro]] cani (loro)"
+          "La gonna {ip:è} [[rossa]]. (rosso)",
+          "I calzini {ip:sono} [[neri]]. (nero)",
+          "Le camicie {ip:sono} [[gialle]]. (giallo)",
+          "Il cappotto {ip:è} [[verde]]. (verde)",
+          "Le scarpe {ip:sono} [[verdi]]. (verde)",
+          "I pantaloni {ip:sono} [[blu]]. (blu)",
+          "La borsa {ip:è} [[rosa]]. (rosa)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il pronome: mi, ti, gli, le, ci o vi.",
+        "questions": [
+          "(a me) [[Mi]] {ip:piace} questa giacca.",
+          "(a te) [[Ti]] {ip:stanno} bene le scarpe.",
+          "(a Marco) [[Gli]] {ip:sta} bene il blu.",
+          "(a Sofia) [[Le]] {ip:piacciono} i cappelli.",
+          "(a noi) [[Ci]] {ip:piace} il rosso.",
+          "(a voi) [[Vi]] {ip:sta} bene la gonna?",
+          "(a Luca e Anna) [[Gli]] {ip:piacciono} i colori."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Sta o stanno?",
         "questions": [
           {
-            "q": "___ madre è italiana. (my)",
+            "q": "Questa giacca mi ___ bene.",
             "options": [
-              "La mia",
-              "*Mia",
-              "Il mio"
+              "*sta",
+              "stanno"
             ]
           },
           {
-            "q": "___ amici sono qui. (my)",
+            "q": "Queste scarpe ti ___ strette.",
             "options": [
-              "*I miei",
-              "Miei",
-              "I mii"
+              "sta",
+              "*stanno"
             ]
           },
           {
-            "q": "Anna e ___ fratello. (her)",
+            "q": "Il cappotto gli ___ largo.",
             "options": [
-              "sua",
-              "*suo",
-              "il suo"
+              "*sta",
+              "stanno"
             ]
           },
           {
-            "q": "___ genitori sono giovani. (their)",
+            "q": "I pantaloni le ___ bene.",
             "options": [
-              "Loro",
-              "I suoi",
-              "*I loro"
+              "sta",
+              "*stanno"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with più, meno, di or come.",
+        "prompt": "Scrivi la forma giusta di dare.",
         "questions": [
-          "Roma {ip:è} [[più]] grande di Pisa.",
-          "Il treno {ip:è} più veloce [[dell']]autobus.",
-          "Una bicicletta {ip:è} [[meno]] cara di una macchina.",
-          "Anna {ip:è} alta [[come]] Sara.",
-          "Luca {ip:è} più giovane [[di]] Marco."
+          "Io [[do#ip]] un libro a Marco.",
+          "Tu [[dai#ip]] il numero a Sofia?",
+          "Lei [[dà|da'#ip]] un regalo a Luca.",
+          "Noi [[diamo#ip]] una festa.",
+          "Voi [[date#ip]] i soldi a Paolo?",
+          "Loro [[danno#ip]] una mano a Anna."
         ]
       }
     ]
@@ -160,137 +268,194 @@
   "vocabulary": {
     "words": [
       [
-        "la madre",
-        "mother"
+        "la gonna",
+        "la portano le donne, al posto dei pantaloni"
       ],
       [
-        "il padre",
-        "father"
+        "la giacca",
+        "la metti sopra la camicia"
       ],
       [
-        "i genitori",
-        "parents"
+        "il cappotto",
+        "lo metti fuori quando fa freddo"
       ],
       [
-        "il figlio",
-        "son"
+        "il maglione",
+        "di lana, caldo, per l'inverno"
       ],
       [
-        "la figlia",
-        "daughter"
+        "la camicia",
+        "ha i bottoni e il colletto"
       ],
       [
-        "il marito",
-        "husband"
+        "la maglietta",
+        "di cotone, con le maniche corte"
       ],
       [
-        "la moglie",
-        "wife"
+        "il vestito",
+        "un abito da donna tutto intero"
       ],
       [
-        "il nonno",
-        "grandfather"
+        "i pantaloni",
+        "coprono le gambe"
       ],
       [
-        "la nonna",
-        "grandmother"
+        "le scarpe",
+        "le porti ai piedi"
       ],
       [
-        "giovane",
-        "young"
+        "gli stivali",
+        "scarpe alte, per l'inverno"
       ],
       [
-        "veloce",
-        "fast"
+        "il cappello",
+        "lo porti sulla testa"
       ],
       [
-        "lento",
-        "slow"
+        "i calzini",
+        "li metti prima delle scarpe"
+      ],
+      [
+        "la taglia",
+        "S, M, L: la misura di un vestito"
+      ],
+      [
+        "il regalo",
+        "una cosa che dai per il compleanno"
+      ],
+      [
+        "rosso",
+        "il colore del pomodoro"
+      ],
+      [
+        "nero",
+        "il colore della notte"
+      ],
+      [
+        "giallo",
+        "il colore del limone"
+      ],
+      [
+        "verde",
+        "il colore dell'erba"
+      ],
+      [
+        "blu",
+        "il colore del mare"
+      ],
+      [
+        "rosa",
+        "il colore di un fiore delicato"
+      ],
+      [
+        "viola",
+        "il colore della melanzana"
+      ],
+      [
+        "largo",
+        "troppo grande, il contrario di stretto"
+      ],
+      [
+        "stretto",
+        "troppo piccolo, il contrario di largo"
+      ],
+      [
+        "stare bene",
+        "essere giusto per una persona, di un vestito"
+      ],
+      [
+        "dare",
+        "mettere una cosa nelle mani di qualcuno"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "i genitori",
-            "parents"
+            "la gonna",
+            "la portano le donne, al posto dei pantaloni"
           ],
           [
-            "il figlio",
-            "son"
+            "il cappotto",
+            "lo metti fuori quando fa freddo"
           ],
           [
-            "il marito",
-            "husband"
+            "il maglione",
+            "di lana, caldo, per l'inverno"
           ],
           [
-            "la moglie",
-            "wife"
+            "gli stivali",
+            "scarpe alte, per l'inverno"
           ],
           [
-            "veloce",
-            "fast"
+            "la taglia",
+            "S, M, L: la misura di un vestito"
           ],
           [
-            "giovane",
-            "young"
+            "stretto",
+            "troppo piccolo, il contrario di largo"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Mia [[madre]] si {ip:chiama} Rosa. (mother)",
-          "Il padre di mio padre {ip:è} mio [[nonno]]. (grandfather)",
-          "La [[figlia]] di Anna {ip:ha} tre anni. (daughter)",
-          "L'autobus {ip:è} [[lento]]. (slow)"
+          "Fa freddo: {ip:metto} il [[cappotto]].",
+          "Questa [[camicia]] bianca ha i bottoni.",
+          "Domani {ip:è} il compleanno di Sofia: le {ip:compro} un [[regalo]].",
+          "Le scarpe {ip:sono} piccole: mi {ip:stanno} [[strette]].",
+          "Il mare e il cielo {ip:sono} [[blu]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "La mia famiglia {ip:è} piccola. Mio padre {ip:è} medico e mia madre {ip:è} insegnante. Mio fratello Davide {ip:è} più giovane di me: {ip:ha} diciotto anni. I miei nonni {ip:abitano} in campagna.",
-      "Il mio amico Tommaso {ip:ha} una famiglia più grande della mia: {ip:ha} tre sorelle e due fratelli. La loro casa {ip:è} molto grande, ma Tommaso {ip:preferisce} la mia, perché {ip:è} meno rumorosa della sua!"
+      "Sabato {ip:è} il compleanno della mia amica Sofia e {ip:cerco} un regalo. A Sofia {ip:piacciono} molto i colori: le {ip:sta} bene il rosso e le {ip:piace} il viola.",
+      "In un negozio del centro {ip:vedo} una gonna rossa e una giacca viola. La gonna {ip:costa} 40 euro, la giacca 60.",
+      "{ip:Prendo} la gonna. Alla festa le {ip:do} il regalo: le {ip:piace} tanto e le {ip:sta} benissimo!"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "The speaker's mother is…",
+            "q": "A Sofia {ip:piacciono} molto i colori.",
             "options": [
-              "a doctor",
-              "*a teacher",
-              "a nurse"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Davide is…",
+            "q": "A Sofia non {ip:sta} bene il rosso.",
             "options": [
-              "*younger than the speaker",
-              "older than the speaker",
-              "the same age as the speaker"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Tommaso has…",
+            "q": "La giacca {ip:costa} 40 euro.",
             "options": [
-              "three brothers",
-              "two sisters",
-              "*three sisters and two brothers"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Why does Tommaso prefer the speaker's house?",
+            "q": "Il regalo {ip:è} la gonna.",
             "options": [
-              "It is bigger",
-              "*It is less noisy",
-              "It is in the country"
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "A Sofia {ip:piace} il regalo.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
@@ -300,57 +465,50 @@
   "listening": {
     "transcript": [
       [
-        "Sara",
-        "{ip:È} questa la tua famiglia?"
+        "Commessa",
+        "Buongiorno! {ip:Cerca} qualcosa?"
       ],
       [
-        "Elena",
-        "Sì! Questa {ip:è} mia madre e questo {ip:è} mio padre."
+        "Cliente",
+        "Sì, {ip:cerco} un maglione blu."
       ],
       [
-        "Sara",
-        "E quelle due ragazze?"
+        "Commessa",
+        "Ecco. Le {ip:piace} questo?"
       ],
       [
-        "Elena",
-        "{ip:Sono} le mie sorelle. Giada {ip:è} più alta di Marta."
+        "Cliente",
+        "Sì, mi {ip:piace} molto. Lo {ip:provo}."
       ],
       [
-        "Sara",
-        "Tua sorella Marta {ip:è} molto giovane!"
+        "Commessa",
+        "Come Le {ip:sta}?"
       ],
       [
-        "Elena",
-        "Sì, ma {ip:è} simpatica come Giada."
+        "Cliente",
+        "Mi {ip:sta} un po' stretto. {ip:Avete} una taglia più grande?"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:È} questa la [[tua]] famiglia?",
-          "Questa {ip:è} [[mia]] madre.",
-          "{ip:Sono} [[le]] mie sorelle.",
-          "Giada {ip:è} più alta [[di]] Marta."
+          "Sì, [[cerco#ip]] un maglione blu.",
+          "Ecco. [[Le]] {ip:piace} questo?",
+          "Mi [[sta#ip]] un po' stretto."
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Giada is taller than Marta.",
+            "q": "Che problema {ip:ha} il maglione?",
             "options": [
-              "*True",
-              "False"
-            ]
-          },
-          {
-            "q": "Marta is nicer than Giada.",
-            "options": [
-              "True",
-              "*False"
+              "*È un po' stretto.",
+              "Non è del colore giusto.",
+              "Costa troppo."
             ]
           }
         ]
@@ -361,36 +519,55 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "my family",
+            "q": "{ip:Provi} una gonna ed {ip:è} perfetta per te.",
             "a": [
-              "la mia famiglia"
+              "Questa gonna mi sta bene.",
+              "La gonna mi sta bene."
             ]
           },
           {
-            "q": "my mother",
+            "q": "{ip:Provi} delle scarpe, ma {ip:sono} piccole.",
             "a": [
-              "mia madre"
+              "Queste scarpe mi stanno strette.",
+              "Le scarpe mi stanno strette."
             ]
           },
           {
-            "q": "our keys",
+            "q": "{ip:Chiedi} a un amico se la giacca {ip:è} bella per lui.",
             "a": [
-              "le nostre chiavi"
+              "Ti piace questa giacca?",
+              "Ti piace la giacca?"
             ]
           },
           {
-            "q": "Rome is bigger than Pisa.",
+            "q": "I colori {ip:sono} belli per Marco. (a lui)",
             "a": [
-              "Roma è più grande di Pisa."
+              "Gli piacciono i colori."
             ]
           },
           {
-            "q": "Your house is bigger than mine. (informal)",
+            "q": "Che cosa {ip:fai} per il compleanno di Sofia? (dare un regalo)",
             "a": [
-              "La tua casa è più grande della mia."
+              "Do un regalo a Sofia.",
+              "Io do un regalo a Sofia.",
+              "Le do un regalo."
+            ]
+          },
+          {
+            "q": "I pantaloni: di che colore {ip:sono}? (blu)",
+            "a": [
+              "I pantaloni sono blu.",
+              "Sono blu."
+            ]
+          },
+          {
+            "q": "Il rosso {ip:va} bene per lei. (stare bene)",
+            "a": [
+              "Le sta bene il rosso.",
+              "Il rosso le sta bene."
             ]
           }
         ]

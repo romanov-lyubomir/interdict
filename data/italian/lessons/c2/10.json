@@ -462,7 +462,7 @@
         "prompt": "Write in Italian.",
         "questions": [
           {
-            "q": "He aimed to convince them, so as to avoid a clash. (imperfetto, use onde)",
+            "q": "He aimed to convince them, so as to avoid a clash. ([im:imperfetto], use onde)",
             "a": [
               "Mirava a convincerli, onde evitare lo scontro.",
               "Mirava a convincerli, onde evitare uno scontro."

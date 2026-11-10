@@ -20,42 +20,42 @@
      ],
      "rows": [
       [
-       "Presente",
+       "[ip:Presente]",
        "{ip:parlo}",
        "Now, habits, general truths, the near future"
       ],
       [
-       "Imperfetto",
+       "[im:Imperfetto]",
        "{im:parlavo}",
        "Past habits, descriptions, actions in progress"
       ],
       [
-       "Passato prossimo",
+       "[pp:Passato prossimo]",
        "{pp:ho parlato}",
        "Completed actions, the everyday past"
       ],
       [
-       "Trapassato prossimo",
+       "[tp:Trapassato prossimo]",
        "{tp:avevo parlato}",
        "Before another past moment"
       ],
       [
-       "Passato remoto",
+       "[pr:Passato remoto]",
        "{pr:parlai}",
        "Completed actions cut off from the present, narrative"
       ],
       [
-       "Trapassato remoto",
+       "[tr:Trapassato remoto]",
        "{tr:ebbi parlato}",
-       "Just before a passato remoto, literary"
+       "Just before a [pr:passato remoto], literary"
       ],
       [
-       "Futuro semplice",
+       "[fs:Futuro semplice]",
        "{fs:parlerò}",
        "The future, guesses about the present"
       ],
       [
-       "Futuro anteriore",
+       "[fa:Futuro anteriore]",
        "{fa:avrò parlato}",
        "Before another future moment, guesses about the past"
       ]
@@ -74,20 +74,20 @@
      ],
      "rows": [
       [
-       "Presente: {ip:ho}",
-       "Passato prossimo: {pp:ho parlato}"
+       "[ip:Presente]: {ip:ho}",
+       "[pp:Passato prossimo]: {pp:ho parlato}"
       ],
       [
-       "Imperfetto: {im:avevo}",
-       "Trapassato prossimo: {tp:avevo parlato}"
+       "[im:Imperfetto]: {im:avevo}",
+       "[tp:Trapassato prossimo]: {tp:avevo parlato}"
       ],
       [
-       "Passato remoto: {pr:ebbi}",
-       "Trapassato remoto: {tr:ebbi parlato}"
+       "[pr:Passato remoto]: {pr:ebbi}",
+       "[tr:Trapassato remoto]: {tr:ebbi parlato}"
       ],
       [
-       "Futuro semplice: {fs:avrò}",
-       "Futuro anteriore: {fa:avrò parlato}"
+       "[fs:Futuro semplice]: {fs:avrò}",
+       "[fa:Futuro anteriore]: {fa:avrò parlato}"
       ]
      ]
     }
@@ -364,9 +364,9 @@
     ]
    },
    {
-    "h": "Imperfetto or passato prossimo?"
+    "h": "[im:Imperfetto] or [pp:passato prossimo]?"
    },
-   "The *imperfetto* shows the background or a state with no clear end. The *passato prossimo* shows a completed event: *{im:Faceva} freddo, così {pp:ho chiuso} la finestra.*"
+   "The [im:imperfetto] shows the background or a state with no clear end. The [pp:passato prossimo] shows a completed event: *{im:Faceva} freddo, così {pp:ho chiuso} la finestra.*"
   ]
  },
  "passato_prossimo": {
@@ -508,7 +508,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *imperfetto* of *avere* or *essere* and the past participle. The same rules for the auxiliary and agreement apply as in the *passato prossimo*.",
+   "Use the [im:imperfetto] of *avere* or *essere* and the past participle. The same rules for the auxiliary and agreement apply as in the [pp:passato prossimo].",
    {
     "table": {
      "head": [
@@ -686,8 +686,8 @@
    {
     "ul": [
      "Historical events: *Dante {pr:nacque} a Firenze nel 1265.*",
-     "Narrative in novels and tales, with the *imperfetto* as background: *{im:Era} notte quando {pr:bussarono} alla porta.*",
-     "In speech it is common mainly in parts of southern Italy. Elsewhere speakers normally use the *passato prossimo*."
+     "Narrative in novels and tales, with the [im:imperfetto] as background: *{im:Era} notte quando {pr:bussarono} alla porta.*",
+     "In speech it is common mainly in parts of southern Italy. Elsewhere speakers normally use the [pp:passato prossimo]."
     ]
    }
   ]
@@ -695,12 +695,12 @@
  "trapassato_remoto": {
   "title": "Trapassato remoto",
   "style": "t-tr",
-  "summary": "A rare literary tense: one action just before another in the passato remoto.",
+  "summary": "A rare literary tense: one action just before another in the [pr:passato remoto].",
   "body": [
    {
     "h": "How it is formed"
    },
-   "Use the *passato remoto* of *avere* or *essere* and the past participle.",
+   "Use the [pr:passato remoto] of *avere* or *essere* and the past participle.",
    {
     "table": {
      "head": [
@@ -745,7 +745,7 @@
    {
     "h": "How it is used"
    },
-   "It appears only in subordinate clauses after *dopo che*, *appena*, *non appena* or *quando*, and the main verb is in the *passato remoto*.",
+   "It appears only in subordinate clauses after *dopo che*, *appena*, *non appena* or *quando*, and the main verb is in the [pr:passato remoto].",
    {
     "ul": [
      "*Appena {tr:ebbe finito}, {pr:uscì}.*",
@@ -893,7 +893,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *futuro semplice* of *avere* or *essere* and the past participle.",
+   "Use the [fs:futuro semplice] of *avere* or *essere* and the past participle.",
    {
     "table": {
      "head": [
@@ -964,7 +964,7 @@
      ],
      "rows": [
       [
-       "Presente",
+       "[ip:Presente]",
        "{cop:parlerei}",
        "Now or the future"
       ],
@@ -997,7 +997,7 @@
    {
     "h": "How it is formed"
    },
-   "Take the stem of the *futuro semplice* and add *-ei, -esti, -ebbe, -emmo, -este, -ebbero*. Note *-emmo* with a double *m*: the future has *-emo*.",
+   "Take the stem of the [fs:futuro semplice] and add *-ei, -esti, -ebbe, -emmo, -este, -ebbero*. Note *-emmo* with a double *m*: the future has *-emo*.",
    {
     "table": {
      "head": [
@@ -1072,7 +1072,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *condizionale presente* of *avere* or *essere* and the past participle.",
+   "Use the [cop:condizionale presente] of *avere* or *essere* and the past participle.",
    {
     "table": {
      "head": [
@@ -1169,7 +1169,7 @@
    {
     "h": "How it is formed"
    },
-   "The *tu* form of *-are* verbs ends in *-a*, and of the others in *-i*. *Noi* and *voi* match the present. *Lei* and *Loro* are borrowed from the *congiuntivo presente*, so the vowels swap: *-are* verbs take *-i*, the others *-a*.",
+   "The *tu* form of *-are* verbs ends in *-a*, and of the others in *-i*. *Noi* and *voi* match the present. *Lei* and *Loro* are borrowed from the [csp:congiuntivo presente], so the vowels swap: *-are* verbs take *-i*, the others *-a*.",
    {
     "table": {
      "head": [
@@ -1607,7 +1607,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *congiuntivo presente* of *avere* or *essere* and the past participle.",
+   "Use the [csp:congiuntivo presente] of *avere* or *essere* and the past participle.",
    {
     "table": {
      "head": [
@@ -1778,7 +1778,7 @@
      ]
     }
    },
-   "Also, with the same stem as the *imperfetto*: *dire: dicessi; bere: bevessi; tradurre: traducessi.*",
+   "Also, with the same stem as the [im:imperfetto]: *dire: dicessi; bere: bevessi; tradurre: traducessi.*",
    {
     "h": "How it is used"
    },
@@ -1801,7 +1801,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the *congiuntivo imperfetto* of *avere* or *essere* and the past participle.",
+   "Use the [csi:congiuntivo imperfetto] of *avere* or *essere* and the past participle.",
    {
     "table": {
      "head": [

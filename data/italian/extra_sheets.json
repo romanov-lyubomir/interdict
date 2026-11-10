@@ -1,0 +1,73 @@
+[
+    {
+        "id": "periodo-ipotetico",
+        "title": "Periodo ipotetico",
+        "intro": "Sentences with *se* (if): the condition (*protasi*) and its result (*apodosi*). Each degree pairs its own tenses, in the colours used in the lessons.",
+        "body": [
+            {
+                "table": {
+                    "bulleted": true,
+                    "head": ["Degree", "Condition", "Result", "Examples"],
+                    "rows": [
+                        [
+                            ["1st · reality", "Real or likely. The result can also be an order."],
+                            "[ip:presente] / [fs:futuro]",
+                            "[ip:presente] / [fs:futuro] / [imv:imperativo]",
+                            [
+                                "*Se {ip:piove}, {ip:resto} a casa.*",
+                                "*Se {ip:hai} fame, {ip:c'è} della pizza in frigo.*",
+                                "*Se {fs:finirò} presto, ti {fs:chiamerò}.* The future in both parts when both are in the future.",
+                                "*Se {ip:vedi} Marco, {imv:salutalo} da parte mia.*"
+                            ]
+                        ],
+                        [
+                            ["2nd · possibility", "Possible but unlikely, or impossible now. The tenses are the same in both cases."],
+                            "[csi:congiuntivo imperfetto]",
+                            "[cop:condizionale presente]",
+                            [
+                                "*Se {csi:avessi} tempo, {cop:viaggerei}.*",
+                                "Possible: *Se {csi:vincessi} alla lotteria, {cop:comprerei} una casa al mare.*",
+                                "Impossible now: *Se {csi:fossi} in te, non lo {cop:farei}.*",
+                                "*Se {csi:potessi}, {cop:partirei} subito.*"
+                            ]
+                        ],
+                        [
+                            ["3rd · unreal past", "It did not happen, so neither did the result."],
+                            "[cst:congiuntivo trapassato]",
+                            "[cpa:condizionale passato]",
+                            [
+                                "*Se {cst:avessi studiato}, {cpa:avrei passato} l'esame.*",
+                                "*Se {cst:fossi partito} prima, non {cpa:avrei perso} il treno.*",
+                                "*Se me l'{cst:avessi detto}, ti {cpa:avrei aiutato}.*"
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "The *se* clause can come first or second: *{ip:Resto} a casa se {ip:piove}.* Never put the condizionale after *se*: not *se avrei*, but *se {csi:avessi}*.",
+
+            {"h": "Mixed"},
+            "A past condition can have a result now, and a lasting fact can explain a past result.",
+            {
+                "table": {
+                    "head": ["Condition", "Result", "Example"],
+                    "rows": [
+                        [
+                            "[cst:congiuntivo trapassato]",
+                            "[cop:condizionale presente]",
+                            "*Se {cst:avessi preso} il treno, ora {cop:sarei} a casa.*"
+                        ],
+                        [
+                            "[csi:congiuntivo imperfetto]",
+                            "[cpa:condizionale passato]",
+                            "*Se {csi:fossi} più attento, non {cpa:avrei fatto} quell'errore.*"
+                        ]
+                    ]
+                }
+            },
+
+            {"h": "In everyday speech"},
+            "People often use the [im:imperfetto] in both parts of the 3rd degree: *Se lo {im:sapevo}, {im:venivo}.* It is fine in conversation, but write *Se l'{cst:avessi saputo}, {cpa:sarei venuto}.*"
+        ]
+    }
+]

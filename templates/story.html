@@ -75,7 +75,8 @@
         text-align: center;
     }
 
-    /* Logged-in users can move the pointer onto the balloon to save the word */
+    /* The pointer can move onto the balloon to save the word (or, for
+       guests, to follow the sign-up link) */
     .tooltip.can-save {
         pointer-events: auto;
     }
@@ -104,6 +105,12 @@
         padding: 3px 10px;
         color: white;
         font-size: 13px;
+    }
+
+    .tooltip .save-signup {
+        display: inline-flex;
+        color: white;
+        text-decoration: none;
     }
 
     .tooltip .save-panel {
@@ -230,10 +237,14 @@
     <a class="back-link" href="{{ url_for('stories_list') }}">All stories</a>
 </article>
 
-<div id="tooltip" class="tooltip{% if current_user.is_authenticated %} can-save{% endif %}" hidden>
+<div id="tooltip" class="tooltip can-save" hidden>
     <span class="lemma"></span>
     <span class="meaning"></span>
     <button class="save-toggle" type="button" hidden></button>
+    {% if not current_user.is_authenticated %}
+    {# Guests see the option too; it takes them to the sign-up form and back to this story #}
+    <a class="button save-toggle save-signup" href="{{ url_for('register', next=request.path) }}">Sign up to save words</a>
+    {% endif %}
     <div class="save-panel" hidden>
         <div class="save-lists"></div>
         <form class="save-new">

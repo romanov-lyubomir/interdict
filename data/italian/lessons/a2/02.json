@@ -1,217 +1,393 @@
 {
-  "title": "Da bambino {im:giocavo} spesso al mare",
-  "translation": "As a child I often played at the seaside",
-  "topics": "The imperfetto: habits, descriptions and actions in progress in the past",
+  "title": "Ti {pp:è piaciuta} la mostra?",
+  "translation": "",
+  "topics": "I numeri ordinali e oltre il mille, i pronomi diretti e indiretti, il [pp:passato prossimo] e i participi irregolari, *piacere* al passato, l'arte e i monumenti italiani",
   "grammar": {
     "explain": [
+      "Per parlare di arte e di monumenti servono le date, le classifiche e il passato. In questa lezione ripassi il [pp:passato prossimo] e impari a dire che cosa ti è piaciuto.",
       {
-        "h": "What the imperfetto is for"
-      },
-      "The *imperfetto* looks at the past from the inside, without saying when something started or ended. It has three main uses.",
-      {
-        "table": {
-          "head": [
-            "Use",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Habits",
-              "Da bambino {im:giocavo} spesso.",
-              "As a child I often played."
-            ],
-            [
-              "Descriptions",
-              "La casa {im:era} piccola.",
-              "The house was small."
-            ],
-            [
-              "Actions in progress",
-              "{im:Leggevo} un libro.",
-              "I was reading a book."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "I numeri ordinali",
+              "rows": [
+                [
+                  "1° = primo",
+                  "9° = nono",
+                  "17° = diciassett**esimo**",
+                  "25° = venticinqu**esimo**"
+                ],
+                [
+                  "2° = secondo",
+                  "10° = decimo",
+                  "18° = diciott**esimo**",
+                  "26° = ventisei**esimo**"
+                ],
+                [
+                  "3° = terzo",
+                  "11° = undic**esimo**",
+                  "19° = diciannov**esimo**",
+                  "27° = ventisett**esimo**"
+                ],
+                [
+                  "4° = quarto",
+                  "12° = dodic**esimo**",
+                  "20° = vent**esimo**",
+                  "28° = ventott**esimo**"
+                ],
+                [
+                  "5° = quinto",
+                  "13° = tredic**esimo**",
+                  "21° = ventun**esimo**",
+                  "29° = ventinov**esimo**"
+                ],
+                [
+                  "6° = sesto",
+                  "14° = quattordic**esimo**",
+                  "22° = ventidu**esimo**",
+                  "30° = trent**esimo**"
+                ],
+                [
+                  "7° = settimo",
+                  "15° = quindic**esimo**",
+                  "23° = ventitre**esimo**",
+                  "31° = trentun**esimo**"
+                ],
+                [
+                  "8° = ottavo",
+                  "16° = sedic**esimo**",
+                  "24° = ventiquattr**esimo**",
+                  "ecc."
+                ]
+              ],
+              "nowrap": true
+            },
+            "note": [
+              "I primi dieci si imparano a memoria. Dall'undicesimo in poi si toglie l'ultima vocale del numero e si aggiunge **-esimo**: *undici → undicesimo*. I numeri che finiscono in *-tré* tengono la *e*: *ventitreesimo*.",
+              "Sono aggettivi: si accordano con il nome. *La prima volta, il terzo piano, le seconde file*.",
+              "Si usano per i secoli: *il Cinquecento* è il sedicesimo secolo."
             ]
-          ]
-        }
-      },
-      {
-        "h": "How to form it"
-      },
-      "Take the infinitive, remove the final *-re*, and add the same endings for all three groups. The vowel of the infinitive stays, so you don't have to learn three patterns.",
-      {
-        "table": {
-          "head": [
-            "",
-            "parlare",
-            "leggere",
-            "dormire"
-          ],
-          "rows": [
-            [
-              "io",
-              "{im:parla**vo**}",
-              "{im:legge**vo**}",
-              "{im:dormi**vo**}"
-            ],
-            [
-              "tu",
-              "{im:parla**vi**}",
-              "{im:legge**vi**}",
-              "{im:dormi**vi**}"
-            ],
-            [
-              "lui / lei",
-              "{im:parla**va**}",
-              "{im:legge**va**}",
-              "{im:dormi**va**}"
-            ],
-            [
-              "noi",
-              "{im:parla**vamo**}",
-              "{im:legge**vamo**}",
-              "{im:dormi**vamo**}"
-            ],
-            [
-              "voi",
-              "{im:parla**vate**}",
-              "{im:legge**vate**}",
-              "{im:dormi**vate**}"
-            ],
-            [
-              "loro",
-              "{im:parla**vano**}",
-              "{im:legge**vano**}",
-              "{im:dormi**vano**}"
+          },
+          {
+            "table": {
+              "title": "I numeri oltre il mille",
+              "rows": [
+                [
+                  [
+                    "mille,",
+                    "milletrecento,",
+                    "due**mila**,",
+                    "cinque**mila**,",
+                    "venti**mila**,",
+                    "cento**mila**,",
+                    "un **milione**,",
+                    "due **milioni**"
+                  ]
+                ]
+              ]
+            },
+            "note": "*Mille* al plurale diventa **-mila**: *duemila, tremila*. *Milione* è un nome: *un milione, due milioni*, e con un nome dopo vuole *di*: *un milione di persone*. Le date si leggono come numeri: *1571 = millecinquecentosettantuno*."
+          },
+          {
+            "table": {
+              "title": "Il participio passato nei verbi con ausiliare *essere*",
+              "rows": [
+                [
+                  "Lorenzo {pp:è andat**o**} a Siena."
+                ],
+                [
+                  "Lorenzo e Pietro {pp:sono andat**i**} a Siena."
+                ],
+                [
+                  "Chiara {pp:è andat**a**} a Siena."
+                ],
+                [
+                  "Chiara e Sofia {pp:sono andat**e**} a Siena."
+                ]
+              ]
+            },
+            "note": "Con *essere* il participio si accorda con il soggetto, come un aggettivo. Con *avere* non cambia: *Chiara {pp:ha visitato} il Duomo*."
+          },
+          {
+            "table": {
+              "title": "I pronomi diretti",
+              "rows": [
+                [
+                  "{ip:Conosci} **il quadro** di Botticelli «La nascita di Venere»?",
+                  "Sì, **lo** {ip:conosco}."
+                ],
+                [
+                  "{ip:Conosci} **la musica** di Verdi?",
+                  "Sì, **la** {ip:conosco}."
+                ],
+                [
+                  "{ip:Conosci} **i film** di Fellini?",
+                  "Sì, **li** {ip:conosco}."
+                ],
+                [
+                  "{ip:Conosci} **le poesie** di Leopardi?",
+                  "Sì, **le** {ip:conosco}."
+                ]
+              ]
+            },
+            "note": "*Lo, la, li, le* sostituiscono la cosa o la persona di cui parli, e si accordano con lei.",
+            "wide": true
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I pronomi indiretti",
+              "head": [
+                "atoni",
+                "tonici"
+              ],
+              "rows": [
+                [
+                  "Mi {ip:piace} Caravaggio.",
+                  "A me {ip:piace} Caravaggio."
+                ],
+                [
+                  "Ti {ip:piace} Caravaggio?",
+                  "A te {ip:piace} Caravaggio?"
+                ],
+                [
+                  "Gli / le / Le {ip:piace} Caravaggio?",
+                  "A lui / lei / Lei {ip:piace} Caravaggio?"
+                ],
+                [
+                  "Ci {ip:piace} Caravaggio.",
+                  "A noi {ip:piace} Caravaggio."
+                ],
+                [
+                  "Vi {ip:piace} Caravaggio?",
+                  "A voi {ip:piace} Caravaggio?"
+                ],
+                [
+                  "Gli {ip:piace} Caravaggio?",
+                  "A loro {ip:piace} Caravaggio?"
+                ]
+              ]
+            },
+            "note": [
+              "Le due colonne dicono la stessa cosa. Le forme *atone* (*mi, ti, gli…*) sono le più usate.",
+              "Le forme *toniche* (*a me, a te…*) servono per mettere in evidenza la persona, soprattutto quando confronti: *A me {ip:piace} Caravaggio. — A me invece no. — Anche a me! — Neanche a me.*"
             ]
-          ]
-        }
-      },
-      {
-        "h": "The few irregular verbs"
-      },
-      "*Essere* is truly irregular. *Fare*, *bere* and *dire* only use their longer old stems, with the normal endings.",
-      {
-        "table": {
-          "head": [
-            "",
-            "essere",
-            "fare",
-            "bere",
-            "dire"
-          ],
-          "rows": [
-            [
-              "io",
-              "{im:ero}",
-              "{im:fa**ce**vo}",
-              "be**ve**vo",
-              "{im:di**ce**vo}"
-            ],
-            [
-              "tu",
-              "{im:eri}",
-              "{im:fa**ce**vi}",
-              "be**ve**vi",
-              "{im:di**ce**vi}"
-            ],
-            [
-              "lui / lei",
-              "{im:era}",
-              "{im:fa**ce**va}",
-              "be**ve**va",
-              "{im:di**ce**va}"
-            ],
-            [
-              "noi",
-              "{im:eravamo}",
-              "{im:fa**ce**vamo}",
-              "be**ve**vamo",
-              "{im:di**ce**vamo}"
-            ],
-            [
-              "voi",
-              "{im:eravate}",
-              "{im:fa**ce**vate}",
-              "be**ve**vate",
-              "{im:di**ce**vate}"
-            ],
-            [
-              "loro",
-              "{im:erano}",
-              "{im:fa**ce**vano}",
-              "be**ve**vano",
-              "{im:di**ce**vano}"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Words that often go with it"
-      },
-      "*Da bambino* (as a child), *di solito* (usually), *ogni estate* (every summer), *sempre* (always), *spesso* (often), *mentre* (while)."
+          },
+          {
+            "table": {
+              "title": "Il [pp:passato prossimo]",
+              "head": [
+                "Verbi con ausiliare *essere*",
+                "Verbi con ausiliare *avere*"
+              ],
+              "rows": [
+                [
+                  "**{pp:Sono}** {pp:andata} a Siena.",
+                  "**{pp:Ho}** {pp:visitato} il Duomo."
+                ]
+              ]
+            },
+            "note": "*Essere* va con i verbi di movimento o di cambiamento, con *stare, rimanere, piacere* e con i riflessivi. Gli altri verbi prendono *avere*."
+          },
+          {
+            "table": {
+              "title": "Alcuni verbi con participio passato irregolare",
+              "rows": [
+                [
+                  "*essere*",
+                  "{pp:stato}"
+                ],
+                [
+                  "*piacere*",
+                  "{pp:piaciuto}"
+                ],
+                [
+                  "*dipingere*",
+                  "{pp:dipinto}"
+                ],
+                [
+                  "*scrivere*",
+                  "{pp:scritto}"
+                ],
+                [
+                  "*scoprire*",
+                  "{pp:scoperto}"
+                ],
+                [
+                  "*vedere*",
+                  "{pp:visto}"
+                ],
+                [
+                  "*decidere*",
+                  "{pp:deciso}"
+                ],
+                [
+                  "*rimanere*",
+                  "{pp:rimasto}"
+                ]
+              ]
+            },
+            "note": "*Essere*, *piacere* e *rimanere* prendono *essere*: *{pp:sono rimasto}*. Gli altri prendono *avere*: *Leonardo {pp:ha dipinto} la Gioconda*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il participio passato",
+              "head": [
+                "Verbo regolare in *-are*: ascolt**are**",
+                "Verbo regolare in *-ere*: ripet**ere**",
+                "Verbo regolare in *-ire*: part**ire**"
+              ],
+              "rows": [
+                [
+                  "{pp:Ho ascolt**ato**} un concerto.",
+                  "{pp:Ho ripet**uto**} la domanda.",
+                  "{pp:Sono part**ito**} per Firenze."
+                ]
+              ]
+            },
+            "note": "**-are** → **-ato**, **-ere** → **-uto**, **-ire** → **-ito**."
+          },
+          {
+            "table": {
+              "title": "Il verbo *piacere*",
+              "head": [
+                "presente",
+                "[pp:passato prossimo]"
+              ],
+              "rows": [
+                [
+                  "Ti {ip:piace} il quadro?",
+                  "Ti {pp:è piaciut**o**} il quadro?"
+                ],
+                [
+                  "Ti {ip:piacciono} i quadri?",
+                  "Ti {pp:sono piaciut**i**} i quadri?"
+                ],
+                [
+                  "Ti {ip:piace} la statua?",
+                  "Ti {pp:è piaciut**a**} la statua?"
+                ],
+                [
+                  "Ti {ip:piacciono} le statue?",
+                  "Ti {pp:sono piaciut**e**} le statue?"
+                ]
+              ]
+            },
+            "note": "*Piacere* prende *essere*, quindi il participio si accorda con la cosa che piace, non con la persona."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the imperfetto.",
+        "prompt": "Scrivi il numero ordinale.",
         "questions": [
-          "Da bambino [[giocavo#im]] al mare. (giocare, io)",
-          "Tu [[abitavi#im]] a Napoli? (abitare)",
-          "Mia nonna [[cucinava#im]] sempre la domenica. (cucinare)",
-          "Noi [[leggevamo#im]] molti libri. (leggere)",
-          "Voi [[dormivate#im]] poco. (dormire)",
-          "I miei genitori [[lavoravano#im]] molto. (lavorare)"
+          "3° → [[terzo]]",
+          "7° → [[settimo]]",
+          "9° → [[nono]]",
+          "12° → [[dodicesimo]]",
+          "16° → [[sedicesimo]]",
+          "23° → [[ventitreesimo]]",
+          "Il Cinquecento {ip:è} il [[sedicesimo]] secolo.",
+          "La Gioconda {ip:è} al [[primo]] posto della mia classifica."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the right form of the irregular verb.",
+        "prompt": "Scrivi il numero in lettere.",
         "questions": [
-          "La casa [[era#im]] piccola. (essere)",
-          "Noi [[eravamo#im]] molto giovani. (essere)",
-          "Che cosa [[facevi#im]] ieri alle sei? (fare, tu)",
-          "Mio nonno [[beveva#im]] solo vino. (bere)",
-          "I bambini non [[dicevano#im]] niente. (dire)"
+          "2000 → [[duemila]]",
+          "1300 → [[milletrecento]]",
+          "50000 → [[cinquantamila]]",
+          "1000000 → un [[milione]]"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Rispondi con lo, la, li o le.",
+        "questions": [
+          "{ip:Conosci} il Colosseo? Sì, [[lo]] {ip:conosco}.",
+          "{ip:Conosci} la Torre di Pisa? Sì, [[la]] {ip:conosco}.",
+          "{ip:Conosci} i romanzi di Calvino? No, non [[li]] {ip:conosco}.",
+          "{ip:Conosci} le opere di Raffaello? Sì, [[le]] {ip:conosco} bene.",
+          "{ip:Vedi} Marco stasera? Sì, [[lo]] {ip:vedo} al museo."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma atona del pronome.",
+        "questions": [
+          "A me {ip:piace} il Barocco. → [[Mi]] {ip:piace} il Barocco.",
+          "A te {ip:piace} Verdi? → [[Ti]] {ip:piace} Verdi?",
+          "A lei {ip:piace} la moda. → [[Le]] {ip:piace} la moda.",
+          "A noi {ip:piacciono} i musei. → [[Ci]] {ip:piacciono} i musei.",
+          "A loro {ip:piace} Venezia. → [[Gli]] {ip:piace} Venezia."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does the imperfetto express here?",
+        "prompt": "Rispondi come dice la parentesi.",
         "questions": [
           {
-            "q": "Ogni estate {im:andavamo} in montagna.",
+            "q": "Mi {ip:piace} l'arte moderna. (Sei d'accordo.)",
             "options": [
-              "*a habit",
-              "a description",
-              "an action in progress"
+              "*Anche a me.",
+              "Neanche a me.",
+              "A me invece no."
             ]
           },
           {
-            "q": "Il mare {im:era} azzurro.",
+            "q": "Non mi {ip:piace} l'opera lirica. (Sei d'accordo.)",
             "options": [
-              "a habit",
-              "*a description",
-              "an action in progress"
+              "Anche a me.",
+              "*Neanche a me.",
+              "A me invece sì."
             ]
           },
           {
-            "q": "Alle otto {im:guardavo} un film.",
+            "q": "Mi {ip:piacciono} le chiese barocche. (Non sei d'accordo.)",
             "options": [
-              "a habit",
-              "a description",
-              "*an action in progress"
+              "Anche a me.",
+              "Neanche a me.",
+              "*A me invece no."
             ]
           },
           {
-            "q": "Di solito mi {im:alzavo} presto.",
+            "q": "Non mi {ip:piace} il Colosseo. (Non sei d'accordo.)",
             "options": [
-              "*a habit",
-              "a description",
-              "an action in progress"
+              "Neanche a me.",
+              "*A me invece sì.",
+              "A me invece no."
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa il dialogo con il [pp:passato prossimo] del verbo tra parentesi.",
+        "questions": [
+          "— Ciao Giulia, dove [[sei stata#pp]] ieri? (essere)",
+          "— [[Sono andata#pp]] a Firenze con Sara. (andare)",
+          "— Davvero? Con il treno? — Sì, [[siamo partite#pp]] alle sette. (partire)",
+          "— E che cosa [[avete visitato#pp]]? (visitare)",
+          "— [[Abbiamo visto#pp]] gli Uffizi e Ponte Vecchio. (vedere)",
+          "— Vi [[sono piaciuti#pp]] gli Uffizi? (piacere)",
+          "— Moltissimo! Poi [[abbiamo deciso#pp]] di restare fino a sera. (decidere)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Metti al [pp:passato prossimo]. Attenzione all'accordo con la cosa che piace.",
+        "questions": [
+          "Ti {ip:piace} il libro? → Ti {pp:è} [[piaciuto#pp]] il libro?",
+          "Ti {ip:piacciono} i libri? → Ti [[sono#pp]] piaciuti i libri?",
+          "Ti {ip:piace} la mostra? → Ti {pp:è} [[piaciuta#pp]] la mostra?",
+          "Ti {ip:piacciono} le mostre? → Ti {pp:sono} [[piaciute#pp]] le mostre?"
         ]
       }
     ]
@@ -219,137 +395,202 @@
   "vocabulary": {
     "words": [
       [
-        "il bambino",
-        "child"
+        "il duomo",
+        "la chiesa più importante di una città"
       ],
       [
-        "l'infanzia",
-        "childhood"
+        "la basilica",
+        "una grande chiesa antica"
       ],
       [
-        "il paese",
-        "village, country"
+        "la torre",
+        "una costruzione alta e stretta"
       ],
       [
-        "la campagna",
-        "countryside"
+        "il ponte",
+        "passa sopra un fiume"
       ],
       [
-        "il giocattolo",
-        "toy"
+        "le cascate",
+        "acqua che cade dall'alto"
       ],
       [
-        "il compagno di scuola",
-        "schoolmate"
+        "la spiaggia",
+        "la sabbia vicino al mare"
       ],
       [
-        "giocare",
-        "to play"
+        "il centro storico",
+        "la parte più antica di una città"
       ],
       [
-        "ricordare",
-        "to remember"
+        "la galleria d'arte",
+        "qui si vedono e si comprano quadri"
       ],
       [
-        "correre",
-        "to run"
+        "la mostra",
+        "le opere di un artista in un museo, per qualche mese"
       ],
       [
-        "di solito",
-        "usually"
+        "il monumento",
+        "una costruzione famosa per la sua storia"
       ],
       [
-        "felice",
-        "happy"
+        "il palazzo",
+        "un grande edificio, spesso antico"
       ],
       [
-        "tranquillo",
-        "quiet, calm"
+        "la biblioteca",
+        "qui leggi e prendi in prestito i libri"
+      ],
+      [
+        "lo scultore",
+        "fa le statue"
+      ],
+      [
+        "il regista",
+        "dirige un film"
+      ],
+      [
+        "la scrittrice",
+        "scrive romanzi"
+      ],
+      [
+        "il poeta",
+        "scrive poesie"
+      ],
+      [
+        "il musicista",
+        "suona o scrive musica"
+      ],
+      [
+        "lo stilista",
+        "disegna vestiti per la moda"
+      ],
+      [
+        "la ballerina",
+        "balla, per esempio in un balletto"
+      ],
+      [
+        "il dipinto",
+        "un quadro fatto con i colori"
+      ],
+      [
+        "la scultura",
+        "un'opera di pietra o di marmo"
+      ],
+      [
+        "il romanzo",
+        "un libro con una lunga storia inventata"
+      ],
+      [
+        "il secolo",
+        "cento anni"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "l'infanzia",
-            "childhood"
+            "il duomo",
+            "la chiesa più importante di una città"
           ],
           [
-            "la campagna",
-            "countryside"
+            "il ponte",
+            "passa sopra un fiume"
           ],
           [
-            "il giocattolo",
-            "toy"
+            "la mostra",
+            "le opere di un artista in un museo, per qualche mese"
           ],
           [
-            "ricordare",
-            "to remember"
+            "lo scultore",
+            "fa le statue"
           ],
           [
-            "correre",
-            "to run"
+            "il regista",
+            "dirige un film"
           ],
           [
-            "tranquillo",
-            "quiet, calm"
+            "il secolo",
+            "cento anni"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Da [[bambino]] {im:abitavo} in campagna. (child)",
-          "[[Di solito]] mi {ip:alzo} alle sette. (usually)",
-          "{im:Ero} molto [[felice]]. (happy)",
-          "[[Ricordo#ip]] bene quella casa. (I remember)"
+          "Il Ponte Vecchio {ip:passa} sopra l'Arno: {ip:è} un [[ponte]] famoso.",
+          "Fellini {ip:è} un grande [[regista]] italiano.",
+          "Il David di Michelangelo {ip:è} una [[scultura]] di marmo.",
+          "«I promessi sposi» {ip:è} un [[romanzo]] di Manzoni.",
+          "Il Cinquecento {ip:è} il sedicesimo [[secolo]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Quando {im:ero} piccola, {im:abitavo} in un paese vicino al mare. La nostra casa {im:era} bianca e {im:aveva} un giardino con molti fiori. Ogni mattina mio padre {im:andava} a pescare e mia madre {im:lavorava} in un negozio.",
-      "D'estate {im:giocavo} sulla spiaggia con i miei compagni di scuola. {im:Correvamo}, {im:nuotavamo} e {im:tornavamo} a casa solo per mangiare. La sera mia nonna {im:raccontava} storie. Non {im:avevamo} la televisione, ma {im:eravamo} felici."
+      {
+        "h": "La vita di Caravaggio"
+      },
+      "Michelangelo Merisi, detto Caravaggio, {pp:è nato} a Milano il 29 settembre 1571. Da ragazzo {pp:ha studiato} pittura nella bottega di Simone Peterzano, un pittore milanese.",
+      "Verso il 1592 {pp:si è trasferito} a Roma. Lì {pp:ha lavorato} per il cardinale Del Monte, che lo {pp:ha aiutato} a diventare famoso. Tra il 1599 e il 1600 {pp:ha dipinto} i quadri di San Matteo nella chiesa di San Luigi dei Francesi.",
+      "Nel 1606, dopo una lite finita male, {pp:è scappato} da Roma. {pp:È andato} a Napoli, poi a Malta e in Sicilia, e {pp:ha continuato} a dipingere.",
+      "{pp:È morto} a Porto Ercole, in Toscana, il 18 luglio 1610, mentre {im:tornava} a Roma. Oggi le sue opere {ip:sono} in tutti i grandi musei del mondo."
     ],
     "exercises": [
       {
+        "type": "gap",
+        "prompt": "Completa la scheda su Caravaggio con le informazioni del testo.",
+        "questions": [
+          "{pp:È nato}: nel [[1571]] a [[Milano]].",
+          "{pp:Ha studiato} nella bottega di Simone [[Peterzano]].",
+          "{pp:Si è trasferito} a [[Roma]] verso il 1592.",
+          "{pp:Ha lavorato} per il cardinale [[Del Monte]].",
+          "{pp:È scappato} da Roma nel [[1606]].",
+          "{pp:È morto} a Porto [[Ercole]] nel [[1610]]."
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "The house was…",
+            "q": "Caravaggio {pp:è nato} a Roma.",
             "options": [
-              "*white, with a garden",
-              "big and grey",
-              "in the mountains"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "The father…",
+            "q": "{pp:Ha studiato} pittura a Milano.",
             "options": [
-              "worked in a shop",
-              "*went fishing",
-              "told stories"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "In the evening, the grandmother…",
+            "q": "Il cardinale Del Monte lo {pp:ha aiutato}.",
             "options": [
-              "cooked",
-              "watched television",
-              "*told stories"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "The family…",
+            "q": "Dopo il 1606 non {pp:ha} più {pp:dipinto}.",
             "options": [
-              "had a television",
-              "*had no television",
-              "lived in a city"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "{pp:È morto} in Sicilia.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           }
         ]
@@ -359,57 +600,60 @@
   "listening": {
     "transcript": [
       [
-        "Luca",
-        "Dove {im:abitavi} da bambina?"
+        "Paolo",
+        "Allora, ti {pp:è piaciuta} la mostra di Caravaggio?"
       ],
       [
-        "Elena",
-        "{im:Abitavo} in campagna, con i miei nonni."
+        "Elisa",
+        "Sì, mi {pp:è piaciuta} moltissimo! Al primo posto per me c'è la «Canestra di frutta»."
       ],
       [
-        "Luca",
-        "E che cosa {im:facevi} tutto il giorno?"
+        "Paolo",
+        "A me invece {pp:sono piaciuti} di più i ritratti. Scusa, che cosa {ip:significa} «canestra»?"
       ],
       [
-        "Elena",
-        "{im:Giocavo} con il cane e {im:aiutavo} mia nonna in cucina."
+        "Elisa",
+        "{ip:È} un cestino, per la frutta."
       ],
       [
-        "Luca",
-        "{im:Andavi} a scuola a piedi?"
+        "Paolo",
+        "Ah, ecco. Non mi {ip:piace} molto l'arte moderna, ma Caravaggio sì."
       ],
       [
-        "Elena",
-        "Sì, di solito {im:camminavo} con mia cugina. {im:Era} lontana, ma {im:ero} contenta."
+        "Elisa",
+        "Neanche a me {ip:piace} l'arte moderna! La prossima volta {ip:andiamo} agli Uffizi?"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Dove [[abitavi#im]] da bambina?",
-          "E che cosa [[facevi#im]] tutto il giorno?",
-          "[[Giocavo#im]] con il cane.",
-          "[[Era#im]] lontana, ma {im:ero} contenta."
+          "Allora, ti [[è piaciuta#pp]] la mostra di Caravaggio?",
+          "Al [[primo]] posto per me c'è la «Canestra di frutta».",
+          "A me invece [[sono piaciuti#pp]] di più i ritratti.",
+          "Scusa, che cosa [[significa#ip]] «canestra»?",
+          "[[Neanche]] a me {ip:piace} l'arte moderna!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Elena lived with her grandparents.",
+            "q": "Che cosa {pp:è piaciuto} di più a Paolo?",
             "options": [
-              "*True",
-              "False"
+              "la «Canestra di frutta»",
+              "*i ritratti",
+              "l'arte moderna"
             ]
           },
           {
-            "q": "Elena went to school by bus.",
+            "q": "Dove {ip:vogliono} andare la prossima volta?",
             "options": [
-              "True",
-              "*False"
+              "*agli Uffizi",
+              "a una mostra di arte moderna",
+              "a Porto Ercole"
             ]
           }
         ]
@@ -420,43 +664,59 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian, using the imperfetto.",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "As a child I often played. (a man speaking)",
+            "q": "In quale regione {ip:è} Firenze? (Toscana)",
             "a": [
-              "Da bambino giocavo spesso.",
-              "Da bambino io giocavo spesso."
+              "Firenze è in Toscana.",
+              "È in Toscana."
             ]
           },
           {
-            "q": "The house was small.",
+            "q": "{ip:Chiedi} a un amico se {ip:conosce} le opere di Michelangelo.",
             "a": [
-              "La casa era piccola."
+              "Conosci le opere di Michelangelo?"
             ]
           },
           {
-            "q": "We lived in the countryside.",
+            "q": "{ip:Rispondi} di sì, con il pronome.",
             "a": [
-              "Abitavamo in campagna.",
-              "Noi abitavamo in campagna.",
-              "Vivevamo in campagna."
+              "Sì, le conosco.",
+              "Si, le conosco.",
+              "Sì le conosco."
             ]
           },
           {
-            "q": "What were you doing? (informal, singular)",
+            "q": "{ip:Chiedi} che cosa {ip:vuol} dire la parola «Rinascimento».",
             "a": [
-              "Che cosa facevi?",
-              "Cosa facevi?",
-              "Che facevi?"
+              "Che cosa significa Rinascimento?",
+              "Cosa significa Rinascimento?",
+              "Che significa Rinascimento?",
+              "Che cosa vuol dire Rinascimento?",
+              "Cosa vuol dire Rinascimento?"
             ]
           },
           {
-            "q": "My grandfather usually drank wine.",
+            "q": "{ip:Chiedi} come si {ip:dice} «chapel» in italiano.",
             "a": [
-              "Di solito mio nonno beveva vino.",
-              "Mio nonno di solito beveva vino.",
-              "Mio nonno beveva di solito vino."
+              "Come si dice chapel?",
+              "Come si dice chapel in italiano?"
+            ]
+          },
+          {
+            "q": "Ieri {pp:sei andato} a una mostra. {ip:Chiedi} a un'amica se le {pp:è piaciuta}.",
+            "a": [
+              "Ti è piaciuta la mostra?"
+            ]
+          },
+          {
+            "q": "Raccontala: noi / visitare il Duomo / poi / andare in centro.",
+            "a": [
+              "Abbiamo visitato il Duomo e poi siamo andati in centro.",
+              "Abbiamo visitato il Duomo, poi siamo andati in centro.",
+              "Abbiamo visitato il Duomo e poi siamo andate in centro.",
+              "Abbiamo visitato il Duomo, poi siamo andate in centro."
             ]
           }
         ]

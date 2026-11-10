@@ -1,13 +1,13 @@
 {
   "title": "{ip:Spero} che tu {csa:abbia capito}",
   "translation": "I hope you have understood",
-  "topics": "The congiuntivo passato, impersonal expressions with the congiuntivo",
+  "topics": "The [csa:congiuntivo passato], impersonal expressions with the congiuntivo",
   "grammar": {
     "explain": [
       {
         "h": "A finished action seen through someone's mind"
       },
-      "The *congiuntivo passato* is the past version of what you learned in lesson 1. Use it when the main verb is in the present and the action in the *che* part has already happened.",
+      "The [csa:congiuntivo passato] is the past version of what you learned in lesson 1. Use it when the main verb is in the present and the action in the *che* part has already happened.",
       {
         "table": {
           "head": [
@@ -32,7 +32,7 @@
       {
         "h": "How to form it"
       },
-      "It works exactly like the *passato prossimo*, only the auxiliary is in the *congiuntivo presente*. The choice of auxiliary and the agreement stay the same.",
+      "It works exactly like the [pp:passato prossimo], only the auxiliary is in the [csp:congiuntivo presente]. The choice of auxiliary and the agreement stay the same.",
       {
         "table": {
           "head": [
@@ -121,7 +121,7 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the congiuntivo passato.",
+        "prompt": "Put the verb in the [csa:congiuntivo passato].",
         "questions": [
           "{ip:Spero} che tu [[abbia capito#csa]]. (capire)",
           "{ip:Penso} che Anna [[sia partita#csa]]. (partire)",

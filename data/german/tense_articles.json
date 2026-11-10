@@ -20,32 +20,32 @@
      ],
      "rows": [
       [
-       "Präsens",
+       "[ip:Präsens]",
        "{ip:ich mache}",
        "Now, habits, truths, and very often the future"
       ],
       [
-       "Perfekt",
+       "[pp:Perfekt]",
        "{pp:ich habe gemacht}",
        "The past in everyday speech"
       ],
       [
-       "Plusquamperfekt",
+       "[tp:Plusquamperfekt]",
        "{tp:ich hatte gemacht}",
        "Before another past moment"
       ],
       [
-       "Präteritum",
+       "[pr:Präteritum]",
        "{pr:ich machte}",
        "The past in writing and narrative"
       ],
       [
-       "Futur I",
+       "[fs:Futur I]",
        "{fs:ich werde machen}",
        "Intentions, predictions, guesses about the present"
       ],
       [
-       "Futur II",
+       "[fa:Futur II]",
        "{fa:ich werde gemacht haben}",
        "Completed by a future moment, guesses about the past"
       ]
@@ -55,7 +55,7 @@
    {
     "h": "Fewer past tenses than Italian or Spanish"
    },
-   "German makes no distinction like *imperfetto* against *passato remoto*. Perfekt and Präteritum differ mainly in style, not in meaning: speech prefers the first, writing the second.",
+   "German makes no distinction like *imperfetto* against *passato remoto*. [pp:Perfekt] and [pr:Präteritum] differ mainly in style, not in meaning: speech prefers the first, writing the second.",
    {
     "h": "Word order"
    },
@@ -314,7 +314,7 @@
     "ul": [
      "Talking about the past in conversation: *Gestern {pp:habe} ich einen Film {pp:gesehen}.*",
      "Past events that matter now: *Ich {pp:habe} meine Schlüssel {pp:verloren}.*",
-     "It also translates the *passato remoto* of spoken narrative: anything told aloud usually takes Perfekt."
+     "It also translates the *passato remoto* of spoken narrative: anything told aloud usually takes [pp:Perfekt]."
     ]
    }
   ]
@@ -327,7 +327,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the Präteritum of *haben* or *sein* and the Partizip II. The choice of auxiliary is the same as in the Perfekt.",
+   "Use the [pr:Präteritum] of *haben* or *sein* and the Partizip II. The choice of auxiliary is the same as in the [pp:Perfekt].",
    {
     "table": {
      "head": [
@@ -576,7 +576,7 @@
      "A guess about the present, often with *wohl*: *Er {fs:wird} wohl zu Hause {fs:sein}.*"
     ]
    },
-   "When the time is clear, German usually prefers the Präsens: *Morgen {ip:rufe} ich dich {ip:an}.*"
+   "When the time is clear, German usually prefers the [ip:Präsens]: *Morgen {ip:rufe} ich dich {ip:an}.*"
   ]
  },
  "futur_2": {
@@ -638,7 +638,7 @@
      "A guess about the past, often with *wohl*: *Er {fa:wird} den Zug wohl {fa:verpasst haben}.*"
     ]
    },
-   "In everyday speech, the Perfekt often replaces it for future completion: *Bis morgen {pp:habe} ich es {pp:geschafft}.*"
+   "In everyday speech, the [pp:Perfekt] often replaces it for future completion: *Bis morgen {pp:habe} ich es {pp:geschafft}.*"
   ]
  },
  "konjunktiv_2": {
@@ -727,7 +727,7 @@
      ]
     }
    },
-   "Common verbs have their own forms, based on the Präteritum with an umlaut where possible, and the endings *-e, -est, -e, -en, -et, -en*.",
+   "Common verbs have their own forms, based on the [pr:Präteritum] with an umlaut where possible, and the endings *-e, -est, -e, -en, -et, -en*.",
    {
     "table": {
      "head": [
@@ -805,7 +805,7 @@
    {
     "h": "How it is formed"
    },
-   "Use *hätte* or *wäre* and the Partizip II. The choice of auxiliary is the same as in the Perfekt.",
+   "Use *hätte* or *wäre* and the Partizip II. The choice of auxiliary is the same as in the [pp:Perfekt].",
    {
     "table": {
      "head": [
@@ -1218,7 +1218,7 @@
    {
     "h": "How it is formed"
    },
-   "Use the Konjunktiv I of *haben* or *sein* and the Partizip II. The choice of auxiliary is the same as in the Perfekt.",
+   "Use the Konjunktiv I of *haben* or *sein* and the Partizip II. The choice of auxiliary is the same as in the [pp:Perfekt].",
    {
     "table": {
      "head": [

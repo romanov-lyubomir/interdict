@@ -1,7 +1,7 @@
 {
   "title": "Quando {pp:sono arrivato}, Maria {tp:era} già {tp:partita}",
   "translation": "When I arrived, Maria had already left",
-  "topics": "Choosing among the past tenses, the passato remoto, sequence of events in the past",
+  "topics": "Choosing among the past tenses, the [pr:passato remoto], sequence of events in the past",
   "grammar": {
     "explain": [
       {
@@ -17,22 +17,22 @@
           ],
           "rows": [
             [
-              "Passato prossimo",
+              "[pp:Passato prossimo]",
               "A finished event, still connected to the present",
               "{pp:Ho perso} le chiavi."
             ],
             [
-              "Imperfetto",
+              "[im:Imperfetto]",
               "Background, habit, something in progress",
               "{im:Pioveva} e tutti {im:correvano}."
             ],
             [
-              "Trapassato prossimo",
+              "[tp:Trapassato prossimo]",
               "An event before another past event",
               "Maria {tp:era} già {tp:partita}."
             ],
             [
-              "Passato remoto",
+              "[pr:Passato remoto]",
               "A finished event, cut off from the present",
               "Dante {pr:nacque} nel 1265."
             ]
@@ -40,11 +40,11 @@
         }
       },
       {
-        "h": "Passato prossimo or passato remoto?"
+        "h": "[pp:Passato prossimo] or [pr:passato remoto]?"
       },
-      "The difference is psychological rather than a matter of time. *Mio nonno {pp:è morto} trent'anni fa* suggests that it still touches me. *Mio nonno {pr:morì} trent'anni fa* tells it as closed history. In writing, the *passato remoto* is the tense of novels and history. In speech it depends on the region: it's rare in the North and common in parts of the South.",
+      "The difference is psychological rather than a matter of time. *Mio nonno {pp:è morto} trent'anni fa* suggests that it still touches me. *Mio nonno {pr:morì} trent'anni fa* tells it as closed history. In writing, the [pr:passato remoto] is the tense of novels and history. In speech it depends on the region: it's rare in the North and common in parts of the South.",
       {
-        "h": "Forming the passato remoto"
+        "h": "Forming the [pr:passato remoto]"
       },
       {
         "table": {
@@ -168,17 +168,17 @@
           "rows": [
             [
               "Before it",
-              "Trapassato prossimo",
+              "[tp:Trapassato prossimo]",
               "{tp:era partita}."
             ],
             [
               "At the same time",
-              "Imperfetto",
+              "[im:Imperfetto]",
               "{im:partiva} quel giorno."
             ],
             [
               "After it",
-              "Condizionale passato",
+              "[cpa:Condizionale passato]",
               "{cpa:sarebbe partita}."
             ]
           ]
@@ -244,7 +244,7 @@
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the passato remoto.",
+        "prompt": "Put the verb in the [pr:passato remoto].",
         "questions": [
           "Garibaldi [[partì#pr]] da Quarto nel 1860. (partire)",
           "I soldati [[combatterono]] tutta la notte. (combattere)",
@@ -395,7 +395,7 @@
             ]
           },
           {
-            "q": "The passato prossimo at the end shows that…",
+            "q": "The [pp:passato prossimo] at the end shows that…",
             "options": [
               "the story is invented",
               "the events happened yesterday",
@@ -487,7 +487,7 @@
             ]
           },
           {
-            "q": "Dante wrote the Divine Comedy. (passato remoto)",
+            "q": "Dante wrote the Divine Comedy. ([pr:passato remoto])",
             "a": [
               "Dante scrisse la Divina Commedia."
             ]

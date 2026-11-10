@@ -1,19 +1,19 @@
 {
   "title": "Mentre {im:studiavo}, {pp:è arrivato} Luca",
   "translation": "While I was studying, Luca arrived",
-  "topics": "The difference between the passato prossimo and the imperfetto",
+  "topics": "The difference between the [pp:passato prossimo] and the [im:imperfetto]",
   "grammar": {
     "explain": [
       {
         "h": "Think of a film"
       },
-      "The *imperfetto* is the scenery of the film: what was going on, what things were like. The *passato prossimo* is the event: what happened, one step at a time, and is now finished.",
+      "The [im:imperfetto] is the scenery of the film: what was going on, what things were like. The [pp:passato prossimo] is the event: what happened, one step at a time, and is now finished.",
       {
         "table": {
           "head": [
             "",
-            "Imperfetto",
-            "Passato prossimo"
+            "[im:Imperfetto]",
+            "[pp:Passato prossimo]"
           ],
           "rows": [
             [
@@ -38,7 +38,7 @@
       {
         "h": "One sentence, two tenses"
       },
-      "When an event interrupts something that was already going on, the background is in the *imperfetto* and the interruption in the *passato prossimo*.",
+      "When an event interrupts something that was already going on, the background is in the [im:imperfetto] and the interruption in the [pp:passato prossimo].",
       {
         "table": {
           "head": [
@@ -64,11 +64,11 @@
       {
         "h": "Two actions side by side"
       },
-      "If two actions were going on at the same time, both are in the *imperfetto*: *Mentre io {im:cucinavo}, lui {im:leggeva}*. If they happen one after another, both are in the *passato prossimo*: *{pp:Sono entrato} e {pp:ho acceso} la luce*.",
+      "If two actions were going on at the same time, both are in the [im:imperfetto]: *Mentre io {im:cucinavo}, lui {im:leggeva}*. If they happen one after another, both are in the [pp:passato prossimo]: *{pp:Sono entrato} e {pp:ho acceso} la luce*.",
       {
         "h": "A stated length of time"
       },
-      "Even if an action lasted long, a stated length makes it a finished block, so use the *passato prossimo*: *{pp:Ho vissuto} a Roma per dieci anni*. *{im:Abitavo} a Roma* only says that was your situation then."
+      "Even if an action lasted long, a stated length makes it a finished block, so use the [pp:passato prossimo]: *{pp:Ho vissuto} a Roma per dieci anni*. *{im:Abitavo} a Roma* only says that was your situation then."
     ]
   },
   "use": {
@@ -123,7 +123,7 @@
       },
       {
         "type": "gap",
-        "prompt": "Put each verb in the imperfetto or the passato prossimo.",
+        "prompt": "Put each verb in the [im:imperfetto] or the [pp:passato prossimo].",
         "questions": [
           "Mentre [[dormivo#im]], [[è suonato#pp]] il telefono. (dormire, suonare)",
           "Quando [[sono uscita#pp]], [[pioveva#im]]. (uscire, io – a woman; piovere)",
