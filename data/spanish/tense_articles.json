@@ -1,0 +1,1802 @@
+{
+ "indicativo": {
+  "title": "Indicativo",
+  "style": "",
+  "summary": "The mood of facts: what happens, happened or will happen.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "The indicative presents something as real or certain. Unless something calls for another mood, the verb is in the indicative.",
+   {
+    "h": "Its tenses"
+   },
+   {
+    "table": {
+     "head": [
+      "Tense",
+      "Example",
+      "Expresses"
+     ],
+     "rows": [
+      [
+       "Presente",
+       "{ip:hablo}",
+       "Now, habits, general truths, the near future"
+      ],
+      [
+       "Imperfecto",
+       "{im:hablaba}",
+       "Past habits, descriptions, actions in progress"
+      ],
+      [
+       "Pretérito perfecto",
+       "{pp:he hablado}",
+       "Past actions linked to the present"
+      ],
+      [
+       "Pluscuamperfecto",
+       "{tp:había hablado}",
+       "Before another past moment"
+      ],
+      [
+       "Indefinido",
+       "{pr:hablé}",
+       "Completed actions in a finished time"
+      ],
+      [
+       "Pretérito anterior",
+       "{tr:hube hablado}",
+       "Just before another past action, literary"
+      ],
+      [
+       "Futuro simple",
+       "{fs:hablaré}",
+       "The future, guesses about the present"
+      ],
+      [
+       "Futuro compuesto",
+       "{fa:habré hablado}",
+       "Before a future moment, guesses about the past"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Simple and compound tenses"
+   },
+   "Every compound tense is *haber* in the matching simple tense, plus the participle, which never changes.",
+   {
+    "table": {
+     "head": [
+      "Tense of haber",
+      "Compound tense"
+     ],
+     "rows": [
+      [
+       "Presente: {ip:he}",
+       "Pretérito perfecto: {pp:he hablado}"
+      ],
+      [
+       "Imperfecto: {im:había}",
+       "Pluscuamperfecto: {tp:había hablado}"
+      ],
+      [
+       "Indefinido: {pr:hube}",
+       "Pretérito anterior: {tr:hube hablado}"
+      ],
+      [
+       "Futuro simple: {fs:habré}",
+       "Futuro compuesto: {fa:habré hablado}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Indicative or subjunctive?"
+   },
+   "Statements of knowledge take the indicative: *Sé que {ip:habla} bien.* Wishes, doubts and denied opinions take the subjunctive: *Quiero que {csp:hable}. No creo que {csp:hable} bien.*"
+  ]
+ },
+ "presente": {
+  "title": "Presente",
+  "style": "t-ip",
+  "summary": "What is happening now, what usually happens, and often the near future.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Remove *-ar*, *-er* or *-ir* and add the endings.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer",
+      "vivir"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{ip:habl**o**}",
+       "{ip:com**o**}",
+       "{ip:viv**o**}"
+      ],
+      [
+       "tú",
+       "{ip:habl**as**}",
+       "{ip:com**es**}",
+       "{ip:viv**es**}"
+      ],
+      [
+       "él / ella / usted",
+       "{ip:habl**a**}",
+       "{ip:com**e**}",
+       "{ip:viv**e**}"
+      ],
+      [
+       "nosotros",
+       "{ip:habl**amos**}",
+       "{ip:com**emos**}",
+       "{ip:viv**imos**}"
+      ],
+      [
+       "vosotros",
+       "{ip:habl**áis**}",
+       "{ip:com**éis**}",
+       "{ip:viv**ís**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{ip:habl**an**}",
+       "{ip:com**en**}",
+       "{ip:viv**en**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Stem-changing verbs"
+   },
+   "The stressed vowel changes everywhere except in *nosotros* and *vosotros*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "pensar (e → ie)",
+      "poder (o → ue)",
+      "pedir (e → i)"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{ip:pienso}",
+       "{ip:puedo}",
+       "{ip:pido}"
+      ],
+      [
+       "tú",
+       "{ip:piensas}",
+       "{ip:puedes}",
+       "{ip:pides}"
+      ],
+      [
+       "él / ella / usted",
+       "{ip:piensa}",
+       "{ip:puede}",
+       "{ip:pide}"
+      ],
+      [
+       "nosotros",
+       "{ip:pensamos}",
+       "{ip:podemos}",
+       "{ip:pedimos}"
+      ],
+      [
+       "vosotros",
+       "{ip:pensáis}",
+       "{ip:podéis}",
+       "{ip:pedís}"
+      ],
+      [
+       "ellos / ustedes",
+       "{ip:piensan}",
+       "{ip:pueden}",
+       "{ip:piden}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Common irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "ser",
+      "estar",
+      "ir",
+      "tener"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{ip:soy}",
+       "{ip:estoy}",
+       "{ip:voy}",
+       "{ip:tengo}"
+      ],
+      [
+       "tú",
+       "{ip:eres}",
+       "{ip:estás}",
+       "{ip:vas}",
+       "{ip:tienes}"
+      ],
+      [
+       "él / ella / usted",
+       "{ip:es}",
+       "{ip:está}",
+       "{ip:va}",
+       "{ip:tiene}"
+      ],
+      [
+       "nosotros",
+       "{ip:somos}",
+       "{ip:estamos}",
+       "{ip:vamos}",
+       "{ip:tenemos}"
+      ],
+      [
+       "vosotros",
+       "{ip:sois}",
+       "{ip:estáis}",
+       "{ip:vais}",
+       "{ip:tenéis}"
+      ],
+      [
+       "ellos / ustedes",
+       "{ip:son}",
+       "{ip:están}",
+       "{ip:van}",
+       "{ip:tienen}"
+      ]
+     ]
+    }
+   },
+   "Irregular only in *yo*: *hacer: hago; poner: pongo; salir: salgo; traer: traigo; conocer: conozco; saber: sé; dar: doy; ver: veo.* *Venir* and *decir* have *vengo, vienes* and *digo, dices*.",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Something happening now: *{ip:Leo} el periódico.* To stress that it is in progress, use *estar* with the gerund: *{ip:Estoy} leyendo.*",
+     "Habits: *Los lunes {ip:voy} al gimnasio.*",
+     "General truths: *El agua {ip:hierve} a cien grados.*",
+     "The near future: *Mañana {ip:salgo} para Madrid.*",
+     "An action that still continues: *{ip:Estudio} español desde hace dos años.*"
+    ]
+   }
+  ]
+ },
+ "imperfecto": {
+  "title": "Imperfecto",
+  "style": "t-im",
+  "summary": "The past seen from the inside: habits, descriptions and actions in progress.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "*-ar* verbs take *-aba*. *-er* and *-ir* verbs share *-ía*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer",
+      "vivir"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{im:habl**aba**}",
+       "{im:com**ía**}",
+       "{im:viv**ía**}"
+      ],
+      [
+       "tú",
+       "{im:habl**abas**}",
+       "{im:com**ías**}",
+       "{im:viv**ías**}"
+      ],
+      [
+       "él / ella / usted",
+       "{im:habl**aba**}",
+       "{im:com**ía**}",
+       "{im:viv**ía**}"
+      ],
+      [
+       "nosotros",
+       "{im:habl**ábamos**}",
+       "{im:com**íamos**}",
+       "{im:viv**íamos**}"
+      ],
+      [
+       "vosotros",
+       "{im:habl**abais**}",
+       "{im:com**íais**}",
+       "{im:viv**íais**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{im:habl**aban**}",
+       "{im:com**ían**}",
+       "{im:viv**ían**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "The three irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "ser",
+      "ir",
+      "ver"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{im:era}",
+       "{im:iba}",
+       "{im:veía}"
+      ],
+      [
+       "tú",
+       "{im:eras}",
+       "{im:ibas}",
+       "{im:veías}"
+      ],
+      [
+       "él / ella / usted",
+       "{im:era}",
+       "{im:iba}",
+       "{im:veía}"
+      ],
+      [
+       "nosotros",
+       "{im:éramos}",
+       "{im:íbamos}",
+       "{im:veíamos}"
+      ],
+      [
+       "vosotros",
+       "{im:erais}",
+       "{im:ibais}",
+       "{im:veíais}"
+      ],
+      [
+       "ellos / ustedes",
+       "{im:eran}",
+       "{im:iban}",
+       "{im:veían}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Past habits: *De niño {im:iba} a la playa cada verano.*",
+     "Descriptions of people, places, weather and states: *{im:Era} tarde y {im:llovía}.*",
+     "An action in progress when something else happened: *{im:Dormía} cuando {pr:llegó} Marcos.*",
+     "Polite requests: *{im:Quería} un café, por favor.*"
+    ]
+   },
+   {
+    "h": "Imperfecto or indefinido?"
+   },
+   "The *imperfecto* gives the background or a state with no clear end. The *indefinido* tells what happened: *{im:Hacía} frío, así que {pr:cerré} la ventana.*"
+  ]
+ },
+ "preterito_perfecto": {
+  "title": "Pretérito perfecto",
+  "style": "t-pp",
+  "summary": "A past action still connected to the present.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the present of *haber* and the participle: *-ar* becomes *-ado*, *-er* and *-ir* become *-ido*. The auxiliary is always *haber* and the participle never changes.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{pp:he habl**ado**}",
+       "{pp:he com**ido**}"
+      ],
+      [
+       "tú",
+       "{pp:has habl**ado**}",
+       "{pp:has com**ido**}"
+      ],
+      [
+       "él / ella / usted",
+       "{pp:ha habl**ado**}",
+       "{pp:ha com**ido**}"
+      ],
+      [
+       "nosotros",
+       "{pp:hemos habl**ado**}",
+       "{pp:hemos com**ido**}"
+      ],
+      [
+       "vosotros",
+       "{pp:habéis habl**ado**}",
+       "{pp:habéis com**ido**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{pp:han habl**ado**}",
+       "{pp:han com**ido**}"
+      ]
+     ]
+    }
+   },
+   "Nothing can come between the two parts. Pronouns go first: *Me {pp:he levantado} tarde.*",
+   {
+    "h": "Irregular participles"
+   },
+   {
+    "table": {
+     "head": [
+      "Verb",
+      "Participle",
+      "Verb",
+      "Participle"
+     ],
+     "rows": [
+      [
+       "abrir",
+       "abierto",
+       "poner",
+       "puesto"
+      ],
+      [
+       "decir",
+       "dicho",
+       "romper",
+       "roto"
+      ],
+      [
+       "escribir",
+       "escrito",
+       "ver",
+       "visto"
+      ],
+      [
+       "hacer",
+       "hecho",
+       "volver",
+       "vuelto"
+      ],
+      [
+       "morir",
+       "muerto",
+       "resolver",
+       "resuelto"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "A time period that is not over: *Hoy {pp:he comido} tarde. Esta semana {pp:he trabajado} mucho.*",
+     "Life experience: *¿{pp:Has estado} en México?*",
+     "Recent events that still matter: *{pp:He perdido} las llaves.*",
+     "In much of Latin America the *indefinido* is preferred in these contexts: *Hoy comí tarde.*"
+    ]
+   }
+  ]
+ },
+ "pluscuamperfecto": {
+  "title": "Pluscuamperfecto",
+  "style": "t-tp",
+  "summary": "The past before the past.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *imperfecto* of *haber* and the participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{tp:había habl**ado**}",
+       "{tp:había com**ido**}"
+      ],
+      [
+       "tú",
+       "{tp:habías habl**ado**}",
+       "{tp:habías com**ido**}"
+      ],
+      [
+       "él / ella / usted",
+       "{tp:había habl**ado**}",
+       "{tp:había com**ido**}"
+      ],
+      [
+       "nosotros",
+       "{tp:habíamos habl**ado**}",
+       "{tp:habíamos com**ido**}"
+      ],
+      [
+       "vosotros",
+       "{tp:habíais habl**ado**}",
+       "{tp:habíais com**ido**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{tp:habían habl**ado**}",
+       "{tp:habían com**ido**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An action completed before another past event: *Cuando {pr:llegué}, el tren ya {tp:había salido}.*",
+     "The cause of a past situation: *{im:Estaba} cansado porque {tp:había trabajado} todo el día.*",
+     "Reported speech: *Dijo que {tp:había terminado}.*",
+     "First-time experiences: *Nunca {tp:había visto} algo así.*"
+    ]
+   }
+  ]
+ },
+ "indefinido": {
+  "title": "Indefinido",
+  "style": "t-pr",
+  "summary": "Completed actions in a finished period of time. Also called pretérito perfecto simple.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "*-er* and *-ir* verbs share the same endings. The written accent matters: *hablo* is I speak, *habló* is he spoke.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer",
+      "vivir"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{pr:habl**é**}",
+       "{pr:com**í**}",
+       "{pr:viv**í**}"
+      ],
+      [
+       "tú",
+       "{pr:habl**aste**}",
+       "{pr:com**iste**}",
+       "{pr:viv**iste**}"
+      ],
+      [
+       "él / ella / usted",
+       "{pr:habl**ó**}",
+       "{pr:com**ió**}",
+       "{pr:viv**ió**}"
+      ],
+      [
+       "nosotros",
+       "{pr:habl**amos**}",
+       "{pr:com**imos**}",
+       "{pr:viv**imos**}"
+      ],
+      [
+       "vosotros",
+       "{pr:habl**asteis**}",
+       "{pr:com**isteis**}",
+       "{pr:viv**isteis**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{pr:habl**aron**}",
+       "{pr:com**ieron**}",
+       "{pr:viv**ieron**}"
+      ]
+     ]
+    }
+   },
+   "Spelling in *yo*: *buscar: busqué; llegar: llegué; empezar: empecé.*",
+   "*-ir* stem-changing verbs change in the third person: *pedir: pidió, pidieron; dormir: durmió, durmieron.*",
+   {
+    "h": "Irregular verbs"
+   },
+   "Many verbs have a special stem and unstressed endings, with no written accent.",
+   {
+    "table": {
+     "head": [
+      "",
+      "ser / ir",
+      "tener",
+      "hacer",
+      "decir"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{pr:fui}",
+       "{pr:tuve}",
+       "{pr:hice}",
+       "{pr:dije}"
+      ],
+      [
+       "tú",
+       "{pr:fuiste}",
+       "{pr:tuviste}",
+       "{pr:hiciste}",
+       "{pr:dijiste}"
+      ],
+      [
+       "él / ella / usted",
+       "{pr:fue}",
+       "{pr:tuvo}",
+       "{pr:hizo}",
+       "{pr:dijo}"
+      ],
+      [
+       "nosotros",
+       "{pr:fuimos}",
+       "{pr:tuvimos}",
+       "{pr:hicimos}",
+       "{pr:dijimos}"
+      ],
+      [
+       "vosotros",
+       "{pr:fuisteis}",
+       "{pr:tuvisteis}",
+       "{pr:hicisteis}",
+       "{pr:dijisteis}"
+      ],
+      [
+       "ellos / ustedes",
+       "{pr:fueron}",
+       "{pr:tuvieron}",
+       "{pr:hicieron}",
+       "{pr:dijeron}"
+      ]
+     ]
+    }
+   },
+   "Also: *estar: estuve; poder: pude; poner: puse; saber: supe; querer: quise; venir: vine; dar: di; ver: vi.*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Actions in a finished time, with words like *ayer* or *el año pasado*: *Ayer {pr:fui} al cine.*",
+     "A sequence of events: *{pr:Me levanté}, {pr:desayuné} y {pr:salí}.*",
+     "An event that interrupts: *{im:Dormía} cuando {pr:sonó} el teléfono.*",
+     "Dates and history: *Cervantes {pr:murió} en 1616.*"
+    ]
+   }
+  ]
+ },
+ "preterito_anterior": {
+  "title": "Pretérito anterior",
+  "style": "t-tr",
+  "summary": "A rare literary tense: one action immediately before another.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *indefinido* of *haber* and the participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{tr:hube habl**ado**}",
+       "{tr:hube com**ido**}"
+      ],
+      [
+       "tú",
+       "{tr:hubiste habl**ado**}",
+       "{tr:hubiste com**ido**}"
+      ],
+      [
+       "él / ella / usted",
+       "{tr:hubo habl**ado**}",
+       "{tr:hubo com**ido**}"
+      ],
+      [
+       "nosotros",
+       "{tr:hubimos habl**ado**}",
+       "{tr:hubimos com**ido**}"
+      ],
+      [
+       "vosotros",
+       "{tr:hubisteis habl**ado**}",
+       "{tr:hubisteis com**ido**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{tr:hubieron habl**ado**}",
+       "{tr:hubieron com**ido**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   "It appears after *apenas, en cuanto, tan pronto como, cuando* and *después de que*, with the main verb in the *indefinido*: *Apenas {tr:hubo terminado}, {pr:salió}.*",
+   "You only need to recognise it. Today people say *Apenas {pr:terminó}, {pr:salió}* or use the *pluscuamperfecto*."
+  ]
+ },
+ "futuro_simple": {
+  "title": "Futuro simple",
+  "style": "t-fs",
+  "summary": "What will happen, and guesses about the present.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Add the endings to the whole infinitive. All three verb groups share them.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer",
+      "vivir"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{fs:hablar**é**}",
+       "{fs:comer**é**}",
+       "{fs:vivir**é**}"
+      ],
+      [
+       "tú",
+       "{fs:hablar**ás**}",
+       "{fs:comer**ás**}",
+       "{fs:vivir**ás**}"
+      ],
+      [
+       "él / ella / usted",
+       "{fs:hablar**á**}",
+       "{fs:comer**á**}",
+       "{fs:vivir**á**}"
+      ],
+      [
+       "nosotros",
+       "{fs:hablar**emos**}",
+       "{fs:comer**emos**}",
+       "{fs:vivir**emos**}"
+      ],
+      [
+       "vosotros",
+       "{fs:hablar**éis**}",
+       "{fs:comer**éis**}",
+       "{fs:vivir**éis**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{fs:hablar**án**}",
+       "{fs:comer**án**}",
+       "{fs:vivir**án**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular stems"
+   },
+   {
+    "table": {
+     "head": [
+      "Verb",
+      "Future",
+      "Verb",
+      "Future"
+     ],
+     "rows": [
+      [
+       "tener",
+       "{fs:tendré}",
+       "poder",
+       "{fs:podré}"
+      ],
+      [
+       "poner",
+       "{fs:pondré}",
+       "saber",
+       "{fs:sabré}"
+      ],
+      [
+       "salir",
+       "{fs:saldré}",
+       "haber",
+       "{fs:habré}"
+      ],
+      [
+       "venir",
+       "{fs:vendré}",
+       "querer",
+       "{fs:querré}"
+      ],
+      [
+       "decir",
+       "{fs:diré}",
+       "hacer",
+       "{fs:haré}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Future events and predictions: *El año que viene {fs:iremos} a Japón.*",
+     "Promises: *Te lo {fs:devolveré}.*",
+     "A guess about the present: *¿Qué hora es? {fs:Serán} las ocho.*",
+     "For plans, speakers often prefer *ir a* with the infinitive: *{ip:Voy} a estudiar.*"
+    ]
+   },
+   {
+    "h": "Where it cannot go"
+   },
+   "After *cuando* and similar words a future event takes the subjunctive: *Cuando {csp:llegues}, te {fs:llamaré}.* After *si* it takes the present: *Si {ip:llueve}, me {fs:quedaré} en casa.*"
+  ]
+ },
+ "futuro_compuesto": {
+  "title": "Futuro compuesto",
+  "style": "t-fa",
+  "summary": "What will already have happened, and guesses about the past.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *futuro simple* of *haber* and the participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{fa:habré habl**ado**}",
+       "{fa:habré com**ido**}"
+      ],
+      [
+       "tú",
+       "{fa:habrás habl**ado**}",
+       "{fa:habrás com**ido**}"
+      ],
+      [
+       "él / ella / usted",
+       "{fa:habrá habl**ado**}",
+       "{fa:habrá com**ido**}"
+      ],
+      [
+       "nosotros",
+       "{fa:habremos habl**ado**}",
+       "{fa:habremos com**ido**}"
+      ],
+      [
+       "vosotros",
+       "{fa:habréis habl**ado**}",
+       "{fa:habréis com**ido**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{fa:habrán habl**ado**}",
+       "{fa:habrán com**ido**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An action finished by a future moment: *Para las diez {fa:habré terminado}.*",
+     "A guess about the recent past: *No ha llegado: {fa:habrá perdido} el tren.*"
+    ]
+   }
+  ]
+ },
+ "condicional": {
+  "title": "Condicional",
+  "style": "mood-wavy",
+  "summary": "What would happen: politeness, advice, wishes and hypotheses.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "It presents an action as dependent on a condition or softens what is said. Modern Spanish grammar counts it as a tense of the indicative, but it behaves very much like its own mood.",
+   {
+    "table": {
+     "head": [
+      "Form",
+      "Example",
+      "Refers to"
+     ],
+     "rows": [
+      [
+       "Simple",
+       "{cop:hablaría}",
+       "Now, the future, the future seen from the past"
+      ],
+      [
+       "Compuesto",
+       "{cpa:habría hablado}",
+       "The past"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "In hypothetical sentences"
+   },
+   "The *si* clause takes the subjunctive, and the conditional goes in the result clause.",
+   {
+    "ul": [
+     "Possible now: *Si {csi:tuviera} tiempo, {cop:viajaría}.*",
+     "Impossible, in the past: *Si {cst:hubiera tenido} tiempo, {cpa:habría viajado}.*",
+     "Past condition, present result: *Si {cst:hubiera estudiado}, ahora {cop:sabría} la respuesta.*"
+    ]
+   }
+  ]
+ },
+ "condicional_simple": {
+  "title": "Condicional simple",
+  "style": "t-cop",
+  "summary": "Would do: polite requests, advice, wishes, hypotheses.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Add *-ía, -ías, -ía, -íamos, -íais, -ían* to the whole infinitive.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer",
+      "vivir"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{cop:hablar**ía**}",
+       "{cop:comer**ía**}",
+       "{cop:vivir**ía**}"
+      ],
+      [
+       "tú",
+       "{cop:hablar**ías**}",
+       "{cop:comer**ías**}",
+       "{cop:vivir**ías**}"
+      ],
+      [
+       "él / ella / usted",
+       "{cop:hablar**ía**}",
+       "{cop:comer**ía**}",
+       "{cop:vivir**ía**}"
+      ],
+      [
+       "nosotros",
+       "{cop:hablar**íamos**}",
+       "{cop:comer**íamos**}",
+       "{cop:vivir**íamos**}"
+      ],
+      [
+       "vosotros",
+       "{cop:hablar**íais**}",
+       "{cop:comer**íais**}",
+       "{cop:vivir**íais**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{cop:hablar**ían**}",
+       "{cop:comer**ían**}",
+       "{cop:vivir**ían**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular stems"
+   },
+   "They are the same as in the future: {cop:tendría}, {cop:pondría}, {cop:saldría}, {cop:vendría}, {cop:podría}, {cop:sabría}, {cop:habría}, {cop:querría}, {cop:diría}, {cop:haría}.",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Polite requests: *¿{cop:Podría} ayudarme?*",
+     "Advice: *{cop:Deberías} dormir más.*",
+     "Wishes: *Me {cop:gustaría} vivir junto al mar.*",
+     "The result of a hypothesis: *Si {csi:pudiera}, {cop:saldría} ahora.*",
+     "The future seen from the past. Unlike Italian, Spanish uses the simple form: *Dijo que {cop:vendría}.*",
+     "A guess about the past: *{cop:Serían} las ocho cuando {pr:llegó}.*"
+    ]
+   }
+  ]
+ },
+ "condicional_compuesto": {
+  "title": "Condicional compuesto",
+  "style": "t-cpa",
+  "summary": "Would have done.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *condicional simple* of *haber* and the participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer"
+     ],
+     "rows": [
+      [
+       "yo",
+       "{cpa:habría habl**ado**}",
+       "{cpa:habría com**ido**}"
+      ],
+      [
+       "tú",
+       "{cpa:habrías habl**ado**}",
+       "{cpa:habrías com**ido**}"
+      ],
+      [
+       "él / ella / usted",
+       "{cpa:habría habl**ado**}",
+       "{cpa:habría com**ido**}"
+      ],
+      [
+       "nosotros",
+       "{cpa:habríamos habl**ado**}",
+       "{cpa:habríamos com**ido**}"
+      ],
+      [
+       "vosotros",
+       "{cpa:habríais habl**ado**}",
+       "{cpa:habríais com**ido**}"
+      ],
+      [
+       "ellos / ustedes",
+       "{cpa:habrían habl**ado**}",
+       "{cpa:habrían com**ido**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "A result that did not happen: *Si {cst:hubiera estudiado}, {cpa:habría aprobado}.*",
+     "Unfulfilled intentions: *{cpa:Habría venido}, pero {im:estaba} enfermo.*",
+     "Regret: *{cpa:Habría preferido} quedarme en casa.*",
+     "A guess about an earlier past: *{cpa:Habrían salido} ya.*"
+    ]
+   },
+   "In the result clause, the *-ra* subjunctive is a common alternative: *Si lo {cst:hubiera sabido}, {cst:hubiera venido}.*"
+  ]
+ },
+ "imperativo": {
+  "title": "Imperativo",
+  "style": "t-imv",
+  "summary": "Commands, requests, advice and instructions, for every way of addressing someone.",
+  "body": [
+   {
+    "h": "Who you are speaking to"
+   },
+   {
+    "table": {
+     "head": [
+      "Form",
+      "Used for"
+     ],
+     "rows": [
+      [
+       "*tú*",
+       "One person you know well"
+      ],
+      [
+       "*vosotros*",
+       "Several people you know well, in Spain"
+      ],
+      [
+       "*usted*",
+       "One person, politely"
+      ],
+      [
+       "*ustedes*",
+       "Several people, politely; in Latin America it is the only plural"
+      ],
+      [
+       "*nosotros*",
+       "A suggestion including yourself: let's"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is formed"
+   },
+   "The *tú* form looks like the third person of the present. *Vosotros* replaces the final *-r* of the infinitive with *-d*. *Usted, ustedes* and *nosotros* come from the *subjuntivo presente*, so the vowels swap: *-ar* verbs take *-e*, the others *-a*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer",
+      "vivir"
+     ],
+     "rows": [
+      [
+       "tú",
+       "{imv:habl**a**}",
+       "{imv:com**e**}",
+       "{imv:viv**e**}"
+      ],
+      [
+       "usted",
+       "{imv:habl**e**}",
+       "{imv:com**a**}",
+       "{imv:viv**a**}"
+      ],
+      [
+       "nosotros",
+       "{imv:habl**emos**}",
+       "{imv:com**amos**}",
+       "{imv:viv**amos**}"
+      ],
+      [
+       "vosotros",
+       "{imv:habl**ad**}",
+       "{imv:com**ed**}",
+       "{imv:viv**id**}"
+      ],
+      [
+       "ustedes",
+       "{imv:habl**en**}",
+       "{imv:com**an**}",
+       "{imv:viv**an**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "tú",
+      "usted",
+      "vosotros",
+      "ustedes"
+     ],
+     "rows": [
+      [
+       "decir",
+       "{imv:di}",
+       "{imv:diga}",
+       "{imv:decid}",
+       "{imv:digan}"
+      ],
+      [
+       "hacer",
+       "{imv:haz}",
+       "{imv:haga}",
+       "{imv:haced}",
+       "{imv:hagan}"
+      ],
+      [
+       "ir",
+       "{imv:ve}",
+       "{imv:vaya}",
+       "{imv:id}",
+       "{imv:vayan}"
+      ],
+      [
+       "poner",
+       "{imv:pon}",
+       "{imv:ponga}",
+       "{imv:poned}",
+       "{imv:pongan}"
+      ],
+      [
+       "salir",
+       "{imv:sal}",
+       "{imv:salga}",
+       "{imv:salid}",
+       "{imv:salgan}"
+      ],
+      [
+       "ser",
+       "{imv:sé}",
+       "{imv:sea}",
+       "{imv:sed}",
+       "{imv:sean}"
+      ],
+      [
+       "tener",
+       "{imv:ten}",
+       "{imv:tenga}",
+       "{imv:tened}",
+       "{imv:tengan}"
+      ],
+      [
+       "venir",
+       "{imv:ven}",
+       "{imv:venga}",
+       "{imv:venid}",
+       "{imv:vengan}"
+      ],
+      [
+       "dar",
+       "{imv:da}",
+       "{imv:dé}",
+       "{imv:dad}",
+       "{imv:den}"
+      ],
+      [
+       "estar",
+       "{imv:está}",
+       "{imv:esté}",
+       "{imv:estad}",
+       "{imv:estén}"
+      ],
+      [
+       "pensar",
+       "{imv:piensa}",
+       "{imv:piense}",
+       "{imv:pensad}",
+       "{imv:piensen}"
+      ],
+      [
+       "dormir",
+       "{imv:duerme}",
+       "{imv:duerma}",
+       "{imv:dormid}",
+       "{imv:duerman}"
+      ]
+     ]
+    }
+   },
+   "*Ir* has an irregular *nosotros*: *{imv:¡Vamos!}* in the affirmative but *{imv:¡No vayamos!}* in the negative.",
+   {
+    "h": "The negative"
+   },
+   "Every negative command uses the *subjuntivo presente*, including *tú* and *vosotros*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "Affirmative",
+      "Negative"
+     ],
+     "rows": [
+      [
+       "tú",
+       "{imv:¡Habla!}",
+       "{imv:¡No hables!}"
+      ],
+      [
+       "usted",
+       "{imv:¡Hable!}",
+       "{imv:¡No hable!}"
+      ],
+      [
+       "nosotros",
+       "{imv:¡Hablemos!}",
+       "{imv:¡No hablemos!}"
+      ],
+      [
+       "vosotros",
+       "{imv:¡Hablad!}",
+       "{imv:¡No habléis!}"
+      ],
+      [
+       "ustedes",
+       "{imv:¡Hablen!}",
+       "{imv:¡No hablen!}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Reflexive verbs"
+   },
+   "In the affirmative the pronoun joins the end of the verb, often adding a written accent. In the negative it goes between *no* and the verb.",
+   {
+    "table": {
+     "head": [
+      "levantarse",
+      "Affirmative",
+      "Negative"
+     ],
+     "rows": [
+      [
+       "tú",
+       "{imv:¡Levánta**te**!}",
+       "{imv:¡No te levantes!}"
+      ],
+      [
+       "usted",
+       "{imv:¡Levánte**se**!}",
+       "{imv:¡No se levante!}"
+      ],
+      [
+       "nosotros",
+       "{imv:¡Levantémo**nos**!}",
+       "{imv:¡No nos levantemos!}"
+      ],
+      [
+       "vosotros",
+       "{imv:¡Levanta**os**!}",
+       "{imv:¡No os levantéis!}"
+      ],
+      [
+       "ustedes",
+       "{imv:¡Levánten**se**!}",
+       "{imv:¡No se levanten!}"
+      ]
+     ]
+    }
+   },
+   "Two forms lose a letter. *Nosotros* drops the *-s* before *nos*: *levantemos* becomes *levantémonos*. *Vosotros* drops the *-d* before *os*: *levantad* becomes *levantaos*. The one exception is *irse*: *{imv:¡Idos!}*",
+   {
+    "h": "Other pronouns"
+   },
+   "Object pronouns follow the same rule. With two pronouns, the indirect one comes first.",
+   {
+    "ul": [
+     "*{imv:¡Cómpralo!}* (tú), *{imv:¡Cómprelo!}* (usted), *{imv:¡No lo compres!}* (tú)",
+     "Two pronouns: *{imv:¡Dámelo!}*, *{imv:¡No me lo des!}*"
+    ]
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Commands: *{imv:Cierra} la puerta.*",
+     "Requests, softened with *por favor*: *{imv:Páseme} la sal, por favor.*",
+     "Advice: *{imv:Descansa} un poco.*",
+     "Invitations: *{imv:Venid} a cenar a casa.*",
+     "A question is often more polite: *¿{cop:Podrías} cerrar la puerta?*"
+    ]
+   }
+  ]
+ },
+ "subjuntivo": {
+  "title": "Subjuntivo",
+  "style": "mood-double",
+  "summary": "The mood of what is wished, doubted, felt or not yet real.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "The subjunctive presents something as subjective, unreal or not yet happened. It mostly appears in clauses introduced by *que* or after certain conjunctions.",
+   {
+    "h": "When it is needed"
+   },
+   {
+    "ul": [
+     "Wishes and requests: *Quiero que {csp:vengas}.*",
+     "Emotions: *Me alegra que {csp:estés} aquí.*",
+     "Doubt and denied opinions: *Dudo que {csp:sea} verdad. No creo que {csp:venga}.*",
+     "Impersonal expressions: *Es importante que {csp:lo sepan}.*",
+     "Future time after *cuando, en cuanto, hasta que, antes de que*: *Cuando {csp:llegues}, llámame.*",
+     "After *para que, aunque* (with an unknown fact), *sin que, a menos que, con tal de que*.",
+     "After *ojalá* and often *quizás, tal vez*: *Ojalá {csp:llueva}.*",
+     "Relative clauses about something unknown: *Busco a alguien que {csp:hable} ruso.*",
+     "Hypotheses with *si*: *Si {csi:pudiera}, {cop:iría}.*"
+    ]
+   },
+   "Positive opinions take the indicative: *Creo que {ip:es} verdad.*",
+   {
+    "h": "Which tense?"
+   },
+   {
+    "table": {
+     "head": [
+      "Main clause",
+      "Same time or later",
+      "Earlier"
+     ],
+     "rows": [
+      [
+       "Present: *Dudo que...*",
+       "{csp:salga}",
+       "{csa:haya salido}"
+      ],
+      [
+       "Past or conditional: *Dudaba que...*",
+       "{csi:saliera}",
+       "{cst:hubiera salido}"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "subjuntivo_presente": {
+  "title": "Subjuntivo presente",
+  "style": "t-csp",
+  "summary": "Wishes, doubts and things not yet real, about now or the future.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "*-ar* verbs take *-e*, the others take *-a*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer",
+      "vivir"
+     ],
+     "rows": [
+      [
+       "que yo",
+       "{csp:habl**e**}",
+       "{csp:com**a**}",
+       "{csp:viv**a**}"
+      ],
+      [
+       "que tú",
+       "{csp:habl**es**}",
+       "{csp:com**as**}",
+       "{csp:viv**as**}"
+      ],
+      [
+       "que él / usted",
+       "{csp:habl**e**}",
+       "{csp:com**a**}",
+       "{csp:viv**a**}"
+      ],
+      [
+       "que nosotros",
+       "{csp:habl**emos**}",
+       "{csp:com**amos**}",
+       "{csp:viv**amos**}"
+      ],
+      [
+       "que vosotros",
+       "{csp:habl**éis**}",
+       "{csp:com**áis**}",
+       "{csp:viv**áis**}"
+      ],
+      [
+       "que ellos / ustedes",
+       "{csp:habl**en**}",
+       "{csp:com**an**}",
+       "{csp:viv**an**}"
+      ]
+     ]
+    }
+   },
+   "Most irregular verbs start from the *yo* form of the present: *tengo: tenga; hago: haga; pongo: ponga; salgo: salga; vengo: venga; digo: diga; conozco: conozca.*",
+   "Spelling: *buscar: busque; llegar: llegue; empezar: empiece.* *-ir* stem-changing verbs also change in *nosotros* and *vosotros*: *pedir: pidamos; dormir: durmamos.*",
+   {
+    "h": "Fully irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "ser",
+      "ir",
+      "estar",
+      "saber"
+     ],
+     "rows": [
+      [
+       "que yo",
+       "{csp:sea}",
+       "{csp:vaya}",
+       "{csp:esté}",
+       "{csp:sepa}"
+      ],
+      [
+       "que tú",
+       "{csp:seas}",
+       "{csp:vayas}",
+       "{csp:estés}",
+       "{csp:sepas}"
+      ],
+      [
+       "que él / usted",
+       "{csp:sea}",
+       "{csp:vaya}",
+       "{csp:esté}",
+       "{csp:sepa}"
+      ],
+      [
+       "que nosotros",
+       "{csp:seamos}",
+       "{csp:vayamos}",
+       "{csp:estemos}",
+       "{csp:sepamos}"
+      ],
+      [
+       "que vosotros",
+       "{csp:seáis}",
+       "{csp:vayáis}",
+       "{csp:estéis}",
+       "{csp:sepáis}"
+      ],
+      [
+       "que ellos / ustedes",
+       "{csp:sean}",
+       "{csp:vayan}",
+       "{csp:estén}",
+       "{csp:sepan}"
+      ]
+     ]
+    }
+   },
+   "Also: *haber: haya; dar: dé.*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "*Espero que {csp:estés} bien.*",
+     "*Cuando {csp:termine}, te llamo.*",
+     "*Te lo explico para que lo {csp:entiendas}.*",
+     "*Ojalá {csp:haga} sol mañana.*"
+    ]
+   }
+  ]
+ },
+ "subjuntivo_perfecto": {
+  "title": "Pretérito perfecto de subjuntivo",
+  "style": "t-csa",
+  "summary": "Thoughts and feelings now about something that has already happened.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *subjuntivo presente* of *haber* and the participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar",
+      "comer"
+     ],
+     "rows": [
+      [
+       "que yo",
+       "{csa:haya habl**ado**}",
+       "{csa:haya com**ido**}"
+      ],
+      [
+       "que tú",
+       "{csa:hayas habl**ado**}",
+       "{csa:hayas com**ido**}"
+      ],
+      [
+       "que él / usted",
+       "{csa:haya habl**ado**}",
+       "{csa:haya com**ido**}"
+      ],
+      [
+       "que nosotros",
+       "{csa:hayamos habl**ado**}",
+       "{csa:hayamos com**ido**}"
+      ],
+      [
+       "que vosotros",
+       "{csa:hayáis habl**ado**}",
+       "{csa:hayáis com**ido**}"
+      ],
+      [
+       "que ellos / ustedes",
+       "{csa:hayan habl**ado**}",
+       "{csa:hayan com**ido**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An earlier action seen from now: *No creo que {csa:haya llegado}.*",
+     "Feelings about what has happened: *Me alegra que {csa:hayas venido}.*",
+     "An action finished by a future moment: *Cuando {csa:hayas terminado}, avísame.*"
+    ]
+   }
+  ]
+ },
+ "subjuntivo_imperfecto": {
+  "title": "Imperfecto de subjuntivo",
+  "style": "t-csi",
+  "summary": "The subjunctive after a past verb, in hypotheses and polite requests.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Take the third person plural of the *indefinido*, remove *-ron* and add one of two sets of endings. The two are interchangeable in most contexts, and the *-ra* set is more common.",
+   {
+    "table": {
+     "head": [
+      "",
+      "hablar, -ra",
+      "hablar, -se",
+      "comer"
+     ],
+     "rows": [
+      [
+       "que yo",
+       "{csi:habla**ra**}",
+       "{csi:habla**se**}",
+       "{csi:comie**ra**}"
+      ],
+      [
+       "que tú",
+       "{csi:habla**ras**}",
+       "{csi:habla**ses**}",
+       "{csi:comie**ras**}"
+      ],
+      [
+       "que él / usted",
+       "{csi:habla**ra**}",
+       "{csi:habla**se**}",
+       "{csi:comie**ra**}"
+      ],
+      [
+       "que nosotros",
+       "{csi:hablá**ramos**}",
+       "{csi:hablá**semos**}",
+       "{csi:comié**ramos**}"
+      ],
+      [
+       "que vosotros",
+       "{csi:habla**rais**}",
+       "{csi:habla**seis**}",
+       "{csi:comie**rais**}"
+      ],
+      [
+       "que ellos / ustedes",
+       "{csi:habla**ran**}",
+       "{csi:habla**sen**}",
+       "{csi:comie**ran**}"
+      ]
+     ]
+    }
+   },
+   "Every irregularity comes from the *indefinido*: *tuvieron: tuviera; fueron: fuera; hicieron: hiciera; dijeron: dijera; pidieron: pidiera.*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "After a main verb in the past: *Quería que {csi:vinieras}.*",
+     "After a conditional: *Me gustaría que {csi:fuera} verdad.*",
+     "Unlikely or unreal hypotheses: *Si {csi:tuviera} dinero, {cop:viajaría}.*",
+     "After *como si*: *Habla como si lo {csi:supiera} todo.*",
+     "Polite forms of *querer*: *{csi:Quisiera} un café.*"
+    ]
+   }
+  ]
+ },
+ "subjuntivo_pluscuamperfecto": {
+  "title": "Pluscuamperfecto de subjuntivo",
+  "style": "t-cst",
+  "summary": "The earlier past in the subjunctive, and hypotheses that can no longer come true.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *imperfecto de subjuntivo* of *haber* and the participle. Both sets of endings are possible.",
+   {
+    "table": {
+     "head": [
+      "",
+      "-ra",
+      "-se"
+     ],
+     "rows": [
+      [
+       "que yo",
+       "{cst:hubiera habl**ado**}",
+       "{cst:hubiese habl**ado**}"
+      ],
+      [
+       "que tú",
+       "{cst:hubieras habl**ado**}",
+       "{cst:hubieses habl**ado**}"
+      ],
+      [
+       "que él / usted",
+       "{cst:hubiera habl**ado**}",
+       "{cst:hubiese habl**ado**}"
+      ],
+      [
+       "que nosotros",
+       "{cst:hubiéramos habl**ado**}",
+       "{cst:hubiésemos habl**ado**}"
+      ],
+      [
+       "que vosotros",
+       "{cst:hubierais habl**ado**}",
+       "{cst:hubieseis habl**ado**}"
+      ],
+      [
+       "que ellos / ustedes",
+       "{cst:hubieran habl**ado**}",
+       "{cst:hubiesen habl**ado**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An action before a past main verb: *No creía que {cst:hubiera salido}.*",
+     "Past hypotheses that did not come true: *Si {cst:hubiera sabido}, {cpa:habría venido}.*",
+     "Regrets: *¡Ojalá te {cst:hubiera escuchado}!*",
+     "After *como si*: *Me mira como si no me {cst:hubiera visto} nunca.*"
+    ]
+   }
+  ]
+ }
+}

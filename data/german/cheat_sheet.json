@@ -3,30 +3,30 @@
   "intro": "All moods and tenses at a glance. The examples use machen.",
   "moods": [
     {
-      "name": "Indikativ", "color": "grey",
+      "article": "indikativ", "name": "Indikativ", "color": "grey",
       "children": [
         {
           "name": "Vergangenheit", "color": "grey",
           "children": [
             {"stack": [
-              {"name": "Perfekt", "example": "ich habe gemacht", "color": "red", "style": "t-pp"},
-              {"name": "Plusquamperfekt", "example": "ich hatte gemacht", "color": "red", "style": "t-tp"}
+              {"article": "perfekt", "name": "Perfekt", "example": "ich habe gemacht", "color": "red", "style": "t-pp"},
+              {"article": "plusquamperfekt", "name": "Plusquamperfekt", "example": "ich hatte gemacht", "color": "red", "style": "t-tp"}
             ]},
-            {"name": "Präteritum", "example": "ich machte", "color": "blue", "style": "t-pr"}
+            {"article": "praeteritum", "name": "Präteritum", "example": "ich machte", "color": "blue", "style": "t-pr"}
           ]
         },
         {
           "name": "Gegenwart", "color": "grey",
           "children": [
-            {"name": "Präsens", "example": "ich mache", "color": "orange", "style": "t-ip"}
+            {"article": "praesens", "name": "Präsens", "example": "ich mache", "color": "orange", "style": "t-ip"}
           ]
         },
         {
           "name": "Zukunft", "color": "grey",
           "children": [
             {"stack": [
-              {"name": "Futur I", "example": "ich werde machen", "color": "pink", "style": "t-fs"},
-              {"name": "Futur II", "example": "ich werde gemacht haben", "color": "pink", "style": "t-fa"}
+              {"article": "futur_1", "name": "Futur I", "example": "ich werde machen", "color": "pink", "style": "t-fs"},
+              {"article": "futur_2", "name": "Futur II", "example": "ich werde gemacht haben", "color": "pink", "style": "t-fa"}
             ]}
           ]
         }
@@ -34,21 +34,21 @@
     },
     {"row": [
       {
-        "name": "Konjunktiv II", "color": "grey", "style": "mood-wavy",
+        "article": "konjunktiv_2", "name": "Konjunktiv II", "color": "grey", "style": "mood-wavy",
         "children": [
-          {"name": "Vergangenheit", "example": "ich hätte gemacht", "color": "red", "style": "t-cpa"},
-          {"name": "Gegenwart", "example": "ich würde machen", "color": "orange", "style": "t-cop"}
+          {"article": "konjunktiv_2_vergangenheit", "name": "Vergangenheit", "example": "ich hätte gemacht", "color": "red", "style": "t-cpa"},
+          {"article": "konjunktiv_2_gegenwart", "name": "Gegenwart", "example": "ich würde machen", "color": "orange", "style": "t-cop"}
         ]
       },
       {
-        "name": "Konjunktiv I", "color": "grey", "style": "mood-double",
+        "article": "konjunktiv_1", "name": "Konjunktiv I", "color": "grey", "style": "mood-double",
         "children": [
-          {"name": "Vergangenheit", "example": "er habe gemacht", "color": "red", "style": "t-csa"},
-          {"name": "Gegenwart", "example": "er mache", "color": "orange", "style": "t-csp"},
-          {"name": "Zukunft", "example": "er werde machen", "color": "pink", "style": "mood-double"}
+          {"article": "konjunktiv_1_vergangenheit", "name": "Vergangenheit", "example": "er habe gemacht", "color": "red", "style": "t-csa"},
+          {"article": "konjunktiv_1_gegenwart", "name": "Gegenwart", "example": "er mache", "color": "orange", "style": "t-csp"},
+          {"article": "konjunktiv_1_zukunft", "name": "Zukunft", "example": "er werde machen", "color": "pink", "style": "mood-double"}
         ]
       }
     ]},
-    {"name": "Imperativ", "example": "mach!", "color": "purple", "style": "t-imv", "narrow": true}
+    {"article": "imperativ", "name": "Imperativ", "example": "mach!", "color": "purple", "style": "t-imv", "narrow": true}
   ]
 }

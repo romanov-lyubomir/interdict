@@ -3,29 +3,29 @@
   "intro": "All moods and tenses at a glance. The examples use hablar.",
   "moods": [
     {
-      "name": "Indicativo", "color": "grey",
+      "article": "indicativo", "name": "Indicativo", "color": "grey",
       "children": [
         {
           "name": "Pasado", "color": "grey",
           "children": [
-            {"name": "Imperfecto", "example": "hablaba", "color": "green", "style": "t-im"},
+            {"article": "imperfecto", "name": "Imperfecto", "example": "hablaba", "color": "green", "style": "t-im"},
             {"stack": [
-              {"name": "Pretérito perfecto", "example": "he hablado", "color": "red", "style": "t-pp"},
-              {"name": "Pluscuamperfecto", "example": "había hablado", "color": "red", "style": "t-tp"}
+              {"article": "preterito_perfecto", "name": "Pretérito perfecto", "example": "he hablado", "color": "red", "style": "t-pp"},
+              {"article": "pluscuamperfecto", "name": "Pluscuamperfecto", "example": "había hablado", "color": "red", "style": "t-tp"}
             ]},
             {"stack": [
-              {"name": "Indefinido", "example": "hablé", "color": "blue", "style": "t-pr"},
-              {"name": "Pretérito anterior", "example": "hube hablado", "color": "blue", "style": "t-tr"}
+              {"article": "indefinido", "name": "Indefinido", "example": "hablé", "color": "blue", "style": "t-pr"},
+              {"article": "preterito_anterior", "name": "Pretérito anterior", "example": "hube hablado", "color": "blue", "style": "t-tr"}
             ]}
           ]
         },
-        {"name": "Presente", "example": "hablo", "color": "orange", "style": "t-ip"},
+        {"article": "presente", "name": "Presente", "example": "hablo", "color": "orange", "style": "t-ip"},
         {
           "name": "Futuro", "color": "grey",
           "children": [
             {"stack": [
-              {"name": "Futuro simple", "example": "hablaré", "color": "pink", "style": "t-fs"},
-              {"name": "Futuro compuesto", "example": "habré hablado", "color": "pink", "style": "t-fa"}
+              {"article": "futuro_simple", "name": "Futuro simple", "example": "hablaré", "color": "pink", "style": "t-fs"},
+              {"article": "futuro_compuesto", "name": "Futuro compuesto", "example": "habré hablado", "color": "pink", "style": "t-fa"}
             ]}
           ]
         }
@@ -33,21 +33,21 @@
     },
     {"row": [
       {
-        "name": "Condicional", "color": "grey", "style": "mood-wavy",
+        "article": "condicional", "name": "Condicional", "color": "grey", "style": "mood-wavy",
         "children": [
-          {"name": "Compuesto", "example": "habría hablado", "color": "red", "style": "t-cpa"},
-          {"name": "Simple", "example": "hablaría", "color": "orange", "style": "t-cop"}
+          {"article": "condicional_compuesto", "name": "Compuesto", "example": "habría hablado", "color": "red", "style": "t-cpa"},
+          {"article": "condicional_simple", "name": "Simple", "example": "hablaría", "color": "orange", "style": "t-cop"}
         ]
       },
-      {"name": "Imperativo", "example": "¡habla!", "color": "purple", "style": "t-imv"}
+      {"article": "imperativo", "name": "Imperativo", "example": "¡habla!", "color": "purple", "style": "t-imv"}
     ]},
     {
-      "name": "Subjuntivo", "color": "grey", "style": "mood-double",
+      "article": "subjuntivo", "name": "Subjuntivo", "color": "grey", "style": "mood-double",
       "children": [
-        {"name": "Pluscuamperfecto", "example": "que hubiera hablado", "color": "red", "style": "t-cst"},
-        {"name": "Imperfecto", "example": "que hablara", "color": "green", "style": "t-csi"},
-        {"name": "Pretérito perfecto", "example": "que haya hablado", "color": "red", "style": "t-csa"},
-        {"name": "Presente", "example": "que hable", "color": "orange", "style": "t-csp"}
+        {"article": "subjuntivo_pluscuamperfecto", "name": "Pluscuamperfecto", "example": "que hubiera hablado", "color": "red", "style": "t-cst"},
+        {"article": "subjuntivo_imperfecto", "name": "Imperfecto", "example": "que hablara", "color": "green", "style": "t-csi"},
+        {"article": "subjuntivo_perfecto", "name": "Pretérito perfecto", "example": "que haya hablado", "color": "red", "style": "t-csa"},
+        {"article": "subjuntivo_presente", "name": "Presente", "example": "que hable", "color": "orange", "style": "t-csp"}
       ]
     }
   ]

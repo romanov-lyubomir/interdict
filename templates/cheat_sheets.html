@@ -82,6 +82,15 @@
         text-align: center;
     }
 
+    a.node {
+        transition: background-color .15s;
+    }
+
+    a.node:hover {
+        background-color: var(--surface-3);
+        text-decoration: none;
+    }
+
     .node .name {
         font-size: 13px;
         font-weight: 700;
@@ -329,10 +338,12 @@
 
 {% block body %}
 {% macro node(item, root) %}
-<div class="node {{ item.color }}{% if root %} root{% endif %}">
+{% set tag = "a" if item.article else "div" %}
+<{{ tag }} class="node {{ item.color }}{% if root %} root{% endif %}"
+    {% if item.article %}href="{{ url_for('tense_article', slug=item.article) }}"{% endif %}>
     <span class="name {{ item.style }}">{{ item.name }}</span>
     {% if item.example %}<small>{{ item.example }}</small>{% endif %}
-</div>
+</{{ tag }}>
 {% endmacro %}
 
 {% macro branch(item, root) %}

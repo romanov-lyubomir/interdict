@@ -1,0 +1,104 @@
+{# The explanation blocks shared by lessons and tense articles. #}
+
+{% macro style() %}
+<style>
+    .lesson-section p {
+        margin-bottom: 10px;
+    }
+
+    .lesson-section table {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    .lesson-section ul {
+        margin: 0 0 12px 20px;
+        list-style: disc;
+    }
+
+    .lesson-section li {
+        margin-bottom: 6px;
+    }
+
+    .grammar-heading {
+        margin: 18px 0 8px;
+        font-size: 17px;
+    }
+
+    .brace-row th {
+        padding: 10px 12px 0;
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .brace-row svg {
+        display: block;
+        width: 100%;
+        height: 12px;
+        margin-top: 4px;
+    }
+
+    .brace-row path {
+        fill: none;
+        stroke: var(--accent);
+        stroke-width: 2px;
+        vector-effect: non-scaling-stroke;
+    }
+
+    /* Wide tables scroll on their own instead of widening the page */
+    .table-scroll {
+        overflow-x: auto;
+    }
+
+    @media screen and (max-width: 560px) {
+        .lesson-section {
+            padding: 16px;
+        }
+
+        .lesson-section th,
+        .lesson-section td {
+            padding: 6px 8px;
+            font-size: 14px;
+        }
+    }
+</style>
+{% endmacro %}
+
+{% macro blocks(items) %}
+{% for block in items %}
+{% if block is string %}
+<p>{{ block | rich }}</p>
+{% elif block.h %}
+<h3 class="grammar-heading">{{ block.h }}</h3>
+{% elif block.ul %}
+<ul>
+    {% for entry in block.ul %}<li>{{ entry | rich }}</li>{% endfor %}
+</ul>
+{% else %}
+<div class="table-scroll">
+    <table>
+        {% if block.table.groups %}
+        <tr class="brace-row">
+            {% for label, span in block.table.groups %}
+            <th colspan="{{ span }}">
+                {% if label %}
+                {{ label }}
+                <svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true">
+                    <path d="M0 12 C0 6 2 6 4 6 L46 6 C48 6 50 6 50 0 C50 6 52 6 54 6 L96 6 C98 6 100 6 100 12"></path>
+                </svg>
+                {% endif %}
+            </th>
+            {% endfor %}
+        </tr>
+        {% endif %}
+        <tr>{% for cell in block.table.head %}<th>{{ cell | rich }}</th>{% endfor %}</tr>
+        {% for row in block.table.rows %}
+        <tr>{% for cell in row %}<td>{{ cell | rich }}</td>{% endfor %}</tr>
+        {% endfor %}
+    </table>
+</div>
+{% endif %}
+{% endfor %}
+{% endmacro %}

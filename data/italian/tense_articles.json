@@ -1,0 +1,1859 @@
+{
+ "indicativo": {
+  "title": "Indicativo",
+  "style": "",
+  "summary": "The mood of facts: what happens, happened or will happen.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "The indicative presents something as real or certain. It is the default mood of Italian: unless something calls for another mood, the verb is in the indicative.",
+   {
+    "h": "Its tenses"
+   },
+   {
+    "table": {
+     "head": [
+      "Tense",
+      "Example",
+      "Expresses"
+     ],
+     "rows": [
+      [
+       "Presente",
+       "{ip:parlo}",
+       "Now, habits, general truths, the near future"
+      ],
+      [
+       "Imperfetto",
+       "{im:parlavo}",
+       "Past habits, descriptions, actions in progress"
+      ],
+      [
+       "Passato prossimo",
+       "{pp:ho parlato}",
+       "Completed actions, the everyday past"
+      ],
+      [
+       "Trapassato prossimo",
+       "{tp:avevo parlato}",
+       "Before another past moment"
+      ],
+      [
+       "Passato remoto",
+       "{pr:parlai}",
+       "Completed actions cut off from the present, narrative"
+      ],
+      [
+       "Trapassato remoto",
+       "{tr:ebbi parlato}",
+       "Just before a passato remoto, literary"
+      ],
+      [
+       "Futuro semplice",
+       "{fs:parlerò}",
+       "The future, guesses about the present"
+      ],
+      [
+       "Futuro anteriore",
+       "{fa:avrò parlato}",
+       "Before another future moment, guesses about the past"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Simple and compound tenses"
+   },
+   "Each compound tense is the auxiliary *avere* or *essere* in the matching simple tense, plus the past participle.",
+   {
+    "table": {
+     "head": [
+      "Tense of the auxiliary",
+      "Compound tense"
+     ],
+     "rows": [
+      [
+       "Presente: {ip:ho}",
+       "Passato prossimo: {pp:ho parlato}"
+      ],
+      [
+       "Imperfetto: {im:avevo}",
+       "Trapassato prossimo: {tp:avevo parlato}"
+      ],
+      [
+       "Passato remoto: {pr:ebbi}",
+       "Trapassato remoto: {tr:ebbi parlato}"
+      ],
+      [
+       "Futuro semplice: {fs:avrò}",
+       "Futuro anteriore: {fa:avrò parlato}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Indicative or subjunctive?"
+   },
+   "Verbs of knowing and stating take the indicative: *So che {ip:parla} bene.* Opinions, wishes and doubts take the subjunctive: *Penso che {csp:parli} bene.*"
+  ]
+ },
+ "presente": {
+  "title": "Presente",
+  "style": "t-ip",
+  "summary": "What is happening now, what usually happens, and often the near future.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Remove *-are*, *-ere* or *-ire* and add the endings. Many *-ire* verbs insert *-isc-* everywhere except in *noi* and *voi*: *capire, finire, preferire, pulire, spedire*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare",
+      "vendere",
+      "dormire",
+      "finire"
+     ],
+     "rows": [
+      [
+       "io",
+       "{ip:parl**o**}",
+       "{ip:vend**o**}",
+       "{ip:dorm**o**}",
+       "{ip:fin**isco**}"
+      ],
+      [
+       "tu",
+       "{ip:parl**i**}",
+       "{ip:vend**i**}",
+       "{ip:dorm**i**}",
+       "{ip:fin**isci**}"
+      ],
+      [
+       "lui / lei",
+       "{ip:parl**a**}",
+       "{ip:vend**e**}",
+       "{ip:dorm**e**}",
+       "{ip:fin**isce**}"
+      ],
+      [
+       "noi",
+       "{ip:parl**iamo**}",
+       "{ip:vend**iamo**}",
+       "{ip:dorm**iamo**}",
+       "{ip:fin**iamo**}"
+      ],
+      [
+       "voi",
+       "{ip:parl**ate**}",
+       "{ip:vend**ete**}",
+       "{ip:dorm**ite**}",
+       "{ip:fin**ite**}"
+      ],
+      [
+       "loro",
+       "{ip:parl**ano**}",
+       "{ip:vend**ono**}",
+       "{ip:dorm**ono**}",
+       "{ip:fin**iscono**}"
+      ]
+     ]
+    }
+   },
+   "Verbs in *-care* and *-gare* add an *h* to keep the hard sound: *cerchi, paghiamo*. Verbs in *-ciare* and *-giare* keep a single *i*: *cominci, mangiamo*.",
+   {
+    "h": "Common irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "essere",
+      "avere",
+      "andare",
+      "fare"
+     ],
+     "rows": [
+      [
+       "io",
+       "{ip:sono}",
+       "{ip:ho}",
+       "{ip:vado}",
+       "{ip:faccio}"
+      ],
+      [
+       "tu",
+       "{ip:sei}",
+       "{ip:hai}",
+       "{ip:vai}",
+       "{ip:fai}"
+      ],
+      [
+       "lui / lei",
+       "{ip:è}",
+       "{ip:ha}",
+       "{ip:va}",
+       "{ip:fa}"
+      ],
+      [
+       "noi",
+       "{ip:siamo}",
+       "{ip:abbiamo}",
+       "{ip:andiamo}",
+       "{ip:facciamo}"
+      ],
+      [
+       "voi",
+       "{ip:siete}",
+       "{ip:avete}",
+       "{ip:andate}",
+       "{ip:fate}"
+      ],
+      [
+       "loro",
+       "{ip:sono}",
+       "{ip:hanno}",
+       "{ip:vanno}",
+       "{ip:fanno}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Something happening now: *Adesso {ip:leggo} il giornale.*",
+     "Habits: *Il lunedì {ip:vado} in palestra.*",
+     "General truths: *L'acqua {ip:bolle} a cento gradi.*",
+     "The near future, usually with a time word: *Domani {ip:parto} per Roma.*",
+     "An action that began in the past and still continues, with *da*: *{ip:Studio} italiano da due anni.*"
+    ]
+   }
+  ]
+ },
+ "imperfetto": {
+  "title": "Imperfetto",
+  "style": "t-im",
+  "summary": "The past seen from the inside: habits, descriptions and actions in progress.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Remove *-re* from the infinitive and add *-vo, -vi, -va, -vamo, -vate, -vano*. It is the most regular tense in Italian.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare",
+      "vendere",
+      "dormire"
+     ],
+     "rows": [
+      [
+       "io",
+       "{im:parla**vo**}",
+       "{im:vende**vo**}",
+       "{im:dormi**vo**}"
+      ],
+      [
+       "tu",
+       "{im:parla**vi**}",
+       "{im:vende**vi**}",
+       "{im:dormi**vi**}"
+      ],
+      [
+       "lui / lei",
+       "{im:parla**va**}",
+       "{im:vende**va**}",
+       "{im:dormi**va**}"
+      ],
+      [
+       "noi",
+       "{im:parla**vamo**}",
+       "{im:vende**vamo**}",
+       "{im:dormi**vamo**}"
+      ],
+      [
+       "voi",
+       "{im:parla**vate**}",
+       "{im:vende**vate**}",
+       "{im:dormi**vate**}"
+      ],
+      [
+       "loro",
+       "{im:parla**vano**}",
+       "{im:vende**vano**}",
+       "{im:dormi**vano**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular verbs"
+   },
+   "Only *essere* is truly irregular. *Fare, dire, bere* and verbs in *-urre* use their longer Latin stem.",
+   {
+    "table": {
+     "head": [
+      "",
+      "essere",
+      "fare",
+      "dire",
+      "bere"
+     ],
+     "rows": [
+      [
+       "io",
+       "{im:ero}",
+       "{im:facevo}",
+       "{im:dicevo}",
+       "{im:bevevo}"
+      ],
+      [
+       "tu",
+       "{im:eri}",
+       "{im:facevi}",
+       "{im:dicevi}",
+       "{im:bevevi}"
+      ],
+      [
+       "lui / lei",
+       "{im:era}",
+       "{im:faceva}",
+       "{im:diceva}",
+       "{im:beveva}"
+      ],
+      [
+       "noi",
+       "{im:eravamo}",
+       "{im:facevamo}",
+       "{im:dicevamo}",
+       "{im:bevevamo}"
+      ],
+      [
+       "voi",
+       "{im:eravate}",
+       "{im:facevate}",
+       "{im:dicevate}",
+       "{im:bevevate}"
+      ],
+      [
+       "loro",
+       "{im:erano}",
+       "{im:facevano}",
+       "{im:dicevano}",
+       "{im:bevevano}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Past habits: *Da bambino {im:andavo} al mare ogni estate.*",
+     "Descriptions of people, places, weather and states: *{im:Era} tardi e {im:pioveva}.*",
+     "An action in progress when something else happened: *{im:Dormivo} quando {pp:è arrivato} Marco.*",
+     "Two actions going on at the same time: *Mentre {im:cucinavo}, lui {im:apparecchiava}.*",
+     "Polite requests: *{im:Volevo} un caffè, per favore.*"
+    ]
+   },
+   {
+    "h": "Imperfetto or passato prossimo?"
+   },
+   "The *imperfetto* shows the background or a state with no clear end. The *passato prossimo* shows a completed event: *{im:Faceva} freddo, così {pp:ho chiuso} la finestra.*"
+  ]
+ },
+ "passato_prossimo": {
+  "title": "Passato prossimo",
+  "style": "t-pp",
+  "summary": "The everyday past: completed actions.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the present of *avere* or *essere* and the past participle: *-are* becomes *-ato*, *-ere* becomes *-uto*, *-ire* becomes *-ito*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare (avere)",
+      "andare (essere)"
+     ],
+     "rows": [
+      [
+       "io",
+       "{pp:ho parl**ato**}",
+       "{pp:sono andat**o/a**}"
+      ],
+      [
+       "tu",
+       "{pp:hai parl**ato**}",
+       "{pp:sei andat**o/a**}"
+      ],
+      [
+       "lui / lei",
+       "{pp:ha parl**ato**}",
+       "{pp:è andat**o/a**}"
+      ],
+      [
+       "noi",
+       "{pp:abbiamo parl**ato**}",
+       "{pp:siamo andat**i/e**}"
+      ],
+      [
+       "voi",
+       "{pp:avete parl**ato**}",
+       "{pp:siete andat**i/e**}"
+      ],
+      [
+       "loro",
+       "{pp:hanno parl**ato**}",
+       "{pp:sono andat**i/e**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Avere or essere?"
+   },
+   {
+    "ul": [
+     "Most verbs take *avere*, including every verb with a direct object.",
+     "*Essere* goes with verbs of movement or change of state and no object: *andare, venire, partire, arrivare, uscire, entrare, nascere, morire, diventare*.",
+     "*Essere* also goes with *essere, stare, restare, rimanere, piacere* and all reflexive verbs: *mi {pp:sono alzato}*."
+    ]
+   },
+   "With *essere* the participle agrees with the subject: *Lei {pp:è andat**a**}.* With *avere* it stays in *-o*, unless the object is *lo, la, li, le*: *L'{pp:ho vist**a**}.*",
+   {
+    "h": "Common irregular participles"
+   },
+   {
+    "table": {
+     "head": [
+      "Verb",
+      "Participle",
+      "Verb",
+      "Participle"
+     ],
+     "rows": [
+      [
+       "fare",
+       "fatto",
+       "prendere",
+       "preso"
+      ],
+      [
+       "dire",
+       "detto",
+       "mettere",
+       "messo"
+      ],
+      [
+       "scrivere",
+       "scritto",
+       "aprire",
+       "aperto"
+      ],
+      [
+       "leggere",
+       "letto",
+       "chiudere",
+       "chiuso"
+      ],
+      [
+       "vedere",
+       "visto",
+       "rimanere",
+       "rimasto"
+      ],
+      [
+       "bere",
+       "bevuto",
+       "nascere",
+       "nato"
+      ],
+      [
+       "venire",
+       "venuto",
+       "morire",
+       "morto"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Completed actions, with words like *ieri* or *la settimana scorsa*: *Ieri {pp:ho visto} un film.*",
+     "A sequence of events: *{pp:Mi sono alzato}, {pp:ho fatto} colazione e {pp:sono uscito}.*",
+     "Past events that still matter now: *{pp:Ho perso} le chiavi.*",
+     "An event that interrupts an action in progress: *{im:Dormivo} quando {pp:ha suonato} il telefono.*"
+    ]
+   }
+  ]
+ },
+ "trapassato_prossimo": {
+  "title": "Trapassato prossimo",
+  "style": "t-tp",
+  "summary": "The past before the past.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *imperfetto* of *avere* or *essere* and the past participle. The same rules for the auxiliary and agreement apply as in the *passato prossimo*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare (avere)",
+      "andare (essere)"
+     ],
+     "rows": [
+      [
+       "io",
+       "{tp:avevo parl**ato**}",
+       "{tp:ero andat**o/a**}"
+      ],
+      [
+       "tu",
+       "{tp:avevi parl**ato**}",
+       "{tp:eri andat**o/a**}"
+      ],
+      [
+       "lui / lei",
+       "{tp:aveva parl**ato**}",
+       "{tp:era andat**o/a**}"
+      ],
+      [
+       "noi",
+       "{tp:avevamo parl**ato**}",
+       "{tp:eravamo andat**i/e**}"
+      ],
+      [
+       "voi",
+       "{tp:avevate parl**ato**}",
+       "{tp:eravate andat**i/e**}"
+      ],
+      [
+       "loro",
+       "{tp:avevano parl**ato**}",
+       "{tp:erano andat**i/e**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An action completed before another past event: *Quando {pp:sono arrivato}, il treno {tp:era già partito}.*",
+     "The cause of a past situation: *{im:Ero} stanco perché {tp:avevo lavorato} tutto il giorno.*",
+     "Reported speech about something earlier: *Ha detto che {tp:aveva finito}.*",
+     "First-time experiences: *Non {tp:avevo mai visto} una cosa simile.*"
+    ]
+   }
+  ]
+ },
+ "passato_remoto": {
+  "title": "Passato remoto",
+  "style": "t-pr",
+  "summary": "Completed actions cut off from the present, above all in books and history.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Remove *-are*, *-ere* or *-ire* and add the endings. Regular *-ere* verbs also have a longer alternative in *-etti, -ette, -ettero*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare",
+      "vendere",
+      "dormire"
+     ],
+     "rows": [
+      [
+       "io",
+       "{pr:parl**ai**}",
+       "{pr:vend**ei**}",
+       "{pr:dorm**ii**}"
+      ],
+      [
+       "tu",
+       "{pr:parl**asti**}",
+       "{pr:vend**esti**}",
+       "{pr:dorm**isti**}"
+      ],
+      [
+       "lui / lei",
+       "{pr:parl**ò**}",
+       "{pr:vend**é**}",
+       "{pr:dorm**ì**}"
+      ],
+      [
+       "noi",
+       "{pr:parl**ammo**}",
+       "{pr:vend**emmo**}",
+       "{pr:dorm**immo**}"
+      ],
+      [
+       "voi",
+       "{pr:parl**aste**}",
+       "{pr:vend**este**}",
+       "{pr:dorm**iste**}"
+      ],
+      [
+       "loro",
+       "{pr:parl**arono**}",
+       "{pr:vend**erono**}",
+       "{pr:dorm**irono**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular verbs: the 1-3-3 pattern"
+   },
+   "Many verbs are irregular only in *io*, *lui / lei* and *loro*. The other three persons are regular. *Essere* is irregular throughout.",
+   {
+    "table": {
+     "head": [
+      "",
+      "scrivere",
+      "avere",
+      "fare",
+      "essere"
+     ],
+     "rows": [
+      [
+       "io",
+       "{pr:scrissi}",
+       "{pr:ebbi}",
+       "{pr:feci}",
+       "{pr:fui}"
+      ],
+      [
+       "tu",
+       "{pr:scrivesti}",
+       "{pr:avesti}",
+       "{pr:facesti}",
+       "{pr:fosti}"
+      ],
+      [
+       "lui / lei",
+       "{pr:scrisse}",
+       "{pr:ebbe}",
+       "{pr:fece}",
+       "{pr:fu}"
+      ],
+      [
+       "noi",
+       "{pr:scrivemmo}",
+       "{pr:avemmo}",
+       "{pr:facemmo}",
+       "{pr:fummo}"
+      ],
+      [
+       "voi",
+       "{pr:scriveste}",
+       "{pr:aveste}",
+       "{pr:faceste}",
+       "{pr:foste}"
+      ],
+      [
+       "loro",
+       "{pr:scrissero}",
+       "{pr:ebbero}",
+       "{pr:fecero}",
+       "{pr:furono}"
+      ]
+     ]
+    }
+   },
+   "Also: *vedere: vidi; prendere: presi; venire: venni; dire: dissi; sapere: seppi; volere: volli; leggere: lessi; mettere: misi; nascere: nacqui.*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Historical events: *Dante {pr:nacque} a Firenze nel 1265.*",
+     "Narrative in novels and tales, with the *imperfetto* as background: *{im:Era} notte quando {pr:bussarono} alla porta.*",
+     "In speech it is common mainly in parts of southern Italy. Elsewhere speakers normally use the *passato prossimo*."
+    ]
+   }
+  ]
+ },
+ "trapassato_remoto": {
+  "title": "Trapassato remoto",
+  "style": "t-tr",
+  "summary": "A rare literary tense: one action just before another in the passato remoto.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *passato remoto* of *avere* or *essere* and the past participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare (avere)",
+      "andare (essere)"
+     ],
+     "rows": [
+      [
+       "io",
+       "{tr:ebbi parl**ato**}",
+       "{tr:fui andat**o/a**}"
+      ],
+      [
+       "tu",
+       "{tr:avesti parl**ato**}",
+       "{tr:fosti andat**o/a**}"
+      ],
+      [
+       "lui / lei",
+       "{tr:ebbe parl**ato**}",
+       "{tr:fu andat**o/a**}"
+      ],
+      [
+       "noi",
+       "{tr:avemmo parl**ato**}",
+       "{tr:fummo andat**i/e**}"
+      ],
+      [
+       "voi",
+       "{tr:aveste parl**ato**}",
+       "{tr:foste andat**i/e**}"
+      ],
+      [
+       "loro",
+       "{tr:ebbero parl**ato**}",
+       "{tr:furono andat**i/e**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   "It appears only in subordinate clauses after *dopo che*, *appena*, *non appena* or *quando*, and the main verb is in the *passato remoto*.",
+   {
+    "ul": [
+     "*Appena {tr:ebbe finito}, {pr:uscì}.*",
+     "*Dopo che {tr:furono partiti}, la casa {pr:rimase} vuota.*"
+    ]
+   },
+   "You only need to recognise it. In everyday Italian, say *Dopo aver finito, è uscito.*"
+  ]
+ },
+ "futuro_semplice": {
+  "title": "Futuro semplice",
+  "style": "t-fs",
+  "summary": "What will happen, and guesses about the present.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Remove the final *-e* of the infinitive and add *-ò, -ai, -à, -emo, -ete, -anno*.",
+   "⚠️ In *-are* verbs the *a* becomes *e*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare",
+      "vendere",
+      "dormire"
+     ],
+     "rows": [
+      [
+       "io",
+       "{fs:parler**ò**}",
+       "{fs:vender**ò**}",
+       "{fs:dormir**ò**}"
+      ],
+      [
+       "tu",
+       "{fs:parler**ai**}",
+       "{fs:vender**ai**}",
+       "{fs:dormir**ai**}"
+      ],
+      [
+       "lui / lei",
+       "{fs:parler**à**}",
+       "{fs:vender**à**}",
+       "{fs:dormir**à**}"
+      ],
+      [
+       "noi",
+       "{fs:parler**emo**}",
+       "{fs:vender**emo**}",
+       "{fs:dormir**emo**}"
+      ],
+      [
+       "voi",
+       "{fs:parler**ete**}",
+       "{fs:vender**ete**}",
+       "{fs:dormir**ete**}"
+      ],
+      [
+       "loro",
+       "{fs:parler**anno**}",
+       "{fs:vender**anno**}",
+       "{fs:dormir**anno**}"
+      ]
+     ]
+    }
+   },
+   "Spelling: *cercare: cercherò; pagare: pagherò; cominciare: comincerò; mangiare: mangerò.*",
+   {
+    "h": "Irregular stems"
+   },
+   "The endings stay the same. Only the stem changes.",
+   {
+    "table": {
+     "head": [
+      "Verb",
+      "Future",
+      "Verb",
+      "Future"
+     ],
+     "rows": [
+      [
+       "essere",
+       "{fs:sarò}",
+       "potere",
+       "{fs:potrò}"
+      ],
+      [
+       "avere",
+       "{fs:avrò}",
+       "dovere",
+       "{fs:dovrò}"
+      ],
+      [
+       "andare",
+       "{fs:andrò}",
+       "sapere",
+       "{fs:saprò}"
+      ],
+      [
+       "fare",
+       "{fs:farò}",
+       "vedere",
+       "{fs:vedrò}"
+      ],
+      [
+       "dare",
+       "{fs:darò}",
+       "vivere",
+       "{fs:vivrò}"
+      ],
+      [
+       "stare",
+       "{fs:starò}",
+       "volere",
+       "{fs:vorrò}"
+      ],
+      [
+       "venire",
+       "{fs:verrò}",
+       "bere",
+       "{fs:berrò}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Future events and plans: *L'anno prossimo {fs:andremo} in Giappone.*",
+     "Promises and predictions: *Te lo {ip:prometto}: {fs:tornerò}.*",
+     "A guess about the present: *Che ore sono? {fs:Saranno} le otto.*",
+     "After *se* and *quando* when the event is in the future: *Quando {fs:arriverai}, ti {fs:mostrerò} la casa.*"
+    ]
+   }
+  ]
+ },
+ "futuro_anteriore": {
+  "title": "Futuro anteriore",
+  "style": "t-fa",
+  "summary": "What will already have happened, and guesses about the past.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *futuro semplice* of *avere* or *essere* and the past participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare (avere)",
+      "andare (essere)"
+     ],
+     "rows": [
+      [
+       "io",
+       "{fa:avrò parl**ato**}",
+       "{fa:sarò andat**o/a**}"
+      ],
+      [
+       "tu",
+       "{fa:avrai parl**ato**}",
+       "{fa:sarai andat**o/a**}"
+      ],
+      [
+       "lui / lei",
+       "{fa:avrà parl**ato**}",
+       "{fa:sarà andat**o/a**}"
+      ],
+      [
+       "noi",
+       "{fa:avremo parl**ato**}",
+       "{fa:saremo andat**i/e**}"
+      ],
+      [
+       "voi",
+       "{fa:avrete parl**ato**}",
+       "{fa:sarete andat**i/e**}"
+      ],
+      [
+       "loro",
+       "{fa:avranno parl**ato**}",
+       "{fa:saranno andat**i/e**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An action finished before another future one, after *quando, dopo che, appena*: *Quando {fa:avrò finito}, ti {fs:chiamerò}.*",
+     "A guess about the past: *Non è ancora qui: {fa:avrà perso} il treno.*"
+    ]
+   }
+  ]
+ },
+ "condizionale": {
+  "title": "Condizionale",
+  "style": "mood-wavy",
+  "summary": "The mood of what would happen: politeness, advice, wishes and hypotheses.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "The conditional presents an action as dependent on a condition or softens what is said. It has two tenses.",
+   {
+    "table": {
+     "head": [
+      "Tense",
+      "Example",
+      "Refers to"
+     ],
+     "rows": [
+      [
+       "Presente",
+       "{cop:parlerei}",
+       "Now or the future"
+      ],
+      [
+       "Passato",
+       "{cpa:avrei parlato}",
+       "The past, or a future seen from the past"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "In hypothetical sentences"
+   },
+   "The *se* clause takes the *congiuntivo*, never the conditional. The conditional goes in the result clause.",
+   {
+    "ul": [
+     "Possible now: *Se {csi:avessi} tempo, {cop:viaggerei}.*",
+     "Impossible, in the past: *Se {cst:avessi avuto} tempo, {cpa:avrei viaggiato}.*",
+     "Past condition, present result: *Se {cst:avessi studiato}, ora {cop:saprei} la risposta.*"
+    ]
+   }
+  ]
+ },
+ "condizionale_presente": {
+  "title": "Condizionale presente",
+  "style": "t-cop",
+  "summary": "Would do: polite requests, advice, wishes, hypotheses.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Take the stem of the *futuro semplice* and add *-ei, -esti, -ebbe, -emmo, -este, -ebbero*. Note *-emmo* with a double *m*: the future has *-emo*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare",
+      "vendere",
+      "dormire"
+     ],
+     "rows": [
+      [
+       "io",
+       "{cop:parler**ei**}",
+       "{cop:vender**ei**}",
+       "{cop:dormir**ei**}"
+      ],
+      [
+       "tu",
+       "{cop:parler**esti**}",
+       "{cop:vender**esti**}",
+       "{cop:dormir**esti**}"
+      ],
+      [
+       "lui / lei",
+       "{cop:parler**ebbe**}",
+       "{cop:vender**ebbe**}",
+       "{cop:dormir**ebbe**}"
+      ],
+      [
+       "noi",
+       "{cop:parler**emmo**}",
+       "{cop:vender**emmo**}",
+       "{cop:dormir**emmo**}"
+      ],
+      [
+       "voi",
+       "{cop:parler**este**}",
+       "{cop:vender**este**}",
+       "{cop:dormir**este**}"
+      ],
+      [
+       "loro",
+       "{cop:parler**ebbero**}",
+       "{cop:vender**ebbero**}",
+       "{cop:dormir**ebbero**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular stems"
+   },
+   "They are the same as in the future: {cop:sarei}, {cop:avrei}, {cop:andrei}, {cop:farei}, {cop:potrei}, {cop:dovrei}, {cop:saprei}, {cop:vorrei}, {cop:verrei}, {cop:berrei}.",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Polite requests: *{cop:Vorrei} un caffè. {cop:Potrebbe} aiutarmi?*",
+     "Advice: *{cop:Dovresti} dormire di più.*",
+     "Wishes: *Mi {cop:piacerebbe} vivere al mare.*",
+     "The result of a hypothesis: *Se {csi:potessi}, {cop:partirei} subito.*",
+     "Unconfirmed news: *Il ministro {cop:sarebbe} a Parigi.*"
+    ]
+   }
+  ]
+ },
+ "condizionale_passato": {
+  "title": "Condizionale passato",
+  "style": "t-cpa",
+  "summary": "Would have done, and the future seen from the past.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *condizionale presente* of *avere* or *essere* and the past participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare (avere)",
+      "andare (essere)"
+     ],
+     "rows": [
+      [
+       "io",
+       "{cpa:avrei parl**ato**}",
+       "{cpa:sarei andat**o/a**}"
+      ],
+      [
+       "tu",
+       "{cpa:avresti parl**ato**}",
+       "{cpa:saresti andat**o/a**}"
+      ],
+      [
+       "lui / lei",
+       "{cpa:avrebbe parl**ato**}",
+       "{cpa:sarebbe andat**o/a**}"
+      ],
+      [
+       "noi",
+       "{cpa:avremmo parl**ato**}",
+       "{cpa:saremmo andat**i/e**}"
+      ],
+      [
+       "voi",
+       "{cpa:avreste parl**ato**}",
+       "{cpa:sareste andat**i/e**}"
+      ],
+      [
+       "loro",
+       "{cpa:avrebbero parl**ato**}",
+       "{cpa:sarebbero andat**i/e**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "A result that did not happen: *Se {cst:avessi studiato}, {cpa:avrei passato} l'esame.*",
+     "A wish or intention that was not fulfilled: *{cpa:Sarei venuto}, ma {im:ero} malato.*",
+     "Regret or criticism: *{cpa:Avresti dovuto} dirmelo.*",
+     "The future seen from the past. English says *would come*, Italian needs the compound form: *Ha detto che {cpa:sarebbe venuto}.*",
+     "Unconfirmed past news: *Il ladro {cpa:sarebbe fuggito} in auto.*"
+    ]
+   }
+  ]
+ },
+ "imperativo": {
+  "title": "Imperativo",
+  "style": "t-imv",
+  "summary": "Commands, requests, advice and instructions, for every way of addressing someone.",
+  "body": [
+   {
+    "h": "Who you are speaking to"
+   },
+   {
+    "table": {
+     "head": [
+      "Form",
+      "Used for"
+     ],
+     "rows": [
+      [
+       "*tu*",
+       "One person you know well"
+      ],
+      [
+       "*voi*",
+       "Several people"
+      ],
+      [
+       "*Lei*",
+       "One person, politely"
+      ],
+      [
+       "*noi*",
+       "A suggestion including yourself: let's"
+      ],
+      [
+       "*Loro*",
+       "Several people, very formally; usually replaced by *voi*"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is formed"
+   },
+   "The *tu* form of *-are* verbs ends in *-a*, and of the others in *-i*. *Noi* and *voi* match the present. *Lei* and *Loro* are borrowed from the *congiuntivo presente*, so the vowels swap: *-are* verbs take *-i*, the others *-a*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare",
+      "vendere",
+      "dormire",
+      "finire"
+     ],
+     "rows": [
+      [
+       "tu",
+       "{imv:parl**a**}",
+       "{imv:vend**i**}",
+       "{imv:dorm**i**}",
+       "{imv:fin**isci**}"
+      ],
+      [
+       "Lei",
+       "{imv:parl**i**}",
+       "{imv:vend**a**}",
+       "{imv:dorm**a**}",
+       "{imv:fin**isca**}"
+      ],
+      [
+       "noi",
+       "{imv:parl**iamo**}",
+       "{imv:vend**iamo**}",
+       "{imv:dorm**iamo**}",
+       "{imv:fin**iamo**}"
+      ],
+      [
+       "voi",
+       "{imv:parl**ate**}",
+       "{imv:vend**ete**}",
+       "{imv:dorm**ite**}",
+       "{imv:fin**ite**}"
+      ],
+      [
+       "Loro",
+       "{imv:parl**ino**}",
+       "{imv:vend**ano**}",
+       "{imv:dorm**ano**}",
+       "{imv:fin**iscano**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "tu",
+      "Lei",
+      "voi"
+     ],
+     "rows": [
+      [
+       "essere",
+       "{imv:sii}",
+       "{imv:sia}",
+       "{imv:siate}"
+      ],
+      [
+       "avere",
+       "{imv:abbi}",
+       "{imv:abbia}",
+       "{imv:abbiate}"
+      ],
+      [
+       "andare",
+       "{imv:va' / vai}",
+       "{imv:vada}",
+       "{imv:andate}"
+      ],
+      [
+       "fare",
+       "{imv:fa' / fai}",
+       "{imv:faccia}",
+       "{imv:fate}"
+      ],
+      [
+       "dare",
+       "{imv:da' / dai}",
+       "{imv:dia}",
+       "{imv:date}"
+      ],
+      [
+       "stare",
+       "{imv:sta' / stai}",
+       "{imv:stia}",
+       "{imv:state}"
+      ],
+      [
+       "dire",
+       "{imv:di'}",
+       "{imv:dica}",
+       "{imv:dite}"
+      ],
+      [
+       "sapere",
+       "{imv:sappi}",
+       "{imv:sappia}",
+       "{imv:sappiate}"
+      ],
+      [
+       "venire",
+       "{imv:vieni}",
+       "{imv:venga}",
+       "{imv:venite}"
+      ],
+      [
+       "tenere",
+       "{imv:tieni}",
+       "{imv:tenga}",
+       "{imv:tenete}"
+      ],
+      [
+       "uscire",
+       "{imv:esci}",
+       "{imv:esca}",
+       "{imv:uscite}"
+      ],
+      [
+       "bere",
+       "{imv:bevi}",
+       "{imv:beva}",
+       "{imv:bevete}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "The negative"
+   },
+   "Only *tu* changes: *non* plus the infinitive. The other persons simply add *non*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "Affirmative",
+      "Negative"
+     ],
+     "rows": [
+      [
+       "tu",
+       "{imv:Parla!}",
+       "{imv:Non parlare!}"
+      ],
+      [
+       "Lei",
+       "{imv:Parli!}",
+       "{imv:Non parli!}"
+      ],
+      [
+       "noi",
+       "{imv:Parliamo!}",
+       "{imv:Non parliamo!}"
+      ],
+      [
+       "voi",
+       "{imv:Parlate!}",
+       "{imv:Non parlate!}"
+      ],
+      [
+       "Loro",
+       "{imv:Parlino!}",
+       "{imv:Non parlino!}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Reflexive verbs"
+   },
+   "With *tu*, *noi* and *voi* the pronoun joins the end of the verb. With *Lei* and *Loro* it stays in front. In the negative of *tu*, *noi* and *voi* it can go in either place.",
+   {
+    "table": {
+     "head": [
+      "alzarsi",
+      "Affirmative",
+      "Negative"
+     ],
+     "rows": [
+      [
+       "tu",
+       "{imv:Alza**ti**!}",
+       "{imv:Non alzar**ti**! / Non ti alzare!}"
+      ],
+      [
+       "Lei",
+       "{imv:Si alzi!}",
+       "{imv:Non si alzi!}"
+      ],
+      [
+       "noi",
+       "{imv:Alziamo**ci**!}",
+       "{imv:Non alziamo**ci**! / Non ci alziamo!}"
+      ],
+      [
+       "voi",
+       "{imv:Alzate**vi**!}",
+       "{imv:Non alzate**vi**! / Non vi alzate!}"
+      ],
+      [
+       "Loro",
+       "{imv:Si alzino!}",
+       "{imv:Non si alzino!}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Other pronouns"
+   },
+   "Object pronouns follow the same rule as reflexive ones.",
+   {
+    "ul": [
+     "*{imv:Chiamami!}* (tu), *Mi {imv:chiami!}* (Lei), *{imv:Chiamatemi!}* (voi), *Non {imv:chiamarmi!}* (tu)",
+     "Two pronouns together: *{imv:Dammelo!}*, *{imv:Diglielo!}*, *Me lo {imv:dia!}*"
+    ]
+   },
+   "After the short forms *va', fa', da', sta', di'* the first consonant of the pronoun doubles: *{imv:Dammi}, {imv:Fallo}, {imv:Dimmi}, {imv:Vacci}, {imv:Stammi} a sentire.* The only exception is *gli*: *{imv:Digli}*.",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Commands: *{imv:Chiudi} la porta!*",
+     "Requests, softened with *per favore*: *Mi {imv:passi} il sale, per favore.*",
+     "Advice: *{imv:Riposati} un po'.*",
+     "Invitations: *{imv:Venite} a cena da noi!*",
+     "Written instructions often use the infinitive instead: *Non calpestare le aiuole.*"
+    ]
+   }
+  ]
+ },
+ "congiuntivo": {
+  "title": "Congiuntivo",
+  "style": "mood-double",
+  "summary": "The mood of what is thought, wished, feared or doubted, rather than stated as fact.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "The subjunctive presents something as subjective or uncertain. It appears mostly in subordinate clauses introduced by *che*, or after certain conjunctions.",
+   {
+    "h": "When it is needed"
+   },
+   {
+    "ul": [
+     "Opinions: *Penso che {csp:sia} vero.*",
+     "Wishes and requests: *Voglio che tu {csp:venga}.*",
+     "Doubt: *Non so se {csp:abbia} ragione.*",
+     "Emotions: *Sono felice che tu {csp:sia} qui.*",
+     "Impersonal expressions: *Bisogna che {csp:parta}. È importante che {csp:capiscano}.*",
+     "After *benché, sebbene, affinché, prima che, purché, a meno che, senza che*.",
+     "Relative clauses after a superlative or an indefinite: *È il libro più bello che {csa:abbia letto}.*",
+     "Hypotheses with *se*: *Se {csi:potessi}, {cop:verrei}.*"
+    ]
+   },
+   "It is not used after *so che*, *sono sicuro che*, *è vero che* or *perché* meaning because.",
+   {
+    "h": "Which tense?"
+   },
+   "The tense depends on the verb in the main clause and on whether the action comes at the same time or earlier.",
+   {
+    "table": {
+     "head": [
+      "Main clause",
+      "Same time or later",
+      "Earlier"
+     ],
+     "rows": [
+      [
+       "Present: *Penso che...*",
+       "{csp:parta}",
+       "{csa:sia partito}"
+      ],
+      [
+       "Past or conditional: *Pensavo che...*",
+       "{csi:partisse}",
+       "{cst:fosse partito}"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "congiuntivo_presente": {
+  "title": "Congiuntivo presente",
+  "style": "t-csp",
+  "summary": "Thoughts, wishes and doubts about now or the future.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "*-are* verbs take *-i*, the others take *-a*. The three singular persons are identical, so *io, tu, lui* are often needed for clarity.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare",
+      "vendere",
+      "dormire",
+      "finire"
+     ],
+     "rows": [
+      [
+       "che io",
+       "{csp:parl**i**}",
+       "{csp:vend**a**}",
+       "{csp:dorm**a**}",
+       "{csp:fin**isca**}"
+      ],
+      [
+       "che tu",
+       "{csp:parl**i**}",
+       "{csp:vend**a**}",
+       "{csp:dorm**a**}",
+       "{csp:fin**isca**}"
+      ],
+      [
+       "che lui / lei",
+       "{csp:parl**i**}",
+       "{csp:vend**a**}",
+       "{csp:dorm**a**}",
+       "{csp:fin**isca**}"
+      ],
+      [
+       "che noi",
+       "{csp:parl**iamo**}",
+       "{csp:vend**iamo**}",
+       "{csp:dorm**iamo**}",
+       "{csp:fin**iamo**}"
+      ],
+      [
+       "che voi",
+       "{csp:parl**iate**}",
+       "{csp:vend**iate**}",
+       "{csp:dorm**iate**}",
+       "{csp:fin**iate**}"
+      ],
+      [
+       "che loro",
+       "{csp:parl**ino**}",
+       "{csp:vend**ano**}",
+       "{csp:dorm**ano**}",
+       "{csp:fin**iscano**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "essere",
+      "avere",
+      "andare",
+      "fare"
+     ],
+     "rows": [
+      [
+       "che io",
+       "{csp:sia}",
+       "{csp:abbia}",
+       "{csp:vada}",
+       "{csp:faccia}"
+      ],
+      [
+       "che tu",
+       "{csp:sia}",
+       "{csp:abbia}",
+       "{csp:vada}",
+       "{csp:faccia}"
+      ],
+      [
+       "che lui / lei",
+       "{csp:sia}",
+       "{csp:abbia}",
+       "{csp:vada}",
+       "{csp:faccia}"
+      ],
+      [
+       "che noi",
+       "{csp:siamo}",
+       "{csp:abbiamo}",
+       "{csp:andiamo}",
+       "{csp:facciamo}"
+      ],
+      [
+       "che voi",
+       "{csp:siate}",
+       "{csp:abbiate}",
+       "{csp:andiate}",
+       "{csp:facciate}"
+      ],
+      [
+       "che loro",
+       "{csp:siano}",
+       "{csp:abbiano}",
+       "{csp:vadano}",
+       "{csp:facciano}"
+      ]
+     ]
+    }
+   },
+   "Also: *dare: dia; stare: stia; sapere: sappia; potere: possa; volere: voglia; dovere: debba; venire: venga; dire: dica; uscire: esca.*",
+   {
+    "h": "How it is used"
+   },
+   "It follows a main verb in the present or future and refers to the same time or later.",
+   {
+    "ul": [
+     "*Credo che {csp:arrivi} domani.*",
+     "*Spero che tu {csp:stia} bene.*",
+     "*Benché {csp:piova}, esco.*",
+     "*Ti aiuto affinché tu {csp:possa} finire.*"
+    ]
+   }
+  ]
+ },
+ "congiuntivo_passato": {
+  "title": "Congiuntivo passato",
+  "style": "t-csa",
+  "summary": "Thoughts and feelings now about something that has already happened.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *congiuntivo presente* of *avere* or *essere* and the past participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare (avere)",
+      "andare (essere)"
+     ],
+     "rows": [
+      [
+       "che io",
+       "{csa:abbia parl**ato**}",
+       "{csa:sia andat**o/a**}"
+      ],
+      [
+       "che tu",
+       "{csa:abbia parl**ato**}",
+       "{csa:sia andat**o/a**}"
+      ],
+      [
+       "che lui / lei",
+       "{csa:abbia parl**ato**}",
+       "{csa:sia andat**o/a**}"
+      ],
+      [
+       "che noi",
+       "{csa:abbiamo parl**ato**}",
+       "{csa:siamo andat**i/e**}"
+      ],
+      [
+       "che voi",
+       "{csa:abbiate parl**ato**}",
+       "{csa:siate andat**i/e**}"
+      ],
+      [
+       "che loro",
+       "{csa:abbiano parl**ato**}",
+       "{csa:siano andat**i/e**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   "The main verb is in the present and the action in the subjunctive came earlier.",
+   {
+    "ul": [
+     "*Credo che {csa:abbia dimenticato}.*",
+     "*Sono contento che tu {csa:sia venuto}.*",
+     "*Benché {csa:abbia studiato}, non {pp:ha passato} l'esame.*",
+     "*È il film più bello che {csa:abbia visto}.*"
+    ]
+   }
+  ]
+ },
+ "congiuntivo_imperfetto": {
+  "title": "Congiuntivo imperfetto",
+  "style": "t-csi",
+  "summary": "The subjunctive after a past verb, in hypotheses and in wishes.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Remove *-re* from the infinitive and add *-ssi, -ssi, -sse, -ssimo, -ste, -ssero*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare",
+      "vendere",
+      "dormire"
+     ],
+     "rows": [
+      [
+       "che io",
+       "{csi:parla**ssi**}",
+       "{csi:vende**ssi**}",
+       "{csi:dormi**ssi**}"
+      ],
+      [
+       "che tu",
+       "{csi:parla**ssi**}",
+       "{csi:vende**ssi**}",
+       "{csi:dormi**ssi**}"
+      ],
+      [
+       "che lui / lei",
+       "{csi:parla**sse**}",
+       "{csi:vende**sse**}",
+       "{csi:dormi**sse**}"
+      ],
+      [
+       "che noi",
+       "{csi:parla**ssimo**}",
+       "{csi:vende**ssimo**}",
+       "{csi:dormi**ssimo**}"
+      ],
+      [
+       "che voi",
+       "{csi:parla**ste**}",
+       "{csi:vende**ste**}",
+       "{csi:dormi**ste**}"
+      ],
+      [
+       "che loro",
+       "{csi:parla**ssero**}",
+       "{csi:vende**ssero**}",
+       "{csi:dormi**ssero**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "essere",
+      "dare",
+      "stare",
+      "fare"
+     ],
+     "rows": [
+      [
+       "che io",
+       "{csi:fossi}",
+       "{csi:dessi}",
+       "{csi:stessi}",
+       "{csi:facessi}"
+      ],
+      [
+       "che tu",
+       "{csi:fossi}",
+       "{csi:dessi}",
+       "{csi:stessi}",
+       "{csi:facessi}"
+      ],
+      [
+       "che lui / lei",
+       "{csi:fosse}",
+       "{csi:desse}",
+       "{csi:stesse}",
+       "{csi:facesse}"
+      ],
+      [
+       "che noi",
+       "{csi:fossimo}",
+       "{csi:dessimo}",
+       "{csi:stessimo}",
+       "{csi:facessimo}"
+      ],
+      [
+       "che voi",
+       "{csi:foste}",
+       "{csi:deste}",
+       "{csi:steste}",
+       "{csi:faceste}"
+      ],
+      [
+       "che loro",
+       "{csi:fossero}",
+       "{csi:dessero}",
+       "{csi:stessero}",
+       "{csi:facessero}"
+      ]
+     ]
+    }
+   },
+   "Also, with the same stem as the *imperfetto*: *dire: dicessi; bere: bevessi; tradurre: traducessi.*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "After a main verb in a past tense: *Pensavo che {csi:fosse} Perugia.*",
+     "After a conditional: *Vorrei che tu {csi:restassi}.*",
+     "Hypotheses that are unlikely or unreal now: *Se {csi:avessi} tempo, {cop:leggerei} di più.*",
+     "Wishes: *Magari {csi:potessi} venire!*",
+     "After *come se*: *Parla come se {csi:sapesse} tutto.*"
+    ]
+   }
+  ]
+ },
+ "congiuntivo_trapassato": {
+  "title": "Congiuntivo trapassato",
+  "style": "t-cst",
+  "summary": "The earlier past in the subjunctive, and hypotheses that can no longer come true.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the *congiuntivo imperfetto* of *avere* or *essere* and the past participle.",
+   {
+    "table": {
+     "head": [
+      "",
+      "parlare (avere)",
+      "andare (essere)"
+     ],
+     "rows": [
+      [
+       "che io",
+       "{cst:avessi parl**ato**}",
+       "{cst:fossi andat**o/a**}"
+      ],
+      [
+       "che tu",
+       "{cst:avessi parl**ato**}",
+       "{cst:fossi andat**o/a**}"
+      ],
+      [
+       "che lui / lei",
+       "{cst:avesse parl**ato**}",
+       "{cst:fosse andat**o/a**}"
+      ],
+      [
+       "che noi",
+       "{cst:avessimo parl**ato**}",
+       "{cst:fossimo andat**i/e**}"
+      ],
+      [
+       "che voi",
+       "{cst:aveste parl**ato**}",
+       "{cst:foste andat**i/e**}"
+      ],
+      [
+       "che loro",
+       "{cst:avessero parl**ato**}",
+       "{cst:fossero andat**i/e**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An action before a past main verb: *Pensavo che {cst:fosse partito}.*",
+     "Past hypotheses that did not come true: *Se {cst:avessi saputo}, {cpa:sarei venuto}.*",
+     "Regrets: *Magari ti {cst:avessi ascoltato}!*",
+     "After *come se*: *Mi guarda come se non mi {cst:avesse mai visto}.*"
+    ]
+   }
+  ]
+ }
+}

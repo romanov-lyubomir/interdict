@@ -1,0 +1,1331 @@
+{
+ "indikativ": {
+  "title": "Indikativ",
+  "style": "",
+  "summary": "The mood of facts: what happens, happened or will happen.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "The indicative presents something as real. It is the normal mood of German.",
+   {
+    "h": "Its tenses"
+   },
+   {
+    "table": {
+     "head": [
+      "Tense",
+      "Example",
+      "Expresses"
+     ],
+     "rows": [
+      [
+       "Präsens",
+       "{ip:ich mache}",
+       "Now, habits, truths, and very often the future"
+      ],
+      [
+       "Perfekt",
+       "{pp:ich habe gemacht}",
+       "The past in everyday speech"
+      ],
+      [
+       "Plusquamperfekt",
+       "{tp:ich hatte gemacht}",
+       "Before another past moment"
+      ],
+      [
+       "Präteritum",
+       "{pr:ich machte}",
+       "The past in writing and narrative"
+      ],
+      [
+       "Futur I",
+       "{fs:ich werde machen}",
+       "Intentions, predictions, guesses about the present"
+      ],
+      [
+       "Futur II",
+       "{fa:ich werde gemacht haben}",
+       "Completed by a future moment, guesses about the past"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Fewer past tenses than Italian or Spanish"
+   },
+   "German makes no distinction like *imperfetto* against *passato remoto*. Perfekt and Präteritum differ mainly in style, not in meaning: speech prefers the first, writing the second.",
+   {
+    "h": "Word order"
+   },
+   "In a main clause the conjugated verb is in second position, and any participle or infinitive goes to the end: *Ich {pp:habe} gestern lange {pp:gearbeitet}.* In a subordinate clause the conjugated verb goes last: *..., weil ich lange {pp:gearbeitet habe}.*"
+  ]
+ },
+ "praesens": {
+  "title": "Präsens",
+  "style": "t-ip",
+  "summary": "Now, habits, general truths, and very often the future.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Remove *-en* and add the endings. If the stem ends in *-t* or *-d*, or in certain consonant groups, an *e* is inserted to help pronunciation.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen",
+      "arbeiten",
+      "fahren (a → ä)",
+      "sprechen (e → i)"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{ip:mach**e**}",
+       "{ip:arbeit**e**}",
+       "{ip:fahr**e**}",
+       "{ip:sprech**e**}"
+      ],
+      [
+       "du",
+       "{ip:mach**st**}",
+       "{ip:arbeit**est**}",
+       "{ip:fähr**st**}",
+       "{ip:sprich**st**}"
+      ],
+      [
+       "er / sie / es",
+       "{ip:mach**t**}",
+       "{ip:arbeit**et**}",
+       "{ip:fähr**t**}",
+       "{ip:sprich**t**}"
+      ],
+      [
+       "wir",
+       "{ip:mach**en**}",
+       "{ip:arbeit**en**}",
+       "{ip:fahr**en**}",
+       "{ip:sprech**en**}"
+      ],
+      [
+       "ihr",
+       "{ip:mach**t**}",
+       "{ip:arbeit**et**}",
+       "{ip:fahr**t**}",
+       "{ip:sprech**t**}"
+      ],
+      [
+       "sie / Sie",
+       "{ip:mach**en**}",
+       "{ip:arbeit**en**}",
+       "{ip:fahr**en**}",
+       "{ip:sprech**en**}"
+      ]
+     ]
+    }
+   },
+   "The vowel change happens only in *du* and *er / sie / es*, and only in strong verbs: *laufen: läufst; lesen: liest; nehmen: nimmst; geben: gibst*.",
+   {
+    "h": "Common irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "sein",
+      "haben",
+      "werden",
+      "können"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{ip:bin}",
+       "{ip:habe}",
+       "{ip:werde}",
+       "{ip:kann}"
+      ],
+      [
+       "du",
+       "{ip:bist}",
+       "{ip:hast}",
+       "{ip:wirst}",
+       "{ip:kannst}"
+      ],
+      [
+       "er / sie / es",
+       "{ip:ist}",
+       "{ip:hat}",
+       "{ip:wird}",
+       "{ip:kann}"
+      ],
+      [
+       "wir",
+       "{ip:sind}",
+       "{ip:haben}",
+       "{ip:werden}",
+       "{ip:können}"
+      ],
+      [
+       "ihr",
+       "{ip:seid}",
+       "{ip:habt}",
+       "{ip:werdet}",
+       "{ip:könnt}"
+      ],
+      [
+       "sie / Sie",
+       "{ip:sind}",
+       "{ip:haben}",
+       "{ip:werden}",
+       "{ip:können}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Separable verbs"
+   },
+   "The prefix goes to the end of the clause: *aufstehen: Ich {ip:stehe} um sieben {ip:auf}.*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Now: *Ich {ip:lese} gerade die Zeitung.*",
+     "Habits: *Montags {ip:gehe} ich ins Fitnessstudio.*",
+     "General truths: *Wasser {ip:kocht} bei hundert Grad.*",
+     "The future, with a time word. This is the normal way to talk about it: *Morgen {ip:fahre} ich nach Berlin.*",
+     "An action that still continues, with *seit*: *Ich {ip:lerne} seit zwei Jahren Deutsch.*"
+    ]
+   }
+  ]
+ },
+ "perfekt": {
+  "title": "Perfekt",
+  "style": "t-pp",
+  "summary": "The past tense of everyday speech.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the present of *haben* or *sein*, and put the Partizip II at the end of the clause.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen (haben)",
+      "fahren (sein)"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{pp:habe ge**macht**}",
+       "{pp:bin ge**fahren**}"
+      ],
+      [
+       "du",
+       "{pp:hast ge**macht**}",
+       "{pp:bist ge**fahren**}"
+      ],
+      [
+       "er / sie / es",
+       "{pp:hat ge**macht**}",
+       "{pp:ist ge**fahren**}"
+      ],
+      [
+       "wir",
+       "{pp:haben ge**macht**}",
+       "{pp:sind ge**fahren**}"
+      ],
+      [
+       "ihr",
+       "{pp:habt ge**macht**}",
+       "{pp:seid ge**fahren**}"
+      ],
+      [
+       "sie / Sie",
+       "{pp:haben ge**macht**}",
+       "{pp:sind ge**fahren**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Haben or sein?"
+   },
+   {
+    "ul": [
+     "Most verbs take *haben*, including all with a direct object and all reflexive verbs.",
+     "*Sein* goes with verbs of movement from one place to another and changes of state: *gehen, fahren, kommen, aufstehen, einschlafen, sterben, werden*.",
+     "*Sein* also goes with *sein, bleiben* and *passieren*."
+    ]
+   },
+   {
+    "h": "The Partizip II"
+   },
+   {
+    "table": {
+     "head": [
+      "Type",
+      "Pattern",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Weak",
+       "*ge-* ... *-t*",
+       "machen: gemacht; arbeiten: gearbeitet"
+      ],
+      [
+       "Strong",
+       "*ge-* ... *-en*, often a new vowel",
+       "sprechen: gesprochen; finden: gefunden; fahren: gefahren"
+      ],
+      [
+       "Mixed",
+       "*ge-* ... *-t* with a new vowel",
+       "denken: gedacht; bringen: gebracht; kennen: gekannt"
+      ],
+      [
+       "Verbs in *-ieren*",
+       "no *ge-*",
+       "studieren: studiert"
+      ],
+      [
+       "Inseparable prefix",
+       "no *ge-*",
+       "besuchen: besucht; verstehen: verstanden"
+      ],
+      [
+       "Separable prefix",
+       "*ge* in the middle",
+       "einkaufen: eingekauft; aufstehen: aufgestanden"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Talking about the past in conversation: *Gestern {pp:habe} ich einen Film {pp:gesehen}.*",
+     "Past events that matter now: *Ich {pp:habe} meine Schlüssel {pp:verloren}.*",
+     "It also translates the *passato remoto* of spoken narrative: anything told aloud usually takes Perfekt."
+    ]
+   }
+  ]
+ },
+ "plusquamperfekt": {
+  "title": "Plusquamperfekt",
+  "style": "t-tp",
+  "summary": "The past before the past.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the Präteritum of *haben* or *sein* and the Partizip II. The choice of auxiliary is the same as in the Perfekt.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen (haben)",
+      "fahren (sein)"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{tp:hatte ge**macht**}",
+       "{tp:war ge**fahren**}"
+      ],
+      [
+       "du",
+       "{tp:hattest ge**macht**}",
+       "{tp:warst ge**fahren**}"
+      ],
+      [
+       "er / sie / es",
+       "{tp:hatte ge**macht**}",
+       "{tp:war ge**fahren**}"
+      ],
+      [
+       "wir",
+       "{tp:hatten ge**macht**}",
+       "{tp:waren ge**fahren**}"
+      ],
+      [
+       "ihr",
+       "{tp:hattet ge**macht**}",
+       "{tp:wart ge**fahren**}"
+      ],
+      [
+       "sie / Sie",
+       "{tp:hatten ge**macht**}",
+       "{tp:waren ge**fahren**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An action completed before another past event: *Als ich {pr:ankam}, {tp:war} der Zug schon {tp:abgefahren}.*",
+     "After *nachdem*: *Nachdem ich {tp:gegessen hatte}, {pr:ging} ich spazieren.*",
+     "The cause of a past situation: *Ich {pr:war} müde, weil ich viel {tp:gearbeitet hatte}.*"
+    ]
+   }
+  ]
+ },
+ "praeteritum": {
+  "title": "Präteritum",
+  "style": "t-pr",
+  "summary": "The past tense of writing and storytelling.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Weak verbs add *-te* plus the ending. Strong verbs change their vowel and add no ending in *ich* and *er / sie / es*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen",
+      "arbeiten",
+      "sprechen",
+      "kommen"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{pr:mach**te**}",
+       "{pr:arbeit**ete**}",
+       "{pr:sprach}",
+       "{pr:kam}"
+      ],
+      [
+       "du",
+       "{pr:mach**test**}",
+       "{pr:arbeit**etest**}",
+       "{pr:sprach**st**}",
+       "{pr:kam**st**}"
+      ],
+      [
+       "er / sie / es",
+       "{pr:mach**te**}",
+       "{pr:arbeit**ete**}",
+       "{pr:sprach}",
+       "{pr:kam}"
+      ],
+      [
+       "wir",
+       "{pr:mach**ten**}",
+       "{pr:arbeit**eten**}",
+       "{pr:sprach**en**}",
+       "{pr:kam**en**}"
+      ],
+      [
+       "ihr",
+       "{pr:mach**tet**}",
+       "{pr:arbeit**etet**}",
+       "{pr:sprach**t**}",
+       "{pr:kam**t**}"
+      ],
+      [
+       "sie / Sie",
+       "{pr:mach**ten**}",
+       "{pr:arbeit**eten**}",
+       "{pr:sprach**en**}",
+       "{pr:kam**en**}"
+      ]
+     ]
+    }
+   },
+   "Mixed verbs have a new vowel and the weak ending: *denken: dachte; bringen: brachte; wissen: wusste; kennen: kannte.*",
+   {
+    "h": "The verbs that use it in speech"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "sein",
+      "haben",
+      "werden",
+      "können"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{pr:war}",
+       "{pr:hatte}",
+       "{pr:wurde}",
+       "{pr:konnte}"
+      ],
+      [
+       "du",
+       "{pr:warst}",
+       "{pr:hattest}",
+       "{pr:wurdest}",
+       "{pr:konntest}"
+      ],
+      [
+       "er / sie / es",
+       "{pr:war}",
+       "{pr:hatte}",
+       "{pr:wurde}",
+       "{pr:konnte}"
+      ],
+      [
+       "wir",
+       "{pr:waren}",
+       "{pr:hatten}",
+       "{pr:wurden}",
+       "{pr:konnten}"
+      ],
+      [
+       "ihr",
+       "{pr:wart}",
+       "{pr:hattet}",
+       "{pr:wurdet}",
+       "{pr:konntet}"
+      ],
+      [
+       "sie / Sie",
+       "{pr:waren}",
+       "{pr:hatten}",
+       "{pr:wurden}",
+       "{pr:konnten}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Novels, news and written accounts: *Der König {pr:lebte} in einem großen Schloss.*",
+     "*Sein*, *haben* and modal verbs, even in speech: *Ich {pr:war} krank und {pr:konnte} nicht kommen.*",
+     "It covers both the *imperfetto* and the *passato remoto*: *Es {pr:regnete}* is a description, and *Er {pr:öffnete} die Tür* is an event."
+    ]
+   }
+  ]
+ },
+ "futur_1": {
+  "title": "Futur I",
+  "style": "t-fs",
+  "summary": "Intentions, promises, predictions and guesses about the present.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the present of *werden* and put the infinitive at the end of the clause.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen",
+      "fahren"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{fs:werde machen}",
+       "{fs:werde fahren}"
+      ],
+      [
+       "du",
+       "{fs:wirst machen}",
+       "{fs:wirst fahren}"
+      ],
+      [
+       "er / sie / es",
+       "{fs:wird machen}",
+       "{fs:wird fahren}"
+      ],
+      [
+       "wir",
+       "{fs:werden machen}",
+       "{fs:werden fahren}"
+      ],
+      [
+       "ihr",
+       "{fs:werdet machen}",
+       "{fs:werdet fahren}"
+      ],
+      [
+       "sie / Sie",
+       "{fs:werden machen}",
+       "{fs:werden fahren}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Promises and firm intentions: *Ich {fs:werde} dir {fs:helfen}.*",
+     "Predictions: *Es {fs:wird} morgen {fs:regnen}.*",
+     "A guess about the present, often with *wohl*: *Er {fs:wird} wohl zu Hause {fs:sein}.*"
+    ]
+   },
+   "When the time is clear, German usually prefers the Präsens: *Morgen {ip:rufe} ich dich {ip:an}.*"
+  ]
+ },
+ "futur_2": {
+  "title": "Futur II",
+  "style": "t-fa",
+  "summary": "What will already have happened, and guesses about the past.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the present of *werden*, then the Partizip II and *haben* or *sein* at the end.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen (haben)",
+      "fahren (sein)"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{fa:werde gemacht haben}",
+       "{fa:werde gefahren sein}"
+      ],
+      [
+       "du",
+       "{fa:wirst gemacht haben}",
+       "{fa:wirst gefahren sein}"
+      ],
+      [
+       "er / sie / es",
+       "{fa:wird gemacht haben}",
+       "{fa:wird gefahren sein}"
+      ],
+      [
+       "wir",
+       "{fa:werden gemacht haben}",
+       "{fa:werden gefahren sein}"
+      ],
+      [
+       "ihr",
+       "{fa:werdet gemacht haben}",
+       "{fa:werdet gefahren sein}"
+      ],
+      [
+       "sie / Sie",
+       "{fa:werden gemacht haben}",
+       "{fa:werden gefahren sein}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "An action finished by a future moment: *Bis morgen {fa:werde} ich es {fa:geschafft haben}.*",
+     "A guess about the past, often with *wohl*: *Er {fa:wird} den Zug wohl {fa:verpasst haben}.*"
+    ]
+   },
+   "In everyday speech, the Perfekt often replaces it for future completion: *Bis morgen {pp:habe} ich es {pp:geschafft}.*"
+  ]
+ },
+ "konjunktiv_2": {
+  "title": "Konjunktiv II",
+  "style": "mood-wavy",
+  "summary": "The mood of the unreal: what would be, politeness, wishes and advice.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "It does the work of the Italian *condizionale* and much of the *congiuntivo imperfetto* and *trapassato*. The names Gegenwart and Vergangenheit refer to the time meant, not to the form.",
+   {
+    "table": {
+     "head": [
+      "Time",
+      "Example",
+      "Refers to"
+     ],
+     "rows": [
+      [
+       "Gegenwart",
+       "{cop:ich würde machen}",
+       "Now or the future"
+      ],
+      [
+       "Vergangenheit",
+       "{cpa:ich hätte gemacht}",
+       "The past"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "In unreal conditions"
+   },
+   "Both clauses take the Konjunktiv II. *Wenn* can be left out, and then the verb comes first.",
+   {
+    "ul": [
+     "Possible now: *Wenn ich Zeit {cop:hätte}, {cop:würde} ich {cop:reisen}.*",
+     "Impossible, in the past: *Wenn ich Zeit {cpa:gehabt hätte}, {cpa:wäre} ich {cpa:gereist}.*",
+     "Without *wenn*: *{cop:Hätte} ich Zeit, {cop:würde} ich {cop:reisen}.*"
+    ]
+   }
+  ]
+ },
+ "konjunktiv_2_gegenwart": {
+  "title": "Konjunktiv II: Gegenwart",
+  "style": "t-cop",
+  "summary": "Would do: unreal situations, polite requests, wishes and advice.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Most verbs use *würde* and the infinitive.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{cop:würde machen}"
+      ],
+      [
+       "du",
+       "{cop:würdest machen}"
+      ],
+      [
+       "er / sie / es",
+       "{cop:würde machen}"
+      ],
+      [
+       "wir",
+       "{cop:würden machen}"
+      ],
+      [
+       "ihr",
+       "{cop:würdet machen}"
+      ],
+      [
+       "sie / Sie",
+       "{cop:würden machen}"
+      ]
+     ]
+    }
+   },
+   "Common verbs have their own forms, based on the Präteritum with an umlaut where possible, and the endings *-e, -est, -e, -en, -et, -en*.",
+   {
+    "table": {
+     "head": [
+      "",
+      "sein",
+      "haben",
+      "können",
+      "müssen"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{cop:wäre}",
+       "{cop:hätte}",
+       "{cop:könnte}",
+       "{cop:müsste}"
+      ],
+      [
+       "du",
+       "{cop:wärst}",
+       "{cop:hättest}",
+       "{cop:könntest}",
+       "{cop:müsstest}"
+      ],
+      [
+       "er / sie / es",
+       "{cop:wäre}",
+       "{cop:hätte}",
+       "{cop:könnte}",
+       "{cop:müsste}"
+      ],
+      [
+       "wir",
+       "{cop:wären}",
+       "{cop:hätten}",
+       "{cop:könnten}",
+       "{cop:müssten}"
+      ],
+      [
+       "ihr",
+       "{cop:wärt}",
+       "{cop:hättet}",
+       "{cop:könntet}",
+       "{cop:müsstet}"
+      ],
+      [
+       "sie / Sie",
+       "{cop:wären}",
+       "{cop:hätten}",
+       "{cop:könnten}",
+       "{cop:müssten}"
+      ]
+     ]
+    }
+   },
+   "Also: *dürfte, möchte, sollte, wollte, wüsste, käme, ginge, bräuchte.* *Sollen* and *wollen* have no umlaut.",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Unreal conditions: *Wenn ich reich {cop:wäre}, {cop:würde} ich viel {cop:reisen}.*",
+     "Polite requests: *{cop:Könnten} Sie mir {cop:helfen}? Ich {cop:hätte} gern einen Kaffee.*",
+     "Wishes: *Wenn ich doch mehr Zeit {cop:hätte}!*",
+     "Advice: *Du {cop:solltest} mehr schlafen.*"
+    ]
+   }
+  ]
+ },
+ "konjunktiv_2_vergangenheit": {
+  "title": "Konjunktiv II: Vergangenheit",
+  "style": "t-cpa",
+  "summary": "Would have done: what did not happen.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use *hätte* or *wäre* and the Partizip II. The choice of auxiliary is the same as in the Perfekt.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen (haben)",
+      "fahren (sein)"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{cpa:hätte ge**macht**}",
+       "{cpa:wäre ge**fahren**}"
+      ],
+      [
+       "du",
+       "{cpa:hättest ge**macht**}",
+       "{cpa:wärst ge**fahren**}"
+      ],
+      [
+       "er / sie / es",
+       "{cpa:hätte ge**macht**}",
+       "{cpa:wäre ge**fahren**}"
+      ],
+      [
+       "wir",
+       "{cpa:hätten ge**macht**}",
+       "{cpa:wären ge**fahren**}"
+      ],
+      [
+       "ihr",
+       "{cpa:hättet ge**macht**}",
+       "{cpa:wärt ge**fahren**}"
+      ],
+      [
+       "sie / Sie",
+       "{cpa:hätten ge**macht**}",
+       "{cpa:wären ge**fahren**}"
+      ]
+     ]
+    }
+   },
+   "With a modal verb, there are two infinitives at the end: *Ich {cpa:hätte kommen können}.*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "A condition and result that did not happen: *Wenn ich gelernt {cpa:hätte}, {cpa:hätte} ich {cpa:bestanden}.*",
+     "Regret or criticism: *Das {cpa:hättest} du mir {cpa:sagen sollen}.*",
+     "Wishes about the past: *{cpa:Wäre} ich doch {cpa:gekommen}!*"
+    ]
+   }
+  ]
+ },
+ "imperativ": {
+  "title": "Imperativ",
+  "style": "t-imv",
+  "summary": "Commands, requests, advice and instructions, for every way of addressing someone.",
+  "body": [
+   {
+    "h": "Who you are speaking to"
+   },
+   {
+    "table": {
+     "head": [
+      "Form",
+      "Used for"
+     ],
+     "rows": [
+      [
+       "*du*",
+       "One person you know well"
+      ],
+      [
+       "*ihr*",
+       "Several people you know well"
+      ],
+      [
+       "*Sie*",
+       "One or several people, politely"
+      ],
+      [
+       "*wir*",
+       "A suggestion including yourself: let's"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is formed"
+   },
+   {
+    "ul": [
+     "*du*: take the *du* form of the present and remove *-st*. The pronoun is left out.",
+     "*ihr*: identical to the present, with no pronoun.",
+     "*Sie* and *wir*: the infinitive form, followed by the pronoun."
+    ]
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "machen",
+      "fahren",
+      "sprechen",
+      "arbeiten"
+     ],
+     "rows": [
+      [
+       "du",
+       "{imv:mach(e)!}",
+       "{imv:fahr(e)!}",
+       "{imv:sprich!}",
+       "{imv:arbeite!}"
+      ],
+      [
+       "ihr",
+       "{imv:macht!}",
+       "{imv:fahrt!}",
+       "{imv:sprecht!}",
+       "{imv:arbeitet!}"
+      ],
+      [
+       "Sie",
+       "{imv:machen Sie!}",
+       "{imv:fahren Sie!}",
+       "{imv:sprechen Sie!}",
+       "{imv:arbeiten Sie!}"
+      ],
+      [
+       "wir",
+       "{imv:machen wir!}",
+       "{imv:fahren wir!}",
+       "{imv:sprechen wir!}",
+       "{imv:arbeiten wir!}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Details of the du form"
+   },
+   {
+    "ul": [
+     "The vowel change *e → i* stays: *du sprichst: {imv:sprich!}; du nimmst: {imv:nimm!}; du gibst: {imv:gib!}; du liest: {imv:lies!}; du isst: {imv:iss!}*.",
+     "The umlaut *a → ä* disappears: *du fährst: {imv:fahr!}; du läufst: {imv:lauf!}*.",
+     "The final *-e* is optional and usually dropped in speech: *{imv:Komm!}* or *{imv:Komme!}*.",
+     "The *-e* is required after *-t, -d, -ig* and after some consonant groups: *{imv:Arbeite!}, {imv:Finde!}, {imv:Entschuldige!}, {imv:Öffne!}*."
+    ]
+   },
+   {
+    "h": "Irregular verbs"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "du",
+      "ihr",
+      "Sie",
+      "wir"
+     ],
+     "rows": [
+      [
+       "sein",
+       "{imv:sei!}",
+       "{imv:seid!}",
+       "{imv:seien Sie!}",
+       "{imv:seien wir!}"
+      ],
+      [
+       "haben",
+       "{imv:hab(e)!}",
+       "{imv:habt!}",
+       "{imv:haben Sie!}",
+       "{imv:haben wir!}"
+      ],
+      [
+       "werden",
+       "{imv:werde!}",
+       "{imv:werdet!}",
+       "{imv:werden Sie!}",
+       "{imv:werden wir!}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "The negative"
+   },
+   "German needs no special form. Add *nicht*, normally after the verb and any object, or use *kein* with a noun.",
+   {
+    "table": {
+     "head": [
+      "",
+      "Affirmative",
+      "Negative"
+     ],
+     "rows": [
+      [
+       "du",
+       "{imv:Komm!}",
+       "{imv:Komm nicht!}"
+      ],
+      [
+       "ihr",
+       "{imv:Kommt!}",
+       "{imv:Kommt nicht!}"
+      ],
+      [
+       "Sie",
+       "{imv:Kommen Sie!}",
+       "{imv:Kommen Sie nicht!}"
+      ],
+      [
+       "wir",
+       "{imv:Kommen wir!}",
+       "{imv:Kommen wir nicht!}"
+      ]
+     ]
+    }
+   },
+   "With an object or complement: *{imv:Mach} das nicht! {imv:Kommen Sie} nicht zu spät! {imv:Mach} keinen Lärm!*",
+   {
+    "h": "Reflexive verbs"
+   },
+   "The reflexive pronoun comes straight after the verb, and after *Sie* or *wir* in those forms. *Nicht* follows the pronoun.",
+   {
+    "table": {
+     "head": [
+      "sich beeilen",
+      "Affirmative",
+      "Negative"
+     ],
+     "rows": [
+      [
+       "du",
+       "{imv:Beeil **dich**!}",
+       "{imv:Beeil **dich** nicht!}"
+      ],
+      [
+       "ihr",
+       "{imv:Beeilt **euch**!}",
+       "{imv:Beeilt **euch** nicht!}"
+      ],
+      [
+       "Sie",
+       "{imv:Beeilen Sie **sich**!}",
+       "{imv:Beeilen Sie **sich** nicht!}"
+      ],
+      [
+       "wir",
+       "{imv:Beeilen wir **uns**!}",
+       "{imv:Beeilen wir **uns** nicht!}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Separable verbs"
+   },
+   "The prefix goes to the end: *{imv:Steh} früh {imv:auf}! {imv:Macht} das Fenster {imv:zu}! {imv:Rufen Sie} mich {imv:an}!*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Commands: *{imv:Mach} die Tür {imv:zu}!*",
+     "Requests, softened with *bitte* or *mal*: *{imv:Geben Sie} mir bitte das Salz. {imv:Komm} mal her!*",
+     "Advice: *{imv:Ruh} dich aus!*",
+     "A question is often more polite: *{cop:Könnten} Sie die Tür schließen?*",
+     "Public notices often use the infinitive: *Nicht rauchen!*"
+    ]
+   }
+  ]
+ },
+ "konjunktiv_1": {
+  "title": "Konjunktiv I",
+  "style": "mood-double",
+  "summary": "The mood of reported speech, especially in news and formal writing.",
+  "body": [
+   {
+    "h": "What it is"
+   },
+   "The Konjunktiv I signals that you are repeating what someone else said, without vouching for it. It is not used like the Italian *congiuntivo* or the Spanish *subjuntivo*.",
+   {
+    "table": {
+     "head": [
+      "Time",
+      "Example",
+      "Refers to"
+     ],
+     "rows": [
+      [
+       "Gegenwart",
+       "{csp:er mache}",
+       "The same time as the reported statement"
+      ],
+      [
+       "Vergangenheit",
+       "{csa:er habe gemacht}",
+       "Earlier than the reported statement"
+      ],
+      [
+       "Zukunft",
+       "{fs:er werde machen}",
+       "Later than the reported statement"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "When a form is the same as the indicative"
+   },
+   "If the Konjunktiv I looks identical to the indicative, the Konjunktiv II is used so that the reported speech is still recognisable. This happens in *ich, wir* and *sie*: *Sie sagen, sie {cop:hätten} keine Zeit.*",
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "Indirect speech in news and formal texts: *Der Minister sagte, er {csp:sei} zufrieden.*",
+     "In everyday speech people often use the indicative or *würde* instead: *Er hat gesagt, er ist zufrieden.*",
+     "Set phrases and wishes: *Es {csp:lebe} die Freiheit! Gott {csp:sei} Dank!*"
+    ]
+   }
+  ]
+ },
+ "konjunktiv_1_gegenwart": {
+  "title": "Konjunktiv I: Gegenwart",
+  "style": "t-csp",
+  "summary": "Reporting what someone says is true at the time.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Remove *-en* and add *-e, -est, -e, -en, -et, -en*. Strong verbs keep the vowel of the infinitive. *Sein* is irregular.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen",
+      "fahren",
+      "haben",
+      "sein"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{csp:mach**e**}",
+       "{csp:fahr**e**}",
+       "{csp:hab**e**}",
+       "{csp:sei}"
+      ],
+      [
+       "du",
+       "{csp:mach**est**}",
+       "{csp:fahr**est**}",
+       "{csp:hab**est**}",
+       "{csp:sei(e)st}"
+      ],
+      [
+       "er / sie / es",
+       "{csp:mach**e**}",
+       "{csp:fahr**e**}",
+       "{csp:hab**e**}",
+       "{csp:sei}"
+      ],
+      [
+       "wir",
+       "{csp:mach**en**}",
+       "{csp:fahr**en**}",
+       "{csp:hab**en**}",
+       "{csp:seien}"
+      ],
+      [
+       "ihr",
+       "{csp:mach**et**}",
+       "{csp:fahr**et**}",
+       "{csp:hab**et**}",
+       "{csp:seiet}"
+      ],
+      [
+       "sie / Sie",
+       "{csp:mach**en**}",
+       "{csp:fahr**en**}",
+       "{csp:hab**en**}",
+       "{csp:seien}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   "In practice you will mostly see the third person singular and forms of *sein*, because the others often match the indicative.",
+   {
+    "ul": [
+     "*Sie sagt, sie {csp:habe} keine Zeit.*",
+     "*Der Sprecher erklärte, die Lage {csp:sei} ruhig.*",
+     "*Er behauptet, er {csp:wisse} nichts davon.*"
+    ]
+   }
+  ]
+ },
+ "konjunktiv_1_vergangenheit": {
+  "title": "Konjunktiv I: Vergangenheit",
+  "style": "t-csa",
+  "summary": "Reporting what someone says happened earlier.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the Konjunktiv I of *haben* or *sein* and the Partizip II. The choice of auxiliary is the same as in the Perfekt.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen (haben)",
+      "fahren (sein)"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{csa:habe ge**macht**}",
+       "{csa:sei ge**fahren**}"
+      ],
+      [
+       "du",
+       "{csa:habest ge**macht**}",
+       "{csa:sei(e)st ge**fahren**}"
+      ],
+      [
+       "er / sie / es",
+       "{csa:habe ge**macht**}",
+       "{csa:sei ge**fahren**}"
+      ],
+      [
+       "wir",
+       "{csa:haben ge**macht**}",
+       "{csa:seien ge**fahren**}"
+      ],
+      [
+       "ihr",
+       "{csa:habet ge**macht**}",
+       "{csa:seiet ge**fahren**}"
+      ],
+      [
+       "sie / Sie",
+       "{csa:haben ge**macht**}",
+       "{csa:seien ge**fahren**}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   "It replaces all three past tenses of the original statement. Where a form matches the indicative, use *hätte* or *wäre*.",
+   {
+    "ul": [
+     "*Er sagte, er {csa:habe} lange {csa:gearbeitet}.*",
+     "*Die Polizei teilte mit, der Täter {csa:sei geflohen}.*",
+     "*Sie sagen, sie {cpa:hätten} nichts {cpa:gesehen}.*"
+    ]
+   }
+  ]
+ },
+ "konjunktiv_1_zukunft": {
+  "title": "Konjunktiv I: Zukunft",
+  "style": "t-fs mood-double",
+  "summary": "Reporting what someone says will happen.",
+  "body": [
+   {
+    "h": "How it is formed"
+   },
+   "Use the Konjunktiv I of *werden* and the infinitive. Where a form matches the indicative, *würde* is used instead.",
+   {
+    "table": {
+     "head": [
+      "",
+      "machen"
+     ],
+     "rows": [
+      [
+       "ich",
+       "{fs:werde machen}"
+      ],
+      [
+       "du",
+       "{fs:werdest machen}"
+      ],
+      [
+       "er / sie / es",
+       "{fs:werde machen}"
+      ],
+      [
+       "wir",
+       "{fs:werden machen}"
+      ],
+      [
+       "ihr",
+       "{fs:werdet machen}"
+      ],
+      [
+       "sie / Sie",
+       "{fs:werden machen}"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How it is used"
+   },
+   {
+    "ul": [
+     "*Er sagte, er {fs:werde} morgen {fs:kommen}.*",
+     "*Die Regierung erklärte, sie {fs:werde} die Steuern {fs:senken}.*",
+     "*Sie sagten, sie {cop:würden} bald {cop:kommen}.*"
+    ]
+   }
+  ]
+ }
+}

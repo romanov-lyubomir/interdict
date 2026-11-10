@@ -177,6 +177,17 @@ with open(os.path.join(DATA_DIR, "moods_across_languages.json"), encoding="utf-8
     MOODS_ACROSS_LANGUAGES = json.load(across_file)
 
 
+def load_tense_articles(lang):
+    path = os.path.join(DATA_DIR, lang, "tense_articles.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as articles_file:
+        return json.load(articles_file)
+
+
+TENSE_ARTICLES = {lang: load_tense_articles(lang) for lang in LANGUAGES}
+
+
 class User(UserMixin, db.Model):
     __tablename__ = "users"
     id = db.Column(db.Integer, primary_key=True, nullable=False)
@@ -280,7 +291,7 @@ def plain(text):
 @app.template_filter("rich")
 def rich(text):
     # Turns {tag:form} into a verb in its tense's style, **text** into
-    # underlined text and *text* into italics
+    # highlighted text and *text* into italics
     tensed = TENSE_MARK.sub(r'<span class="t-\1">\2</span>', str(escape(text)))
     underlined = re.sub(r"\*\*(.+?)\*\*", r"<u>\1</u>", tensed)
     return Markup(re.sub(r"\*(.+?)\*", r"<i>\1</i>", underlined))
@@ -359,6 +370,15 @@ def cheat_sheets():
         across=MOODS_ACROSS_LANGUAGES,
         current_user=current_user,
     )
+
+
+@app.route("/cheat_sheets/<slug>")
+@language_required
+def tense_article(slug):
+    article = TENSE_ARTICLES.get(get_lang(), {}).get(slug)
+    if article is None:
+        abort(404)
+    return render_template("tense_article.html", article=article, current_user=current_user)
 
 
 @app.route("/lessons")
