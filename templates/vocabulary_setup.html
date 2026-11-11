@@ -53,6 +53,18 @@
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
         <p class="hint">{{ hint }}</p>
 
+        <fieldset>
+            <legend>Mode</legend>
+            <div class="quiz-length">
+                {% for mode, label in quiz_modes %}
+                <label>
+                    <input type="radio" name="mode" value="{{ mode }}" {% if mode == selected_mode %}checked{% endif %}>
+                    <span>{{ label }}</span>
+                </label>
+                {% endfor %}
+            </div>
+        </fieldset>
+
         {% include "quiz_length.html" %}
 
         <div class="center">

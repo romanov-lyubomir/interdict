@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block imports %}
+{% endblock %}
+
+{% block css %}
+<style>
+    .search-page {
+        width: min(760px, calc(100vw - 32px));
+        margin: 28px auto 40px;
+    }
+
+    .search-page h1 {
+        margin-bottom: 4px;
+        font-size: 26px;
+    }
+
+    .search-page .count {
+        margin-bottom: 18px;
+        color: var(--muted);
+    }
+
+    .search-page .search-result {
+        margin: 0 0 10px;
+        padding: 14px 18px;
+    }
+
+    .search-page .search-result:hover {
+        border-color: var(--border-strong);
+        background-color: var(--surface-2);
+    }
+
+    .search-page .search-result .snippet {
+        margin-top: 4px;
+        font-size: 15px;
+    }
+
+    .pagination {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        margin-top: 22px;
+    }
+
+    .pagination a,
+    .pagination span {
+        min-width: 38px;
+        padding: 7px 10px;
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .pagination a:hover {
+        color: var(--text);
+        border-color: var(--accent);
+        text-decoration: none;
+    }
+
+    .pagination .current {
+        color: var(--text);
+        border-color: var(--accent);
+        background-color: var(--accent-soft);
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="search-page">
+    <h1>Search results</h1>
+    {% if query %}
+    <p class="count">{{ total }} result{{ "" if total == 1 else "s" }} in the lessons and stories for «{{ query }}»{% if pages > 1 %} · page {{ page }} of {{ pages }}{% endif %}</p>
+    {% else %}
+    <p class="count">Type a word or a phrase in the search box above.</p>
+    {% endif %}
+
+    {% if verbs %}
+    <div class="search-group">Verbs</div>
+    {% for verb in verbs %}
+    <a class="container shadow search-result verb-result" href="{{ verb.url }}">
+        <span class="where"><span class="kind kind-verb">Verb</span>{{ verb.infinitive }}</span>
+        <span class="snippet">{{ verb.detail or "All the forms, tense by tense" }}</span>
+    </a>
+    {% endfor %}
+    {% if results %}<div class="search-group">Lessons and stories</div>{% endif %}
+    {% endif %}
+
+    {% for item in results %}
+    <a class="container shadow search-result" href="{{ item.url }}">
+        <span class="where">{{ item.title }} · {{ item.where }}</span>
+        <span class="snippet">{{ item.snippet }}</span>
+    </a>
+    {% endfor %}
+
+    {% if pages > 1 %}
+    <div class="pagination" role="navigation" aria-label="Pages">
+        {% if page > 1 %}<a href="{{ url_for('search_results', q=query, page=page - 1) }}" aria-label="Previous page">&larr;</a>{% endif %}
+        {% for number in range(1, pages + 1) %}
+        {% if number == page %}
+        <span class="current" aria-current="page">{{ number }}</span>
+        {% elif number == 1 or number == pages or (number - page) | abs <= 2 %}
+        <a href="{{ url_for('search_results', q=query, page=number) }}">{{ number }}</a>
+        {% elif (number - page) | abs == 3 %}
+        <span>…</span>
+        {% endif %}
+        {% endfor %}
+        {% if page < pages %}<a href="{{ url_for('search_results', q=query, page=page + 1) }}" aria-label="Next page">&rarr;</a>{% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

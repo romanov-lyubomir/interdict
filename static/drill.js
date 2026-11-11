@@ -2,12 +2,13 @@
 // without reloading the page.
 //
 // The page passes showQuestion(question), which fills in a new question,
-// and audioUrl, the recording for the question shown on load.
+// audioUrl, the recording for the question shown on load, and optionally
+// onResult(result), called after each checked answer.
 
 // Played on a wrong answer; resolved next to this script so it works under any static path
 const INCORRECT_SOUND_URL = new URL("sounds/incorrect.mp3", document.currentScript.src).href;
 
-function setupDrill({ showQuestion, audioUrl }) {
+function setupDrill({ showQuestion, audioUrl, onResult }) {
     const incorrectSound = new Audio(INCORRECT_SOUND_URL);
     const form = document.getElementById("drillForm");
     const input = document.getElementById("inputField");
@@ -45,6 +46,9 @@ function setupDrill({ showQuestion, audioUrl }) {
         answerLine.classList.toggle("wrong", !result.correct);
         answer.textContent = result.answer;
         answer.className = "correct-answer " + (result.gender || "");
+        if (onResult) {
+            onResult(result);
+        }
     };
 
     // Calls done() once the recording has finished, or soon if it can't play

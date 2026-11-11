@@ -353,7 +353,7 @@
             <p>Translate everyday words, together with their article, and hear how they sound.</p>
             <ul class="lesson-list">
                 {% for topic in topics %}
-                <li><a href="{{ url_for('vocabulary_for_topic', topic=topic) }}">
+                <li><a href="{{ url_for('topic_words', topic=topic) }}">
                     <span class="topic hover-arrow">
                         <img src="{{ url_for('static', filename='icons/vocabulary/' + topic + '.png') }}" alt="">
                         <span class="topic-name">{{ topic | format }}</span>

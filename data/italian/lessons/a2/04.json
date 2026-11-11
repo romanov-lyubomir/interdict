@@ -1,199 +1,225 @@
 {
-  "title": "Le {ip:telefono}: {ip:voglio} aiutarla",
-  "translation": "I'm phoning her: I want to help her",
-  "topics": "Direct and indirect object pronouns, pronouns with infinitives and modal verbs",
+  "title": "{pp:Ci siamo} proprio {pp:divertiti}!",
+  "translation": "",
+  "topics": "I verbi riflessivi al [pp:passato prossimo], il pronome relativo *che*, i pronomi diretti con il [pp:passato prossimo], *quello* e *bello*, il tempo libero, lo shopping e la chat",
   "grammar": {
     "explain": [
+      "Raccontare il tempo libero: che cosa hai fatto, dove ti sei divertito, che cosa hai comprato. In questa lezione unisci le frasi con *che* e descrivi le cose con *quello* e *bello*.",
       {
-        "h": "Direct or indirect?"
-      },
-      "Look at the question the verb answers. *Whom? What?* needs a direct pronoun: *{ip:Conosco} Luca → Lo {ip:conosco}*. *To whom?*, with the preposition *a* in front of the person, needs an indirect one: *{ip:Telefono} a Luca → Gli {ip:telefono}*.",
-      "The two sets are identical except in the third person, so that is the only part you have to learn.",
-      {
-        "table": {
-          "head": [
-            "Person",
-            "Direct: whom?",
-            "Indirect: to whom?"
-          ],
-          "rows": [
-            [
-              "me",
-              "mi",
-              "mi"
-            ],
-            [
-              "you",
-              "ti",
-              "ti"
-            ],
-            [
-              "him",
-              "**lo**",
-              "**gli**"
-            ],
-            [
-              "her",
-              "**la**",
-              "**le**"
-            ],
-            [
-              "us",
-              "ci",
-              "ci"
-            ],
-            [
-              "you (plural)",
-              "vi",
-              "vi"
-            ],
-            [
-              "them (masc.)",
-              "**li**",
-              "**gli**"
-            ],
-            [
-              "them (fem.)",
-              "**le**",
-              "**gli**"
+        "grid": [
+          {
+            "table": {
+              "title": "I verbi riflessivi al [pp:passato prossimo]",
+              "head": [
+                "",
+                "maschile",
+                "femminile"
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{pp:mi sono alzat**o**}",
+                  "{pp:mi sono alzat**a**}"
+                ],
+                [
+                  "tu",
+                  "{pp:ti sei alzat**o**}",
+                  "{pp:ti sei alzat**a**}"
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{pp:si è alzat**o**}",
+                  "{pp:si è alzat**a**}"
+                ],
+                [
+                  "noi",
+                  "{pp:ci siamo alzat**i**}",
+                  "{pp:ci siamo alzat**e**}"
+                ],
+                [
+                  "voi",
+                  "{pp:vi siete alzat**i**}",
+                  "{pp:vi siete alzat**e**}"
+                ],
+                [
+                  "loro",
+                  "{pp:si sono alzat**i**}",
+                  "{pp:si sono alzat**e**}"
+                ]
+              ]
+            },
+            "note": "I verbi riflessivi prendono sempre *essere*, quindi il participio si accorda con il soggetto. Il pronome *mi, ti, si…* va prima dell'ausiliare: *mi sono alzata*."
+          },
+          {
+            "table": {
+              "title": "I pronomi diretti con il [pp:passato prossimo]",
+              "rows": [
+                [
+                  "Marco {pp:ha visto} un bel **cappello** e **l'**{pp:ha comprat**o**}."
+                ],
+                [
+                  "Sara {pp:ha visto} dei begli **stivali** e **li** {pp:ha comprat**i**}."
+                ],
+                [
+                  "Marco {pp:ha visto} una bella **borsa** e **l'**{pp:ha comprat**a**}."
+                ],
+                [
+                  "Sara {pp:ha visto} delle belle **gonne** e **le** {pp:ha comprat**e**}."
+                ]
+              ]
+            },
+            "note": "Con *lo, la, li, le* prima dell'ausiliare, il participio si accorda con il pronome. *Lo* e *la* davanti ad *ha, ho…* diventano *l'*: *l'ha comprato, l'ha comprata*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il pronome relativo *che*",
+              "rows": [
+                [
+                  "{ip:Ho} una collega, Elena. **Elena** {ip:parla} tre lingue.",
+                  "{ip:Ho} una collega, Elena, **che** {ip:parla} tre lingue."
+                ],
+                [
+                  "Stasera c'{ip:è} un concerto. **Il concerto** {ip:comincia} alle nove.",
+                  "Stasera c'{ip:è} un concerto **che** {ip:comincia} alle nove."
+                ],
+                [
+                  "{ip:Leggo} un libro. {pp:Ho comprato} **il libro** ieri.",
+                  "{ip:Leggo} un libro **che** {pp:ho comprato} ieri."
+                ],
+                [
+                  "Ti {ip:piace} la giacca? {pp:Ho scelto} **la giacca** per te.",
+                  "Ti {ip:piace} la giacca **che** {pp:ho scelto} per te?"
+                ]
+              ]
+            },
+            "note": "*Che* unisce due frasi e prende il posto di un nome già detto, per non ripeterlo. Può essere il soggetto (*una collega che parla*) o l'oggetto (*un libro che ho comprato*). Non cambia mai."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Gli aggettivi *quello* e *bello*",
+              "rows": [
+                [
+                  "Il cappello",
+                  "Quale, **quel** cappello nero?",
+                  "Che **bel** cappello!"
+                ],
+                [
+                  "L'anello",
+                  "Quale, **quell'**anello d'argento?",
+                  "Che **bell'**anello!"
+                ],
+                [
+                  "I guanti",
+                  "Quali, **quei** guanti di lana?",
+                  "Che **bei** guanti!"
+                ],
+                [
+                  "Lo zaino",
+                  "Quale, **quello** zaino rosso?",
+                  "Che **bello** zaino!"
+                ],
+                [
+                  "Gli stivali",
+                  "Quali, **quegli** stivali marroni?",
+                  "Che **begli** stivali!"
+                ],
+                [
+                  "La borsa",
+                  "Quale, **quella** borsa in vetrina?",
+                  "Che **bella** borsa!"
+                ],
+                [
+                  "Le scarpe",
+                  "Quali, **quelle** scarpe a sinistra?",
+                  "Che **belle** scarpe!"
+                ]
+              ]
+            },
+            "note": [
+              "Prima del nome *quello* e *bello* cambiano come l'articolo determinativo: il → **quel / bel**, l' → **quell' / bell'**, lo → **quello / bello**, i → **quei / bei**, gli → **quegli / begli**, la → **quella / bella**, le → **quelle / belle**.",
+              "Dopo il nome o da soli sono aggettivi normali: *Quel cappello {ip:è} bello. Quale vuoi? Quello.*"
             ]
-          ]
-        }
-      },
-      "Common verbs with an indirect person: *telefonare a, parlare a, scrivere a, dire a, dare a, regalare a, chiedere a, rispondere a*.",
-      {
-        "h": "Where the pronoun goes"
-      },
-      "It normally stands right before the verb: *Le {ip:telefono} stasera. Non lo {ip:conosco}.*",
-      "With an infinitive, it attaches to the end, and the infinitive loses its final *-e*: *comprare + lo → comprarlo*.",
-      "With *potere, volere* and *dovere* you may choose: the two versions mean exactly the same.",
-      {
-        "table": {
-          "head": [
-            "Before the modal",
-            "After the infinitive"
-          ],
-          "rows": [
-            [
-              "**Lo** {ip:voglio} comprare.",
-              "{ip:Voglio} comprar**lo**."
-            ],
-            [
-              "**Ti** {ip:posso} aiutare.",
-              "{ip:Posso} aiutar**ti**."
-            ],
-            [
-              "**Gli** {ip:devo} telefonare.",
-              "{ip:Devo} telefonar**gli**."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "In the [pp:passato prossimo]"
-      },
-      "Direct pronouns *lo, la, li, le* make the participle agree with them, as if it were an adjective. *Lo* and *la* become *l'* before the auxiliary. Indirect pronouns change nothing.",
-      {
-        "table": {
-          "head": [
-            "Pronoun",
-            "Example"
-          ],
-          "rows": [
-            [
-              "lo",
-              "L'{pp:ho vist**o**}."
-            ],
-            [
-              "la",
-              "L'{pp:ho vist**a**}."
-            ],
-            [
-              "li",
-              "Li {pp:ho vist**i**}."
-            ],
-            [
-              "le",
-              "Le {pp:ho vist**e**}."
-            ],
-            [
-              "gli / le (indirect)",
-              "Le {pp:ho telefonato}."
-            ]
-          ]
-        }
+          }
+        ]
       }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "choice",
-        "prompt": "Choose the right pronoun.",
+        "type": "gap",
+        "prompt": "Scrivi il verbo riflessivo al [pp:passato prossimo].",
+        "questions": [
+          "Ieri Marco [[si è alzato#pp]] tardi. (alzarsi)",
+          "Anna, a che ora [[ti sei svegliata#pp]]? (svegliarsi)",
+          "Luca e io [[ci siamo divertiti#pp]] alla festa. (divertirsi)",
+          "Le ragazze [[si sono incontrate#pp]] al bar. (incontrarsi)",
+          "Io, Sara, [[mi sono riposata#pp]] tutto il giorno. (riposarsi)",
+          "Paolo e Marco, [[vi siete annoiati#pp]]? (annoiarsi)"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Unisci le due frasi con *che*.",
         "questions": [
           {
-            "q": "{ip:Conosco} Marco. ___ {ip:conosco}.",
-            "options": [
-              "*Lo",
-              "Gli"
+            "q": "{pp:Ho visto} un film. Il film {pp:ha vinto} l'Oscar.",
+            "a": [
+              "Ho visto un film che ha vinto l'Oscar."
             ]
           },
           {
-            "q": "{ip:Telefono} a Marco. ___ {ip:telefono}.",
-            "options": [
-              "Lo",
-              "*Gli"
+            "q": "{ip:Ho} un amico. L'amico {ip:abita} a Parigi.",
+            "a": [
+              "Ho un amico che abita a Parigi."
             ]
           },
           {
-            "q": "{ip:Telefono} ad Anna. ___ {ip:telefono}.",
-            "options": [
-              "La",
-              "*Le"
+            "q": "Ti {ip:piace} la torta? {pp:Ho fatto} la torta.",
+            "a": [
+              "Ti piace la torta che ho fatto?"
             ]
           },
           {
-            "q": "{ip:Vedo} Anna. ___ {ip:vedo}.",
-            "options": [
-              "*La",
-              "Le"
+            "q": "{ip:Conosco} una ragazza. La ragazza {ip:lavora} in un negozio.",
+            "a": [
+              "Conosco una ragazza che lavora in un negozio."
             ]
           },
           {
-            "q": "{ip:Scrivo} ai miei amici. ___ {ip:scrivo}.",
-            "options": [
-              "Li",
-              "*Gli"
-            ]
-          },
-          {
-            "q": "{ip:Compro} le mele. ___ {ip:compro}.",
-            "options": [
-              "*Le",
-              "Gli"
+            "q": "Dov'{ip:è} il libro? {pp:Ho comprato} il libro ieri.",
+            "a": [
+              "Dov'è il libro che ho comprato ieri?",
+              "Dove è il libro che ho comprato ieri?"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Rewrite with the pronoun attached to the infinitive.",
+        "prompt": "Rispondi con il pronome e il participio giusto.",
         "questions": [
-          "Lo {ip:voglio} comprare. → {ip:Voglio} [[comprarlo]].",
-          "Ti {ip:posso} aiutare. → {ip:Posso} [[aiutarti]].",
-          "Le {ip:devo} telefonare. → {ip:Devo} [[telefonarle]].",
-          "La {ip:vogliamo} invitare. → {ip:Vogliamo} [[invitarla]]."
+          "{pp:Hai visto} la borsa? Sì, [[l']]{pp:ho} [[vista#pp]].",
+          "{pp:Hai comprato} i biglietti? Sì, [[li]] {pp:ho} [[comprati#pp]].",
+          "{pp:Hai letto} le riviste? Sì, [[le]] {pp:ho} [[lette#pp]].",
+          "{pp:Hai fatto} il caffè? Sì, [[l']]{pp:ho} [[fatto#pp]].",
+          "{pp:Hai chiamato} Sara? No, non [[l']]{pp:ho} [[chiamata#pp]]."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete the participle.",
+        "prompt": "Completa con la forma giusta di quello o bello.",
         "questions": [
-          "{pp:Hai visto} Anna? Sì, l'{pp:ho} [[vista#pp]].",
-          "{pp:Hai comprato} il pane? Sì, l'{pp:ho} [[comprato#pp]].",
-          "{pp:Hai preso} le chiavi? Sì, le {pp:ho} [[prese#pp]].",
-          "{pp:Hai letto} i libri? Sì, li {pp:ho} [[letti#pp]].",
-          "{pp:Hai telefonato} a Sara? Sì, le {pp:ho} [[telefonato#pp]]."
+          "Quale cappello? [[Quel]] cappello nero.",
+          "Che [[begli]] stivali!",
+          "Ti {ip:piace} [[quello]] zaino?",
+          "Che [[bell']]anello!",
+          "[[Quei]] guanti {ip:sono} cari.",
+          "Che [[belle]] scarpe!",
+          "Che [[bella]] galleria!",
+          "Quale borsa {ip:vuoi}? [[Quella]] in vetrina."
         ]
       }
     ]
@@ -201,135 +227,197 @@
   "vocabulary": {
     "words": [
       [
+        "il tempo libero",
+        "le ore senza lavoro né scuola"
+      ],
+      [
+        "il passatempo",
+        "una cosa che fai per piacere nel tempo libero"
+      ],
+      [
+        "divertirsi",
+        "passare un momento allegro"
+      ],
+      [
+        "annoiarsi",
+        "il contrario di divertirsi"
+      ],
+      [
+        "rilassarsi",
+        "riposarsi senza pensieri"
+      ],
+      [
+        "incontrarsi",
+        "vedersi con qualcuno"
+      ],
+      [
+        "darsi un appuntamento",
+        "decidere dove e quando vedersi"
+      ],
+      [
+        "chattare",
+        "scrivere messaggi su internet"
+      ],
+      [
         "il messaggio",
-        "message"
+        "un testo breve che mandi con il telefono"
       ],
       [
-        "il regalo",
-        "present"
+        "il centro commerciale",
+        "un grande edificio con molti negozi"
       ],
       [
-        "la risposta",
-        "answer"
+        "la vetrina",
+        "la finestra di un negozio con la merce"
       ],
       [
-        "il consiglio",
-        "advice"
+        "gli orecchini",
+        "gioielli per le orecchie"
       ],
       [
-        "il favore",
-        "favour"
+        "l'anello",
+        "un gioiello per il dito"
       ],
       [
-        "conoscere",
-        "to know (a person)"
+        "i guanti",
+        "li metti alle mani quando fa freddo"
       ],
       [
-        "aiutare",
-        "to help"
+        "il locale",
+        "un bar, un pub o una discoteca"
       ],
       [
-        "regalare",
-        "to give as a present"
+        "lo spettacolo",
+        "un concerto, una partita o una commedia da guardare"
       ],
       [
-        "chiedere",
-        "to ask"
+        "il sondaggio",
+        "molte domande a molte persone per sapere che cosa pensano"
       ],
       [
-        "rispondere",
-        "to answer"
+        "la percentuale",
+        "quante persone su cento, con il segno %"
       ],
       [
-        "prestare",
-        "to lend"
+        "avere voglia di",
+        "desiderare di fare qualcosa"
       ],
       [
-        "mandare",
-        "to send"
+        "dispiacere",
+        "essere triste per qualcosa"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il consiglio",
-            "advice"
+            "il passatempo",
+            "una cosa che fai per piacere nel tempo libero"
           ],
           [
-            "il favore",
-            "favour"
+            "annoiarsi",
+            "il contrario di divertirsi"
           ],
           [
-            "conoscere",
-            "to know (a person)"
+            "chattare",
+            "scrivere messaggi su internet"
           ],
           [
-            "regalare",
-            "to give as a present"
+            "la vetrina",
+            "la finestra di un negozio con la merce"
           ],
           [
-            "prestare",
-            "to lend"
+            "gli orecchini",
+            "gioielli per le orecchie"
           ],
           [
-            "mandare",
-            "to send"
+            "il sondaggio",
+            "molte domande a molte persone per sapere che cosa pensano"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Ti {pp:ho mandato} un [[messaggio]]. (message)",
-          "Mi {ip:fai} un [[favore]]? (favour)",
-          "Non {pp:ho ricevuto} una [[risposta]]. (answer)",
-          "Mi {ip:puoi} [[aiutare]]? (to help)"
+          "Sabato {ip:andiamo} al centro [[commerciale]] a fare shopping.",
+          "Stasera non {ip:esco}: non {ip:ho} [[voglia]] di vedere nessuno.",
+          "Mi {pp:è} proprio [[dispiaciuto]] non venire alla festa.",
+          "Fa freddo: {ip:metto} i [[guanti]].",
+          "Il 40% {ip:è} una [[percentuale]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Domenica {ip:è} il compleanno di Rosa, mia sorella. {ip:Voglio} regalarle qualcosa di speciale, ma non {ip:so} che cosa. Ieri {pp:ho telefonato} a Pietro, suo marito, e gli {pp:ho chiesto} un consiglio.",
-      "Lui mi {pp:ha detto}: «Le {ip:piacciono} i libri di cucina. Ne {pp:ho visto} uno bellissimo in centro. {ip:Puoi} comprarlo lì.» Oggi l'{pp:ho comprato} e l'{pp:ho nascosto} nell'armadio. Rosa non lo {ip:sa} ancora!"
+      {
+        "h": "Come passano il tempo libero gli studenti?"
+      },
+      "Una scuola di lingue di Bologna {pp:ha fatto} un piccolo sondaggio tra i suoi duemila studenti. Ai primi posti per i **ragazzi** ci {ip:sono} lo sport (42,5%), i videogiochi (36,2%) e il cinema (24,8%).",
+      "Le **ragazze** {ip:preferiscono} il cinema (39,1%), lo shopping (27,6%) e i concerti (18,3%). La grande differenza tra ragazzi e ragazze {ip:è} lo **sport**. Il cinema invece {ip:piace} a tutti.",
+      "I **social network** {ip:battono} la lettura: solo il 31,4% degli studenti {ip:legge} libri, mentre il 92,7% {ip:passa} almeno un'ora al giorno in chat.",
+      "Anche **mangiare fuori** {ip:piace} molto: circa 1.200 studenti su 2.000 {ip:vanno} in pizzeria almeno una volta alla settimana."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "It is Rosa's birthday on Sunday.",
+            "q": "I ragazzi {ip:preferiscono} lo sport al cinema.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "The speaker asked Pietro for advice.",
+            "q": "Alle ragazze {ip:piace} lo sport più di ogni altra cosa.",
             "options": [
-              "*True",
-              "False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "The present is a cookbook.",
+            "q": "Il cinema {ip:piace} sia ai ragazzi sia alle ragazze.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Rosa knows about the present.",
+            "q": "Gli studenti {ip:leggono} più di quanto {ip:chattano}.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Agli studenti non {ip:piace} mangiare fuori.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Più della metà degli studenti {ip:va} in pizzeria ogni settimana.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Cerca nel testo i numeri e le percentuali.",
+        "questions": [
+          "il quarantadue virgola cinque per cento = il [[42,5%|42,5 %]]",
+          "il diciotto virgola tre per cento = il [[18,3%|18,3 %]]",
+          "il novantadue virgola sette per cento = il [[92,7%|92,7 %]]",
+          "milleduecento = [[1.200|1200]]"
         ]
       }
     ]
@@ -337,51 +425,75 @@
   "listening": {
     "transcript": [
       [
-        "Carla",
-        "{pp:Hai visto} Giulia oggi?"
+        "Giulia",
+        "Ehi, ci 6?"
       ],
       [
-        "Marco",
-        "No, non l'{pp:ho vista}. Perché?"
+        "Marta",
+        "Sì, ciao! Che cosa {pp:hai fatto} di bello ieri?"
       ],
       [
-        "Carla",
-        "{ip:Devo} parlarle. {ip:Puoi} telefonarle tu?"
+        "Giulia",
+        "{pp:Sono uscita} con Paolo e {pp:ci siamo divertiti} un sacco. {pp:Siamo andati} al centro commerciale nuovo: che belle vetrine!"
       ],
       [
-        "Marco",
-        "Le {pp:ho} già {pp:telefonato}, ma non {ip:risponde}."
+        "Marta",
+        "E {pp:hai comprato} qualcosa?"
       ],
       [
-        "Carla",
-        "Allora le {ip:mando} un messaggio."
+        "Giulia",
+        "Sì, {pp:ho visto} degli orecchini che mi {im:piacevano} tanto e li {pp:ho comprati}."
       ],
       [
-        "Marco",
-        "Sì, e se {ip:vuoi} {ip:posso} aiutarti."
+        "Marta",
+        "Che bello! Senti, {ip:vieni} con me al cinema sabato?"
+      ],
+      [
+        "Giulia",
+        "Sabato no, non {ip:ho} voglia… troppa confusione. Domenica?"
+      ],
+      [
+        "Marta",
+        "Va bene, ci {ip:sentiamo} più tardi in chat!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "No, non l'{pp:ho} [[vista#pp]].",
-          "{ip:Devo} [[parlarle]].",
-          "[[Le]] {pp:ho} già {pp:telefonato}.",
-          "Se {ip:vuoi} {ip:posso} [[aiutarti]]."
+          "[[Sono uscita#pp]] con Paolo e [[ci siamo divertiti#pp]] un sacco.",
+          "Che [[belle]] vetrine!",
+          "{pp:Ho visto} degli orecchini [[che]] mi {im:piacevano} tanto e [[li]] {pp:ho} [[comprati#pp]].",
+          "Sabato no, non {ip:ho} [[voglia]]…"
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does Carla decide to do?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Carla is going to…",
+            "q": "Dove {pp:sono andati} Giulia e Paolo?",
             "options": [
-              "*send Giulia a message",
-              "go to Giulia's house",
-              "wait until tomorrow"
+              "al cinema",
+              "*al centro commerciale",
+              "in pizzeria"
+            ]
+          },
+          {
+            "q": "Che cosa {pp:ha comprato} Giulia?",
+            "options": [
+              "un anello",
+              "una borsa",
+              "*degli orecchini"
+            ]
+          },
+          {
+            "q": "Perché Giulia non {ip:va} al cinema sabato?",
+            "options": [
+              "perché lavora",
+              "*perché c'è troppa confusione",
+              "perché non le piace il film"
             ]
           }
         ]
@@ -392,41 +504,60 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Che cosa {ip:scrivi} in chat? Scrivi la frase.",
         "questions": [
           {
-            "q": "I know him.",
+            "q": "{ip:Racconti} il tuo sabato: (io) andare al cinema con Luca e divertirsi molto.",
             "a": [
-              "Lo conosco.",
-              "Io lo conosco."
+              "Sono andato al cinema con Luca e mi sono divertito molto.",
+              "Sono andata al cinema con Luca e mi sono divertita molto."
             ]
           },
           {
-            "q": "I'm phoning her.",
+            "q": "{ip:Inviti} un'amica al centro commerciale sabato.",
             "a": [
-              "Le telefono.",
-              "Io le telefono."
+              "Vieni con me al centro commerciale sabato?",
+              "Vuoi venire con me al centro commerciale sabato?",
+              "Vieni al centro commerciale con me sabato?",
+              "Sabato vieni con me al centro commerciale?"
             ]
           },
           {
-            "q": "I want to buy it. (masculine thing)",
+            "q": "{ip:Rifiuti} l'invito: non {ip:hai} voglia.",
             "a": [
-              "Voglio comprarlo.",
-              "Lo voglio comprare."
+              "No, non ho voglia.",
+              "No, grazie, non ho voglia.",
+              "Non ho voglia."
             ]
           },
           {
-            "q": "Can I help you? (informal)",
+            "q": "{ip:Dici} che la galleria {ip:è} molto bella.",
             "a": [
-              "Posso aiutarti?",
-              "Ti posso aiutare?"
+              "Che bella galleria!"
             ]
           },
           {
-            "q": "I saw her yesterday.",
+            "q": "{ip:Chiedi} a Sara dove {pp:ha comprato} gli orecchini, con il pronome.",
             "a": [
-              "L'ho vista ieri.",
-              "Ieri l'ho vista."
+              "Dove li hai comprati?"
+            ]
+          },
+          {
+            "q": "Sara {ip:risponde}: nel negozio di Anna.",
+            "a": [
+              "Li ho comprati nel negozio di Anna.",
+              "Li ho presi nel negozio di Anna.",
+              "Nel negozio di Anna."
+            ]
+          },
+          {
+            "q": "{ip:Dici} a un amico che sei triste perché non {pp:sei venuto} alla festa.",
+            "a": [
+              "Mi è dispiaciuto non venire alla festa.",
+              "Mi è proprio dispiaciuto non venire.",
+              "Mi è dispiaciuto non venire.",
+              "Mi dispiace non essere venuto alla festa.",
+              "Mi dispiace non essere venuta alla festa."
             ]
           }
         ]

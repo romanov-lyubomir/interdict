@@ -1,168 +1,244 @@
 {
-  "title": "Mi {pp:sono svegliata} presto: {ip:lavoro} qui da un anno",
-  "translation": "I woke up early: I've been working here for a year",
-  "topics": "Reflexive verbs in the past, expressing duration and frequency with da, per, fino a",
+  "title": "Che cosa {ip:stai cucinando}?",
+  "translation": "",
+  "topics": "L'articolo partitivo, *stare* + gerundio, gli aggettivi indefiniti e gli avverbi di quantità, la particella *ne*, la cucina e le ricette",
   "grammar": {
     "explain": [
+      "In cucina: come dire quanto ne serve, che cosa stai facendo in questo momento e come si prepara un piatto.",
       {
-        "h": "Reflexive verbs in the past"
-      },
-      "Reflexive verbs always take *essere* in the [pp:passato prossimo], so the participle agrees with the subject. The pronoun stays in front of the auxiliary.",
-      {
-        "table": {
-          "head": [
-            "",
-            "A man",
-            "A woman"
-          ],
-          "rows": [
-            [
-              "io",
-              "mi {pp:sono svegliat**o**}",
-              "mi {pp:sono svegliat**a**}"
-            ],
-            [
-              "tu",
-              "ti {pp:sei svegliat**o**}",
-              "ti {pp:sei svegliat**a**}"
-            ],
-            [
-              "lui / lei",
-              "si {pp:è svegliat**o**}",
-              "si {pp:è svegliat**a**}"
-            ],
-            [
-              "noi",
-              "ci {pp:siamo svegliat**i**}",
-              "ci {pp:siamo svegliat**e**}"
-            ],
-            [
-              "voi",
-              "vi {pp:siete svegliat**i**}",
-              "vi {pp:siete svegliat**e**}"
-            ],
-            [
-              "loro",
-              "si {pp:sono svegliat**i**}",
-              "si {pp:sono svegliat**e**}"
+        "grid": [
+          {
+            "table": {
+              "title": "L'articolo partitivo",
+              "nowrap": true,
+              "rows": [
+                [
+                  "Un po' di burro",
+                  "= **del** (*di* + *il*) burro"
+                ],
+                [
+                  "Un po' di yogurt",
+                  "= **dello** (*di* + *lo*) yogurt"
+                ],
+                [
+                  "Un po' di aceto",
+                  "= **dell'** (*di* + *l'*) aceto"
+                ],
+                [
+                  "Un po' di pomodori",
+                  "= **dei** (*di* + *i*) pomodori"
+                ],
+                [
+                  "Un po' di spinaci",
+                  "= **degli** (*di* + *gli*) spinaci"
+                ],
+                [
+                  "Un po' di panna",
+                  "= **della** (*di* + *la*) panna"
+                ],
+                [
+                  "Un po' di insalata",
+                  "= **dell'** (*di* + *l'*) insalata"
+                ],
+                [
+                  "Un po' di olive",
+                  "= **delle** (*di* + *le*) olive"
+                ]
+              ]
+            },
+            "note": "Il partitivo vuol dire *un po' di* o *alcuni*: *di* si unisce all'articolo determinativo, come *a* e *da*. Nelle frasi negative di solito non si usa: *non {ip:ho} pane*."
+          },
+          {
+            "table": {
+              "title": "Gli aggettivi indefiniti e gli avverbi di quantità",
+              "head": [
+                "aggettivi",
+                "avverbi"
+              ],
+              "rows": [
+                [
+                  "{pp:Hai messo} **troppo** sale.",
+                  "{pp:Hai mangiato} **troppo**."
+                ],
+                [
+                  "{pp:Ho comprato} **molti** pomodori.",
+                  "Mi {ip:piace} **molto** cucinare."
+                ],
+                [
+                  "C'{ip:è} **poca** pasta.",
+                  "Marta {ip:mangia} **poco**."
+                ],
+                [
+                  "Stasera {ip:abbiamo} **tanti** ospiti.",
+                  "Oggi {pp:abbiamo lavorato} **tanto**."
+                ]
+              ]
+            },
+            "note": [
+              "Con un nome *troppo, molto, poco, tanto* sono aggettivi e si accordano: *troppa carne, molti pomodori, poca pasta, tanti ospiti*.",
+              "Con un verbo sono avverbi e non cambiano mai: *{pp:ho mangiato} troppo, {ip:mangia} poco*."
             ]
-          ]
-        }
-      },
-      "*Non* comes before the pronoun: *Non mi {pp:sono svegliata} presto*.",
-      "Some verbs are reflexive in Italian only: *divertirsi* (to have fun), *riposarsi* (to rest), *ricordarsi* (to remember), *arrabbiarsi* (to get angry), *sentirsi* (to feel).",
-      {
-        "h": "With a modal verb or an infinitive"
-      },
-      "The pronoun attaches to the infinitive and matches the person: *{ip:Devo} alzarmi presto. {ip:Vuoi} riposarti?* It can also go before the modal: *Mi {ip:devo} alzare presto.*",
-      {
-        "h": "Da or per?"
-      },
-      "Ask whether the action is still going on. If it is, Italian uses the present with *da*, unlike English: *{ip:Studio} italiano da un anno* means that you started a year ago and you are still studying. If it is over, use the [pp:passato prossimo] with *per*.",
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Use",
-            "Example"
-          ],
-          "rows": [
-            [
-              "da",
-              "still going on, since",
-              "{ip:Lavoro} qui da un anno. {ip:Abito} qui dal 2020."
-            ],
-            [
-              "per",
-              "finished block of time",
-              "{pp:Ho lavorato} lì per un anno."
-            ],
-            [
-              "fino a",
-              "until",
-              "{ip:Resto} fino a domenica."
-            ],
-            [
-              "da… a",
-              "from… to",
-              "{ip:Lavoro} dalle nove alle cinque."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Stare* + gerundio",
+              "head": [
+                "*-are*",
+                "*-ere*",
+                "*-ire*"
+              ],
+              "rows": [
+                [
+                  "Paolo {ip:sta prepar**ando**} la cena.",
+                  "Giulia {ip:sta scriv**endo**} una ricetta.",
+                  "Il nonno {ip:sta dorm**endo**} sul divano."
+                ]
+              ]
+            },
+            "note": [
+              "*Stare* al presente + il gerundio dice che un'azione si sta svolgendo proprio adesso.",
+              "Il gerundio si forma con **-ando** per i verbi in *-are* e con **-endo** per quelli in *-ere* e *-ire*. Non cambia mai.",
+              "Alcuni verbi usano una radice più lunga: *fare → facendo, bere → bevendo, dire → dicendo*."
             ]
-          ]
-        }
-      },
-      "To ask: *Da quanto tempo {ip:studi} italiano?* (How long have you been studying Italian?)",
-      {
-        "h": "How often"
-      },
-      "*Ogni giorno* (every day), *una volta alla settimana* (once a week), *due volte al mese* (twice a month), *tutti i giorni* (every day), *di rado* (rarely)."
+          },
+          {
+            "table": {
+              "title": "La particella *ne*",
+              "rows": [
+                [
+                  [
+                    "Quante mele {ip:compri}?",
+                    "**Ne** {ip:compro} un chilo."
+                  ]
+                ],
+                [
+                  [
+                    "{ip:Vuoi} ancora della torta?",
+                    "Sì, **ne** {ip:voglio} una fetta."
+                  ]
+                ],
+                [
+                  [
+                    "{ip:Hai} del pane?",
+                    "No, non **ne** {ip:ho}."
+                  ]
+                ]
+              ]
+            },
+            "note": "*Ne* sostituisce una cosa di cui dici la quantità, per non ripeterla: *ne {ip:compro} un chilo* = compro un chilo di mele. Va prima del verbo. Anche *non… ne* dice che la quantità è zero."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the reflexive verb in the [pp:passato prossimo].",
+        "prompt": "Scrivi l'articolo partitivo: del, dello, dell', dei, degli, della o delle.",
         "questions": [
-          "Stamattina io [[mi sono svegliata#pp]] presto. (svegliarsi – a woman)",
-          "Marco [[si è alzato#pp]] tardi. (alzarsi)",
-          "Tu [[ti sei divertito#pp]] alla festa? (divertirsi – a man)",
-          "Noi [[ci siamo riposati#pp]] in vacanza. (riposarsi – a group of men)",
-          "Le ragazze [[si sono vestite#pp]] in fretta. (vestirsi)"
+          "{ip:Compro} [[del]] pane.",
+          "Nel frigo c'{ip:è} [[dello]] yogurt.",
+          "{ip:Aggiungi} [[dell']]olio.",
+          "{pp:Ho preso} [[dei]] pomodori.",
+          "Per pranzo {ip:cucino} [[degli]] spinaci.",
+          "{ip:Mangiamo} [[della]] frutta.",
+          "{ip:Vuoi} [[delle]] mele?",
+          "{ip:Bevo} [[dell']]acqua."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Attach the right pronoun to the infinitive.",
+        "prompt": "Scrivi l'infinito dei verbi.",
         "questions": [
-          "Domani io {ip:devo} [[alzarmi]] presto. (alzarsi)",
-          "Tu {ip:vuoi} [[riposarti]] un po'? (riposarsi)",
-          "{ip:Dobbiamo} [[prepararci]] per l'esame. (prepararsi)"
+          "stanno apparecchiando → [[apparecchiare]]",
+          "sta cucinando → [[cucinare]]",
+          "sta disegnando → [[disegnare]]",
+          "stanno mangiando → [[mangiare]]",
+          "sta leggendo → [[leggere]]",
+          "sta scrivendo → [[scrivere]]",
+          "sta dormendo → [[dormire]]",
+          "sta pulendo → [[pulire]]"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la regola.",
+        "questions": [
+          "Per descrivere un'azione in corso si usa il verbo [[stare]] + il gerundio.",
+          "Ai verbi in -are si aggiunge la desinenza -[[ando]].",
+          "Ai verbi in -ere e in -ire si aggiunge la desinenza -[[endo]]."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi *stare* + gerundio.",
+        "questions": [
+          "Io [[sto preparando#ip]] la cena. (preparare)",
+          "Tu che cosa [[stai facendo#ip]]? (fare)",
+          "Lui [[sta leggendo#ip]] il giornale. (leggere)",
+          "Noi [[stiamo apparecchiando#ip]] la tavola. (apparecchiare)",
+          "Voi [[state pulendo#ip]] la cucina? (pulire)",
+          "Loro [[stanno bevendo#ip]] il caffè. (bere)"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Aggettivo o avverbio? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "{ip:Studio} italiano ___ un anno. (I still study)",
+            "q": "{pp:Ho mangiato} ___ pasta.",
             "options": [
-              "*da",
-              "per",
-              "fino a"
+              "*troppa",
+              "troppo"
             ]
           },
           {
-            "q": "Ho vissuto a Milano ___ due anni. (it's over)",
+            "q": "{pp:Ho mangiato} ___.",
             "options": [
-              "da",
-              "*per",
-              "fino a"
+              "*troppo",
+              "troppa"
             ]
           },
           {
-            "q": "{ip:Lavoro} ___ nove alle cinque.",
+            "q": "Stasera {ip:vengono} ___ ospiti.",
             "options": [
-              "*dalle",
-              "per le",
-              "fino le"
+              "*molti",
+              "molto"
             ]
           },
           {
-            "q": "{ip:Resto} qui ___ domenica.",
+            "q": "Mi {ip:piace} ___ cucinare.",
             "options": [
-              "da",
-              "per",
-              "*fino a"
+              "*molto",
+              "molti"
             ]
           },
           {
-            "q": "I've lived here for two years.",
+            "q": "Nella bottiglia c'{ip:è} ___ acqua.",
             "options": [
-              "*{ip:Abito} qui da due anni.",
-              "{pp:Ho abitato} qui da due anni.",
-              "{ip:Abito} qui per due anni."
+              "*poca",
+              "poco"
+            ]
+          },
+          {
+            "q": "Ultimamente {ip:dormi} ___.",
+            "options": [
+              "*poco",
+              "poca"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Rispondi con *ne*.",
+        "questions": [
+          "Quanti caffè {ip:bevi} al giorno? [[Ne]] {ip:bevo} due.",
+          "Quante uova {ip:compri}? [[Ne]] {ip:compro} sei.",
+          "{ip:Vuoi} ancora della torta? Sì, [[ne]] {ip:voglio} una fetta.",
+          "{ip:Hai} del pane? No, non [[ne]] {ip:ho}."
         ]
       }
     ]
@@ -170,139 +246,219 @@
   "vocabulary": {
     "words": [
       [
-        "la sveglia",
-        "alarm clock"
+        "l'aperitivo",
+        "una bevanda prima di mangiare, con qualcosa da stuzzicare"
       ],
       [
-        "la doccia",
-        "shower"
+        "l'antipasto",
+        "si mangia all'inizio del pranzo, prima del primo"
       ],
       [
-        "il lavoro",
-        "job, work"
+        "il primo",
+        "la pasta, il riso o la minestra"
       ],
       [
-        "l'ufficio",
-        "office"
+        "il secondo",
+        "la carne o il pesce"
       ],
       [
-        "il collega",
-        "colleague"
+        "il contorno",
+        "le verdure che vanno con il secondo"
       ],
       [
-        "l'orario",
-        "timetable, hours"
+        "lo spicchio d'aglio",
+        "un piccolo pezzo di una testa d'aglio"
       ],
       [
-        "divertirsi",
-        "to have fun"
+        "la cipolla",
+        "una verdura che fa piangere quando la tagli"
       ],
       [
-        "riposarsi",
-        "to rest"
+        "la farina",
+        "polvere bianca per fare il pane e i dolci"
       ],
       [
-        "arrabbiarsi",
-        "to get angry"
+        "un pizzico di sale",
+        "pochissimo sale, quello che prendi con due dita"
       ],
       [
-        "sentirsi",
-        "to feel"
+        "affettare",
+        "tagliare a fette"
       ],
       [
-        "ricordarsi",
-        "to remember"
+        "aggiungere",
+        "mettere ancora qualcosa"
       ],
       [
-        "di rado",
-        "rarely"
+        "cuocere",
+        "preparare un cibo con il fuoco"
+      ],
+      [
+        "mescolare",
+        "girare con il cucchiaio"
+      ],
+      [
+        "scolare",
+        "togliere l'acqua dalla pasta"
+      ],
+      [
+        "sbucciare",
+        "togliere la buccia alla frutta o alla verdura"
+      ],
+      [
+        "versare",
+        "far scendere un liquido, per esempio l'olio"
+      ],
+      [
+        "apparecchiare",
+        "preparare la tavola con piatti, bicchieri e posate"
+      ],
+      [
+        "stirare",
+        "togliere le pieghe ai vestiti con il ferro"
+      ],
+      [
+        "stendere la biancheria",
+        "mettere i vestiti bagnati ad asciugare"
+      ],
+      [
+        "mettere in ordine",
+        "mettere ogni cosa al suo posto"
+      ],
+      [
+        "il brindisi",
+        "alzare il bicchiere per festeggiare qualcuno"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la sveglia",
-            "alarm clock"
+            "il contorno",
+            "le verdure che vanno con il secondo"
           ],
           [
-            "l'orario",
-            "timetable, hours"
+            "mescolare",
+            "girare con il cucchiaio"
           ],
           [
-            "divertirsi",
-            "to have fun"
+            "scolare",
+            "togliere l'acqua dalla pasta"
           ],
           [
-            "riposarsi",
-            "to rest"
+            "sbucciare",
+            "togliere la buccia alla frutta o alla verdura"
           ],
           [
-            "arrabbiarsi",
-            "to get angry"
+            "apparecchiare",
+            "preparare la tavola con piatti, bicchieri e posate"
           ],
           [
-            "sentirsi",
-            "to feel"
+            "stirare",
+            "togliere le pieghe ai vestiti con il ferro"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "{ip:Lavoro} in un [[ufficio]] in centro. (office)",
-          "Mi {pp:sono fatta} la [[doccia]]. (shower)",
-          "Come ti [[senti#ip]] oggi? (do you feel)",
-          "{ip:Vado} in palestra [[una]] volta alla settimana. (once)"
+          "Prima del primo {ip:mangiamo} un [[antipasto]].",
+          "Per fare il pane serve la [[farina]].",
+          "Nel sugo {ip:metto} uno [[spicchio]] d'aglio.",
+          "Quando la pasta {ip:è} pronta la [[scolo#ip]] e {ip:aggiungo} il sugo.",
+          "{ip:Alziamo} i bicchieri per un [[brindisi]]!"
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Mi {ip:chiamo} Irene e {ip:lavoro} in un ufficio a Bologna da un anno. Stamattina mi {pp:sono svegliata} presto, ma non {pp:ho sentito} la sveglia di mio marito. Lui si {pp:è alzato} tardi e si {pp:è arrabbiato} molto.",
-      "Il mio orario {ip:è} dalle nove alle cinque. Prima {pp:ho lavorato} in un negozio per tre anni, ma non mi {im:divertivo}. Adesso {ip:sto} bene e mi {ip:riposo} due volte alla settimana in piscina. {ip:Resto} a Bologna almeno fino a giugno."
+      {
+        "h": "Il galateo a tavola"
+      },
+      "Le regole del **galateo** **riguardano** anche l'**apparecchiatura**. Il coltello e il cucchiaio vanno a destra del piatto, le forchette a sinistra. Davanti al piatto si mettono le posate per il dolce e, da sinistra a destra, i bicchieri: prima quello grande per l'acqua, poi quelli per il vino.",
+      "Il padrone e la padrona di casa {ip:siedono} a **capotavola**. Accanto a lui {ip:siede} la donna più importante tra gli ospiti, accanto a lei l'uomo più importante.",
+      "A tavola non si {ip:deve} parlare con la bocca piena, usare il telefono, gridare da una parte all'altra del tavolo né bere con il **mignolo** alzato.",
+      {
+        "h": "Pasta alla Norma"
+      },
+      "Ingredienti per 4 persone: 350 g di maccheroni, 2 melanzane, 500 g di pomodori, 1 spicchio d'aglio, dell'olio d'oliva, del basilico, 100 g di ricotta salata, sale.",
+      "**Preparazione** — Tagliare le melanzane a cubetti e friggerle nell'olio caldo. In un'altra padella scaldare l'olio con l'aglio, aggiungere i pomodori e cuocere per quindici minuti. Intanto cuocere la pasta, scolarla al dente e mescolarla con il sugo e le melanzane. Servire subito con il basilico e la ricotta grattugiata."
     ],
     "exercises": [
       {
+        "type": "match",
+        "prompt": "Il galateo: abbina le parole evidenziate alle spiegazioni.",
+        "pairs": [
+          [
+            "il galateo",
+            "le regole della buona educazione"
+          ],
+          [
+            "riguardano",
+            "si riferiscono a"
+          ],
+          [
+            "l'apparecchiatura",
+            "il posto degli oggetti sulla tavola"
+          ],
+          [
+            "il capotavola",
+            "il lato corto di una tavola rettangolare"
+          ],
+          [
+            "il mignolo",
+            "il dito più piccolo della mano"
+          ]
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "How long has Irene worked in the office?",
+            "q": "Il coltello {ip:va} a sinistra del piatto.",
             "options": [
-              "Three years",
-              "*One year",
-              "Since June"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Why did her husband get angry?",
+            "q": "Il bicchiere per l'acqua {ip:è} il più grande.",
             "options": [
-              "*He got up late",
-              "He lost his job",
-              "Irene was late"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Irene worked in a shop for…",
+            "q": "I padroni di casa {ip:siedono} a capotavola.",
             "options": [
-              "one year",
-              "*three years",
-              "five years"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "How often does she go to the swimming pool?",
+            "q": "A tavola si {ip:può} usare il telefono.",
             "options": [
-              "Every day",
-              "Once a month",
-              "*Twice a week"
+              "Vero",
+              "*Falso"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "La ricetta: completa con questi verbi all'infinito. Tagliare, scaldare, aggiungere, cuocere, scolare, servire.",
+        "questions": [
+          "[[Tagliare]] le melanzane a cubetti.",
+          "[[Scaldare]] l'olio con l'aglio in una padella.",
+          "[[Aggiungere]] i pomodori.",
+          "[[Cuocere]] la pasta in acqua con il sale.",
+          "[[Scolare]] la pasta al dente.",
+          "[[Servire]] subito con il basilico."
         ]
       }
     ]
@@ -310,57 +466,71 @@
   "listening": {
     "transcript": [
       [
-        "Sandro",
-        "Da quanto tempo {ip:abiti} a Bologna?"
+        "Davide",
+        "Ciao Laura, {ip:posso} aiutarti?"
       ],
       [
-        "Irene",
-        "Da un anno. E tu?"
+        "Laura",
+        "Grazie, {ip:sto finendo}. Marco {ip:sta apparecchiando} la tavola."
       ],
       [
-        "Sandro",
-        "Io {pp:ho abitato} qui per dieci anni, poi {pp:sono partito}."
+        "Davide",
+        "Che buono questo sugo! Ma come lo {ip:fai}? Ci {ip:metti} la panna?"
       ],
       [
-        "Irene",
-        "Ti {pp:sei divertito} ieri alla festa?"
+        "Laura",
+        "No, niente panna. Ci {ip:vogliono} dei pomodori, dell'aglio e un pizzico di sale."
       ],
       [
-        "Sandro",
-        "Sì, ma mi {pp:sono addormentato} sul divano!"
+        "Davide",
+        "E per quanto tempo lo {ip:cuoci}?"
       ],
       [
-        "Irene",
-        "Allora oggi {ip:devi} riposarti."
+        "Laura",
+        "Lo {ip:cuocio} per circa venti minuti. Ne {ip:vuoi} ancora un po'?"
+      ],
+      [
+        "Davide",
+        "Solo un po', grazie: {pp:ho mangiato} troppo! E adesso {cop:vorrei} proporre un brindisi ai padroni di casa!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Da]] quanto tempo {ip:abiti} a Bologna?",
-          "{pp:Ho abitato} qui [[per]] dieci anni.",
-          "Ti {pp:sei} [[divertito#pp]] ieri alla festa?",
-          "Oggi {ip:devi} [[riposarti]]."
+          "Grazie, sto [[finendo]]. Marco sta [[apparecchiando]] la tavola.",
+          "Ci {ip:vogliono} [[dei]] pomodori, [[dell']]aglio e un pizzico di sale.",
+          "[[Ne]] {ip:vuoi} ancora un po'?",
+          "{pp:Ho mangiato} [[troppo]]!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Sandro still lives in Bologna.",
+            "q": "Che cosa {ip:sta facendo} Marco?",
             "options": [
-              "True",
-              "*False"
+              "sta cucinando",
+              "*sta apparecchiando la tavola",
+              "sta lavando i piatti"
             ]
           },
           {
-            "q": "Sandro fell asleep on the sofa.",
+            "q": "Che cosa non {ip:mette} Laura nel sugo?",
             "options": [
-              "*True",
-              "False"
+              "i pomodori",
+              "l'aglio",
+              "*la panna"
+            ]
+          },
+          {
+            "q": "Per quanto tempo {ip:cuoce} il sugo?",
+            "options": [
+              "dieci minuti",
+              "*venti minuti",
+              "un'ora"
             ]
           }
         ]
@@ -371,42 +541,53 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Che cosa {ip:dici}? Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "I woke up early. (a woman speaking)",
+            "q": "{ip:Offri} aiuto a un'amica che {ip:cucina}.",
             "a": [
-              "Mi sono svegliata presto.",
-              "Io mi sono svegliata presto."
+              "Posso aiutarti?",
+              "Ti posso aiutare?"
             ]
           },
           {
-            "q": "He got up late.",
+            "q": "Che cosa {ip:sta facendo} Luca? (apparecchiare la tavola)",
             "a": [
-              "Si è alzato tardi.",
-              "Lui si è alzato tardi."
+              "Luca sta apparecchiando la tavola.",
+              "Sta apparecchiando la tavola."
             ]
           },
           {
-            "q": "I have been studying Italian for a year.",
+            "q": "{ip:Dici} che {pp:hai mangiato} più pasta del necessario.",
             "a": [
-              "Studio italiano da un anno.",
-              "Studio l'italiano da un anno.",
-              "Io studio italiano da un anno."
+              "Ho mangiato troppa pasta."
             ]
           },
           {
-            "q": "I work from nine to five.",
+            "q": "{ip:Offri} ancora una fetta di torta, con *ne*.",
             "a": [
-              "Lavoro dalle nove alle cinque.",
-              "Io lavoro dalle nove alle cinque."
+              "Ne vuoi ancora una fetta?",
+              "Ne vuoi un'altra fetta?"
             ]
           },
           {
-            "q": "I have to get up early.",
+            "q": "{ip:Proponi} un brindisi ai padroni di casa.",
             "a": [
-              "Devo alzarmi presto.",
-              "Mi devo alzare presto."
+              "Vorrei proporre un brindisi ai padroni di casa.",
+              "Propongo un brindisi ai padroni di casa."
+            ]
+          },
+          {
+            "q": "{ip:Chiedi} a un amico quanti caffè {ip:beve} al giorno.",
+            "a": [
+              "Quanti caffè bevi al giorno?"
+            ]
+          },
+          {
+            "q": "{ip:Rispondi}: tre, con *ne*.",
+            "a": [
+              "Ne bevo tre.",
+              "Ne bevo tre al giorno."
             ]
           }
         ]

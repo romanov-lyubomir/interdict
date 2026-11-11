@@ -179,7 +179,7 @@
     <div class="topic-grid">
         {% for topic, description in [("foods", "Meals, cutlery and the kitchen"), ("drinks", "Water, juice, wine and more"),
         ("fruits", "From apples to watermelons"), ("transport", "Trains, tickets and stations")] %}
-        <a class="container shadow topic-card" href="{{ url_for('vocabulary_for_topic', topic=topic) }}">
+        <a class="container shadow topic-card" href="{{ url_for('topic_words', topic=topic) }}">
             <img src="{{ url_for('static', filename='icons/vocabulary/' + topic + '.png') }}" alt="">
             <div>
                 <h3>{{ topic | format }}</h3>

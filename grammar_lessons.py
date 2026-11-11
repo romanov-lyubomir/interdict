@@ -8,7 +8,7 @@ sections, always shown in this order:
     grammar     {"explain": [...]}
     use         {"exercises": [...]}, practice of the grammar
     vocabulary  {"words": [[word, translation], ...], "exercises": [...]}
-    reading     {"text": [paragraph or {"h": title}, ...], "exercises": [...]}
+    reading     {"text": [paragraph, {"h": title} or a picture, ...], "exercises": [...]}
     listening   {"transcript": [[speaker, line], ...], "exercises": [...]}
     writing     {"exercises": [...]}
 
@@ -22,8 +22,12 @@ columns).
 {"grid": [table, ...]} puts small tables side by side when there is room; a
 table with "wide": true takes a whole row. A table's "note" is a short
 explanation shown under it, or a list of points.
+A picture is {"img": path under static/images, "caption": ..., "credit": ...,
+"source": url}; it can go among the explanation blocks or the reading, and a
+vocabulary section can have "images": [picture, ...] shown above its words.
 With "bulleted": true each line of a list cell starts with a >. With "nowrap": true
-the cells stay on one line.
+the cells stay on one line; with "compact": true
+they are tighter, for tables with many columns.
 **Double asterisks** underline only the letters or small word a rule is about,
 such as an ending or a changing article. *Single ones* mark foreign words in italics.
 {tag:form} marks a finite verb form with its tense, and a blank can carry one too:

@@ -1,135 +1,292 @@
 {
-  "title": "Questa casa {ip:è} la più bella di tutte",
-  "translation": "This house is the most beautiful of all",
-  "topics": "Comparatives and superlatives, questo and quello as adjectives and pronouns",
+  "title": "{imv:Riposati} e {imv:guarisci} presto!",
+  "translation": "",
+  "topics": "Il modo [imv:imperativo] affermativo e negativo, l'[imv:imperativo] con i pronomi e nei verbi irregolari, i nomi irregolari delle parti del corpo, la salute",
   "grammar": {
     "explain": [
+      "L'[imv:imperativo] serve per dare consigli, istruzioni e ordini: dal medico, in palestra, a casa. Con *Lei* è anche il modo gentile di chiedere qualcosa.",
       {
-        "h": "Comparing two things"
-      },
-      "Use *più* (more) or *meno* (less) before the adjective, and *di* before the second thing. *Di* joins the article as usual.",
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Example"
-          ],
-          "rows": [
-            [
-              "più… di",
-              "La mia casa {ip:è} più grande **della** tua."
-            ],
-            [
-              "meno… di",
-              "Il treno {ip:è} meno caro **dell'**aereo."
-            ],
-            [
-              "tanto… quanto",
-              "Anna {ip:è} tanto alta quanto Sara."
-            ],
-            [
-              "(così)… come",
-              "Anna {ip:è} alta come Sara."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il modo [imv:imperativo]",
+              "groups": [
+                [
+                  "",
+                  2
+                ],
+                [
+                  "*ascoltare*",
+                  2
+                ],
+                [
+                  "*chiudere*",
+                  2
+                ],
+                [
+                  "*aprire*",
+                  2
+                ],
+                [
+                  "*pulire*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  {
+                    "text": "affermativa",
+                    "rows": 4
+                  },
+                  "tu",
+                  "{imv:ascolt**a**}",
+                  {
+                    "text": "il dottore.",
+                    "rows": 4
+                  },
+                  "{imv:chiud**i**}",
+                  {
+                    "text": "gli occhi.",
+                    "rows": 4
+                  },
+                  "{imv:apr**i**}",
+                  {
+                    "text": "la finestra.",
+                    "rows": 4
+                  },
+                  "{imv:pul**isci**}",
+                  {
+                    "text": "la stanza!",
+                    "rows": 4
+                  }
+                ],
+                [
+                  null,
+                  "Lei",
+                  "{imv:ascolt**i**}",
+                  null,
+                  "{imv:chiud**a**}",
+                  null,
+                  "{imv:apr**a**}",
+                  null,
+                  "{imv:pul**isca**}",
+                  null
+                ],
+                [
+                  null,
+                  "noi",
+                  "{imv:ascolt**iamo**}",
+                  null,
+                  "{imv:chiud**iamo**}",
+                  null,
+                  "{imv:apr**iamo**}",
+                  null,
+                  "{imv:pul**iamo**}",
+                  null
+                ],
+                [
+                  null,
+                  "voi",
+                  "{imv:ascolt**ate**}",
+                  null,
+                  "{imv:chiud**ete**}",
+                  null,
+                  "{imv:apr**ite**}",
+                  null,
+                  "{imv:pul**ite**}",
+                  null
+                ],
+                [
+                  "negativa",
+                  "tu",
+                  {
+                    "text": "{imv:non ascoltare}",
+                    "cols": 2
+                  },
+                  {
+                    "text": "{imv:non chiudere}",
+                    "cols": 2
+                  },
+                  {
+                    "text": "{imv:non aprire}",
+                    "cols": 2
+                  },
+                  {
+                    "text": "{imv:non pulire}",
+                    "cols": 2
+                  }
+                ]
+              ],
+              "compact": true
+            },
+            "note": [
+              "Con *noi* e *voi* l'[imv:imperativo] è uguale al presente: *ascoltiamo, chiudete*.",
+              "Con *tu* i verbi in *-are* finiscono in **-a** (*ascolta*), gli altri in **-i** (*chiudi, apri*).",
+              "Con *Lei* le finali si scambiano: **-i** per i verbi in *-are* (*ascolti*), **-a** per gli altri (*chiuda, apra*).",
+              "Per dire di no a *tu* si usa *non* + l'infinito: *non ascoltare, non aprire*. Con gli altri basta *non* davanti: *non apra, non chiudete*."
             ]
-          ]
-        }
-      },
-      "Use *che* instead of *di* when you compare two adjectives, two verbs or two words with prepositions, because then it is not about two different things: *{ip:È} più bello che utile. Mi {ip:piace} più leggere che guardare la TV.*",
-      {
-        "h": "The most"
-      },
-      "The superlative is simply a comparative with the article in front. What you compare within comes after *di*.",
-      {
-        "table": {
-          "head": [
-            "",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Masculine",
-              "**il** più interessante",
-              "the most interesting"
-            ],
-            [
-              "Feminine",
-              "**la** più bella di tutte",
-              "the most beautiful of all"
-            ],
-            [
-              "Plural",
-              "**i** più giovani della classe",
-              "the youngest in the class"
-            ]
-          ]
-        }
-      },
-      "To say *very*, without comparing anything, use *molto* or the ending *-issimo*, which agrees like an adjective: *bello → bell**issimo**, bell**issima***.",
-      {
-        "h": "Special forms"
-      },
-      {
-        "table": {
-          "head": [
-            "Adjective",
-            "Better / worse",
-            "The best / worst"
-          ],
-          "rows": [
-            [
-              "buono",
-              "migliore",
-              "il migliore"
-            ],
-            [
-              "cattivo",
-              "peggiore",
-              "il peggiore"
-            ],
-            [
-              "bene (adverb)",
-              "meglio",
-              "il meglio"
-            ],
-            [
-              "male (adverb)",
-              "peggio",
-              "il peggio"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Questo and quello"
-      },
-      "*Questo* behaves like any adjective in *-o*: *questo, questa, questi, queste*. Before a noun, *quello* changes like the definite article, which you already know: *il → quel, lo → quello, l' → quell', la → quella, i → quei, gli → quegli, le → quelle*.",
-      "Without a noun, they are pronouns, and *quello* then has only the four regular forms.",
-      {
-        "table": {
-          "head": [
-            "Before a noun",
-            "Alone"
-          ],
-          "rows": [
-            [
-              "{ip:Vuoi} quel libro?",
-              "Sì, {ip:voglio} **quello**."
-            ],
-            [
-              "{ip:Compro} quei fiori.",
-              "{ip:Compro} **quelli**."
-            ],
-            [
-              "{ip:Preferisco} quegli stivali.",
-              "{ip:Preferisco} **quelli**."
-            ],
-            [
-              "Queste scarpe {ip:sono} care.",
-              "**Queste** {ip:sono} care."
-            ]
-          ]
-        }
+          },
+          {
+            "table": {
+              "title": "L'[imv:imperativo] con i pronomi",
+              "head": [
+                "",
+                "forma affermativa",
+                "forma negativa"
+              ],
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*alzarsi*",
+                  1
+                ],
+                [
+                  "*arrabbiarsi*",
+                  1
+                ]
+              ],
+              "rows": [
+                [
+                  "tu",
+                  "{imv:alza**ti**}",
+                  "{imv:non **ti** arrabbiare} / {imv:non arrabbiar**ti**}"
+                ],
+                [
+                  "Lei",
+                  "{imv:**si** alzi}",
+                  "{imv:non **si** arrabbi}"
+                ],
+                [
+                  "noi",
+                  "{imv:alziamo**ci**}",
+                  "{imv:non **ci** arrabbiamo} / {imv:non arrabbiamo**ci**}"
+                ],
+                [
+                  "voi",
+                  "{imv:alzate**vi**}",
+                  "{imv:non **vi** arrabbiate} / {imv:non arrabbiate**vi**}"
+                ]
+              ]
+            },
+            "note": "Con *tu*, *noi* e *voi* il pronome si attacca alla fine del verbo: *alzati, alziamoci*. Con *Lei* va sempre prima: *si alzi*. Nella forma negativa con *tu* il pronome si attacca all'infinito senza la *e*: *non arrabbiare* + *ti* = *non arrabbiarti*."
+          },
+          {
+            "table": {
+              "title": "Il modo [imv:imperativo]: alcuni verbi irregolari",
+              "head": [
+                "",
+                "tu",
+                "Lei"
+              ],
+              "rows": [
+                [
+                  "*fare*",
+                  "{imv:fa'}",
+                  "{imv:faccia}"
+                ],
+                [
+                  "*andare*",
+                  "{imv:va'}",
+                  "{imv:vada}"
+                ],
+                [
+                  "*dire*",
+                  "{imv:di'}",
+                  "{imv:dica}"
+                ],
+                [
+                  "*dare*",
+                  "{imv:da'}",
+                  "{imv:dia}"
+                ],
+                [
+                  "*stare*",
+                  "{imv:sta'}",
+                  "{imv:stia}"
+                ],
+                [
+                  "*essere*",
+                  "{imv:sii}",
+                  "{imv:sia}"
+                ],
+                [
+                  "*avere*",
+                  "{imv:abbi}",
+                  "{imv:abbia}"
+                ]
+              ]
+            },
+            "note": "Queste forme si imparano a memoria. L'apostrofo di *fa', va', di', da', sta'* indica una parola accorciata. Con *tu* si sentono spesso anche *fai, vai, dai, stai*."
+          },
+          {
+            "table": {
+              "title": "Alcuni sostantivi irregolari",
+              "head": [
+                "singolare",
+                "plurale"
+              ],
+              "rows": [
+                [
+                  "il bracci**o**",
+                  "le bracci**a**"
+                ],
+                [
+                  "il dit**o**",
+                  "le dit**a**"
+                ],
+                [
+                  "il ginocchi**o**",
+                  "le ginocchi**a**"
+                ],
+                [
+                  "il labbr**o**",
+                  "le labbr**a**"
+                ],
+                [
+                  "l'oss**o**",
+                  "le oss**a**"
+                ],
+                [
+                  "l'orecchi**o**",
+                  "le orecchi**e**"
+                ],
+                [
+                  "la man**o**",
+                  "le man**i**"
+                ]
+              ]
+            },
+            "note": "Molte parti del corpo sono maschili al singolare e diventano femminili al plurale in **-a**: *il braccio, le braccia*. *L'orecchio* fa *le orecchie*, *la mano* è femminile e fa *le mani*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "L'[imv:imperativo] con i pronomi in alcuni verbi irregolari",
+              "rows": [
+                [
+                  "{imv:Fa**mm**i} vedere la gola, per favore."
+                ],
+                [
+                  "{imv:Di**mm**i} dove ti {ip:fa} male."
+                ],
+                [
+                  "{imv:Da**mm**i} la mano, attraversiamo la strada."
+                ],
+                [
+                  "{imv:Sta**mm**i} vicino, ho paura."
+                ],
+                [
+                  "Dal medico? {imv:Va**cc**i} domani mattina."
+                ]
+              ]
+            },
+            "note": "Con *fa', di', da', sta', va'* il pronome raddoppia la sua consonante: *fa'* + *mi* = **fammi**, *va'* + *ci* = **vacci**. Fa eccezione *gli*: *dagli*."
+          }
+        ]
       }
     ]
   },
@@ -137,78 +294,104 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete with di (joined with the article if needed), che or quanto.",
+        "prompt": "Dai un consiglio a un amico: scrivi l'[imv:imperativo] con *tu*.",
         "questions": [
-          "Roma {ip:è} più grande [[di]] Firenze.",
-          "La mia casa {ip:è} più piccola [[della]] tua.",
-          "Il treno {ip:è} meno caro [[dell']]aereo.",
-          "{ip:È} più bello [[che]] utile.",
-          "Marco {ip:è} tanto simpatico [[quanto]] Luca."
+          "(parlare) [[Parla#imv]] piano, il bambino {ip:dorme}.",
+          "(prendere) [[Prendi#imv]] una medicina.",
+          "(dormire) [[Dormi#imv]] di più.",
+          "(finire) [[Finisci#imv]] il tè caldo.",
+          "(non mangiare) [[Non mangiare#imv]] troppo.",
+          "(non uscire) [[Non uscire#imv]] con la febbre."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Il medico {ip:parla} alla signora: scrivi l'[imv:imperativo] con *Lei*.",
+        "questions": [
+          "Signora, [[prenda#imv]] questo sciroppo. (prendere)",
+          "[[Apra#imv]] la bocca, per favore. (aprire)",
+          "[[Si riposi#imv]] qualche giorno. (riposarsi)",
+          "Non [[si preoccupi#imv]]. (preoccuparsi)",
+          "[[Torni#imv]] fra una settimana. (tornare)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'[imv:imperativo] con *noi* o *voi*.",
+        "questions": [
+          "(noi, prendere) [[Prendiamo#imv]] la bici e {imv:facciamo} un giro!",
+          "(voi, bere) Ragazzi, [[bevete#imv]] molta acqua!",
+          "(voi, alzarsi) Sono le sette: [[alzatevi#imv]]!",
+          "(noi, mangiare) [[Mangiamo#imv]] più frutta e verdura."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Scegli la forma giusta dell'[imv:imperativo].",
         "questions": [
           {
-            "q": "the most beautiful house",
+            "q": "(fare, tu) ___ attenzione!",
             "options": [
-              "*la casa più bella",
-              "la più casa bella",
-              "la casa bella più"
+              "*Fa'",
+              "Faccia",
+              "Fare"
             ]
           },
           {
-            "q": "Questo vino {ip:è} ___ di quello.",
+            "q": "(dire, Lei) Mi ___, signora.",
             "options": [
-              "più migliore",
-              "*migliore",
-              "il più migliore"
+              "*dica",
+              "di'",
+              "dice"
             ]
           },
           {
-            "q": "a very beautiful film",
+            "q": "(essere, tu) ___ gentile con tua sorella!",
             "options": [
-              "*un film bellissimo",
-              "un film più bello",
-              "un film il più bello"
+              "*Sii",
+              "Sia",
+              "Sei"
             ]
           },
           {
-            "q": "{ip:Vuoi} questi libri o ___?",
+            "q": "(avere, Lei) ___ pazienza, il dottore arriva.",
             "options": [
-              "quei",
-              "*quelli",
-              "quegli"
+              "*Abbia",
+              "Abbi",
+              "Ha"
             ]
           },
           {
-            "q": "{ip:Preferisco} ___ zaino.",
+            "q": "(stare, tu) ___ tranquillo!",
             "options": [
-              "quel",
-              "*quello",
-              "quell'"
-            ]
-          },
-          {
-            "q": "___ scarpe {ip:sono} care.",
-            "options": [
-              "*Quelle",
-              "Quei",
-              "Quegli"
+              "*Sta'",
+              "Stia",
+              "Stare"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Write the right form of quello before the noun.",
+        "prompt": "Unisci il verbo e il pronome.",
         "questions": [
-          "[[quel]] ragazzo",
-          "[[quello]] studente",
-          "[[quell']]albero",
-          "[[quegli]] amici",
-          "[[quei]] bambini"
+          "(fa' + mi) [[Fammi#imv]] vedere.",
+          "(di' + mi) [[Dimmi#imv]] tutto.",
+          "(da' + mi) [[Dammi#imv]] la mano.",
+          "(va' + ci) [[Vacci#imv]] domani.",
+          "(tu, non preoccuparsi) [[Non preoccuparti|Non ti preoccupare#imv]]!"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il plurale.",
+        "questions": [
+          "il braccio → le [[braccia]]",
+          "il dito → le [[dita]]",
+          "il ginocchio → le [[ginocchia]]",
+          "l'orecchio → le [[orecchie]]",
+          "il labbro → le [[labbra]]",
+          "la mano → le [[mani]]"
         ]
       }
     ]
@@ -216,135 +399,229 @@
   "vocabulary": {
     "words": [
       [
-        "l'affitto",
-        "rent"
+        "la testa",
+        "la parte del corpo con il viso e i capelli"
       ],
       [
-        "il palazzo",
-        "building"
+        "la gola",
+        "la parte interna del collo, dove passa il cibo"
       ],
       [
-        "il quartiere",
-        "neighbourhood"
+        "la schiena",
+        "la parte dietro del corpo, dal collo alle gambe"
       ],
       [
-        "il bagno",
-        "bathroom"
+        "lo stomaco",
+        "qui arriva il cibo dopo la gola"
       ],
       [
-        "la camera",
-        "bedroom"
+        "la spalla",
+        "dove il braccio si attacca al corpo"
       ],
       [
-        "il soggiorno",
-        "living room"
+        "il gomito",
+        "dove il braccio si piega"
       ],
       [
-        "luminoso",
-        "bright"
+        "il ginocchio",
+        "dove la gamba si piega"
       ],
       [
-        "comodo",
-        "comfortable"
+        "la febbre",
+        "quando il corpo è più caldo di 37 gradi"
       ],
       [
-        "rumoroso",
-        "noisy"
+        "la tosse",
+        "quando l'aria esce forte dalla gola, con rumore"
       ],
       [
-        "moderno",
-        "modern"
+        "il raffreddore",
+        "naso chiuso e starnuti"
       ],
       [
-        "utile",
-        "useful"
+        "l'influenza",
+        "una malattia d'inverno con febbre e dolori"
       ],
       [
-        "simpatico",
-        "nice"
+        "il mal di testa",
+        "un dolore alla testa"
+      ],
+      [
+        "lo sciroppo",
+        "una medicina liquida e dolce"
+      ],
+      [
+        "il medico di famiglia",
+        "il dottore a cui vai di solito"
+      ],
+      [
+        "il pediatra",
+        "il medico dei bambini"
+      ],
+      [
+        "l'oculista",
+        "il medico degli occhi"
+      ],
+      [
+        "l'ortopedico",
+        "il medico delle ossa"
+      ],
+      [
+        "stanco",
+        "hai bisogno di riposare"
+      ],
+      [
+        "preoccupato",
+        "pensi a un problema e non sei tranquillo"
+      ],
+      [
+        "arrabbiato",
+        "molto nervoso con qualcuno"
+      ],
+      [
+        "essere in forma",
+        "stare bene, sentirsi pieno di energia"
+      ],
+      [
+        "guarire",
+        "tornare a stare bene dopo una malattia"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "l'affitto",
-            "rent"
+            "la febbre",
+            "quando il corpo è più caldo di 37 gradi"
           ],
           [
-            "il quartiere",
-            "neighbourhood"
+            "il raffreddore",
+            "naso chiuso e starnuti"
           ],
           [
-            "il soggiorno",
-            "living room"
+            "lo sciroppo",
+            "una medicina liquida e dolce"
           ],
           [
-            "luminoso",
-            "bright"
+            "il pediatra",
+            "il medico dei bambini"
           ],
           [
-            "comodo",
-            "comfortable"
+            "l'oculista",
+            "il medico degli occhi"
           ],
           [
-            "rumoroso",
-            "noisy"
+            "guarire",
+            "tornare a stare bene dopo una malattia"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "L'[[affitto]] {ip:è} troppo caro. (rent)",
-          "Questa [[camera]] {ip:è} molto grande. (bedroom)",
-          "{ip:Abito} in un [[palazzo]] moderno. (building)",
-          "Questo libro {ip:è} molto [[utile]]. (useful)"
+          "{ip:Ho} 39 di [[febbre]]: {ip:resto} a letto.",
+          "Mi {ip:fa} male la [[gola]] e non {ip:riesco} a mangiare.",
+          "Per gli occhi {ip:vado} dall'[[oculista]].",
+          "Mio figlio {ip:ha} la tosse: lo {ip:porto} dal [[pediatra]].",
+          "Oggi non {ip:sono} in [[forma]], {ip:sono} molto stanco."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Io e Davide {ip:cerchiamo} un appartamento e ne {pp:abbiamo visti} tre. Il primo {ip:è} il più economico, ma {ip:è} anche il più piccolo e il quartiere {ip:è} molto rumoroso. Il secondo {ip:è} più grande del primo, però l'affitto {ip:è} carissimo.",
-      "Il terzo {ip:è} la casa migliore: {ip:è} tanto luminosa quanto la seconda, {ip:ha} un soggiorno comodissimo e {ip:costa} meno. Quella cucina moderna {ip:è} bellissima! {ip:Credo} che {fs:prenderemo} quello."
+      {
+        "h": "Otto consigli per stare bene"
+      },
+      "**1. Respirate bene** — {imv:Inspirate} con il naso ed {imv:espirate} piano con la bocca, soprattutto quando {ip:siete} nervosi.",
+      "**2. Bevete** — {imv:Bevete} almeno un litro e mezzo d'acqua al giorno, lontano dai pasti.",
+      "**3. Dormite** — {imv:Andate} a letto presto: ci {ip:vogliono} almeno sette ore di sonno.",
+      "**4. Muovetevi** — {imv:Fate} sport tre volte alla settimana, oppure {imv:camminate} mezz'ora ogni giorno.",
+      "**5. Mangiate colori** — {imv:Mangiate} frutta e verdura e non {imv:dimenticate} il pesce.",
+      "**6. Non esagerate con il caffè** — Un caffè {ip:è} buono, ma cinque al giorno {ip:fanno} male allo stomaco.",
+      "**7. Attenzione alla schiena** — {imv:Sedetevi} bene davanti al computer e non {imv:portate} borse troppo pesanti.",
+      "**8. Ascoltate il vostro corpo** — Se {ip:siete} stanchi, {imv:fermatevi} e {imv:riposatevi}."
     ],
     "exercises": [
       {
+        "type": "match",
+        "prompt": "Abbina ogni consiglio al problema giusto.",
+        "pairs": [
+          [
+            "Respirate bene",
+            "sono sempre nervoso"
+          ],
+          [
+            "Dormite",
+            "ho sempre sonno di giorno"
+          ],
+          [
+            "Muovetevi",
+            "sto seduto tutto il giorno"
+          ],
+          [
+            "Non esagerate con il caffè",
+            "mi fa male lo stomaco"
+          ],
+          [
+            "Attenzione alla schiena",
+            "lavoro molte ore al computer"
+          ]
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "The first flat is the smallest.",
+            "q": "Bisogna bere l'acqua soprattutto durante i pasti.",
             "options": [
-              "*True",
-              "False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "The second flat is smaller than the first.",
+            "q": "Ci {ip:vogliono} almeno sette ore di sonno.",
             "options": [
-              "True",
-              "*False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "The third flat costs less than the second.",
+            "q": "Camminare mezz'ora al giorno {ip:è} un'alternativa allo sport.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "They will probably choose the first flat.",
+            "q": "Cinque caffè al giorno non {ip:fanno} male.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Quando {ip:siete} stanchi, {ip:dovete} riposarvi.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'infinito di questi verbi all'[imv:imperativo] del testo.",
+        "questions": [
+          "bevete → [[bere]]",
+          "andate → [[andare]]",
+          "fate → [[fare]]",
+          "sedetevi → [[sedersi]]",
+          "fermatevi → [[fermarsi]]"
         ]
       }
     ]
@@ -352,51 +629,71 @@
   "listening": {
     "transcript": [
       [
-        "Agente",
-        "Questo {ip:è} l'appartamento più bello del palazzo."
+        "Medico",
+        "Buongiorno, signora Neri. Come si {ip:sente}?"
       ],
       [
-        "Davide",
-        "{ip:È} più caro di quello al primo piano?"
+        "Signora Neri",
+        "Mah… oggi non {ip:sono} in forma. {ip:Ho} la tosse e mi {ip:fa} male la gola."
       ],
       [
-        "Agente",
-        "Sì, ma {ip:è} molto più luminoso."
+        "Medico",
+        "{imv:Apra} la bocca, per favore… Sì, la gola {ip:è} rossa. {ip:Ha} la febbre?"
       ],
       [
-        "Davide",
-        "E quella camera lì?"
+        "Signora Neri",
+        "Sì, ieri sera {pp:ho avuto} 38."
       ],
       [
-        "Agente",
-        "{ip:È} la camera più grande. La migliore, secondo me."
+        "Medico",
+        "{ip:È} un po' d'influenza. {imv:Prenda} questo sciroppo due volte al giorno, {imv:beva} molto e {imv:si riposi}."
       ],
       [
-        "Davide",
-        "Bellissima. Ci {ip:pensiamo} e la {ip:richiamo}."
+        "Signora Neri",
+        "{ip:Posso} andare al lavoro?"
+      ],
+      [
+        "Medico",
+        "No, {imv:stia} a casa tre giorni e non {imv:si preoccupi}. Buona guarigione!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:È} l'appartamento più bello [[del]] palazzo.",
-          "{ip:È} più caro [[di]] quello al primo piano?",
-          "E [[quella]] camera lì?",
-          "La [[migliore]], secondo me."
+          "[[Apra#imv]] la bocca, per favore.",
+          "[[Prenda#imv]] questo sciroppo due volte al giorno.",
+          "[[Beva#imv]] molto e [[si riposi#imv]].",
+          "No, [[stia#imv]] a casa tre giorni."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does Davide say at the end?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Davide…",
+            "q": "Che cosa {ip:ha} la signora Neri?",
             "options": [
-              "rents the flat at once",
-              "*will think about it and call back",
-              "doesn't like the flat"
+              "mal di schiena",
+              "*tosse e mal di gola",
+              "mal di denti"
+            ]
+          },
+          {
+            "q": "Quante volte al giorno {ip:deve} prendere lo sciroppo?",
+            "options": [
+              "una",
+              "*due",
+              "tre"
+            ]
+          },
+          {
+            "q": "Che cosa le {ip:dice} il medico per il lavoro?",
+            "options": [
+              "di andare solo la mattina",
+              "*di stare a casa tre giorni",
+              "di lavorare da casa"
             ]
           }
         ]
@@ -407,37 +704,62 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Un amico ti {ip:scrive} che non {ip:sta} bene. Rispondigli con l'[imv:imperativo].",
         "questions": [
           {
-            "q": "My house is bigger than yours. (informal)",
+            "q": "{ip:Dorme} poco: {ip:consigli} di dormire di più.",
             "a": [
-              "La mia casa è più grande della tua."
+              "Dormi di più!",
+              "Dormi di più.",
+              "Cerca di dormire di più."
             ]
           },
           {
-            "q": "This is the most interesting book.",
+            "q": "È sempre preoccupato: {imv:digli} di non preoccuparsi.",
             "a": [
-              "Questo è il libro più interessante."
+              "Non ti preoccupare!",
+              "Non preoccuparti!",
+              "Non ti preoccupare.",
+              "Non preoccuparti."
             ]
           },
           {
-            "q": "This wine is better than that one.",
+            "q": "{ip:Sta} sempre in casa: {ip:proponi} di fare un giro in bici insieme.",
             "a": [
-              "Questo vino è migliore di quello."
+              "Facciamo un giro in bici!",
+              "Prendiamo la bici e facciamo un giro!",
+              "Facciamo un giro in bicicletta!"
             ]
           },
           {
-            "q": "The film is very beautiful. (use -issimo)",
+            "q": "{ip:Guarda} sempre la TV: {imv:digli} di uscire con gli amici.",
             "a": [
-              "Il film è bellissimo."
+              "Esci con gli amici!",
+              "Esci con i tuoi amici!",
+              "Esci con gli amici."
             ]
           },
           {
-            "q": "I prefer those shoes.",
+            "q": "Gli {ip:auguri} di guarire presto.",
             "a": [
-              "Preferisco quelle scarpe.",
-              "Io preferisco quelle scarpe."
+              "Guarisci presto!",
+              "Buona guarigione!"
+            ]
+          },
+          {
+            "q": "Dal medico: la signora {ip:deve} prendere lo sciroppo. (Lei)",
+            "a": [
+              "Prenda lo sciroppo!",
+              "Prenda lo sciroppo.",
+              "Prenda questo sciroppo."
+            ]
+          },
+          {
+            "q": "In palestra: i ragazzi {ip:devono} alzare le braccia. (voi)",
+            "a": [
+              "Alzate le braccia!",
+              "Alzate le braccia in alto!",
+              "Alzate le braccia."
             ]
           }
         ]

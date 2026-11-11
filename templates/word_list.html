@@ -22,6 +22,66 @@
         overflow-wrap: anywhere;
     }
 
+    /* A small speaker button that plays the word */
+    .play {
+        display: inline-grid;
+        place-items: center;
+        width: 28px;
+        height: 28px;
+        margin: -4px 10px -4px 0;
+        padding: 0;
+        border: 1px solid var(--border-strong);
+        border-radius: 50%;
+        color: var(--muted);
+        background: none;
+        vertical-align: middle;
+        transition: color .2s, border-color .2s, background-color .2s, transform .1s;
+    }
+
+    .play:hover,
+    .play:focus-visible {
+        border-color: var(--accent);
+        color: var(--accent);
+        background-color: var(--accent-soft);
+    }
+
+    .play:active {
+        transform: scale(.92);
+    }
+
+    .play svg {
+        width: 15px;
+        height: 15px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .play svg path:first-child {
+        fill: currentColor;
+    }
+
+    .play.playing {
+        border-color: var(--accent);
+        color: var(--accent);
+        background-color: var(--accent-soft);
+    }
+
+    .play.playing .wave {
+        animation: wave 0.9s ease-in-out infinite;
+    }
+
+    .play.playing .wave-2 {
+        animation-delay: .15s;
+    }
+
+    @keyframes wave {
+        0%, 100% { opacity: 1; }
+        50% { opacity: .2; }
+    }
+
     .word-list .base-form {
         display: block;
         color: var(--muted);
@@ -53,6 +113,55 @@
         margin-top: 20px;
     }
 
+    .word-list .list-actions > * {
+        flex: 1;
+        display: flex;
+    }
+
+    .word-list .list-actions > :nth-child(2) {
+        justify-content: center;
+    }
+
+    .word-list .list-actions > :last-child {
+        justify-content: flex-end;
+    }
+
+    /* Export asks for the format in a small panel above the button */
+    .export {
+        position: relative;
+    }
+
+    .export-menu {
+        position: absolute;
+        bottom: calc(100% + 8px);
+        left: 50%;
+        z-index: 5;
+        width: max-content;
+        padding: 12px;
+        border: 1px solid var(--border-strong);
+        border-radius: 12px;
+        background-color: var(--surface-2);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, .3);
+        text-align: center;
+        transform: translateX(-50%);
+    }
+
+    .export-menu p {
+        margin: 0 0 10px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .export-menu div {
+        display: flex;
+        gap: 8px;
+    }
+
+    .export-menu a {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+
     .word-list .delete-list {
         background-color: var(--danger);
     }
@@ -80,7 +189,7 @@
 </a>
 
 <div class="word-list">
-    <h1 class="title">{{ word_list.name }}</h1>
+    <h1 class="title">{{ title }}</h1>
 
     {% with messages = get_flashed_messages() %}
     {% for message in messages %}
@@ -88,23 +197,30 @@
     {% endfor %}
     {% endwith %}
 
-    {% if word_list.entries %}
+    {% if entries %}
     <table class="shadow">
         <tr>
             <th>Word</th>
             <th>Translation</th>
-            <th></th>
+            {% if word_list %}<th></th>{% endif %}
         </tr>
-        {% for entry in word_list.entries %}
+        {% for entry in entries %}
         <tr>
-            <td>{{ entry.word }}{% if entry.lemma %}<span class="base-form">{{ entry.lemma }}</span>{% endif %}</td>
+            <td>{% if entry.audio %}<button class="play" type="button" data-audio="{{ entry.audio }}"
+                    aria-label="Listen to {{ entry.word }}"><svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M4 9v6h4l5 4V5L8 9H4z" />
+                        <path class="wave wave-1" d="M16 9.5a3.5 3.5 0 0 1 0 5" />
+                        <path class="wave wave-2" d="M18.5 7a7 7 0 0 1 0 10" />
+                    </svg></button>{% endif %}{{ entry.word }}{% if entry.lemma %}<span class="base-form">{{ entry.lemma }}</span>{% endif %}</td>
             <td>{{ entry.meaning }}</td>
+            {% if word_list %}
             <td class="actions">
                 <form action="{{ url_for('remove_list_word', list_id=word_list.id, entry_id=entry.id) }}" method="POST">
                     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                     <button class="remove button-secondary" type="submit" aria-label="Remove {{ entry.word }}">Remove</button>
                 </form>
             </td>
+            {% endif %}
         </tr>
         {% endfor %}
     </table>
@@ -115,15 +231,83 @@
     </p>
     {% endif %}
 
+    {# Built-in lists can't be changed, so they only have Export and Start quiz #}
     <div class="list-actions">
-        <form action="{{ url_for('delete_word_list', list_id=word_list.id) }}" method="POST"
-            onsubmit="return confirm('Delete this list and all its words?');">
-            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-            <button class="delete-list" type="submit">Delete list</button>
-        </form>
-        {% if word_list.entries %}
-        <a class="button" href="{{ url_for('word_list_quiz', list_id=word_list.id) }}">Start quiz</a>
-        {% endif %}
+        <div>
+            {% if word_list %}
+            <form action="{{ url_for('delete_word_list', list_id=word_list.id) }}" method="POST"
+                onsubmit="return confirm('Delete this list and all its words?');">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <button class="delete-list" type="submit">Delete list</button>
+            </form>
+            {% endif %}
+        </div>
+        <div>
+            {% if entries %}
+            <div class="export">
+                <button class="button-secondary export-toggle" type="button" aria-expanded="false">Export</button>
+                <div class="export-menu" hidden>
+                    <p>Export the words as</p>
+                    <div>
+                        <a class="button" href="{{ export_url }}?format=csv" download>CSV</a>
+                        <a class="button" href="{{ export_url }}?format=json" download>JSON</a>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        <div>
+            {% if entries %}
+            <a class="button" href="{{ quiz_url }}">Start quiz</a>
+            {% endif %}
+        </div>
     </div>
 </div>
+
+<script>
+    (() => {
+        // One recording at a time; the button pulses while it plays
+        let current = null;
+        document.querySelectorAll(".play").forEach((button) => {
+            button.addEventListener("click", () => {
+                if (current) {
+                    current.audio.pause();
+                    current.button.classList.remove("playing");
+                }
+                const audio = new Audio(button.dataset.audio);
+                const stop = () => button.classList.remove("playing");
+                audio.addEventListener("ended", stop);
+                audio.addEventListener("error", stop);
+                button.classList.add("playing");
+                current = { audio, button };
+                audio.play().catch(stop);
+            });
+        });
+    })();
+
+    (() => {
+        const box = document.querySelector(".export");
+        if (!box) {
+            return;
+        }
+        const toggle = box.querySelector(".export-toggle");
+        const menu = box.querySelector(".export-menu");
+        const setOpen = (open) => {
+            menu.hidden = !open;
+            toggle.setAttribute("aria-expanded", open);
+        };
+        toggle.addEventListener("click", () => setOpen(menu.hidden));
+        menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setOpen(false)));
+        document.addEventListener("click", (event) => {
+            if (!box.contains(event.target)) {
+                setOpen(false);
+            }
+        });
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") {
+                setOpen(false);
+            }
+        });
+    })();
+</script>
 {% endblock %}

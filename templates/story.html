@@ -215,14 +215,14 @@
 </a>
 
 <article class="container shadow story">
-    <header>
+    <header data-find="head">
         <span class="level-badge level-{{ story.level | lower }}">{{ story.level }}</span>
         <h1>{{ story.title }}</h1>
         <p class="subtitle">{{ story.translation }}</p>
         <p class="hint">Point at a word, or tap it, to see its translation.</p>
     </header>
     {% for paragraph in story.paragraphs %}
-    <p class="text">
+    <p class="text" data-find="p{{ loop.index0 }}">
         {%- for part in paragraph -%}
         {%- if part.key -%}
         <span class="word{% if part.group %} split{% endif %}" tabindex="0" data-key="{{ part.key }}" data-meaning="{{ part.meaning }}"

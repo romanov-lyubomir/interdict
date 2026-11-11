@@ -6,6 +6,71 @@
 {% import "explain.html" as explain %}
 {{ explain.style() }}
 <style>
+    /* Words with a translation look like any other word; pointing at one
+       shows the balloon */
+    .gl {
+        border-radius: 3px;
+        transition: background-color .1s;
+    }
+
+    .gl:hover,
+    .gl.active,
+    .gl-unit.active {
+        background-color: var(--surface-3);
+    }
+
+    /* A compound verb lights up as a whole, not word by word */
+    .gl-unit {
+        border-radius: 3px;
+    }
+
+    .gl-unit .gl:hover {
+        background: none;
+    }
+
+    .gloss-tip {
+        position: absolute;
+        z-index: 30;
+        max-width: 280px;
+        padding: 8px 12px;
+        border-radius: 10px;
+        background: #F2F2F2;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, .5);
+        color: #202020;
+        font-size: 14px;
+        line-height: 1.35;
+        text-align: center;
+        pointer-events: none;
+    }
+
+    .gloss-tip[hidden] {
+        display: none;
+    }
+
+    .gloss-tip b {
+        display: block;
+        font-size: 15px;
+    }
+
+    .gloss-tip::after {
+        content: "";
+        position: absolute;
+        left: var(--arrow-left, 50%);
+        bottom: -6px;
+        border: 6px solid transparent;
+        border-bottom: 0;
+        border-top-color: #F2F2F2;
+        transform: translateX(-50%);
+    }
+
+    .gloss-tip.below::after {
+        top: -6px;
+        bottom: auto;
+        border: 6px solid transparent;
+        border-top: 0;
+        border-bottom-color: #F2F2F2;
+    }
+
     .lesson {
         width: min(760px, calc(100vw - 32px));
         margin: 28px auto 40px;
@@ -274,8 +339,9 @@
 {% endblock %}
 
 {% block body %}
+{% import "explain.html" as explain %}
 {% macro exercise(ex, id) %}
-<div class="exercise">
+<div class="exercise" data-find="{{ id }}">
     <h3>{{ ex.prompt | rich }}</h3>
     {% if ex.type in ("gap", "write") %}
     <div class="accents" aria-label="{{ ui.accents }}">
@@ -353,7 +419,7 @@
 </a>
 
 <div class="lesson" data-score="{{ ui.score }}">
-    <header class="container shadow lesson-head">
+    <header class="container shadow lesson-head" data-find="head">
         <span class="level-badge level-{{ level | lower }}">{{ level }}</span>
         {% if is_reviewed(level, lesson.number) %}<span class="reviewed-mark" title="Already updated (only shown locally)">✓ updated</span>{% endif %}
         <h1>{{ lesson.number }}. {{ lesson.title | rich }}</h1>
@@ -386,27 +452,30 @@
 
         {% if key == "grammar" %}
         {% import "explain.html" as explain %}
-        {{ explain.blocks(section.explain) }}
+        {{ explain.blocks(section.explain, "grammar") }}
         {% elif key == "vocabulary" %}
+        {% if section.images %}{{ explain.gallery(section.images) }}{% endif %}
         <table>
             <tr><th>{{ ui.word }}</th><th>{{ ui.meaning }}</th></tr>
             {% for word, translation in section.words %}
-            <tr><td>{{ word }}</td><td>{{ translation }}</td></tr>
+            <tr data-find="vocabulary-w{{ loop.index0 }}"><td>{{ word }}</td><td>{{ translation }}</td></tr>
             {% endfor %}
         </table>
         {% elif key == "reading" %}
         {% for paragraph in section.text %}
-        {% if paragraph is mapping %}
-        <h3 class="reading-title">{{ paragraph.h | rich }}</h3>
+        {% if paragraph is mapping and paragraph.img %}
+        {{ explain.figure(paragraph) }}
+        {% elif paragraph is mapping %}
+        <h3 class="reading-title" data-find="reading-p{{ loop.index0 }}">{{ paragraph.h | rich }}</h3>
         {% else %}
-        <p class="reading-text">{{ paragraph | rich }}</p>
+        <p class="reading-text" data-find="reading-p{{ loop.index0 }}">{{ paragraph | rich }}</p>
         {% endif %}
         {% endfor %}
         {% elif key == "listening" %}
         <p class="audio-note">{{ ui.audio_note }}</p>
         <div class="transcript">
             {% for speaker, line in section.transcript %}
-            <p><b>{{ speaker }}:</b> {{ line | rich }}</p>
+            <p data-find="listening-l{{ loop.index0 }}"><b>{{ speaker }}:</b> {{ line | rich }}</p>
             {% endfor %}
         </div>
         {% endif %}
@@ -418,6 +487,285 @@
     {% endfor %}
 
 </div>
+<div id="glossTip" class="gloss-tip" role="tooltip" hidden></div>
+<script>
+    // English meanings on hover (or tap). Nothing marks the words, so the
+    // page looks the same; only the words with a known meaning react
+    (() => {
+        const glossary = {{ glossary | tojson }};
+        const root = document.querySelector(".lesson");
+        const tip = document.getElementById("glossTip");
+        const skip = "input, textarea, select, button, script, style, svg, kbd, .tense-name, .level-badge, " +
+            ".reviewed-mark, .lesson-nav, .ex-status, .gloss-tip";
+        const word = /[\p{L}]+/gu;
+
+        const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+            acceptNode: (node) => node.parentElement.closest(skip) || !node.nodeValue.trim()
+                ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT,
+        });
+        const nodes = [];
+        while (walker.nextNode()) {
+            nodes.push(walker.currentNode);
+        }
+        nodes.forEach((node) => {
+            const text = node.nodeValue;
+            const parts = [];
+            let last = 0;
+            for (const match of text.matchAll(word)) {
+                const key = match[0].toLocaleLowerCase("it");
+                if (!glossary[key]) {
+                    continue;
+                }
+                if (match.index > last) {
+                    parts.push(document.createTextNode(text.slice(last, match.index)));
+                }
+                const span = document.createElement("span");
+                span.className = "gl";
+                span.dataset.gl = key;
+                span.textContent = match[0];
+                parts.push(span);
+                last = match.index + match[0].length;
+            }
+            if (!parts.length) {
+                return;
+            }
+            if (last < text.length) {
+                parts.push(document.createTextNode(text.slice(last)));
+            }
+            node.replaceWith(...parts);
+        });
+
+        // A word can be more than one thing ("capito": capire or capitare;
+        // "letto": bed or read). Only one meaning is shown, chosen from the
+        // sentence: the tense the verb is marked with, the auxiliary before
+        // a participle, and otherwise the noun or adjective
+        const auxiliaries = new Set(("ho hai ha abbiamo avete hanno avevo avevi aveva avevamo avevate avevano " +
+            "ebbi avrò avrai avrà avremo avrete avranno avrei avresti avrebbe avremmo avreste avrebbero " +
+            "abbia abbiano avessi avesse avessimo aveste avessero sono sei è siamo siete ero eri era eravamo " +
+            "eravate erano fui fu furono sarò sarai sarà saremo sarete saranno sarei saresti sarebbe saremmo " +
+            "sareste sarebbero sia siano fossi fosse fossimo foste fossero").split(" "));
+        const verbsAfter = new Set(("io tu lui lei noi voi loro non mi ti si ci vi ne gli chi che cui dove " +
+            "quando come qui lì là questa questo").split(" "));
+        // A word with a noun entry ("il fatto"): a participle after it is an
+        // adjective made from the verb ("un fatto successo una volta")
+        const isNoun = (key) => (glossary[key] || []).some((entry) =>
+            !entry.t && /^(il|lo|la|i|gli|le|un|una|uno) |^l'/.test(entry.w));
+        const tenseOf = (span) => {
+            for (let element = span; element && element !== root; element = element.parentElement) {
+                for (const name of element.classList) {
+                    const match = name.match(/^t-(\w+)$/);
+                    if (match) {
+                        return match[1];
+                    }
+                }
+            }
+            return null;
+        };
+        // The word before: null at the start of a sentence, and "§" when a
+        // gap, a comma or a number stands between ("Tu ___ presto?",
+        // "carrozza 4, posto 52"), since then it says nothing
+        const blockOf = (span) => span.closest("p, li, td, th, label, h1, h2, h3, h4, div") || root;
+        const wordBefore = (span) => {
+            const range = document.createRange();
+            range.setStart(blockOf(span), 0);
+            range.setEndBefore(span);
+            const fragment = range.cloneContents();
+            fragment.querySelectorAll("input, select, textarea").forEach((field) => field.replaceWith("§"));
+            const text = fragment.textContent;
+            if (!text.trim() || /[.!?:;(«—–]\s*$/.test(text)) {
+                return null;
+            }
+            const tail = text.match(/([\p{L}]+)([^\p{L}]*)$/u);
+            if (!tail) {
+                return null;
+            }
+            return /[§,\d]/.test(tail[2]) ? "§" : tail[1].toLocaleLowerCase("it");
+        };
+        const wordAfter = (span) => {
+            const range = document.createRange();
+            range.setStartAfter(span);
+            range.setEnd(blockOf(span), blockOf(span).childNodes.length);
+            // "Prego!", "Scusa, …" are words on their own, not the start of a sentence
+            const text = range.toString();
+            return /\p{L}/u.test(text) && !/^\s*[!?,.]/.test(text);
+        };
+        const essere = new Set(("sono sei è siamo siete ero eri era eravamo eravate erano fui fu furono sarò sarai " +
+            "sarà saremo sarete saranno sarei saresti sarebbe sia siano fossi fosse").split(" "));
+        const withArticle = /^(il|lo|la|i|gli|le|un|una|uno) |^l'/;
+
+        const pick = (span, entries) => {
+            if (entries.length === 1) {
+                return entries[0];
+            }
+            const verbForms = entries.filter((entry) => entry.t);
+            const others = entries.filter((entry) => !entry.t);
+            const tense = tenseOf(span);
+            if (tense && verbForms.length) {
+                return verbForms.find((entry) => entry.t.includes(tense)) || verbForms[0];
+            }
+            const before = wordBefore(span);
+            const participle = verbForms.find((entry) => entry.t.includes("participio_passato"));
+            const conjugated = verbForms.find((entry) => !entry.t.includes("participio_passato"));
+            // "è sposato", "è aperto": the adjective, when there is one
+            if (participle && essere.has(before)) {
+                return others.find((entry) => !withArticle.test(entry.w)) || participle;
+            }
+            // "ho capito", "ho letto": the participle of the verb
+            if (participle && auxiliaries.has(before)) {
+                return participle;
+            }
+            // After a pronoun or "non" it's the verb: "non porta", "cui dai"
+            if (verbForms.length && verbsAfter.has(before)) {
+                return conjugated || verbForms[0];
+            }
+            // After a noun: "un fatto successo" (participle), "uno spazio aperto"
+            // (adjective), "il treno parte" (verb)
+            if (before && isNoun(before)) {
+                if (participle) {
+                    return others.find((entry) => !withArticle.test(entry.w)) || participle;
+                }
+                if (conjugated) {
+                    return conjugated;
+                }
+            }
+            // A sentence that starts with a verb: "Sei d'accordo?", "Porta il pane".
+            // Not a heading, a table cell or a word on its own ("forma negativa")
+            if (conjugated && before === null && wordAfter(span) && !span.closest("td, th, h1, h2, h3, h4")) {
+                return conjugated;
+            }
+            // Otherwise the noun, adjective or small word: "la porta", "per sei anni"
+            return others[0] || verbForms[0];
+        };
+
+        let current = null;
+        const hide = () => {
+            tip.hidden = true;
+            if (current) {
+                current.classList.remove("active");
+            }
+            current = null;
+        };
+        // "ho dovuto", "si è svegliato", "non ti preoccupare" are one verb: any
+        // word of them lights up the whole form and shows the main verb
+        root.querySelectorAll("*").forEach((element) => {
+            if (![...element.classList].some((name) => /^t-\w+$/.test(name)) || element.closest(".tense-name")) {
+                return;
+            }
+            // The whole text counts, also when a highlight splits a word
+            // ("alzat" + "o")
+            const words = element.textContent.match(word) || [];
+            const last = words.length ? words[words.length - 1].toLocaleLowerCase("it") : "";
+            const isVerb = (entry) => entry.t || /(are|ere|ire|rre|rsi)$/.test(entry.w);
+            if (words.length > 1 && (glossary[last] || []).some(isVerb)) {
+                element.classList.add("gl-unit");
+                element.mainKey = last;
+            }
+        });
+        // The same without the tense mark: an auxiliary just before a participle
+        root.querySelectorAll(".gl").forEach((span) => {
+            if (span.closest(".gl-unit") || !auxiliaries.has(span.dataset.gl)) {
+                return;
+            }
+            const gap = span.nextSibling;
+            const next = gap && gap.nextSibling;
+            if (!gap || gap.nodeType !== Node.TEXT_NODE || gap.nodeValue.trim() || !next ||
+                !next.classList || !next.classList.contains("gl") ||
+                !(glossary[next.dataset.gl] || []).some((entry) => entry.t && entry.t.includes("participio_passato"))) {
+                return;
+            }
+            const unit = document.createElement("span");
+            unit.className = "gl-unit";
+            span.before(unit);
+            unit.append(span, gap, next);
+            unit.mainKey = next.dataset.gl;
+        });
+
+        // The verb of a compound form: the reflexive one after mi, ti, si, ci,
+        // vi ("mi alzo": alzarsi), the one with this form in the marked tense,
+        // and a verb rather than an adjective ("è finito": finire)
+        const pickUnit = (unit) => {
+            const entries = glossary[unit.mainKey];
+            let verbForms = entries.filter((entry) => entry.t);
+            // The pronoun can also stand just before the marked form ("ti {sei divertito}")
+            const first = (unit.textContent.match(word) || [""])[0].toLocaleLowerCase("it");
+            const reflexivePronoun = (key) => ["mi", "ti", "si", "ci", "vi"].includes(key);
+            // …but not with avere: in "ti ho aspettata" the "ti" is "you"
+            const withAvere = auxiliaries.has(first) && !essere.has(first);
+            if (reflexivePronoun(first) || (!withAvere && reflexivePronoun(wordBefore(unit)))) {
+                const reflexive = verbForms.filter((entry) => /rsi$|rsene$/.test(entry.w));
+                if (reflexive.length) {
+                    verbForms = reflexive;
+                }
+            } else {
+                const plain = verbForms.filter((entry) => !/rsi$|rsene$/.test(entry.w));
+                if (plain.length) {
+                    verbForms = plain;
+                }
+            }
+            const tense = tenseOf(unit);
+            return (tense && verbForms.find((entry) => entry.t.includes(tense))) ||
+                verbForms.find((entry) => entry.t.includes("participio_passato")) ||
+                verbForms[0] || entries[0];
+        };
+
+        const show = (target) => {
+            const unit = target.closest(".gl-unit");
+            const owner = unit || target;
+            if (current === owner) {
+                return;
+            }
+            hide();
+            current = owner;
+            owner.classList.add("active");
+            const entry = unit ? pickUnit(unit) : pick(target, glossary[target.dataset.gl]);
+            const lemma = document.createElement("b");
+            lemma.textContent = entry.w;
+            tip.replaceChildren(lemma, entry.m);
+            tip.hidden = false;
+            // Above the word, or below it when there is no room
+            const box = owner.getBoundingClientRect();
+            const width = tip.offsetWidth;
+            const height = tip.offsetHeight;
+            const navHeight = document.querySelector("nav").offsetHeight;
+            const centre = box.left + box.width / 2;
+            const left = Math.min(Math.max(centre - width / 2, 8), document.documentElement.clientWidth - width - 8);
+            const below = box.top - height - 10 < navHeight;
+            tip.classList.toggle("below", below);
+            tip.style.left = `${left + window.scrollX}px`;
+            tip.style.top = `${(below ? box.bottom + 10 : box.top - height - 10) + window.scrollY}px`;
+            tip.style.setProperty("--arrow-left", `${centre - left}px`);
+        };
+
+        root.addEventListener("mouseover", (event) => {
+            const span = event.target.closest(".gl");
+            if (span) {
+                show(span);
+            }
+        });
+        root.addEventListener("mouseout", (event) => {
+            const span = event.target.closest(".gl");
+            const owner = span && (span.closest(".gl-unit") || span);
+            if (owner && !owner.contains(event.relatedTarget)) {
+                hide();
+            }
+        });
+        // On touch screens a tap shows the balloon; a tap elsewhere hides it
+        root.addEventListener("touchstart", (event) => {
+            const span = event.target.closest(".gl");
+            if (span) {
+                show(span);
+            } else {
+                hide();
+            }
+        }, { passive: true });
+        window.addEventListener("scroll", hide, { passive: true });
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") {
+                hide();
+            }
+        });
+    })();
+</script>
 <script src="{{ url_for('static', filename='lesson.js') }}"></script>
 <script src="{{ url_for('static', filename='tabs.js') }}"></script>
 {% endblock %}

@@ -1,4 +1,5 @@
 import csv
+import io
 import json
 import os
 import random
@@ -14,6 +15,7 @@ from flask import (
     redirect,
     render_template,
     request,
+    send_file,
     session,
     url_for,
 )
@@ -27,7 +29,10 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 import conjugation
 import functions
+import glossary
 import grammar_lessons
+import search
+import verbs
 import stories
 
 app = Flask(__name__)
@@ -160,6 +165,42 @@ VOCABULARY = {
 }
 STORIES = {lang: stories.load_stories(lang) for lang in LANGUAGES}
 LESSONS = {lang: grammar_lessons.load_lessons(lang) for lang in LANGUAGES}
+SEARCH_INDEX = {
+    lang: search.build(
+        LESSONS[lang],
+        STORIES[lang],
+        lambda level, number: f"/lessons/{level.lower()}/{number}",
+        lambda slug: f"/stories/{slug}",
+        grammar_lessons.ui_for(lang),
+    )
+    for lang in LANGUAGES
+}
+# Verb pages and the verbs in the search, for Italian only so far
+# English meaning, examples and phrases for each verb page
+with open(os.path.join("data", "italian", "verb_details.json"), encoding="utf-8") as file:
+    VERB_DETAILS = {"italian": json.load(file)}
+VERB_LIST = {
+    "italian": verbs.find_verbs(LESSONS["italian"], STORIES["italian"], VERB_DETAILS["italian"]),
+}
+VERB_FORMS = {lang: verbs.form_index(verb_list, search.fold) for lang, verb_list in VERB_LIST.items()}
+# English meanings of words, for the balloons on the lesson pages
+GLOSSARY = {
+    lang: glossary.build(
+        lang,
+        STORIES[lang],
+        VOCABULARY[lang],
+        VERB_LIST.get(lang, ()),
+        VERB_DETAILS.get(lang),
+        verbs.conjugate if lang in VERB_LIST else None,
+        DATA_DIR,
+        verbs.TAGS,
+    )
+    for lang in LANGUAGES
+}
+VERB_SUGGESTIONS = 2
+VERB_RESULTS = 8
+SUGGESTIONS = 5
+RESULTS_PER_PAGE = 12
 HOME_PAGE_LESSONS = 4
 
 
@@ -468,6 +509,7 @@ def lesson(level, number):
         ],
         previous=level_lessons[position - 1] if position else None,
         following=level_lessons[position + 1] if position + 1 < len(level_lessons) else None,
+        glossary=glossary.for_lesson(GLOSSARY[get_lang()], level_lessons[position]),
         current_user=current_user,
     )
 
@@ -479,6 +521,101 @@ def lesson_for_topic(topic):
     if topic not in LANGUAGES[lang]["lessons"]:
         abort(404)
     return render_template(f"lessons/{lang}/{topic}.html", current_user=current_user)
+
+
+def verb_results(query, limit):
+    lang = get_lang()
+    if lang not in VERB_LIST:
+        return []
+    results = []
+    for match in verbs.search(VERB_FORMS[lang], VERB_LIST[lang], query, search.fold, limit):
+        # The negative imperative shares its row with the affirmative one
+        tense = "imperativo" if match["tense"] == "imperativo_negativo" else match["tense"]
+        find = f"{tense}-{match['person']}" if match["form"] else "head"
+        results.append({
+            "infinitive": match["infinitive"],
+            "detail": verbs.describe(match),
+            "url": url_for("verb_page", infinitive=match["infinitive"], find=find),
+        })
+    return results
+
+
+@app.route("/verbi/<infinitive>")
+@language_required
+def verb_page(infinitive):
+    if get_lang() not in VERB_LIST or infinitive.lower() not in VERB_LIST[get_lang()]:
+        abort(404)
+    try:
+        verb = verbs.page(infinitive.lower())
+    except (ValueError, KeyError, IndexError):
+        abort(404)
+    details = VERB_DETAILS[get_lang()].get(verb["infinitive"], {})
+    return render_template(
+        "verb.html",
+        verb=verb,
+        details=details,
+        word_key=verb_key(verb["infinitive"], details),
+        word_lists=lists_for_page(),
+        max_list_name_length=MAX_LIST_NAME_LENGTH,
+        current_user=current_user,
+    )
+
+
+def verb_key(infinitive, details):
+    # The same "word|meaning" key the stories use, so a verb saved from
+    # either place counts once
+    return f"{infinitive}|{details.get('meaning', '')}".casefold()
+
+
+def lists_for_page():
+    return [
+        {
+            "id": word_list.id,
+            "name": word_list.name,
+            "keys": [entry.word_key for entry in word_list.entries],
+        }
+        for word_list in user_word_lists()
+    ]
+
+
+@app.route("/search/suggest")
+@language_required
+def search_suggest():
+    # The first few matches for the search box in the navigation bar
+    query = request.args.get("q", "").strip()
+    found = search.search(SEARCH_INDEX[get_lang()], query)
+    return jsonify(
+        total=len(found),
+        verbs=verb_results(query, VERB_SUGGESTIONS),
+        all_url=url_for("search_results", q=query),
+        results=[
+            {**item, "snippet": str(item["snippet"])}
+            for item in (search.result(match, query) for match in found[:SUGGESTIONS])
+        ],
+    )
+
+
+@app.route("/search")
+@language_required
+def search_results():
+    query = request.args.get("q", "").strip()
+    found = search.search(SEARCH_INDEX[get_lang()], query)
+    pages = max(1, -(-len(found) // RESULTS_PER_PAGE))
+    try:
+        page = min(max(1, int(request.args.get("page", 1))), pages)
+    except ValueError:
+        page = 1
+    start = (page - 1) * RESULTS_PER_PAGE
+    return render_template(
+        "search.html",
+        query=query,
+        verbs=verb_results(query, VERB_RESULTS) if page == 1 else [],
+        total=len(found),
+        results=[search.result(match, query) for match in found[start:start + RESULTS_PER_PAGE]],
+        page=page,
+        pages=pages,
+        current_user=current_user,
+    )
 
 
 @app.route("/stories")
@@ -497,18 +634,10 @@ def story(slug):
     lang_stories = STORIES[get_lang()]
     if slug not in lang_stories:
         abort(404)
-    lists_for_page = [
-        {
-            "id": word_list.id,
-            "name": word_list.name,
-            "keys": [entry.word_key for entry in word_list.entries],
-        }
-        for word_list in user_word_lists()
-    ]
     return render_template(
         "story.html",
         story=lang_stories[slug],
-        word_lists=lists_for_page,
+        word_lists=lists_for_page(),
         max_list_name_length=MAX_LIST_NAME_LENGTH,
         current_user=current_user,
     )
@@ -560,8 +689,102 @@ def create_word_list():
 @app.route("/word_lists/<int:list_id>")
 @logged_in
 def word_list(list_id):
+    target = owned_word_list(list_id)
     return render_template(
-        "word_list.html", word_list=owned_word_list(list_id), current_user=current_user
+        "word_list.html",
+        title=target.name,
+        entries=target.entries,
+        word_list=target,
+        quiz_url=url_for("word_list_quiz", list_id=target.id),
+        export_url=url_for("export_word_list", list_id=target.id),
+        current_user=current_user,
+    )
+
+
+@app.route("/vocabulary/<topic>")
+@language_required
+def topic_words(topic):
+    # The words of a built-in topic, to look through before a quiz. They
+    # can't be changed, so the page has no Remove or Delete buttons
+    if topic not in TOPICS:
+        abort(404)
+    return render_template(
+        "word_list.html",
+        title=format(topic),
+        entries=[
+            {
+                "word": word["foreign"],
+                "lemma": "",
+                "meaning": word["english"],
+                "audio": word_audio_url(get_lang(), word),
+            }
+            for word in VOCABULARY[get_lang()][topic]
+        ],
+        word_list=None,
+        quiz_url=url_for("vocabulary_for_topic", topic=topic),
+        export_url=url_for("export_topic", topic=topic),
+        current_user=current_user,
+    )
+
+
+def word_audio_url(lang, word):
+    # The recording of a topic word, when there is one. The file's time is
+    # added to the address, so a re-recorded word is never played from an
+    # old copy kept by the browser
+    path = f"audio/{lang}/vocabulary/{word['id']}.mp3"
+    full_path = os.path.join(app.static_folder, path)
+    if word["id"] and os.path.exists(full_path):
+        return url_for("static", filename=path, v=int(os.path.getmtime(full_path)))
+    return None
+
+
+EXPORT_FORMATS = ("csv", "json")
+
+
+def export_file(name, entries):
+    # Sends the words as a CSV or JSON download named after the list
+    kind = request.args.get("format", "csv")
+    if kind not in EXPORT_FORMATS:
+        abort(404)
+    rows = [
+        {"word": entry["word"], "base_form": entry["lemma"], "translation": entry["meaning"]}
+        for entry in entries
+    ]
+    if kind == "json":
+        data = json.dumps(rows, ensure_ascii=False, indent=2).encode("utf-8")
+        mimetype = "application/json"
+    else:
+        text = io.StringIO()
+        writer = csv.DictWriter(text, fieldnames=["word", "base_form", "translation"])
+        writer.writeheader()
+        writer.writerows(rows)
+        # The byte order mark lets Excel read the accents correctly
+        data = ("\ufeff" + text.getvalue()).encode("utf-8")
+        mimetype = "text/csv"
+    file_name = re.sub(r"[^\w-]+", "_", name).strip("_") or "words"
+    return send_file(
+        io.BytesIO(data), mimetype=mimetype, as_attachment=True, download_name=f"{file_name}.{kind}"
+    )
+
+
+@app.route("/word_lists/<int:list_id>/export")
+@logged_in
+def export_word_list(list_id):
+    target = owned_word_list(list_id)
+    return export_file(
+        target.name,
+        [{"word": e.word, "lemma": e.lemma, "meaning": e.meaning} for e in target.entries],
+    )
+
+
+@app.route("/vocabulary/<topic>/export")
+@language_required
+def export_topic(topic):
+    if topic not in TOPICS:
+        abort(404)
+    return export_file(
+        format(topic),
+        [{"word": w["foreign"], "lemma": "", "meaning": w["english"]} for w in VOCABULARY[get_lang()][topic]],
     )
 
 
@@ -588,11 +811,18 @@ def remove_list_word(list_id, entry_id):
 @app.route("/word_lists/add_word", methods=["POST"])
 @logged_in
 def add_word_to_list():
-    # Adds a word from a story to an existing list or to a new one (when "name" is sent)
+    # Adds a word from a story or a verb page to an existing list or to a
+    # new one (when "name" is sent)
     lang = get_lang()
-    story_data = STORIES[lang].get(request.form.get("story"))
-    key = request.form.get("key")
-    part = story_data["vocabulary"].get(key) if story_data else None
+    verb = request.form.get("verb")
+    if verb is not None:
+        details = VERB_DETAILS.get(lang, {}).get(verb)
+        key = verb_key(verb, details) if details else None
+        part = {"lemma": verb, "saved": verb, "saved_meaning": details["meaning"]} if details else None
+    else:
+        story_data = STORIES[lang].get(request.form.get("story"))
+        key = request.form.get("key")
+        part = story_data["vocabulary"].get(key) if story_data else None
     if part is None:
         return jsonify(error="That word could not be found."), 404
 
@@ -629,6 +859,14 @@ def add_word_to_list():
 
 QUIZ_LENGTHS = [5, 10, 20, 50, 100, 200]
 DEFAULT_QUIZ_LENGTH = 10
+# How the words are asked: typed in full, as flash cards the user marks as
+# known or not, or as a choice between four words
+QUIZ_MODES = [("writing", "Writing"), ("cards", "Flash cards"), ("choice", "Multiple choice")]
+CHOICES = 4
+
+
+def clean_quiz_mode(value):
+    return value if value in dict(QUIZ_MODES) else "writing"
 
 
 def clean_quiz_length(value):
@@ -667,6 +905,18 @@ def current_quiz(kind, topic=None):
 
 def quiz_finished(quiz):
     return quiz["done"] >= quiz["total"]
+
+
+def record_card(quiz, known):
+    # A flash card moves on either way; only the known ones count as right
+    quiz["done"] += 1
+    if known:
+        quiz["first_try"] += 1
+    session["quiz"] = quiz
+    result = dict(done=quiz["done"], total=quiz["total"])
+    if quiz_finished(quiz):
+        result["finished"] = url_for("quiz_report")
+    return result
 
 
 def record_answer(quiz, is_correct):
@@ -851,7 +1101,31 @@ def pick_word(lang, topic, words, previous=None):
     return words[row]
 
 
-def word_question_args(lang, topic, word):
+def choice_options(word, words):
+    # The right word and up to three others with a different meaning, in a
+    # random order
+    same = {answer.casefold() for answer in word.get("accepted") or [word["foreign"]]}
+    meaning = word["english"].casefold()
+    others = sorted({
+        other["foreign"] for other in words
+        if other["foreign"].casefold() not in same and other["english"].casefold() != meaning
+    })
+    options = random.sample(others, min(CHOICES - 1, len(others))) + [word["foreign"]]
+    random.shuffle(options)
+    return options
+
+
+def word_question_args(lang, topic, word, mode="writing", words=()):
+    args = base_question_args(lang, topic, word)
+    if mode == "cards":
+        # Flash cards are marked by the user, so the answer comes with the card
+        args.update(answer=word["foreign"], gender=word["gender"])
+    elif mode == "choice":
+        args["options"] = choice_options(word, words)
+    return args
+
+
+def base_question_args(lang, topic, word):
     image = word["image"]
     return dict(
         english=word["english"],
@@ -860,11 +1134,7 @@ def word_question_args(lang, topic, word):
             if image
             else None
         ),
-        audio_url=(
-            url_for("static", filename=f"audio/{lang}/vocabulary/{word['id']}.mp3")
-            if word["id"]
-            else None
-        ),
+        audio_url=word_audio_url(lang, word),
     )
 
 
@@ -883,10 +1153,13 @@ def word_setup_page(kind, topic, title, hint, practice_url, back_url, quiz_title
     # The start page of a vocabulary quiz
     if request.method == "POST":
         length = clean_quiz_length(request.form.get("length"))
+        mode = clean_quiz_mode(request.form.get("mode"))
         session["vocabulary_length"] = length
+        session["vocabulary_mode"] = mode
         session.permanent = True
         session.pop("word_drill", None)
         start_quiz(kind, length, topic, quiz_title)
+        session["quiz"] = dict(session["quiz"], mode=mode)
         return redirect(practice_url)
 
     return render_template(
@@ -896,6 +1169,8 @@ def word_setup_page(kind, topic, title, hint, practice_url, back_url, quiz_title
         back_url=back_url,
         quiz_lengths=QUIZ_LENGTHS,
         selected_length=clean_quiz_length(session.get("vocabulary_length")),
+        quiz_modes=QUIZ_MODES,
+        selected_mode=clean_quiz_mode(session.get("vocabulary_mode")),
         current_user=current_user,
     )
 
@@ -908,34 +1183,45 @@ def word_practice_page(kind, topic, words, setup_page):
         return leave_drill(setup_page)
     if quiz_finished(quiz):
         return leave_drill(url_for("quiz_report"))
+    mode = clean_quiz_mode(quiz.get("mode"))
+
+    def question(word):
+        return word_question_args(lang, topic, word, mode, words)
 
     # Only the row number is kept in the session cookie, never the answer
     row = drill_row(session.get("word_drill"), len(words), lang=lang, topic=topic)
     if request.method == "POST":
         if row is None:
             # The question expired, so just show a new one
-            return jsonify(next=word_question_args(lang, topic, pick_word(lang, topic, words)))
+            return jsonify(next=question(pick_word(lang, topic, words)))
         word = words[row]
+        if mode == "cards":
+            result = record_card(quiz, request.form.get("known") == "1")
+            if "finished" not in result:
+                result["next"] = question(pick_word(lang, topic, words, row))
+            return jsonify(result)
         word_is_correct, missed_one_letter = check_word(request.form.get("user_input", ""), word)
-        if missed_one_letter:
+        # A near miss only matters when the word is typed
+        if missed_one_letter and mode == "writing":
             record_answer(quiz, False)
             return jsonify(message="You missed one letter.")
         result = dict(
             correct=word_is_correct,
             answer=word["foreign"],
             gender=word["gender"],
-            audio_url=word_question_args(lang, topic, word)["audio_url"],
+            audio_url=base_question_args(lang, topic, word)["audio_url"],
             **record_answer(quiz, word_is_correct),
         )
         if word_is_correct and "finished" not in result:
-            result["next"] = word_question_args(lang, topic, pick_word(lang, topic, words, row))
+            result["next"] = question(pick_word(lang, topic, words, row))
         return jsonify(result)
 
     # A reload keeps the current word, so it can't be skipped
     word = words[row] if row is not None else pick_word(lang, topic, words)
     return render_template(
         "vocabulary_for_topic.html",
-        **word_question_args(lang, topic, word),
+        **question(word),
+        mode=mode,
         quiz=quiz,
         current_user=current_user,
     )
@@ -953,7 +1239,7 @@ def vocabulary_for_topic(topic):
         format(topic),
         f"Translate each word into {get_lang().capitalize()}, together with its definite article.",
         url_for("vocabulary_practice", topic=topic),
-        url_for("vocabulary_topics"),
+        url_for("topic_words", topic=topic),
     )
 
 

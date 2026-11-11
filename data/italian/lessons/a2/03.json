@@ -1,136 +1,254 @@
 {
-  "title": "Mentre {im:studiavo}, {pp:è arrivato} Luca",
-  "translation": "While I was studying, Luca arrived",
-  "topics": "The difference between the [pp:passato prossimo] and the [im:imperfetto]",
+  "title": "Dove ti {cop:piacerebbe} andare?",
+  "translation": "",
+  "topics": "*Andare* con luoghi, mezzi e persone, il [cop:condizionale presente] di *piacere* e *volere*, il plurale delle parole in *-co*, *-go*, *-ca*, *-ga*, le vacanze e il treno",
   "grammar": {
     "explain": [
+      "Parlare delle vacanze: dove vorresti andare, con chi, come, e che cosa ti piacerebbe fare. Per esprimere un desiderio in modo gentile si usa il [cop:condizionale presente].",
       {
-        "h": "Think of a film"
-      },
-      "The [im:imperfetto] is the scenery of the film: what was going on, what things were like. The [pp:passato prossimo] is the event: what happened, one step at a time, and is now finished.",
-      {
-        "table": {
-          "head": [
-            "",
-            "[im:Imperfetto]",
-            "[pp:Passato prossimo]"
-          ],
-          "rows": [
-            [
-              "Question it answers",
-              "What was it like? What was going on?",
-              "What happened?"
-            ],
-            [
-              "Length",
-              "No clear start or end",
-              "Finished, or a stated length of time"
-            ],
-            [
-              "Repetition",
-              "A habit: ogni giorno, di solito",
-              "A counted number of times: tre volte"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "*Andare* + luoghi, mezzi, persone",
+              "rows": [
+                [
+                  "*andare* + luoghi geografici",
+                  "continenti: in Asia",
+                  "nazioni: in Spagna",
+                  "regioni: in Toscana",
+                  "città: a Napoli"
+                ],
+                [
+                  "*andare* + altri luoghi",
+                  {
+                    "text": "in montagna",
+                    "cols": 2
+                  },
+                  {
+                    "text": "al lago",
+                    "cols": 2
+                  }
+                ],
+                [
+                  "*andare* + mezzi di trasporto",
+                  {
+                    "text": "in aereo",
+                    "cols": 2
+                  },
+                  {
+                    "text": "a piedi",
+                    "cols": 2
+                  }
+                ],
+                [
+                  "*andare* + persone",
+                  {
+                    "text": "con la mia amica",
+                    "cols": 2
+                  },
+                  {
+                    "text": "da mia sorella / da Marco e Anna",
+                    "cols": 2
+                  }
+                ],
+                [
+                  {
+                    "text": "Attenzione: con i nomi di paese al plurale ci vuole l'articolo: **negli** Stati Uniti, **nei** Paesi Bassi.",
+                    "cols": 5
+                  }
+                ]
+              ]
+            },
+            "note": [
+              "*In* va con i continenti, le nazioni, le regioni e molti luoghi: *in Asia, in Spagna, in Toscana, in montagna, in spiaggia, in centro*.",
+              "*A* va con le città e i piccoli posti: *a Napoli, a casa, a scuola*. Con *mare* e *lago* si usa *al*: *al mare, al lago*.",
+              "I mezzi di trasporto vogliono *in*: *in treno, in macchina, in bicicletta*. Ma si dice *a piedi* e *a cavallo*.",
+              "Per andare da una persona si usa *da*: *vado da Marco, vado dal medico*. Per stare insieme si usa *con*: *parto con la mia amica*."
             ]
-          ]
-        }
-      },
-      "*Ieri {im:pioveva}* tells you about the weather as a background. *Ieri {pp:è arrivato} Luca* tells you an event.",
-      {
-        "h": "One sentence, two tenses"
-      },
-      "When an event interrupts something that was already going on, the background is in the [im:imperfetto] and the interruption in the [pp:passato prossimo].",
-      {
-        "table": {
-          "head": [
-            "Background",
-            "Event"
-          ],
-          "rows": [
-            [
-              "Mentre {im:studiavo},",
-              "{pp:è arrivato} Luca."
-            ],
-            [
-              "Mentre {im:dormivo},",
-              "{pp:è suonato} il telefono."
-            ],
-            [
-              "{im:Pioveva} quando",
-              "{pp:siamo usciti}."
+          },
+          {
+            "table": {
+              "title": "Il [cop:condizionale presente] di *mi piace*",
+              "rows": [
+                [
+                  "mi",
+                  "{cop:piacerebbe}",
+                  {
+                    "text": "fare una gita in barca.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "ti",
+                  "{cop:piacerebbe}",
+                  null
+                ],
+                [
+                  "gli / le / Le",
+                  "{cop:piacerebbe}",
+                  null
+                ],
+                [
+                  "ci",
+                  "{cop:piacerebbe}",
+                  null
+                ],
+                [
+                  "vi",
+                  "{cop:piacerebbe}",
+                  null
+                ],
+                [
+                  "gli",
+                  "{cop:piacerebbe}",
+                  null
+                ]
+              ]
+            },
+            "note": "*Mi piacerebbe* è più gentile e meno sicuro di *mi piace*: esprime un desiderio. Va con un verbo all'infinito o con una cosa sola. Con più cose si dice *mi piacerebbero*: *mi piacerebbero due giorni al mare*."
+          },
+          {
+            "table": {
+              "title": "Il [cop:condizionale presente] di *volere*",
+              "rows": [
+                [
+                  "io",
+                  "{cop:vorr**ei**}",
+                  {
+                    "text": "partire per Venezia.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{cop:vorr**esti**}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{cop:vorr**ebbe**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{cop:vorr**emmo**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{cop:vorr**este**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{cop:vorr**ebbero**}",
+                  null
+                ]
+              ]
+            },
+            "note": "*Vorrei* è il modo gentile di chiedere: *{cop:vorrei} un biglietto per Roma*. *Voglio* può sembrare troppo diretto. Attenzione alla doppia **m** di *vorremmo*."
+          },
+          {
+            "table": {
+              "title": "Le parole che finiscono in *-co*, *-go*, *-ca*, *-ga*",
+              "head": [
+                "singolare",
+                "plurale"
+              ],
+              "rows": [
+                [
+                  "bosc**o**",
+                  "bosc**hi**"
+                ],
+                [
+                  "alberg**o**",
+                  "alberg**hi**"
+                ],
+                [
+                  "medic**o**",
+                  "medic**i**"
+                ],
+                [
+                  "gioc**o**",
+                  "gioc**hi**"
+                ],
+                [
+                  "dialog**o**",
+                  "dialog**hi**"
+                ],
+                [
+                  "banc**a**",
+                  "banc**he**"
+                ],
+                [
+                  "colleg**a**",
+                  "colleg**he**"
+                ]
+              ]
+            },
+            "note": [
+              "**-ca** e **-ga** fanno sempre **-che** e **-ghe**: la *h* conserva il suono duro, come nei verbi in *-care* e *-gare*.",
+              "**-co** e **-go** di solito fanno **-chi** e **-ghi**. Ma molte parole con l'accento prima della penultima sillaba fanno **-ci**: *medico → medici, simpatico → simpatici*. Attenzione anche ad *amico → amici*."
             ]
-          ]
-        }
-      },
-      {
-        "h": "Two actions side by side"
-      },
-      "If two actions were going on at the same time, both are in the [im:imperfetto]: *Mentre io {im:cucinavo}, lui {im:leggeva}*. If they happen one after another, both are in the [pp:passato prossimo]: *{pp:Sono entrato} e {pp:ho acceso} la luce*.",
-      {
-        "h": "A stated length of time"
-      },
-      "Even if an action lasted long, a stated length makes it a finished block, so use the [pp:passato prossimo]: *{pp:Ho vissuto} a Roma per dieci anni*. *{im:Abitavo} a Roma* only says that was your situation then."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "choice",
-        "prompt": "Choose the right tense.",
+        "type": "gap",
+        "prompt": "Completa con in, a, al, negli, da o con.",
         "questions": [
-          {
-            "q": "Mentre ___, {pp:è arrivato} Luca.",
-            "options": [
-              "*{im:studiavo}",
-              "{pp:ho studiato}"
-            ]
-          },
-          {
-            "q": "Quando {im:ero} piccolo, la casa ___ grande.",
-            "options": [
-              "*{im:era}",
-              "{pp:è stata}"
-            ]
-          },
-          {
-            "q": "Ieri sera ___ un film e poi {pp:siamo usciti}.",
-            "options": [
-              "{im:guardavamo}",
-              "*{pp:abbiamo guardato}"
-            ]
-          },
-          {
-            "q": "Da bambino ___ ogni giorno al parco.",
-            "options": [
-              "*{im:andavo}",
-              "{pp:sono andato}"
-            ]
-          },
-          {
-            "q": "L'anno scorso ___ a Parigi tre volte.",
-            "options": [
-              "{im:andavo}",
-              "*{pp:sono andato}"
-            ]
-          },
-          {
-            "q": "{pp:Ho vissuto} a Roma ___ dieci anni.",
-            "options": [
-              "*per",
-              "mentre"
-            ]
-          }
+          "Quest'estate {ip:vado} [[in]] Grecia.",
+          "{ip:Andiamo} [[a]] Parigi per tre giorni.",
+          "Mio fratello {ip:vive} [[negli]] Stati Uniti.",
+          "D'estate {ip:vanno} sempre [[al]] mare.",
+          "{ip:Preferisco} andare [[in]] montagna.",
+          "{ip:Viaggiamo} [[in]] treno, non [[in]] aereo.",
+          "Oggi non {ip:prendo} l'autobus, {ip:vado} [[a]] piedi.",
+          "Domenica {ip:andiamo} a pranzo [[da]] Marco.",
+          "{ip:Parto} [[con]] la mia ragazza."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put each verb in the [im:imperfetto] or the [pp:passato prossimo].",
+        "prompt": "Scrivi il pronome giusto: mi, ti, gli, le, ci o vi.",
         "questions": [
-          "Mentre [[dormivo#im]], [[è suonato#pp]] il telefono. (dormire, suonare)",
-          "Quando [[sono uscita#pp]], [[pioveva#im]]. (uscire, io – a woman; piovere)",
-          "Mentre io [[cucinavo#im]], lui [[leggeva#im]]. (cucinare, leggere)",
-          "Ieri [[sono andato#pp]] al cinema. (andare, io – a man)",
-          "Di solito [[mangiavamo#im]] a casa. (mangiare, noi)",
-          "Marco [[è entrato#pp]] e [[ha acceso#pp]] la luce. (entrare, accendere)"
+          "(a me) [[Mi]] {cop:piacerebbe} andare in Sardegna.",
+          "(a te) Dove [[ti]] {cop:piacerebbe} andare?",
+          "(a lui) [[Gli]] {cop:piacerebbe} fare una gita in barca.",
+          "(a lei) [[Le]] {cop:piacerebbe} dormire in tenda.",
+          "(a noi) [[Ci]] {cop:piacerebbe} visitare i borghi.",
+          "(a voi) [[Vi]] {cop:piacerebbe} partire domani?"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il [cop:condizionale presente] di volere.",
+        "questions": [
+          "Io [[vorrei#cop]] un biglietto per Firenze.",
+          "Tu [[vorresti#cop]] venire con noi?",
+          "La signora [[vorrebbe#cop]] una camera doppia.",
+          "Noi [[vorremmo#cop]] partire domani mattina.",
+          "Voi [[vorreste#cop]] visitare il lago?",
+          "Loro [[vorrebbero#cop]] prenotare un posto."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il plurale.",
+        "questions": [
+          "il parco → i [[parchi]]",
+          "il bosco → i [[boschi]]",
+          "l'albergo → gli [[alberghi]]",
+          "la banca → le [[banche]]",
+          "la collega → le [[colleghe]]",
+          "il lago → i [[laghi]]",
+          "il medico → i [[medici]]",
+          "l'amico → gli [[amici]]"
         ]
       }
     ]
@@ -138,137 +256,244 @@
   "vocabulary": {
     "words": [
       [
-        "il telefono",
-        "telephone"
+        "le colline",
+        "piccole montagne verdi, come in Toscana"
       ],
       [
-        "la pioggia",
-        "rain"
+        "il lago",
+        "acqua dolce in mezzo alla terra, come il Garda"
       ],
       [
-        "l'ombrello",
-        "umbrella"
+        "la riviera",
+        "la costa vicino al mare, con le spiagge"
       ],
       [
-        "la luce",
-        "light"
+        "il parco nazionale",
+        "una grande zona protetta per la natura e gli animali"
       ],
       [
-        "l'incidente",
-        "accident"
+        "il borgo",
+        "un piccolo paese antico"
       ],
       [
-        "suonare",
-        "to ring, to play"
+        "fare il bagno",
+        "nuotare nel mare o in piscina"
       ],
       [
-        "accendere",
-        "to turn on"
+        "prendere il sole",
+        "stare al sole per diventare abbronzati"
       ],
       [
-        "spegnere",
-        "to turn off"
+        "fare una gita",
+        "una piccola escursione di un giorno"
       ],
       [
-        "cadere",
-        "to fall"
+        "passeggiare",
+        "camminare piano, per piacere"
       ],
       [
-        "succedere",
-        "to happen"
+        "l'albergo",
+        "qui dormi in una camera con servizi"
       ],
       [
-        "all'improvviso",
-        "suddenly"
+        "la pensione",
+        "un piccolo albergo, spesso familiare"
       ],
       [
-        "mentre",
-        "while"
+        "il campeggio",
+        "qui dormi all'aperto, in tenda o in camper"
+      ],
+      [
+        "la tenda",
+        "una piccola casa di stoffa per il campeggio"
+      ],
+      [
+        "la biglietteria",
+        "qui compri i biglietti"
+      ],
+      [
+        "l'andata e ritorno",
+        "un biglietto per andare e per tornare"
+      ],
+      [
+        "il binario",
+        "da qui parte il treno"
+      ],
+      [
+        "il deposito bagagli",
+        "qui lasci le valigie per qualche ora"
+      ],
+      [
+        "la sala d'aspetto",
+        "qui aspetti il treno seduto"
+      ],
+      [
+        "la prenotazione",
+        "quando chiedi prima un posto o una camera"
+      ],
+      [
+        "la carrozza",
+        "una delle parti del treno"
+      ],
+      [
+        "il finestrino",
+        "la finestra del treno o della macchina"
+      ],
+      [
+        "il posto",
+        "la sedia che hai sul treno, con un numero"
+      ],
+      [
+        "il regionale",
+        "un treno lento che si ferma in tutte le stazioni"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la pioggia",
-            "rain"
+            "il borgo",
+            "un piccolo paese antico"
           ],
           [
-            "l'ombrello",
-            "umbrella"
+            "la pensione",
+            "un piccolo albergo, spesso familiare"
           ],
           [
-            "accendere",
-            "to turn on"
+            "il campeggio",
+            "qui dormi all'aperto, in tenda o in camper"
           ],
           [
-            "spegnere",
-            "to turn off"
+            "il binario",
+            "da qui parte il treno"
           ],
           [
-            "cadere",
-            "to fall"
+            "la sala d'aspetto",
+            "qui aspetti il treno seduto"
           ],
           [
-            "succedere",
-            "to happen"
+            "il finestrino",
+            "la finestra del treno o della macchina"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Che cosa {pp:è} [[successo#pp]]? (happened)",
-          "[[All'improvviso]] {pp:è andata} via la luce. (suddenly)",
-          "{imv:Prendi} l'[[ombrello]]! (umbrella)",
-          "{pp:Ho visto} un [[incidente]] in strada. (accident)"
+          "Compro il biglietto alla [[biglietteria]].",
+          "Non {ip:torno} oggi: {ip:prendo} solo l'andata, non l'andata e [[ritorno]].",
+          "Prima di partire {ip:lascio} la valigia al deposito [[bagagli]].",
+          "Al mare {ip:faccio} il bagno e {ip:prendo} il [[sole]].",
+          "Il treno [[regionale]] {ip:è} lento e si {ip:ferma} in tutte le stazioni."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "{im:Era} una sera d'inverno. Fuori {im:pioveva} e {im:faceva} freddo. Giulia {im:era} a casa da sola e {im:studiava} per un esame. All'improvviso {pp:è andata} via la luce e il telefono {pp:ha suonato}.",
-      "{im:Era} Luca: «{ip:Sono} qui sotto. Mi {ip:apri}?» Giulia {pp:è scesa} con una candela. Mentre {im:salivano} le scale, la luce {pp:è tornata}. {pp:Hanno riso} molto e poi {pp:hanno studiato} insieme fino a mezzanotte."
+      {
+        "h": "Dove vorresti andare quest'estate?"
+      },
+      "**Marta** — Io e il mio ragazzo {cop:vorremmo} andare in montagna, in Valle d'Aosta. Ci {cop:piacerebbe} dormire in tenda in un campeggio e fare lunghe passeggiate nei boschi. Il mare non mi {ip:piace}: c'{ip:è} troppa gente!",
+      "**Giorgio** — A me {cop:piacerebbe} visitare i borghi delle Cinque Terre. {cop:Vorrei} viaggiare in treno, perché i paesi {ip:sono} vicini e la macchina non {ip:serve}. Per dormire {cop:preferirei} una pensione piccola e poco costosa.",
+      "**Elena** — Io e la mia collega Sara {cop:vorremmo} andare al mare in Puglia. Ci {cop:piacerebbe} prendere il sole, fare il bagno e mangiare il pesce fresco. {cop:Vorremmo} anche fare una gita in barca alle grotte.",
+      {
+        "h": "Una lettera all'ufficio turistico"
+      },
+      "Gentili Signori,",
+      "vi {ip:scrivo} per chiedervi informazioni sulla vostra città e sul lago Maggiore. A luglio {cop:vorrei} passare una settimana a Stresa con mio marito. Ci {cop:piacerebbe} dormire in un albergo con vista sul lago e visitare le isole Borromee. {ip:Potete} mandarmi un elenco degli alberghi e gli orari dei battelli?",
+      "Vi {ip:ringrazio} per l'attenzione e, con l'occasione, {ip:porgo} cordiali saluti.",
+      "Anna Ricci"
     ],
     "exercises": [
       {
+        "type": "match",
+        "prompt": "Dove {cop:vorrebbero} dormire? Abbina ogni persona all'alloggio.",
+        "pairs": [
+          [
+            "Marta",
+            "in tenda"
+          ],
+          [
+            "Giorgio",
+            "in una pensione"
+          ],
+          [
+            "Anna Ricci",
+            "in albergo"
+          ]
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "What was the weather like?",
+            "q": "A Marta {ip:piace} molto il mare.",
             "options": [
-              "Sunny and warm",
-              "*Rainy and cold",
-              "Snowy"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "What was Giulia doing?",
+            "q": "Giorgio {cop:vorrebbe} viaggiare in treno.",
             "options": [
-              "Sleeping",
-              "Cooking",
-              "*Studying"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Who phoned her?",
+            "q": "Elena {cop:vorrebbe} partire con una collega.",
             "options": [
-              "*Luca",
-              "Her mother",
-              "A neighbour"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "When did the light come back?",
+            "q": "Anna {cop:vorrebbe} andare a Stresa da sola.",
             "options": [
-              "At midnight",
-              "*While they were going up the stairs",
-              "The next day"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Anna {ip:chiede} gli orari dei battelli.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Nella lettera formale: scegli la frase giusta.",
+        "questions": [
+          {
+            "q": "Come {ip:comincia} la lettera?",
+            "options": [
+              "*Gentili Signori,",
+              "Ciao ragazzi,",
+              "Caro amico,"
+            ]
+          },
+          {
+            "q": "Perché Anna {ip:scrive}?",
+            "options": [
+              "*per chiedere informazioni",
+              "per prenotare il treno",
+              "per salutare un amico"
+            ]
+          },
+          {
+            "q": "Come {ip:finisce} la lettera?",
+            "options": [
+              "Un bacio!",
+              "*Cordiali saluti",
+              "A presto!"
             ]
           }
         ]
@@ -278,57 +503,75 @@
   "listening": {
     "transcript": [
       [
-        "Anna",
-        "Perché {pp:sei arrivato} in ritardo?"
+        "Viaggiatore",
+        "Buongiorno. {cop:Vorrei} un biglietto per Napoli."
       ],
       [
-        "Marco",
-        "Mentre {im:venivo} qui, {pp:ho visto} un incidente."
+        "Impiegata",
+        "Solo andata o andata e ritorno?"
       ],
       [
-        "Anna",
-        "Davvero? Che cosa {pp:è successo}?"
+        "Viaggiatore",
+        "Andata e ritorno. A che ora {ip:parte} il primo treno?"
       ],
       [
-        "Marco",
-        "{im:Pioveva} molto e una macchina {pp:è uscita} di strada."
+        "Impiegata",
+        "C'{ip:è} un Frecciarossa alle 9.40. {ip:Arriva} a Napoli alle 11.50."
       ],
       [
-        "Anna",
-        "Qualcuno si {pp:è fatto} male?"
+        "Viaggiatore",
+        "{ip:Devo} cambiare?"
       ],
       [
-        "Marco",
-        "No, per fortuna {im:stavano} tutti bene."
+        "Impiegata",
+        "No, {ip:è} diretto. In prima classe {ip:costa} 79 euro, in seconda 49."
+      ],
+      [
+        "Viaggiatore",
+        "Seconda classe, grazie. Da quale binario {ip:parte}?"
+      ],
+      [
+        "Impiegata",
+        "Dal binario 6. Carrozza 4, posto 52. Buon viaggio!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Mentre [[venivo#im]] qui, {pp:ho visto} un incidente.",
-          "Che cosa {pp:è} [[successo#pp]]?",
-          "[[Pioveva#im]] molto.",
-          "Per fortuna [[stavano#im]] tutti bene."
+          "Buongiorno. [[Vorrei#cop]] un biglietto per Napoli.",
+          "Solo andata o andata e [[ritorno]]?",
+          "[[Devo#ip]] cambiare?",
+          "Da quale [[binario]] {ip:parte}?"
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Marco saw an accident on his way.",
+            "q": "A che ora {ip:parte} il treno?",
             "options": [
-              "*True",
-              "False"
+              "alle 9.04",
+              "*alle 9.40",
+              "alle 11.50"
             ]
           },
           {
-            "q": "Someone was badly hurt.",
+            "q": "Quanto {ip:paga} il viaggiatore?",
             "options": [
-              "True",
-              "*False"
+              "79 euro",
+              "*49 euro",
+              "40 euro"
+            ]
+          },
+          {
+            "q": "Qual {ip:è} il suo posto?",
+            "options": [
+              "*carrozza 4, posto 52",
+              "carrozza 6, posto 52",
+              "carrozza 52, posto 4"
             ]
           }
         ]
@@ -339,41 +582,54 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Che cosa {ip:dici}? Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "While I was studying, Luca arrived.",
+            "q": "{ip:Chiedi} a un amico dove gli {cop:piacerebbe} andare in vacanza.",
             "a": [
-              "Mentre studiavo, è arrivato Luca.",
-              "Mentre studiavo, Luca è arrivato."
+              "Dove ti piacerebbe andare in vacanza?"
             ]
           },
           {
-            "q": "It was raining.",
+            "q": "{ip:Rispondi}: tu {cop:vorresti} andare in Sardegna.",
             "a": [
-              "Pioveva."
+              "Vorrei andare in Sardegna.",
+              "Mi piacerebbe andare in Sardegna.",
+              "Io vorrei andare in Sardegna."
             ]
           },
           {
-            "q": "What happened?",
+            "q": "{ip:Chiedi} a un amico con chi {cop:vorrebbe} partire.",
             "a": [
-              "Che cosa è successo?",
-              "Cosa è successo?",
-              "Cos'è successo?"
+              "Con chi vorresti partire?"
             ]
           },
           {
-            "q": "While I was cooking, he was reading.",
+            "q": "Alla biglietteria: {ip:chiedi} un biglietto per Roma.",
             "a": [
-              "Mentre cucinavo, lui leggeva.",
-              "Mentre io cucinavo, lui leggeva."
+              "Vorrei un biglietto per Roma.",
+              "Un biglietto per Roma, per favore."
             ]
           },
           {
-            "q": "I lived in Rome for ten years.",
+            "q": "{ip:Chiedi} se {ip:devi} cambiare treno.",
             "a": [
-              "Ho vissuto a Roma per dieci anni.",
-              "Ho abitato a Roma per dieci anni."
+              "Devo cambiare?",
+              "Devo cambiare treno?"
+            ]
+          },
+          {
+            "q": "{ip:Chiedi} quanto {ip:costa} il biglietto.",
+            "a": [
+              "Quanto costa?",
+              "Quanto costa il biglietto?"
+            ]
+          },
+          {
+            "q": "{ip:Chiedi} da quale binario {ip:parte} il treno per Napoli.",
+            "a": [
+              "Da quale binario parte il treno per Napoli?",
+              "Da che binario parte il treno per Napoli?"
             ]
           }
         ]

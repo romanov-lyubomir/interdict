@@ -1,0 +1,425 @@
+{% extends "base.html" %}
+{% block imports %}
+{% endblock %}
+
+{% block css %}
+{% import "explain.html" as explain %}
+{{ explain.style() }}
+<style>
+    .verb-page {
+        width: min(980px, calc(100vw - 32px));
+        margin: 28px auto 40px;
+    }
+
+    .verb-page > .container {
+        margin: 0 0 18px;
+    }
+
+    .verb-head {
+        position: relative;
+    }
+
+    .verb-head h1 {
+        margin-bottom: 2px;
+        font-size: 30px;
+    }
+
+    .verb-meaning {
+        margin: 0 0 12px;
+        color: var(--muted);
+        font-size: 17px;
+    }
+
+    /* Save the verb to one of the word lists */
+    .verb-save {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .verb-save > .button,
+    .verb-save > button {
+        padding: 6px 14px;
+        font-size: 14px;
+    }
+
+    .verb-save > button.saved {
+        color: var(--accent);
+        background-color: var(--accent-soft);
+    }
+
+    .save-panel {
+        position: absolute;
+        top: calc(100% + 8px);
+        right: 0;
+        z-index: 5;
+        width: 240px;
+        padding: 10px;
+        border: 1px solid var(--border-strong);
+        border-radius: 12px;
+        background-color: var(--surface-2);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, .3);
+    }
+
+    .save-lists {
+        max-height: 180px;
+        margin-bottom: 8px;
+        overflow-y: auto;
+    }
+
+    .save-list {
+        justify-content: flex-start;
+        width: 100%;
+        padding: 6px 8px;
+        color: var(--text);
+        background: none;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        overflow-wrap: anywhere;
+    }
+
+    .save-list:hover:not(:disabled) {
+        background-color: var(--surface-3);
+    }
+
+    .save-list:disabled {
+        color: var(--accent);
+        cursor: default;
+    }
+
+    .save-new {
+        display: flex;
+        gap: 6px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background: none;
+    }
+
+    .save-new input {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+
+    .save-new button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .save-error {
+        margin: 6px 0 0;
+        color: #E5534B;
+        font-size: 13px;
+    }
+
+    /* Examples and phrases */
+    .usage-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 22px;
+    }
+
+    .usage-grid ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .usage-grid li {
+        padding: 8px 0;
+        border-top: 1px solid var(--border);
+    }
+
+    .usage-grid li:first-child {
+        border-top: 0;
+        padding-top: 0;
+    }
+
+    .usage-grid .it {
+        display: block;
+        font-size: 15px;
+    }
+
+    .usage-grid .en {
+        display: block;
+        margin-top: 2px;
+        color: var(--muted);
+        font-size: 13px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .verb-save {
+            position: relative;
+            top: auto;
+            right: auto;
+            margin-top: 14px;
+        }
+
+        .save-panel {
+            left: 0;
+            right: auto;
+        }
+    }
+
+    .verb-facts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .verb-facts span {
+        padding: 4px 12px;
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 13px;
+    }
+
+    .verb-facts b {
+        color: var(--text);
+        font-weight: 600;
+    }
+
+    .mood-title {
+        margin-bottom: 14px;
+        color: var(--muted);
+        font-size: 15px;
+        letter-spacing: .06em;
+        text-transform: uppercase;
+    }
+
+    .tense-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 14px;
+    }
+
+    .tense-card table {
+        width: 100%;
+        margin: 0;
+    }
+
+    .tense-card th {
+        padding: 9px 12px;
+        text-align: left;
+    }
+
+    .tense-card td {
+        padding: 7px 12px;
+        font-size: 15px;
+    }
+
+    .tense-card td.person {
+        width: 1%;
+        color: var(--muted);
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .tense-card .maybe {
+        color: var(--muted);
+    }
+
+    .tense-card .or {
+        color: var(--faint);
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<a href="{{ url_for('cheat_sheets') }}">
+    <svg class="svg-x" width="16" height="16" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+            <path fill="#fff"
+                d="M6.93 8l-4.7-4.7a.76.76 0 1 1 1.06-1.08L8 6.92l4.7-4.7a.76.76 0 0 1 1.08 1.07L9.08 8l4.7 4.7a.76.76 0 1 1-1.07 1.08L8 9.08l-4.7 4.7a.76.76 0 0 1-1.08-1.07L6.92 8z">
+            </path>
+        </g>
+    </svg>
+</a>
+
+<div class="verb-page">
+    <header class="container shadow verb-head" data-find="head">
+        <h1>{{ verb.infinitive }}</h1>
+        {% if details.meaning %}<p class="verb-meaning">{{ details.meaning }}</p>{% endif %}
+        <div class="verb-facts">
+            <span>{{ "irregolare" if verb.irregular else "regolare" }}{% if verb.reflexive %} · riflessivo{% endif %}</span>
+            <span>ausiliare: <b>{{ verb.auxiliary }}</b></span>
+            <span data-find="gerundio--">gerundio: <b>{{ verb.gerund | join(" / ") }}</b></span>
+            <span data-find="participio_passato--">participio passato: <b>{{ verb.participle | join(" / ") }}</b></span>
+        </div>
+        {% if details.meaning %}
+        <div class="verb-save">
+            {% if current_user.is_authenticated %}
+            <button class="save-toggle" type="button" aria-expanded="false">+ Add to list</button>
+            <div class="save-panel" hidden>
+                <div class="save-lists"></div>
+                <form class="save-new">
+                    <input type="text" maxlength="{{ max_list_name_length }}" placeholder="New list name" aria-label="New list name">
+                    <button type="submit" disabled>Create</button>
+                </form>
+                <p class="save-error" hidden></p>
+            </div>
+            {% else %}
+            <a class="button" href="{{ url_for('register', next=request.path) }}">Sign up to save words</a>
+            {% endif %}
+        </div>
+        {% endif %}
+    </header>
+
+    {% set usage = [("examples", "Esempi"), ("phrases", "Frasi utili")] %}
+    {% if details.examples %}
+    <section class="container shadow" data-find="usage">
+        <div class="usage-grid">
+            {% for key, title in usage if details[key] %}
+            <div>
+                <h2 class="mood-title">{{ title }}</h2>
+                <ul>
+                    {% for item in details[key] %}
+                    <li><span class="it">{{ item.it | rich }}</span><span class="en">{{ item.en }}</span></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+    {% for mood in verb.moods %}
+    <section class="container shadow">
+        <h2 class="mood-title">{{ mood.name }}</h2>
+        <div class="tense-grid">
+            {% for tense in mood.tenses %}
+            <div class="tense-card">
+                <table>
+                    <tr><th colspan="2">{{ ("[" ~ tense.tag ~ ":" ~ tense.name ~ "]") | rich }}</th></tr>
+                    {% if not tense.rows %}<tr><td class="person">—</td><td>Non si usa.</td></tr>{% endif %}
+                    {% for person, label, forms in tense.rows %}
+                    <tr data-find="{{ tense.tense }}-{{ person }}">
+                        <td class="person">{{ label }}</td>
+                        <td>
+                            {%- for form in forms -%}
+                            {% if not loop.first %}<span class="or"> / </span>{% endif %}
+                            {%- if form.startswith("(non) ") -%}
+                            <span class="maybe">(non)</span> {{ ("{" ~ tense.tag ~ ":" ~ form[6:] ~ "}") | rich }}
+                            {%- else -%}
+                            {{ ("{" ~ tense.tag ~ ":" ~ form ~ "}") | rich }}
+                            {%- endif -%}
+                            {%- endfor -%}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+{% if current_user.is_authenticated and details.meaning %}
+<script>
+    (() => {
+        const box = document.querySelector(".verb-save");
+        const toggle = box.querySelector(".save-toggle");
+        const panel = box.querySelector(".save-panel");
+        const listsBox = box.querySelector(".save-lists");
+        const form = box.querySelector(".save-new");
+        const nameInput = form.querySelector("input");
+        const create = form.querySelector("button");
+        const error = box.querySelector(".save-error");
+        const wordLists = {{ word_lists | tojson }};
+        const key = {{ word_key | tojson }};
+        let saving = false;
+
+        const render = () => {
+            const saved = wordLists.some((list) => list.keys.includes(key));
+            toggle.textContent = saved ? "\u2713 Saved" : "+ Add to list";
+            toggle.classList.toggle("saved", saved);
+            listsBox.hidden = !wordLists.length;
+            listsBox.replaceChildren(...wordLists.map((list) => {
+                const button = document.createElement("button");
+                const inList = list.keys.includes(key);
+                button.type = "button";
+                button.className = "save-list";
+                button.disabled = inList;
+                button.textContent = inList ? `\u2713 ${list.name}` : list.name;
+                button.addEventListener("click", () => save({ list_id: list.id }));
+                return button;
+            }));
+        };
+
+        const setOpen = (open) => {
+            panel.hidden = !open;
+            toggle.setAttribute("aria-expanded", open);
+            error.hidden = true;
+            if (open) {
+                (listsBox.querySelector("button:not(:disabled)") || nameInput).focus();
+            }
+        };
+
+        const save = async (fields) => {
+            if (saving) {
+                return;
+            }
+            saving = true;
+            error.hidden = true;
+            const body = new FormData();
+            body.append("csrf_token", "{{ csrf_token() }}");
+            body.append("verb", {{ verb.infinitive | tojson }});
+            Object.entries(fields).forEach(([name, value]) => body.append(name, value));
+            try {
+                const response = await fetch("{{ url_for('add_word_to_list') }}", { method: "POST", body });
+                const result = await response.json();
+                if (!response.ok) {
+                    error.textContent = result.error;
+                    error.hidden = false;
+                    return;
+                }
+                let list = wordLists.find((item) => item.id === result.id);
+                if (!list) {
+                    list = { id: result.id, name: result.name, keys: [] };
+                    wordLists.push(list);
+                }
+                list.keys.push(key);
+                nameInput.value = "";
+                create.disabled = true;
+                render();
+                setOpen(false);
+            } catch (failure) {
+                error.textContent = "Could not save the word. Please try again.";
+                error.hidden = false;
+            } finally {
+                saving = false;
+            }
+        };
+
+        toggle.addEventListener("click", () => setOpen(panel.hidden));
+        nameInput.addEventListener("input", () => {
+            create.disabled = !nameInput.value.trim();
+        });
+        form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            if (nameInput.value.trim()) {
+                save({ name: nameInput.value });
+            }
+        });
+        document.addEventListener("click", (event) => {
+            if (!box.contains(event.target)) {
+                setOpen(false);
+            }
+        });
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && !panel.hidden) {
+                setOpen(false);
+                toggle.focus();
+            }
+        });
+        render();
+    })();
+</script>
+{% endif %}
+{% endblock %}

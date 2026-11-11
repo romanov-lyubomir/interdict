@@ -1,131 +1,214 @@
 {
-  "title": "C'{ip:è} qualcuno? Non {ip:voglio} niente!",
-  "translation": "Is anybody there? I don't want anything!",
-  "topics": "Indefinite words, quantity words and the adverbs già, ancora, appena, quasi",
+  "title": "Quando {im:ero} piccolo…",
+  "translation": "",
+  "topics": "L'[im:imperfetto] indicativo, gli usi dell'[im:imperfetto] e del [pp:passato prossimo], il plurale delle parole in *-cia* e *-gia*, i ricordi dell'infanzia",
   "grammar": {
     "explain": [
+      "Per parlare del passato l'italiano ha due tempi molto usati: il [pp:passato prossimo], che già conosci, e l'[im:imperfetto]. L'[im:imperfetto] serve per descrivere com'erano le persone e le cose e per raccontare quello che si faceva di solito.",
       {
-        "h": "Somebody, something, nobody, nothing"
-      },
-      {
-        "table": {
-          "head": [
-            "Positive",
-            "Negative"
-          ],
-          "rows": [
-            [
-              "qualcuno: somebody",
-              "nessuno: nobody"
-            ],
-            [
-              "qualcosa: something",
-              "niente / nulla: nothing"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "L'[im:imperfetto] indicativo",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*parlare*",
+                  2
+                ],
+                [
+                  "*scrivere*",
+                  2
+                ],
+                [
+                  "*dormire*",
+                  2
+                ],
+                [
+                  "*fare*",
+                  2
+                ],
+                [
+                  "*essere*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{im:parl**avo**}",
+                  {
+                    "text": "molto.",
+                    "rows": 6
+                  },
+                  "{im:scriv**evo**}",
+                  {
+                    "text": "lettere.",
+                    "rows": 6
+                  },
+                  "{im:dorm**ivo**}",
+                  {
+                    "text": "con il nonno.",
+                    "rows": 6
+                  },
+                  "{im:fac**evo**}",
+                  {
+                    "text": "i compiti.",
+                    "rows": 6
+                  },
+                  "{im:ero}",
+                  {
+                    "text": "timido/a.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{im:parl**avi**}",
+                  null,
+                  "{im:scriv**evi**}",
+                  null,
+                  "{im:dorm**ivi**}",
+                  null,
+                  "{im:fac**evi**}",
+                  null,
+                  "{im:eri}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "{im:parl**ava**}",
+                  null,
+                  "{im:scriv**eva**}",
+                  null,
+                  "{im:dorm**iva**}",
+                  null,
+                  "{im:fac**eva**}",
+                  null,
+                  "{im:era}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{im:parl**avamo**}",
+                  null,
+                  "{im:scriv**evamo**}",
+                  null,
+                  "{im:dorm**ivamo**}",
+                  null,
+                  "{im:fac**evamo**}",
+                  null,
+                  "{im:eravamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{im:parl**avate**}",
+                  null,
+                  "{im:scriv**evate**}",
+                  null,
+                  "{im:dorm**ivate**}",
+                  null,
+                  "{im:fac**evate**}",
+                  null,
+                  "{im:eravate}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{im:parl**avano**}",
+                  null,
+                  "{im:scriv**evano**}",
+                  null,
+                  "{im:dorm**ivano**}",
+                  null,
+                  "{im:fac**evano**}",
+                  null,
+                  "{im:erano}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Si toglie *-re* all'infinito e si aggiungono le stesse finali per tutti i verbi: **-vo, -vi, -va, -vamo, -vate, -vano**.",
+              "Così abbiamo *parla-vo*, *scrive-vo*, *dormi-vo*: la vocale prima della finale resta quella dell'infinito.",
+              "*Essere* è irregolare: *ero, eri, era…* Alcuni verbi prendono la radice da una forma antica: *fare → facevo*, *bere → bevevo*, *dire → dicevo*."
             ]
-          ]
-        }
-      },
-      "Italian keeps both negative words when the negative word comes after the verb: *Non {ip:voglio} niente. Non c'{ip:è} nessuno.* Literally, *I don't want nothing*. If *nessuno* or *niente* comes before the verb, there is no *non*: *Nessuno {ip:parla}.*",
-      {
-        "h": "Every, all and some"
-      },
-      "*Ogni* and *qualche* never change and are always followed by a singular noun, even though *qualche* means *some*: *ogni giorno, qualche volta*.",
-      "*Tutto* agrees with the noun and takes the article after it. *Ogni giorno* and *tutti i giorni* mean the same.",
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "tutto il",
-              "tutto il giorno",
-              "all day"
-            ],
-            [
-              "tutta la",
-              "tutta la casa",
-              "the whole house"
-            ],
-            [
-              "tutti i",
-              "tutti i giorni",
-              "every day"
-            ],
-            [
-              "tutte le",
-              "tutte le sere",
-              "every evening"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Gli usi dell'[im:imperfetto] e del [pp:passato prossimo]",
+              "head": [
+                "[im:imperfetto] per descrivere l'aspetto fisico, il carattere, i luoghi e le situazioni",
+                "[im:imperfetto] per raccontare le abitudini",
+                "[pp:passato prossimo] per raccontare fatti successi una volta",
+                "[pp:passato prossimo] per un'esperienza durata un periodo di tempo preciso"
+              ],
+              "rows": [
+                [
+                  "*Da piccola {im:avevo} i capelli rossi ed {im:ero} molto vivace.*",
+                  "*Ogni estate {im:andavamo} al mare dagli zii.*",
+                  "*A dieci anni {pp:ho vinto} una gara di nuoto.*",
+                  "*{pp:Abbiamo abitato} a Napoli per sei anni.*"
+                ]
+              ]
+            },
+            "note": [
+              "L'[im:imperfetto] non dice quando una cosa {pp:è cominciata} o {pp:è finita}: descrive e racconta le abitudini. Parole come *sempre, di solito, ogni giorno, spesso, da piccolo* lo accompagnano spesso.",
+              "Il [pp:passato prossimo] racconta un fatto chiuso: *una volta, ieri, a dieci anni*. Anche un periodo lungo vuole il [pp:passato prossimo] se diciamo quanto {pp:è durato}: *per sei anni, fino al 2010*."
             ]
-          ]
-        }
-      },
-      {
-        "h": "How much"
-      },
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "troppo",
-              "too, too much",
-              "{ip:È} troppo caro. {ip:Mangio} troppo."
-            ],
-            [
-              "abbastanza",
-              "quite, enough",
-              "{ip:È} abbastanza caro. {ip:Ho} abbastanza soldi."
-            ],
-            [
-              "quasi",
-              "almost",
-              "{pp:Ho} quasi {pp:finito}."
+          },
+          {
+            "table": {
+              "title": "Il plurale delle parole in *-cia* e *-gia*",
+              "head": [
+                "singolare",
+                "plurale"
+              ],
+              "rows": [
+                [
+                  "la cami**cia**",
+                  "le cami**cie**"
+                ],
+                [
+                  "la vali**gia**",
+                  "le vali**gie**"
+                ],
+                [
+                  "la bu**gia**",
+                  "le bu**gie**"
+                ],
+                [
+                  "la farma**cia**",
+                  "le farma**cie**"
+                ],
+                [
+                  "la do**ccia**",
+                  "le do**cce**"
+                ],
+                [
+                  "la pio**ggia**",
+                  "le pio**gge**"
+                ],
+                [
+                  "la provin**cia**",
+                  "le provin**ce**"
+                ]
+              ]
+            },
+            "note": [
+              "Se prima di *-cia* / *-gia* c'è una vocale, la *i* resta: *camicie, valigie*.",
+              "Se c'è una consonante, la *i* cade: *docce, piogge, province*.",
+              "Se l'accento cade proprio sulla *i*, la *i* resta sempre: *bugìa → bugie, farmacìa → farmacie*."
             ]
-          ]
-        }
-      },
-      "*Troppo* changes before a noun: *troppa gente, troppi soldi*. *Abbastanza* and *quasi* never change.",
-      {
-        "h": "Già, ancora and appena"
-      },
-      "In the [pp:passato prossimo], these words stand between the auxiliary and the participle.",
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "già",
-              "already",
-              "{pp:Ho} già {pp:mangiato}."
-            ],
-            [
-              "non… ancora",
-              "not yet",
-              "Non {pp:ho} ancora {pp:mangiato}."
-            ],
-            [
-              "appena",
-              "just",
-              "{pp:Sono} appena {pp:arrivato}."
-            ],
-            [
-              "ancora",
-              "still",
-              "{ip:Sei} ancora qui?"
-            ]
-          ]
-        }
+          }
+        ]
       }
     ]
   },
@@ -133,76 +216,146 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete with qualcuno, qualcosa, nessuno or niente.",
+        "prompt": "Completa con l'[im:imperfetto] dei verbi tra parentesi.",
         "questions": [
-          "C'{ip:è} [[qualcuno]] in casa? (somebody)",
-          "{ip:Vuoi} mangiare [[qualcosa]]? (something)",
-          "Non c'{ip:è} [[nessuno]]. (nobody)",
-          "Non {ip:voglio} [[niente|nulla]]. (nothing)",
-          "[[Nessuno]] {ip:parla} in classe. (nobody)"
+          "Da bambino (io, giocare) [[giocavo#im]] sempre in cortile.",
+          "Mia nonna (raccontare) [[raccontava#im]] favole bellissime.",
+          "Tu e tua sorella (litigare) [[litigavate#im]] spesso?",
+          "D'estate noi (dormire) [[dormivamo#im]] dai nonni.",
+          "I miei genitori (lavorare) [[lavoravano#im]] tutto il giorno.",
+          "E tu che cosa (leggere) [[leggevi#im]] da piccolo?"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con l'[im:imperfetto] di *essere*, *fare*, *bere* e *dire*.",
+        "questions": [
+          "Da piccola (io, essere) [[ero#im]] molto timida.",
+          "Mio padre (fare) [[faceva#im]] il cuoco in un ristorante.",
+          "A colazione (noi, bere) [[bevevamo#im]] sempre il latte caldo.",
+          "La maestra (dire) [[diceva#im]] che (io, essere) [[ero#im]] bravo in matematica.",
+          "Voi (essere) [[eravate#im]] compagni di classe?",
+          "Che cosa (tu, fare) [[facevi#im]] il pomeriggio dopo la scuola?"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "[im:Imperfetto] o [pp:passato prossimo]? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "___ giorno {ip:vado} al lavoro.",
+            "q": "Da piccolo ___ sempre con il mio cane.",
             "options": [
-              "*Ogni",
-              "Tutti",
-              "Qualche"
+              "*giocavo",
+              "ho giocato"
             ]
           },
           {
-            "q": "___ i giorni {ip:vado} al lavoro.",
+            "q": "Una volta ___ un braccio sullo scivolo.",
             "options": [
-              "Ogni",
-              "*Tutti",
-              "Tutto"
+              "mi rompevo",
+              "*mi sono rotto"
             ]
           },
           {
-            "q": "{pp:Ho letto} ___ libro.",
+            "q": "Mia zia ___ alta, bionda e molto simpatica.",
             "options": [
-              "*qualche",
-              "qualcuno",
-              "qualcosa"
+              "*era",
+              "è stata"
             ]
           },
           {
-            "q": "{pp:Ho lavorato} ___ la settimana.",
+            "q": "Ogni domenica ___ dai nonni in campagna.",
             "options": [
-              "tutto",
-              "*tutta",
-              "tutti"
+              "*andavamo",
+              "siamo andati"
             ]
           },
           {
-            "q": "C'{ip:è} ___ gente!",
+            "q": "Nel 2005 ___ a Torino con tutta la famiglia.",
             "options": [
-              "troppo",
-              "*troppa",
-              "troppi"
+              "ci trasferivamo",
+              "*ci siamo trasferiti"
             ]
           },
           {
-            "q": "Nessuno ___ .",
+            "q": "___ a Bari per dieci anni, poi siamo tornati a Roma.",
             "options": [
-              "*{ip:parla}",
-              "non {ip:parla}"
+              "Abitavamo",
+              "*Abbiamo abitato"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa racconta la frase: un'abitudine o una descrizione, oppure un fatto successo una volta?",
+        "questions": [
+          {
+            "q": "Il nonno {im:portava} sempre il cappello.",
+            "options": [
+              "*abitudine o descrizione",
+              "fatto successo una volta"
+            ]
+          },
+          {
+            "q": "Una volta {pp:ho perso} la bambola al mare.",
+            "options": [
+              "abitudine o descrizione",
+              "*fatto successo una volta"
+            ]
+          },
+          {
+            "q": "La nostra casa {im:aveva} un grande giardino.",
+            "options": [
+              "*abitudine o descrizione",
+              "fatto successo una volta"
+            ]
+          },
+          {
+            "q": "A sei anni {pp:ho imparato} ad andare in bici.",
+            "options": [
+              "abitudine o descrizione",
+              "*fatto successo una volta"
+            ]
+          },
+          {
+            "q": "D'inverno {im:guardavamo} i cartoni animati sul divano.",
+            "options": [
+              "*abitudine o descrizione",
+              "fatto successo una volta"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with già, ancora, appena or quasi.",
+        "prompt": "Completa la regola.",
         "questions": [
-          "{pp:Ho} [[già]] {pp:mangiato}, grazie. (already)",
-          "Non {pp:ho} [[ancora]] {pp:finito}. (not yet)",
-          "{pp:Sono} [[appena]] {pp:arrivato}. (just)",
-          "{ip:Sono} [[quasi]] le otto. (almost)"
+          "Per raccontare le abitudini o fare descrizioni nel passato usiamo l'[[imperfetto]].",
+          "Per raccontare fatti successi una volta usiamo il [[passato prossimo]]."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa l'intervista con l'[im:imperfetto] o il [pp:passato prossimo] dei verbi tra parentesi.",
+        "questions": [
+          "— Che cosa facevi di solito d'estate? — (andare) [[Andavo#im]] in campagna dai nonni.",
+          "— E lì che cosa facevate? — (noi, costruire) [[Costruivamo#im]] capanne e (raccogliere) [[raccoglievamo#im]] le more.",
+          "— Com'eri da bambina? — (essere) [[Ero#im]] piccola e (avere) [[avevo#im]] gli occhiali.",
+          "— Ricordi un giorno speciale? — Sì, una volta (io, cadere) [[sono caduta#pp]] dall'albero e (rompersi) [[mi sono rotta#pp]] una gamba.",
+          "— E poi? — Il nonno (avere) [[ha avuto#pp]] tanta paura!"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il plurale.",
+        "questions": [
+          "la camicia → le [[camicie]]",
+          "l'arancia → le [[arance]]",
+          "la ciliegia → le [[ciliegie]]",
+          "la spiaggia → le [[spiagge]]",
+          "l'allergia → le [[allergie]]",
+          "la goccia → le [[gocce]]"
         ]
       }
     ]
@@ -210,139 +363,254 @@
   "vocabulary": {
     "words": [
       [
-        "i soldi",
-        "money"
+        "l'infanzia",
+        "il periodo della vita in cui si è bambini"
       ],
       [
-        "la spesa",
-        "shopping"
+        "il giocattolo",
+        "un oggetto con cui giocano i bambini"
       ],
       [
-        "il frigorifero",
-        "fridge"
+        "la bambola",
+        "un giocattolo che ha la forma di una bambina"
       ],
       [
-        "il pacco",
-        "parcel"
+        "l'altalena",
+        "al parco ci si siede sopra e si va avanti e indietro"
       ],
       [
-        "la chiave",
-        "key"
+        "lo scivolo",
+        "al parco ci si sale con la scaletta e si scende giù veloci"
       ],
       [
-        "il vicino di casa",
-        "neighbour"
+        "il castello di sabbia",
+        "si costruisce sulla spiaggia con il secchiello"
       ],
       [
-        "bussare",
-        "to knock"
+        "la favola",
+        "una storia per bambini, spesso con animali che parlano"
       ],
       [
-        "cercare",
-        "to look for"
+        "il fumetto",
+        "una storia raccontata con disegni e piccole frasi"
       ],
       [
-        "trovare",
-        "to find"
+        "nascondino",
+        "un gioco: uno conta e gli altri si nascondono"
       ],
       [
-        "finire",
-        "to finish"
+        "il primo amore",
+        "la prima persona di cui ti sei innamorato"
       ],
       [
-        "vuoto",
-        "empty"
+        "l'asilo nido",
+        "la scuola per i bambini più piccoli, fino a tre anni"
       ],
       [
-        "pieno",
-        "full"
+        "la scuola materna",
+        "la scuola dai tre ai sei anni"
+      ],
+      [
+        "la scuola elementare",
+        "la scuola dai sei agli undici anni"
+      ],
+      [
+        "la scuola media",
+        "la scuola dagli undici ai quattordici anni"
+      ],
+      [
+        "le scuole superiori",
+        "il liceo o l'istituto tecnico, dopo la scuola media"
+      ],
+      [
+        "vivace",
+        "che si muove sempre e ha tanta energia"
+      ],
+      [
+        "timido",
+        "che si vergogna a parlare con chi non conosce"
+      ],
+      [
+        "grassottello",
+        "un po' grasso, di solito si dice di un bambino"
+      ],
+      [
+        "ricordarsi",
+        "avere ancora in mente una cosa del passato"
+      ],
+      [
+        "trascorrere",
+        "passare un periodo di tempo in un luogo o con qualcuno"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "i soldi",
-            "money"
+            "l'altalena",
+            "al parco ci si siede sopra e si va avanti e indietro"
           ],
           [
-            "il frigorifero",
-            "fridge"
+            "la favola",
+            "una storia per bambini, spesso con animali che parlano"
           ],
           [
-            "il pacco",
-            "parcel"
+            "il fumetto",
+            "una storia raccontata con disegni e piccole frasi"
           ],
           [
-            "bussare",
-            "to knock"
+            "nascondino",
+            "un gioco: uno conta e gli altri si nascondono"
           ],
           [
-            "vuoto",
-            "empty"
+            "la scuola materna",
+            "la scuola dai tre ai sei anni"
           ],
           [
-            "pieno",
-            "full"
+            "vivace",
+            "che si muove sempre e ha tanta energia"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "prompt": "Completa con la parola giusta.",
         "questions": [
-          "{ip:Devo} fare la [[spesa]]. (shopping)",
-          "[[Cerco#ip]] le chiavi. (I'm looking for)",
-          "Non {pp:ho} [[trovato#pp]] niente. (found)",
-          "Il mio [[vicino]] di casa {ip:è} gentile. (neighbour)"
+          "Sulla spiaggia {im:facevamo} sempre i [[castelli di sabbia]].",
+          "Prima di dormire la mamma mi {im:leggeva} una [[favola]].",
+          "Al parco mi {im:piaceva} andare sull'[[altalena]].",
+          "Mia sorella {im:aveva} una [[bambola]] con i capelli biondi.",
+          "Da piccolo {im:ero} un po' [[grassottello]], adesso invece {ip:sono} magro."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale scuola?",
+        "questions": [
+          {
+            "q": "Un bambino di due anni va…",
+            "options": [
+              "*all'asilo nido",
+              "alla scuola media",
+              "alle scuole superiori"
+            ]
+          },
+          {
+            "q": "Una bambina di otto anni va…",
+            "options": [
+              "alla scuola materna",
+              "*alla scuola elementare",
+              "alla scuola media"
+            ]
+          },
+          {
+            "q": "Un ragazzo di sedici anni va…",
+            "options": [
+              "alla scuola elementare",
+              "alla scuola media",
+              "*alle scuole superiori"
+            ]
+          }
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Ieri sera {pp:sono tornata} a casa tardi. {pp:Ho bussato} alla porta: «C'{ip:è} qualcuno?» Non {pp:ha risposto} nessuno. {pp:Ho aperto} il frigorifero, ma {im:era} quasi vuoto: non c'{im:era} niente da mangiare.",
-      "{tp:Ero} appena {tp:uscita} per fare la spesa quando {pp:ho incontrato} il mio vicino. Mi {pp:ha detto}: «{pp:Ho} già {pp:cucinato} troppo per me. {ip:Vuoi} qualcosa?» {pp:Abbiamo mangiato} insieme e {pp:ho scoperto} che {ip:abita} qui da tutta la vita!"
+      {
+        "h": "Il nonno Aldo"
+      },
+      "*Pubblicato da davide_07*",
+      "Cari compagni, ecco il mio tema sulla persona più importante della mia infanzia: mio nonno Aldo.",
+      "Il nonno {im:aveva} settant'anni, ma {im:sembrava} un ragazzo. {im:Era} alto e magro, {im:aveva} i baffi bianchi e {im:portava} sempre un vecchio cappello di paglia. {im:Era} un uomo tranquillo e paziente: non si {im:arrabbiava} mai, neanche quando io e mio fratello {im:facevamo} confusione in casa.",
+      "I miei genitori {im:lavoravano} in un negozio fino a sera, così dopo la scuola {im:andavo} da lui. Mi {im:aspettava} davanti al cancello con la merenda: pane, burro e zucchero. Poi {im:facevamo} i compiti insieme in cucina e, se {im:finivamo} presto, {im:uscivamo} in bicicletta lungo il fiume.",
+      "La domenica mattina {im:lavoravamo} nell'orto: lui {im:piantava} i pomodori e io {im:raccoglievo} le fragole… e ne {im:mangiavo} metà! La sera mi {im:raccontava} le storie della sua giovinezza, quando {im:faceva} il pescatore in Sicilia.",
+      "Una volta, a nove anni, {pp:sono caduto} dalla bicicletta e {pp:mi sono fatto} male a un ginocchio. Il nonno mi {pp:ha portato} a casa sulle spalle per due chilometri. Non lo {pp:ho} mai {pp:dimenticato}.",
+      "Oggi il nonno non c'{ip:è} più, ma ogni volta che {ip:mangio} una fragola {ip:penso} a lui."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Who answered at the door?",
+            "q": "Il nonno Aldo si {im:arrabbiava} spesso con i nipoti.",
             "options": [
-              "Her husband",
-              "The neighbour",
-              "*Nobody"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "The fridge was…",
+            "q": "Dopo la scuola Davide {im:andava} dal nonno.",
             "options": [
-              "full",
-              "*almost empty",
-              "broken"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "What was the neighbour's offer?",
+            "q": "La merenda {im:era} pane e marmellata.",
             "options": [
-              "To go shopping together",
-              "*Some of the food he had cooked",
-              "A key to the house"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "The neighbour has lived there…",
+            "q": "Da giovane il nonno {im:faceva} il pescatore.",
             "options": [
-              "for a year",
-              "*all his life",
-              "since yesterday"
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il nonno {pp:ha portato} Davide all'ospedale in macchina.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Com'{im:era} il nonno?",
+            "options": [
+              "*alto, magro e paziente",
+              "basso e nervoso",
+              "grassottello e timido"
+            ]
+          },
+          {
+            "q": "Che cosa {im:facevano} la domenica mattina?",
+            "options": [
+              "andavano al mare",
+              "*lavoravano nell'orto",
+              "guardavano la TV"
+            ]
+          },
+          {
+            "q": "Perché Davide non {pp:ha dimenticato} quel giorno?",
+            "options": [
+              "*perché il nonno l'ha portato a casa sulle spalle",
+              "perché ha vinto una gara",
+              "perché ha perso la bicicletta"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'infinito dei verbi del testo.",
+        "questions": [
+          "sembrava → [[sembrare]]",
+          "facevamo → [[fare]]",
+          "raccoglievo → [[raccogliere]]",
+          "sono caduto → [[cadere]]",
+          "mi sono fatto → [[farsi]]"
         ]
       }
     ]
@@ -350,57 +618,71 @@
   "listening": {
     "transcript": [
       [
-        "Mamma",
-        "{pp:Hai} già {pp:fatto} i compiti?"
+        "Chiara",
+        "Guarda che cosa {pp:ho trovato} in cantina: le foto delle elementari!"
       ],
       [
-        "Figlio",
-        "Non ancora. {pp:Sono} appena {pp:tornato}!"
+        "Matteo",
+        "{imv:Fammi} vedere! Oddio, questa sei tu? Com'{im:eri} carina! {im:Avevi} i capelli lunghissimi."
       ],
       [
-        "Mamma",
-        "{pp:Hai mangiato} qualcosa?"
+        "Chiara",
+        "Sì, e {im:portavo} sempre due trecce. E tu, ti {ip:riconosci}? {im:Eri} il più piccolo della classe!"
       ],
       [
-        "Figlio",
-        "No, non {pp:ho mangiato} niente tutto il giorno."
+        "Matteo",
+        "È vero… e {im:ero} anche un po' grassottello. Adesso invece {ip:sono} alto un metro e novanta!"
       ],
       [
-        "Mamma",
-        "C'{ip:è} un po' di pasta. {ip:È} abbastanza?"
+        "Chiara",
+        "Ti {ip:ricordi} la maestra Bruna? Ci {im:leggeva} sempre una favola prima di tornare a casa."
       ],
       [
-        "Figlio",
-        "Sì, grazie. Quasi quasi ne {ip:mangio} due piatti!"
+        "Matteo",
+        "Certo! E ti {ip:ricordi} la gita allo zoo? Quel giorno {pp:hai perso} lo zaino e {pp:hai pianto} per un'ora."
+      ],
+      [
+        "Chiara",
+        "Non me lo {imv:ricordare}! Però dopo {pp:abbiamo mangiato} il gelato tutti insieme."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{pp:Hai} [[già]] {pp:fatto} i compiti?",
-          "{pp:Sono} [[appena]] {pp:tornato}!",
-          "Non {pp:ho mangiato} [[niente]] tutto il giorno.",
-          "{ip:È} [[abbastanza]]?"
+          "Com'[[eri#im]] carina! [[Avevi#im]] i capelli lunghissimi.",
+          "Sì, e [[portavo#im]] sempre due trecce.",
+          "Ci [[leggeva#im]] sempre una favola prima di tornare a casa.",
+          "Quel giorno [[hai perso#pp]] lo zaino."
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The son has finished his homework.",
+            "q": "Dove {pp:ha trovato} le foto Chiara?",
             "options": [
-              "True",
-              "*False"
+              "a scuola",
+              "*in cantina",
+              "dalla nonna"
             ]
           },
           {
-            "q": "The son has eaten nothing all day.",
+            "q": "Com'{im:era} Matteo da bambino?",
             "options": [
-              "*True",
-              "False"
+              "alto e magro",
+              "*piccolo e un po' grassottello",
+              "biondo con le trecce"
+            ]
+          },
+          {
+            "q": "Che cosa {pp:è successo} alla gita allo zoo?",
+            "options": [
+              "Matteo si è perso",
+              "*Chiara ha perso lo zaino",
+              "la maestra ha pianto"
             ]
           }
         ]
@@ -411,41 +693,64 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Racconta la tua infanzia: rispondi con una frase all'[im:imperfetto] o al [pp:passato prossimo].",
         "questions": [
           {
-            "q": "Is anybody there?",
+            "q": "Com'{im:eri} da bambino o da bambina?",
             "a": [
-              "C'è qualcuno?"
+              "Ero molto vivace.",
+              "Ero timido.",
+              "Ero timida.",
+              "Ero un bambino allegro.",
+              "Ero una bambina allegra."
             ]
           },
           {
-            "q": "I don't want anything.",
+            "q": "Dove {im:abitavi}?",
             "a": [
-              "Non voglio niente.",
-              "Non voglio nulla.",
-              "Io non voglio niente."
+              "Abitavo in una piccola città.",
+              "Abitavo in campagna.",
+              "Abitavo in un paese."
             ]
           },
           {
-            "q": "I have already eaten.",
+            "q": "Qual {im:era} il tuo gioco preferito?",
             "a": [
-              "Ho già mangiato.",
-              "Io ho già mangiato."
+              "Il mio gioco preferito era nascondino.",
+              "Giocavo sempre a nascondino.",
+              "Era nascondino."
             ]
           },
           {
-            "q": "I haven't finished yet.",
+            "q": "Che cosa {im:facevi} d'estate?",
             "a": [
-              "Non ho ancora finito.",
-              "Io non ho ancora finito."
+              "D'estate andavo al mare.",
+              "Andavo al mare con i miei genitori.",
+              "Andavo dai nonni."
             ]
           },
           {
-            "q": "It is too expensive.",
+            "q": "Racconta una cosa successa una volta a scuola.",
             "a": [
-              "È troppo caro.",
-              "È troppo cara."
+              "Una volta ho vinto una gara.",
+              "Una volta sono caduto in cortile.",
+              "Una volta sono caduta in cortile."
+            ]
+          },
+          {
+            "q": "Con chi {pp:hai trascorso} più tempo da piccolo?",
+            "a": [
+              "Ho trascorso molto tempo con i nonni.",
+              "Ho trascorso molto tempo con mia nonna.",
+              "Con i miei nonni."
+            ]
+          },
+          {
+            "q": "Com'{im:eri} allora e come {ip:sei} oggi?",
+            "a": [
+              "Da piccolo ero timido, adesso invece sono socievole.",
+              "Prima ero grassottello, adesso sono magro.",
+              "Ero timida, adesso no."
             ]
           }
         ]

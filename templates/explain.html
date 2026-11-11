@@ -99,16 +99,72 @@
         white-space: nowrap;
     }
 
+    /* Tables with many columns: tighter cells so they fit the page */
+    .lesson-section table.compact th,
+    .lesson-section table.compact td {
+        padding: 6px 7px;
+        font-size: 14px;
+    }
+
     td.merged {
         vertical-align: middle;
         text-align: center;
         border-left: 1px solid var(--border);
     }
 
+    /* A cell spread over several columns reads like an ordinary one */
+    td.merged.across {
+        text-align: left;
+    }
+
     /* The merged cell draws the line along its whole height, so the cell
        before it doesn't add a second one */
     td:has(+ td.merged) {
         border-right: none !important;
+    }
+
+    .lesson-figure {
+        margin: 6px 0 18px;
+    }
+
+    .lesson-figure img {
+        display: block;
+        width: 100%;
+        max-height: 380px;
+        object-fit: cover;
+        border-radius: var(--radius-small);
+        border: 1px solid var(--border);
+    }
+
+    .lesson-figure figcaption {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2px 12px;
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .lesson-figure .credit,
+    .lesson-figure .credit a {
+        color: var(--faint);
+        font-size: 12px;
+    }
+
+    .lesson-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 14px;
+        margin-bottom: 8px;
+    }
+
+    .lesson-gallery .lesson-figure {
+        margin: 0;
+    }
+
+    .lesson-gallery .lesson-figure img {
+        height: 160px;
     }
 
     .grammar-heading {
@@ -169,13 +225,13 @@
 {# A cell can also be {"text": ..., "rows": n, "cols": n} to span rows or
    columns; the cells it covers in the rows below are null #}
 {% macro cell(value) %}
-{% if value is mapping %}<td class="merged" rowspan="{{ value.rows or 1 }}" colspan="{{ value.cols or 1 }}">{{ cell_text(value.text) }}</td>
+{% if value is mapping %}<td class="merged{% if not value.rows %} across{% endif %}" rowspan="{{ value.rows or 1 }}" colspan="{{ value.cols or 1 }}">{{ cell_text(value.text) }}</td>
 {% elif value is not none %}<td>{{ cell_text(value) }}</td>{% endif %}
 {% endmacro %}
 
 {% macro table(block) %}
 <div class="table-scroll">
-    <table class="{% if block.table.bulleted %}bulleted{% endif %}{% if block.table.nowrap %} nowrap{% endif %}">
+    <table class="{% if block.table.bulleted %}bulleted{% endif %}{% if block.table.nowrap %} nowrap{% endif %}{% if block.table.compact %} compact{% endif %}">
         {% if block.table.title %}
         {% set width = block.table.rows | map("length") | max %}
         <tr class="table-title"><th colspan="{{ width }}">{{ block.table.title | rich }}</th></tr>
@@ -206,25 +262,56 @@
 {% elif block.note %}<ul class="table-note">{% for line in block.note %}<li>{{ line | rich }}</li>{% endfor %}</ul>{% endif %}
 {% endmacro %}
 
-{% macro blocks(items) %}
+{# A picture: {"img": path under static/images, "caption": ..., "credit": ..., "source": url} #}
+{% macro figure(item) %}
+<figure class="lesson-figure">
+    <img src="{{ url_for('static', filename='images/' ~ item.img) }}" alt="{{ item.caption | plain }}" loading="lazy">
+    {% if item.caption or item.credit %}
+    <figcaption>
+        {% if item.caption %}{{ item.caption | rich }}{% endif %}
+        {% if item.credit %}<span class="credit">{% if item.source %}<a href="{{ item.source }}" target="_blank" rel="noopener">{{ item.credit }}</a>{% else %}{{ item.credit }}{% endif %}</span>{% endif %}
+    </figcaption>
+    {% endif %}
+</figure>
+{% endmacro %}
+
+{# Several small pictures side by side #}
+{% macro gallery(items) %}
+<div class="lesson-gallery">
+    {% for item in items %}{{ figure(item) }}{% endfor %}
+</div>
+{% endmacro %}
+
+{# With a prefix, each block (and each table of a grid) is marked with
+   data-find="<prefix>-<n>", so a search result can jump right to it #}
+{% macro blocks(items, prefix=none) %}
 {% for block in items %}
+{% set find = prefix ~ "-" ~ loop.index0 if prefix else none %}
+{% if block is mapping and block.grid %}
+{# Small tables side by side when there is room; "wide" ones take a whole row #}
+<div class="table-grid">
+    {% for item in block.grid %}
+    <div{% if item.wide %} class="wide"{% endif %}{% if find %} data-find="{{ find }}-{{ loop.index0 }}"{% endif %}>{{ table(item) }}</div>
+    {% endfor %}
+</div>
+{% else %}
+{% if find %}<div data-find="{{ find }}">{% endif %}
 {% if block is string %}
 <p>{{ block | rich }}</p>
 {% elif block.h %}
 <h3 class="grammar-heading">{{ block.h | rich }}</h3>
+{% elif block.img %}
+{{ figure(block) }}
+{% elif block.gallery %}
+{{ gallery(block.gallery) }}
 {% elif block.ul %}
 <ul>
     {% for entry in block.ul %}<li>{{ entry | rich }}</li>{% endfor %}
 </ul>
-{% elif block.grid %}
-{# Small tables side by side when there is room; "wide" ones take a whole row #}
-<div class="table-grid">
-    {% for item in block.grid %}
-    <div{% if item.wide %} class="wide"{% endif %}>{{ table(item) }}</div>
-    {% endfor %}
-</div>
 {% else %}
 {{ table(block) }}
+{% endif %}
+{% if find %}</div>{% endif %}
 {% endif %}
 {% endfor %}
 {% endmacro %}

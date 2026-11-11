@@ -429,8 +429,23 @@
             background-color: var(--accent-soft);
         }
 
+        /* Nothing in the bar shrinks or wraps; the links that don't fit move
+           to the menu instead */
+        .nav-inner > * {
+            flex-shrink: 0;
+        }
+
         .nav-main {
-            flex: 1;
+            flex: 1 0 auto;
+        }
+
+        .nav-inner.measuring .nav-main {
+            flex-grow: 0;
+        }
+
+        .nav-links li[hidden],
+        .nav-menu li[hidden] {
+            display: none;
         }
 
         .nav-account .nav-cta {
@@ -560,7 +575,7 @@
         }
 
         .menu-toggle {
-            display: none;
+            display: inline-flex;
             padding: 8px 12px;
             background-color: var(--surface-2);
             border: 1px solid var(--border);
@@ -573,53 +588,394 @@
             transform: none;
         }
 
+        /* The ☰ button and the links that didn't fit in the bar */
+        .nav-more {
+            position: relative;
+        }
+
+        .nav-more[hidden] {
+            display: none;
+        }
+
+        .nav-menu {
+            position: absolute;
+            top: calc(100% + 10px);
+            right: 0;
+            z-index: 50;
+            display: none;
+            flex-direction: column;
+            gap: 2px;
+            min-width: 210px;
+            padding: 8px;
+            list-style: none;
+            background-color: var(--surface);
+            border: 1px solid var(--border-strong);
+            border-radius: 14px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, .45);
+            animation: search-panel-in .2s cubic-bezier(.2, .8, .2, 1);
+            transform-origin: top right;
+        }
+
+        nav.open .nav-menu {
+            display: flex;
+        }
+
+        .nav-menu a {
+            display: block;
+            padding: 10px 14px;
+            border-radius: var(--radius-small);
+            color: var(--muted);
+            font-size: 15px;
+            white-space: nowrap;
+        }
+
+        .nav-menu a:hover {
+            color: var(--text);
+            background-color: var(--surface-2);
+            text-decoration: none;
+        }
+
+        .nav-menu a.active {
+            color: var(--text);
+            background-color: var(--accent-soft);
+        }
+
+        .nav-menu .nav-cta {
+            color: white;
+            background-color: var(--accent);
+            text-align: center;
+        }
+
+        .nav-menu .nav-cta:hover {
+            background-color: var(--accent-hover);
+        }
+
         @media screen and (max-width: 1039px) {
             .nav-inner {
-                flex-wrap: wrap;
-                gap: 0 12px;
-                height: auto;
-                min-height: 64px;
-            }
-
-            .brand {
-                height: 64px;
-                margin-right: auto;
-            }
-
-            .menu-toggle {
-                display: inline-flex;
+                gap: 10px;
+                padding: 0 14px;
             }
 
             /* Only the flag on small screens */
             .lang-current .lang-name {
                 display: none;
             }
+        }
 
-            .nav-links {
-                display: none;
+        /* The smallest phones: a slightly smaller logo, so the bar fits */
+        @media screen and (max-width: 400px) {
+            .brand {
+                gap: 7px;
+                font-size: 17px;
             }
 
-            /* The open menu adds its links as full-width rows under the bar */
-            nav.open .nav-links {
-                display: flex;
-                flex-direction: column;
-                align-items: stretch;
-                order: 3;
-                width: 100%;
-                padding-bottom: 8px;
+            .brand-mark {
+                width: 28px;
+                height: 28px;
             }
+        }
 
-            nav.open .nav-account {
-                padding-top: 8px;
-                padding-bottom: 14px;
-                border-top: 1px solid var(--border);
-            }
+        /* Search: a round magnifier left of Home. Opened, a pill grows from it
+           over the space of the menu names (--search-room, measured when it
+           opens), so nothing else in the bar moves */
+        .nav-search {
+            --ease: cubic-bezier(.2, .8, .2, 1);
+            --search-room: 0px;
+            position: relative;
+            flex-shrink: 0;
+            width: 38px;
+            height: 38px;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: none;
+        }
 
-            nav.open .nav-links a {
-                padding: 12px 14px;
-                border-radius: var(--radius-small);
-                font-size: 16px;
+        .nav-search::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 38px;
+            border: 1px solid transparent;
+            border-radius: 999px;
+            transition: width .4s var(--ease), background-color .3s, border-color .3s, box-shadow .3s;
+        }
+
+        nav.searching .nav-search::before {
+            width: calc(38px + var(--search-room));
+            border-color: var(--border-strong);
+            background-color: var(--surface-2);
+        }
+
+        nav.searching .nav-search:focus-within::before {
+            border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+            box-shadow: 0 0 0 4px var(--accent-soft);
+        }
+
+        .search-toggle,
+        .search-close {
+            position: absolute;
+            top: 1px;
+            z-index: 1;
+            display: grid;
+            place-items: center;
+            width: 36px;
+            height: 36px;
+            padding: 0;
+            border-radius: 50%;
+            color: var(--muted);
+            background: none;
+            transition: color .2s, background-color .2s, opacity .25s, transform .35s var(--ease);
+        }
+
+        .search-toggle {
+            left: 1px;
+        }
+
+        .search-toggle:hover,
+        .search-close:hover {
+            color: var(--text);
+            background-color: var(--surface-3);
+        }
+
+        nav.searching .search-toggle {
+            color: var(--accent);
+            background: none;
+        }
+
+        .search-toggle svg {
+            width: 17px;
+            height: 17px;
+        }
+
+        .search-close {
+            top: 4px;
+            left: calc(38px + var(--search-room) - 34px);
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+            line-height: 1;
+            opacity: 0;
+            transform: rotate(-90deg) scale(.6);
+            pointer-events: none;
+        }
+
+        nav.searching .search-close {
+            opacity: 1;
+            transform: none;
+            pointer-events: auto;
+            transition-delay: .15s;
+        }
+
+        .nav-search input[type="search"] {
+            position: absolute;
+            top: 0;
+            left: 38px;
+            z-index: 1;
+            width: 0;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: none;
+            background: none;
+            color: var(--text);
+            font-size: 15px;
+            opacity: 0;
+            transition: width .4s var(--ease), opacity .25s .1s;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .nav-search input[type="search"]::-webkit-search-cancel-button {
+            display: none;
+        }
+
+        nav.searching .nav-search input[type="search"] {
+            width: max(0px, calc(var(--search-room) - 40px));
+            opacity: 1;
+        }
+
+        /* The menu names only fade; they keep their place */
+        .nav-main {
+            transition: opacity .25s, transform .4s cubic-bezier(.2, .8, .2, 1), visibility 0s .4s;
+        }
+
+        nav.searching .nav-main {
+            visibility: hidden;
+            opacity: 0;
+            transform: translateX(24px);
+            transition: opacity .2s, transform .4s cubic-bezier(.2, .8, .2, 1), visibility 0s;
+        }
+
+        @keyframes search-panel-in {
+            from {
+                opacity: 0;
+                transform: translateY(-8px) scale(.98);
             }
+        }
+
+        .search-panel {
+            position: absolute;
+            top: calc(100% + 10px);
+            left: 0;
+            z-index: 60;
+            width: min(480px, calc(100vw - 32px));
+            padding: 8px;
+            background-color: color-mix(in srgb, var(--surface) 92%, transparent);
+            border: 1px solid var(--border-strong);
+            border-radius: 18px;
+            box-shadow: 0 24px 60px rgba(0, 0, 0, .5), 0 2px 8px rgba(0, 0, 0, .3);
+            -webkit-backdrop-filter: blur(14px);
+            backdrop-filter: blur(14px);
+            transform-origin: top left;
+            animation: search-panel-in .22s cubic-bezier(.2, .8, .2, 1);
+        }
+
+        .search-result {
+            position: relative;
+            display: block;
+            padding: 10px 14px;
+            border-radius: 12px;
+            color: var(--text);
+            transition: background-color .15s;
+        }
+
+        .search-result::before {
+            content: "";
+            position: absolute;
+            top: 12px;
+            bottom: 12px;
+            left: 4px;
+            width: 3px;
+            border-radius: 3px;
+            background-color: var(--accent);
+            opacity: 0;
+            transform: scaleY(.4);
+            transition: opacity .15s, transform .2s cubic-bezier(.2, .8, .2, 1);
+        }
+
+        .search-result:hover,
+        .search-result.selected {
+            background-color: var(--surface-2);
+            text-decoration: none;
+        }
+
+        .search-result:hover::before,
+        .search-result.selected::before {
+            opacity: 1;
+            transform: none;
+        }
+
+        .search-result .where {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 2px;
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .search-result .kind {
+            padding: 1px 7px;
+            border-radius: 999px;
+            background-color: var(--surface-3);
+            color: var(--text);
+            font-size: 11px;
+            letter-spacing: .02em;
+        }
+
+        .search-result .snippet {
+            display: block;
+            color: #D5D7DC;
+            font-size: 14px;
+            line-height: 1.45;
+        }
+
+        .search-result mark,
+        .search-page mark {
+            padding: 0 2px;
+            border-radius: 4px;
+            color: var(--text);
+            background-color: var(--accent-soft);
+            box-shadow: inset 0 -1px 0 color-mix(in srgb, var(--accent) 55%, transparent);
+        }
+
+        .search-panel .search-more,
+        .search-panel .search-none {
+            padding: 10px 14px 6px;
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .search-panel .search-more {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 6px;
+            border-top: 1px solid var(--border);
+        }
+
+        .search-panel .search-group,
+        .search-page .search-group {
+            padding: 8px 14px 4px;
+            color: var(--faint);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+        }
+
+        .search-panel .search-group + .search-result,
+        .search-result + .search-group {
+            margin-top: 2px;
+        }
+
+        .search-result .kind-verb {
+            color: var(--accent);
+            background-color: var(--accent-soft);
+        }
+
+        .verb-result .where {
+            color: var(--text);
+            font-size: 14px;
+        }
+
+                .search-panel kbd {
+            padding: 1px 6px;
+            border: 1px solid var(--border-strong);
+            border-bottom-width: 2px;
+            border-radius: 5px;
+            color: var(--text);
+            font-family: inherit;
+            font-size: 11px;
+        }
+
+        /* The place a search result points to, lit up for a moment */
+        [data-find] {
+            transition: background-color .6s, box-shadow .6s;
+        }
+
+        .found {
+            border-radius: var(--radius-small);
+            background-color: var(--accent-soft) !important;
+            box-shadow: 0 0 0 4px var(--accent-soft);
+        }
+
+        nav.search-wide .nav-account,
+        nav.search-wide .nav-more,
+        nav.search-wide .lang-switch {
+            transition: opacity .25s, visibility 0s .4s;
+        }
+
+        nav.searching.search-wide .nav-account,
+        nav.searching.search-wide .nav-more,
+        nav.searching.search-wide .lang-switch {
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity .2s, visibility 0s;
         }
 
         /* Tabs that show one part of a page at a time */
@@ -863,6 +1219,7 @@
     {# The section of the site the current page belongs to #}
     {% set sections = {
         "vocabulary_for_topic": "vocabulary_topics",
+        "topic_words": "vocabulary_topics",
         "vocabulary_practice": "vocabulary_topics",
         "conjugation_practice": "conjugation_drill",
         "story": "stories_list",
@@ -878,21 +1235,60 @@
             <a class="brand" href="{{ url_for('index') }}">
                 <img class="brand-mark" src="{{ url_for('static', filename='icons/icon-192.png') }}" alt="">InterDict
             </a>
+            {% if user_language %}
+            <form class="nav-search" action="{{ url_for('search_results') }}" method="GET" role="search"
+                data-suggest="{{ url_for('search_suggest') }}">
+                <button class="search-toggle" type="button" aria-label="Search lessons and stories" aria-expanded="false">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.8"></circle><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+                </button>
+                <input type="search" name="q" placeholder="Search lessons and stories" aria-label="Search lessons and stories"
+                    autocomplete="off" spellcheck="false" value="{{ query if request.endpoint == 'search_results' else '' }}">
+                <button class="search-close" type="button" aria-label="Close search">&times;</button>
+                <div class="search-panel" hidden></div>
+            </form>
+            {% endif %}
+            {# Every link is in the bar and in the menu; the script shows each in
+               one place only, keeping in the bar those that fit from the left #}
+            {% set main_links = [] %}
+            {% for endpoint, label in feature_links %}
+            {% set _ = main_links.append((url_for(endpoint), label, section == endpoint, false)) %}
+            {% endfor %}
+            {% if current_user.is_authenticated %}
+            {% set account_links = [(url_for('profile'), "Profile", section == 'profile', false),
+                                    (url_for('logout'), "Log out", false, false)] %}
+            {% else %}
+            {% set account_links = [(url_for('login'), "Log in", section == 'login', false),
+                                    (url_for('register'), "Sign up", false, true)] %}
+            {% endif %}
+            {% macro nav_item(index, href, label, active, cta, in_menu) -%}
+            <li data-item="{{ index }}" {% if in_menu %}hidden{% endif %}><a href="{{ href }}"
+                    class="{% if active %}active{% endif %}{% if cta %} nav-cta{% endif %}">{{ label }}</a></li>
+            {%- endmacro %}
             <ul class="nav-links nav-main">
-                {% for endpoint, label in feature_links %}
-                <li><a href="{{ url_for(endpoint) }}" {% if section == endpoint %}class="active"{% endif %}>{{ label }}</a></li>
+                {% for href, label, active, cta in main_links %}
+                {{ nav_item(loop.index0, href, label, active, cta, false) }}
                 {% endfor %}
             </ul>
             <ul class="nav-links nav-account">
                 <li><a class="add-button" href="#" hidden>Install</a></li>
-                {% if current_user.is_authenticated %}
-                <li><a href="{{ url_for('profile') }}" {% if section == 'profile' %}class="active"{% endif %}>Profile</a></li>
-                <li><a href="{{ url_for('logout') }}">Log out</a></li>
-                {% else %}
-                <li><a href="{{ url_for('login') }}" {% if section == 'login' %}class="active"{% endif %}>Log in</a></li>
-                <li><a class="nav-cta" href="{{ url_for('register') }}">Sign up</a></li>
-                {% endif %}
+                {% for href, label, active, cta in account_links %}
+                {{ nav_item(main_links | length + loop.index0, href, label, active, cta, false) }}
+                {% endfor %}
             </ul>
+            <div class="nav-more" hidden>
+                <button class="menu-toggle" type="button" aria-expanded="false" aria-label="More pages">
+                    <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true">
+                        <path fill="currentColor"
+                            d="M1.1 3.8C.6 3.8.2 3.4.2 3s.4-.8 1-.8h13.7c.5 0 .8.4.8.8s-.3.8-.8.8H1zm0 5C.6 8.8.2 8.3.2 8s.4-.8 1-.8h13.7c.5 0 .8.4.8.8s-.3.8-.8.8H1zm0 5c-.5 0-.9-.4-.9-.8s.4-.8 1-.8h13.7c.5 0 .8.4.8.8s-.3.8-.8.8H1z">
+                        </path>
+                    </svg>
+                </button>
+                <ul class="nav-menu">
+                    {% for href, label, active, cta in main_links + account_links %}
+                    {{ nav_item(loop.index0, href, label, active, cta, true) }}
+                    {% endfor %}
+                </ul>
+            </div>
             <div class="lang-switch">
                 <button class="button lang-current" type="button" aria-haspopup="true" aria-expanded="false">
                     {% if user_language %}
@@ -918,13 +1314,6 @@
                     </form>
                 </div>
             </div>
-            <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Menu">
-                <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true">
-                    <path fill="currentColor"
-                        d="M1.1 3.8C.6 3.8.2 3.4.2 3s.4-.8 1-.8h13.7c.5 0 .8.4.8.8s-.3.8-.8.8H1zm0 5C.6 8.8.2 8.3.2 8s.4-.8 1-.8h13.7c.5 0 .8.4.8.8s-.3.8-.8.8H1zm0 5c-.5 0-.9-.4-.9-.8s.4-.8 1-.8h13.7c.5 0 .8.4.8.8s-.3.8-.8.8H1z">
-                    </path>
-                </svg>
-            </button>
         </div>
     </nav>
     <main>
@@ -938,8 +1327,43 @@
         </div>
     </footer>
     <script>
-        // The menu button on small screens
+        // Keeps in the bar the links that fit, from the left; the others are
+        // shown in the menu under the ☰ button instead
         const nav = document.querySelector("nav");
+        const navInner = nav.querySelector(".nav-inner");
+        const navMore = nav.querySelector(".nav-more");
+        const barItems = [...navInner.querySelectorAll(".nav-links [data-item]")];
+        const menuItems = [...navMore.querySelectorAll("[data-item]")];
+        const fitNav = () => {
+            barItems.forEach((item) => { item.hidden = false; });
+            menuItems.forEach((item) => { item.hidden = true; });
+            navMore.hidden = true;
+            // Measured with the menu names at their own width: the bar
+            // overflows when its last item ends past the padding
+            navInner.classList.add("measuring");
+            const end = () => navInner.getBoundingClientRect().right -
+                parseFloat(getComputedStyle(navInner).paddingRight) + 0.5;
+            const overflows = () => {
+                const shown = [...navInner.children].filter((child) => getComputedStyle(child).display !== "none");
+                return shown[shown.length - 1].getBoundingClientRect().right > end();
+            };
+            if (overflows()) {
+                navMore.hidden = false;
+                for (let index = barItems.length - 1; index >= 0 && overflows(); index--) {
+                    barItems[index].hidden = true;
+                    menuItems[index].hidden = false;
+                }
+            } else {
+                nav.classList.remove("open");
+            }
+            navInner.classList.remove("measuring");
+        };
+        window.addEventListener("resize", fitNav);
+        fitNav();
+        if (document.fonts) {
+            document.fonts.ready.then(fitNav);
+        }
+
         const menuToggle = nav.querySelector(".menu-toggle");
         menuToggle.addEventListener("click", (event) => {
             event.stopPropagation();
@@ -964,6 +1388,186 @@
                 langButton.setAttribute("aria-expanded", false);
             }
         });
+
+        // Search: the first five matches as you type. Enter opens the page with
+        // all of them, but only when there are more than five
+        const searchForm = nav.querySelector(".nav-search");
+        if (searchForm) {
+            const searchInput = searchForm.querySelector("input");
+            const searchPanel = searchForm.querySelector(".search-panel");
+            let searchTotal = 0;
+            let selected = -1;
+            let searchTimer = null;
+            let lastQuery = "";
+
+            const searchToggle = searchForm.querySelector(".search-toggle");
+            const brand = nav.querySelector(".brand");
+            const navMain = nav.querySelector(".nav-main");
+            const measureRoom = () => {
+                // The pill grows over the menu names. When they leave too
+                // little room it covers the whole right side of the bar,
+                // which fades until the search closes
+                const box = searchForm.getBoundingClientRect();
+                let room = navMain.getBoundingClientRect().right - box.right;
+                const wide = room < 240;
+                nav.classList.toggle("search-wide", wide);
+                if (wide) {
+                    room = navInner.getBoundingClientRect().right -
+                        parseFloat(getComputedStyle(navInner).paddingRight) - box.right;
+                }
+                searchForm.style.setProperty("--search-room", `${Math.max(0, Math.round(room))}px`);
+                // Keep the results panel on screen
+                const width = Math.min(480, document.documentElement.clientWidth - 24);
+                const overflow = box.left + width - (document.documentElement.clientWidth - 12);
+                searchPanel.style.left = overflow > 0 ? `${-overflow}px` : "";
+                searchPanel.style.width = `${width}px`;
+            };
+            window.addEventListener("resize", () => {
+                if (nav.classList.contains("searching")) {
+                    measureRoom();
+                }
+            });
+            const openSearch = () => {
+                measureRoom();
+                nav.classList.add("searching");
+                searchToggle.setAttribute("aria-expanded", true);
+                searchInput.focus();
+            };
+            const closeSearch = () => {
+                nav.classList.remove("searching");
+                searchToggle.setAttribute("aria-expanded", false);
+                searchPanel.hidden = true;
+            };
+            searchForm.querySelector(".search-close").addEventListener("click", () => {
+                searchInput.value = "";
+                searchPanel.innerHTML = "";
+                closeSearch();
+                searchToggle.focus();
+            });
+            searchToggle.addEventListener("click", () => {
+                if (nav.classList.contains("searching")) {
+                    closeSearch();
+                } else {
+                    openSearch();
+                }
+            });
+            // The menu names come back once the focus leaves the search
+            searchForm.addEventListener("focusout", () => {
+                setTimeout(() => {
+                    if (!searchForm.contains(document.activeElement)) {
+                        closeSearch();
+                    }
+                }, 150);
+            });
+            const escapeHtml = (text) => text.replace(/[&<>"']/g, (char) => `&#${char.charCodeAt(0)};`);
+            const results = () => [...searchPanel.querySelectorAll(".search-result")];
+            const closePanel = () => {
+                searchPanel.hidden = true;
+                selected = -1;
+            };
+            const select = (index) => {
+                const items = results();
+                selected = items.length ? (index + items.length) % items.length : -1;
+                items.forEach((item, position) => item.classList.toggle("selected", position === selected));
+            };
+
+            const showResults = (data) => {
+                searchTotal = data.total;
+                selected = -1;
+                const verbs = data.verbs || [];
+                if (!data.total && !verbs.length) {
+                    searchPanel.innerHTML = '<div class="search-none">No results</div>';
+                } else {
+                    const verbItems = verbs.map((verb) =>
+                        `<a class="search-result verb-result" href="${verb.url}"><span class="where"><span class="kind kind-verb">Verb</span>${escapeHtml(verb.infinitive)}</span>` +
+                        `<span class="snippet">${verb.detail ? escapeHtml(verb.detail) : "All the forms, tense by tense"}</span></a>`).join("");
+                    const items = data.results.map((item) =>
+                        `<a class="search-result" href="${item.url}"><span class="where"><span class="kind">${item.kind === "story" ? "Story" : "Lesson"}</span>${escapeHtml(item.title)} · ${escapeHtml(item.where)}</span>` +
+                        `<span class="snippet">${item.snippet}</span></a>`).join("");
+                    searchPanel.innerHTML =
+                        (verbItems ? `<div class="search-group">Verbs</div>${verbItems}` : "") +
+                        (items ? `<div class="search-group">Lessons and stories</div>${items}` : "") +
+                        (data.total > 5 ? `<div class="search-more"><span>${data.total} results</span><span><kbd>Enter</kbd> to see them all</span></div>` : "");
+                }
+                searchPanel.hidden = false;
+            };
+
+            searchInput.addEventListener("input", () => {
+                clearTimeout(searchTimer);
+                const query = searchInput.value.trim();
+                if (query.length < 2) {
+                    searchTotal = 0;
+                    searchPanel.innerHTML = "";
+                    closePanel();
+                    return;
+                }
+                searchTimer = setTimeout(async () => {
+                    lastQuery = query;
+                    const response = await fetch(`${searchForm.dataset.suggest}?q=${encodeURIComponent(query)}`);
+                    if (response.ok && lastQuery === searchInput.value.trim()) {
+                        showResults(await response.json());
+                    }
+                }, 150);
+            });
+
+            searchInput.addEventListener("keydown", (event) => {
+                if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+                    event.preventDefault();
+                    select(selected + (event.key === "ArrowDown" ? 1 : -1));
+                } else if (event.key === "Escape") {
+                    closeSearch();
+                    searchToggle.focus();
+                }
+            });
+
+            searchForm.addEventListener("submit", (event) => {
+                const items = results();
+                if (selected >= 0 && items[selected]) {
+                    event.preventDefault();
+                    window.location = items[selected].href;
+                } else if (searchTotal <= 5) {
+                    // With five results or fewer the box already shows them all
+                    event.preventDefault();
+                }
+            });
+
+            searchInput.addEventListener("focus", () => {
+                if (searchPanel.innerHTML && searchInput.value.trim().length >= 2) {
+                    searchPanel.hidden = false;
+                }
+            });
+            document.addEventListener("click", (event) => {
+                if (!searchForm.contains(event.target)) {
+                    closeSearch();
+                }
+            });
+        }
+
+        // A link from the search opens the page at the place it found, and
+        // lights it up for three seconds
+        const findKey = new URLSearchParams(window.location.search).get("find");
+        if (findKey) {
+            const target = [...document.querySelectorAll("[data-find]")].find((element) => element.dataset.find === findKey);
+            if (target) {
+                // Open the tab that holds it first
+                const panel = target.closest('[role="tabpanel"]');
+                if (panel && panel.hidden) {
+                    const tab = document.querySelector(`[role="tab"][aria-controls="${panel.id}"]`);
+                    if (tab) {
+                        tab.click();
+                    }
+                }
+                // A short wait lets the opened tab lay out before scrolling
+                setTimeout(() => {
+                    target.scrollIntoView({ behavior: "smooth", block: "center" });
+                    target.classList.add("found");
+                    setTimeout(() => target.classList.remove("found"), 3000);
+                }, 60);
+            }
+            const address = new URL(window.location);
+            address.searchParams.delete("find");
+            history.replaceState(null, "", address);
+        }
 
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker

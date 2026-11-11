@@ -77,7 +77,11 @@
             {{ percent }}%
         </div>
         <p class="score-detail">
+            {% if quiz.mode == "cards" %}
+            You knew {{ quiz.first_try }} of {{ quiz.total }} cards
+            {% else %}
             {{ quiz.first_try }} of {{ quiz.total }} questions right on the first try
+            {% endif %}
         </p>
         <progress value="{{ quiz.first_try }}" max="{{ quiz.total }}"></progress>
         <button class="new-quiz" type="button" onclick='window.location.href = {{ new_quiz_url | tojson }}'

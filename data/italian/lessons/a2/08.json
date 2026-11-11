@@ -1,219 +1,213 @@
 {
-  "title": "{ip:Vado} dal medico, vicino alla stazione",
-  "translation": "I'm going to the doctor's, near the station",
-  "topics": "Wider use of prepositions, tra and fra, prepositions of place",
+  "title": "Mentre {im:uscivo}, {pp:è cominciato} a piovere",
+  "translation": "",
+  "topics": "I pronomi indefiniti, l'[im:imperfetto] con il [pp:passato prossimo], il [pp:passato prossimo] dei verbi modali, al telefono, uffici, servizi e contrattempi",
   "grammar": {
     "explain": [
+      "In questa lezione raccontiamo piccoli problemi di tutti i giorni: una lavatrice rotta, un pacco che non {pp:è arrivato}, una telefonata difficile. Per farlo ci servono i pronomi indefiniti e l'[im:imperfetto] insieme al [pp:passato prossimo].",
       {
-        "h": "Where are you going?"
-      },
-      "The choice depends on what kind of place follows.",
-      {
-        "table": {
-          "head": [
-            "Place",
-            "Preposition",
-            "Examples"
-          ],
-          "rows": [
-            [
-              "Cities",
-              "a",
-              "{ip:Vado} a Roma. {ip:Abito} a Sofia."
-            ],
-            [
-              "Countries and regions",
-              "in",
-              "{ip:Vado} in Italia. {ip:Vivo} in Toscana."
-            ],
-            [
-              "A person, a doctor, a friend",
-              "da",
-              "{ip:Vado} **dal** medico. {ip:Vado} **da** Luca."
-            ],
-            [
-              "A named or specific place with an article",
-              "a",
-              "{ip:Vado} **al** cinema, **alla** stazione."
-            ],
-            [
-              "Shops and places in -ia, plus room words",
-              "in",
-              "{ip:Vado} in farmacia, in banca, in centro, in cucina."
-            ],
-            [
-              "Fixed expressions",
-              "a",
-              "a casa, a scuola, a letto, a teatro"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "I pronomi indefiniti",
+              "head": [
+                "pronome",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "**qualcuno**",
+                  "una persona, non sappiamo chi",
+                  "**Qualcuno** {pp:ha lasciato} un messaggio per te."
+                ],
+                [
+                  "**qualcun altro**",
+                  "un'altra persona",
+                  "Se Luca non {ip:può}, {ip:chiamo} **qualcun altro**."
+                ],
+                [
+                  "**qualcosa**",
+                  "una cosa, non sappiamo quale",
+                  "{ip:Hai} **qualcosa** da mangiare?"
+                ],
+                [
+                  "**uno**",
+                  "una persona qualsiasi",
+                  "Mio cugino? **Uno** molto simpatico!"
+                ],
+                [
+                  "**tutti**",
+                  "tutte le persone",
+                  "**Tutti** {ip:parlano} di quel film."
+                ],
+                [
+                  "**nessuno**",
+                  "zero persone",
+                  "Non {ip:risponde} **nessuno**. / **Nessuno** mi {ip:ascolta}."
+                ],
+                [
+                  "**niente** / **nulla**",
+                  "zero cose",
+                  "Non {pp:ho capito} **niente**."
+                ]
+              ]
+            },
+            "note": [
+              "*Qualcuno*, *qualcosa*, *nessuno* e *niente* non cambiano e vogliono il verbo al singolare: *Qualcuno {pp:ha chiamato}?*",
+              "Se *nessuno* o *niente* vengono dopo il verbo, davanti al verbo ci vuole *non*: *Non {ip:viene} nessuno.* Se vengono prima, *non* sparisce: *Nessuno {ip:viene}.*",
+              "*Qualcosa di* + aggettivo: *qualcosa di buono, qualcosa di strano*."
             ]
-          ]
-        }
-      },
-      "Transport takes *in*: *in treno, in macchina, in aereo*. The exception is *a piedi* (on foot).",
-      {
-        "h": "Other main uses"
-      },
-      {
-        "table": {
-          "head": [
-            "Preposition",
-            "Use",
-            "Example"
-          ],
-          "rows": [
-            [
-              "di",
-              "owner or material",
-              "la macchina di Marco; una borsa di pelle"
-            ],
-            [
-              "da",
-              "coming from; purpose",
-              "{ip:Vengo} da Milano. Una camera da letto."
-            ],
-            [
-              "con",
-              "with, by means of",
-              "{ip:Scrivo} con la penna."
-            ],
-            [
-              "su",
-              "on; about",
-              "Un libro sull'arte."
-            ],
-            [
-              "per",
-              "destination; purpose",
-              "Il treno per Roma. {ip:Studio} per l'esame."
-            ],
-            [
-              "tra / fra",
-              "between; in (a future time)",
-              "{ip:Parto} tra due giorni."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "L'[im:imperfetto] e il [pp:passato prossimo] insieme",
+              "head": [
+                "per raccontare…",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "un'azione in corso e un'altra che la interrompe",
+                  "Mentre {im:facevo} la doccia, {pp:è andata} via la luce."
+                ],
+                [
+                  "due azioni in corso nello stesso momento",
+                  "Mentre {im:cucinavo}, {im:ascoltavo} la radio."
+                ],
+                [
+                  "un fatto e lo stato fisico o d'animo di chi lo fa",
+                  "Non {pp:sono andato} in palestra perché {im:ero} troppo stanco."
+                ]
+              ]
+            },
+            "note": [
+              "*Mentre* introduce di solito l'azione in corso, all'[im:imperfetto].",
+              "L'azione che arriva all'improvviso e interrompe l'altra va al [pp:passato prossimo]: *Mentre {im:dormivo}, {pp:ha suonato} il telefono.*",
+              "Lo stato fisico o d'animo (stanco, arrabbiato, malato, felice) va all'[im:imperfetto]; il fatto va al [pp:passato prossimo]."
             ]
-          ]
-        }
-      },
-      "*Tra* and *fra* are the same word. Be careful: *in due giorni* means it takes two days to do something, and *tra due giorni* means two days from now.",
-      {
-        "h": "Saying exactly where something is"
-      },
-      "Most words of place need a small preposition after them, and that preposition joins the article as usual.",
-      {
-        "table": {
-          "head": [
-            "Expression",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "davanti a",
-              "in front of",
-              "davanti **alla** casa"
-            ],
-            [
-              "dietro a",
-              "behind",
-              "dietro **al** bar"
-            ],
-            [
-              "vicino a",
-              "near",
-              "vicino **alla** stazione"
-            ],
-            [
-              "accanto a",
-              "next to",
-              "accanto **al** cinema"
-            ],
-            [
-              "lontano da",
-              "far from",
-              "lontano **dal** mare"
-            ],
-            [
-              "sopra",
-              "above, on",
-              "sopra il tavolo"
-            ],
-            [
-              "sotto",
-              "under",
-              "sotto il letto"
+          },
+          {
+            "table": {
+              "title": "Il [pp:passato prossimo] con i verbi modali",
+              "head": [
+                "senza verbo modale",
+                "con *dovere*, *potere*, *volere*"
+              ],
+              "rows": [
+                [
+                  "Oggi {pp:ho lavorato} poco.",
+                  "Oggi {pp:ho dovuto} lavorare poco."
+                ],
+                [
+                  "{pp:Sono partita} presto.",
+                  "{pp:Sono voluta} partire presto."
+                ],
+                [
+                  "Non {pp:siamo venuti} alla cena.",
+                  "Non {pp:siamo potuti} venire alla cena."
+                ]
+              ]
+            },
+            "note": [
+              "Con *dovere*, *potere* e *volere* l'ausiliare è quello del verbo all'infinito: *lavorare* vuole *avere* (*ho dovuto lavorare*), *partire* vuole *essere* (*sono voluta partire*).",
+              "Con *essere* il participio si accorda con il soggetto: *Marta è dovuta uscire. I ragazzi sono potuti venire.*",
+              "Nella lingua parlata si sente spesso anche *ho dovuto uscire*: è normale, ma con *essere* è più corretto."
             ]
-          ]
-        }
+          }
+        ]
       }
     ]
   },
   "use": {
     "exercises": [
       {
+        "type": "gap",
+        "prompt": "Sostituisci le parole tra parentesi con il pronome indefinito giusto: *qualcuno, qualcun altro, qualcosa, uno, tutti, nessuno, niente*.",
+        "questions": [
+          "(una persona) [[Qualcuno]] ha suonato alla porta.",
+          "(una cosa) Ti è successo [[qualcosa]]?",
+          "(tutte le persone) Mi hanno fatto gli auguri [[tutti]].",
+          "(nessuna persona) Ho chiamato tre volte, ma non ha risposto [[nessuno]].",
+          "(nessuna cosa) Il frigo è vuoto: non c'è [[niente|nulla]].",
+          "(un'altra persona) Il tecnico è malato, domani viene [[qualcun altro]].",
+          "(una persona) Il nuovo collega? [[Uno]] molto preciso."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *qualcuno, qualcosa, tutti, nessuno* o *niente*.",
+        "questions": [
+          "Ho chiesto al supermercato, ma [[nessuno]] ha visto il mio portafoglio.",
+          "Hai fame? Vuoi [[qualcosa]] da mangiare?",
+          "Scusate, [[qualcuno]] sa dov'è l'ufficio postale?",
+          "Alla riunione c'erano [[tutti]], anche il direttore.",
+          "Ho cercato dappertutto, ma non ho trovato [[niente|nulla]]."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le frasi con l'[im:imperfetto] o il [pp:passato prossimo].",
+        "questions": [
+          "Mentre (io, guidare) [[guidavo#im]], (squillare) [[è squillato#pp]] il telefono.",
+          "Mentre (noi, cenare) [[cenavamo#im]], (andare) [[è andata#pp]] via la luce.",
+          "Mentre Paola (lavare) [[lavava#im]] i piatti, il marito (guardare) [[guardava#im]] la partita.",
+          "Ieri non (io, uscire) [[sono uscito#pp]] perché (avere) [[avevo#im]] la febbre.",
+          "Lucia (arrabbiarsi) [[si è arrabbiata#pp]] perché (essere) [[era#im]] molto stanca.",
+          "Mentre (tu, dormire) [[dormivi#im]], (arrivare) [[è arrivato#pp]] il postino."
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose the right preposition.",
+        "prompt": "Scegli l'ausiliare giusto.",
         "questions": [
           {
-            "q": "{ip:Vado} ___ Napoli.",
+            "q": "Ieri ___ dovuto lavorare fino alle nove.",
             "options": [
-              "*a",
-              "in",
-              "da"
+              "*ho",
+              "sono"
             ]
           },
           {
-            "q": "{ip:Vado} ___ Spagna.",
+            "q": "Marta non ___ potuta venire alla festa.",
             "options": [
-              "a",
-              "*in",
-              "da"
+              "ha",
+              "*è"
             ]
           },
           {
-            "q": "{ip:Vado} ___ medico.",
+            "q": "Non ___ voluto mangiare il pesce.",
             "options": [
-              "al",
-              "nel",
-              "*dal"
+              "*abbiamo",
+              "siamo"
             ]
           },
           {
-            "q": "{ip:Vado} ___ farmacia.",
+            "q": "I ragazzi ___ dovuti tornare a casa presto.",
             "options": [
-              "a",
-              "*in",
-              "da"
+              "hanno",
+              "*sono"
             ]
           },
           {
-            "q": "Parto ___ due giorni. (two days from now)",
+            "q": "___ potuto parlare con il tecnico?",
             "options": [
-              "in",
-              "per",
-              "*tra"
-            ]
-          },
-          {
-            "q": "{ip:Vado} al lavoro ___ macchina.",
-            "options": [
-              "a",
-              "*in",
-              "con"
+              "*Hai",
+              "Sei"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the right preposition, joined with the article if needed.",
+        "prompt": "Riscrivi le frasi con il verbo modale tra parentesi.",
         "questions": [
-          "{ip:Abito} vicino [[alla]] stazione.",
-          "Il bar {ip:è} accanto [[al]] cinema.",
-          "La casa {ip:è} lontano [[dal]] mare.",
-          "Il gatto {ip:è} sotto [[il]] letto.",
-          "La macchina {ip:è} davanti [[alla]] scuola.",
-          "{ip:Vado} [[da]] Luca stasera.",
-          "Il treno [[per]] Roma {ip:parte} alle otto."
+          "Sono uscita di corsa. (dovere) → Sono [[dovuta#pp]] uscire di corsa.",
+          "Il meccanico non ha riparato la macchina. (potere) → Il meccanico non [[ha potuto#pp]] riparare la macchina.",
+          "Siamo rimasti a casa. (volere) → [[Siamo voluti#pp]] rimanere a casa.",
+          "Hai chiamato l'idraulico? (dovere) → [[Hai dovuto#pp]] chiamare l'idraulico?"
         ]
       }
     ]
@@ -221,133 +215,271 @@
   "vocabulary": {
     "words": [
       [
-        "il medico",
-        "doctor"
+        "l'ambasciata",
+        "l'ufficio di uno Stato straniero, dove si chiede il visto"
       ],
       [
-        "la farmacia",
-        "pharmacy"
+        "la compagnia telefonica",
+        "l'azienda che ti dà il telefono e internet"
       ],
       [
-        "la banca",
-        "bank"
+        "l'assistenza tecnica",
+        "il servizio che aiuta i clienti quando qualcosa non funziona"
       ],
       [
-        "l'ospedale",
-        "hospital"
+        "l'idraulico",
+        "ripara i tubi, il bagno e il lavandino"
       ],
       [
-        "la fermata",
-        "stop"
+        "il meccanico",
+        "ripara le macchine e i motorini"
       ],
       [
-        "l'incrocio",
-        "crossroads"
+        "il tecnico della caldaia",
+        "ripara l'apparecchio che scalda l'acqua e la casa"
       ],
       [
-        "il semaforo",
-        "traffic light"
+        "l'ufficio postale",
+        "qui si spediscono lettere e pacchi"
       ],
       [
-        "l'angolo",
-        "corner"
+        "i vigili urbani",
+        "la polizia della città, controlla il traffico"
       ],
       [
-        "girare",
-        "to turn"
+        "la caldaia",
+        "l'apparecchio che scalda l'acqua e i termosifoni"
       ],
       [
-        "attraversare",
-        "to cross"
+        "il tubo",
+        "dentro passa l'acqua o il gas"
       ],
       [
-        "a destra",
-        "to the right"
+        "il rubinetto",
+        "si apre per far uscire l'acqua"
       ],
       [
-        "a sinistra",
-        "to the left"
+        "il lavandino",
+        "qui ci si lava le mani"
+      ],
+      [
+        "la vasca da bagno",
+        "ci si fa il bagno, sdraiati nell'acqua"
+      ],
+      [
+        "la chiavetta internet",
+        "un piccolo oggetto che dà internet al computer"
+      ],
+      [
+        "il pacco",
+        "una scatola che si spedisce per posta"
+      ],
+      [
+        "la raccomandata",
+        "una lettera importante: il postino la consegna solo con una firma"
+      ],
+      [
+        "l'avviso di consegna",
+        "il foglio che il postino lascia se non sei in casa"
+      ],
+      [
+        "scarico",
+        "di una batteria o di un telefono che non ha più energia"
+      ],
+      [
+        "guastarsi",
+        "rompersi, smettere di funzionare (di una macchina, di un apparecchio)"
+      ],
+      [
+        "allagarsi",
+        "riempirsi d'acqua, di una stanza o di una strada"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la fermata",
-            "stop"
+            "l'idraulico",
+            "ripara i tubi, il bagno e il lavandino"
           ],
           [
-            "l'incrocio",
-            "crossroads"
+            "il meccanico",
+            "ripara le macchine e i motorini"
           ],
           [
-            "il semaforo",
-            "traffic light"
+            "la raccomandata",
+            "una lettera importante: il postino la consegna solo con una firma"
           ],
           [
-            "l'angolo",
-            "corner"
+            "l'avviso di consegna",
+            "il foglio che il postino lascia se non sei in casa"
           ],
           [
-            "girare",
-            "to turn"
+            "scarico",
+            "di una batteria o di un telefono che non ha più energia"
           ],
           [
-            "attraversare",
-            "to cross"
+            "allagarsi",
+            "riempirsi d'acqua, di una stanza o di una strada"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "A chi ti rivolgi?",
         "questions": [
-          "{imv:Giri} [[a destra]] al semaforo. (to the right)",
-          "{ip:Vado} in [[farmacia]]. (pharmacy)",
-          "La [[banca]] {ip:è} in centro. (bank)",
-          "Mio fratello {ip:è} in [[ospedale]]. (hospital)"
+          {
+            "q": "Il tubo sotto il lavandino perde acqua.",
+            "options": [
+              "*all'idraulico",
+              "al meccanico",
+              "all'ufficio postale"
+            ]
+          },
+          {
+            "q": "Devi spedire un pacco in Spagna.",
+            "options": [
+              "all'ambasciata",
+              "*all'ufficio postale",
+              "ai vigili urbani"
+            ]
+          },
+          {
+            "q": "La chiavetta internet non funziona.",
+            "options": [
+              "*alla compagnia telefonica",
+              "al tecnico della caldaia",
+              "all'idraulico"
+            ]
+          },
+          {
+            "q": "La macchina non parte più.",
+            "options": [
+              "all'idraulico",
+              "*al meccanico",
+              "alla banca"
+            ]
+          },
+          {
+            "q": "Non c'è acqua calda in tutta la casa.",
+            "options": [
+              "al meccanico",
+              "ai vigili urbani",
+              "*al tecnico della caldaia"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Non posso chiamarti: il cellulare è [[scarico]].",
+          "Il postino mi ha lasciato un [[avviso di consegna]] nella cassetta.",
+          "Si è rotto un tubo e il bagno si è [[allagato]].",
+          "Chiudi il [[rubinetto]], l'acqua è finita sul pavimento!"
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Domani {ip:devo} andare dal medico. Il suo studio {ip:è} in centro, vicino alla stazione, accanto a una farmacia. {ip:Abito} abbastanza lontano dal centro, quindi {ip:vado} in autobus: la fermata {ip:è} proprio davanti a casa mia.",
-      "Dopo la visita {ip:vado} in banca e poi da mia sorella. Lei {ip:abita} in Via Dante, dietro al teatro. Tra due settimane {ip:parto} per la Sicilia, e prima {ip:devo} fare tutto questo!"
+      {
+        "h": "Che giornata!"
+      },
+      "*Da: Giulia — A: Francesca*",
+      "Ciao Francesca,",
+      "scusami tanto per ieri: lo so, ti {pp:ho aspettata} al cinema e io non {pp:sono arrivata}. Ti {pp:ho scritto} un messaggio, ma forse non l'{pp:hai visto}. Ecco che cosa {pp:è successo}.",
+      "Alle sei {im:ero} pronta per uscire. Mentre {im:mi asciugavo} i capelli, {pp:è saltata} la luce in tutta la casa. {pp:Ho chiamato} il tecnico, ma non {pp:ha risposto} nessuno: {im:era} domenica. Allora {pp:ho deciso} di prendere la macchina, ma la batteria {im:era} scarica. Che sfortuna!",
+      "{pp:Ho provato} a chiamare un taxi, ma il numero {im:era} sempre occupato. Alla fine {pp:sono dovuta} andare alla fermata dell'autobus a piedi. Mentre {im:camminavo}, {pp:è cominciato} a piovere e io non {im:avevo} l'ombrello…",
+      "Quando {pp:sono arrivata} alla fermata {im:ero} bagnata dalla testa ai piedi e {im:avevo} un freddo terribile. Così {pp:sono tornata} a casa e {pp:mi sono messa} sotto le coperte. Non {pp:sono potuta} venire perché {im:ero} troppo stanca e arrabbiata.",
+      "Mi perdoni? Sabato prossimo offro io: cinema e pizza!",
+      "Un abbraccio, Giulia"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "The doctor's office is next to a pharmacy.",
+            "q": "Giulia {pp:ha scritto} a Francesca per spiegare perché non {pp:è andata} al cinema.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "The speaker goes to the centre on foot.",
+            "q": "Giulia non {im:aveva} voglia di vedere il film.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "The sister lives behind the theatre.",
+            "q": "Mentre si {im:asciugava} i capelli, {pp:è andata} via la luce.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "The speaker leaves for Sicily in two days.",
+            "q": "Il tecnico {pp:è arrivato} subito.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Giulia {pp:ha preso} un taxi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Quando {pp:è cominciato} a piovere, Giulia non {im:aveva} l'ombrello.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Alla fine Giulia {pp:è tornata} a casa.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Perché Giulia non {pp:ha preso} la macchina?",
+            "options": [
+              "*perché la batteria era scarica",
+              "perché non aveva la patente",
+              "perché la macchina era dal meccanico"
+            ]
+          },
+          {
+            "q": "Perché non {pp:ha risposto} il tecnico?",
+            "options": [
+              "perché era in ferie",
+              "*perché era domenica",
+              "perché il numero era sbagliato"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:propone} Giulia per sabato?",
+            "options": [
+              "un concerto",
+              "*cinema e pizza",
+              "una cena a casa sua"
             ]
           }
         ]
@@ -357,51 +489,92 @@
   "listening": {
     "transcript": [
       [
-        "Turista",
-        "{imv:Scusi}, c'{ip:è} una farmacia qui vicino?"
+        "Operatrice",
+        "Telefonia Sole, buongiorno, sono Elena Ricci. Come posso aiutarLa?"
       ],
       [
-        "Passante",
-        "Sì, {imv:vada} dritto e al semaforo {ip:giri} a sinistra."
+        "Cliente",
+        "Buongiorno. Senta, da tre giorni la mia chiavetta internet non {ip:funziona}."
       ],
       [
-        "Turista",
-        "{ip:È} lontano da qui?"
+        "Operatrice",
+        "Mi dispiace, ma {ip:ha sbagliato} numero: questo {ip:è} l'ufficio commerciale. {ip:Deve} chiamare l'assistenza tecnica al 18805."
       ],
       [
-        "Passante",
-        "No, cinque minuti a piedi. {ip:È} accanto alla banca."
+        "Cliente",
+        "{pp:Ho} già {pp:provato}, ma non {ip:risponde} nessuno. Non {ip:può} passarmi l'assistenza?"
       ],
       [
-        "Turista",
-        "Davanti alla fermata dell'autobus?"
+        "Operatrice",
+        "Mi dispiace, non {ip:è} possibile. Però {ip:posso} mandare una mail ai colleghi. Mi {ip:dice} il Suo nome?"
       ],
       [
-        "Passante",
-        "Esatto. Non {ip:può} sbagliare!"
+        "Cliente",
+        "Sì, Paolo Ferri."
+      ],
+      [
+        "Operatrice",
+        "Bene, signor Ferri. Un attimo… {imv:Attenda} in linea, per favore."
+      ],
+      [
+        "Cliente",
+        "D'accordo, grazie."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Al semaforo {ip:giri} a [[sinistra]].",
-          "{ip:È} lontano [[da]] qui?",
-          "Cinque minuti [[a]] piedi.",
-          "{ip:È} [[accanto]] alla banca."
+          "Come posso [[aiutarLa]]?",
+          "Mi dispiace, ma ha [[sbagliato]] numero.",
+          "Ho già provato, ma non risponde [[nessuno]].",
+          "Mi dispiace, non è [[possibile]].",
+          "Un attimo… [[Attenda#imv]] in linea, per favore."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Where is the pharmacy?",
+        "prompt": "Quale espressione usi per…",
         "questions": [
           {
-            "q": "The pharmacy is…",
+            "q": "rispondere al telefono e presentarti?",
             "options": [
-              "behind the bank",
-              "*next to the bank",
-              "far from the bank"
+              "*Pronto, sono Elena Ricci.",
+              "Con chi parlo?",
+              "Attenda in linea."
+            ]
+          },
+          {
+            "q": "offrire aiuto?",
+            "options": [
+              "È sicura?",
+              "*In cosa posso esserLe utile?",
+              "Mi dica il Suo nome."
+            ]
+          },
+          {
+            "q": "dire a qualcuno di aspettare?",
+            "options": [
+              "*Un attimo… attenda in linea.",
+              "Non è possibile.",
+              "Ha sbagliato numero."
+            ]
+          },
+          {
+            "q": "chiedere chi parla?",
+            "options": [
+              "Come sta?",
+              "*Pronto, con chi parlo?",
+              "Posso passarLa?"
+            ]
+          },
+          {
+            "q": "chiedere di parlare con una persona?",
+            "options": [
+              "*Posso parlare con il signor Neri?",
+              "Il signor Neri è sicuro?",
+              "Chi è il signor Neri?"
             ]
           }
         ]
@@ -412,41 +585,54 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Racconta i tuoi contrattempi: scrivi una frase con l'[im:imperfetto] e il [pp:passato prossimo].",
         "questions": [
           {
-            "q": "I'm going to the doctor's.",
+            "q": "Che cosa {ip:dici} quando {ip:rispondi} al telefono in ufficio?",
             "a": [
-              "Vado dal medico.",
-              "Io vado dal medico."
+              "Pronto, sono Anna Bianchi.",
+              "Buongiorno, sono Anna Bianchi. Come posso aiutarLa?",
+              "Pronto, chi parla?"
             ]
           },
           {
-            "q": "I live near the station.",
+            "q": "Una persona ti {ip:chiama}, ma {ip:cerca} un altro ufficio. Che cosa le {ip:dici}?",
             "a": [
-              "Abito vicino alla stazione.",
-              "Vivo vicino alla stazione.",
-              "Io abito vicino alla stazione."
+              "Mi dispiace, ha sbagliato numero.",
+              "Mi dispiace, ha sbagliato numero. Deve chiamare un altro ufficio."
             ]
           },
           {
-            "q": "I'm leaving in two days.",
+            "q": "Mentre {im:facevi} la doccia, che cosa {pp:è successo}?",
             "a": [
-              "Parto tra due giorni.",
-              "Parto fra due giorni.",
-              "Io parto tra due giorni."
+              "Mentre facevo la doccia, è finita l'acqua calda.",
+              "Mentre facevo la doccia, è andata via la luce.",
+              "Mentre facevo la doccia, ha squillato il telefono."
             ]
           },
           {
-            "q": "The bar is next to the cinema.",
+            "q": "Perché ieri non {pp:sei andato} al lavoro?",
             "a": [
-              "Il bar è accanto al cinema."
+              "Non sono andato al lavoro perché avevo la febbre.",
+              "Non sono andata al lavoro perché ero malata.",
+              "Perché ero malato."
             ]
           },
           {
-            "q": "The cat is under the bed.",
+            "q": "Che cosa {pp:hai dovuto} fare quando si {pp:è rotta} la macchina?",
             "a": [
-              "Il gatto è sotto il letto."
+              "Ho dovuto chiamare il meccanico.",
+              "Sono dovuto andare a piedi.",
+              "Sono dovuta andare a piedi.",
+              "Ho dovuto prendere l'autobus."
+            ]
+          },
+          {
+            "q": "Che cosa {im:facevate} tu e i tuoi amici mentre {im:aspettavate} il treno?",
+            "a": [
+              "Mentre aspettavamo il treno, parlavamo.",
+              "Mentre aspettavamo il treno, chiacchieravamo.",
+              "Mentre aspettavamo il treno, mangiavamo un panino."
             ]
           }
         ]

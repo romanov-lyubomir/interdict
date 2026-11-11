@@ -403,15 +403,16 @@
     <h1 class="title">Cheat sheets</h1>
 
     <div class="tabs" role="tablist" aria-label="Cheat sheets">
-        {# The comparison is the same for every language, so it comes first, set apart from the language's own sheets #}
+        {# The comparison is the same for every language, so it comes first, set apart from the language's own sheets.
+           The language's Verb tenses sheet is the one shown on opening, when there is one #}
         <button class="tab" type="button" role="tab" id="tab-across" aria-controls="across"
-            aria-selected="true">{{ across.title }}</button>
+            aria-selected="{{ 'false' if sheet else 'true' }}">{{ across.title }}</button>
         {% if sheet or extra_sheets %}
         <span class="tab-divider" aria-hidden="true"></span>
         {% endif %}
         {% if sheet %}
         <button class="tab" type="button" role="tab" id="tab-verb-tenses" aria-controls="verb-tenses"
-            aria-selected="false">{{ sheet.title }}</button>
+            aria-selected="true">{{ sheet.title }}</button>
         {% endif %}
         {% for extra in extra_sheets %}
         <button class="tab" type="button" role="tab" id="tab-{{ extra.id }}" aria-controls="{{ extra.id }}"
@@ -420,7 +421,7 @@
     </div>
 
     {% if sheet %}
-    <section id="verb-tenses" role="tabpanel" aria-labelledby="tab-verb-tenses" hidden>
+    <section id="verb-tenses" role="tabpanel" aria-labelledby="tab-verb-tenses">
     <p class="sheet-intro">{{ sheet.intro }}</p>
 
     {% for mood in sheet.moods %}
@@ -435,7 +436,7 @@
     </section>
     {% endif %}
 
-    <section id="across" role="tabpanel" aria-labelledby="tab-across">
+    <section id="across" role="tabpanel" aria-labelledby="tab-across"{% if sheet %} hidden{% endif %}>
         <p class="sheet-intro">{{ across.intro }}</p>
 
         <div class="across-scroll">
