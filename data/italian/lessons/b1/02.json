@@ -1,185 +1,365 @@
 {
   "title": "{ip:Spero} che tu {csa:abbia capito}",
-  "translation": "I hope you have understood",
-  "topics": "The [csa:congiuntivo passato], impersonal expressions with the congiuntivo",
+  "translation": "",
+  "topics": "Il [csa:congiuntivo passato], [csp:congiuntivo presente] o [csa:congiuntivo passato], le espressioni impersonali, *che* + congiuntivo o infinito, il *Lei* nelle lettere formali, esami, errori e scuse",
   "grammar": {
     "explain": [
+      "Nella lezione 1 abbiamo visto il [csp:congiuntivo presente]: *{ip:Penso} che Luca {csp:arrivi} oggi.* Ma se l'azione è già successa, serve il [csa:congiuntivo passato]: *{ip:Penso} che Luca {csa:sia arrivato} ieri.*",
       {
-        "h": "A finished action seen through someone's mind"
-      },
-      "The [csa:congiuntivo passato] is the past version of what you learned in lesson 1. Use it when the main verb is in the present and the action in the *che* part has already happened.",
-      {
-        "table": {
-          "head": [
-            "The action happens",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Now or later",
-              "{ip:Penso} che {csp:arrivi}.",
-              "I think he's arriving."
-            ],
-            [
-              "Before",
-              "{ip:Penso} che {csa:**sia arrivato**}.",
-              "I think he has arrived."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "[csp:congiuntivo presente] o [csa:congiuntivo passato]?",
+              "head": [
+                "l'azione è adesso o dopo: [csp:congiuntivo presente]",
+                "l'azione è già successa: [csa:congiuntivo passato]"
+              ],
+              "rows": [
+                [
+                  "{ip:Penso} che Luca **{csp:arrivi}** oggi.",
+                  "{ip:Penso} che Luca **{csa:sia arrivato}** ieri."
+                ],
+                [
+                  "{ip:Spero} che tu **{csp:stia}** bene.",
+                  "{ip:Spero} che tu **{csa:sia stato}** bene in vacanza."
+                ],
+                [
+                  "Mi {ip:dispiace} che non **{csp:possa}** venire.",
+                  "Mi {ip:dispiace} che non **{csa:sia potuto}** venire."
+                ],
+                [
+                  "{ip:È} strano che Anna non **{csp:risponda}**.",
+                  "{ip:È} strano che Anna non **{csa:abbia risposto}**."
+                ]
+              ]
+            },
+            "note": [
+              "Il primo verbo è al [ip:presente] (*penso, spero, mi dispiace, è strano*); il tempo del congiuntivo dipende da quando succede l'azione dopo *che*.",
+              "Con *ieri, la settimana scorsa, già, ancora* l'azione è quasi sempre passata: *{ip:Credo} che {csa:abbia} già {csa:finito}.*"
             ]
-          ]
-        }
-      },
-      {
-        "h": "How to form it"
-      },
-      "It works exactly like the [pp:passato prossimo], only the auxiliary is in the [csp:congiuntivo presente]. The choice of auxiliary and the agreement stay the same.",
-      {
-        "table": {
-          "head": [
-            "",
-            "mangiare (avere)",
-            "partire (essere)"
-          ],
-          "rows": [
-            [
-              "io, tu, lui / lei",
-              "{csa:abbia mangiato}",
-              "{csa:sia partit**o**} / partit**a**"
-            ],
-            [
-              "noi",
-              "{pp:abbiamo mangiato}",
-              "{pp:siamo partit**i**} / {ip:partit**e**}"
-            ],
-            [
-              "voi",
-              "{csa:abbiate mangiato}",
-              "{csa:siate partit**i**} / {ip:partit**e**}"
-            ],
-            [
-              "loro",
-              "{csa:abbiano mangiato}",
-              "{csa:siano partit**i**} / {ip:partit**e**}"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [csa:congiuntivo passato]",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*mangiare* (con *avere*)",
+                  2
+                ],
+                [
+                  "*partire* (con *essere*)",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "che io",
+                  "{csa:**abbia** mangiato}",
+                  {
+                    "text": "a casa.",
+                    "rows": 6
+                  },
+                  "{csa:**sia** partit**o**/partit**a**}",
+                  {
+                    "text": "ieri sera.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "che tu",
+                  "{csa:**abbia** mangiato}",
+                  null,
+                  "{csa:**sia** partit**o**/partit**a**}",
+                  null
+                ],
+                [
+                  "che lui/lei/Lei",
+                  "{csa:**abbia** mangiato}",
+                  null,
+                  "{csa:**sia** partit**o**/partit**a**}",
+                  null
+                ],
+                [
+                  "che noi",
+                  "{csa:**abbiamo** mangiato}",
+                  null,
+                  "{csa:**siamo** partit**i**/partit**e**}",
+                  null
+                ],
+                [
+                  "che voi",
+                  "{csa:**abbiate** mangiato}",
+                  null,
+                  "{csa:**siate** partit**i**/partit**e**}",
+                  null
+                ],
+                [
+                  "che loro",
+                  "{csa:**abbiano** mangiato}",
+                  null,
+                  "{csa:**siano** partit**i**/partit**e**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Si forma come il [pp:passato prossimo]: l'ausiliare *avere* o *essere* va al [csp:congiuntivo presente], poi viene il participio passato.",
+              "L'ausiliare è lo stesso del [pp:passato prossimo]: *{pp:ho mangiato} → {csa:abbia mangiato}*, *{pp:sono partito} → {csa:sia partito}*.",
+              "Con *essere* il participio si accorda con il soggetto: *{ip:Penso} che Giulia {csa:sia partita}. {ip:Credo} che i ragazzi {csa:siano usciti}.*",
+              "Anche i verbi riflessivi vogliono *essere*: *{ip:Spero} che tu ti {csa:sia divertito}.*"
             ]
-          ]
-        }
-      },
-      {
-        "h": "Impersonal expressions"
-      },
-      "These expressions judge something or leave it open, so they take the *congiuntivo*.",
-      {
-        "table": {
-          "head": [
-            "Expression",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "{ip:è} possibile che",
-              "it's possible that",
-              "{ip:È} possibile che {csa:abbia dimenticato}."
-            ],
-            [
-              "{ip:è} probabile che",
-              "it's likely that",
-              "{ip:È} probabile che {csa:sia uscito}."
-            ],
-            [
-              "{ip:sembra} che",
-              "it seems that",
-              "{ip:Sembra} che {csa:abbiano vinto}."
-            ],
-            [
-              "{ip:pare} che",
-              "apparently",
-              "{ip:Pare} che {csa:sia partita}."
-            ],
-            [
-              "{ip:è} un peccato che",
-              "it's a pity that",
-              "{ip:È} un peccato che non {csa:sia venuto}."
-            ],
-            [
-              "{ip:bisogna} che",
-              "it's necessary that",
-              "{ip:Bisogna} che tu {csp:parli}."
-            ],
-            [
-              "{ip:è} strano che",
-              "it's strange that",
-              "{ip:È} strano che non {csa:abbia chiamato}."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le espressioni impersonali con il congiuntivo",
+              "head": [
+                "espressione",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "*è possibile che, può darsi che*",
+                  "{ip:È} possibile che il professore {csa:abbia cambiato} la data."
+                ],
+                [
+                  "*è probabile che*",
+                  "{ip:È} probabile che Marco {csa:sia} già {csa:uscito}."
+                ],
+                [
+                  "*sembra che, pare che*",
+                  "{ip:Sembra} che il treno {csp:abbia} un'ora di ritardo."
+                ],
+                [
+                  "*è strano che, è un peccato che*",
+                  "{ip:È} un peccato che tu non {csa:sia venuto} alla festa."
+                ],
+                [
+                  "*è normale che, è giusto che*",
+                  "{ip:È} normale che tu {csp:sia} stanco dopo l'esame."
+                ],
+                [
+                  "*è necessario che, bisogna che*",
+                  "{ip:È} necessario che {csp:portiate} un documento."
+                ]
+              ]
+            },
+            "note": [
+              "Queste espressioni danno un giudizio o lasciano un dubbio, per questo vogliono il congiuntivo.",
+              "Le espressioni che dicono una cosa sicura vogliono l'indicativo: *{ip:È} vero che {pp:ha vinto}. {ip:È} chiaro che {pp:hai capito}. {ip:È} certo che {fs:arriverà}.*"
             ]
-          ]
-        }
-      },
-      "Expressions that state a certainty keep the indicative: *{ip:È} vero che {pp:ha vinto}. {ip:È} chiaro che {pp:ha capito}.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Con *che* o senza *che*?",
+              "head": [
+                "per tutti, in generale: infinito",
+                "per una persona precisa: *che* + congiuntivo"
+              ],
+              "rows": [
+                [
+                  "{ip:È} importante **studiare** ogni giorno.",
+                  "{ip:È} importante **che tu {csp:studi}** ogni giorno."
+                ],
+                [
+                  "{ip:È} meglio **arrivare** in anticipo.",
+                  "{ip:È} meglio **che voi {csp:arriviate}** in anticipo."
+                ],
+                [
+                  "{ip:Bisogna} **avvisare** la segreteria.",
+                  "{ip:Bisogna} **che Lei {csp:avvisi}** la segreteria."
+                ],
+                [
+                  "{ip:È} normale **sbagliare**.",
+                  "{ip:È} normale **che i bambini {csp:sbaglino}**."
+                ]
+              ]
+            },
+            "note": "Quando la frase vale per tutti si usa l'infinito, senza *che* e senza *di*. Quando parliamo di una persona precisa, serve *che* + congiuntivo."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Dal *tu* al *Lei*: le lettere formali",
+              "head": [
+                "informale (*tu*)",
+                "formale (*Lei*)"
+              ],
+              "rows": [
+                [
+                  "Ti **{ip:scrivo}** perché…",
+                  "**Le** {ip:scrivo} perché…"
+                ],
+                [
+                  "Ti **{ip:ringrazio}** per la risposta.",
+                  "**La** {ip:ringrazio} per la risposta."
+                ],
+                [
+                  "{ip:Spero} che **tu {csa:abbia ricevuto}** la mia mail.",
+                  "{ip:Spero} che **Lei {csa:abbia ricevuto}** la mia mail."
+                ],
+                [
+                  "Mi {ip:dispiace} che **tu {csa:abbia dovuto}** aspettare.",
+                  "Mi {ip:dispiace} che **Lei {csa:abbia dovuto}** aspettare."
+                ],
+                [
+                  "Grazie per **il tuo** aiuto.",
+                  "Grazie per **il Suo** aiuto."
+                ]
+              ]
+            },
+            "note": [
+              "Con il *Lei* il verbo va alla terza persona, come con *lui* e *lei*. Nelle lettere *Lei, Le, La, Suo* si scrivono spesso con la maiuscola.",
+              "*Le* è il pronome indiretto (*scrivere a qualcuno*), *La* il pronome diretto (*ringraziare qualcuno*)."
+            ]
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the [csa:congiuntivo passato].",
+        "prompt": "Completa con il [csa:congiuntivo passato] dei verbi con *avere*.",
         "questions": [
-          "{ip:Spero} che tu [[abbia capito#csa]]. (capire)",
-          "{ip:Penso} che Anna [[sia partita#csa]]. (partire)",
-          "{ip:Credo} che loro [[abbiano mangiato#csa]]. (mangiare)",
-          "{ip:Sembra} che i ragazzi [[siano usciti#csa]]. (uscire)",
-          "{ip:È} strano che voi non [[abbiate telefonato#csa]]. (telefonare)",
-          "{ip:È} un peccato che Maria non [[sia venuta#csa]]. (venire)"
+          "{ip:Penso} che Laura (finire) [[abbia finito#csa]] l'esame.",
+          "{ip:Spero} che tu (capire) [[abbia capito#csa]] la spiegazione.",
+          "{ip:È} possibile che loro (dimenticare) [[abbiano dimenticato#csa]] l'appuntamento.",
+          "Mi {ip:dispiace} che voi (aspettare) [[abbiate aspettato#csa]] tanto.",
+          "{ip:Credo} che il professore (correggere) [[abbia corretto#csa]] i compiti.",
+          "{ip:Sembra} che noi (sbagliare) [[abbiamo sbagliato#csa]] strada."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il [csa:congiuntivo passato]. Attenzione: *avere* o *essere*?",
+        "questions": [
+          "{ip:Penso} che Giulia (partire) [[sia partita#csa]] ieri.",
+          "{ip:È} strano che i ragazzi non (arrivare) [[siano arrivati#csa]] ancora.",
+          "{ip:Spero} che (tu, divertirsi) [[ti sia divertito|ti sia divertita#csa]] alla festa.",
+          "{ip:Credo} che Marco (vincere) [[abbia vinto#csa]] la partita.",
+          "{ip:È} probabile che le mie amiche (uscire) [[siano uscite#csa]] senza di me.",
+          "Mi {ip:sembra} che voi (lavorare) [[abbiate lavorato#csa]] molto."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right tense.",
+        "prompt": "[csp:congiuntivo presente] o [csa:congiuntivo passato]? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Ieri Marco {im:era} malato. {ip:Penso} che ___ il medico.",
+            "q": "{ip:Penso} che Anna ___ ieri sera.",
             "options": [
-              "{ip:chiami}",
-              "*{csa:abbia chiamato}"
+              "{csp:parta}",
+              "*{csa:sia partita}"
             ]
           },
           {
-            "q": "Domani {ip:parte}. {ip:Credo} che ___ alle otto.",
+            "q": "{ip:Penso} che Anna ___ domani mattina.",
             "options": [
               "*{csp:parta}",
-              "{csa:sia partito}"
+              "{csa:sia partita}"
             ]
           },
           {
-            "q": "{ip:È} vero che Luca ___ .",
+            "q": "{ip:Spero} che tu ___ bene adesso.",
             "options": [
-              "*{pp:ha vinto}",
-              "{csa:abbia vinto}"
+              "*{csp:stia}",
+              "{csa:sia stato}"
             ]
           },
           {
-            "q": "{ip:È} possibile che Luca ___ .",
+            "q": "{ip:Sei} appena {pp:tornato}: {ip:spero} che la vacanza ti ___.",
             "options": [
-              "{pp:ha vinto}",
-              "*{csa:abbia vinto}"
+              "{csp:piaccia}",
+              "*{csa:sia piaciuta}"
             ]
           },
           {
-            "q": "{ip:Sono} sicura che ___ .",
+            "q": "{ip:È} un peccato che ieri tu non ___ venire.",
             "options": [
-              "*{pp:hanno capito}",
-              "{csa:abbiano capito}"
+              "{csp:possa}",
+              "*{csa:sia potuto}"
+            ]
+          },
+          {
+            "q": "{ip:È} normale che oggi tu ___ stanco.",
+            "options": [
+              "*{csp:sia}",
+              "{csa:sia stato}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the right expression: peccato, possibile, sembra or bisogna.",
+        "prompt": "Indicativo o congiuntivo? Completa con il verbo al passato.",
         "questions": [
-          "{ip:È} un [[peccato]] che non {csa:sia venuto}. (a pity)",
-          "{ip:È} [[possibile]] che {csa:abbia dimenticato}. (possible)",
-          "[[Sembra#ip]] che {csa:abbiano vinto}. (it seems)",
-          "[[Bisogna#ip]] che tu {csp:parli} con lui. (it's necessary)"
+          "{ip:È} vero che Paolo (vincere) [[ha vinto#pp]] il concorso?",
+          "{ip:È} possibile che Paolo (vincere) [[abbia vinto#csa]] il concorso.",
+          "{ip:È} chiaro che tu non (studiare) [[hai studiato#pp]].",
+          "{ip:È} strano che tu non (studiare) [[abbia studiato#csa]].",
+          "{ip:So} che Lucia (trovare) [[ha trovato#pp]] lavoro."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Infinito o *che* + congiuntivo? Scegli.",
+        "questions": [
+          {
+            "q": "In generale {ip:è} importante ___ bene prima di un esame.",
+            "options": [
+              "*dormire",
+              "che dorma"
+            ]
+          },
+          {
+            "q": "Marco, {ip:è} importante ___ bene stanotte.",
+            "options": [
+              "dormire",
+              "*che tu dorma"
+            ]
+          },
+          {
+            "q": "Per entrare {ip:bisogna} ___ il biglietto.",
+            "options": [
+              "*mostrare",
+              "che mostri"
+            ]
+          },
+          {
+            "q": "Signora, {ip:è} necessario ___ questo modulo.",
+            "options": [
+              "firmare",
+              "*che Lei firmi"
+            ]
+          },
+          {
+            "q": "{ip:È} normale ___ quando si impara una lingua.",
+            "options": [
+              "*sbagliare",
+              "che sbagli"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi le frasi con il *Lei*.",
+        "questions": [
+          "Ti scrivo per l'esame. → [[Le]] scrivo per l'esame.",
+          "Ti ringrazio molto. → [[La]] ringrazio molto.",
+          "Spero che tu abbia capito. → Spero che Lei [[abbia capito#csa]].",
+          "Grazie per il tuo aiuto. → Grazie per il [[Suo]] aiuto.",
+          "Mi dispiace che tu abbia dovuto aspettare. → Mi dispiace che Lei [[abbia dovuto#csa]] aspettare."
         ]
       }
     ]
@@ -187,135 +367,273 @@
   "vocabulary": {
     "words": [
       [
-        "l'esame",
-        "exam"
+        "l'esame scritto",
+        "un esame in cui si scrive"
+      ],
+      [
+        "l'esame orale",
+        "un esame in cui si parla con il professore"
+      ],
+      [
+        "superare un esame",
+        "avere un buon risultato a un esame"
+      ],
+      [
+        "essere bocciato",
+        "non superare un esame"
       ],
       [
         "il voto",
-        "mark"
+        "il numero che dice com'è andato un esame"
+      ],
+      [
+        "rimandare",
+        "spostare una cosa a un altro giorno"
+      ],
+      [
+        "la segreteria",
+        "l'ufficio di una scuola o di un'università"
+      ],
+      [
+        "il/la docente",
+        "la persona che insegna a scuola o all'università"
       ],
       [
         "l'errore",
-        "mistake"
-      ],
-      [
-        "la spiegazione",
-        "explanation"
-      ],
-      [
-        "la scusa",
-        "excuse"
-      ],
-      [
-        "dimenticare",
-        "to forget"
-      ],
-      [
-        "spiegare",
-        "to explain"
+        "una cosa fatta o detta in modo sbagliato"
       ],
       [
         "sbagliare",
-        "to make a mistake"
+        "fare un errore"
       ],
       [
-        "superare",
-        "to pass (an exam)"
+        "la colpa",
+        "la responsabilità di una cosa che è andata male"
       ],
       [
-        "vincere",
-        "to win"
+        "è colpa mia",
+        "la responsabilità è mia, ho sbagliato io"
       ],
       [
-        "strano",
-        "strange"
+        "chiedere scusa",
+        "dire che ti dispiace per un errore"
       ],
       [
-        "chiaro",
-        "clear"
+        "la scusa",
+        "le parole per chiedere perdono; anche una ragione non vera"
+      ],
+      [
+        "dimenticare",
+        "non ricordare più una cosa"
+      ],
+      [
+        "avvisare",
+        "dire una cosa a qualcuno prima che succeda"
+      ],
+      [
+        "il ritardo",
+        "quando si arriva dopo l'ora giusta"
+      ],
+      [
+        "in anticipo",
+        "prima dell'ora giusta"
+      ],
+      [
+        "la spiegazione",
+        "le parole che servono a capire una cosa"
+      ],
+      [
+        "il malinteso",
+        "quando due persone non si capiscono bene"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il voto",
-            "mark"
+            "essere bocciato",
+            "non superare un esame"
           ],
           [
-            "l'errore",
-            "mistake"
+            "rimandare",
+            "spostare una cosa a un altro giorno"
           ],
           [
-            "la scusa",
-            "excuse"
+            "la segreteria",
+            "l'ufficio di una scuola o di un'università"
           ],
           [
-            "dimenticare",
-            "to forget"
+            "avvisare",
+            "dire una cosa a qualcuno prima che succeda"
           ],
           [
-            "superare",
-            "to pass (an exam)"
+            "il malinteso",
+            "quando due persone non si capiscono bene"
           ],
           [
-            "strano",
-            "strange"
+            "in anticipo",
+            "prima dell'ora giusta"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Che cosa {ip:dici}? Scegli la frase giusta.",
         "questions": [
-          "{ip:Puoi} [[spiegare]] questa regola? (to explain)",
-          "{pp:Ho fatto} un [[errore]]. (mistake)",
-          "{pp:Ho superato} l'[[esame]]. (exam)",
-          "Non {ip:è} [[chiaro]]. (clear)"
+          {
+            "q": "{ip:Arrivi} tardi a lezione.",
+            "options": [
+              "*«Scusi il ritardo.»",
+              "«Che peccato!»",
+              "«In bocca al lupo!»"
+            ]
+          },
+          {
+            "q": "Un amico {pp:ha superato} l'esame.",
+            "options": [
+              "*«Complimenti, bravissimo!»",
+              "«È colpa mia.»",
+              "«Scusa il ritardo.»"
+            ]
+          },
+          {
+            "q": "{pp:Hai rotto} il telefono di tua sorella.",
+            "options": [
+              "*«Scusa, è colpa mia.»",
+              "«Complimenti!»",
+              "«Non c'è di che.»"
+            ]
+          },
+          {
+            "q": "Il professore {pp:ha rimandato} l'esame e tu non lo {im:sapevi}.",
+            "options": [
+              "*«Nessuno mi ha avvisato!»",
+              "«Che bel voto!»",
+              "«Sono in anticipo.»"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Ieri {pp:ho dato} l'esame [[orale]]: {pp:ho parlato} con la professoressa per venti minuti.",
+          "Non {pp:ho studiato} abbastanza e {pp:sono stato} [[bocciato]].",
+          "{ip:Ho} preso un bel [[voto]]: trenta!",
+          "Il treno {ip:è} in [[ritardo]] di mezz'ora.",
+          "Non {ip:è} colpa tua: {pp:è stato} solo un [[malinteso]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Caro professore, Le {ip:scrivo} perché mi {ip:dispiace} che Lei {csa:abbia dovuto} aspettarmi ieri. {ip:Credo} che ci {csa:sia stato} un errore: {im:pensavo} che l'esame {csi:fosse} oggi, ma il mio collega {ip:dice} che {ip:sembra} che {csa:abbiano cambiato} la data due settimane fa.",
-      "{ip:È} strano che nessuno mi {csa:abbia informato}. {ip:So} che {ip:è} colpa mia, perché non {pp:ho controllato} il sito. {ip:È} possibile che io {csp:possa} fare l'esame la prossima settimana? {ip:Spero} che Lei {csa:abbia capito} la situazione. Cordiali saluti, Elisa"
+      {
+        "h": "Un esame perso"
+      },
+      "*Oggetto: esame di Storia contemporanea*",
+      "Gentile professoressa Ricci,",
+      "Le {ip:scrivo} perché ieri non {pp:sono venuto} all'esame orale di Storia contemporanea. Mi {ip:dispiace} molto che Lei mi {csa:abbia aspettato}. {ip:Credo} che ci {csa:sia stato} un malinteso: sul sito c'{im:era} la data del 22 giugno, ma {ip:sembra} che la segreteria {csa:abbia spostato} l'esame al 21 e che non {csa:abbia avvisato} tutti gli studenti.",
+      "{ip:So} che {ip:è} anche colpa mia, perché non {pp:ho controllato} la posta dell'università. {ip:È} possibile che io {csp:faccia} l'esame la settimana prossima?",
+      "La {ip:ringrazio} e {ip:spero} che {csa:abbia capito} la situazione. Cordiali saluti, *Tommaso Bianchi*",
+      {
+        "h": "La risposta della professoressa"
+      },
+      "*Oggetto: Re: esame di Storia contemporanea*",
+      "Gentile Tommaso, {ip:è} vero che la data {pp:è cambiata}, e mi {ip:dispiace} che la segreteria non {csa:abbia avvisato} tutti. Nessun problema: {ip:può} fare l'esame martedì prossimo alle 10, nel mio studio. {ip:È} importante però che {csp:porti} il libretto e che {csp:arrivi} un po' in anticipo. Cordiali saluti, *Anna Ricci*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Elisa missed the exam.",
+            "q": "Perché Tommaso {ip:scrive} alla professoressa?",
             "options": [
-              "*True",
-              "False"
+              "*perché non {pp:è andato} all'esame",
+              "perché {pp:ha preso} un brutto voto",
+              "perché {ip:vuole} cambiare corso"
             ]
           },
           {
-            "q": "The date of the exam was changed.",
+            "q": "Che cosa {pp:è successo}, secondo Tommaso?",
             "options": [
-              "*True",
-              "False"
+              "*La segreteria {pp:ha spostato} la data.",
+              "Il treno {pp:è arrivato} in ritardo.",
+              "La professoressa {pp:è stata} male."
             ]
           },
           {
-            "q": "Elisa blames only the professor.",
+            "q": "Quando {ip:può} fare l'esame Tommaso?",
             "options": [
-              "True",
-              "*False"
+              "*martedì prossimo alle 10",
+              "il 22 giugno",
+              "solo l'anno prossimo"
             ]
           },
           {
-            "q": "She asks to take the exam next week.",
+            "q": "Che cosa {ip:deve} portare?",
             "options": [
-              "*True",
-              "False"
+              "*il libretto",
+              "un certificato del medico",
+              "una lettera della segreteria"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "L'esame di Tommaso {ip:era} scritto.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Sul sito c'{im:era} una data sbagliata.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Tommaso {ip:pensa} che la colpa {csp:sia} solo della segreteria.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La professoressa {ip:è} arrabbiata con Tommaso.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La professoressa {ip:vuole} che Tommaso {csp:arrivi} in anticipo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nelle due mail il [csa:congiuntivo passato].",
+        "questions": [
+          "Mi {ip:dispiace} molto che Lei mi [[abbia aspettato#csa]].",
+          "{ip:Credo} che ci [[sia stato#csa]] un malinteso.",
+          "{ip:Sembra} che la segreteria [[abbia spostato#csa]] l'esame al 21.",
+          "{ip:Spero} che [[abbia capito#csa]] la situazione.",
+          "Mi {ip:dispiace} che la segreteria non [[abbia avvisato#csa]] tutti."
         ]
       }
     ]
@@ -323,51 +641,68 @@
   "listening": {
     "transcript": [
       [
-        "Davide",
-        "Non {ip:vedo} Marta. {ip:Credi} che {csa:sia} già {csa:andata} via?"
+        "Paola",
+        "{pp:Hai visto} Luca? La riunione {pp:è cominciata} dieci minuti fa."
       ],
       [
-        "Clara",
-        "{ip:È} possibile. {ip:Sembra} che {csa:abbia avuto} un problema al lavoro."
+        "Stefano",
+        "No. {ip:È} strano che non {csa:sia} ancora {csa:arrivato}: di solito {ip:è} sempre in anticipo."
       ],
       [
-        "Davide",
-        "Che peccato! {ip:Spero} che non {csp:sia} niente di grave."
+        "Paola",
+        "Forse {pp:ha perso} il treno. O {ip:è} possibile che si {csa:sia dimenticato} della riunione."
       ],
       [
-        "Clara",
-        "{ip:Penso} di no. Ma {ip:è} strano che non {csa:abbia telefonato}."
+        "Stefano",
+        "Non {ip:credo} che l'{csa:abbia dimenticata}: ne {pp:abbiamo parlato} ieri sera!"
       ],
       [
-        "Davide",
-        "Forse {pp:ha dimenticato} il telefono."
+        "Paola",
+        "Aspetta, mi {pp:è arrivato} un messaggio: «Scusate, il treno {ip:è} in ritardo di un'ora.»"
       ],
       [
-        "Clara",
-        "{ip:Bisogna} che le {csp:scriva} stasera."
+        "Stefano",
+        "Ecco! Meno male che ci {pp:ha avvisato}. {ip:Speriamo} che {csp:arrivi} prima della fine."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:Credi} che [[sia#csa]] già {csa:andata} via?",
-          "{ip:Sembra} che [[abbia#csa]] {csa:avuto} un problema.",
-          "{ip:È} strano che non {csa:abbia} [[telefonato#csa]].",
-          "[[Bisogna#ip]] che le {csp:scriva} stasera."
+          "{ip:È} strano che non [[sia arrivato#csa]] ancora.",
+          "{ip:È} possibile che si [[sia dimenticato#csa]] della riunione.",
+          "Non {ip:credo} che l'[[abbia dimenticata#csa]].",
+          "Il treno {ip:è} in [[ritardo]] di un'ora.",
+          "{ip:Speriamo} che [[arrivi#csp]] prima della fine."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What might have happened to Marta?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "It seems that Marta…",
+            "q": "Dove {ip:sono} Paola e Stefano?",
             "options": [
-              "went on holiday",
-              "*had a problem at work",
-              "is ill"
+              "*a una riunione di lavoro",
+              "alla stazione",
+              "a una festa"
+            ]
+          },
+          {
+            "q": "Perché Stefano {ip:è} sorpreso?",
+            "options": [
+              "*Di solito Luca {ip:arriva} in anticipo.",
+              "Luca non {ip:lavora} più con loro.",
+              "La riunione {ip:è} finita."
+            ]
+          },
+          {
+            "q": "Perché Luca non {pp:è} ancora {pp:arrivato}?",
+            "options": [
+              "*Il suo treno {ip:è} in ritardo.",
+              "{pp:Ha dimenticato} la riunione.",
+              "{ip:È} malato."
             ]
           }
         ]
@@ -378,42 +713,494 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi con *penso che, spero che, mi dispiace che, è possibile che* + [csa:congiuntivo passato].",
+        "open": true,
         "questions": [
           {
-            "q": "I hope you have understood. (informal)",
+            "q": "Un amico non {ip:risponde} ai tuoi messaggi da ieri. Che cosa {ip:pensi} che {csa:sia successo}?"
+          },
+          {
+            "q": "Un'amica {ip:è} appena {pp:tornata} dalle vacanze. Che cosa le {ip:dici}?"
+          },
+          {
+            "q": "Il tuo collega non {pp:è venuto} alla tua festa. Che cosa gli {ip:scrivi}?"
+          },
+          {
+            "q": "Qual {ip:è} l'esame più difficile che {pp:hai fatto}? Com'{pp:è andato}?"
+          },
+          {
+            "q": "Che cosa {ip:è} normale che {csp:faccia} uno studente la sera prima di un esame?"
+          },
+          {
+            "q": "{ip:Pensi} che {csa:sia stato} un errore qualcosa che {pp:hai fatto} quest'anno? Perché?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa è successo?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni ipotesi all'immagine giusta.",
+        "pictures": [
+          "A — Un uomo corre sul binario mentre il treno parte",
+          "B — Una ragazza tutta bagnata sotto la pioggia, senza ombrello",
+          "C — Un bambino con l'aria colpevole vicino a un vaso rotto",
+          "D — Un ragazzo felice con un foglio in mano: «30 e lode»"
+        ],
+        "pairs": [
+          [
+            "«{ip:Credo} che {csa:abbia perso} il treno.»",
+            "immagine A"
+          ],
+          [
+            "«{ip:Penso} che {csa:abbia dimenticato} l'ombrello.»",
+            "immagine B"
+          ],
+          [
+            "«{ip:Sembra} che {csa:abbia rotto} il vaso.»",
+            "immagine C"
+          ],
+          [
+            "«{ip:È} probabile che {csa:abbia superato} l'esame.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "h": "Dopo la festa"
+      },
+      {
+        "text": [
+          "**Chat «Compleanno di Sara»**",
+          "**Sara** — Grazie a tutti per ieri sera, {pp:è stata} una festa bellissima! ❤️",
+          "**Luca** — Grazie a te! Scusa se {pp:sono andato} via presto, la mattina dopo {im:dovevo} lavorare alle sei.",
+          "**Giada** — Io purtroppo non {pp:sono potuta} venire: {pp:ho avuto} la febbre tutto il giorno. 😞",
+          "**Marco** — Qualcuno {pp:ha trovato} le mie chiavi? Forse le {pp:ho lasciate} sul divano…"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi la chat e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Com'{pp:è andata} la festa di Sara?",
+            "options": [
+              "*benissimo",
+              "male",
+              "non lo sappiamo"
+            ]
+          },
+          {
+            "q": "Perché Giada non {pp:è venuta}?",
+            "options": [
+              "*{pp:Ha avuto} la febbre.",
+              "{pp:Ha lavorato} fino a tardi.",
+              "{pp:Ha perso} le chiavi."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:cerca} Marco?",
+            "options": [
+              "*le sue chiavi",
+              "il suo telefono",
+              "il regalo per Sara"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Ecco le risposte di Sara. Completa con il [csa:congiuntivo passato].",
+        "questions": [
+          "Luca, {ip:sono} contenta che tu (venire) [[sia venuto#csa]] anche solo per un'ora!",
+          "Giada, mi {ip:dispiace} che (tu, stare) [[sia stata#csa]] male. Come {ip:stai} oggi?",
+          "Marco, {ip:è} possibile che (tu, lasciare) [[abbia lasciato#csa]] le chiavi in macchina?",
+          "{ip:Spero} che a tutti (piacere) [[sia piaciuta#csa]] la torta!",
+          "{ip:È} un peccato che i miei cugini non (potere) [[siano potuti#csa]] venire."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi anche tu un messaggio a Sara dopo la festa. Usa *sono contento che, mi dispiace che, spero che*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il mio messaggio:"
+          }
+        ]
+      },
+      {
+        "h": "Una giornata storta"
+      },
+      {
+        "text": [
+          "**Il diario di Elena** — Oggi {pp:è andato} tutto male. La sveglia non {pp:ha suonato} e {pp:sono arrivata} in ufficio alle dieci. Il capo {pp:ha visto} che {im:ero} in ritardo e non {pp:ha detto} niente. A pranzo {pp:ho rovesciato} il caffè sul vestito nuovo. La sera {pp:mi sono ricordata} che {im:era} il compleanno di mia madre, e non le {pp:ho} neanche {pp:telefonato}!"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Che cosa {ip:dice} un'amica di Elena? Abbina ogni fatto alla frase giusta.",
+        "pairs": [
+          [
+            "La sveglia non {pp:ha suonato}.",
+            "«È strano che la sveglia non abbia suonato.»"
+          ],
+          [
+            "Il capo non {pp:ha detto} niente.",
+            "«Sono contenta che il capo non ti abbia detto niente.»"
+          ],
+          [
+            "Il caffè {pp:è finito} sul vestito.",
+            "«È un peccato che tu abbia rovinato il vestito.»"
+          ],
+          [
+            "Elena {pp:ha dimenticato} il compleanno.",
+            "«È possibile che tua madre non se ne sia accorta.»"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le frasi su Elena con il [csa:congiuntivo passato].",
+        "questions": [
+          "{ip:Credo} che Elena (dormire) [[abbia dormito#csa]] poco.",
+          "{ip:È} probabile che il capo (capire) [[abbia capito#csa]] il problema.",
+          "{ip:Spero} che sua madre non (arrabbiarsi) [[si sia arrabbiata#csa]].",
+          "{ip:È} normale che Elena (sentirsi) [[si sia sentita#csa]] stanca la sera."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Che cosa {ip:dici} a Elena? Scrivi due frasi con *mi dispiace che* e *spero che*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Prima frase:"
+          },
+          {
+            "q": "Seconda frase:"
+          }
+        ]
+      },
+      {
+        "h": "Sicuro o possibile?"
+      },
+      {
+        "type": "choice",
+        "prompt": "Indicativo o congiuntivo? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "{ip:È} vero che Luca ___ casa.",
+            "options": [
+              "*{pp:ha cambiato}",
+              "{csa:abbia cambiato}"
+            ]
+          },
+          {
+            "q": "{ip:È} possibile che Luca ___ casa.",
+            "options": [
+              "{pp:ha cambiato}",
+              "*{csa:abbia cambiato}"
+            ]
+          },
+          {
+            "q": "{ip:È} chiaro che voi ___ molto.",
+            "options": [
+              "*{pp:avete studiato}",
+              "{csa:abbiate studiato}"
+            ]
+          },
+          {
+            "q": "{ip:Sembra} che voi ___ molto.",
+            "options": [
+              "{pp:avete studiato}",
+              "*{csa:abbiate studiato}"
+            ]
+          },
+          {
+            "q": "{ip:So} che Marta ___ ieri.",
+            "options": [
+              "*{pp:è partita}",
+              "{csa:sia partita}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Infinito o *che* + congiuntivo? Completa.",
+        "questions": [
+          "{ip:È} importante (dormire) [[dormire]] bene prima di un esame.",
+          "Paolo, {ip:è} importante che tu (dormire) [[dorma#csp]] bene stanotte.",
+          "{ip:Bisogna} (prenotare) [[prenotare]] il tavolo in anticipo.",
+          "{ip:Bisogna} che voi (prenotare) [[prenotiate#csp]] il tavolo in anticipo.",
+          "{ip:È} normale (avere) [[avere]] paura prima di un esame."
+        ]
+      },
+      {
+        "h": "Tu o Lei?"
+      },
+      {
+        "type": "match",
+        "prompt": "Leggi le frasi: sono formali o informali?",
+        "pairs": [
+          [
+            "Le {ip:scrivo} per chiedere un'informazione.",
+            "formale"
+          ],
+          [
+            "Ti {ip:scrivo} per dirti una cosa.",
+            "informale"
+          ],
+          [
+            "La {ip:ringrazio} per la Sua risposta.",
+            "formale"
+          ],
+          [
+            "Grazie per il tuo aiuto!",
+            "informale"
+          ],
+          [
+            "{ip:Spero} che Lei {csa:abbia ricevuto} i documenti.",
+            "formale"
+          ],
+          [
+            "{ip:Spero} che tu ti {csa:sia divertito}!",
+            "informale"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Questa mail {ip:è} per un professore. Riscrivila con il *Lei*.",
+        "ordered": true,
+        "questions": [
+          "Caro Marco, ti scrivo per l'esame. → Gentile professore, [[Le]] scrivo per l'esame.",
+          "Mi dispiace che tu abbia aspettato. → Mi dispiace che Lei [[abbia aspettato#csa]].",
+          "Spero che tu abbia ricevuto i documenti. → Spero che [[abbia ricevuto#csa]] i documenti.",
+          "Ti ringrazio per il tuo aiuto. → [[La]] ringrazio per il [[Suo]] aiuto."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni scusa alla risposta giusta.",
+        "pairs": [
+          [
+            "«Scusi il ritardo, professoressa.»",
+            "«Nessun problema, si sieda pure.»"
+          ],
+          [
+            "«Scusa, ho dimenticato il tuo compleanno!»",
+            "«Non fa niente, festeggiamo sabato!»"
+          ],
+          [
+            "«Mi dispiace che Lei abbia dovuto aspettare.»",
+            "«Non si preoccupi, sono arrivato da poco.»"
+          ],
+          [
+            "«Scusa, è colpa mia se abbiamo perso il treno.»",
+            "«Tranquillo, ne prendiamo un altro.»"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Spero che tu hai capito.",
             "a": [
               "Spero che tu abbia capito."
             ]
           },
           {
-            "q": "I think she has left.",
+            "q": "Credo che Giulia abbia partita ieri.",
             "a": [
-              "Penso che sia partita.",
-              "Credo che sia partita.",
-              "Penso che lei sia partita."
+              "Credo che Giulia sia partita ieri."
             ]
           },
           {
-            "q": "It seems they have won.",
+            "q": "È vero che Marco abbia vinto.",
             "a": [
-              "Sembra che abbiano vinto."
+              "È vero che Marco ha vinto."
             ]
           },
           {
-            "q": "It's a pity he didn't come.",
+            "q": "Mi dispiace che voi siate aspettato tanto.",
             "a": [
-              "È un peccato che non sia venuto."
+              "Mi dispiace che voi abbiate aspettato tanto."
             ]
           },
           {
-            "q": "It's true that she has won.",
+            "q": "È importante che studiare ogni giorno.",
             "a": [
-              "È vero che ha vinto.",
-              "È vero che lei ha vinto."
+              "È importante studiare ogni giorno."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "che / abbia / spero / capito / tu",
+            "a": [
+              "Spero che tu abbia capito."
+            ]
+          },
+          {
+            "q": "sia / è / Luca / che / partito / possibile / già",
+            "a": [
+              "È possibile che Luca sia già partito."
+            ]
+          },
+          {
+            "q": "mi / che / non / venuta / sia / dispiace / Anna",
+            "a": [
+              "Mi dispiace che Anna non sia venuta."
+            ]
+          },
+          {
+            "q": "che / sembra / il professore / la data / cambiato / abbia",
+            "a": [
+              "Sembra che il professore abbia cambiato la data."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*È* con l'accento è il verbo *essere*: *Luca {ip:è} stanco.* *E* senza accento vuol dire «e poi, insieme a»: *Luca e Marta.*",
+          "Con *essere* il participio cambia la vocale finale: *{csa:sia partito}* (lui), *{csa:sia partita}* (lei), *{csa:siano partiti}* (loro), *{csa:siano partite}* (loro, solo donne)."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi *è* o *e*.",
+        "questions": [
+          "Paolo [[è]] in ritardo [[e]] non risponde al telefono.",
+          "Mia sorella [[è]] partita ieri sera.",
+          "Il libro [[è]] interessante [[e]] facile da leggere.",
+          "Giulia [[e]] Carla sono uscite insieme."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la vocale finale del participio.",
+        "questions": [
+          "Credo che Anna sia arrivat[[a]] alle otto.",
+          "Penso che i ragazzi siano uscit[[i]] presto.",
+          "È strano che le mie amiche non siano venut[[e]].",
+          "Spero che Marco si sia divertit[[o]]."
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So fare un'ipotesi su una cosa passata: *Credo che abbia perso il treno.*",
+          "So dire che mi dispiace: *Mi dispiace che tu non sia potuto venire.*",
+          "So usare le espressioni impersonali: *È possibile che…, È strano che…*",
+          "So distinguere una cosa sicura da una possibile: *È vero che ha vinto / È possibile che abbia vinto.*",
+          "So scrivere una mail formale con il *Lei*.",
+          "So chiedere scusa e rispondere a una scusa."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una classe di ragazzi in silenzio, seduti ai banchi, mentre scrivono il tema dell'esame di maturità"
+      },
+      {
+        "text": [
+          "**La notte prima degli esami**",
+          "Ogni anno, a giugno, circa mezzo milione di ragazzi italiani {ip:fanno} l'esame di maturità, l'ultimo esame della scuola superiore.",
+          "La prima prova {ip:è} uguale in tutta Italia: un tema di italiano. Per settimane gli studenti {ip:cercano} di indovinare quali autori {fs:usciranno}: ognuno {ip:spera} che {csp:esca} il suo scrittore preferito.",
+          "Dopo le prove scritte c'{ip:è} il colloquio orale. Il voto più alto {ip:è} cento, e chi {ip:ha} un risultato eccellente {ip:può} avere anche la lode.",
+          "La notte prima della prima prova molti ragazzi non {ip:dormono}: {ip:ripassano}, {ip:mandano} messaggi agli amici e {ip:ascoltano} «Notte prima degli esami», una canzone di Antonello Venditti del 1984. Ancora oggi tanti adulti {ip:pensano} che quella {csa:sia stata} una delle notti più emozionanti della loro vita."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La maturità {ip:è} l'ultimo esame della scuola superiore.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Ogni scuola {ip:sceglie} il suo tema di italiano.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Gli studenti {ip:sperano} che {csp:esca} il loro autore preferito.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il voto più alto {ip:è} trenta.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "«Notte prima degli esami» {ip:è} una canzone.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con le parole del testo.",
+        "questions": [
+          "La maturità si {ip:fa} a [[giugno]].",
+          "La prima prova {ip:è} un [[tema]] di italiano.",
+          "Dopo le prove scritte c'{ip:è} il colloquio [[orale]].",
+          "Tanti adulti {ip:pensano} che quella [[sia stata#csa]] una notte emozionante."
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Una tua amica {pp:ha fatto} ieri un esame importante, ma non ti {pp:ha} ancora {pp:detto} com'{pp:è andato}. Scrivile un messaggio.",
+        "cues": [
+          "Chiedi com'{pp:è andato} l'esame.",
+          "Che cosa {ip:speri}? (*Spero che sia andato bene…*)",
+          "Che cosa {ip:pensi} che {csa:abbia fatto} dopo? (*Penso che…, È possibile che…*)",
+          "Proponi di festeggiare insieme."
+        ],
+        "start": "Ciao Giulia!\n",
+        "model": "Ciao Giulia!\nAllora, com'è andato l'esame di ieri? Non mi hai ancora scritto niente!\nSpero che sia andato tutto bene e che il professore ti abbia fatto domande facili. Hai studiato tantissimo, quindi sono sicura che hai preso un bel voto.\nPenso che dopo l'esame tu abbia dormito tutto il pomeriggio… è normale!\nSe hai superato l'esame, sabato festeggiamo insieme. Offro io la pizza!\nUn abbraccio,\nMarta"
       }
     ]
   }

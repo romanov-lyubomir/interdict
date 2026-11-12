@@ -65,6 +65,16 @@
         padding: 8px 20px;
     }
 
+    /* The language picker, as it was in the bar: it opens to the right, inside the card */
+    .settings-card .lang-switch {
+        align-self: flex-start;
+    }
+
+    .settings-card .lang-menu {
+        left: 0;
+        right: auto;
+    }
+
     .account-details {
         display: grid;
         grid-template-columns: auto 1fr;
@@ -132,20 +142,12 @@
             </dl>
         </div>
 
-        <form class="shadow settings-card" action="{{ url_for('change_language') }}" method="POST">
-            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <div class="container shadow settings-card" id="language">
             <h2>Language</h2>
-            <p class="hint">The language you are learning.</p>
-            <label for="language">Language</label>
-            <select name="new_language" id="language">
-                {% for value in languages %}
-                <option value="{{ value }}" {% if value == current_user.language %}selected{% endif %}>
-                    {{ value | capitalize }}
-                </option>
-                {% endfor %}
-            </select>
-            <input type="submit" name="submit" value="Change language">
-        </form>
+            <p class="hint">The language you are learning. Choose another one to switch.</p>
+            {% import "language_picker.html" as language_picker %}
+            {{ language_picker.picker(languages, user_language, "profile") }}
+        </div>
 
         <form class="shadow settings-card" action="{{ url_for('change_username') }}" method="POST">
             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">

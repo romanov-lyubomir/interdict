@@ -1,126 +1,221 @@
 {
   "title": "Mi {pp:ha detto} che {cpa:sarebbe venuto}",
-  "translation": "He told me he would come",
-  "topics": "Reported speech: changes of tense, person, place and time",
+  "translation": "",
+  "topics": "Il discorso indiretto: con il verbo al presente e al passato, il [cpa:condizionale passato] per il futuro nel passato, persone, luoghi e tempo, domande e ordini indiretti, notizie, messaggi e pettegolezzi",
   "grammar": {
     "explain": [
+      "Con il discorso indiretto raccontiamo quello che ha detto un'altra persona: *Marco: «{ip:Sono} stanco.» → Marco {pp:ha detto} che {im:era} stanco.* Se il verbo che introduce la frase (*dice, ha detto, chiede…*) è al passato, anche i tempi del discorso vanno indietro.",
       {
-        "h": "When the tense changes"
-      },
-      "If the reporting verb is in the present, nothing changes: *Marco {ip:dice}: «{ip:Vengo}» → Marco {ip:dice} che {ip:viene}*. If it is in the past (*{pp:ha detto}, {im:diceva}*), the whole sentence moves one step back in time.",
-      {
-        "table": {
-          "head": [
-            "What was said",
-            "Direct speech",
-            "Reported: ha detto che…"
-          ],
-          "rows": [
-            [
-              "[ip:Presente]",
-              "«{ip:Sono} stanco.»",
-              "{im:era} stanco"
-            ],
-            [
-              "[pp:Passato prossimo]",
-              "«{pp:Ho mangiato}.»",
-              "{tp:aveva mangiato}"
-            ],
-            [
-              "[im:Imperfetto]",
-              "«{im:Ero} stanco.»",
-              "{im:era} stanco (no change)"
-            ],
-            [
-              "Futuro",
-              "«{fs:Verrò}.»",
-              "{cpa:sarebbe venuto}"
-            ],
-            [
-              "[cop:Condizionale presente]",
-              "«{cop:Verrei}.»",
-              "{cpa:sarebbe venuto}"
-            ],
-            [
-              "[imv:Imperativo]",
-              "«{imv:Vieni}!»",
-              "di venire"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il verbo introduttivo al [ip:presente]: i tempi non cambiano",
+              "head": [
+                "discorso diretto",
+                "discorso indiretto"
+              ],
+              "rows": [
+                [
+                  "Marco: «{ip:Sono} stanco.»",
+                  "Marco {ip:dice} che **{ip:è}** stanco."
+                ],
+                [
+                  "Anna: «{pp:Ho perso} il treno.»",
+                  "Anna {ip:dice} che **{pp:ha perso}** il treno."
+                ],
+                [
+                  "Luca: «{fs:Verrò} domani.»",
+                  "Luca {ip:dice} che **{fs:verrà}** domani."
+                ]
+              ]
+            },
+            "note": "Con *dice, racconta, scrive* al [ip:presente] i tempi restano gli stessi; cambiano solo le persone: *«{ip:Sono} stanco» → dice che (lui) {ip:è} stanco*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il verbo introduttivo al passato: i tempi vanno indietro",
+              "head": [
+                "nel discorso diretto",
+                "discorso diretto",
+                "*{pp:ha detto} che…*"
+              ],
+              "rows": [
+                [
+                  "[ip:presente]",
+                  "«{ip:Sono} stanco.»",
+                  "**{im:era}** stanco"
+                ],
+                [
+                  "[pp:passato prossimo]",
+                  "«{pp:Ho mangiato}.»",
+                  "**{tp:aveva mangiato}**"
+                ],
+                [
+                  "[im:imperfetto]",
+                  "«{im:Ero} stanco.»",
+                  "**{im:era}** stanco (non cambia)"
+                ],
+                [
+                  "[fs:futuro]",
+                  "«{fs:Verrò}.»",
+                  "**{cpa:sarebbe venuto}**"
+                ],
+                [
+                  "[cop:condizionale presente]",
+                  "«{cop:Verrei}.»",
+                  "**{cpa:sarebbe venuto}**"
+                ],
+                [
+                  "[csp:congiuntivo presente]",
+                  "«{ip:Penso} che {csp:sia} vero.»",
+                  "{im:pensava} che **{csi:fosse}** vero"
+                ]
+              ]
+            },
+            "note": "Con *ha detto, diceva, disse* il [ip:presente] diventa [im:imperfetto], il [pp:passato prossimo] diventa [tp:trapassato prossimo] e il [fs:futuro] diventa [cpa:condizionale passato]. L'[im:imperfetto] e il [tp:trapassato prossimo] non cambiano."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il futuro nel passato: il [cpa:condizionale passato]",
+              "head": [
+                "discorso diretto",
+                "discorso indiretto"
+              ],
+              "rows": [
+                [
+                  "Stefano: «{fs:Verrò} a cena.»",
+                  "Stefano {pp:ha detto} che **{cpa:sarebbe venuto}** a cena."
+                ],
+                [
+                  "Sara: «{fs:Porterò} il vino.»",
+                  "Sara {pp:ha promesso} che **{cpa:avrebbe portato}** il vino."
+                ],
+                [
+                  "I ragazzi: «{fs:Partiremo} lunedì.»",
+                  "I ragazzi {pp:hanno detto} che **{cpa:sarebbero partiti}** lunedì."
+                ]
+              ]
+            },
+            "note": "Per un'azione futura vista dal passato l'italiano usa il [cpa:condizionale passato], anche se l'azione deve ancora succedere: *{pp:Ha detto} che {cpa:sarebbe venuto} domani.* È un errore molto comune dire «verrebbe» in questi casi."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Persone, luoghi e tempo",
+              "head": [
+                "discorso diretto",
+                "discorso indiretto"
+              ],
+              "rows": [
+                [
+                  "io, mio",
+                  "lui/lei, suo"
+                ],
+                [
+                  "noi, nostro",
+                  "loro, loro"
+                ],
+                [
+                  "qui, qua",
+                  "lì, là"
+                ],
+                [
+                  "questo",
+                  "quello"
+                ],
+                [
+                  "oggi",
+                  "quel giorno"
+                ],
+                [
+                  "ieri",
+                  "il giorno prima"
+                ],
+                [
+                  "domani",
+                  "il giorno dopo"
+                ],
+                [
+                  "adesso, ora",
+                  "allora, in quel momento"
+                ],
+                [
+                  "la settimana prossima",
+                  "la settimana dopo"
+                ],
+                [
+                  "fra due giorni",
+                  "due giorni dopo"
+                ]
+              ]
+            },
+            "note": "Le parole cambiano perché cambia il punto di vista: chi racconta è in un altro posto e in un altro momento. *«Domani {fs:verrò} qui» → {pp:Ha detto} che il giorno dopo {cpa:sarebbe venuto} lì.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le domande indirette",
+              "head": [
+                "domanda diretta",
+                "domanda indiretta"
+              ],
+              "rows": [
+                [
+                  "«Dove {ip:vai}?»",
+                  "Mi {pp:ha chiesto} **dove** {im:andavo}."
+                ],
+                [
+                  "«Quando {ip:parti}?»",
+                  "Mi {pp:ha chiesto} **quando** {im:partivo}."
+                ],
+                [
+                  "«{ip:Vieni} alla festa?»",
+                  "Mi {pp:ha chiesto} **se** {im:andavo} alla festa."
+                ],
+                [
+                  "«{pp:Hai mangiato}?»",
+                  "Mi {pp:ha chiesto} **se** {tp:avevo mangiato}."
+                ]
+              ]
+            },
+            "note": [
+              "La parola interrogativa resta (*dove, quando, perché, che cosa, chi*). Se la domanda non ce l'ha, si usa *se*.",
+              "Nella lingua scritta e formale, dopo *chiedere se* si usa spesso il congiuntivo: *Mi {pp:ha chiesto} se {csi:volessi} un caffè.*"
             ]
-          ]
-        }
-      },
-      "Note the future: where English says *would come*, Italian uses the [cpa:condizionale passato], *{cpa:sarebbe venuto}*. It's the most typical mistake for learners, because the simple *{cop:verrebbe}* is wrong here.",
-      {
-        "h": "Person, place and time"
-      },
-      "As in English, the words change according to the new point of view.",
-      {
-        "table": {
-          "head": [
-            "Direct",
-            "Reported"
-          ],
-          "rows": [
-            [
-              "io, mio",
-              "lui / lei, suo"
-            ],
-            [
-              "qui",
-              "lì"
-            ],
-            [
-              "questo",
-              "quello"
-            ],
-            [
-              "oggi",
-              "quel giorno"
-            ],
-            [
-              "ieri",
-              "il giorno prima"
-            ],
-            [
-              "domani",
-              "il giorno dopo"
-            ],
-            [
-              "adesso",
-              "allora"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Reported questions and commands"
-      },
-      "A reported question keeps its question word. A question without one takes *se*. A command becomes *di* with an infinitive.",
-      {
-        "table": {
-          "head": [
-            "Direct",
-            "Reported"
-          ],
-          "rows": [
-            [
-              "«Dove {ip:vai}?»",
-              "Mi {pp:ha chiesto} **dove** {im:andavo}."
-            ],
-            [
-              "«{ip:Vieni}?»",
-              "Mi {pp:ha chiesto} **se** {im:venivo}."
-            ],
-            [
-              "«{imv:Aspetta}!»",
-              "Mi {pp:ha detto} **di** aspettare."
-            ],
-            [
-              "«Non parlare!»",
-              "Mi {pp:ha detto} **di non** parlare."
-            ]
-          ]
-        }
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Ordini, consigli e richieste indirette",
+              "head": [
+                "discorso diretto",
+                "discorso indiretto"
+              ],
+              "rows": [
+                [
+                  "«{imv:Aspetta}!»",
+                  "Mi {pp:ha detto} **di aspettare**."
+                ],
+                [
+                  "«Non {imv:uscire}!»",
+                  "Mi {pp:ha detto} **di non uscire**."
+                ],
+                [
+                  "«{imv:Prenda} queste medicine.»",
+                  "Il medico mi {pp:ha detto} **di prendere** queste medicine."
+                ],
+                [
+                  "«Mi {ip:aiuti}?»",
+                  "Mi {pp:ha chiesto} **di aiutarlo**."
+                ]
+              ]
+            },
+            "note": "Un ordine o una richiesta diventa *di* + infinito: *dire di, chiedere di, consigliare di, pregare di*. Il pronome si attacca all'infinito: *di aiutarlo, di chiamarla*."
+          }
+        ]
       }
     ]
   },
@@ -128,84 +223,104 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the right tense for reported speech.",
+        "prompt": "Il verbo è al [ip:presente]: completa il discorso indiretto.",
         "questions": [
-          "«{ip:Sono} stanco.» → {pp:Ha detto} che [[era#im]] stanco.",
-          "«{pp:Ho mangiato}.» → {pp:Ha detto} che [[aveva mangiato#tp]].",
-          "«{fs:Verrò}.» → {pp:Ha detto} che [[sarebbe venuto#cpa]].",
-          "«{fs:Partirò}.» (Anna) → Anna {pp:ha detto} che [[sarebbe partita#cpa]].",
-          "«{ip:Abito} a Roma.» → {pp:Ha detto} che [[abitava#im]] a Roma.",
-          "«Ti {fs:chiamerò}.» → Mi {pp:ha detto} che mi [[avrebbe chiamato#cpa]]."
+          "Luca: «{ip:Sono} in ritardo.» → Luca {ip:dice} che [[è#ip]] in ritardo.",
+          "Anna: «{pp:Ho finito} i compiti.» → Anna {ip:dice} che [[ha finito#pp]] i compiti.",
+          "I ragazzi: «{fs:Arriveremo} alle otto.» → I ragazzi {ip:dicono} che [[arriveranno#fs]] alle otto.",
+          "Marta: «Mi {ip:piace} la pizza.» → Marta {ip:dice} che le [[piace#ip]] la pizza.",
+          "Paolo: «{im:Ero} malato.» → Paolo {ip:dice} che [[era#im]] malato."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Il verbo è al passato: completa con il tempo giusto.",
+        "questions": [
+          "Luca: «{ip:Ho} fame.» → Luca {pp:ha detto} che [[aveva#im]] fame.",
+          "Anna: «{pp:Ho visto} un bel film.» → Anna {pp:ha detto} che [[aveva visto#tp]] un bel film.",
+          "Marco: «{fs:Partirò} domani.» → Marco {pp:ha detto} che [[sarebbe partito#cpa]] il giorno dopo.",
+          "Sara: «{im:Abitavo} a Roma.» → Sara {pp:ha detto} che [[abitava#im]] a Roma.",
+          "I miei amici: «{fs:Porteremo} il dolce.» → {pp:Hanno detto} che [[avrebbero portato#cpa]] il dolce.",
+          "Giulia: «Non {ip:posso} venire.» → Giulia {pp:ha detto} che non [[poteva#im]] venire."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Il futuro nel passato: scegli la forma giusta.",
         "questions": [
           {
-            "q": "Marco {ip:dice} che ___ domani. (present reporting verb)",
+            "q": "Mi {pp:ha promesso} che mi ___.",
             "options": [
-              "*{ip:viene}",
-              "{cpa:sarebbe venuto}"
+              "*{cpa:avrebbe chiamato}",
+              "{cop:chiamerebbe}",
+              "{fs:chiamerà}"
             ]
           },
           {
-            "q": "«Domani {ip:parto}.» → {pp:Ha detto} che {cpa:sarebbe partito} ___ .",
+            "q": "{im:Sapevo} che Luca ___ tardi.",
             "options": [
-              "domani",
-              "*il giorno dopo",
-              "ieri"
+              "*{cpa:sarebbe arrivato}",
+              "{cop:arriverebbe}",
+              "{ip:arriva}"
             ]
           },
           {
-            "q": "«{ip:Sono} qui.» → {pp:Ha detto} che {im:era} ___ .",
+            "q": "Il meteo {pp:ha detto} che ___.",
             "options": [
-              "qui",
-              "*lì",
-              "oggi"
+              "*{cpa:avrebbe piovuto}",
+              "{cop:pioverebbe}",
+              "{fs:pioverà} ieri"
             ]
           },
           {
-            "q": "«{ip:Hai} fame?» → Mi {pp:ha chiesto} ___ {im:avevo} fame.",
+            "q": "{pp:Hanno scritto} che ___ a giugno.",
             "options": [
-              "che",
-              "*se",
-              "di"
+              "*{cpa:si sarebbero sposati}",
+              "{cop:si sposerebbero}",
+              "{pp:si sono sposati}"
             ]
           },
           {
-            "q": "«{imv:Aspetta}!» → Mi {pp:ha detto} ___ aspettare.",
+            "q": "Ti {im:avevo detto} che non ___ mai!",
             "options": [
-              "che",
-              "se",
-              "*di"
+              "*{cpa:avrei fumato}",
+              "{cop:fumerei}",
+              "{ip:fumo}"
             ]
           }
         ]
       },
       {
-        "type": "write",
-        "prompt": "Report these sentences. Start with Ha detto che or Mi ha chiesto.",
+        "type": "gap",
+        "prompt": "Persone, luoghi e tempo: completa con le parole giuste.",
         "questions": [
-          {
-            "q": "«{ip:Sono} malato.» (Luca)",
-            "a": [
-              "Ha detto che era malato.",
-              "Luca ha detto che era malato."
-            ]
-          },
-          {
-            "q": "«Dove {ip:abiti}?»",
-            "a": [
-              "Mi ha chiesto dove abitavo."
-            ]
-          },
-          {
-            "q": "«{ip:Vieni} con noi?»",
-            "a": [
-              "Mi ha chiesto se venivo con loro."
-            ]
-          }
+          "«Domani {fs:verrò} qui.» → {pp:Ha detto} che il giorno [[dopo]] {cpa:sarebbe venuto} lì.",
+          "«Ieri {pp:sono stato} a Roma.» → {pp:Ha detto} che il giorno [[prima]] {tp:era stato} a Roma.",
+          "«Questo libro {ip:è} mio.» → {pp:Ha detto} che [[quel]] libro {im:era} suo.",
+          "«Oggi {ip:sono} stanca.» → {pp:Ha detto} che [[quel]] giorno {im:era} stanca.",
+          "«{ip:Vivo} qui da due anni.» → {pp:Ha detto} che {im:viveva} [[lì]] da due anni."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi le domande al discorso indiretto.",
+        "questions": [
+          "«Dove {ip:abiti}?» → Mi {pp:ha chiesto} [[dove]] {im:abitavo}.",
+          "«{ip:Parli} inglese?» → Mi {pp:ha chiesto} [[se]] {im:parlavo} inglese.",
+          "«Che cosa {ip:fai} stasera?» → Mi {pp:ha chiesto} che cosa [[facevo#im]] quella sera.",
+          "«{pp:Hai visto} Marco?» → Mi {pp:ha chiesto} se [[avevo visto#tp]] Marco.",
+          "«Quando {fs:tornerai}?» → Mi {pp:ha chiesto} quando [[sarei tornato|sarei tornata#cpa]]."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Ordini e richieste: completa con *di* + infinito.",
+        "questions": [
+          "«{imv:Chiudi} la porta!» → Mi {pp:ha detto} [[di chiudere]] la porta.",
+          "«Non {imv:fare} rumore!» → Ci {pp:ha detto} [[di non fare]] rumore.",
+          "«{imv:Bevete} molta acqua.» → Il medico ci {pp:ha detto} [[di bere]] molta acqua.",
+          "«Mi {ip:presti} la penna?» → Mi {pp:ha chiesto} [[di prestargli|di prestarle]] la penna.",
+          "«{imv:Chiamami} stasera!» → Mi {pp:ha detto} [[di chiamarlo|di chiamarla]] quella sera."
         ]
       }
     ]
@@ -213,135 +328,267 @@
   "vocabulary": {
     "words": [
       [
-        "la promessa",
-        "promise"
+        "la notizia",
+        "un'informazione nuova su un fatto"
       ],
       [
-        "la notizia",
-        "piece of news"
+        "il messaggio",
+        "un testo breve che si manda a qualcuno"
+      ],
+      [
+        "la segreteria telefonica",
+        "il servizio che registra i messaggi quando non rispondi"
       ],
       [
         "il pettegolezzo",
-        "gossip"
+        "una chiacchiera, spesso non vera, sulla vita degli altri"
+      ],
+      [
+        "la voce",
+        "una notizia che gira, ma non si sa se è vera"
       ],
       [
         "il segreto",
-        "secret"
+        "una cosa che non si deve dire agli altri"
+      ],
+      [
+        "la promessa",
+        "le parole con cui ti impegni a fare una cosa"
       ],
       [
         "promettere",
-        "to promise"
-      ],
-      [
-        "raccontare",
-        "to tell"
+        "dire che farai sicuramente una cosa"
       ],
       [
         "riferire",
-        "to report"
+        "dire a qualcuno quello che ha detto un altro"
       ],
       [
-        "ripetere",
-        "to repeat"
+        "raccontare",
+        "dire una storia o un fatto"
       ],
       [
         "aggiungere",
-        "to add"
+        "dire una cosa in più"
       ],
       [
         "confermare",
-        "to confirm"
+        "dire che una cosa è vera o resta valida"
       ],
       [
         "negare",
-        "to deny"
+        "dire che una cosa non è vera"
+      ],
+      [
+        "ammettere",
+        "dire che una cosa è vera, anche se non fa piacere"
       ],
       [
         "sostenere",
-        "to claim"
+        "dire con forza che una cosa è vera"
+      ],
+      [
+        "lamentarsi",
+        "dire che una cosa non va bene, che non si è contenti"
+      ],
+      [
+        "giurare",
+        "promettere in modo molto serio"
+      ],
+      [
+        "chiacchierare",
+        "parlare in modo leggero, per passare il tempo"
+      ],
+      [
+        "a bassa voce",
+        "piano, perché gli altri non sentano"
+      ],
+      [
+        "gira voce che",
+        "si dice che, ma non è sicuro"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la promessa",
-            "promise"
-          ],
-          [
             "il pettegolezzo",
-            "gossip"
+            "una chiacchiera, spesso non vera, sulla vita degli altri"
           ],
           [
             "riferire",
-            "to report"
-          ],
-          [
-            "aggiungere",
-            "to add"
+            "dire a qualcuno quello che ha detto un altro"
           ],
           [
             "negare",
-            "to deny"
+            "dire che una cosa non è vera"
           ],
           [
-            "sostenere",
-            "to claim"
+            "ammettere",
+            "dire che una cosa è vera, anche se non fa piacere"
+          ],
+          [
+            "confermare",
+            "dire che una cosa è vera o resta valida"
+          ],
+          [
+            "giurare",
+            "promettere in modo molto serio"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli il verbo giusto.",
         "questions": [
-          "Ti [[prometto#ip]] che {fs:verrò}. (I promise)",
-          "{ip:Ho} una bella [[notizia]]. (piece of news)",
-          "Mi {pp:ha} [[raccontato#pp]] una storia. (told)",
-          "{ip:Sai} mantenere un [[segreto]]? (secret)"
+          {
+            "q": "«Sì, {pp:ho rotto} io il vaso», ___ il bambino.",
+            "options": [
+              "*{pp:ha ammesso}",
+              "{pp:ha negato}",
+              "{pp:ha promesso}"
+            ]
+          },
+          {
+            "q": "«Non {pp:sono stato} io!», ___ Marco.",
+            "options": [
+              "*{pp:ha negato}",
+              "{pp:ha ammesso}",
+              "{pp:ha confermato}"
+            ]
+          },
+          {
+            "q": "«La riunione {ip:è} sempre alle dieci», ___ la segretaria.",
+            "options": [
+              "*{pp:ha confermato}",
+              "{pp:ha negato}",
+              "{pp:si è lamentata}"
+            ]
+          },
+          {
+            "q": "«Questo caffè {ip:è} freddo!», ___ il cliente.",
+            "options": [
+              "*{pp:si è lamentato}",
+              "{pp:ha promesso}",
+              "{pp:ha giurato}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{pp:Hai sentito} la [[notizia]]? Paolo e Sara si {fs:sposeranno}!",
+          "Non {ip:posso} dirtelo: {ip:è} un [[segreto]].",
+          "{pp:Ho lasciato} un messaggio in [[segreteria]], ma non mi {pp:ha richiamato}.",
+          "Gira [[voce]] che il direttore {fs:cambierà} lavoro.",
+          "{ip:Parla} a bassa [[voce]]: il bambino {ip:dorme}."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Venerdì Stefano mi {pp:ha telefonato} e mi {pp:ha detto} che {cpa:sarebbe venuto} a cena da noi il giorno dopo. {pp:Ha aggiunto} che {cpa:avrebbe portato} il vino e mi {pp:ha chiesto} se {im:doveva} portare anche il dolce. Gli {pp:ho detto} di non preoccuparsi.",
-      "Sabato {pp:abbiamo aspettato} fino alle dieci. Non {pp:è venuto} nessuno. La domenica mi {pp:ha scritto} che si {tp:era dimenticato} e che gli {im:dispiaceva} moltissimo. Mi {pp:ha promesso} che la prossima volta non {cpa:sarebbe successo}."
+      {
+        "h": "Il telefono senza fili"
+      },
+      "Lunedì mattina Carlo {pp:ha detto} alla sua collega Anna: «{ip:Sono} stanco di tutto questo traffico. Forse {fs:chiederò} di lavorare da casa il venerdì.»",
+      "A pranzo Anna {pp:ha raccontato} a Bea che Carlo {im:era} stanco e che {cpa:avrebbe chiesto} di lavorare da casa. Bea {pp:ha detto} a Dario che Carlo {im:voleva} cambiare lavoro. La sera Dario {pp:ha scritto} a Elena che Carlo {cpa:avrebbe lasciato} l'azienda, e Elena {pp:ha aggiunto} che {tp:aveva sentito} parlare di un lavoro in Australia.",
+      "Il martedì tutto l'ufficio {im:sapeva} che Carlo {cpa:sarebbe partito} per Sydney! Il capo lo {pp:ha chiamato} e gli {pp:ha chiesto} perché non gli {tp:aveva detto} niente.",
+      "Carlo {pp:è rimasto} a bocca aperta e {pp:ha spiegato} che {im:voleva} solo lavorare da casa il venerdì. Il capo {pp:ha riso} e gli {pp:ha detto} di mandargli una mail con la richiesta. Da quel giorno, in ufficio, nessuno {ip:crede} più ai pettegolezzi… o quasi."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Stefano said he would bring the wine.",
+            "q": "Che cosa {im:voleva} davvero Carlo?",
             "options": [
-              "*True",
-              "False"
+              "*lavorare da casa il venerdì",
+              "cambiare lavoro",
+              "trasferirsi in Australia"
             ]
           },
           {
-            "q": "Stefano came to dinner on Saturday.",
+            "q": "A chi {pp:ha parlato} per prima Carlo?",
             "options": [
-              "True",
-              "*False"
+              "*ad Anna",
+              "al capo",
+              "a Elena"
             ]
           },
           {
-            "q": "Stefano forgot about the dinner.",
+            "q": "Chi {pp:ha parlato} dell'Australia?",
             "options": [
-              "*True",
-              "False"
+              "*Elena",
+              "Bea",
+              "Carlo"
             ]
           },
           {
-            "q": "He promised it wouldn't happen again.",
+            "q": "Che cosa {pp:ha detto} il capo a Carlo, alla fine?",
             "options": [
-              "*True",
-              "False"
+              "*di mandargli una mail con la richiesta",
+              "di andare in Australia",
+              "di non lavorare più il venerdì"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Carlo {pp:ha detto} ad Anna che {im:voleva} lasciare l'azienda.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Ogni persona {pp:ha cambiato} un po' la notizia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il martedì tutti {im:pensavano} che Carlo {cpa:sarebbe partito}.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il capo {pp:si è arrabbiato} molto con Carlo.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Carlo {pp:è rimasto} sorpreso dalla notizia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i verbi del discorso indiretto.",
+        "questions": [
+          "Anna {pp:ha raccontato} a Bea che Carlo [[era#im]] stanco.",
+          "… e che [[avrebbe chiesto#cpa]] di lavorare da casa.",
+          "Dario {pp:ha scritto} a Elena che Carlo [[avrebbe lasciato#cpa]] l'azienda.",
+          "Tutto l'ufficio {im:sapeva} che Carlo [[sarebbe partito#cpa]] per Sydney.",
+          "Il capo gli {pp:ha detto} [[di mandargli]] una mail."
         ]
       }
     ]
@@ -349,51 +596,76 @@
   "listening": {
     "transcript": [
       [
-        "Elsa",
-        "{pp:Hai parlato} con Stefano? Che cosa ti {pp:ha detto}?"
+        "Marta",
+        "Paolo, {pp:ha chiamato} qualcuno?"
       ],
       [
-        "Rita",
-        "Mi {pp:ha detto} che {im:era} stanco e che {tp:aveva lavorato} tutta la notte."
+        "Paolo",
+        "Sì, Luca. {pp:Ha detto} che domani non {im:poteva} venire alla riunione."
       ],
       [
-        "Elsa",
-        "Ti {pp:ha chiesto} se {im:andavi} alla festa?"
+        "Marta",
+        "Perché?"
       ],
       [
-        "Rita",
-        "Sì, e mi {pp:ha detto} di portare un amico."
+        "Paolo",
+        "{pp:Ha detto} che {im:aveva} la febbre e che stamattina {tp:era andato} dal medico."
       ],
       [
-        "Elsa",
-        "E lui {fs:verrà}?"
+        "Marta",
+        "Poverino! E quando {fs:tornerà}?"
       ],
       [
-        "Rita",
-        "{pp:Ha detto} che {cpa:sarebbe venuto} più tardi."
+        "Paolo",
+        "{pp:Ha detto} che {cpa:sarebbe tornato} lunedì. E mi {pp:ha chiesto} di mandargli i documenti per email."
+      ],
+      [
+        "Marta",
+        "Gli {pp:hai chiesto} se {im:aveva} bisogno di qualcosa?"
+      ],
+      [
+        "Paolo",
+        "Sì, ma {pp:ha risposto} di no. Ti {ip:saluta}!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Mi {pp:ha detto} che [[era#im]] stanco.",
-          "Ti {pp:ha chiesto} [[se]] {im:andavi} alla festa?",
-          "Mi {pp:ha detto} [[di]] portare un amico.",
-          "{pp:Ha detto} che [[sarebbe#cpa]] {cpa:venuto} più tardi."
+          "{pp:Ha detto} che domani non [[poteva#im]] venire alla riunione.",
+          "{pp:Ha detto} che [[aveva#im]] la febbre.",
+          "… e che stamattina [[era andato#tp]] dal medico.",
+          "{pp:Ha detto} che [[sarebbe tornato#cpa]] lunedì.",
+          "Mi {pp:ha chiesto} [[di mandargli]] i documenti per email."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Why was Stefano tired?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Stefano…",
+            "q": "Perché Luca non {ip:va} alla riunione?",
             "options": [
-              "*had worked all night",
-              "had been to a party",
-              "was ill"
+              "*{ip:Ha} la febbre.",
+              "{ip:È} in vacanza.",
+              "{ip:Ha} un altro appuntamento."
+            ]
+          },
+          {
+            "q": "Quando {fs:tornerà} Luca?",
+            "options": [
+              "*lunedì",
+              "domani",
+              "fra una settimana"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:vuole} Luca da Paolo?",
+            "options": [
+              "*i documenti per email",
+              "delle medicine",
+              "il numero del medico"
             ]
           }
         ]
@@ -404,41 +676,524 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando il discorso indiretto.",
+        "open": true,
         "questions": [
           {
-            "q": "He told me he would come.",
-            "a": [
-              "Mi ha detto che sarebbe venuto."
+            "q": "Qual {ip:è} l'ultima bella notizia che ti {pp:hanno dato}? Che cosa ti {pp:hanno detto}?"
+          },
+          {
+            "q": "Che cosa ti {im:dicevano} sempre i tuoi genitori quando {im:eri} piccolo?"
+          },
+          {
+            "q": "Che cosa ti {pp:ha promesso} qualcuno, che poi non {pp:ha fatto}?"
+          },
+          {
+            "q": "Che cosa ti {pp:ha chiesto} l'ultima persona con cui {pp:hai parlato}?"
+          },
+          {
+            "q": "Racconta un pettegolezzo divertente (vero o inventato) che {pp:hai sentito}."
+          },
+          {
+            "q": "Che consiglio ti {pp:ha dato} una persona importante per te?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa ha detto?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni fumetto al discorso indiretto.",
+        "pictures": [
+          "A — Un bambino con il fumetto: «Ho fame!»",
+          "B — Una ragazza alla stazione con il fumetto: «Arriverò alle otto»",
+          "C — Un signore in ufficio con il fumetto: «Ho perso le chiavi»",
+          "D — Una mamma alla porta con il fumetto: «Torna presto!»"
+        ],
+        "pairs": [
+          [
+            "immagine A",
+            "{pp:Ha detto} che {im:aveva} fame."
+          ],
+          [
+            "immagine B",
+            "{pp:Ha detto} che {cpa:sarebbe arrivata} alle otto."
+          ],
+          [
+            "immagine C",
+            "{pp:Ha detto} che {tp:aveva perso} le chiavi."
+          ],
+          [
+            "immagine D",
+            "Gli {pp:ha detto} di tornare presto."
+          ]
+        ]
+      },
+      {
+        "h": "Messaggi in segreteria"
+      },
+      {
+        "text": [
+          "**Messaggio 1** — Ciao, {ip:sono} Giorgio. {ip:Sono} in ritardo, {fs:arriverò} alle nove. {imv:Comincia} pure a mangiare!",
+          "**Messaggio 2** — Buongiorno, {ip:sono} la dottoressa Neri. Gli esami {ip:sono} pronti: {ip:può} ritirarli domani mattina.",
+          "**Messaggio 3** — Ciao, {ip:sono} Elisa! {pp:Ho trovato} i biglietti per il concerto. Mi {ip:richiami} quando {ip:hai} un momento?"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riferisci i messaggi a un amico. Completa con il discorso indiretto.",
+        "questions": [
+          "Giorgio {pp:ha detto} che [[era#im]] in ritardo e che [[sarebbe arrivato#cpa]] alle nove.",
+          "{pp:Ha detto} anche [[di cominciare]] pure a mangiare.",
+          "La dottoressa {pp:ha detto} che gli esami [[erano#im]] pronti.",
+          "Elisa {pp:ha detto} che [[aveva trovato#tp]] i biglietti per il concerto.",
+          "Elisa ti {pp:ha chiesto} [[di richiamarla]] quando {im:avevi} un momento."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi i messaggi e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "A che ora {fs:arriverà} Giorgio?",
+            "options": [
+              "*alle nove",
+              "alle otto",
+              "domani"
             ]
           },
           {
-            "q": "She said she was tired.",
-            "a": [
-              "Ha detto che era stanca.",
-              "Lei ha detto che era stanca."
+            "q": "Quando si {ip:possono} ritirare gli esami?",
+            "options": [
+              "*domani mattina",
+              "oggi pomeriggio",
+              "la settimana prossima"
             ]
           },
           {
-            "q": "He asked me where I lived.",
-            "a": [
-              "Mi ha chiesto dove abitavo.",
-              "Mi ha chiesto dove vivevo."
+            "q": "Che cosa {pp:ha trovato} Elisa?",
+            "options": [
+              "*i biglietti per il concerto",
+              "le chiavi di casa",
+              "un nuovo lavoro"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Promesse"
+      },
+      {
+        "type": "gap",
+        "prompt": "Che cosa {pp:hanno promesso}? Completa con il [cpa:condizionale passato].",
+        "questions": [
+          "Marco: «{fs:Smetterò} di fumare.» → Marco {pp:ha promesso} che [[avrebbe smesso#cpa]] di fumare.",
+          "I bambini: «{fs:Saremo} buoni.» → I bambini {pp:hanno promesso} che [[sarebbero stati#cpa]] buoni.",
+          "Anna: «Ti {fs:scriverò} ogni giorno.» → Anna mi {pp:ha promesso} che mi [[avrebbe scritto#cpa]] ogni giorno.",
+          "Il sindaco: «{fs:Costruiremo} un parco.» → Il sindaco {pp:ha promesso} che [[avrebbero costruito#cpa]] un parco."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Mi {pp:ha promesso} che ___ in orario.",
+            "options": [
+              "*{cpa:sarebbe arrivato}",
+              "{cop:arriverebbe}"
             ]
           },
           {
-            "q": "She told me to wait.",
+            "q": "Se {csi:avessi} tempo, ___ in orario.",
+            "options": [
+              "*{cop:arriverei}",
+              "{cpa:sarebbe arrivato}"
+            ]
+          },
+          {
+            "q": "{pp:Hanno giurato} che non lo ___ più.",
+            "options": [
+              "*{cpa:avrebbero fatto}",
+              "{cop:farebbero}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Quale promessa {pp:hai fatto} a te stesso a Capodanno? Raccontala con *Ho promesso che…*",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia promessa:"
+          }
+        ]
+      },
+      {
+        "h": "Il colloquio di lavoro"
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta a un amico le domande del colloquio. Completa con il discorso indiretto.",
+        "ordered": true,
+        "questions": [
+          "«Come si {ip:chiama}?» → Mi {pp:hanno chiesto} come mi [[chiamavo#im]].",
+          "«{ip:Parla} inglese?» → Mi {pp:hanno chiesto} [[se]] {im:parlavo} inglese.",
+          "«Dove {pp:ha lavorato} prima?» → Mi {pp:hanno chiesto} dove [[avevo lavorato#tp]] prima.",
+          "«Perché {ip:vuole} questo lavoro?» → Mi {pp:hanno chiesto} [[perché]] {im:volevo} quel lavoro.",
+          "«{ip:Può} cominciare lunedì?» → Mi {pp:hanno chiesto} se [[potevo#im]] cominciare il lunedì dopo."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Se, dove, che cosa* o *perché*?",
+        "questions": [
+          {
+            "q": "Mi {pp:ha chiesto} ___ {im:avevo} fratelli.",
+            "options": [
+              "*se",
+              "dove",
+              "perché"
+            ]
+          },
+          {
+            "q": "Gli {pp:ho chiesto} ___ {im:abitava}: a Torino.",
+            "options": [
+              "*dove",
+              "se",
+              "che cosa"
+            ]
+          },
+          {
+            "q": "Ci {pp:hanno chiesto} ___ {im:volevamo} mangiare.",
+            "options": [
+              "*che cosa",
+              "se",
+              "dove"
+            ]
+          },
+          {
+            "q": "Non {ip:so} ___ {pp:è partito} così presto.",
+            "options": [
+              "*perché",
+              "che cosa",
+              "dove"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Ordini e consigli"
+      },
+      {
+        "type": "gap",
+        "prompt": "Che cosa ti {pp:ha detto} il medico? Completa con *di* + infinito.",
+        "questions": [
+          "«{imv:Riposi} per tre giorni.» → Mi {pp:ha detto} [[di riposare]] per tre giorni.",
+          "«Non {imv:beva} alcol.» → Mi {pp:ha detto} [[di non bere]] alcol.",
+          "«{imv:Prenda} questa medicina la sera.» → Mi {pp:ha detto} [[di prendere]] questa medicina la sera.",
+          "«{imv:Torni} fra una settimana.» → Mi {pp:ha detto} [[di tornare]] dopo una settimana."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Di* + infinito o *che* + verbo?",
+        "questions": [
+          {
+            "q": "Mi {pp:ha detto} ___ {im:era} stanco.",
+            "options": [
+              "*che",
+              "di"
+            ]
+          },
+          {
+            "q": "Mi {pp:ha detto} ___ chiudere la finestra.",
+            "options": [
+              "*di",
+              "che"
+            ]
+          },
+          {
+            "q": "Ci {pp:ha chiesto} ___ aiutarlo.",
+            "options": [
+              "*di",
+              "che"
+            ]
+          },
+          {
+            "q": "Ci {pp:ha detto} ___ {cpa:sarebbe partito}.",
+            "options": [
+              "*che",
+              "di"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni parola del discorso diretto a quella del discorso indiretto.",
+        "pairs": [
+          [
+            "oggi",
+            "quel giorno"
+          ],
+          [
+            "ieri",
+            "il giorno prima"
+          ],
+          [
+            "domani",
+            "il giorno dopo"
+          ],
+          [
+            "qui",
+            "lì"
+          ],
+          [
+            "questo",
+            "quello"
+          ],
+          [
+            "adesso",
+            "allora"
+          ]
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Mi ha detto che verrebbe domani.",
+            "a": [
+              "Mi ha detto che sarebbe venuto domani.",
+              "Mi ha detto che sarebbe venuta domani."
+            ]
+          },
+          {
+            "q": "Mi ha chiesto che venivo alla festa.",
+            "a": [
+              "Mi ha chiesto se venivo alla festa."
+            ]
+          },
+          {
+            "q": "Mi ha detto che aspettare.",
             "a": [
               "Mi ha detto di aspettare."
             ]
           },
           {
-            "q": "He asked me if I was coming.",
+            "q": "Ha detto che è stato a Roma il giorno prima.",
             "a": [
-              "Mi ha chiesto se venivo."
+              "Ha detto che era stato a Roma il giorno prima."
+            ]
+          },
+          {
+            "q": "Mi ha detto di non usciva.",
+            "a": [
+              "Mi ha detto di non uscire."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "detto / mi / venuto / sarebbe / che / ha",
+            "a": [
+              "Mi ha detto che sarebbe venuto."
+            ]
+          },
+          {
+            "q": "ha / se / chiesto / mi / avevo / fame",
+            "a": [
+              "Mi ha chiesto se avevo fame."
+            ]
+          },
+          {
+            "q": "di / detto / ha / ci / aspettare",
+            "a": [
+              "Ci ha detto di aspettare."
+            ]
+          },
+          {
+            "q": "promesso / ha / avrebbe / che / chiamato / mi",
+            "a": [
+              "Ha promesso che mi avrebbe chiamato.",
+              "Mi ha promesso che avrebbe chiamato."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nel discorso diretto le parole si scrivono tra virgolette, dopo i due punti: *Marco {pp:ha detto}: «{ip:Sono} stanco.»* In italiano si usano spesso le virgolette basse « ».",
+          "Nel discorso indiretto non ci sono né i due punti né le virgolette, e dopo *che* non va la virgola: *Marco {pp:ha detto} che {im:era} stanco.*"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale frase {ip:è} scritta bene?",
+        "questions": [
+          {
+            "q": "Discorso diretto:",
+            "options": [
+              "*Luca {pp:ha detto}: «{ip:Vengo} anch'io.»",
+              "Luca {pp:ha detto} che «{ip:vengo} anch'io».",
+              "Luca {pp:ha detto}, che {ip:viene} anche lui."
+            ]
+          },
+          {
+            "q": "Discorso indiretto:",
+            "options": [
+              "*Luca {pp:ha detto} che {cpa:sarebbe venuto} anche lui.",
+              "Luca {pp:ha detto}: che {cpa:sarebbe venuto}.",
+              "Luca {pp:ha detto}, che {cpa:sarebbe venuto} anche lui."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So riferire quello che ha detto un'altra persona: *Ha detto che era stanco.*",
+          "So usare il futuro nel passato: *Ha detto che sarebbe venuto.*",
+          "So cambiare persone, luoghi e tempo: *il giorno dopo, lì, quel giorno*.",
+          "So riferire una domanda: *Mi ha chiesto se venivo.*",
+          "So riferire un ordine o un consiglio: *Mi ha detto di aspettare.*",
+          "So riferire un messaggio a un'altra persona."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il palco illuminato del Teatro Ariston di Sanremo, con l'orchestra e un cantante al microfono"
+      },
+      {
+        "text": [
+          "**Sanremo: una canzone nel blu**",
+          "Il Festival di Sanremo {pp:è nato} nel 1951 ed {ip:è} la gara di canzoni più famosa d'Italia. Dal 1977 si {ip:svolge} al Teatro Ariston e ogni anno, a febbraio, milioni di italiani lo {ip:guardano} in televisione per una settimana.",
+          "Nel 1958 Domenico Modugno {pp:ha cantato} «Nel blu dipinto di blu», una canzone che tutto il mondo {ip:conosce} come «Volare». L'autore del testo, Franco Migliacci, {pr:raccontò} poi che l'idea gli {tp:era venuta} guardando due quadri del pittore Marc Chagall, con figure che {im:volavano} nel cielo.",
+          "«Volare» {pp:ha venduto} milioni di dischi in tutto il mondo, e molti giornalisti {pp:hanno scritto} poi che quella canzone {tp:aveva cambiato} la musica leggera italiana. Ancora oggi la canzone che {ip:vince} a Sanremo spesso {ip:rappresenta} l'Italia all'Eurovision."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il Festival di Sanremo {pp:è nato} nel 1951.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il festival si {ip:svolge} in estate.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "«Volare» {ip:è} il nome con cui {ip:è} famosa «Nel blu dipinto di blu».",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'idea della canzone {pp:è venuta} guardando il mare.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La canzone che {ip:vince} a Sanremo spesso {ip:va} all'Eurovision.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Dove si {ip:svolge} il festival dal 1977?",
+            "options": [
+              "*al Teatro Ariston",
+              "in piazza",
+              "a Roma"
+            ]
+          },
+          {
+            "q": "In che mese si {ip:guarda} il festival?",
+            "options": [
+              "*a febbraio",
+              "ad agosto",
+              "a dicembre"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il discorso indiretto.",
+        "questions": [
+          "Franco Migliacci {pr:raccontò} che l'idea gli [[era venuta#tp]] guardando due quadri.",
+          "Molti giornalisti {pp:hanno scritto} che quella canzone [[aveva cambiato#tp]] la musica leggera italiana."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "C'{ip:è} un festival o una gara di canzoni che si {ip:guarda} molto nel tuo paese? Racconta.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Ieri {pp:hai incontrato} per caso un vecchio amico. Scrivi una mail a un'altra amica e racconta che cosa vi {pp:siete detti}.",
+        "cues": [
+          "Chi {pp:hai incontrato} e dove?",
+          "Che cosa ti {pp:ha raccontato}? (*Mi ha detto che…*)",
+          "Che cosa ti {pp:ha chiesto}? (*Mi ha chiesto se…, dove…*)",
+          "Che cosa {pp:avete deciso} o promesso? (*Ha promesso che…, Mi ha detto di…*)"
+        ],
+        "start": "Cara Chiara,\n",
+        "model": "Cara Chiara,\nindovina chi ho incontrato ieri al supermercato? Davide, il nostro compagno di liceo!\nMi ha detto che da tre anni viveva a Berlino e che lavorava per una ditta di videogiochi. Mi ha raccontato anche che si era sposato l'anno prima e che sua moglie aspettava un bambino!\nMi ha chiesto se eravamo ancora amiche e dove abitavi adesso. Gli ho detto che tu eri a Bologna e che lavoravi in ospedale.\nAlla fine ha promesso che sarebbe tornato in Italia a Natale e mi ha detto di organizzare una cena con tutta la vecchia classe. Che ne dici?\nUn abbraccio,\nSara"
       }
     ]
   }

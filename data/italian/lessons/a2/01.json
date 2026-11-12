@@ -442,6 +442,7 @@
       {
         "type": "gap",
         "prompt": "Completa la tabella con il presente dei verbi.",
+        "ordered": true,
         "questions": [
           "io: abitare → [[abito#ip]], finire → [[finisco#ip]], avere → [[ho#ip]]",
           "tu: dormire → [[dormi#ip]], essere → [[sei#ip]], potere → [[puoi#ip]]",

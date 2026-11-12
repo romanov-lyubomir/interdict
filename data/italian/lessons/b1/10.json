@@ -1,138 +1,218 @@
 {
   "title": "{ip:Sto} studiando: sbagliando si {ip:impara}",
-  "translation": "I'm studying: you learn from your mistakes",
-  "topics": "The gerund, stare + gerund, infinitive constructions",
+  "translation": "",
+  "topics": "Il gerundio, *stare* + gerundio e *stare per* + infinito, il gerundio da solo, i pronomi con il gerundio, *senza, invece di, prima di, dopo* + infinito, *fare* + infinito, imparare cose nuove",
   "grammar": {
     "explain": [
+      "Il gerundio è una forma del verbo che non cambia mai: *parlando, leggendo, dormendo*. Con *stare* dice che un'azione è in corso proprio adesso: *{ip:Sto} studiando.* Da solo può sostituire una frase intera: *Sbagliando si {ip:impara}* («se si sbaglia, si impara»).",
       {
-        "h": "How to form the gerund"
-      },
-      "It never changes. Verbs in *-are* take *-ando*, and verbs in *-ere* and *-ire* take *-endo*.",
-      {
-        "table": {
-          "head": [
-            "Infinitive",
-            "Gerund"
-          ],
-          "rows": [
-            [
-              "parlare",
-              "parl**ando**"
-            ],
-            [
-              "leggere",
-              "legg**endo**"
-            ],
-            [
-              "dormire",
-              "dorm**endo**"
-            ],
-            [
-              "fare",
-              "fac**endo**"
-            ],
-            [
-              "dire",
-              "dic**endo**"
-            ],
-            [
-              "bere",
-              "bev**endo**"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il gerundio",
+              "head": [
+                "infinito",
+                "gerundio",
+                "infinito",
+                "gerundio"
+              ],
+              "rows": [
+                [
+                  "*parlare*",
+                  "parl**ando**",
+                  "*fare*",
+                  "fac**endo**"
+                ],
+                [
+                  "*leggere*",
+                  "legg**endo**",
+                  "*dire*",
+                  "dic**endo**"
+                ],
+                [
+                  "*dormire*",
+                  "dorm**endo**",
+                  "*bere*",
+                  "bev**endo**"
+                ],
+                [
+                  "*finire*",
+                  "fin**endo**",
+                  "*porre*",
+                  "pon**endo**"
+                ]
+              ]
+            },
+            "note": [
+              "I verbi in *-are* prendono **-ando**; i verbi in *-ere* e *-ire* prendono **-endo**. Il gerundio non cambia mai: *io sto parlando, loro stanno parlando*.",
+              "*Fare, dire, bere* usano la stessa radice lunga dell'[im:imperfetto]: *{im:facevo} → facendo, {im:dicevo} → dicendo, {im:bevevo} → bevendo*."
             ]
-          ]
-        }
-      },
-      "*Fare*, *dire* and *bere* use the same long stems as in the [im:imperfetto].",
-      {
-        "h": "Stare + gerund: right now"
-      },
-      "Use *stare* with the gerund to stress that something is in progress at this very moment. It works in the present and in the [im:imperfetto].",
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Now",
-              "{ip:Sto} studiando.",
-              "I'm studying right now."
-            ],
-            [
-              "In the past",
-              "{im:Stavo} leggendo quando {pp:ha chiamato}.",
-              "I was reading when he called."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Stare* + gerundio: un'azione in corso",
+              "head": [
+                "*stare* al…",
+                "frase",
+                "vuol dire…"
+              ],
+              "rows": [
+                [
+                  "[ip:presente]",
+                  "**{ip:Sto}** studiando, non {ip:posso} uscire.",
+                  "proprio adesso"
+                ],
+                [
+                  "[im:imperfetto]",
+                  "**{im:Stavo}** leggendo quando {pp:ha telefonato} Luca.",
+                  "in quel momento del passato"
+                ],
+                [
+                  "[fs:futuro]",
+                  "Non {imv:chiamarlo} adesso: **{fs:starà}** dormendo.",
+                  "un'ipotesi su adesso"
+                ]
+              ]
+            },
+            "note": [
+              "*Stare* + gerundio sottolinea che l'azione succede proprio in quel momento. Per un'azione di questi mesi l'italiano usa di solito il [ip:presente] semplice: *{ip:Studio} medicina a Bologna.*",
+              "Con l'[im:imperfetto] di *stare* si racconta un'azione interrotta da un'altra: *{im:Stavo} cucinando quando {pp:è saltata} la luce.*"
             ]
-          ]
-        }
-      },
-      "Italian uses this form less than English does. For something that's happening these days, the simple present is normal: *{ip:Studio} medicina* (I'm studying medicine). Don't confuse it with *stare per* + infinitive: *{ip:Sto} per uscire* means *I'm about to go out*.",
-      {
-        "h": "The gerund on its own"
-      },
-      "A gerund can replace a whole clause. It is only possible when both parts of the sentence have the same subject.",
-      {
-        "table": {
-          "head": [
-            "Meaning",
-            "Example",
-            "Could also be"
-          ],
-          "rows": [
-            [
-              "While",
-              "Tornando a casa, {pp:ho visto} Anna.",
-              "Mentre {im:tornavo} a casa…"
-            ],
-            [
-              "How, by doing",
-              "Sbagliando si {ip:impara}.",
-              "Se si {ip:sbaglia}…"
-            ],
-            [
-              "Why",
-              "Essendo stanco, {pp:sono rimasto} a casa.",
-              "Poiché {im:ero} stanco…"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Stare* + gerundio o *stare per* + infinito?",
+              "head": [
+                "*stare* + gerundio: l'azione è cominciata",
+                "*stare per* + infinito: l'azione sta per cominciare"
+              ],
+              "rows": [
+                [
+                  "{ip:Sto} uscendo: {ip:sono} sulla porta.",
+                  "{ip:Sto} per uscire: {ip:prendo} la giacca."
+                ],
+                [
+                  "Il film {ip:sta} finendo.",
+                  "Il film {ip:sta} per finire."
+                ],
+                [
+                  "{im:Stavo} mangiando quando {pp:sei arrivato}.",
+                  "{im:Stavo} per mangiare quando {pp:sei arrivato}."
+                ]
+              ]
+            },
+            "note": "*Stare per* vuol dire «tra poco, quasi»: *{ip:Sta} per piovere* (il cielo è nero). Attenzione: dopo *stare per* c'è l'infinito, non il gerundio."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il gerundio da solo",
+              "head": [
+                "vuol dire…",
+                "frase",
+                "si può dire anche…"
+              ],
+              "rows": [
+                [
+                  "*mentre* (tempo)",
+                  "**Tornando** a casa, {pp:ho visto} Anna.",
+                  "Mentre {im:tornavo} a casa, {pp:ho visto} Anna."
+                ],
+                [
+                  "*come, in che modo*",
+                  "{ip:Impara} l'inglese **guardando** film.",
+                  "Impara l'inglese con i film."
+                ],
+                [
+                  "*se* (condizione)",
+                  "**Sbagliando** si {ip:impara}.",
+                  "Se si sbaglia, si impara."
+                ],
+                [
+                  "*perché* (causa)",
+                  "**Essendo** stanca, {pp:sono rimasta} a casa.",
+                  "Poiché {im:ero} stanca, {pp:sono rimasta} a casa."
+                ]
+              ]
+            },
+            "note": "Il gerundio da solo si usa quando le due parti della frase hanno lo stesso soggetto: *Tornando a casa, (io) {pp:ho visto} Anna* (sono io che torno e che vedo)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I pronomi con il gerundio",
+              "head": [
+                "con…",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "il gerundio da solo: attaccati alla fine",
+                  "**Guardandolo**, {pp:ho capito} tutto. **Alzandomi**, {pp:ho visto} il mare."
+                ],
+                [
+                  "*stare* + gerundio: prima di *stare* o attaccati",
+                  "**Lo** {ip:sto} leggendo. = {ip:Sto} **leggendolo**."
+                ],
+                [
+                  "due pronomi",
+                  "**Me lo** {ip:sta} spiegando. = {ip:Sta} **spiegandomelo**."
+                ]
+              ]
+            },
+            "note": "Con *stare* + gerundio la forma più comune nel parlato è con il pronome prima: *Lo {ip:sto} facendo.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Alcune costruzioni con l'infinito",
+              "head": [
+                "costruzione",
+                "vuol dire…",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "*senza* + infinito",
+                  "e non…",
+                  "{pp:È uscito} **senza salutare**."
+                ],
+                [
+                  "*invece di* + infinito",
+                  "al posto di…",
+                  "**Invece di studiare**, {ip:dorme}."
+                ],
+                [
+                  "*per* + infinito",
+                  "con lo scopo di…",
+                  "{ip:Studio} **per imparare**, non per il voto."
+                ],
+                [
+                  "*prima di* + infinito",
+                  "prima che…",
+                  "**Prima di uscire**, {imv:chiudi} la finestra."
+                ],
+                [
+                  "*dopo* + infinito passato",
+                  "dopo che…",
+                  "**Dopo aver mangiato**, {pp:abbiamo fatto} una passeggiata. **Dopo essere arrivati**, vi {fs:chiameremo}."
+                ],
+                [
+                  "*fare* + infinito",
+                  "un'altra persona fa l'azione",
+                  "{ip:Faccio} **riparare** la bici dal meccanico."
+                ]
+              ]
+            },
+            "note": [
+              "Dopo una preposizione si usa sempre l'infinito, mai il gerundio: *prima di uscire*, *senza dire niente*.",
+              "*Dopo* vuole l'infinito passato: *aver(e)* o *essere* + participio. Con *essere* il participio va d'accordo con il soggetto: *Dopo essere arrivat**e**, le ragazze {pp:hanno cenato}.*"
             ]
-          ]
-        }
-      },
-      "Pronouns attach to the gerund: *Guardandolo, {pp:ho capito}*. With *stare*, they usually go in front: *Lo {ip:sto} leggendo*.",
-      {
-        "h": "Useful infinitive constructions"
-      },
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "senza + infinitive",
-              "without doing",
-              "{pp:È uscito} senza salutare."
-            ],
-            [
-              "invece di + infinitive",
-              "instead of doing",
-              "Invece di studiare, {ip:dorme}."
-            ],
-            [
-              "per + infinitive",
-              "in order to",
-              "{ip:Studio} per imparare."
-            ],
-            [
-              "fare + infinitive",
-              "to have something done",
-              "{ip:Faccio} riparare la macchina."
-            ]
-          ]
-        }
+          }
+        ]
       }
     ]
   },
@@ -140,10 +220,10 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Write the gerund.",
+        "prompt": "Scrivi il gerundio.",
         "questions": [
           "parlare → [[parlando]]",
-          "leggere → [[leggendo]]",
+          "scrivere → [[scrivendo]]",
           "partire → [[partendo]]",
           "fare → [[facendo]]",
           "dire → [[dicendo]]",
@@ -152,57 +232,120 @@
       },
       {
         "type": "gap",
-        "prompt": "Use stare + gerund.",
+        "prompt": "Che cosa {ip:stanno} facendo? Completa con *stare* + gerundio.",
         "questions": [
-          "Adesso io [[sto studiando#ip]]. (studiare)",
-          "Che cosa [[stai facendo#ip]]? (fare, tu)",
-          "Marco [[sta dormendo#ip]]. (dormire)",
-          "Ieri alle otto [[stavamo cenando#im]]. (cenare, noi, in the past)",
-          "Il telefono {pp:ha suonato} mentre [[stavo leggendo#im]]. (leggere, io, in the past)"
+          "Silenzio! Il bambino (dormire) [[sta dormendo]].",
+          "Non {ip:posso} parlare: (io, guidare) [[sto guidando]].",
+          "Ieri sera (noi, cenare) [[stavamo cenando]] quando {pp:è suonato} il telefono.",
+          "Che cosa (voi, fare) [[state facendo]]?",
+          "Quando {pp:sono entrato}, i ragazzi (giocare) [[stavano giocando]] a carte."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "*Stare* + gerundio o *stare per* + infinito?",
         "questions": [
           {
-            "q": "___ si {ip:impara}.",
+            "q": "Il cielo {ip:è} nerissimo: ___ piovere.",
             "options": [
-              "*Sbagliando",
-              "Sbagliato",
-              "Sbagliare"
+              "*{ip:sta} per",
+              "{ip:sta} piovendo"
             ]
           },
           {
-            "q": "Il film ___ per cominciare. (about to)",
+            "q": "Prendi l'ombrello: ___ forte!",
             "options": [
-              "*{ip:sta}",
-              "{ip:va}",
-              "{ip:è}"
+              "*{ip:sta} piovendo",
+              "{ip:sta} per piovere"
             ]
           },
           {
-            "q": "{pp:È uscito} ___ salutare.",
+            "q": "Il treno ___ partire: corri!",
             "options": [
-              "*senza",
-              "con",
-              "invece"
+              "*{ip:sta} per",
+              "{ip:sta} partendo"
             ]
           },
           {
-            "q": "Il libro? ___ {ip:sto} leggendo.",
+            "q": "Ti {ip:richiamo} dopo: ___ un film.",
             "options": [
-              "*Lo",
-              "Ne",
-              "Gli"
+              "*{ip:sto} guardando",
+              "{ip:sto} per guardare"
             ]
           },
           {
-            "q": "I'm having my car repaired.",
+            "q": "{im:Stavo} ___ uscire quando {pp:ha cominciato} a nevicare.",
             "options": [
-              "*{ip:Faccio} riparare la macchina.",
-              "{ip:Sto} riparando la macchina.",
-              "{ip:Riparo} la macchina."
+              "*per",
+              "uscendo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Usa il gerundio al posto delle parole tra parentesi.",
+        "questions": [
+          "(Mentre tornavo) [[Tornando]] a casa, {pp:ho incontrato} Paolo.",
+          "(Se si studia) [[Studiando]] ogni giorno, si {ip:impara} presto.",
+          "(Poiché ero) [[Essendo]] stanco, {pp:sono andato} a letto presto.",
+          "{pp:Ho imparato} lo spagnolo (con l'ascolto della radio) [[ascoltando]] la radio.",
+          "(Mentre cucinava) [[Cucinando]], Laura {im:cantava}."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *senza, invece di, per, prima di* o *dopo*.",
+        "questions": [
+          "{pp:È uscito} [[senza]] dire una parola.",
+          "[[Invece di]] studiare, {pp:ha guardato} la TV tutto il pomeriggio.",
+          "{imv:Lavati} le mani [[prima di]] mangiare!",
+          "[[Dopo]] aver finito il lavoro, {pp:siamo andati} al bar.",
+          "{ip:Risparmio} [[per]] comprare una macchina nuova."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Non {ip:riparo} la macchina da solo: la ___ dal meccanico.",
+            "options": [
+              "*{ip:faccio} riparare",
+              "{ip:sto} riparando",
+              "riparando"
+            ]
+          },
+          {
+            "q": "Il libro? Lo ___ adesso.",
+            "options": [
+              "*{ip:sto} leggendo",
+              "{ip:sto} per leggendo",
+              "leggendolo {ip:sto}"
+            ]
+          },
+          {
+            "q": "Prima di ___, {imv:spegni} la luce.",
+            "options": [
+              "*uscire",
+              "uscendo",
+              "uscito"
+            ]
+          },
+          {
+            "q": "___ il libro, {pp:ho capito} tutto.",
+            "options": [
+              "*Leggendolo",
+              "Lo leggendo",
+              "Leggendo lo"
+            ]
+          },
+          {
+            "q": "Dopo ___ mangiato, {pp:abbiamo fatto} una passeggiata.",
+            "options": [
+              "*aver",
+              "essere",
+              "avendo"
             ]
           }
         ]
@@ -213,138 +356,266 @@
     "words": [
       [
         "la pratica",
-        "practice"
+        "l'esercizio continuo per imparare a fare una cosa"
+      ],
+      [
+        "esercitarsi",
+        "fare esercizi per imparare meglio"
+      ],
+      [
+        "allenarsi",
+        "fare esercizio fisico per migliorare in uno sport"
+      ],
+      [
+        "l'allenamento",
+        "la preparazione fisica per uno sport"
       ],
       [
         "l'abilità",
-        "skill"
+        "la capacità di fare bene una cosa"
+      ],
+      [
+        "il talento",
+        "una capacità naturale, un dono"
+      ],
+      [
+        "il principiante",
+        "chi comincia a imparare una cosa"
+      ],
+      [
+        "l'esperto",
+        "chi conosce molto bene una cosa"
       ],
       [
         "il tentativo",
-        "attempt"
+        "la prova di fare una cosa, che può riuscire o no"
       ],
       [
-        "il meccanico",
-        "mechanic"
+        "riuscire a",
+        "arrivare a fare una cosa difficile"
+      ],
+      [
+        "arrendersi",
+        "smettere di provare, rinunciare"
       ],
       [
         "il progresso",
-        "progress"
-      ],
-      [
-        "imparare",
-        "to learn"
-      ],
-      [
-        "provare",
-        "to try"
+        "il passo avanti, il miglioramento"
       ],
       [
         "migliorare",
-        "to improve"
+        "diventare più bravo, andare meglio"
       ],
       [
         "riparare",
-        "to repair"
+        "aggiustare una cosa rotta"
       ],
       [
-        "salutare",
-        "to greet"
+        "il fai da te",
+        "fare da soli i lavori in casa, senza chiamare un tecnico"
       ],
       [
-        "paziente",
-        "patient"
+        "il tutorial",
+        "un video che spiega come si fa una cosa"
+      ],
+      [
+        "la passione",
+        "un amore forte per un'attività"
+      ],
+      [
+        "appassionato di",
+        "che ama molto un'attività"
       ],
       [
         "pian piano",
-        "little by little"
+        "lentamente, un po' alla volta"
+      ],
+      [
+        "a poco a poco",
+        "un passo dopo l'altro"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "l'abilità",
-            "skill"
+            "il principiante",
+            "chi comincia a imparare una cosa"
+          ],
+          [
+            "arrendersi",
+            "smettere di provare, rinunciare"
           ],
           [
             "il tentativo",
-            "attempt"
+            "la prova di fare una cosa, che può riuscire o no"
           ],
           [
-            "provare",
-            "to try"
+            "il fai da te",
+            "fare da soli i lavori in casa, senza chiamare un tecnico"
           ],
           [
-            "migliorare",
-            "to improve"
+            "il talento",
+            "una capacità naturale, un dono"
           ],
           [
-            "riparare",
-            "to repair"
-          ],
-          [
-            "pian piano",
-            "little by little"
+            "esercitarsi",
+            "fare esercizi per imparare meglio"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "{ip:Devo} portare la macchina dal [[meccanico]]. (mechanic)",
-          "{ip:Sto} [[imparando]] a suonare la chitarra. (learning)",
-          "Con la [[pratica]] si {ip:migliora}. (practice)",
-          "{ip:Devi} essere [[paziente]]. (patient)"
+          {
+            "q": "{ip:Gioco} a tennis da trent'anni: {ip:sono} un ___.",
+            "options": [
+              "*esperto",
+              "principiante",
+              "tentativo"
+            ]
+          },
+          {
+            "q": "{pp:Ho imparato} a fare il pane guardando un ___ su internet.",
+            "options": [
+              "*tutorial",
+              "talento",
+              "allenamento"
+            ]
+          },
+          {
+            "q": "Non {imv:arrenderti}! Al terzo ___ ci {fs:riuscirai}.",
+            "options": [
+              "*tentativo",
+              "esperto",
+              "fai da te"
+            ]
+          },
+          {
+            "q": "Mio padre {ip:è} ___ di pesca: ci {ip:va} ogni domenica.",
+            "options": [
+              "*appassionato",
+              "principiante",
+              "esperto"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Con la [[pratica]] tutto diventa più facile.",
+          "La squadra si [[allena]] tre volte alla settimana.",
+          "Pian [[piano]] {pp:ho imparato} a cucinare.",
+          "Il mio italiano {ip:sta} [[migliorando]] molto!",
+          "Finalmente {pp:sono} [[riuscito|riuscita]] a finire la maratona."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Da sei mesi {ip:sto} imparando a suonare il pianoforte. All'inizio {im:pensavo} che {csi:fosse} impossibile. Suonando ogni giorno, però, {pp:ho fatto} molti progressi. Il mio maestro {ip:dice} sempre: «Sbagliando si {ip:impara}. Non correre, {imv:prova} pian piano.»",
-      "Ieri {im:stavo} provando un pezzo nuovo quando {pp:è arrivato} il mio vicino. Invece di lamentarsi, si {pp:è seduto} ad ascoltare. {pp:È rimasto} un'ora senza dire una parola, e poi mi {pp:ha chiesto} di insegnargli!"
+      {
+        "h": "Imparare a cinquant'anni"
+      },
+      "Fino a un anno fa non {im:sapevo} nuotare. Da bambina {im:avevo} paura dell'acqua e, crescendo, {pp:ho trovato} sempre una scusa: «Ormai {ip:sono} troppo grande».",
+      "L'estate scorsa, guardando i miei nipoti che {im:giocavano} in piscina, {pp:ho deciso} di provarci. Senza dire niente a nessuno, mi {pp:sono iscritta} a un corso per adulti principianti.",
+      "Le prime lezioni {pp:sono state} difficilissime: {im:stavo} sempre per arrendermi. Ma il mio istruttore mi {im:ripeteva}: «Sbagliando si {ip:impara}. Non {imv:pensare} all'acqua: {imv:pensa} a quello che {ip:stai} facendo.»",
+      "Esercitandomi tre volte alla settimana, {pp:ho fatto} molti progressi. Oggi {ip:nuoto} venti vasche senza fermarmi e, invece di avere paura, {ip:aspetto} con gioia l'ora della piscina. Adesso {ip:sto} imparando anche a tuffarmi! *Rita, 52 anni*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "How long has the speaker been learning?",
+            "q": "Perché Rita non {im:sapeva} nuotare?",
             "options": [
-              "One month",
-              "*Six months",
-              "Six years"
+              "*Da bambina {im:aveva} paura dell'acqua.",
+              "Non c'{im:era} una piscina.",
+              "Non le {im:piaceva} lo sport."
             ]
           },
           {
-            "q": "What does the teacher say?",
+            "q": "Che cosa le {pp:ha fatto} venire voglia di imparare?",
             "options": [
-              "Play faster",
-              "*You learn from mistakes",
-              "Stop playing"
+              "*guardare i nipoti in piscina",
+              "un consiglio del medico",
+              "una vacanza al mare"
             ]
           },
           {
-            "q": "How did the neighbour react?",
+            "q": "Quante volte alla settimana {ip:si esercita}?",
             "options": [
-              "He complained",
-              "He left",
-              "*He sat down to listen"
+              "*tre",
+              "una",
+              "ogni giorno"
             ]
           },
           {
-            "q": "What did the neighbour ask?",
+            "q": "Che cosa {ip:sta} imparando adesso?",
             "options": [
-              "*To be taught",
-              "To be quiet",
-              "To borrow the piano"
+              "*a tuffarsi",
+              "a fare surf",
+              "a insegnare nuoto"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Rita {pp:ha raccontato} a tutti del corso.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Le prime lezioni {pp:sono state} facili.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Rita {im:voleva} spesso smettere.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Oggi Rita {ip:nuota} venti vasche senza fermarsi.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Rita {ip:ha} ancora paura dell'acqua.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il gerundio e le costruzioni con l'infinito.",
+        "questions": [
+          "[[Guardando]] i miei nipoti, {pp:ho deciso} di provarci.",
+          "[[Senza]] dire niente a nessuno, mi {pp:sono iscritta} a un corso.",
+          "{im:Stavo} sempre [[per]] arrendermi.",
+          "[[Esercitandomi]] tre volte alla settimana, {pp:ho fatto} molti progressi.",
+          "[[Invece di]] avere paura, {ip:aspetto} con gioia l'ora della piscina."
         ]
       }
     ]
@@ -352,51 +623,76 @@
   "listening": {
     "transcript": [
       [
-        "Franca",
-        "Che cosa {ip:stai} facendo?"
+        "Lucia",
+        "Papà, che cosa {ip:stai} facendo?"
       ],
       [
-        "Gino",
-        "{ip:Sto} riparando la bici."
+        "Papà",
+        "{ip:Sto} riparando la lavatrice."
       ],
       [
-        "Franca",
-        "Da solo? Non la {ip:fai} riparare dal meccanico?"
+        "Lucia",
+        "Da solo? Perché non la {ip:fai} riparare da un tecnico?"
       ],
       [
-        "Gino",
-        "No, {ip:sto} imparando guardando dei video."
+        "Papà",
+        "Perché {ip:sto} imparando guardando dei tutorial. {pp:Ho} già {pp:cambiato} il tubo!"
       ],
       [
-        "Franca",
+        "Lucia",
         "E {ip:funziona}?"
       ],
       [
-        "Gino",
-        "Beh, sbagliando si {ip:impara}!"
+        "Papà",
+        "{im:Stavo} proprio per provarla… Ecco, la {ip:accendo}."
+      ],
+      [
+        "Lucia",
+        "Papà! {ip:Sta} uscendo l'acqua da tutte le parti!"
+      ],
+      [
+        "Papà",
+        "Va bene, va bene… {ip:chiamo} il tecnico."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Che cosa {ip:stai} [[facendo]]?",
-          "{ip:Sto} [[riparando]] la bici.",
-          "Non la [[fai#ip]] riparare dal meccanico?",
-          "{ip:Sto} imparando [[guardando]] dei video."
+          "{ip:Sto} [[riparando]] la lavatrice.",
+          "Perché non la {ip:fai} [[riparare]] da un tecnico?",
+          "{ip:Sto} imparando [[guardando]] dei tutorial.",
+          "{im:Stavo} proprio [[per]] provarla.",
+          "{ip:Sta} [[uscendo]] l'acqua da tutte le parti!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "How is Gino learning?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Gino is learning…",
+            "q": "Che cosa {ip:sta} riparando il papà?",
             "options": [
-              "from a mechanic",
-              "from a book",
-              "*by watching videos"
+              "*la lavatrice",
+              "la bicicletta",
+              "la macchina"
+            ]
+          },
+          {
+            "q": "Come {ip:sta} imparando?",
+            "options": [
+              "*guardando dei tutorial",
+              "leggendo un libro",
+              "con un corso serale"
+            ]
+          },
+          {
+            "q": "Com'{ip:è} finita?",
+            "options": [
+              "*Il papà {ip:chiama} il tecnico.",
+              "La lavatrice {ip:funziona} benissimo.",
+              "Lucia {ip:ripara} la lavatrice."
             ]
           }
         ]
@@ -407,44 +703,480 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando il gerundio, *stare* + gerundio o le costruzioni con l'infinito.",
+        "open": true,
         "questions": [
           {
-            "q": "I'm studying right now.",
-            "a": [
-              "Sto studiando adesso.",
-              "Adesso sto studiando.",
-              "Sto studiando ora."
+            "q": "Che cosa {ip:stai} imparando in questo periodo, oltre all'italiano?"
+          },
+          {
+            "q": "Come {pp:hai imparato} la cosa che sai fare meglio?"
+          },
+          {
+            "q": "Che cosa {im:stavi} facendo ieri sera alle nove?"
+          },
+          {
+            "q": "Qual {ip:è} il modo migliore per imparare una lingua? (*Secondo me si impara… -ando*)"
+          },
+          {
+            "q": "Che cosa {ip:fai} prima di andare a dormire? E dopo esserti svegliato?"
+          },
+          {
+            "q": "Quali lavori di casa {ip:fai} da solo e quali {ip:fai} fare a qualcun altro?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa stanno facendo?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una ragazza seduta alla scrivania con i libri aperti e le cuffie",
+          "B — Un signore in cucina che mescola il sugo in una pentola",
+          "C — Due bambini che corrono dietro a un pallone in un parco",
+          "D — Una donna sotto un ombrello davanti a una fermata dell'autobus"
+        ],
+        "pairs": [
+          [
+            "«{ip:Sta} studiando per l'esame.»",
+            "immagine A"
+          ],
+          [
+            "«{ip:Sta} preparando la cena.»",
+            "immagine B"
+          ],
+          [
+            "«{ip:Stanno} giocando a calcio.»",
+            "immagine C"
+          ],
+          [
+            "«{ip:Sta} aspettando l'autobus sotto la pioggia.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Che cosa {im:stavano} facendo quando {pp:è andata} via la luce? Completa con *stare* all'[im:imperfetto] + gerundio.",
+        "questions": [
+          "La ragazza (studiare) [[stava studiando]].",
+          "Il signore (cucinare) [[stava cucinando]].",
+          "I bambini (guardare) [[stavano guardando]] i cartoni animati.",
+          "Io (fare) [[stavo facendo]] la doccia!"
+        ]
+      },
+      {
+        "h": "Una telefonata"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la telefonata con *stare* + gerundio o *stare per* + infinito.",
+        "ordered": true,
+        "questions": [
+          "— Pronto, Giulia? Ti (disturbare) [[sto disturbando]]?",
+          "— Un po': (io, uscire) [[sto per uscire]], {ip:ho} il cappotto in mano.",
+          "— Ah, scusa! E Marco che cosa (fare) [[sta facendo]]?",
+          "— (lui, lavorare) [[Sta lavorando]] al computer.",
+          "— Va bene, vi {ip:richiamo} stasera. Ah, (piovere) [[sta piovendo]]: prendi l'ombrello!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Stare* + gerundio o *stare per* + infinito?",
+        "questions": [
+          {
+            "q": "Il negozio ___ chiudere: {imv:sbrigati}!",
+            "options": [
+              "*{ip:sta} per",
+              "{ip:sta} chiudendo a"
             ]
           },
           {
-            "q": "What are you doing? (informal)",
-            "a": [
-              "Che cosa stai facendo?",
-              "Cosa stai facendo?",
-              "Che stai facendo?"
+            "q": "Non {ip:posso} rispondere: ___ guidando.",
+            "options": [
+              "*{ip:sto}",
+              "{ip:sto} per"
             ]
           },
           {
-            "q": "You learn from your mistakes. (Italian proverb, two words + si)",
+            "q": "{im:Stavo} ___ addormentarmi quando {pp:è suonato} il telefono.",
+            "options": [
+              "*per",
+              "addormentandomi"
+            ]
+          },
+          {
+            "q": "Il concerto ___: {ip:sentiamo} gli ultimi applausi.",
+            "options": [
+              "*{ip:sta} finendo",
+              "{ip:sta} per finire"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il gerundio al posto di…"
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi la frase usando il gerundio.",
+        "questions": [
+          {
+            "q": "Mentre camminavo nel parco, ho visto un cervo.",
+            "a": [
+              "Camminando nel parco, ho visto un cervo."
+            ]
+          },
+          {
+            "q": "Se fai sport, stai meglio.",
+            "a": [
+              "Facendo sport, stai meglio.",
+              "Facendo sport stai meglio."
+            ]
+          },
+          {
+            "q": "Poiché ero malato, non sono andato a scuola.",
+            "a": [
+              "Essendo malato, non sono andato a scuola."
+            ]
+          },
+          {
+            "q": "Ho imparato a cucinare con l'aiuto di mia nonna, che mi guardava.",
+            "a": [
+              "Ho imparato a cucinare guardando mia nonna."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Proverbi e modi di dire con il gerundio. Abbina ognuno al suo significato.",
+        "pairs": [
+          [
+            "Sbagliando s'impara.",
+            "Gli errori ci insegnano qualcosa."
+          ],
+          [
+            "L'appetito vien mangiando.",
+            "Più si ha, più si vuole."
+          ],
+          [
+            "Strada facendo…",
+            "Mentre si va avanti, un po' alla volta."
+          ],
+          [
+            "Ridendo e scherzando…",
+            "Quasi senza accorgersene."
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Nella tua lingua c'{ip:è} un proverbio simile a «Sbagliando s'impara»? Scrivilo e spiegalo in italiano.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il proverbio:"
+          }
+        ]
+      },
+      {
+        "h": "Istruzioni: il basilico sul balcone"
+      },
+      {
+        "text": [
+          "**Come coltivare il basilico** — Prima di seminare, {imv:riempi} un vaso di terra. {imv:Metti} i semi e {imv:coprili} con poca terra, senza schiacciarla. Dopo aver seminato, {imv:bagna} la terra ogni giorno, ma senza esagerare. {imv:Tieni} il vaso al sole: le piantine {fs:cresceranno} in pochi giorni. Invece di tagliare le foglie grandi, {imv:raccogli} quelle in alto: così la pianta {fs:diventerà} più forte."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le frasi sulle istruzioni con *prima di, dopo, senza* o *invece di*.",
+        "questions": [
+          "[[Prima di]] seminare, si {ip:riempie} il vaso di terra.",
+          "I semi si {ip:coprono} con la terra [[senza]] schiacciarla.",
+          "[[Dopo]] aver seminato, si {ip:bagna} la terra ogni giorno.",
+          "[[Invece di]] tagliare le foglie grandi, si {ip:raccolgono} quelle in alto."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi le istruzioni. Vero o falso?",
+        "questions": [
+          {
+            "q": "La terra {ip:va bagnata} una volta alla settimana.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il vaso {ip:va tenuto} al sole.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "{ip:È} meglio raccogliere le foglie in alto.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Fai da te o lo fai fare?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *fare* + infinito.",
+        "questions": [
+          "Non {ip:so} tagliarmi i capelli: me li (io, tagliare) [[faccio tagliare]] dal parrucchiere.",
+          "La macchina {ip:è} rotta: la (noi, riparare) [[facciamo riparare]] dal meccanico.",
+          "Laura {pp:ha fatto} (costruire) [[costruire]] una casa in campagna.",
+          "Per la festa, i miei genitori (preparare) [[fanno preparare]] la torta in pasticceria."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu? Che cosa {ip:fai} da solo e che cosa {ip:fai} fare a qualcun altro? Scrivi due frasi.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Faccio da solo…"
+          },
+          {
+            "q": "Faccio fare…"
+          }
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Sto per uscendo.",
+            "a": [
+              "Sto per uscire.",
+              "Sto uscendo."
+            ]
+          },
+          {
+            "q": "Prima di uscendo, chiudi la porta.",
+            "a": [
+              "Prima di uscire, chiudi la porta."
+            ]
+          },
+          {
+            "q": "Faendo sport, si sta meglio.",
+            "a": [
+              "Facendo sport, si sta meglio."
+            ]
+          },
+          {
+            "q": "Dopo mangiato, siamo usciti.",
+            "a": [
+              "Dopo aver mangiato, siamo usciti.",
+              "Dopo avere mangiato, siamo usciti."
+            ]
+          },
+          {
+            "q": "È uscito senza salutando.",
+            "a": [
+              "È uscito senza salutare."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "sto / la / guardando / partita",
+            "a": [
+              "Sto guardando la partita."
+            ]
+          },
+          {
+            "q": "si / sbagliando / impara",
             "a": [
               "Sbagliando si impara."
             ]
           },
           {
-            "q": "He went out without saying goodbye. (salutare)",
+            "q": "di / prima / uscire / la luce / spegni",
             "a": [
-              "È uscito senza salutare."
+              "Prima di uscire, spegni la luce.",
+              "Prima di uscire spegni la luce.",
+              "Spegni la luce prima di uscire."
             ]
           },
           {
-            "q": "I'm having my car repaired.",
+            "q": "la / faccio / riparare / bici",
             "a": [
-              "Faccio riparare la macchina.",
-              "Faccio riparare la mia macchina."
+              "Faccio riparare la bici."
             ]
           }
         ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Il gerundio finisce sempre in *-ando* o *-endo*, con una sola *n* e una sola *d*: *parlando, facendo*. *Fare, dire, bere* hanno una *c* o una *v* in più: *fa**c**endo, di**c**endo, be**v**endo*."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il gerundio giusto.",
+        "questions": [
+          "{ip:Sto} (fare) [[facendo]] i compiti.",
+          "Che cosa {ip:stai} (dire) [[dicendo]]?",
+          "{ip:Stanno} (bere) [[bevendo]] un caffè al bar.",
+          "{ip:Stiamo} (finire) [[finendo]] il lavoro."
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So dire che cosa sto facendo adesso: *Sto studiando.*",
+          "So raccontare un'azione interrotta: *Stavo cucinando quando è andata via la luce.*",
+          "So distinguere *sto uscendo* e *sto per uscire*.",
+          "So usare il gerundio da solo: *Sbagliando si impara.*",
+          "So usare *senza, invece di, prima di, dopo aver* + infinito.",
+          "So raccontare come ho imparato a fare qualcosa."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una lunga tavola all'aperto in un paese del Piemonte, con persone sedute che mangiano e chiacchierano, pane, formaggi e bicchieri di vino"
+      },
+      {
+        "text": [
+          "**Mangiare con calma: lo Slow Food**",
+          "Nel 1986 a Roma, vicino a Piazza di Spagna, {pp:ha aperto} un fast food. Protestando contro questa novità, un gruppo di amici guidato da Carlo Petrini {pp:ha cominciato} a parlare di un'idea nuova: mangiare con calma, scegliendo prodotti buoni e locali.",
+          "Pochi anni dopo, nel 1989, {pp:è nato} il movimento internazionale Slow Food, che ancora oggi {ip:ha} la sua sede a Bra, in Piemonte, la città di Petrini.",
+          "Lo Slow Food {ip:difende} i piccoli produttori e i cibi tradizionali che {ip:stanno} scomparendo. L'idea {ip:è} semplice: mangiando bene si {ip:vive} meglio. Sedendosi a tavola senza fretta, parlando con gli altri e sapendo da dove {ip:viene} il cibo, anche un pasto normale {ip:diventa} una piccola festa.",
+          "Nel 2004 Petrini {pp:ha fondato} anche un'università dedicata al cibo, l'Università di Scienze Gastronomiche di Pollenzo, vicino a Bra."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "L'idea dello Slow Food {pp:è nata} come protesta contro un fast food.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La sede dello Slow Food {ip:è} a Roma.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Lo Slow Food {ip:difende} i piccoli produttori.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Secondo lo Slow Food bisogna mangiare in fretta.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Petrini {pp:ha fondato} anche un'università.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Chi {pp:ha guidato} il gruppo di amici?",
+            "options": [
+              "*Carlo Petrini",
+              "il sindaco di Roma",
+              "un cuoco francese"
+            ]
+          },
+          {
+            "q": "Secondo lo Slow Food, che cosa {ip:rende} un pasto una piccola festa?",
+            "options": [
+              "*mangiare senza fretta, con gli altri",
+              "mangiare in fretta da soli",
+              "mangiare solo al ristorante"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il gerundio.",
+        "questions": [
+          "[[Protestando]] contro questa novità, un gruppo di amici {pp:ha cominciato} a parlare di un'idea nuova.",
+          "Mangiare con calma, [[scegliendo]] prodotti buoni e locali.",
+          "[[Mangiando]] bene si {ip:vive} meglio."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu? {ip:Mangi} con calma o di corsa? Che cosa {ip:pensi} dell'idea dello Slow Food?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta come {pp:hai imparato} a fare una cosa: un'attività, uno sport, una ricetta, uno strumento.",
+        "cues": [
+          "Quando e perché {pp:hai cominciato}?",
+          "Com'{pp:è andata} all'inizio? (*Stavo sempre per arrendermi…*)",
+          "Come {pp:hai imparato}? (*Guardando…, Esercitandomi…, Sbagliando…*)",
+          "Che cosa {ip:stai} imparando adesso? (*Adesso sto…*)"
+        ],
+        "start": "",
+        "model": "Due anni fa ho deciso di imparare a suonare la chitarra. Avevo sempre ammirato mio zio, che suonava alle feste di famiglia.\nAll'inizio è stato difficilissimo: mi facevano male le dita e stavo sempre per arrendermi. Ho imparato guardando dei tutorial e esercitandomi ogni sera, prima di andare a dormire.\nSbagliando tantissimo, piano piano ho fatto progressi. Dopo aver imparato i primi accordi, ho cominciato a suonare le canzoni che amo.\nAdesso sto imparando a cantare mentre suono… ma i miei vicini non sono ancora molto contenti!"
       }
     ]
   }

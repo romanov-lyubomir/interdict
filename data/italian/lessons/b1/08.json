@@ -1,95 +1,188 @@
 {
   "title": "La città in cui {ip:vivo} {ip:è} quella che {ip:amo}",
-  "translation": "The city I live in is the one I love",
-  "topics": "Relative pronouns: che, cui, il quale, chi, quello che",
+  "translation": "",
+  "topics": "I pronomi relativi *che* e *cui*, *il quale*, *il cui*, *chi*, *quello che* e *ciò che*, la città e il quartiere",
   "grammar": {
     "explain": [
+      "I pronomi relativi uniscono due frasi e ci evitano di ripetere una parola: *{ip:Vivo} in una città. La città {ip:è} bellissima. → La città in cui {ip:vivo} {ip:è} bellissima.* Il più usato è *che*; quando c'è una preposizione serve *cui*.",
       {
-        "h": "Che or cui?"
-      },
-      "You already know *che*, which replaces the subject or the direct object. As soon as there is a preposition, you need *cui*. *Cui* never changes.",
-      {
-        "table": {
-          "head": [
-            "Two sentences",
-            "One sentence"
-          ],
-          "rows": [
-            [
-              "La ragazza {ip:parla}. {ip:È} Anna.",
-              "La ragazza **che** {ip:parla} {ip:è} Anna."
-            ],
-            [
-              "{ip:Vivo} in questa città. {ip:È} bella.",
-              "La città **in cui** {ip:vivo} {ip:è} bella."
-            ],
-            [
-              "{ip:Parlo} con un amico. {ip:È} medico.",
-              "L'amico **con cui** {ip:parlo} {ip:è} medico."
-            ],
-            [
-              "{pp:Ho scritto} a una donna. {ip:È} mia zia.",
-              "La donna **a cui** {pp:ho scritto} {ip:è} mia zia."
-            ],
-            [
-              "Ti {pp:ho parlato} di un libro. Eccolo.",
-              "Ecco il libro **di cui** ti {pp:ho parlato}."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "*Che* o *cui*?",
+              "head": [
+                "due frasi",
+                "una frase"
+              ],
+              "rows": [
+                [
+                  "La ragazza {ip:abita} qui. La ragazza {ip:è} Anna.",
+                  "La ragazza **che** {ip:abita} qui {ip:è} Anna."
+                ],
+                [
+                  "{pp:Ho comprato} una casa. La casa {ip:è} vecchia.",
+                  "La casa **che** {pp:ho comprato} {ip:è} vecchia."
+                ],
+                [
+                  "{ip:Vivo} in questa città. La città {ip:è} bella.",
+                  "La città **in cui** {ip:vivo} {ip:è} bella."
+                ],
+                [
+                  "{ip:Esco} con un amico. L'amico {ip:è} medico.",
+                  "L'amico **con cui** {ip:esco} {ip:è} medico."
+                ],
+                [
+                  "Ti {pp:ho parlato} di un libro. Il libro {ip:è} questo.",
+                  "Il libro **di cui** ti {pp:ho parlato} {ip:è} questo."
+                ]
+              ]
+            },
+            "note": [
+              "*Che* sostituisce il soggetto o l'oggetto diretto e non cambia mai: *l'uomo che, la donna che, i ragazzi che*.",
+              "Dopo una preposizione non si usa *che* ma *cui*, che anche lui non cambia: *in cui, con cui, di cui, a cui, da cui, per cui, su cui, tra cui*."
             ]
-          ]
-        }
-      },
-      "*In cui* for a place can be replaced by *dove*: *La città dove {ip:vivo}*. For time, Italians often use *in cui* or *che*: *Il giorno in cui ti {pp:ho conosciuto}*.",
-      {
-        "h": "Il quale"
-      },
-      "*Il quale* means the same as *che* or *cui*, but it shows gender and number. You will see it in formal writing, and when it helps to avoid confusion. It always has the article.",
-      {
-        "table": {
-          "head": [
-            "",
-            "Singular",
-            "Plural"
-          ],
-          "rows": [
-            [
-              "Masculine",
-              "il quale",
-              "i quali"
-            ],
-            [
-              "Feminine",
-              "la quale",
-              "le quali"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le preposizioni con *cui*",
+              "head": [
+                "preposizione",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "*a cui*",
+                  "{ip:È} l'amica **a cui** {pp:ho scritto}."
+                ],
+                [
+                  "*di cui*",
+                  "{ip:È} un problema **di cui** non {ip:voglio} parlare."
+                ],
+                [
+                  "*da cui*",
+                  "{ip:È} il fornaio **da cui** {ip:compro} il pane."
+                ],
+                [
+                  "*in cui*",
+                  "{ip:È} la casa **in cui** {pp:sono nata}. = la casa **dove** {pp:sono nata}."
+                ],
+                [
+                  "*con cui*",
+                  "{ip:Sono} i colleghi **con cui** {ip:pranzo}."
+                ],
+                [
+                  "*per cui*",
+                  "{ip:È} la ragione **per cui** {ip:sono} qui."
+                ]
+              ]
+            },
+            "note": "Per un luogo, al posto di *in cui* si usa spesso *dove*. Per il tempo si dice *il giorno in cui*, ma nel parlato anche *il giorno che*: *Il giorno in cui ti {pp:ho conosciuto}…*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Il quale, la quale, i quali, le quali*",
+              "head": [
+                "",
+                "singolare",
+                "plurale"
+              ],
+              "rows": [
+                [
+                  "maschile",
+                  "il quale · **al** quale, **del** quale, **con il** quale",
+                  "i quali · **ai** quali, **dei** quali, **con i** quali"
+                ],
+                [
+                  "femminile",
+                  "la quale · **alla** quale, **della** quale, **con la** quale",
+                  "le quali · **alle** quali, **delle** quali, **con le** quali"
+                ]
+              ]
+            },
+            "note": [
+              "*Il quale* vuol dire la stessa cosa di *che* o di *cui*, ma mostra il genere e il numero. Si usa soprattutto nella lingua scritta e formale: *la signora alla quale {pp:ho scritto} = la signora a cui {pp:ho scritto}*.",
+              "Aiuta quando una frase può essere poco chiara: *la sorella di Marco, la quale {ip:vive} a Roma* (è la sorella che vive a Roma, non Marco)."
             ]
-          ]
-        }
-      },
-      "With a preposition, the article joins it as usual: *la donna **alla quale** {pp:ho scritto}, l'amico **con il quale** {ip:parlo}*.",
-      {
-        "h": "Chi: the person who"
-      },
-      "*Chi* means *the person who* or *those who* and takes a singular verb: *Chi {ip:studia}, {ip:impara}* (Those who study, learn). It already contains the person, so you don't need a noun in front of it.",
-      {
-        "h": "Quello che: what"
-      },
-      "*Quello che* and *ciò che* mean *what* or *the thing that*, in the middle of a sentence. *Che cosa* is only for questions.",
-      {
-        "table": {
-          "head": [
-            "Question",
-            "Statement"
-          ],
-          "rows": [
-            [
-              "Che cosa {ip:vuoi}?",
-              "Non so quello che vuoi."
-            ],
-            [
-              "Che cosa {pp:ha detto}?",
-              "{pp:Ho capito} ciò che {pp:ha detto}."
-            ]
-          ]
-        }
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Il cui, la cui, i cui, le cui*",
+              "head": [
+                "due frasi",
+                "una frase"
+              ],
+              "rows": [
+                [
+                  "{ip:Conosco} una ragazza. **Il padre** della ragazza {ip:è} pilota.",
+                  "{ip:Conosco} una ragazza **il cui padre** {ip:è} pilota."
+                ],
+                [
+                  "{ip:Abito} in un palazzo. **La facciata** del palazzo {ip:è} rosa.",
+                  "{ip:Abito} in un palazzo **la cui facciata** {ip:è} rosa."
+                ],
+                [
+                  "{ip:È} uno scrittore. **I libri** dello scrittore {ip:sono} famosi.",
+                  "{ip:È} uno scrittore **i cui libri** {ip:sono} famosi."
+                ]
+              ]
+            },
+            "note": "*Il cui* vuol dire «del quale»: indica a chi appartiene una cosa. L'articolo va d'accordo con la cosa che segue, non con la persona: *una ragazza **il** cui padre*, *un palazzo **la** cui facciata*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Chi*: la persona che, le persone che",
+              "head": [
+                "frase con *chi*",
+                "vuol dire…"
+              ],
+              "rows": [
+                [
+                  "**Chi** {ip:studia}, {ip:impara}.",
+                  "Le persone che studiano imparano."
+                ],
+                [
+                  "C'{ip:è} **chi** {ip:ama} il mare e **chi** {ip:preferisce} la montagna.",
+                  "Alcune persone amano il mare, altre la montagna."
+                ],
+                [
+                  "Non {ip:so} **chi** {pp:ha telefonato}.",
+                  "Non so quale persona ha telefonato."
+                ]
+              ]
+            },
+            "note": "*Chi* contiene già la persona, quindi non ha un nome davanti, e il verbo va al singolare: *Chi {ip:arriva} tardi {ip:paga} il caffè.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Quello che, ciò che* o *che cosa*?",
+              "head": [
+                "domanda: *che cosa*",
+                "frase: *quello che, ciò che*"
+              ],
+              "rows": [
+                [
+                  "Che cosa {ip:vuoi}?",
+                  "Non {ip:so} **quello che** {ip:vuoi}."
+                ],
+                [
+                  "Che cosa {pp:ha detto}?",
+                  "{pp:Ho capito} **ciò che** {pp:ha detto}."
+                ],
+                [
+                  "Che cosa ti {ip:serve}?",
+                  "{imv:Prendi} **tutto quello che** ti {ip:serve}."
+                ]
+              ]
+            },
+            "note": "*Che cosa* si usa per fare una domanda. Dentro una frase, per dire «la cosa che, le cose che», si usa *quello che* o *ciò che* (più formale)."
+          }
+        ]
       }
     ]
   },
@@ -97,26 +190,94 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete with che, or a preposition with cui.",
+        "prompt": "Completa con *che* o con *cui* (con la preposizione giusta).",
         "questions": [
-          "La ragazza [[che]] {ip:parla} {ip:è} Anna.",
-          "Il libro [[che]] {ip:leggo} {ip:è} bello.",
-          "La città [[in cui]] {ip:vivo} {ip:è} grande.",
-          "L'amico [[con cui]] {ip:esco} {ip:è} simpatico.",
-          "La persona [[a cui]] {pp:ho telefonato} non c'{ip:è}.",
-          "Ecco il film [[di cui]] ti {pp:ho parlato}."
+          "La ragazza [[che]] {ip:vedi} {ip:è} mia cugina.",
+          "La città [[in cui]] {ip:vivo} {ip:è} molto vivace.",
+          "Il collega [[con cui]] {ip:lavoro} {ip:è} simpaticissimo.",
+          "Il film [[di cui]] ti {pp:ho parlato} {ip:è} al cinema.",
+          "L'amica [[a cui]] {pp:ho scritto} non mi {pp:ha risposto}.",
+          "Il ristorante [[che]] mi {pp:hai consigliato} {ip:era} ottimo."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right word.",
+        "prompt": "Scegli il pronome relativo giusto.",
         "questions": [
           {
-            "q": "___ {ip:dorme} non piglia pesci.",
+            "q": "{ip:È} il negozio ___ {ip:compro} i vestiti.",
+            "options": [
+              "*in cui",
+              "che",
+              "di cui"
+            ]
+          },
+          {
+            "q": "Il signore ___ {ip:abita} al primo piano {ip:è} pensionato.",
+            "options": [
+              "*che",
+              "cui",
+              "di cui"
+            ]
+          },
+          {
+            "q": "{ip:Sono} le persone ___ {pp:sono andata} in vacanza.",
+            "options": [
+              "*con cui",
+              "che",
+              "a cui"
+            ]
+          },
+          {
+            "q": "{ip:È} un argomento ___ non {ip:so} niente.",
+            "options": [
+              "*di cui",
+              "che",
+              "in cui"
+            ]
+          },
+          {
+            "q": "Il motivo ___ {pp:ho cambiato} casa {ip:è} il rumore.",
+            "options": [
+              "*per cui",
+              "che",
+              "da cui"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Unisci le due frasi: completa con il pronome relativo.",
+        "questions": [
+          "{ip:Ho} un vicino. Il vicino {ip:suona} il violino. → {ip:Ho} un vicino [[che]] {ip:suona} il violino.",
+          "{ip:Abito} in un quartiere. Nel quartiere ci {ip:sono} molti parchi. → {ip:Abito} in un quartiere [[in cui|dove]] ci {ip:sono} molti parchi.",
+          "{ip:Vado} da un parrucchiere. Il parrucchiere {ip:è} bravissimo. → Il parrucchiere [[da cui]] {ip:vado} {ip:è} bravissimo.",
+          "{pp:Ho letto} un articolo. L'articolo {ip:parla} di Roma. → L'articolo [[che]] {pp:ho letto} {ip:parla} di Roma.",
+          "{ip:Penso} spesso a una persona. La persona {ip:è} lontana. → La persona [[a cui]] {ip:penso} spesso {ip:è} lontana."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la forma giusta di *il quale* (con la preposizione, se serve).",
+        "questions": [
+          "La signora [[alla quale]] {pp:ho scritto} {ip:è} la direttrice. (a)",
+          "I ragazzi [[con i quali]] {ip:gioco} a calcio {ip:sono} spagnoli. (con)",
+          "Il libro [[del quale]] {ip:parliamo} {ip:è} di Calvino. (di)",
+          "Le amiche [[delle quali]] ti {ip:fidi} {ip:sono} poche. (di)",
+          "Il collega [[il quale]] {pp:ha organizzato} la festa {ip:è} malato."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Chi, che* o *quello che*?",
+        "questions": [
+          {
+            "q": "___ {ip:arriva} tardi {ip:paga} il caffè.",
             "options": [
               "*Chi",
               "Che",
-              "Cui"
+              "Quello che"
             ]
           },
           {
@@ -124,58 +285,43 @@
             "options": [
               "*quello che",
               "chi",
+              "che cosa che"
+            ]
+          },
+          {
+            "q": "La signora ___ {ip:vende} il pane {ip:è} gentile.",
+            "options": [
+              "*che",
+              "chi",
+              "quello che"
+            ]
+          },
+          {
+            "q": "___ {ip:vuoi} per cena?",
+            "options": [
+              "*Che cosa",
+              "Quello che",
+              "Chi"
+            ]
+          },
+          {
+            "q": "C'{ip:è} ___ {ip:preferisce} vivere in campagna.",
+            "options": [
+              "*chi",
+              "che",
               "cui"
-            ]
-          },
-          {
-            "q": "La signora ___ quale {pp:ho parlato} {ip:è} italiana.",
-            "options": [
-              "*con la",
-              "con il",
-              "con i"
-            ]
-          },
-          {
-            "q": "Gli studenti ___ quali {pp:ho scritto} {ip:sono} qui.",
-            "options": [
-              "*ai",
-              "alle",
-              "al"
-            ]
-          },
-          {
-            "q": "Il giorno ___ ti {pp:ho conosciuto} {im:pioveva}.",
-            "options": [
-              "*in cui",
-              "di chi",
-              "il quale"
             ]
           }
         ]
       },
       {
-        "type": "write",
-        "prompt": "Join the two sentences.",
+        "type": "gap",
+        "prompt": "Completa con *il cui, la cui, i cui, le cui*.",
         "questions": [
-          {
-            "q": "{ip:Vivo} in questa casa. Questa casa {ip:è} piccola.",
-            "a": [
-              "La casa in cui vivo è piccola.",
-              "La casa dove vivo è piccola."
-            ]
-          },
-          {
-            "q": "{ip:Lavoro} con un collega. Il collega {ip:è} gentile.",
-            "a": [
-              "Il collega con cui lavoro è gentile."
-            ]
-          },
-          {
-            "q": "{pp:Ho comprato} una macchina. La macchina {ip:è} rossa.",
-            "a": [
-              "La macchina che ho comprato è rossa."
-            ]
-          }
+          "{ip:Ho} un'amica [[il cui]] fratello {ip:vive} in Australia.",
+          "{ip:Abito} in una via [[le cui]] case {ip:sono} tutte colorate.",
+          "{ip:È} un regista [[i cui]] film {ip:sono} famosi in tutto il mondo.",
+          "{pp:Ho visitato} un paese [[la cui]] piazza {ip:è} bellissima."
         ]
       }
     ]
@@ -183,135 +329,267 @@
   "vocabulary": {
     "words": [
       [
-        "la periferia",
-        "suburbs"
+        "il quartiere",
+        "una parte della città, con le sue strade e i suoi negozi"
       ],
       [
         "il centro storico",
-        "old town"
+        "la parte più antica di una città"
       ],
       [
-        "il traffico",
-        "traffic"
+        "la periferia",
+        "la parte della città lontana dal centro"
       ],
       [
         "il vicolo",
-        "alley"
+        "una strada stretta e corta"
+      ],
+      [
+        "la zona pedonale",
+        "una parte della città dove le macchine non possono entrare"
+      ],
+      [
+        "il condominio",
+        "un palazzo con molti appartamenti e molte famiglie"
+      ],
+      [
+        "il vicino di casa",
+        "la persona che abita vicino a te"
+      ],
+      [
+        "il pianerottolo",
+        "lo spazio davanti alle porte degli appartamenti, su ogni piano"
       ],
       [
         "l'abitante",
-        "inhabitant"
+        "la persona che vive in un posto"
       ],
       [
-        "il cittadino",
-        "citizen"
+        "l'affitto",
+        "i soldi che si pagano ogni mese per vivere in una casa non tua"
       ],
       [
-        "amare",
-        "to love"
+        "il mercato rionale",
+        "il mercato di un quartiere, con frutta, verdura, pesce"
       ],
       [
-        "trasferirsi",
-        "to move (house)"
+        "i mezzi pubblici",
+        "autobus, tram, metropolitana"
       ],
       [
-        "crescere",
-        "to grow up"
+        "il traffico",
+        "le macchine e i motorini nelle strade"
       ],
       [
         "inquinato",
-        "polluted"
+        "sporco a causa del fumo, del traffico, delle fabbriche"
       ],
       [
         "affollato",
-        "crowded"
+        "pieno di gente"
       ],
       [
         "vivace",
-        "lively"
+        "pieno di vita e di movimento"
+      ],
+      [
+        "accogliente",
+        "che ti fa sentire bene, come a casa"
+      ],
+      [
+        "luminoso",
+        "con molta luce"
+      ],
+      [
+        "crescere",
+        "diventare grande"
+      ],
+      [
+        "trasferirsi",
+        "andare a vivere in un altro posto"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
             "la periferia",
-            "suburbs"
+            "la parte della città lontana dal centro"
           ],
           [
             "il vicolo",
-            "alley"
+            "una strada stretta e corta"
           ],
           [
-            "trasferirsi",
-            "to move (house)"
+            "il pianerottolo",
+            "lo spazio davanti alle porte degli appartamenti, su ogni piano"
           ],
           [
-            "crescere",
-            "to grow up"
+            "l'affitto",
+            "i soldi che si pagano ogni mese per vivere in una casa non tua"
           ],
           [
-            "inquinato",
-            "polluted"
+            "accogliente",
+            "che ti fa sentire bene, come a casa"
           ],
           [
-            "affollato",
-            "crowded"
+            "la zona pedonale",
+            "una parte della città dove le macchine non possono entrare"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "{ip:Abito} nel centro [[storico]]. (old town)",
-          "A quest'ora c'{ip:è} molto [[traffico]]. (traffic)",
-          "{ip:È} una città molto [[vivace]]. (lively)",
-          "Mi {pp:sono} [[trasferito#pp]] a Napoli. (moved)"
+          {
+            "q": "Il sabato mattina {ip:faccio} la spesa al ___: la frutta {ip:è} freschissima.",
+            "options": [
+              "*mercato rionale",
+              "condominio",
+              "pianerottolo"
+            ]
+          },
+          {
+            "q": "In centro non si {ip:può} andare in macchina: {ip:è} ___.",
+            "options": [
+              "*zona pedonale",
+              "periferia",
+              "quartiere"
+            ]
+          },
+          {
+            "q": "Il soggiorno {ip:ha} tre finestre: {ip:è} molto ___.",
+            "options": [
+              "*luminoso",
+              "inquinato",
+              "affollato"
+            ]
+          },
+          {
+            "q": "A Natale le strade del centro {ip:sono} ___: c'{ip:è} tantissima gente.",
+            "options": [
+              "*affollate",
+              "luminose",
+              "pedonali"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{ip:Vivo} in un [[condominio]] con venti famiglie.",
+          "Il mio [[vicino]] di casa {ip:suona} la batteria fino a mezzanotte!",
+          "Per andare al lavoro {ip:uso} i [[mezzi]] pubblici: {ip:prendo} il tram.",
+          "In questa città l'aria {ip:è} [[inquinata]] per colpa del traffico.",
+          "{pp:Sono} [[cresciuto|cresciuta]] in un piccolo paese di montagna."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "La città in cui {pp:sono cresciuto} {ip:è} Napoli. {ip:È} una città di cui si {ip:parla} spesso male, ma quello che molti non {ip:sanno} {ip:è} quanto {csp:sia} generosa. Il quartiere dove {im:abitavo} {im:era} pieno di vicoli affollati e di persone che si {im:conoscevano} tutte.",
-      "Chi la visita per la prima volta {ip:ha} spesso paura del traffico. La signora da cui {im:compravo} il pane mi {im:chiamava} per nome. Oggi {ip:vivo} a Torino, una città che {ip:apprezzo}, ma Napoli {ip:è} quella che {ip:amo}."
+      {
+        "h": "Da Ballarò a Milano"
+      },
+      "Il quartiere in cui {pp:sono cresciuta} {ip:è} l'Albergheria, nel centro storico di Palermo. A due passi da casa c'{ip:è} Ballarò, il mercato in cui mia nonna {im:faceva} la spesa ogni mattina. {ip:È} un posto di cui si {ip:sentono} le voci prima di vederlo: i venditori {ip:gridano} i prezzi e {ip:cantano} i nomi della frutta.",
+      "Nel mio vicolo tutti si {im:conoscevano}. La signora del primo piano, il cui marito {im:faceva} il pescatore, ci {im:portava} il pesce la domenica. Il fornaio da cui {im:compravamo} il pane mi {im:regalava} sempre un biscotto.",
+      "Tre anni fa mi {pp:sono trasferita} a Milano per lavoro. {ip:Vivo} in un condominio moderno e luminoso, in un quartiere che mi {ip:piace}. Ma quello che mi {ip:manca} {ip:sono} le persone: non {ip:so} ancora come si {ip:chiamano} i vicini con cui {ip:divido} il pianerottolo.",
+      "Chi {ip:viene} dal Sud mi {ip:capisce}: Milano {ip:è} la città in cui {ip:lavoro}, ma Palermo {ip:è} quella che {ip:amo}. *Federica*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The speaker grew up in Naples.",
+            "q": "Dove {ip:è} cresciuta Federica?",
             "options": [
-              "*True",
-              "False"
+              "*nel centro storico di Palermo",
+              "in periferia a Milano",
+              "in un paese di montagna"
             ]
           },
           {
-            "q": "According to him, people often speak badly of Naples.",
+            "q": "Che cosa {ip:è} Ballarò?",
             "options": [
-              "*True",
-              "False"
+              "*un mercato",
+              "un quartiere di Milano",
+              "un ristorante"
             ]
           },
           {
-            "q": "In his old neighbourhood people didn't know each other.",
+            "q": "Perché Federica {pp:si è trasferita} a Milano?",
             "options": [
-              "True",
-              "*False"
+              "*per lavoro",
+              "per studiare",
+              "per amore"
             ]
           },
           {
-            "q": "He now lives in Rome.",
+            "q": "Che cosa le {ip:manca} di Palermo?",
             "options": [
-              "True",
-              "*False"
+              "*le persone",
+              "il mare",
+              "il suo appartamento"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "A Ballarò i venditori {ip:sono} silenziosi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il marito della signora del primo piano {im:faceva} il pescatore.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il fornaio {im:regalava} un biscotto a Federica.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "A Milano Federica {ip:conosce} bene tutti i vicini.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "L'appartamento di Milano {ip:è} buio e vecchio.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i pronomi relativi.",
+        "questions": [
+          "Il quartiere [[in cui]] {pp:sono cresciuta} {ip:è} l'Albergheria.",
+          "{ip:È} un posto [[di cui]] si {ip:sentono} le voci prima di vederlo.",
+          "La signora del primo piano, [[il cui]] marito {im:faceva} il pescatore…",
+          "Il fornaio [[da cui]] {im:compravamo} il pane…",
+          "[[Quello che]] mi {ip:manca} {ip:sono} le persone."
         ]
       }
     ]
@@ -319,51 +597,76 @@
   "listening": {
     "transcript": [
       [
-        "Livia",
-        "{ip:È} questo il ristorante di cui mi {im:parlavi}?"
+        "Agente",
+        "Ecco l'appartamento di cui Le {tp:avevo parlato}. {imv:Entri} pure!"
       ],
       [
-        "Ugo",
-        "Sì, {ip:è} quello in cui {pp:ho conosciuto} Marta."
+        "Cliente",
+        "Che bello, {ip:è} luminosissimo! Qual {ip:è} la camera in cui {cop:dormirebbero} i bambini?"
       ],
       [
-        "Livia",
-        "Chi {ip:è} il signore con cui {ip:parla} il cameriere?"
+        "Agente",
+        "Quella che {ip:dà} sul giardino. {ip:È} la più tranquilla."
       ],
       [
-        "Ugo",
-        "{ip:È} il proprietario, la persona che {pp:ha aperto} il locale."
+        "Cliente",
+        "E il quartiere? Chi ci {ip:abita}?"
       ],
       [
-        "Livia",
-        "Non {ip:so} ancora quello che {ip:voglio} mangiare."
+        "Agente",
+        "Molte famiglie con bambini. La scuola a cui {cop:andrebbero} i Suoi figli {ip:è} a cinque minuti a piedi."
       ],
       [
-        "Ugo",
-        "{imv:Prendi} quello che ti {ip:consiglia} lui!"
+        "Cliente",
+        "E i vicini con cui {cop:dividerei} il pianerottolo?"
+      ],
+      [
+        "Agente",
+        "Una coppia di pensionati, gentilissimi. Il signore, il cui nipote {ip:fa} l'idraulico, {ip:aiuta} tutti nel palazzo."
+      ],
+      [
+        "Cliente",
+        "Mi {ip:piace} tutto quello che {ip:vedo}!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:È} questo il ristorante [[di]] cui mi {im:parlavi}?",
-          "{ip:È} quello [[in]] cui {pp:ho conosciuto} Marta.",
-          "La persona [[che]] {pp:ha aperto} il locale.",
-          "Non {ip:so} ancora [[quello]] che {ip:voglio} mangiare."
+          "Ecco l'appartamento [[di cui]] Le {tp:avevo parlato}.",
+          "Qual {ip:è} la camera [[in cui]] {cop:dormirebbero} i bambini?",
+          "Quella [[che]] {ip:dà} sul giardino.",
+          "Il signore, [[il cui]] nipote {ip:fa} l'idraulico, {ip:aiuta} tutti.",
+          "Mi {ip:piace} tutto [[quello che]] {ip:vedo}!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Who is the man talking to the waiter?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The man is…",
+            "q": "Com'{ip:è} l'appartamento?",
             "options": [
-              "*the owner",
-              "a customer",
-              "Marta's father"
+              "*molto luminoso",
+              "piccolo e buio",
+              "in periferia"
+            ]
+          },
+          {
+            "q": "Quanto {ip:è} lontana la scuola?",
+            "options": [
+              "*cinque minuti a piedi",
+              "mezz'ora in autobus",
+              "dieci minuti in macchina"
+            ]
+          },
+          {
+            "q": "Chi {ip:sono} i vicini?",
+            "options": [
+              "*una coppia di pensionati",
+              "una famiglia con bambini",
+              "due studenti"
             ]
           }
         ]
@@ -374,44 +677,497 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando *che, cui, chi, quello che*.",
+        "open": true,
         "questions": [
           {
-            "q": "The city I live in is big. (use in cui)",
-            "a": [
-              "La città in cui vivo è grande.",
-              "La città in cui abito è grande."
+            "q": "Com'{ip:è} il quartiere in cui {ip:vivi}?"
+          },
+          {
+            "q": "Qual {ip:è} il posto della tua città in cui {ip:passi} più tempo?"
+          },
+          {
+            "q": "Chi {ip:è} una persona di cui ti {ip:fidi} completamente?"
+          },
+          {
+            "q": "Che cosa {ip:è} quello che ti {ip:piace} di più della tua città? E quello che non ti {ip:piace}?"
+          },
+          {
+            "q": "Descrivi il negozio o il bar da cui {ip:vai} più spesso."
+          },
+          {
+            "q": "{ip:Preferisci} vivere in centro o in periferia? Perché?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Chi è?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un signore sorridente dietro un banco di frutta e verdura",
+          "B — Una signora con un piccolo cane che abbaia sul pianerottolo",
+          "C — Un vecchio palazzo giallo con i balconi pieni di fiori",
+          "D — Una bambina con lo zaino che aspetta lo scuolabus"
+        ],
+        "pairs": [
+          [
+            "«{ip:È} il signore da cui {ip:compro} la frutta.»",
+            "immagine A"
+          ],
+          [
+            "«{ip:È} la vicina il cui cane {ip:abbaia} sempre.»",
+            "immagine B"
+          ],
+          [
+            "«{ip:È} il palazzo in cui {ip:abito}.»",
+            "immagine C"
+          ],
+          [
+            "«{ip:È} la bambina che {ip:abita} al terzo piano.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Altri vicini. Completa con il pronome relativo.",
+        "questions": [
+          "{ip:È} il ragazzo [[che]] {ip:suona} la chitarra la sera.",
+          "{ip:È} la signora [[a cui]] {ip:lascio} le chiavi quando {ip:parto}.",
+          "{ip:Sono} i vicini [[con cui]] {ip:festeggiamo} il Natale.",
+          "{ip:È} il portiere [[da cui]] {ip:ritiro} i pacchi."
+        ]
+      },
+      {
+        "h": "Indovinelli"
+      },
+      {
+        "type": "match",
+        "prompt": "Che cosa {ip:è}? Abbina ogni indovinello alla soluzione.",
+        "pairs": [
+          [
+            "{ip:È} la cosa con cui {ip:apri} la porta.",
+            "la chiave"
+          ],
+          [
+            "{ip:È} il posto in cui {ip:compri} le medicine.",
+            "la farmacia"
+          ],
+          [
+            "{ip:È} la persona che ti {ip:taglia} i capelli.",
+            "il parrucchiere"
+          ],
+          [
+            "{ip:È} il mezzo con cui si {ip:attraversa} il mare.",
+            "la nave"
+          ],
+          [
+            "{ip:È} il mobile su cui si {ip:dorme}.",
+            "il letto"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi tu un indovinello con *che* o *cui* per un oggetto o un posto della tua casa.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il mio indovinello:"
+          }
+        ]
+      },
+      {
+        "h": "Cercasi casa"
+      },
+      {
+        "text": [
+          "**1. Bilocale in centro** — Appartamento luminoso al quarto piano, in un palazzo antico il cui cortile {ip:è} pieno di piante. Zona pedonale, a due passi dalla metro. Affitto: 950 euro al mese.",
+          "**2. Villetta in periferia** — Casa con giardino in un quartiere tranquillo, in cui ci {ip:sono} una scuola e un parco. Ideale per chi {ip:ha} bambini o animali. Affitto: 1100 euro al mese.",
+          "**3. Monolocale per studenti** — Piccolo appartamento vicino all'università, con una cucina in cui si {ip:può} cenare in due. Affitto: 500 euro al mese."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi gli annunci. Vero o falso?",
+        "questions": [
+          {
+            "q": "Il bilocale {ip:è} vicino alla metro.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "The friend I go out with is nice.",
-            "a": [
-              "L'amico con cui esco è simpatico.",
-              "L'amica con cui esco è simpatica."
+            "q": "La villetta {ip:costa} meno del monolocale.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Here is the book I told you about. (informal)",
+            "q": "Il monolocale {ip:è} vicino all'università.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Quale casa {ip:è} giusta per queste persone?",
+        "pairs": [
+          [
+            "«{ip:Abbiamo} due figli e un cane.»",
+            "la casa 2"
+          ],
+          [
+            "«{ip:Studio} ingegneria e non {ip:ho} molti soldi.»",
+            "la casa 3"
+          ],
+          [
+            "«{ip:Lavoro} in centro e non {ip:ho} la macchina.»",
+            "la casa 1"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le frasi sugli annunci con il pronome relativo.",
+        "questions": [
+          "Il bilocale {ip:è} in un palazzo [[il cui]] cortile {ip:è} pieno di piante.",
+          "La villetta {ip:è} in un quartiere [[in cui|dove]] ci {ip:sono} una scuola e un parco.",
+          "La villetta {ip:è} ideale per [[chi]] {ip:ha} bambini.",
+          "Il monolocale {ip:ha} una cucina [[in cui|dove]] si {ip:può} cenare in due."
+        ]
+      },
+      {
+        "h": "Una lettera formale"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la lettera al proprietario con *il quale, la quale, i quali, le quali* (e la preposizione, se serve).",
+        "ordered": true,
+        "questions": [
+          "Gentile signor Ferri, Le {ip:scrivo} per il problema [[del quale]] Le {pp:ho parlato} al telefono. (di)",
+          "La caldaia, [[la quale]] {ip:è} molto vecchia, non {ip:funziona} da tre giorni.",
+          "I tecnici [[ai quali]] {pp:ho telefonato} non {ip:possono} venire prima di lunedì. (a)",
+          "{ip:Ho} due bambini piccoli, [[i quali]] {ip:hanno} sempre freddo. Cordiali saluti, Elena Bassi"
+        ]
+      },
+      {
+        "h": "Chi va piano…"
+      },
+      {
+        "type": "match",
+        "prompt": "I proverbi con *chi*. Abbina l'inizio di ogni proverbio alla fine.",
+        "pairs": [
+          [
+            "Chi dorme",
+            "non piglia pesci."
+          ],
+          [
+            "Chi va piano",
+            "va sano e va lontano."
+          ],
+          [
+            "Chi trova un amico",
+            "trova un tesoro."
+          ],
+          [
+            "Chi la fa",
+            "l'aspetti."
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *chi*, *che* o *quello che*.",
+        "questions": [
+          "[[Chi]] {ip:arriva} ultimo {ip:paga} la pizza.",
+          "Non {ip:ricordo} [[quello che]] {pp:ho mangiato} ieri.",
+          "La signora [[che]] {ip:abita} qui {ip:è} spagnola.",
+          "{imv:Fa'} [[quello che]] {ip:vuoi}!",
+          "C'{ip:è} [[chi]] {ip:ama} il traffico della città."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Nella tua lingua c'{ip:è} un proverbio che {ip:comincia} come «Chi…»? Scrivilo e spiegalo in italiano.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il proverbio:"
+          }
+        ]
+      },
+      {
+        "h": "Due frasi in una"
+      },
+      {
+        "type": "write",
+        "prompt": "Unisci le due frasi con un pronome relativo.",
+        "questions": [
+          {
+            "q": "Ho un amico. L'amico vive a Roma.",
             "a": [
-              "Ecco il libro di cui ti ho parlato."
+              "Ho un amico che vive a Roma."
             ]
           },
           {
-            "q": "Those who study, learn.",
+            "q": "Questo è il parco. Nel parco gioco a calcio.",
             "a": [
-              "Chi studia impara.",
+              "Questo è il parco in cui gioco a calcio.",
+              "Questo è il parco dove gioco a calcio.",
+              "Questo è il parco nel quale gioco a calcio."
+            ]
+          },
+          {
+            "q": "Ecco la collega. Lavoro con la collega.",
+            "a": [
+              "Ecco la collega con cui lavoro.",
+              "Ecco la collega con la quale lavoro."
+            ]
+          },
+          {
+            "q": "Conosco un ragazzo. La madre del ragazzo è attrice.",
+            "a": [
+              "Conosco un ragazzo la cui madre è attrice."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "La città in che vivo è bella.",
+            "a": [
+              "La città in cui vivo è bella.",
+              "La città dove vivo è bella."
+            ]
+          },
+          {
+            "q": "L'amico con che esco è medico.",
+            "a": [
+              "L'amico con cui esco è medico.",
+              "L'amico con il quale esco è medico."
+            ]
+          },
+          {
+            "q": "Chi studiano, imparano.",
+            "a": [
               "Chi studia, impara."
             ]
           },
           {
-            "q": "I don't know what you want. (informal)",
+            "q": "Non capisco che cosa che dici.",
             "a": [
-              "Non so quello che vuoi.",
-              "Non so cosa vuoi.",
-              "Non so che cosa vuoi."
+              "Non capisco quello che dici.",
+              "Non capisco ciò che dici.",
+              "Non capisco che cosa dici."
+            ]
+          },
+          {
+            "q": "Ho un'amica la cui fratello vive a Londra.",
+            "a": [
+              "Ho un'amica il cui fratello vive a Londra."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "vivo / la città / in cui / è / bella",
+            "a": [
+              "La città in cui vivo è bella."
+            ]
+          },
+          {
+            "q": "che / la ragazza / parla / è / Anna",
+            "a": [
+              "La ragazza che parla è Anna."
+            ]
+          },
+          {
+            "q": "impara / chi / studia",
+            "a": [
+              "Chi studia, impara.",
+              "Chi studia impara."
+            ]
+          },
+          {
+            "q": "quello che / non / dici / capisco",
+            "a": [
+              "Non capisco quello che dici."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*Qual è* si scrive senza apostrofo: *qual* è già una parola completa, come *qual buon vento*. È un errore comune anche tra gli italiani!",
+          "*Cui* non si scrive mai con l'accento e non ha l'articolo davanti, tranne in *il cui, la cui, i cui, le cui*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale forma {ip:è} giusta?",
+        "questions": [
+          {
+            "q": "___ il tuo indirizzo?",
+            "options": [
+              "*Qual è",
+              "Qual'è"
+            ]
+          },
+          {
+            "q": "La casa ___ abito {ip:è} piccola.",
+            "options": [
+              "*in cui",
+              "in cuì"
+            ]
+          },
+          {
+            "q": "___ la strada per il centro?",
+            "options": [
+              "*Qual è",
+              "Qual'è"
+            ]
+          },
+          {
+            "q": "{ip:È} un amico ___ padre {ip:è} medico.",
+            "options": [
+              "*il cui",
+              "di cui il"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So unire due frasi con *che* e *cui*: *La città in cui vivo è bella.*",
+          "So usare *il quale* in una lettera formale.",
+          "So usare *il cui*: *un'amica il cui fratello vive a Londra*.",
+          "So usare *chi* e *quello che*: *Chi studia, impara. Non so quello che vuoi.*",
+          "So descrivere il quartiere e la casa in cui vivo."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una grande piazza italiana al tramonto, piena di persone sedute ai tavolini dei bar, bambini che giocano e anziani su una panchina"
+      },
+      {
+        "text": [
+          "**La piazza, il salotto della città**",
+          "In Italia la piazza {ip:è} molto più di uno spazio vuoto tra le case: {ip:è} il posto in cui la gente si {ip:incontra}, {ip:parla}, {ip:prende} un caffè o {ip:guarda} semplicemente chi {ip:passa}. Per questo molti la {ip:chiamano} «il salotto della città».",
+          "Ogni città {ip:ha} una piazza di cui {ip:è} orgogliosa. A Siena c'{ip:è} Piazza del Campo, la cui forma {ip:ricorda} una conchiglia e in cui due volte all'anno si {ip:corre} il Palio. A Roma, Piazza Navona {ip:ha} la forma lunga e stretta dello stadio antico su cui {ip:sorge}.",
+          "La sera, quello che {ip:colpisce} chi {ip:viene} dall'estero {ip:è} la passeggiata: famiglie, ragazzi e anziani che {ip:camminano} lentamente, si {ip:salutano} e si {ip:fermano} a chiacchierare. Chi {ip:vive} in una piccola città lo {ip:sa}: in piazza, prima o poi, {ip:incontri} tutti."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Molti italiani {ip:chiamano} la piazza «il salotto della città».",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Piazza del Campo {ip:è} a Roma.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il Palio si {ip:corre} in Piazza del Campo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Piazza Navona {ip:ha} la forma di un antico stadio.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La sera in piazza ci {ip:sono} solo i turisti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i pronomi relativi.",
+        "questions": [
+          "{ip:È} il posto [[in cui]] la gente si {ip:incontra}.",
+          "Ogni città {ip:ha} una piazza [[di cui]] {ip:è} orgogliosa.",
+          "Piazza del Campo, [[la cui]] forma {ip:ricorda} una conchiglia…",
+          "[[Quello che]] {ip:colpisce} chi {ip:viene} dall'estero {ip:è} la passeggiata."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E nella tua città? C'{ip:è} un posto in cui la gente si {ip:incontra}, come la piazza in Italia?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Descrivi il quartiere in cui {pp:sei cresciuto} o in cui {ip:vivi} adesso. Usa *che, cui, il cui, chi, quello che*.",
+        "cues": [
+          "Dov'{ip:è} e com'{ip:è}? (*È un quartiere in cui…*)",
+          "Quali {ip:sono} i posti e le persone che {ip:conosci}? (*il bar da cui…, la signora che…*)",
+          "Che cosa ti {ip:piace} e che cosa no? (*Quello che mi piace…*)",
+          "Lo {cop:consiglieresti}? A chi? (*È perfetto per chi…*)"
+        ],
+        "start": "",
+        "model": "Il quartiere in cui vivo si chiama San Salvario ed è vicino alla stazione di Torino. È un quartiere vivace, in cui abitano persone di tutto il mondo.\nIl bar da cui prendo il caffè ogni mattina è di una coppia di Napoli, che fa il miglior caffè della città. Al mercato rionale c'è un signore il cui banco di frutta è sempre pieno di colori.\nQuello che mi piace di più sono i piccoli negozi e i locali, in cui la sera c'è sempre musica. Quello che non mi piace è il rumore del sabato notte.\nÈ un quartiere perfetto per chi ama la vita e la gente, un po' meno per chi cerca silenzio!"
       }
     ]
   }

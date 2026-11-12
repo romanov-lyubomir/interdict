@@ -127,11 +127,11 @@
         margin: 6px 0 18px;
     }
 
+    /* The whole picture, scaled to the width of the column, never cut */
     .lesson-figure img {
         display: block;
         width: 100%;
-        max-height: 380px;
-        object-fit: cover;
+        height: auto;
         border-radius: var(--radius-small);
         border: 1px solid var(--border);
     }
@@ -163,8 +163,10 @@
         margin: 0;
     }
 
+    /* Small pictures side by side are thumbnails of the same height */
     .lesson-gallery .lesson-figure img {
         height: 160px;
+        object-fit: cover;
     }
 
     .grammar-heading {
@@ -284,7 +286,7 @@
 
 {# With a prefix, each block (and each table of a grid) is marked with
    data-find="<prefix>-<n>", so a search result can jump right to it #}
-{% macro blocks(items, prefix=none) %}
+{% macro blocks(items, prefix=none, picture_label="Picture") %}
 {% for block in items %}
 {% set find = prefix ~ "-" ~ loop.index0 if prefix else none %}
 {% if block is mapping and block.grid %}
@@ -304,6 +306,12 @@
 {{ figure(block) }}
 {% elif block.gallery %}
 {{ gallery(block.gallery) }}
+{% elif block.picture %}
+{# A frame waiting for a picture, described in words #}
+<figure class="picture-frame">
+    <span class="picture-label">{{ picture_label }}</span>
+    <figcaption>{{ block.picture | rich }}</figcaption>
+</figure>
 {% elif block.ul %}
 <ul>
     {% for entry in block.ul %}<li>{{ entry | rich }}</li>{% endfor %}

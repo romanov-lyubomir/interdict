@@ -765,5 +765,108 @@
         ]
       }
     ]
+  },
+  "italy": {
+    "text": [
+      {
+        "h": "Tre trappole per turisti (e come evitarle)"
+      },
+      "In Italia si {ip:mangia} benissimo, ma non dappertutto. Ecco tre consigli per non cadere nelle trappole per turisti.",
+      "**1. Guardate il gelato** — Se il gelato {ip:è} alto come una montagna, {imv:andate} via: {ip:è} una trappola per turisti. Il vero gelato artigianale {ip:sta} in vaschette chiuse, sotto un coperchio.",
+      "**2. Non entrate se qualcuno vi chiama** — Davanti ad alcuni ristoranti c'{ip:è} una persona che {ip:ferma} i turisti e li {ip:invita} a entrare. Non {imv:entrate}: un buon ristorante non {ip:ha} bisogno di cercare i clienti in strada.",
+      "**3. Allontanatevi dai monumenti** — Non {imv:mangiate} nei bar e nei ristoranti proprio accanto ai monumenti più famosi: il Colosseo, piazza San Marco a Venezia, il Duomo di Milano o di Firenze. Lì i prezzi {ip:sono} altissimi. {imv:Camminate} un quarto d'ora e {imv:cercate} un locale dove {ip:mangiano} gli italiani: {ip:spendete} meno e {ip:mangiate} meglio."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Un gelato alto come una montagna {ip:è} un buon segno.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il vero gelato artigianale {ip:sta} sotto un coperchio.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Davanti ai buoni ristoranti c'{ip:è} sempre una persona che {ip:chiama} i clienti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Vicino al Colosseo i prezzi {ip:sono} spesso altissimi.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il testo {ip:consiglia} di camminare un quarto d'ora.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa {ip:fate}? Scegli il consiglio giusto secondo il testo.",
+        "questions": [
+          {
+            "q": "{ip:Siete} in piazza San Marco e {ip:avete} fame.",
+            "options": [
+              "*{imv:Camminate} un quarto d'ora e {imv:cercate} un altro locale.",
+              "{imv:Mangiate} nel bar più vicino alla piazza.",
+              "{imv:Entrate} nel primo ristorante che {ip:vedete}."
+            ]
+          },
+          {
+            "q": "Un uomo davanti a un ristorante vi {ip:invita} a entrare.",
+            "options": [
+              "*Non {imv:entrate} e {imv:continuate} a camminare.",
+              "{imv:Entrate} subito: {ip:è} gentile.",
+              "{imv:Chiedete} un tavolo vicino alla porta."
+            ]
+          },
+          {
+            "q": "In una gelateria il gelato {ip:è} alto come una montagna.",
+            "options": [
+              "*{imv:Andate} in un'altra gelateria.",
+              "{imv:Prendete} due gusti.",
+              "{imv:Fate} una foto e {imv:comprate} un cono."
+            ]
+          },
+          {
+            "q": "Il gelato {ip:è} in vaschette chiuse, sotto un coperchio.",
+            "options": [
+              "*Va bene: {ip:è} un buon segno.",
+              "{imv:Andate} via subito.",
+              "{ip:È} una trappola per turisti."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa i consigli con l'[imv:imperativo] (voi) del verbo tra parentesi.",
+        "questions": [
+          "Non [[mangiate#imv]] accanto ai monumenti più famosi. (mangiare)",
+          "[[Camminate#imv]] un quarto d'ora. (camminare)",
+          "Non [[entrate#imv]] se qualcuno vi chiama dalla strada. (entrare)",
+          "[[Guardate#imv]] bene il gelato prima di comprarlo. (guardare)",
+          "[[Allontanatevi#imv]] dai monumenti per mangiare. (allontanarsi)"
+        ]
+      }
+    ]
   }
 }

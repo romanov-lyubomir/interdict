@@ -1,159 +1,266 @@
 {
   "title": "Me lo {imv:dia}, per favore: glielo {ip:spiego} io",
-  "translation": "Give it to me, please: I'll explain it to him",
-  "topics": "Combined pronouns, the formal imperative",
+  "translation": "",
+  "topics": "I pronomi combinati, dove vanno i pronomi, l'[imv:imperativo] formale con *Lei*, l'[imv:imperativo] con i pronomi, uffici, documenti e moduli",
   "grammar": {
     "explain": [
+      "Quando un verbo ha due pronomi, uno indiretto (*mi, ti, gli…*) e uno diretto (*lo, la, li, le*) o *ne*, i due pronomi si uniscono: *Ti {ip:do} il libro → Te lo {ip:do}. {ip:Do} la lettera a Marco → Gliela {ip:do}.* Negli uffici e con le persone che non conosciamo usiamo poi l'[imv:imperativo] formale: *Mi {imv:dica}! Me lo {imv:dia}, per favore.*",
       {
-        "h": "Two pronouns together"
-      },
-      "When a verb has an indirect and a direct pronoun, the indirect one comes first. It changes slightly: its *-i* becomes *-e*, and *gli* or *le* both become *glie-*, written as one word with the next pronoun.",
-      {
-        "table": {
-          "head": [
-            "Indirect",
-            "+ lo",
-            "+ la",
-            "+ li",
-            "+ le",
-            "+ ne"
-          ],
-          "rows": [
-            [
-              "mi",
-              "m**e** lo",
-              "m**e** la",
-              "m**e** li",
-              "m**e** le",
-              "m**e** ne"
-            ],
-            [
-              "ti",
-              "t**e** lo",
-              "t**e** la",
-              "t**e** li",
-              "t**e** le",
-              "t**e** ne"
-            ],
-            [
-              "gli / le",
-              "**glie**lo",
-              "**glie**la",
-              "**glie**li",
-              "**glie**le",
-              "**glie**ne"
-            ],
-            [
-              "ci",
-              "c**e** lo",
-              "c**e** la",
-              "c**e** li",
-              "c**e** le",
-              "c**e** ne"
-            ],
-            [
-              "vi",
-              "v**e** lo",
-              "v**e** la",
-              "v**e** li",
-              "v**e** le",
-              "v**e** ne"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "I pronomi combinati",
+              "head": [
+                "indiretto",
+                "+ lo",
+                "+ la",
+                "+ li",
+                "+ le",
+                "+ ne"
+              ],
+              "rows": [
+                [
+                  "mi",
+                  "m**e** lo",
+                  "m**e** la",
+                  "m**e** li",
+                  "m**e** le",
+                  "m**e** ne"
+                ],
+                [
+                  "ti",
+                  "t**e** lo",
+                  "t**e** la",
+                  "t**e** li",
+                  "t**e** le",
+                  "t**e** ne"
+                ],
+                [
+                  "gli, le, Le",
+                  "**glie**lo",
+                  "**glie**la",
+                  "**glie**li",
+                  "**glie**le",
+                  "**glie**ne"
+                ],
+                [
+                  "ci",
+                  "c**e** lo",
+                  "c**e** la",
+                  "c**e** li",
+                  "c**e** le",
+                  "c**e** ne"
+                ],
+                [
+                  "vi",
+                  "v**e** lo",
+                  "v**e** la",
+                  "v**e** li",
+                  "v**e** le",
+                  "v**e** ne"
+                ],
+                [
+                  "gli (a loro)",
+                  "**glie**lo",
+                  "**glie**la",
+                  "**glie**li",
+                  "**glie**le",
+                  "**glie**ne"
+                ]
+              ]
+            },
+            "note": [
+              "Il pronome indiretto viene prima e la sua *-i* diventa *-e*: *mi → me, ti → te, ci → ce, vi → ve*.",
+              "*Gli* e *le* diventano tutti e due *glie-* e si scrivono attaccati: *glielo, gliela*. Solo il contesto dice se è «a lui», «a lei» o «a loro»."
             ]
-          ]
-        }
-      },
-      "Since *glielo* covers both *to him* and *to her*, only the context tells you which one is meant.",
-      {
-        "table": {
-          "head": [
-            "Sentence",
-            "With pronouns"
-          ],
-          "rows": [
-            [
-              "Ti {ip:dico} il segreto.",
-              "Te lo {ip:dico}."
-            ],
-            [
-              "{ip:Do} il libro a Marco.",
-              "Glielo {ip:do}."
-            ],
-            [
-              "{ip:Do} la lettera ad Anna.",
-              "Gliela {ip:do}."
-            ],
-            [
-              "Ci {imv:porti} due caffè.",
-              "Ce ne {imv:porti} due."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Dalla frase ai pronomi",
+              "head": [
+                "frase",
+                "con i pronomi"
+              ],
+              "rows": [
+                [
+                  "Ti {ip:dico} **il segreto**.",
+                  "**Te lo** {ip:dico}."
+                ],
+                [
+                  "{ip:Do} **il libro a Marco**.",
+                  "**Glielo** {ip:do}."
+                ],
+                [
+                  "{ip:Do} **la lettera ad Anna**.",
+                  "**Gliela** {ip:do}."
+                ],
+                [
+                  "Vi {ip:mando} **le foto**.",
+                  "**Ve le** {ip:mando}."
+                ],
+                [
+                  "Ci {ip:porta} **due caffè**?",
+                  "**Ce ne** {ip:porta} due?"
+                ]
+              ]
+            },
+            "note": "Con *ne* il pronome indica una quantità o una parte: *Ce ne {ip:porta} due? Te ne {ip:do} un po'.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Dove vanno i pronomi",
+              "head": [
+                "con…",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "un verbo coniugato: prima del verbo",
+                  "**Te lo** {ip:presto}. Non **glielo** {ip:dico}."
+                ],
+                [
+                  "un infinito: attaccati alla fine",
+                  "{ip:È} importante **dirglielo**. {ip:Ho} voglia di **comprarmelo**."
+                ],
+                [
+                  "*dovere, potere, volere* + infinito: prima o dopo",
+                  "**Te lo** {ip:posso} prestare. = {ip:Posso} **prestartelo**."
+                ],
+                [
+                  "il [pp:passato prossimo]: il participio si accorda con *lo, la, li, le*",
+                  "**Te l'**{pp:ho dett**o**}. **Gliel'**{pp:ho dat**a**}. **Ce li** {pp:ha port**ati**}."
+                ]
+              ]
+            },
+            "note": "Davanti alla *h* del verbo *avere*, *lo* e *la* diventano *l'*: *te l'ho detto, gliel'ho data*. *Li* e *le* non cambiano: *glieli ho dati*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "L'[imv:imperativo] formale (*Lei*)",
+              "head": [
+                "infinito",
+                "*tu*",
+                "*Lei*"
+              ],
+              "rows": [
+                [
+                  "*parlare*",
+                  "{imv:parl**a**}!",
+                  "{imv:parl**i**}!"
+                ],
+                [
+                  "*prendere*",
+                  "{imv:prend**i**}!",
+                  "{imv:prend**a**}!"
+                ],
+                [
+                  "*sentire*",
+                  "{imv:sent**i**}!",
+                  "{imv:sent**a**}!"
+                ],
+                [
+                  "*finire*",
+                  "{imv:fin**isci**}!",
+                  "{imv:fin**isca**}!"
+                ]
+              ]
+            },
+            "note": [
+              "Con *Lei* le vocali si scambiano, come nel [csp:congiuntivo presente]: i verbi in *-are* prendono la *i*, quelli in *-ere* e *-ire* la *a*.",
+              "Il negativo si fa con *non* davanti: *Non {imv:parli}! Non {imv:prenda}!*"
             ]
-          ]
-        }
-      },
-      {
-        "h": "Where they go"
-      },
-      "They follow the same rules as single pronouns. They stand before a conjugated verb and attach to an infinitive: *Te lo {ip:voglio} dire* or *{ip:Voglio} dirtelo*. In the [pp:passato prossimo] the participle agrees with *lo, la, li, le*: *Te l'{pp:ho dett**o**}. Gliel'{pp:ho dat**a**}.*",
-      {
-        "h": "The formal imperative"
-      },
-      "To address someone as *Lei*, the endings swap, as in the *congiuntivo*: *-are* verbs take *-i*, and *-ere* and *-ire* verbs take *-a*.",
-      {
-        "table": {
-          "head": [
-            "Infinitive",
-            "tu",
-            "Lei"
-          ],
-          "rows": [
-            [
-              "parlare",
-              "{imv:parl**a**}!",
-              "{imv:parl**i**}!"
-            ],
-            [
-              "prendere",
-              "{imv:prend**i**}!",
-              "{imv:prend**a**}!"
-            ],
-            [
-              "sentire",
-              "{imv:sent**i**}!",
-              "{imv:sent**a**}!"
-            ],
-            [
-              "finire",
-              "{imv:fin**isci**}!",
-              "{imv:fin**isca**}!"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "L'[imv:imperativo] formale dei verbi irregolari",
+              "rows": [
+                [
+                  "*andare*",
+                  "{imv:vada}"
+                ],
+                [
+                  "*venire*",
+                  "{imv:venga}"
+                ],
+                [
+                  "*fare*",
+                  "{imv:faccia}"
+                ],
+                [
+                  "*dire*",
+                  "{imv:dica}"
+                ],
+                [
+                  "*uscire*",
+                  "{imv:esca}"
+                ],
+                [
+                  "*essere*",
+                  "{imv:sia}"
+                ],
+                [
+                  "*avere*",
+                  "{imv:abbia}"
+                ],
+                [
+                  "*dare*",
+                  "{imv:dia}"
+                ],
+                [
+                  "*stare*",
+                  "{imv:stia}"
+                ],
+                [
+                  "*sapere*",
+                  "{imv:sappia}"
+                ]
+              ]
+            },
+            "note": "Sono le stesse forme del [csp:congiuntivo presente] che conosci dalla lezione 1: *{ip:vengo} → {imv:venga}, {ip:faccio} → {imv:faccia}, {ip:dico} → {imv:dica}*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "L'[imv:imperativo] con i pronomi",
+              "head": [
+                "*tu*: pronomi attaccati",
+                "*tu*, negativo",
+                "*Lei*: pronomi sempre prima"
+              ],
+              "rows": [
+                [
+                  "**{imv:Dimmi}**!",
+                  "Non **dirmelo**! / Non **me lo** {imv:dire}!",
+                  "**Mi {imv:dica}**!"
+                ],
+                [
+                  "**{imv:Dammelo}**!",
+                  "Non **darmelo**! / Non **me lo** {imv:dare}!",
+                  "**Me lo {imv:dia}**!"
+                ],
+                [
+                  "**{imv:Alzati}**!",
+                  "Non **alzarti**! / Non **ti** {imv:alzare}!",
+                  "**Si {imv:alzi}**!"
+                ],
+                [
+                  "**{imv:Portaglielo}**!",
+                  "Non **portarglielo**!",
+                  "**Glielo {imv:porti}**!"
+                ]
+              ]
+            },
+            "note": [
+              "Con *tu* i pronomi si attaccano al verbo; con *Lei* vanno sempre prima.",
+              "Con *da', di', fa', sta', va'* la consonante del pronome raddoppia: *dammi, dimmi, fallo, stammi vicino, vacci*. Solo *gli* non raddoppia: *dagli, digli*."
             ]
-          ]
-        }
-      },
-      "Irregular forms come from the *io* form of the present: *{ip:vengo} → {csp:venga}, {ip:faccio} → {csp:faccia}, {ip:dico} → {csp:dica}, {ip:vado} → {csp:vada}, {ip:esco} → {csp:esca}*. Also *essere → {csp:sia}*, *avere → {csp:abbia}*, *dare → {csp:dia}*, *stare → {csp:stia}*.",
-      {
-        "h": "Pronouns in commands"
-      },
-      "With *Lei*, pronouns always come before the verb. With *tu*, they are attached to it.",
-      {
-        "table": {
-          "head": [
-            "tu",
-            "Lei"
-          ],
-          "rows": [
-            [
-              "{imv:Dimmi}!",
-              "Mi {imv:dica}!"
-            ],
-            [
-              "{imv:Dammelo}!",
-              "Me lo {imv:dia}!"
-            ],
-            [
-              "{imv:Alzati}!",
-              "Si {imv:alzi}!"
-            ]
-          ]
-        }
+          }
+        ]
       }
     ]
   },
@@ -161,62 +268,138 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Replace the words with combined pronouns.",
+        "prompt": "Sostituisci le parole sottolineate con i pronomi combinati.",
         "questions": [
-          "Ti {ip:dico} il segreto. → [[Te lo]] {ip:dico}.",
-          "Mi {ip:dai} le chiavi? → [[Me le]] {ip:dai}?",
-          "{ip:Do} il libro a Marco. → [[Glielo]] {ip:do}.",
-          "{ip:Spiego} la regola ad Anna. → [[Gliela]] {ip:spiego}.",
-          "Vi {ip:mando} i documenti. → [[Ve li]] {ip:mando}.",
-          "Ci {ip:porta} due caffè. → [[Ce ne]] {ip:porta} due."
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Write the formal imperative (Lei).",
-        "questions": [
-          "[[Parli#imv]] piano, per favore. (parlare)",
-          "[[Prenda#imv]] l'autobus. (prendere)",
-          "[[Senta#imv]], {imv:scusi}! (sentire)",
-          "[[Venga#imv]] qui! (venire)",
-          "[[Faccia#imv]] attenzione! (fare)",
-          "Mi [[dica#imv]]! (dire)"
+          "Ti {ip:presto} **la macchina**. → [[Te la]] {ip:presto}.",
+          "{ip:Regalo} **un libro a mio padre**. → [[Glielo]] {ip:regalo}.",
+          "Mi {ip:mandi} **le foto**? → [[Me le]] {ip:mandi}?",
+          "Vi {ip:spiego} **la regola**. → [[Ve la]] {ip:spiego}.",
+          "{ip:Do} **i documenti alla signora**. → [[Glieli]] {ip:do}.",
+          "Ci {ip:porti} **tre caffè**? → [[Ce ne]] {ip:porti} tre?"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "*Glielo, gliela, glieli* o *gliele*? Scegli.",
         "questions": [
           {
-            "q": "Give it to me! (to a friend, a book)",
+            "q": "{ip:Hai} dato il passaporto all'impiegato? Sì, ___ {pp:ho dato}.",
             "options": [
-              "*{imv:Dammelo}!",
-              "Me lo {imv:dia}!",
-              "Me lo {imv:dai}!"
+              "*gliel'",
+              "gliela",
+              "glieli"
             ]
           },
           {
-            "q": "Give it to me! (to a customer, a book)",
+            "q": "{ip:Porti} la torta a tua nonna? Sì, ___ {ip:porto} domani.",
             "options": [
-              "{imv:Dammelo}!",
+              "glielo",
+              "*gliela",
+              "gliele"
+            ]
+          },
+          {
+            "q": "{ip:Mandi} i documenti al notaio? Sì, ___ {ip:mando} oggi.",
+            "options": [
+              "glielo",
+              "gliela",
+              "*glieli"
+            ]
+          },
+          {
+            "q": "{ip:Restituisci} le chiavi a Marta? Sì, ___ {ip:restituisco} stasera.",
+            "options": [
+              "glieli",
+              "*gliele",
+              "gliela"
+            ]
+          },
+          {
+            "q": "{ip:Dici} la verità ai tuoi genitori? Sì, ___ {ip:dico}.",
+            "options": [
+              "*gliela",
+              "glielo",
+              "gliele"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con i pronomi attaccati all'infinito.",
+        "questions": [
+          "{ip:Ho} un segreto, ma non {ip:posso} (dire a te) [[dirtelo]].",
+          "Anna {ip:vuole} la ricetta: {ip:devo} (mandare a lei) [[mandargliela]].",
+          "Questi biscotti {ip:sono} per voi: {ip:voglio} (regalare a voi) [[regalarveli]].",
+          "Il libro {ip:è} di Marco: {ip:è} ora di (restituire a lui) [[restituirglielo]].",
+          "{ip:Ho} bisogno della tua penna: {ip:puoi} (prestare a me) [[prestarmela]]?"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con l'[imv:imperativo] formale (*Lei*).",
+        "questions": [
+          "(compilare) [[Compili#imv]] questo modulo, per favore.",
+          "(firmare) [[Firmi#imv]] qui in fondo.",
+          "(prendere) [[Prenda#imv]] il numero e {imv:aspetti} il Suo turno.",
+          "(venire) [[Venga#imv]] pure avanti, signora.",
+          "Non (preoccuparsi) [[si preoccupi#imv]]: {ip:è} tutto a posto.",
+          "(fare) [[Faccia#imv]] attenzione: il pavimento {ip:è} bagnato."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Dal *tu* al *Lei*: riscrivi l'[imv:imperativo].",
+        "questions": [
+          "{imv:Parla} più piano! → [[Parli#imv]] più piano!",
+          "{imv:Scrivi} il tuo nome qui. → [[Scriva#imv]] il Suo nome qui.",
+          "{imv:Dimmi} tutto! → Mi [[dica#imv]] tutto!",
+          "{imv:Dammelo}, per favore. → Me lo [[dia#imv]], per favore.",
+          "{imv:Siediti}! → Si [[sieda#imv]]!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Dove va il pronome? Scegli la frase giusta.",
+        "questions": [
+          {
+            "q": "(a un amico) Il sale, per favore!",
+            "options": [
+              "*{imv:Passamelo}!",
+              "Me lo {imv:passa}!",
+              "Passimelo!"
+            ]
+          },
+          {
+            "q": "(a una signora) Il documento, per favore!",
+            "options": [
               "*Me lo {imv:dia}!",
-              "{imv:Dia} melo!"
+              "Diamelo!",
+              "{imv:Dammelo}!"
             ]
           },
           {
-            "q": "Voglio ___ . (say it to you)",
+            "q": "(a un amico) Non voglio sapere il finale!",
             "options": [
-              "te lo dire",
-              "*dirtelo",
-              "dire telo"
+              "*Non dirmelo!",
+              "Non dimmelo lo!",
+              "Non me lo {imv:dica}!"
             ]
           },
           {
-            "q": "{pp:Hai dato} la lettera ad Anna? Sì, ___ .",
+            "q": "(a un signore) Si accomodi e…",
             "options": [
-              "*gliel'{pp:ho data}",
-              "le l'{pp:ho data}",
-              "gliel'{pp:ho dato}"
+              "*mi {imv:dica}!",
+              "dicami!",
+              "dimmi!"
+            ]
+          },
+          {
+            "q": "(a un amico) Le chiavi sono di Luca:",
+            "options": [
+              "*{imv:dagliele}!",
+              "daglile!",
+              "gliele {imv:dia}!"
             ]
           }
         ]
@@ -226,139 +409,266 @@
   "vocabulary": {
     "words": [
       [
-        "il documento",
-        "document"
+        "il documento d'identità",
+        "la carta d'identità o il passaporto"
       ],
       [
-        "il modulo",
-        "form"
+        "il codice fiscale",
+        "il codice di sedici lettere e numeri che ogni persona ha in Italia"
       ],
       [
-        "la firma",
-        "signature"
+        "il permesso di soggiorno",
+        "il documento che permette a uno straniero di vivere in Italia"
       ],
       [
-        "la ricevuta",
-        "receipt"
+        "l'anagrafe",
+        "l'ufficio del comune che registra i cittadini"
+      ],
+      [
+        "la questura",
+        "l'ufficio della polizia dove si fanno passaporti e permessi"
       ],
       [
         "lo sportello",
-        "counter"
+        "il posto dove l'impiegato parla con il pubblico"
       ],
       [
-        "l'impiegato",
-        "clerk"
+        "l'impiegato, l'impiegata",
+        "la persona che lavora in un ufficio"
+      ],
+      [
+        "fare la fila",
+        "aspettare il proprio turno dietro altre persone"
+      ],
+      [
+        "il numerino",
+        "il bigliettino con il numero del turno"
+      ],
+      [
+        "il modulo",
+        "un foglio con domande da completare"
       ],
       [
         "compilare",
-        "to fill in"
+        "scrivere i dati in un modulo"
+      ],
+      [
+        "la firma",
+        "il proprio nome scritto a mano"
       ],
       [
         "firmare",
-        "to sign"
+        "mettere la propria firma"
+      ],
+      [
+        "la ricevuta",
+        "il foglio che dimostra che hai pagato o consegnato qualcosa"
       ],
       [
         "consegnare",
-        "to hand in"
+        "dare una cosa a chi la deve ricevere"
       ],
       [
         "ritirare",
-        "to collect"
+        "andare a prendere una cosa che ti aspetta"
       ],
       [
-        "restituire",
-        "to give back"
+        "rinnovare",
+        "fare di nuovo un documento che sta per scadere"
       ],
       [
-        "aspetti",
-        "wait (polite)"
+        "scadere",
+        "non essere più valido dopo una certa data"
+      ],
+      [
+        "la marca da bollo",
+        "un francobollo speciale che si paga per alcuni documenti"
+      ],
+      [
+        "spedire",
+        "mandare una lettera o un pacco"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il modulo",
-            "form"
-          ],
-          [
-            "la firma",
-            "signature"
-          ],
-          [
-            "la ricevuta",
-            "receipt"
+            "compilare",
+            "scrivere i dati in un modulo"
           ],
           [
             "lo sportello",
-            "counter"
+            "il posto dove l'impiegato parla con il pubblico"
           ],
           [
-            "compilare",
-            "to fill in"
+            "la ricevuta",
+            "il foglio che dimostra che hai pagato o consegnato qualcosa"
           ],
           [
-            "restituire",
-            "to give back"
+            "scadere",
+            "non essere più valido dopo una certa data"
+          ],
+          [
+            "il numerino",
+            "il bigliettino con il numero del turno"
+          ],
+          [
+            "l'anagrafe",
+            "l'ufficio del comune che registra i cittadini"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Dove {ip:vai}? Scegli l'ufficio giusto.",
         "questions": [
-          "{ip:Deve} [[firmare]] qui. (to sign)",
-          "{pp:Ho perso} un [[documento]]. (document)",
-          "{ip:Devo} [[consegnare]] questo modulo. (to hand in)",
-          "L'[[impiegato]] {ip:è} molto gentile. (clerk)"
+          {
+            "q": "{ip:Devi} spedire un pacco in Germania.",
+            "options": [
+              "*all'ufficio postale",
+              "in questura",
+              "all'anagrafe"
+            ]
+          },
+          {
+            "q": "{ip:Devi} rinnovare il passaporto.",
+            "options": [
+              "*in questura",
+              "all'ufficio postale",
+              "in farmacia"
+            ]
+          },
+          {
+            "q": "{ip:Hai} cambiato casa e {ip:devi} dare il nuovo indirizzo al comune.",
+            "options": [
+              "*all'anagrafe",
+              "in questura",
+              "in banca"
+            ]
+          },
+          {
+            "q": "{ip:Sei} straniero e {ip:vuoi} vivere in Italia per lavoro.",
+            "options": [
+              "*in questura, per il permesso di soggiorno",
+              "all'ufficio postale, per un francobollo",
+              "in biblioteca"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Il mio passaporto [[scade]] a marzo: {ip:devo} rinnovarlo.",
+          "{ip:Ho} aspettato un'ora: c'{im:era} una lunga [[fila]].",
+          "{imv:Scriva} il Suo nome e poi {imv:metta} la [[firma]] qui.",
+          "Per questo documento serve una [[marca]] da bollo da sedici euro.",
+          "{imv:Conservi} la [[ricevuta]]: Le {fs:servirà} se il pacco non {ip:arriva}."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Ieri {pp:sono andata} in posta a ritirare un pacco. L'impiegato mi {pp:ha chiesto} il documento e io gliel'{pp:ho dato}. Poi mi {pp:ha detto}: «{imv:Compili} questo modulo e lo {ip:firmi} qui, per favore.» Non {im:capivo} una domanda e gliel'{pp:ho chiesto}.",
-      "Lui me l'{pp:ha spiegata} con pazienza. Alla fine mi {pp:ha restituito} il documento: «Eccolo. Se lo {imv:metta} in borsa, signora, e non lo {csp:perda}!» {pp:Ho ritirato} il pacco e l'{pp:ho portato} a mia figlia. Gliel'{tp:aveva mandato} sua zia."
+      {
+        "h": "Il mio codice fiscale"
+      },
+      "Quando {pp:sono arrivata} a Bologna per l'Erasmus, tutti mi {im:dicevano}: «Ti {ip:serve} il codice fiscale!» Senza codice fiscale in Italia non si {ip:può} fare quasi niente: aprire un conto in banca, firmare un contratto d'affitto, comprare una SIM.",
+      "Così una mattina {pp:sono andata} all'Agenzia delle Entrate. {pp:Ho preso} il numerino e {pp:ho aspettato} quasi un'ora. Finalmente l'impiegata mi {pp:ha chiamata}: «Buongiorno, mi {imv:dica}.» «{cop:Vorrei} il codice fiscale.» «Bene. {ip:Ha} il passaporto? Me lo {imv:dia}, per favore. E {imv:compili} questo modulo.»",
+      "Non {im:capivo} una domanda del modulo, così gliel'{pp:ho chiesto}. Lei me l'{pp:ha spiegata} con pazienza: «{imv:Scriva} qui il Suo indirizzo in Italia e {imv:firmi} in fondo.» Dopo dieci minuti mi {pp:ha dato} un foglio: «Ecco il Suo codice. Non lo {imv:perda}!»",
+      "Fuori dall'ufficio {pp:ho fatto} una foto al foglio e l'{pp:ho mandata} a mia madre. Gliel'{pp:ho mandata} per farla ridere: il mio codice {ip:è} lunghissimo, sedici lettere e numeri! *Sofía*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Why did she go to the post office?",
+            "q": "Perché Sofía {ip:è} in Italia?",
             "options": [
-              "To send a letter",
-              "*To collect a parcel",
-              "To pay a bill"
+              "*per l'Erasmus",
+              "per lavoro",
+              "in vacanza"
             ]
           },
           {
-            "q": "What did the clerk ask her to do?",
+            "q": "Che cosa si {ip:può} fare con il codice fiscale?",
             "options": [
-              "*Fill in and sign a form",
-              "Come back later",
-              "Pay ten euros"
+              "*aprire un conto e firmare un contratto",
+              "viaggiare gratis in treno",
+              "votare alle elezioni"
             ]
           },
           {
-            "q": "How was the clerk?",
+            "q": "Che cosa {pp:ha chiesto} l'impiegata a Sofía?",
             "options": [
-              "Rude",
-              "In a hurry",
-              "*Patient"
+              "*il passaporto",
+              "il permesso di soggiorno",
+              "una marca da bollo"
             ]
           },
           {
-            "q": "Who sent the parcel?",
+            "q": "Perché Sofía {pp:ha mandato} la foto alla madre?",
             "options": [
-              "Her mother",
-              "*Her daughter's aunt",
-              "The clerk"
+              "*per farla ridere",
+              "perché la madre {im:doveva} firmare",
+              "per chiederle aiuto"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Sofía {pp:ha aspettato} solo cinque minuti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Sofía non {im:capiva} una domanda del modulo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'impiegata {pp:è stata} impaziente.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Sofía {pp:ha ricevuto} il codice lo stesso giorno.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il codice fiscale {ip:ha} sedici lettere e numeri.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i pronomi combinati.",
+        "questions": [
+          "{ip:Ha} il passaporto? [[Me lo]] {imv:dia}, per favore.",
+          "Non {im:capivo} una domanda, così [[gliel']]{pp:ho chiesto}.",
+          "Lei [[me l']]{pp:ha spiegata} con pazienza.",
+          "[[Gliel']]{pp:ho mandata} per farla ridere."
         ]
       }
     ]
@@ -366,51 +676,80 @@
   "listening": {
     "transcript": [
       [
-        "Impiegata",
-        "Buongiorno, mi {csp:dica}."
+        "Impiegato",
+        "Buongiorno, mi {imv:dica}."
       ],
       [
         "Cliente",
-        "{ip:Devo} rinnovare il passaporto."
+        "Buongiorno. {ip:Devo} spedire questo pacco a mia sorella, in Germania."
       ],
       [
-        "Impiegata",
-        "{ip:Ha} il vecchio documento? Me lo {imv:dia}, per favore."
-      ],
-      [
-        "Cliente",
-        "Eccolo. Glielo {ip:lascio} qui?"
-      ],
-      [
-        "Impiegata",
-        "Sì. {imv:Compili} questo modulo e me lo {ip:porti} allo sportello due."
+        "Impiegato",
+        "Me lo {imv:dia}, lo {ip:peso}… Due chili. {ip:Vuole} la spedizione veloce?"
       ],
       [
         "Cliente",
-        "{ip:Va} bene, grazie. Glielo {ip:porto} subito."
+        "Sì, grazie. {fs:Arriverà} entro venerdì?"
+      ],
+      [
+        "Impiegato",
+        "Sì. {imv:Compili} questo modulo con l'indirizzo, per favore."
+      ],
+      [
+        "Cliente",
+        "Ecco fatto. Glielo {ip:lascio} qui?"
+      ],
+      [
+        "Impiegato",
+        "Sì, grazie. {ip:Sono} diciotto euro. Ecco la ricevuta: la {imv:conservi}."
+      ],
+      [
+        "Cliente",
+        "Grazie. Se il pacco non {ip:arriva}, gliela {ip:porto}?"
+      ],
+      [
+        "Impiegato",
+        "Esatto. Arrivederci!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Buongiorno, mi [[dica#csp]].",
-          "[[Me lo]] {imv:dia}, per favore.",
-          "[[Compili#imv]] questo modulo.",
-          "[[Glielo]] {ip:porto} subito."
+          "Buongiorno, mi [[dica#imv]].",
+          "[[Me lo]] {imv:dia}, lo {ip:peso}.",
+          "[[Compili#imv]] questo modulo con l'indirizzo.",
+          "[[Glielo]] {ip:lascio} qui?",
+          "Se il pacco non {ip:arriva}, [[gliela]] {ip:porto}?"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Where should the customer take the form?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "To…",
+            "q": "Dove {ip:va} il pacco?",
             "options": [
-              "the first counter",
-              "*counter two",
-              "the manager"
+              "*in Germania",
+              "in Spagna",
+              "a Roma"
+            ]
+          },
+          {
+            "q": "Quanto {ip:costa} la spedizione?",
+            "options": [
+              "*diciotto euro",
+              "due euro",
+              "otto euro"
+            ]
+          },
+          {
+            "q": "Perché il cliente {ip:deve} conservare la ricevuta?",
+            "options": [
+              "*Se il pacco non {ip:arriva}, {fs:dovrà} mostrarla.",
+              "Per pagare dopo.",
+              "Per spedire un altro pacco."
             ]
           }
         ]
@@ -421,43 +760,498 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi con i pronomi combinati o con l'[imv:imperativo] formale.",
+        "open": true,
         "questions": [
           {
-            "q": "I'll tell it to you tomorrow. (informal)",
-            "a": [
-              "Te lo dico domani.",
-              "Domani te lo dico.",
-              "Te lo dirò domani."
+            "q": "Qual {ip:è} stata la tua esperienza più difficile in un ufficio pubblico?"
+          },
+          {
+            "q": "Un amico ti {ip:chiede} la macchina per un weekend. Gliela {ip:presti}? Perché?"
+          },
+          {
+            "q": "Che cosa {ip:regali} di solito ai tuoi genitori per il compleanno? Glielo {ip:compri} o lo {ip:fai} tu?"
+          },
+          {
+            "q": "Un turista ti {ip:chiede} come arrivare alla stazione. Spiegaglielo con il *Lei*."
+          },
+          {
+            "q": "Quali documenti {ip:hai} sempre con te? Chi te li {pp:ha chiesti} l'ultima volta?"
+          },
+          {
+            "q": "Scrivi tre regole per i clienti di un ufficio, con il *Lei*."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Allo sportello"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un impiegato porge un modulo a una signora dall'altra parte dello sportello",
+          "B — Un ragazzo mostra la carta d'identità all'impiegata",
+          "C — Una macchinetta all'ingresso di un ufficio con i bigliettini dei numeri",
+          "D — Una mano con una penna sopra la riga «Firma» di un foglio"
+        ],
+        "pairs": [
+          [
+            "«Lo {imv:compili}, per favore.»",
+            "immagine A"
+          ],
+          [
+            "«Ecco il documento: glielo {ip:lascio}?»",
+            "immagine B"
+          ],
+          [
+            "«{imv:Prenda} il numero e {imv:aspetti} il Suo turno.»",
+            "immagine C"
+          ],
+          [
+            "«{imv:Firmi} qui, per favore.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le frasi dell'impiegato con l'[imv:imperativo] formale.",
+        "questions": [
+          "(venire) [[Venga#imv]] avanti, prego.",
+          "(sedersi) [[Si sieda#imv]] pure.",
+          "Mi (dare) [[dia#imv]] il passaporto, per favore.",
+          "(tornare) [[Torni#imv]] tra due settimane a ritirare il documento."
+        ]
+      },
+      {
+        "h": "Te lo presto!"
+      },
+      {
+        "type": "gap",
+        "prompt": "Rispondi con i pronomi combinati.",
+        "questions": [
+          "Mi {ip:presti} la bici? Sì, [[te la]] {ip:presto}.",
+          "{ip:Hai} dato il regalo a Luca? Sì, [[gliel']]{pp:ho dato} ieri.",
+          "Ci {ip:mandate} le foto della festa? Sì, [[ve le]] {ip:mandiamo} stasera.",
+          "{ip:Hai} detto la notizia ai tuoi genitori? No, non [[gliel']]{pp:ho} ancora {pp:detta}.",
+          "Mi {ip:dai} un po' di torta? Sì, [[te ne]] {ip:do} una fetta."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli i pronomi giusti.",
+        "questions": [
+          {
+            "q": "Il libro di Marco? ___ {ip:restituisco} domani.",
+            "options": [
+              "*Glielo",
+              "Gliela",
+              "Glieli"
             ]
           },
           {
-            "q": "I'm giving it to him. (a book)",
-            "a": [
-              "Glielo do.",
-              "Io glielo do."
+            "q": "Le chiavi? ___ {ip:do} subito, signora.",
+            "options": [
+              "Glielo",
+              "*Gliele",
+              "Gliela"
             ]
           },
           {
-            "q": "Give it to me, please. (polite, a book)",
-            "a": [
-              "Me lo dia, per favore."
+            "q": "Quanti biglietti {ip:vuoi}? ___ {ip:compro} due.",
+            "options": [
+              "*Te ne",
+              "Te li",
+              "Te lo"
             ]
           },
           {
-            "q": "Tell me! (polite)",
-            "a": [
-              "Mi dica!"
-            ]
-          },
-          {
-            "q": "I want to explain it to you. (informal, a rule, la regola)",
-            "a": [
-              "Voglio spiegartela.",
-              "Te la voglio spiegare."
+            "q": "La ricetta? ___ {pp:ha data} mia nonna.",
+            "options": [
+              "*Me l'",
+              "Me lo",
+              "Me li"
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Un'amica ti {ip:chiede} in prestito tre cose: il tuo vestito nero, i tuoi libri di italiano e la tua macchina. Che cosa le {ip:rispondi}? Usa *te lo, te la, te li*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il vestito:"
+          },
+          {
+            "q": "I libri:"
+          },
+          {
+            "q": "La macchina:"
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con i pronomi attaccati all'infinito.",
+        "questions": [
+          "La bici {ip:è} di Marco: {ip:devo} (ridare a lui) [[ridargliela]] stasera.",
+          "{ip:Hai} i miei appunti? {ip:Puoi} (mandare a me) [[mandarmeli]]?",
+          "Questa storia {ip:è} bellissima: {ip:voglio} (raccontare a voi) [[raccontarvela]]."
+        ]
+      },
+      {
+        "h": "Avviso ai clienti"
+      },
+      {
+        "text": [
+          "**Ufficio Anagrafe — Avviso**",
+          "{imv:Prenda} il numero all'ingresso e {imv:aspetti} il Suo turno nella sala d'attesa.",
+          "{imv:Prepari} un documento d'identità valido.",
+          "Allo sportello non {imv:usi} il telefono.",
+          "Se {ip:ha} bisogno di un certificato, {imv:compili} prima il modulo giallo.",
+          "Per informazioni {imv:chieda} all'ufficio informazioni, piano terra. Grazie!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi l'avviso. Vero o falso?",
+        "questions": [
+          {
+            "q": "Il numero si {ip:prende} all'ingresso.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Allo sportello si {ip:può} telefonare.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Per un certificato bisogna compilare il modulo giallo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Un amico {ip:va} all'anagrafe. Ripeti l'avviso con il *tu*.",
+        "questions": [
+          "{imv:Prenda} il numero. → [[Prendi#imv]] il numero.",
+          "{imv:Aspetti} il Suo turno. → [[Aspetta#imv]] il tuo turno.",
+          "Non {imv:usi} il telefono. → Non [[usare#imv]] il telefono.",
+          "{imv:Compili} il modulo giallo. → [[Compila#imv]] il modulo giallo.",
+          "{imv:Chieda} all'ufficio informazioni. → [[Chiedi#imv]] all'ufficio informazioni."
+        ]
+      },
+      {
+        "h": "Dal medico"
+      },
+      {
+        "type": "gap",
+        "prompt": "Il medico {ip:dà} consigli a un paziente. Completa con l'[imv:imperativo] formale.",
+        "questions": [
+          "(bere) [[Beva#imv]] molta acqua.",
+          "(prendere) [[Prenda#imv]] questa medicina due volte al giorno.",
+          "Non (uscire) [[esca#imv]] di casa per tre giorni.",
+          "Se la febbre non {ip:passa}, mi (telefonare) [[telefoni#imv]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa {ip:dice} il medico? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Signora, ___ la bocca, per favore.",
+            "options": [
+              "*{imv:apra}",
+              "{imv:apri}",
+              "{ip:apre}"
+            ]
+          },
+          {
+            "q": "Le gocce? Le ___ prima di dormire.",
+            "options": [
+              "*{imv:prenda}",
+              "{imv:prendi}",
+              "{ip:prende}"
+            ]
+          },
+          {
+            "q": "Lo sciroppo? Non lo ___ ai bambini.",
+            "options": [
+              "*{imv:dia}",
+              "{imv:dai}",
+              "{ip:dà}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "*Tu* o *Lei*? Abbina ogni frase a chi {ip:parla}.",
+        "pairs": [
+          [
+            "{imv:Scusa}, mi {ip:passi} il sale?",
+            "a un amico"
+          ],
+          [
+            "{imv:Scusi}, mi {ip:passa} il sale?",
+            "a un signore"
+          ],
+          [
+            "{imv:Dimmi} tutto!",
+            "a un amico"
+          ],
+          [
+            "Mi {imv:dica}!",
+            "a un signore"
+          ],
+          [
+            "{imv:Siediti} qui!",
+            "a un amico"
+          ],
+          [
+            "Si {imv:sieda} qui!",
+            "a un signore"
+          ]
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Gli lo do domani.",
+            "a": [
+              "Glielo do domani."
+            ]
+          },
+          {
+            "q": "Mi lo presti?",
+            "a": [
+              "Me lo presti?"
+            ]
+          },
+          {
+            "q": "Signora, dimmi pure!",
+            "a": [
+              "Signora, mi dica pure!"
+            ]
+          },
+          {
+            "q": "Me l'ha dato la lettera.",
+            "a": [
+              "Me l'ha data la lettera.",
+              "Me l'ha data, la lettera."
+            ]
+          },
+          {
+            "q": "Prendi il numero, signore.",
+            "a": [
+              "Prenda il numero, signore."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "lo / me / per favore / dia",
+            "a": [
+              "Me lo dia, per favore.",
+              "Me lo dia per favore."
+            ]
+          },
+          {
+            "q": "ho / gliel' / ieri / detto",
+            "a": [
+              "Gliel'ho detto ieri.",
+              "Ieri gliel'ho detto."
+            ]
+          },
+          {
+            "q": "presto / te / la / domani",
+            "a": [
+              "Te la presto domani.",
+              "Domani te la presto."
+            ]
+          },
+          {
+            "q": "il modulo / compili / per favore",
+            "a": [
+              "Compili il modulo, per favore.",
+              "Compili il modulo per favore.",
+              "Per favore, compili il modulo."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*Glielo, gliela, glieli, gliele, gliene* si scrivono sempre in una sola parola. *Me lo, te la, ce ne* invece sono due parole.",
+          "Con *da', di', fa', sta', va'* il pronome raddoppia la consonante: *dammi, dimmi, fallo, stammi, vacci*."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi i pronomi attaccati o staccati.",
+        "questions": [
+          "Il libro? [[Glielo]] {ip:porto} io. (gli + lo)",
+          "La foto? [[Me la]] {ip:mandi}? (mi + la)",
+          "Le chiavi? [[Gliele]] {ip:do} stasera. (gli + le)",
+          "Di pane? [[Ce ne]] {ip:serve} ancora. (ci + ne)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'[imv:imperativo] con il pronome.",
+        "questions": [
+          "(dire + mi) [[Dimmi#imv]] la verità!",
+          "(dare + mi) [[Dammi#imv]] una mano!",
+          "(fare + lo) [[Fallo#imv]] subito!",
+          "(dare + gli) [[Dagli#imv]] il tuo numero!"
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare due pronomi insieme: *Te lo presto. Glielo do domani.*",
+          "So mettere i pronomi al posto giusto: *Te lo posso dire. Posso dirtelo.*",
+          "So dare istruzioni con il *Lei*: *Compili il modulo e firmi qui.*",
+          "So usare l'[imv:imperativo] con i pronomi: *Dimmi! Mi dica!*",
+          "So muovermi in un ufficio pubblico italiano."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Due signori anziani si stringono la mano in una piazza di paese, mentre due ragazzi si salutano con un bacio sulla guancia"
+      },
+      {
+        "text": [
+          "**Tu, Lei o voi?**",
+          "In italiano ci {ip:sono} due modi di parlare a una persona: il *tu*, con amici, familiari e bambini, e il *Lei*, con le persone che non {ip:conosciamo} o che {ip:rispettiamo} in modo particolare, come un medico o un professore.",
+          "Il *Lei* {ip:è} nato molti secoli fa: all'inizio si {im:parlava} a «Vostra Signoria», e *Lei* {ip:è} proprio la Signoria. Per questo si {ip:usa} la terza persona, come se {csi:parlassimo} di qualcun altro.",
+          "Nel 1938 il regime fascista {pp:ha cercato} di eliminare il *Lei* e di imporre il *voi*, ma dopo la guerra il *Lei* {pp:è tornato}. Ancora oggi, in alcune zone del Sud, molte persone anziane {ip:usano} il *voi* per essere gentili.",
+          "E i giovani? Tra loro il *tu* {ip:arriva} subito, anche con persone appena conosciute. In un ufficio, però, {ip:è} meglio cominciare con il *Lei*: se l'altra persona {ip:preferisce} il *tu*, {fs:sarà} lei a dirlo."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Con un medico di solito si {ip:usa} il *Lei*.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il *Lei* {ip:viene} da «Vostra Signoria».",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Nel 1938 il regime fascista {pp:ha imposto} il *tu*.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "In alcune zone del Sud si {ip:usa} ancora il *voi*.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Tra giovani si {ip:usa} quasi sempre il *Lei*.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Perché con il *Lei* si {ip:usa} la terza persona?",
+            "options": [
+              "*Perché all'inizio si {im:parlava} alla «Signoria».",
+              "Perché {ip:è} più facile.",
+              "Perché lo {ip:vuole} la legge."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:è} meglio fare in un ufficio?",
+            "options": [
+              "*Cominciare con il *Lei*.",
+              "Usare sempre il *voi*.",
+              "Usare subito il *tu*."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E nella tua lingua? C'{ip:è} una forma di cortesia? Quando la {ip:usi}?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "{ip:Affitti} il tuo appartamento a un ospite che non {ip:conosci}. Scrivigli un messaggio con le istruzioni, usando il *Lei*.",
+        "cues": [
+          "Dove {ip:trova} le chiavi? (*Le prenda…*)",
+          "Come {ip:funziona} la casa? (*Accenda…, Non apra…*)",
+          "Che cosa {ip:deve} fare quando {ip:parte}? (*Lasci le chiavi…, Me le…*)",
+          "Saluti e auguri. (*Si goda il soggiorno!*)"
+        ],
+        "start": "Gentile signor Weber,\n",
+        "model": "Gentile signor Weber,\nbenvenuto a Firenze! Le chiavi sono nella cassetta delle lettere: il codice è 1234. Le prenda e salga al terzo piano.\nIl wi-fi si chiama «CasaRossi» e la password è sul frigorifero. Per l'acqua calda, accenda l'interruttore in bagno e aspetti dieci minuti.\nLa raccolta differenziata è importante: metta la carta nel sacchetto blu e la plastica in quello giallo.\nQuando parte, lasci le chiavi sul tavolo e chiuda bene la porta. Se ha bisogno di qualcosa, mi scriva o mi telefoni pure.\nSi goda il soggiorno!\nPaola Rossi"
       }
     ]
   }

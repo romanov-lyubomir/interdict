@@ -338,6 +338,7 @@
       {
         "type": "gap",
         "prompt": "Completa l'intervista con l'[im:imperfetto] o il [pp:passato prossimo] dei verbi tra parentesi.",
+        "ordered": true,
         "questions": [
           "— Che cosa facevi di solito d'estate? — (andare) [[Andavo#im]] in campagna dai nonni.",
           "— E lì che cosa facevate? — (noi, costruire) [[Costruivamo#im]] capanne e (raccogliere) [[raccoglievamo#im]] le more.",

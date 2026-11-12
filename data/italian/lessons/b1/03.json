@@ -1,208 +1,494 @@
 {
   "title": "{im:Pensavo} che {csi:fosse} Perugia",
-  "translation": "I thought it was Perugia",
-  "topics": "The [csi:congiuntivo imperfetto] and the sequence of tenses",
+  "translation": "",
+  "topics": "Il [csi:congiuntivo imperfetto] regolare e irregolare, il [cst:congiuntivo trapassato], la concordanza dei tempi, *vorrei che*, *magari* e *come se*, viaggi ed equivoci",
   "grammar": {
     "explain": [
+      "Nelle lezioni 1 e 2 il primo verbo era al [ip:presente]: *{ip:Penso} che {csp:sia} Perugia.* Ma quando raccontiamo una cosa passata, anche il primo verbo va al passato, e dopo *che* arriva il [csi:congiuntivo imperfetto]: *{im:Pensavo} che {csi:fosse} Perugia.*",
       {
-        "h": "When the main verb moves to the past"
-      },
-      "After a main verb in the past, the part with *che* moves to the [csi:congiuntivo imperfetto]. *{ip:Penso} che {csp:sia} Perugia* becomes *{im:Pensavo} che {csi:fosse} Perugia*.",
-      {
-        "table": {
-          "head": [
-            "Main verb",
-            "Same time",
-            "Earlier"
-          ],
-          "rows": [
-            [
-              "{ip:Penso} che (present)",
-              "{csp:sia} Perugia",
-              "{csa:sia stata} Perugia"
-            ],
-            [
-              "{im:Pensavo} che (past)",
-              "{csi:fosse} Perugia",
-              "{cst:fosse stata} Perugia"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "La concordanza dei tempi",
+              "head": [
+                "il primo verbo",
+                "l'azione è nello stesso momento",
+                "l'azione è successa prima"
+              ],
+              "rows": [
+                [
+                  "al [ip:presente]: *{ip:Penso} che…*",
+                  "**{csp:sia}** Perugia.",
+                  "**{csa:sia stata}** una bella vacanza."
+                ],
+                [
+                  "al passato: *{im:Pensavo} che…, {pp:Ho pensato} che…*",
+                  "**{csi:fosse}** Perugia.",
+                  "**{cst:fosse stata}** una bella vacanza."
+                ]
+              ]
+            },
+            "note": [
+              "Quando il primo verbo è al passato ([im:imperfetto] o [pp:passato prossimo]), dopo *che* si usano il [csi:congiuntivo imperfetto] (stesso momento) e il [cst:congiuntivo trapassato] (prima).",
+              "Lo stesso vale per tutte le espressioni delle lezioni 1 e 2: *{ip:Spero} che {csp:venga} → {im:Speravo} che {csi:venisse}*; *{ip:È} strano che non {csp:risponda} → {im:Era} strano che non {csi:rispondesse}*."
             ]
-          ]
-        }
-      },
-      "The form in the last cell is the [cst:congiuntivo trapassato]: the auxiliary in the [csi:congiuntivo imperfetto] with the participle. *{im:Pensavo} che {cst:avesse capito}* (I thought he had understood).",
-      {
-        "h": "How to form it"
-      },
-      "Good news: the vowel of the infinitive stays, and all three groups share one set of endings. Think of *-are, -ere, -ire* + *-ssi*.",
-      {
-        "table": {
-          "head": [
-            "",
-            "parlare",
-            "scrivere",
-            "dormire"
-          ],
-          "rows": [
-            [
-              "io",
-              "{csi:parla**ssi**}",
-              "{csi:scrive**ssi**}",
-              "{csi:dormi**ssi**}"
-            ],
-            [
-              "tu",
-              "{csi:parla**ssi**}",
-              "{csi:scrive**ssi**}",
-              "{csi:dormi**ssi**}"
-            ],
-            [
-              "lui / lei",
-              "{csi:parla**sse**}",
-              "{csi:scrive**sse**}",
-              "{csi:dormi**sse**}"
-            ],
-            [
-              "noi",
-              "{csi:parla**ssimo**}",
-              "{csi:scrive**ssimo**}",
-              "{csi:dormi**ssimo**}"
-            ],
-            [
-              "voi",
-              "{csi:parla**ste**}",
-              "{csi:scrive**ste**}",
-              "{csi:dormi**ste**}"
-            ],
-            [
-              "loro",
-              "{csi:parla**ssero**}",
-              "{csi:scrive**ssero**}",
-              "{csi:dormi**ssero**}"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [csi:congiuntivo imperfetto] dei verbi regolari",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*parlare*",
+                  2
+                ],
+                [
+                  "*prendere*",
+                  2
+                ],
+                [
+                  "*dormire*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "che io",
+                  "{csi:parla**ssi**}",
+                  {
+                    "text": "più piano.",
+                    "rows": 6
+                  },
+                  "{csi:prende**ssi**}",
+                  {
+                    "text": "il treno.",
+                    "rows": 6
+                  },
+                  "{csi:dormi**ssi**}",
+                  {
+                    "text": "di più.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "che tu",
+                  "{csi:parla**ssi**}",
+                  null,
+                  "{csi:prende**ssi**}",
+                  null,
+                  "{csi:dormi**ssi**}",
+                  null
+                ],
+                [
+                  "che lui/lei/Lei",
+                  "{csi:parla**sse**}",
+                  null,
+                  "{csi:prende**sse**}",
+                  null,
+                  "{csi:dormi**sse**}",
+                  null
+                ],
+                [
+                  "che noi",
+                  "{csi:parla**ssimo**}",
+                  null,
+                  "{csi:prende**ssimo**}",
+                  null,
+                  "{csi:dormi**ssimo**}",
+                  null
+                ],
+                [
+                  "che voi",
+                  "{csi:parla**ste**}",
+                  null,
+                  "{csi:prende**ste**}",
+                  null,
+                  "{csi:dormi**ste**}",
+                  null
+                ],
+                [
+                  "che loro",
+                  "{csi:parla**ssero**}",
+                  null,
+                  "{csi:prende**ssero**}",
+                  null,
+                  "{csi:dormi**ssero**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "La vocale dell'infinito resta (*parl**a**re → parl**a**ssi*, *prend**e**re → prend**e**ssi*, *dorm**i**re → dorm**i**ssi*) e le finali sono le stesse per tutti: **-ssi, -ssi, -sse, -ssimo, -ste, -ssero**.",
+              "*Io* e *tu* hanno la stessa forma: *{im:Pensavo} che tu {csi:dormissi}*. Spesso serve il pronome."
             ]
-          ]
-        }
-      },
-      {
-        "h": "The few irregular verbs"
-      },
-      "*Fare*, *bere* and *dire* use the long stems you already know from the [im:imperfetto]: *{csi:facessi}, {csi:bevessi}, {csi:dicessi}*. Only three are special.",
-      {
-        "table": {
-          "head": [
-            "",
-            "essere",
-            "dare",
-            "stare"
-          ],
-          "rows": [
-            [
-              "io",
-              "{csi:fossi}",
-              "{csi:dessi}",
-              "{csi:stessi}"
-            ],
-            [
-              "tu",
-              "{csi:fossi}",
-              "{csi:dessi}",
-              "{csi:stessi}"
-            ],
-            [
-              "lui / lei",
-              "{csi:fosse}",
-              "{csi:desse}",
-              "{csi:stesse}"
-            ],
-            [
-              "noi",
-              "{csi:fossimo}",
-              "{csi:dessimo}",
-              "{csi:stessimo}"
-            ],
-            [
-              "voi",
-              "{csi:foste}",
-              "{csi:deste}",
-              "{csi:steste}"
-            ],
-            [
-              "loro",
-              "{csi:fossero}",
-              "{csi:dessero}",
-              "{csi:stessero}"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [csi:congiuntivo imperfetto] di *essere, dare, stare*",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*essere*",
+                  2
+                ],
+                [
+                  "*dare*",
+                  2
+                ],
+                [
+                  "*stare*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "che io",
+                  "{csi:fossi}",
+                  {
+                    "text": "in vacanza.",
+                    "rows": 6
+                  },
+                  "{csi:dessi}",
+                  {
+                    "text": "una mano.",
+                    "rows": 6
+                  },
+                  "{csi:stessi}",
+                  {
+                    "text": "meglio.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "che tu",
+                  "{csi:fossi}",
+                  null,
+                  "{csi:dessi}",
+                  null,
+                  "{csi:stessi}",
+                  null
+                ],
+                [
+                  "che lui/lei/Lei",
+                  "{csi:fosse}",
+                  null,
+                  "{csi:desse}",
+                  null,
+                  "{csi:stesse}",
+                  null
+                ],
+                [
+                  "che noi",
+                  "{csi:fossimo}",
+                  null,
+                  "{csi:dessimo}",
+                  null,
+                  "{csi:stessimo}",
+                  null
+                ],
+                [
+                  "che voi",
+                  "{csi:foste}",
+                  null,
+                  "{csi:deste}",
+                  null,
+                  "{csi:steste}",
+                  null
+                ],
+                [
+                  "che loro",
+                  "{csi:fossero}",
+                  null,
+                  "{csi:dessero}",
+                  null,
+                  "{csi:stessero}",
+                  null
+                ]
+              ]
+            },
+            "note": "Solo questi tre verbi sono davvero irregolari. Attenzione alla *e* di *dare* e *stare*: *{csi:dessi}, {csi:stessi}*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [csi:congiuntivo imperfetto] di *fare, bere, dire*",
+              "rows": [
+                [
+                  "*fare*",
+                  "{csi:facessi}, {csi:facessi}, {csi:facesse}, {csi:facessimo}, {csi:faceste}, {csi:facessero}"
+                ],
+                [
+                  "*bere*",
+                  "{csi:bevessi}, {csi:bevessi}, {csi:bevesse}, {csi:bevessimo}, {csi:beveste}, {csi:bevessero}"
+                ],
+                [
+                  "*dire*",
+                  "{csi:dicessi}, {csi:dicessi}, {csi:dicesse}, {csi:dicessimo}, {csi:diceste}, {csi:dicessero}"
+                ]
+              ]
+            },
+            "note": "Questi verbi usano la radice lunga dell'[im:imperfetto]: *{im:facevo} → {csi:facessi}*, *{im:bevevo} → {csi:bevessi}*, *{im:dicevo} → {csi:dicessi}*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [cst:congiuntivo trapassato]",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*capire* (con *avere*)",
+                  2
+                ],
+                [
+                  "*partire* (con *essere*)",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "che io",
+                  "{cst:**avessi** capito}",
+                  {
+                    "text": "tutto.",
+                    "rows": 6
+                  },
+                  "{cst:**fossi** partit**o**/**a**}",
+                  {
+                    "text": "il giorno prima.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "che tu",
+                  "{cst:**avessi** capito}",
+                  null,
+                  "{cst:**fossi** partit**o**/**a**}",
+                  null
+                ],
+                [
+                  "che lui/lei/Lei",
+                  "{cst:**avesse** capito}",
+                  null,
+                  "{cst:**fosse** partit**o**/**a**}",
+                  null
+                ],
+                [
+                  "che noi",
+                  "{cst:**avessimo** capito}",
+                  null,
+                  "{cst:**fossimo** partit**i**/**e**}",
+                  null
+                ],
+                [
+                  "che voi",
+                  "{cst:**aveste** capito}",
+                  null,
+                  "{cst:**foste** partit**i**/**e**}",
+                  null
+                ],
+                [
+                  "che loro",
+                  "{cst:**avessero** capito}",
+                  null,
+                  "{cst:**fossero** partit**i**/**e**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Si forma come il [csa:congiuntivo passato], ma l'ausiliare va al [csi:congiuntivo imperfetto]: *{csa:abbia capito} → {cst:avesse capito}*, *{csa:sia partito} → {cst:fosse partito}*.",
+              "Si usa dopo un verbo al passato, per un'azione successa ancora prima: *{im:Credevo} che Luca {cst:fosse} già {cst:partito}.*"
             ]
-          ]
-        }
-      },
-      {
-        "h": "Wishes with vorrei che"
-      },
-      "A wish in the conditional also takes this tense, because it's about something unreal: *{cop:Vorrei} che tu {csi:venissi}* (I'd like you to come). And *Magari* with this tense means *If only…*: *Magari {csi:fosse} vero!*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Altri usi del [csi:congiuntivo imperfetto]",
+              "head": [
+                "per…",
+                "si usa",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "un desiderio",
+                  "*vorrei che, mi piacerebbe che*",
+                  "{cop:Vorrei} che tu **{csi:venissi}** con me. Mi {cop:piacerebbe} che **{csi:restaste}** a cena."
+                ],
+                [
+                  "un desiderio forte, quasi impossibile",
+                  "*magari* + congiuntivo",
+                  "Magari **{csi:fosse}** vero! Magari **{csi:avessi}** più tempo!"
+                ],
+                [
+                  "un paragone con una cosa non vera",
+                  "*come se*",
+                  "{ip:Parla} come se **{csi:fosse}** il capo. {pp:Ha mangiato} come se non **{cst:avesse mangiato}** da giorni."
+                ]
+              ]
+            },
+            "note": [
+              "Dopo *vorrei che* e *mi piacerebbe che* si usa sempre il [csi:congiuntivo imperfetto], anche se il desiderio è per adesso o per il futuro.",
+              "*Magari* da solo vuol dire «forse»: *Magari {ip:vengo} anch'io.* Con il congiuntivo esprime un desiderio: *Magari {csi:venissi} anche tu!*"
+            ]
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the [csi:congiuntivo imperfetto].",
+        "prompt": "Completa con il [csi:congiuntivo imperfetto].",
         "questions": [
-          "{im:Pensavo} che [[fosse#csi]] Perugia. (essere)",
-          "{im:Credevo} che tu [[parlassi#csi]] tedesco. (parlare)",
-          "{im:Speravo} che voi [[veniste#csi]]. (venire)",
-          "Non {im:sapevo} che loro [[abitassero#csi]] qui. (abitare)",
-          "{im:Volevo} che lui [[leggesse#csi]] il libro. (leggere)",
-          "{im:Pensavo} che noi [[avessimo#csi]] tempo. (avere)"
+          "{im:Pensavo} che Marco (lavorare) [[lavorasse#csi]] a Milano.",
+          "{im:Credevo} che voi (prendere) [[prendeste#csi]] il treno.",
+          "{pp:Ho pensato} che i ragazzi (dormire) [[dormissero#csi]] ancora.",
+          "{im:Speravo} che tu mi (capire) [[capissi#csi]].",
+          "Non {im:sapevo} che Anna (parlare) [[parlasse#csi]] così bene il tedesco.",
+          "{im:Era} strano che noi non (ricevere) [[ricevessimo#csi]] risposte."
         ]
       },
       {
         "type": "gap",
-        "prompt": "These verbs are irregular. Put them in the [csi:congiuntivo imperfetto].",
+        "prompt": "Completa con il [csi:congiuntivo imperfetto] dei verbi irregolari.",
         "questions": [
-          "{im:Pensavo} che Luca [[facesse#csi]] il medico. (fare)",
-          "{im:Credevo} che tu [[stessi#csi]] bene. (stare)",
-          "{cop:Vorrei} che mi [[dessero#csi]] una risposta. (dare, loro)",
-          "Non {im:credevo} che tu [[dicessi#csi]] la verità. (dire)"
+          "{im:Pensavo} che (essere) [[fosse#csi]] Perugia.",
+          "{im:Credevo} che tu (stare) [[stessi#csi]] male.",
+          "{im:Volevo} che i miei genitori mi (dare) [[dessero#csi]] un consiglio.",
+          "{pp:Ho pensato} che voi (fare) [[faceste#csi]] uno scherzo.",
+          "Non {im:immaginavo} che Paolo (bere) [[bevesse#csi]] tanto caffè.",
+          "{im:Speravo} che tu mi (dire) [[dicessi#csi]] la verità."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right tense.",
+        "prompt": "Il primo verbo va al passato. Scegli la forma giusta.",
         "questions": [
           {
-            "q": "{ip:Penso} che Marta ___ a casa.",
+            "q": "{ip:Penso} che Luca {csp:sia} a casa. → {im:Pensavo} che Luca ___ a casa.",
             "options": [
-              "*{csp:sia}",
-              "{csi:fosse}"
-            ]
-          },
-          {
-            "q": "{im:Pensavo} che Marta ___ a casa.",
-            "options": [
+              "*{csi:fosse}",
               "{csp:sia}",
-              "*{csi:fosse}"
+              "{ip:è}"
             ]
           },
           {
-            "q": "{ip:Spero} che tu ___ .",
+            "q": "{ip:Credo} che {csp:piova}. → {im:Credevo} che ___.",
             "options": [
-              "*{imv:venga}",
-              "{csi:venissi}"
+              "*{csi:piovesse}",
+              "{csp:piova}",
+              "{im:pioveva}"
             ]
           },
           {
-            "q": "{cop:Vorrei} che tu ___ .",
+            "q": "{ip:Spero} che tu {csp:venga}. → {im:Speravo} che tu ___.",
             "options": [
-              "{imv:venga}",
-              "*{csi:venissi}"
+              "*{csi:venissi}",
+              "{csp:venga}",
+              "{cst:fossi venuto}"
             ]
           },
           {
-            "q": "{im:Credevo} che ieri ___ partito.",
+            "q": "{ip:Dubito} che {csa:abbiano capito}. → {im:Dubitavo} che ___.",
             "options": [
-              "{csp:sia}",
-              "*{csi:fosse}"
+              "*{cst:avessero capito}",
+              "{csa:abbiano capito}",
+              "{csi:capissero}"
+            ]
+          },
+          {
+            "q": "{ip:È} strano che non {csp:risponda}. → {im:Era} strano che non ___.",
+            "options": [
+              "*{csi:rispondesse}",
+              "{csp:risponda}",
+              "{csa:abbia risposto}"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Stesso momento o prima? Completa con il [csi:congiuntivo imperfetto] o il [cst:congiuntivo trapassato].",
+        "questions": [
+          "{im:Credevo} che voi (partire) [[foste partiti#cst]] ieri, e invece {ip:siete} ancora qui!",
+          "{im:Pensavo} che Marta (essere) [[fosse#csi]] in ufficio in quel momento.",
+          "{im:Era} possibile che il treno (partire) [[fosse partito#cst]] prima del previsto.",
+          "Non {im:sapevo} che tu (vivere) [[vivessi#csi]] in centro.",
+          "{im:Speravo} che Luca (finire) [[avesse finito#cst]] il lavoro prima di cena."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Vorrei che, magari* o *come se*? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "{cop:Vorrei} che tu ___ più spesso.",
+            "options": [
+              "*{csi:telefonassi}",
+              "{csp:telefoni}",
+              "{ip:telefoni}"
+            ]
+          },
+          {
+            "q": "Magari ___ in vacanza anche noi!",
+            "options": [
+              "*{csi:fossimo}",
+              "{ip:siamo}",
+              "{csp:siamo}"
+            ]
+          },
+          {
+            "q": "{ip:Parla} come se ___ tutto.",
+            "options": [
+              "*{csi:sapesse}",
+              "{ip:sa}",
+              "{csp:sappia}"
+            ]
+          },
+          {
+            "q": "Mi {cop:piacerebbe} che voi ___ alla mia festa.",
+            "options": [
+              "*{csi:veniste}",
+              "{csp:veniate}",
+              "{ip:venite}"
+            ]
+          },
+          {
+            "q": "{ip:Sei} pallido, come se non ___ per tre notti.",
+            "options": [
+              "*{cst:avessi dormito}",
+              "{csa:abbia dormito}",
+              "{pp:hai dormito}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta al passato: completa con il [csi:congiuntivo imperfetto].",
+        "questions": [
+          "{ip:Penso} che il museo {csp:sia} chiuso. → {im:Pensavo} che il museo [[fosse#csi]] chiuso.",
+          "{ip:Spero} che faccia bel tempo. → {im:Speravo} che [[facesse#csi]] bel tempo.",
+          "{ip:Credo} che Anna {csp:abbia} ragione. → {im:Credevo} che Anna [[avesse#csi]] ragione.",
+          "{ip:Voglio} che voi {csp:veniate}. → {im:Volevo} che voi [[veniste#csi]].",
+          "{ip:È} meglio che tu {csp:resti}. → {im:Era} meglio che tu [[restassi#csi]]."
         ]
       }
     ]
@@ -210,139 +496,265 @@
   "vocabulary": {
     "words": [
       [
-        "il malinteso",
-        "misunderstanding"
+        "l'equivoco",
+        "quando si capisce una cosa per un'altra"
       ],
       [
         "la verità",
-        "truth"
+        "quello che è vero"
       ],
       [
         "la bugia",
-        "lie"
-      ],
-      [
-        "il viaggiatore",
-        "traveller"
-      ],
-      [
-        "la cartina",
-        "map"
-      ],
-      [
-        "il cartello",
-        "sign"
+        "una cosa non vera, detta per far credere qualcosa"
       ],
       [
         "sbagliarsi",
-        "to be wrong"
+        "pensare una cosa che non è vera"
       ],
       [
         "accorgersi",
-        "to notice"
+        "capire o vedere una cosa che prima non si vedeva"
       ],
       [
-        "fingere",
-        "to pretend"
+        "aspettarsi",
+        "pensare che una cosa succederà"
+      ],
+      [
+        "deluso",
+        "triste perché una cosa non è come speravi"
+      ],
+      [
+        "sorpreso",
+        "quando succede una cosa che non ti aspettavi"
       ],
       [
         "meravigliarsi",
-        "to be surprised"
+        "essere molto sorpreso"
+      ],
+      [
+        "fingere",
+        "far credere una cosa che non è vera"
+      ],
+      [
+        "noleggiare",
+        "prendere una macchina o una bici per qualche giorno, pagando"
+      ],
+      [
+        "il navigatore",
+        "l'apparecchio che in macchina indica la strada"
+      ],
+      [
+        "la cartina",
+        "un disegno di una città o di una regione, con le strade"
+      ],
+      [
+        "il cartello",
+        "un'indicazione scritta sulla strada"
+      ],
+      [
+        "perdersi",
+        "non trovare più la strada"
+      ],
+      [
+        "il borgo",
+        "un piccolo paese antico"
+      ],
+      [
+        "la collina",
+        "una piccola montagna"
+      ],
+      [
+        "il paesaggio",
+        "quello che vedi intorno a te in campagna o in montagna"
       ],
       [
         "evidente",
-        "obvious"
+        "chiaro, che tutti possono vedere"
       ],
       [
         "magari",
-        "if only, maybe"
+        "forse; con il congiuntivo: «come mi piacerebbe!»"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il malinteso",
-            "misunderstanding"
+            "l'equivoco",
+            "quando si capisce una cosa per un'altra"
           ],
           [
-            "la bugia",
-            "lie"
+            "accorgersi",
+            "capire o vedere una cosa che prima non si vedeva"
           ],
           [
-            "la cartina",
-            "map"
+            "deluso",
+            "triste perché una cosa non è come speravi"
           ],
           [
-            "il cartello",
-            "sign"
+            "noleggiare",
+            "prendere una macchina o una bici per qualche giorno, pagando"
+          ],
+          [
+            "il borgo",
+            "un piccolo paese antico"
           ],
           [
             "fingere",
-            "to pretend"
-          ],
-          [
-            "evidente",
-            "obvious"
+            "far credere una cosa che non è vera"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Come si sente questa persona?",
         "questions": [
-          "{imv:Dimmi} la [[verità]]! (truth)",
-          "Non mi {pp:sono} [[accorto#pp]] di niente. (noticed)",
-          "{imv:Scusa}, mi {pp:sono} [[sbagliato#pp]]. (got it wrong)",
-          "{pp:È stato} solo un [[malinteso]]. (misunderstanding)"
+          {
+            "q": "«{im:Pensavo} che l'albergo {csi:fosse} sul mare, e invece {im:era} in città.»",
+            "options": [
+              "*deluso",
+              "sorpreso in modo positivo",
+              "evidente"
+            ]
+          },
+          {
+            "q": "«Non {im:immaginavo} che il borgo {csi:fosse} così bello!»",
+            "options": [
+              "*piacevolmente sorpreso",
+              "deluso",
+              "arrabbiato"
+            ]
+          },
+          {
+            "q": "«{pp:Ho seguito} il navigatore e ora non {ip:so} più dove {ip:sono}.»",
+            "options": [
+              "*si {pp:è perso}",
+              "si {pp:è meravigliato}",
+              "{pp:ha finto}"
+            ]
+          },
+          {
+            "q": "«Mi {pp:ha detto} che {im:era} malato, ma {im:era} al cinema.»",
+            "options": [
+              "*{pp:ha detto} una bugia",
+              "{pp:ha detto} la verità",
+              "{pp:ha noleggiato} una macchina"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Per visitare la Toscana {pp:abbiamo noleggiato} una [[macchina]].",
+          "Non {pp:abbiamo visto} il [[cartello]] e {pp:abbiamo sbagliato} strada.",
+          "Il [[navigatore]] {ip:dice} di girare a destra.",
+          "Dalla finestra si {ip:vede} un [[paesaggio]] bellissimo, con colline e vigne.",
+          "Scusa, mi {pp:sono} [[sbagliato|sbagliata]]: il museo {ip:è} chiuso il lunedì."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "L'estate scorsa {pp:ho noleggiato} una macchina per visitare l'Umbria. Dopo due ore di viaggio {pp:ho visto} una città bellissima su una collina. {pp:Ho pensato} che {csi:fosse} Perugia, così {pp:ho parcheggiato} e {pp:ho cominciato} a cercare il mio albergo.",
-      "Non lo {im:trovavo} da nessuna {ip:parte}. {im:Credevo} che la cartina {csi:fosse sbagliata}, ma alla fine {pp:ho chiesto} a un signore. Lui si {pp:è messo} a ridere: «Perugia? Ma questa {ip:è} Assisi!» Mi {pp:sono sentito} stupido, ma Assisi {im:era} così bella che {pp:sono rimasto} lì tutto il giorno."
+      {
+        "h": "Un viaggio a San Martino"
+      },
+      "L'estate scorsa io e mia moglie Carla {pp:abbiamo deciso} di passare una settimana in montagna. Carla {pp:ha prenotato} un albergo a San Martino e io {pp:ho scritto} il nome del paese nel navigatore.",
+      "Dopo cinque ore di autostrada {im:eravamo} un po' stanchi. Il paesaggio {im:era} strano: non c'{im:erano} montagne, solo colline e campi di grano. {im:Pensavo} che il navigatore {csi:prendesse} una strada più lunga per evitare il traffico, ma Carla {im:aveva} qualche dubbio.",
+      "Quando {pp:siamo arrivati}, {pp:abbiamo capito} tutto: {im:eravamo} a San Martino in Pensilis, in Molise, e non a San Martino di Castrozza, nelle Dolomiti! {im:Credevo} che in Italia ci {csi:fosse} un solo San Martino… e invece ce ne {ip:sono} tantissimi.",
+      "Il signore del bar in piazza {pp:ha riso} molto: «{ip:Siete} i terzi turisti quest'estate!» Ci {pp:ha offerto} un caffè e ci {pp:ha consigliato} una trattoria. Non {im:immaginavo} che il Molise {csi:fosse} così bello: alla fine {pp:siamo rimasti} lì due giorni, prima di ripartire per le Dolomiti. *Roberto*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Which town did the speaker think it was?",
+            "q": "Dove {im:volevano} andare Roberto e Carla?",
             "options": [
-              "Assisi",
-              "*Perugia",
-              "Spoleto"
+              "*in montagna, nelle Dolomiti",
+              "al mare, in Molise",
+              "in una grande città"
             ]
           },
           {
-            "q": "What was the speaker looking for?",
+            "q": "Perché il paesaggio {im:era} strano?",
             "options": [
-              "A petrol station",
-              "*The hotel",
-              "A restaurant"
+              "*Non c'{im:erano} montagne.",
+              "C'{im:era} troppa neve.",
+              "{im:Era} notte."
             ]
           },
           {
-            "q": "What did the man do?",
+            "q": "Che cosa {im:pensava} Roberto del navigatore?",
             "options": [
-              "*He laughed",
-              "He got angry",
-              "He drew a map"
+              "*che {csi:prendesse} una strada più lunga",
+              "che {csi:fosse} rotto",
+              "che {csi:parlasse} troppo"
             ]
           },
           {
-            "q": "What did the speaker do in the end?",
+            "q": "Quanto tempo {pp:sono rimasti} in Molise?",
             "options": [
-              "Left at once",
-              "*Stayed there all day",
-              "Returned the car"
+              "*due giorni",
+              "una settimana",
+              "un'ora"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "{pp:È stata} Carla a scrivere il nome del paese nel navigatore.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Carla {im:aveva} qualche dubbio sulla strada.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "In Italia c'{ip:è} un solo paese che si {ip:chiama} San Martino.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Roberto e Carla non {im:erano} i primi turisti a sbagliare paese.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il Molise non {pp:è piaciuto} a Roberto.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il [csi:congiuntivo imperfetto].",
+        "questions": [
+          "{im:Pensavo} che il navigatore [[prendesse#csi]] una strada più lunga.",
+          "{im:Credevo} che in Italia ci [[fosse#csi]] un solo San Martino.",
+          "Non {im:immaginavo} che il Molise [[fosse#csi]] così bello."
         ]
       }
     ]
@@ -350,57 +762,76 @@
   "listening": {
     "transcript": [
       [
-        "Silvia",
-        "Ma {ip:sei} qui? {im:Pensavo} che {csi:fossi} a Roma!"
+        "Elena",
+        "Allora, Carla, come {ip:va} in montagna?"
       ],
       [
-        "Paolo",
-        "No, {im:credevo} che ti {cst:avessero detto} che {pp:sono tornato}."
+        "Carla",
+        "Montagna? {ip:Siamo} in Molise!"
       ],
       [
-        "Silvia",
-        "Nessuno mi {pp:ha detto} niente. {im:Pensavo} che {csi:lavorassi} lì."
+        "Elena",
+        "In Molise? {im:Pensavo} che {csi:foste} nelle Dolomiti!"
       ],
       [
-        "Paolo",
-        "Sì, ma {pp:ho cambiato} idea. {im:Volevo} che tu lo {csi:sapessi}."
+        "Carla",
+        "Anche noi lo {im:pensavamo}. Roberto {im:credeva} che il navigatore {csi:sapesse} la strada…"
       ],
       [
-        "Silvia",
-        "Magari me lo {cst:avessi detto} prima!"
+        "Elena",
+        "Ma non {pp:avete controllato} prima di partire?"
       ],
       [
-        "Paolo",
-        "{ip:Hai} ragione, {imv:scusa}."
+        "Carla",
+        "No, io {im:pensavo} che l'{cst:avesse controllato} lui!"
+      ],
+      [
+        "Elena",
+        "Che storia! Comunque magari ci {csi:fossi} anch'io. Mi {cop:piacerebbe} che mi {csi:mandaste} qualche foto."
+      ],
+      [
+        "Carla",
+        "Certo! E domani {ip:ripartiamo} per le Dolomiti, promesso."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{im:Pensavo} che [[fossi#csi]] a Roma!",
-          "{im:Pensavo} che [[lavorassi#csi]] lì.",
-          "{im:Volevo} che tu lo [[sapessi#csi]].",
-          "[[Magari]] me lo {cst:avessi detto} prima!"
+          "{im:Pensavo} che [[foste#csi]] nelle Dolomiti!",
+          "Roberto {im:credeva} che il navigatore [[sapesse#csi]] la strada.",
+          "Io {im:pensavo} che l'[[avesse controllato#cst]] lui!",
+          "Magari ci [[fossi#csi]] anch'io.",
+          "Mi {cop:piacerebbe} che mi [[mandaste#csi]] qualche foto."
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Silvia thought Paolo was in Rome.",
+            "q": "Chi {ip:è} Elena?",
             "options": [
-              "*True",
-              "False"
+              "*un'amica o una parente di Carla",
+              "la signora del bar",
+              "una turista in Molise"
             ]
           },
           {
-            "q": "Paolo still works in Rome.",
+            "q": "Chi {im:doveva} controllare la strada, secondo Carla?",
             "options": [
-              "True",
-              "*False"
+              "*Roberto",
+              "Elena",
+              "il signore del bar"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:vuole} Elena?",
+            "options": [
+              "*qualche foto",
+              "il numero dell'albergo",
+              "una cartina del Molise"
             ]
           }
         ]
@@ -411,44 +842,441 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi con *pensavo che, credevo che, non immaginavo che, vorrei che, magari*…",
+        "open": true,
         "questions": [
           {
-            "q": "I thought it was Perugia.",
-            "a": [
-              "Pensavo che fosse Perugia.",
-              "Credevo che fosse Perugia."
+            "q": "Da bambino, che cosa {im:credevi} che {csi:fosse} vero (e non lo {im:era})?"
+          },
+          {
+            "q": "Racconta un equivoco divertente di un tuo viaggio."
+          },
+          {
+            "q": "Che cosa {im:pensavi} dell'Italia prima di studiare l'italiano?"
+          },
+          {
+            "q": "Che cosa {cop:vorresti} che {csi:cambiasse} nella tua città?"
+          },
+          {
+            "q": "Magari…! Scrivi un tuo desiderio."
+          },
+          {
+            "q": "Che cosa ti {cop:piacerebbe} che {csi:facessero} i tuoi amici per te?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Non me l'aspettavo!"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un turista davanti alla porta di un ristorante con il cartello «Chiuso»",
+          "B — Una camera d'albergo piccolissima, con il letto attaccato al muro",
+          "C — Una famiglia sulla spiaggia sotto la pioggia, con gli ombrelloni chiusi",
+          "D — Una fila lunghissima di persone davanti all'entrata di un museo"
+        ],
+        "pairs": [
+          [
+            "«{im:Pensavo} che {csi:fosse} aperto.»",
+            "immagine A"
+          ],
+          [
+            "«{im:Credevo} che la camera {csi:fosse} più grande.»",
+            "immagine B"
+          ],
+          [
+            "«{im:Speravo} che {csi:facesse} bel tempo.»",
+            "immagine C"
+          ],
+          [
+            "«Non {im:pensavo} che ci {csi:fosse} tanta gente.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "h": "Una cartolina da Venezia"
+      },
+      {
+        "text": [
+          "**Cara nonna,** ti {ip:scrivo} da Venezia! {im:Pensavo} che {csi:fosse} una città piccola e invece {ip:è} un labirinto: ieri mi {pp:sono persa} tre volte. {im:Credevo} che i vaporetti {csi:costassero} poco, ma un biglietto {ip:costa} quasi dieci euro! Però {ip:è} tutto bellissimo: non {im:immaginavo} che le case sui canali {csi:avessero} colori così belli. Un bacio, *Giulia*"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi la cartolina. Vero o falso?",
+        "questions": [
+          {
+            "q": "Giulia {im:pensava} che Venezia {csi:fosse} grande.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "I thought you spoke German. (informal)",
-            "a": [
-              "Pensavo che tu parlassi tedesco.",
-              "Pensavo che parlassi tedesco.",
-              "Credevo che parlassi tedesco."
+            "q": "Ieri Giulia si {pp:è persa}.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "I would like you to come. (informal)",
-            "a": [
-              "Vorrei che tu venissi.",
-              "Vorrei che venissi."
+            "q": "Il vaporetto {ip:è} più caro di quello che {im:pensava}.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "I didn't know they lived here.",
-            "a": [
-              "Non sapevo che abitassero qui.",
-              "Non sapevo che vivessero qui."
-            ]
-          },
-          {
-            "q": "If only it were true!",
-            "a": [
-              "Magari fosse vero!"
+            "q": "Le case sui canali non {ip:piacciono} a Giulia.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           }
         ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le frasi sulla cartolina con il [csi:congiuntivo imperfetto].",
+        "questions": [
+          "Giulia {im:pensava} che Venezia (essere) [[fosse#csi]] una città piccola.",
+          "{im:Credeva} che i vaporetti (costare) [[costassero#csi]] poco.",
+          "Non {im:immaginava} che le case (avere) [[avessero#csi]] colori così belli.",
+          "{im:Era} normale che (lei, perdersi) [[si perdesse#csi]]: Venezia {ip:è} un labirinto!"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi tu una cartolina da una città che {pp:hai visitato}: che cosa {im:pensavi} prima e com'{im:era} davvero?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia cartolina:"
+          }
+        ]
+      },
+      {
+        "h": "Prima del viaggio e dopo"
+      },
+      {
+        "type": "gap",
+        "prompt": "Che cosa {im:pensava} Marco prima di andare in Sicilia? Completa con il [csi:congiuntivo imperfetto].",
+        "questions": [
+          "{im:Pensavo} che in Sicilia (fare) [[facesse#csi]] sempre caldo, ma a febbraio {pp:ha nevicato} sull'Etna.",
+          "{im:Credevo} che la gente (parlare) [[parlasse#csi]] solo siciliano, ma tutti {ip:parlano} anche italiano.",
+          "{im:Avevo} paura che il cibo (essere) [[fosse#csi]] troppo piccante, e invece {ip:è} buonissimo.",
+          "Non {im:pensavo} che i treni (andare) [[andassero#csi]] così piano.",
+          "{im:Speravo} che i miei amici mi (portare) [[portassero#csi]] a vedere i templi di Agrigento."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Stesso momento o prima? Completa con il [csi:congiuntivo imperfetto] o il [cst:congiuntivo trapassato].",
+        "questions": [
+          "Quando {pp:sono arrivato}, {im:pensavo} che il museo (chiudere) [[avesse chiuso#cst]] da un'ora.",
+          "{im:Credevo} che in quel momento tu (essere) [[fossi#csi]] al lavoro.",
+          "{im:Speravo} che Laura (ricevere) [[avesse ricevuto#cst]] la mia lettera il giorno prima.",
+          "Non {im:sapevo} che i tuoi genitori (abitare) [[abitassero#csi]] a Bari."
+        ]
+      },
+      {
+        "h": "Desideri"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa i desideri con il [csi:congiuntivo imperfetto].",
+        "questions": [
+          "{cop:Vorrei} che tu (venire) [[venissi#csi]] in vacanza con me.",
+          "Mi {cop:piacerebbe} che i miei figli (leggere) [[leggessero#csi]] di più.",
+          "{cop:Vorremmo} che il treno (essere) [[fosse#csi]] più veloce.",
+          "Mia madre {cop:vorrebbe} che io la (chiamare) [[chiamassi#csi]] ogni sera.",
+          "Mi {cop:piacerebbe} che voi (restare) [[restaste#csi]] a cena."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Che cosa {ip:dici}? Abbina ogni situazione al desiderio giusto.",
+        "pairs": [
+          [
+            "{ip:Piove} da una settimana.",
+            "«Magari uscisse il sole!»"
+          ],
+          [
+            "Il tuo amico {ip:vive} lontano.",
+            "«Magari abitassimo più vicini!»"
+          ],
+          [
+            "{ip:Lavori} tutti i giorni fino a tardi.",
+            "«Magari avessi più tempo libero!»"
+          ],
+          [
+            "Un biglietto per il concerto {ip:costa} 150 euro.",
+            "«Magari costasse meno!»"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu? Scrivi due desideri: uno con *vorrei che* e uno con *magari*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "{cop:Vorrei} che…"
+          },
+          {
+            "q": "Magari…"
+          }
+        ]
+      },
+      {
+        "h": "Come se…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il [csi:congiuntivo imperfetto] o il [cst:congiuntivo trapassato].",
+        "questions": [
+          "Luca {ip:parla} come se (essere) [[fosse#csi]] il capo.",
+          "Mi {ip:guardi} come se non mi (vedere) [[vedessi#csi]] da anni.",
+          "Anna {pp:ha mangiato} come se non (mangiare) [[avesse mangiato#cst]] da giorni.",
+          "Si {ip:veste} come se (andare) [[andasse#csi]] a una festa."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina l'inizio di ogni frase alla fine giusta.",
+        "pairs": [
+          [
+            "Mangia la pizza come se",
+            "non ne {cst:avesse} mai {cst:vista} una."
+          ],
+          [
+            "Corre come se",
+            "il treno {csi:partisse} tra un minuto."
+          ],
+          [
+            "{ip:Parla} di Roma come se",
+            "ci {cst:fosse nato}."
+          ],
+          [
+            "Mi {ip:tratta} come se",
+            "{csi:fossi} un bambino."
+          ]
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Pensavo che Luca sia a casa.",
+            "a": [
+              "Pensavo che Luca fosse a casa."
+            ]
+          },
+          {
+            "q": "Vorrei che tu vieni con me.",
+            "a": [
+              "Vorrei che tu venissi con me."
+            ]
+          },
+          {
+            "q": "Credevo che voi parlavate inglese.",
+            "a": [
+              "Credevo che voi parlaste inglese."
+            ]
+          },
+          {
+            "q": "Magari è vero!",
+            "a": [
+              "Magari fosse vero!"
+            ]
+          },
+          {
+            "q": "Speravo che tu stassi meglio.",
+            "a": [
+              "Speravo che tu stessi meglio."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "che / fosse / pensavo / Perugia",
+            "a": [
+              "Pensavo che fosse Perugia."
+            ]
+          },
+          {
+            "q": "vorrei / restassi / che / tu / qui",
+            "a": [
+              "Vorrei che tu restassi qui.",
+              "Vorrei che restassi qui tu."
+            ]
+          },
+          {
+            "q": "fosse / come se / il capo / parla",
+            "a": [
+              "Parla come se fosse il capo."
+            ]
+          },
+          {
+            "q": "credevo / già / partiti / che / foste",
+            "a": [
+              "Credevo che foste già partiti.",
+              "Credevo che già foste partiti."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nel [csi:congiuntivo imperfetto] la *s* è doppia: *parla**ss**i, prende**ss**ero*. Solo *voi* ne ha una: *parla**s**te, prende**s**te*.",
+          "Attenzione a non confondere *{csi:fosse}* (congiuntivo di *essere*) e *forse* (= «può darsi»): *{im:Pensavo} che {csi:fosse} tardi. Forse {ip:è} tardi.*"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta: *s* o *ss*?",
+        "questions": [
+          "{im:Pensavo} che voi parla[[s]]te inglese.",
+          "{im:Credevo} che loro arriva[[ss]]ero domani.",
+          "{im:Speravo} che tu dormi[[ss]]i bene.",
+          "{im:Volevo} che voi veni[[s]]te alla festa."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "*Fosse* o *forse*?",
+        "questions": [
+          "[[Forse]] domani {ip:piove}.",
+          "{im:Pensavo} che [[fosse#csi]] già partito.",
+          "Magari [[fosse#csi]] vero!",
+          "Non {ip:so}, [[forse]] {ip:ha} ragione lui."
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So raccontare che cosa pensavo prima: *Pensavo che fosse Perugia.*",
+          "So dire che una cosa non era come mi aspettavo: *Credevo che costasse meno.*",
+          "So esprimere un desiderio: *Vorrei che tu venissi con me.*",
+          "So usare *magari* e *come se*: *Magari fosse vero! Parla come se fosse il capo.*",
+          "So distinguere stesso momento e prima: *Credevo che fosse a casa / che fosse già partito.*",
+          "So raccontare un equivoco durante un viaggio."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Le colline verdi del Molise con un piccolo borgo di pietra in cima e, in basso, una mandria di mucche che cammina lungo un sentiero"
+      },
+      {
+        "text": [
+          "**Il Molise esiste!**",
+          "In Italia c'{ip:è} una battuta famosa: «Il Molise non esiste». Molti italiani, infatti, non {ip:sanno} bene dove {csp:si trovi} questa piccola regione tra l'Abruzzo, il Lazio, la Campania e la Puglia.",
+          "{ip:È} la seconda regione più piccola d'Italia, dopo la Valle d'Aosta, e {ip:ha} meno di trecentomila abitanti. Chi ci {ip:va} per la prima volta spesso si {ip:meraviglia}: non {im:pensava} che ci {csi:fossero} spiagge sull'Adriatico, montagne, boschi e borghi antichi così belli.",
+          "In Molise {ip:è} ancora viva la transumanza: in primavera i pastori {ip:portano} le mucche e le pecore dalla pianura alle montagne, a piedi, come {im:facevano} i loro nonni. Nel 2019 l'UNESCO l'{pp:ha inserita} nel patrimonio culturale immateriale dell'umanità.",
+          "Insomma, il Molise esiste… e vale la pena di scoprirlo!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Molti italiani non {ip:sanno} bene dove {csp:sia} il Molise.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il Molise {ip:è} la regione più piccola d'Italia.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "In Molise c'{ip:è} anche il mare.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Oggi i pastori {ip:portano} gli animali in montagna con i camion.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La transumanza {ip:è} patrimonio dell'UNESCO.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con le parole del testo.",
+        "questions": [
+          "Il Molise {ip:è} la seconda regione più [[piccola]] d'Italia.",
+          "Chi ci {ip:va} non {im:pensava} che ci [[fossero#csi]] spiagge.",
+          "In primavera i [[pastori]] {ip:portano} gli animali in montagna."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E nel tuo paese? C'{ip:è} una regione o una città poco famosa che {ip:merita} una visita? Che cosa {im:pensavi} di questo posto prima di conoscerlo?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi una mail a un amico su un viaggio che non {pp:è andato} come {im:pensavi}.",
+        "cues": [
+          "Dove {pp:sei andato} e con chi?",
+          "Che cosa {im:pensavi} prima di partire? (*Pensavo che…, Credevo che…*)",
+          "Che cosa {pp:è successo} invece?",
+          "Com'{pp:è finita}? Che cosa {cop:vorresti} la prossima volta? (*Vorrei che…*)"
+        ],
+        "start": "Ciao Paolo,\n",
+        "model": "Ciao Paolo,\nsono appena tornata da Napoli, dove sono stata con mia sorella. Pensavo che a ottobre facesse ancora caldo e ho portato solo magliette… e invece ha piovuto per tre giorni!\nCredevo anche che l'albergo fosse in centro, ma era a mezz'ora di autobus. Il primo giorno ci siamo perse, perché non immaginavo che le strade fossero così piccole e piene di gente.\nPerò la pizza era buonissima e la gente gentilissima: alla fine è stato un viaggio bellissimo!\nLa prossima volta vorrei che venissi anche tu.\nUn abbraccio,\nSara"
       }
     ]
   }

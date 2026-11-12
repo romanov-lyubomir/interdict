@@ -5,8 +5,10 @@ import os
 import random
 import re
 import secrets
+from datetime import datetime
 from functools import wraps
 
+import click
 from flask import (
     Flask,
     abort,
@@ -73,6 +75,7 @@ login_manager.init_app(app)
 
 MIN_PASSWORD_LENGTH = 8
 MAX_LIST_NAME_LENGTH = 100
+MAX_SHAPE_LENGTH = 500
 DATA_DIR = os.path.join(app.root_path, "data")
 
 TOPICS = ["foods", "drinks", "fruits", "transport"]
@@ -104,6 +107,9 @@ LANGUAGES = {
     },
 }
 
+# The codes for the lang attribute of text in each language
+LANGUAGE_CODES = {"italian": "it", "spanish": "es", "german": "de", "greek": "el"}
+
 # Pages the language switcher may send the user back to
 LANGUAGE_SWITCH_TARGETS = {
     "index",
@@ -113,6 +119,7 @@ LANGUAGE_SWITCH_TARGETS = {
     "cheat_sheets",
     "lessons",
     "profile",
+    "language_settings",
 }
 
 
@@ -171,7 +178,7 @@ SEARCH_INDEX = {
         STORIES[lang],
         lambda level, number: f"/lessons/{level.lower()}/{number}",
         lambda slug: f"/stories/{slug}",
-        grammar_lessons.ui_for(lang),
+        lambda lesson, lang=lang: grammar_lessons.lesson_ui(lang, lesson),
     )
     for lang in LANGUAGES
 }
@@ -201,7 +208,6 @@ VERB_SUGGESTIONS = 2
 VERB_RESULTS = 8
 SUGGESTIONS = 5
 RESULTS_PER_PAGE = 12
-HOME_PAGE_LESSONS = 4
 
 
 def load_cheat_sheet(lang):
@@ -249,6 +255,7 @@ class User(UserMixin, db.Model):
     username = db.Column(db.String(100), unique=True, nullable=False)
     language = db.Column(db.String(10), nullable=False)
     word_lists = db.relationship("WordList", cascade="all, delete-orphan")
+    lesson_progress = db.relationship("LessonProgress", cascade="all, delete-orphan")
 
 
 class WordList(db.Model):
@@ -273,6 +280,107 @@ class WordListEntry(db.Model):
     word = db.Column(db.String(100), nullable=False)
     lemma = db.Column(db.String(100), nullable=False)
     meaning = db.Column(db.String(255), nullable=False)
+
+
+class LessonProgress(db.Model):
+    # What a signed-in user has written in one exercise of a lesson, and which
+    # answers were already checked or revealed, so the exercise opens again
+    # the way it was left (see static/lesson.js).
+    #
+    # NOTE FOR WHOEVER CHANGES THE LESSONS (people and AI assistants alike):
+    # a row only knows its exercise by position ("exercise" is the id the page
+    # gives it, such as "practice-3" or "workbook-12") and the answers inside
+    # it by their order. After a real change to an exercise, clear that
+    # lesson's saved progress, or users will see old answers in the wrong
+    # questions:
+    #
+    #     flask --app main clear-lesson-progress A2 9
+    #
+    # (add --language spanish etc. for another language). What counts as a
+    # real change, and what doesn't (a spelling fix like "migliore" ->
+    # "miglior"), is written in CLAUDE.md under "Saved exercise progress".
+    #
+    # Progress is never thrown away by the page itself. Each row is also kept
+    # by the exercise's "shape" (its type, number of answers and options, see
+    # shapeOf in static/lesson.js). If the exercise on the page has another
+    # shape, for example because of a bug while developing, the old row is
+    # left alone and the new answers go into a row of their own; once the
+    # page is fixed, the old answers come back. Only the command above
+    # deletes progress, and it keeps a backup first.
+    __tablename__ = "lesson_progress"
+    __table_args__ = (
+        db.UniqueConstraint("user_id", "language", "level", "number", "exercise", "shape"),
+    )
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False, index=True)
+    language = db.Column(db.String(10), nullable=False)
+    level = db.Column(db.String(5), nullable=False)
+    number = db.Column(db.Integer, nullable=False)
+    exercise = db.Column(db.String(50), nullable=False)
+    shape = db.Column(db.String(MAX_SHAPE_LENGTH), nullable=False)
+    # JSON: {"shape": ..., "fields": [{"value": ..., "state": ...}], "scored": bool}
+    state = db.Column(db.Text, nullable=False)
+    updated = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+
+
+PROGRESS_BACKUP_DIR = os.path.join(app.instance_path, "progress_backups")
+PROGRESS_COLUMNS = ["user_id", "language", "level", "number", "exercise", "shape", "state"]
+
+
+@app.cli.command("clear-lesson-progress")
+@click.argument("level")
+@click.argument("number", type=int)
+@click.option("--language", default="italian", show_default=True)
+@click.option("--exercise", help="Only this exercise, such as use-5 (the data-find id on the page).")
+@click.option("--yes", is_flag=True, help="Don't ask before deleting.")
+def clear_lesson_progress(level, number, language, exercise, yes):
+    """Delete every user's saved exercise answers for one lesson.
+
+    The rows are written to instance/progress_backups first, so a mistake can
+    be undone with restore-lesson-progress.
+    """
+    level = level.upper()
+    query = LessonProgress.query.filter_by(language=language, level=level, number=number)
+    if exercise:
+        query = query.filter_by(exercise=exercise)
+    rows = query.all()
+    where = f"{language} {level}/{number}" + (f" ({exercise})" if exercise else "")
+    if not rows:
+        click.echo(f"Nothing saved for {where}.")
+        return
+    if not yes:
+        click.confirm(
+            f"Delete {len(rows)} saved exercises of {len(set(row.user_id for row in rows))} users for {where}?",
+            abort=True,
+        )
+    os.makedirs(PROGRESS_BACKUP_DIR, exist_ok=True)
+    stamp = datetime.utcnow().strftime("%Y%m%d-%H%M%S")
+    backup = os.path.join(PROGRESS_BACKUP_DIR, f"{language}-{level}-{number}-{stamp}.json")
+    with open(backup, "w", encoding="utf-8") as file:
+        json.dump([{key: getattr(row, key) for key in PROGRESS_COLUMNS} for row in rows], file, ensure_ascii=False)
+    for row in rows:
+        db.session.delete(row)
+    db.session.commit()
+    click.echo(f"Removed {len(rows)} saved exercises of {where}. Backup: {backup}")
+
+
+@app.cli.command("restore-lesson-progress")
+@click.argument("backup", type=click.Path(exists=True, dir_okay=False))
+def restore_lesson_progress(backup):
+    """Put back the rows of a backup made by clear-lesson-progress.
+
+    Answers saved since then for the same exercise and shape are kept.
+    """
+    with open(backup, encoding="utf-8") as file:
+        rows = json.load(file)
+    restored = 0
+    for data in rows:
+        keys = {key: data[key] for key in PROGRESS_COLUMNS if key != "state"}
+        if db.session.get(User, data["user_id"]) and not LessonProgress.query.filter_by(**keys).first():
+            db.session.add(LessonProgress(state=data["state"], **keys))
+            restored += 1
+    db.session.commit()
+    click.echo(f"Restored {restored} of {len(rows)} saved exercises.")
 
 
 @login_manager.user_loader
@@ -374,6 +482,20 @@ TENSE_MARK = re.compile(r"\{(\w+):([^{}]+)\}")
 TENSE_NAME = re.compile(r"\[(\w+):([^\[\]]+)\]")
 
 
+app.jinja_env.globals["exercise_pages"] = grammar_lessons.exercise_pages
+
+
+@app.template_filter("shuffled")
+def shuffled(items, keep_order=False):
+    # [(position as written, item), ...] in a random order, or as written
+    # when the order matters. Lesson questions and options are shown this way;
+    # the position is what their saved answers refer to
+    pairs = list(enumerate(items))
+    if not keep_order:
+        random.shuffle(pairs)
+    return pairs
+
+
 @app.template_filter("plain")
 def plain(text):
     # The text without its tense marks
@@ -415,14 +537,144 @@ def hash_password(password):
 
 
 def home_page_lessons(lang):
-    new_lessons = [
-        (lesson["title"], url_for("lesson", level="a1", number=lesson["number"]))
-        for lesson in LESSONS[lang].get("A1", [])[:HOME_PAGE_LESSONS]
-    ]
-    return new_lessons or [
+    # Languages without the new lessons still list their old topic lessons
+    return [
         (format(topic), url_for("lesson_for_topic", topic=topic))
         for topic in LANGUAGES[lang]["lessons"]
     ]
+
+
+def checkable_exercises(lang):
+    """For each lesson, its exercises that can be checked, in the order of the
+    page: {(level, number): [(exercise id, part, card number), ...]}.
+
+    Open questions, free writing and tick lists have no right answer, so they
+    don't count towards progress.
+    """
+    result = {}
+    for level, level_lessons in LESSONS[lang].items():
+        for lesson in level_lessons:
+            found = []
+            for key, _ in grammar_lessons.SECTIONS + grammar_lessons.OPTIONAL_SECTIONS:
+                if key not in lesson:
+                    continue
+                _, pages = grammar_lessons.exercise_pages(key, lesson[key])
+                for position, page in enumerate(pages, 1):
+                    exercise = page.get("exercise")
+                    if exercise and exercise["type"] != "free" and not exercise.get("open"):
+                        found.append((page["id"], key, position))
+            result[(level, lesson["number"])] = found
+    return result
+
+
+CHECKABLE = {lang: checkable_exercises(lang) for lang in LANGUAGES}
+
+
+def finished(state_text):
+    # An exercise is finished when every answer was checked as right (answers
+    # only revealed don't count), the same rule as the marks on the lesson tabs
+    try:
+        fields = json.loads(state_text).get("fields") or []
+    except (ValueError, AttributeError):
+        return False
+    return bool(fields) and all(isinstance(field, dict) and field.get("state") == "correct" for field in fields)
+
+
+def lessons_overview(lang):
+    """The Lessons card of the home page: where to continue, and how far each
+    level has got. Progress counts finished exercises, in whatever order they
+    were done, so skipping around is fine."""
+    order = [(level, lesson) for level in stories.LEVELS for lesson in LESSONS[lang].get(level, [])]
+    if not order:
+        return None
+    checkable = CHECKABLE[lang]
+
+    # The newest saved version of each exercise (one row per shape can exist)
+    latest = {}
+    if current_user.is_authenticated:
+        rows = LessonProgress.query.filter_by(user_id=current_user.id, language=lang).order_by(
+            LessonProgress.updated
+        )
+        for row in rows:
+            latest[(row.level, row.number, row.exercise)] = row
+    done = {key for key, row in latest.items() if finished(row.state)}
+
+    def is_done(level, number, exercise):
+        return (level, number, exercise) in done
+
+    def lesson_complete(level, lesson):
+        exercises = checkable.get((level, lesson["number"]), [])
+        return bool(exercises) and all(is_done(level, lesson["number"], ex) for ex, _, _ in exercises)
+
+    levels = []
+    for level in stories.LEVELS:
+        level_lessons = LESSONS[lang].get(level, [])
+        if not level_lessons:
+            continue
+        exercises = [(lesson["number"], ex) for lesson in level_lessons
+                     for ex, _, _ in checkable.get((level, lesson["number"]), [])]
+        levels.append({
+            "level": level,
+            "lessons": len(level_lessons),
+            "lessons_done": sum(lesson_complete(level, lesson) for lesson in level_lessons),
+            "exercises": len(exercises),
+            "exercises_done": sum(is_done(level, number, ex) for number, ex in exercises),
+            "url": url_for("lessons", _anchor=level.lower()),
+        })
+
+    def target(level, lesson, exercise=None):
+        # A link that opens the lesson on that exercise's card
+        exercises = checkable.get((level, lesson["number"]), [])
+        part = position = None
+        for ex, key, place in exercises:
+            if ex == exercise:
+                part, position = key, place
+        url = url_for("lesson", level=level.lower(), number=lesson["number"])
+        if exercise:
+            url += "?find=" + exercise
+        ui = grammar_lessons.lesson_ui(lang, lesson)
+        return {
+            "level": level,
+            "number": lesson["number"],
+            "title": lesson["title"],
+            "where": f"{ui['sections'][part]} · {ui['exercise']} {position}" if part else "",
+            "url": url,
+        }
+
+    def first_open(level, lesson, after=None):
+        # The first unfinished exercise of a lesson, starting after `after`
+        exercises = [ex for ex, _, _ in checkable.get((level, lesson["number"]), [])]
+        if after in exercises:
+            start = exercises.index(after) + 1
+            exercises = exercises[start:] + exercises[:start]
+        return next((ex for ex in exercises if not is_done(level, lesson["number"], ex)), None)
+
+    resume = None
+    newest = max(latest.values(), key=lambda row: row.updated, default=None)
+    if newest:
+        position = next((index for index, (level, lesson) in enumerate(order)
+                         if level == newest.level and lesson["number"] == newest.number), None)
+        if position is not None:
+            level, lesson = order[position]
+            if not is_done(level, lesson["number"], newest.exercise) and any(
+                ex == newest.exercise for ex, _, _ in checkable.get((level, lesson["number"]), [])
+            ):
+                resume = target(level, lesson, newest.exercise)
+            elif first_open(level, lesson, newest.exercise):
+                resume = target(level, lesson, first_open(level, lesson, newest.exercise))
+            else:
+                # The lesson is finished: the next lesson that isn't
+                for level, lesson in order[position + 1:]:
+                    if not lesson_complete(level, lesson):
+                        resume = target(level, lesson, first_open(level, lesson))
+                        break
+    first_level, first_lesson = order[0]
+    return {
+        "resume": resume,
+        "start": None if latest else target(first_level, first_lesson),
+        "levels": levels,
+        "signed_in": current_user.is_authenticated,
+    }
 
 
 @app.route("/")
@@ -436,6 +688,7 @@ def index():
         current_user=current_user,
         topics=TOPICS,
         lessons_list=home_page_lessons(lang),
+        lessons_overview=lessons_overview(lang),
         story_count=len(STORIES[lang]),
         story_levels=stories.LEVELS,
         random_city=random.choice(config["cities"]),
@@ -502,16 +755,102 @@ def lesson(level, number):
         "lesson.html",
         lesson=level_lessons[position],
         level=level,
-        ui=grammar_lessons.ui_for(get_lang()),
+        ui=grammar_lessons.lesson_ui(get_lang(), level_lessons[position]),
         lesson_sections=[
-            (key, grammar_lessons.ui_for(get_lang())["sections"][key])
-            for key, _ in grammar_lessons.SECTIONS
+            (key, grammar_lessons.lesson_ui(get_lang(), level_lessons[position])["sections"][key])
+            for key, _ in grammar_lessons.SECTIONS + grammar_lessons.OPTIONAL_SECTIONS
+            if key in level_lessons[position]
         ],
         previous=level_lessons[position - 1] if position else None,
         following=level_lessons[position + 1] if position + 1 < len(level_lessons) else None,
         glossary=glossary.for_lesson(GLOSSARY[get_lang()], level_lessons[position]),
+        progress=saved_progress(level, number),
+        lang_code=LANGUAGE_CODES[get_lang()],
         current_user=current_user,
     )
+
+
+MAX_PROGRESS_LENGTH = 20000
+EXERCISE_ID = re.compile(r"[a-z]+-\d{1,3}")
+
+
+def saved_progress(level, number):
+    if not current_user.is_authenticated:
+        return {}
+    # Every saved version of each exercise, newest first: the page uses the
+    # one whose shape matches the exercise as it is now
+    rows = LessonProgress.query.filter_by(
+        user_id=current_user.id, language=get_lang(), level=level, number=number
+    ).order_by(LessonProgress.updated.desc())
+    progress = {}
+    for row in rows:
+        progress.setdefault(row.exercise, []).append(json.loads(row.state))
+    return progress
+
+
+@app.route("/lessons/<level>/<int:number>/progress", methods=["POST"])
+@logged_in
+def save_lesson_progress(level, number):
+    # Saves the answers of one exercise (sent by static/lesson.js). See the
+    # note on LessonProgress about clearing it when a lesson changes
+    level = level.upper()
+    lang = get_lang()
+    if not any(item["number"] == number for item in LESSONS[lang].get(level, [])):
+        abort(404)
+    data = request.get_json(silent=True) or {}
+    exercise = data.get("exercise")
+    state = data.get("state")
+    shape = state.get("shape") if isinstance(state, dict) else None
+    if (
+        not isinstance(exercise, str)
+        or not EXERCISE_ID.fullmatch(exercise)
+        or not isinstance(shape, str)
+        or not 0 < len(shape) <= MAX_SHAPE_LENGTH
+    ):
+        return jsonify(error="Bad progress."), 400
+    state_text = json.dumps(state, ensure_ascii=False)
+    if len(state_text) > MAX_PROGRESS_LENGTH:
+        return jsonify(error="Too much text."), 400
+    # Only a save of the same shape replaces a row, so answers of another
+    # version of the exercise are never overwritten (see LessonProgress)
+    keys = dict(
+        user_id=current_user.id, language=lang, level=level, number=number, exercise=exercise, shape=shape
+    )
+    row = LessonProgress.query.filter_by(**keys).first()
+    if row is None:
+        db.session.add(LessonProgress(state=state_text, **keys))
+    else:
+        row.state = state_text
+        row.updated = datetime.utcnow()
+    try:
+        db.session.commit()
+    except IntegrityError:
+        # Two saves of the same exercise at once: the other one has won
+        db.session.rollback()
+    return jsonify(ok=True)
+
+
+@app.route("/lessons/<level>/<int:number>/progress/clear", methods=["POST"])
+@logged_in
+def clear_exercise_progress(level, number):
+    # The user started an exercise over with its "clear" button. Only the
+    # version of the exercise on the page (its shape) is deleted: saved
+    # answers of another shape belong to another version of it and are kept,
+    # like everywhere else (see LessonProgress)
+    data = request.get_json(silent=True) or {}
+    exercise, shape = data.get("exercise"), data.get("shape")
+    if not isinstance(exercise, str) or not EXERCISE_ID.fullmatch(exercise) or not isinstance(shape, str):
+        return jsonify(error="Bad progress."), 400
+    LessonProgress.query.filter_by(
+        user_id=current_user.id,
+        language=get_lang(),
+        level=level.upper(),
+        number=number,
+        exercise=exercise,
+        shape=shape,
+    ).delete()
+    db.session.commit()
+    return jsonify(ok=True)
 
 
 @app.route("/lesson_for_topic/<topic>")
@@ -1421,6 +1760,15 @@ def login():
 @logged_in
 def profile():
     return render_template("profile.html", current_user=current_user)
+
+
+@app.route("/language")
+def language_settings():
+    # Guests have no profile: this is where they change the language they
+    # learn (the flag in the bar leads here; signed-in users go to the profile)
+    if current_user.is_authenticated:
+        return redirect(url_for("profile", _anchor="language"))
+    return render_template("language_settings.html", current_user=current_user)
 
 
 @app.route("/logout")

@@ -63,8 +63,10 @@ def lesson_entries(level, lesson, url, ui):
         yield entry("lesson", title, sections["reading"], url, f"reading-p{index}", paragraph)
     for index, (speaker, line) in enumerate(lesson["listening"].get("transcript", [])):
         yield entry("lesson", title, sections["listening"], url, f"listening-l{index}", f"{speaker}: {line}")
-    for key in ("use", "vocabulary", "reading", "listening", "writing"):
-        for index, exercise in enumerate(lesson[key]["exercises"], 1):
+    for index, paragraph in enumerate(lesson.get("italy", {}).get("text", [])):
+        yield entry("lesson", title, sections["italy"], url, f"italy-p{index}", paragraph)
+    for key in ("use", "vocabulary", "reading", "listening", "writing", "italy"):
+        for index, exercise in enumerate(lesson.get(key, {}).get("exercises", []), 1):
             yield entry("lesson", title, sections[key], url, f"{key}-{index}", raw_exercise(exercise))
 
 
@@ -98,7 +100,9 @@ def build(lessons, stories, lesson_url, story_url, ui):
     index = []
     for level, level_lessons in lessons.items():
         for lesson in level_lessons:
-            index += lesson_entries(level, lesson, lesson_url(level, lesson["number"]), ui)
+            # ui is the labels, or a function giving each lesson its own
+            labels = ui(lesson) if callable(ui) else ui
+            index += lesson_entries(level, lesson, lesson_url(level, lesson["number"]), labels)
     for story in stories.values():
         index += story_entries(story, story_url(story["slug"]))
     return [item for item in index if item["text"]]

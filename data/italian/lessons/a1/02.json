@@ -1,280 +1,256 @@
 {
-  "title": "Un'amica francese",
-  "translation": "",
-  "topics": "Il genere dei nomi, l'articolo indeterminativo, gli aggettivi di nazionalità, domande e negazione, essere e avere",
+  "title": "Ciao, Chiara! Che piacere!",
+  "translation": "Hi, Chiara! Nice to meet you!",
+  "topics": "The alphabet, stress and the sounds c, g, ch, gh, sc",
+  "interface": "english",
   "grammar": {
     "explain": [
-      "Ogni nome italiano è maschile o femminile: non ci sono vie di mezzo né eccezioni. Le parole che vanno con il nome, come gli articoli e gli aggettivi, cambiano per accordarsi con lui.",
+      "The Italian alphabet has 21 letters: a, b, c, d, e, f, g, h, i, l, m, n, o, p, q, r, s, t, u, v, z. The letters j, k, w, x and y only appear in foreign words. Italian is almost always read the way it is written: with the few rules below you can read any word.",
+      "Sounds are written between two slashes: /k/ is the first sound of *casa*.",
       {
-        "grid": [
-          {
-            "table": {
-              "title": "Il nome singolare",
-              "head": [
-                "maschile",
-                "femminile"
-              ],
-              "rows": [
-                [
-                  "un tavol**o**",
-                  "una sedi**a**"
-                ],
-                [
-                  "un giornal**e**",
-                  "una lezion**e**"
-                ]
-              ]
-            },
-            "note": "I nomi in *-o* di solito sono maschili, quelli in *-a* femminili. I nomi in *-e* possono essere maschili o femminili: per questo si imparano con l'articolo."
-          },
-          {
-            "table": {
-              "title": "L'articolo indeterminativo",
-              "head": [
-                "maschile",
-                "femminile"
-              ],
-              "rows": [
-                [
-                  "**un** quaderno",
-                  "**una** borsa"
-                ],
-                [
-                  "**un** ombrello",
-                  "**un'**amica"
-                ],
-                [
-                  "**uno** zaino",
-                  ""
-                ]
-              ]
-            },
-            "note": "*Uno* va davanti a *s* + consonante, *z*, *ps* e *gn*: *uno zaino, uno studente*. *Un'* è solo per le parole femminili che cominciano con una vocale. Le parole maschili prendono *un* senza apostrofo: *un ombrello*."
-          },
-          {
-            "table": {
-              "title": "L'aggettivo di nazionalità",
-              "head": [
-                "",
-                "maschile",
-                "femminile"
-              ],
-              "rows": [
-                [
-                  {
-                    "text": "singolare",
-                    "rows": 2
-                  },
-                  "Pablo {ip:è} spagnol**o**",
-                  "Carmen {ip:è} spagnol**a**"
-                ],
-                [
-                  null,
-                  "Pierre {ip:è} frances**e**",
-                  "Claire {ip:è} frances**e**"
-                ],
-                [
-                  {
-                    "text": "plurale",
-                    "rows": 2
-                  },
-                  "Pablo e Diego {ip:sono} spagnol**i**",
-                  "Carmen e Lucía {ip:sono} spagnol**e**"
-                ],
-                [
-                  null,
-                  "Pierre e Louis {ip:sono} frances**i**",
-                  "Claire e Sophie {ip:sono} frances**i**"
-                ]
-              ]
-            },
-            "wide": true,
-            "note": [
-              "L'aggettivo si accorda con la persona nel genere e nel numero.",
-              "Gli aggettivi in **-o** hanno quattro finali: italian**o** (lui), italian**a** (lei), italian**i** (loro, uomini), italian**e** (loro, donne).",
-              "Gli aggettivi in **-e** ne hanno solo due, uguali per uomini e donne: frances**e** (lui o lei), frances**i** (loro).",
-              "Un gruppo di uomini e donne prende il maschile: *Pablo e Carmen {ip:sono} spagnoli*."
+        "h": "Step one: hard and soft vowels"
+      },
+      "Italian has five vowels. A, o, u are hard; e, i are soft. A soft vowel makes the c, the g or the group sc in front of it soft.",
+      {
+        "table": {
+          "head": [
+            "Letters",
+            "Before a, o, u: hard sound",
+            "Before e, i: soft sound"
+          ],
+          "rows": [
+            [
+              "c",
+              "/k/: *casa, come, cuore*",
+              "/tʃ/: *cena, cinema*"
+            ],
+            [
+              "g",
+              "/g/: *gatto, gonna, gusto*",
+              "/dʒ/: *gelato, giro*"
+            ],
+            [
+              "sc",
+              "/sk/: *scala, sconto, scuola*",
+              "/ʃ/: *scena, sci*"
             ]
-          },
-          {
-            "table": {
-              "rows": [
-                [
-                  "La forma interrogativa",
-                  "{ip:Sei} spagnolo?"
-                ],
-                [
-                  "La forma affermativa",
-                  "Sì, {ip:sono} spagnolo."
-                ],
-                [
-                  "La forma negativa",
-                  "No, non {ip:sono} spagnolo."
-                ]
-              ]
-            },
-            "wide": true,
-            "note": "Una domanda ha le stesse parole di un'affermazione: cambia solo la voce, che sale alla fine. Per dire di no, si mette *non* subito prima del verbo."
-          },
-          {
-            "table": {
-              "title": "Il verbo *essere*",
-              "rows": [
-                [
-                  "io",
-                  "{ip:sono}",
-                  {
-                    "text": "Giulia / Matteo.",
-                    "rows": 3
-                  }
-                ],
-                [
-                  "tu",
-                  "{ip:sei}",
-                  null
-                ],
-                [
-                  "lui, lei, Lei",
-                  "{ip:è}",
-                  null
-                ],
-                [
-                  "noi",
-                  "{ip:siamo}",
-                  {
-                    "text": "Anna e Sara / Luca e Marco.",
-                    "rows": 3
-                  }
-                ],
-                [
-                  "voi",
-                  "{ip:siete}",
-                  null
-                ],
-                [
-                  "loro",
-                  "{ip:sono}",
-                  null
-                ]
-              ]
-            },
-            "note": "*Lei* con la lettera maiuscola è la forma di cortesia e ha la stessa forma di *lei*. Di solito il pronome non si dice: *{ip:Sono} Giulia*."
-          },
-          {
-            "table": {
-              "title": "Il verbo *avere*",
-              "rows": [
-                [
-                  "io",
-                  "{ip:ho}",
-                  {
-                    "text": "una sorella a Roma.",
-                    "rows": 6
-                  }
-                ],
-                [
-                  "tu",
-                  "{ip:hai}",
-                  null
-                ],
-                [
-                  "lui, lei, Lei",
-                  "{ip:ha}",
-                  null
-                ],
-                [
-                  "noi",
-                  "{ip:abbiamo}",
-                  null
-                ],
-                [
-                  "voi",
-                  "{ip:avete}",
-                  null
-                ],
-                [
-                  "loro",
-                  "{ip:hanno}",
-                  null
-                ]
-              ]
-            },
-            "note": "La *h* non si pronuncia mai: *ho* si legge come *o*."
-          }
-        ]
-      }
+          ]
+        }
+      },
+      {
+        "h": "Step two: to keep the sound hard before e or i, add h"
+      },
+      "The h stands between the consonant and the soft vowel, so the vowel cannot change the sound. The h is never pronounced, here or in any other Italian word.",
+      {
+        "table": {
+          "head": [
+            "Spelling",
+            "Sound",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "c**h**e, c**h**i",
+              "/k/",
+              "*che, chilo*"
+            ],
+            [
+              "g**h**e, g**h**i",
+              "/g/",
+              "*spaghetti, laghi*"
+            ],
+            [
+              "sc**h**e, sc**h**i",
+              "/sk/",
+              "*scherzo, schiena*"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Step three: to make the sound soft before a, o or u, add i"
+      },
+      "This i only makes the consonant soft and is not pronounced: *ciao* is read /ˈtʃao/, not /tʃiˈao/. You only hear it when the stress falls on the i itself, as in *farmacia* /farmaˈtʃia/.",
+      {
+        "table": {
+          "head": [
+            "Spelling",
+            "Sound",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "c**i**a, c**i**o, c**i**u",
+              "/tʃ/",
+              "*ciao, cioccolato, ciuffo*"
+            ],
+            [
+              "g**i**a, g**i**o, g**i**u",
+              "/dʒ/",
+              "*giallo, giorno, giusto*"
+            ],
+            [
+              "sc**i**a, sc**i**o, sc**i**u",
+              "/ʃ/",
+              "*sciarpa, sciopero, sciupare*"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The whole system"
+      },
+      "With these three steps every sound can go with every vowel. The highlighted letters are the added h or i.",
+      {
+        "table": {
+          "groups": [
+            [
+              "",
+              1
+            ],
+            [
+              "Hard vowels",
+              3
+            ],
+            [
+              "Soft vowels",
+              2
+            ]
+          ],
+          "head": [
+            "Sound",
+            "+ a",
+            "+ o",
+            "+ u",
+            "+ e",
+            "+ i"
+          ],
+          "rows": [
+            [
+              "/k/",
+              "ca",
+              "co",
+              "cu",
+              "c**h**e",
+              "c**h**i"
+            ],
+            [
+              "/tʃ/",
+              "c**i**a",
+              "c**i**o",
+              "c**i**u",
+              "ce",
+              "ci"
+            ],
+            [
+              "/g/",
+              "ga",
+              "go",
+              "gu",
+              "g**h**e",
+              "g**h**i"
+            ],
+            [
+              "/dʒ/",
+              "g**i**a",
+              "g**i**o",
+              "g**i**u",
+              "ge",
+              "gi"
+            ],
+            [
+              "/sk/",
+              "sca",
+              "sco",
+              "scu",
+              "sc**h**e",
+              "sc**h**i"
+            ],
+            [
+              "/ʃ/",
+              "sc**i**a",
+              "sc**i**o",
+              "sc**i**u",
+              "sce",
+              "sci"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Two more sounds"
+      },
+      "Gn is always one sound, /ɲ/: *gnocchi, bagno*. Gli is one sound too, /ʎ/: *figli, famiglia*. In *famiglia* the i before the a is again only there for the spelling. Otherwise gl is read as it is written: *inglese*.",
+      {
+        "h": "Double consonants"
+      },
+      "Double consonants last longer: *pala* (shovel) and *palla* (ball) are two different words.",
+      {
+        "h": "Stress"
+      },
+      "Almost all words are stressed on the second-to-last syllable: **CA**-sa, a-**MI**-co. When the stress falls on the last vowel, it is written with an accent: citt**à**, caff**è**, perch**é**."
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "gap",
-        "prompt": "Scrivi l'articolo indeterminativo: un, uno, una o un'.",
-        "questions": [
-          "[[un]] quaderno",
-          "[[una]] borsa",
-          "[[uno]] zaino",
-          "[[un']]amica",
-          "[[un]] ombrello",
-          "[[uno]] studente",
-          "[[una]] lezione",
-          "[[un]] giornale"
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi l'aggettivo con la finale giusta.",
-        "questions": [
-          "Marta {ip:è} [[italiana]]. (italiano)",
-          "Paolo e Carlo {ip:sono} [[italiani]]. (italiano)",
-          "Carmen e Lucía {ip:sono} [[spagnole]]. (spagnolo)",
-          "Pierre {ip:è} [[francese]]. (francese)",
-          "Claire e Sophie {ip:sono} [[francesi]]. (francese)",
-          "Diego {ip:è} [[spagnolo]]. (spagnolo)"
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi la forma giusta di essere o avere.",
-        "questions": [
-          "Io [[sono#ip]] Giulia.",
-          "Tu [[sei#ip]] italiano?",
-          "Noi [[siamo#ip]] studenti.",
-          "Loro [[sono#ip]] spagnoli.",
-          "Io [[ho#ip]] una sorella a Roma.",
-          "Lei [[ha#ip]] un amico a Napoli.",
-          "Voi [[avete#ip]] uno zaino?",
-          "Loro [[hanno#ip]] una casa al mare."
-        ]
-      },
-      {
         "type": "choice",
-        "prompt": "Scegli la risposta giusta.",
+        "prompt": "What sound do the letters in brackets make?",
         "questions": [
           {
-            "q": "{ip:Sei} italiano? No, …",
+            "q": "(c)ena",
             "options": [
-              "*non sono italiano.",
-              "sono non italiano.",
-              "no sono italiano."
+              "/k/",
+              "*/tʃ/"
             ]
           },
           {
-            "q": "{ip:Sei} spagnola? Sì, …",
+            "q": "(ch)iave",
             "options": [
-              "*sono spagnola.",
-              "non sono spagnola.",
-              "sono spagnolo."
+              "*/k/",
+              "/tʃ/"
             ]
           },
           {
-            "q": "Quale frase è una domanda?",
+            "q": "(g)elato",
             "options": [
-              "Pierre è francese.",
-              "*Pierre è francese?",
-              "Pierre non è francese."
+              "/g/",
+              "*/dʒ/"
+            ]
+          },
+          {
+            "q": "(gh)iaccio",
+            "options": [
+              "*/g/",
+              "/dʒ/"
+            ]
+          },
+          {
+            "q": "(sc)uola",
+            "options": [
+              "*/sk/",
+              "/ʃ/"
+            ]
+          },
+          {
+            "q": "pe(sc)e",
+            "options": [
+              "/sk/",
+              "*/ʃ/"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete each word with c, ch, g, gh or sc. The sound is between the slashes.",
+        "questions": [
+          "[[ch]]ilo /k/",
+          "[[c]]asa /k/",
+          "[[g]]iorno /dʒ/",
+          "spa[[gh]]etti /g/",
+          "[[c]]iao /tʃ/",
+          "[[sc]]ala /sk/"
         ]
       }
     ]
@@ -282,159 +258,133 @@
   "vocabulary": {
     "words": [
       [
-        "un tavolo",
-        "ci mangi sopra"
+        "ciao",
+        "hi, bye (between friends)"
       ],
       [
-        "una sedia",
-        "ti siedi qui"
+        "buongiorno",
+        "good morning, hello (until the afternoon)"
       ],
       [
-        "un giornale",
-        "lo leggi per avere le notizie"
+        "buonasera",
+        "good afternoon, good evening"
       ],
       [
-        "una lezione",
-        "l'ora di scuola con l'insegnante"
+        "arrivederci",
+        "goodbye"
       ],
       [
-        "un quaderno",
-        "ci scrivi a scuola"
+        "grazie",
+        "thank you"
       ],
       [
-        "una penna",
-        "con questa scrivi"
+        "prego",
+        "you’re welcome (the answer to «grazie»)"
       ],
       [
-        "una borsa",
-        "ci metti le tue cose quando esci"
+        "per favore",
+        "please"
       ],
       [
-        "un ombrello",
-        "lo apri quando piove"
+        "scusa",
+        "sorry, excuse me (to a friend)"
       ],
       [
-        "uno zaino",
-        "lo porti sulle spalle a scuola"
+        "piacere",
+        "nice to meet you"
       ],
       [
-        "uno studente",
-        "un ragazzo che studia"
+        "sì",
+        "yes"
       ],
       [
-        "un amico",
-        "un ragazzo a cui vuoi bene"
-      ],
-      [
-        "un'amica",
-        "una ragazza a cui vuoi bene"
-      ],
-      [
-        "una sorella",
-        "la figlia dei tuoi genitori"
-      ],
-      [
-        "italiano",
-        "di Italia"
-      ],
-      [
-        "spagnolo",
-        "di Spagna"
-      ],
-      [
-        "francese",
-        "di Francia"
+        "no",
+        "no"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Abbina ogni parola al suo significato.",
+        "prompt": "Match each word to its meaning.",
         "pairs": [
           [
-            "una sedia",
-            "ti siedi qui"
+            "buonasera",
+            "good afternoon, good evening"
           ],
           [
-            "un giornale",
-            "lo leggi per avere le notizie"
+            "grazie",
+            "thank you"
           ],
           [
-            "una borsa",
-            "ci metti le tue cose quando esci"
+            "prego",
+            "you’re welcome (the answer to «grazie»)"
           ],
           [
-            "un ombrello",
-            "lo apri quando piove"
+            "per favore",
+            "please"
           ],
           [
-            "uno zaino",
-            "lo porti sulle spalle a scuola"
+            "arrivederci",
+            "goodbye"
           ],
           [
-            "una sorella",
-            "la figlia dei tuoi genitori"
+            "piacere",
+            "nice to meet you"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Completa con la parola giusta.",
+        "prompt": "Complete the short dialogues.",
         "questions": [
-          "Piove: {ip:apro} l'[[ombrello]].",
-          "Carmen {ip:mette} le sue cose in una [[borsa]].",
-          "Pierre {ip:studia}: {ip:è} uno [[studente]].",
-          "Claire {ip:è} un'[[amica]] di Carmen.",
-          "{ip:Ho} una [[sorella]] a Roma.",
-          "Pablo {ip:è} di Spagna: {ip:è} [[spagnolo]]."
+          "— Grazie! — [[Prego]]!",
+          "— Un caffè, per [[favore]].",
+          "— Mi {ip:chiamo} Anna. — [[Piacere]]!",
+          "— {ip:Vuoi} un caffè? — [[Sì]], grazie!"
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Ciao! {ip:Sono} Carmen e {ip:sono} spagnola. Oggi {ip:ho} una lezione di italiano. {ip:Ho} uno zaino, un quaderno e un ombrello.",
-      "{ip:Ho} anche un'amica, Claire. Claire non {ip:è} spagnola, {ip:è} francese. Lei non {ip:ha} uno zaino, {ip:ha} una borsa.",
-      "Pierre {ip:è} uno studente nuovo. {ip:È} italiano? No, non {ip:è} italiano: {ip:è} francese, come Claire!"
+      "Buongiorno! Mi {ip:chiamo} Chiara. {ip:Sono} di Genova, ma oggi {ip:sono} a Pisa. {ip:Sono} in un bar in centro. Il cameriere si {ip:chiama} Gino ed {ip:è} molto gentile.",
+      "«Buongiorno! Un caffè?» «Sì, grazie. E un gelato, per favore!» «Ecco. Prego!» «Grazie mille! Arrivederci!»"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Vero o falso?",
+        "prompt": "Choose the right answer.",
         "questions": [
           {
-            "q": "Carmen {ip:è} spagnola.",
+            "q": "Chiara is from…",
             "options": [
-              "*Vero",
-              "Falso"
+              "Pisa",
+              "*Genova",
+              "Roma"
             ]
           },
           {
-            "q": "Carmen {ip:ha} un ombrello.",
+            "q": "Where is Chiara today?",
             "options": [
-              "*Vero",
-              "Falso"
+              "At home",
+              "*In a café (a *bar*)",
+              "At school"
             ]
           },
           {
-            "q": "Claire {ip:è} spagnola.",
+            "q": "Gino is…",
             "options": [
-              "Vero",
-              "*Falso"
+              "*the waiter",
+              "Chiara’s brother",
+              "a tourist"
             ]
           },
           {
-            "q": "Claire {ip:ha} uno zaino.",
+            "q": "What does Chiara order?",
             "options": [
-              "Vero",
-              "*Falso"
-            ]
-          },
-          {
-            "q": "Pierre {ip:è} italiano.",
-            "options": [
-              "Vero",
-              "*Falso"
+              "A coffee and a sandwich",
+              "Just a coffee",
+              "*A coffee and an ice cream"
             ]
           }
         ]
@@ -444,60 +394,65 @@
   "listening": {
     "transcript": [
       [
-        "Carmen",
-        "Ciao! {ip:Sei} italiano?"
+        "Luca",
+        "Ciao, mi {ip:chiamo} Luca. E tu?"
       ],
       [
-        "Pierre",
-        "No, non {ip:sono} italiano, {ip:sono} francese. E tu?"
+        "Chiara",
+        "Ciao, Luca! Mi {ip:chiamo} Chiara. Piacere!"
       ],
       [
-        "Carmen",
-        "Io {ip:sono} spagnola. {ip:Sono} Carmen."
+        "Luca",
+        "Piacere! {imv:Scusa}, come si {ip:scrive} «Chiara»?"
       ],
       [
-        "Pierre",
-        "Piacere, {ip:sono} Pierre. {ip:Hai} un quaderno?"
+        "Chiara",
+        "Ci, acca, i, a, erre, a."
       ],
       [
-        "Carmen",
-        "Sì, {ip:ho} un quaderno e una penna. Ecco!"
+        "Luca",
+        "Grazie! E di dove {ip:sei}?"
       ],
       [
-        "Pierre",
-        "Grazie!"
+        "Chiara",
+        "{ip:Sono} di Genova. Ciao, Luca, a domani!"
       ]
     ],
     "exercises": [
       {
-        "type": "gap",
-        "prompt": "Completa con le parole del dialogo.",
-        "questions": [
-          "No, non [[sono#ip]] italiano, [[sono#ip]] francese.",
-          "Io [[sono#ip]] spagnola.",
-          "Sì, [[ho#ip]] [[un]] quaderno e [[una]] penna."
-        ]
-      },
-      {
         "type": "choice",
-        "prompt": "Scegli la risposta giusta.",
+        "prompt": "True or false?",
         "questions": [
           {
-            "q": "Pierre {ip:è}…",
+            "q": "Luca asks how to spell Chiara’s name.",
             "options": [
-              "italiano",
-              "*francese",
-              "spagnolo"
+              "*True",
+              "False"
             ]
           },
           {
-            "q": "Che cosa {ip:chiede} Pierre?",
+            "q": "The second letter of Chiara’s name is h (*acca*).",
             "options": [
-              "*un quaderno",
-              "una penna",
-              "una borsa"
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Chiara is from Pisa.",
+            "options": [
+              "True",
+              "*False"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the sentences from the dialogue.",
+        "questions": [
+          "Ciao, mi [[chiamo#ip]] Luca.",
+          "[[Scusa#imv]], come si {ip:scrive} «Chiara»?",
+          "Ciao, Luca, a [[domani]]!"
         ]
       }
     ]
@@ -506,51 +461,41 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Scrivi la frase in italiano.",
+        "prompt": "What do you say? Write the sentence in Italian.",
         "questions": [
           {
-            "q": "{ip:Chiedi} a un ragazzo se {ip:è} spagnolo.",
+            "q": "You walk into a café at nine in the morning and say hello.",
             "a": [
-              "Sei spagnolo?"
+              "Buongiorno!"
             ]
           },
           {
-            "q": "Pablo {ip:risponde} di sì.",
+            "q": "The waiter brings your coffee. Thank him warmly.",
             "a": [
-              "Sì, sono spagnolo.",
-              "Si, sono spagnolo.",
-              "Sì sono spagnolo.",
-              "Si sono spagnolo."
+              "Grazie mille!"
             ]
           },
           {
-            "q": "Claire {ip:risponde} che non {ip:è} spagnola, ma francese.",
+            "q": "Ask politely for a coffee.",
             "a": [
-              "No, non sono spagnola, sono francese.",
-              "No, non sono spagnola. Sono francese.",
-              "Non sono spagnola, sono francese.",
-              "No, non sono spagnola, ma francese."
+              "Un caffè, per favore.",
+              "Un caffè per favore.",
+              "Per favore, un caffè."
             ]
           },
           {
-            "q": "Claire e Sophie: di dove {ip:sono}? (Francia)",
+            "q": "You leave the café and say goodbye.",
             "a": [
-              "Claire e Sophie sono francesi.",
-              "Sono francesi."
+              "Arrivederci!",
+              "Arrivederci."
             ]
           },
           {
-            "q": "{ip:Dici} che {ip:hai} una sorella a Roma.",
+            "q": "Say your name: Chiara.",
             "a": [
-              "Ho una sorella a Roma.",
-              "Io ho una sorella a Roma."
-            ]
-          },
-          {
-            "q": "{ip:Dici} che tu e Marco {ip:avete} un amico a Napoli. (noi)",
-            "a": [
-              "Abbiamo un amico a Napoli.",
-              "Noi abbiamo un amico a Napoli."
+              "Mi chiamo Chiara.",
+              "Io mi chiamo Chiara.",
+              "Sono Chiara."
             ]
           }
         ]

@@ -247,6 +247,100 @@
         list-style: none;
     }
 
+    /* The Lessons card: where to go on, then one row per level with a bar of
+       the finished exercises and the number of finished lessons */
+    .resume {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 2px 12px;
+        margin-bottom: 14px;
+        padding: 12px 14px;
+        border: 1px solid color-mix(in srgb, var(--accent) 70%, transparent);
+        border-radius: var(--radius-small);
+        background-color: var(--accent-soft);
+    }
+
+    .resume:hover {
+        text-decoration: none;
+        background-color: color-mix(in srgb, var(--accent) 28%, transparent);
+    }
+
+    .resume-label {
+        grid-column: 1;
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+    }
+
+    .resume-lesson {
+        grid-column: 1;
+        font-weight: 600;
+    }
+
+    .resume-where {
+        grid-column: 1;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .resume-go {
+        grid-column: 2;
+        grid-row: 1 / span 3;
+        align-self: center;
+    }
+
+    .level-progress {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+        gap: 4px 18px;
+        list-style: none;
+    }
+
+    .level-progress a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 4px;
+        border-radius: var(--radius-small);
+    }
+
+    .level-progress a:hover {
+        text-decoration: none;
+        background-color: var(--surface-3);
+    }
+
+    .level-progress .level-badge {
+        flex: none;
+        min-width: 34px;
+        text-align: center;
+    }
+
+    .level-bar {
+        flex: 1;
+        height: 6px;
+        overflow: hidden;
+        border-radius: 999px;
+        background-color: var(--surface-3);
+    }
+
+    .level-bar > span {
+        display: block;
+        height: 100%;
+        border-radius: inherit;
+        background-color: var(--success);
+    }
+
+    .level-count {
+        flex: none;
+        min-width: 3.2em;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: right;
+    }
+
     .lesson-list li:last-child a {
         border-bottom: none;
     }
@@ -333,6 +427,63 @@
             <div class="hero-art" role="img" aria-label="{{ random_city | capitalize }}"></div>
         </div>
 
+        {# The lessons come right after the welcome: they are the heart of the site #}
+        <div class="container shadow feature linked-feature">
+            {# Covers the whole card; the lesson rows sit above it with their own links #}
+            <a class="card-link" href="{{ url_for('lessons') }}" aria-label="All lessons"></a>
+            <div class="feature-head">
+                <span class="feature-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M22 9 12 4 2 9l10 5z"></path>
+                        <path d="M6 11v5c3 2.5 9 2.5 12 0v-5"></path>
+                    </svg>
+                </span>
+                <div>
+                    <h3 class="hover-arrow">Lessons</h3>
+                    <p>{% if lessons_overview %}Grammar, reading, listening and writing, from A1 to C2{% else %}Grammar and pronunciation{% endif %}</p>
+                </div>
+            </div>
+            {% if lessons_overview %}
+            {# Where to go on (the last exercise worked on, or the next unfinished
+               one), then how far each level has got, in finished exercises #}
+            {% set next_step = lessons_overview.resume or lessons_overview.start %}
+            {% if next_step %}
+            <a class="resume" href="{{ next_step.url }}">
+                <span class="resume-label">{{ "Continue" if lessons_overview.resume else "Start here" }}</span>
+                <span class="resume-lesson hover-arrow">{{ next_step.level }}/{{ next_step.number }} · {{ next_step.title | rich }}</span>
+                {% if lessons_overview.resume and next_step.where %}<span class="resume-where">{{ next_step.where }}</span>{% endif %}
+                <span class="resume-go" aria-hidden="true">&rarr;</span>
+            </a>
+            {% endif %}
+            <ul class="level-progress">
+                {% for item in lessons_overview.levels %}
+                <li>
+                    <a href="{{ item.url }}">
+                        <span class="level-badge level-{{ item.level | lower }}">{{ item.level }}</span>
+                        {% if lessons_overview.signed_in %}
+                        {% set percent = (100 * item.exercises_done / item.exercises) if item.exercises else 0 %}
+                        <span class="level-bar" role="progressbar" aria-label="{{ item.level }}"
+                            aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ percent | round | int }}">
+                            <span style="width: {{ percent | round(1) }}%"></span>
+                        </span>
+                        <span class="level-count" title="{{ item.lessons_done }} of {{ item.lessons }} lessons finished">{{ [percent | round | int, 1 if item.exercises_done else 0] | max }}%</span>
+                        {% else %}
+                        <span class="level-count">{{ item.lessons }} lessons</span>
+                        {% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <ul class="lesson-list">
+                {% for title, url in lessons_list %}
+                <li><a href="{{ url }}"><span class="hover-arrow">{{ title | rich }}</span><span>&rarr;</span></a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+
         <div class="container shadow feature linked-feature">
             {# Covers the whole card; the topics sit above it with their own links #}
             <a class="card-link" href="{{ url_for('vocabulary_topics') }}" aria-label="All topics"></a>
@@ -412,29 +563,6 @@
                 {% endfor %}
             </div>
         </a>
-
-        <div class="container shadow feature linked-feature">
-            {# Covers the whole card; the lesson rows sit above it with their own links #}
-            <a class="card-link" href="{{ url_for('lessons') }}" aria-label="All lessons"></a>
-            <div class="feature-head">
-                <span class="feature-icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <path d="M22 9 12 4 2 9l10 5z"></path>
-                        <path d="M6 11v5c3 2.5 9 2.5 12 0v-5"></path>
-                    </svg>
-                </span>
-                <div>
-                    <h3 class="hover-arrow">Lessons</h3>
-                    <p>Grammar and pronunciation</p>
-                </div>
-            </div>
-            <ul class="lesson-list">
-                {% for title, url in lessons_list %}
-                <li><a href="{{ url }}"><span class="hover-arrow">{{ title | rich }}</span><span>&rarr;</span></a></li>
-                {% endfor %}
-            </ul>
-        </div>
 
         <a class="container shadow feature" href="{{ url_for('cheat_sheets') }}">
             <div class="feature-head">

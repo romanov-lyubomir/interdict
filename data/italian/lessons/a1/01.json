@@ -1,255 +1,223 @@
 {
-  "title": "Ciao, Chiara! Che piacere!",
+  "title": "Benvenuti! Welcome to Italian",
   "translation": "",
-  "topics": "L'alfabeto, l'accento e i suoni c, g, ch, gh, sc",
+  "topics": "What Italian is, the family it belongs to, and why it is worth learning",
+  "interface": "english",
+  "titles": {
+    "grammar": "Meet Italian",
+    "use": "Quick quiz",
+    "vocabulary": "Words you already know",
+    "reading": "Italy in four chapters",
+    "writing": "Your turn"
+  },
   "grammar": {
     "explain": [
-      "L'alfabeto italiano ha 21 lettere: a, b, c, d, e, f, g, h, i, l, m, n, o, p, q, r, s, t, u, v, z. Le lettere j, k, w, x e y si trovano solo nelle parole straniere. L'italiano si legge quasi sempre come si scrive: con le poche regole qui sotto puoi leggere qualsiasi parola.",
-      "I suoni sono scritti tra due barre: /k/ è il primo suono di *casa*.",
+      "You are about to learn a language spoken by around 65 million people as their mother tongue, and by many millions more who learned it for love, work or family. It is the language of Dante and Verdi, of pizza and espresso, and of half the words written on a music score. The good news: it is also one of the friendliest languages to start with.",
       {
-        "h": "Primo passo: vocali dure e vocali morbide"
-      },
-      "L'italiano ha cinque vocali. *A, o, u* sono dure, *e, i* sono morbide. Una vocale morbida rende morbida la *c*, la *g* o il gruppo *sc* che ha davanti.",
-      {
-        "table": {
-          "head": [
-            "Lettere",
-            "Davanti ad a, o, u: suono duro",
-            "Davanti ad e, i: suono morbido"
-          ],
-          "rows": [
-            [
-              "c",
-              "/k/: casa, come, cuore",
-              "/tʃ/: cena, cinema"
-            ],
-            [
-              "g",
-              "/g/: gatto, gonna, gusto",
-              "/dʒ/: gelato, giro"
-            ],
-            [
-              "sc",
-              "/sk/: scala, sconto, scuola",
-              "/ʃ/: scena, sci"
-            ]
-          ]
-        }
+        "img": "lessons/romance_languages.webp",
+        "caption": "The five biggest Romance languages in Europe, in the countries where each one is the main language.",
+        "credit": "Map made with mapchart.net"
       },
       {
-        "h": "Secondo passo: per avere il suono duro davanti ad e o i, si aggiunge h"
+        "h": "A Romance language"
       },
-      "La *h* sta tra la consonante e la vocale morbida, così la vocale non può cambiare il suono. La *h* non si pronuncia mai, né qui né in nessun'altra parola italiana.",
+      "Italian belongs to the Romance family: the languages that grew out of Latin, the language of ancient Rome. As the Roman Empire spread, so did Latin, and over the centuries it slowly turned into different languages in different places. Italian’s closest relatives are Spanish, Portuguese, French, Catalan and Romanian. Of the big Romance languages, Italian is often said to have stayed closest to Latin.",
+      "You can see the family resemblance at a glance:",
       {
         "table": {
           "head": [
-            "Grafia",
-            "Suono",
-            "Esempi"
+            "Latin",
+            "Italian",
+            "Spanish",
+            "Portuguese",
+            "French",
+            "Catalan",
+            "Romanian",
+            "English"
           ],
           "rows": [
             [
-              "c**h**e, c**h**i",
-              "/k/",
-              "che, chilo"
+              "*nox*",
+              "*notte*",
+              "*noche*",
+              "*noite*",
+              "*nuit*",
+              "*nit*",
+              "*noapte*",
+              "night"
             ],
             [
-              "g**h**e, g**h**i",
-              "/g/",
-              "spaghetti, laghi"
+              "*manus*",
+              "*mano*",
+              "*mano*",
+              "*mão*",
+              "*main*",
+              "*mà*",
+              "*mână*",
+              "hand"
             ],
             [
-              "sc**h**e, sc**h**i",
-              "/sk/",
-              "scherzo, schiena"
+              "*aqua*",
+              "*acqua*",
+              "*agua*",
+              "*água*",
+              "*eau*",
+              "*aigua*",
+              "*apă*",
+              "water"
+            ],
+            [
+              "*panis*",
+              "*pane*",
+              "*pan*",
+              "*pão*",
+              "*pain*",
+              "*pa*",
+              "*pâine*",
+              "bread"
+            ],
+            [
+              "*cantare*",
+              "*cantare*",
+              "*cantar*",
+              "*cantar*",
+              "*chanter*",
+              "*cantar*",
+              "a *cânta*",
+              "to sing"
             ]
+          ],
+          "compact": true,
+          "note": [
+            "English is not a Romance language, but it took thousands of words from Latin and French. That is why *notte* feels close to “nocturnal”, *mano* to “manual” and *acqua* to “aquarium”: you already know more Italian than you think."
           ]
         }
       },
+      "If you already speak Spanish, French or another Romance language, Italian will often feel like a cousin you are meeting for the first time: different, but strangely familiar.",
       {
-        "h": "Terzo passo: per avere il suono morbido davanti ad a, o o u, si aggiunge i"
+        "h": "Where Italian is spoken"
       },
-      "Questa *i* serve solo a rendere morbida la consonante e non si pronuncia: *ciao* si legge /ˈtʃao/, non /tʃiˈao/. Si sente solo quando l'accento cade proprio sulla *i*, come in *farmacia* /farmaˈtʃia/.",
+      "Italian is the official language of Italy and San Marino, one of the four national languages of Switzerland, and one of the languages of Vatican City. It is also spoken in parts of Slovenia and Croatia, and by large communities whose families emigrated to Argentina, Brazil, the United States, Canada and Australia.",
       {
-        "table": {
-          "head": [
-            "Grafia",
-            "Suono",
-            "Esempi"
-          ],
-          "rows": [
-            [
-              "c**i**a, c**i**o, c**i**u",
-              "/tʃ/",
-              "ciao, cioccolato, ciuffo"
-            ],
-            [
-              "g**i**a, g**i**o, g**i**u",
-              "/dʒ/",
-              "giallo, giorno, giusto"
-            ],
-            [
-              "sc**i**a, sc**i**o, sc**i**u",
-              "/ʃ/",
-              "sciarpa, sciopero, sciupare"
-            ]
-          ]
-        }
+        "picture": "A map of Italy with Florence marked, and Switzerland, San Marino and Vatican City shown around it"
       },
       {
-        "h": "Tutto il sistema"
+        "h": "From Florence to the whole country"
       },
-      "Con questi tre passi ogni suono può andare con ogni vocale. Le lettere evidenziate sono la *h* o la *i* aggiunte.",
+      "For centuries every Italian region spoke its own dialect, and many still do. Standard Italian grew out of the language of Florence, thanks to three Tuscan writers of the 1300s: Dante, Petrarch and Boccaccio. Dante’s *Divina Commedia* became so famous that his Florentine became the model for writers everywhere. When Italy became one country in 1861, only a small part of its people spoke Italian every day. School, newspapers, radio and television did the rest.",
       {
-        "table": {
-          "groups": [
-            [
-              "",
-              1
-            ],
-            [
-              "Vocali dure",
-              3
-            ],
-            [
-              "Vocali morbide",
-              2
-            ]
-          ],
-          "head": [
-            "Suono",
-            "+ a",
-            "+ o",
-            "+ u",
-            "+ e",
-            "+ i"
-          ],
-          "rows": [
-            [
-              "/k/",
-              "ca",
-              "co",
-              "cu",
-              "c**h**e",
-              "c**h**i"
-            ],
-            [
-              "/tʃ/",
-              "c**i**a",
-              "c**i**o",
-              "c**i**u",
-              "ce",
-              "ci"
-            ],
-            [
-              "/g/",
-              "ga",
-              "go",
-              "gu",
-              "g**h**e",
-              "g**h**i"
-            ],
-            [
-              "/dʒ/",
-              "g**i**a",
-              "g**i**o",
-              "g**i**u",
-              "ge",
-              "gi"
-            ],
-            [
-              "/sk/",
-              "sca",
-              "sco",
-              "scu",
-              "sc**h**e",
-              "sc**h**i"
-            ],
-            [
-              "/ʃ/",
-              "sc**i**a",
-              "sc**i**o",
-              "sc**i**u",
-              "sce",
-              "sci"
-            ]
-          ]
-        }
+        "h": "Why Italian is a good place to start"
       },
       {
-        "h": "Altri due suoni"
+        "ul": [
+          "You read it as you write it. Italian spelling is very regular: once you know a few rules (the next lesson shows them), you can read any word aloud.",
+          "Many words look familiar. Thanks to Latin, words like *università*, *famiglia*, *musica* or *importante* need almost no explanation.",
+          "It opens a whole culture. Opera, film, design, fashion, food, art and history: in Italian you meet them first-hand.",
+          "It is a door to other languages. After Italian, Spanish, Portuguese and French become much easier.",
+          "It is useful. Italy is a major destination for travel, study and business, and Italian is one of the languages people around the world most like to learn."
+        ]
       },
-      "*Gn* è sempre un solo suono, /ɲ/: *gnocchi, bagno*. Anche *gli* è un solo suono, /ʎ/: *figli, famiglia*. In *famiglia* la *i* davanti alla *a* serve di nuovo solo alla grafia. Negli altri casi *gl* si legge come si scrive: *inglese*.",
       {
-        "h": "Le doppie"
+        "h": "How this course works"
       },
-      "Le consonanti doppie durano di più: *pala* e *palla* sono due parole diverse.",
-      {
-        "h": "L'accento"
-      },
-      "Quasi tutte le parole hanno l'accento sulla penultima sillaba: **CA**-sa, a-**MI**-co. Quando l'accento cade sull'ultima vocale, si scrive: citt**à**, caff**è**, perch**é**."
+      "Each lesson has the same parts: an explanation, practice, new words, a text to read, a dialogue to listen to, and a writing task. This first lesson and the next one are in English, to help you settle in. From lesson 3 everything is in Italian, simple at first. Point at an Italian word to see what it means."
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Che suono fanno le lettere tra parentesi?",
+        "prompt": "Choose the right answer.",
         "questions": [
           {
-            "q": "(c)ena",
+            "q": "Italian grew out of…",
             "options": [
-              "/k/",
-              "*/tʃ/"
+              "*Latin",
+              "Greek",
+              "German"
             ]
           },
           {
-            "q": "(ch)iave",
+            "q": "Which of these is **not** a Romance language?",
             "options": [
-              "*/k/",
-              "/tʃ/"
+              "Romanian",
+              "Catalan",
+              "*English"
             ]
           },
           {
-            "q": "(g)elato",
+            "q": "Standard Italian grew out of the language of which city?",
             "options": [
-              "/g/",
-              "*/dʒ/"
+              "Rome",
+              "*Florence",
+              "Milan",
+              "Naples"
             ]
           },
           {
-            "q": "(gh)iaccio",
+            "q": "In which country is Italian **not** an official language?",
             "options": [
-              "*/g/",
-              "/dʒ/"
+              "Switzerland",
+              "San Marino",
+              "*Spain"
             ]
           },
           {
-            "q": "(sc)uola",
+            "q": "Who wrote the *Divina Commedia*?",
             "options": [
-              "*/sk/",
-              "/ʃ/"
+              "*Dante",
+              "Verdi",
+              "Leonardo"
             ]
           },
           {
-            "q": "pe(sc)e",
+            "q": "Italian is written…",
             "options": [
-              "/sk/",
-              "*/ʃ/"
+              "*almost exactly as it is said",
+              "very differently from how it is said"
             ]
           }
         ]
       },
       {
+        "type": "match",
+        "prompt": "“Night” in six Romance languages. Match each word to its language.",
+        "pairs": [
+          [
+            "*notte*",
+            "Italian"
+          ],
+          [
+            "*noche*",
+            "Spanish"
+          ],
+          [
+            "*noite*",
+            "Portuguese"
+          ],
+          [
+            "*nuit*",
+            "French"
+          ],
+          [
+            "*nit*",
+            "Catalan"
+          ],
+          [
+            "*noapte*",
+            "Romanian"
+          ]
+        ]
+      },
+      {
         "type": "gap",
-        "prompt": "Completa ogni parola con c, ch, g, gh o sc. Il suono è tra le barre.",
+        "prompt": "Find the Italian word in the table and write it.",
         "questions": [
-          "[[ch]]ilo /k/",
-          "[[c]]asa /k/",
-          "[[g]]iorno /dʒ/",
-          "spa[[gh]]etti /g/",
-          "[[c]]iao /tʃ/",
-          "[[sc]]ala /sk/"
+          "Spanish *agua* → Italian [[acqua]]",
+          "French *main* → Italian [[mano]]",
+          "Portuguese *pão* → Italian [[pane]]",
+          "Romanian *noapte* → Italian [[notte]]",
+          "Catalan *cantar* → Italian [[cantare]]"
         ]
       }
     ]
@@ -257,133 +225,261 @@
   "vocabulary": {
     "words": [
       [
+        "pizza",
+        "pizza"
+      ],
+      [
+        "pasta",
+        "pasta (the word means “dough”)"
+      ],
+      [
+        "espresso",
+        "a short, strong coffee"
+      ],
+      [
+        "cappuccino",
+        "coffee with hot, frothy milk"
+      ],
+      [
+        "gelato",
+        "ice cream"
+      ],
+      [
+        "opera",
+        "opera; also “work”"
+      ],
+      [
+        "piano",
+        "softly (in music); also “floor” and “plan”"
+      ],
+      [
+        "forte",
+        "loud, strong"
+      ],
+      [
+        "allegro",
+        "cheerful; fast (in music)"
+      ],
+      [
+        "bravo",
+        "well done!; good at something"
+      ],
+      [
         "ciao",
-        "saluto tra amici, quando arrivi e quando vai via"
+        "hi, bye"
       ],
       [
-        "buongiorno",
-        "saluto della mattina"
+        "bello",
+        "beautiful, nice"
       ],
       [
-        "buonasera",
-        "saluto del pomeriggio e della sera"
+        "amore",
+        "love"
       ],
       [
-        "arrivederci",
-        "saluto quando vai via"
+        "arte",
+        "art"
       ],
       [
-        "grazie",
-        "lo dici quando qualcuno ti dà qualcosa"
+        "musica",
+        "music"
       ],
       [
-        "prego",
-        "la risposta a «grazie»"
+        "storia",
+        "history; story"
       ],
       [
-        "per favore",
-        "lo dici quando chiedi qualcosa"
-      ],
-      [
-        "scusa",
-        "lo dici a un amico quando sbagli o vuoi chiedere qualcosa"
-      ],
-      [
-        "piacere",
-        "lo dici quando conosci una persona"
-      ],
-      [
-        "sì",
-        "il contrario di «no»"
-      ],
-      [
-        "no",
-        "il contrario di «sì»"
+        "cucina",
+        "cooking, cuisine; kitchen"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Abbina ogni parola al suo significato.",
+        "prompt": "Match each word to its meaning.",
         "pairs": [
           [
-            "buonasera",
-            "saluto del pomeriggio e della sera"
+            "gelato",
+            "ice cream"
           ],
           [
-            "grazie",
-            "lo dici quando qualcuno ti dà qualcosa"
+            "forte",
+            "loud, strong"
           ],
           [
-            "prego",
-            "la risposta a «grazie»"
+            "bello",
+            "beautiful, nice"
           ],
           [
-            "per favore",
-            "lo dici quando chiedi qualcosa"
+            "amore",
+            "love"
           ],
           [
-            "arrivederci",
-            "saluto quando vai via"
+            "storia",
+            "history; story"
           ],
           [
-            "piacere",
-            "lo dici quando conosci una persona"
+            "cucina",
+            "cooking, cuisine; kitchen"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Completa i piccoli dialoghi.",
+        "type": "choice",
+        "prompt": "Choose the right meaning.",
         "questions": [
-          "— Grazie! — [[Prego]]!",
-          "— Un caffè, per [[favore]].",
-          "— Mi {ip:chiamo} Anna. — [[Piacere]]!",
-          "— {ip:Vuoi} un caffè? — [[Sì]], grazie!"
+          {
+            "q": "The score says *piano*. How should the musician play?",
+            "options": [
+              "*softly",
+              "fast",
+              "loudly"
+            ]
+          },
+          {
+            "q": "After a great concert the audience shouts *Bravo!* It means…",
+            "options": [
+              "*Well done!",
+              "Again!",
+              "Goodbye!"
+            ]
+          },
+          {
+            "q": "*Allegro* at the top of a piece of music means…",
+            "options": [
+              "slow and sad",
+              "*fast and cheerful",
+              "very quiet"
+            ]
+          },
+          {
+            "q": "You ask for an *espresso*. You get…",
+            "options": [
+              "*a short, strong coffee",
+              "a big cup of milk",
+              "an ice cream"
+            ]
+          }
         ]
       }
     ]
   },
   "reading": {
+    "lang": "en",
     "text": [
-      "Buongiorno! Mi {ip:chiamo} Chiara. {ip:Sono} di Genova, ma oggi {ip:sono} a Pisa. {ip:Sono} in un bar in centro. Il cameriere si {ip:chiama} Gino ed {ip:è} molto gentile.",
-      "«Buongiorno! Un caffè?» «Sì, grazie. E un gelato, per favore!» «Ecco. Prego!» «Grazie mille! Arrivederci!»"
+      {
+        "h": "Music"
+      },
+      {
+        "picture": "The red and gold hall of La Scala opera house in Milan, seen from the stage"
+      },
+      "Open any music score and you are reading Italian: *piano*, *forte*, *allegro*, *adagio*, *crescendo*. Around the year 1000 a monk from Arezzo, Guido, gave the notes the names we still sing as do-re-mi. Opera was born in Italy around 1600, and the operas of Verdi, Puccini and Rossini still fill theatres from Milan to Tokyo. Every February the whole country watches the same song festival: Sanremo, held since 1951.",
+      {
+        "h": "Art"
+      },
+      {
+        "picture": "Michelangelo’s statue of David in Florence, seen from below"
+      },
+      "In the 1400s Florence started something that changed Europe: the Renaissance. Painters, sculptors and architects such as Botticelli, Leonardo da Vinci, Michelangelo and Raphael looked back to ancient Rome and Greece and found new ways of seeing the world. Today Italy is among the countries with the most UNESCO World Heritage Sites, and in many Italian towns you walk through history on your way to buy bread.",
+      {
+        "h": "Food"
+      },
+      {
+        "picture": "A wooden table with fresh pasta, tomatoes, basil, olive oil and a small cup of espresso"
+      },
+      "Italians often say there is no single “Italian cooking”, only the cooking of each region: butter and rice in the north, olive oil and tomatoes in the south, and a different pasta shape almost everywhere. A meal is a time to sit down together, and Italians talk about food with real passion. The art of the Neapolitan pizza maker is even on UNESCO’s list of the world’s living heritage.",
+      {
+        "h": "History"
+      },
+      {
+        "picture": "The Colosseum in Rome at sunset"
+      },
+      "Rome was once the centre of an empire that reached from Britain to Egypt, and Latin travelled with it. Much later, cities such as Venice, Genoa and Florence grew rich through trade and banking, and Marco Polo set off from Venice for China. For a long time Italy was divided into many small states. It became one kingdom in 1861, and on 2 June 1946 Italians voted to become a republic, a day the country still celebrates every year."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Scegli la risposta giusta.",
+        "prompt": "True or false?",
         "questions": [
           {
-            "q": "Chiara {ip:è} di…",
+            "q": "The words *piano* and *forte* on a music score are Italian.",
             "options": [
-              "Pisa",
-              "*Genova",
-              "Roma"
+              "*True",
+              "False"
             ]
           },
           {
-            "q": "Dov'{ip:è} Chiara oggi?",
+            "q": "Opera was born in Italy around 1900.",
             "options": [
-              "A casa",
-              "*In un bar",
-              "A scuola"
+              "True",
+              "*False"
             ]
           },
           {
-            "q": "Gino {ip:è}…",
+            "q": "The Renaissance started in Florence.",
             "options": [
-              "*il cameriere",
-              "il fratello di Chiara",
-              "un turista"
+              "*True",
+              "False"
             ]
           },
           {
-            "q": "Che cosa {ip:prende} Chiara?",
+            "q": "Every region of Italy cooks in the same way.",
             "options": [
-              "Un caffè e un panino",
-              "Solo un caffè",
-              "*Un caffè e un gelato"
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Italy has been one country since the time of ancient Rome.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Who gave the notes the names do-re-mi?",
+            "options": [
+              "Verdi",
+              "*Guido of Arezzo",
+              "Puccini"
+            ]
+          },
+          {
+            "q": "Sanremo is…",
+            "options": [
+              "*a song festival",
+              "an opera house",
+              "a painter"
+            ]
+          },
+          {
+            "q": "Which of these is **not** a Renaissance artist?",
+            "options": [
+              "Raphael",
+              "Botticelli",
+              "*Verdi"
+            ]
+          },
+          {
+            "q": "Which city did Marco Polo set off from?",
+            "options": [
+              "Rome",
+              "*Venice",
+              "Naples"
+            ]
+          },
+          {
+            "q": "What do Italians celebrate on 2 June?",
+            "options": [
+              "*the Republic",
+              "the end of school",
+              "Sanremo"
             ]
           }
         ]
@@ -393,65 +489,89 @@
   "listening": {
     "transcript": [
       [
-        "Luca",
-        "Ciao, mi {ip:chiamo} Luca. E tu?"
+        "Barista",
+        "Buongiorno!"
       ],
       [
-        "Chiara",
-        "Ciao, Luca! Mi {ip:chiamo} Chiara. Piacere!"
+        "Anna",
+        "Buongiorno! Un gelato, per favore."
       ],
       [
-        "Luca",
-        "Piacere! {imv:Scusa}, come si {ip:scrive} «Chiara»?"
+        "Barista",
+        "Ecco!"
       ],
       [
-        "Chiara",
-        "Ci, acca, i, a, erre, a."
+        "Anna",
+        "Grazie! Che bello!"
       ],
       [
-        "Luca",
-        "Grazie! E di dove {ip:sei}?"
+        "Barista",
+        "Prego. Ciao!"
       ],
       [
-        "Chiara",
-        "{ip:Sono} di Genova. Ciao, Luca, a domani!"
+        "Anna",
+        "Ciao!"
       ]
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Vero o falso?",
+        "prompt": "Anna is in a café in Florence. Choose the right answer.",
         "questions": [
           {
-            "q": "Luca {ip:chiede} come si {ip:scrive} il nome di Chiara.",
+            "q": "What does Anna ask for?",
             "options": [
-              "*Vero",
-              "Falso"
+              "*an ice cream",
+              "a coffee",
+              "a pizza"
             ]
           },
           {
-            "q": "La seconda lettera del nome di Chiara {ip:è} la h (acca).",
+            "q": "How does Anna say thank you?",
             "options": [
-              "*Vero",
-              "Falso"
+              "*Grazie!",
+              "Prego.",
+              "Ciao!"
             ]
           },
           {
-            "q": "Chiara {ip:è} di Pisa.",
+            "q": "What does the barista say as he gives Anna her ice cream?",
             "options": [
-              "Vero",
-              "*Falso"
+              "*Ecco!",
+              "Buongiorno!",
+              "Grazie!"
             ]
           }
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Completa le frasi del dialogo.",
-        "questions": [
-          "Ciao, mi [[chiamo#ip]] Luca.",
-          "[[Scusa#imv]], come si {ip:scrive} «Chiara»?",
-          "Ciao, Luca, a [[domani]]!"
+        "type": "match",
+        "prompt": "Match each Italian word from the dialogue to its meaning.",
+        "pairs": [
+          [
+            "buongiorno",
+            "good morning, hello"
+          ],
+          [
+            "per favore",
+            "please"
+          ],
+          [
+            "ecco",
+            "here you are"
+          ],
+          [
+            "grazie",
+            "thank you"
+          ],
+          [
+            "prego",
+            "you’re welcome"
+          ],
+          [
+            "che bello!",
+            "how nice!"
+          ]
         ]
       }
     ]
@@ -460,42 +580,17 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Che cosa {ip:dici}? Scrivi la frase in italiano.",
+        "prompt": "Before you start: answer in English, or in Italian if you can.",
+        "open": true,
         "questions": [
           {
-            "q": "Arrivi in un bar alle nove di mattina e {ip:saluti}.",
-            "a": [
-              "Buongiorno!"
-            ]
+            "q": "Why do you want to learn Italian?"
           },
           {
-            "q": "Il cameriere ti {ip:dà} il caffè. Lo {ip:ringrazi} molto.",
-            "a": [
-              "Grazie mille!"
-            ]
+            "q": "Which Italian words did you know before this lesson?"
           },
           {
-            "q": "{ip:Chiedi} un caffè in modo gentile.",
-            "a": [
-              "Un caffè, per favore.",
-              "Un caffè per favore.",
-              "Per favore, un caffè."
-            ]
-          },
-          {
-            "q": "{ip:Vai} via dal bar e {ip:saluti}.",
-            "a": [
-              "Arrivederci!",
-              "Arrivederci."
-            ]
-          },
-          {
-            "q": "{ip:Dici} il tuo nome: Chiara.",
-            "a": [
-              "Mi chiamo Chiara.",
-              "Io mi chiamo Chiara.",
-              "Sono Chiara."
-            ]
+            "q": "Which Italian city, dish, song or work of art would you most like to discover?"
           }
         ]
       }

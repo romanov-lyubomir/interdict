@@ -1,141 +1,115 @@
 {
-  "title": "Il sabato {ip:esco} con gli amici",
+  "title": "Mi {ip:piace} la pizza",
   "translation": "",
-  "topics": "I verbi irregolari uscire, venire e stare, gli avverbi di frequenza, il tempo libero",
+  "topics": "Mi piace e mi piacciono, il verbo bere, genere e numero degli aggettivi, il cibo e le bevande",
   "grammar": {
     "explain": [
-      "Tre verbi irregolari per uscire, venire e restare, e le parole che dicono quante volte fai una cosa.",
+      "A tavola: come dire che cosa ti piace e come descrivere il cibo e le bevande.",
       {
         "grid": [
           {
             "wide": true,
             "table": {
-              "title": "I verbi irregolari",
-              "groups": [
+              "rows": [
                 [
-                  "",
-                  1
+                  {
+                    "text": "Mi piace / mi piacciono",
+                    "rows": 2
+                  },
+                  "Mi {ip:piace}",
+                  "la pizza margherita."
                 ],
                 [
-                  "*uscire*",
-                  2
+                  null,
+                  "Mi {ip:piacciono}",
+                  "gli spaghetti."
                 ],
                 [
-                  "*venire*",
-                  2
+                  {
+                    "text": "Non mi piace / non mi piacciono",
+                    "rows": 2
+                  },
+                  "Non mi {ip:piace}",
+                  "il pesce."
                 ],
                 [
-                  "*stare*",
-                  2
+                  null,
+                  "Non mi {ip:piacciono}",
+                  "le olive."
                 ]
-              ],
+              ]
+            },
+            "note": [
+              "Con *piacere*, la cosa che piace è il soggetto del verbo: *la pizza mi piace*.",
+              "**Mi piace** va con una cosa sola o con un verbo: *mi piace la pizza, mi piace cucinare*. **Mi piacciono** va con più di una cosa: *mi piacciono gli spaghetti*.",
+              "Per le altre persone *mi* cambia: *ti piace* (tu), *gli piace* (lui), *le piace* (lei e la forma di cortesia), *ci piace* (noi), *vi piace* (voi), *gli piace* (loro).",
+              "*Non* va prima di tutto: *non mi piace*."
+            ]
+          },
+          {
+            "table": {
+              "title": "Genere e numero degli aggettivi",
+              "rows": [
+                [
+                  "Il gelato {ip:è} fredd**o**.",
+                  "I gelati {ip:sono} fredd**i**."
+                ],
+                [
+                  "La minestra {ip:è} fredd**a**.",
+                  "Le minestre {ip:sono} fredd**e**."
+                ],
+                [
+                  "Il caffè {ip:è} dolc**e**.",
+                  "I caffè {ip:sono} dolc**i**."
+                ],
+                [
+                  "La torta {ip:è} dolc**e**.",
+                  "Le torte {ip:sono} dolc**i**."
+                ]
+              ]
+            },
+            "note": "Gli aggettivi si accordano con il nome, come quelli di nazionalità: **-o, -a, -i, -e** oppure **-e, -i**. Un nome come *il caffè* non cambia al plurale, ma il suo aggettivo sì: *i caffè sono dolci*."
+          },
+          {
+            "table": {
+              "title": "Il verbo *bere*",
               "rows": [
                 [
                   "io",
-                  "{ip:esco}",
+                  "{ip:bevo}",
                   {
-                    "text": "con le mie amiche.",
-                    "rows": 6
-                  },
-                  "{ip:vengo}",
-                  {
-                    "text": "alla festa.",
-                    "rows": 6
-                  },
-                  "{ip:sto}",
-                  {
-                    "text": "a letto.",
+                    "text": "volentieri un bicchiere di vino rosso.",
                     "rows": 6
                   }
                 ],
                 [
                   "tu",
-                  "{ip:esci}",
-                  null,
-                  "{ip:vieni}",
-                  null,
-                  "{ip:stai}",
+                  "{ip:bevi}",
                   null
                 ],
                 [
                   "lui, lei, Lei",
-                  "{ip:esce}",
-                  null,
-                  "{ip:viene}",
-                  null,
-                  "{ip:sta}",
+                  "{ip:beve}",
                   null
                 ],
                 [
                   "noi",
-                  "{ip:usciamo}",
-                  null,
-                  "{ip:veniamo}",
-                  null,
-                  "{ip:stiamo}",
+                  "{ip:beviamo}",
                   null
                 ],
                 [
                   "voi",
-                  "{ip:uscite}",
-                  null,
-                  "{ip:venite}",
-                  null,
-                  "{ip:state}",
+                  "{ip:bevete}",
                   null
                 ],
                 [
                   "loro",
-                  "{ip:escono}",
-                  null,
-                  "{ip:vengono}",
-                  null,
-                  "{ip:stanno}",
+                  "{ip:bevono}",
                   null
                 ]
               ]
             },
-            "note": [
-              "*Uscire*, *venire* e *stare* si imparano a memoria.",
-              "*Uscire* ha *esc-* dappertutto tranne con *noi* e *voi*: *usciamo, uscite*.",
-              "*Stare* dice anche come stai: *Come {ip:stai}? {ip:Sto} bene*."
-            ]
-          },
-          {
-            "table": {
-              "title": "Gli avverbi di frequenza",
-              "rows": [
-                [
-                  "La domenica {ip:cucino} **sempre**.",
-                  "+ + + + +"
-                ],
-                [
-                  "La domenica **di solito** {ip:cucino}.",
-                  "+ + + +"
-                ],
-                [
-                  "La domenica **spesso** {ip:cucino}.",
-                  "+ + +"
-                ],
-                [
-                  "La domenica **qualche volta** / **ogni tanto** {ip:cucino}.",
-                  "+ +"
-                ],
-                [
-                  "La domenica **non** {ip:cucino} **quasi mai**.",
-                  "+"
-                ],
-                [
-                  "La domenica **non** {ip:cucino} **mai**.",
-                  ""
-                ]
-              ]
-            },
-            "note": [
-              "*Mai* e *quasi mai* vogliono *non* prima del verbo: *non cucino mai*.",
-              "*Qualche volta* e *ogni tanto* vogliono dire la stessa cosa.",
-              "*Sempre* di solito viene dopo il verbo. Gli altri possono stare prima o dopo."
-            ]
+            "note": "*Bere* usa la radice *bev-*. Poi è un verbo regolare in *-ere*."
           }
         ]
       }
@@ -144,60 +118,81 @@
   "use": {
     "exercises": [
       {
-        "type": "gap",
-        "prompt": "Scrivi la forma giusta di uscire, venire o stare.",
-        "questions": [
-          "Io [[esco#ip]] con gli amici. (uscire)",
-          "Tu [[esci#ip]] stasera? (uscire)",
-          "Noi [[usciamo#ip]] alle otto. (uscire)",
-          "Lui [[viene#ip]] alla festa. (venire)",
-          "Voi [[venite#ip]] a cena? (venire)",
-          "Loro [[vengono#ip]] domani. (venire)",
-          "Come [[stai#ip]]? (stare)",
-          "Io [[sto#ip]] bene, grazie. (stare)",
-          "Loro [[stanno#ip]] a casa. (stare)"
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi la parola che corrisponde ai segni +.",
-        "questions": [
-          "(+ + + + +) {ip:Bevo} [[sempre]] il caffè.",
-          "(+ + + +) [[Di solito]] {ip:mi alzo} alle sette.",
-          "(+ + +) {ip:Vado} [[spesso]] al cinema.",
-          "(+ +) {ip:Esco} [[ogni tanto|qualche volta]] con Luca.",
-          "(+) Non {ip:guardo} [[quasi mai]] la televisione.",
-          "( ) Non {ip:bevo} [[mai]] la birra."
-        ]
-      },
-      {
         "type": "choice",
-        "prompt": "Scegli la risposta giusta.",
+        "prompt": "Piace o piacciono?",
         "questions": [
           {
-            "q": "Quale frase {ip:è} giusta?",
+            "q": "Mi ___ il caffè.",
             "options": [
-              "*Non vado mai al cinema.",
-              "Vado mai al cinema.",
-              "Mai vado non al cinema."
+              "*piace",
+              "piacciono"
             ]
           },
           {
-            "q": "Quale parola {ip:vuol} dire «molte volte»?",
+            "q": "Mi ___ gli spaghetti.",
             "options": [
-              "*spesso",
-              "sempre",
-              "mai"
+              "piace",
+              "*piacciono"
             ]
           },
           {
-            "q": "Quale parola {ip:vuol} dire «qualche volta»?",
+            "q": "Non mi ___ le olive.",
             "options": [
-              "*ogni tanto",
-              "di solito",
-              "quasi mai"
+              "piace",
+              "*piacciono"
+            ]
+          },
+          {
+            "q": "Ti ___ cucinare?",
+            "options": [
+              "*piace",
+              "piacciono"
+            ]
+          },
+          {
+            "q": "Ci ___ i dolci.",
+            "options": [
+              "piace",
+              "*piacciono"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la parola giusta per la persona: mi, ti, gli, le, ci o vi.",
+        "questions": [
+          "(io) [[Mi]] {ip:piace} il gelato.",
+          "(tu) [[Ti]] {ip:piace} la pizza?",
+          "(lui) [[Gli]] {ip:piacciono} i funghi.",
+          "(lei) [[Le]] {ip:piace} il pesce.",
+          "(noi) [[Ci]] {ip:piacciono} le torte.",
+          "(voi) [[Vi]] {ip:piace} il vino?"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta di bere.",
+        "questions": [
+          "Io [[bevo#ip]] un caffè.",
+          "Tu che cosa [[bevi#ip]]?",
+          "Lei [[beve#ip]] il tè.",
+          "Noi [[beviamo#ip]] acqua.",
+          "Voi [[bevete#ip]] vino?",
+          "Loro [[bevono#ip]] birra."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'aggettivo con la finale giusta.",
+        "questions": [
+          "La pizza {ip:è} [[buona]]. (buono)",
+          "I gelati {ip:sono} [[freddi]]. (freddo)",
+          "Le torte {ip:sono} [[dolci]]. (dolce)",
+          "Il caffè {ip:è} [[caldo]]. (caldo)",
+          "Le minestre {ip:sono} [[calde]]. (caldo)",
+          "Il ristorante {ip:è} [[grande]]. (grande)",
+          "I piatti {ip:sono} [[buoni]]. (buono)"
         ]
       }
     ]
@@ -205,72 +200,96 @@
   "vocabulary": {
     "words": [
       [
-        "uscire",
-        "andare fuori di casa"
+        "la pizza",
+        "piatto di Napoli con pomodoro e mozzarella"
       ],
       [
-        "venire",
-        "arrivare qui, dove sono io"
+        "gli spaghetti",
+        "pasta lunga e sottile"
       ],
       [
-        "stare",
-        "restare in un posto"
+        "la minestra",
+        "verdure cotte in acqua, si mangia col cucchiaio"
       ],
       [
-        "cucinare",
-        "preparare da mangiare"
+        "il pesce",
+        "vive nel mare"
       ],
       [
-        "il fine settimana",
-        "il sabato e la domenica"
+        "la carne",
+        "la mangi da un animale, per esempio la bistecca"
       ],
       [
-        "la festa",
-        "si balla e si mangia con gli amici"
+        "le verdure",
+        "carote, patate, pomodori…"
       ],
       [
-        "la cena",
-        "il pasto della sera"
+        "i funghi",
+        "crescono nei boschi"
       ],
       [
-        "il cinema",
-        "qui guardi un film"
+        "le olive",
+        "piccole, verdi o nere, da cui viene l'olio"
       ],
       [
-        "il concerto",
-        "qui ascolti musica dal vivo"
+        "il gelato",
+        "dolce freddo dell'estate"
       ],
       [
-        "la palestra",
-        "qui fai sport"
+        "la torta",
+        "dolce per il compleanno"
       ],
       [
-        "stasera",
-        "questa sera"
+        "i dolci",
+        "torte, biscotti, cioccolato…"
       ],
       [
-        "sempre",
-        "tutte le volte"
+        "l'acqua",
+        "la bevi quando hai sete"
       ],
       [
-        "di solito",
-        "quasi sempre"
+        "il vino",
+        "bevanda rossa o bianca fatta con l'uva"
       ],
       [
-        "spesso",
-        "molte volte"
+        "la birra",
+        "bevanda gialla con la schiuma"
       ],
       [
-        "qualche volta, ogni tanto",
-        "non spesso, ma non mai"
+        "il tè",
+        "bevanda calda, inglese per tradizione"
       ],
       [
-        "quasi mai",
-        "pochissime volte"
+        "il bicchiere",
+        "ci bevi l'acqua o il vino"
       ],
       [
-        "mai",
-        "nessuna volta"
+        "buono",
+        "il contrario di cattivo"
+      ],
+      [
+        "caldo",
+        "il contrario di freddo"
+      ],
+      [
+        "freddo",
+        "il contrario di caldo"
+      ],
+      [
+        "dolce",
+        "con lo zucchero"
+      ],
+      [
+        "bere",
+        "mettere in bocca una bevanda"
+      ],
+      [
+        "piacere",
+        "essere bello o buono per qualcuno"
+      ],
+      [
+        "volentieri",
+        "con piacere"
       ]
     ],
     "exercises": [
@@ -279,28 +298,28 @@
         "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la festa",
-            "si balla e si mangia con gli amici"
+            "il pesce",
+            "vive nel mare"
           ],
           [
-            "la palestra",
-            "qui fai sport"
+            "la carne",
+            "la mangi da un animale, per esempio la bistecca"
           ],
           [
-            "stasera",
-            "questa sera"
+            "le verdure",
+            "carote, patate, pomodori…"
           ],
           [
-            "spesso",
-            "molte volte"
+            "la torta",
+            "dolce per il compleanno"
           ],
           [
-            "mai",
-            "nessuna volta"
+            "il bicchiere",
+            "ci bevi l'acqua o il vino"
           ],
           [
-            "cucinare",
-            "preparare da mangiare"
+            "freddo",
+            "il contrario di caldo"
           ]
         ]
       },
@@ -308,20 +327,20 @@
         "type": "gap",
         "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Il [[fine settimana]] (sabato e domenica) non {ip:lavoro}.",
-          "{ip:Vado} in [[palestra]] a fare sport.",
-          "Stasera {ip:ascoltiamo} musica dal vivo a un [[concerto]].",
-          "La sera, a [[cena]], {ip:mangio} la pasta.",
-          "{ip:Esci} [[stasera]] o domani sera?"
+          "Un [[bicchiere]] d'acqua, per favore.",
+          "D'estate {ip:mangio} un [[gelato]] al cioccolato.",
+          "Il tè {ip:è} [[caldo]], il gelato {ip:è} freddo.",
+          "Un caffè? Sì, [[volentieri]]!",
+          "{ip:Mangio} solo pesce e verdure: non mi {ip:piace} la [[carne]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Il fine settimana non {ip:lavoro} mai, quindi {ip:sto} poco a casa. Il sabato mattina {ip:vado} spesso in palestra.",
-      "Il sabato sera di solito {ip:esco} con le mie amiche: {ip:andiamo} al cinema o a un concerto. Qualche volta il mio ragazzo, Davide, {ip:viene} con noi.",
-      "La domenica {ip:sto} sempre a casa e {ip:cucino}. Ogni tanto i miei genitori {ip:vengono} a pranzo."
+      "{ip:Mi chiamo} Paolo e {ip:mi piace} molto mangiare. Mi {ip:piacciono} la pasta, la pizza e il pesce, ma non mi {ip:piace} la carne.",
+      "La mia ragazza, Giulia, {ip:è} diversa: le {ip:piace} la carne e non le {ip:piacciono} le verdure. A pranzo {ip:beve} acqua, ma la sera {ip:beviamo} un bicchiere di vino rosso.",
+      "Il sabato {ip:andiamo} in una trattoria vicino a casa. Il cuoco {ip:è} simpatico e i dolci {ip:sono} molto buoni!"
     ],
     "exercises": [
       {
@@ -329,35 +348,35 @@
         "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Il fine settimana lei {ip:lavora}.",
-            "options": [
-              "Vero",
-              "*Falso"
-            ]
-          },
-          {
-            "q": "Il sabato mattina {ip:va} spesso in palestra.",
+            "q": "A Paolo {ip:piace} il pesce.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "Il sabato sera di solito {ip:esce} con le sue amiche.",
-            "options": [
-              "*Vero",
-              "Falso"
-            ]
-          },
-          {
-            "q": "Davide {ip:va} sempre con loro.",
+            "q": "A Paolo {ip:piace} la carne.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "La domenica {ip:sta} sempre a casa.",
+            "q": "A Giulia {ip:piacciono} le verdure.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La sera {ip:bevono} vino rosso.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "I dolci della trattoria {ip:sono} buoni.",
             "options": [
               "*Vero",
               "Falso"
@@ -370,28 +389,28 @@
   "listening": {
     "transcript": [
       [
-        "Marta",
-        "Ciao, Luca! Come {ip:stai}?"
+        "Cameriere",
+        "Buongiorno, che cosa {ip:bevete}?"
+      ],
+      [
+        "Anna",
+        "Io {ip:bevo} un caffè, grazie."
       ],
       [
         "Luca",
-        "{ip:Sto} bene, grazie. E tu?"
+        "Per me un tè freddo."
       ],
       [
-        "Marta",
-        "Bene! Stasera {ip:esco} con Sara. {ip:Vieni} anche tu?"
+        "Cameriere",
+        "{ip:Volete} anche una torta? Le nostre torte {ip:sono} molto buone."
       ],
       [
-        "Luca",
-        "Stasera non {ip:posso}, {ip:sto} a casa a studiare. Ma sabato {ip:esco} volentieri!"
-      ],
-      [
-        "Marta",
-        "Va bene, sabato {ip:usciamo} insieme alle otto."
+        "Anna",
+        "Sì, mi {ip:piacciono} i dolci! Una torta al cioccolato, per favore."
       ],
       [
         "Luca",
-        "Perfetto, a sabato!"
+        "Io no, non mi {ip:piace} il cioccolato."
       ]
     ],
     "exercises": [
@@ -399,10 +418,11 @@
         "type": "gap",
         "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Sto#ip]] bene, grazie.",
-          "Stasera [[esco#ip]] con Sara.",
-          "[[Vieni#ip]] anche tu?",
-          "Stasera non {ip:posso}, [[sto#ip]] a casa a studiare."
+          "Buongiorno, che cosa [[bevete#ip]]?",
+          "Io [[bevo#ip]] un caffè, grazie.",
+          "Le nostre torte {ip:sono} molto [[buone]].",
+          "Sì, mi [[piacciono#ip]] i dolci!",
+          "Io no, non mi [[piace#ip]] il cioccolato."
         ]
       },
       {
@@ -410,11 +430,11 @@
         "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Quando {ip:escono} insieme Marta e Luca?",
+            "q": "Che cosa {ip:beve} Luca?",
             "options": [
-              "stasera",
-              "*sabato",
-              "domenica"
+              "*un tè freddo",
+              "un caffè",
+              "un bicchiere di vino"
             ]
           }
         ]
@@ -428,56 +448,53 @@
         "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "{ip:Chiedi} a un amico come {ip:sta}.",
+            "q": "{ip:Dici} che la pizza {ip:è} il tuo piatto preferito: mi…",
             "a": [
-              "Come stai?"
+              "Mi piace la pizza.",
+              "Mi piace molto la pizza."
             ]
           },
           {
-            "q": "{ip:Rispondi}: tutto bene, e {ip:ringrazi}.",
+            "q": "{ip:Dici} che il pesce non {ip:è} buono per te.",
             "a": [
-              "Sto bene, grazie.",
-              "Io sto bene, grazie.",
-              "Sto bene grazie.",
-              "Bene, grazie."
+              "Non mi piace il pesce."
             ]
           },
           {
-            "q": "Quando {ip:uscite} tu e i tuoi amici? (stasera)",
+            "q": "{ip:Chiedi} a un amico se gli spaghetti {ip:sono} buoni per lui.",
             "a": [
-              "Usciamo stasera.",
-              "Stasera usciamo.",
-              "Noi usciamo stasera."
+              "Ti piacciono gli spaghetti?"
             ]
           },
           {
-            "q": "{ip:Chiedi} a Marta e Luca se {ip:vengono} alla festa.",
+            "q": "Che cosa {ip:bevete} tu e Anna? (acqua)",
             "a": [
-              "Venite alla festa?",
-              "Voi venite alla festa?"
+              "Beviamo acqua.",
+              "Noi beviamo acqua.",
+              "Beviamo l'acqua.",
+              "Noi beviamo l'acqua."
             ]
           },
           {
-            "q": "{ip:Dici} che non {ip:cucini} nessuna volta.",
+            "q": "Le torte: come {ip:sono}? (buono)",
             "a": [
-              "Non cucino mai.",
-              "Io non cucino mai."
+              "Le torte sono buone.",
+              "Sono buone."
             ]
           },
           {
-            "q": "Loro {ip:vanno} al cinema molte volte. (spesso)",
+            "q": "Il caffè: com'{ip:è}? (caldo)",
             "a": [
-              "Vanno spesso al cinema.",
-              "Loro vanno spesso al cinema.",
-              "Spesso vanno al cinema."
+              "Il caffè è caldo.",
+              "È caldo."
             ]
           },
           {
-            "q": "A che ora ti {ip:alzi} quasi sempre? (di solito, alle sette)",
+            "q": "{ip:Chiedi} a un amico che cosa {ip:beve}.",
             "a": [
-              "Di solito mi alzo alle sette.",
-              "Mi alzo di solito alle sette.",
-              "Di solito mi alzo alle 7."
+              "Che cosa bevi?",
+              "Cosa bevi?",
+              "Che bevi?"
             ]
           }
         ]

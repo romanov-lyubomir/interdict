@@ -1,255 +1,233 @@
 {
-  "title": "Dov'{ip:è} la banca?",
+  "title": "La mattina {ip:mi sveglio} alle sette",
   "translation": "",
-  "topics": "Le preposizioni articolate, i luoghi della città, i verbi in -isc-, dovere, potere, volere e sapere",
+  "topics": "I verbi in -are, -ere e -ire, i verbi irregolari fare e andare, i verbi riflessivi",
   "grammar": {
     "explain": [
-      "Per dire dove si trova una cosa, l'italiano unisce spesso una preposizione e l'articolo: *a* + *il* diventa *al*, *di* + *il* diventa *del*.",
+      "I verbi italiani si dividono in tre gruppi secondo la finale dell'infinito: *-are*, *-ere* e *-ire*. Alcuni verbi molto comuni, come *fare* e *andare*, non seguono nessun gruppo.",
       {
         "grid": [
           {
-            "wide": true,
             "table": {
-              "title": "Alcune preposizioni articolate",
-              "rows": [
+              "title": "I verbi irregolari",
+              "groups": [
                 [
-                  {
-                    "text": "davanti",
-                    "rows": 3
-                  },
-                  "**al**",
-                  "bar",
-                  {
-                    "text": "a sinistra",
-                    "rows": 3
-                  },
-                  "**del**",
-                  "bar"
+                  "",
+                  1
                 ],
                 [
-                  null,
-                  "**all'**",
-                  "albergo",
-                  null,
-                  "**dell'**",
-                  "albergo"
+                  "*fare*",
+                  2
                 ],
                 [
-                  null,
-                  "**allo**",
-                  "zoo",
-                  null,
-                  "**dello**",
-                  "zoo"
-                ],
-                [
-                  {
-                    "text": "accanto",
-                    "rows": 3
-                  },
-                  "**alla**",
-                  "banca",
-                  {
-                    "text": "a destra",
-                    "rows": 3
-                  },
-                  "**della**",
-                  "banca"
-                ],
-                [
-                  null,
-                  "**all'**",
-                  "edicola",
-                  null,
-                  "**dell'**",
-                  "edicola"
-                ],
-                [
-                  null,
-                  "**ai**",
-                  "negozi",
-                  null,
-                  "**dei**",
-                  "negozi"
-                ],
-                [
-                  {
-                    "text": "dietro",
-                    "rows": 2
-                  },
-                  "**agli**",
-                  "uffici",
-                  {
-                    "text": "al centro",
-                    "rows": 2
-                  },
-                  "**degli**",
-                  "uffici"
-                ],
-                [
-                  null,
-                  "**alle**",
-                  "fontane",
-                  null,
-                  "**delle**",
-                  "fontane"
-                ],
-                [
-                  {
-                    "text": "La farmacia {ip:è} **fra** / **tra** la banca e il bar.",
-                    "cols": 6
-                  }
+                  "*andare*",
+                  2
                 ]
-              ]
-            },
-            "note": [
-              "*Davanti, accanto* e *dietro* prendono *a*: *davanti al bar*. *A sinistra, a destra* e *al centro* prendono *di*: *a destra del bar*.",
-              "*A* e *di* si uniscono all'articolo così com'è: **a** + il = **al**, lo = **allo**, la = **alla**, l' = **all'**, i = **ai**, gli = **agli**, le = **alle**. Con *di*: **del, dello, della, dell', dei, degli, delle**.",
-              "*Fra* e *tra* vogliono dire la stessa cosa e non si uniscono mai all'articolo."
-            ]
-          },
-          {
-            "wide": true,
-            "table": {
-              "title": "I verbi modali",
-              "head": [
-                "",
-                "*dovere*",
-                "*potere*",
-                "*volere*",
-                ""
               ],
               "rows": [
                 [
                   "io",
-                  "{ip:devo}",
-                  "{ip:posso}",
-                  "{ip:voglio}",
+                  "{ip:faccio}",
                   {
-                    "text": "prendere il treno.",
+                    "text": "un caffè.",
+                    "rows": 6
+                  },
+                  "{ip:vado}",
+                  {
+                    "text": "a casa.",
                     "rows": 6
                   }
                 ],
                 [
                   "tu",
-                  "{ip:devi}",
-                  "{ip:puoi}",
-                  "{ip:vuoi}",
+                  "{ip:fai}",
+                  null,
+                  "{ip:vai}",
                   null
                 ],
                 [
                   "lui, lei, Lei",
-                  "{ip:deve}",
-                  "{ip:può}",
-                  "{ip:vuole}",
+                  "{ip:fa}",
+                  null,
+                  "{ip:va}",
                   null
                 ],
                 [
                   "noi",
-                  "{ip:dobbiamo}",
-                  "{ip:possiamo}",
-                  "{ip:vogliamo}",
+                  "{ip:facciamo}",
+                  null,
+                  "{ip:andiamo}",
                   null
                 ],
                 [
                   "voi",
-                  "{ip:dovete}",
-                  "{ip:potete}",
-                  "{ip:volete}",
+                  "{ip:fate}",
+                  null,
+                  "{ip:andate}",
                   null
                 ],
                 [
                   "loro",
-                  "{ip:devono}",
-                  "{ip:possono}",
-                  "{ip:vogliono}",
+                  "{ip:fanno}",
+                  null,
+                  "{ip:vanno}",
                   null
                 ]
               ]
             },
-            "note": "*Dovere*, *potere* e *volere* sono irregolari. Dopo di loro viene un verbo all'infinito: *{ip:devo} partire, {ip:posso} entrare?* *Volere* può avere anche un nome: *{ip:voglio} un caffè*."
+            "note": "*Fare* e *andare* si imparano a memoria. Davanti a una città o a *casa*, *andare* prende *a*: *vado a Roma, vado a casa*."
           },
           {
             "table": {
-              "title": "Il verbo *finire*",
+              "title": "I verbi riflessivi",
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*svegliarsi*",
+                  3
+                ]
+              ],
               "rows": [
                 [
                   "io",
-                  "{ip:fin**isc**o}",
+                  "mi",
+                  "{ip:svegli**o**}",
                   {
-                    "text": "di studiare alle 17.00.",
+                    "text": "alle 7.30.",
                     "rows": 6
                   }
                 ],
                 [
                   "tu",
-                  "{ip:fin**isc**i}",
+                  "ti",
+                  "{ip:svegl**i**}",
                   null
                 ],
                 [
                   "lui, lei, Lei",
-                  "{ip:fin**isc**e}",
+                  "si",
+                  "{ip:svegli**a**}",
                   null
                 ],
                 [
                   "noi",
-                  "{ip:finiamo}",
+                  "ci",
+                  "{ip:svegl**iamo**}",
                   null
                 ],
                 [
                   "voi",
-                  "{ip:finite}",
+                  "vi",
+                  "{ip:svegli**ate**}",
                   null
                 ],
                 [
                   "loro",
-                  "{ip:fin**isc**ono}",
+                  "si",
+                  "{ip:svegli**ano**}",
                   null
                 ]
               ]
             },
-            "note": "Come *finire*: *capire, preferire, pulire*. *Noi* e *voi* non hanno **-isc-**."
+            "note": "Il verbo si coniuga come sempre, con *mi, ti, si, ci, vi, si* davanti. Molte azioni di ogni giorno funzionano così: *svegliarsi, alzarsi, lavarsi*."
           },
           {
+            "wide": true,
             "table": {
-              "title": "Il verbo *sapere*",
+              "title": "Le tre coniugazioni (verbi in *-are*, *-ere*, *-ire*)",
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "guard**are**",
+                  2
+                ],
+                [
+                  "legg**ere**",
+                  2
+                ],
+                [
+                  "part**ire**",
+                  2
+                ]
+              ],
               "rows": [
                 [
                   "io",
-                  "{ip:so}",
+                  "{ip:guard**o**}",
                   {
-                    "text": "dov'{ip:è} la banca.",
+                    "text": "la televisione.",
+                    "rows": 6
+                  },
+                  "{ip:legg**o**}",
+                  {
+                    "text": "un libro.",
+                    "rows": 6
+                  },
+                  "{ip:part**o**}",
+                  {
+                    "text": "domani.",
                     "rows": 6
                   }
                 ],
                 [
                   "tu",
-                  "{ip:sai}",
+                  "{ip:guard**i**}",
+                  null,
+                  "{ip:legg**i**}",
+                  null,
+                  "{ip:part**i**}",
                   null
                 ],
                 [
                   "lui, lei, Lei",
-                  "{ip:sa}",
+                  "{ip:guard**a**}",
+                  null,
+                  "{ip:legg**e**}",
+                  null,
+                  "{ip:part**e**}",
                   null
                 ],
                 [
                   "noi",
-                  "{ip:sappiamo}",
+                  "{ip:guard**iamo**}",
+                  null,
+                  "{ip:legg**iamo**}",
+                  null,
+                  "{ip:part**iamo**}",
                   null
                 ],
                 [
                   "voi",
-                  "{ip:sapete}",
+                  "{ip:guard**ate**}",
+                  null,
+                  "{ip:legg**ete**}",
+                  null,
+                  "{ip:part**ite**}",
                   null
                 ],
                 [
                   "loro",
-                  "{ip:sanno}",
+                  "{ip:guard**ano**}",
+                  null,
+                  "{ip:legg**ono**}",
+                  null,
+                  "{ip:part**ono**}",
                   null
                 ]
               ]
             },
-            "note": "*Sapere* vuol dire conoscere una cosa: *{ip:so} dov'è*. Con un infinito vuol dire essere capaci di fare qualcosa: *{ip:so} nuotare*."
+            "note": [
+              "Si toglie *-are*, *-ere* o *-ire* e si aggiungono le finali del gruppo.",
+              "*-ere* e *-ire* hanno le stesse finali tranne con *voi*: *leggete* ma *partite*.",
+              "Alcuni verbi in *-ire*, come *finire* e *capire*, aggiungono **-isc-** tranne con *noi* e *voi*: *fin**isc**o, fin**isc**i, fin**isc**e, finiamo, finite, fin**isc**ono*.",
+              "La grafia resta regolare, ma il suono può cambiare: la *g* di *leggo* è dura, quella di *leggi* è morbida."
+            ]
           }
         ]
       }
@@ -259,52 +237,74 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Unisci la preposizione e l'articolo.",
-        "questions": [
-          "Vado [[al]] bar. (a + il)",
-          "Il museo {ip:è} accanto [[all']]albergo. (a + l')",
-          "Andiamo [[allo]] stadio. (a + lo)",
-          "La farmacia {ip:è} davanti [[alla]] banca. (a + la)",
-          "Il parco {ip:è} dietro [[agli]] uffici. (a + gli)",
-          "Il bar {ip:è} a destra [[del]] museo. (di + il)",
-          "La fermata {ip:è} a sinistra [[della]] stazione. (di + la)",
-          "La banca {ip:è} a destra [[dei]] negozi. (di + i)"
-        ]
-      },
-      {
-        "type": "gap",
         "prompt": "Scrivi la forma giusta del verbo.",
         "questions": [
-          "Io [[finisco#ip]] di lavorare alle sei. (finire)",
-          "Tu [[capisci#ip]] l'italiano? (capire)",
-          "Lei [[preferisce#ip]] il tè. (preferire)",
-          "Noi [[finiamo#ip]] alle cinque. (finire)",
-          "Voi [[capite#ip]]? (capire)",
-          "Loro [[puliscono#ip]] la casa. (pulire)"
+          "Io [[leggo#ip]] un giornale. (leggere)",
+          "Tu [[scrivi#ip]] una lettera? (scrivere)",
+          "Lui [[dorme#ip]] poco. (dormire)",
+          "Noi [[guardiamo#ip]] la televisione. (guardare)",
+          "Voi [[partite#ip]] domani? (partire)",
+          "Loro [[prendono#ip]] il treno. (prendere)",
+          "Voi [[leggete#ip]] molto. (leggere)",
+          "Io [[finisco#ip]] alle sei. (finire)"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi la forma giusta di dovere, potere o volere.",
+        "prompt": "Scrivi la forma giusta di fare o andare.",
         "questions": [
-          "Io [[devo#ip]] studiare. (dovere)",
-          "Tu [[puoi#ip]] venire domani? (potere)",
-          "Lui [[vuole#ip]] un caffè. (volere)",
-          "Noi [[dobbiamo#ip]] partire. (dovere)",
-          "Voi [[potete#ip]] aspettare? (potere)",
-          "Loro [[vogliono#ip]] andare al mare. (volere)"
+          "Io [[faccio#ip]] colazione. (fare)",
+          "Tu [[vai#ip]] a casa? (andare)",
+          "Lei [[fa#ip]] un caffè. (fare)",
+          "Noi [[andiamo#ip]] a Roma. (andare)",
+          "Voi [[fate#ip]] una pausa? (fare)",
+          "Loro [[vanno#ip]] a scuola. (andare)"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi la forma giusta di sapere.",
+        "prompt": "Scrivi il verbo riflessivo con il suo pronome.",
         "questions": [
-          "Io non [[so#ip]] dov'{ip:è} la banca.",
-          "[[Sai#ip]] dov'{ip:è} la stazione?",
-          "Lei [[sa#ip]] parlare inglese.",
-          "Noi [[sappiamo#ip]] nuotare.",
-          "Voi [[sapete#ip]] dov'{ip:è} il museo?",
-          "Loro non [[sanno#ip]] cucinare."
+          "Io [[mi sveglio#ip]] alle sette. (svegliarsi)",
+          "Tu [[ti alzi#ip]] presto? (alzarsi)",
+          "Lui [[si chiama#ip]] Marco. (chiamarsi)",
+          "Noi [[ci alziamo#ip]] alle otto. (alzarsi)",
+          "Voi [[vi svegliate#ip]] tardi? (svegliarsi)",
+          "Loro [[si riposano#ip]] la domenica. (riposarsi)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "voi … (dormire)",
+            "options": [
+              "*dormite",
+              "dormete"
+            ]
+          },
+          {
+            "q": "voi … (scrivere)",
+            "options": [
+              "*scrivete",
+              "scrivite"
+            ]
+          },
+          {
+            "q": "io … (capire)",
+            "options": [
+              "*capisco",
+              "capo"
+            ]
+          },
+          {
+            "q": "noi … (capire)",
+            "options": [
+              "*capiamo",
+              "capischiamo"
+            ]
+          }
         ]
       }
     ]
@@ -312,92 +312,84 @@
   "vocabulary": {
     "words": [
       [
-        "la banca",
-        "qui metti e prendi i soldi"
+        "guardare",
+        "usare gli occhi: un film, la televisione"
       ],
       [
-        "il bar",
-        "qui bevi un caffè"
+        "ascoltare",
+        "usare le orecchie: la musica, la radio"
       ],
       [
-        "l'albergo",
-        "qui dormi quando sei in viaggio"
+        "leggere",
+        "un libro, un giornale"
       ],
       [
-        "lo stadio",
-        "qui guardi una partita"
+        "scrivere",
+        "una lettera, un messaggio"
       ],
       [
-        "la stazione",
-        "qui prendi il treno"
+        "prendere",
+        "il treno, l'autobus, un caffè"
       ],
       [
-        "la farmacia",
-        "qui compri le medicine"
+        "dormire",
+        "lo fai a letto la notte"
       ],
       [
-        "il museo",
-        "qui vedi quadri e cose antiche"
+        "partire",
+        "andare via per un viaggio"
       ],
       [
-        "la piazza",
-        "un grande spazio aperto in centro"
+        "tornare",
+        "andare di nuovo dove eri prima"
       ],
       [
-        "la fermata",
-        "qui aspetti l'autobus"
+        "finire",
+        "il contrario di cominciare"
       ],
       [
-        "il parco",
-        "un grande giardino della città"
+        "capire",
+        "sapere che cosa vuol dire una cosa"
       ],
       [
-        "l'edicola",
-        "qui compri il giornale"
+        "fare colazione",
+        "mangiare la mattina"
       ],
       [
-        "davanti a",
-        "il contrario di dietro"
+        "svegliarsi",
+        "aprire gli occhi la mattina"
       ],
       [
-        "accanto a",
-        "subito vicino, di fianco"
+        "alzarsi",
+        "uscire dal letto"
       ],
       [
-        "dietro a",
-        "il contrario di davanti"
+        "riposarsi",
+        "stare tranquilli dopo il lavoro"
       ],
       [
-        "a sinistra di",
-        "il contrario di a destra"
+        "la mattina",
+        "la prima parte del giorno"
       ],
       [
-        "a destra di",
-        "il contrario di a sinistra"
+        "la sera",
+        "la parte del giorno dopo il lavoro"
       ],
       [
-        "vicino a",
-        "il contrario di lontano"
+        "presto",
+        "il contrario di tardi"
       ],
       [
-        "fra, tra",
-        "in mezzo a due cose"
+        "tardi",
+        "il contrario di presto"
       ],
       [
-        "dovere",
-        "è necessario fare qualcosa"
+        "poco",
+        "il contrario di molto"
       ],
       [
-        "potere",
-        "è possibile fare qualcosa"
-      ],
-      [
-        "volere",
-        "avere voglia di qualcosa"
-      ],
-      [
-        "sapere",
-        "conoscere una cosa"
+        "molto",
+        "il contrario di poco"
       ]
     ],
     "exercises": [
@@ -406,28 +398,28 @@
         "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la farmacia",
-            "qui compri le medicine"
+            "leggere",
+            "un libro, un giornale"
           ],
           [
-            "l'albergo",
-            "qui dormi quando sei in viaggio"
+            "dormire",
+            "lo fai a letto la notte"
           ],
           [
-            "la fermata",
-            "qui aspetti l'autobus"
+            "partire",
+            "andare via per un viaggio"
           ],
           [
-            "accanto a",
-            "subito vicino, di fianco"
+            "capire",
+            "sapere che cosa vuol dire una cosa"
           ],
           [
-            "dietro a",
-            "il contrario di davanti"
+            "svegliarsi",
+            "aprire gli occhi la mattina"
           ],
           [
-            "vicino a",
-            "il contrario di lontano"
+            "tardi",
+            "il contrario di presto"
           ]
         ]
       },
@@ -435,20 +427,20 @@
         "type": "gap",
         "prompt": "Completa con la parola giusta.",
         "questions": [
-          "In viaggio {ip:dormiamo} in un [[albergo]] del centro.",
-          "{ip:Aspetto} l'autobus alla [[fermata]].",
-          "La banca {ip:è} in [[piazza]], in centro.",
-          "Il bar non {ip:è} lontano: {ip:è} [[vicino]] alla stazione.",
-          "{ip:Compro} un giornale all'[[edicola]]."
+          "{ip:Mi alzo} alle sei: {ip:mi alzo} [[presto]].",
+          "La [[sera]], dopo il lavoro, {ip:guardiamo} un film.",
+          "La mattina {ip:faccio} [[colazione]] alle otto.",
+          "Marco {ip:dorme} cinque ore: {ip:dorme} [[poco]].",
+          "Loro {ip:leggono} tanti libri: {ip:leggono} [[molto]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Oggi {ip:sono} a Firenze con la mia amica Elena. Il nostro albergo {ip:è} in piazza, accanto alla stazione.",
-      "Elena {ip:vuole} vedere un museo, ma io prima {ip:devo} andare in banca. Non {ip:so} dov'{ip:è}, ma un signore {ip:sa}: la banca {ip:è} a destra del bar, davanti alla farmacia.",
-      "Il museo {ip:è} vicino al parco e {ip:possiamo} andare dopo pranzo. La sera {ip:vogliamo} mangiare in un ristorante tra il museo e l'albergo."
+      "{ip:Mi chiamo} Marco e {ip:lavoro} in un negozio a Torino. La mattina {ip:mi sveglio} alle sette, {ip:mi alzo} e {ip:faccio} colazione: un caffè e un cornetto.",
+      "Alle otto {ip:prendo} il tram e {ip:vado} a lavorare. {ip:Finisco} alle sei e {ip:torno} a casa.",
+      "La sera {ip:leggo} un libro o {ip:guardo} la televisione con Anna, la mia ragazza. Lei {ip:scrive} articoli per un giornale. Noi {ip:andiamo} a letto tardi e {ip:dormiamo} poco!"
     ],
     "exercises": [
       {
@@ -456,38 +448,38 @@
         "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "L'albergo {ip:è} accanto alla stazione.",
+            "q": "Marco {ip:si sveglia} alle sette.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "Elena {ip:vuole} vedere un museo.",
-            "options": [
-              "*Vero",
-              "Falso"
-            ]
-          },
-          {
-            "q": "La banca {ip:è} dietro al bar.",
+            "q": "A colazione Marco {ip:beve} un tè.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "La banca {ip:è} davanti alla farmacia.",
+            "q": "Marco {ip:finisce} di lavorare alle sei.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "Il museo {ip:è} vicino al parco.",
+            "q": "Anna {ip:scrive} articoli.",
             "options": [
               "*Vero",
               "Falso"
+            ]
+          },
+          {
+            "q": "Marco e Anna {ip:dormono} molto.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           }
         ]
@@ -497,28 +489,28 @@
   "listening": {
     "transcript": [
       [
-        "Turista",
-        "Scusi, {ip:sa} dov'{ip:è} la fermata dell'autobus?"
+        "Luca",
+        "Ciao, Sara! Che cosa {ip:fai} stasera?"
       ],
       [
-        "Signora",
-        "Sì, {ip:è} davanti all'università, a sinistra della piazza."
+        "Sara",
+        "{ip:Vado} a casa e {ip:guardo} un film. E tu?"
       ],
       [
-        "Turista",
-        "{ip:Posso} andare a piedi?"
+        "Luca",
+        "Io {ip:scrivo} un articolo. {ip:Finisco} tardi."
       ],
       [
-        "Signora",
-        "Sì, certo. {ip:Deve} andare dritto per cinque minuti."
+        "Sara",
+        "E domani {ip:partite} per Roma?"
       ],
       [
-        "Turista",
-        "Grazie mille!"
+        "Luca",
+        "Sì, io e Marta {ip:partiamo} domani mattina. {ip:Ci svegliamo} alle sei!"
       ],
       [
-        "Signora",
-        "Prego!"
+        "Sara",
+        "Alle sei? Buon viaggio!"
       ]
     ],
     "exercises": [
@@ -526,10 +518,10 @@
         "type": "gap",
         "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Scusi, [[sa#ip]] dov'{ip:è} la fermata dell'autobus?",
-          "{ip:È} davanti [[all']]università, a sinistra [[della]] piazza.",
-          "[[Posso#ip]] andare a piedi?",
-          "[[Deve#ip]] andare dritto per cinque minuti."
+          "[[Vado#ip]] a casa e [[guardo#ip]] un film.",
+          "Io [[scrivo#ip]] un articolo.",
+          "Io e Marta [[partiamo#ip]] domani mattina.",
+          "[[Ci svegliamo#ip]] alle sei!"
         ]
       },
       {
@@ -537,11 +529,11 @@
         "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Come {ip:va} alla fermata il turista?",
+            "q": "Quando {ip:partono} per Roma Luca e Marta?",
             "options": [
-              "*a piedi",
-              "in autobus",
-              "in taxi"
+              "stasera",
+              "*domani mattina",
+              "alle sei di sera"
             ]
           }
         ]
@@ -555,55 +547,57 @@
         "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "Dov'{ip:è} il bar? (accanto / la banca)",
+            "q": "A che ora ti {ip:svegli}? (alle sette)",
             "a": [
-              "Il bar è accanto alla banca.",
-              "È accanto alla banca."
+              "Mi sveglio alle sette.",
+              "Io mi sveglio alle sette.",
+              "Mi sveglio alle 7."
             ]
           },
           {
-            "q": "Domani {ip:hai} un esame: che cosa {ip:devi} fare? (studiare)",
+            "q": "Dove {ip:andate} tu e Luca? (a casa)",
             "a": [
-              "Devo studiare.",
-              "Io devo studiare."
+              "Andiamo a casa.",
+              "Noi andiamo a casa."
             ]
           },
           {
-            "q": "{ip:Chiedi} a un amico se {ip:può} venire domani.",
+            "q": "Che cosa {ip:fa} Anna? (leggere un libro)",
             "a": [
-              "Puoi venire domani?",
-              "Tu puoi venire domani?"
+              "Legge un libro.",
+              "Anna legge un libro.",
+              "Lei legge un libro."
             ]
           },
           {
-            "q": "Che cosa {ip:volete} tu e Luca? (un caffè)",
+            "q": "{ip:Chiedi} a Luca e Marta se {ip:dormono} molto.",
             "a": [
-              "Vogliamo un caffè.",
-              "Noi vogliamo un caffè."
+              "Dormite molto?",
+              "Voi dormite molto?"
             ]
           },
           {
-            "q": "Un turista ti {ip:chiede} dov'{ip:è} la stazione, ma tu non lo {ip:sai}.",
+            "q": "Che cosa {ip:fai} in cucina? (un caffè)",
             "a": [
-              "Non so dov'è la stazione.",
-              "Io non so dov'è la stazione.",
-              "Non so dove è la stazione.",
-              "Non lo so."
+              "Faccio un caffè.",
+              "Io faccio un caffè."
             ]
           },
           {
-            "q": "A che ora {ip:finiscono} di lavorare? (alle sei)",
+            "q": "Quando {ip:partono} Luca e Marta? (domani)",
             "a": [
-              "Finiscono alle sei.",
-              "Loro finiscono alle sei.",
-              "Finiscono di lavorare alle sei."
+              "Partono domani.",
+              "Loro partono domani.",
+              "Luca e Marta partono domani."
             ]
           },
           {
-            "q": "Dov'{ip:è} il museo? (a destra / il parco)",
+            "q": "{ip:Dici} che l'italiano non {ip:è} difficile per te: lo…",
             "a": [
-              "Il museo è a destra del parco.",
-              "È a destra del parco."
+              "Capisco l'italiano.",
+              "Io capisco l'italiano.",
+              "Capisco italiano.",
+              "Lo capisco."
             ]
           }
         ]

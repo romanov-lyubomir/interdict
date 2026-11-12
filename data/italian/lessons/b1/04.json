@@ -1,182 +1,468 @@
 {
   "title": "{cop:Vorrei} venire, ma {cpa:avrei dovuto} studiare",
-  "translation": "I'd like to come, but I should have studied",
-  "topics": "The [cop:condizionale presente] and the [cpa:condizionale passato]",
+  "translation": "",
+  "topics": "Il [cop:condizionale presente] regolare e irregolare, i suoi usi: richieste gentili, desideri e consigli, il [cpa:condizionale passato], *dovrei* o *avrei dovuto*, *-emo* o *-emmo*, consigli e rimpianti",
   "grammar": {
     "explain": [
+      "Il [cop:condizionale presente] serve per chiedere una cosa in modo gentile, per parlare di desideri e per dare consigli: *{cop:Vorrei} un caffè. Mi {cop:piacerebbe} vivere al mare. {cop:Dovresti} riposarti.* Il [cpa:condizionale passato] parla invece di quello che non è successo: *{cpa:Avrei dovuto} studiare.*",
       {
-        "h": "How to form the [cop:condizionale presente]"
-      },
-      "If you know the future, you already know the stem. Only the endings change, and irregular verbs keep the same irregular stems: *{fs:sarò} → {cop:sarei}, {fs:avrò} → {cop:avrei}, {fs:verrò} → {cop:verrei}, {fs:andrò} → {cop:andrei}, {fs:farò} → {cop:farei}*.",
-      {
-        "table": {
-          "head": [
-            "",
-            "parlare → parler-",
-            "scrivere → scriver-",
-            "dormire → dormir-"
-          ],
-          "rows": [
-            [
-              "io",
-              "{cop:parler**ei**}",
-              "{cop:scriver**ei**}",
-              "{cop:dormir**ei**}"
-            ],
-            [
-              "tu",
-              "{cop:parler**esti**}",
-              "{cop:scriver**esti**}",
-              "{cop:dormir**esti**}"
-            ],
-            [
-              "lui / lei",
-              "{cop:parler**ebbe**}",
-              "{cop:scriver**ebbe**}",
-              "{cop:dormir**ebbe**}"
-            ],
-            [
-              "noi",
-              "{cop:parler**emmo**}",
-              "{cop:scriver**emmo**}",
-              "{cop:dormir**emmo**}"
-            ],
-            [
-              "voi",
-              "{cop:parler**este**}",
-              "{cop:scriver**este**}",
-              "{cop:dormir**este**}"
-            ],
-            [
-              "loro",
-              "{cop:parler**ebbero**}",
-              "{cop:scriver**ebbero**}",
-              "{cop:dormir**ebbero**}"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [cop:condizionale presente] dei verbi regolari",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*parlare*",
+                  2
+                ],
+                [
+                  "*scrivere*",
+                  2
+                ],
+                [
+                  "*dormire*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{cop:parler**ei**}",
+                  {
+                    "text": "con il direttore.",
+                    "rows": 6
+                  },
+                  "{cop:scriver**ei**}",
+                  {
+                    "text": "un libro.",
+                    "rows": 6
+                  },
+                  "{cop:dormir**ei**}",
+                  {
+                    "text": "fino a tardi.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{cop:parler**esti**}",
+                  null,
+                  "{cop:scriver**esti**}",
+                  null,
+                  "{cop:dormir**esti**}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "{cop:parler**ebbe**}",
+                  null,
+                  "{cop:scriver**ebbe**}",
+                  null,
+                  "{cop:dormir**ebbe**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{cop:parler**emmo**}",
+                  null,
+                  "{cop:scriver**emmo**}",
+                  null,
+                  "{cop:dormir**emmo**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{cop:parler**este**}",
+                  null,
+                  "{cop:scriver**este**}",
+                  null,
+                  "{cop:dormir**este**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{cop:parler**ebbero**}",
+                  null,
+                  "{cop:scriver**ebbero**}",
+                  null,
+                  "{cop:dormir**ebbero**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "La radice è la stessa del [fs:futuro semplice]: *{fs:parlerò} → {cop:parlerei}*. Anche qui nei verbi in *-are* la *a* diventa *e*: *parlare → parler-*.",
+              "Le finali sono uguali per tutti i verbi: **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.",
+              "Come nel [fs:futuro], i verbi in *-care* e *-gare* prendono una *h* (*{cop:cercherei}, {cop:pagherei}*) e i verbi in *-ciare* e *-giare* perdono la *i* (*{cop:comincerei}, {cop:mangerei}*)."
             ]
-          ]
-        }
-      },
-      "Careful: the future *{fs:parleremo}* (we will speak) has one *m*, and the conditional *{cop:parleremmo}* (we would speak) has two.",
-      {
-        "h": "What it is for"
-      },
-      {
-        "table": {
-          "head": [
-            "Use",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Polite requests",
-              "{cop:Vorrei} un caffè. {cop:Potrebbe} aiutarmi?",
-              "I'd like… Could you…?"
-            ],
-            [
-              "Wishes",
-              "Mi {cop:piacerebbe} viaggiare.",
-              "I'd like to travel."
-            ],
-            [
-              "Advice",
-              "{cop:Dovresti} riposarti.",
-              "You should rest."
-            ],
-            [
-              "Unconfirmed news",
-              "Il ministro {cop:sarebbe} a Roma.",
-              "The minister is said to be in Rome."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [cop:condizionale presente] dei verbi irregolari",
+              "rows": [
+                [
+                  "*essere*",
+                  "{cop:sarei}, {cop:saresti}, {cop:sarebbe}, {cop:saremmo}, {cop:sareste}, {cop:sarebbero}"
+                ],
+                [
+                  "*avere*",
+                  "{cop:avrei}, {cop:avresti}, {cop:avrebbe}, {cop:avremmo}, {cop:avreste}, {cop:avrebbero}"
+                ],
+                [
+                  "*fare*",
+                  "{cop:farei}, {cop:faresti}, {cop:farebbe}, {cop:faremmo}, {cop:fareste}, {cop:farebbero}"
+                ],
+                [
+                  "*andare*",
+                  "{cop:andrei}, {cop:andresti}, {cop:andrebbe}, {cop:andremmo}, {cop:andreste}, {cop:andrebbero}"
+                ],
+                [
+                  "*potere*",
+                  "{cop:potrei}, {cop:potresti}, {cop:potrebbe}, {cop:potremmo}, {cop:potreste}, {cop:potrebbero}"
+                ],
+                [
+                  "*dovere*",
+                  "{cop:dovrei}, {cop:dovresti}, {cop:dovrebbe}, {cop:dovremmo}, {cop:dovreste}, {cop:dovrebbero}"
+                ],
+                [
+                  "*sapere*",
+                  "{cop:saprei}, {cop:sapresti}, {cop:saprebbe}, {cop:sapremmo}, {cop:sapreste}, {cop:saprebbero}"
+                ],
+                [
+                  "*vedere*",
+                  "{cop:vedrei}, {cop:vedresti}, {cop:vedrebbe}, {cop:vedremmo}, {cop:vedreste}, {cop:vedrebbero}"
+                ],
+                [
+                  "*volere*",
+                  "{cop:vorrei}, {cop:vorresti}, {cop:vorrebbe}, {cop:vorremmo}, {cop:vorreste}, {cop:vorrebbero}"
+                ],
+                [
+                  "*venire*",
+                  "{cop:verrei}, {cop:verresti}, {cop:verrebbe}, {cop:verremmo}, {cop:verreste}, {cop:verrebbero}"
+                ],
+                [
+                  "*bere*",
+                  "{cop:berrei}, {cop:berresti}, {cop:berrebbe}, {cop:berremmo}, {cop:berreste}, {cop:berrebbero}"
+                ],
+                [
+                  "*dare, stare*",
+                  "{cop:darei}, {cop:daresti}… · {cop:starei}, {cop:staresti}…"
+                ]
+              ]
+            },
+            "note": "I verbi irregolari hanno la stessa radice del [fs:futuro]: *{fs:sarò} → {cop:sarei}*, *{fs:andrò} → {cop:andrei}*, *{fs:vorrò} → {cop:vorrei}*, *{fs:verrò} → {cop:verrei}*. Chi sa il [fs:futuro] sa già anche il condizionale."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Quando si usa il [cop:condizionale presente]",
+              "head": [
+                "per…",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "chiedere qualcosa in modo gentile",
+                  "{cop:Vorrei} un cappuccino. {cop:Potrebbe} chiudere la finestra? Mi {cop:daresti} una mano?"
+                ],
+                [
+                  "esprimere un desiderio",
+                  "Mi {cop:piacerebbe} vivere al mare. {cop:Vorremmo} cambiare casa."
+                ],
+                [
+                  "dare un consiglio",
+                  "{cop:Dovresti} dormire di più. Al posto tuo {cop:partirei} subito."
+                ],
+                [
+                  "dire un'opinione con prudenza",
+                  "{cop:Direi} che {ip:è} una buona idea. Non {cop:saprei}."
+                ],
+                [
+                  "parlare di una cosa possibile",
+                  "Con più tempo {cop:imparerei} anche lo spagnolo."
+                ]
+              ]
+            },
+            "note": "*Voglio* è diretto, *vorrei* è gentile: al bar, in un negozio, con una persona che non conosci si dice sempre *{cop:Vorrei}…* o *{cop:Potrebbe}…?*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [cpa:condizionale passato]",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*mangiare* (con *avere*)",
+                  2
+                ],
+                [
+                  "*partire* (con *essere*)",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{cpa:**avrei** mangiato}",
+                  {
+                    "text": "di più.",
+                    "rows": 6
+                  },
+                  "{cpa:**sarei** partit**o**/**a**}",
+                  {
+                    "text": "prima.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{cpa:**avresti** mangiato}",
+                  null,
+                  "{cpa:**saresti** partit**o**/**a**}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "{cpa:**avrebbe** mangiato}",
+                  null,
+                  "{cpa:**sarebbe** partit**o**/**a**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{cpa:**avremmo** mangiato}",
+                  null,
+                  "{cpa:**saremmo** partit**i**/**e**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{cpa:**avreste** mangiato}",
+                  null,
+                  "{cpa:**sareste** partit**i**/**e**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{cpa:**avrebbero** mangiato}",
+                  null,
+                  "{cpa:**sarebbero** partit**i**/**e**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Si forma come il [pp:passato prossimo], con l'ausiliare al [cop:condizionale presente]: *{pp:ho mangiato} → {cpa:avrei mangiato}*, *{pp:sono partito} → {cpa:sarei partito}*.",
+              "Parla di cose che non sono successe: desideri e possibilità del passato, rimpianti, consigli arrivati troppo tardi."
             ]
-          ]
-        }
-      },
-      {
-        "h": "The [cpa:condizionale passato]"
-      },
-      "It is formed like the [pp:passato prossimo], with the auxiliary in the conditional: *{cpa:avrei mangiato}, {cpa:sarei partito}*. The same rules for the auxiliary and agreement apply.",
-      "It describes what would have happened but did not. It is the tense of regret and missed chances.",
-      {
-        "table": {
-          "head": [
-            "Now",
-            "Too late"
-          ],
-          "rows": [
-            [
-              "{cop:Dovrei} studiare. (I should study.)",
-              "Avrei dovuto studiare. (I should have studied.)"
-            ],
-            [
-              "{cop:Potrei} venire. (I could come.)",
-              "Sarei potuto venire. (I could have come.)"
-            ],
-            [
-              "Vorrei partire. (I'd like to leave.)",
-              "Sarei voluto partire. (I would have liked to leave.)"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Ancora possibile o troppo tardi?",
+              "head": [
+                "è ancora possibile: [cop:condizionale presente]",
+                "è troppo tardi: [cpa:condizionale passato]"
+              ],
+              "rows": [
+                [
+                  "**{cop:Dovrei}** studiare di più.",
+                  "**{cpa:Avrei dovuto}** studiare di più."
+                ],
+                [
+                  "**{cop:Potrei}** venire con te.",
+                  "**{cpa:Sarei potuto}** venire con te."
+                ],
+                [
+                  "**{cop:Vorrei}** vedere quel film.",
+                  "**{cpa:Avrei voluto}** vedere quel film."
+                ],
+                [
+                  "Mi **{cop:piacerebbe}** conoscerla.",
+                  "Mi **{cpa:sarebbe piaciuto}** conoscerla."
+                ],
+                [
+                  "Al posto tuo **{cop:accetterei}**.",
+                  "Al posto tuo **{cpa:avrei accettato}**."
+                ]
+              ]
+            },
+            "note": [
+              "Con *dovere, potere, volere* l'ausiliare è quello del verbo che segue: *{cpa:avrei dovuto} studiare* (*ho studiato*), ma *{cpa:sarei dovuto} partire* (*sono partito*).",
+              "*Piacere* vuole sempre *essere*: *mi {cpa:sarebbe piaciuto}*, *mi {cpa:sarebbero piaciuti}*."
             ]
-          ]
-        }
-      },
-      "With *dovere, potere* and *volere*, the auxiliary is the one the following infinitive would take: *{cpa:Avrei dovuto} studiare*, but *{cpa:Sarei dovuto} partire*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Attenzione: *-emo* o *-emmo*?",
+              "head": [
+                "[fs:futuro]: *noi* con una *m*",
+                "[cop:condizionale]: *noi* con due *m*"
+              ],
+              "rows": [
+                [
+                  "Domani **{fs:parleremo}** con lui.",
+                  "**{cop:Parleremmo}** con lui, ma non {ip:risponde}."
+                ],
+                [
+                  "**{fs:Saremo}** a casa alle otto.",
+                  "**{cop:Saremmo}** contenti di vederti."
+                ],
+                [
+                  "**{fs:Andremo}** al mare a luglio.",
+                  "**{cop:Andremmo}** volentieri al mare."
+                ],
+                [
+                  "**{fs:Potremo}** venire sabato.",
+                  "**{cop:Potremmo}** venire sabato, se {ip:vuoi}."
+                ]
+              ]
+            },
+            "note": "Si sente anche nella pronuncia: nel condizionale la *m* doppia è più lunga, *parlere**mm**o*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the [cop:condizionale presente].",
+        "prompt": "Completa con il [cop:condizionale presente].",
         "questions": [
-          "[[Vorrei#cop]] un cappuccino. (volere, io)",
-          "[[Potresti#cop]] aprire la finestra? (potere, tu)",
-          "Noi [[parleremmo#cop]] volentieri con lui. (parlare)",
-          "Voi [[dovreste#cop]] studiare di più. (dovere)",
-          "Mi [[piacerebbe#cop]] vivere al mare. (piacere)",
-          "Loro [[verrebbero#cop]] con noi. (venire)"
+          "Io (comprare) [[comprerei#cop]] una casa al mare.",
+          "Tu (prendere) [[prenderesti#cop]] un caffè con me?",
+          "Lucia (partire) [[partirebbe#cop]] subito per l'Australia.",
+          "Noi (mangiare) [[mangeremmo#cop]] volentieri una pizza.",
+          "Voi (cercare) [[cerchereste#cop]] un lavoro all'estero?",
+          "I miei amici (aprire) [[aprirebbero#cop]] un bar in centro."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the [cpa:condizionale passato].",
+        "prompt": "Completa con il [cop:condizionale presente] dei verbi irregolari.",
         "questions": [
-          "[[Avrei studiato#cpa]] di più, ma non {im:avevo} tempo. (studiare, io)",
-          "Tu [[saresti venuto#cpa]] con noi? (venire – a man)",
-          "Anna [[sarebbe partita#cpa]] ieri, ma {im:era} malata. (partire)",
-          "Noi [[avremmo comprato#cpa]] la casa. (comprare)",
-          "[[Avresti dovuto#cpa]] telefonarmi. (dovere, tu)"
+          "Mi (piacere) [[piacerebbe#cop]] vivere in campagna.",
+          "(io, volere) [[Vorrei#cop]] due biglietti per stasera.",
+          "(Lei, potere) [[Potrebbe#cop]] ripetere, per favore?",
+          "Al posto tuo (io, andare) [[andrei#cop]] dal medico.",
+          "Senza di te non (noi, sapere) [[sapremmo#cop]] che cosa fare.",
+          "(voi, venire) [[Verreste#cop]] con noi in montagna?"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Chiedi in modo più gentile. Usa il [cop:condizionale presente].",
+        "questions": [
+          "{ip:Voglio} un caffè. → [[Vorrei#cop]] un caffè.",
+          "{ip:Puoi} aiutarmi? → [[Potresti#cop]] aiutarmi?",
+          "Mi {ip:dai} il sale? → Mi [[daresti#cop]] il sale?",
+          "{ip:Può} chiudere la porta? → [[Potrebbe#cop]] chiudere la porta?",
+          "{ip:Abbiamo} bisogno di un'informazione. → [[Avremmo#cop]] bisogno di un'informazione."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il [cpa:condizionale passato]. Attenzione: *avere* o *essere*?",
+        "questions": [
+          "(io, dovere) [[Avrei dovuto#cpa]] studiare di più per l'esame.",
+          "Laura (venire) [[sarebbe venuta#cpa]] volentieri, ma {im:era} malata.",
+          "Mi (piacere) [[sarebbe piaciuto#cpa]] vedere quella mostra.",
+          "Al posto tuo (io, accettare) [[avrei accettato#cpa]] subito.",
+          "(noi, potere) [[Saremmo potuti|Saremmo potute#cpa]] partire prima.",
+          "I ragazzi (volere) [[avrebbero voluto#cpa]] restare di più."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Ancora possibile o troppo tardi? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Domani ___ al cinema. (we will go, a fact)",
+            "q": "Domani c'{ip:è} l'esame: ___ studiare stasera.",
+            "options": [
+              "*{cop:dovrei}",
+              "{cpa:avrei dovuto}"
+            ]
+          },
+          {
+            "q": "L'esame {ip:è} andato male: ___ studiare di più.",
+            "options": [
+              "{cop:dovrei}",
+              "*{cpa:avrei dovuto}"
+            ]
+          },
+          {
+            "q": "Il concerto {ip:è} finito ieri. Mi ___ andarci!",
+            "options": [
+              "{cop:piacerebbe}",
+              "*{cpa:sarebbe piaciuto}"
+            ]
+          },
+          {
+            "q": "Se {ip:vuoi}, ___ venire a prenderti alla stazione.",
+            "options": [
+              "*{cop:potrei}",
+              "{cpa:sarei potuto}"
+            ]
+          },
+          {
+            "q": "Il treno {ip:è} partito. ___ uscire di casa prima!",
+            "options": [
+              "{cop:dovremmo}",
+              "*{cpa:saremmo dovuti}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "[fs:futuro] o [cop:condizionale]? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Domani ___ al mare: {pp:abbiamo} già {pp:prenotato}.",
             "options": [
               "*{fs:andremo}",
               "{cop:andremmo}"
             ]
           },
           {
-            "q": "Se potessimo, ___ al cinema. (we would go)",
+            "q": "___ volentieri al mare, ma non {ip:abbiamo} tempo.",
             "options": [
               "{fs:andremo}",
               "*{cop:andremmo}"
             ]
           },
           {
-            "q": "You should have told me.",
+            "q": "Sabato ___ i tuoi genitori, finalmente!",
             "options": [
-              "{cop:Dovresti} dirmelo.",
-              "*{cpa:Avresti dovuto} dirmelo."
+              "*{fs:conosceremo}",
+              "{cop:conosceremmo}"
             ]
           },
           {
-            "q": "Polite: Could you help me? (Lei)",
+            "q": "Ci ___ conoscere i tuoi genitori.",
             "options": [
-              "*{cop:Potrebbe} aiutarmi?",
-              "{cop:Potresti} aiutarmi?",
-              "{cop:Potrebbero} aiutarmi?"
+              "{fs:piacerà}",
+              "*{cop:piacerebbe}"
+            ]
+          },
+          {
+            "q": "___ venire anche noi? Che cosa ne {ip:pensi}?",
+            "options": [
+              "{fs:Potremo}",
+              "*{cop:Potremmo}"
             ]
           }
         ]
@@ -186,135 +472,257 @@
   "vocabulary": {
     "words": [
       [
-        "il rimpianto",
-        "regret"
-      ],
-      [
         "il consiglio",
-        "advice"
-      ],
-      [
-        "il desiderio",
-        "wish"
-      ],
-      [
-        "l'occasione",
-        "opportunity"
-      ],
-      [
-        "la scelta",
-        "choice"
+        "quello che dici a una persona perché faccia la cosa giusta"
       ],
       [
         "consigliare",
-        "to advise"
+        "dare un consiglio"
+      ],
+      [
+        "dare retta a qualcuno",
+        "fare quello che un'altra persona consiglia"
+      ],
+      [
+        "al posto tuo",
+        "se io fossi te"
+      ],
+      [
+        "il rimpianto",
+        "il dispiacere per una cosa che non hai fatto"
       ],
       [
         "pentirsi",
-        "to regret"
+        "essere dispiaciuto per una cosa che hai fatto"
       ],
       [
-        "rinunciare",
-        "to give up"
+        "rinunciare a",
+        "decidere di non fare o di non avere più una cosa"
+      ],
+      [
+        "l'occasione",
+        "un momento buono per fare una cosa"
+      ],
+      [
+        "perdere un'occasione",
+        "non approfittare di un momento buono"
+      ],
+      [
+        "la scelta",
+        "la decisione tra due o più cose"
+      ],
+      [
+        "scegliere",
+        "decidere tra due o più cose"
+      ],
+      [
+        "il sogno nel cassetto",
+        "un desiderio segreto, che non hai ancora realizzato"
+      ],
+      [
+        "realizzare",
+        "fare diventare vero un sogno o un progetto"
       ],
       [
         "volentieri",
-        "gladly"
+        "con piacere"
       ],
       [
-        "peccato",
-        "what a pity"
+        "per cortesia",
+        "per favore"
       ],
       [
         "gentilmente",
-        "kindly"
+        "in modo gentile"
       ],
       [
         "ormai",
-        "by now, too late"
+        "a questo punto, è troppo tardi per cambiare"
+      ],
+      [
+        "avere bisogno di",
+        "sentire che ti serve una cosa"
+      ],
+      [
+        "fare a meno di",
+        "riuscire a vivere senza una cosa"
+      ],
+      [
+        "approfittare di",
+        "usare bene un momento o un'occasione"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
             "il rimpianto",
-            "regret"
+            "il dispiacere per una cosa che non hai fatto"
           ],
           [
-            "il desiderio",
-            "wish"
+            "dare retta a qualcuno",
+            "fare quello che un'altra persona consiglia"
           ],
           [
-            "l'occasione",
-            "opportunity"
+            "rinunciare a",
+            "decidere di non fare o di non avere più una cosa"
           ],
           [
-            "rinunciare",
-            "to give up"
-          ],
-          [
-            "volentieri",
-            "gladly"
+            "il sogno nel cassetto",
+            "un desiderio segreto, che non hai ancora realizzato"
           ],
           [
             "ormai",
-            "by now, too late"
+            "a questo punto, è troppo tardi per cambiare"
+          ],
+          [
+            "fare a meno di",
+            "riuscire a vivere senza una cosa"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Che cosa {ip:dici}? Scegli la frase giusta.",
         "questions": [
-          "Mi {ip:puoi} [[consigliare]] un buon film? (to advise)",
-          "Non mi [[pento#ip]] di niente. (I regret)",
-          "{pp:È stata} una buona [[scelta]]. (choice)",
-          "{cop:Verrei} [[volentieri]]! (gladly)"
+          {
+            "q": "Un amico {ip:è} sempre stanco.",
+            "options": [
+              "*«{cop:Dovresti} dormire di più.»",
+              "«{cop:Vorrei} un caffè.»",
+              "«Ormai {ip:è} tardi.»"
+            ]
+          },
+          {
+            "q": "{ip:Sei} in un negozio e {ip:vuoi} provare una giacca.",
+            "options": [
+              "*«{cop:Potrei} provare questa giacca?»",
+              "«{ip:Voglio} questa giacca!»",
+              "«Al posto tuo la {cop:comprerei}.»"
+            ]
+          },
+          {
+            "q": "Non {pp:sei andato} alla festa di un amico e ti {ip:dispiace}.",
+            "options": [
+              "*«Mi {cpa:sarebbe piaciuto} venire.»",
+              "«Mi {cop:piacerebbe} venire.»",
+              "«{ip:Vengo} volentieri.»"
+            ]
+          },
+          {
+            "q": "Un'amica ti {ip:invita} a cena e {ip:sei} contento.",
+            "options": [
+              "*«Grazie, {ip:vengo} volentieri!»",
+              "«{cpa:Avrei voluto} venire.»",
+              "«{cop:Dovresti} invitarmi.»"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Mi {ip:passi} il pane, per [[cortesia]]?",
+          "{pp:Ho perso} un'ottima [[occasione]]: il biglietto {im:costava} solo dieci euro!",
+          "Non {ip:riesco} a fare a [[meno]] del caffè la mattina.",
+          "{cpa:Avrei dovuto} dare [[retta]] a mia madre e portare l'ombrello.",
+          "Il mio sogno nel [[cassetto]] {ip:è} aprire una libreria."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Mia nonna {ip:dice} sempre: «{cpa:Avrei dovuto} viaggiare di più.» Da giovane le {tp:avevano offerto} un lavoro a Parigi, ma {pp:ha rinunciato} per restare vicino ai genitori. {cpa:Sarebbe voluta} partire, però non {pp:ha avuto} il coraggio.",
-      "Oggi mi {ip:ripete}: «Tu {cop:dovresti} partire finché {ip:sei} giovane. Io {cop:andrei} subito, se {csi:avessi} la tua età!» Le {pp:ho promesso} che l'{cpa:avrei portata} a Parigi. Lei {ip:ride}, ma {ip:so} che le {cop:piacerebbe} davvero vedere la Torre Eiffel."
+      {
+        "h": "Tre generazioni, tre rimpianti"
+      },
+      "*Abbiamo chiesto a tre persone: «Che cosa {cpa:avresti fatto} di diverso? E che consiglio {cop:daresti} a un ragazzo di oggi?»*",
+      "**Franco, 72 anni** — Da giovane {pp:ho lavorato} sempre nel negozio di mio padre. {cpa:Avrei voluto} studiare le lingue e viaggiare, ma {im:era} difficile dire di no alla famiglia. A un ragazzo di oggi {cop:direi}: {cop:dovresti} imparare l'inglese e almeno un'altra lingua, apre tantissime porte.",
+      "**Lucia, 45 anni** — A trent'anni {pp:ho ricevuto} un'offerta di lavoro a Lisbona, ma {pp:ho rinunciato} perché {im:avevo} paura. {cpa:Sarei dovuta} partire: ormai {ip:è} tardi, ma ci {ip:penso} ancora. Al posto vostro {cop:approfitterei} di ogni occasione, anche se fa un po' paura.",
+      "**Matteo, 28 anni** — Non {ip:ho} grandi rimpianti, ma {cpa:avrei dovuto} passare più tempo con i miei nonni: {ip:sono} morti quando {im:ero} all'università e {im:ero} sempre troppo occupato. Il mio consiglio? {cop:Spegnerei} il telefono più spesso e {cop:passerei} più tempo con le persone che {ip:amo}."
     ],
     "exercises": [
       {
+        "type": "match",
+        "prompt": "Chi lo {ip:dice}? Abbina ogni frase alla persona.",
+        "pairs": [
+          [
+            "«{cpa:Avrei voluto} viaggiare.»",
+            "Franco"
+          ],
+          [
+            "«{imv:Imparate} le lingue straniere.»",
+            "Franco"
+          ],
+          [
+            "«{cpa:Sarei dovuta} andare a Lisbona.»",
+            "Lucia"
+          ],
+          [
+            "«Non {imv:perdete} le occasioni.»",
+            "Lucia"
+          ],
+          [
+            "«{cpa:Avrei dovuto} vedere di più i miei nonni.»",
+            "Matteo"
+          ],
+          [
+            "«{imv:Usate} meno il telefono.»",
+            "Matteo"
+          ]
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "The grandmother took a job in Paris.",
+            "q": "Franco {pp:ha studiato} le lingue all'università.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "She regrets not having travelled more.",
+            "q": "Lucia {pp:ha rinunciato} al lavoro a Lisbona per paura.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "She advises the speaker to leave while young.",
+            "q": "Lucia {ip:pensa} che ormai {csp:sia} troppo tardi per partire.",
             "options": [
-              "*True",
-              "False"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "She has no wish to see the Eiffel Tower.",
+            "q": "Matteo {ip:ha} molti rimpianti.",
             "options": [
-              "True",
-              "*False"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Matteo {ip:consiglia} di passare più tempo con le persone care.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il [cpa:condizionale passato].",
+        "questions": [
+          "Franco: «[[Avrei voluto#cpa]] studiare le lingue.»",
+          "Lucia: «[[Sarei dovuta#cpa]] partire.»",
+          "Matteo: «[[Avrei dovuto#cpa]] passare più tempo con i miei nonni.»"
         ]
       }
     ]
@@ -322,51 +730,80 @@
   "listening": {
     "transcript": [
       [
-        "Barista",
+        "Receptionist",
         "Buonasera, {ip:desidera}?"
       ],
       [
-        "Cliente",
-        "{cop:Vorrei} un tè, per favore. {cop:Potrebbe} portarmi anche il conto?"
+        "Ospite",
+        "Buonasera. {cop:Vorrei} una camera per due notti, per cortesia."
       ],
       [
-        "Barista",
-        "Certo. Non {cop:vorrebbe} anche un dolce?"
+        "Receptionist",
+        "Certo. {cop:Preferirebbe} una camera con vista sul lago?"
       ],
       [
-        "Cliente",
-        "Mi {cop:piacerebbe}, ma non {cop:dovrei}: {ip:sono} a dieta."
+        "Ospite",
+        "Sì, mi {cop:piacerebbe} molto. Quanto {cop:costerebbe}?"
       ],
       [
-        "Barista",
-        "Peccato, {cpa:avrebbe potuto} assaggiare la nostra torta."
+        "Receptionist",
+        "Centoventi euro a notte, colazione compresa."
       ],
       [
-        "Cliente",
-        "La prossima volta!"
+        "Ospite",
+        "Perfetto. {cop:Potrebbe} anche chiamarmi un taxi per stasera, alle otto?"
+      ],
+      [
+        "Receptionist",
+        "Volentieri. Le {cop:servirebbe} altro?"
+      ],
+      [
+        "Ospite",
+        "Sì, {cop:saprebbe} consigliarmi un ristorante qui vicino?"
+      ],
+      [
+        "Receptionist",
+        "Io {cop:andrei} alla Trattoria del Porto: il pesce di lago {ip:è} ottimo."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Vorrei#cop]] un tè, per favore.",
-          "[[Potrebbe#cop]] portarmi anche il conto?",
-          "Mi [[piacerebbe#cop]], ma non {cop:dovrei}.",
-          "[[Avrebbe#cpa]] {cpa:potuto} assaggiare la nostra torta."
+          "[[Vorrei#cop]] una camera per due notti, per cortesia.",
+          "[[Preferirebbe#cop]] una camera con vista sul lago?",
+          "Quanto [[costerebbe#cop]]?",
+          "[[Potrebbe#cop]] anche chiamarmi un taxi?",
+          "Io [[andrei#cop]] alla Trattoria del Porto."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Why does the customer refuse the dessert?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The customer…",
+            "q": "Quante notti {ip:resta} l'ospite?",
             "options": [
-              "doesn't like cake",
-              "*is on a diet",
-              "has no money"
+              "*due",
+              "una",
+              "tre"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:chiede} l'ospite per stasera?",
+            "options": [
+              "*un taxi alle otto",
+              "la cena in camera",
+              "una sveglia alle otto"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:consiglia} il receptionist?",
+            "options": [
+              "*una trattoria dove si mangia pesce di lago",
+              "una pizzeria in centro",
+              "il ristorante dell'albergo"
             ]
           }
         ]
@@ -377,43 +814,513 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi con il [cop:condizionale presente] o con il [cpa:condizionale passato].",
+        "open": true,
         "questions": [
           {
-            "q": "I would like a coffee.",
-            "a": [
-              "Vorrei un caffè.",
-              "Io vorrei un caffè."
+            "q": "Qual {ip:è} il tuo sogno nel cassetto? Che cosa ti {cop:piacerebbe} fare?"
+          },
+          {
+            "q": "Che cosa {cpa:avresti fatto} di diverso l'anno scorso?"
+          },
+          {
+            "q": "Che consiglio {cop:daresti} a una persona che {ip:comincia} a studiare l'italiano?"
+          },
+          {
+            "q": "Dove {cop:vorresti} vivere tra dieci anni? Perché?"
+          },
+          {
+            "q": "C'{ip:è} un'occasione che {pp:hai perso} e che {cpa:avresti voluto} prendere?"
+          },
+          {
+            "q": "Con chi {cop:passeresti} una giornata intera, se {csi:potessi} scegliere?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa gli consigli?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni consiglio all'immagine giusta.",
+        "pictures": [
+          "A — Un ragazzo sbadiglia davanti al computer, l'orologio segna le tre di notte",
+          "B — Una ragazza tutta bagnata sotto la pioggia, senza ombrello",
+          "C — Un uomo apre il frigorifero vuoto",
+          "D — Un turista confuso con una cartina in mano in una piazza"
+        ],
+        "pairs": [
+          [
+            "«{cop:Dovresti} andare a dormire.»",
+            "immagine A"
+          ],
+          [
+            "«{cpa:Avresti dovuto} prendere l'ombrello.»",
+            "immagine B"
+          ],
+          [
+            "«{cop:Dovresti} fare la spesa.»",
+            "immagine C"
+          ],
+          [
+            "«{cop:Potrebbe} chiedere a un passante.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "h": "Per cortesia…"
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa {ip:dici} in queste situazioni? Scegli la frase più gentile.",
+        "questions": [
+          {
+            "q": "Al bar {ip:vuoi} un cornetto.",
+            "options": [
+              "*«{cop:Vorrei} un cornetto, per favore.»",
+              "«{imv:Dammi} un cornetto.»",
+              "«{ip:Voglio} un cornetto.»"
             ]
           },
           {
-            "q": "You should rest. (informal)",
-            "a": [
-              "Dovresti riposarti.",
-              "Ti dovresti riposare."
+            "q": "In treno c'{ip:è} troppo caldo.",
+            "options": [
+              "*«{cop:Potrebbe} aprire il finestrino?»",
+              "«{imv:Apra} il finestrino!»",
+              "«{ip:Apro} io.»"
             ]
           },
           {
-            "q": "I should have studied.",
-            "a": [
-              "Avrei dovuto studiare."
+            "q": "Non {ip:capisci} quello che {ip:dice} il professore.",
+            "options": [
+              "*«Scusi, {cop:potrebbe} ripetere?»",
+              "«{imv:Ripeta}!»",
+              "«Non {ip:capisco} niente.»"
             ]
           },
           {
-            "q": "Could you help me? (polite)",
-            "a": [
-              "Potrebbe aiutarmi?",
-              "Mi potrebbe aiutare?"
-            ]
-          },
-          {
-            "q": "We would go gladly.",
-            "a": [
-              "Andremmo volentieri.",
-              "Noi andremmo volentieri."
+            "q": "{ip:Chiedi} a un collega di prestarti la penna.",
+            "options": [
+              "*«Mi {cop:presteresti} la penna?»",
+              "«{ip:Voglio} la tua penna.»",
+              "«Mi {fs:presterai} la penna?»"
             ]
           }
         ]
+      },
+      {
+        "type": "gap",
+        "prompt": "In albergo. Completa le richieste con il [cop:condizionale presente].",
+        "questions": [
+          "(io, volere) [[Vorrei#cop]] una camera singola per stanotte.",
+          "(Lei, potere) [[Potrebbe#cop]] svegliarmi alle sette?",
+          "Mi (dare) [[darebbe#cop]] una cartina della città?",
+          "(noi, avere) [[Avremmo#cop]] bisogno di un'altra coperta.",
+          "(Lei, sapere) [[Saprebbe#cop]] dirmi dove si {ip:prende} l'autobus?"
+        ]
+      },
+      {
+        "h": "Lettere e consigli"
+      },
+      {
+        "text": [
+          "**Cara Paola,** da sei mesi {ip:divido} un appartamento con un ragazzo che non {ip:pulisce} mai: lascia i piatti nel lavandino per giorni e {ip:ascolta} la musica ad alto volume fino a mezzanotte. Gli {pp:ho parlato} due volte, ma non {pp:è cambiato} niente. Che cosa {cop:dovrei} fare? *Simone*"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Ecco la risposta di Paola. Completa con il [cop:condizionale presente].",
+        "ordered": true,
+        "questions": [
+          "Caro Simone, al posto tuo (io, scrivere) [[scriverei#cop]] delle regole insieme a lui.",
+          "Per esempio, (voi, potere) [[potreste#cop]] fare i turni per le pulizie.",
+          "(tu, dovere) [[Dovresti#cop]] anche chiedergli di usare le cuffie dopo le undici.",
+          "Se non {ip:cambia} niente, (io, parlare) [[parlerei#cop]] con il proprietario.",
+          "Ma prima (io, provare) [[proverei#cop]] con una cena insieme: a volte {ip:basta} poco!"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Al posto loro, che cosa {cop:faresti}? Abbina ogni problema al consiglio.",
+        "pairs": [
+          [
+            "«Non {ip:dormo} bene la notte.»",
+            "«{cop:Berrei} meno caffè.»"
+          ],
+          [
+            "«Il mio capo non mi {ip:ascolta} mai.»",
+            "«Gli {cop:scriverei} una mail.»"
+          ],
+          [
+            "«{ip:Spendo} troppo per mangiare fuori.»",
+            "«{cop:Cucinerei} più spesso a casa.»"
+          ],
+          [
+            "«Mi {ip:annoio} il fine settimana.»",
+            "«Mi {cop:iscriverei} a un corso.»"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu che cosa {cop:consiglieresti} a Simone? Scrivi due consigli.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Primo consiglio:"
+          },
+          {
+            "q": "Secondo consiglio:"
+          }
+        ]
+      },
+      {
+        "h": "Sogni nel cassetto"
+      },
+      {
+        "text": [
+          "**Anna** — Mi {cop:piacerebbe} aprire una piccola libreria con un caffè.",
+          "**Giorgio** — {cop:Vorrei} fare il giro del mondo in barca a vela.",
+          "**Elisa** — {cop:Imparerei} a suonare il pianoforte, ma non {ip:ho} mai tempo.",
+          "**Davide** — {cop:Andrei} a vivere in un'isola greca e {cop:farei} il pescatore."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni persona al suo sogno.",
+        "pairs": [
+          [
+            "Anna",
+            "libri e caffè"
+          ],
+          [
+            "Giorgio",
+            "il mare e i viaggi lunghi"
+          ],
+          [
+            "Elisa",
+            "la musica"
+          ],
+          [
+            "Davide",
+            "una vita semplice su un'isola"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "E i loro amici? Completa i sogni con il [cop:condizionale presente].",
+        "questions": [
+          "Marta (comprare) [[comprerebbe#cop]] una casa in Toscana.",
+          "Io e Luca (fare) [[faremmo#cop]] un viaggio in Giappone.",
+          "Tu (vivere) [[vivresti#cop]] in una grande città?",
+          "I miei nonni (tornare) [[tornerebbero#cop]] nel loro paese in Calabria."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu? Qual {ip:è} il tuo sogno nel cassetto? Rispondi con *mi piacerebbe* o *vorrei*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il mio sogno:"
+          }
+        ]
+      },
+      {
+        "h": "Troppo tardi!"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa i rimpianti con il [cpa:condizionale passato].",
+        "questions": [
+          "(io, dovere) [[Avrei dovuto#cpa]] comprare i biglietti prima: ora {ip:sono} finiti.",
+          "Mi (piacere) [[sarebbe piaciuto#cpa]] conoscere tuo fratello.",
+          "Ieri sera (noi, potere) [[saremmo potuti|saremmo potute#cpa]] uscire, ma {im:pioveva}.",
+          "Francesca (volere) [[avrebbe voluto#cpa]] studiare medicina.",
+          "Al posto tuo non (io, dire) [[avrei detto#cpa]] niente."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Ancora possibile o troppo tardi? Scegli.",
+        "questions": [
+          {
+            "q": "Il negozio {ip:chiude} tra un'ora: ___ andarci adesso.",
+            "options": [
+              "*{cop:potremmo}",
+              "{cpa:saremmo potuti}"
+            ]
+          },
+          {
+            "q": "Il negozio {ip:è} chiuso da ieri: ___ andarci prima.",
+            "options": [
+              "{cop:potremmo}",
+              "*{cpa:saremmo potuti}"
+            ]
+          },
+          {
+            "q": "Mi ___ vedere la partita, ma {pp:ho lavorato} fino a tardi.",
+            "options": [
+              "{cop:piacerebbe}",
+              "*{cpa:sarebbe piaciuto}"
+            ]
+          },
+          {
+            "q": "Mi ___ vedere la partita stasera, se {csi:avessi} tempo.",
+            "options": [
+              "*{cop:piacerebbe}",
+              "{cpa:sarebbe piaciuto}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Che cosa {cpa:avrebbero dovuto} fare? Abbina ogni situazione al rimpianto.",
+        "pairs": [
+          [
+            "Marco {pp:ha perso} il treno.",
+            "«{cpa:Sarei dovuto} uscire prima.»"
+          ],
+          [
+            "Sara {pp:ha preso} un brutto voto.",
+            "«{cpa:Avrei dovuto} studiare di più.»"
+          ],
+          [
+            "Paolo {pp:ha mangiato} troppo.",
+            "«Non {cpa:avrei dovuto} prendere il dolce.»"
+          ],
+          [
+            "Elena {ip:ha} freddo.",
+            "«{cpa:Avrei dovuto} portare la giacca.»"
+          ]
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Volerei un caffè, per favore.",
+            "a": [
+              "Vorrei un caffè, per favore."
+            ]
+          },
+          {
+            "q": "Dovresti studiare di più ieri.",
+            "a": [
+              "Avresti dovuto studiare di più ieri."
+            ]
+          },
+          {
+            "q": "Mi avrebbe piaciuto venire.",
+            "a": [
+              "Mi sarebbe piaciuto venire."
+            ]
+          },
+          {
+            "q": "Andaresti al cinema con me?",
+            "a": [
+              "Andresti al cinema con me?"
+            ]
+          },
+          {
+            "q": "Domani parleremmo con il direttore: l'appuntamento è alle dieci.",
+            "a": [
+              "Domani parleremo con il direttore: l'appuntamento è alle dieci."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "un / vorrei / caffè / per favore",
+            "a": [
+              "Vorrei un caffè, per favore.",
+              "Vorrei un caffè per favore.",
+              "Per favore, vorrei un caffè."
+            ]
+          },
+          {
+            "q": "dovuto / avrei / di più / studiare",
+            "a": [
+              "Avrei dovuto studiare di più."
+            ]
+          },
+          {
+            "q": "aiutarmi / potrebbe / per cortesia",
+            "a": [
+              "Potrebbe aiutarmi, per cortesia?",
+              "Potrebbe aiutarmi per cortesia?",
+              "Per cortesia, potrebbe aiutarmi?"
+            ]
+          },
+          {
+            "q": "posto / al / tuo / partirei / subito",
+            "a": [
+              "Al posto tuo partirei subito.",
+              "Al posto tuo, partirei subito."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nel [cop:condizionale] *noi* ha due *m*: *parlere**mm**o, andre**mm**o*. Nel [fs:futuro] ce n'è una sola: *parlere**m**o, andre**m**o*. Si sente bene anche quando si parla: la *m* doppia è più lunga."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi *m* o *mm*.",
+        "questions": [
+          "Domani andre[[m]]o al cinema: {pp:abbiamo} già i biglietti.",
+          "Andre[[mm]]o al cinema, ma non {ip:abbiamo} tempo.",
+          "Sare[[mm]]o felici di vederti!",
+          "Quando {fs:arriveremo}, vi telefonere[[m]]o."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "[fs:futuro] o [cop:condizionale]? Abbina ogni forma al tempo giusto.",
+        "pairs": [
+          [
+            "{fs:vedremo}",
+            "futuro"
+          ],
+          [
+            "{cop:vedremmo}",
+            "condizionale"
+          ],
+          [
+            "{fs:faremo}",
+            "futuro"
+          ],
+          [
+            "{cop:faremmo}",
+            "condizionale"
+          ],
+          [
+            "{fs:potrete}",
+            "futuro"
+          ],
+          [
+            "{cop:potreste}",
+            "condizionale"
+          ]
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So chiedere qualcosa in modo gentile: *Vorrei un caffè. Potrebbe aiutarmi?*",
+          "So parlare dei miei desideri: *Mi piacerebbe vivere al mare.*",
+          "So dare un consiglio: *Dovresti dormire di più. Al posto tuo partirei.*",
+          "So parlare di un rimpianto: *Avrei dovuto studiare di più.*",
+          "So distinguere *dovrei* e *avrei dovuto*, *parleremo* e *parleremmo*.",
+          "So chiedere informazioni in un albergo."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il bancone di un bar di Napoli con le tazzine pronte e, sopra la cassa, una lavagnetta con scritto «Caffè sospesi: 3»"
+      },
+      {
+        "text": [
+          "**Un caffè per chi non lo può pagare**",
+          "A Napoli il caffè {ip:è} quasi una religione, e da tanto tempo c'{ip:è} un'abitudine gentile: il caffè sospeso. Chi {ip:è} di buon umore, o {cop:vorrebbe} fare un piccolo regalo, {ip:paga} due caffè ma ne {ip:beve} uno solo. Il secondo {ip:resta} «sospeso», pagato, per qualcuno che non {cop:potrebbe} permetterselo.",
+          "Più tardi una persona con pochi soldi {ip:entra} nel bar e {ip:chiede}: «C'{ip:è} un sospeso?». Il barista non {ip:fa} domande e gli {ip:prepara} il caffè.",
+          "Lo scrittore napoletano Luciano De Crescenzo {pp:ha raccontato} questa tradizione in un libro intitolato proprio «Il caffè sospeso». Oggi l'idea {ip:è} arrivata anche in altre città: in alcuni bar si {ip:può} lasciare non solo un caffè, ma anche un panino o un libro.",
+          "E tu? Un giorno {cop:lasceresti} un caffè sospeso?"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il caffè sospeso {ip:è} un'abitudine di Napoli.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Chi {ip:lascia} un caffè sospeso ne {ip:paga} due.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il barista {ip:chiede} perché la persona non {ip:ha} soldi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Luciano De Crescenzo {pp:ha scritto} un libro su questa tradizione.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Oggi il caffè sospeso {ip:esiste} solo a Napoli.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il [cop:condizionale presente].",
+        "questions": [
+          "… per qualcuno che non [[potrebbe#cop]] permetterselo.",
+          "Chi {ip:è} di buon umore, o [[vorrebbe#cop]] fare un piccolo regalo, {ip:paga} due caffè.",
+          "Un giorno [[lasceresti#cop]] un caffè sospeso?"
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Un amico ti {ip:scrive}: non {ip:sa} se lasciare il suo lavoro sicuro per aprire un ristorante. Rispondigli con i tuoi consigli.",
+        "cues": [
+          "Che cosa {ip:pensi} della sua idea?",
+          "Che cosa {cop:faresti} al posto suo? (*Al posto tuo…*)",
+          "Che cosa {cop:dovrebbe} fare prima di decidere? (*Dovresti…, Potresti…*)",
+          "Racconta un tuo rimpianto o una tua scelta. (*Io avrei dovuto…, Avrei voluto…*)"
+        ],
+        "start": "Caro Andrea,\n",
+        "model": "Caro Andrea,\nho letto la tua mail e penso che la tua idea sia bellissima: cucini benissimo e un ristorante tuo sarebbe un sogno che si realizza.\nPerò al posto tuo non lascerei subito il lavoro. Prima dovresti fare un piano preciso e potresti lavorare qualche mese in un ristorante, per capire come funziona.\nIo cinque anni fa avrei voluto aprire una libreria, ma ho avuto paura e ho rinunciato. Oggi un po' me ne pento: avrei dovuto almeno provarci.\nQuindi coraggio, ma con prudenza!\nUn abbraccio,\nGiulia"
       }
     ]
   }

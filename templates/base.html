@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     {# Each language has its own accent colour #}
     {% set accents = {
-        "italian": ("#1F8F3E", "#187532"),
+        "italian": ("#2BAA57", "#23914A"),
         "german": ("#D4002E", "#AA0025"),
         "spanish": ("#E8730C", "#C85F06"),
         "greek": ("#1E6FD9", "#1659B3"),
@@ -46,7 +46,7 @@
             --muted: #A3A6AE;
             --faint: #7A7D86;
             --danger: #E5484D;
-            --success: #2EB82E;
+            --success: #1E8030;
 
             --radius: 10px;
             --radius-small: 6px;
@@ -448,6 +448,18 @@
             display: none;
         }
 
+        /* The lessons link: a thin line in the language's colour and brighter
+           text, a gentle pull without being a button */
+        .nav-links .nav-featured,
+        .nav-menu .nav-featured {
+            color: var(--text);
+            box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 70%, transparent);
+        }
+
+        .nav-links .nav-featured:hover {
+            background-color: var(--accent-soft);
+        }
+
         .nav-account .nav-cta {
             color: white;
             background-color: var(--accent);
@@ -466,9 +478,16 @@
             flex-shrink: 0;
         }
 
-        /* Language switcher: opens on hover, or on tap on touch screens */
+        /* The flag in the bar: just the picture of the language being learnt */
+        .nav-flag {
+            display: block;
+        }
+
+        /* Language picker (in the settings): opens on hover, or on tap on
+           touch screens */
         .lang-switch {
             position: relative;
+            display: inline-block;
         }
 
         .lang-current {
@@ -656,10 +675,6 @@
                 padding: 0 14px;
             }
 
-            /* Only the flag on small screens */
-            .lang-current .lang-name {
-                display: none;
-            }
         }
 
         /* The smallest phones: a slightly smaller logo, so the bar fits */
@@ -966,13 +981,13 @@
 
         nav.search-wide .nav-account,
         nav.search-wide .nav-more,
-        nav.search-wide .lang-switch {
+        nav.search-wide .nav-flag {
             transition: opacity .25s, visibility 0s .4s;
         }
 
         nav.searching.search-wide .nav-account,
         nav.searching.search-wide .nav-more,
-        nav.searching.search-wide .lang-switch {
+        nav.searching.search-wide .nav-flag {
             visibility: hidden;
             opacity: 0;
             transition: opacity .2s, visibility 0s;
@@ -1173,8 +1188,9 @@
             letter-spacing: .03em;
         }
 
-        .level-a1 { background-color: #2E8B57; }
-        .level-a2 { background-color: #3C9D3C; }
+        /* A1 light green, A2 dark green */
+        .level-a1 { background-color: #48B05E; }
+        .level-a2 { background-color: #1F6F35; }
         .level-b1 { background-color: #B8860B; }
         .level-b2 { background-color: #C8641E; }
         .level-c1 { background-color: #B03A48; }
@@ -1208,14 +1224,15 @@
 </head>
 
 <body>
+    {# Lessons come first and are lightly highlighted (.nav-featured): they
+       are the heart of the site. There is no Home link: the logo leads home #}
     {% set feature_links = [
-        ("index", "Home"),
+        ("lessons", "Lessons"),
         ("vocabulary_topics", "Vocabulary"),
         ("conjugation_drill", "Conjugation"),
         ("stories_list", "Stories"),
-        ("lessons", "Lessons"),
         ("cheat_sheets", "Cheat sheets"),
-    ] if user_language else [("index", "Home")] %}
+    ] if user_language else [] %}
     {# The section of the site the current page belongs to #}
     {% set sections = {
         "vocabulary_for_topic": "vocabulary_topics",
@@ -1251,7 +1268,7 @@
                one place only, keeping in the bar those that fit from the left #}
             {% set main_links = [] %}
             {% for endpoint, label in feature_links %}
-            {% set _ = main_links.append((url_for(endpoint), label, section == endpoint, false)) %}
+            {% set _ = main_links.append((url_for(endpoint), label, section == endpoint, "featured" if endpoint == "lessons" else false)) %}
             {% endfor %}
             {% if current_user.is_authenticated %}
             {% set account_links = [(url_for('profile'), "Profile", section == 'profile', false),
@@ -1260,9 +1277,10 @@
             {% set account_links = [(url_for('login'), "Log in", section == 'login', false),
                                     (url_for('register'), "Sign up", false, true)] %}
             {% endif %}
+            {# cta is true for the "Sign up" button, "featured" for the lessons #}
             {% macro nav_item(index, href, label, active, cta, in_menu) -%}
             <li data-item="{{ index }}" {% if in_menu %}hidden{% endif %}><a href="{{ href }}"
-                    class="{% if active %}active{% endif %}{% if cta %} nav-cta{% endif %}">{{ label }}</a></li>
+                    class="{% if active %}active{% endif %}{% if cta == 'featured' %} nav-featured{% elif cta %} nav-cta{% endif %}">{{ label }}</a></li>
             {%- endmacro %}
             <ul class="nav-links nav-main">
                 {% for href, label, active, cta in main_links %}
@@ -1289,31 +1307,13 @@
                     {% endfor %}
                 </ul>
             </div>
-            <div class="lang-switch">
-                <button class="button lang-current" type="button" aria-haspopup="true" aria-expanded="false">
-                    {% if user_language %}
-                    <img class="flag-icon" src="{{ url_for('static', filename='images/flags/' ~ languages[user_language].flag ~ '.png') }}" alt="">
-                    <span class="lang-name">{{ user_language | capitalize }}</span>
-                    {% else %}
-                    <span class="lang-name">Choose language</span>
-                    {% endif %}
-                    <span class="chevron" aria-hidden="true">&#9660;</span>
-                </button>
-                <div class="lang-menu">
-                    <form action="{{ url_for('set_language') }}" method="POST">
-                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-                        <input type="hidden" name="next" value="{{ section }}">
-                        <span class="heading">I want to learn</span>
-                        {% for code, info in languages.items() %}
-                        <button class="lang-option{% if code == user_language %} current{% endif %}" type="submit" name="language" value="{{ code }}">
-                            <img class="flag-icon" src="{{ url_for('static', filename='images/flags/' ~ info.flag ~ '.png') }}" alt="">
-                            <span>{{ code | capitalize }}<small>{{ info.native }}</small></span>
-                            {% if code == user_language %}<span class="check" aria-hidden="true">&#10003;</span>{% endif %}
-                        </button>
-                        {% endfor %}
-                    </form>
-                </div>
-            </div>
+            {# Only the flag of the language being learnt, as a plain picture; the
+               language is changed in the settings (the profile, or the language
+               page for guests) #}
+            {% if user_language %}
+            <img class="flag-icon nav-flag" src="{{ url_for('static', filename='images/flags/' ~ languages[user_language].flag ~ '.png') }}"
+                alt="{{ user_language | capitalize }}" title="{{ user_language | capitalize }}">
+            {% endif %}
         </div>
     </nav>
     <main>
@@ -1370,23 +1370,27 @@
             const open = nav.classList.toggle("open");
             menuToggle.setAttribute("aria-expanded", open);
         });
-        // The language switcher opens on hover; a tap opens it on touch screens
-        const langSwitch = nav.querySelector(".lang-switch");
-        const langButton = langSwitch.querySelector(".lang-current");
-        langButton.addEventListener("click", (event) => {
-            event.stopPropagation();
-            const open = langSwitch.classList.toggle("open");
-            langButton.setAttribute("aria-expanded", open);
-        });
         document.addEventListener("click", (event) => {
             if (!nav.contains(event.target)) {
                 nav.classList.remove("open");
                 menuToggle.setAttribute("aria-expanded", false);
             }
-            if (!langSwitch.contains(event.target)) {
-                langSwitch.classList.remove("open");
-                langButton.setAttribute("aria-expanded", false);
-            }
+        });
+        // The language picker (in the settings) opens on hover; a tap opens it
+        // on touch screens
+        document.querySelectorAll(".lang-switch").forEach((langSwitch) => {
+            const langButton = langSwitch.querySelector(".lang-current");
+            langButton.addEventListener("click", (event) => {
+                event.stopPropagation();
+                const open = langSwitch.classList.toggle("open");
+                langButton.setAttribute("aria-expanded", open);
+            });
+            document.addEventListener("click", (event) => {
+                if (!langSwitch.contains(event.target)) {
+                    langSwitch.classList.remove("open");
+                    langButton.setAttribute("aria-expanded", false);
+                }
+            });
         });
 
         // Search: the first five matches as you type. Enter opens the page with
@@ -1556,6 +1560,11 @@
                     if (tab) {
                         tab.click();
                     }
+                }
+                // and the exercise card that holds it (lesson pages)
+                const card = target.closest(".ex-card");
+                if (card && card.hidden) {
+                    card.dispatchEvent(new CustomEvent("show-card", { bubbles: true }));
                 }
                 // A short wait lets the opened tab lay out before scrolling
                 setTimeout(() => {

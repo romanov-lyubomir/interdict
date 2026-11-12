@@ -1,115 +1,255 @@
 {
-  "title": "Mi {ip:piace} la pizza",
+  "title": "Dov'{ip:è} la banca?",
   "translation": "",
-  "topics": "Mi piace e mi piacciono, il verbo bere, genere e numero degli aggettivi, il cibo e le bevande",
+  "topics": "Le preposizioni articolate, i luoghi della città, i verbi in -isc-, dovere, potere, volere e sapere",
   "grammar": {
     "explain": [
-      "A tavola: come dire che cosa ti piace e come descrivere il cibo e le bevande.",
+      "Per dire dove si trova una cosa, l'italiano unisce spesso una preposizione e l'articolo: *a* + *il* diventa *al*, *di* + *il* diventa *del*.",
       {
         "grid": [
           {
             "wide": true,
             "table": {
+              "title": "Alcune preposizioni articolate",
               "rows": [
                 [
                   {
-                    "text": "Mi piace / mi piacciono",
-                    "rows": 2
+                    "text": "davanti",
+                    "rows": 3
                   },
-                  "Mi {ip:piace}",
-                  "la pizza margherita."
+                  "**al**",
+                  "bar",
+                  {
+                    "text": "a sinistra",
+                    "rows": 3
+                  },
+                  "**del**",
+                  "bar"
                 ],
                 [
                   null,
-                  "Mi {ip:piacciono}",
-                  "gli spaghetti."
+                  "**all'**",
+                  "albergo",
+                  null,
+                  "**dell'**",
+                  "albergo"
+                ],
+                [
+                  null,
+                  "**allo**",
+                  "zoo",
+                  null,
+                  "**dello**",
+                  "zoo"
                 ],
                 [
                   {
-                    "text": "Non mi piace / non mi piacciono",
-                    "rows": 2
+                    "text": "accanto",
+                    "rows": 3
                   },
-                  "Non mi {ip:piace}",
-                  "il pesce."
+                  "**alla**",
+                  "banca",
+                  {
+                    "text": "a destra",
+                    "rows": 3
+                  },
+                  "**della**",
+                  "banca"
                 ],
                 [
                   null,
-                  "Non mi {ip:piacciono}",
-                  "le olive."
+                  "**all'**",
+                  "edicola",
+                  null,
+                  "**dell'**",
+                  "edicola"
+                ],
+                [
+                  null,
+                  "**ai**",
+                  "negozi",
+                  null,
+                  "**dei**",
+                  "negozi"
+                ],
+                [
+                  {
+                    "text": "dietro",
+                    "rows": 2
+                  },
+                  "**agli**",
+                  "uffici",
+                  {
+                    "text": "al centro",
+                    "rows": 2
+                  },
+                  "**degli**",
+                  "uffici"
+                ],
+                [
+                  null,
+                  "**alle**",
+                  "fontane",
+                  null,
+                  "**delle**",
+                  "fontane"
+                ],
+                [
+                  {
+                    "text": "La farmacia {ip:è} **fra** / **tra** la banca e il bar.",
+                    "cols": 6
+                  }
                 ]
               ]
             },
             "note": [
-              "Con *piacere*, la cosa che piace è il soggetto del verbo: *la pizza mi piace*.",
-              "**Mi piace** va con una cosa sola o con un verbo: *mi piace la pizza, mi piace cucinare*. **Mi piacciono** va con più di una cosa: *mi piacciono gli spaghetti*.",
-              "Per le altre persone *mi* cambia: *ti piace* (tu), *gli piace* (lui), *le piace* (lei e la forma di cortesia), *ci piace* (noi), *vi piace* (voi), *gli piace* (loro).",
-              "*Non* va prima di tutto: *non mi piace*."
+              "*Davanti, accanto* e *dietro* prendono *a*: *davanti al bar*. *A sinistra, a destra* e *al centro* prendono *di*: *a destra del bar*.",
+              "*A* e *di* si uniscono all'articolo così com'è: **a** + il = **al**, lo = **allo**, la = **alla**, l' = **all'**, i = **ai**, gli = **agli**, le = **alle**. Con *di*: **del, dello, della, dell', dei, degli, delle**.",
+              "*Fra* e *tra* vogliono dire la stessa cosa e non si uniscono mai all'articolo."
             ]
           },
           {
+            "wide": true,
             "table": {
-              "title": "Genere e numero degli aggettivi",
-              "rows": [
-                [
-                  "Il gelato {ip:è} fredd**o**.",
-                  "I gelati {ip:sono} fredd**i**."
-                ],
-                [
-                  "La minestra {ip:è} fredd**a**.",
-                  "Le minestre {ip:sono} fredd**e**."
-                ],
-                [
-                  "Il caffè {ip:è} dolc**e**.",
-                  "I caffè {ip:sono} dolc**i**."
-                ],
-                [
-                  "La torta {ip:è} dolc**e**.",
-                  "Le torte {ip:sono} dolc**i**."
-                ]
-              ]
-            },
-            "note": "Gli aggettivi si accordano con il nome, come quelli di nazionalità: **-o, -a, -i, -e** oppure **-e, -i**. Un nome come *il caffè* non cambia al plurale, ma il suo aggettivo sì: *i caffè sono dolci*."
-          },
-          {
-            "table": {
-              "title": "Il verbo *bere*",
+              "title": "I verbi modali",
+              "head": [
+                "",
+                "*dovere*",
+                "*potere*",
+                "*volere*",
+                ""
+              ],
               "rows": [
                 [
                   "io",
-                  "{ip:bevo}",
+                  "{ip:devo}",
+                  "{ip:posso}",
+                  "{ip:voglio}",
                   {
-                    "text": "volentieri un bicchiere di vino rosso.",
+                    "text": "prendere il treno.",
                     "rows": 6
                   }
                 ],
                 [
                   "tu",
-                  "{ip:bevi}",
+                  "{ip:devi}",
+                  "{ip:puoi}",
+                  "{ip:vuoi}",
                   null
                 ],
                 [
                   "lui, lei, Lei",
-                  "{ip:beve}",
+                  "{ip:deve}",
+                  "{ip:può}",
+                  "{ip:vuole}",
                   null
                 ],
                 [
                   "noi",
-                  "{ip:beviamo}",
+                  "{ip:dobbiamo}",
+                  "{ip:possiamo}",
+                  "{ip:vogliamo}",
                   null
                 ],
                 [
                   "voi",
-                  "{ip:bevete}",
+                  "{ip:dovete}",
+                  "{ip:potete}",
+                  "{ip:volete}",
                   null
                 ],
                 [
                   "loro",
-                  "{ip:bevono}",
+                  "{ip:devono}",
+                  "{ip:possono}",
+                  "{ip:vogliono}",
                   null
                 ]
               ]
             },
-            "note": "*Bere* usa la radice *bev-*. Poi è un verbo regolare in *-ere*."
+            "note": "*Dovere*, *potere* e *volere* sono irregolari. Dopo di loro viene un verbo all'infinito: *{ip:devo} partire, {ip:posso} entrare?* *Volere* può avere anche un nome: *{ip:voglio} un caffè*."
+          },
+          {
+            "table": {
+              "title": "Il verbo *finire*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:fin**isc**o}",
+                  {
+                    "text": "di studiare alle 17.00.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:fin**isc**i}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:fin**isc**e}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:finiamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:finite}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:fin**isc**ono}",
+                  null
+                ]
+              ]
+            },
+            "note": "Come *finire*: *capire, preferire, pulire*. *Noi* e *voi* non hanno **-isc-**."
+          },
+          {
+            "table": {
+              "title": "Il verbo *sapere*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:so}",
+                  {
+                    "text": "dov'{ip:è} la banca.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:sai}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:sa}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:sappiamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:sapete}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:sanno}",
+                  null
+                ]
+              ]
+            },
+            "note": "*Sapere* vuol dire conoscere una cosa: *{ip:so} dov'è*. Con un infinito vuol dire essere capaci di fare qualcosa: *{ip:so} nuotare*."
           }
         ]
       }
@@ -118,81 +258,53 @@
   "use": {
     "exercises": [
       {
-        "type": "choice",
-        "prompt": "Piace o piacciono?",
+        "type": "gap",
+        "prompt": "Unisci la preposizione e l'articolo.",
         "questions": [
-          {
-            "q": "Mi ___ il caffè.",
-            "options": [
-              "*piace",
-              "piacciono"
-            ]
-          },
-          {
-            "q": "Mi ___ gli spaghetti.",
-            "options": [
-              "piace",
-              "*piacciono"
-            ]
-          },
-          {
-            "q": "Non mi ___ le olive.",
-            "options": [
-              "piace",
-              "*piacciono"
-            ]
-          },
-          {
-            "q": "Ti ___ cucinare?",
-            "options": [
-              "*piace",
-              "piacciono"
-            ]
-          },
-          {
-            "q": "Ci ___ i dolci.",
-            "options": [
-              "piace",
-              "*piacciono"
-            ]
-          }
+          "Vado [[al]] bar. (a + il)",
+          "Il museo {ip:è} accanto [[all']]albergo. (a + l')",
+          "Andiamo [[allo]] stadio. (a + lo)",
+          "La farmacia {ip:è} davanti [[alla]] banca. (a + la)",
+          "Il parco {ip:è} dietro [[agli]] uffici. (a + gli)",
+          "Il bar {ip:è} a destra [[del]] museo. (di + il)",
+          "La fermata {ip:è} a sinistra [[della]] stazione. (di + la)",
+          "La banca {ip:è} a destra [[dei]] negozi. (di + i)"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi la parola giusta per la persona: mi, ti, gli, le, ci o vi.",
+        "prompt": "Scrivi la forma giusta del verbo.",
         "questions": [
-          "(io) [[Mi]] {ip:piace} il gelato.",
-          "(tu) [[Ti]] {ip:piace} la pizza?",
-          "(lui) [[Gli]] {ip:piacciono} i funghi.",
-          "(lei) [[Le]] {ip:piace} il pesce.",
-          "(noi) [[Ci]] {ip:piacciono} le torte.",
-          "(voi) [[Vi]] {ip:piace} il vino?"
+          "Io [[finisco#ip]] di lavorare alle sei. (finire)",
+          "Tu [[capisci#ip]] l'italiano? (capire)",
+          "Lei [[preferisce#ip]] il tè. (preferire)",
+          "Noi [[finiamo#ip]] alle cinque. (finire)",
+          "Voi [[capite#ip]]? (capire)",
+          "Loro [[puliscono#ip]] la casa. (pulire)"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi la forma giusta di bere.",
+        "prompt": "Scrivi la forma giusta di dovere, potere o volere.",
         "questions": [
-          "Io [[bevo#ip]] un caffè.",
-          "Tu che cosa [[bevi#ip]]?",
-          "Lei [[beve#ip]] il tè.",
-          "Noi [[beviamo#ip]] acqua.",
-          "Voi [[bevete#ip]] vino?",
-          "Loro [[bevono#ip]] birra."
+          "Io [[devo#ip]] studiare. (dovere)",
+          "Tu [[puoi#ip]] venire domani? (potere)",
+          "Lui [[vuole#ip]] un caffè. (volere)",
+          "Noi [[dobbiamo#ip]] partire. (dovere)",
+          "Voi [[potete#ip]] aspettare? (potere)",
+          "Loro [[vogliono#ip]] andare al mare. (volere)"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi l'aggettivo con la finale giusta.",
+        "prompt": "Scrivi la forma giusta di sapere.",
         "questions": [
-          "La pizza {ip:è} [[buona]]. (buono)",
-          "I gelati {ip:sono} [[freddi]]. (freddo)",
-          "Le torte {ip:sono} [[dolci]]. (dolce)",
-          "Il caffè {ip:è} [[caldo]]. (caldo)",
-          "Le minestre {ip:sono} [[calde]]. (caldo)",
-          "Il ristorante {ip:è} [[grande]]. (grande)",
-          "I piatti {ip:sono} [[buoni]]. (buono)"
+          "Io non [[so#ip]] dov'{ip:è} la banca.",
+          "[[Sai#ip]] dov'{ip:è} la stazione?",
+          "Lei [[sa#ip]] parlare inglese.",
+          "Noi [[sappiamo#ip]] nuotare.",
+          "Voi [[sapete#ip]] dov'{ip:è} il museo?",
+          "Loro non [[sanno#ip]] cucinare."
         ]
       }
     ]
@@ -200,96 +312,92 @@
   "vocabulary": {
     "words": [
       [
-        "la pizza",
-        "piatto di Napoli con pomodoro e mozzarella"
+        "la banca",
+        "qui metti e prendi i soldi"
       ],
       [
-        "gli spaghetti",
-        "pasta lunga e sottile"
+        "il bar",
+        "qui bevi un caffè"
       ],
       [
-        "la minestra",
-        "verdure cotte in acqua, si mangia col cucchiaio"
+        "l'albergo",
+        "qui dormi quando sei in viaggio"
       ],
       [
-        "il pesce",
-        "vive nel mare"
+        "lo stadio",
+        "qui guardi una partita"
       ],
       [
-        "la carne",
-        "la mangi da un animale, per esempio la bistecca"
+        "la stazione",
+        "qui prendi il treno"
       ],
       [
-        "le verdure",
-        "carote, patate, pomodori…"
+        "la farmacia",
+        "qui compri le medicine"
       ],
       [
-        "i funghi",
-        "crescono nei boschi"
+        "il museo",
+        "qui vedi quadri e cose antiche"
       ],
       [
-        "le olive",
-        "piccole, verdi o nere, da cui viene l'olio"
+        "la piazza",
+        "un grande spazio aperto in centro"
       ],
       [
-        "il gelato",
-        "dolce freddo dell'estate"
+        "la fermata",
+        "qui aspetti l'autobus"
       ],
       [
-        "la torta",
-        "dolce per il compleanno"
+        "il parco",
+        "un grande giardino della città"
       ],
       [
-        "i dolci",
-        "torte, biscotti, cioccolato…"
+        "l'edicola",
+        "qui compri il giornale"
       ],
       [
-        "l'acqua",
-        "la bevi quando hai sete"
+        "davanti a",
+        "il contrario di dietro"
       ],
       [
-        "il vino",
-        "bevanda rossa o bianca fatta con l'uva"
+        "accanto a",
+        "subito vicino, di fianco"
       ],
       [
-        "la birra",
-        "bevanda gialla con la schiuma"
+        "dietro a",
+        "il contrario di davanti"
       ],
       [
-        "il tè",
-        "bevanda calda, inglese per tradizione"
+        "a sinistra di",
+        "il contrario di a destra"
       ],
       [
-        "il bicchiere",
-        "ci bevi l'acqua o il vino"
+        "a destra di",
+        "il contrario di a sinistra"
       ],
       [
-        "buono",
-        "il contrario di cattivo"
+        "vicino a",
+        "il contrario di lontano"
       ],
       [
-        "caldo",
-        "il contrario di freddo"
+        "fra, tra",
+        "in mezzo a due cose"
       ],
       [
-        "freddo",
-        "il contrario di caldo"
+        "dovere",
+        "è necessario fare qualcosa"
       ],
       [
-        "dolce",
-        "con lo zucchero"
+        "potere",
+        "è possibile fare qualcosa"
       ],
       [
-        "bere",
-        "mettere in bocca una bevanda"
+        "volere",
+        "avere voglia di qualcosa"
       ],
       [
-        "piacere",
-        "essere bello o buono per qualcuno"
-      ],
-      [
-        "volentieri",
-        "con piacere"
+        "sapere",
+        "conoscere una cosa"
       ]
     ],
     "exercises": [
@@ -298,28 +406,28 @@
         "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il pesce",
-            "vive nel mare"
+            "la farmacia",
+            "qui compri le medicine"
           ],
           [
-            "la carne",
-            "la mangi da un animale, per esempio la bistecca"
+            "l'albergo",
+            "qui dormi quando sei in viaggio"
           ],
           [
-            "le verdure",
-            "carote, patate, pomodori…"
+            "la fermata",
+            "qui aspetti l'autobus"
           ],
           [
-            "la torta",
-            "dolce per il compleanno"
+            "accanto a",
+            "subito vicino, di fianco"
           ],
           [
-            "il bicchiere",
-            "ci bevi l'acqua o il vino"
+            "dietro a",
+            "il contrario di davanti"
           ],
           [
-            "freddo",
-            "il contrario di caldo"
+            "vicino a",
+            "il contrario di lontano"
           ]
         ]
       },
@@ -327,20 +435,20 @@
         "type": "gap",
         "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Un [[bicchiere]] d'acqua, per favore.",
-          "D'estate {ip:mangio} un [[gelato]] al cioccolato.",
-          "Il tè {ip:è} [[caldo]], il gelato {ip:è} freddo.",
-          "Un caffè? Sì, [[volentieri]]!",
-          "{ip:Mangio} solo pesce e verdure: non mi {ip:piace} la [[carne]]."
+          "In viaggio {ip:dormiamo} in un [[albergo]] del centro.",
+          "{ip:Aspetto} l'autobus alla [[fermata]].",
+          "La banca {ip:è} in [[piazza]], in centro.",
+          "Il bar non {ip:è} lontano: {ip:è} [[vicino]] alla stazione.",
+          "{ip:Compro} un giornale all'[[edicola]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "{ip:Mi chiamo} Paolo e {ip:mi piace} molto mangiare. Mi {ip:piacciono} la pasta, la pizza e il pesce, ma non mi {ip:piace} la carne.",
-      "La mia ragazza, Giulia, {ip:è} diversa: le {ip:piace} la carne e non le {ip:piacciono} le verdure. A pranzo {ip:beve} acqua, ma la sera {ip:beviamo} un bicchiere di vino rosso.",
-      "Il sabato {ip:andiamo} in una trattoria vicino a casa. Il cuoco {ip:è} simpatico e i dolci {ip:sono} molto buoni!"
+      "Oggi {ip:sono} a Firenze con la mia amica Elena. Il nostro albergo {ip:è} in piazza, accanto alla stazione.",
+      "Elena {ip:vuole} vedere un museo, ma io prima {ip:devo} andare in banca. Non {ip:so} dov'{ip:è}, ma un signore {ip:sa}: la banca {ip:è} a destra del bar, davanti alla farmacia.",
+      "Il museo {ip:è} vicino al parco e {ip:possiamo} andare dopo pranzo. La sera {ip:vogliamo} mangiare in un ristorante tra il museo e l'albergo."
     ],
     "exercises": [
       {
@@ -348,35 +456,35 @@
         "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "A Paolo {ip:piace} il pesce.",
+            "q": "L'albergo {ip:è} accanto alla stazione.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "A Paolo {ip:piace} la carne.",
-            "options": [
-              "Vero",
-              "*Falso"
-            ]
-          },
-          {
-            "q": "A Giulia {ip:piacciono} le verdure.",
-            "options": [
-              "Vero",
-              "*Falso"
-            ]
-          },
-          {
-            "q": "La sera {ip:bevono} vino rosso.",
+            "q": "Elena {ip:vuole} vedere un museo.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "I dolci della trattoria {ip:sono} buoni.",
+            "q": "La banca {ip:è} dietro al bar.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La banca {ip:è} davanti alla farmacia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il museo {ip:è} vicino al parco.",
             "options": [
               "*Vero",
               "Falso"
@@ -389,28 +497,28 @@
   "listening": {
     "transcript": [
       [
-        "Cameriere",
-        "Buongiorno, che cosa {ip:bevete}?"
+        "Turista",
+        "Scusi, {ip:sa} dov'{ip:è} la fermata dell'autobus?"
       ],
       [
-        "Anna",
-        "Io {ip:bevo} un caffè, grazie."
+        "Signora",
+        "Sì, {ip:è} davanti all'università, a sinistra della piazza."
       ],
       [
-        "Luca",
-        "Per me un tè freddo."
+        "Turista",
+        "{ip:Posso} andare a piedi?"
       ],
       [
-        "Cameriere",
-        "{ip:Volete} anche una torta? Le nostre torte {ip:sono} molto buone."
+        "Signora",
+        "Sì, certo. {ip:Deve} andare dritto per cinque minuti."
       ],
       [
-        "Anna",
-        "Sì, mi {ip:piacciono} i dolci! Una torta al cioccolato, per favore."
+        "Turista",
+        "Grazie mille!"
       ],
       [
-        "Luca",
-        "Io no, non mi {ip:piace} il cioccolato."
+        "Signora",
+        "Prego!"
       ]
     ],
     "exercises": [
@@ -418,11 +526,10 @@
         "type": "gap",
         "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Buongiorno, che cosa [[bevete#ip]]?",
-          "Io [[bevo#ip]] un caffè, grazie.",
-          "Le nostre torte {ip:sono} molto [[buone]].",
-          "Sì, mi [[piacciono#ip]] i dolci!",
-          "Io no, non mi [[piace#ip]] il cioccolato."
+          "Scusi, [[sa#ip]] dov'{ip:è} la fermata dell'autobus?",
+          "{ip:È} davanti [[all']]università, a sinistra [[della]] piazza.",
+          "[[Posso#ip]] andare a piedi?",
+          "[[Deve#ip]] andare dritto per cinque minuti."
         ]
       },
       {
@@ -430,11 +537,11 @@
         "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Che cosa {ip:beve} Luca?",
+            "q": "Come {ip:va} alla fermata il turista?",
             "options": [
-              "*un tè freddo",
-              "un caffè",
-              "un bicchiere di vino"
+              "*a piedi",
+              "in autobus",
+              "in taxi"
             ]
           }
         ]
@@ -448,53 +555,55 @@
         "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "{ip:Dici} che la pizza {ip:è} il tuo piatto preferito: mi…",
+            "q": "Dov'{ip:è} il bar? (accanto / la banca)",
             "a": [
-              "Mi piace la pizza.",
-              "Mi piace molto la pizza."
+              "Il bar è accanto alla banca.",
+              "È accanto alla banca."
             ]
           },
           {
-            "q": "{ip:Dici} che il pesce non {ip:è} buono per te.",
+            "q": "Domani {ip:hai} un esame: che cosa {ip:devi} fare? (studiare)",
             "a": [
-              "Non mi piace il pesce."
+              "Devo studiare.",
+              "Io devo studiare."
             ]
           },
           {
-            "q": "{ip:Chiedi} a un amico se gli spaghetti {ip:sono} buoni per lui.",
+            "q": "{ip:Chiedi} a un amico se {ip:può} venire domani.",
             "a": [
-              "Ti piacciono gli spaghetti?"
+              "Puoi venire domani?",
+              "Tu puoi venire domani?"
             ]
           },
           {
-            "q": "Che cosa {ip:bevete} tu e Anna? (acqua)",
+            "q": "Che cosa {ip:volete} tu e Luca? (un caffè)",
             "a": [
-              "Beviamo acqua.",
-              "Noi beviamo acqua.",
-              "Beviamo l'acqua.",
-              "Noi beviamo l'acqua."
+              "Vogliamo un caffè.",
+              "Noi vogliamo un caffè."
             ]
           },
           {
-            "q": "Le torte: come {ip:sono}? (buono)",
+            "q": "Un turista ti {ip:chiede} dov'{ip:è} la stazione, ma tu non lo {ip:sai}.",
             "a": [
-              "Le torte sono buone.",
-              "Sono buone."
+              "Non so dov'è la stazione.",
+              "Io non so dov'è la stazione.",
+              "Non so dove è la stazione.",
+              "Non lo so."
             ]
           },
           {
-            "q": "Il caffè: com'{ip:è}? (caldo)",
+            "q": "A che ora {ip:finiscono} di lavorare? (alle sei)",
             "a": [
-              "Il caffè è caldo.",
-              "È caldo."
+              "Finiscono alle sei.",
+              "Loro finiscono alle sei.",
+              "Finiscono di lavorare alle sei."
             ]
           },
           {
-            "q": "{ip:Chiedi} a un amico che cosa {ip:beve}.",
+            "q": "Dov'{ip:è} il museo? (a destra / il parco)",
             "a": [
-              "Che cosa bevi?",
-              "Cosa bevi?",
-              "Che bevi?"
+              "Il museo è a destra del parco.",
+              "È a destra del parco."
             ]
           }
         ]

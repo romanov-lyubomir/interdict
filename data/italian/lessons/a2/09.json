@@ -1,218 +1,326 @@
 {
-  "title": "Ci {ip:vado} domani. {imv:Dimmi}, ne {ip:vuoi} due?",
-  "translation": "I'm going there tomorrow. Tell me, do you want two of them?",
-  "topics": "The pronouns ci and ne, informal commands with pronouns",
+  "title": "Il libro {ip:è} più bello del film!",
+  "translation": "",
+  "topics": "Il comparativo di maggioranza, uguaglianza e minoranza, *di* o *che*, il superlativo relativo e assoluto, i comparativi particolari, libri, film e musica",
   "grammar": {
     "explain": [
+      "Per confrontare due cose o due persone si usa il comparativo; per dire che una cosa è la migliore di un gruppo, o molto speciale, si usa il superlativo. In questa lezione li usiamo per parlare di libri, film e musica.",
       {
-        "h": "Ci replaces a place"
-      },
-      "*Ci* means *there*. It replaces a place that has already been mentioned, so that you don't have to repeat it. Like other pronouns, it comes before the verb.",
-      {
-        "table": {
-          "head": [
-            "Question",
-            "Answer"
-          ],
-          "rows": [
-            [
-              "{ip:Vai} a Roma?",
-              "Sì, **ci** {ip:vado} domani."
-            ],
-            [
-              "{pp:Sei} mai {pp:stato} in Sicilia?",
-              "No, non **ci** {pp:sono} mai {pp:stato}."
-            ],
-            [
-              "Quando {ip:vieni} da noi?",
-              "**Ci** {ip:vengo} sabato."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il comparativo di maggioranza, uguaglianza e minoranza",
+              "rows": [
+                [
+                  "maggioranza",
+                  "**più** … **di** …",
+                  "Il film d'azione {ip:è} **più** veloce **del** film storico."
+                ],
+                [
+                  {
+                    "text": "uguaglianza",
+                    "rows": 2
+                  },
+                  "**come** …",
+                  "La musica jazz {ip:è} rilassante **come** la musica classica."
+                ],
+                [
+                  null,
+                  "**quanto** …",
+                  "La musica jazz {ip:è} rilassante **quanto** la musica classica."
+                ],
+                [
+                  "minoranza",
+                  "**meno** … **di** …",
+                  "Il romanzo d'amore {ip:è} **meno** triste **del** romanzo drammatico."
+                ]
+              ]
+            },
+            "note": [
+              "Dopo *di* l'articolo si unisce alla preposizione: *del* film, *della* musica, *dei* romanzi.",
+              "Nel comparativo di uguaglianza *come* e *quanto* hanno lo stesso significato; spesso la prima parte (*tanto*, *così*) non si dice."
             ]
-          ]
-        }
-      },
-      {
-        "h": "Ne replaces a quantity"
-      },
-      "*Ne* means *of it* or *of them*. Use it when you say how much of something, and leave out the noun. The number or quantity stays.",
-      {
-        "table": {
-          "head": [
-            "Question",
-            "Answer"
-          ],
-          "rows": [
-            [
-              "Quante mele {ip:vuoi}?",
-              "**Ne** {ip:voglio} due."
-            ],
-            [
-              "{ip:Hai} fratelli?",
-              "Sì, **ne** {ip:ho} uno."
-            ],
-            [
-              "{ip:Vuoi} del pane?",
-              "Sì, **ne** {cop:vorrei} un po'."
-            ],
-            [
-              "{ip:Hai} dei soldi?",
-              "No, non **ne** {ip:ho}."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Di* o *che* nel comparativo?",
+              "head": [
+                "esempio",
+                "",
+                "quando"
+              ],
+              "rows": [
+                [
+                  "I gialli {ip:sono} più avvincenti **dei** romanzi storici.",
+                  "**di**",
+                  "con due nomi"
+                ],
+                [
+                  "Mio fratello {ip:legge} più **di me**.",
+                  "**di**",
+                  "con un pronome personale"
+                ],
+                [
+                  "Ascoltare la musica {ip:è} più facile **che** suonarla.",
+                  "**che**",
+                  "con due verbi"
+                ],
+                [
+                  "{ip:Esco} più volentieri con te **che con** lui.",
+                  "**che**",
+                  "con un pronome dopo una preposizione"
+                ],
+                [
+                  "{ip:Vado} più spesso al cinema **che a** teatro.",
+                  "**che**",
+                  "con un nome dopo una preposizione"
+                ],
+                [
+                  "Questa canzone {ip:è} più allegra **che** romantica.",
+                  "**che**",
+                  "con due aggettivi"
+                ]
+              ]
+            },
+            "note": "La regola facile: si usa *di* quando confrontiamo due persone o due cose (nomi o pronomi). Si usa *che* quando confrontiamo due azioni, due qualità o due parole che hanno già una preposizione davanti."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il superlativo relativo e assoluto",
+              "head": [
+                "superlativo",
+                "esempio",
+                "come si forma"
+              ],
+              "rows": [
+                [
+                  "relativo",
+                  "Roberto Benigni {ip:è} l'attore **più** simpatico **d'**Italia.",
+                  "il / la / i / le + **più** + aggettivo + **di**"
+                ],
+                [
+                  "assoluto",
+                  "Questo libro {ip:è} bell**issimo**. = Questo libro {ip:è} **molto** bello.",
+                  "aggettivo + **-issimo** / *molto* + aggettivo"
+                ]
+              ]
+            },
+            "note": [
+              "Il superlativo relativo dice che una cosa è *la più* (o *la meno*) di un gruppo: *il film più lungo dell'anno*.",
+              "Il superlativo assoluto non confronta: dice solo *molto*. Si toglie l'ultima vocale all'aggettivo e si aggiunge *-issimo, -issima, -issimi, -issime*: *bravo → bravissimo, facile → facilissimo*."
             ]
-          ]
-        }
-      },
-      "If you mean the whole thing rather than a quantity, use *lo, la, li, le* instead: *{ip:Compro} le mele → Le {ip:compro}*, but *{ip:Compro} due mele → Ne {ip:compro} due*. With an infinitive, *ci* and *ne* attach like other pronouns: *{ip:Voglio} andarci. {ip:Posso} prenderne due.*",
-      {
-        "h": "Informal commands"
-      },
-      "For *noi* and *voi*, commands are the same as the present tense: *{imv:Andiamo}! {imv:Guardate}!* Only the *tu* form of *-are* verbs is special, as it ends in *-a*.",
-      {
-        "table": {
-          "head": [
-            "",
-            "-are",
-            "-ere",
-            "-ire"
-          ],
-          "rows": [
-            [
-              "tu",
-              "{imv:parl**a**}!",
-              "{imv:prend**i**}!",
-              "{imv:sent**i**}!"
-            ],
-            [
-              "tu, negative",
-              "non parlare!",
-              "non prendere!",
-              "non sentire!"
-            ],
-            [
-              "voi",
-              "{imv:parlate}!",
-              "{imv:prendete}!",
-              "{imv:sentite}!"
-            ],
-            [
-              "voi, negative",
-              "non {imv:parlate}!",
-              "non {imv:prendete}!",
-              "non {imv:sentite}!"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Comparativi e superlativi particolari",
+              "head": [
+                "aggettivo",
+                "comparativo",
+                "superlativo relativo",
+                "superlativo assoluto",
+                "quando si usa la forma particolare"
+              ],
+              "rows": [
+                [
+                  "*buono*",
+                  "più buono / **migliore**",
+                  "il più buono / **il migliore**",
+                  "buonissimo / **ottimo**",
+                  "*più buono* per il sapore e il carattere: *una torta più buona, una persona più buona*. *Migliore* per la qualità: *un film migliore, il miglior ristorante*."
+                ],
+                [
+                  "*bravo*",
+                  "più bravo / **migliore**",
+                  "il più bravo / **il migliore**",
+                  "bravissimo",
+                  "Di solito *più bravo*: *Luca è più bravo di me in matematica.* *Il migliore* quando è il primo di tutti: *È il migliore della classe.*"
+                ],
+                [
+                  "*cattivo*",
+                  "più cattivo / **peggiore**",
+                  "il più cattivo / **il peggiore**",
+                  "cattivissimo / **pessimo**",
+                  "*più cattivo* per le persone e gli animali: *il lupo più cattivo*. *Peggiore* per la qualità e le situazioni: *il peggior voto, un tempo peggiore*."
+                ],
+                [
+                  "*brutto*",
+                  "più brutto / **peggiore**",
+                  "il più brutto / **il peggiore**",
+                  "bruttissimo",
+                  "*più brutto* per l'aspetto: *una casa più brutta*. *Peggiore* per le situazioni: *È il giorno peggiore della mia vita.*"
+                ],
+                [
+                  "*grande*",
+                  "più grande / **maggiore**",
+                  "il più grande / **il maggiore**",
+                  "grandissimo / **massimo**",
+                  "*più grande* per le dimensioni e, nella lingua di tutti i giorni, l'età: *una casa più grande, mio fratello più grande*. *Maggiore* per l'età in famiglia e l'importanza: *mia sorella maggiore, il maggior scrittore italiano*."
+                ],
+                [
+                  "*piccolo*",
+                  "più piccolo / **minore**",
+                  "il più piccolo / **il minore**",
+                  "piccolissimo / **minimo**",
+                  "*più piccolo* per le dimensioni e l'età: *una stanza più piccola*. *Minore* per l'età in famiglia e l'importanza: *il figlio minore, un problema minore*."
+                ],
+                [
+                  "*alto*",
+                  "più alto / **superiore**",
+                  "il più alto / **il superiore**",
+                  "altissimo / **supremo**",
+                  "*più alto* per l'altezza: *Marco è più alto di me, la montagna più alta*. *Superiore* per la posizione, il livello e la qualità: *il piano superiore, la scuola superiore, un prodotto di qualità superiore*. Mai *Marco è superiore di me* per dire che è più alto."
+                ],
+                [
+                  "*basso*",
+                  "più basso / **inferiore**",
+                  "il più basso / **l'inferiore**",
+                  "bassissimo / **infimo**",
+                  "*più basso* per l'altezza: *Anna è più bassa di sua sorella*. *Inferiore* per la posizione, il livello e la qualità: *il piano inferiore, un voto inferiore alla media*."
+                ]
+              ]
+            },
+            "note": [
+              "Questi aggettivi hanno due forme: quella normale (*più buono, più alto*) e quella particolare (*migliore, superiore*). Tutte e due sono giuste, ma non sempre vogliono dire la stessa cosa: guarda l'ultima colonna.",
+              "Le forme particolari hanno già *più* dentro: non si dice *più migliore* o *più peggiore*. Lo stesso vale per *ottimo, pessimo, massimo, minimo*: non si dice *molto ottimo*.",
+              "*Maggiore* e *minore* vogliono *di* (*maggiore di me*); *superiore* e *inferiore* vogliono *a* (*superiore alla media*).",
+              "*Migliore, peggiore, maggiore, minore* perdono spesso la *-e* davanti a un nome: *il miglior film, il peggior voto*."
             ]
-          ]
-        }
-      },
-      "A few common verbs have a short *tu* form: *fare → {ip:fa}'*, *dare → da'*, *stare → {ip:sta}'*, *andare → {ip:va}'*, *dire → di'*. Also *essere → {imv:sii}* and *avere → {imv:abbi}*.",
-      {
-        "h": "Commands with pronouns"
-      },
-      "In a positive command, the pronoun attaches to the end. After a short form, its first consonant doubles.",
-      {
-        "table": {
-          "head": [
-            "Command",
-            "Pronoun attached",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "{ip:guarda} + lo",
-              "{imv:guarda**lo**}!",
-              "look at it!"
-            ],
-            [
-              "{ip:alza} + ti",
-              "{imv:alza**ti**}!",
-              "get up!"
-            ],
-            [
-              "di' + mi",
-              "{imv:di**mmi**}!",
-              "tell me!"
-            ],
-            [
-              "{ip:fa}' + lo",
-              "{imv:fa**llo**}!",
-              "do it!"
-            ],
-            [
-              "da' + mi",
-              "{imv:da**mmi**}!",
-              "give me!"
-            ]
-          ]
-        }
-      },
-      "In a negative command you can put the pronoun in either place: *Non lo fare!* or *Non farlo!*"
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
+        "type": "gap",
+        "prompt": "Completa con *più*, *meno*, *come* o *di* (anche unito all'articolo).",
+        "questions": [
+          "Il treno è [[più]] comodo dell'autobus. (+)",
+          "Il cinema è [[meno]] caro del teatro. (−)",
+          "Mia sorella è alta [[come|quanto]] me. (=)",
+          "Questo romanzo è più lungo [[del]] film.",
+          "Roma è più grande [[di]] Firenze.",
+          "Le commedie sono più divertenti [[dei]] film drammatici."
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose ci, ne or the object pronoun.",
+        "prompt": "*Di* o *che*? Scegli la parola giusta.",
         "questions": [
           {
-            "q": "{ip:Vai} al cinema? Sì, ___ {ip:vado} stasera.",
+            "q": "Leggere è più rilassante ___ guardare la TV.",
             "options": [
-              "*ci",
-              "ne",
-              "lo"
+              "di",
+              "*che"
             ]
           },
           {
-            "q": "Quanti caffè {ip:bevi}? ___ {ip:bevo} tre.",
+            "q": "Marco è più simpatico ___ Paolo.",
             "options": [
-              "Ci",
-              "*Ne",
-              "Li"
+              "*di",
+              "che"
             ]
           },
           {
-            "q": "{pp:Hai comprato} il pane? Sì, ___ {pp:ho comprato}.",
+            "q": "Questo film è più lungo ___ noioso.",
             "options": [
-              "ci",
-              "ne",
-              "*l'"
+              "di",
+              "*che"
             ]
           },
           {
-            "q": "{ip:Vuoi} un po' di vino? Sì, ___ {cop:vorrei} un po'.",
+            "q": "Ascolto più musica in macchina ___ a casa.",
             "options": [
-              "ci",
-              "*ne",
-              "lo"
+              "di",
+              "*che"
             ]
           },
           {
-            "q": "{pp:Sei stato} a Bari? No, non ___ {pp:sono} mai {pp:stato}.",
+            "q": "Tu canti meglio ___ me.",
             "options": [
-              "*ci",
-              "ne",
-              "la"
+              "*di",
+              "che"
+            ]
+          },
+          {
+            "q": "Esco più volentieri con Sara ___ con Luca.",
+            "options": [
+              "di",
+              "*che"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Write the tu command.",
+        "prompt": "Scrivi il superlativo assoluto in *-issimo*.",
         "questions": [
-          "[[Parla#imv]] piano! (parlare)",
-          "[[Prendi#imv]] l'autobus! (prendere)",
-          "[[Senti#imv]]! (sentire)",
-          "Non [[parlare]]! (parlare, negative)",
-          "[[Sii#imv]] gentile! (essere)"
+          "Il concerto è stato molto bello: [[bellissimo]]!",
+          "Questa canzone è molto famosa: è [[famosissima]].",
+          "Gli esercizi sono molto facili: sono [[facilissimi]].",
+          "Le attrici sono molto brave: sono [[bravissime]].",
+          "Il libro è molto lungo: è [[lunghissimo]]."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Attach the pronoun in brackets to the command.",
+        "prompt": "Completa con il superlativo relativo: *il / la / i / le* + *più* + aggettivo + *di*.",
         "questions": [
-          "[[Guardalo#imv]]! (guarda + lo)",
-          "[[Dimmi#imv]]! (di' + mi)",
-          "[[Fallo#imv]] subito! (fa' + lo)",
-          "[[Dammi#imv]] la mano! (da' + mi)",
-          "[[Alzati#imv]]! (alza + ti)"
+          "Il Po è [[il fiume più lungo]] d'Italia. (fiume, lungo)",
+          "Questa è [[la canzone più famosa]] dell'estate. (canzone, famosa)",
+          "Sono [[i libri più letti]] dell'anno. (libri, letti)",
+          "Luca è [[lo studente più bravo]] della classe. (studente, bravo)"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Secondo me questo è il ___ film dell'anno.",
+            "options": [
+              "*miglior",
+              "più buono",
+              "maggiore"
+            ]
+          },
+          {
+            "q": "Il tempo oggi è ___ di ieri: piove ancora di più.",
+            "options": [
+              "*peggiore",
+              "minore",
+              "inferiore"
+            ]
+          },
+          {
+            "q": "Ho due fratelli: Paolo è il ___, ha trent'anni.",
+            "options": [
+              "*maggiore",
+              "superiore",
+              "migliore"
+            ]
+          },
+          {
+            "q": "La mia sorella ___ va ancora alla scuola elementare.",
+            "options": [
+              "*minore",
+              "peggiore",
+              "inferiore"
+            ]
+          },
+          {
+            "q": "Il signor Neri abita al piano ___, proprio sopra di noi.",
+            "options": [
+              "*superiore",
+              "maggiore",
+              "migliore"
+            ]
+          }
         ]
       }
     ]
@@ -220,139 +328,268 @@
   "vocabulary": {
     "words": [
       [
-        "la pasticceria",
-        "pastry shop"
+        "l'autore",
+        "la persona che scrive un libro"
       ],
       [
-        "il dolce",
-        "cake, dessert"
+        "la copertina",
+        "la parte esterna di un libro, con il titolo e spesso un'immagine"
       ],
       [
-        "la bottiglia",
-        "bottle"
+        "il genere",
+        "il tipo di libro, film o musica: giallo, comico, rock…"
       ],
       [
-        "il pezzo",
-        "piece"
+        "il giallo",
+        "un romanzo o un film con un delitto e un detective"
       ],
       [
-        "il chilo",
-        "kilo"
+        "il lettore",
+        "la persona che legge un libro"
       ],
       [
-        "l'etto",
-        "100 grams"
+        "i personaggi",
+        "le persone (o gli animali) di una storia"
       ],
       [
-        "la fetta",
-        "slice"
+        "la trama",
+        "la storia di un libro o di un film, raccontata in breve"
       ],
       [
-        "vorrei",
-        "I would like"
+        "il romanzo storico",
+        "una storia ambientata in un'epoca del passato"
       ],
       [
-        "portare",
-        "to bring"
+        "il romanzo rosa",
+        "una storia d'amore, di solito con un lieto fine"
       ],
       [
-        "assaggiare",
-        "to taste"
+        "il romanzo fantastico",
+        "una storia con magia, draghi o mondi inventati"
       ],
       [
-        "dare",
-        "to give"
+        "l'attore protagonista",
+        "l'attore che interpreta il personaggio principale"
       ],
       [
-        "basta",
-        "that's enough"
+        "il regista",
+        "la persona che dirige un film"
+      ],
+      [
+        "la colonna sonora",
+        "la musica di un film"
+      ],
+      [
+        "la durata",
+        "quanto tempo dura un film o una canzone"
+      ],
+      [
+        "il film drammatico",
+        "un film serio e spesso triste"
+      ],
+      [
+        "il brano",
+        "un pezzo di musica, una canzone"
+      ],
+      [
+        "il tenore",
+        "un cantante d'opera con una voce maschile alta"
+      ],
+      [
+        "la fama",
+        "quando molte persone ti conoscono"
+      ],
+      [
+        "i testi delle canzoni",
+        "le parole delle canzoni"
+      ],
+      [
+        "avvincente",
+        "così interessante che non riesci a smettere"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la bottiglia",
-            "bottle"
+            "la copertina",
+            "la parte esterna di un libro, con il titolo e spesso un'immagine"
           ],
           [
-            "l'etto",
-            "100 grams"
+            "la trama",
+            "la storia di un libro o di un film, raccontata in breve"
           ],
           [
-            "la fetta",
-            "slice"
+            "il regista",
+            "la persona che dirige un film"
           ],
           [
-            "portare",
-            "to bring"
+            "la colonna sonora",
+            "la musica di un film"
           ],
           [
-            "assaggiare",
-            "to taste"
+            "il brano",
+            "un pezzo di musica, una canzone"
           ],
           [
-            "basta",
-            "that's enough"
+            "avvincente",
+            "così interessante che non riesci a smettere"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Che genere è?",
         "questions": [
-          "[[Vorrei#cop]] un caffè, per favore. (I would like)",
-          "Mi {imv:dia} due [[etti]] di prosciutto. (100 grams, plural)",
-          "{ip:Prendo} una [[fetta]] di torta. (slice)",
-          "Una [[bottiglia]] d'acqua, grazie. (bottle)"
+          {
+            "q": "Un detective cerca chi ha ucciso il direttore della banca.",
+            "options": [
+              "*un giallo",
+              "un romanzo rosa",
+              "un romanzo fantastico"
+            ]
+          },
+          {
+            "q": "Due ragazzi si innamorano in vacanza e alla fine si sposano.",
+            "options": [
+              "un giallo",
+              "*un romanzo rosa",
+              "un romanzo storico"
+            ]
+          },
+          {
+            "q": "La storia si svolge a Roma ai tempi di Giulio Cesare.",
+            "options": [
+              "un romanzo fantastico",
+              "un romanzo rosa",
+              "*un romanzo storico"
+            ]
+          },
+          {
+            "q": "Un ragazzo scopre di poter parlare con i draghi.",
+            "options": [
+              "un romanzo storico",
+              "*un romanzo fantastico",
+              "un giallo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Mi piace la [[copertina]] di questo libro: c'è un bel disegno del mare.",
+          "Chi è il [[regista]] di questo film?",
+          "Non ricordo il titolo, ma conosco bene la [[trama]].",
+          "Il film è bello, ma la [[colonna sonora]] è ancora più bella.",
+          "Quel cantante è diventato famoso: la [[fama]] gli ha cambiato la vita."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "«{ip:Vai} in pasticceria?» mi {ip:chiede} mio fratello. «Sì, ci {ip:vado} adesso. {ip:Vuoi} qualcosa?» «{imv:Prendi} dei cornetti. Anzi, {imv:comprane} quattro: {ip:viene} anche la zia!»",
-      "In pasticceria {ip:vedo} una torta bellissima. La commessa me ne {ip:dà} una fetta da assaggiare. Mio fratello mi {ip:scrive}: «{imv:Dimmi}, {pp:hai preso} i cornetti?» {ip:Rispondo}: «Sì, e {pp:ho preso} anche una torta. Non dirlo alla mamma!»"
+      {
+        "h": "Le avventure di Pinocchio"
+      },
+      "*di Carlo Collodi*",
+      "Questo libro {pp:è stato pubblicato} nel 1883 e da allora {ip:è} uno dei libri italiani più letti al mondo: {pp:è stato tradotto} in più di duecento lingue.",
+      "La storia si svolge in un piccolo paese della Toscana. Geppetto, un falegname povero e solo, {ip:costruisce} un burattino di legno e lo {ip:chiama} Pinocchio. Ma il burattino {ip:parla}, {ip:ride} e {ip:scappa} subito di casa!",
+      "Pinocchio {ip:è} più curioso che cattivo, ma {ip:è} anche il bambino più disobbediente del mondo: non {ip:vuole} andare a scuola e {ip:preferisce} giocare. Ogni volta che {ip:dice} una bugia, il suo naso {ip:diventa} più lungo.",
+      "Durante il viaggio {ip:incontra} personaggi famosissimi: il Gatto e la Volpe, due imbroglioni che gli {ip:rubano} i soldi, la Fata Turchina, più saggia e più gentile di tutti, e il Grillo Parlante, che gli {ip:dà} sempre buoni consigli.",
+      "Alla fine, dopo tante avventure, Pinocchio {ip:capisce} i suoi errori e {ip:diventa} un bambino vero. Secondo molti lettori il libro {ip:è} più bello del film: {pp:avete} mai {pp:provato} a leggerlo?"
     ],
     "exercises": [
       {
+        "type": "match",
+        "prompt": "Abbina le espressioni del testo al loro significato.",
+        "pairs": [
+          [
+            "si svolge",
+            "succede, ha luogo"
+          ],
+          [
+            "un falegname",
+            "lavora il legno e fa mobili"
+          ],
+          [
+            "un burattino",
+            "una piccola persona di legno che si muove"
+          ],
+          [
+            "disobbediente",
+            "che non fa quello che gli dicono"
+          ],
+          [
+            "due imbroglioni",
+            "persone che ingannano gli altri"
+          ],
+          [
+            "saggia",
+            "che sa tante cose e dà buoni consigli"
+          ]
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "How many croissants should the speaker buy?",
+            "q": "Il libro {pp:è stato pubblicato} nel Novecento.",
             "options": [
-              "Two",
-              "*Four",
-              "Six"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "Who is coming too?",
+            "q": "Geppetto {ip:è} un falegname povero.",
             "options": [
-              "*The aunt",
-              "The mother",
-              "A friend"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "What does the shop assistant give the speaker?",
+            "q": "Pinocchio {ip:ama} andare a scuola.",
             "options": [
-              "A free croissant",
-              "*A slice to taste",
-              "A bottle"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "What should the brother not do?",
+            "q": "Quando Pinocchio {ip:dice} una bugia, il naso {ip:diventa} più lungo.",
             "options": [
-              "Eat the cake",
-              "*Tell their mother",
-              "Come to the shop"
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il Gatto e la Volpe {ip:aiutano} Pinocchio.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Alla fine Pinocchio {ip:diventa} un bambino vero.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i comparativi e i superlativi.",
+        "questions": [
+          "uno dei libri italiani [[più]] letti al mondo",
+          "Pinocchio è più curioso [[che]] cattivo.",
+          "il bambino più disobbediente [[del]] mondo",
+          "personaggi [[famosissimi]]",
+          "la Fata Turchina, più saggia e più gentile [[di]] tutti"
         ]
       }
     ]
@@ -360,51 +597,72 @@
   "listening": {
     "transcript": [
       [
-        "Commesso",
-        "Buongiorno, {imv:dimmi} pure!"
+        "Giorgia",
+        "Che cosa {ip:stai leggendo}?"
       ],
       [
-        "Bianca",
-        "{cop:Vorrei} delle mele."
+        "Tommaso",
+        "Un giallo di Andrea Camilleri. {ip:È} avvincentissimo: non {ip:riesco} a smettere!"
       ],
       [
-        "Commesso",
-        "Quante ne {ip:vuoi}?"
+        "Giorgia",
+        "Io i gialli non li {ip:sopporto}: {ip:sono} più paurosi che divertenti. {ip:Preferisco} i romanzi storici."
       ],
       [
-        "Bianca",
-        "Ne {ip:prendo} {ip:sei}. E il formaggio? {ip:È} buono?"
+        "Tommaso",
+        "Ma i romanzi storici {ip:sono} meno veloci dei gialli! E di solito {ip:sono} lunghissimi."
       ],
       [
-        "Commesso",
-        "Buonissimo. {imv:Assaggialo}!"
+        "Giorgia",
+        "Sì, ma {ip:imparo} tante cose. E tu, qual {ip:è} il libro più bello che {pp:hai letto} quest'anno?"
       ],
       [
-        "Bianca",
-        "Sì, {ip:è} ottimo. {imv:Dammene} due etti, grazie."
+        "Tommaso",
+        "Senza dubbio questo. E secondo te qual {ip:è} il miglior regista italiano?"
+      ],
+      [
+        "Giorgia",
+        "Per me Paolo Sorrentino: i suoi film {ip:sono} bellissimi e le colonne sonore ancora migliori."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Quante [[ne]] {ip:vuoi}?",
-          "[[Ne]] {ip:prendo} {ip:sei}.",
-          "Buonissimo. [[Assaggialo#imv]]!",
-          "[[Dammene#imv]] due etti, grazie."
+          "È [[avvincentissimo]]: non riesco a smettere!",
+          "Sono più paurosi [[che]] divertenti.",
+          "I romanzi storici sono [[meno]] veloci dei gialli!",
+          "Qual è il libro [[più]] bello che hai letto quest'anno?",
+          "Qual è il [[miglior]] regista italiano?"
         ]
       },
       {
         "type": "choice",
-        "prompt": "How much cheese does Bianca buy?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Bianca buys…",
+            "q": "Che cosa {ip:sta leggendo} Tommaso?",
             "options": [
-              "six slices",
-              "*200 grams",
-              "a kilo"
+              "*un giallo",
+              "un romanzo storico",
+              "un romanzo rosa"
+            ]
+          },
+          {
+            "q": "Perché a Giorgia non {ip:piacciono} i gialli?",
+            "options": [
+              "perché sono troppo lunghi",
+              "*perché le fanno paura",
+              "perché sono noiosi"
+            ]
+          },
+          {
+            "q": "Secondo Giorgia, chi {ip:è} il miglior regista italiano?",
+            "options": [
+              "Andrea Camilleri",
+              "*Paolo Sorrentino",
+              "Roberto Benigni"
             ]
           }
         ]
@@ -415,41 +673,149 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "Parla dei tuoi gusti: rispondi con una frase con un comparativo o un superlativo.",
         "questions": [
           {
-            "q": "I'm going there tomorrow.",
+            "q": "Quale genere di romanzi {ip:preferisci} e perché?",
             "a": [
-              "Ci vado domani.",
-              "Domani ci vado."
+              "Preferisco i gialli perché sono più avvincenti dei romanzi rosa.",
+              "Preferisco i romanzi storici perché sono più interessanti dei gialli."
             ]
           },
           {
-            "q": "I want two of them.",
+            "q": "Confronta il cinema e la televisione.",
             "a": [
-              "Ne voglio due.",
-              "Io ne voglio due."
+              "Il cinema è più bello della televisione.",
+              "La televisione è meno cara del cinema.",
+              "Il cinema è più divertente della televisione."
             ]
           },
           {
-            "q": "Tell me! (to a friend)",
+            "q": "Qual {ip:è} il libro più bello che {pp:hai letto}?",
             "a": [
-              "Dimmi!"
+              "Il libro più bello che ho letto è Pinocchio.",
+              "Il libro più bello che ho letto è Il nome della rosa."
             ]
           },
           {
-            "q": "Don't do it! (to a friend)",
+            "q": "Chi {ip:è} il cantante più famoso del tuo Paese?",
             "a": [
-              "Non lo fare!",
-              "Non farlo!"
+              "Il cantante più famoso del mio Paese è…",
+              "Secondo me il cantante più famoso è…"
             ]
           },
           {
-            "q": "Get up! (to a friend)",
+            "q": "Che cosa {ip:è} più facile: leggere un libro o guardare un film?",
             "a": [
-              "Alzati!"
+              "Guardare un film è più facile che leggere un libro.",
+              "Leggere un libro è più difficile che guardare un film."
+            ]
+          },
+          {
+            "q": "{ip:Descrivi} un film che ti {pp:è piaciuto} molto con un superlativo assoluto.",
+            "a": [
+              "È un film bellissimo.",
+              "Il film è bellissimo e la musica è famosissima.",
+              "È un film lunghissimo ma bellissimo."
             ]
           }
+        ]
+      }
+    ]
+  },
+  "italy": {
+    "text": [
+      {
+        "h": "Oltre le solite mete"
+      },
+      "Roma, Venezia, Firenze, la Costiera Amalfitana: {ip:sono} i posti più famosi d'Italia, ma d'estate {ip:sono} anche i più affollati e i più cari. Nei paesi più piccoli spesso si {ip:vive} un'Italia più tranquilla e più autentica, e si {ip:spende} molto meno.",
+      "**Se vi piace Venezia, provate Comacchio** — Comacchio, in provincia di Ferrara, {ip:è} chiamata «la piccola Venezia»: anche qui ci {ip:sono} canali, ponti e barche colorate. Il ponte più famoso {ip:è} il Trepponti, con le sue cinque scale. Naturalmente Comacchio {ip:è} meno grande di Venezia, ma {ip:è} molto più tranquilla e i ristoranti {ip:sono} meno cari.",
+      "**In Toscana, lontano dalla folla** — Pisa e Firenze {ip:sono} bellissime, ma per molti turisti {ip:sono} più caotiche che rilassanti. {imv:Provate} Lucca: {ip:è} più piccola di Firenze e {ip:ha} mura antiche così larghe che sopra si {ip:va} a piedi o in bicicletta.",
+      "Oppure {imv:andate} a Certaldo, un paese medievale tra Firenze e Siena, dove {pp:ha vissuto} Giovanni Boccaccio. La parte più antica, Certaldo Alto, {ip:è} in cima a una collina, e ci si {ip:arriva} con la funicolare.",
+      "Insomma: le grandi città {ip:sono} meravigliose, ma i paesi piccoli {ip:sono} spesso la scoperta migliore del viaggio."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "D'estate i posti più famosi {ip:sono} anche i più cari.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Comacchio {ip:è} più grande di Venezia.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "A Comacchio i ristoranti {ip:sono} meno cari che a Venezia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Sulle mura di Lucca si {ip:può} andare in bicicletta.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Certaldo {ip:è} la città di Dante.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Dove {ip:andate}? Abbina ogni persona al posto giusto.",
+        "pairs": [
+          [
+            "«{ip:Amo} i canali e le barche, ma non la folla.»",
+            "Comacchio"
+          ],
+          [
+            "«{ip:Voglio} vedere un ponte molto originale.»",
+            "Comacchio"
+          ],
+          [
+            "«{cop:Vorrei} girare una città in bicicletta.»",
+            "Lucca"
+          ],
+          [
+            "«{ip:Cerco} una città toscana più tranquilla di Firenze.»",
+            "Lucca"
+          ],
+          [
+            "«Mi {ip:piacciono} i libri di Boccaccio.»",
+            "Certaldo"
+          ],
+          [
+            "«{ip:Cerco} un paese medievale su una collina.»",
+            "Certaldo"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *più*, *meno*, *di* o *che*.",
+        "questions": [
+          "Comacchio {ip:è} [[meno]] grande di Venezia.",
+          "Lucca {ip:è} più piccola [[di]] Firenze.",
+          "A Firenze ci {ip:sono} più turisti [[che]] a Lucca.",
+          "Per molti, Pisa {ip:è} più caotica [[che]] rilassante.",
+          "I paesi piccoli {ip:sono} spesso [[più]] autentici delle grandi città.",
+          "Il Trepponti {ip:è} il ponte [[più]] famoso di Comacchio."
         ]
       }
     ]

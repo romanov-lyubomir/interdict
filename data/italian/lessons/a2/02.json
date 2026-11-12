@@ -370,6 +370,7 @@
       {
         "type": "gap",
         "prompt": "Completa il dialogo con il [pp:passato prossimo] del verbo tra parentesi.",
+        "ordered": true,
         "questions": [
           "— Ciao Giulia, dove [[sei stata#pp]] ieri? (essere)",
           "— [[Sono andata#pp]] a Firenze con Sara. (andare)",
@@ -545,6 +546,7 @@
       {
         "type": "gap",
         "prompt": "Completa la scheda su Caravaggio con le informazioni del testo.",
+        "ordered": true,
         "questions": [
           "{pp:È nato}: nel [[1571]] a [[Milano]].",
           "{pp:Ha studiato} nella bottega di Simone [[Peterzano]].",

@@ -1,131 +1,249 @@
 {
-  "title": "Mio fratello e i miei cugini",
+  "title": "Ieri {pp:sono andata} al mare",
   "translation": "",
-  "topics": "Gli aggettivi possessivi con i nomi di parentela, la mia mamma e il mio papà, i participi nato, vissuto e morto, la famiglia",
+  "topics": "Il [pp:passato prossimo] con essere e avere, il participio passato, mai e la doppia negazione, ci per i luoghi",
   "grammar": {
     "explain": [
-      "Parlare della famiglia: il possessivo con i nomi di parentela e tre participi che servono per raccontare una vita.",
+      "Il [pp:passato prossimo] racconta che cosa è successo ed è finito. Ha due parti: *essere* o *avere* al presente e il participio passato del verbo.",
       {
         "grid": [
           {
+            "wide": true,
             "table": {
-              "title": "Gli aggettivi possessivi con i nomi di parentela al singolare",
+              "title": "Il [pp:passato prossimo] con *essere*",
               "groups": [
                 [
-                  "maschile singolare",
+                  "",
                   2
                 ],
                 [
-                  "femminile singolare",
+                  "torn**are**",
+                  2
+                ],
+                [
+                  "cad**ere**",
+                  2
+                ],
+                [
+                  "usc**ire**",
                   2
                 ]
               ],
               "rows": [
                 [
                   [
-                    "mio",
-                    "tuo",
-                    "suo",
-                    "nostro",
-                    "vostro"
+                    "io",
+                    "tu",
+                    "lui, lei, Lei"
                   ],
+                  [
+                    "{pp:sono}",
+                    "{pp:sei}",
+                    "{pp:è}"
+                  ],
+                  "{pp:torn**ato/a**}",
                   {
-                    "text": "cugino.",
+                    "text": "a casa.",
                     "rows": 2
                   },
-                  [
-                    "mia",
-                    "tua",
-                    "sua",
-                    "nostra",
-                    "vostra"
-                  ],
+                  "{pp:cad**uto/a**}",
                   {
-                    "text": "cugina.",
+                    "text": "dalla bici.",
+                    "rows": 2
+                  },
+                  "{pp:usc**ito/a**}",
+                  {
+                    "text": "con Marta.",
                     "rows": 2
                   }
                 ],
                 [
-                  "**il** loro",
+                  [
+                    "noi",
+                    "voi",
+                    "loro"
+                  ],
+                  [
+                    "{pp:siamo}",
+                    "{pp:siete}",
+                    "{pp:sono}"
+                  ],
+                  "{pp:torn**ati/e**}",
                   null,
-                  "**la** loro",
+                  "{pp:cad**uti/e**}",
+                  null,
+                  "{pp:usc**iti/e**}",
                   null
                 ]
               ]
             },
-            "note": "Con un parente al singolare il possessivo non ha l'articolo: *mio cugino, sua sorella, nostro padre*. Solo *loro* lo tiene: *il loro cugino*."
+            "note": [
+              "Con *essere* il participio si accorda con il soggetto, come un aggettivo: *Marco {pp:è tornato}, Anna {pp:è tornata}, Marco e Anna {pp:sono tornati}, Anna e Sofia {pp:sono tornate}*.",
+              "Prendono *essere* quasi tutti i verbi di movimento o di cambiamento (*andare, venire, arrivare, partire, tornare, uscire, cadere, nascere*), poi *essere*, *stare*, *rimanere* e *piacere*, e tutti i verbi riflessivi: *mi {pp:sono alzato}*."
+            ]
           },
           {
+            "wide": true,
             "table": {
-              "rows": [
-                [
-                  "**N.B.**: con *mamma* e *papà* l'aggettivo possessivo {ip:è} preceduto dall'articolo: *la mia mamma / il mio papà*."
-                ]
-              ]
-            },
-            "note": "*Mamma* e *papà* sono le parole affettuose, e per questo si comportano come nomi normali. *Madre* e *padre* seguono la regola: *mia madre, mio padre*."
-          },
-          {
-            "table": {
-              "title": "Gli aggettivi possessivi con i nomi di parentela al plurale",
+              "title": "Il [pp:passato prossimo] con *avere*",
               "groups": [
                 [
-                  "maschile plurale",
+                  "",
                   2
                 ],
                 [
-                  "femminile plurale",
+                  "mangi**are**",
+                  2
+                ],
+                [
+                  "vend**ere**",
+                  2
+                ],
+                [
+                  "fin**ire**",
                   2
                 ]
               ],
               "rows": [
                 [
                   [
-                    "**i** miei",
-                    "**i** tuoi",
-                    "**i** suoi",
-                    "**i** nostri",
-                    "**i** vostri",
-                    "**i** loro"
+                    "io",
+                    "tu",
+                    "lui, lei, Lei",
+                    "noi",
+                    "voi",
+                    "loro"
                   ],
-                  "cugini.",
                   [
-                    "**le** mie",
-                    "**le** tue",
-                    "**le** sue",
-                    "**le** nostre",
-                    "**le** vostre",
-                    "**le** loro"
+                    "{pp:ho}",
+                    "{pp:hai}",
+                    "{pp:ha}",
+                    "{pp:abbiamo}",
+                    "{pp:avete}",
+                    "{pp:hanno}"
                   ],
-                  "cugine."
+                  "{pp:mangi**ato**}",
+                  "una pizza.",
+                  "{pp:vend**uto**}",
+                  "la macchina.",
+                  "{pp:fin**ito**}",
+                  "il lavoro."
                 ]
               ]
             },
-            "note": "Al plurale l'articolo torna: *i miei cugini, le mie cugine*."
+            "note": "Con *avere* il participio non cambia: *Anna {pp:ha mangiato}*. Prendono *avere* quasi tutti gli altri verbi, e tutti quelli che possono avere un oggetto."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il participio passato",
+              "rows": [
+                [
+                  "infinito",
+                  "mangi**are**",
+                  "vend**ere**",
+                  "fin**ire**"
+                ],
+                [
+                  "participio passato",
+                  "mangi**ato**",
+                  "vend**uto**",
+                  "fin**ito**"
+                ]
+              ]
+            },
+            "note": "**-are** → **-ato**, **-ere** → **-uto**, **-ire** → **-ito**."
           },
           {
             "table": {
-              "title": "Alcuni participi passati irregolari",
-              "head": [
-                "infinito",
-                "participio passato"
-              ],
+              "title": "L'uso di *mai* e la doppia negazione",
               "rows": [
                 [
+                  [
+                    "{ip:Mangi} **mai** il pesce?",
+                    "No, **non** lo {ip:mangio} **mai**."
+                  ]
+                ],
+                [
+                  [
+                    "{pp:Sei} **mai** {pp:stato} a Venezia?",
+                    "No, **non** ci {pp:sono} **mai** {pp:stato}."
+                  ]
+                ]
+              ]
+            },
+            "note": "Nelle domande *mai* vuol dire «qualche volta nella vita». Nella risposta servono tutti e due, *non* e *mai*. Nel [pp:passato prossimo] *mai* va tra *essere* o *avere* e il participio."
+          },
+          {
+            "table": {
+              "title": "L'uso di *ci* (particella di luogo)",
+              "rows": [
+                [
+                  [
+                    "{ip:Vai} mai **a Venezia**?",
+                    "No, non **ci** {ip:vado} mai."
+                  ]
+                ],
+                [
+                  [
+                    "{pp:Sei} mai {pp:stato} **a Napoli**?",
+                    "No, non **ci** {pp:sono} mai {pp:stato}."
+                  ]
+                ]
+              ]
+            },
+            "note": "*Ci* sostituisce un luogo già detto, come *a Venezia* o *in Italia*. Va prima del verbo."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Alcuni participi passati irregolari",
+              "rows": [
+                [
+                  "aprire",
+                  "{pp:aperto}",
+                  "mettere",
+                  "{pp:messo}"
+                ],
+                [
+                  "bere",
+                  "{pp:bevuto}",
                   "nascere*",
                   "{pp:nato}"
                 ],
                 [
-                  "vivere",
-                  "{pp:vissuto}"
+                  "chiudere",
+                  "{pp:chiuso}",
+                  "prendere",
+                  "{pp:preso}"
                 ],
                 [
-                  "morire*",
-                  "{pp:morto}"
+                  "dire",
+                  "{pp:detto}",
+                  "rimanere*",
+                  "{pp:rimasto}"
+                ],
+                [
+                  "essere*",
+                  "{pp:stato}",
+                  "scrivere",
+                  "{pp:scritto}"
+                ],
+                [
+                  "fare",
+                  "{pp:fatto}",
+                  "vedere",
+                  "{pp:visto}"
+                ],
+                [
+                  "leggere",
+                  "{pp:letto}",
+                  "venire*",
+                  "{pp:venuto}"
                 ]
               ]
             },
-            "note": "*Nascere* e *morire* prendono *essere*: *{pp:è nata}, {pp:è morto}*. *Vivere* può prendere *avere* o *essere*: *{pp:ho vissuto}* oppure *{pp:sono vissuto} a Roma*."
+            "note": "Molti verbi comuni, quasi tutti in *-ere*, hanno un participio irregolare. Quelli con * prendono *essere*."
           }
         ]
       }
@@ -135,74 +253,86 @@
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Con l'articolo o senza?",
+        "prompt": "Essere o avere?",
         "questions": [
           {
-            "q": "___ fratello {ip:si chiama} Luca.",
+            "q": "Ieri ___ andato al mare.",
             "options": [
-              "*Mio",
-              "Il mio"
+              "*sono",
+              "ho"
             ]
           },
           {
-            "q": "___ sorelle {ip:abitano} a Roma.",
+            "q": "Marta ___ mangiato una pizza.",
             "options": [
-              "*Le mie",
-              "Mie"
+              "è",
+              "*ha"
             ]
           },
           {
-            "q": "___ mamma {ip:è} insegnante.",
+            "q": "Noi ___ partiti presto.",
             "options": [
-              "*La mia",
-              "Mia"
+              "*siamo",
+              "abbiamo"
             ]
           },
           {
-            "q": "___ cugino {ip:è} simpatico. (loro)",
+            "q": "Tu ___ letto il libro?",
             "options": [
-              "*Il loro",
-              "Loro"
+              "sei",
+              "*hai"
             ]
           },
           {
-            "q": "___ padre {ip:lavora} in banca.",
+            "q": "Loro ___ arrivati tardi.",
             "options": [
-              "*Mio",
-              "Il mio"
+              "*sono",
+              "hanno"
             ]
           },
           {
-            "q": "___ nonni {ip:sono} molto vecchi.",
+            "q": "Voi ___ visto il film?",
             "options": [
-              "*I miei",
-              "Miei"
+              "siete",
+              "*avete"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi il possessivo, con l'articolo solo quando serve.",
+        "prompt": "Scrivi il participio. Con essere si accorda con il soggetto.",
         "questions": [
-          "(io) [[Mio]] padre {ip:si chiama} Marco.",
-          "(tu) [[Tua]] sorella {ip:è} simpatica.",
-          "(lui) [[Sua]] moglie {ip:lavora} a Milano.",
-          "(noi) [[I nostri]] figli {ip:studiano} a Bologna.",
-          "(voi) [[Vostra]] zia {ip:abita} qui?",
-          "(loro) [[Il loro]] nonno {ip:ha} novant'anni.",
-          "(io) [[Il mio]] papà {ip:cucina} bene."
+          "Anna {pp:è} [[tornata#pp]] a casa. (tornare)",
+          "Marco e Luca {pp:sono} [[usciti#pp]]. (uscire)",
+          "Le ragazze {pp:sono} [[arrivate#pp]] ieri. (arrivare)",
+          "Paolo {pp:è} [[caduto#pp]] dalla bici. (cadere)",
+          "Giulia {pp:è} [[partita#pp]] per Roma. (partire)",
+          "Sara e Anna {pp:sono} [[andate#pp]] al mare. (andare)"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi il participio di nascere, vivere o morire.",
+        "prompt": "Scrivi il participio. Alcuni sono irregolari.",
         "questions": [
-          "Mia nonna {pp:è} [[nata#pp]] a Napoli. (nascere)",
-          "{pp:Ho} [[vissuto#pp]] a Roma per due anni. (vivere)",
-          "Il nonno di Luca {pp:è} [[morto#pp]] l'anno scorso. (morire)",
-          "I miei genitori {pp:sono} [[nati#pp]] a Torino. (nascere)",
-          "Mia zia {pp:ha} [[vissuto#pp]] in Francia. (vivere)"
+          "{pp:Ho} [[mangiato#pp]] una pizza. (mangiare)",
+          "{pp:Hai} [[venduto#pp]] la macchina? (vendere)",
+          "{pp:Abbiamo} [[finito#pp]] il lavoro. (finire)",
+          "{pp:Ho} [[fatto#pp]] colazione. (fare)",
+          "{pp:Avete} [[visto#pp]] il film? (vedere)",
+          "Lei {pp:ha} [[scritto#pp]] una lettera. (scrivere)",
+          "{pp:Hanno} [[preso#pp]] il treno. (prendere)",
+          "{pp:Ho} [[letto#pp]] il giornale. (leggere)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi mai o ci.",
+        "questions": [
+          "{pp:Sei} [[mai]] {pp:stato} a Roma?",
+          "No, non [[ci]] {pp:sono} mai {pp:stato}.",
+          "{ip:Vai} spesso a Milano? No, non ci {ip:vado} [[mai]].",
+          "{ip:Andate} al mare? Sì, [[ci]] {ip:andiamo} domani."
         ]
       }
     ]
@@ -210,88 +340,80 @@
   "vocabulary": {
     "words": [
       [
-        "il padre",
-        "l'uomo che ti ha avuto come figlio"
+        "ieri",
+        "il giorno prima di oggi"
       ],
       [
-        "la madre",
-        "la donna che ti ha avuto come figlio"
+        "la settimana scorsa",
+        "la settimana prima di questa"
       ],
       [
-        "il papà",
-        "parola affettuosa per il padre"
+        "l'anno scorso",
+        "l'anno prima di questo"
       ],
       [
-        "la mamma",
-        "parola affettuosa per la madre"
+        "due giorni fa",
+        "il giorno prima di ieri"
       ],
       [
-        "i genitori",
-        "il padre e la madre"
+        "la vacanza",
+        "i giorni senza lavoro, per riposarsi o viaggiare"
       ],
       [
-        "il fratello",
-        "il figlio dei tuoi genitori"
+        "il viaggio",
+        "quando vai in un posto lontano"
       ],
       [
-        "la sorella",
-        "la figlia dei tuoi genitori"
+        "il mare",
+        "acqua salata, ci fai il bagno d'estate"
       ],
       [
-        "il figlio",
-        "il bambino maschio di una coppia"
+        "la montagna",
+        "un posto alto, ci vai a sciare"
       ],
       [
-        "la figlia",
-        "la bambina femmina di una coppia"
+        "la macchina",
+        "ha quattro ruote, la guidi"
       ],
       [
-        "il marito",
-        "l'uomo sposato con una donna"
+        "la bici",
+        "ha due ruote, vai con le gambe"
       ],
       [
-        "la moglie",
-        "la donna sposata con un uomo"
+        "arrivare",
+        "il contrario di partire"
       ],
       [
-        "il nonno",
-        "il padre di tuo padre o di tua madre"
+        "tornare",
+        "andare di nuovo dove eri prima"
       ],
       [
-        "la nonna",
-        "la madre di tuo padre o di tua madre"
+        "cadere",
+        "andare giù per terra"
       ],
       [
-        "lo zio",
-        "il fratello di tuo padre o di tua madre"
+        "vendere",
+        "il contrario di comprare"
       ],
       [
-        "la zia",
-        "la sorella di tuo padre o di tua madre"
+        "visitare",
+        "andare a vedere un posto"
       ],
       [
-        "il cugino",
-        "il figlio di tuo zio"
-      ],
-      [
-        "la cugina",
-        "la figlia di tuo zio"
-      ],
-      [
-        "sposato",
-        "ha un marito o una moglie"
+        "rimanere",
+        "non andare via, restare"
       ],
       [
         "nascere",
         "venire al mondo"
       ],
       [
-        "vivere",
-        "essere vivo, abitare in un posto"
+        "stanco",
+        "hai bisogno di riposare"
       ],
       [
-        "morire",
-        "il contrario di nascere"
+        "contento",
+        "felice"
       ]
     ],
     "exercises": [
@@ -300,28 +422,28 @@
         "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "i genitori",
-            "il padre e la madre"
+            "ieri",
+            "il giorno prima di oggi"
           ],
           [
-            "la moglie",
-            "la donna sposata con un uomo"
+            "la settimana scorsa",
+            "la settimana prima di questa"
           ],
           [
-            "il marito",
-            "l'uomo sposato con una donna"
+            "il viaggio",
+            "quando vai in un posto lontano"
           ],
           [
-            "lo zio",
-            "il fratello di tuo padre o di tua madre"
+            "cadere",
+            "andare giù per terra"
           ],
           [
-            "la cugina",
-            "la figlia di tuo zio"
+            "vendere",
+            "il contrario di comprare"
           ],
           [
-            "la figlia",
-            "la bambina femmina di una coppia"
+            "stanco",
+            "hai bisogno di riposare"
           ]
         ]
       },
@@ -329,20 +451,20 @@
         "type": "gap",
         "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Il padre di mio padre {ip:è} mio [[nonno]].",
-          "La sorella di mia madre {ip:è} mia [[zia]].",
-          "Il figlio di mio zio {ip:è} mio [[cugino]].",
-          "Mio fratello {ip:ha} una moglie: {ip:è} [[sposato]].",
-          "Mio padre e mia madre: i miei [[genitori]]."
+          "D'estate {ip:andiamo} al [[mare]] a fare il bagno.",
+          "L'[[anno]] scorso {pp:sono andato} in Spagna.",
+          "{pp:Siamo arrivati} due giorni [[fa]].",
+          "Domani {ip:torno} al lavoro: la [[vacanza]] {pp:è finita}.",
+          "{pp:Ho camminato} tutto il giorno: {ip:sono} [[stanca]] ma contenta."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "{ip:Mi chiamo} Elena e {pp:sono nata} a Bologna. Mio padre {ip:è} italiano e mia madre {ip:è} spagnola.",
-      "{ip:Ho} un fratello, Davide, e una sorella, Marta. Mio fratello {ip:è} sposato e sua moglie {ip:si chiama} Giulia. Loro {ip:hanno} due bambini.",
-      "I miei nonni {pp:sono vissuti} a Roma tutta la vita. Il nonno {pp:è morto} due anni fa, ma la nonna {ip:sta} bene. La domenica {ip:mangiamo} tutti insieme e la mia mamma {ip:cucina} per tutti!"
+      "La settimana scorsa Luca e io {pp:siamo andati} in vacanza a Napoli. {pp:Siamo partiti} venerdì mattina e {pp:abbiamo preso} il treno: ci {pp:abbiamo messo} cinque ore.",
+      "A Napoli {pp:abbiamo visitato} il centro e {pp:abbiamo mangiato} una pizza buonissima. Luca {pp:ha comprato} un regalo per Anna.",
+      "Sabato {pp:siamo stati} al mare tutto il giorno. Domenica sera {pp:siamo tornati} a casa stanchi ma contenti. Non {pp:sono} mai {pp:stata} così felice!"
     ],
     "exercises": [
       {
@@ -350,38 +472,38 @@
         "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Elena {pp:è nata} a Bologna.",
+            "q": "La settimana scorsa {pp:sono andati} a Napoli.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "La madre di Elena {ip:è} italiana.",
+            "q": "{pp:Sono andati} in macchina.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "Il fratello di Elena {ip:è} sposato.",
+            "q": "Ci {pp:hanno messo} cinque ore.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "I nonni di Elena {pp:sono vissuti} a Roma tutta la vita.",
-            "options": [
-              "*Vero",
-              "Falso"
-            ]
-          },
-          {
-            "q": "La nonna di Elena {pp:è morta} due anni fa.",
+            "q": "Sabato {pp:hanno visitato} il centro.",
             "options": [
               "Vero",
               "*Falso"
+            ]
+          },
+          {
+            "q": "{pp:Sono tornati} a casa domenica sera.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
@@ -391,28 +513,28 @@
   "listening": {
     "transcript": [
       [
-        "Sara",
-        "Chi {ip:è} questo ragazzo?"
+        "Marco",
+        "Ciao, Giulia! Che cosa {pp:hai fatto} questo fine settimana?"
       ],
       [
-        "Luca",
-        "{ip:È} mio cugino Marco. {pp:È nato} in America e {pp:ha vissuto} a New York."
+        "Giulia",
+        "{pp:Sono andata} in montagna con Paolo. E tu?"
       ],
       [
-        "Sara",
-        "E questa signora?"
+        "Marco",
+        "Io {pp:sono rimasto} a casa. {pp:Ho letto} un libro e {pp:ho dormito} molto."
       ],
       [
-        "Luca",
-        "{ip:È} mia zia, la mamma di Marco."
+        "Giulia",
+        "{pp:Sei} mai {pp:stato} in Trentino?"
       ],
       [
-        "Sara",
-        "E i tuoi genitori dove {ip:sono}?"
+        "Marco",
+        "No, non ci {pp:sono} mai {pp:stato}."
       ],
       [
-        "Luca",
-        "Ecco i miei genitori, accanto ai miei nonni."
+        "Giulia",
+        "Ci {ip:devi} andare, {ip:è} bellissimo!"
       ]
     ],
     "exercises": [
@@ -420,10 +542,10 @@
         "type": "gap",
         "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:È} [[mio]] cugino Marco.",
-          "[[È nato#pp]] in America e [[ha vissuto#pp]] a New York.",
-          "{ip:È} [[mia]] zia, la mamma di Marco.",
-          "Ecco [[i miei]] genitori."
+          "[[Sono andata#pp]] in montagna con Paolo.",
+          "Io [[sono rimasto#pp]] a casa.",
+          "[[Ho letto#pp]] un libro e [[ho dormito#pp]] molto.",
+          "No, non [[ci]] {pp:sono} [[mai]] {pp:stato}."
         ]
       },
       {
@@ -431,11 +553,11 @@
         "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Chi {ip:è} la signora?",
+            "q": "Che cosa {pp:ha fatto} Marco nel fine settimana?",
             "options": [
-              "*la zia di Luca",
-              "la mamma di Luca",
-              "la nonna di Luca"
+              "*È rimasto a casa e ha letto.",
+              "È andato in montagna.",
+              "Ha visitato il Trentino."
             ]
           }
         ]
@@ -446,57 +568,54 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Scrivi la frase in italiano.",
+        "prompt": "Scrivi la frase al [pp:passato prossimo].",
         "questions": [
           {
-            "q": "Come si {ip:chiama} tuo fratello? (Paolo)",
+            "q": "Oggi {ip:mangio} una pizza. → Ieri…",
             "a": [
-              "Mio fratello si chiama Paolo.",
-              "Si chiama Paolo."
+              "Ieri ho mangiato una pizza.",
+              "Ho mangiato una pizza ieri."
             ]
           },
           {
-            "q": "Dove {ip:abitano} le tue sorelle? (a Roma)",
+            "q": "Anna {ip:va} a Roma. → Ieri…",
             "a": [
-              "Le mie sorelle abitano a Roma.",
-              "Le mie sorelle vivono a Roma.",
-              "Abitano a Roma."
+              "Ieri Anna è andata a Roma.",
+              "Anna è andata a Roma ieri.",
+              "Anna è andata a Roma."
             ]
           },
           {
-            "q": "Com'{ip:è} il cugino di Luca e Anna? (loro, simpatico)",
+            "q": "Noi (Marco e Luca) {ip:partiamo} presto.",
             "a": [
-              "Il loro cugino è simpatico."
+              "Siamo partiti presto.",
+              "Noi siamo partiti presto."
             ]
           },
           {
-            "q": "Come {ip:cucina} la tua mamma? (bene)",
+            "q": "{ip:Chiedi} a un ragazzo se una volta nella vita {ip:è} andato a Venezia.",
             "a": [
-              "La mia mamma cucina bene.",
-              "Mia mamma cucina bene."
+              "Sei mai stato a Venezia?"
             ]
           },
           {
-            "q": "Dove {pp:sei nata}? (Torino)",
+            "q": "Lui {ip:risponde}: no, nessuna volta.",
             "a": [
-              "Sono nata a Torino.",
-              "Io sono nata a Torino."
+              "No, non ci sono mai stato."
             ]
           },
           {
-            "q": "Il tuo nonno non {ip:c'è} più: {pp:è}… (l'anno scorso)",
+            "q": "Loro {ip:vedono} un film.",
             "a": [
-              "Mio nonno è morto l'anno scorso.",
-              "Il mio nonno è morto l'anno scorso.",
-              "È morto l'anno scorso."
+              "Hanno visto un film.",
+              "Loro hanno visto un film."
             ]
           },
           {
-            "q": "Dove {pp:avete vissuto} tu e la tua famiglia? (in Francia)",
+            "q": "Io {ip:leggo} il giornale.",
             "a": [
-              "Abbiamo vissuto in Francia.",
-              "Noi abbiamo vissuto in Francia.",
-              "Siamo vissuti in Francia."
+              "Ho letto il giornale.",
+              "Io ho letto il giornale."
             ]
           }
         ]

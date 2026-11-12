@@ -1,232 +1,322 @@
 {
-  "title": "La mattina {ip:mi sveglio} alle sette",
+  "title": "Questo {ip:è} il mio quaderno",
   "translation": "",
-  "topics": "I verbi in -are, -ere e -ire, i verbi irregolari fare e andare, i verbi riflessivi",
+  "topics": "L'articolo determinativo, il plurale dei nomi, c'è e ci sono, gli aggettivi possessivi, i verbi in -are",
   "grammar": {
     "explain": [
-      "I verbi italiani si dividono in tre gruppi secondo la finale dell'infinito: *-are*, *-ere* e *-ire*. Alcuni verbi molto comuni, come *fare* e *andare*, non seguono nessun gruppo.",
+      "*Il, lo, la* e i loro plurali sono gli articoli determinativi. Quale usare dipende dal genere, dal numero e dalla prima lettera della parola che segue.",
       {
         "grid": [
           {
+            "wide": true,
             "table": {
-              "title": "I verbi irregolari",
+              "title": "L'articolo determinativo",
               "groups": [
                 [
                   "",
                   1
                 ],
                 [
-                  "*fare*",
-                  2
+                  "maschile",
+                  3
                 ],
                 [
-                  "*andare*",
+                  "femminile",
                   2
                 ]
               ],
               "rows": [
                 [
-                  "io",
-                  "{ip:faccio}",
-                  {
-                    "text": "un caffè.",
-                    "rows": 6
-                  },
-                  "{ip:vado}",
-                  {
-                    "text": "a casa.",
-                    "rows": 6
-                  }
+                  "singolare",
+                  [
+                    "**il**",
+                    "il tavolo",
+                    "il quaderno",
+                    "il giornale"
+                  ],
+                  [
+                    "**l'**",
+                    "l'ombrello",
+                    "l'amico",
+                    "l'orologio"
+                  ],
+                  [
+                    "**lo**",
+                    "lo zaino",
+                    "lo studente",
+                    "lo specchio"
+                  ],
+                  [
+                    "**la**",
+                    "la sedia",
+                    "la borsa",
+                    "la finestra"
+                  ],
+                  [
+                    "**l'**",
+                    "l'aula",
+                    "l'insegnante"
+                  ]
                 ],
                 [
-                  "tu",
-                  "{ip:fai}",
-                  null,
-                  "{ip:vai}",
-                  null
-                ],
-                [
-                  "lui, lei, Lei",
-                  "{ip:fa}",
-                  null,
-                  "{ip:va}",
-                  null
-                ],
-                [
-                  "noi",
-                  "{ip:facciamo}",
-                  null,
-                  "{ip:andiamo}",
-                  null
-                ],
-                [
-                  "voi",
-                  "{ip:fate}",
-                  null,
-                  "{ip:andate}",
-                  null
-                ],
-                [
-                  "loro",
-                  "{ip:fanno}",
-                  null,
-                  "{ip:vanno}",
-                  null
+                  "plurale",
+                  [
+                    "**i**",
+                    "i tavoli",
+                    "i quaderni",
+                    "i giornali"
+                  ],
+                  [
+                    "**gli**",
+                    "gli ombrelli",
+                    "gli amici",
+                    "gli orologi"
+                  ],
+                  [
+                    "**gli**",
+                    "gli zaini",
+                    "gli studenti",
+                    "gli specchi"
+                  ],
+                  [
+                    "**le**",
+                    "le sedie",
+                    "le borse",
+                    "le finestre"
+                  ],
+                  [
+                    "**le**",
+                    "le aule",
+                    "le insegnanti"
+                  ]
                 ]
               ]
             },
-            "note": "*Fare* e *andare* si imparano a memoria. Davanti a una città o a *casa*, *andare* prende *a*: *vado a Roma, vado a casa*."
+            "note": [
+              "**il** → **i**: parole maschili che cominciano con una consonante.",
+              "**lo** → **gli**: parole maschili che cominciano con *s* + consonante, *z*, *ps* o *gn*, le stesse che prendono *uno*.",
+              "**l'** → **gli**: parole maschili che cominciano con una vocale.",
+              "**la** → **le**: parole femminili che cominciano con una consonante.",
+              "**l'** → **le**: parole femminili che cominciano con una vocale."
+            ]
           },
           {
             "table": {
-              "title": "I verbi riflessivi",
-              "groups": [
-                [
-                  "",
-                  1
-                ],
-                [
-                  "*svegliarsi*",
-                  3
-                ]
+              "title": "Il nome plurale",
+              "head": [
+                "",
+                "singolare",
+                "plurale"
               ],
               "rows": [
                 [
-                  "io",
-                  "mi",
-                  "{ip:svegli**o**}",
                   {
-                    "text": "alle 7.30.",
-                    "rows": 6
-                  }
+                    "text": "maschile",
+                    "rows": 2
+                  },
+                  "il tavol**o**",
+                  "i tavol**i**"
                 ],
                 [
-                  "tu",
-                  "ti",
-                  "{ip:svegl**i**}",
-                  null
+                  null,
+                  "il giornal**e**",
+                  "i giornal**i**"
                 ],
                 [
-                  "lui, lei, Lei",
-                  "si",
-                  "{ip:svegli**a**}",
-                  null
+                  {
+                    "text": "femminile",
+                    "rows": 2
+                  },
+                  "la sedi**a**",
+                  "le sedi**e**"
                 ],
                 [
-                  "noi",
-                  "ci",
-                  "{ip:svegl**iamo**}",
-                  null
-                ],
-                [
-                  "voi",
-                  "vi",
-                  "{ip:svegli**ate**}",
-                  null
-                ],
-                [
-                  "loro",
-                  "si",
-                  "{ip:svegli**ano**}",
-                  null
+                  null,
+                  "la lezion**e**",
+                  "le lezion**i**"
                 ]
               ]
             },
-            "note": "Il verbo si coniuga come sempre, con *mi, ti, si, ci, vi, si* davanti. Molte azioni di ogni giorno funzionano così: *svegliarsi, alzarsi, lavarsi*."
+            "note": [
+              "**-o** diventa **-i**, **-a** diventa **-e**, **-e** diventa **-i** per tutti e due i generi.",
+              "Le parole che finiscono con una vocale accentata non cambiano: *la città, le città*."
+            ]
+          },
+          {
+            "table": {
+              "title": "C'è / ci sono",
+              "rows": [
+                [
+                  "In cucina **{ip:c'è}** il tavolo."
+                ],
+                [
+                  "In aula **{ip:ci sono}** le sedie."
+                ]
+              ]
+            },
+            "note": "*C'è* va con una cosa sola, *ci sono* con più di una."
           },
           {
             "wide": true,
             "table": {
-              "title": "Le tre coniugazioni (verbi in *-are*, *-ere*, *-ire*)",
+              "title": "Gli aggettivi possessivi",
+              "groups": [
+                [
+                  "singolare",
+                  2
+                ],
+                [
+                  "plurale",
+                  2
+                ]
+              ],
+              "head": [
+                "maschile",
+                "femminile",
+                "maschile",
+                "femminile"
+              ],
+              "rows": [
+                [
+                  "Questo {ip:è} il **mio** zaino.",
+                  "Questa {ip:è} la **mia** borsa.",
+                  "Questi {ip:sono} i **miei** quaderni.",
+                  "Queste {ip:sono} le **mie** penne."
+                ],
+                [
+                  "Questo {ip:è} il **tuo** zaino.",
+                  "Questa {ip:è} la **tua** borsa.",
+                  "Questi {ip:sono} i **tuoi** quaderni.",
+                  "Queste {ip:sono} le **tue** penne."
+                ],
+                [
+                  "Questo {ip:è} il **suo** zaino.",
+                  "Questa {ip:è} la **sua** borsa.",
+                  "Questi {ip:sono} i **suoi** quaderni.",
+                  "Queste {ip:sono} le **sue** penne."
+                ],
+                [
+                  "Questo {ip:è} il **nostro** zaino.",
+                  "Questa {ip:è} la **nostra** borsa.",
+                  "Questi {ip:sono} i **nostri** quaderni.",
+                  "Queste {ip:sono} le **nostre** penne."
+                ],
+                [
+                  "Questo {ip:è} il **vostro** zaino.",
+                  "Questa {ip:è} la **vostra** borsa.",
+                  "Questi {ip:sono} i **vostri** quaderni.",
+                  "Queste {ip:sono} le **vostre** penne."
+                ],
+                [
+                  "Questo {ip:è} il **loro** zaino.",
+                  "Questa {ip:è} la **loro** borsa.",
+                  "Questi {ip:sono} i **loro** quaderni.",
+                  "Queste {ip:sono} le **loro** penne."
+                ]
+              ]
+            },
+            "note": [
+              "Le righe vanno da *io* (*mio*) a *loro* (*loro*). *Suo* è di lui o di lei, e anche la forma di cortesia (*Lei*).",
+              "Il possessivo si accorda con la cosa, non con chi la possiede: Marco e Giulia dicono tutti e due *la mia borsa*.",
+              "Va con l'articolo: *il mio zaino, la tua borsa*. *Loro* non cambia mai.",
+              "*Questo* e *questa* indicano una cosa sola, *questi* e *queste* più di una."
+            ]
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La prima coniugazione (verbi in *-are*)",
               "groups": [
                 [
                   "",
                   1
                 ],
                 [
-                  "guard**are**",
+                  "lavor**are**",
                   2
                 ],
                 [
-                  "legg**ere**",
+                  "studi**are**",
                   2
                 ],
                 [
-                  "part**ire**",
+                  "chiam**arsi**",
                   2
                 ]
               ],
               "rows": [
                 [
                   "io",
-                  "{ip:guard**o**}",
+                  "{ip:lavor**o**}",
                   {
-                    "text": "la televisione.",
+                    "text": "in un ristorante.",
                     "rows": 6
                   },
-                  "{ip:legg**o**}",
+                  "{ip:studi**o**}",
                   {
-                    "text": "un libro.",
+                    "text": "storia.",
                     "rows": 6
                   },
-                  "{ip:part**o**}",
+                  "{ip:mi chiam**o**}",
                   {
-                    "text": "domani.",
-                    "rows": 6
+                    "text": "Giulia.",
+                    "rows": 3
                   }
                 ],
                 [
                   "tu",
-                  "{ip:guard**i**}",
+                  "{ip:lavor**i**}",
                   null,
-                  "{ip:legg**i**}",
+                  "{ip:stud**i**}",
                   null,
-                  "{ip:part**i**}",
+                  "{ip:ti chiam**i**}",
                   null
                 ],
                 [
                   "lui, lei, Lei",
-                  "{ip:guard**a**}",
+                  "{ip:lavor**a**}",
                   null,
-                  "{ip:legg**e**}",
+                  "{ip:studi**a**}",
                   null,
-                  "{ip:part**e**}",
+                  "{ip:si chiam**a**}",
                   null
                 ],
                 [
                   "noi",
-                  "{ip:guard**iamo**}",
+                  "{ip:lavor**iamo**}",
                   null,
-                  "{ip:legg**iamo**}",
+                  "{ip:stud**iamo**}",
                   null,
-                  "{ip:part**iamo**}",
-                  null
+                  "{ip:ci chiam**iamo**}",
+                  {
+                    "text": "Giulia e Paolo.",
+                    "rows": 3
+                  }
                 ],
                 [
                   "voi",
-                  "{ip:guard**ate**}",
+                  "{ip:lavor**ate**}",
                   null,
-                  "{ip:legg**ete**}",
+                  "{ip:studi**ate**}",
                   null,
-                  "{ip:part**ite**}",
+                  "{ip:vi chiam**ate**}",
                   null
                 ],
                 [
                   "loro",
-                  "{ip:guard**ano**}",
+                  "{ip:lavor**ano**}",
                   null,
-                  "{ip:legg**ono**}",
+                  "{ip:studi**ano**}",
                   null,
-                  "{ip:part**ono**}",
+                  "{ip:si chiam**ano**}",
                   null
                 ]
               ]
             },
             "note": [
-              "Si toglie *-are*, *-ere* o *-ire* e si aggiungono le finali del gruppo.",
-              "*-ere* e *-ire* hanno le stesse finali tranne con *voi*: *leggete* ma *partite*.",
-              "Alcuni verbi in *-ire*, come *finire* e *capire*, aggiungono **-isc-** tranne con *noi* e *voi*: *fin**isc**o, fin**isc**i, fin**isc**e, finiamo, finite, fin**isc**ono*.",
-              "La grafia resta regolare, ma il suono può cambiare: la *g* di *leggo* è dura, quella di *leggi* è morbida."
+              "Si toglie *-are* e si aggiunge **-o, -i, -a, -iamo, -ate, -ano**.",
+              "I verbi in *-iare* come *studiare* non raddoppiano la *i*: *tu studi, noi studiamo*.",
+              "Nei verbi come *chiamarsi*, *mi, ti, si, ci, vi, si* vanno prima del verbo: *mi chiamo Giulia*."
             ]
           }
         ]
@@ -237,74 +327,90 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Scrivi la forma giusta del verbo.",
+        "prompt": "Scrivi l'articolo determinativo: il, lo, l', la, i, gli o le.",
         "questions": [
-          "Io [[leggo#ip]] un giornale. (leggere)",
-          "Tu [[scrivi#ip]] una lettera? (scrivere)",
-          "Lui [[dorme#ip]] poco. (dormire)",
-          "Noi [[guardiamo#ip]] la televisione. (guardare)",
-          "Voi [[partite#ip]] domani? (partire)",
-          "Loro [[prendono#ip]] il treno. (prendere)",
-          "Voi [[leggete#ip]] molto. (leggere)",
-          "Io [[finisco#ip]] alle sei. (finire)"
+          "[[il]] tavolo",
+          "[[lo]] specchio",
+          "[[l']]orologio",
+          "[[la]] finestra",
+          "[[l']]aula",
+          "[[i]] telefoni",
+          "[[gli]] zaini",
+          "[[gli]] amici",
+          "[[le]] sedie",
+          "[[le]] aule"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi la forma giusta di fare o andare.",
+        "prompt": "Scrivi il plurale.",
         "questions": [
-          "Io [[faccio#ip]] colazione. (fare)",
-          "Tu [[vai#ip]] a casa? (andare)",
-          "Lei [[fa#ip]] un caffè. (fare)",
-          "Noi [[andiamo#ip]] a Roma. (andare)",
-          "Voi [[fate#ip]] una pausa? (fare)",
-          "Loro [[vanno#ip]] a scuola. (andare)"
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi il verbo riflessivo con il suo pronome.",
-        "questions": [
-          "Io [[mi sveglio#ip]] alle sette. (svegliarsi)",
-          "Tu [[ti alzi#ip]] presto? (alzarsi)",
-          "Lui [[si chiama#ip]] Marco. (chiamarsi)",
-          "Noi [[ci alziamo#ip]] alle otto. (alzarsi)",
-          "Voi [[vi svegliate#ip]] tardi? (svegliarsi)",
-          "Loro [[si riposano#ip]] la domenica. (riposarsi)"
+          "il libro → i [[libri]]",
+          "la finestra → le [[finestre]]",
+          "il giornale → i [[giornali]]",
+          "la lezione → le [[lezioni]]",
+          "lo studente → gli [[studenti]]",
+          "la città → le [[città]]"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Scegli la forma giusta.",
+        "prompt": "C'è o ci sono?",
         "questions": [
           {
-            "q": "voi … (dormire)",
+            "q": "In aula ___ una lavagna.",
             "options": [
-              "*dormite",
-              "dormete"
+              "*c'è",
+              "ci sono"
             ]
           },
           {
-            "q": "voi … (scrivere)",
+            "q": "In cucina ___ quattro sedie.",
             "options": [
-              "*scrivete",
-              "scrivite"
+              "c'è",
+              "*ci sono"
             ]
           },
           {
-            "q": "io … (capire)",
+            "q": "In classe ___ molti studenti.",
             "options": [
-              "*capisco",
-              "capo"
+              "c'è",
+              "*ci sono"
             ]
           },
           {
-            "q": "noi … (capire)",
+            "q": "Qui ___ un ristorante?",
             "options": [
-              "*capiamo",
-              "capischiamo"
+              "*c'è",
+              "ci sono"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'articolo e il possessivo.",
+        "questions": [
+          "(io) Questo {ip:è} [[il mio]] libro.",
+          "(tu) Questa {ip:è} [[la tua]] borsa.",
+          "(lui) Questi {ip:sono} [[i suoi]] quaderni.",
+          "(noi) Queste {ip:sono} [[le nostre]] penne.",
+          "(voi) Questo {ip:è} [[il vostro]] tavolo.",
+          "(loro) Questa {ip:è} [[la loro]] aula."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta del verbo.",
+        "questions": [
+          "Io [[lavoro#ip]] in un negozio. (lavorare)",
+          "Tu [[studi#ip]] storia? (studiare)",
+          "Lei [[parla#ip]] italiano. (parlare)",
+          "Noi [[abitiamo#ip]] a Roma. (abitare)",
+          "Voi [[lavorate#ip]] in un ristorante? (lavorare)",
+          "Loro [[studiano#ip]] medicina. (studiare)",
+          "Come [[ti chiami#ip]]? (chiamarsi)",
+          "Io [[mi chiamo#ip]] Paolo. (chiamarsi)"
         ]
       }
     ]
@@ -312,84 +418,84 @@
   "vocabulary": {
     "words": [
       [
+        "il tavolo",
+        "ci mangi sopra"
+      ],
+      [
+        "il telefono",
+        "lo usi per chiamare"
+      ],
+      [
+        "la finestra",
+        "da qui guardi fuori"
+      ],
+      [
+        "la lavagna",
+        "l'insegnante ci scrive in classe"
+      ],
+      [
+        "l'aula",
+        "la stanza della lezione"
+      ],
+      [
+        "la cucina",
+        "la stanza dove cucini"
+      ],
+      [
+        "la camera",
+        "la stanza dove dormi"
+      ],
+      [
+        "l'appartamento",
+        "una casa in un palazzo"
+      ],
+      [
+        "l'orologio",
+        "ti dice che ore sono"
+      ],
+      [
+        "lo specchio",
+        "ti guardi qui la mattina"
+      ],
+      [
+        "il negozio",
+        "qui compri le cose"
+      ],
+      [
+        "il ristorante",
+        "qui mangi fuori casa"
+      ],
+      [
+        "l'insegnante",
+        "fa lezione agli studenti"
+      ],
+      [
+        "la storia",
+        "studia il passato"
+      ],
+      [
+        "lavorare",
+        "fare un lavoro"
+      ],
+      [
+        "studiare",
+        "imparare a scuola o sui libri"
+      ],
+      [
+        "parlare",
+        "dire parole"
+      ],
+      [
+        "abitare",
+        "avere la casa in un posto"
+      ],
+      [
         "guardare",
-        "usare gli occhi: un film, la televisione"
+        "usare gli occhi"
       ],
       [
-        "ascoltare",
-        "usare le orecchie: la musica, la radio"
-      ],
-      [
-        "leggere",
-        "un libro, un giornale"
-      ],
-      [
-        "scrivere",
-        "una lettera, un messaggio"
-      ],
-      [
-        "prendere",
-        "il treno, l'autobus, un caffè"
-      ],
-      [
-        "dormire",
-        "lo fai a letto la notte"
-      ],
-      [
-        "partire",
-        "andare via per un viaggio"
-      ],
-      [
-        "tornare",
-        "andare di nuovo dove eri prima"
-      ],
-      [
-        "finire",
-        "il contrario di cominciare"
-      ],
-      [
-        "capire",
-        "sapere che cosa vuol dire una cosa"
-      ],
-      [
-        "fare colazione",
-        "mangiare la mattina"
-      ],
-      [
-        "svegliarsi",
-        "aprire gli occhi la mattina"
-      ],
-      [
-        "alzarsi",
-        "uscire dal letto"
-      ],
-      [
-        "riposarsi",
-        "stare tranquilli dopo il lavoro"
-      ],
-      [
-        "la mattina",
-        "la prima parte del giorno"
-      ],
-      [
-        "la sera",
-        "la parte del giorno dopo il lavoro"
-      ],
-      [
-        "presto",
-        "il contrario di tardi"
-      ],
-      [
-        "tardi",
-        "il contrario di presto"
-      ],
-      [
-        "poco",
-        "il contrario di molto"
-      ],
-      [
-        "molto",
-        "il contrario di poco"
+        "chiamarsi",
+        "avere un nome"
       ]
     ],
     "exercises": [
@@ -398,28 +504,28 @@
         "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "leggere",
-            "un libro, un giornale"
+            "la finestra",
+            "da qui guardi fuori"
           ],
           [
-            "dormire",
-            "lo fai a letto la notte"
+            "la cucina",
+            "la stanza dove cucini"
           ],
           [
-            "partire",
-            "andare via per un viaggio"
+            "lo specchio",
+            "ti guardi qui la mattina"
           ],
           [
-            "capire",
-            "sapere che cosa vuol dire una cosa"
+            "il negozio",
+            "qui compri le cose"
           ],
           [
-            "svegliarsi",
-            "aprire gli occhi la mattina"
+            "l'aula",
+            "la stanza della lezione"
           ],
           [
-            "tardi",
-            "il contrario di presto"
+            "abitare",
+            "avere la casa in un posto"
           ]
         ]
       },
@@ -427,20 +533,20 @@
         "type": "gap",
         "prompt": "Completa con la parola giusta.",
         "questions": [
-          "{ip:Mi alzo} alle sei: {ip:mi alzo} [[presto]].",
-          "La [[sera]], dopo il lavoro, {ip:guardiamo} un film.",
-          "La mattina {ip:faccio} [[colazione]] alle otto.",
-          "Marco {ip:dorme} cinque ore: {ip:dorme} [[poco]].",
-          "Loro {ip:leggono} tanti libri: {ip:leggono} [[molto]]."
+          "In aula l'insegnante {ip:scrive} sulla [[lavagna]].",
+          "Marco {ip:lavora} in un [[ristorante]]: {ip:fa} il cameriere.",
+          "Il nostro [[appartamento]] {ip:è} in un palazzo del centro.",
+          "Giulia {ip:studia} il passato: {ip:studia} [[storia]].",
+          "L'[[insegnante]] {ip:fa} lezione agli studenti."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "{ip:Mi chiamo} Marco e {ip:lavoro} in un negozio a Torino. La mattina {ip:mi sveglio} alle sette, {ip:mi alzo} e {ip:faccio} colazione: un caffè e un cornetto.",
-      "Alle otto {ip:prendo} il tram e {ip:vado} a lavorare. {ip:Finisco} alle sei e {ip:torno} a casa.",
-      "La sera {ip:leggo} un libro o {ip:guardo} la televisione con Anna, la mia ragazza. Lei {ip:scrive} articoli per un giornale. Noi {ip:andiamo} a letto tardi e {ip:dormiamo} poco!"
+      "Ciao! {ip:Mi chiamo} Giulia e {ip:abito} a Bologna con la mia amica Sara. Io {ip:studio} storia, Sara {ip:lavora} in un ristorante.",
+      "Il nostro appartamento {ip:è} piccolo. In cucina {ip:c'è} un tavolo e {ip:ci sono} quattro sedie. La mia camera {ip:ha} una finestra grande e uno specchio.",
+      "La sera Sara e io {ip:parliamo} in cucina e {ip:guardiamo} un film. I nostri amici Paolo e Marco {ip:abitano} qui vicino."
     ],
     "exercises": [
       {
@@ -448,38 +554,38 @@
         "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Marco {ip:si sveglia} alle sette.",
+            "q": "Giulia {ip:studia} storia.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "A colazione Marco {ip:beve} un tè.",
+            "q": "Sara {ip:lavora} in un negozio.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "Marco {ip:finisce} di lavorare alle sei.",
-            "options": [
-              "*Vero",
-              "Falso"
-            ]
-          },
-          {
-            "q": "Anna {ip:scrive} articoli.",
-            "options": [
-              "*Vero",
-              "Falso"
-            ]
-          },
-          {
-            "q": "Marco e Anna {ip:dormono} molto.",
+            "q": "L'appartamento {ip:è} grande.",
             "options": [
               "Vero",
               "*Falso"
+            ]
+          },
+          {
+            "q": "In cucina {ip:ci sono} quattro sedie.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La sera Giulia e Sara {ip:guardano} un film.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
@@ -489,28 +595,28 @@
   "listening": {
     "transcript": [
       [
-        "Luca",
-        "Ciao, Sara! Che cosa {ip:fai} stasera?"
+        "Sara",
+        "Ciao! Come {ip:ti chiami}?"
+      ],
+      [
+        "Paolo",
+        "{ip:Mi chiamo} Paolo. E tu?"
       ],
       [
         "Sara",
-        "{ip:Vado} a casa e {ip:guardo} un film. E tu?"
+        "{ip:Mi chiamo} Sara. {ip:Studi} qui?"
       ],
       [
-        "Luca",
-        "Io {ip:scrivo} un articolo. {ip:Finisco} tardi."
-      ],
-      [
-        "Sara",
-        "E domani {ip:partite} per Roma?"
-      ],
-      [
-        "Luca",
-        "Sì, io e Marta {ip:partiamo} domani mattina. {ip:Ci svegliamo} alle sei!"
+        "Paolo",
+        "No, non {ip:studio}, {ip:lavoro} qui. Questa {ip:è} la mia aula."
       ],
       [
         "Sara",
-        "Alle sei? Buon viaggio!"
+        "Ah, {ip:sei} l'insegnante! E questi {ip:sono} i tuoi libri?"
+      ],
+      [
+        "Paolo",
+        "Sì, {ip:sono} i miei libri. Benvenuta!"
       ]
     ],
     "exercises": [
@@ -518,10 +624,10 @@
         "type": "gap",
         "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Vado#ip]] a casa e [[guardo#ip]] un film.",
-          "Io [[scrivo#ip]] un articolo.",
-          "Io e Marta [[partiamo#ip]] domani mattina.",
-          "[[Ci svegliamo#ip]] alle sei!"
+          "Come [[ti chiami#ip]]?",
+          "[[Mi chiamo#ip]] Paolo.",
+          "No, non studio, [[lavoro#ip]] qui.",
+          "Sì, sono [[i miei]] libri."
         ]
       },
       {
@@ -529,11 +635,11 @@
         "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Quando {ip:partono} per Roma Luca e Marta?",
+            "q": "Paolo {ip:è}…",
             "options": [
-              "stasera",
-              "*domani mattina",
-              "alle sei di sera"
+              "uno studente",
+              "*l'insegnante",
+              "un cameriere"
             ]
           }
         ]
@@ -547,57 +653,49 @@
         "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "A che ora ti {ip:svegli}? (alle sette)",
+            "q": "una finestra → con l'articolo determinativo",
             "a": [
-              "Mi sveglio alle sette.",
-              "Io mi sveglio alle sette.",
-              "Mi sveglio alle 7."
+              "la finestra"
             ]
           },
           {
-            "q": "Dove {ip:andate} tu e Luca? (a casa)",
+            "q": "uno zaino → al plurale, con l'articolo",
             "a": [
-              "Andiamo a casa.",
-              "Noi andiamo a casa."
+              "gli zaini"
             ]
           },
           {
-            "q": "Che cosa {ip:fa} Anna? (leggere un libro)",
+            "q": "{ip:Dici} che in cucina c'{ip:è} un tavolo.",
             "a": [
-              "Legge un libro.",
-              "Anna legge un libro.",
-              "Lei legge un libro."
+              "In cucina c'è un tavolo.",
+              "C'è un tavolo in cucina."
             ]
           },
           {
-            "q": "{ip:Chiedi} a Luca e Marta se {ip:dormono} molto.",
+            "q": "{ip:Fai} vedere il tuo libro: «Questo…»",
             "a": [
-              "Dormite molto?",
-              "Voi dormite molto?"
+              "Questo è il mio libro."
             ]
           },
           {
-            "q": "Che cosa {ip:fai} in cucina? (un caffè)",
+            "q": "{ip:Dici} che tu e la tua famiglia {ip:abitate} a Roma. (noi)",
             "a": [
-              "Faccio un caffè.",
-              "Io faccio un caffè."
+              "Abitiamo a Roma.",
+              "Noi abitiamo a Roma."
             ]
           },
           {
-            "q": "Quando {ip:partono} Luca e Marta? (domani)",
+            "q": "{ip:Chiedi} il nome a un ragazzo.",
             "a": [
-              "Partono domani.",
-              "Loro partono domani.",
-              "Luca e Marta partono domani."
+              "Come ti chiami?"
             ]
           },
           {
-            "q": "{ip:Dici} che l'italiano non {ip:è} difficile per te: lo…",
+            "q": "Giulia e Sara: che cosa {ip:studiano}? (storia)",
             "a": [
-              "Capisco l'italiano.",
-              "Io capisco l'italiano.",
-              "Capisco italiano.",
-              "Lo capisco."
+              "Studiano storia.",
+              "Loro studiano storia.",
+              "Giulia e Sara studiano storia."
             ]
           }
         ]

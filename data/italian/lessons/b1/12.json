@@ -1,172 +1,388 @@
 {
   "title": "Benché {csp:sia} tardi, ce la {fs:faremo}",
-  "translation": "Although it's late, we'll make it",
-  "topics": "Conjunctions with the congiuntivo, verbs with pronouns: farcela, andarsene, metterci, volerci",
+  "translation": "",
+  "topics": "Le congiunzioni con il congiuntivo: *benché, purché, affinché, prima che, senza che*, *anche se* e *perché* con l'indicativo, i verbi pronominali *farcela, andarsene, metterci, volerci, prendersela, avercela*, sforzi e obiettivi",
   "grammar": {
     "explain": [
+      "Alcune congiunzioni vogliono sempre il congiuntivo, perché presentano una cosa concessa, una condizione o uno scopo: *Benché {csp:sia} tardi, {ip:esco}. {ip:Vengo}, purché tu {csp:paghi}.* E alcuni verbi molto comuni hanno dentro un pronome che ne cambia il significato: *Ce la {fs:faremo}!*",
       {
-        "h": "Conjunctions that require the congiuntivo"
-      },
-      "These conjunctions introduce something that is conceded, a condition or a purpose. They are always followed by the *congiuntivo*.",
-      {
-        "table": {
-          "head": [
-            "Idea",
-            "Conjunctions",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Although",
-              "benché, sebbene, nonostante",
-              "Benché {csp:sia} tardi, {ip:esco}."
-            ],
-            [
-              "On condition that",
-              "purché, a patto che",
-              "{ip:Vengo}, purché tu {csp:paghi}."
-            ],
-            [
-              "So that",
-              "affinché, perché",
-              "Te lo {ip:dico} perché tu lo {csp:sappia}."
-            ],
-            [
-              "Before",
-              "prima che",
-              "{imv:Parti} prima che {csp:piova}."
-            ],
-            [
-              "Without",
-              "senza che",
-              "{pp:È uscito} senza che lo {csi:vedessi}."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "*Benché, sebbene, nonostante*: anche se…",
+              "head": [
+                "con il congiuntivo",
+                "con l'indicativo: *anche se*"
+              ],
+              "rows": [
+                [
+                  "**Benché** {csp:sia} tardi, {ip:esco}.",
+                  "**Anche se** {ip:è} tardi, {ip:esco}."
+                ],
+                [
+                  "**Sebbene** {csp:piova}, {ip:andiamo} al mare.",
+                  "**Anche se** {ip:piove}, {ip:andiamo} al mare."
+                ],
+                [
+                  "**Nonostante** {csi:fosse} stanca, {pp:ha studiato}.",
+                  "**Anche se** {im:era} stanca, {pp:ha studiato}."
+                ]
+              ]
+            },
+            "note": "*Benché, sebbene, nonostante (che)* vogliono il congiuntivo. *Anche se* vuole l'indicativo e si usa molto nel parlato: è la scelta più semplice."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Purché, a patto che, a meno che*: le condizioni",
+              "head": [
+                "congiunzione",
+                "vuol dire…",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "*purché, a patto che, a condizione che*",
+                  "solo se",
+                  "Ti {ip:presto} la macchina, **purché** me la {csp:riporti} stasera."
+                ],
+                [
+                  "*a meno che (non)*",
+                  "tranne se",
+                  "{ip:Usciamo} alle otto, **a meno che non** {csp:piova}."
+                ]
+              ]
+            },
+            "note": "Dopo *a meno che* si mette spesso un *non* che non nega niente: *a meno che non {csp:piova}* = «se non piove»."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Perché*: causa o scopo?",
+              "head": [
+                "causa (*perché* = «per il motivo che»): indicativo",
+                "scopo (*perché, affinché* = «con lo scopo che»): congiuntivo"
+              ],
+              "rows": [
+                [
+                  "{ip:Resto} a casa **perché {ip:piove}**.",
+                  "{ip:Parlo} piano **perché tu {csp:capisca}**."
+                ],
+                [
+                  "{pp:Ho chiamato} **perché {im:ero} preoccupata**.",
+                  "Ti {pp:ho chiamato} **affinché tu {csi:sapessi}** la verità."
+                ]
+              ]
+            },
+            "note": "Se chi fa le due azioni è la stessa persona, per lo scopo si usa *per* + infinito: *{ip:Studio} **per** imparare* (io studio, io imparo)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Prima che* e *senza che*",
+              "head": [
+                "due persone diverse: *che* + congiuntivo",
+                "la stessa persona: *di* / niente + infinito"
+              ],
+              "rows": [
+                [
+                  "{ip:Esco} **prima che** {csp:arrivino} gli ospiti.",
+                  "{ip:Mangio} **prima di uscire**."
+                ],
+                [
+                  "{pp:È uscito} **senza che** nessuno lo {csi:vedesse}.",
+                  "{pp:È uscito} **senza salutare**."
+                ]
+              ]
+            },
+            "note": "Come nelle lezioni 1 e 10: quando il soggetto è lo stesso, si usa l'infinito; quando è diverso, *che* + congiuntivo."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I verbi pronominali",
+              "head": [
+                "verbo",
+                "vuol dire…",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "*farcela*",
+                  "riuscire a fare una cosa difficile",
+                  "Ce la {ip:faccio}! Non ce la {ip:faccio} più!"
+                ],
+                [
+                  "*andarsene*",
+                  "andare via",
+                  "Me ne {ip:vado}. Se n'{pp:è andato} senza salutare."
+                ],
+                [
+                  "*metterci*",
+                  "impiegare tempo (soggetto: una persona)",
+                  "Ci {ip:metto} mezz'ora per arrivare in ufficio."
+                ],
+                [
+                  "*volerci*",
+                  "essere necessario (tempo, cose)",
+                  "Ci {ip:vuole} un'ora. Ci {ip:vogliono} tre uova."
+                ],
+                [
+                  "*prendersela*",
+                  "offendersi, arrabbiarsi",
+                  "Non te la {imv:prendere}, scherzavo!"
+                ],
+                [
+                  "*avercela con qualcuno*",
+                  "essere arrabbiato con qualcuno",
+                  "Perché ce l'{ip:hai} con me?"
+                ],
+                [
+                  "*cavarsela*",
+                  "riuscire, in una situazione difficile",
+                  "Me la {ip:cavo} bene in inglese."
+                ]
+              ]
+            },
+            "note": "*Metterci* ha come soggetto una persona: *Marco ci {ip:mette} un'ora*. *Volerci* è impersonale e va d'accordo con quello che serve: *ci {ip:vuole} un'ora, ci {ip:vogliono} due ore*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Farcela* e *andarsene*: [ip:presente] e [pp:passato prossimo]",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*farcela*",
+                  2
+                ],
+                [
+                  "*andarsene*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "ce la {ip:faccio}",
+                  {
+                    "text": "ce l'{pp:ho fatta}, ce l'{pp:abbiamo fatta}",
+                    "rows": 6
+                  },
+                  "me ne {ip:vado}",
+                  {
+                    "text": "me ne {pp:sono andato}, se n'{pp:è andata}",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "ce la {ip:fai}",
+                  null,
+                  "te ne {ip:vai}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "ce la {ip:fa}",
+                  null,
+                  "se ne {ip:va}",
+                  null
+                ],
+                [
+                  "noi",
+                  "ce la {ip:facciamo}",
+                  null,
+                  "ce ne {ip:andiamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "ce la {ip:fate}",
+                  null,
+                  "ve ne {ip:andate}",
+                  null
+                ],
+                [
+                  "loro",
+                  "ce la {ip:fanno}",
+                  null,
+                  "se ne {ip:vanno}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Le piccole parole restano, cambia solo il verbo. Nel [pp:passato prossimo] *la* diventa *l'* e il participio finisce in *-a*: *ce l'{pp:ho fatta}*.",
+              "*Andarsene* vuole *essere*, e il participio va d'accordo con il soggetto: *Anna se n'{pp:è andata}*."
             ]
-          ]
-        }
-      },
-      "Compare the two uses of *perché*. *Because* takes the indicative: *{ip:Resto} perché {ip:piove}*. *{ip:So} that* takes the *congiuntivo*: *{ip:Parlo} piano perché tu {csp:capisca}*.",
-      "*Anche se* (even if, although) takes the indicative, so it's the easy option in everyday speech: *Anche se {ip:è} tardi, {ip:esco}*.",
-      {
-        "h": "Same person? Use the infinitive"
-      },
-      "With *prima* and *senza*, when both parts have the same subject, use *di* or nothing with an infinitive: *{ip:Mangio} prima di uscire. {ip:Esco} senza salutare.*",
-      {
-        "h": "Verbs with a built-in pronoun"
-      },
-      "Some very common verbs have *ci*, *ne* or *la* fixed inside them, and the meaning changes completely.",
-      {
-        "table": {
-          "head": [
-            "Verb",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "farcela",
-              "to manage, to make it",
-              "Ce la {ip:faccio}. Non ce la {ip:faccio} più!"
-            ],
-            [
-              "andarsene",
-              "to go away",
-              "Me ne {ip:vado}. Se n'{pp:è andato}."
-            ],
-            [
-              "metterci",
-              "to take (a person's time)",
-              "Ci {ip:metto} due ore."
-            ],
-            [
-              "volerci",
-              "to take (time needed in general)",
-              "Ci {ip:vuole} un'ora. Ci {ip:vogliono} due ore."
-            ],
-            [
-              "avercela con",
-              "to be angry with",
-              "Ce l'{ip:ho} con te."
-            ]
-          ]
-        }
-      },
-      "The conjugated part changes as usual, and the small words are fixed: *ce la {ip:faccio}, ce la {ip:fai}, ce la {ip:fa}*; *me ne {ip:vado}, te ne {ip:vai}, se ne {ip:va}*.",
-      "*Metterci* has a person as its subject: *Marco ci {ip:mette} un'ora*. *Volerci* is impersonal, and agrees with the amount of time: *ci {ip:vuole} un'ora, ci {ip:vogliono} due ore*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the [csp:congiuntivo presente].",
+        "prompt": "Completa con il congiuntivo dopo *benché, sebbene, nonostante*.",
         "questions": [
-          "Benché [[sia#csp]] tardi, {ip:esco}. (essere)",
-          "Sebbene [[piova#csp]], {ip:vado} a piedi. (piovere)",
-          "{ip:Vengo}, purché tu [[paghi#csp]]. (pagare)",
-          "Te lo {ip:dico} affinché tu lo [[sappia#csp]]. (sapere)",
-          "{imv:Parti} prima che [[faccia#csp]] buio. (fare)",
-          "Nonostante [[abbia#csp]] poco tempo, ti {ip:aiuto}. (avere, io)"
+          "Benché (essere) [[sia#csp]] tardi, {ip:usciamo} lo stesso.",
+          "Sebbene Marco (studiare) [[studi#csp]] molto, {ip:prende} brutti voti.",
+          "Nonostante (piovere) [[piova#csp]], {ip:andiamo} al mare.",
+          "Benché (io, avere) [[abbia#csp]] poco tempo, ti {ip:aiuto}.",
+          "Nonostante (loro, essere) [[fossero#csi]] stanchi, {pp:hanno finito} il lavoro."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Indicativo o congiuntivo? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Anche se ___ tardi, {ip:esco}.",
+            "q": "Anche se ___ freddo, {ip:esco}.",
             "options": [
-              "*{ip:è}",
-              "{csp:sia}"
+              "*{ip:fa}",
+              "{csp:faccia}"
             ]
           },
           {
-            "q": "{ip:Resto} a casa perché ___ .",
+            "q": "Benché ___ freddo, {ip:esco}.",
             "options": [
-              "*{ip:piove}",
-              "{csp:piova}"
+              "{ip:fa}",
+              "*{csp:faccia}"
             ]
           },
           {
-            "q": "Parlo piano perché tu ___ . (so that)",
+            "q": "{ip:Resto} a casa perché ___ male.",
+            "options": [
+              "*{ip:sto}",
+              "{csp:stia}"
+            ]
+          },
+          {
+            "q": "Te lo {ip:spiego} perché tu lo ___.",
             "options": [
               "{ip:capisci}",
               "*{csp:capisca}"
             ]
           },
           {
-            "q": "{ip:Mangio} ___ di uscire.",
+            "q": "Anche se {ip:è} difficile, ce la ___.",
             "options": [
-              "*prima",
-              "benché",
-              "senza"
-            ]
-          },
-          {
-            "q": "___ {ip:vuole} un'ora per arrivare.",
-            "options": [
-              "*Ci",
-              "Ne",
-              "La"
-            ]
-          },
-          {
-            "q": "Ci ___ due ore.",
-            "options": [
-              "{ip:vuole}",
-              "*{ip:vogliono}"
+              "*{fs:faremo}",
+              "{csp:facciamo}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the verb in the right form.",
+        "prompt": "Completa con il congiuntivo.",
         "questions": [
-          "Non ce la [[faccio#ip]] più! (farcela, io)",
-          "Ce la [[farai#fs]], non preoccuparti! (farcela, tu, future)",
-          "Me ne [[vado#ip]]. (andarsene, io)",
-          "Marco ci [[mette#ip]] un'ora per arrivare. (metterci)",
-          "Perché ce l'[[hai#ip]] con me? (avercela, tu)"
+          "Ti {ip:presto} la bici, purché me la (riportare) [[riporti#csp]] stasera.",
+          "{ip:Parlo} lentamente affinché tutti (capire) [[capiscano#csp]].",
+          "{imv:Esci} prima che (cominciare) [[cominci#csp]] a piovere.",
+          "{ip:Usciamo} alle otto, a meno che non (fare) [[faccia#csp]] brutto tempo.",
+          "{pp:È entrato} senza che nessuno lo (vedere) [[vedesse#csi]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Prima che* o *prima di*? *Senza che* o *senza*?",
+        "questions": [
+          {
+            "q": "{ip:Mangio} ___ uscire.",
+            "options": [
+              "*prima di",
+              "prima che"
+            ]
+          },
+          {
+            "q": "{ip:Mangio} ___ arrivino i bambini.",
+            "options": [
+              "*prima che",
+              "prima di"
+            ]
+          },
+          {
+            "q": "{pp:È uscito} ___ salutare.",
+            "options": [
+              "*senza",
+              "senza che"
+            ]
+          },
+          {
+            "q": "{pp:È uscito} ___ nessuno se ne {csi:accorgesse}.",
+            "options": [
+              "*senza che",
+              "senza"
+            ]
+          },
+          {
+            "q": "{imv:Chiamami} ___ partire.",
+            "options": [
+              "*prima di",
+              "prima che"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *farcela* o *andarsene* al [ip:presente] o al [pp:passato prossimo].",
+        "questions": [
+          "{ip:Sono} stanchissimo: non ce la (io) [[faccio#ip]] più!",
+          "È tardi, (noi) ce ne [[andiamo#ip]].",
+          "Che bello, (lei) ce l'[[ha fatta#pp]]: {pp:ha superato} l'esame!",
+          "Luca {im:era} arrabbiato e se n'[[è andato#pp]] senza salutare.",
+          "(tu) Ce la [[fai#ip]] a portare questa valigia?",
+          "Se non vi {ip:piace} la festa, ve ne [[andate#ip]]?"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Metterci* o *volerci*? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Per fare la torta ___ tre uova.",
+            "options": [
+              "*ci {ip:vogliono}",
+              "ci {ip:metto}"
+            ]
+          },
+          {
+            "q": "Io ___ venti minuti per arrivare al lavoro.",
+            "options": [
+              "*ci {ip:metto}",
+              "ci {ip:vuole}"
+            ]
+          },
+          {
+            "q": "Da Roma a Napoli ___ un'ora di treno.",
+            "options": [
+              "*ci {ip:vuole}",
+              "ci {ip:mette}"
+            ]
+          },
+          {
+            "q": "Quanto ___ tu a prepararti la mattina?",
+            "options": [
+              "*ci {ip:metti}",
+              "ci {ip:vuole}"
+            ]
+          },
+          {
+            "q": "Per imparare una lingua ___ anni.",
+            "options": [
+              "*ci {ip:vogliono}",
+              "ci {ip:mettono}"
+            ]
+          }
         ]
       }
     ]
@@ -174,139 +390,267 @@
   "vocabulary": {
     "words": [
       [
-        "la scadenza",
-        "deadline"
+        "l'obiettivo",
+        "quello che vuoi raggiungere"
       ],
       [
-        "lo sforzo",
-        "effort"
-      ],
-      [
-        "la fatica",
-        "hard work"
-      ],
-      [
-        "la pazienza",
-        "patience"
+        "raggiungere",
+        "arrivare a un posto o a un risultato"
       ],
       [
         "il traguardo",
-        "finish line, goal"
+        "la linea di arrivo; anche un obiettivo importante"
       ],
       [
-        "resistere",
-        "to hold out"
-      ],
-      [
-        "arrendersi",
-        "to give up"
-      ],
-      [
-        "riuscire",
-        "to succeed"
-      ],
-      [
-        "preoccuparsi",
-        "to worry"
-      ],
-      [
-        "nonostante",
-        "in spite of"
-      ],
-      [
-        "faticoso",
-        "tiring"
+        "la scadenza",
+        "il giorno entro cui bisogna finire una cosa"
       ],
       [
         "in tempo",
-        "in time"
+        "prima della scadenza, non in ritardo"
+      ],
+      [
+        "lo sforzo",
+        "l'energia che si usa per fare una cosa difficile"
+      ],
+      [
+        "la fatica",
+        "la stanchezza dopo uno sforzo"
+      ],
+      [
+        "faticoso",
+        "che fa stancare"
+      ],
+      [
+        "impegnarsi",
+        "mettere tutto il proprio sforzo in una cosa"
+      ],
+      [
+        "l'impegno",
+        "lo sforzo serio e continuo; anche un appuntamento"
+      ],
+      [
+        "la costanza",
+        "la capacità di continuare ogni giorno, senza smettere"
+      ],
+      [
+        "la pazienza",
+        "la capacità di aspettare con calma"
+      ],
+      [
+        "resistere",
+        "non cedere, continuare anche se è difficile"
+      ],
+      [
+        "l'ostacolo",
+        "una cosa che rende difficile andare avanti"
+      ],
+      [
+        "superare",
+        "andare oltre un ostacolo, vincere una difficoltà"
+      ],
+      [
+        "la motivazione",
+        "la ragione che ti spinge a fare una cosa"
+      ],
+      [
+        "motivato",
+        "che ha voglia e una buona ragione per fare una cosa"
+      ],
+      [
+        "stressato",
+        "teso e stanco per troppe cose da fare"
+      ],
+      [
+        "fare una pausa",
+        "fermarsi un momento per riposare"
+      ],
+      [
+        "la sfida",
+        "una prova difficile, che vuoi affrontare"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
             "la scadenza",
-            "deadline"
+            "il giorno entro cui bisogna finire una cosa"
           ],
           [
-            "lo sforzo",
-            "effort"
+            "la costanza",
+            "la capacità di continuare ogni giorno, senza smettere"
+          ],
+          [
+            "l'ostacolo",
+            "una cosa che rende difficile andare avanti"
           ],
           [
             "il traguardo",
-            "finish line, goal"
+            "la linea di arrivo; anche un obiettivo importante"
           ],
           [
-            "arrendersi",
-            "to give up"
+            "impegnarsi",
+            "mettere tutto il proprio sforzo in una cosa"
           ],
           [
-            "riuscire",
-            "to succeed"
-          ],
-          [
-            "faticoso",
-            "tiring"
+            "la sfida",
+            "una prova difficile, che vuoi affrontare"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Non [[preoccuparti]]! (worry, to a friend)",
-          "{pp:Siamo arrivati} [[in tempo]]. (in time)",
-          "Ci {ip:vuole} molta [[pazienza]]. (patience)",
-          "{ip:È} un lavoro molto [[faticoso]]. (tiring)"
+          {
+            "q": "{ip:Lavoro} dieci ore al giorno e non {ip:dormo}: {ip:sono} molto ___.",
+            "options": [
+              "*stressato",
+              "motivato",
+              "faticoso"
+            ]
+          },
+          {
+            "q": "{ip:Studio} da tre ore: {ip:faccio} una ___.",
+            "options": [
+              "*pausa",
+              "sfida",
+              "scadenza"
+            ]
+          },
+          {
+            "q": "Il mio ___ {ip:è} parlare bene l'italiano entro un anno.",
+            "options": [
+              "*obiettivo",
+              "ostacolo",
+              "impegno"
+            ]
+          },
+          {
+            "q": "Salire a piedi fino al decimo piano {ip:è} molto ___.",
+            "options": [
+              "*faticoso",
+              "motivato",
+              "stressato"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{ip:Dobbiamo} consegnare il progetto in [[tempo]]: la scadenza {ip:è} venerdì.",
+          "Con un po' di [[pazienza]] {fs:imparerai} tutto.",
+          "Dopo la corsa {ip:sento} tutta la [[fatica]] nelle gambe.",
+          "{pp:Abbiamo superato} ogni [[ostacolo]] e {pp:abbiamo raggiunto} il traguardo.",
+          "Senza [[motivazione]] {ip:è} difficile studiare ogni giorno."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Benché {csi:avessimo} poco tempo, quest'anno io e Marina {pp:abbiamo deciso} di correre la maratona di Roma. All'inizio {im:credevo} di non farcela: ci {im:mettevo} un'ora per fare otto chilometri. Ci {ip:vogliono} mesi di allenamento, purché si {csp:abbia} costanza.",
-      "Nonostante {csp:faccia} molto freddo la mattina, {ip:usciamo} ogni giorno prima che la città si {csp:svegli}. Marina si {pp:è stancata} e {im:voleva} andarsene a metà percorso, ma l'{pp:ho convinta}. Anche se {fs:arriveremo} per ultimi, ce la {fs:faremo}!"
+      {
+        "h": "Ce l'abbiamo fatta!"
+      },
+      "Benché non {cst:fossimo} mai {cst:stati} grandi sportivi, l'anno scorso io e mia moglie Lucia {pp:abbiamo deciso} di percorrere a piedi l'ultima parte della Via Francigena, l'antica strada dei pellegrini, da Siena a Roma.",
+      "Ci {pp:sono volute} quasi due settimane. Ogni giorno ci {im:mettevamo} sei o sette ore per fare venti chilometri. {im:Partivamo} all'alba, prima che {csi:facesse} troppo caldo, e ci {im:fermavamo} solo per mangiare.",
+      "Il quarto giorno Lucia {im:aveva} male ai piedi e {im:voleva} andarsene a casa: «Non ce la {ip:faccio} più!». Ma un'altra pellegrina, una signora tedesca di settant'anni, le {pp:ha dato} dei cerotti e le {pp:ha detto} che {im:poteva} continuare, purché {csi:camminasse} più piano.",
+      "Nonostante la fatica, quei giorni {pp:sono stati} i più belli dell'anno. Quando {pp:siamo arrivati} in Piazza San Pietro, ci {pp:siamo guardati} e {pp:abbiamo detto} insieme: «Ce l'{pp:abbiamo fatta}!» *Paolo*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "What are they training for?",
+            "q": "Da dove a dove {pp:hanno camminato} Paolo e Lucia?",
             "options": [
-              "A swimming race",
-              "*The Rome marathon",
-              "A cycling race"
+              "*da Siena a Roma",
+              "da Roma a Siena",
+              "da Firenze a Siena"
             ]
           },
           {
-            "q": "How long did 8 km take at first?",
+            "q": "Quanto {pp:è durato} il viaggio?",
             "options": [
-              "*An hour",
-              "Half an hour",
-              "Two hours"
+              "*quasi due settimane",
+              "un mese",
+              "quattro giorni"
             ]
           },
           {
-            "q": "When do they go out to train?",
+            "q": "Perché {im:partivano} all'alba?",
             "options": [
-              "In the evening",
-              "*Early in the morning",
-              "At lunchtime"
+              "*per evitare il caldo",
+              "per vedere il sole",
+              "per arrivare prima degli altri"
             ]
           },
           {
-            "q": "How does the speaker feel about finishing?",
+            "q": "Chi {pp:ha aiutato} Lucia?",
             "options": [
-              "Doubtful",
-              "*Confident, even if they finish last",
-              "Sure of winning"
+              "*una signora tedesca",
+              "un medico di Roma",
+              "Paolo, con dei cerotti"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Paolo e Lucia {im:erano} grandi sportivi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Ogni giorno {im:camminavano} circa venti chilometri.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il quarto giorno Lucia {im:voleva} tornare a casa.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La signora tedesca {pp:ha detto} a Lucia di camminare più veloce.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Alla fine {pp:sono arrivati} a Roma.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le congiunzioni e i verbi pronominali.",
+        "questions": [
+          "[[Benché]] non {cst:fossimo} mai {cst:stati} grandi sportivi…",
+          "Ci [[sono volute#pp]] quasi due settimane.",
+          "{im:Partivamo} all'alba, [[prima che]] {csi:facesse} troppo caldo.",
+          "{im:Poteva} continuare, [[purché]] {csi:camminasse} più piano.",
+          "Ce l'[[abbiamo fatta#pp]]!"
         ]
       }
     ]
@@ -314,51 +658,72 @@
   "listening": {
     "transcript": [
       [
-        "Tina",
-        "Non ce la {ip:faccio} più con questo lavoro!"
+        "Silvia",
+        "Gianni, ce la {ip:facciamo} a finire il progetto entro venerdì?"
       ],
       [
-        "Aldo",
-        "Perché? Quanto ci {ip:metti} ad arrivare in ufficio?"
+        "Gianni",
+        "Ce la {ip:facciamo}, purché nessuno si {csp:ammali}!"
       ],
       [
-        "Tina",
-        "Ci {ip:vogliono} due ore. E il capo ce l'{ip:ha} con me."
+        "Silvia",
+        "Quanto ci {ip:metti} a finire la tua parte?"
       ],
       [
-        "Aldo",
-        "Allora {imv:vattene}!"
+        "Gianni",
+        "Ci {ip:vogliono} almeno due giorni, anche se {ip:lavoro} anche stasera."
       ],
       [
-        "Tina",
-        "Me ne {cop:andrei} subito, purché {csi:trovassi} un altro posto."
+        "Silvia",
+        "Va bene. Io oggi me ne {ip:vado} alle sei, a meno che il capo non mi {csp:chieda} di restare."
       ],
       [
-        "Aldo",
-        "Ce la {fs:farai}, {fs:vedrai}."
+        "Gianni",
+        "Te ne {ip:vai}? E se il capo se la {ip:prende}?"
+      ],
+      [
+        "Silvia",
+        "Non se la {fs:prenderà}: gliel'{pp:ho} già {pp:detto} stamattina!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Non ce la [[faccio#ip]] più!",
-          "Ci [[vogliono#ip]] due ore.",
-          "Il capo ce l'[[ha#ip]] con me.",
-          "Ce la [[farai#fs]], {fs:vedrai}."
+          "Ce la {ip:facciamo}, [[purché]] nessuno si {csp:ammali}!",
+          "Quanto ci [[metti#ip]] a finire la tua parte?",
+          "Ci [[vogliono#ip]] almeno due giorni.",
+          "Io oggi me ne {ip:vado} alle sei, a meno che il capo non mi [[chieda#csp]] di restare.",
+          "E se il capo se la [[prende#ip]]?"
         ]
       },
       {
         "type": "choice",
-        "prompt": "How long is Tina's trip to the office?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Tina's trip takes…",
+            "q": "Entro quando {ip:devono} finire il progetto?",
             "options": [
-              "one hour",
-              "*two hours",
-              "three hours"
+              "*entro venerdì",
+              "entro stasera",
+              "entro lunedì"
+            ]
+          },
+          {
+            "q": "Quanto tempo {ip:serve} a Gianni?",
+            "options": [
+              "*almeno due giorni",
+              "due ore",
+              "una settimana"
+            ]
+          },
+          {
+            "q": "Perché il capo non se la {fs:prenderà}?",
+            "options": [
+              "*Silvia gliel'{pp:ha} già {pp:detto}.",
+              "Il capo non c'{ip:è}.",
+              "Silvia {fs:resterà} fino a tardi."
             ]
           }
         ]
@@ -369,40 +734,474 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le congiunzioni della lezione e i verbi pronominali.",
+        "open": true,
         "questions": [
           {
-            "q": "Although it's late, I'm going out. (use benché)",
-            "a": [
-              "Benché sia tardi, esco."
+            "q": "Qual {ip:è} una cosa difficile che {pp:sei riuscito} a fare? Come ce l'{pp:hai fatta}?"
+          },
+          {
+            "q": "Quanto ci {ip:metti} ad arrivare al lavoro o a scuola?"
+          },
+          {
+            "q": "Che cosa {ip:fai} anche se non ne {ip:hai} voglia? (*Anche se…, Benché…*)"
+          },
+          {
+            "q": "A quali condizioni {cop:presteresti} la tua macchina a un amico? (*purché…*)"
+          },
+          {
+            "q": "Quando {ip:è} stata l'ultima volta che te ne {pp:sei andato} da una festa prima della fine? Perché?"
+          },
+          {
+            "q": "Quali sono i tuoi obiettivi per l'anno prossimo?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Ce l'ho fatta!"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una ragazza stanca ma felice taglia il traguardo di una corsa",
+          "B — Un uomo con il cappotto saluta e apre la porta durante una festa",
+          "C — Una lunga fila di macchine ferme in autostrada",
+          "D — Una donna arrabbiata guarda il telefono con le braccia incrociate"
+        ],
+        "pairs": [
+          [
+            "«Ce l'{pp:ho fatta}!»",
+            "immagine A"
+          ],
+          [
+            "«Me ne {ip:vado}, {ip:è} tardi.»",
+            "immagine B"
+          ],
+          [
+            "«Ci {fs:vorranno} due ore per arrivare!»",
+            "immagine C"
+          ],
+          [
+            "«Ce l'{ip:ha} con me perché non l'{pp:ho chiamata}.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *farcela* o *andarsene* al [pp:passato prossimo].",
+        "questions": [
+          "Marta {pp:ha corso} la maratona: ce l'[[ha fatta#pp]]!",
+          "I ragazzi {im:erano} stanchi e se ne [[sono andati#pp]] presto.",
+          "{pp:Abbiamo trovato} i biglietti all'ultimo momento: ce l'[[abbiamo fatta#pp]]!",
+          "La festa {im:era} noiosa e (io) me ne [[sono andata|sono andato#pp]] alle dieci."
+        ]
+      },
+      {
+        "h": "Casa-lavoro"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *metterci* o *volerci* al [ip:presente].",
+        "questions": [
+          "Io [[ci metto]] mezz'ora in bicicletta.",
+          "Con l'autobus [[ci vogliono]] quaranta minuti.",
+          "Mia sorella abita lontano: [[ci mette]] un'ora e mezza in treno.",
+          "In macchina [[ci vuole]] poco, ma c'{ip:è} sempre traffico.",
+          "Quanto [[ci mettete]] voi a piedi?"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu? Quanto ci {ip:metti} ad andare al lavoro o a scuola? Quanto ci {cop:vorrebbe} a piedi?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Anche se… benché…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi le frasi con *benché* + congiuntivo.",
+        "questions": [
+          "Anche se {ip:è} stanco, Luca {ip:va} in palestra. → Benché [[sia#csp]] stanco, Luca {ip:va} in palestra.",
+          "Anche se {ip:piove}, {ip:usciamo}. → Benché [[piova#csp]], {ip:usciamo}.",
+          "Anche se {ip:hanno} pochi soldi, {ip:viaggiano} molto. → Benché [[abbiano#csp]] pochi soldi, {ip:viaggiano} molto.",
+          "Anche se {ip:studio} tanto, non {ip:capisco}. → Benché [[studi#csp]] tanto, non {ip:capisco}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Anche se* o *benché*?",
+        "questions": [
+          {
+            "q": "___ {ip:è} domenica, {ip:lavoro}.",
+            "options": [
+              "*Anche se",
+              "Benché"
             ]
           },
           {
-            "q": "We'll make it.",
+            "q": "___ {csp:sia} domenica, {ip:lavoro}.",
+            "options": [
+              "*Benché",
+              "Anche se"
+            ]
+          },
+          {
+            "q": "___ {csi:fosse} tardi, {pp:abbiamo continuato}.",
+            "options": [
+              "*Sebbene",
+              "Anche se"
+            ]
+          },
+          {
+            "q": "___ {im:era} tardi, {pp:abbiamo continuato}.",
+            "options": [
+              "*Anche se",
+              "Sebbene"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "A patto che…"
+      },
+      {
+        "text": [
+          "**Figlio:** Mamma, {ip:posso} andare al concerto sabato sera? **Mamma:** Sì, purché tu {csp:torni} entro mezzanotte. **Figlio:** E se il concerto {ip:finisce} tardi? **Mamma:** Allora {ip:puoi} restare fino all'una, a patto che ti {csp:accompagni} a casa tuo cugino. **Figlio:** E se lui non {ip:viene}? **Mamma:** Allora non ci {ip:vai}, a meno che non {csp:trovi} un altro amico con la macchina!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi il dialogo e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "A che ora {ip:deve} tornare il ragazzo, di solito?",
+            "options": [
+              "*entro mezzanotte",
+              "entro l'una",
+              "quando {ip:vuole}"
+            ]
+          },
+          {
+            "q": "Quando {ip:può} restare fino all'una?",
+            "options": [
+              "*se lo {ip:accompagna} a casa il cugino",
+              "se {ip:va} con la mamma",
+              "se il concerto {ip:è} bello"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "E tu? Completa le condizioni con il congiuntivo.",
+        "questions": [
+          "Ti {ip:presto} il libro, purché me lo (restituire) [[restituisca#csp]] presto.",
+          "{fs:Verremo} alla festa, a patto che non (finire) [[finisca#csp]] troppo tardi.",
+          "{ip:Andiamo} al mare, a meno che non (fare) [[faccia#csp]] freddo.",
+          "Ti {ip:aiuto}, a condizione che anche tu mi (aiutare) [[aiuti#csp]]."
+        ]
+      },
+      {
+        "h": "Prima che… prima di…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *prima che* + congiuntivo o *prima di* + infinito.",
+        "questions": [
+          "{imv:Lavati} le mani [[prima di]] mangiare.",
+          "{ip:Chiudiamo} le finestre [[prima che]] {csp:cominci} a piovere.",
+          "{pp:Ho finito} i compiti [[prima che]] {csi:tornassero} i miei genitori.",
+          "{imv:Spegni} la luce [[prima di]] uscire."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Senza* o *senza che*?",
+        "questions": [
+          {
+            "q": "{pp:È partito} ___ dire niente.",
+            "options": [
+              "*senza",
+              "senza che"
+            ]
+          },
+          {
+            "q": "{pp:È partito} ___ nessuno lo {csi:sapesse}.",
+            "options": [
+              "*senza che",
+              "senza"
+            ]
+          },
+          {
+            "q": "{pp:Abbiamo organizzato} la festa ___ lei se ne {csi:accorgesse}.",
+            "options": [
+              "*senza che",
+              "senza"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "*Perché*: causa o scopo? Abbina ogni frase al tipo giusto.",
+        "pairs": [
+          [
+            "{ip:Resto} a casa perché {ip:sono} malato.",
+            "causa"
+          ],
+          [
+            "{ip:Parlo} piano perché il bambino {csp:dorma}.",
+            "scopo"
+          ],
+          [
+            "{pp:Ho chiamato} perché {im:ero} preoccupata.",
+            "causa"
+          ],
+          [
+            "Ti {ip:scrivo} perché tu {csp:sappia} la verità.",
+            "scopo"
+          ],
+          [
+            "{pp:Siamo usciti} perché {im:faceva} bel tempo.",
+            "causa"
+          ],
+          [
+            "Te lo {ip:ripeto} perché tu non lo {csp:dimentichi}.",
+            "scopo"
+          ]
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Benché è tardi, esco.",
             "a": [
+              "Benché sia tardi, esco.",
+              "Anche se è tardi, esco."
+            ]
+          },
+          {
+            "q": "Ci metto due ore per fare la torta, ci vuole tre uova.",
+            "a": [
+              "Ci metto due ore per fare la torta, ci vogliono tre uova."
+            ]
+          },
+          {
+            "q": "Ce l'ho fatto!",
+            "a": [
+              "Ce l'ho fatta!"
+            ]
+          },
+          {
+            "q": "Esco prima che piove.",
+            "a": [
+              "Esco prima che piova."
+            ]
+          },
+          {
+            "q": "Anna se n'è andato.",
+            "a": [
+              "Anna se n'è andata."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "faremo / la / ce",
+            "a": [
+              "Ce la faremo!",
               "Ce la faremo."
             ]
           },
           {
-            "q": "I can't take it any more.",
+            "q": "sia / benché / tardi / esco",
             "a": [
-              "Non ce la faccio più."
+              "Benché sia tardi, esco.",
+              "Benché sia tardi esco."
             ]
           },
           {
-            "q": "I'm going away.",
+            "q": "vado / ne / me",
             "a": [
               "Me ne vado.",
-              "Io me ne vado."
+              "Me ne vado!"
             ]
           },
           {
-            "q": "It takes two hours.",
+            "q": "metto / ci / un'ora",
             "a": [
-              "Ci vogliono due ore."
+              "Ci metto un'ora."
             ]
           }
         ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Davanti a una vocale *la* e *ne* perdono la vocale e si mette l'apostrofo: *ce l'ho fatta, se n'è andato*. *Ce l'ho* si dice in un fiato solo, come una parola: «celo»."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma con l'apostrofo.",
+        "questions": [
+          "Ce la {pp:ho fatta}. → [[Ce l'ho fatta]].",
+          "Se ne {pp:è andato}. → [[Se n'è andato]].",
+          "Ce la {pp:abbiamo fatta}! → [[Ce l'abbiamo fatta]]!",
+          "Me ne {pp:ero dimenticato}. → [[Me n'ero dimenticato]]."
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So dire «anche se» in due modi: *Benché sia tardi… Anche se è tardi…*",
+          "So mettere una condizione: *Vengo, purché tu paghi.*",
+          "So distinguere *perché* (causa) e *perché* (scopo).",
+          "So usare *prima che, senza che* e *prima di, senza*.",
+          "So usare *farcela, andarsene, metterci, volerci*.",
+          "So raccontare una sfida che ho superato."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Un gruppo di ciclisti su una strada di montagna; il primo indossa una maglia rosa"
+      },
+      {
+        "text": [
+          "**Il Giro d'Italia e la maglia rosa**",
+          "Il Giro d'Italia {ip:è} la corsa ciclistica più famosa del paese. La prima edizione {pr:si corse} nel 1909 e da allora, quasi ogni anno, a maggio, i corridori {ip:attraversano} l'Italia in tre settimane, tra pianure, colline e montagne.",
+          "Chi {ip:è} primo in classifica {ip:indossa} la maglia rosa, che {ip:esiste} dal 1931. Perché rosa? Perché {ip:è} il colore delle pagine della «Gazzetta dello Sport», il giornale che {pp:ha creato} il Giro.",
+          "Il Giro {ip:ha} anche le sue leggende. Negli anni Quaranta e Cinquanta l'Italia si {im:divideva} tra i tifosi di Gino Bartali e quelli di Fausto Coppi. Bartali, benché {csi:fosse} già un campione famoso, durante la guerra {pr:aiutò} molte persone ebree a salvarsi: {im:nascondeva} documenti falsi nel telaio della sua bicicletta. Lo {ip:sappiamo} soprattutto dopo la sua morte, perché lui non ne {im:parlava} quasi mai.",
+          "Ancora oggi, a maggio, milioni di italiani {ip:aspettano} il passaggio del Giro lungo le strade del loro paese, anche se lo {ip:vedono} solo per pochi secondi."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La prima edizione del Giro {ip:è} del 1909.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il Giro di solito si {ip:corre} in agosto.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La maglia {ip:è} rosa per il colore della «Gazzetta dello Sport».",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Bartali {im:raccontava} spesso a tutti quello che {tp:aveva fatto}.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Bartali {im:nascondeva} documenti nella sua bicicletta.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Chi {ip:indossa} la maglia rosa?",
+            "options": [
+              "*il primo in classifica",
+              "il corridore più giovane",
+              "il vincitore dell'anno prima"
+            ]
+          },
+          {
+            "q": "Chi {im:era} il grande rivale di Bartali?",
+            "options": [
+              "*Fausto Coppi",
+              "Marco Pantani",
+              "Felice Gimondi"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le congiunzioni.",
+        "questions": [
+          "Bartali, [[benché]] {csi:fosse} già un campione famoso, {pr:aiutò} molte persone.",
+          "Milioni di italiani {ip:aspettano} il Giro, [[anche se]] lo {ip:vedono} solo per pochi secondi."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Nel tuo paese c'{ip:è} uno sport o una gara che tutti {ip:seguono}? Racconta.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta una sfida che {pp:hai affrontato}: uno sport, un esame, un viaggio, un lavoro nuovo.",
+        "cues": [
+          "Qual {im:era} la sfida e perché {pp:hai deciso} di affrontarla?",
+          "Quali ostacoli {pp:hai trovato}? (*Benché…, Anche se…*)",
+          "Quanto tempo ci {pp:hai messo}? Che cosa ci {pp:è voluto}?",
+          "Com'{pp:è finita}? (*Ce l'ho fatta! / Non ce l'ho fatta, ma…*)"
+        ],
+        "start": "",
+        "model": "Due anni fa ho deciso di imparare a nuotare bene per fare la traversata del lago vicino a casa mia: tre chilometri da una riva all'altra.\nBenché avessi poco tempo per colpa del lavoro, andavo in piscina tre sere alla settimana. All'inizio ci mettevo un'ora per fare un chilometro, e più di una volta volevo andarmene a casa a metà allenamento.\nCi sono voluti otto mesi di costanza, ma alla fine il giorno della gara ero pronto. Anche se l'acqua era freddissima, non mi sono fermato nemmeno una volta.\nQuando sono uscito dall'acqua, i miei amici mi aspettavano sulla riva: ce l'avevo fatta!"
       }
     ]
   }

@@ -1,323 +1,205 @@
 {
-  "title": "Questo {ip:è} il mio quaderno",
+  "title": "Un'amica francese",
   "translation": "",
-  "topics": "L'articolo determinativo, il plurale dei nomi, c'è e ci sono, gli aggettivi possessivi, i verbi in -are",
+  "topics": "Il genere dei nomi, l'articolo indeterminativo, gli aggettivi di nazionalità, domande e negazione, essere e avere",
   "grammar": {
     "explain": [
-      "*Il, lo, la* e i loro plurali sono gli articoli determinativi. Quale usare dipende dal genere, dal numero e dalla prima lettera della parola che segue.",
+      "Ogni nome italiano è maschile o femminile: non ci sono vie di mezzo né eccezioni. Le parole che vanno con il nome, come gli articoli e gli aggettivi, cambiano per accordarsi con lui.",
       {
         "grid": [
           {
-            "wide": true,
             "table": {
-              "title": "L'articolo determinativo",
-              "groups": [
-                [
-                  "",
-                  1
-                ],
-                [
-                  "maschile",
-                  3
-                ],
-                [
-                  "femminile",
-                  2
-                ]
-              ],
-              "rows": [
-                [
-                  "singolare",
-                  [
-                    "**il**",
-                    "il tavolo",
-                    "il quaderno",
-                    "il giornale"
-                  ],
-                  [
-                    "**l'**",
-                    "l'ombrello",
-                    "l'amico",
-                    "l'orologio"
-                  ],
-                  [
-                    "**lo**",
-                    "lo zaino",
-                    "lo studente",
-                    "lo specchio"
-                  ],
-                  [
-                    "**la**",
-                    "la sedia",
-                    "la borsa",
-                    "la finestra"
-                  ],
-                  [
-                    "**l'**",
-                    "l'aula",
-                    "l'insegnante"
-                  ]
-                ],
-                [
-                  "plurale",
-                  [
-                    "**i**",
-                    "i tavoli",
-                    "i quaderni",
-                    "i giornali"
-                  ],
-                  [
-                    "**gli**",
-                    "gli ombrelli",
-                    "gli amici",
-                    "gli orologi"
-                  ],
-                  [
-                    "**gli**",
-                    "gli zaini",
-                    "gli studenti",
-                    "gli specchi"
-                  ],
-                  [
-                    "**le**",
-                    "le sedie",
-                    "le borse",
-                    "le finestre"
-                  ],
-                  [
-                    "**le**",
-                    "le aule",
-                    "le insegnanti"
-                  ]
-                ]
-              ]
-            },
-            "note": [
-              "**il** → **i**: parole maschili che cominciano con una consonante.",
-              "**lo** → **gli**: parole maschili che cominciano con *s* + consonante, *z*, *ps* o *gn*, le stesse che prendono *uno*.",
-              "**l'** → **gli**: parole maschili che cominciano con una vocale.",
-              "**la** → **le**: parole femminili che cominciano con una consonante.",
-              "**l'** → **le**: parole femminili che cominciano con una vocale."
-            ]
-          },
-          {
-            "table": {
-              "title": "Il nome plurale",
+              "title": "Il nome singolare",
               "head": [
-                "",
-                "singolare",
-                "plurale"
-              ],
-              "rows": [
-                [
-                  {
-                    "text": "maschile",
-                    "rows": 2
-                  },
-                  "il tavol**o**",
-                  "i tavol**i**"
-                ],
-                [
-                  null,
-                  "il giornal**e**",
-                  "i giornal**i**"
-                ],
-                [
-                  {
-                    "text": "femminile",
-                    "rows": 2
-                  },
-                  "la sedi**a**",
-                  "le sedi**e**"
-                ],
-                [
-                  null,
-                  "la lezion**e**",
-                  "le lezion**i**"
-                ]
-              ]
-            },
-            "note": [
-              "**-o** diventa **-i**, **-a** diventa **-e**, **-e** diventa **-i** per tutti e due i generi.",
-              "Le parole che finiscono con una vocale accentata non cambiano: *la città, le città*."
-            ]
-          },
-          {
-            "table": {
-              "title": "C'è / ci sono",
-              "rows": [
-                [
-                  "In cucina **{ip:c'è}** il tavolo."
-                ],
-                [
-                  "In aula **{ip:ci sono}** le sedie."
-                ]
-              ]
-            },
-            "note": "*C'è* va con una cosa sola, *ci sono* con più di una."
-          },
-          {
-            "wide": true,
-            "table": {
-              "title": "Gli aggettivi possessivi",
-              "groups": [
-                [
-                  "singolare",
-                  2
-                ],
-                [
-                  "plurale",
-                  2
-                ]
-              ],
-              "head": [
-                "maschile",
-                "femminile",
                 "maschile",
                 "femminile"
               ],
               "rows": [
                 [
-                  "Questo {ip:è} il **mio** zaino.",
-                  "Questa {ip:è} la **mia** borsa.",
-                  "Questi {ip:sono} i **miei** quaderni.",
-                  "Queste {ip:sono} le **mie** penne."
+                  "un tavol**o**",
+                  "una sedi**a**"
                 ],
                 [
-                  "Questo {ip:è} il **tuo** zaino.",
-                  "Questa {ip:è} la **tua** borsa.",
-                  "Questi {ip:sono} i **tuoi** quaderni.",
-                  "Queste {ip:sono} le **tue** penne."
-                ],
-                [
-                  "Questo {ip:è} il **suo** zaino.",
-                  "Questa {ip:è} la **sua** borsa.",
-                  "Questi {ip:sono} i **suoi** quaderni.",
-                  "Queste {ip:sono} le **sue** penne."
-                ],
-                [
-                  "Questo {ip:è} il **nostro** zaino.",
-                  "Questa {ip:è} la **nostra** borsa.",
-                  "Questi {ip:sono} i **nostri** quaderni.",
-                  "Queste {ip:sono} le **nostre** penne."
-                ],
-                [
-                  "Questo {ip:è} il **vostro** zaino.",
-                  "Questa {ip:è} la **vostra** borsa.",
-                  "Questi {ip:sono} i **vostri** quaderni.",
-                  "Queste {ip:sono} le **vostre** penne."
-                ],
-                [
-                  "Questo {ip:è} il **loro** zaino.",
-                  "Questa {ip:è} la **loro** borsa.",
-                  "Questi {ip:sono} i **loro** quaderni.",
-                  "Queste {ip:sono} le **loro** penne."
+                  "un giornal**e**",
+                  "una lezion**e**"
                 ]
               ]
             },
-            "note": [
-              "Le righe vanno da *io* (*mio*) a *loro* (*loro*). *Suo* è di lui o di lei, e anche la forma di cortesia (*Lei*).",
-              "Il possessivo si accorda con la cosa, non con chi la possiede: Marco e Giulia dicono tutti e due *la mia borsa*.",
-              "Va con l'articolo: *il mio zaino, la tua borsa*. *Loro* non cambia mai.",
-              "*Questo* e *questa* indicano una cosa sola, *questi* e *queste* più di una."
-            ]
+            "note": "I nomi in *-o* di solito sono maschili, quelli in *-a* femminili. I nomi in *-e* possono essere maschili o femminili: per questo si imparano con l'articolo."
           },
           {
-            "wide": true,
             "table": {
-              "title": "La prima coniugazione (verbi in *-are*)",
-              "groups": [
-                [
-                  "",
-                  1
-                ],
-                [
-                  "lavor**are**",
-                  2
-                ],
-                [
-                  "studi**are**",
-                  2
-                ],
-                [
-                  "chiam**arsi**",
-                  2
-                ]
+              "title": "L'articolo indeterminativo",
+              "head": [
+                "maschile",
+                "femminile"
               ],
               "rows": [
                 [
+                  "**un** quaderno",
+                  "**una** borsa"
+                ],
+                [
+                  "**un** ombrello",
+                  "**un'**amica"
+                ],
+                [
+                  "**uno** zaino",
+                  ""
+                ]
+              ]
+            },
+            "note": "*Uno* va davanti a *s* + consonante, *z*, *ps* e *gn*: *uno zaino, uno studente*. *Un'* è solo per le parole femminili che cominciano con una vocale. Le parole maschili prendono *un* senza apostrofo: *un ombrello*."
+          },
+          {
+            "table": {
+              "title": "L'aggettivo di nazionalità",
+              "head": [
+                "",
+                "maschile",
+                "femminile"
+              ],
+              "rows": [
+                [
+                  {
+                    "text": "singolare",
+                    "rows": 2
+                  },
+                  "Pablo {ip:è} spagnol**o**",
+                  "Carmen {ip:è} spagnol**a**"
+                ],
+                [
+                  null,
+                  "Pierre {ip:è} frances**e**",
+                  "Claire {ip:è} frances**e**"
+                ],
+                [
+                  {
+                    "text": "plurale",
+                    "rows": 2
+                  },
+                  "Pablo e Diego {ip:sono} spagnol**i**",
+                  "Carmen e Lucía {ip:sono} spagnol**e**"
+                ],
+                [
+                  null,
+                  "Pierre e Louis {ip:sono} frances**i**",
+                  "Claire e Sophie {ip:sono} frances**i**"
+                ]
+              ]
+            },
+            "wide": true,
+            "note": [
+              "L'aggettivo si accorda con la persona nel genere e nel numero.",
+              "Gli aggettivi in **-o** hanno quattro finali: italian**o** (lui), italian**a** (lei), italian**i** (loro, uomini), italian**e** (loro, donne).",
+              "Gli aggettivi in **-e** ne hanno solo due, uguali per uomini e donne: frances**e** (lui o lei), frances**i** (loro).",
+              "Un gruppo di uomini e donne prende il maschile: *Pablo e Carmen {ip:sono} spagnoli*."
+            ]
+          },
+          {
+            "table": {
+              "rows": [
+                [
+                  "La forma interrogativa",
+                  "{ip:Sei} spagnolo?"
+                ],
+                [
+                  "La forma affermativa",
+                  "Sì, {ip:sono} spagnolo."
+                ],
+                [
+                  "La forma negativa",
+                  "No, non {ip:sono} spagnolo."
+                ]
+              ]
+            },
+            "wide": true,
+            "note": "Una domanda ha le stesse parole di un'affermazione: cambia solo la voce, che sale alla fine. Per dire di no, si mette *non* subito prima del verbo."
+          },
+          {
+            "table": {
+              "title": "Il verbo *essere*",
+              "rows": [
+                [
                   "io",
-                  "{ip:lavor**o**}",
+                  "{ip:sono}",
                   {
-                    "text": "in un ristorante.",
-                    "rows": 6
-                  },
-                  "{ip:studi**o**}",
-                  {
-                    "text": "storia.",
-                    "rows": 6
-                  },
-                  "{ip:mi chiam**o**}",
-                  {
-                    "text": "Giulia.",
+                    "text": "Giulia / Matteo.",
                     "rows": 3
                   }
                 ],
                 [
                   "tu",
-                  "{ip:lavor**i**}",
-                  null,
-                  "{ip:stud**i**}",
-                  null,
-                  "{ip:ti chiam**i**}",
+                  "{ip:sei}",
                   null
                 ],
                 [
                   "lui, lei, Lei",
-                  "{ip:lavor**a**}",
-                  null,
-                  "{ip:studi**a**}",
-                  null,
-                  "{ip:si chiam**a**}",
+                  "{ip:è}",
                   null
                 ],
                 [
                   "noi",
-                  "{ip:lavor**iamo**}",
-                  null,
-                  "{ip:stud**iamo**}",
-                  null,
-                  "{ip:ci chiam**iamo**}",
+                  "{ip:siamo}",
                   {
-                    "text": "Giulia e Paolo.",
+                    "text": "Anna e Sara / Luca e Marco.",
                     "rows": 3
                   }
                 ],
                 [
                   "voi",
-                  "{ip:lavor**ate**}",
-                  null,
-                  "{ip:studi**ate**}",
-                  null,
-                  "{ip:vi chiam**ate**}",
+                  "{ip:siete}",
                   null
                 ],
                 [
                   "loro",
-                  "{ip:lavor**ano**}",
-                  null,
-                  "{ip:studi**ano**}",
-                  null,
-                  "{ip:si chiam**ano**}",
+                  "{ip:sono}",
                   null
                 ]
               ]
             },
-            "note": [
-              "Si toglie *-are* e si aggiunge **-o, -i, -a, -iamo, -ate, -ano**.",
-              "I verbi in *-iare* come *studiare* non raddoppiano la *i*: *tu studi, noi studiamo*.",
-              "Nei verbi come *chiamarsi*, *mi, ti, si, ci, vi, si* vanno prima del verbo: *mi chiamo Giulia*."
-            ]
+            "note": "*Lei* con la lettera maiuscola è la forma di cortesia e ha la stessa forma di *lei*. Di solito il pronome non si dice: *{ip:Sono} Giulia*."
+          },
+          {
+            "table": {
+              "title": "Il verbo *avere*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:ho}",
+                  {
+                    "text": "una sorella a Roma.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:hai}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:ha}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:abbiamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:avete}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:hanno}",
+                  null
+                ]
+              ]
+            },
+            "note": "La *h* non si pronuncia mai: *ho* si legge come *o*."
           }
         ]
       }
@@ -327,90 +209,72 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Scrivi l'articolo determinativo: il, lo, l', la, i, gli o le.",
+        "prompt": "Scrivi l'articolo indeterminativo: un, uno, una o un'.",
         "questions": [
-          "[[il]] tavolo",
-          "[[lo]] specchio",
-          "[[l']]orologio",
-          "[[la]] finestra",
-          "[[l']]aula",
-          "[[i]] telefoni",
-          "[[gli]] zaini",
-          "[[gli]] amici",
-          "[[le]] sedie",
-          "[[le]] aule"
+          "[[un]] quaderno",
+          "[[una]] borsa",
+          "[[uno]] zaino",
+          "[[un']]amica",
+          "[[un]] ombrello",
+          "[[uno]] studente",
+          "[[una]] lezione",
+          "[[un]] giornale"
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi il plurale.",
+        "prompt": "Scrivi l'aggettivo con la finale giusta.",
         "questions": [
-          "il libro → i [[libri]]",
-          "la finestra → le [[finestre]]",
-          "il giornale → i [[giornali]]",
-          "la lezione → le [[lezioni]]",
-          "lo studente → gli [[studenti]]",
-          "la città → le [[città]]"
+          "Marta {ip:è} [[italiana]]. (italiano)",
+          "Paolo e Carlo {ip:sono} [[italiani]]. (italiano)",
+          "Carmen e Lucía {ip:sono} [[spagnole]]. (spagnolo)",
+          "Pierre {ip:è} [[francese]]. (francese)",
+          "Claire e Sophie {ip:sono} [[francesi]]. (francese)",
+          "Diego {ip:è} [[spagnolo]]. (spagnolo)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta di essere o avere.",
+        "questions": [
+          "Io [[sono#ip]] Giulia.",
+          "Tu [[sei#ip]] italiano?",
+          "Noi [[siamo#ip]] studenti.",
+          "Loro [[sono#ip]] spagnoli.",
+          "Io [[ho#ip]] una sorella a Roma.",
+          "Lei [[ha#ip]] un amico a Napoli.",
+          "Voi [[avete#ip]] uno zaino?",
+          "Loro [[hanno#ip]] una casa al mare."
         ]
       },
       {
         "type": "choice",
-        "prompt": "C'è o ci sono?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "In aula ___ una lavagna.",
+            "q": "{ip:Sei} italiano? No, …",
             "options": [
-              "*c'è",
-              "ci sono"
+              "*non sono italiano.",
+              "sono non italiano.",
+              "no sono italiano."
             ]
           },
           {
-            "q": "In cucina ___ quattro sedie.",
+            "q": "{ip:Sei} spagnola? Sì, …",
             "options": [
-              "c'è",
-              "*ci sono"
+              "*sono spagnola.",
+              "non sono spagnola.",
+              "sono spagnolo."
             ]
           },
           {
-            "q": "In classe ___ molti studenti.",
+            "q": "Quale frase è una domanda?",
             "options": [
-              "c'è",
-              "*ci sono"
-            ]
-          },
-          {
-            "q": "Qui ___ un ristorante?",
-            "options": [
-              "*c'è",
-              "ci sono"
+              "Pierre è francese.",
+              "*Pierre è francese?",
+              "Pierre non è francese."
             ]
           }
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi l'articolo e il possessivo.",
-        "questions": [
-          "(io) Questo {ip:è} [[il mio]] libro.",
-          "(tu) Questa {ip:è} [[la tua]] borsa.",
-          "(lui) Questi {ip:sono} [[i suoi]] quaderni.",
-          "(noi) Queste {ip:sono} [[le nostre]] penne.",
-          "(voi) Questo {ip:è} [[il vostro]] tavolo.",
-          "(loro) Questa {ip:è} [[la loro]] aula."
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi la forma giusta del verbo.",
-        "questions": [
-          "Io [[lavoro#ip]] in un negozio. (lavorare)",
-          "Tu [[studi#ip]] storia? (studiare)",
-          "Lei [[parla#ip]] italiano. (parlare)",
-          "Noi [[abitiamo#ip]] a Roma. (abitare)",
-          "Voi [[lavorate#ip]] in un ristorante? (lavorare)",
-          "Loro [[studiano#ip]] medicina. (studiare)",
-          "Come [[ti chiami#ip]]? (chiamarsi)",
-          "Io [[mi chiamo#ip]] Paolo. (chiamarsi)"
         ]
       }
     ]
@@ -418,84 +282,68 @@
   "vocabulary": {
     "words": [
       [
-        "il tavolo",
+        "un tavolo",
         "ci mangi sopra"
       ],
       [
-        "il telefono",
-        "lo usi per chiamare"
+        "una sedia",
+        "ti siedi qui"
       ],
       [
-        "la finestra",
-        "da qui guardi fuori"
+        "un giornale",
+        "lo leggi per avere le notizie"
       ],
       [
-        "la lavagna",
-        "l'insegnante ci scrive in classe"
+        "una lezione",
+        "l'ora di scuola con l'insegnante"
       ],
       [
-        "l'aula",
-        "la stanza della lezione"
+        "un quaderno",
+        "ci scrivi a scuola"
       ],
       [
-        "la cucina",
-        "la stanza dove cucini"
+        "una penna",
+        "con questa scrivi"
       ],
       [
-        "la camera",
-        "la stanza dove dormi"
+        "una borsa",
+        "ci metti le tue cose quando esci"
       ],
       [
-        "l'appartamento",
-        "una casa in un palazzo"
+        "un ombrello",
+        "lo apri quando piove"
       ],
       [
-        "l'orologio",
-        "ti dice che ore sono"
+        "uno zaino",
+        "lo porti sulle spalle a scuola"
       ],
       [
-        "lo specchio",
-        "ti guardi qui la mattina"
+        "uno studente",
+        "un ragazzo che studia"
       ],
       [
-        "il negozio",
-        "qui compri le cose"
+        "un amico",
+        "un ragazzo a cui vuoi bene"
       ],
       [
-        "il ristorante",
-        "qui mangi fuori casa"
+        "un'amica",
+        "una ragazza a cui vuoi bene"
       ],
       [
-        "l'insegnante",
-        "fa lezione agli studenti"
+        "una sorella",
+        "la figlia dei tuoi genitori"
       ],
       [
-        "la storia",
-        "studia il passato"
+        "italiano",
+        "di Italia"
       ],
       [
-        "lavorare",
-        "fare un lavoro"
+        "spagnolo",
+        "di Spagna"
       ],
       [
-        "studiare",
-        "imparare a scuola o sui libri"
-      ],
-      [
-        "parlare",
-        "dire parole"
-      ],
-      [
-        "abitare",
-        "avere la casa in un posto"
-      ],
-      [
-        "guardare",
-        "usare gli occhi"
-      ],
-      [
-        "chiamarsi",
-        "avere un nome"
+        "francese",
+        "di Francia"
       ]
     ],
     "exercises": [
@@ -504,28 +352,28 @@
         "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la finestra",
-            "da qui guardi fuori"
+            "una sedia",
+            "ti siedi qui"
           ],
           [
-            "la cucina",
-            "la stanza dove cucini"
+            "un giornale",
+            "lo leggi per avere le notizie"
           ],
           [
-            "lo specchio",
-            "ti guardi qui la mattina"
+            "una borsa",
+            "ci metti le tue cose quando esci"
           ],
           [
-            "il negozio",
-            "qui compri le cose"
+            "un ombrello",
+            "lo apri quando piove"
           ],
           [
-            "l'aula",
-            "la stanza della lezione"
+            "uno zaino",
+            "lo porti sulle spalle a scuola"
           ],
           [
-            "abitare",
-            "avere la casa in un posto"
+            "una sorella",
+            "la figlia dei tuoi genitori"
           ]
         ]
       },
@@ -533,20 +381,21 @@
         "type": "gap",
         "prompt": "Completa con la parola giusta.",
         "questions": [
-          "In aula l'insegnante {ip:scrive} sulla [[lavagna]].",
-          "Marco {ip:lavora} in un [[ristorante]]: {ip:fa} il cameriere.",
-          "Il nostro [[appartamento]] {ip:è} in un palazzo del centro.",
-          "Giulia {ip:studia} il passato: {ip:studia} [[storia]].",
-          "L'[[insegnante]] {ip:fa} lezione agli studenti."
+          "Piove: {ip:apro} l'[[ombrello]].",
+          "Carmen {ip:mette} le sue cose in una [[borsa]].",
+          "Pierre {ip:studia}: {ip:è} uno [[studente]].",
+          "Claire {ip:è} un'[[amica]] di Carmen.",
+          "{ip:Ho} una [[sorella]] a Roma.",
+          "Pablo {ip:è} di Spagna: {ip:è} [[spagnolo]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Ciao! {ip:Mi chiamo} Giulia e {ip:abito} a Bologna con la mia amica Sara. Io {ip:studio} storia, Sara {ip:lavora} in un ristorante.",
-      "Il nostro appartamento {ip:è} piccolo. In cucina {ip:c'è} un tavolo e {ip:ci sono} quattro sedie. La mia camera {ip:ha} una finestra grande e uno specchio.",
-      "La sera Sara e io {ip:parliamo} in cucina e {ip:guardiamo} un film. I nostri amici Paolo e Marco {ip:abitano} qui vicino."
+      "Ciao! {ip:Sono} Carmen e {ip:sono} spagnola. Oggi {ip:ho} una lezione di italiano. {ip:Ho} uno zaino, un quaderno e un ombrello.",
+      "{ip:Ho} anche un'amica, Claire. Claire non {ip:è} spagnola, {ip:è} francese. Lei non {ip:ha} uno zaino, {ip:ha} una borsa.",
+      "Pierre {ip:è} uno studente nuovo. {ip:È} italiano? No, non {ip:è} italiano: {ip:è} francese, come Claire!"
     ],
     "exercises": [
       {
@@ -554,38 +403,38 @@
         "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Giulia {ip:studia} storia.",
+            "q": "Carmen {ip:è} spagnola.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "Sara {ip:lavora} in un negozio.",
+            "q": "Carmen {ip:ha} un ombrello.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Claire {ip:è} spagnola.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "L'appartamento {ip:è} grande.",
+            "q": "Claire {ip:ha} uno zaino.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "In cucina {ip:ci sono} quattro sedie.",
+            "q": "Pierre {ip:è} italiano.",
             "options": [
-              "*Vero",
-              "Falso"
-            ]
-          },
-          {
-            "q": "La sera Giulia e Sara {ip:guardano} un film.",
-            "options": [
-              "*Vero",
-              "Falso"
+              "Vero",
+              "*Falso"
             ]
           }
         ]
@@ -595,28 +444,28 @@
   "listening": {
     "transcript": [
       [
-        "Sara",
-        "Ciao! Come {ip:ti chiami}?"
+        "Carmen",
+        "Ciao! {ip:Sei} italiano?"
       ],
       [
-        "Paolo",
-        "{ip:Mi chiamo} Paolo. E tu?"
+        "Pierre",
+        "No, non {ip:sono} italiano, {ip:sono} francese. E tu?"
       ],
       [
-        "Sara",
-        "{ip:Mi chiamo} Sara. {ip:Studi} qui?"
+        "Carmen",
+        "Io {ip:sono} spagnola. {ip:Sono} Carmen."
       ],
       [
-        "Paolo",
-        "No, non {ip:studio}, {ip:lavoro} qui. Questa {ip:è} la mia aula."
+        "Pierre",
+        "Piacere, {ip:sono} Pierre. {ip:Hai} un quaderno?"
       ],
       [
-        "Sara",
-        "Ah, {ip:sei} l'insegnante! E questi {ip:sono} i tuoi libri?"
+        "Carmen",
+        "Sì, {ip:ho} un quaderno e una penna. Ecco!"
       ],
       [
-        "Paolo",
-        "Sì, {ip:sono} i miei libri. Benvenuta!"
+        "Pierre",
+        "Grazie!"
       ]
     ],
     "exercises": [
@@ -624,10 +473,9 @@
         "type": "gap",
         "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Come [[ti chiami#ip]]?",
-          "[[Mi chiamo#ip]] Paolo.",
-          "No, non studio, [[lavoro#ip]] qui.",
-          "Sì, sono [[i miei]] libri."
+          "No, non [[sono#ip]] italiano, [[sono#ip]] francese.",
+          "Io [[sono#ip]] spagnola.",
+          "Sì, [[ho#ip]] [[un]] quaderno e [[una]] penna."
         ]
       },
       {
@@ -635,11 +483,19 @@
         "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Paolo {ip:è}…",
+            "q": "Pierre {ip:è}…",
             "options": [
-              "uno studente",
-              "*l'insegnante",
-              "un cameriere"
+              "italiano",
+              "*francese",
+              "spagnolo"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:chiede} Pierre?",
+            "options": [
+              "*un quaderno",
+              "una penna",
+              "una borsa"
             ]
           }
         ]
@@ -653,49 +509,48 @@
         "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "una finestra → con l'articolo determinativo",
+            "q": "{ip:Chiedi} a un ragazzo se {ip:è} spagnolo.",
             "a": [
-              "la finestra"
+              "Sei spagnolo?"
             ]
           },
           {
-            "q": "uno zaino → al plurale, con l'articolo",
+            "q": "Pablo {ip:risponde} di sì.",
             "a": [
-              "gli zaini"
+              "Sì, sono spagnolo.",
+              "Si, sono spagnolo.",
+              "Sì sono spagnolo.",
+              "Si sono spagnolo."
             ]
           },
           {
-            "q": "{ip:Dici} che in cucina c'{ip:è} un tavolo.",
+            "q": "Claire {ip:risponde} che non {ip:è} spagnola, ma francese.",
             "a": [
-              "In cucina c'è un tavolo.",
-              "C'è un tavolo in cucina."
+              "No, non sono spagnola, sono francese.",
+              "No, non sono spagnola. Sono francese.",
+              "Non sono spagnola, sono francese.",
+              "No, non sono spagnola, ma francese."
             ]
           },
           {
-            "q": "{ip:Fai} vedere il tuo libro: «Questo…»",
+            "q": "Claire e Sophie: di dove {ip:sono}? (Francia)",
             "a": [
-              "Questo è il mio libro."
+              "Claire e Sophie sono francesi.",
+              "Sono francesi."
             ]
           },
           {
-            "q": "{ip:Dici} che tu e la tua famiglia {ip:abitate} a Roma. (noi)",
+            "q": "{ip:Dici} che {ip:hai} una sorella a Roma.",
             "a": [
-              "Abitiamo a Roma.",
-              "Noi abitiamo a Roma."
+              "Ho una sorella a Roma.",
+              "Io ho una sorella a Roma."
             ]
           },
           {
-            "q": "{ip:Chiedi} il nome a un ragazzo.",
+            "q": "{ip:Dici} che tu e Marco {ip:avete} un amico a Napoli. (noi)",
             "a": [
-              "Come ti chiami?"
-            ]
-          },
-          {
-            "q": "Giulia e Sara: che cosa {ip:studiano}? (storia)",
-            "a": [
-              "Studiano storia.",
-              "Loro studiano storia.",
-              "Giulia e Sara studiano storia."
+              "Abbiamo un amico a Napoli.",
+              "Noi abbiamo un amico a Napoli."
             ]
           }
         ]

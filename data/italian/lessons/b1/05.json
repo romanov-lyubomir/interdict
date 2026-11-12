@@ -1,162 +1,532 @@
 {
   "title": "Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}",
-  "translation": "When I arrived, the train had already left",
-  "topics": "The [tp:trapassato prossimo], the [fa:futuro anteriore], recognising the [pr:passato remoto]",
+  "translation": "",
+  "topics": "Il [tp:trapassato prossimo], il [fa:futuro anteriore] e i suoi usi, riconoscere il [pr:passato remoto] regolare e irregolare, viaggi difficili e storie del passato",
   "grammar": {
     "explain": [
+      "Quando raccontiamo, a volte un'azione è successa ancora prima di un'altra azione passata: *Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}.* Per questo serve il [tp:trapassato prossimo]. Nel futuro c'è un tempo simile, il [fa:futuro anteriore]: *Quando {fa:avrò finito}, ti {fs:chiamerò}.*",
       {
-        "h": "One step further back: the [tp:trapassato prossimo]"
-      },
-      "Use it for something that happened before another event in the past. It is the [pp:passato prossimo] with the auxiliary in the [im:imperfetto].",
-      {
-        "table": {
-          "head": [
-            "",
-            "mangiare (avere)",
-            "partire (essere)"
-          ],
-          "rows": [
-            [
-              "io",
-              "{tp:avevo mangiato}",
-              "{tp:ero partit**o**} / partit**a**"
-            ],
-            [
-              "tu",
-              "{tp:avevi mangiato}",
-              "{tp:eri partit**o**} / partit**a**"
-            ],
-            [
-              "lui / lei",
-              "{tp:aveva mangiato}",
-              "{tp:era partit**o**} / partit**a**"
-            ],
-            [
-              "noi",
-              "{tp:avevamo mangiato}",
-              "{tp:eravamo partit**i**} / {ip:partit**e**}"
-            ],
-            [
-              "voi",
-              "{tp:avevate mangiato}",
-              "{tp:eravate partit**i**} / {ip:partit**e**}"
-            ],
-            [
-              "loro",
-              "{tp:avevano mangiato}",
-              "{tp:erano partit**i**} / {ip:partit**e**}"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [tp:trapassato prossimo]",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*mangiare* (con *avere*)",
+                  2
+                ],
+                [
+                  "*partire* (con *essere*)",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{tp:**avevo** mangiato}",
+                  {
+                    "text": "prima delle otto.",
+                    "rows": 6
+                  },
+                  "{tp:**ero** partit**o**/partit**a**}",
+                  {
+                    "text": "il giorno prima.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{tp:**avevi** mangiato}",
+                  null,
+                  "{tp:**eri** partit**o**/partit**a**}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "{tp:**aveva** mangiato}",
+                  null,
+                  "{tp:**era** partit**o**/partit**a**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{tp:**avevamo** mangiato}",
+                  null,
+                  "{tp:**eravamo** partit**i**/partit**e**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{tp:**avevate** mangiato}",
+                  null,
+                  "{tp:**eravate** partit**i**/partit**e**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{tp:**avevano** mangiato}",
+                  null,
+                  "{tp:**erano** partit**i**/partit**e**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Si forma come il [pp:passato prossimo], con l'ausiliare all'[im:imperfetto]: *{pp:ho mangiato} → {tp:avevo mangiato}*, *{pp:sono partito} → {tp:ero partito}*.",
+              "L'ausiliare e l'accordo del participio sono gli stessi del [pp:passato prossimo]: *Giulia {tp:era} già {tp:uscita}.*"
             ]
-          ]
-        }
-      },
-      "Compare the order of events: *Quando {pp:sono arrivato}, il treno {pp:è partito}* means that I arrived first. *Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}* means that the train had left first.",
-      {
-        "h": "One step before the future: the [fa:futuro anteriore]"
-      },
-      "It's the same idea, with the auxiliary in the future: *{fa:avrò mangiato}, {fa:sarò partito}*. Use it for an action that will be finished before another future one.",
-      {
-        "table": {
-          "head": [
-            "First",
-            "Then"
-          ],
-          "rows": [
-            [
-              "Quando {fa:avrò finito},",
-              "ti {fs:chiamerò}."
-            ],
-            [
-              "Dopo che {fa:sarete arrivati},",
-              "{fs:mangeremo}."
-            ],
-            [
-              "Appena {fa:avrà letto} la lettera,",
-              "{fs:capirà}."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Prima o dopo?",
+              "head": [
+                "[pp:passato prossimo]: le azioni una dopo l'altra",
+                "[tp:trapassato prossimo]: un'azione ancora prima"
+              ],
+              "rows": [
+                [
+                  "Quando {pp:sono arrivato}, il treno **{pp:è partito}**. (prima io, poi il treno)",
+                  "Quando {pp:sono arrivato}, il treno **{tp:era} già {tp:partito}**. (prima il treno, poi io)"
+                ],
+                [
+                  "{pp:Ho mangiato} la torta e poi {pp:ho lavato} i piatti.",
+                  "{pp:Ho mangiato} la torta che **{tp:aveva fatto}** la nonna."
+                ],
+                [
+                  "{pp:Ho perso} le chiavi e {pp:sono rimasto} fuori.",
+                  "Non {pp:sono entrato} perché **{tp:avevo perso}** le chiavi."
+                ]
+              ]
+            },
+            "note": "Con il [tp:trapassato prossimo] si usano spesso *già, ancora, mai, appena, prima*: *Non {tp:ero} mai {tp:stato} a Torino. {tp:Avevamo} appena {tp:finito} di cenare.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [fa:futuro anteriore]",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*finire* (con *avere*)",
+                  2
+                ],
+                [
+                  "*arrivare* (con *essere*)",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{fa:**avrò** finito}",
+                  {
+                    "text": "il lavoro.",
+                    "rows": 6
+                  },
+                  "{fa:**sarò** arrivat**o**/arrivat**a**}",
+                  {
+                    "text": "a casa.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{fa:**avrai** finito}",
+                  null,
+                  "{fa:**sarai** arrivat**o**/arrivat**a**}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "{fa:**avrà** finito}",
+                  null,
+                  "{fa:**sarà** arrivat**o**/arrivat**a**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{fa:**avremo** finito}",
+                  null,
+                  "{fa:**saremo** arrivat**i**/arrivat**e**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{fa:**avrete** finito}",
+                  null,
+                  "{fa:**sarete** arrivat**i**/arrivat**e**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{fa:**avranno** finito}",
+                  null,
+                  "{fa:**saranno** arrivat**i**/arrivat**e**}",
+                  null
+                ]
+              ]
+            },
+            "note": "Si forma con l'ausiliare al [fs:futuro semplice] e il participio passato: *{fa:avrò finito}, {fa:sarò arrivato}*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Quando si usa il [fa:futuro anteriore]",
+              "head": [
+                "per…",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "un'azione futura che finisce prima di un'altra",
+                  "Quando **{fa:avrò finito}** l'università, {fs:cercherò} lavoro. Appena **{fa:sarete arrivati}**, {fs:mangeremo}. Dopo che **{fa:avrà letto}** la lettera, {fs:capirà}."
+                ],
+                [
+                  "un'ipotesi su una cosa passata",
+                  "Marco non {ip:risponde}: **{fa:sarà}** già **{fa:partito}**. Chi **{fa:avrà mangiato}** la torta?"
+                ]
+              ]
+            },
+            "note": [
+              "Con *quando, appena, dopo che* il [fa:futuro anteriore] dice che cosa succede prima; l'altra azione va al [fs:futuro semplice].",
+              "Anche il [fs:futuro semplice] fa ipotesi, ma sul presente: *Che ore {ip:sono}? {fs:Saranno} le otto.* Il [fa:futuro anteriore] le fa sul passato: *{fa:Saranno} {fa:usciti}.*"
             ]
-          ]
-        }
-      },
-      "It can also express a guess about the past: *Marco non c'{ip:è}: {fa:sarà} già {fa:partito}* (he must have left already).",
-      {
-        "h": "Recognising the [pr:passato remoto]"
-      },
-      "In books and history, you will meet the [pr:passato remoto]. In most of Italy, people use it little in speech, so at this level it's enough to recognise it, especially the third person.",
-      {
-        "table": {
-          "head": [
-            "Regular",
-            "Irregular"
-          ],
-          "rows": [
-            [
-              "{pr:parlò}, {pr:parlarono}",
-              "fu (was), furono (were)"
-            ],
-            [
-              "{pr:credé} / {pr:credette}, {pr:crederono}",
-              "ebbe (had), fece (did), disse (said)"
-            ],
-            [
-              "{pr:dormì}, {pr:dormirono}",
-              "nacque (was born), scrisse (wrote), vide (saw)"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [pr:passato remoto] dei verbi regolari",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*parlare*",
+                  2
+                ],
+                [
+                  "*credere*",
+                  2
+                ],
+                [
+                  "*dormire*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{pr:parl**ai**}",
+                  {
+                    "text": "con il re.",
+                    "rows": 6
+                  },
+                  "{pr:cred**ei**}",
+                  {
+                    "text": "alla storia.",
+                    "rows": 6
+                  },
+                  "{pr:dorm**ii**}",
+                  {
+                    "text": "cento anni.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{pr:parl**asti**}",
+                  null,
+                  "{pr:cred**esti**}",
+                  null,
+                  "{pr:dorm**isti**}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "{pr:parl**ò**}",
+                  null,
+                  "{pr:cred**é**}",
+                  null,
+                  "{pr:dorm**ì**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{pr:parl**ammo**}",
+                  null,
+                  "{pr:cred**emmo**}",
+                  null,
+                  "{pr:dorm**immo**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{pr:parl**aste**}",
+                  null,
+                  "{pr:cred**este**}",
+                  null,
+                  "{pr:dorm**iste**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{pr:parl**arono**}",
+                  null,
+                  "{pr:cred**erono**}",
+                  null,
+                  "{pr:dorm**irono**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Il [pr:passato remoto] si trova nei libri, nelle favole e nella storia. Nel parlato, in gran parte d'Italia, si usa il [pp:passato prossimo]; al Sud invece si sente ancora spesso.",
+              "A questo livello basta riconoscerlo, soprattutto alla terza persona: *{pr:parlò}, {pr:parlarono}*. Molti verbi in *-ere* hanno anche le forme *-etti, -ette, -ettero*: *{pr:credette}, {pr:credettero}*."
             ]
-          ]
-        }
-      },
-      "*Dante {pr:nacque} a Firenze nel 1265. {pr:Scrisse} la Divina Commedia.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [pr:passato remoto] di alcuni verbi irregolari",
+              "head": [
+                "infinito",
+                "io",
+                "lui/lei",
+                "loro"
+              ],
+              "rows": [
+                [
+                  "*essere*",
+                  "{pr:fui}",
+                  "{pr:fu}",
+                  "{pr:furono}"
+                ],
+                [
+                  "*avere*",
+                  "{pr:ebbi}",
+                  "{pr:ebbe}",
+                  "{pr:ebbero}"
+                ],
+                [
+                  "*fare*",
+                  "{pr:feci}",
+                  "{pr:fece}",
+                  "{pr:fecero}"
+                ],
+                [
+                  "*dire*",
+                  "{pr:dissi}",
+                  "{pr:disse}",
+                  "{pr:dissero}"
+                ],
+                [
+                  "*nascere*",
+                  "{pr:nacqui}",
+                  "{pr:nacque}",
+                  "{pr:nacquero}"
+                ],
+                [
+                  "*scrivere*",
+                  "{pr:scrissi}",
+                  "{pr:scrisse}",
+                  "{pr:scrissero}"
+                ],
+                [
+                  "*vedere*",
+                  "{pr:vidi}",
+                  "{pr:vide}",
+                  "{pr:videro}"
+                ],
+                [
+                  "*venire*",
+                  "{pr:venni}",
+                  "{pr:venne}",
+                  "{pr:vennero}"
+                ],
+                [
+                  "*vivere*",
+                  "{pr:vissi}",
+                  "{pr:visse}",
+                  "{pr:vissero}"
+                ],
+                [
+                  "*decidere*",
+                  "{pr:decisi}",
+                  "{pr:decise}",
+                  "{pr:decisero}"
+                ]
+              ]
+            },
+            "note": "I verbi irregolari cambiano solo in tre persone, *io, lui/lei, loro*: *{pr:scrissi}, {pr:scrisse}, {pr:scrissero}*. Le altre sono regolari: *{pr:scrivesti}, {pr:scrivemmo}, {pr:scriveste}*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the [tp:trapassato prossimo].",
+        "prompt": "Completa con il [tp:trapassato prossimo].",
         "questions": [
-          "Quando {pp:sono arrivato}, il treno [[era partito#tp]]. (partire)",
-          "Non {im:avevo} fame perché [[avevo mangiato#tp]]. (mangiare, io)",
-          "Anna {pp:ha detto} che [[aveva visto#tp]] Luca. (vedere)",
-          "Noi [[eravamo già usciti#tp]] quando {pp:ha telefonato}. (già, uscire – a group of men)",
-          "Le ragazze [[erano tornate#tp]] tardi. (tornare)"
+          "Quando {pp:sono arrivata}, il film (cominciare) [[era già cominciato|era cominciato#tp]].",
+          "Non {pp:ho mangiato} niente perché (io, pranzare) [[avevo pranzato#tp]] tardi.",
+          "Marco {pp:ha letto} il libro che gli (tu, regalare) [[avevi regalato#tp]].",
+          "Quando {pp:siamo usciti}, (smettere) [[aveva smesso#tp]] di piovere.",
+          "Le ragazze {im:erano} stanche perché (dormire) [[avevano dormito#tp]] poco.",
+          "Non {pp:siamo entrati}: il museo (chiudere) [[aveva chiuso#tp]] alle cinque."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "[pp:passato prossimo] o [tp:trapassato prossimo]? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Quando {pp:sono arrivato} alla stazione, il treno ___ già.",
+            "options": [
+              "{pp:è partito}",
+              "*{tp:era partito}"
+            ]
+          },
+          {
+            "q": "Ieri ___ a casa alle sei e poi {pp:ho cenato}.",
+            "options": [
+              "*{pp:sono tornato}",
+              "{tp:ero tornato}"
+            ]
+          },
+          {
+            "q": "Non {pp:ho riconosciuto} Paolo: non lo ___ mai prima.",
+            "options": [
+              "{pp:ho visto}",
+              "*{tp:avevo visto}"
+            ]
+          },
+          {
+            "q": "{pp:Abbiamo mangiato} la pizza che ___ Lucia.",
+            "options": [
+              "{pp:ha fatto}",
+              "*{tp:aveva fatto}"
+            ]
+          },
+          {
+            "q": "Stamattina mi ___ alle sette, poi {pp:sono uscito}.",
+            "options": [
+              "*{pp:sono svegliato}",
+              "{tp:ero svegliato}"
+            ]
+          }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the [fa:futuro anteriore].",
+        "prompt": "Completa con il [fa:futuro anteriore].",
         "questions": [
-          "Quando [[avrò finito#fa]], ti {fs:chiamerò}. (finire, io)",
-          "Appena [[sarai arrivato#fa]], {fs:mangeremo}. (arrivare, tu – a man)",
-          "Dopo che [[avremo pagato#fa]], {fs:usciremo}. (pagare, noi)",
-          "Marco non {ip:risponde}: [[sarà uscito#fa]]. (uscire)"
+          "Quando (io, finire) [[avrò finito#fa]] i compiti, {fs:uscirò}.",
+          "Appena (voi, arrivare) [[sarete arrivati#fa]], {fs:mangeremo}.",
+          "Dopo che (lei, leggere) [[avrà letto#fa]] la lettera, {fs:capirà} tutto.",
+          "Ti {fs:chiamerò} quando (io, parlare) [[avrò parlato#fa]] con il direttore.",
+          "Quando (loro, partire) [[saranno partiti#fa]], la casa {fs:sarà} vuota."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa {fa:sarà successo}? Scegli l'ipotesi giusta.",
+        "questions": [
+          {
+            "q": "Luca non {ip:risponde} al telefono.",
+            "options": [
+              "*{fa:Avrà dimenticato} il telefono a casa.",
+              "{fs:Dimenticherà} il telefono.",
+              "{pp:Ha dimenticato} il telefono domani."
+            ]
+          },
+          {
+            "q": "Che ore {ip:sono}? Non {ip:ho} l'orologio.",
+            "options": [
+              "*{fs:Saranno} le sei.",
+              "{fa:Saranno state} le sei.",
+              "{pp:Sono state} le sei."
+            ]
+          },
+          {
+            "q": "La torta non c'{ip:è} più!",
+            "options": [
+              "*Chi l'{fa:avrà mangiata}?",
+              "Chi la {fs:mangerà}?",
+              "Chi la {ip:mangia}?"
+            ]
+          },
+          {
+            "q": "Anna {ip:ha} gli occhi rossi.",
+            "options": [
+              "*{fa:Avrà pianto}.",
+              "{fs:Piangerà}.",
+              "{tp:Aveva pianto} domani."
+            ]
+          },
+          {
+            "q": "I ragazzi non {ip:sono} ancora qui.",
+            "options": [
+              "*{fa:Avranno perso} l'autobus.",
+              "{fs:Perderanno} l'autobus ieri.",
+              "{tp:Avevano perso} l'autobus domani."
+            ]
+          }
         ]
       },
       {
         "type": "match",
-        "prompt": "Match the [pr:passato remoto] with the [pp:passato prossimo].",
+        "prompt": "Abbina ogni forma del [pr:passato remoto] al suo infinito.",
         "pairs": [
           [
-            "{pr:nacque}",
-            "è nato"
-          ],
-          [
             "{pr:fu}",
-            "è stato"
+            "essere"
           ],
           [
-            "{pr:scrisse}",
-            "ha scritto"
+            "{pr:ebbe}",
+            "avere"
           ],
           [
-            "{pr:fece}",
-            "ha fatto"
+            "{pr:nacque}",
+            "nascere"
           ],
           [
             "{pr:disse}",
-            "ha detto"
+            "dire"
           ],
           [
             "{pr:vide}",
-            "ha visto"
+            "vedere"
+          ],
+          [
+            "{pr:visse}",
+            "vivere"
           ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta al [pp:passato prossimo]. Riscrivi il verbo al [pp:passato prossimo].",
+        "questions": [
+          "Dante {pr:nacque} a Firenze. → Dante [[è nato#pp]] a Firenze.",
+          "Il re {pr:parlò} con la regina. → Il re [[ha parlato#pp]] con la regina.",
+          "Manzoni {pr:scrisse} «I promessi sposi». → Manzoni [[ha scritto#pp]] «I promessi sposi».",
+          "I soldati {pr:partirono} all'alba. → I soldati [[sono partiti#pp]] all'alba.",
+          "La principessa {pr:dormì} per cento anni. → La principessa [[ha dormito#pp]] per cento anni."
         ]
       }
     ]
@@ -165,138 +535,266 @@
     "words": [
       [
         "il binario",
-        "platform"
+        "il posto in stazione dove arriva e parte il treno"
       ],
       [
         "la coincidenza",
-        "connection"
+        "il secondo treno o autobus da prendere subito dopo il primo"
       ],
       [
         "lo sciopero",
-        "strike"
+        "quando i lavoratori non lavorano per protesta"
       ],
       [
-        "il capolavoro",
-        "masterpiece"
+        "cancellare",
+        "decidere che una cosa (un treno, un volo) non c'è più"
       ],
       [
-        "lo scrittore",
-        "writer"
+        "la biglietteria",
+        "il posto dove si comprano i biglietti"
       ],
       [
-        "il secolo",
-        "century"
+        "l'orario",
+        "la lista delle ore di partenza e di arrivo"
       ],
       [
-        "accadere",
-        "to happen"
+        "in ritardo",
+        "dopo l'ora giusta"
       ],
       [
-        "scoprire",
-        "to discover"
+        "perdere il treno",
+        "arrivare quando il treno è già partito"
       ],
       [
-        "sparire",
-        "to disappear"
+        "il colloquio di lavoro",
+        "l'incontro in cui un'azienda conosce chi cerca lavoro"
+      ],
+      [
+        "disperato",
+        "senza speranza, molto preoccupato"
       ],
       [
         "fortunatamente",
-        "fortunately"
+        "per fortuna"
       ],
       [
         "nel frattempo",
-        "in the meantime"
+        "nello stesso tempo, mentre succede un'altra cosa"
+      ],
+      [
+        "appena",
+        "subito dopo; anche «da poco»"
       ],
       [
         "ormai",
-        "by then"
+        "a quel punto, quando era troppo tardi"
+      ],
+      [
+        "il secolo",
+        "un periodo di cento anni"
+      ],
+      [
+        "l'epoca",
+        "un periodo della storia"
+      ],
+      [
+        "il capolavoro",
+        "l'opera più bella di un artista"
+      ],
+      [
+        "accadere",
+        "succedere"
+      ],
+      [
+        "scoprire",
+        "trovare o capire una cosa che prima non si sapeva"
+      ],
+      [
+        "la favola",
+        "una storia inventata per bambini, spesso con animali o re"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il binario",
-            "platform"
-          ],
-          [
             "la coincidenza",
-            "connection"
+            "il secondo treno o autobus da prendere subito dopo il primo"
           ],
           [
             "lo sciopero",
-            "strike"
+            "quando i lavoratori non lavorano per protesta"
+          ],
+          [
+            "il binario",
+            "il posto in stazione dove arriva e parte il treno"
           ],
           [
             "il capolavoro",
-            "masterpiece"
+            "l'opera più bella di un artista"
           ],
           [
             "accadere",
-            "to happen"
+            "succedere"
           ],
           [
-            "sparire",
-            "to disappear"
+            "nel frattempo",
+            "nello stesso tempo, mentre succede un'altra cosa"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Oggi c'{ip:è} lo [[sciopero]] dei treni. (strike)",
-          "Il treno {ip:parte} dal [[binario]] tre. (platform)",
-          "[[Nel frattempo]] {ip:ho} bevuto un caffè. (in the meantime)",
-          "Dante {ip:è} uno [[scrittore]] famoso. (writer)"
+          {
+            "q": "Il treno per Torino {ip:parte} dal ___ 7.",
+            "options": [
+              "*binario",
+              "secolo",
+              "orario"
+            ]
+          },
+          {
+            "q": "Oggi i treni non {ip:partono}: c'{ip:è} lo ___.",
+            "options": [
+              "*sciopero",
+              "capolavoro",
+              "colloquio"
+            ]
+          },
+          {
+            "q": "Il volo {pp:è stato} ___ per la nebbia.",
+            "options": [
+              "*cancellato",
+              "scoperto",
+              "accaduto"
+            ]
+          },
+          {
+            "q": "Dante {pr:visse} nel Trecento, cioè nel XIV ___.",
+            "options": [
+              "*secolo",
+              "binario",
+              "orario"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Il treno {ip:è} in [[ritardo]] di venti minuti.",
+          "Per fortuna, cioè [[fortunatamente]], {pp:abbiamo trovato} un taxi.",
+          "I biglietti si {ip:comprano} in [[biglietteria]].",
+          "Domani {ip:ho} un [[colloquio]] di lavoro: {ip:sono} un po' nervoso.",
+          "Quando {pp:siamo arrivati}, [[ormai]] il ristorante {im:era} chiuso."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Il mese scorso {pp:sono andato} a Venezia per un convegno. Quando {pp:sono arrivato} alla stazione, il treno {tp:era} già {tp:partito} perché {tp:avevo sbagliato} orario. Ormai {tp:avevo perso} anche la coincidenza. Nel frattempo {tp:era cominciato} uno sciopero.",
-      "{pp:Sono arrivato} solo la sera. Fortunatamente il mio collega mi {tp:aveva lasciato} le chiavi in albergo. Gli {pp:ho scritto}: «Quando {fa:avrò finito} la mia presentazione, ti {fs:offrirò} una cena.» {ip:Spero} che se ne {csp:ricordi}!"
+      {
+        "h": "Il colloquio di Torino"
+      },
+      "La settimana scorsa {pp:sono andata} a Torino per un colloquio di lavoro. Il giorno prima {tp:avevo controllato} l'orario dei treni e {tp:avevo comprato} il biglietto online: {im:ero} tranquillissima.",
+      "Ma quando {pp:sono arrivata} in stazione, il mio treno {tp:era} già {tp:partito}: per uno sciopero {tp:avevano cambiato} tutti gli orari, e nessuno mi {tp:aveva avvisato}. {pp:Ho preso} il treno successivo, ma a Milano {pp:ho perso} la coincidenza.",
+      "{im:Ero} disperata, perché il colloquio {im:era} alle undici. Allora {pp:ho telefonato} all'azienda. La signora che {tp:aveva organizzato} i colloqui {pp:è stata} gentilissima: «Nessun problema, ci {ip:vediamo} alle tre. Quando {fa:sarà arrivata}, {fs:chiederà} di me alla reception.»",
+      "Alla fine il colloquio {pp:è andato} benissimo, e lunedì {ip:comincio}! *Giulia*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Why did the speaker miss the train?",
+            "q": "Perché Giulia {pp:è andata} a Torino?",
             "options": [
-              "It left early",
-              "*He got the time wrong",
-              "There was a strike"
+              "*per un colloquio di lavoro",
+              "per una vacanza",
+              "per trovare un'amica"
             ]
           },
           {
-            "q": "When did he reach Venice?",
+            "q": "Perché il treno {tp:era} già {tp:partito}?",
             "options": [
-              "In the morning",
-              "At lunchtime",
-              "*In the evening"
+              "*Per lo sciopero {tp:avevano cambiato} gli orari.",
+              "Giulia {tp:aveva sbagliato} binario.",
+              "Giulia {tp:si era svegliata} tardi."
             ]
           },
           {
-            "q": "Who had left the keys?",
+            "q": "Che cosa {pp:è successo} a Milano?",
             "options": [
-              "The receptionist",
-              "*His colleague",
-              "His wife"
+              "*Giulia {pp:ha perso} la coincidenza.",
+              "Giulia {pp:ha perso} il biglietto.",
+              "Il treno {pp:è stato} cancellato."
             ]
           },
           {
-            "q": "What does he promise?",
+            "q": "A che ora {pp:ha fatto} il colloquio, alla fine?",
             "options": [
-              "A train ticket",
-              "*A dinner",
-              "A present"
+              "*alle tre",
+              "alle undici",
+              "lunedì"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Giulia {tp:aveva comprato} il biglietto in stazione.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Qualcuno {tp:aveva avvisato} Giulia del cambio di orario.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Giulia {pp:ha telefonato} all'azienda.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La signora dell'azienda {pp:è stata} gentile.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Giulia non {pp:ha avuto} il lavoro.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il [tp:trapassato prossimo].",
+        "questions": [
+          "Il giorno prima [[avevo controllato#tp]] l'orario dei treni.",
+          "Il mio treno [[era già partito|era partito#tp]].",
+          "Per uno sciopero [[avevano cambiato#tp]] tutti gli orari.",
+          "Nessuno mi [[aveva avvisato#tp]].",
+          "La signora che [[aveva organizzato#tp]] i colloqui {pp:è stata} gentilissima."
         ]
       }
     ]
@@ -304,57 +802,76 @@
   "listening": {
     "transcript": [
       [
-        "Lidia",
-        "Com'{pp:è andato} il viaggio?"
+        "Pietro",
+        "Allora, Giulia, com'{pp:è andato} il colloquio?"
       ],
       [
-        "Piero",
-        "Malissimo. Quando {pp:sono arrivato}, il treno {tp:era} già {tp:partito}."
+        "Giulia",
+        "Bene, ma che viaggio! Quando {pp:sono arrivata} in stazione, il treno {tp:era} già {tp:partito}."
       ],
       [
-        "Lidia",
+        "Pietro",
         "Ma non {tp:avevi controllato} l'orario?"
       ],
       [
-        "Piero",
-        "Sì, ma {tp:avevano cambiato} tutto per lo sciopero."
+        "Giulia",
+        "Sì, ma per lo sciopero {tp:avevano cambiato} tutto."
       ],
       [
-        "Lidia",
-        "E adesso che cosa {fs:farai}?"
+        "Pietro",
+        "E a Torino a che ora {pp:sei arrivata}?"
       ],
       [
-        "Piero",
-        "Quando {fa:avrò parlato} con il capo, {fs:prenoterò} un altro biglietto."
+        "Giulia",
+        "Alle due e mezza. {tp:Avevo} già {tp:perso} tutta la mattina!"
+      ],
+      [
+        "Pietro",
+        "Beh, quando {fa:avrai ricevuto} il primo stipendio, mi {fs:offrirai} una cena!"
+      ],
+      [
+        "Giulia",
+        "Promesso! Appena {fa:avrò firmato} il contratto, ti {ip:chiamo}."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Il treno [[era#tp]] già {tp:partito}.",
-          "Ma non [[avevi#tp]] {tp:controllato} l'orario?",
-          "[[Avevano#tp]] {tp:cambiato} tutto per lo sciopero.",
-          "Quando [[avrò#fa]] {fa:parlato} con il capo, {fs:prenoterò} un altro biglietto."
+          "Quando {pp:sono arrivata} in stazione, il treno [[era già partito|era partito#tp]].",
+          "Ma non [[avevi controllato#tp]] l'orario?",
+          "{tp:Avevo} già [[perso]] tutta la mattina!",
+          "Quando [[avrai ricevuto#fa]] il primo stipendio, mi {fs:offrirai} una cena!",
+          "Appena [[avrò firmato#fa]] il contratto, ti {ip:chiamo}."
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The timetable had been changed.",
+            "q": "A che ora {pp:è arrivata} Giulia a Torino?",
             "options": [
-              "*True",
-              "False"
+              "*alle due e mezza",
+              "alle undici",
+              "alle tre e mezza"
             ]
           },
           {
-            "q": "Piero will book a ticket before talking to his boss.",
+            "q": "Che cosa {ip:vuole} Pietro?",
             "options": [
-              "True",
-              "*False"
+              "*una cena",
+              "un biglietto del treno",
+              "il numero dell'azienda"
+            ]
+          },
+          {
+            "q": "Quando {fs:chiamerà} Giulia?",
+            "options": [
+              "*dopo che {fa:avrà firmato} il contratto",
+              "stasera",
+              "quando {fa:avrà ricevuto} lo stipendio"
             ]
           }
         ]
@@ -365,41 +882,477 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi con il [tp:trapassato prossimo] o con il [fa:futuro anteriore].",
+        "open": true,
         "questions": [
           {
-            "q": "When I arrived, the train had already left.",
-            "a": [
-              "Quando sono arrivato, il treno era già partito.",
-              "Quando sono arrivata, il treno era già partito."
+            "q": "Che cosa {tp:avevi} già {tp:imparato} a fare prima dei dieci anni?"
+          },
+          {
+            "q": "Racconta una volta che {pp:sei arrivato} tardi: che cosa {tp:era} già {tp:successo}?"
+          },
+          {
+            "q": "Prima di studiare l'italiano, {tp:eri} mai {tp:stato} in Italia?"
+          },
+          {
+            "q": "Che cosa {fs:farai} quando {fa:avrai finito} questo corso?"
+          },
+          {
+            "q": "Un amico non {ip:risponde} da due giorni. Che cosa {fa:sarà successo}?"
+          },
+          {
+            "q": "Conosci un personaggio della storia italiana? Che cosa {pr:fece}?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Troppo tardi!"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un ragazzo con un regalo in mano entra in una sala vuota, con i palloncini a terra",
+          "B — Una donna entra al cinema mentre sullo schermo c'è scritto «Fine»",
+          "C — Un cane si lecca i baffi vicino a un piatto vuoto",
+          "D — Un uomo corre sul binario mentre il treno si allontana"
+        ],
+        "pairs": [
+          [
+            "«Quando {pp:sono arrivato}, la festa {tp:era} già {tp:finita}.»",
+            "immagine A"
+          ],
+          [
+            "«Il film {tp:era} già {tp:finito}.»",
+            "immagine B"
+          ],
+          [
+            "«Il cane {tp:aveva} già {tp:mangiato} la torta.»",
+            "immagine C"
+          ],
+          [
+            "«Il treno {tp:era} già {tp:partito}.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "h": "Un diario di viaggio"
+      },
+      {
+        "text": [
+          "**Napoli, 12 maggio** — Oggi finalmente {pp:ho visto} Napoli! {tp:Avevo letto} tanti libri su questa città, ma non ci {tp:ero} mai {tp:stata}. Quando {pp:sono arrivata} all'albergo, la mia amica Rosa mi {tp:aveva} già {tp:prenotato} un tavolo in una pizzeria famosa. Dopo cena {pp:abbiamo camminato} sul lungomare: Rosa {tp:aveva detto} che il tramonto {im:era} bellissimo, e {im:aveva} ragione."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le frasi sul diario con il [tp:trapassato prossimo].",
+        "questions": [
+          "Prima del viaggio la ragazza (leggere) [[aveva letto#tp]] molti libri su Napoli.",
+          "Non (essere) [[era mai stata#tp]] a Napoli.",
+          "Rosa (prenotare) [[aveva prenotato#tp]] un tavolo in pizzeria.",
+          "Rosa (dire) [[aveva detto#tp]] che il tramonto {im:era} bellissimo."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "[pp:passato prossimo] o [tp:trapassato prossimo]? Scegli.",
+        "questions": [
+          {
+            "q": "Ieri ___ un museo e poi {pp:sono andata} al mare.",
+            "options": [
+              "*{pp:ho visitato}",
+              "{tp:avevo visitato}"
             ]
           },
           {
-            "q": "I had eaten.",
-            "a": [
-              "Avevo mangiato.",
-              "Io avevo mangiato."
+            "q": "{pp:Ho visto} finalmente il quadro che ___ su un libro.",
+            "options": [
+              "{pp:ho visto}",
+              "*{tp:avevo visto}"
             ]
           },
           {
-            "q": "When I have finished, I will call you. (informal)",
+            "q": "Quando {pp:siamo arrivati}, i nostri amici ___ già.",
+            "options": [
+              "{pp:hanno cenato}",
+              "*{tp:avevano cenato}"
+            ]
+          },
+          {
+            "q": "Stamattina ___ presto e {pp:ho preso} il treno delle sette.",
+            "options": [
+              "*mi {pp:sono alzata}",
+              "mi {tp:ero alzata}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi tu una pagina di diario: un giorno in una città nuova. Usa almeno due verbi al [tp:trapassato prossimo].",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il mio diario:"
+          }
+        ]
+      },
+      {
+        "h": "Che cosa sarà successo?"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni situazione all'ipotesi giusta.",
+        "pairs": [
+          [
+            "La strada {ip:è} bagnata.",
+            "«{fa:Avrà piovuto} stanotte.»"
+          ],
+          [
+            "Marco non {ip:è} venuto al lavoro.",
+            "«{fa:Sarà stato} male.»"
+          ],
+          [
+            "La finestra {ip:è} rotta.",
+            "«I bambini {fa:avranno giocato} a pallone.»"
+          ],
+          [
+            "Sara {ip:sorride} con un mazzo di fiori.",
+            "«{fa:Avrà ricevuto} un regalo.»"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Fai un'ipotesi con il [fa:futuro anteriore].",
+        "questions": [
+          "Il frigo {ip:è} vuoto: i ragazzi (mangiare) [[avranno mangiato#fa]] tutto.",
+          "Le luci {ip:sono} spente: (loro, andare) [[saranno andati#fa]] a dormire.",
+          "Anna non {ip:risponde}: (lei, dimenticare) [[avrà dimenticato#fa]] il telefono a casa.",
+          "Il ristorante {ip:è} pieno: qualcuno ne (parlare) [[avrà parlato#fa]] su internet."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Guarda fuori dalla finestra o pensa alla tua strada. Che cosa {fa:sarà successo} oggi? Scrivi due ipotesi.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Prima ipotesi:"
+          },
+          {
+            "q": "Seconda ipotesi:"
+          }
+        ]
+      },
+      {
+        "h": "Quando avrò finito…"
+      },
+      {
+        "type": "gap",
+        "prompt": "I progetti di Luca. Completa con il [fa:futuro anteriore].",
+        "questions": [
+          "Quando (io, finire) [[avrò finito#fa]] l'università, {fs:farò} un viaggio in Sudamerica.",
+          "Appena (io, trovare) [[avrò trovato#fa]] un lavoro, {fs:andrò} a vivere da solo.",
+          "Dopo che (io, risparmiare) [[avrò risparmiato#fa]] un po' di soldi, {fs:comprerò} una moto.",
+          "Quando i miei genitori (andare) [[saranno andati#fa]] in pensione, li {fs:porterò} in Giappone."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu? Scrivi due progetti con *quando* o *appena* + [fa:futuro anteriore].",
+        "open": true,
+        "questions": [
+          {
+            "q": "Quando…"
+          },
+          {
+            "q": "Appena…"
+          }
+        ]
+      },
+      {
+        "h": "C'era una volta…"
+      },
+      {
+        "text": [
+          "**La principessa e il pescatore** — C'{im:era} una volta un re che {im:aveva} una figlia bellissima. Un giorno la principessa {pr:andò} al mare e {pr:vide} un giovane pescatore. Il ragazzo le {pr:regalò} una conchiglia d'oro che {tp:aveva trovato} tra le onde. La principessa {pr:tornò} al castello e {pr:disse} al padre: «{ip:Voglio} sposare il pescatore!» Il re {pr:fu} molto arrabbiato, ma alla fine {pr:decise} di conoscere il ragazzo. I due giovani si {pr:sposarono} e {pr:vissero} felici e contenti."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Trova nella favola i verbi al [pr:passato remoto] e abbinali all'infinito.",
+        "pairs": [
+          [
+            "{pr:andò}",
+            "andare"
+          ],
+          [
+            "{pr:vide}",
+            "vedere"
+          ],
+          [
+            "{pr:disse}",
+            "dire"
+          ],
+          [
+            "{pr:fu}",
+            "essere"
+          ],
+          [
+            "{pr:decise}",
+            "decidere"
+          ],
+          [
+            "{pr:vissero}",
+            "vivere"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il pescatore {tp:aveva trovato} una conchiglia d'oro.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il re {pp:è stato} subito contento.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Alla fine la principessa e il pescatore si {pp:sono sposati}.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta la favola a un amico, al [pp:passato prossimo].",
+        "ordered": true,
+        "questions": [
+          "La principessa {pr:andò} al mare. → La principessa [[è andata#pp]] al mare.",
+          "Il ragazzo le {pr:regalò} una conchiglia. → Il ragazzo le [[ha regalato#pp]] una conchiglia.",
+          "Il re {pr:fu} arrabbiato. → Il re [[è stato#pp]] arrabbiato.",
+          "I due giovani si {pr:sposarono}. → I due giovani si [[sono sposati#pp]]."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Quando sono arrivato, il treno ha già partito.",
+            "a": [
+              "Quando sono arrivato, il treno era già partito."
+            ]
+          },
+          {
+            "q": "Non ero mai mangiato la pizza napoletana.",
+            "a": [
+              "Non avevo mai mangiato la pizza napoletana."
+            ]
+          },
+          {
+            "q": "Quando avrò finito, ti chiamerei.",
             "a": [
               "Quando avrò finito, ti chiamerò."
             ]
           },
           {
-            "q": "He must have left already.",
+            "q": "Giulia era già uscito.",
             "a": [
-              "Sarà già partito."
+              "Giulia era già uscita."
             ]
           },
           {
-            "q": "Anna said that she had seen Luca.",
+            "q": "Appena sarò finito il lavoro, uscirò.",
             "a": [
-              "Anna ha detto che aveva visto Luca."
+              "Appena avrò finito il lavoro, uscirò."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "già / il treno / era / partito",
+            "a": [
+              "Il treno era già partito."
+            ]
+          },
+          {
+            "q": "mai / non / a Roma / ero / stato",
+            "a": [
+              "Non ero mai stato a Roma."
+            ]
+          },
+          {
+            "q": "avrò / quando / finito / ti / chiamerò",
+            "a": [
+              "Quando avrò finito, ti chiamerò.",
+              "Quando avrò finito ti chiamerò.",
+              "Ti chiamerò quando avrò finito."
+            ]
+          },
+          {
+            "q": "avrà / il telefono / dimenticato",
+            "a": [
+              "Avrà dimenticato il telefono."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nel [pr:passato remoto] la terza persona dei verbi regolari ha l'accento sull'ultima vocale, e si scrive: *{pr:parlò}, {pr:credé}, {pr:dormì}*. Senza accento la parola cambia: *parlo* è il [ip:presente] (*io parlo*)."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la parola con l'accento, se serve.",
+        "questions": [
+          "Ogni giorno io [[parlo]] con mia madre. (parlo / parlò)",
+          "Il re [[parlò]] con il pescatore. (parlo / parlò)",
+          "La principessa [[dormì]] cento anni. (dormi / dormì)",
+          "Tu [[dormi]] sempre fino a tardi. (dormi / dormì)",
+          "Quel giorno Marco [[arrivò]] tardi. (arrivo / arrivò)"
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So raccontare un'azione successa prima di un'altra: *Il treno era già partito.*",
+          "So parlare di un'azione futura che finisce prima di un'altra: *Quando avrò finito, ti chiamerò.*",
+          "So fare un'ipotesi su una cosa passata: *Avrà perso il treno.*",
+          "So riconoscere il [pr:passato remoto] in un libro o in una favola: *nacque, scrisse, visse*.",
+          "So raccontare un viaggio pieno di problemi."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una vecchia banconota da mille lire con il ritratto di Maria Montessori e, accanto, dei bambini che giocano con dei blocchi di legno colorati"
+      },
+      {
+        "text": [
+          "**Maria Montessori, una donna che cambiò la scuola**",
+          "Maria Montessori {pr:nacque} a Chiaravalle, nelle Marche, nel 1870. In quegli anni pochissime ragazze {im:studiavano} all'università, ma lei {pr:decise} di diventare medico: nel 1896 {pr:fu} una delle prime donne in Italia a laurearsi in medicina.",
+          "Quando {pr:cominciò} a lavorare con i bambini, {pr:capì} che {im:imparavano} meglio quando {im:potevano} scegliere e toccare le cose con le mani. Nel 1907 {pr:aprì} a Roma la prima «Casa dei Bambini», nel quartiere di San Lorenzo.",
+          "Il suo metodo {pr:ebbe} un grande successo: Maria {pr:scrisse} molti libri e {pr:viaggiò} in tutto il mondo per insegnarlo. {pr:Morì} nei Paesi Bassi nel 1952. Negli anni Novanta la Banca d'Italia {pr:mise} il suo ritratto sulla banconota da mille lire, e ancora oggi ci {ip:sono} scuole Montessori in tanti paesi."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina gli anni a quello che {pp:è successo}.",
+        "pairs": [
+          [
+            "1870",
+            "nasce a Chiaravalle"
+          ],
+          [
+            "1896",
+            "si laurea in medicina"
+          ],
+          [
+            "1907",
+            "apre la prima Casa dei Bambini"
+          ],
+          [
+            "1952",
+            "muore nei Paesi Bassi"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Maria Montessori {pr:nacque} a Roma.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "{pr:Fu} una delle prime donne medico in Italia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Secondo lei i bambini {im:imparavano} meglio stando fermi ad ascoltare.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il suo ritratto {im:era} su una vecchia banconota italiana.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il [pr:passato remoto].",
+        "questions": [
+          "Maria Montessori [[nacque#pr]] a Chiaravalle nel 1870.",
+          "Lei [[decise#pr]] di diventare medico.",
+          "Nel 1907 [[aprì#pr]] a Roma la prima «Casa dei Bambini».",
+          "Maria [[scrisse#pr]] molti libri."
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta un viaggio in cui {ip:sono} andate storte molte cose. Usa il [pp:passato prossimo], l'[im:imperfetto] e il [tp:trapassato prossimo].",
+        "cues": [
+          "Dove {im:andavi} e perché?",
+          "Che cosa {tp:avevi} già {tp:organizzato} prima di partire?",
+          "Che cosa {pp:è successo}? (*Quando sono arrivato, … era già…*)",
+          "Com'{pp:è finita}?"
+        ],
+        "start": "",
+        "model": "L'estate scorsa sono andato a Barcellona per il matrimonio di un amico. Avevo prenotato il volo tre mesi prima e avevo già comprato il regalo.\nIl giorno della partenza, però, sono arrivato in aeroporto e ho scoperto che per uno sciopero avevano cancellato il volo. Nessuno mi aveva avvisato!\nHo preso un altro volo la sera, ma quando sono arrivato a Barcellona la cena era già finita e tutti erano andati a dormire.\nPer fortuna il matrimonio era il giorno dopo: alla fine è stata una festa bellissima."
       }
     ]
   }

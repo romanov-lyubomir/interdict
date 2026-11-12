@@ -635,5 +635,100 @@
         ]
       }
     ]
+  },
+  "italy": {
+    "text": [
+      {
+        "h": "Attenzione ai truffatori!"
+      },
+      "Nelle città più turistiche, soprattutto a Firenze, alcune persone {ip:cercano} di prendere soldi ai turisti con piccoli trucchi. Ecco i due più comuni.",
+      "**1. Il braccialetto «gratis»** — Una persona vi {ip:offre} un braccialetto colorato, o lo {ip:lega} subito al vostro polso, e {ip:dice} che {ip:è} un regalo. Pochi secondi dopo vi {ip:chiede} dei soldi e vi {ip:parla} della sua famiglia. Non {ip:dovete} accettare niente dagli sconosciuti per strada: {ip:è} meglio dire «No, grazie» e andare avanti.",
+      "**2. Le firme false** — Qualcuno vi {ip:chiede} una firma per una buona causa. Dopo la firma {ip:vuole} dei soldi, oppure {ip:usa} quel momento per vedere dove {ip:tenete} il portafoglio. Non {ip:dovete} firmare niente e non {ip:dovete} tirare fuori il portafoglio davanti a loro.",
+      "**Per dire di no** — «No, grazie.» «Non mi {ip:interessa}.» «Non {ip:ho} soldi.» «Non {ip:firmo} niente.»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il braccialetto {ip:è} davvero un regalo.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Dopo pochi secondi la persona {ip:chiede} dei soldi.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il testo {ip:dice} di accettare i regali degli sconosciuti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Chi {ip:chiede} una firma a volte {ip:guarda} dove {ip:tenete} il portafoglio.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Davanti ai truffatori non {ip:dovete} tirare fuori il portafoglio.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa {ip:fate}? Scegli la cosa giusta secondo il testo.",
+        "questions": [
+          {
+            "q": "In piazza un ragazzo vi {ip:lega} un braccialetto al polso e {ip:dice}: «{ip:È} un regalo!»",
+            "options": [
+              "*{ip:Dite} «No, grazie» e {ip:andate} avanti.",
+              "{ip:Ringraziate} e gli {ip:date} dieci euro.",
+              "{ip:Ascoltate} la storia della sua famiglia."
+            ]
+          },
+          {
+            "q": "Una signora vi {ip:chiede} una firma per una buona causa.",
+            "options": [
+              "*Non {ip:firmate} e {ip:continuate} a camminare.",
+              "{ip:Firmate} e poi le {ip:date} dei soldi.",
+              "{ip:Aprite} il portafoglio per vedere quanti soldi {ip:avete}."
+            ]
+          },
+          {
+            "q": "Dopo la firma un uomo {ip:vuole} dei soldi.",
+            "options": [
+              "*{ip:Dite} «Non ho soldi» e {ip:andate} via.",
+              "{ip:Tirate} fuori il portafoglio davanti a lui.",
+              "{ip:Firmate} un'altra volta."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le frasi del testo.",
+        "questions": [
+          "Non [[dovete#ip]] accettare niente dagli sconosciuti.",
+          "{ip:È} meglio dire «No, [[grazie]]» e andare avanti.",
+          "Non {ip:dovete} [[firmare]] niente.",
+          "Non {ip:dovete} tirare [[fuori]] il portafoglio davanti a loro.",
+          "«Non mi [[interessa#ip]].»"
+        ]
+      }
+    ]
   }
 }

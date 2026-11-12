@@ -1,189 +1,172 @@
 {
-  "title": "Questa gonna mi {ip:sta} bene?",
+  "title": "Quanto tempo ci {ip:vuole}?",
   "translation": "",
-  "topics": "I colori, i pronomi indiretti, stare bene e piacere, il verbo dare, i vestiti",
+  "topics": "I verbi in -care e -gare, volerci e metterci, i pronomi diretti, la casa",
   "grammar": {
     "explain": [
-      "Come descrivere i vestiti e come dire che cosa sta bene a qualcuno o che cosa gli piace.",
+      "Come la grafia conserva un suono, come dire quanto tempo ci vuole e le piccole parole che sostituiscono un nome già detto.",
       {
         "grid": [
           {
-            "wide": true,
             "table": {
-              "title": "Gli aggettivi e i colori",
-              "rows": [
-                [
-                  "Il cappello {ip:è} ross**o**.",
-                  "La gonna {ip:è} ross**a**."
-                ],
-                [
-                  "I calzini {ip:sono} ross**i**.",
-                  "Le camicie {ip:sono} ross**e**."
-                ],
-                [
-                  "Il cappotto {ip:è} verd**e**.",
-                  "La giacca {ip:è} verd**e**."
-                ],
-                [
-                  "Gli stivali {ip:sono} verd**i**.",
-                  "Le gonne {ip:sono} verd**i**."
-                ],
-                [
-                  "Il vestito {ip:è} viol**a**.",
-                  "La borsa {ip:è} viol**a**."
-                ],
-                [
-                  "I maglioni {ip:sono} viol**a**.",
-                  "Le magliette {ip:sono} viol**a**."
-                ]
-              ]
-            },
-            "note": [
-              "I colori sono aggettivi e vengono dopo il nome.",
-              "Quasi tutti cambiano come *rosso* (**-o, -a, -i, -e**) o come *verde* (**-e, -i**).",
-              "Alcuni non cambiano mai: *blu, rosa, viola, beige*. *Le scarpe blu, i maglioni viola*."
-            ]
-          },
-          {
-            "wide": true,
-            "table": {
-              "title": "I pronomi indiretti",
-              "rows": [
-                [
-                  "A me le scarpe {ip:stanno} strette.",
-                  "Le scarpe",
-                  "**mi**",
-                  "{ip:stanno} strette."
-                ],
-                [
-                  "A te la gonna {ip:sta} bene.",
-                  "La gonna",
-                  "**ti**",
-                  "{ip:sta} bene."
-                ],
-                [
-                  "A Marco il verde {ip:sta} bene.",
-                  "Il verde",
-                  "**gli**",
-                  "{ip:sta} bene."
-                ],
-                [
-                  "A Sofia il cappotto {ip:sta} largo.",
-                  "Il cappotto",
-                  "**le**",
-                  "{ip:sta} largo."
-                ],
-                [
-                  "A Lei, signora, la giacca {ip:sta} bene?",
-                  "La giacca",
-                  "**Le**",
-                  "{ip:sta} bene?"
-                ],
-                [
-                  "A noi {ip:piacciono} questi colori.",
-                  "Questi colori",
-                  "**ci**",
-                  "{ip:piacciono}."
-                ],
-                [
-                  "A voi {ip:piace} questa camicia?",
-                  "Questa camicia",
-                  "**vi**",
-                  "{ip:piace}?"
-                ],
-                [
-                  "A Luca e Anna {ip:piacciono} i cappelli.",
-                  "I cappelli",
-                  "**gli**",
-                  "{ip:piacciono}."
-                ]
-              ]
-            },
-            "note": [
-              "Dicono *a chi*: *a me* = **mi**, *a te* = **ti**, *a lui* = **gli**, *a lei* = **le**, *a Lei* = **Le**, *a noi* = **ci**, *a voi* = **vi**, *a loro* = **gli**.",
-              "Vanno con *piacere* e con *stare* quando un vestito va bene a qualcuno. Il vestito è il soggetto, quindi il verbo si accorda con lui: *la gonna mi {ip:sta} bene, le scarpe mi {ip:stanno} strette*."
-            ]
-          },
-          {
-            "table": {
-              "rows": [
-                [
-                  {
-                    "text": "(non)",
-                    "rows": 4
-                  },
-                  {
-                    "text": [
-                      "mi",
-                      "ti",
-                      "gli, le, Le",
-                      "ci",
-                      "vi",
-                      "gli"
-                    ],
-                    "rows": 4
-                  },
-                  "{ip:sta} bene questo vestito."
-                ],
-                [
-                  null,
-                  null,
-                  "{ip:stanno} bene queste scarpe."
-                ],
-                [
-                  null,
-                  null,
-                  "{ip:piace} questa gonna."
-                ],
-                [
-                  null,
-                  null,
-                  "{ip:piacciono} questi colori."
-                ]
-              ]
-            },
-            "note": "*Non* va prima del pronome: *non mi {ip:sta} bene*. Il verbo è singolare per una cosa sola e plurale per più di una."
-          },
-          {
-            "table": {
-              "title": "Il verbo *dare*",
+              "title": "Il verbo *giocare*",
               "rows": [
                 [
                   "io",
-                  "{ip:do}",
+                  "{ip:gioco}",
                   {
-                    "text": "un regalo a Sofia.",
+                    "text": "a tennis.",
                     "rows": 6
                   }
                 ],
                 [
                   "tu",
-                  "{ip:dai}",
+                  "{ip:gioc**h**i}",
                   null
                 ],
                 [
                   "lui, lei, Lei",
-                  "{ip:dà}",
+                  "{ip:gioca}",
                   null
                 ],
                 [
                   "noi",
-                  "{ip:diamo}",
+                  "{ip:gioc**h**iamo}",
                   null
                 ],
                 [
                   "voi",
-                  "{ip:date}",
+                  "{ip:giocate}",
                   null
                 ],
                 [
                   "loro",
-                  "{ip:danno}",
+                  "{ip:giocano}",
                   null
                 ]
               ]
+            }
+          },
+          {
+            "table": {
+              "title": "Il verbo *spiegare*",
+              "rows": [
+                [
+                  "io",
+                  "{ip:spiego}",
+                  {
+                    "text": "la lezione.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{ip:spieg**h**i}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:spiega}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:spieg**h**iamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:spiegate}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:spiegano}",
+                  null
+                ]
+              ]
+            }
+          },
+          {
+            "wide": true,
+            "table": {
+              "rows": [
+                [
+                  "**ca, co, cu** → suono duro, come in *gioco*",
+                  "**ce, ci** → suono morbido, come in *ciao*",
+                  "**che, chi** → suono duro, come in *giochi*"
+                ],
+                [
+                  "**ga, go, gu** → suono duro, come in *spiego*",
+                  "**ge, gi** → suono morbido, come in *gelato*",
+                  "**ghe, ghi** → suono duro, come in *spieghi*"
+                ]
+              ]
             },
-            "note": "*Dare* è irregolare. *Dà* ha l'accento per non confondersi con la preposizione *da*. La persona a cui dai qualcosa prende *a*: *do un regalo a Sofia*, cioè *le do un regalo*."
+            "note": [
+              "*C* e *g* hanno un suono duro davanti ad *a, o, u*, ma morbido davanti ad *e* e *i*.",
+              "Le finali *-i* e *-iamo* li renderebbero morbidi, quindi i verbi in *-care* e *-gare* aggiungono una **h** per conservare il suono dell'infinito: *gioco → giochi*, non *gioci*; *spiego → spieghi*, non *spiegi*.",
+              "Lo stesso succede con *cercare* (*cerchi*), *pagare* (*paghi*) e tutti gli altri verbi in *-care* e *-gare*."
+            ]
+          },
+          {
+            "table": {
+              "title": "Il verbo *volerci*",
+              "rows": [
+                [
+                  "Quanto tempo **ci {ip:vuole}** per andare in centro?"
+                ],
+                [
+                  "**Ci {ip:vuole}** un'ora."
+                ],
+                [
+                  "**Ci {ip:vogliono}** dieci minuti."
+                ]
+              ]
+            },
+            "note": "*Ci vuole* dice quanto tempo serve in generale. Va con una cosa sola (*ci vuole un'ora*), *ci vogliono* con più di una (*ci vogliono dieci minuti*)."
+          },
+          {
+            "table": {
+              "title": "Il verbo *metterci*",
+              "rows": [
+                [
+                  "Quanto tempo **ci {ip:metti}** per arrivare a scuola?"
+                ],
+                [
+                  "**Ci {ip:metto}** venti minuti."
+                ]
+              ]
+            },
+            "note": "*Metterci* dice quanto tempo serve a una persona, quindi cambia con la persona: *ci metto, ci metti, ci mette, ci mettiamo, ci mettete, ci mettono*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I pronomi diretti",
+              "rows": [
+                [
+                  "Dove {ip:mettiamo} **il tavolo**?",
+                  "**Lo** {ip:mettiamo} in cucina."
+                ],
+                [
+                  "Dove {ip:mettiamo} **la lampada**?",
+                  "**La** {ip:possiamo} mettere accanto al letto."
+                ],
+                [
+                  "Dove {ip:mettiamo} **i libri**?",
+                  "**Li** {ip:possiamo} mettere accanto alla finestra."
+                ],
+                [
+                  "Dove {ip:mettiamo} **le sedie**?",
+                  "**Le** {ip:mettiamo} intorno al tavolo."
+                ]
+              ]
+            },
+            "note": [
+              "**Lo**, **la**, **li** e **le** sostituiscono un nome che non vuoi ripetere. Si accordano con il nome nel genere e nel numero.",
+              "Vanno prima del verbo: *lo mettiamo*. Con *potere, dovere* e *volere* possono anche unirsi all'infinito: *la possiamo mettere* oppure *possiamo metterla*."
+            ]
           }
         ]
       }
@@ -193,74 +176,73 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Scrivi il colore con la finale giusta.",
+        "prompt": "Scrivi la forma giusta del verbo. Ricorda la h.",
         "questions": [
-          "La gonna {ip:è} [[rossa]]. (rosso)",
-          "I calzini {ip:sono} [[neri]]. (nero)",
-          "Le camicie {ip:sono} [[gialle]]. (giallo)",
-          "Il cappotto {ip:è} [[verde]]. (verde)",
-          "Le scarpe {ip:sono} [[verdi]]. (verde)",
-          "I pantaloni {ip:sono} [[blu]]. (blu)",
-          "La borsa {ip:è} [[rosa]]. (rosa)"
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi il pronome: mi, ti, gli, le, ci o vi.",
-        "questions": [
-          "(a me) [[Mi]] {ip:piace} questa giacca.",
-          "(a te) [[Ti]] {ip:stanno} bene le scarpe.",
-          "(a Marco) [[Gli]] {ip:sta} bene il blu.",
-          "(a Sofia) [[Le]] {ip:piacciono} i cappelli.",
-          "(a noi) [[Ci]] {ip:piace} il rosso.",
-          "(a voi) [[Vi]] {ip:sta} bene la gonna?",
-          "(a Luca e Anna) [[Gli]] {ip:piacciono} i colori."
+          "Tu [[giochi#ip]] a calcio? (giocare)",
+          "Noi [[giochiamo#ip]] a tennis. (giocare)",
+          "Tu [[paghi#ip]] il conto? (pagare)",
+          "Noi [[paghiamo#ip]] l'affitto. (pagare)",
+          "Tu [[cerchi#ip]] le chiavi? (cercare)",
+          "Voi [[cercate#ip]] casa? (cercare)",
+          "L'insegnante [[spiega#ip]] la lezione. (spiegare)",
+          "Noi [[spieghiamo#ip]] tutto. (spiegare)"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Sta o stanno?",
+        "prompt": "Ci vuole o ci vogliono?",
         "questions": [
           {
-            "q": "Questa giacca mi ___ bene.",
+            "q": "___ un'ora.",
             "options": [
-              "*sta",
-              "stanno"
+              "*Ci vuole",
+              "Ci vogliono"
             ]
           },
           {
-            "q": "Queste scarpe ti ___ strette.",
+            "q": "___ due ore.",
             "options": [
-              "sta",
-              "*stanno"
+              "Ci vuole",
+              "*Ci vogliono"
             ]
           },
           {
-            "q": "Il cappotto gli ___ largo.",
+            "q": "___ dieci minuti.",
             "options": [
-              "*sta",
-              "stanno"
+              "Ci vuole",
+              "*Ci vogliono"
             ]
           },
           {
-            "q": "I pantaloni le ___ bene.",
+            "q": "___ mezz'ora.",
             "options": [
-              "sta",
-              "*stanno"
+              "*Ci vuole",
+              "Ci vogliono"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi la forma giusta di dare.",
+        "prompt": "Scrivi la forma giusta di metterci.",
         "questions": [
-          "Io [[do#ip]] un libro a Marco.",
-          "Tu [[dai#ip]] il numero a Sofia?",
-          "Lei [[dà|da'#ip]] un regalo a Luca.",
-          "Noi [[diamo#ip]] una festa.",
-          "Voi [[date#ip]] i soldi a Paolo?",
-          "Loro [[danno#ip]] una mano a Anna."
+          "Io [[ci metto#ip]] venti minuti.",
+          "Quanto tempo [[ci metti#ip]] tu?",
+          "Lui [[ci mette#ip]] un'ora.",
+          "Noi [[ci mettiamo#ip]] poco.",
+          "Loro [[ci mettono#ip]] molto."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi lo, la, li o le.",
+        "questions": [
+          "Dove {ip:metti} il libro? [[Lo]] {ip:metto} qui.",
+          "{ip:Compri} la pizza? Sì, [[la]] {ip:compro}.",
+          "Dove {ip:sono} i bambini? Non [[li]] {ip:vedo}.",
+          "{ip:Leggi} le riviste? Sì, [[le]] {ip:leggo}.",
+          "{ip:Conosci} Marco? Sì, [[lo]] {ip:conosco}.",
+          "{ip:Vuoi} la torta? Sì, [[la]] {ip:voglio}."
         ]
       }
     ]
@@ -268,104 +250,80 @@
   "vocabulary": {
     "words": [
       [
-        "la gonna",
-        "la portano le donne, al posto dei pantaloni"
+        "giocare",
+        "fare un gioco o uno sport"
       ],
       [
-        "la giacca",
-        "la metti sopra la camicia"
+        "pagare",
+        "dare i soldi per una cosa"
       ],
       [
-        "il cappotto",
-        "lo metti fuori quando fa freddo"
+        "cercare",
+        "provare a trovare"
       ],
       [
-        "il maglione",
-        "di lana, caldo, per l'inverno"
+        "spiegare",
+        "far capire una cosa"
       ],
       [
-        "la camicia",
-        "ha i bottoni e il colletto"
+        "mettere",
+        "portare una cosa in un posto"
       ],
       [
-        "la maglietta",
-        "di cotone, con le maniche corte"
+        "l'affitto",
+        "i soldi che paghi ogni mese per la casa"
       ],
       [
-        "il vestito",
-        "un abito da donna tutto intero"
+        "il divano",
+        "ci stai seduto in due o tre"
       ],
       [
-        "i pantaloni",
-        "coprono le gambe"
+        "la poltrona",
+        "ci stai seduto da solo, è comoda"
       ],
       [
-        "le scarpe",
-        "le porti ai piedi"
+        "la libreria",
+        "un mobile per i libri"
       ],
       [
-        "gli stivali",
-        "scarpe alte, per l'inverno"
+        "il quadro",
+        "un dipinto sulla parete"
       ],
       [
-        "il cappello",
-        "lo porti sulla testa"
+        "la lampada",
+        "fa luce"
       ],
       [
-        "i calzini",
-        "li metti prima delle scarpe"
+        "il letto",
+        "ci dormi"
       ],
       [
-        "la taglia",
-        "S, M, L: la misura di un vestito"
+        "la porta",
+        "da qui entri in una stanza"
       ],
       [
-        "il regalo",
-        "una cosa che dai per il compleanno"
+        "la parete",
+        "il muro di una stanza"
       ],
       [
-        "rosso",
-        "il colore del pomodoro"
+        "i mobili",
+        "tavoli, sedie, letti, armadi…"
       ],
       [
-        "nero",
-        "il colore della notte"
+        "quanto tempo?",
+        "per chiedere ore e minuti"
       ],
       [
-        "giallo",
-        "il colore del limone"
+        "l'ora",
+        "sessanta minuti"
       ],
       [
-        "verde",
-        "il colore dell'erba"
+        "mezz'ora",
+        "trenta minuti"
       ],
       [
-        "blu",
-        "il colore del mare"
-      ],
-      [
-        "rosa",
-        "il colore di un fiore delicato"
-      ],
-      [
-        "viola",
-        "il colore della melanzana"
-      ],
-      [
-        "largo",
-        "troppo grande, il contrario di stretto"
-      ],
-      [
-        "stretto",
-        "troppo piccolo, il contrario di largo"
-      ],
-      [
-        "stare bene",
-        "essere giusto per una persona, di un vestito"
-      ],
-      [
-        "dare",
-        "mettere una cosa nelle mani di qualcuno"
+        "il minuto",
+        "sessanta secondi"
       ]
     ],
     "exercises": [
@@ -374,28 +332,28 @@
         "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la gonna",
-            "la portano le donne, al posto dei pantaloni"
+            "il divano",
+            "ci stai seduto in due o tre"
           ],
           [
-            "il cappotto",
-            "lo metti fuori quando fa freddo"
+            "la poltrona",
+            "ci stai seduto da solo, è comoda"
           ],
           [
-            "il maglione",
-            "di lana, caldo, per l'inverno"
+            "la libreria",
+            "un mobile per i libri"
           ],
           [
-            "gli stivali",
-            "scarpe alte, per l'inverno"
+            "l'affitto",
+            "i soldi che paghi ogni mese per la casa"
           ],
           [
-            "la taglia",
-            "S, M, L: la misura di un vestito"
+            "la parete",
+            "il muro di una stanza"
           ],
           [
-            "stretto",
-            "troppo piccolo, il contrario di largo"
+            "mezz'ora",
+            "trenta minuti"
           ]
         ]
       },
@@ -403,20 +361,20 @@
         "type": "gap",
         "prompt": "Completa con la parola giusta.",
         "questions": [
-          "Fa freddo: {ip:metto} il [[cappotto]].",
-          "Questa [[camicia]] bianca ha i bottoni.",
-          "Domani {ip:è} il compleanno di Sofia: le {ip:compro} un [[regalo]].",
-          "Le scarpe {ip:sono} piccole: mi {ip:stanno} [[strette]].",
-          "Il mare e il cielo {ip:sono} [[blu]]."
+          "Il [[quadro]] {ip:è} sulla parete.",
+          "La [[lampada]] accanto al letto {ip:fa} luce.",
+          "Il treno {ip:parte} tra dieci [[minuti]].",
+          "Ci {ip:vogliono} sessanta minuti: ci {ip:vuole} un'[[ora]].",
+          "{ip:Entriamo} dalla [[porta]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Sabato {ip:è} il compleanno della mia amica Sofia e {ip:cerco} un regalo. A Sofia {ip:piacciono} molto i colori: le {ip:sta} bene il rosso e le {ip:piace} il viola.",
-      "In un negozio del centro {ip:vedo} una gonna rossa e una giacca viola. La gonna {ip:costa} 40 euro, la giacca 60.",
-      "{ip:Prendo} la gonna. Alla festa le {ip:do} il regalo: le {ip:piace} tanto e le {ip:sta} benissimo!"
+      "Luca e io {ip:cerchiamo} casa da un mese. Finalmente {ip:troviamo} un appartamento vicino al centro: non {ip:paghiamo} molto di affitto e {ip:è} molto luminoso.",
+      "Per andare al lavoro ci {ip:vuole} poco: io ci {ip:metto} dieci minuti a piedi, Luca ci {ip:mette} venti minuti in autobus.",
+      "Oggi {ip:arrivano} i mobili. Il divano? Lo {ip:mettiamo} davanti alla finestra. La libreria? La {ip:mettiamo} accanto alla porta. E i quadri? Li {ip:mettiamo} domani!"
     ],
     "exercises": [
       {
@@ -424,38 +382,38 @@
         "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "A Sofia {ip:piacciono} molto i colori.",
+            "q": "L'appartamento {ip:è} vicino al centro.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "A Sofia non {ip:sta} bene il rosso.",
+            "q": "L'affitto {ip:è} alto.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "La giacca {ip:costa} 40 euro.",
+            "q": "Lei {ip:va} al lavoro a piedi in dieci minuti.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Luca {ip:va} al lavoro a piedi.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "Il regalo {ip:è} la gonna.",
+            "q": "Oggi {ip:mettono} i quadri sulla parete.",
             "options": [
-              "*Vero",
-              "Falso"
-            ]
-          },
-          {
-            "q": "A Sofia {ip:piace} il regalo.",
-            "options": [
-              "*Vero",
-              "Falso"
+              "Vero",
+              "*Falso"
             ]
           }
         ]
@@ -465,28 +423,28 @@
   "listening": {
     "transcript": [
       [
-        "Commessa",
-        "Buongiorno! {ip:Cerca} qualcosa?"
+        "Anna",
+        "Ciao, Marco! {ip:Giochi} a tennis sabato?"
       ],
       [
-        "Cliente",
-        "Sì, {ip:cerco} un maglione blu."
+        "Marco",
+        "Sì, ma il campo {ip:è} lontano. Quanto tempo ci {ip:vuole}?"
       ],
       [
-        "Commessa",
-        "Ecco. Le {ip:piace} questo?"
+        "Anna",
+        "Ci {ip:vogliono} venti minuti in macchina."
       ],
       [
-        "Cliente",
-        "Sì, mi {ip:piace} molto. Lo {ip:provo}."
+        "Marco",
+        "Va bene. E chi {ip:paga} il campo?"
       ],
       [
-        "Commessa",
-        "Come Le {ip:sta}?"
+        "Anna",
+        "Lo {ip:paghiamo} insieme!"
       ],
       [
-        "Cliente",
-        "Mi {ip:sta} un po' stretto. {ip:Avete} una taglia più grande?"
+        "Marco",
+        "Perfetto, a sabato!"
       ]
     ],
     "exercises": [
@@ -494,9 +452,9 @@
         "type": "gap",
         "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Sì, [[cerco#ip]] un maglione blu.",
-          "Ecco. [[Le]] {ip:piace} questo?",
-          "Mi [[sta#ip]] un po' stretto."
+          "Ciao, Marco! [[Giochi#ip]] a tennis sabato?",
+          "Ci [[vogliono#ip]] venti minuti in macchina.",
+          "[[Lo]] [[paghiamo#ip]] insieme!"
         ]
       },
       {
@@ -504,11 +462,11 @@
         "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Che problema {ip:ha} il maglione?",
+            "q": "Quanto tempo ci {ip:vuole} per arrivare al campo?",
             "options": [
-              "*È un po' stretto.",
-              "Non è del colore giusto.",
-              "Costa troppo."
+              "dieci minuti",
+              "*venti minuti",
+              "un'ora"
             ]
           }
         ]
@@ -522,52 +480,51 @@
         "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "{ip:Provi} una gonna ed {ip:è} perfetta per te.",
+            "q": "{ip:Chiedi} a un amico se {ip:gioca} a calcio.",
             "a": [
-              "Questa gonna mi sta bene.",
-              "La gonna mi sta bene."
+              "Giochi a calcio?",
+              "Tu giochi a calcio?"
             ]
           },
           {
-            "q": "{ip:Provi} delle scarpe, ma {ip:sono} piccole.",
+            "q": "Che cosa {ip:pagate} ogni mese tu e Luca? (l'affitto)",
             "a": [
-              "Queste scarpe mi stanno strette.",
-              "Le scarpe mi stanno strette."
+              "Paghiamo l'affitto.",
+              "Noi paghiamo l'affitto."
             ]
           },
           {
-            "q": "{ip:Chiedi} a un amico se la giacca {ip:è} bella per lui.",
+            "q": "{ip:Chiedi} quanto tempo {ip:serve}.",
             "a": [
-              "Ti piace questa giacca?",
-              "Ti piace la giacca?"
+              "Quanto tempo ci vuole?"
             ]
           },
           {
-            "q": "I colori {ip:sono} belli per Marco. (a lui)",
+            "q": "{ip:Rispondi}: sessanta minuti.",
             "a": [
-              "Gli piacciono i colori."
+              "Ci vuole un'ora."
             ]
           },
           {
-            "q": "Che cosa {ip:fai} per il compleanno di Sofia? (dare un regalo)",
+            "q": "Quanto tempo ci {ip:metti} tu? (venti minuti)",
             "a": [
-              "Do un regalo a Sofia.",
-              "Io do un regalo a Sofia.",
-              "Le do un regalo."
+              "Ci metto venti minuti.",
+              "Io ci metto venti minuti."
             ]
           },
           {
-            "q": "I pantaloni: di che colore {ip:sono}? (blu)",
+            "q": "Il divano? (noi, mettere, qui)",
             "a": [
-              "I pantaloni sono blu.",
-              "Sono blu."
+              "Il divano? Lo mettiamo qui.",
+              "Lo mettiamo qui."
             ]
           },
           {
-            "q": "Il rosso {ip:va} bene per lei. (stare bene)",
+            "q": "Che cosa {ip:cerchi}? (le mie chiavi)",
             "a": [
-              "Le sta bene il rosso.",
-              "Il rosso le sta bene."
+              "Cerco le mie chiavi.",
+              "Io cerco le mie chiavi.",
+              "Cerco le chiavi."
             ]
           }
         ]

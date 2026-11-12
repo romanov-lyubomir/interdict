@@ -1,186 +1,309 @@
 {
   "title": "Questo libro {pp:è stato} {pp:scritto} da Calvino",
-  "translation": "This book was written by Calvino",
-  "topics": "The passive with essere, venire and andare, the passive with si",
+  "translation": "",
+  "topics": "La forma passiva con *essere*, *venire* e *andare*, il *si* passivante, chi fa l'azione: *da* + articolo, arte, monumenti e patrimonio",
   "grammar": {
     "explain": [
+      "Nella frase passiva la cosa che riceve l'azione diventa il soggetto: *Calvino {pp:ha scritto} questo libro → Questo libro {pp:è stato scritto} da Calvino.* Chi fa l'azione arriva dopo *da*, oppure non si dice. Il passivo si usa molto nei giornali, nella storia, nell'arte e nei cartelli.",
       {
-        "h": "What the passive does"
-      },
-      "In a passive sentence, the thing that receives the action becomes the subject. The one who does it comes after *da*, or isn't mentioned at all.",
-      {
-        "table": {
-          "head": [
-            "Active",
-            "Passive"
-          ],
-          "rows": [
-            [
-              "Calvino {pp:ha scritto} questo libro.",
-              "Questo libro {pp:è stato} {pp:scritt**o**} da Calvino."
-            ],
-            [
-              "Molti turisti {ip:visitano} Pisa.",
-              "Pisa {ip:è visitat**a**} da molti turisti."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Dall'attivo al passivo",
+              "head": [
+                "attivo",
+                "passivo"
+              ],
+              "rows": [
+                [
+                  "Calvino {pp:ha scritto} **questo libro**.",
+                  "**Questo libro** {pp:è stato scritt**o**} da Calvino."
+                ],
+                [
+                  "Molti turisti {ip:visitano} **Pisa**.",
+                  "**Pisa** {ip:è visitat**a**} da molti turisti."
+                ],
+                [
+                  "Michelangelo {pp:ha scolpito} **il David**.",
+                  "**Il David** {pp:è stato scolpit**o**} da Michelangelo."
+                ],
+                [
+                  "Gli studenti {fs:organizzeranno} **le feste**.",
+                  "**Le feste** {fs:saranno organizzat**e**} dagli studenti."
+                ]
+              ]
+            },
+            "note": [
+              "L'oggetto dell'attivo diventa il soggetto del passivo. Solo i verbi con un oggetto diretto (*scrivere qualcosa, visitare qualcosa*) possono diventare passivi.",
+              "Il participio va sempre d'accordo con il soggetto, come con l'ausiliare *essere*: *il libro è stat**o** scritt**o**, la casa è stat**a** vendut**a**, le feste saranno organizzat**e***."
             ]
-          ]
-        }
-      },
-      {
-        "h": "How to form it"
-      },
-      "Use *essere* in the tense of the active verb, with the participle. Because the auxiliary is *essere*, the participle always agrees with the subject.",
-      {
-        "table": {
-          "head": [
-            "Tense",
-            "Example"
-          ],
-          "rows": [
-            [
-              "[ip:Presente]",
-              "La casa {ip:è venduta}."
-            ],
-            [
-              "[pp:Passato prossimo]",
-              "La casa {pp:è stata} {pp:venduta}."
-            ],
-            [
-              "[im:Imperfetto]",
-              "La casa {im:era venduta}."
-            ],
-            [
-              "Futuro",
-              "La casa {fs:sarà venduta}."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il passivo con *essere* nei vari tempi",
+              "head": [
+                "tempo",
+                "attivo",
+                "passivo"
+              ],
+              "rows": [
+                [
+                  "[ip:presente]",
+                  "Il comune {ip:restaura} la chiesa.",
+                  "La chiesa **{ip:è restaurata}** dal comune."
+                ],
+                [
+                  "[pp:passato prossimo]",
+                  "Il comune {pp:ha restaurato} la chiesa.",
+                  "La chiesa **{pp:è stata restaurata}** dal comune."
+                ],
+                [
+                  "[im:imperfetto]",
+                  "Il comune {im:restaurava} la chiesa.",
+                  "La chiesa **{im:era restaurata}** dal comune."
+                ],
+                [
+                  "[fs:futuro semplice]",
+                  "Il comune {fs:restaurerà} la chiesa.",
+                  "La chiesa **{fs:sarà restaurata}** dal comune."
+                ],
+                [
+                  "[cop:condizionale presente]",
+                  "Il comune {cop:restaurerebbe} la chiesa.",
+                  "La chiesa **{cop:sarebbe restaurata}** dal comune."
+                ]
+              ]
+            },
+            "note": "*Essere* va nello stesso tempo del verbo attivo, poi viene il participio. Nei tempi composti ci sono due participi: *{pp:è stata restaurata}*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Venire* al posto di *essere*",
+              "head": [
+                "con *essere*",
+                "con *venire*"
+              ],
+              "rows": [
+                [
+                  "La pasta **{ip:è fatta}** a mano.",
+                  "La pasta **{ip:viene fatta}** a mano."
+                ],
+                [
+                  "Il museo **{im:era chiuso}** il lunedì.",
+                  "Il museo **{im:veniva chiuso}** il lunedì."
+                ],
+                [
+                  "Il ponte **{fs:sarà riaperto}** a giugno.",
+                  "Il ponte **{fs:verrà riaperto}** a giugno."
+                ]
+              ]
+            },
+            "note": [
+              "*Venire* mette in evidenza l'azione che succede, e si usa molto per le abitudini e i processi: *Il pane {ip:viene sfornato} ogni mattina alle sei.*",
+              "*Venire* si usa solo nei tempi semplici ([ip:presente], [im:imperfetto], [fs:futuro], [cop:condizionale]). Nei tempi composti serve *essere*: *{pp:è stata fatta}*, mai «è venuta fatta»."
             ]
-          ]
-        }
-      },
-      {
-        "h": "Venire instead of essere"
-      },
-      "In simple tenses, you can use *venire* instead of *essere*. It stresses the action taking place: *La pasta {ip:viene} preparata in casa*. It cannot be used in compound tenses, so never say *{pp:è venuta} preparata*.",
-      {
-        "h": "Andare: it must be done"
-      },
-      "*Andare* with a participle means that something must be done: *Questo lavoro {ip:va} finito oggi* (This work must be finished today). *Il vino bianco {ip:va} servito freddo.*",
-      {
-        "h": "The passive with si"
-      },
-      "You already know *si* for people in general. With a direct object, it works as a passive, and the verb agrees with that object. This is the form you see on signs and in recipes.",
-      {
-        "table": {
-          "head": [
-            "Object",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Singular",
-              "Si {ip:vend**e**} questa casa.",
-              "This house is for sale."
-            ],
-            [
-              "Plural",
-              "Si {ip:vend**ono**} case.",
-              "Houses for sale."
-            ],
-            [
-              "Singular",
-              "Si {ip:parl**a**} italiano.",
-              "Italian is spoken."
-            ]
-          ]
-        }
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Andare* + participio: una cosa da fare",
+              "head": [
+                "frase",
+                "vuol dire…"
+              ],
+              "rows": [
+                [
+                  "Il biglietto **{ip:va convalidato}** prima di salire.",
+                  "deve essere convalidato"
+                ],
+                [
+                  "Il vino bianco **{ip:va servito}** freddo.",
+                  "deve essere servito freddo"
+                ],
+                [
+                  "Le medicine **{ip:vanno tenute}** lontano dai bambini.",
+                  "devono essere tenute lontano"
+                ],
+                [
+                  "Questo lavoro **{ip:va finito}** entro venerdì.",
+                  "deve essere finito"
+                ]
+              ]
+            },
+            "note": "*Andare* + participio esprime un obbligo o una regola: si trova spesso nelle istruzioni, nei cartelli e nelle ricette. Il participio va d'accordo con il soggetto: *le medicine vann**o** tenut**e***."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il *si* passivante",
+              "head": [
+                "la cosa",
+                "frase",
+                "vuol dire…"
+              ],
+              "rows": [
+                [
+                  "una (singolare)",
+                  "Si **{ip:vende}** questa casa.",
+                  "Questa casa è in vendita."
+                ],
+                [
+                  "più cose (plurale)",
+                  "Si **{ip:vendono}** case al mare.",
+                  "Ci sono case in vendita."
+                ],
+                [
+                  "una lingua",
+                  "Qui si **{ip:parla}** inglese.",
+                  "Qui le persone parlano inglese."
+                ],
+                [
+                  "con un verbo modale",
+                  "Si **{ip:possono}** visitare i giardini.",
+                  "I giardini possono essere visitati."
+                ]
+              ]
+            },
+            "note": "Con *si* + verbo alla terza persona, la cosa diventa il soggetto: il verbo va al singolare o al plurale come la cosa. Si trova nei cartelli (*Si affittano camere*), nelle ricette (*Si tagliano le cipolle*) e negli annunci."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Chi fa l'azione: *da* + articolo",
+              "head": [
+                "*da* + …",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "*da* + nome di persona",
+                  "Il David {pp:è stato scolpito} **da Michelangelo**."
+                ],
+                [
+                  "*dal, dallo, dall'*",
+                  "La lettera {pp:è stata firmata} **dal direttore**."
+                ],
+                [
+                  "*dalla*",
+                  "Il ladro {pp:è stato fermato} **dalla polizia**."
+                ],
+                [
+                  "*dai, dagli, dalle*",
+                  "La festa {pp:è stata organizzata} **dagli studenti**."
+                ],
+                [
+                  "nessuno: non è importante chi",
+                  "La casa {pp:è stata venduta}. Il museo {ip:è chiuso} il lunedì."
+                ]
+              ]
+            },
+            "note": "Spesso si usa il passivo proprio perché non si sa, o non interessa, chi fa l'azione: *{pp:È stato rubato} un quadro.*"
+          }
+        ]
       }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "write",
-        "prompt": "Make each sentence passive.",
+        "type": "gap",
+        "prompt": "Completa con il passivo al [ip:presente] (*essere* + participio).",
+        "questions": [
+          "La Torre di Pisa (visitare) [[è visitata#ip]] da milioni di turisti.",
+          "Questi biscotti (fare) [[sono fatti#ip]] con il miele.",
+          "Il museo (chiudere) [[è chiuso#ip]] il lunedì.",
+          "Le lettere (spedire) [[sono spedite#ip]] ogni mattina.",
+          "Il giornale (leggere) [[è letto#ip]] da molti giovani."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il passivo al [pp:passato prossimo]. Attenzione all'accordo!",
+        "questions": [
+          "Il Colosseo (costruire) [[è stato costruito#pp]] nel primo secolo.",
+          "La Gioconda (dipingere) [[è stata dipinta#pp]] da Leonardo.",
+          "I biglietti (vendere) [[sono stati venduti#pp]] in un'ora.",
+          "Le statue (restaurare) [[sono state restaurate#pp]] l'anno scorso.",
+          "La lettera (scrivere) [[è stata scritta#pp]] a mano.",
+          "Il ponte (distruggere) [[è stato distrutto#pp]] durante la guerra."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Essere* o *venire*? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Calvino {pp:ha scritto} questo libro.",
-            "a": [
-              "Questo libro è stato scritto da Calvino."
+            "q": "Il pane ___ fatto ogni mattina.",
+            "options": [
+              "*{ip:viene}",
+              "{pp:è venuto}"
             ]
           },
           {
-            "q": "Molti turisti {ip:visitano} Roma.",
-            "a": [
-              "Roma è visitata da molti turisti."
+            "q": "La chiesa ___ restaurata nel 2010.",
+            "options": [
+              "*{pp:è stata}",
+              "{pp:è venuta}"
             ]
           },
           {
-            "q": "Mio padre {pp:ha costruito} queste case.",
-            "a": [
-              "Queste case sono state costruite da mio padre."
+            "q": "Domani il museo ___ aperto alle nove.",
+            "options": [
+              "*{fs:verrà}",
+              "{pp:è venuto}"
             ]
           },
           {
-            "q": "Il cuoco {ip:prepara} la cena.",
-            "a": [
-              "La cena è preparata dal cuoco.",
-              "La cena viene preparata dal cuoco."
+            "q": "Le finestre ___ pulite due volte all'anno.",
+            "options": [
+              "*{ip:vengono}",
+              "{pp:sono venute}"
+            ]
+          },
+          {
+            "q": "Il quadro ___ venduto ieri all'asta.",
+            "options": [
+              "*{pp:è stato}",
+              "{pp:è venuto}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the right form of the participle.",
+        "prompt": "Completa con *andare* + participio.",
         "questions": [
-          "La lettera {pp:è stata} [[spedita#pp]] ieri. (spedire)",
-          "I biglietti {pp:sono stati} [[venduti#pp]]. (vendere)",
-          "Le case {pp:sono state} [[costruite#pp]] nel 1900. (costruire)",
-          "Il ladro {pp:è stato} [[preso#pp]]. (prendere)"
+          "Il biglietto (convalidare) [[va convalidato#ip]] prima di salire sul treno.",
+          "Le patate (sbucciare) [[vanno sbucciate#ip]] prima di cuocerle.",
+          "Questo modulo (firmare) [[va firmato#ip]] in fondo.",
+          "I rifiuti (separare) [[vanno separati#ip]] per tipo.",
+          "La pasta (scolare) [[va scolata#ip]] al dente."
         ]
       },
       {
-        "type": "choice",
-        "prompt": "Choose the right form.",
+        "type": "gap",
+        "prompt": "Completa con il *si* passivante: singolare o plurale?",
         "questions": [
-          {
-            "q": "Questo lavoro ___ finito oggi. (must be)",
-            "options": [
-              "*{ip:va}",
-              "{ip:viene}",
-              "{pp:è stato}"
-            ]
-          },
-          {
-            "q": "La pasta ___ preparata in casa. (the action)",
-            "options": [
-              "*{ip:viene}",
-              "{ip:va}",
-              "{ip:fa}"
-            ]
-          },
-          {
-            "q": "La casa ___ venduta ieri.",
-            "options": [
-              "{ip:viene}",
-              "{ip:va}",
-              "*{pp:è stata}"
-            ]
-          },
-          {
-            "q": "Qui si ___ biglietti.",
-            "options": [
-              "{ip:vende}",
-              "*{ip:vendono}"
-            ]
-          },
-          {
-            "q": "In Svizzera si ___ francese.",
-            "options": [
-              "*{ip:parla}",
-              "{ip:parlano}"
-            ]
-          }
+          "Qui si (parlare) [[parla#ip]] inglese e francese.",
+          "Si (vendere) [[vendono#ip]] appartamenti in centro.",
+          "Si (affittare) [[affitta#ip]] una camera singola.",
+          "In questo ristorante si (mangiare) [[mangiano#ip]] ottime specialità di pesce.",
+          "Da qui si (vedere) [[vede#ip]] tutta la città.",
+          "Si (potere) [[possono#ip]] visitare i giardini fino alle sette."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi la frase al passivo.",
+        "questions": [
+          "Brunelleschi {pp:ha progettato} la cupola. → La cupola [[è stata progettata#pp]] da Brunelleschi.",
+          "Il sindaco {fs:inaugurerà} la mostra. → La mostra [[sarà inaugurata#fs]] dal sindaco.",
+          "Gli studenti {ip:organizzano} il concerto. → Il concerto [[è organizzato|viene organizzato#ip]] dagli studenti.",
+          "La polizia {pp:ha arrestato} i ladri. → I ladri [[sono stati arrestati#pp]] dalla polizia.",
+          "Manzoni {pp:ha scritto} «I promessi sposi». → «I promessi sposi» [[sono stati scritti#pp]] da Manzoni."
         ]
       }
     ]
@@ -189,134 +312,265 @@
     "words": [
       [
         "l'opera d'arte",
-        "work of art"
+        "un quadro, una statua, un edificio creato da un artista"
       ],
       [
         "il quadro",
-        "painting"
+        "un'opera dipinta su tela o su legno"
+      ],
+      [
+        "l'affresco",
+        "una pittura fatta direttamente sul muro fresco"
       ],
       [
         "la statua",
-        "statue"
+        "una figura scolpita nella pietra o fatta in metallo"
       ],
       [
-        "il romanzo",
-        "novel"
+        "il pittore, la pittrice",
+        "la persona che dipinge quadri"
       ],
       [
-        "il pittore",
-        "painter"
+        "lo scultore, la scultrice",
+        "la persona che fa statue"
+      ],
+      [
+        "l'architetto",
+        "la persona che progetta edifici"
       ],
       [
         "il monumento",
-        "monument"
+        "un edificio o una statua importante per la storia"
       ],
       [
-        "costruire",
-        "to build"
+        "il patrimonio",
+        "i beni di valore che si ricevono dal passato"
       ],
       [
         "dipingere",
-        "to paint"
+        "fare un quadro con i colori"
       ],
       [
-        "pubblicare",
-        "to publish"
+        "scolpire",
+        "fare una statua lavorando la pietra o il legno"
       ],
       [
-        "distruggere",
-        "to destroy"
+        "progettare",
+        "pensare e disegnare un edificio prima di costruirlo"
+      ],
+      [
+        "costruire",
+        "fare un edificio, un ponte, una strada"
       ],
       [
         "restaurare",
-        "to restore"
+        "riparare un'opera antica perché torni come prima"
       ],
       [
-        "famoso",
-        "famous"
+        "il restauro",
+        "il lavoro per riparare un'opera antica"
+      ],
+      [
+        "distruggere",
+        "rovinare completamente una cosa"
+      ],
+      [
+        "inaugurare",
+        "aprire per la prima volta, con una piccola festa"
+      ],
+      [
+        "la mostra",
+        "un'esposizione di opere d'arte per un certo periodo"
+      ],
+      [
+        "il biglietto d'ingresso",
+        "il biglietto per entrare in un museo"
+      ],
+      [
+        "la guida",
+        "la persona che accompagna i visitatori e spiega"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il quadro",
-            "painting"
-          ],
-          [
-            "il romanzo",
-            "novel"
-          ],
-          [
-            "dipingere",
-            "to paint"
-          ],
-          [
-            "pubblicare",
-            "to publish"
-          ],
-          [
-            "distruggere",
-            "to destroy"
+            "l'affresco",
+            "una pittura fatta direttamente sul muro fresco"
           ],
           [
             "restaurare",
-            "to restore"
+            "riparare un'opera antica perché torni come prima"
+          ],
+          [
+            "progettare",
+            "pensare e disegnare un edificio prima di costruirlo"
+          ],
+          [
+            "il patrimonio",
+            "i beni di valore che si ricevono dal passato"
+          ],
+          [
+            "inaugurare",
+            "aprire per la prima volta, con una piccola festa"
+          ],
+          [
+            "la mostra",
+            "un'esposizione di opere d'arte per un certo periodo"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Chi {pp:ha fatto} l'opera? Scegli la parola giusta.",
         "questions": [
-          "Questa [[statua]] {ip:è} molto antica. (statue)",
-          "Il Colosseo {ip:è} un [[monumento]] famoso. (monument)",
-          "Il [[pittore]] {pp:ha lavorato} per anni. (painter)",
-          "Questo palazzo {pp:è stato} [[costruito#pp]] nel Seicento. (built)"
+          {
+            "q": "Il David {pp:è stato scolpito} da uno ___.",
+            "options": [
+              "*scultore",
+              "architetto",
+              "pittore"
+            ]
+          },
+          {
+            "q": "La cupola del Duomo {pp:è stata progettata} da un ___.",
+            "options": [
+              "*architetto",
+              "pittore",
+              "scultore"
+            ]
+          },
+          {
+            "q": "La Nascita di Venere {pp:è stata dipinta} da un ___.",
+            "options": [
+              "*pittore",
+              "architetto",
+              "restauratore"
+            ]
+          },
+          {
+            "q": "Il quadro {pp:è stato riparato} da un ___.",
+            "options": [
+              "*restauratore",
+              "architetto",
+              "pittore"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "La [[mostra]] su Caravaggio {fs:resterà} aperta fino a marzo.",
+          "Il [[biglietto]] d'ingresso {ip:costa} quindici euro.",
+          "La [[guida]] ci {pp:ha spiegato} la storia del palazzo.",
+          "Dopo il [[restauro]], i colori dell'affresco {ip:sono} bellissimi.",
+          "Il ponte {pp:è stato} [[distrutto]] dalla guerra e poi ricostruito."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "La Torre di Pisa {ip:è} uno dei monumenti più famosi d'Italia. {pp:È stata} {pp:costruita} in quasi duecento anni e {pp:ha cominciato} a inclinarsi già durante i lavori. Ogni anno {ip:viene} visitata da milioni di turisti.",
-      "Negli ultimi decenni {pp:è stata} {pp:restaurata} con molta attenzione, perché {im:rischiava} di cadere. Ora si {ip:possono} salire i suoi gradini, ma i biglietti {ip:vanno} prenotati in anticipo. La torre non {pp:è stata} {pp:raddrizzata} del tutto: altrimenti, chi {cop:verrebbe} più a vederla?"
+      {
+        "h": "Il Cenacolo: un capolavoro fragile"
+      },
+      "L'Ultima Cena {pp:è stata dipinta} da Leonardo da Vinci tra il 1494 e il 1498 sul muro del refettorio di Santa Maria delle Grazie, a Milano. Leonardo non {pp:ha usato} la tecnica dell'affresco, ma una tecnica nuova e più lenta: per questo la pittura {pp:ha cominciato} a rovinarsi già pochi anni dopo.",
+      "Nel 1943, durante la guerra, il refettorio {pp:è stato colpito} dalle bombe, ma il muro del Cenacolo {pp:è stato salvato} da sacchi di sabbia. Dal 1978 al 1999 l'opera {pp:è stata restaurata} con grande pazienza, centimetro dopo centimetro.",
+      "Oggi le visite {ip:vengono organizzate} in piccoli gruppi, che {ip:possono} restare davanti al dipinto solo quindici minuti. I biglietti {ip:vanno prenotati} con settimane di anticipo: si {ip:vendono} quasi subito!"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The tower took almost 200 years to build.",
+            "q": "Dove si {ip:trova} il Cenacolo?",
             "options": [
-              "*True",
-              "False"
+              "*a Milano",
+              "a Firenze",
+              "a Roma"
             ]
           },
           {
-            "q": "It began to lean only recently.",
+            "q": "Perché la pittura {pp:ha cominciato} presto a rovinarsi?",
             "options": [
-              "True",
-              "*False"
+              "*Leonardo {pp:ha usato} una tecnica nuova.",
+              "{pp:È stata colpita} dalle bombe nel Cinquecento.",
+              "Il muro {im:era} troppo vecchio."
             ]
           },
           {
-            "q": "Tickets should be booked in advance.",
+            "q": "Come {pp:è stato salvato} il muro nel 1943?",
             "options": [
-              "*True",
-              "False"
+              "*con sacchi di sabbia",
+              "con un altro muro",
+              "{pp:è stato portato} in un museo"
             ]
           },
           {
-            "q": "The tower has been completely straightened.",
+            "q": "Quanto tempo {ip:dura} una visita?",
             "options": [
-              "True",
-              "*False"
+              "*quindici minuti",
+              "un'ora",
+              "un giorno intero"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il Cenacolo {pp:è stato dipinto} in quattro anni circa.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il Cenacolo {ip:è} un affresco tradizionale.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Nel 1943 il refettorio {pp:è stato colpito} dalle bombe.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il restauro {pp:è durato} più di vent'anni.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "I biglietti si {ip:comprano} facilmente il giorno stesso.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme passive.",
+        "questions": [
+          "L'Ultima Cena [[è stata dipinta#pp]] da Leonardo da Vinci.",
+          "Nel 1943 il refettorio [[è stato colpito#pp]] dalle bombe.",
+          "Dal 1978 al 1999 l'opera [[è stata restaurata#pp]].",
+          "Oggi le visite [[vengono organizzate#ip]] in piccoli gruppi.",
+          "I biglietti [[vanno prenotati#ip]] con settimane di anticipo."
         ]
       }
     ]
@@ -325,15 +579,15 @@
     "transcript": [
       [
         "Guida",
-        "Questo quadro {pp:è stato} {pp:dipinto} nel Cinquecento."
+        "Ecco la Nascita di Venere. Questo quadro {pp:è stato dipinto} da Sandro Botticelli verso il 1485."
       ],
       [
         "Turista",
-        "Da chi {pp:è stato} {pp:dipinto}?"
+        "Che meraviglia! {pp:È stato restaurato}?"
       ],
       [
         "Guida",
-        "Da un allievo di Raffaello. {pp:È stato} {pp:restaurato} due anni fa."
+        "Sì, più di una volta. Oggi i restauri {ip:vengono fatti} con tecniche modernissime."
       ],
       [
         "Turista",
@@ -341,34 +595,55 @@
       ],
       [
         "Guida",
-        "No, le fotografie {ip:sono vietate}. E le borse {ip:vanno} {ip:lasciate} all'ingresso."
+        "Sì, ma il flash {ip:va spento}. E gli zaini {ip:vanno lasciati} al guardaroba."
       ],
       [
         "Turista",
-        "{ip:Capisco}. Grazie."
+        "Ah, il mio zaino non {pp:è stato controllato} all'ingresso…"
+      ],
+      [
+        "Guida",
+        "Nessun problema, {ip:viene controllato} adesso dal personale."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Questo quadro {pp:è stato} [[dipinto#pp]] nel Cinquecento.",
-          "{pp:È stato} [[restaurato#pp]] due anni fa.",
-          "[[Si]] {ip:possono} fare fotografie?",
-          "Le borse [[vanno#ip]] {ip:lasciate} all'ingresso."
+          "Questo quadro [[è stato dipinto#pp]] da Sandro Botticelli.",
+          "Oggi i restauri [[vengono fatti#ip]] con tecniche modernissime.",
+          "Si [[possono#ip]] fare fotografie?",
+          "Il flash [[va spento#ip]].",
+          "Gli zaini [[vanno lasciati#ip]] al guardaroba."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Who painted the picture?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The painter was…",
+            "q": "Chi {pp:ha dipinto} la Nascita di Venere?",
             "options": [
-              "Raphael",
-              "*a pupil of Raphael",
-              "Michelangelo"
+              "*Sandro Botticelli",
+              "Leonardo da Vinci",
+              "Raffaello"
+            ]
+          },
+          {
+            "q": "Si {ip:possono} fare fotografie?",
+            "options": [
+              "*Sì, ma senza flash.",
+              "No, mai.",
+              "Sì, anche con il flash."
+            ]
+          },
+          {
+            "q": "Dove {ip:vanno lasciati} gli zaini?",
+            "options": [
+              "*al guardaroba",
+              "all'ingresso",
+              "nella sala"
             ]
           }
         ]
@@ -379,43 +654,483 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando il passivo, *venire*, *andare* + participio o il *si* passivante.",
+        "open": true,
         "questions": [
           {
-            "q": "This book was written by Calvino.",
-            "a": [
-              "Questo libro è stato scritto da Calvino."
+            "q": "Qual {ip:è} il monumento più famoso della tua città? Quando e da chi {pp:è stato costruito}?"
+          },
+          {
+            "q": "Quale opera d'arte ti {ip:piace} di più? Da chi {pp:è stata creata}?"
+          },
+          {
+            "q": "Quali lingue si {ip:parlano} nel tuo paese?"
+          },
+          {
+            "q": "Come si {ip:prepara} un piatto tipico del tuo paese?"
+          },
+          {
+            "q": "Quali regole {ip:vanno rispettate} in un museo?"
+          },
+          {
+            "q": "Qual {ip:è} un libro che {pp:è stato tradotto} in molte lingue?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Cartelli"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda i cartelli e abbina ogni cartello al suo significato.",
+        "pictures": [
+          "A — Su un balcone, un cartello rosso: «VENDESI»",
+          "B — Sulla porta di un negozio: «Si parla inglese»",
+          "C — Davanti a una casa al mare: «Affittasi camere»",
+          "D — In un museo: «Le borse vanno lasciate al guardaroba»"
+        ],
+        "pairs": [
+          [
+            "il cartello A",
+            "Si {ip:vende} questo appartamento."
+          ],
+          [
+            "il cartello B",
+            "Qui il personale {ip:parla} inglese."
+          ],
+          [
+            "il cartello C",
+            "Si {ip:affittano} camere."
+          ],
+          [
+            "il cartello D",
+            "Non si {ip:può} entrare con la borsa."
+          ]
+        ]
+      },
+      {
+        "h": "In cucina"
+      },
+      {
+        "text": [
+          "**Spaghetti al pomodoro** — Si {ip:mette} sul fuoco una pentola d'acqua. Intanto si {ip:taglia} una cipolla e si {ip:fa} soffriggere nell'olio. Si {ip:aggiungono} i pomodori e si {ip:lascia} cuocere il sugo per venti minuti. Quando l'acqua {ip:bolle}, si {ip:mette} il sale e si {ip:buttano} gli spaghetti. La pasta {ip:va scolata} al dente e {ip:va servita} subito, con basilico fresco e parmigiano."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la ricetta per un libro di cucina. Completa con il *si* passivante.",
+        "ordered": true,
+        "questions": [
+          "Si (tagliare) [[taglia#ip]] una cipolla.",
+          "Si (aggiungere) [[aggiungono#ip]] i pomodori.",
+          "Si (cuocere) [[cuoce#ip]] il sugo per venti minuti.",
+          "Si (buttare) [[buttano#ip]] gli spaghetti nell'acqua che bolle.",
+          "Alla fine si (mettere) [[mettono#ip]] basilico e parmigiano."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi la ricetta e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Quanto tempo {ip:deve} cuocere il sugo?",
+            "options": [
+              "*venti minuti",
+              "un'ora",
+              "cinque minuti"
             ]
           },
           {
-            "q": "The house has been sold.",
-            "a": [
-              "La casa è stata venduta."
+            "q": "Quando si {ip:mette} il sale?",
+            "options": [
+              "*quando l'acqua {ip:bolle}",
+              "alla fine",
+              "prima di accendere il fuoco"
             ]
           },
           {
-            "q": "This work must be finished today. (use andare)",
-            "a": [
-              "Questo lavoro va finito oggi.",
-              "Questo lavoro oggi va finito."
-            ]
-          },
-          {
-            "q": "Tickets are sold here. (use si)",
-            "a": [
-              "Qui si vendono biglietti.",
-              "Si vendono biglietti qui.",
-              "Qui si vendono i biglietti."
-            ]
-          },
-          {
-            "q": "Rome is visited by many tourists.",
-            "a": [
-              "Roma è visitata da molti turisti.",
-              "Roma viene visitata da molti turisti."
+            "q": "Come {ip:va servita} la pasta?",
+            "options": [
+              "*subito",
+              "fredda",
+              "il giorno dopo"
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi tu la ricetta di un piatto del tuo paese. Usa il *si* passivante e *andare* + participio.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia ricetta:"
+          }
+        ]
+      },
+      {
+        "h": "Notizie"
+      },
+      {
+        "text": [
+          "**Rubato un quadro al Museo civico** — Un piccolo quadro del Seicento {pp:è stato rubato} ieri notte. Il ladro {pp:è stato visto} dalle telecamere.",
+          "**Riaperto il ponte sul fiume** — Il ponte {pp:è stato riaperto} dopo due anni di lavori. {pp:È stato inaugurato} dal sindaco.",
+          "**Trovata una statua romana** — Una statua di marmo {pp:è stata trovata} da alcuni operai durante i lavori per una nuova strada."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi le notizie e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Che cosa {pp:è stato rubato}?",
+            "options": [
+              "*un quadro del Seicento",
+              "una statua romana",
+              "le telecamere del museo"
+            ]
+          },
+          {
+            "q": "Da chi {pp:è stato inaugurato} il ponte?",
+            "options": [
+              "*dal sindaco",
+              "dagli operai",
+              "dalla polizia"
+            ]
+          },
+          {
+            "q": "Quando {pp:è stata trovata} la statua?",
+            "options": [
+              "*durante i lavori per una strada",
+              "durante la guerra",
+              "durante una visita al museo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "I titoli dei giornali spesso non hanno *essere*. Completa la frase intera.",
+        "questions": [
+          "Rubato un quadro. → Un quadro [[è stato rubato#pp]].",
+          "Riaperto il ponte. → Il ponte [[è stato riaperto#pp]].",
+          "Trovata una statua. → Una statua [[è stata trovata#pp]].",
+          "Arrestati due ladri. → Due ladri [[sono stati arrestati#pp]]."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi le notizie all'attivo.",
+        "questions": [
+          {
+            "q": "Il ladro è stato visto dalle telecamere.",
+            "a": [
+              "Le telecamere hanno visto il ladro."
+            ]
+          },
+          {
+            "q": "Il ponte è stato inaugurato dal sindaco.",
+            "a": [
+              "Il sindaco ha inaugurato il ponte."
+            ]
+          },
+          {
+            "q": "La statua è stata trovata da alcuni operai.",
+            "a": [
+              "Alcuni operai hanno trovato la statua."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Chi l'ha fatto?"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni opera al suo autore.",
+        "pairs": [
+          [
+            "La Gioconda {pp:è stata dipinta} da",
+            "Leonardo da Vinci"
+          ],
+          [
+            "Il David {pp:è stato scolpito} da",
+            "Michelangelo"
+          ],
+          [
+            "La Divina Commedia {pp:è stata scritta} da",
+            "Dante Alighieri"
+          ],
+          [
+            "La cupola del Duomo di Firenze {pp:è stata progettata} da",
+            "Filippo Brunelleschi"
+          ],
+          [
+            "Il Barbiere di Siviglia {pp:è stato composto} da",
+            "Gioachino Rossini"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *da* + articolo (*dal, dalla, dai, dagli, dalle*).",
+        "questions": [
+          "La lettera {pp:è stata firmata} [[dal]] direttore.",
+          "Il ladro {pp:è stato fermato} [[dalla]] polizia.",
+          "La festa {pp:è stata organizzata} [[dagli]] studenti.",
+          "Il museo {ip:è visitato} [[dai]] turisti di tutto il mondo."
+        ]
+      },
+      {
+        "h": "Istruzioni e regole"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le regole con *andare* + participio.",
+        "questions": [
+          "In biblioteca il telefono (spegnere) [[va spento#ip]].",
+          "I libri (restituire) [[vanno restituiti#ip]] entro un mese.",
+          "La carta e la plastica (separare) [[vanno separate#ip]].",
+          "Il biglietto (conservare) [[va conservato#ip]] fino all'uscita."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Attivo o passivo? Abbina ogni frase al tipo giusto.",
+        "pairs": [
+          [
+            "Il sindaco {pp:ha aperto} la mostra.",
+            "attivo"
+          ],
+          [
+            "La mostra {pp:è stata aperta} dal sindaco.",
+            "passivo"
+          ],
+          [
+            "Molti turisti {ip:visitano} Venezia.",
+            "attivo"
+          ],
+          [
+            "Venezia {ip:viene visitata} da molti turisti.",
+            "passivo"
+          ],
+          [
+            "Si {ip:vendono} biglietti.",
+            "passivo"
+          ]
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "La casa è stata venduto ieri.",
+            "a": [
+              "La casa è stata venduta ieri."
+            ]
+          },
+          {
+            "q": "Il quadro è venuto restaurato nel 2010.",
+            "a": [
+              "Il quadro è stato restaurato nel 2010."
+            ]
+          },
+          {
+            "q": "Si vende appartamenti in centro.",
+            "a": [
+              "Si vendono appartamenti in centro."
+            ]
+          },
+          {
+            "q": "La lettera è stata scritta di Marco.",
+            "a": [
+              "La lettera è stata scritta da Marco."
+            ]
+          },
+          {
+            "q": "Le medicine va tenute lontano dai bambini.",
+            "a": [
+              "Le medicine vanno tenute lontano dai bambini."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "stato / da / il libro / scritto / è / Calvino",
+            "a": [
+              "Il libro è stato scritto da Calvino."
+            ]
+          },
+          {
+            "q": "inglese / si / qui / parla",
+            "a": [
+              "Qui si parla inglese.",
+              "Si parla inglese qui."
+            ]
+          },
+          {
+            "q": "va / il biglietto / convalidato",
+            "a": [
+              "Il biglietto va convalidato."
+            ]
+          },
+          {
+            "q": "viene / il pane / ogni mattina / fatto",
+            "a": [
+              "Il pane viene fatto ogni mattina.",
+              "Ogni mattina il pane viene fatto."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*Da* senza accento è una preposizione: *{pp:è stato scritto} da Calvino*. *Dà* con l'accento è il verbo *dare*: *Marco mi {ip:dà} un libro*.",
+          "Nel passivo il participio cambia la vocale finale: *il libro {pp:è stato scritt**o**}, la lettera {pp:è stata scritt**a**}, i libri {pp:sono stati scritt**i**}, le lettere {pp:sono state scritt**e***."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "*Da* o *dà*?",
+        "questions": [
+          "Il quadro {pp:è stato dipinto} [[da]] Raffaello.",
+          "Mia madre mi [[dà]] sempre buoni consigli.",
+          "La mostra {pp:è stata organizzata} [[da]] un'associazione.",
+          "Il professore ci [[dà]] molti compiti."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la vocale finale del participio.",
+        "questions": [
+          "La chiesa {ip:è} stat[[a]] restaurata.",
+          "I biglietti {ip:sono} stat[[i]] venduti.",
+          "Le statue {ip:sono} stat[[e]] trovate.",
+          "Il museo {ip:è} stat[[o]] chiuso."
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So trasformare una frase attiva in passiva: *Il libro è stato scritto da Calvino.*",
+          "So usare *venire* al posto di *essere*: *La pasta viene fatta a mano.*",
+          "So dire che una cosa va fatta: *Il biglietto va convalidato.*",
+          "So capire i cartelli e le ricette con il *si*: *Si affittano camere.*",
+          "So raccontare la storia di un monumento o di un'opera d'arte."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Le rovine di Pompei con una strada di pietra antica e, sullo sfondo, il Vesuvio"
+      },
+      {
+        "text": [
+          "**Pompei, la città fermata nel tempo**",
+          "Nel 79 dopo Cristo il Vesuvio {pr:esplose} e la città romana di Pompei {pr:fu sepolta} sotto la cenere e i lapilli. Per molti secoli {pp:è stata dimenticata}.",
+          "I primi scavi {pp:sono stati fatti} nel Settecento, nel 1748. A poco a poco sono tornate alla luce strade, case, botteghe, terme e perfino le scritte sui muri.",
+          "Nell'Ottocento l'archeologo Giuseppe Fiorelli {pp:ha avuto} un'idea geniale: i vuoti lasciati nella cenere dai corpi delle vittime {pp:sono stati riempiti} con il gesso. Così {pp:sono stati ottenuti} i famosi calchi, che ancora oggi {ip:emozionano} i visitatori.",
+          "Nel 1997 Pompei {pp:è stata inserita} dall'UNESCO nel patrimonio dell'umanità. Ogni anno {ip:viene visitata} da milioni di persone, e gli scavi non {ip:sono} ancora finiti: si {ip:fanno} nuove scoperte quasi ogni anno."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Pompei {pr:fu sepolta} dalla cenere del Vesuvio.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Gli scavi {pp:sono cominciati} nel Novecento.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "I calchi {pp:sono stati fatti} con il gesso.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Pompei {ip:è} patrimonio dell'UNESCO.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Oggi gli scavi {ip:sono} tutti finiti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme passive.",
+        "questions": [
+          "I primi scavi [[sono stati fatti#pp]] nel 1748.",
+          "I vuoti [[sono stati riempiti#pp]] con il gesso.",
+          "Nel 1997 Pompei [[è stata inserita#pp]] nel patrimonio dell'umanità.",
+          "Ogni anno [[viene visitata#ip]] da milioni di persone."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "{pp:Hai} mai {pp:visitato} un sito archeologico o un museo che ti {pp:è rimasto} nel cuore? Racconta.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Descrivi un monumento o un'opera d'arte della tua città o del tuo paese. Usa il passivo.",
+        "cues": [
+          "Che cos'{ip:è} e dove si {ip:trova}?",
+          "Quando e da chi {pp:è stato costruito} (o dipinto, scolpito…)?",
+          "Che cosa gli {pp:è successo} nella storia? {pp:È stato distrutto}, {pp:restaurato}…?",
+          "Oggi come si {ip:visita}? Che cosa {ip:va fatto}? (*I biglietti vanno…*)"
+        ],
+        "start": "",
+        "model": "Il monumento più famoso della mia città è il ponte vecchio sul fiume. È stato costruito nel Cinquecento da un architetto locale ed è stato usato per secoli dai mercanti.\nDurante la guerra è stato distrutto in parte, ma dopo pochi anni è stato ricostruito con le stesse pietre. Nel 2015 è stato restaurato e illuminato.\nOggi il ponte viene attraversato ogni giorno da migliaia di persone. La sera si vedono le luci che si riflettono nell'acqua: è lo spettacolo più bello della città. Le visite guidate vanno prenotate all'ufficio turistico."
       }
     ]
   }

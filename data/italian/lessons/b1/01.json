@@ -1,183 +1,391 @@
 {
   "title": "{ip:Penso} che {csp:sia} una buona idea",
-  "translation": "I think it's a good idea",
-  "topics": "The [csp:congiuntivo presente]: forms and when to use it",
+  "translation": "",
+  "topics": "Il [csp:congiuntivo presente] regolare e irregolare, quando si usa: opinioni, dubbi, sentimenti e desideri, *che* + congiuntivo o *di* + infinito, *secondo me* e *penso che*, cambiare vita",
   "grammar": {
     "explain": [
+      "Quando diciamo una cosa sicura, usiamo l'indicativo: *{ip:So} che Marco {ip:è} a casa.* Ma quando diamo un'opinione, abbiamo un dubbio, proviamo un sentimento o vogliamo qualcosa, dopo *che* arriva un modo nuovo: il congiuntivo. *{ip:Penso} che Marco {csp:sia} a casa.*",
       {
-        "h": "What the congiuntivo is for"
-      },
-      "The indicative states facts. The *congiuntivo* presents something through someone's mind: an opinion, a doubt, a feeling or a wish. It almost always appears after *che*.",
-      {
-        "table": {
-          "head": [
-            "The main verb expresses",
-            "Examples",
-            "Sentence"
-          ],
-          "rows": [
-            [
-              "Opinion",
-              "{ip:penso} che, {ip:credo} che, mi {ip:sembra} che",
-              "{ip:Penso} che {csp:sia} vero."
-            ],
-            [
-              "Doubt",
-              "{ip:dubito} che, non {ip:sono} sicuro che",
-              "{ip:Dubito} che {csp:venga}."
-            ],
-            [
-              "Feeling",
-              "{ip:sono} contento che, {ip:ho} paura che, mi {ip:dispiace} che",
-              "{ip:Sono} contento che tu {csp:stia} bene."
-            ],
-            [
-              "Wish",
-              "{ip:voglio} che, {ip:spero} che, {ip:preferisco} che",
-              "{ip:Spero} che tu {csp:possa} venire."
-            ],
-            [
-              "Impersonal judgement",
-              "{ip:è} importante che, {ip:è} meglio che, {ip:bisogna} che",
-              "{ip:È} meglio che tu {csp:parta}."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Indicativo o congiuntivo?",
+              "head": [
+                "sono sicuro: indicativo",
+                "non sono sicuro, è una mia idea: [csp:congiuntivo presente]"
+              ],
+              "rows": [
+                [
+                  "{ip:So} che Luca **{ip:parte}** domani.",
+                  "{ip:Penso} che Luca **{csp:parta}** domani."
+                ],
+                [
+                  "{ip:Sono} sicura che **{ip:è}** vero.",
+                  "{ip:Credo} che **{csp:sia}** vero."
+                ],
+                [
+                  "{ip:È} chiaro che **{ip:hai}** ragione.",
+                  "Mi {ip:sembra} che tu **{csp:abbia}** ragione."
+                ],
+                [
+                  "Secondo me **{ip:è}** una buona idea.",
+                  "{ip:Spero} che **{csp:sia}** una buona idea."
+                ]
+              ]
+            },
+            "note": [
+              "Con *sapere*, *essere sicuro*, *è chiaro*, *è vero* la cosa è sicura: si usa l'indicativo.",
+              "Con *secondo me*, *per me*, *a mio parere* si usa l'indicativo, anche se è un'opinione: *Secondo me {ip:ha} ragione.* Con *penso che*, *credo che* serve il congiuntivo: *{ip:Penso} che {csp:abbia} ragione.*"
             ]
-          ]
-        }
-      },
-      "When the speaker is certain, use the indicative: *{ip:So} che {ip:è} vero. {ip:Sono} sicuro che {ip:viene}.*",
-      {
-        "h": "How to form it"
-      },
-      "The vowels swap: *-are* verbs take *-i*, while *-ere* and *-ire* verbs take *-a*. The three singular persons are identical, so you often need the pronoun: *che io {ip:parli}, che tu {csp:parli}*. The *noi* form is the same as in the present.",
-      {
-        "table": {
-          "head": [
-            "",
-            "parlare",
-            "scrivere",
-            "dormire",
-            "capire"
-          ],
-          "rows": [
-            [
-              "io, tu, lui / lei",
-              "{csp:parl**i**}",
-              "{csp:scriv**a**}",
-              "{csp:dorm**a**}",
-              "{csp:capisc**a**}"
-            ],
-            [
-              "noi",
-              "{csp:parl**iamo**}",
-              "{csp:scriv**iamo**}",
-              "{csp:dorm**iamo**}",
-              "{csp:cap**iamo**}"
-            ],
-            [
-              "voi",
-              "{csp:parl**iate**}",
-              "{csp:scriv**iate**}",
-              "{csp:dorm**iate**}",
-              "{csp:cap**iate**}"
-            ],
-            [
-              "loro",
-              "{csp:parl**ino**}",
-              "{csp:scriv**ano**}",
-              "{csp:dorm**ano**}",
-              "{csp:capisc**ano**}"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Quando si usa il [csp:congiuntivo presente]",
+              "head": [
+                "il primo verbo esprime…",
+                "per esempio",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "un'opinione",
+                  "*penso che, credo che, mi sembra che, immagino che*",
+                  "{ip:Credo} che il treno **{csp:arrivi}** alle otto."
+                ],
+                [
+                  "un dubbio",
+                  "*dubito che, non sono sicuro che, non so se*",
+                  "{ip:Dubito} che Anna **{csp:venga}** alla festa."
+                ],
+                [
+                  "un sentimento",
+                  "*sono contento che, ho paura che, mi dispiace che*",
+                  "{ip:Sono} contenta che tu **{csp:stia}** meglio."
+                ],
+                [
+                  "un desiderio o una speranza",
+                  "*voglio che, preferisco che, spero che*",
+                  "{ip:Spero} che domani non **{csp:piova}**."
+                ],
+                [
+                  "un giudizio (con *è*)",
+                  "*è importante che, è meglio che, è normale che, bisogna che*",
+                  "{ip:È} meglio che voi **{csp:partiate}** presto."
+                ]
+              ]
+            },
+            "note": "Il congiuntivo dipende quasi sempre da un altro verbo e arriva dopo *che*. Senza quel verbo si usa l'indicativo: *Il treno {ip:arriva} alle otto.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [csp:congiuntivo presente] dei verbi regolari",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*parlare*",
+                  2
+                ],
+                [
+                  "*prendere*",
+                  2
+                ],
+                [
+                  "*partire*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "che io",
+                  "{csp:parl**i**}",
+                  {
+                    "text": "con il direttore.",
+                    "rows": 6
+                  },
+                  "{csp:prend**a**}",
+                  {
+                    "text": "il treno.",
+                    "rows": 6
+                  },
+                  "{csp:part**a**}",
+                  {
+                    "text": "domani.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "che tu",
+                  "{csp:parl**i**}",
+                  null,
+                  "{csp:prend**a**}",
+                  null,
+                  "{csp:part**a**}",
+                  null
+                ],
+                [
+                  "che lui/lei/Lei",
+                  "{csp:parl**i**}",
+                  null,
+                  "{csp:prend**a**}",
+                  null,
+                  "{csp:part**a**}",
+                  null
+                ],
+                [
+                  "che noi",
+                  "{csp:parl**iamo**}",
+                  null,
+                  "{csp:prend**iamo**}",
+                  null,
+                  "{csp:part**iamo**}",
+                  null
+                ],
+                [
+                  "che voi",
+                  "{csp:parl**iate**}",
+                  null,
+                  "{csp:prend**iate**}",
+                  null,
+                  "{csp:part**iate**}",
+                  null
+                ],
+                [
+                  "che loro",
+                  "{csp:parl**ino**}",
+                  null,
+                  "{csp:prend**ano**}",
+                  null,
+                  "{csp:part**ano**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "I verbi in *-are* prendono la *i*; i verbi in *-ere* e *-ire* prendono la *a*: le vocali si scambiano.",
+              "*Io, tu, lui/lei* hanno la stessa forma, per questo spesso serve il pronome: *{ip:Penso} che tu {csp:parli} bene.*",
+              "La forma di *noi* è uguale al [ip:presente]: *parliamo, prendiamo, partiamo*. *Voi* finisce sempre in *-iate*.",
+              "I verbi in *-isc-* lo tengono anche qui: *che io {csp:capisca}, che loro {csp:capiscano}*, ma *che noi {csp:capiamo}, che voi {csp:capiate}*."
             ]
-          ]
-        }
-      },
-      {
-        "h": "A shortcut for irregular verbs"
-      },
-      "Take the *io* form of the present and change the final *-o* to *-a*: *{ip:faccio} → {csp:faccia}, {ip:vengo} → {csp:venga}, {ip:dico} → {csp:dica}, {ip:esco} → {csp:esca}, {ip:bevo} → {csp:beva}, {ip:posso} → {csp:possa}, {ip:voglio} → {csp:voglia}*.",
-      "Only a few verbs need learning by heart.",
-      {
-        "table": {
-          "head": [
-            "",
-            "essere",
-            "avere",
-            "andare",
-            "stare",
-            "dare"
-          ],
-          "rows": [
-            [
-              "io, tu, lui / lei",
-              "{csp:sia}",
-              "{csp:abbia}",
-              "{imv:vada}",
-              "{csp:stia}",
-              "{imv:dia}"
-            ],
-            [
-              "noi",
-              "{csp:siamo}",
-              "{csp:abbiamo}",
-              "{csp:andiamo}",
-              "{csp:stiamo}",
-              "{csp:diamo}"
-            ],
-            [
-              "voi",
-              "{csp:siate}",
-              "{csp:abbiate}",
-              "{csp:andiate}",
-              "{csp:stiate}",
-              "{csp:diate}"
-            ],
-            [
-              "loro",
-              "{csp:siano}",
-              "{csp:abbiano}",
-              "{csp:vadano}",
-              "{csp:stiano}",
-              "{csp:diano}"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [csp:congiuntivo presente] di *essere, avere, fare*",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*essere*",
+                  2
+                ],
+                [
+                  "*avere*",
+                  2
+                ],
+                [
+                  "*fare*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "che io",
+                  "{csp:sia}",
+                  {
+                    "text": "d'accordo.",
+                    "rows": 6
+                  },
+                  "{csp:abbia}",
+                  {
+                    "text": "ragione.",
+                    "rows": 6
+                  },
+                  "{csp:faccia}",
+                  {
+                    "text": "la cosa giusta.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "che tu",
+                  "{csp:sia}",
+                  null,
+                  "{csp:abbia}",
+                  null,
+                  "{csp:faccia}",
+                  null
+                ],
+                [
+                  "che lui/lei/Lei",
+                  "{csp:sia}",
+                  null,
+                  "{csp:abbia}",
+                  null,
+                  "{csp:faccia}",
+                  null
+                ],
+                [
+                  "che noi",
+                  "{csp:siamo}",
+                  null,
+                  "{csp:abbiamo}",
+                  null,
+                  "{csp:facciamo}",
+                  null
+                ],
+                [
+                  "che voi",
+                  "{csp:siate}",
+                  null,
+                  "{csp:abbiate}",
+                  null,
+                  "{csp:facciate}",
+                  null
+                ],
+                [
+                  "che loro",
+                  "{csp:siano}",
+                  null,
+                  "{csp:abbiano}",
+                  null,
+                  "{csp:facciano}",
+                  null
+                ]
+              ]
+            },
+            "note": "Queste forme vanno imparate a memoria: *{ip:Penso} che {csp:sia} vero, {ip:spero} che tu {csp:abbia} tempo, {ip:è} importante che lui {csp:faccia} attenzione.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [csp:congiuntivo presente] di altri verbi irregolari",
+              "rows": [
+                [
+                  "*andare*",
+                  "{csp:vada}, {csp:vada}, {csp:vada}, {csp:andiamo}, {csp:andiate}, {csp:vadano}"
+                ],
+                [
+                  "*venire*",
+                  "{csp:venga}, {csp:venga}, {csp:venga}, {csp:veniamo}, {csp:veniate}, {csp:vengano}"
+                ],
+                [
+                  "*dire*",
+                  "{csp:dica}, {csp:dica}, {csp:dica}, {csp:diciamo}, {csp:diciate}, {csp:dicano}"
+                ],
+                [
+                  "*uscire*",
+                  "{csp:esca}, {csp:esca}, {csp:esca}, {csp:usciamo}, {csp:usciate}, {csp:escano}"
+                ],
+                [
+                  "*potere*",
+                  "{csp:possa}, {csp:possa}, {csp:possa}, {csp:possiamo}, {csp:possiate}, {csp:possano}"
+                ],
+                [
+                  "*volere*",
+                  "{csp:voglia}, {csp:voglia}, {csp:voglia}, {csp:vogliamo}, {csp:vogliate}, {csp:vogliano}"
+                ],
+                [
+                  "*dovere*",
+                  "{csp:debba}, {csp:debba}, {csp:debba}, {csp:dobbiamo}, {csp:dobbiate}, {csp:debbano}"
+                ],
+                [
+                  "*sapere*",
+                  "{csp:sappia}, {csp:sappia}, {csp:sappia}, {csp:sappiamo}, {csp:sappiate}, {csp:sappiano}"
+                ],
+                [
+                  "*stare*",
+                  "{csp:stia}, {csp:stia}, {csp:stia}, {csp:stiamo}, {csp:stiate}, {csp:stiano}"
+                ],
+                [
+                  "*dare*",
+                  "{csp:dia}, {csp:dia}, {csp:dia}, {csp:diamo}, {csp:diate}, {csp:diano}"
+                ]
+              ]
+            },
+            "note": [
+              "Un trucco: si prende l'*io* del [ip:presente] e la *-o* diventa *-a*: *{ip:vado} → {csp:vada}, {ip:vengo} → {csp:venga}, {ip:dico} → {csp:dica}, {ip:esco} → {csp:esca}, {ip:posso} → {csp:possa}, {ip:voglio} → {csp:voglia}*.",
+              "*Noi* e *voi* seguono invece il *noi* del [ip:presente]: *andiamo → andiate, veniamo → veniate*.",
+              "*Sapere, stare, dare* (come *essere* e *avere*) non seguono il trucco: *{csp:sappia}, {csp:stia}, {csp:dia}*."
             ]
-          ]
-        }
-      },
-      {
-        "h": "Same person? Use the infinitive"
-      },
-      "If the two parts of the sentence have the same subject, Italian uses *di* with an infinitive instead: *{ip:Penso} di partire* (I think I'll leave), but *{ip:Penso} che tu {csp:parta}* (I think you are leaving). Verbs of wish take no *di*: *{ip:Voglio} partire*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Che* + congiuntivo o *di* + infinito?",
+              "head": [
+                "la stessa persona: *di* + infinito",
+                "due persone diverse: *che* + congiuntivo"
+              ],
+              "rows": [
+                [
+                  "(Io) {ip:Penso} **di partire** domani.",
+                  "(Io) {ip:Penso} **che tu {csp:parta}** domani."
+                ],
+                [
+                  "(Io) {ip:Spero} **di vederti** presto.",
+                  "(Io) {ip:Spero} **che tu {csp:venga}** presto."
+                ],
+                [
+                  "(Noi) {ip:Abbiamo} paura **di sbagliare**.",
+                  "(Noi) {ip:Abbiamo} paura **che lui {csp:sbagli}**."
+                ],
+                [
+                  "(Lei) {ip:Vuole} **cambiare** lavoro.",
+                  "(Lei) {ip:Vuole} **che suo figlio {csp:cambi}** lavoro."
+                ]
+              ]
+            },
+            "note": [
+              "Se chi pensa e chi fa l'azione sono la stessa persona, non si usa il congiuntivo ma *di* + infinito.",
+              "Con *volere*, *preferire* e *desiderare* l'infinito va senza *di*: *{ip:Voglio} partire, {ip:preferisco} restare.*"
+            ]
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the [csp:congiuntivo presente].",
+        "prompt": "Completa con il [csp:congiuntivo presente].",
         "questions": [
-          "{ip:Penso} che Marco [[parli#csp]] bene. (parlare)",
-          "{ip:Credo} che loro [[partano#csp]] domani. (partire)",
-          "{ip:Spero} che voi [[capiate#csp]]. (capire)",
-          "{ip:È} meglio che tu [[scriva#csp]] una lettera. (scrivere)",
-          "{ip:Dubito} che noi [[arriviamo#csp]] in tempo. (arrivare)"
+          "{ip:Penso} che Giulia (lavorare) [[lavori#csp]] troppo.",
+          "{ip:Credo} che i ragazzi (prendere) [[prendano#csp]] il treno delle otto.",
+          "{ip:Spero} che voi (capire) [[capiate#csp]] la mia decisione.",
+          "{ip:È} meglio che tu (scrivere) [[scriva#csp]] subito all'agenzia.",
+          "{ip:Dubito} che noi (arrivare) [[arriviamo#csp]] in tempo.",
+          "Mi {ip:sembra} che Paolo non (dormire) [[dorma#csp]] abbastanza."
         ]
       },
       {
         "type": "gap",
-        "prompt": "These verbs are irregular. Put them in the [csp:congiuntivo presente].",
+        "prompt": "Completa con il [csp:congiuntivo presente] dei verbi irregolari.",
         "questions": [
-          "{ip:Penso} che [[sia#csp]] una buona idea. (essere)",
-          "{ip:Credo} che Anna [[abbia#csp]] ragione. (avere)",
-          "{ip:Spero} che tu [[stia#csp]] bene. (stare)",
-          "{ip:È} importante che lui [[faccia#csp]] attenzione. (fare)",
-          "Non {ip:credo} che [[vengano#csp]] oggi. (venire, loro)",
-          "{ip:Bisogna} che io [[vada#csp]] a casa. (andare)"
+          "{ip:Penso} che (essere) [[sia#csp]] una buona idea.",
+          "{ip:Credo} che Anna (avere) [[abbia#csp]] ragione.",
+          "{ip:Sono} contento che tu (stare) [[stia#csp]] meglio.",
+          "{ip:È} importante che lui (fare) [[faccia#csp]] attenzione.",
+          "Non {ip:credo} che (loro, venire) [[vengano#csp]] stasera.",
+          "{ip:Bisogna} che io (andare) [[vada#csp]] in banca prima delle quattro."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the indicative or the congiuntivo.",
+        "prompt": "Indicativo o congiuntivo? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "So che Marco ___ a casa.",
+            "q": "{ip:So} che Marco ___ a casa.",
             "options": [
               "*{ip:è}",
               "{csp:sia}"
@@ -191,26 +399,96 @@
             ]
           },
           {
-            "q": "{ip:Sono} sicuro che lei ___ ragione.",
+            "q": "{ip:Sono} sicura che Lucia ___ ragione.",
             "options": [
               "*{ip:ha}",
               "{csp:abbia}"
             ]
           },
           {
-            "q": "{ip:Ho} paura che lei ___ torto.",
+            "q": "{ip:Ho} paura che Lucia ___ torto.",
             "options": [
               "{ip:ha}",
               "*{csp:abbia}"
             ]
           },
           {
-            "q": "Penso ___ partire domani. (I'm the one leaving)",
+            "q": "Secondo me questo film ___ bellissimo.",
             "options": [
-              "che",
-              "*di"
+              "*{ip:è}",
+              "{csp:sia}"
+            ]
+          },
+          {
+            "q": "{ip:Spero} che il film ti ___.",
+            "options": [
+              "{ip:piace}",
+              "*{csp:piaccia}"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi l'opinione con il [csp:congiuntivo presente].",
+        "questions": [
+          "Secondo me Luca {ip:ha} ragione. → {ip:Penso} che Luca [[abbia#csp]] ragione.",
+          "Per me {ip:è} troppo tardi. → {ip:Credo} che [[sia#csp]] troppo tardi.",
+          "Forse Sara non {ip:viene}. → {ip:Dubito} che Sara [[venga#csp]].",
+          "Domani {ip:fa} bel tempo, spero! → {ip:Spero} che domani [[faccia#csp]] bel tempo.",
+          "A mio parere {ip:dovete} partire presto. → {ip:È} meglio che (voi) [[partiate#csp]] presto."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Di* + infinito o *che* + congiuntivo? Scegli.",
+        "questions": [
+          {
+            "q": "(Io) {ip:Spero} ___ presto. (Sono io che arrivo.)",
+            "options": [
+              "*di arrivare",
+              "che io arrivi"
+            ]
+          },
+          {
+            "q": "(Io) {ip:Spero} ___ presto. (È mio fratello che arriva.)",
+            "options": [
+              "di arrivare",
+              "*che arrivi"
+            ]
+          },
+          {
+            "q": "Marta {ip:pensa} ___ a Londra. (È Marta che si trasferisce.)",
+            "options": [
+              "*di trasferirsi",
+              "che si trasferisca"
+            ]
+          },
+          {
+            "q": "I miei genitori {ip:vogliono} ___ medico. (Sono io che divento medico.)",
+            "options": [
+              "di diventare",
+              "*che io diventi"
+            ]
+          },
+          {
+            "q": "{ip:Voglio} ___ in Italia. (Sono io che vado.)",
+            "options": [
+              "*andare",
+              "di andare"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il verbo all'indicativo o al congiuntivo.",
+        "questions": [
+          "{ip:È} vero che Roberto (cambiare) [[cambia#ip]] lavoro?",
+          "Mi {ip:dispiace} che tu non (potere) [[possa#csp]] venire.",
+          "{ip:Sappiamo} che il museo (essere) [[è#ip]] chiuso il lunedì.",
+          "{ip:Preferisco} che voi (restare) [[restiate#csp]] a cena da noi.",
+          "{ip:È} normale che i bambini (avere) [[abbiano#csp]] paura del buio."
         ]
       }
     ]
@@ -218,139 +496,259 @@
   "vocabulary": {
     "words": [
       [
-        "l'idea",
-        "idea"
+        "l'opinione",
+        "quello che una persona pensa di una cosa"
+      ],
+      [
+        "il parere",
+        "l'opinione; «a mio parere» vuol dire «secondo me»"
+      ],
+      [
+        "essere d'accordo",
+        "avere la stessa opinione di un'altra persona"
+      ],
+      [
+        "avere ragione",
+        "dire o pensare una cosa giusta"
+      ],
+      [
+        "avere torto",
+        "dire o pensare una cosa sbagliata"
       ],
       [
         "il dubbio",
-        "doubt"
-      ],
-      [
-        "la paura",
-        "fear"
-      ],
-      [
-        "la speranza",
-        "hope"
-      ],
-      [
-        "sperare",
-        "to hope"
+        "quello che hai quando non sei sicuro"
       ],
       [
         "dubitare",
-        "to doubt"
+        "non essere sicuro, non credere molto a una cosa"
+      ],
+      [
+        "la speranza",
+        "quello che senti quando aspetti una cosa bella"
+      ],
+      [
+        "sperare",
+        "aspettare con fiducia una cosa bella"
+      ],
+      [
+        "la paura",
+        "quello che senti davanti a un pericolo"
       ],
       [
         "temere",
-        "to fear"
+        "avere paura di una cosa"
       ],
       [
-        "bisogna",
-        "it's necessary"
+        "la preoccupazione",
+        "un pensiero che non ti lascia tranquillo"
       ],
       [
-        "sicuro",
-        "sure"
+        "il coraggio",
+        "la forza di fare una cosa difficile o pericolosa"
       ],
       [
-        "necessario",
-        "necessary"
+        "il rischio",
+        "la possibilità che una cosa vada male"
+      ],
+      [
+        "rischiare",
+        "fare una cosa che può andare male"
+      ],
+      [
+        "convincere",
+        "far cambiare idea a una persona con buone ragioni"
+      ],
+      [
+        "il cambiamento",
+        "quando una cosa diventa diversa"
+      ],
+      [
+        "cambiare vita",
+        "lasciare il lavoro, la città o le abitudini per vivere in modo nuovo"
+      ],
+      [
+        "trasferirsi",
+        "andare a vivere in un'altra città o in un altro paese"
       ],
       [
         "probabile",
-        "likely"
-      ],
-      [
-        "mi dispiace",
-        "I'm sorry"
+        "che forse succederà"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il dubbio",
-            "doubt"
+            "il coraggio",
+            "la forza di fare una cosa difficile o pericolosa"
           ],
           [
-            "la speranza",
-            "hope"
+            "il rischio",
+            "la possibilità che una cosa vada male"
           ],
           [
-            "temere",
-            "to fear"
+            "convincere",
+            "far cambiare idea a una persona con buone ragioni"
           ],
           [
-            "bisogna",
-            "it's necessary"
+            "trasferirsi",
+            "andare a vivere in un'altra città o in un altro paese"
           ],
           [
-            "probabile",
-            "likely"
+            "avere torto",
+            "dire o pensare una cosa sbagliata"
           ],
           [
-            "mi dispiace",
-            "I'm sorry"
+            "la preoccupazione",
+            "un pensiero che non ti lascia tranquillo"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Che cosa prova questa persona?",
         "questions": [
-          "[[Spero#ip]] che tu {csp:stia} bene. (I hope)",
-          "{ip:È} una buona [[idea]]. (idea)",
-          "Non {ip:sono} [[sicuro]] che {csp:venga}. (sure)",
-          "{ip:Ho} [[paura]] che {csp:piova}. (fear)"
+          {
+            "q": "«Non so se Luca dice la verità.»",
+            "options": [
+              "*un dubbio",
+              "una speranza",
+              "il coraggio"
+            ]
+          },
+          {
+            "q": "«Domani ho l'esame e non ho studiato abbastanza.»",
+            "options": [
+              "*paura",
+              "coraggio",
+              "una speranza"
+            ]
+          },
+          {
+            "q": "«Forse quest'estate vado in Sicilia: sarebbe bellissimo!»",
+            "options": [
+              "*una speranza",
+              "un dubbio",
+              "una preoccupazione"
+            ]
+          },
+          {
+            "q": "«Lascio il lavoro in banca e apro un piccolo albergo in montagna.»",
+            "options": [
+              "*il coraggio di cambiare vita",
+              "paura del buio",
+              "un dubbio sul tempo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Hai [[ragione]]: è proprio una bella idea.",
+          "Non {ip:sono} d'[[accordo]] con te: secondo me è troppo caro.",
+          "A mio [[parere]] il film è troppo lungo.",
+          "{ip:Ho} un [[dubbio]]: il negozio è aperto la domenica?",
+          "Il mio amico vuole [[trasferirsi]] in Spagna per lavoro."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Il mio amico Fabio {ip:vuole} aprire un ristorante a Lisbona. Io {ip:penso} che {csp:sia} una buona idea, perché {ip:cucina} benissimo, ma sua madre {ip:ha} paura che lui {csp:perda} tutti i suoi soldi. {ip:Dice} che {ip:è} meglio che {csp:resti} in Italia e {csp:trovi} un lavoro sicuro.",
-      "Fabio {ip:sa} che il rischio {ip:è} grande, però {ip:spera} che la sua famiglia {csp:capisca}. Secondo me {ip:bisogna} che {csp:faccia} un piano preciso e che {csp:parli} con qualcuno che {ip:conosce} bene il portoghese. {ip:Sono} contento che {csp:abbia} il coraggio di provare."
+      {
+        "h": "Cambiare vita a 35 anni?"
+      },
+      "**Davide** — {ip:Ho} 35 anni e {ip:faccio} l'impiegato in una banca di Milano. Il lavoro {ip:è} sicuro, ma non mi {ip:piace} più: {ip:passo} dieci ore al giorno davanti al computer. Il mio sogno {ip:è} aprire un piccolo agriturismo in Umbria, nella vecchia casa dei miei nonni. Mia moglie {ip:è} d'accordo, ma i miei genitori {ip:pensano} che {csp:sia} una follia. Voi che cosa ne {ip:pensate}?",
+      "**Francesca, 41 anni** — Io {pp:ho cambiato} vita cinque anni fa e non {pp:sono} mai {pp:stata} così felice. {ip:Penso} che tu {csp:debba} provare: la vita {ip:è} una sola! Però {ip:è} importante che prima tu {csp:faccia} un corso e che {csp:parli} con chi {ip:lavora} già in un agriturismo.",
+      "**Giorgio, 58 anni** — {ip:Capisco} il tuo sogno, ma {ip:credo} che i tuoi genitori {csp:abbiano} ragione. Un agriturismo {ip:è} un lavoro faticoso: {ip:bisogna} lavorare anche il sabato e la domenica, e i primi anni si {ip:guadagna} poco. Secondo me {ip:è} meglio che tu {csp:tenga} il lavoro in banca e che {csp:cominci} con un piccolo bed and breakfast per il fine settimana.",
+      "**Silvia, 29 anni** — Non {ip:sono} sicura che {csp:sia} una buona idea lasciare tutto subito. Ma {ip:sono} contenta che tua moglie {csp:sia} d'accordo: {ip:è} la cosa più importante! {ip:Spero} che {csp:troviate} la strada giusta e che mi {csp:invitiate} quando {fs:aprirete}!"
     ],
     "exercises": [
       {
+        "type": "match",
+        "prompt": "Chi lo {ip:dice}? Abbina ogni idea alla persona.",
+        "pairs": [
+          [
+            "«{imv:Prova}: la vita {ip:è} una sola!»",
+            "Francesca"
+          ],
+          [
+            "«Prima di cominciare {imv:fai} un corso.»",
+            "Francesca"
+          ],
+          [
+            "«Non {imv:lasciare} subito il lavoro in banca.»",
+            "Giorgio"
+          ],
+          [
+            "«I primi anni si {ip:guadagna} poco.»",
+            "Giorgio"
+          ],
+          [
+            "«La cosa più importante {ip:è} che tua moglie {csp:sia} d'accordo.»",
+            "Silvia"
+          ],
+          [
+            "«{ip:Voglio} un invito quando {fs:aprirete}!»",
+            "Silvia"
+          ]
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "Where does Fabio want to open a restaurant?",
+            "q": "Davide {ip:è} contento del suo lavoro in banca.",
             "options": [
-              "In Italy",
-              "*In Lisbon",
-              "In Madrid"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "What is his mother afraid of?",
+            "q": "La moglie di Davide non {ip:vuole} andare in Umbria.",
             "options": [
-              "That he will cook badly",
-              "*That he will lose his money",
-              "That he will marry"
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "What does the speaker think Fabio needs?",
+            "q": "Francesca {pp:ha cambiato} vita cinque anni fa.",
             "options": [
-              "*A precise plan",
-              "A new family",
-              "More money from his mother"
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "How does the speaker feel about Fabio's decision?",
+            "q": "Giorgio {ip:pensa} che i genitori di Davide {csp:abbiano} torto.",
             "options": [
-              "Worried",
-              "Angry",
-              "*Glad"
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Silvia {ip:ha} qualche dubbio sull'idea di Davide.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il [csp:congiuntivo presente].",
+        "questions": [
+          "I miei genitori {ip:pensano} che [[sia#csp]] una follia.",
+          "{ip:Penso} che tu [[debba#csp]] provare.",
+          "{ip:Credo} che i tuoi genitori [[abbiano#csp]] ragione.",
+          "{ip:È} meglio che tu [[tenga#csp]] il lavoro in banca.",
+          "{ip:Spero} che [[troviate#csp]] la strada giusta."
         ]
       }
     ]
@@ -358,57 +756,76 @@
   "listening": {
     "transcript": [
       [
-        "Giorgia",
-        "{pp:Hai sentito}? Fabio {ip:parte} per Lisbona."
+        "Chiara",
+        "Allora, Davide, {pp:hai letto} le risposte sul forum?"
       ],
       [
-        "Marco",
-        "Sì, ma non {ip:credo} che {csp:sia} il momento giusto."
+        "Davide",
+        "Sì. Francesca {ip:pensa} che io {csp:debba} provare, Giorgio invece {ip:crede} che {csp:sia} troppo rischioso."
       ],
       [
-        "Giorgia",
-        "Perché? Io {ip:penso} che {csp:possa} farcela."
+        "Chiara",
+        "E tu che cosa ne {ip:pensi}?"
       ],
       [
-        "Marco",
-        "{ip:Dubito} che {csp:abbia} abbastanza soldi."
+        "Davide",
+        "Non lo {ip:so}. {ip:Ho} paura che i soldi non {csp:bastino} per i primi anni."
       ],
       [
-        "Giorgia",
-        "{ip:So} che {pp:ha} già {pp:trovato} un locale."
+        "Chiara",
+        "Secondo me ti {ip:serve} un piano preciso. Perché non {ip:parli} con un consulente?"
       ],
       [
-        "Marco",
-        "Davvero? Allora {ip:spero} che {csp:vada} tutto bene."
+        "Davide",
+        "{ip:Hai} ragione. E la mamma? {ip:Credi} che {csp:cambi} idea?"
+      ],
+      [
+        "Chiara",
+        "{ip:Spero} di sì. {ip:Voglio} che tu {csp:sia} felice, e anche lei lo {ip:vuole}."
+      ],
+      [
+        "Davide",
+        "Grazie, Chiara. Allora domani {ip:chiamo} il consulente!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Non {ip:credo} che [[sia#csp]] il momento giusto.",
-          "Io {ip:penso} che [[possa#csp]] farcela.",
-          "{ip:Dubito} che [[abbia#csp]] abbastanza soldi.",
-          "{ip:Spero} che [[vada#csp]] tutto bene."
+          "Giorgio invece {ip:crede} che [[sia#csp]] troppo rischioso.",
+          "{ip:Ho} paura che i soldi non [[bastino#csp]] per i primi anni.",
+          "Secondo me ti [[serve#ip]] un piano preciso.",
+          "{ip:Credi} che la mamma [[cambi#csp]] idea?",
+          "{ip:Voglio} che tu [[sia#csp]] felice."
         ]
       },
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Marco is optimistic from the start.",
+            "q": "Chi {ip:è} Chiara?",
             "options": [
-              "True",
-              "*False"
+              "*la sorella di Davide",
+              "la moglie di Davide",
+              "una persona del forum"
             ]
           },
           {
-            "q": "Fabio has already found premises.",
+            "q": "Di che cosa {ip:ha} paura Davide?",
             "options": [
-              "*True",
-              "False"
+              "*che i soldi non {csp:bastino}",
+              "che la moglie non {csp:sia} d'accordo",
+              "di perdere il lavoro"
+            ]
+          },
+          {
+            "q": "Che cosa {fs:farà} Davide domani?",
+            "options": [
+              "*{fs:chiamerà} un consulente",
+              "{fs:lascerà} la banca",
+              "{fs:andrà} in Umbria"
             ]
           }
         ]
@@ -419,41 +836,509 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu che cosa ne {ip:pensi}? Rispondi con *penso che, credo che, spero che, ho paura che, è meglio che*…",
+        "open": true,
         "questions": [
           {
-            "q": "I think it's a good idea.",
-            "a": [
-              "Penso che sia una buona idea.",
-              "Credo che sia una buona idea."
+            "q": "Che cosa {ip:pensi} del sogno di Davide?"
+          },
+          {
+            "q": "Che cosa {ip:speri} per il tuo futuro?"
+          },
+          {
+            "q": "Di che cosa {ip:hai} paura quando {ip:cambi} qualcosa nella tua vita?"
+          },
+          {
+            "q": "Che cosa {ip:è} importante che {csp:faccia} una persona prima di trasferirsi all'estero?"
+          },
+          {
+            "q": "{ip:Pensi} che {csp:sia} meglio vivere in città o in campagna? Perché?"
+          },
+          {
+            "q": "Che cosa {ip:vuoi} che {csp:facciano} i tuoi amici per il tuo compleanno?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa succede?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un ragazzo con l'ombrello in mano guarda il cielo pieno di nuvole nere",
+          "B — Una donna con due grandi valigie davanti all'aeroporto",
+          "C — Un uomo sorride davanti al forno con una pizza appena fatta",
+          "D — Due bambini guardano tristi un piatto di verdure"
+        ],
+        "pairs": [
+          [
+            "«{ip:Spero} che non {csp:piova}.»",
+            "immagine A"
+          ],
+          [
+            "«{ip:Penso} che {csp:parta} per un lungo viaggio.»",
+            "immagine B"
+          ],
+          [
+            "«{ip:Credo} che la pizza {csp:sia} buonissima.»",
+            "immagine C"
+          ],
+          [
+            "«Mi {ip:sembra} che ai bambini non {csp:piacciano} le verdure.»",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "h": "Il sondaggio della settimana"
+      },
+      {
+        "text": [
+          "**Che cosa pensate del lavoro da casa?**",
+          "**Marco, 34 anni, programmatore** — Secondo me {ip:è} perfetto: non {ip:perdo} tempo nel traffico e {ip:lavoro} meglio.",
+          "**Lucia, 45 anni, insegnante** — Non {ip:credo} che {csp:sia} possibile per tutti. Un'insegnante, per esempio, {ip:deve} stare in classe con i ragazzi.",
+          "**Giulia, 27 anni, grafica** — Mi {ip:piace}, ma {ip:ho} paura di restare sempre sola davanti al computer.",
+          "**Paolo, 52 anni, direttore** — {ip:Penso} che i lavoratori {csp:debbano} venire in ufficio almeno tre giorni alla settimana: {ip:è} importante che le persone si {csp:conoscano}."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Leggi il sondaggio. Che cosa {ip:pensa} ogni persona?",
+        "pairs": [
+          [
+            "Marco",
+            "è contento di lavorare da casa"
+          ],
+          [
+            "Lucia",
+            "pensa che non vada bene per tutti i lavori"
+          ],
+          [
+            "Giulia",
+            "ha paura della solitudine"
+          ],
+          [
+            "Paolo",
+            "preferisce che si lavori anche in ufficio"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Indicativo o congiuntivo? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Marco {ip:dice} che il lavoro da casa ___ perfetto.",
+            "options": [
+              "*{ip:è}",
+              "{csp:sia}"
             ]
           },
           {
-            "q": "I hope you are well. (informal)",
+            "q": "Lucia non {ip:crede} che ___ possibile per tutti.",
+            "options": [
+              "{ip:è}",
+              "*{csp:sia}"
+            ]
+          },
+          {
+            "q": "Giulia {ip:ha} paura ___ sola.",
+            "options": [
+              "*di restare",
+              "che resti"
+            ]
+          },
+          {
+            "q": "Paolo {ip:pensa} che i lavoratori ___ venire in ufficio.",
+            "options": [
+              "{ip:devono}",
+              "*{csp:debbano}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu? Che cosa ne {ip:pensi} del lavoro da casa? Rispondi con *secondo me* o con *penso che*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia opinione:"
+          }
+        ]
+      },
+      {
+        "h": "La posta di Zia Rosa"
+      },
+      {
+        "text": [
+          "**Cara Zia Rosa,** il mio ragazzo, Tommaso, {pp:ha trovato} un lavoro a Bologna e {ip:vuole} che io {csp:vada} a vivere con lui. Io {ip:lavoro} a Napoli, vicino alla mia famiglia, e {ip:ho} paura di perdere tutto: gli amici, il lavoro, la mia città. Lui {ip:pensa} che io {csp:sia} troppo prudente. Che cosa {ip:devo} fare? *Martina*"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi la lettera di Martina e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Dove {ip:lavora} Martina?",
+            "options": [
+              "*a Napoli",
+              "a Bologna",
+              "a Roma"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:vuole} Tommaso?",
+            "options": [
+              "*che Martina {csp:vada} a vivere con lui",
+              "che Martina {csp:cambi} lavoro a Napoli",
+              "che {csp:restino} vicino alla famiglia"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:pensa} Tommaso di Martina?",
+            "options": [
+              "*che {csp:sia} troppo prudente",
+              "che {csp:abbia} ragione",
+              "che non lo {csp:ami}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Ecco la risposta di Zia Rosa. Completa con il verbo all'indicativo o al congiuntivo.",
+        "ordered": true,
+        "questions": [
+          "Cara Martina, {ip:capisco} che tu (avere) [[abbia#csp]] paura: {ip:è} normale.",
+          "Prima di tutto {ip:è} importante che voi (parlare) [[parliate#csp]] con calma.",
+          "{ip:Bisogna} che anche Tommaso (capire) [[capisca#csp]] i tuoi problemi.",
+          "Secondo me (essere) [[è#ip]] meglio non decidere subito.",
+          "Perché non {ip:chiedi} se la tua azienda (avere) [[ha#ip]] un ufficio a Bologna?",
+          "{ip:Spero} che (voi, trovare) [[troviate#csp]] una soluzione insieme. *Zia Rosa*"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "E tu? Che cosa {ip:consigli} a Martina? Scrivi due consigli con *è meglio che, bisogna che, penso che*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il primo consiglio:"
+          },
+          {
+            "q": "Il secondo consiglio:"
+          }
+        ]
+      },
+      {
+        "h": "Biglietti di auguri"
+      },
+      {
+        "type": "match",
+        "prompt": "Per quale occasione {ip:è} ogni biglietto?",
+        "pictures": [
+          "A — Una torta nuziale bianca con due piccoli sposi sopra",
+          "B — Una culla con un nastro azzurro",
+          "C — Delle scatole di cartone davanti alla porta di una casa nuova",
+          "D — Una scrivania in un ufficio nuovo, con un mazzo di fiori"
+        ],
+        "pairs": [
+          [
+            "«{ip:Speriamo} che {csp:siate} felici per tutta la vita!»",
+            "per un matrimonio"
+          ],
+          [
+            "«Benvenuto, piccolo Leonardo! {ip:Speriamo} che tu {csp:cresca} sano e forte.»",
+            "per una nascita"
+          ],
+          [
+            "«{ip:Spero} che tu ti {csp:trovi} bene nella nuova casa!»",
+            "per un trasloco"
+          ],
+          [
+            "«{ip:Sono} contenta che tu {csp:cominci} questa nuova avventura. In bocca al lupo!»",
+            "per un nuovo lavoro"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi gli auguri. Completa con il [csp:congiuntivo presente].",
+        "questions": [
+          "{ip:Spero} che tu (divertirsi) [[ti diverta#csp]] alla festa!",
+          "{ip:Speriamo} che il viaggio (andare) [[vada#csp]] bene.",
+          "{ip:Siamo} contenti che voi (venire) [[veniate#csp]] al nostro matrimonio.",
+          "{ip:Spero} che (tu, guarire) [[guarisca#csp]] presto.",
+          "Auguri! {ip:Spero} che tutti i tuoi desideri (realizzarsi) [[si realizzino#csp]]."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Un tuo amico {ip:parte} per un anno all'estero. Scrivigli un biglietto con *spero che* o *sono contento che*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il mio biglietto:"
+          }
+        ]
+      },
+      {
+        "h": "Due persone o una?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *di* + infinito, con l'infinito da solo o con *che* + congiuntivo.",
+        "questions": [
+          "Marco {ip:spera} (trovare) [[di trovare]] lavoro presto.",
+          "Sua madre {ip:spera} che lui (trovare) [[trovi#csp]] lavoro presto.",
+          "{ip:Ho} paura (perdere) [[di perdere]] il treno.",
+          "{ip:Ho} paura che voi (perdere) [[perdiate#csp]] il treno.",
+          "Stasera {ip:preferisco} (restare) [[restare]] a casa."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Leggi le frasi: c'{ip:è} l'indicativo o il congiuntivo?",
+        "pairs": [
+          [
+            "{ip:So} che Anna {ip:arriva} alle otto.",
+            "indicativo"
+          ],
+          [
+            "{ip:Penso} che Anna {csp:arrivi} alle otto.",
+            "congiuntivo"
+          ],
+          [
+            "{ip:È} chiaro che {ip:hai} ragione.",
+            "indicativo"
+          ],
+          [
+            "{ip:Spero} che tu {csp:abbia} ragione.",
+            "congiuntivo"
+          ],
+          [
+            "Secondo me domani {ip:piove}.",
+            "indicativo"
+          ],
+          [
+            "Mi {ip:sembra} che {csp:piova}.",
+            "congiuntivo"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Penso che Marco è stanco.",
+            "a": [
+              "Penso che Marco sia stanco."
+            ]
+          },
+          {
+            "q": "Spero che tu stai bene.",
             "a": [
               "Spero che tu stia bene."
             ]
           },
           {
-            "q": "I know that he is at home.",
+            "q": "So che il negozio sia chiuso.",
             "a": [
-              "So che è a casa.",
-              "So che lui è a casa."
+              "So che il negozio è chiuso."
             ]
           },
           {
-            "q": "It's better for you to leave. (informal)",
+            "q": "Credo che tu hai ragione.",
             "a": [
-              "È meglio che tu parta."
+              "Credo che tu abbia ragione."
             ]
           },
           {
-            "q": "I'm afraid it will rain.",
+            "q": "Voglio di partire domani.",
             "a": [
-              "Ho paura che piova."
+              "Voglio partire domani."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "che / sia / penso / buona / una / idea",
+            "a": [
+              "Penso che sia una buona idea."
+            ]
+          },
+          {
+            "q": "che / tu / spero / venga / alla festa",
+            "a": [
+              "Spero che tu venga alla festa."
+            ]
+          },
+          {
+            "q": "è / che / meglio / restiate / a casa / voi",
+            "a": [
+              "È meglio che voi restiate a casa.",
+              "È meglio che restiate a casa voi."
+            ]
+          },
+          {
+            "q": "di / cambiare / pensa / lavoro / Marta",
+            "a": [
+              "Marta pensa di cambiare lavoro."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nei verbi in *-care* e *-gare* si aggiunge una *h*, così il suono resta duro: *cercare → che io {csp:cerchi}*, *pagare → che tu {csp:paghi}*.",
+          "Nei verbi in *-ciare, -giare, -iare* c'è una sola *i*: *cominciare → che io {csp:cominci}*, *mangiare → che tu {csp:mangi}*, *studiare → che lui {csp:studi}*."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la forma giusta del [csp:congiuntivo presente].",
+        "questions": [
+          "{ip:Spero} che tu (cercare) [[cerchi#csp]] un lavoro vicino a casa.",
+          "{ip:È} giusto che loro (pagare) [[paghino#csp]] il conto.",
+          "{ip:Penso} che Laura (studiare) [[studi#csp]] medicina.",
+          "{ip:Credo} che i bambini (giocare) [[giochino#csp]] in giardino.",
+          "{ip:Bisogna} che il corso (cominciare) [[cominci#csp]] in orario."
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So dare la mia opinione: *Penso che sia una buona idea.*",
+          "So dire se una cosa è sicura o no: *So che è vero. Credo che sia vero.*",
+          "So esprimere un sentimento: *Sono contento che tu venga.*",
+          "So dare un consiglio: *È meglio che tu parta presto.*",
+          "So scrivere un biglietto di auguri: *Spero che tu ti trovi bene!*",
+          "So parlare di un cambiamento nella mia vita."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una vecchia casa di pietra con le finestre chiuse in un piccolo paese di collina, con un cartello «Vendesi a 1 euro»"
+      },
+      {
+        "text": [
+          "**Una casa per un euro**",
+          "In molti piccoli paesi italiani, soprattutto al Sud e nelle isole, tanti giovani {pp:sono partiti} per lavorare nelle grandi città, e molte case {pp:sono rimaste} vuote.",
+          "Per questo alcuni comuni {ip:vendono} le vecchie case a un euro. Chi {ip:compra}, però, {ip:deve} ristrutturare la casa entro pochi anni, e spesso i lavori {ip:costano} parecchio.",
+          "I sindaci {ip:sperano} che {csp:arrivino} nuove famiglie e che il paese {csp:torni} a vivere: {ip:è} importante che le case non {csp:restino} chiuse.",
+          "Ma non tutti {ip:sono} d'accordo. Alcuni abitanti {ip:pensano} che {csp:sia} un'ottima idea; altri {ip:temono} che i paesi {csp:diventino} solo posti per le vacanze, vuoti d'inverno. E a te {cop:piacerebbe} comprare una casa a un euro?"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "In molti piccoli paesi ci {ip:sono} case vuote.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Chi {ip:compra} una casa a un euro non {ip:deve} fare lavori.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "I sindaci {ip:sperano} che {csp:arrivino} nuove famiglie.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Tutti gli abitanti {ip:sono} contenti dell'idea.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Alcuni {ip:hanno} paura che i paesi {csp:restino} vuoti d'inverno.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Perché molte case {ip:sono} vuote?",
+            "options": [
+              "*Perché molti giovani {pp:sono partiti} per lavorare in città.",
+              "Perché le case {ip:sono} troppo care.",
+              "Perché i turisti non {ip:vogliono} andarci."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:deve} fare chi {ip:compra} la casa?",
+            "options": [
+              "*ristrutturarla entro pochi anni",
+              "abitarci tutto l'anno",
+              "venderla dopo un anno"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il [csp:congiuntivo presente].",
+        "questions": [
+          "I sindaci {ip:sperano} che [[arrivino#csp]] nuove famiglie.",
+          "… e che il paese [[torni#csp]] a vivere.",
+          "Alcuni abitanti {ip:pensano} che [[sia#csp]] un'ottima idea.",
+          "Altri {ip:temono} che i paesi [[diventino#csp]] solo posti per le vacanze."
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Un tuo amico {ip:vuole} comprare una casa a un euro in un piccolo paese e andare a vivere lì. Scrivigli una mail e digli che cosa ne {ip:pensi}.",
+        "cues": [
+          "Che cosa {ip:pensi} della sua idea? (*Penso che…, Credo che…*)",
+          "Di che cosa {ip:hai} paura per lui? (*Ho paura che…*)",
+          "Che cosa {ip:è} importante che {csp:faccia} prima? (*È importante che…, È meglio che…*)",
+          "Che cosa {ip:speri} per lui? (*Spero che…*)"
+        ],
+        "start": "Caro Matteo,\n",
+        "model": "Caro Matteo,\nho letto la tua mail: vuoi davvero comprare una casa a un euro in Sicilia? Penso che sia un'idea bellissima, ma credo che tu debba pensarci bene.\nHo paura che i lavori costino molto e che d'inverno il paese sia troppo tranquillo per te.\nÈ importante che prima tu vada a vedere la casa e che parli con qualcuno che vive lì. È meglio anche che tu chieda quanto costano i lavori.\nSpero che tutto vada bene e che tu sia felice nella tua nuova casa. E naturalmente spero che mi inviti presto!\nUn abbraccio,\nElena"
       }
     ]
   }

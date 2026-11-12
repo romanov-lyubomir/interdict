@@ -1,0 +1,31 @@
+{# The language picker: a button with the flag and the name of the language
+   being learnt, and a menu of all the languages. It opens on hover, or on tap
+   on touch screens (the script in base.html). The styles are in base.html.
+   `next` is the page to return to after a change (LANGUAGE_SWITCH_TARGETS). #}
+{% macro picker(languages, user_language, next) %}
+<div class="lang-switch">
+    <button class="button lang-current" type="button" aria-haspopup="true" aria-expanded="false">
+        {% if user_language %}
+        <img class="flag-icon" src="{{ url_for('static', filename='images/flags/' ~ languages[user_language].flag ~ '.png') }}" alt="">
+        <span class="lang-name">{{ user_language | capitalize }}</span>
+        {% else %}
+        <span class="lang-name">Choose language</span>
+        {% endif %}
+        <span class="chevron" aria-hidden="true">&#9660;</span>
+    </button>
+    <div class="lang-menu">
+        <form action="{{ url_for('set_language') }}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <input type="hidden" name="next" value="{{ next }}">
+            <span class="heading">I want to learn</span>
+            {% for code, info in languages.items() %}
+            <button class="lang-option{% if code == user_language %} current{% endif %}" type="submit" name="language" value="{{ code }}">
+                <img class="flag-icon" src="{{ url_for('static', filename='images/flags/' ~ info.flag ~ '.png') }}" alt="">
+                <span>{{ code | capitalize }}<small>{{ info.native }}</small></span>
+                {% if code == user_language %}<span class="check" aria-hidden="true">&#10003;</span>{% endif %}
+            </button>
+            {% endfor %}
+        </form>
+    </div>
+</div>
+{% endmacro %}

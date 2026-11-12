@@ -1,146 +1,360 @@
 {
-  "title": "Se {ip:ho} tempo, domani {fs:partirò} con te",
-  "translation": "If I have time, I'll leave with you tomorrow",
-  "topics": "The future tense, real conditions with se, the present for future arrangements",
+  "title": "Dopo la laurea {fs:farò} un master",
+  "translation": "",
+  "topics": "I verbi *interessare, servire, mancare, bastare*, il [fs:futuro semplice] regolare e irregolare, gli usi del [ip:presente] e del [fs:futuro], le parole abbreviate, gli studi e i progetti per il futuro",
   "grammar": {
     "explain": [
+      "Per parlare di progetti, studi e sogni ci serve il [fs:futuro semplice]. Ma in italiano anche il [ip:presente] parla spesso del futuro: dipende da quanto siamo sicuri.",
       {
-        "h": "How to form the future"
-      },
-      "Start from the infinitive and drop the final *-e*. Verbs in *-are* also change that *a* to *e*. The endings are the same for all groups.",
-      {
-        "table": {
-          "head": [
-            "",
-            "parlare → parler-",
-            "scrivere → scriver-",
-            "dormire → dormir-"
-          ],
-          "rows": [
-            [
-              "io",
-              "{fs:parler**ò**}",
-              "{fs:scriver**ò**}",
-              "{fs:dormir**ò**}"
-            ],
-            [
-              "tu",
-              "{fs:parler**ai**}",
-              "{fs:scriver**ai**}",
-              "{fs:dormir**ai**}"
-            ],
-            [
-              "lui / lei",
-              "{fs:parler**à**}",
-              "{fs:scriver**à**}",
-              "{fs:dormir**à**}"
-            ],
-            [
-              "noi",
-              "{fs:parler**emo**}",
-              "{fs:scriver**emo**}",
-              "{fs:dormir**emo**}"
-            ],
-            [
-              "voi",
-              "{fs:parler**ete**}",
-              "{fs:scriver**ete**}",
-              "{fs:dormir**ete**}"
-            ],
-            [
-              "loro",
-              "{fs:parler**anno**}",
-              "{fs:scriver**anno**}",
-              "{fs:dormir**anno**}"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Alcuni verbi particolari: *interessare, servire, mancare, bastare*",
+              "head": [
+                "una cosa (singolare)",
+                "più cose (plurale)"
+              ],
+              "rows": [
+                [
+                  "Mi **{ip:interessa}** la storia dell'arte.",
+                  "Mi **{ip:interessano}** le lingue straniere."
+                ],
+                [
+                  "Mi **{ip:serve}** un computer nuovo.",
+                  "Mi **{ip:servono}** due fotografie per il documento."
+                ],
+                [
+                  "Mi **{ip:manca}** l'esperienza.",
+                  "Mi **{ip:mancano}** i miei amici."
+                ],
+                [
+                  "Non mi **{ip:basta}** il diploma.",
+                  "Non mi **{ip:bastano}** dieci euro."
+                ]
+              ]
+            },
+            "note": [
+              "Questi verbi funzionano come *piacere*: il soggetto è la cosa, la persona è il pronome *mi, ti, gli, le, ci, vi, gli*.",
+              "Il verbo va al singolare o al plurale come la cosa: *mi manca l'esperienza*, *mi mancano i soldi*.",
+              "Al [pp:passato prossimo] vogliono *essere*: *Mi {pp:è servito} molto. Mi {pp:sono mancati} i miei amici.*"
             ]
-          ]
-        }
-      },
-      "The spelling rules from lesson 1 of level A1 apply here too. The new *e* would soften *c* and *g*, so *-care* and *-gare* add *h* to stay hard: *{fs:cercherò}, {fs:pagherò}*. In *-ciare* and *-giare*, the *i* is no longer needed, since the *e* already softens: *{fs:comincerò}, {fs:mangerò}*.",
-      {
-        "h": "Irregular stems"
-      },
-      "The endings never change. Only the stem does, and in three simple ways.",
-      {
-        "table": {
-          "head": [
-            "What happens",
-            "Verbs"
-          ],
-          "rows": [
-            [
-              "The vowel before -r- drops",
-              "andare → {fs:andrò}, avere → {fs:avrò}, dovere → {fs:dovrò}, potere → {fs:potrò}, sapere → {fs:saprò}, vedere → {fs:vedrò}, vivere → {fs:vivrò}"
-            ],
-            [
-              "The stem ends in -rr-",
-              "bere → {fs:berrò}, venire → {fs:verrò}, volere → {fs:vorrò}, rimanere → {fs:rimarrò}"
-            ],
-            [
-              "The -a- stays",
-              "fare → {fs:farò}, dare → {fs:darò}, stare → {fs:starò}"
-            ],
-            [
-              "Unique",
-              "essere → {fs:sarò}"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [fs:futuro semplice] dei verbi regolari",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*lavorare*",
+                  2
+                ],
+                [
+                  "*scrivere*",
+                  2
+                ],
+                [
+                  "*partire*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{fs:lavor**erò**}",
+                  {
+                    "text": "all'estero.",
+                    "rows": 6
+                  },
+                  "{fs:scriv**erò**}",
+                  {
+                    "text": "la tesi.",
+                    "rows": 6
+                  },
+                  "{fs:part**irò**}",
+                  {
+                    "text": "a settembre.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{fs:lavor**erai**}",
+                  null,
+                  "{fs:scriv**erai**}",
+                  null,
+                  "{fs:part**irai**}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "{fs:lavor**erà**}",
+                  null,
+                  "{fs:scriv**erà**}",
+                  null,
+                  "{fs:part**irà**}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{fs:lavor**eremo**}",
+                  null,
+                  "{fs:scriv**eremo**}",
+                  null,
+                  "{fs:part**iremo**}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{fs:lavor**erete**}",
+                  null,
+                  "{fs:scriv**erete**}",
+                  null,
+                  "{fs:part**irete**}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{fs:lavor**eranno**}",
+                  null,
+                  "{fs:scriv**eranno**}",
+                  null,
+                  "{fs:part**iranno**}",
+                  null
+                ]
+              ]
+            },
+            "note": [
+              "Si toglie la *-e* finale dell'infinito e si aggiunge **-ò, -ai, -à, -emo, -ete, -anno**.",
+              "Nei verbi in *-are* la *a* diventa *e*: *lavorare → lavorerò*.",
+              "I verbi in *-care* e *-gare* prendono una *h*: *cercherò, pagherò*. I verbi in *-ciare* e *-giare* perdono la *i*: *comincerò, mangerò*."
             ]
-          ]
-        }
-      },
-      {
-        "h": "When to use it"
-      },
-      {
-        "table": {
-          "head": [
-            "Use",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Plans",
-              "L'anno prossimo {fs:studierò} in Italia."
-            ],
-            [
-              "Predictions",
-              "Domani {fs:pioverà}."
-            ],
-            [
-              "Guesses about now",
-              "Marco non c'{ip:è}: {fs:sarà} a casa."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [fs:futuro semplice] di alcuni verbi irregolari",
+              "compact": true,
+              "groups": [
+                [
+                  "",
+                  1
+                ],
+                [
+                  "*essere*",
+                  2
+                ],
+                [
+                  "*avere*",
+                  2
+                ],
+                [
+                  "*fare*",
+                  2
+                ]
+              ],
+              "rows": [
+                [
+                  "io",
+                  "{fs:sarò}",
+                  {
+                    "text": "medico.",
+                    "rows": 6
+                  },
+                  "{fs:avrò}",
+                  {
+                    "text": "più tempo.",
+                    "rows": 6
+                  },
+                  "{fs:farò}",
+                  {
+                    "text": "un master.",
+                    "rows": 6
+                  }
+                ],
+                [
+                  "tu",
+                  "{fs:sarai}",
+                  null,
+                  "{fs:avrai}",
+                  null,
+                  "{fs:farai}",
+                  null
+                ],
+                [
+                  "lui/lei/Lei",
+                  "{fs:sarà}",
+                  null,
+                  "{fs:avrà}",
+                  null,
+                  "{fs:farà}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{fs:saremo}",
+                  null,
+                  "{fs:avremo}",
+                  null,
+                  "{fs:faremo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{fs:sarete}",
+                  null,
+                  "{fs:avrete}",
+                  null,
+                  "{fs:farete}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{fs:saranno}",
+                  null,
+                  "{fs:avranno}",
+                  null,
+                  "{fs:faranno}",
+                  null
+                ]
+              ]
+            },
+            "note": "Le finali sono sempre le stesse; cambia la radice. *Essere* fa *sar-*, *avere* fa *avr-*, *fare* fa *far-* (senza la *e*)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [fs:futuro semplice] di altri verbi irregolari",
+              "rows": [
+                [
+                  "*andare*",
+                  "{fs:andrò}, {fs:andrai}, {fs:andrà}, {fs:andremo}, {fs:andrete}, {fs:andranno}"
+                ],
+                [
+                  "*potere*",
+                  "{fs:potrò}, {fs:potrai}, {fs:potrà}, {fs:potremo}, {fs:potrete}, {fs:potranno}"
+                ],
+                [
+                  "*dovere*",
+                  "{fs:dovrò}, {fs:dovrai}, {fs:dovrà}, {fs:dovremo}, {fs:dovrete}, {fs:dovranno}"
+                ],
+                [
+                  "*vedere*",
+                  "{fs:vedrò}, {fs:vedrai}, {fs:vedrà}, {fs:vedremo}, {fs:vedrete}, {fs:vedranno}"
+                ],
+                [
+                  "*volere*",
+                  "{fs:vorrò}, {fs:vorrai}, {fs:vorrà}, {fs:vorremo}, {fs:vorrete}, {fs:vorranno}"
+                ],
+                [
+                  "*venire*",
+                  "{fs:verrò}, {fs:verrai}, {fs:verrà}, {fs:verremo}, {fs:verrete}, {fs:verranno}"
+                ],
+                [
+                  "*rimanere*",
+                  "{fs:rimarrò}, {fs:rimarrai}, {fs:rimarrà}, {fs:rimarremo}, {fs:rimarrete}, {fs:rimarranno}"
+                ],
+                [
+                  "*bere*",
+                  "{fs:berrò}, {fs:berrai}, {fs:berrà}, {fs:berremo}, {fs:berrete}, {fs:berranno}"
+                ]
+              ]
+            },
+            "note": [
+              "Molti verbi perdono una vocale: *andare → andrò*, *potere → potrò*, *dovere → dovrò*, *vedere → vedrò*.",
+              "Altri raddoppiano la *r*: *volere → vorrò*, *venire → verrò*, *rimanere → rimarrò*, *bere → berrò*. Le stesse radici servono per il [cop:condizionale]: *vorrei, verrei*."
             ]
-          ]
-        }
-      },
-      {
-        "h": "The present for the future"
-      },
-      "For fixed arrangements and timetables, Italians prefer the simple present, usually with a word of time: *Stasera {ip:ceno} con Marco. Il treno {ip:parte} alle otto.*",
-      {
-        "h": "Real conditions with se"
-      },
-      "When something really can happen, *se* takes an ordinary tense. Both parts can be in the present, which is the most common in speech, or both in the future.",
-      {
-        "table": {
-          "head": [
-            "If…",
-            "then…"
-          ],
-          "rows": [
-            [
-              "Se {ip:ho} tempo,",
-              "{ip:vengo}."
-            ],
-            [
-              "Se {fs:avrò} tempo,",
-              "{fs:verrò}."
-            ],
-            [
-              "Se {ip:piove},",
-              "{ip:resto} a casa."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Alcuni usi del [ip:presente] e del [fs:futuro]",
+              "head": [
+                "[ip:presente]: cose sicure, già decise o in programma",
+                "[fs:futuro]: cose meno sicure, progetti, previsioni",
+                "[fs:futuro] o [ip:presente]: ipotesi con *se*"
+              ],
+              "rows": [
+                [
+                  "Dopo l'esame {ip:vado} in vacanza. Il corso {ip:comincia} lunedì prossimo.",
+                  "Forse un giorno {fs:vivrò} in Australia. Probabilmente {fs:cambierò} lavoro.",
+                  "Se {fs:passerò} l'esame, {fs:farò} una festa. Se {ip:piove}, {ip:restiamo} a casa."
+                ]
+              ]
+            },
+            "note": [
+              "Quando una cosa è sicura o già organizzata, gli italiani usano spesso il [ip:presente], con una parola di tempo: *domani, la settimana prossima, a giugno*.",
+              "Con *forse, probabilmente, magari, un giorno* si usa di solito il [fs:futuro].",
+              "Con *se* si usa lo stesso tempo nelle due parti: *Se {fs:avrò} tempo, {fs:verrò}. Se {ip:ho} tempo, {ip:vengo}.*"
             ]
-          ]
-        }
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le parole abbreviate",
+              "groups": [
+                [
+                  "singolare",
+                  2
+                ],
+                [
+                  "plurale",
+                  2
+                ]
+              ],
+              "head": [
+                "parola intera",
+                "parola abbreviata",
+                "parola intera",
+                "parola abbreviata"
+              ],
+              "rows": [
+                [
+                  "la fotografia",
+                  "la foto",
+                  "le fotografie",
+                  "le foto"
+                ],
+                [
+                  "la motocicletta",
+                  "la moto",
+                  "le motociclette",
+                  "le moto"
+                ],
+                [
+                  "il cinematografo",
+                  "il cinema",
+                  "i cinematografi",
+                  "i cinema"
+                ],
+                [
+                  "la bicicletta",
+                  "la bici",
+                  "le biciclette",
+                  "le bici"
+                ],
+                [
+                  "l'automobile",
+                  "l'auto",
+                  "le automobili",
+                  "le auto"
+                ],
+                [
+                  "la professoressa",
+                  "la prof",
+                  "le professoresse",
+                  "le prof"
+                ]
+              ]
+            },
+            "note": "Molte parole lunghe si usano quasi sempre accorciate. La parola breve tiene il genere della parola intera e non cambia al plurale: *la foto → le foto*, *la moto → le moto* (sono femminili anche se finiscono in *-o*)."
+          }
+        ]
       }
     ]
   },
@@ -148,64 +362,99 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Put the verb in the future.",
+        "prompt": "Completa con il verbo al singolare o al plurale.",
         "questions": [
-          "Domani io [[partirò#fs]]. (partire)",
-          "Tu [[parlerai#fs]] con Marco? (parlare)",
-          "Anna [[scriverà#fs]] una lettera. (scrivere)",
-          "Noi [[pagheremo#fs]] il conto. (pagare)",
-          "Voi [[mangerete#fs]] da noi. (mangiare)",
-          "Loro [[cercheranno#fs]] una casa. (cercare)"
+          "Mi (interessare) [[interessa#ip]] molto l'economia.",
+          "Ti (servire) [[servono#ip]] questi libri?",
+          "Ai nonni (mancare) [[mancano#ip]] i nipoti.",
+          "A Laura non (bastare) [[basta#ip]] un lavoro part-time.",
+          "Ci (interessare) [[interessano#ip]] i corsi di lingua.",
+          "Mi (servire) [[serve#ip]] una formazione specifica."
         ]
       },
       {
         "type": "gap",
-        "prompt": "These verbs are irregular. Put them in the future.",
+        "prompt": "Completa con il [fs:futuro semplice].",
         "questions": [
-          "Domani [[sarò#fs]] a Roma. (essere, io)",
-          "Tu [[avrai#fs]] tempo? (avere)",
-          "Marco [[verrà#fs]] da noi. (venire)",
-          "Noi [[andremo#fs]] al mare. (andare)",
-          "Che cosa [[farete#fs]]? (fare, voi)",
-          "Loro non [[potranno#fs]] venire. (potere)"
+          "L'anno prossimo (io, studiare) [[studierò#fs]] a Bologna.",
+          "Dopo la laurea Marta (cercare) [[cercherà#fs]] lavoro a Milano.",
+          "Quando (voi, finire) [[finirete#fs]] il corso?",
+          "Noi (prendere) [[prenderemo#fs]] il diploma a giugno.",
+          "I miei genitori (andare) [[andranno#fs]] in pensione tra due anni.",
+          "Tu (essere) [[sarai#fs]] un ottimo medico!"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il [fs:futuro] dei verbi irregolari.",
+        "questions": [
+          "Domani (io, avere) [[avrò#fs]] l'esame di storia.",
+          "(tu, potere) [[Potrai#fs]] venire alla mia festa di laurea?",
+          "Luca (dovere) [[dovrà#fs]] studiare tutta l'estate.",
+          "(noi, venire) [[Verremo#fs]] a trovarti a Londra.",
+          "Che cosa (voi, fare) [[farete#fs]] dopo il master?",
+          "I ragazzi (rimanere) [[rimarranno#fs]] all'estero per un anno."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the most natural form.",
+        "prompt": "[ip:Presente] o [fs:futuro]? Scegli la forma più naturale.",
         "questions": [
           {
-            "q": "Il treno ___ alle otto. (timetable)",
+            "q": "Il corso ___ lunedì prossimo alle nove: è già deciso.",
             "options": [
-              "*{ip:parte}",
-              "{fs:partirà}",
-              "{im:partiva}"
+              "*comincia",
+              "comincerà"
             ]
           },
           {
-            "q": "Se ___ tempo, {ip:vengo}.",
+            "q": "Forse un giorno ___ in Giappone.",
             "options": [
-              "*{ip:ho}",
-              "{im:avevo}",
-              "avuto"
+              "vivo",
+              "*vivrò"
             ]
           },
           {
-            "q": "Luca non {ip:risponde}: ___ al lavoro. (a guess)",
+            "q": "Probabilmente l'anno prossimo ___ lavoro.",
             "options": [
-              "{pp:è stato}",
-              "*{fs:sarà}",
-              "{im:era}"
+              "cambio",
+              "*cambierò"
             ]
           },
           {
-            "q": "Stasera ___ con Marco. (already arranged)",
+            "q": "Domani sera ___ al cinema con Paolo: ho già i biglietti.",
             "options": [
-              "*{ip:ceno}",
-              "{im:cenavo}",
-              "{pp:ho cenato}"
+              "*vado",
+              "andrò"
+            ]
+          },
+          {
+            "q": "Magari tra un paio d'anni ___ un'azienda tutta mia!",
+            "options": [
+              "apro",
+              "*aprirò"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa le ipotesi con il [fs:futuro].",
+        "questions": [
+          "Se (io, trovare) [[troverò#fs]] un buon lavoro, (comprare) [[comprerò#fs]] una casa.",
+          "Se tutto (andare) [[andrà#fs]] bene, (noi, laurearsi) [[ci laureeremo#fs]] a luglio.",
+          "Se non (tu, studiare) [[studierai#fs]], non (passare) [[passerai#fs]] l'esame."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la parola abbreviata.",
+        "questions": [
+          "la fotografia → la [[foto]]",
+          "le motociclette → le [[moto]]",
+          "la bicicletta → la [[bici]]",
+          "il cinematografo → il [[cinema]]",
+          "l'automobile → l'[[auto]]"
         ]
       }
     ]
@@ -213,135 +462,285 @@
   "vocabulary": {
     "words": [
       [
-        "il volo",
-        "flight"
+        "il corso di formazione professionale",
+        "un corso per imparare un lavoro"
       ],
       [
-        "la prenotazione",
-        "reservation"
+        "il corso di laurea",
+        "gli studi all'università per avere la laurea"
       ],
       [
-        "la valigia",
-        "suitcase"
+        "il corso di lingua",
+        "un corso per imparare una lingua straniera"
       ],
       [
-        "il passaporto",
-        "passport"
+        "il corso di specializzazione",
+        "un corso dopo la laurea per diventare esperti in un campo"
       ],
       [
-        "l'albergo",
-        "hotel"
+        "il master",
+        "un corso di un anno o due dopo la laurea"
       ],
       [
-        "il programma",
-        "plan, programme"
+        "la conoscenza",
+        "quello che sai, quello che hai imparato"
       ],
       [
-        "prenotare",
-        "to book"
+        "il diploma",
+        "il documento che ricevi alla fine delle scuole superiori"
       ],
       [
-        "partire",
-        "to leave"
+        "la facoltà",
+        "una parte dell'università: Lettere, Medicina, Economia…"
       ],
       [
-        "pagare",
-        "to pay"
+        "la formazione",
+        "gli studi e i corsi che una persona ha fatto"
       ],
       [
-        "il conto",
-        "bill"
+        "la laurea",
+        "il titolo che ricevi alla fine dell'università"
       ],
       [
-        "l'anno prossimo",
-        "next year"
+        "laurearsi",
+        "finire l'università e ricevere la laurea"
+      ],
+      [
+        "lo stage",
+        "un periodo di lavoro in un'azienda per imparare, durante gli studi"
+      ],
+      [
+        "l'esame",
+        "una prova per vedere che cosa hai imparato"
+      ],
+      [
+        "la tesi",
+        "il lavoro scritto che si presenta alla fine dell'università"
+      ],
+      [
+        "andare in pensione",
+        "smettere di lavorare perché si è anziani"
       ],
       [
         "forse",
-        "maybe"
+        "non è sicuro, ma è possibile"
+      ],
+      [
+        "magari",
+        "speriamo che succeda!"
+      ],
+      [
+        "probabilmente",
+        "molto possibile, ma non sicuro"
+      ],
+      [
+        "un giorno",
+        "in un momento del futuro, non sappiamo quando"
+      ],
+      [
+        "tra un paio di anni",
+        "fra due anni, più o meno"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il volo",
-            "flight"
+            "il master",
+            "un corso di un anno o due dopo la laurea"
           ],
           [
-            "la valigia",
-            "suitcase"
+            "la facoltà",
+            "una parte dell'università: Lettere, Medicina, Economia…"
           ],
           [
-            "l'albergo",
-            "hotel"
+            "lo stage",
+            "un periodo di lavoro in un'azienda per imparare, durante gli studi"
           ],
           [
-            "prenotare",
-            "to book"
+            "la tesi",
+            "il lavoro scritto che si presenta alla fine dell'università"
           ],
           [
-            "il conto",
-            "bill"
+            "andare in pensione",
+            "smettere di lavorare perché si è anziani"
           ],
           [
-            "forse",
-            "maybe"
+            "magari",
+            "speriamo che succeda!"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Quale corso fa per loro?",
         "questions": [
-          "{pp:Ho fatto} la [[prenotazione]] online. (reservation)",
-          "Non dimenticare il [[passaporto]]! (passport)",
-          "L'[[anno]] prossimo {fs:andrò} in Italia. (year)",
-          "Qual {ip:è} il [[programma]] per domani? (plan)"
+          {
+            "q": "Paolo vuole imparare lo spagnolo per le vacanze.",
+            "options": [
+              "*un corso di lingua",
+              "un master",
+              "un corso di laurea"
+            ]
+          },
+          {
+            "q": "Anna ha finito il liceo e vuole studiare medicina.",
+            "options": [
+              "un corso di lingua",
+              "*un corso di laurea",
+              "un corso di formazione professionale"
+            ]
+          },
+          {
+            "q": "Marco è laureato in economia e vuole diventare esperto di finanza.",
+            "options": [
+              "un corso di lingua",
+              "il diploma",
+              "*un master"
+            ]
+          },
+          {
+            "q": "Sara vuole imparare a fare la parrucchiera.",
+            "options": [
+              "*un corso di formazione professionale",
+              "un corso di specializzazione",
+              "un master"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Mio fratello studia alla [[facoltà]] di Lettere.",
+          "Dopo le scuole superiori ho preso il [[diploma]].",
+          "Per la [[tesi]] devo scrivere duecento pagine!",
+          "Durante il master faremo uno [[stage]] in un'azienda.",
+          "Il master? [[Magari]] lo farò l'anno prossimo, se avrò i soldi."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "L'estate prossima io e Marta {fs:faremo} un viaggio in Sardegna. {ip:Partiamo} il 2 luglio: il volo {ip:è} alle sei di mattina e {pp:abbiamo} già {pp:prenotato} un piccolo albergo vicino al mare.",
-      "Se {fs:farà} bello, {fs:andremo} in spiaggia tutti i giorni. Se {ip:piove}, {fs:visiteremo} i musei di Cagliari. Marta {ip:dice} che {fs:imparerà} a nuotare, ma io non ci {ip:credo}: {fs:avrà} paura dell'acqua come sempre!"
+      {
+        "h": "Master in Turismo digitale"
+      },
+      "*Università degli Studi di Lecce*",
+      "**Obiettivi** — Il master prepara professionisti capaci di usare le nuove tecnologie per promuovere il turismo nelle piccole città del Sud: siti internet, social network, app per i visitatori.",
+      "**A chi è rivolto** — Il master è aperto ai laureati in Economia, Lettere, Lingue e Informatica. Non {ip:serve} esperienza di lavoro, ma {ip:è} necessario conoscere bene l'inglese.",
+      "**Durata e calendario** — Il corso {ip:comincia} a ottobre e {fs:durerà} un anno, per un totale di 1200 ore: 400 ore di lezione in aula e in laboratorio, 500 ore di stage in alberghi, agenzie di viaggio e musei, e 300 ore di studio individuale.",
+      "**Esame finale** — A settembre i partecipanti {fs:presenteranno} un progetto per una città della Puglia. {fs:Potranno} sostenere l'esame solo gli studenti che {pp:hanno frequentato} almeno l'80% delle lezioni.",
+      "**Titolo** — Alla fine del corso l'università {fs:rilascerà} un diploma di master di primo livello. Gli studenti più bravi {fs:riceveranno} una borsa di studio per un secondo stage all'estero."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "They have already booked a hotel.",
+            "q": "Chi organizza il master?",
             "options": [
-              "*True",
-              "False"
+              "un'agenzia di viaggi",
+              "*l'Università di Lecce",
+              "un museo"
             ]
           },
           {
-            "q": "The flight leaves in the evening.",
+            "q": "Che cosa {fs:impareranno} a fare i partecipanti?",
             "options": [
-              "True",
-              "*False"
+              "*usare la tecnologia per il turismo",
+              "insegnare l'inglese",
+              "lavorare in banca"
             ]
           },
           {
-            "q": "If it rains, they will visit museums.",
+            "q": "Quante ore di stage {fs:faranno}?",
             "options": [
-              "*True",
-              "False"
+              "300",
+              "400",
+              "*500"
             ]
           },
           {
-            "q": "The speaker thinks Marta will learn to swim.",
+            "q": "Dove {fs:faranno} lo stage?",
             "options": [
-              "True",
-              "*False"
+              "*in alberghi, agenzie e musei",
+              "solo all'università",
+              "in banca"
+            ]
+          },
+          {
+            "q": "Chi {fs:potrà} sostenere l'esame finale?",
+            "options": [
+              "tutti gli iscritti",
+              "*chi ha frequentato almeno l'80% delle lezioni",
+              "solo i laureati in Economia"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Per partecipare {ip:serve} esperienza di lavoro.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Bisogna conoscere bene l'inglese.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il corso {fs:durerà} due anni.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Gli studenti più bravi {fs:faranno} un secondo stage all'estero.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina i percorsi di studio alla loro descrizione.",
+        "pairs": [
+          [
+            "la laurea triennale",
+            "il primo livello dell'università, dura tre anni"
+          ],
+          [
+            "la laurea magistrale",
+            "il secondo livello dell'università, dura due anni"
+          ],
+          [
+            "il master di primo livello",
+            "un corso che si può fare dopo la laurea triennale"
+          ],
+          [
+            "il dottorato",
+            "il livello più alto, per chi vuole fare ricerca"
+          ],
+          [
+            "la scuola di specializzazione",
+            "un corso dopo la laurea per lavori molto specifici, come il medico specialista"
+          ]
         ]
       }
     ]
@@ -349,51 +748,76 @@
   "listening": {
     "transcript": [
       [
-        "Marta",
-        "A che ora {ip:parte} il treno domani?"
+        "Elisa",
+        "Allora, Davide, {ip:hai} quasi finito l'università! Che cosa {fs:farai} dopo la laurea?"
       ],
       [
-        "Paolo",
-        "{ip:Parte} alle otto. {fs:Verrai} alla stazione?"
+        "Davide",
+        "Non lo so ancora. {ip:Ho} intenzione di continuare a studiare: mi {ip:interessa} molto la finanza."
       ],
       [
-        "Marta",
-        "Se {ip:ho} tempo, {ip:vengo}. Stasera {ip:ceno} con i miei."
+        "Elisa",
+        "Un master, allora?"
       ],
       [
-        "Paolo",
-        "Che tempo {fs:farà}?"
+        "Davide",
+        "Sì. Mi {ip:serve} una formazione più specifica, e mi {ip:manca} la conoscenza dell'inglese tecnico. Forse {fs:andrò} a Londra per un anno."
       ],
       [
-        "Marta",
-        "{ip:Dicono} che {fs:pioverà}."
+        "Elisa",
+        "Che bello! Ci {pp:sei} mai {pp:stato}?"
       ],
       [
-        "Paolo",
-        "Allora {fs:prenderò} l'ombrello!"
+        "Davide",
+        "No, non ci {pp:sono} mai {pp:stato}. Ma {pp:ho} già {pp:fatto} un corso di inglese l'estate scorsa."
+      ],
+      [
+        "Elisa",
+        "E se non {fs:troverai} un master a Londra?"
+      ],
+      [
+        "Davide",
+        "Se non ci {fs:riuscirò}, {fs:proverò} in Italia. Magari tra un paio d'anni {fs:lavorerò} in una banca a Milano!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Parte#ip]] alle otto.",
-          "[[Verrai#fs]] alla stazione?",
-          "Se [[ho#ip]] tempo, {ip:vengo}.",
-          "{ip:Dicono} che [[pioverà#fs]]."
+          "Che cosa [[farai#fs]] dopo la laurea?",
+          "Ho intenzione di continuare a studiare: mi [[interessa#ip]] molto la finanza.",
+          "Mi [[serve#ip]] una formazione più specifica.",
+          "Forse [[andrò#fs]] a Londra per un anno.",
+          "Se non ci [[riuscirò#fs]], [[proverò#fs]] in Italia."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What is Marta doing this evening?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "This evening Marta…",
+            "q": "Che cosa {ip:interessa} a Davide?",
             "options": [
-              "is going to the station",
-              "*is having dinner with her family",
-              "is leaving"
+              "la medicina",
+              "*la finanza",
+              "il turismo"
+            ]
+          },
+          {
+            "q": "Che cosa gli {ip:manca}?",
+            "options": [
+              "la laurea",
+              "*la conoscenza dell'inglese tecnico",
+              "i soldi"
+            ]
+          },
+          {
+            "q": "Davide {pp:è} già {pp:stato} a Londra?",
+            "options": [
+              "sì, l'estate scorsa",
+              "*no, mai",
+              "sì, per un anno"
             ]
           }
         ]
@@ -404,43 +828,569 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "open": true,
+        "prompt": "Immagina il tuo futuro: rispondi con una frase al [fs:futuro] (o al [ip:presente], se la cosa è sicura).",
         "questions": [
           {
-            "q": "Tomorrow I will leave.",
+            "q": "Che cosa {fs:farai} l'anno prossimo?"
+          },
+          {
+            "q": "Che cosa ti {ip:interessa} studiare?"
+          },
+          {
+            "q": "Che cosa ti {ip:serve} per trovare un lavoro migliore?"
+          },
+          {
+            "q": "Dove {fs:vivrai} tra dieci anni?"
+          },
+          {
+            "q": "Completa: Se {fs:avrò} abbastanza soldi, …"
+          },
+          {
+            "q": "Qual {ip:è} il tuo sogno per il futuro? Usa *magari* o *un giorno*."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che corso fa per te?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni corso alla sua immagine.",
+        "pictures": [
+          "A — Un cuoco con il cappello bianco mostra a tre studenti come fare la pasta fresca",
+          "B — Una ragazza con le cuffie davanti al computer ripete le parole in spagnolo",
+          "C — Un gruppo di ragazzi lancia in aria il cappello il giorno della laurea",
+          "D — Un uomo con la macchina fotografica fotografa un ponte di Venezia"
+        ],
+        "pairs": [
+          [
+            "il corso di cucina",
+            "immagine A"
+          ],
+          [
+            "il corso di lingua",
+            "immagine B"
+          ],
+          [
+            "il corso di laurea",
+            "immagine C"
+          ],
+          [
+            "il corso di fotografia",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "text": [
+          "**Corsi per l'estate**",
+          "**1. Cucina toscana a Firenze** — Due settimane in una vera trattoria del centro: imparerete a fare la pasta fresca, la ribollita e i cantucci. Non serve esperienza. Luglio e agosto.",
+          "**2. Italiano per stranieri a Siena** — Lezioni ogni mattina all'Università per Stranieri, il pomeriggio visite alle città della Toscana. Tutti i livelli, da A1 a C2.",
+          "**3. Fotografia a Venezia** — Cinque giorni tra calli, canali e ponti. Vi serve solo una macchina fotografica, anche quella del telefono va bene!",
+          "**4. Master in Turismo digitale a Lecce** — Un anno di lezioni e stage per laureati che vogliono lavorare nel turismo con le nuove tecnologie."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Leggi gli annunci. Quale corso consigli a queste persone?",
+        "pairs": [
+          [
+            "«Mi interessa la cucina italiana, ma non so cucinare per niente.»",
+            "il corso 1"
+          ],
+          [
+            "«Vengo dal Brasile e voglio migliorare il mio italiano.»",
+            "il corso 2"
+          ],
+          [
+            "«Mi piacciono le foto, ma non ho una macchina fotografica professionale.»",
+            "il corso 3"
+          ],
+          [
+            "«Mi sono laureata in Economia e mi piacerebbe lavorare con i turisti.»",
+            "il corso 4"
+          ]
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Che cosa è? Metti ogni parola nel gruppo giusto.",
+        "pairs": [
+          [
+            "il master",
+            "un corso"
+          ],
+          [
+            "il corso di lingua",
+            "un corso"
+          ],
+          [
+            "il corso di specializzazione",
+            "un corso"
+          ],
+          [
+            "il diploma",
+            "un titolo che ricevi alla fine"
+          ],
+          [
+            "la laurea",
+            "un titolo che ricevi alla fine"
+          ],
+          [
+            "la facoltà",
+            "un luogo"
+          ],
+          [
+            "l'università",
+            "un luogo"
+          ]
+        ]
+      },
+      {
+        "h": "La settimana di Marco"
+      },
+      {
+        "picture": "L'agenda di Marco aperta sulla settimana prossima, con appunti scritti a mano"
+      },
+      {
+        "text": [
+          "**L'agenda di Marco — la settimana prossima**",
+          "lunedì: esame di storia, ore 9 · martedì: cena con Laura · mercoledì: dentista, ore 17 · giovedì: partita di calcio con gli amici · venerdì: treno per Roma, ore 18 · sabato e domenica: dai nonni a Roma"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Guarda l'agenda e completa le frasi con il [fs:futuro].",
+        "questions": [
+          "Lunedì Marco (dare) [[darà#fs]] l'esame di storia.",
+          "Martedì (cenare) [[cenerà#fs]] con Laura.",
+          "Mercoledì alle cinque (andare) [[andrà#fs]] dal dentista.",
+          "Giovedì (giocare) [[giocherà#fs]] a calcio con gli amici.",
+          "Venerdì (prendere) [[prenderà#fs]] il treno delle sei per Roma.",
+          "Il fine settimana (stare) [[starà#fs]] dai nonni."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Rispondi alle domande guardando l'agenda. Scrivi una frase completa.",
+        "questions": [
+          {
+            "q": "Quando {fs:andrà} dal dentista Marco?",
             "a": [
-              "Domani partirò.",
-              "Domani io partirò.",
-              "Partirò domani."
+              "Mercoledì alle 17.",
+              "Ci andrà mercoledì alle 17.",
+              "Andrà dal dentista mercoledì alle 17.",
+              "Mercoledì."
             ]
           },
           {
-            "q": "Next year we will go to Italy.",
+            "q": "Con chi {fs:cenerà} martedì?",
             "a": [
-              "L'anno prossimo andremo in Italia."
+              "Con Laura.",
+              "Cenerà con Laura.",
+              "Martedì cenerà con Laura."
             ]
           },
           {
-            "q": "If I have time, I'll come.",
+            "q": "Che cosa {fs:farà} sabato e domenica?",
             "a": [
-              "Se ho tempo, vengo.",
-              "Se avrò tempo, verrò."
-            ]
-          },
-          {
-            "q": "The train leaves at eight.",
-            "a": [
-              "Il treno parte alle otto."
-            ]
-          },
-          {
-            "q": "It will rain tomorrow.",
-            "a": [
-              "Domani pioverà.",
-              "Pioverà domani."
+              "Starà dai nonni a Roma.",
+              "Andrà dai nonni a Roma.",
+              "Starà dai nonni.",
+              "Sarà dai nonni a Roma."
             ]
           }
         ]
+      },
+      {
+        "h": "Che tempo farà domani?"
+      },
+      {
+        "picture": "La cartina dell'Italia con i simboli del meteo: neve sulle Alpi, pioggia a Milano, nuvole a Roma, sole a Napoli (24°) e a Palermo (26°)"
+      },
+      {
+        "type": "gap",
+        "prompt": "Guarda la cartina e completa le previsioni con il [fs:futuro].",
+        "questions": [
+          "Sulle Alpi (nevicare) [[nevicherà#fs]].",
+          "A Milano (piovere) [[pioverà#fs]] tutto il giorno.",
+          "A Roma il cielo (essere) [[sarà#fs]] nuvoloso, ma non (piovere) [[pioverà#fs]].",
+          "A Napoli (esserci) [[ci sarà#fs]] il sole e la temperatura (arrivare) [[arriverà#fs]] a 24 gradi.",
+          "La città più calda (essere) [[sarà#fs]] Palermo, con 26 gradi."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Guarda ancora la cartina. Dove andrai domani se…",
+        "questions": [
+          {
+            "q": "… vuoi sciare?",
+            "options": [
+              "*sulle Alpi",
+              "a Napoli",
+              "a Palermo"
+            ]
+          },
+          {
+            "q": "… vuoi fare il bagno al mare?",
+            "options": [
+              "a Milano",
+              "a Roma",
+              "*a Palermo"
+            ]
+          },
+          {
+            "q": "… vuoi visitare un museo senza ombrello e senza troppo sole?",
+            "options": [
+              "a Milano",
+              "*a Roma",
+              "a Napoli"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Che cosa succederà?"
+      },
+      {
+        "type": "gap",
+        "prompt": "L'oroscopo della settimana. Completa con il [fs:futuro].",
+        "pictures": [
+          "I dodici segni dello zodiaco disegnati in cerchio"
+        ],
+        "questions": [
+          "**Ariete** — Questa settimana (ricevere) [[riceverai#fs]] una bella notizia.",
+          "**Toro** — (Essere) [[Sarai#fs]] un po' stanco: (dovere) [[dovrai#fs]] riposare di più.",
+          "**Gemelli** — Un vecchio amico ti (telefonare) [[telefonerà#fs]] e (voi, uscire) [[uscirete#fs]] insieme.",
+          "**Cancro** — (Avere) [[Avrai#fs]] voglia di viaggiare: dove (andare) [[andrai#fs]]?",
+          "**Leone** — Sabato (incontrare) [[incontrerai#fs]] una persona speciale."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Sicuro o non sicuro? Leggi le frasi e scegli.",
+        "pairs": [
+          [
+            "Il corso comincia lunedì: ho già pagato.",
+            "è sicuro"
+          ],
+          [
+            "Domani ho l'esame alle nove.",
+            "è sicuro"
+          ],
+          [
+            "Stasera vado al cinema con Paolo, ho i biglietti.",
+            "è sicuro"
+          ],
+          [
+            "Forse un giorno vivrò in Australia.",
+            "non è sicuro"
+          ],
+          [
+            "Probabilmente cambierò lavoro.",
+            "non è sicuro"
+          ],
+          [
+            "Magari tra un paio d'anni comprerò una casa.",
+            "non è sicuro"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "laurea / la / dopo / un / farò / master",
+            "a": [
+              "Dopo la laurea farò un master.",
+              "Farò un master dopo la laurea."
+            ]
+          },
+          {
+            "q": "anni / tra / due / pensione / in / andrà / mio / padre",
+            "a": [
+              "Tra due anni mio padre andrà in pensione.",
+              "Mio padre andrà in pensione tra due anni."
+            ]
+          },
+          {
+            "q": "estero / forse / all' / vivremo / un giorno",
+            "a": [
+              "Forse un giorno vivremo all'estero.",
+              "Un giorno forse vivremo all'estero."
+            ]
+          },
+          {
+            "q": "tempo / se / avrò / ti / verrò / a trovare",
+            "a": [
+              "Se avrò tempo, verrò a trovarti.",
+              "Se avrò tempo verrò a trovarti.",
+              "Se avrò tempo, ti verrò a trovare."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Domani andarò al mare con Luca.",
+            "a": [
+              "Domani andrò al mare con Luca."
+            ]
+          },
+          {
+            "q": "Stasera mangieremo una pizza.",
+            "a": [
+              "Stasera mangeremo una pizza."
+            ]
+          },
+          {
+            "q": "I ragazzi cercaranno un appartamento.",
+            "a": [
+              "I ragazzi cercheranno un appartamento."
+            ]
+          },
+          {
+            "q": "Sabato vorò dormire fino a tardi.",
+            "a": [
+              "Sabato vorrò dormire fino a tardi."
+            ]
+          },
+          {
+            "q": "Mi mancano la mia famiglia.",
+            "a": [
+              "Mi manca la mia famiglia."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "In valigia per l'Erasmus"
+      },
+      {
+        "type": "gap",
+        "prompt": "Pietro parte per sei mesi a Valencia. Guarda la valigia e completa con *serve* o *servono*.",
+        "pictures": [
+          "Una valigia aperta sul letto: dentro un passaporto, due fotografie, un computer, tre libri di spagnolo e un ombrello"
+        ],
+        "questions": [
+          "Mi [[serve]] il passaporto.",
+          "Mi [[servono]] due fotografie per la tessera dell'università.",
+          "Mi [[serve]] il computer per studiare.",
+          "Mi [[servono]] anche i libri di spagnolo.",
+          "Mi [[serve]] l'ombrello? Forse no, a Valencia piove poco!"
+        ]
+      },
+      {
+        "text": [
+          "**Ciao mamma!** — Ti scrivo da Valencia. Qui va tutto bene: la città è bellissima e l'università mi piace. Però mi manchi tanto, e mi mancano anche i miei amici e la tua pizza! Il tempo non mi basta mai: ci sono troppe cose da vedere. E i soldi? Per ora mi bastano. Un bacio, Pietro"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Pietro sta bene a Valencia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "A Pietro non mancano gli amici.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Pietro ha molto tempo libero.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Per ora i soldi gli bastano.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "E tu? Completa con la forma giusta di *mancare*, *servire* o *bastare*.",
+        "questions": [
+          "Quando sono in vacanza, mi (mancare) [[manca]] la mia casa.",
+          "Per studiare l'italiano mi (servire) [[serve]] un buon dizionario.",
+          "Non mi (bastare) [[bastano]] due ore di lezione alla settimana.",
+          "Ai miei nonni (mancare) [[mancano]] i nipoti che vivono all'estero."
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nel [fs:futuro] l'accento cade sull'ultima sillaba con *io* e *lui/lei*: *parlerò, parlerà*. Per questo si scrive l'accento sulla vocale finale."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi l'accento dove serve.",
+        "questions": [
+          "Domani (io) andro → [[andrò]] dal dentista.",
+          "Il treno arrivera → [[arriverà]] alle otto.",
+          "Domani piovera → [[pioverà]] tutto il giorno.",
+          "Lei capira → [[capirà]] tutto."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola abbreviata giusta.",
+        "questions": [
+          "In vacanza ho fatto trecento [[foto]]! (fotografie)",
+          "Mio fratello va al lavoro in [[moto]]. (motocicletta)",
+          "Stasera andiamo al [[cinema]]. (cinematografo)",
+          "In città è più comodo muoversi in [[bici]]. (bicicletta)"
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So parlare dei miei progetti per il futuro: *Dopo la laurea farò un master.*",
+          "So dire che cosa mi interessa: *Mi interessa la finanza.*",
+          "So dire che cosa mi serve e che cosa mi manca: *Mi serve un computer. Mi mancano i miei amici.*",
+          "So coniugare il [fs:futuro] dei verbi regolari e dei principali verbi irregolari.",
+          "So scegliere tra [ip:presente] e [fs:futuro]: *Il corso comincia lunedì. Forse un giorno vivrò a Roma.*",
+          "So fare un'ipotesi con *se*: *Se avrò tempo, verrò.*",
+          "So capire le previsioni del tempo e un'agenda.",
+          "So leggere un annuncio di un corso e dire se fa per me."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Samantha Cristoforetti sorride nella Stazione Spaziale Internazionale, con la Terra dietro il finestrino"
+      },
+      {
+        "text": [
+          "**Da bambina sognava le stelle**",
+          "Samantha Cristoforetti è nata a Milano nel 1977, ma è cresciuta in un piccolo paese del Trentino, tra le montagne. Da bambina guardava il cielo e sognava di andare un giorno nello spazio.",
+          "Ha studiato molto: si è laureata in ingegneria in Germania, ha fatto un periodo di studio in Francia e in Russia e poi è entrata nell'Aeronautica Militare, dove è diventata pilota.",
+          "Nel 2009 l'Agenzia Spaziale Europea l'ha scelta come astronauta, e nel novembre del 2014 è partita per la Stazione Spaziale Internazionale: è stata la prima donna italiana nello spazio. È rimasta in orbita per quasi duecento giorni.",
+          "Nel 2022 è tornata nello spazio e qualche mese dopo è diventata la prima donna europea comandante della Stazione. E il futuro? Forse un giorno andrà sulla Luna: l'Europa prepara già nuove missioni. E molti ragazzi che oggi leggono la sua storia diventeranno ingegneri, scienziati o astronauti. Chi vivrà vedrà!"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina gli anni a quello che è successo.",
+        "pairs": [
+          [
+            "1977",
+            "nasce a Milano"
+          ],
+          [
+            "2009",
+            "diventa astronauta"
+          ],
+          [
+            "2014",
+            "parte per la prima volta per lo spazio"
+          ],
+          [
+            "2022",
+            "torna nello spazio e diventa comandante"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Samantha Cristoforetti è nata in Trentino.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Si è laureata in Germania.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "È stata la prima donna italiana nello spazio.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Nel 2014 è rimasta nello spazio per una settimana.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo il testo, forse un giorno andrà sulla Luna.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme del [fs:futuro].",
+        "questions": [
+          "Forse un giorno [[andrà#fs]] sulla Luna.",
+          "Molti ragazzi [[diventeranno#fs]] ingegneri, scienziati o astronauti.",
+          "Chi [[vivrà#fs]] vedrà!"
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Immagina di aver finito gli studi o un corso. Scrivi una mail a un amico o a un'amica: racconta i tuoi progetti e come immagini la tua vita tra cinque anni.",
+        "cues": [
+          "dopo il corso…",
+          "mi interessa…",
+          "mi serve…",
+          "forse…",
+          "probabilmente…",
+          "se…",
+          "tra cinque anni…",
+          "magari…"
+        ],
+        "start": "Caro/a …,\n",
+        "model": "Cara Elena,\nfinalmente ho finito il corso di cucina! Adesso ho tante idee per il futuro. Mi interessa molto la cucina toscana, quindi forse andrò a Firenze per un anno.\nPrima però mi serve un po' di esperienza: a settembre comincio uno stage in un ristorante di Milano.\nSe tutto andrà bene, tra cinque anni avrò un piccolo ristorante tutto mio, magari vicino al mare. Tu verrai a mangiare gratis, promesso!\nUn abbraccio,\nMarco"
       }
     ]
   }

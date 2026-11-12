@@ -1,249 +1,189 @@
 {
-  "title": "Ieri {pp:sono andata} al mare",
+  "title": "Questa gonna mi {ip:sta} bene?",
   "translation": "",
-  "topics": "Il [pp:passato prossimo] con essere e avere, il participio passato, mai e la doppia negazione, ci per i luoghi",
+  "topics": "I colori, i pronomi indiretti, stare bene e piacere, il verbo dare, i vestiti",
   "grammar": {
     "explain": [
-      "Il [pp:passato prossimo] racconta che cosa è successo ed è finito. Ha due parti: *essere* o *avere* al presente e il participio passato del verbo.",
+      "Come descrivere i vestiti e come dire che cosa sta bene a qualcuno o che cosa gli piace.",
       {
         "grid": [
           {
             "wide": true,
             "table": {
-              "title": "Il [pp:passato prossimo] con *essere*",
-              "groups": [
-                [
-                  "",
-                  2
-                ],
-                [
-                  "torn**are**",
-                  2
-                ],
-                [
-                  "cad**ere**",
-                  2
-                ],
-                [
-                  "usc**ire**",
-                  2
-                ]
-              ],
+              "title": "Gli aggettivi e i colori",
               "rows": [
                 [
-                  [
-                    "io",
-                    "tu",
-                    "lui, lei, Lei"
-                  ],
-                  [
-                    "{pp:sono}",
-                    "{pp:sei}",
-                    "{pp:è}"
-                  ],
-                  "{pp:torn**ato/a**}",
-                  {
-                    "text": "a casa.",
-                    "rows": 2
-                  },
-                  "{pp:cad**uto/a**}",
-                  {
-                    "text": "dalla bici.",
-                    "rows": 2
-                  },
-                  "{pp:usc**ito/a**}",
-                  {
-                    "text": "con Marta.",
-                    "rows": 2
-                  }
+                  "Il cappello {ip:è} ross**o**.",
+                  "La gonna {ip:è} ross**a**."
                 ],
                 [
-                  [
-                    "noi",
-                    "voi",
-                    "loro"
-                  ],
-                  [
-                    "{pp:siamo}",
-                    "{pp:siete}",
-                    "{pp:sono}"
-                  ],
-                  "{pp:torn**ati/e**}",
-                  null,
-                  "{pp:cad**uti/e**}",
-                  null,
-                  "{pp:usc**iti/e**}",
-                  null
+                  "I calzini {ip:sono} ross**i**.",
+                  "Le camicie {ip:sono} ross**e**."
+                ],
+                [
+                  "Il cappotto {ip:è} verd**e**.",
+                  "La giacca {ip:è} verd**e**."
+                ],
+                [
+                  "Gli stivali {ip:sono} verd**i**.",
+                  "Le gonne {ip:sono} verd**i**."
+                ],
+                [
+                  "Il vestito {ip:è} viol**a**.",
+                  "La borsa {ip:è} viol**a**."
+                ],
+                [
+                  "I maglioni {ip:sono} viol**a**.",
+                  "Le magliette {ip:sono} viol**a**."
                 ]
               ]
             },
             "note": [
-              "Con *essere* il participio si accorda con il soggetto, come un aggettivo: *Marco {pp:è tornato}, Anna {pp:è tornata}, Marco e Anna {pp:sono tornati}, Anna e Sofia {pp:sono tornate}*.",
-              "Prendono *essere* quasi tutti i verbi di movimento o di cambiamento (*andare, venire, arrivare, partire, tornare, uscire, cadere, nascere*), poi *essere*, *stare*, *rimanere* e *piacere*, e tutti i verbi riflessivi: *mi {pp:sono alzato}*."
+              "I colori sono aggettivi e vengono dopo il nome.",
+              "Quasi tutti cambiano come *rosso* (**-o, -a, -i, -e**) o come *verde* (**-e, -i**).",
+              "Alcuni non cambiano mai: *blu, rosa, viola, beige*. *Le scarpe blu, i maglioni viola*."
             ]
           },
           {
             "wide": true,
             "table": {
-              "title": "Il [pp:passato prossimo] con *avere*",
-              "groups": [
-                [
-                  "",
-                  2
-                ],
-                [
-                  "mangi**are**",
-                  2
-                ],
-                [
-                  "vend**ere**",
-                  2
-                ],
-                [
-                  "fin**ire**",
-                  2
-                ]
-              ],
+              "title": "I pronomi indiretti",
               "rows": [
                 [
-                  [
-                    "io",
-                    "tu",
-                    "lui, lei, Lei",
-                    "noi",
-                    "voi",
-                    "loro"
-                  ],
-                  [
-                    "{pp:ho}",
-                    "{pp:hai}",
-                    "{pp:ha}",
-                    "{pp:abbiamo}",
-                    "{pp:avete}",
-                    "{pp:hanno}"
-                  ],
-                  "{pp:mangi**ato**}",
-                  "una pizza.",
-                  "{pp:vend**uto**}",
-                  "la macchina.",
-                  "{pp:fin**ito**}",
-                  "il lavoro."
+                  "A me le scarpe {ip:stanno} strette.",
+                  "Le scarpe",
+                  "**mi**",
+                  "{ip:stanno} strette."
+                ],
+                [
+                  "A te la gonna {ip:sta} bene.",
+                  "La gonna",
+                  "**ti**",
+                  "{ip:sta} bene."
+                ],
+                [
+                  "A Marco il verde {ip:sta} bene.",
+                  "Il verde",
+                  "**gli**",
+                  "{ip:sta} bene."
+                ],
+                [
+                  "A Sofia il cappotto {ip:sta} largo.",
+                  "Il cappotto",
+                  "**le**",
+                  "{ip:sta} largo."
+                ],
+                [
+                  "A Lei, signora, la giacca {ip:sta} bene?",
+                  "La giacca",
+                  "**Le**",
+                  "{ip:sta} bene?"
+                ],
+                [
+                  "A noi {ip:piacciono} questi colori.",
+                  "Questi colori",
+                  "**ci**",
+                  "{ip:piacciono}."
+                ],
+                [
+                  "A voi {ip:piace} questa camicia?",
+                  "Questa camicia",
+                  "**vi**",
+                  "{ip:piace}?"
+                ],
+                [
+                  "A Luca e Anna {ip:piacciono} i cappelli.",
+                  "I cappelli",
+                  "**gli**",
+                  "{ip:piacciono}."
                 ]
               ]
             },
-            "note": "Con *avere* il participio non cambia: *Anna {pp:ha mangiato}*. Prendono *avere* quasi tutti gli altri verbi, e tutti quelli che possono avere un oggetto."
-          },
-          {
-            "wide": true,
-            "table": {
-              "title": "Il participio passato",
-              "rows": [
-                [
-                  "infinito",
-                  "mangi**are**",
-                  "vend**ere**",
-                  "fin**ire**"
-                ],
-                [
-                  "participio passato",
-                  "mangi**ato**",
-                  "vend**uto**",
-                  "fin**ito**"
-                ]
-              ]
-            },
-            "note": "**-are** → **-ato**, **-ere** → **-uto**, **-ire** → **-ito**."
+            "note": [
+              "Dicono *a chi*: *a me* = **mi**, *a te* = **ti**, *a lui* = **gli**, *a lei* = **le**, *a Lei* = **Le**, *a noi* = **ci**, *a voi* = **vi**, *a loro* = **gli**.",
+              "Vanno con *piacere* e con *stare* quando un vestito va bene a qualcuno. Il vestito è il soggetto, quindi il verbo si accorda con lui: *la gonna mi {ip:sta} bene, le scarpe mi {ip:stanno} strette*."
+            ]
           },
           {
             "table": {
-              "title": "L'uso di *mai* e la doppia negazione",
               "rows": [
                 [
-                  [
-                    "{ip:Mangi} **mai** il pesce?",
-                    "No, **non** lo {ip:mangio} **mai**."
-                  ]
+                  {
+                    "text": "(non)",
+                    "rows": 4
+                  },
+                  {
+                    "text": [
+                      "mi",
+                      "ti",
+                      "gli, le, Le",
+                      "ci",
+                      "vi",
+                      "gli"
+                    ],
+                    "rows": 4
+                  },
+                  "{ip:sta} bene questo vestito."
                 ],
                 [
-                  [
-                    "{pp:Sei} **mai** {pp:stato} a Venezia?",
-                    "No, **non** ci {pp:sono} **mai** {pp:stato}."
-                  ]
+                  null,
+                  null,
+                  "{ip:stanno} bene queste scarpe."
+                ],
+                [
+                  null,
+                  null,
+                  "{ip:piace} questa gonna."
+                ],
+                [
+                  null,
+                  null,
+                  "{ip:piacciono} questi colori."
                 ]
               ]
             },
-            "note": "Nelle domande *mai* vuol dire «qualche volta nella vita». Nella risposta servono tutti e due, *non* e *mai*. Nel [pp:passato prossimo] *mai* va tra *essere* o *avere* e il participio."
+            "note": "*Non* va prima del pronome: *non mi {ip:sta} bene*. Il verbo è singolare per una cosa sola e plurale per più di una."
           },
           {
             "table": {
-              "title": "L'uso di *ci* (particella di luogo)",
+              "title": "Il verbo *dare*",
               "rows": [
                 [
-                  [
-                    "{ip:Vai} mai **a Venezia**?",
-                    "No, non **ci** {ip:vado} mai."
-                  ]
+                  "io",
+                  "{ip:do}",
+                  {
+                    "text": "un regalo a Sofia.",
+                    "rows": 6
+                  }
                 ],
                 [
-                  [
-                    "{pp:Sei} mai {pp:stato} **a Napoli**?",
-                    "No, non **ci** {pp:sono} mai {pp:stato}."
-                  ]
+                  "tu",
+                  "{ip:dai}",
+                  null
+                ],
+                [
+                  "lui, lei, Lei",
+                  "{ip:dà}",
+                  null
+                ],
+                [
+                  "noi",
+                  "{ip:diamo}",
+                  null
+                ],
+                [
+                  "voi",
+                  "{ip:date}",
+                  null
+                ],
+                [
+                  "loro",
+                  "{ip:danno}",
+                  null
                 ]
               ]
             },
-            "note": "*Ci* sostituisce un luogo già detto, come *a Venezia* o *in Italia*. Va prima del verbo."
-          },
-          {
-            "wide": true,
-            "table": {
-              "title": "Alcuni participi passati irregolari",
-              "rows": [
-                [
-                  "aprire",
-                  "{pp:aperto}",
-                  "mettere",
-                  "{pp:messo}"
-                ],
-                [
-                  "bere",
-                  "{pp:bevuto}",
-                  "nascere*",
-                  "{pp:nato}"
-                ],
-                [
-                  "chiudere",
-                  "{pp:chiuso}",
-                  "prendere",
-                  "{pp:preso}"
-                ],
-                [
-                  "dire",
-                  "{pp:detto}",
-                  "rimanere*",
-                  "{pp:rimasto}"
-                ],
-                [
-                  "essere*",
-                  "{pp:stato}",
-                  "scrivere",
-                  "{pp:scritto}"
-                ],
-                [
-                  "fare",
-                  "{pp:fatto}",
-                  "vedere",
-                  "{pp:visto}"
-                ],
-                [
-                  "leggere",
-                  "{pp:letto}",
-                  "venire*",
-                  "{pp:venuto}"
-                ]
-              ]
-            },
-            "note": "Molti verbi comuni, quasi tutti in *-ere*, hanno un participio irregolare. Quelli con * prendono *essere*."
+            "note": "*Dare* è irregolare. *Dà* ha l'accento per non confondersi con la preposizione *da*. La persona a cui dai qualcosa prende *a*: *do un regalo a Sofia*, cioè *le do un regalo*."
           }
         ]
       }
@@ -252,87 +192,75 @@
   "use": {
     "exercises": [
       {
+        "type": "gap",
+        "prompt": "Scrivi il colore con la finale giusta.",
+        "questions": [
+          "La gonna {ip:è} [[rossa]]. (rosso)",
+          "I calzini {ip:sono} [[neri]]. (nero)",
+          "Le camicie {ip:sono} [[gialle]]. (giallo)",
+          "Il cappotto {ip:è} [[verde]]. (verde)",
+          "Le scarpe {ip:sono} [[verdi]]. (verde)",
+          "I pantaloni {ip:sono} [[blu]]. (blu)",
+          "La borsa {ip:è} [[rosa]]. (rosa)"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il pronome: mi, ti, gli, le, ci o vi.",
+        "questions": [
+          "(a me) [[Mi]] {ip:piace} questa giacca.",
+          "(a te) [[Ti]] {ip:stanno} bene le scarpe.",
+          "(a Marco) [[Gli]] {ip:sta} bene il blu.",
+          "(a Sofia) [[Le]] {ip:piacciono} i cappelli.",
+          "(a noi) [[Ci]] {ip:piace} il rosso.",
+          "(a voi) [[Vi]] {ip:sta} bene la gonna?",
+          "(a Luca e Anna) [[Gli]] {ip:piacciono} i colori."
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Essere o avere?",
+        "prompt": "Sta o stanno?",
         "questions": [
           {
-            "q": "Ieri ___ andato al mare.",
+            "q": "Questa giacca mi ___ bene.",
             "options": [
-              "*sono",
-              "ho"
+              "*sta",
+              "stanno"
             ]
           },
           {
-            "q": "Marta ___ mangiato una pizza.",
+            "q": "Queste scarpe ti ___ strette.",
             "options": [
-              "è",
-              "*ha"
+              "sta",
+              "*stanno"
             ]
           },
           {
-            "q": "Noi ___ partiti presto.",
+            "q": "Il cappotto gli ___ largo.",
             "options": [
-              "*siamo",
-              "abbiamo"
+              "*sta",
+              "stanno"
             ]
           },
           {
-            "q": "Tu ___ letto il libro?",
+            "q": "I pantaloni le ___ bene.",
             "options": [
-              "sei",
-              "*hai"
-            ]
-          },
-          {
-            "q": "Loro ___ arrivati tardi.",
-            "options": [
-              "*sono",
-              "hanno"
-            ]
-          },
-          {
-            "q": "Voi ___ visto il film?",
-            "options": [
-              "siete",
-              "*avete"
+              "sta",
+              "*stanno"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Scrivi il participio. Con essere si accorda con il soggetto.",
+        "prompt": "Scrivi la forma giusta di dare.",
         "questions": [
-          "Anna {pp:è} [[tornata#pp]] a casa. (tornare)",
-          "Marco e Luca {pp:sono} [[usciti#pp]]. (uscire)",
-          "Le ragazze {pp:sono} [[arrivate#pp]] ieri. (arrivare)",
-          "Paolo {pp:è} [[caduto#pp]] dalla bici. (cadere)",
-          "Giulia {pp:è} [[partita#pp]] per Roma. (partire)",
-          "Sara e Anna {pp:sono} [[andate#pp]] al mare. (andare)"
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi il participio. Alcuni sono irregolari.",
-        "questions": [
-          "{pp:Ho} [[mangiato#pp]] una pizza. (mangiare)",
-          "{pp:Hai} [[venduto#pp]] la macchina? (vendere)",
-          "{pp:Abbiamo} [[finito#pp]] il lavoro. (finire)",
-          "{pp:Ho} [[fatto#pp]] colazione. (fare)",
-          "{pp:Avete} [[visto#pp]] il film? (vedere)",
-          "Lei {pp:ha} [[scritto#pp]] una lettera. (scrivere)",
-          "{pp:Hanno} [[preso#pp]] il treno. (prendere)",
-          "{pp:Ho} [[letto#pp]] il giornale. (leggere)"
-        ]
-      },
-      {
-        "type": "gap",
-        "prompt": "Scrivi mai o ci.",
-        "questions": [
-          "{pp:Sei} [[mai]] {pp:stato} a Roma?",
-          "No, non [[ci]] {pp:sono} mai {pp:stato}.",
-          "{ip:Vai} spesso a Milano? No, non ci {ip:vado} [[mai]].",
-          "{ip:Andate} al mare? Sì, [[ci]] {ip:andiamo} domani."
+          "Io [[do#ip]] un libro a Marco.",
+          "Tu [[dai#ip]] il numero a Sofia?",
+          "Lei [[dà|da'#ip]] un regalo a Luca.",
+          "Noi [[diamo#ip]] una festa.",
+          "Voi [[date#ip]] i soldi a Paolo?",
+          "Loro [[danno#ip]] una mano a Anna."
         ]
       }
     ]
@@ -340,80 +268,104 @@
   "vocabulary": {
     "words": [
       [
-        "ieri",
-        "il giorno prima di oggi"
+        "la gonna",
+        "la portano le donne, al posto dei pantaloni"
       ],
       [
-        "la settimana scorsa",
-        "la settimana prima di questa"
+        "la giacca",
+        "la metti sopra la camicia"
       ],
       [
-        "l'anno scorso",
-        "l'anno prima di questo"
+        "il cappotto",
+        "lo metti fuori quando fa freddo"
       ],
       [
-        "due giorni fa",
-        "il giorno prima di ieri"
+        "il maglione",
+        "di lana, caldo, per l'inverno"
       ],
       [
-        "la vacanza",
-        "i giorni senza lavoro, per riposarsi o viaggiare"
+        "la camicia",
+        "ha i bottoni e il colletto"
       ],
       [
-        "il viaggio",
-        "quando vai in un posto lontano"
+        "la maglietta",
+        "di cotone, con le maniche corte"
       ],
       [
-        "il mare",
-        "acqua salata, ci fai il bagno d'estate"
+        "il vestito",
+        "un abito da donna tutto intero"
       ],
       [
-        "la montagna",
-        "un posto alto, ci vai a sciare"
+        "i pantaloni",
+        "coprono le gambe"
       ],
       [
-        "la macchina",
-        "ha quattro ruote, la guidi"
+        "le scarpe",
+        "le porti ai piedi"
       ],
       [
-        "la bici",
-        "ha due ruote, vai con le gambe"
+        "gli stivali",
+        "scarpe alte, per l'inverno"
       ],
       [
-        "arrivare",
-        "il contrario di partire"
+        "il cappello",
+        "lo porti sulla testa"
       ],
       [
-        "tornare",
-        "andare di nuovo dove eri prima"
+        "i calzini",
+        "li metti prima delle scarpe"
       ],
       [
-        "cadere",
-        "andare giù per terra"
+        "la taglia",
+        "S, M, L: la misura di un vestito"
       ],
       [
-        "vendere",
-        "il contrario di comprare"
+        "il regalo",
+        "una cosa che dai per il compleanno"
       ],
       [
-        "visitare",
-        "andare a vedere un posto"
+        "rosso",
+        "il colore del pomodoro"
       ],
       [
-        "rimanere",
-        "non andare via, restare"
+        "nero",
+        "il colore della notte"
       ],
       [
-        "nascere",
-        "venire al mondo"
+        "giallo",
+        "il colore del limone"
       ],
       [
-        "stanco",
-        "hai bisogno di riposare"
+        "verde",
+        "il colore dell'erba"
       ],
       [
-        "contento",
-        "felice"
+        "blu",
+        "il colore del mare"
+      ],
+      [
+        "rosa",
+        "il colore di un fiore delicato"
+      ],
+      [
+        "viola",
+        "il colore della melanzana"
+      ],
+      [
+        "largo",
+        "troppo grande, il contrario di stretto"
+      ],
+      [
+        "stretto",
+        "troppo piccolo, il contrario di largo"
+      ],
+      [
+        "stare bene",
+        "essere giusto per una persona, di un vestito"
+      ],
+      [
+        "dare",
+        "mettere una cosa nelle mani di qualcuno"
       ]
     ],
     "exercises": [
@@ -422,28 +374,28 @@
         "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "ieri",
-            "il giorno prima di oggi"
+            "la gonna",
+            "la portano le donne, al posto dei pantaloni"
           ],
           [
-            "la settimana scorsa",
-            "la settimana prima di questa"
+            "il cappotto",
+            "lo metti fuori quando fa freddo"
           ],
           [
-            "il viaggio",
-            "quando vai in un posto lontano"
+            "il maglione",
+            "di lana, caldo, per l'inverno"
           ],
           [
-            "cadere",
-            "andare giù per terra"
+            "gli stivali",
+            "scarpe alte, per l'inverno"
           ],
           [
-            "vendere",
-            "il contrario di comprare"
+            "la taglia",
+            "S, M, L: la misura di un vestito"
           ],
           [
-            "stanco",
-            "hai bisogno di riposare"
+            "stretto",
+            "troppo piccolo, il contrario di largo"
           ]
         ]
       },
@@ -451,20 +403,20 @@
         "type": "gap",
         "prompt": "Completa con la parola giusta.",
         "questions": [
-          "D'estate {ip:andiamo} al [[mare]] a fare il bagno.",
-          "L'[[anno]] scorso {pp:sono andato} in Spagna.",
-          "{pp:Siamo arrivati} due giorni [[fa]].",
-          "Domani {ip:torno} al lavoro: la [[vacanza]] {pp:è finita}.",
-          "{pp:Ho camminato} tutto il giorno: {ip:sono} [[stanca]] ma contenta."
+          "Fa freddo: {ip:metto} il [[cappotto]].",
+          "Questa [[camicia]] bianca ha i bottoni.",
+          "Domani {ip:è} il compleanno di Sofia: le {ip:compro} un [[regalo]].",
+          "Le scarpe {ip:sono} piccole: mi {ip:stanno} [[strette]].",
+          "Il mare e il cielo {ip:sono} [[blu]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "La settimana scorsa Luca e io {pp:siamo andati} in vacanza a Napoli. {pp:Siamo partiti} venerdì mattina e {pp:abbiamo preso} il treno: ci {pp:abbiamo messo} cinque ore.",
-      "A Napoli {pp:abbiamo visitato} il centro e {pp:abbiamo mangiato} una pizza buonissima. Luca {pp:ha comprato} un regalo per Anna.",
-      "Sabato {pp:siamo stati} al mare tutto il giorno. Domenica sera {pp:siamo tornati} a casa stanchi ma contenti. Non {pp:sono} mai {pp:stata} così felice!"
+      "Sabato {ip:è} il compleanno della mia amica Sofia e {ip:cerco} un regalo. A Sofia {ip:piacciono} molto i colori: le {ip:sta} bene il rosso e le {ip:piace} il viola.",
+      "In un negozio del centro {ip:vedo} una gonna rossa e una giacca viola. La gonna {ip:costa} 40 euro, la giacca 60.",
+      "{ip:Prendo} la gonna. Alla festa le {ip:do} il regalo: le {ip:piace} tanto e le {ip:sta} benissimo!"
     ],
     "exercises": [
       {
@@ -472,35 +424,35 @@
         "prompt": "Vero o falso?",
         "questions": [
           {
-            "q": "La settimana scorsa {pp:sono andati} a Napoli.",
+            "q": "A Sofia {ip:piacciono} molto i colori.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "{pp:Sono andati} in macchina.",
+            "q": "A Sofia non {ip:sta} bene il rosso.",
             "options": [
               "Vero",
               "*Falso"
             ]
           },
           {
-            "q": "Ci {pp:hanno messo} cinque ore.",
+            "q": "La giacca {ip:costa} 40 euro.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il regalo {ip:è} la gonna.",
             "options": [
               "*Vero",
               "Falso"
             ]
           },
           {
-            "q": "Sabato {pp:hanno visitato} il centro.",
-            "options": [
-              "Vero",
-              "*Falso"
-            ]
-          },
-          {
-            "q": "{pp:Sono tornati} a casa domenica sera.",
+            "q": "A Sofia {ip:piace} il regalo.",
             "options": [
               "*Vero",
               "Falso"
@@ -513,28 +465,28 @@
   "listening": {
     "transcript": [
       [
-        "Marco",
-        "Ciao, Giulia! Che cosa {pp:hai fatto} questo fine settimana?"
+        "Commessa",
+        "Buongiorno! {ip:Cerca} qualcosa?"
       ],
       [
-        "Giulia",
-        "{pp:Sono andata} in montagna con Paolo. E tu?"
+        "Cliente",
+        "Sì, {ip:cerco} un maglione blu."
       ],
       [
-        "Marco",
-        "Io {pp:sono rimasto} a casa. {pp:Ho letto} un libro e {pp:ho dormito} molto."
+        "Commessa",
+        "Ecco. Le {ip:piace} questo?"
       ],
       [
-        "Giulia",
-        "{pp:Sei} mai {pp:stato} in Trentino?"
+        "Cliente",
+        "Sì, mi {ip:piace} molto. Lo {ip:provo}."
       ],
       [
-        "Marco",
-        "No, non ci {pp:sono} mai {pp:stato}."
+        "Commessa",
+        "Come Le {ip:sta}?"
       ],
       [
-        "Giulia",
-        "Ci {ip:devi} andare, {ip:è} bellissimo!"
+        "Cliente",
+        "Mi {ip:sta} un po' stretto. {ip:Avete} una taglia più grande?"
       ]
     ],
     "exercises": [
@@ -542,10 +494,9 @@
         "type": "gap",
         "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Sono andata#pp]] in montagna con Paolo.",
-          "Io [[sono rimasto#pp]] a casa.",
-          "[[Ho letto#pp]] un libro e [[ho dormito#pp]] molto.",
-          "No, non [[ci]] {pp:sono} [[mai]] {pp:stato}."
+          "Sì, [[cerco#ip]] un maglione blu.",
+          "Ecco. [[Le]] {ip:piace} questo?",
+          "Mi [[sta#ip]] un po' stretto."
         ]
       },
       {
@@ -553,11 +504,11 @@
         "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Che cosa {pp:ha fatto} Marco nel fine settimana?",
+            "q": "Che problema {ip:ha} il maglione?",
             "options": [
-              "*È rimasto a casa e ha letto.",
-              "È andato in montagna.",
-              "Ha visitato il Trentino."
+              "*È un po' stretto.",
+              "Non è del colore giusto.",
+              "Costa troppo."
             ]
           }
         ]
@@ -568,54 +519,55 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Scrivi la frase al [pp:passato prossimo].",
+        "prompt": "Scrivi la frase in italiano.",
         "questions": [
           {
-            "q": "Oggi {ip:mangio} una pizza. → Ieri…",
+            "q": "{ip:Provi} una gonna ed {ip:è} perfetta per te.",
             "a": [
-              "Ieri ho mangiato una pizza.",
-              "Ho mangiato una pizza ieri."
+              "Questa gonna mi sta bene.",
+              "La gonna mi sta bene."
             ]
           },
           {
-            "q": "Anna {ip:va} a Roma. → Ieri…",
+            "q": "{ip:Provi} delle scarpe, ma {ip:sono} piccole.",
             "a": [
-              "Ieri Anna è andata a Roma.",
-              "Anna è andata a Roma ieri.",
-              "Anna è andata a Roma."
+              "Queste scarpe mi stanno strette.",
+              "Le scarpe mi stanno strette."
             ]
           },
           {
-            "q": "Noi (Marco e Luca) {ip:partiamo} presto.",
+            "q": "{ip:Chiedi} a un amico se la giacca {ip:è} bella per lui.",
             "a": [
-              "Siamo partiti presto.",
-              "Noi siamo partiti presto."
+              "Ti piace questa giacca?",
+              "Ti piace la giacca?"
             ]
           },
           {
-            "q": "{ip:Chiedi} a un ragazzo se una volta nella vita {ip:è} andato a Venezia.",
+            "q": "I colori {ip:sono} belli per Marco. (a lui)",
             "a": [
-              "Sei mai stato a Venezia?"
+              "Gli piacciono i colori."
             ]
           },
           {
-            "q": "Lui {ip:risponde}: no, nessuna volta.",
+            "q": "Che cosa {ip:fai} per il compleanno di Sofia? (dare un regalo)",
             "a": [
-              "No, non ci sono mai stato."
+              "Do un regalo a Sofia.",
+              "Io do un regalo a Sofia.",
+              "Le do un regalo."
             ]
           },
           {
-            "q": "Loro {ip:vedono} un film.",
+            "q": "I pantaloni: di che colore {ip:sono}? (blu)",
             "a": [
-              "Hanno visto un film.",
-              "Loro hanno visto un film."
+              "I pantaloni sono blu.",
+              "Sono blu."
             ]
           },
           {
-            "q": "Io {ip:leggo} il giornale.",
+            "q": "Il rosso {ip:va} bene per lei. (stare bene)",
             "a": [
-              "Ho letto il giornale.",
-              "Io ho letto il giornale."
+              "Le sta bene il rosso.",
+              "Il rosso le sta bene."
             ]
           }
         ]
