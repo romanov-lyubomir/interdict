@@ -1,0 +1,518 @@
+{
+  "title": "Σπίτι",
+  "translation": "Home",
+  "topics": "The Greek alphabet, capital and small letters, the vowels α ε ι ο, the letters κ λ μ ν π σ τ and the accent mark",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "αεικλμνοπστςάέίό",
+  "grammar": {
+    "explain": [
+      "Greek has been written with its own alphabet for almost three thousand years. The word *alphabet* itself comes from its first two letters, *άλφα* and *βήτα*, and both the Latin and the Cyrillic alphabets grew out of it. You already know some letters from maths and science: π, Σ, Δ, Ω.",
+      {
+        "ul": [
+          "There are 24 letters, and Greek is read almost exactly as it is written: once you know the letters and a few pairs, you can read any word aloud.",
+          "Every letter has a capital and a small form, as in English: Α α, Μ μ, Τ τ.",
+          "Sigma has two small forms: σ at the start or in the middle of a word, ς at the end: *σαλάτα*, *τέλος*.",
+          "Almost every word has an accent mark (΄) on the vowel you stress: *σπίτι* is read *spí-ti*. Say that syllable a little louder."
+        ]
+      },
+      "In this lesson you learn the four vowels and seven consonants that look like letters you already know. With them you can read your first words.",
+      {
+        "h": "The vowels"
+      },
+      "Greek vowels are short and clear, as in Italian or Spanish. Tap each letter to see how it sounds and a word that has it.",
+      {
+        "letters": [
+          {
+            "letter": "Α α",
+            "latin": "a",
+            "say": "like the a in father",
+            "word": "μαμά",
+            "word_latin": "mamá",
+            "meaning": "mum"
+          },
+          {
+            "letter": "Ε ε",
+            "latin": "e",
+            "say": "like the e in bed",
+            "word": "μέλι",
+            "word_latin": "méli",
+            "meaning": "honey"
+          },
+          {
+            "letter": "Ι ι",
+            "latin": "i",
+            "say": "like the ee in see, but short",
+            "word": "σπίτι",
+            "word_latin": "spíti",
+            "meaning": "house"
+          },
+          {
+            "letter": "Ο ο",
+            "latin": "o",
+            "say": "like the o in for, but short",
+            "word": "κιλό",
+            "word_latin": "kiló",
+            "meaning": "kilo"
+          }
+        ],
+        "lang": "el"
+      },
+      {
+        "h": "Letters you already know"
+      },
+      "These consonants look and sound almost like their English cousins. The κ, π and τ are said without the little puff of air of English k, p and t.",
+      {
+        "letters": [
+          {
+            "letter": "Κ κ",
+            "latin": "k",
+            "say": "like the k in skate",
+            "word": "κανέλα",
+            "word_latin": "kanéla",
+            "meaning": "cinnamon"
+          },
+          {
+            "letter": "Λ λ",
+            "latin": "l",
+            "say": "like the l in lamp",
+            "word": "λεμόνι",
+            "word_latin": "lemóni",
+            "meaning": "lemon"
+          },
+          {
+            "letter": "Μ μ",
+            "latin": "m",
+            "say": "like the m in mum",
+            "word": "μόνο",
+            "word_latin": "móno",
+            "meaning": "only"
+          },
+          {
+            "letter": "Ν ν",
+            "latin": "n",
+            "say": "like the n in no: the small ν is an n, not a v!",
+            "word": "Νίκος",
+            "word_latin": "Níkos",
+            "meaning": "Nick"
+          },
+          {
+            "letter": "Π π",
+            "latin": "p",
+            "say": "like the p in spin",
+            "word": "πατάτα",
+            "word_latin": "patáta",
+            "meaning": "potato"
+          },
+          {
+            "letter": "Σ σ ς",
+            "latin": "s",
+            "say": "like the s in sun; ς is used at the end of a word",
+            "word": "σαλάτα",
+            "word_latin": "saláta",
+            "meaning": "salad"
+          },
+          {
+            "letter": "Τ τ",
+            "latin": "t",
+            "say": "like the t in stop",
+            "word": "τέλος",
+            "word_latin": "télos",
+            "meaning": "end"
+          }
+        ],
+        "lang": "el"
+      },
+      {
+        "h": "A tip"
+      },
+      "Read every word aloud, syllable by syllable, and stress the one with the accent mark. Tick the box under the letters to hide the sounds and test yourself.",
+      {
+        "h": "Try reading"
+      },
+      "Read each word aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "σπίτι",
+            "spíti",
+            "house, home"
+          ],
+          [
+            "μαμά",
+            "mamá",
+            "mum"
+          ],
+          [
+            "μέλι",
+            "méli",
+            "honey"
+          ],
+          [
+            "λεμόνι",
+            "lemóni",
+            "lemon"
+          ],
+          [
+            "πατάτα",
+            "patáta",
+            "potato"
+          ],
+          [
+            "σαλάτα",
+            "saláta",
+            "salad"
+          ],
+          [
+            "κιλό",
+            "kiló",
+            "kilo"
+          ],
+          [
+            "έλα",
+            "éla",
+            "come here, come on"
+          ],
+          [
+            "ποτέ",
+            "poté",
+            "never"
+          ],
+          [
+            "τέλος",
+            "télos",
+            "end"
+          ]
+        ],
+        "lang": "el"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which letter makes this sound?",
+        "questions": [
+          {
+            "q": "*a*",
+            "options": [
+              "*α",
+              "ο",
+              "ι"
+            ]
+          },
+          {
+            "q": "*e*",
+            "options": [
+              "*ε",
+              "ι",
+              "α"
+            ]
+          },
+          {
+            "q": "*i*",
+            "options": [
+              "*ι",
+              "ε",
+              "λ"
+            ]
+          },
+          {
+            "q": "*o*",
+            "options": [
+              "*ο",
+              "α",
+              "σ"
+            ]
+          },
+          {
+            "q": "*n*",
+            "options": [
+              "*ν",
+              "μ",
+              "π"
+            ]
+          },
+          {
+            "q": "*p*",
+            "options": [
+              "*π",
+              "τ",
+              "ν"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each capital letter to its small letter.",
+        "pairs": [
+          [
+            "Α",
+            "α"
+          ],
+          [
+            "Ε",
+            "ε"
+          ],
+          [
+            "Κ",
+            "κ"
+          ],
+          [
+            "Λ",
+            "λ"
+          ],
+          [
+            "Μ",
+            "μ"
+          ],
+          [
+            "Ν",
+            "ν"
+          ]
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each letter to its sound.",
+        "pairs": [
+          [
+            "π",
+            "p"
+          ],
+          [
+            "λ",
+            "l"
+          ],
+          [
+            "τ",
+            "t"
+          ],
+          [
+            "κ",
+            "k"
+          ],
+          [
+            "μ",
+            "m"
+          ],
+          [
+            "ν",
+            "n"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Where is the stress? Look at the accent mark.",
+        "questions": [
+          {
+            "q": "σπίτι",
+            "options": [
+              "*spí-ti",
+              "spi-tí"
+            ]
+          },
+          {
+            "q": "πατάτα",
+            "options": [
+              "*pa-tá-ta",
+              "pá-ta-ta"
+            ]
+          },
+          {
+            "q": "ποτέ",
+            "options": [
+              "*po-té",
+              "pó-te"
+            ]
+          },
+          {
+            "q": "λεμόνι",
+            "options": [
+              "*le-mó-ni",
+              "lé-mo-ni"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "σ or ς? Which spelling is right?",
+        "questions": [
+          {
+            "q": "*télos* (end)",
+            "options": [
+              "*τέλος",
+              "τέλοσ",
+              "τέςος"
+            ]
+          },
+          {
+            "q": "*saláta* (salad)",
+            "options": [
+              "*σαλάτα",
+              "ςαλάτα"
+            ]
+          },
+          {
+            "q": "*Níkos* (Nick)",
+            "options": [
+              "*Νίκος",
+              "Νίκοσ"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "σπίτι",
+        "spíti — house, home"
+      ],
+      [
+        "μαμά",
+        "mamá — mum"
+      ],
+      [
+        "μέλι",
+        "méli — honey"
+      ],
+      [
+        "λεμόνι",
+        "lemóni — lemon"
+      ],
+      [
+        "πατάτα",
+        "patáta — potato"
+      ],
+      [
+        "σαλάτα",
+        "saláta — salad"
+      ],
+      [
+        "κιλό",
+        "kiló — kilo"
+      ],
+      [
+        "έλα",
+        "éla — come here, come on"
+      ],
+      [
+        "ποτέ",
+        "poté — never"
+      ],
+      [
+        "τέλος",
+        "télos — end"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "σπίτι",
+            "a": [
+              "spíti",
+              "spiti"
+            ]
+          },
+          {
+            "q": "μέλι",
+            "a": [
+              "méli",
+              "meli"
+            ]
+          },
+          {
+            "q": "λεμόνι",
+            "a": [
+              "lemóni",
+              "lemoni"
+            ]
+          },
+          {
+            "q": "πατάτα",
+            "a": [
+              "patáta",
+              "patata"
+            ]
+          },
+          {
+            "q": "ποτέ",
+            "a": [
+              "poté",
+              "pote"
+            ]
+          },
+          {
+            "q": "τέλος",
+            "a": [
+              "télos",
+              "telos"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "σπίτι",
+            "house, home"
+          ],
+          [
+            "μέλι",
+            "honey"
+          ],
+          [
+            "λεμόνι",
+            "lemon"
+          ],
+          [
+            "πατάτα",
+            "potato"
+          ],
+          [
+            "έλα",
+            "come here, come on"
+          ],
+          [
+            "ποτέ",
+            "never"
+          ]
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Greek. Use the keys above if you don't have a Greek keyboard.",
+        "questions": [
+          "house, home (*spíti*) → [[σπίτι|σπιτι]]",
+          "honey (*méli*) → [[μέλι|μελι]]",
+          "potato (*patáta*) → [[πατάτα|πατατα]]",
+          "salad (*saláta*) → [[σαλάτα|σαλατα]]",
+          "kilo (*kiló*) → [[κιλό|κιλο]]"
+        ]
+      }
+    ]
+  }
+}

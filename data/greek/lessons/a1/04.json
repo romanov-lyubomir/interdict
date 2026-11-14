@@ -1,0 +1,474 @@
+{
+  "title": "Ευχαριστώ!",
+  "translation": "Thank you!",
+  "topics": "Two letters, one sound: αι, ει, οι, ου, αυ, ευ, μπ, ντ, γκ, γγ, τσ, τζ, and γι before a vowel",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "αβγδεζηθικλμνξοπρστςυφχψωάέήίόύώ",
+  "grammar": {
+    "explain": [
+      "Some pairs of letters are read as one sound. They are very common: once you know them, there is almost nothing left to learn about reading Greek.",
+      {
+        "h": "Vowel pairs"
+      },
+      {
+        "letters": [
+          {
+            "letter": "αι",
+            "latin": "e",
+            "say": "like the e in bed: the same as ε",
+            "word": "και",
+            "word_latin": "ke",
+            "meaning": "and"
+          },
+          {
+            "letter": "ει",
+            "latin": "i",
+            "say": "like the ee in see",
+            "word": "είμαι",
+            "word_latin": "íme",
+            "meaning": "I am"
+          },
+          {
+            "letter": "οι",
+            "latin": "i",
+            "say": "also like the ee in see",
+            "word": "οικογένεια",
+            "word_latin": "ikoyénia",
+            "meaning": "family"
+          },
+          {
+            "letter": "ου",
+            "latin": "u",
+            "say": "like the oo in food",
+            "word": "ουρανός",
+            "word_latin": "uranós",
+            "meaning": "sky"
+          },
+          {
+            "letter": "αυ",
+            "latin": "av / af",
+            "say": "av before a vowel or β γ δ ζ λ μ ν ρ; af before θ κ ξ π σ τ φ χ ψ",
+            "word": "αύριο",
+            "word_latin": "ávrio",
+            "meaning": "tomorrow"
+          },
+          {
+            "letter": "ευ",
+            "latin": "ev / ef",
+            "say": "the same rule: ev or ef",
+            "word": "ευχαριστώ",
+            "word_latin": "efcharistó",
+            "meaning": "thank you"
+          }
+        ],
+        "lang": "el"
+      },
+      "So the sound *i* can be written in five ways (ι, η, υ, ει, οι) and the sound *e* in two (ε, αι). Again: you can always read a word, but you have to learn how to write it.",
+      {
+        "h": "Consonant pairs"
+      },
+      {
+        "letters": [
+          {
+            "letter": "μπ",
+            "latin": "b",
+            "say": "b at the start of a word; mb or b inside",
+            "word": "μπύρα",
+            "word_latin": "bíra",
+            "meaning": "beer"
+          },
+          {
+            "letter": "ντ",
+            "latin": "d",
+            "say": "d at the start of a word; nd or d inside",
+            "word": "ντομάτα",
+            "word_latin": "domáta",
+            "meaning": "tomato"
+          },
+          {
+            "letter": "γκ",
+            "latin": "g",
+            "say": "a hard g at the start of a word; ng or g inside",
+            "word": "γκαράζ",
+            "word_latin": "garáz",
+            "meaning": "garage"
+          },
+          {
+            "letter": "γγ",
+            "latin": "ng",
+            "say": "like the ng in finger",
+            "word": "Αγγλία",
+            "word_latin": "Anglía",
+            "meaning": "England"
+          },
+          {
+            "letter": "τσ",
+            "latin": "ts",
+            "say": "like the ts in cats",
+            "word": "τσέπη",
+            "word_latin": "tsépi",
+            "meaning": "pocket"
+          },
+          {
+            "letter": "τζ",
+            "latin": "dz",
+            "say": "like the ds in kids",
+            "word": "τζάκι",
+            "word_latin": "dzáki",
+            "meaning": "fireplace"
+          }
+        ],
+        "lang": "el"
+      },
+      "Greek has no single letters for the sounds *b*, *d* and *g*: that is why it uses these pairs, also in foreign words: *μπανάνα* (banána), *ντους* (dus, shower).",
+      {
+        "h": "γι before a vowel"
+      },
+      "When γι or γει comes before another vowel, it is read like a quick *y*: *γιαγιά* (yayá, grandma), *γεια* (ya, hi).",
+      {
+        "h": "Try reading"
+      },
+      "Read each word aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "ευχαριστώ",
+            "efcharistó",
+            "thank you"
+          ],
+          [
+            "και",
+            "ke",
+            "and"
+          ],
+          [
+            "είμαι",
+            "íme",
+            "I am"
+          ],
+          [
+            "ουρανός",
+            "uranós",
+            "sky"
+          ],
+          [
+            "αύριο",
+            "ávrio",
+            "tomorrow"
+          ],
+          [
+            "αυτό",
+            "aftó",
+            "this, it"
+          ],
+          [
+            "μπύρα",
+            "bíra",
+            "beer"
+          ],
+          [
+            "ντομάτα",
+            "domáta",
+            "tomato"
+          ],
+          [
+            "γιαγιά",
+            "yayá",
+            "grandma"
+          ],
+          [
+            "παιδί",
+            "pedhí",
+            "child"
+          ],
+          [
+            "γεια",
+            "ya",
+            "hi, bye"
+          ],
+          [
+            "τσέπη",
+            "tsépi",
+            "pocket"
+          ]
+        ],
+        "lang": "el"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "How are these letters read?",
+        "questions": [
+          {
+            "q": "αι",
+            "options": [
+              "*e",
+              "ai",
+              "a"
+            ]
+          },
+          {
+            "q": "ου",
+            "options": [
+              "*u",
+              "o",
+              "ou"
+            ]
+          },
+          {
+            "q": "ει",
+            "options": [
+              "*i",
+              "ei",
+              "e"
+            ]
+          },
+          {
+            "q": "οι",
+            "options": [
+              "*i",
+              "oi",
+              "o"
+            ]
+          },
+          {
+            "q": "μπ, at the start of a word",
+            "options": [
+              "*b",
+              "mp",
+              "p"
+            ]
+          },
+          {
+            "q": "ντ, at the start of a word",
+            "options": [
+              "*d",
+              "nt",
+              "t"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*av* or *af*, *ev* or *ef*?",
+        "questions": [
+          {
+            "q": "αύριο",
+            "options": [
+              "*av",
+              "af"
+            ]
+          },
+          {
+            "q": "αυτό",
+            "options": [
+              "*af",
+              "av"
+            ]
+          },
+          {
+            "q": "ευχαριστώ",
+            "options": [
+              "*ef",
+              "ev"
+            ]
+          },
+          {
+            "q": "Ευρώπη",
+            "options": [
+              "*ev",
+              "ef"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to how it is read.",
+        "pairs": [
+          [
+            "και",
+            "ke"
+          ],
+          [
+            "είμαι",
+            "íme"
+          ],
+          [
+            "ουρανός",
+            "uranós"
+          ],
+          [
+            "μπύρα",
+            "bíra"
+          ],
+          [
+            "ντομάτα",
+            "domáta"
+          ],
+          [
+            "τσέπη",
+            "tsépi"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "ευχαριστώ",
+        "efcharistó — thank you"
+      ],
+      [
+        "και",
+        "ke — and"
+      ],
+      [
+        "είμαι",
+        "íme — I am"
+      ],
+      [
+        "ουρανός",
+        "uranós — sky"
+      ],
+      [
+        "αύριο",
+        "ávrio — tomorrow"
+      ],
+      [
+        "αυτό",
+        "aftó — this, it"
+      ],
+      [
+        "μπύρα",
+        "bíra — beer"
+      ],
+      [
+        "ντομάτα",
+        "domáta — tomato"
+      ],
+      [
+        "γιαγιά",
+        "yayá — grandma"
+      ],
+      [
+        "παιδί",
+        "pedhí — child"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "ευχαριστώ",
+            "a": [
+              "efcharistó",
+              "efcharisto",
+              "efharistó",
+              "efharisto",
+              "efkharistó",
+              "efkharisto"
+            ]
+          },
+          {
+            "q": "και",
+            "a": [
+              "ke"
+            ]
+          },
+          {
+            "q": "είμαι",
+            "a": [
+              "íme",
+              "ime"
+            ]
+          },
+          {
+            "q": "ουρανός",
+            "a": [
+              "uranós",
+              "uranos"
+            ]
+          },
+          {
+            "q": "μπύρα",
+            "a": [
+              "bíra",
+              "bira"
+            ]
+          },
+          {
+            "q": "παιδί",
+            "a": [
+              "pedhí",
+              "pedhi",
+              "pedí",
+              "pedi"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "ευχαριστώ",
+            "thank you"
+          ],
+          [
+            "αύριο",
+            "tomorrow"
+          ],
+          [
+            "αυτό",
+            "this, it"
+          ],
+          [
+            "ντομάτα",
+            "tomato"
+          ],
+          [
+            "γιαγιά",
+            "grandma"
+          ],
+          [
+            "παιδί",
+            "child"
+          ]
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Greek. Use the keys above if you don't have a Greek keyboard.",
+        "questions": [
+          "and (*ke*) → [[και]]",
+          "tomorrow (*ávrio*) → [[αύριο|αυριο]]",
+          "beer (*bíra*) → [[μπύρα|μπυρα]]",
+          "child (*pedhí*) → [[παιδί|παιδι]]",
+          "thank you (*efcharistó*) → [[ευχαριστώ|ευχαριστω]]"
+        ]
+      }
+    ]
+  }
+}

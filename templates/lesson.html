@@ -3,7 +3,7 @@
 {% endblock %}
 
 {% block css %}
-{% import "explain.html" as explain %}
+{% import "explain.html" as explain with context %}
 {{ explain.style() }}
 <style>
     /* Words with a translation look like any other word; pointing at one
@@ -656,7 +656,7 @@
 {% endblock %}
 
 {% block body %}
-{% import "explain.html" as explain %}
+{% import "explain.html" as explain with context %}
 {# A frame where a picture will go, with what it should show #}
 {% macro picture(text) %}
 <figure class="picture-frame">
@@ -780,7 +780,7 @@
     data-csrf="{{ csrf_token() }}"{% endif %}>
     <header class="container shadow lesson-head" data-find="head">
         <span class="level-badge level-{{ level | lower }}">{{ level }}</span>
-        {% if is_reviewed(level, lesson.number) %}<span class="reviewed-mark" title="Already updated (only shown locally)">✓ updated</span>{% endif %}
+        {% if is_not_updated(level, lesson.number) %}<span class="update-mark" title="Not yet updated (only shown locally)">not updated</span>{% endif %}
         <h1>{{ lesson.shown }}. {{ lesson.title | rich }}</h1>
         {% if lesson.translation %}<p class="subtitle">{{ lesson.translation }}</p>{% endif %}
         <p class="topics">{{ lesson.topics | rich }}</p>
@@ -810,7 +810,7 @@
         <h2>{{ label }}</h2>
 
         {% if key == "grammar" %}
-        {% import "explain.html" as explain %}
+        {% import "explain.html" as explain with context %}
         {{ explain.blocks(section.explain, "grammar", ui.picture) }}
         {% endif %}
 
@@ -935,7 +935,7 @@
         const root = document.querySelector(".lesson");
         const tip = document.getElementById("glossTip");
         const skip = "input, textarea, select, button, script, style, svg, kbd, .tense-name, .level-badge, " +
-            ".reviewed-mark, .lesson-nav, .ex-status, .gloss-tip, .picture-label";
+            ".update-mark, .lesson-nav, .ex-status, .gloss-tip, .picture-label";
         const word = /[\p{L}]+/gu;
 
         // A lesson with an English interface only glosses what is in Italian:

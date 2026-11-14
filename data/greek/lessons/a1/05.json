@@ -1,0 +1,478 @@
+{
+  "title": "Διαβάζω!",
+  "translation": "I can read!",
+  "topics": "The accent mark and its rules, the dieresis, Greek punctuation, capitals and handwriting; reading on your own: signs and first greetings",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "αβγδεζηθικλμνξοπρστςυφχψωάέήίόύώϊΐ",
+  "grammar": {
+    "explain": [
+      "You know all the letters and pairs. In this last lesson on reading you learn the small marks that complete Greek spelling, and you start reading on your own.",
+      {
+        "h": "The accent mark (ο τόνος)"
+      },
+      {
+        "ul": [
+          "Every word of two or more syllables has one accent mark, on the stressed vowel: *καλημέρα* (ka-li-mé-ra).",
+          "The stress always falls on one of the last three syllables.",
+          "Words of one syllable have no accent mark: *και, το, μου*. A few take one to tell them apart from a twin: *ή* (or) and *η* (the), *πού;* (where?) and *που* (that), *πώς;* (how?) and *πως* (that).",
+          "The accent can change the meaning: *πότε;* (when?) and *ποτέ* (never), *γέρος* (old man) and *γερός* (strong).",
+          "On a pair, the mark goes on the second letter: *είμαι, αύριο, ουρανός*. If it is on the first one, the two letters are read separately: *τσάι* (tsá-i, tea), *ρολόι* (ro-ló-i, clock)."
+        ]
+      },
+      {
+        "h": "The dieresis (τα διαλυτικά)"
+      },
+      "Two dots on ι or υ also split a pair: *καΐκι* (ka-í-ki, a fishing boat), *τρόλεϊ* (tró-le-i, trolleybus). The dots and the accent can sit on the same letter: ΐ.",
+      {
+        "h": "Punctuation"
+      },
+      "The Greek question mark looks like an English semicolon: *Τι κάνεις;* (How are you?). The Greek semicolon is a raised dot (·). Commas and full stops are the same as in English.",
+      {
+        "h": "Capitals"
+      },
+      "Words written all in capitals have no accent mark: *ΚΑΛΗΜΕΡΑ, ΦΑΡΜΑΚΕΙΟ*. That is why signs are a little harder to read: you have to know where the stress goes. A capital at the start of a word keeps its accent, written just before it: *Έλα, Όχι*.",
+      {
+        "h": "Handwriting"
+      },
+      "Greeks write the small letters joined, in shapes close to the printed ones. Watch out for β, ζ, ξ, which go below the line, and for the small ν and υ, easy to read as an English v and u. Capitals are often used for forms and signs.",
+      {
+        "picture": "A handwritten Greek note: «Καλημέρα! Είμαι στο σπίτι.», next to the same words in print"
+      },
+      {
+        "h": "Your first greetings"
+      },
+      "Read each phrase aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "Γεια σου",
+            "ya su",
+            "hi, bye (to a friend)"
+          ],
+          [
+            "Γεια σας",
+            "ya sas",
+            "hello, goodbye (polite or to several people)"
+          ],
+          [
+            "Καλησπέρα",
+            "kalispéra",
+            "good evening"
+          ],
+          [
+            "Καληνύχτα",
+            "kaliníchta",
+            "good night"
+          ],
+          [
+            "Τι κάνεις;",
+            "ti kánis?",
+            "how are you?"
+          ],
+          [
+            "Καλά",
+            "kalá",
+            "fine, well"
+          ],
+          [
+            "Παρακαλώ",
+            "parakaló",
+            "please; you're welcome"
+          ],
+          [
+            "Συγγνώμη",
+            "sighnómi",
+            "sorry, excuse me"
+          ],
+          [
+            "Ναι",
+            "ne",
+            "yes"
+          ],
+          [
+            "Όχι",
+            "óchi",
+            "no"
+          ],
+          [
+            "Αντίο!",
+            "adío",
+            "goodbye"
+          ]
+        ],
+        "lang": "el"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "What does the sign say?",
+        "questions": [
+          {
+            "q": "ΕΙΣΟΔΟΣ",
+            "options": [
+              "*entrance",
+              "exit",
+              "closed"
+            ]
+          },
+          {
+            "q": "ΕΞΟΔΟΣ",
+            "options": [
+              "*exit",
+              "entrance",
+              "open"
+            ]
+          },
+          {
+            "q": "ΑΝΟΙΧΤΟ",
+            "options": [
+              "*open",
+              "closed",
+              "toilets"
+            ]
+          },
+          {
+            "q": "ΚΛΕΙΣΤΟ",
+            "options": [
+              "*closed",
+              "open",
+              "exit"
+            ]
+          },
+          {
+            "q": "ΦΑΡΜΑΚΕΙΟ",
+            "options": [
+              "*pharmacy",
+              "bank",
+              "toilets"
+            ]
+          },
+          {
+            "q": "ΤΟΥΑΛΕΤΕΣ",
+            "options": [
+              "*toilets",
+              "pharmacy",
+              "entrance"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which spelling is right?",
+        "questions": [
+          {
+            "q": "*kaliméra*",
+            "options": [
+              "*καλημέρα",
+              "καλήμερα",
+              "κάλημερα"
+            ]
+          },
+          {
+            "q": "*ávrio*",
+            "options": [
+              "*αύριο",
+              "άυριο",
+              "αυριό"
+            ]
+          },
+          {
+            "q": "*ne* (yes)",
+            "options": [
+              "*ναι",
+              "ναί",
+              "νάι"
+            ]
+          },
+          {
+            "q": "*tsái* (tea)",
+            "options": [
+              "*τσάι",
+              "τσαί",
+              "τσαι"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What does it mean?",
+        "questions": [
+          {
+            "q": "πότε;",
+            "options": [
+              "*when?",
+              "never"
+            ]
+          },
+          {
+            "q": "ποτέ",
+            "options": [
+              "*never",
+              "when?"
+            ]
+          },
+          {
+            "q": "πού;",
+            "options": [
+              "*where?",
+              "that"
+            ]
+          },
+          {
+            "q": "ή",
+            "options": [
+              "*or",
+              "the"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "How many syllables?",
+        "questions": [
+          {
+            "q": "και",
+            "options": [
+              "*one: ke",
+              "two: ká-i"
+            ]
+          },
+          {
+            "q": "τσάι",
+            "options": [
+              "*two: tsá-i",
+              "one: tse"
+            ]
+          },
+          {
+            "q": "καΐκι",
+            "options": [
+              "*three: ka-í-ki",
+              "two: ké-ki"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "γεια σου",
+        "ya su — hi, bye (to a friend)"
+      ],
+      [
+        "γεια σας",
+        "ya sas — hello, goodbye (polite or to several people)"
+      ],
+      [
+        "καλησπέρα",
+        "kalispéra — good evening"
+      ],
+      [
+        "καληνύχτα",
+        "kaliníchta — good night"
+      ],
+      [
+        "τι κάνεις;",
+        "ti kánis? — how are you?"
+      ],
+      [
+        "καλά",
+        "kalá — fine, well"
+      ],
+      [
+        "παρακαλώ",
+        "parakaló — please; you're welcome"
+      ],
+      [
+        "συγγνώμη",
+        "sighnómi — sorry, excuse me"
+      ],
+      [
+        "ναι",
+        "ne — yes"
+      ],
+      [
+        "όχι",
+        "óchi — no"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "καλησπέρα",
+            "a": [
+              "kalispéra",
+              "kalispera"
+            ]
+          },
+          {
+            "q": "καληνύχτα",
+            "a": [
+              "kaliníchta",
+              "kalinichta",
+              "kalinikhta",
+              "kaliníhta",
+              "kalinihta"
+            ]
+          },
+          {
+            "q": "καλά",
+            "a": [
+              "kalá",
+              "kala"
+            ]
+          },
+          {
+            "q": "παρακαλώ",
+            "a": [
+              "parakaló",
+              "parakalo"
+            ]
+          },
+          {
+            "q": "ναι",
+            "a": [
+              "ne"
+            ]
+          },
+          {
+            "q": "όχι",
+            "a": [
+              "óchi",
+              "ochi",
+              "óhi",
+              "ohi",
+              "ókhi",
+              "okhi"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "καλησπέρα",
+            "good evening"
+          ],
+          [
+            "καληνύχτα",
+            "good night"
+          ],
+          [
+            "παρακαλώ",
+            "please; you're welcome"
+          ],
+          [
+            "συγγνώμη",
+            "sorry, excuse me"
+          ],
+          [
+            "ναι",
+            "yes"
+          ],
+          [
+            "όχι",
+            "no"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "lang": "en",
+    "text": [
+      {
+        "h": "A day in Athens"
+      },
+      "Tom is in Athens for the first time. Help him read what he sees.",
+      "ΜΕΤΡΟ · ΤΑΞΙ · ΦΑΡΜΑΚΕΙΟ · ΤΡΑΠΕΖΑ · ΠΕΡΙΠΤΕΡΟ · ΚΑΦΕΤΕΡΙΑ",
+      "At the kiosk: — Γεια σας! Ένα νερό, παρακαλώ. — Ορίστε. Πενήντα λεπτά. — Ευχαριστώ! — Παρακαλώ.",
+      "On the door of the café: ΑΝΟΙΧΤΟ 08:00–23:00"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Read the text and choose.",
+        "questions": [
+          {
+            "q": "Tom wants to take the underground. Which word does he look for?",
+            "options": [
+              "*ΜΕΤΡΟ",
+              "ΤΑΞΙ",
+              "ΤΡΑΠΕΖΑ"
+            ]
+          },
+          {
+            "q": "He has a headache. Where does he go?",
+            "options": [
+              "*ΦΑΡΜΑΚΕΙΟ",
+              "ΚΑΦΕΤΕΡΙΑ",
+              "ΠΕΡΙΠΤΕΡΟ"
+            ]
+          },
+          {
+            "q": "What does he buy at the kiosk?",
+            "options": [
+              "*water",
+              "coffee",
+              "a newspaper"
+            ]
+          },
+          {
+            "q": "How does he say thank you?",
+            "options": [
+              "*Ευχαριστώ",
+              "Παρακαλώ",
+              "Ορίστε"
+            ]
+          },
+          {
+            "q": "Is the café open at 10 in the evening?",
+            "options": [
+              "*Yes",
+              "No"
+            ],
+            "ordered": true
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Greek. Use the keys above if you don't have a Greek keyboard.",
+        "questions": [
+          "good evening (*kalispéra*) → [[καλησπέρα|καλησπερα]]",
+          "fine, well (*kalá*) → [[καλά|καλα]]",
+          "please; you're welcome (*parakaló*) → [[παρακαλώ|παρακαλω]]",
+          "yes (*ne*) → [[ναι]]",
+          "no (*óchi*) → [[όχι|οχι]]"
+        ]
+      }
+    ]
+  }
+}

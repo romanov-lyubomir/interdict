@@ -1,0 +1,592 @@
+{
+  "title": "Θάλασσα",
+  "translation": "Sea",
+  "topics": "The new letters Γ γ, Δ δ, Ζ ζ, Θ θ, Ξ ξ, Φ φ, Ψ ψ, the soft γ, double consonants and the whole alphabet",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "αβγδεζηθικλμνξοπρστςυφχψωάέήίόύώ",
+  "grammar": {
+    "explain": [
+      "These are the letters that look new. Some of them stand for sounds English writes with two letters (th, ps, ks): Greek has one letter for each.",
+      {
+        "letters": [
+          {
+            "letter": "Γ γ",
+            "latin": "gh / y",
+            "say": "a soft g made at the back of the throat; like the y in yes before e and i",
+            "word": "γάλα",
+            "word_latin": "ghála",
+            "meaning": "milk"
+          },
+          {
+            "letter": "Δ δ",
+            "latin": "dh",
+            "say": "like the th in this",
+            "word": "δώρο",
+            "word_latin": "dhóro",
+            "meaning": "present"
+          },
+          {
+            "letter": "Ζ ζ",
+            "latin": "z",
+            "say": "like the z in zoo",
+            "word": "ζάχαρη",
+            "word_latin": "záchari",
+            "meaning": "sugar"
+          },
+          {
+            "letter": "Θ θ",
+            "latin": "th",
+            "say": "like the th in think",
+            "word": "θάλασσα",
+            "word_latin": "thálasa",
+            "meaning": "sea"
+          },
+          {
+            "letter": "Ξ ξ",
+            "latin": "x",
+            "say": "like the x in taxi (ks)",
+            "word": "ξένος",
+            "word_latin": "xénos",
+            "meaning": "foreigner"
+          },
+          {
+            "letter": "Φ φ",
+            "latin": "f",
+            "say": "like the f in fun",
+            "word": "φίλος",
+            "word_latin": "fílos",
+            "meaning": "friend"
+          },
+          {
+            "letter": "Ψ ψ",
+            "latin": "ps",
+            "say": "like the ps in lapse, also at the start of a word",
+            "word": "ψωμί",
+            "word_latin": "psomí",
+            "meaning": "bread"
+          }
+        ],
+        "lang": "el"
+      },
+      {
+        "h": "Two kinds of th"
+      },
+      "English writes *th* for two different sounds, and Greek has a letter for each: θ is the *th* of *think*, δ the *th* of *this*. In the readings of these lessons we write them *th* and *dh*.",
+      {
+        "h": "The soft γ"
+      },
+      "Before the sounds *e* and *i* (ε, η, ι, υ) the γ is read like the *y* in *yes*: *γέλιο* (yélio, laughter), *γη* (yi, earth). Before *a*, *o*, *u* and before consonants it is a soft *g*, made at the back of the throat without closing it: *γάτα* (gháta, cat), *γράμμα* (ghráma, letter).",
+      {
+        "h": "Double letters"
+      },
+      "A double consonant is read as one: *θάλασσα* is *thálasa*, *γράμμα* is *ghráma*.",
+      {
+        "h": "The whole alphabet"
+      },
+      "You now know all 24 letters. This is their order, with their Greek names.",
+      {
+        "table": {
+          "head": [
+            "letter",
+            "name",
+            "sound"
+          ],
+          "rows": [
+            [
+              "Α α",
+              "άλφα",
+              "a"
+            ],
+            [
+              "Β β",
+              "βήτα",
+              "v"
+            ],
+            [
+              "Γ γ",
+              "γάμμα",
+              "gh, y"
+            ],
+            [
+              "Δ δ",
+              "δέλτα",
+              "dh"
+            ],
+            [
+              "Ε ε",
+              "έψιλον",
+              "e"
+            ],
+            [
+              "Ζ ζ",
+              "ζήτα",
+              "z"
+            ],
+            [
+              "Η η",
+              "ήτα",
+              "i"
+            ],
+            [
+              "Θ θ",
+              "θήτα",
+              "th"
+            ],
+            [
+              "Ι ι",
+              "γιώτα",
+              "i"
+            ],
+            [
+              "Κ κ",
+              "κάππα",
+              "k"
+            ],
+            [
+              "Λ λ",
+              "λάμδα",
+              "l"
+            ],
+            [
+              "Μ μ",
+              "μι",
+              "m"
+            ],
+            [
+              "Ν ν",
+              "νι",
+              "n"
+            ],
+            [
+              "Ξ ξ",
+              "ξι",
+              "x (ks)"
+            ],
+            [
+              "Ο ο",
+              "όμικρον",
+              "o"
+            ],
+            [
+              "Π π",
+              "πι",
+              "p"
+            ],
+            [
+              "Ρ ρ",
+              "ρο",
+              "r"
+            ],
+            [
+              "Σ σ ς",
+              "σίγμα",
+              "s"
+            ],
+            [
+              "Τ τ",
+              "ταυ",
+              "t"
+            ],
+            [
+              "Υ υ",
+              "ύψιλον",
+              "i"
+            ],
+            [
+              "Φ φ",
+              "φι",
+              "f"
+            ],
+            [
+              "Χ χ",
+              "χι",
+              "ch"
+            ],
+            [
+              "Ψ ψ",
+              "ψι",
+              "ps"
+            ],
+            [
+              "Ω ω",
+              "ωμέγα",
+              "o"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Try reading"
+      },
+      "Read each word aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "θάλασσα",
+            "thálasa",
+            "sea"
+          ],
+          [
+            "φίλος",
+            "fílos",
+            "friend"
+          ],
+          [
+            "ψωμί",
+            "psomí",
+            "bread"
+          ],
+          [
+            "γάλα",
+            "ghála",
+            "milk"
+          ],
+          [
+            "δώρο",
+            "dhóro",
+            "present, gift"
+          ],
+          [
+            "ξένος",
+            "xénos",
+            "foreigner, stranger"
+          ],
+          [
+            "ζάχαρη",
+            "záchari",
+            "sugar"
+          ],
+          [
+            "γάτα",
+            "gháta",
+            "cat"
+          ],
+          [
+            "ψάρι",
+            "psári",
+            "fish"
+          ],
+          [
+            "δρόμος",
+            "dhrómos",
+            "street, road"
+          ],
+          [
+            "Θεσσαλονίκη",
+            "Thesaloníki",
+            "Thessaloniki"
+          ]
+        ],
+        "lang": "el"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which letter makes this sound?",
+        "questions": [
+          {
+            "q": "*th* (as in think)",
+            "options": [
+              "*θ",
+              "δ",
+              "φ"
+            ]
+          },
+          {
+            "q": "*dh* (th as in this)",
+            "options": [
+              "*δ",
+              "θ",
+              "λ"
+            ]
+          },
+          {
+            "q": "*f*",
+            "options": [
+              "*φ",
+              "ψ",
+              "π"
+            ]
+          },
+          {
+            "q": "*ps*",
+            "options": [
+              "*ψ",
+              "φ",
+              "σ"
+            ]
+          },
+          {
+            "q": "*x* (ks)",
+            "options": [
+              "*ξ",
+              "χ",
+              "ζ"
+            ]
+          },
+          {
+            "q": "*z*",
+            "options": [
+              "*ζ",
+              "ξ",
+              "σ"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each capital letter to its small letter.",
+        "pairs": [
+          [
+            "Γ",
+            "γ"
+          ],
+          [
+            "Δ",
+            "δ"
+          ],
+          [
+            "Ζ",
+            "ζ"
+          ],
+          [
+            "Θ",
+            "θ"
+          ],
+          [
+            "Ξ",
+            "ξ"
+          ],
+          [
+            "Ψ",
+            "ψ"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Is γ read *gh* or *y* in this word?",
+        "questions": [
+          {
+            "q": "γάλα",
+            "options": [
+              "*gh",
+              "y"
+            ]
+          },
+          {
+            "q": "γέλιο",
+            "options": [
+              "*y",
+              "gh"
+            ]
+          },
+          {
+            "q": "γη",
+            "options": [
+              "*y",
+              "gh"
+            ]
+          },
+          {
+            "q": "γράμμα",
+            "options": [
+              "*gh",
+              "y"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each letter to its name.",
+        "pairs": [
+          [
+            "α",
+            "άλφα"
+          ],
+          [
+            "β",
+            "βήτα"
+          ],
+          [
+            "γ",
+            "γάμμα"
+          ],
+          [
+            "δ",
+            "δέλτα"
+          ],
+          [
+            "θ",
+            "θήτα"
+          ],
+          [
+            "ω",
+            "ωμέγα"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "θάλασσα",
+        "thálasa — sea"
+      ],
+      [
+        "φίλος",
+        "fílos — friend"
+      ],
+      [
+        "ψωμί",
+        "psomí — bread"
+      ],
+      [
+        "γάλα",
+        "ghála — milk"
+      ],
+      [
+        "δώρο",
+        "dhóro — present, gift"
+      ],
+      [
+        "ξένος",
+        "xénos — foreigner, stranger"
+      ],
+      [
+        "ζάχαρη",
+        "záchari — sugar"
+      ],
+      [
+        "γάτα",
+        "gháta — cat"
+      ],
+      [
+        "ψάρι",
+        "psári — fish"
+      ],
+      [
+        "δρόμος",
+        "dhrómos — street, road"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "θάλασσα",
+            "a": [
+              "thálasa",
+              "thalasa",
+              "thálassa",
+              "thalassa"
+            ]
+          },
+          {
+            "q": "φίλος",
+            "a": [
+              "fílos",
+              "filos"
+            ]
+          },
+          {
+            "q": "ψωμί",
+            "a": [
+              "psomí",
+              "psomi"
+            ]
+          },
+          {
+            "q": "γάλα",
+            "a": [
+              "ghála",
+              "ghala",
+              "gála",
+              "gala"
+            ]
+          },
+          {
+            "q": "δώρο",
+            "a": [
+              "dhóro",
+              "dhoro",
+              "dóro",
+              "doro"
+            ]
+          },
+          {
+            "q": "ξένος",
+            "a": [
+              "xénos",
+              "xenos",
+              "ksénos",
+              "ksenos"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "θάλασσα",
+            "sea"
+          ],
+          [
+            "φίλος",
+            "friend"
+          ],
+          [
+            "ψωμί",
+            "bread"
+          ],
+          [
+            "γάλα",
+            "milk"
+          ],
+          [
+            "ξένος",
+            "foreigner, stranger"
+          ],
+          [
+            "ψάρι",
+            "fish"
+          ]
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Greek. Use the keys above if you don't have a Greek keyboard.",
+        "questions": [
+          "sea (*thálasa*) → [[θάλασσα|θαλασσα]]",
+          "friend (*fílos*) → [[φίλος|φιλος]]",
+          "bread (*psomí*) → [[ψωμί|ψωμι]]",
+          "milk (*ghála*) → [[γάλα|γαλα]]",
+          "fish (*psári*) → [[ψάρι|ψαρι]]"
+        ]
+      }
+    ]
+  }
+}

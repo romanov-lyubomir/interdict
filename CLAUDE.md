@@ -208,3 +208,19 @@ screeves with short articles. Only the search is still off (`"features"` in
   `base.html` covers only the Georgian letters (`unicode-range`); everything
   else, digits and punctuation included, stays Bahnschrift, as the user
   asked. Don't give `[lang="ka"]` a font of its own.
+
+## Greek
+
+Greek (`greek`) has new A1 lessons in `data/greek/lessons/a1/` that replace
+the old alphabet page (`templates/lessons/greek/the_alphabet.html`, no longer
+listed). So far 01–05 teach reading (`"alphabet": true`, English interface,
+the same `letters` and `flash` blocks as Georgian with `"lang": "el"`); the
+plan for the rest of A1 is in the assistant's memory (greek-a1-plan).
+
+- Readings in Latin letters use *dh* for δ, *th* for θ, *gh* (or *y* before
+  e and i) for γ and *ch* for χ, with the accent on the stressed vowel.
+- Blanks also accept a word without its accent mark (`[[σπίτι|σπιτι]]`),
+  and Latin readings are accepted with or without the accent.
+- `"keys"` holds the Greek letters learnt so far, with the accented vowels.
+- New words go in `data/greek/glossary_1.txt`; for a word written without
+  its accent (signs in capitals) add `word > accented word = meaning`.

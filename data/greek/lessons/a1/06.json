@@ -1,0 +1,1395 @@
+{
+  "title": "Γεια σου!",
+  "translation": "Hi!",
+  "topics": "The verb *είμαι* (to be), the personal pronouns, the article before names, *δεν* and questions, *εσύ* or *εσείς*; greetings, please and thank you, what to say when you don't understand",
+  "interface": "english",
+  "keys": "αβγδεζηθικλμνξοπρστςυφχψωάέήίόύώ",
+  "grammar": {
+    "explain": [
+      "In this lesson you learn the first building blocks of Greek grammar: the verb *είμαι* (to be), the personal pronouns, the article in front of names, how to say *not* and ask a question, and when to use the polite *εσείς*. After the grammar you'll find the everyday phrases that go with it: greetings, *please* and *thank you*, and what to say when you don't understand.",
+      {
+        "grid": [
+          {
+            "table": {
+              "title": "The verb *είμαι* (to be)",
+              "head": [
+                "",
+                "είμαι",
+                "example"
+              ],
+              "rows": [
+                [
+                  "εγώ",
+                  "*είμαι*",
+                  "*Είμαι η Άννα.*"
+                ],
+                [
+                  "εσύ",
+                  "*είσαι*",
+                  "*Είσαι καλά;*"
+                ],
+                [
+                  "αυτός, αυτή, αυτό",
+                  "*είναι*",
+                  "*Αυτή είναι η Μαρία.*"
+                ],
+                [
+                  "εμείς",
+                  "*είμαστε*",
+                  "*Είμαστε φίλοι.*"
+                ],
+                [
+                  "εσείς",
+                  "*είστε* (*είσαστε*)",
+                  "*Πώς είστε;*"
+                ],
+                [
+                  "αυτοί, αυτές, αυτά",
+                  "*είναι*",
+                  "*Είναι εδώ.*"
+                ]
+              ]
+            },
+            "note": "*Είναι* means both *he/she/it is* and *they are*. The ending tells you who it is, so the pronoun is usually left out: *Είμαι καλά* (I'm fine), *Είσαι εδώ;* (Are you here?).",
+            "wide": true
+          },
+          {
+            "table": {
+              "title": "Personal pronouns",
+              "head": [
+                "",
+                "singular",
+                "plural"
+              ],
+              "rows": [
+                [
+                  "1st",
+                  "*εγώ* (I)",
+                  "*εμείς* (we)"
+                ],
+                [
+                  "2nd",
+                  "*εσύ* (you)",
+                  "*εσείς* (you: several people, or one person politely)"
+                ],
+                [
+                  "3rd",
+                  "*αυτός, αυτή, αυτό* (he, she, it)",
+                  "*αυτοί, αυτές, αυτά* (they)"
+                ]
+              ]
+            },
+            "note": "Use a pronoun only to stress or contrast: *Εγώ είμαι η Άννα. Εσύ;* (I'm Anna. And you?) *Αυτός* is *he*, *αυτή* is *she*; for *they*, *αυτοί* is for men or a mixed group, *αυτές* for women only, *αυτά* for things.",
+            "wide": true
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "The article before a name",
+              "head": [
+                "",
+                "example",
+                "note"
+              ],
+              "rows": [
+                [
+                  "a man: *ο*",
+                  "*Είμαι ο Νίκος.* *Αυτός είναι ο κύριος Γιώργος.*",
+                  "*ο* = the (masculine)"
+                ],
+                [
+                  "a woman: *η*",
+                  "*Είμαι η Άννα.* *Αυτή είναι η κυρία Ελένη.*",
+                  "*η* = the (feminine)"
+                ],
+                [
+                  "speaking to someone",
+                  "*Γεια σου, Νίκο!* *Καλημέρα, κύριε Γιώργο!*",
+                  "no article, and many men's names lose the final *-ς*"
+                ]
+              ]
+            },
+            "note": "In Greek a name usually has the article in front of it, as in *ο Νίκος, η Άννα*: without it the sentence sounds incomplete. When you speak *to* someone, the article goes and men's names in *-ος* change their ending: *Νίκος → Νίκο*, *κύριος → κύριε*. Women's names don't change: *Γεια σου, Άννα!*"
+          },
+          {
+            "table": {
+              "title": "No and questions",
+              "head": [
+                "form",
+                "example",
+                "note"
+              ],
+              "rows": [
+                [
+                  "*δεν* + verb",
+                  "*Δεν είμαι καλά.*",
+                  "*not*: always right before the verb"
+                ],
+                [
+                  "*όχι*",
+                  "— *Είσαι η Άννα;* — *Όχι.*",
+                  "*no*, as an answer on its own"
+                ],
+                [
+                  "*ναι*",
+                  "— *Είσαι ο Νίκος;* — *Ναι.*",
+                  "*yes*: it sounds like English *ne*, not *nay*"
+                ],
+                [
+                  "question",
+                  "*Είσαι καλά;*",
+                  "same words as the statement; the voice goes up, and the question mark is ;"
+                ],
+                [
+                  "question word",
+                  "*Πώς είσαι;* *Τι κάνεις;*",
+                  "the question word comes first"
+                ]
+              ]
+            },
+            "note": "With a verb, *not* is always *δεν*, right before it: ✗ *Όχι είμαι καλά*. *Όχι* answers a question on its own or starts the answer: *Όχι, δεν είμαι η Άννα.* A question has the same words and word order as a statement: only the voice (going up) and the Greek question mark (;) change.",
+            "wide": true
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Εσύ* or *εσείς*?",
+              "head": [
+                "",
+                "to a friend (*εσύ*)",
+                "politely (*εσείς*)"
+              ],
+              "rows": [
+                [
+                  "hello",
+                  "*Γεια σου!*",
+                  "*Γεια σας!*"
+                ],
+                [
+                  "how are you?",
+                  "*Τι κάνεις;* *Πώς είσαι;*",
+                  "*Τι κάνετε;* *Πώς είστε;*"
+                ],
+                [
+                  "are you…?",
+                  "*Είσαι ο Νίκος;*",
+                  "*Είστε ο κύριος Παπαδόπουλος;*"
+                ],
+                [
+                  "and you?",
+                  "*Εσύ;*",
+                  "*Εσείς;*"
+                ]
+              ]
+            },
+            "note": "Greek has no special polite pronoun: to be polite to one person, you use the plural *εσείς* and the plural verb, as in French *vous*. Use it with people you don't know, older people, in shops and offices. Friends, family, children and people your age get *εσύ*."
+          }
+        ]
+      },
+      {
+        "h": "Phrases for every day"
+      },
+      "Learn these as fixed phrases: you'll use them in every conversation.",
+      {
+        "grid": [
+          {
+            "table": {
+              "title": "Hello and goodbye",
+              "head": [
+                "Greek",
+                "meaning",
+                "when"
+              ],
+              "rows": [
+                [
+                  "*Καλημέρα!*",
+                  "good morning",
+                  "when you meet someone, until about midday"
+                ],
+                [
+                  "*Καλησπέρα!*",
+                  "good evening",
+                  "when you meet someone, from late afternoon"
+                ],
+                [
+                  "*Καληνύχτα!*",
+                  "good night",
+                  "when you leave in the evening or go to bed"
+                ],
+                [
+                  "*Γεια σου!*",
+                  "hi, bye",
+                  "to a friend, a child, someone your age"
+                ],
+                [
+                  "*Γεια σας!*",
+                  "hello, goodbye",
+                  "politely, or to several people"
+                ],
+                [
+                  "*Χαίρετε!*",
+                  "hello, goodbye",
+                  "formal, in shops and offices"
+                ],
+                [
+                  "*Τα λέμε!*",
+                  "see you",
+                  "informal, when you leave"
+                ]
+              ]
+            },
+            "note": "*Γεια* means *health*: *Γεια σου* is *health to you*, and it works both when you arrive and when you leave. *Αντίο* also means *goodbye*, but it sounds final: Greeks prefer *Γεια σου* or *Τα λέμε*.",
+            "wide": true
+          },
+          {
+            "table": {
+              "title": "How are you?",
+              "head": [
+                "Greek",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "*Τι κάνεις;* / *Τι κάνετε;*",
+                  "How are you? (to a friend / polite)"
+                ],
+                [
+                  "*Πώς είσαι;* / *Πώς είστε;*",
+                  "How are you? (to a friend / polite)"
+                ],
+                [
+                  "*Πολύ καλά!*",
+                  "very well"
+                ],
+                [
+                  "*Καλά, ευχαριστώ. Εσύ;*",
+                  "fine, thanks. And you?"
+                ],
+                [
+                  "*Έτσι κι έτσι.*",
+                  "so-so"
+                ],
+                [
+                  "*Χάλια!*",
+                  "awful! (informal)"
+                ]
+              ]
+            },
+            "note": "*Τι κάνεις;* literally means *What are you doing?*, but as a greeting it is just *How are you?*"
+          },
+          {
+            "table": {
+              "title": "Being polite",
+              "head": [
+                "Greek",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "*Παρακαλώ.*",
+                  "please; you're welcome"
+                ],
+                [
+                  "*Ευχαριστώ (πολύ).*",
+                  "thank you (very much)"
+                ],
+                [
+                  "*Τίποτα.*",
+                  "don't mention it (literally: nothing)"
+                ],
+                [
+                  "*Συγγνώμη.*",
+                  "sorry; excuse me"
+                ],
+                [
+                  "*Με συγχωρείτε.*",
+                  "excuse me (polite)"
+                ],
+                [
+                  "*Ορίστε.*",
+                  "here you are; pardon?"
+                ]
+              ]
+            },
+            "note": "The answer to *Ευχαριστώ* is *Παρακαλώ* or *Τίποτα*. In a shop, *Παρακαλώ;* also means *Can I help you?*"
+          },
+          {
+            "table": {
+              "title": "When you don't understand",
+              "head": [
+                "Greek",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "*Δεν καταλαβαίνω.*",
+                  "I don't understand."
+                ],
+                [
+                  "*Μιλάτε αγγλικά;*",
+                  "Do you speak English?"
+                ],
+                [
+                  "*Πιο αργά, παρακαλώ.*",
+                  "Slower, please."
+                ],
+                [
+                  "*Ξανά, παρακαλώ.*",
+                  "Again, please."
+                ],
+                [
+                  "*Τι σημαίνει «…»;*",
+                  "What does … mean?"
+                ],
+                [
+                  "*Πώς λέγεται … στα ελληνικά;*",
+                  "How do you say … in Greek?"
+                ]
+              ]
+            },
+            "note": "These six sentences are your lifeline: with them you can keep any conversation going.",
+            "wide": true
+          }
+        ]
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with the right form of *είμαι*.",
+        "questions": [
+          "Εγώ [[είμαι|ειμαι]] η Άννα.",
+          "Εσύ [[είσαι|εισαι]] ο Νίκος;",
+          "Αυτή [[είναι|ειναι]] η Μαρία.",
+          "Εμείς [[είμαστε|ειμαστε]] φίλοι.",
+          "Εσείς [[είστε|ειστε|είσαστε|εισαστε]] καλά;",
+          "Αυτοί [[είναι|ειναι]] εδώ."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each pronoun to its meaning.",
+        "pairs": [
+          [
+            "εγώ",
+            "I"
+          ],
+          [
+            "εσύ",
+            "you (a friend)"
+          ],
+          [
+            "αυτή",
+            "she"
+          ],
+          [
+            "εμείς",
+            "we"
+          ],
+          [
+            "εσείς",
+            "you (polite, or several people)"
+          ],
+          [
+            "αυτοί",
+            "they"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*ο* or *η*? Choose the article.",
+        "questions": [
+          {
+            "q": "Είμαι ___ Άννα.",
+            "options": [
+              "*η",
+              "ο"
+            ]
+          },
+          {
+            "q": "Αυτός είναι ___ Νίκος.",
+            "options": [
+              "*ο",
+              "η"
+            ]
+          },
+          {
+            "q": "Αυτή είναι ___ κυρία Ελένη.",
+            "options": [
+              "*η",
+              "ο"
+            ]
+          },
+          {
+            "q": "Είστε ___ κύριος Γιώργος;",
+            "options": [
+              "*ο",
+              "η"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "You speak to the person: choose the right form.",
+        "questions": [
+          {
+            "q": "Γεια σου, ___!",
+            "options": [
+              "*Νίκο",
+              "ο Νίκος",
+              "Νίκος"
+            ]
+          },
+          {
+            "q": "Καλημέρα, ___!",
+            "options": [
+              "*κύριε Γιώργο",
+              "ο κύριος Γιώργος",
+              "κύριος Γιώργος"
+            ]
+          },
+          {
+            "q": "Καλησπέρα, ___!",
+            "options": [
+              "*Άννα",
+              "η Άννα"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Make it negative.",
+        "questions": [
+          {
+            "q": "Είμαι καλά.",
+            "options": [
+              "*Δεν είμαι καλά.",
+              "Όχι είμαι καλά.",
+              "Είμαι δεν καλά."
+            ]
+          },
+          {
+            "q": "Είναι εδώ.",
+            "options": [
+              "*Δεν είναι εδώ.",
+              "Είναι όχι εδώ.",
+              "Όχι είναι εδώ."
+            ]
+          },
+          {
+            "q": "Είμαστε φίλοι.",
+            "options": [
+              "*Δεν είμαστε φίλοι.",
+              "Είμαστε δεν φίλοι.",
+              "Όχι είμαστε φίλοι."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the questions and answers.",
+        "questions": [
+          "— Είσαι ο Νίκος; — Ναι, [[είμαι|ειμαι]] ο Νίκος.",
+          "— Είστε η κυρία Ελένη; — Όχι, [[δεν]] είμαι η κυρία Ελένη.",
+          "— [[Είναι|Ειναι]] εδώ η Άννα; — Ναι, είναι εδώ.",
+          "— Είστε καλά; — Ναι, [[είμαστε|ειμαστε]] καλά, ευχαριστούμε."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Εσύ* or *εσείς*? Choose the right form.",
+        "questions": [
+          {
+            "q": "To your friend Maria: ___",
+            "options": [
+              "*Τι κάνεις;",
+              "Τι κάνετε;"
+            ]
+          },
+          {
+            "q": "To an old lady you don't know: ___",
+            "options": [
+              "*Πώς είστε;",
+              "Πώς είσαι;"
+            ]
+          },
+          {
+            "q": "To a shop assistant: ___",
+            "options": [
+              "*Γεια σας!",
+              "Γεια σου!"
+            ]
+          },
+          {
+            "q": "To a child: ___ ο Γιάννης;",
+            "options": [
+              "*Είσαι",
+              "Είστε"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which greeting do you use?",
+        "questions": [
+          {
+            "q": "8 in the morning: you meet a neighbour.",
+            "options": [
+              "*Καλημέρα!",
+              "Καλησπέρα!",
+              "Καληνύχτα!"
+            ]
+          },
+          {
+            "q": "9 in the evening: you arrive at a party.",
+            "options": [
+              "*Καλησπέρα!",
+              "Καλημέρα!",
+              "Καληνύχτα!"
+            ]
+          },
+          {
+            "q": "Midnight: you leave the party.",
+            "options": [
+              "*Καληνύχτα!",
+              "Καλημέρα!",
+              "Καλησπέρα!"
+            ]
+          },
+          {
+            "q": "You meet your friend Nikos.",
+            "options": [
+              "*Γεια σου!",
+              "Γεια σας!"
+            ]
+          },
+          {
+            "q": "You meet your new boss.",
+            "options": [
+              "*Γεια σας!",
+              "Γεια σου!"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each phrase to its meaning.",
+        "pairs": [
+          [
+            "Ευχαριστώ.",
+            "thank you"
+          ],
+          [
+            "Παρακαλώ.",
+            "please; you're welcome"
+          ],
+          [
+            "Συγγνώμη.",
+            "sorry"
+          ],
+          [
+            "Τίποτα.",
+            "don't mention it"
+          ],
+          [
+            "Ορίστε.",
+            "here you are"
+          ],
+          [
+            "Δεν καταλαβαίνω.",
+            "I don't understand"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "What do you answer?",
+        "questions": [
+          {
+            "q": "Ευχαριστώ!",
+            "options": [
+              "*Παρακαλώ.",
+              "Καληνύχτα.",
+              "Συγγνώμη."
+            ]
+          },
+          {
+            "q": "Τι κάνεις;",
+            "options": [
+              "*Καλά, εσύ;",
+              "Ευχαριστώ.",
+              "Είμαι η Άννα."
+            ]
+          },
+          {
+            "q": "Μιλάτε αγγλικά;",
+            "options": [
+              "*Ναι, λίγο.",
+              "Γεια σας.",
+              "Τίποτα."
+            ]
+          },
+          {
+            "q": "Καλημέρα!",
+            "options": [
+              "*Καλημέρα!",
+              "Καληνύχτα!",
+              "Τίποτα!"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "γεια σου",
+        "ya su — hi, bye (to a friend)"
+      ],
+      [
+        "γεια σας",
+        "ya sas — hello, goodbye (polite)"
+      ],
+      [
+        "καλημέρα",
+        "kaliméra — good morning"
+      ],
+      [
+        "καλησπέρα",
+        "kalispéra — good evening"
+      ],
+      [
+        "καληνύχτα",
+        "kaliníchta — good night"
+      ],
+      [
+        "χαίρετε",
+        "chérete — hello, goodbye (formal)"
+      ],
+      [
+        "τα λέμε",
+        "ta léme — see you"
+      ],
+      [
+        "τι κάνεις;",
+        "ti kánis? — how are you?"
+      ],
+      [
+        "καλά",
+        "kalá — well, fine"
+      ],
+      [
+        "πολύ",
+        "polí — very; a lot"
+      ],
+      [
+        "έτσι κι έτσι",
+        "étsi ki étsi — so-so"
+      ],
+      [
+        "ευχαριστώ",
+        "efcharistó — thank you"
+      ],
+      [
+        "παρακαλώ",
+        "parakaló — please; you're welcome"
+      ],
+      [
+        "τίποτα",
+        "típota — nothing; don't mention it"
+      ],
+      [
+        "συγγνώμη",
+        "sighnómi — sorry; excuse me"
+      ],
+      [
+        "ορίστε",
+        "oríste — here you are; pardon?"
+      ],
+      [
+        "ναι",
+        "ne — yes"
+      ],
+      [
+        "όχι",
+        "óchi — no"
+      ],
+      [
+        "λίγο",
+        "lígho — a little"
+      ],
+      [
+        "καταλαβαίνω",
+        "katalavéno — I understand"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "καλησπέρα",
+            "good evening"
+          ],
+          [
+            "χαίρετε",
+            "hello, goodbye (formal)"
+          ],
+          [
+            "τα λέμε",
+            "see you"
+          ],
+          [
+            "έτσι κι έτσι",
+            "so-so"
+          ],
+          [
+            "τίποτα",
+            "don't mention it"
+          ],
+          [
+            "λίγο",
+            "a little"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with the missing word.",
+        "questions": [
+          "Ευχαριστώ [[πολύ|πολυ]]!",
+          "— Πώς είσαι; — Έτσι κι [[έτσι|ετσι]].",
+          "Γεια σου, Νίκο! Τα [[λέμε|λεμε]] αύριο!",
+          "Συγγνώμη, δεν [[καταλαβαίνω|καταλαβαινω]].",
+          "Μιλάτε αγγλικά; — Ναι, [[λίγο|λιγο]]."
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      {
+        "h": "Μια μέρα στη Θεσσαλονίκη"
+      },
+      "Είναι πρωί. Ο Τομ είναι στο καφενείο. Ο κύριος Γιώργος είναι εκεί.",
+      "— Καλημέρα σας, κύριε Γιώργο!",
+      "— Καλημέρα, Τομ! Τι κάνεις;",
+      "— Πολύ καλά, ευχαριστώ. Εσείς;",
+      "— Έτσι κι έτσι.",
+      "Το βράδυ ο Τομ είναι στο σπίτι της Άννας.",
+      "— Καλησπέρα, Άννα!",
+      "— Γεια σου, Τομ! Έλα!",
+      "Στις έντεκα ο Τομ λέει: «Καληνύχτα! Τα λέμε αύριο!»"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Where is Tom in the morning?",
+            "options": [
+              "*at the café",
+              "at home",
+              "at Anna's"
+            ]
+          },
+          {
+            "q": "How is Mr Giorgos?",
+            "options": [
+              "*so-so",
+              "very well",
+              "awful"
+            ]
+          },
+          {
+            "q": "How does Tom greet Anna?",
+            "options": [
+              "*Καλησπέρα!",
+              "Καλημέρα!",
+              "Καληνύχτα!"
+            ]
+          },
+          {
+            "q": "What does Tom say when he leaves?",
+            "options": [
+              "*Καληνύχτα! Τα λέμε αύριο!",
+              "Καλημέρα σας!",
+              "Έτσι κι έτσι."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Tom uses *εσείς* with Mr Giorgos.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Tom is not well.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Anna and Tom talk like friends.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Tom leaves Anna's house at eleven.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "transcript": [
+      [
+        "Λίζα",
+        "Συγγνώμη, μιλάτε αγγλικά;"
+      ],
+      [
+        "Υπάλληλος",
+        "Όχι, λυπάμαι. Μόνο ελληνικά."
+      ],
+      [
+        "Λίζα",
+        "Εντάξει. Είμαι η Λίζα. Δεν καταλαβαίνω πολύ καλά ελληνικά."
+      ],
+      [
+        "Υπάλληλος",
+        "Δεν πειράζει! Πώς είστε;"
+      ],
+      [
+        "Λίζα",
+        "Πιο αργά, παρακαλώ."
+      ],
+      [
+        "Υπάλληλος",
+        "Πώς… είστε;"
+      ],
+      [
+        "Λίζα",
+        "Α! Καλά, ευχαριστώ!"
+      ],
+      [
+        "Υπάλληλος",
+        "Ορίστε, ένας χάρτης."
+      ],
+      [
+        "Λίζα",
+        "Ευχαριστώ πολύ!"
+      ],
+      [
+        "Υπάλληλος",
+        "Τίποτα. Γεια σας!"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Complete with the words of the dialogue.",
+        "questions": [
+          "Συγγνώμη, [[μιλάτε|μιλατε]] αγγλικά;",
+          "[[Δεν]] καταλαβαίνω πολύ καλά ελληνικά.",
+          "Πιο [[αργά|αργα]], παρακαλώ.",
+          "Ευχαριστώ πολύ! — [[Τίποτα|Τιποτα]]. Γεια σας!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the right answer.",
+        "questions": [
+          {
+            "q": "Does the clerk speak English?",
+            "options": [
+              "*No, only Greek.",
+              "Yes, a little.",
+              "Yes, very well."
+            ]
+          },
+          {
+            "q": "What does the clerk give Lisa?",
+            "options": [
+              "*a map",
+              "a coffee",
+              "a ticket"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Answer in Greek.",
+        "questions": [
+          "— Τι κάνεις; — [[Καλά|Καλα|Πολύ καλά|Πολυ καλα]], ευχαριστώ.",
+          "— Ευχαριστώ! — [[Παρακαλώ|Παρακαλω|Τίποτα|Τιποτα]].",
+          "— Είσαι ο Νίκος; — [[Ναι]], είμαι ο Νίκος.",
+          "— Είσαι η Άννα; — [[Όχι|Οχι]], [[δεν]] είμαι η Άννα."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "And you? Answer in Greek.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Say hello to a Greek friend in the morning and ask how they are."
+          },
+          {
+            "q": "Answer: *Τι κάνεις;*"
+          },
+          {
+            "q": "Say hello to your teacher in the evening, politely."
+          },
+          {
+            "q": "You don't understand: ask the person to speak more slowly."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Who is it?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with a pronoun: *εγώ, εσύ, αυτός, αυτή, εμείς, εσείς*.",
+        "questions": [
+          "[[Εγώ|Εγω]] είμαι η Άννα. [[Εσύ|Εσυ]];",
+          "[[Αυτός|Αυτος]] είναι ο Νίκος.",
+          "[[Αυτή|Αυτη]] είναι η Μαρία.",
+          "[[Εμείς|Εμεις]] είμαστε φίλοι."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with *είμαι* in the right form.",
+        "questions": [
+          "Πώς [[είσαι|εισαι]], Νίκο;",
+          "Κύριε Γιώργο, πώς [[είστε|ειστε|είσαστε|εισαστε]];",
+          "Η Άννα και η Μαρία [[είναι|ειναι]] εδώ.",
+          "Εγώ και ο Τομ [[είμαστε|ειμαστε]] φίλοι."
+        ]
+      },
+      {
+        "h": "Mr Nikos, Mrs Eleni"
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete with *ο* or *η*.",
+        "questions": [
+          "Αυτός είναι [[ο]] Νίκος.",
+          "Αυτή είναι [[η]] κυρία Ελένη.",
+          "Αυτός είναι [[ο]] κύριος Γιώργος.",
+          "Είμαι [[η]] Μαρία, και εσύ;"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Say hello to the person, using the name.",
+        "questions": [
+          {
+            "q": "Νίκος (a friend, in the evening)",
+            "a": [
+              "Καλησπέρα, Νίκο!",
+              "Καλησπέρα, Νίκο",
+              "Καλησπέρα Νίκο",
+              "Γεια σου, Νίκο!",
+              "Γεια σου, Νίκο",
+              "Γεια σου Νίκο",
+              "Καλησπερα, Νικο!",
+              "Γεια σου, Νικο!"
+            ]
+          },
+          {
+            "q": "ο κύριος Γιώργος (in the morning)",
+            "a": [
+              "Καλημέρα, κύριε Γιώργο!",
+              "Καλημέρα, κύριε Γιώργο",
+              "Καλημέρα κύριε Γιώργο",
+              "Καλημερα, κυριε Γιωργο!",
+              "Καλημερα κυριε Γιωργο"
+            ]
+          },
+          {
+            "q": "η Άννα (a friend)",
+            "a": [
+              "Γεια σου, Άννα!",
+              "Γεια σου, Άννα",
+              "Γεια σου Άννα",
+              "Γεια σου, Αννα!",
+              "Γεια σου Αννα"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "No, I'm not"
+      },
+      {
+        "type": "write",
+        "prompt": "Make the sentence negative.",
+        "questions": [
+          {
+            "q": "Είμαι καλά.",
+            "a": [
+              "Δεν είμαι καλά.",
+              "Δεν ειμαι καλα."
+            ]
+          },
+          {
+            "q": "Είναι εδώ.",
+            "a": [
+              "Δεν είναι εδώ.",
+              "Δεν ειναι εδω."
+            ]
+          },
+          {
+            "q": "Είμαστε φίλοι.",
+            "a": [
+              "Δεν είμαστε φίλοι.",
+              "Δεν ειμαστε φιλοι."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Turn the sentence into a question. Don't forget the Greek question mark (;).",
+        "questions": [
+          {
+            "q": "Είσαι καλά.",
+            "a": [
+              "Είσαι καλά;",
+              "Εισαι καλα;"
+            ]
+          },
+          {
+            "q": "Είναι η Μαρία.",
+            "a": [
+              "Είναι η Μαρία;",
+              "Ειναι η Μαρια;"
+            ]
+          },
+          {
+            "q": "Μιλάτε αγγλικά.",
+            "a": [
+              "Μιλάτε αγγλικά;",
+              "Μιλατε αγγλικα;"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Morning, evening, night"
+      },
+      {
+        "type": "match",
+        "prompt": "Look at the pictures and match each greeting to a picture.",
+        "pictures": [
+          "A — A man opening his shop early in the morning, the sun rising over the street",
+          "B — Friends arriving at a taverna in the evening, the lights on",
+          "C — A child in pyjamas going to bed, waving to her parents",
+          "D — Two friends waving to each other as they walk off in different directions"
+        ],
+        "pairs": [
+          [
+            "Καλημέρα!",
+            "picture A"
+          ],
+          [
+            "Καλησπέρα!",
+            "picture B"
+          ],
+          [
+            "Καληνύχτα!",
+            "picture C"
+          ],
+          [
+            "Τα λέμε!",
+            "picture D"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Friendly or polite?",
+        "questions": [
+          {
+            "q": "Γεια σου!",
+            "options": [
+              "*to a friend",
+              "polite, or to several people"
+            ]
+          },
+          {
+            "q": "Γεια σας!",
+            "options": [
+              "*polite, or to several people",
+              "to a friend"
+            ]
+          },
+          {
+            "q": "Τι κάνετε;",
+            "options": [
+              "*polite, or to several people",
+              "to a friend"
+            ]
+          },
+          {
+            "q": "Πώς είσαι;",
+            "options": [
+              "*to a friend",
+              "polite, or to several people"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pardon?"
+      },
+      {
+        "type": "match",
+        "prompt": "When do you say it? Match each sentence to the situation.",
+        "pairs": [
+          [
+            "Δεν καταλαβαίνω.",
+            "you don't understand"
+          ],
+          [
+            "Πιο αργά, παρακαλώ.",
+            "someone speaks too fast"
+          ],
+          [
+            "Ξανά, παρακαλώ.",
+            "you want to hear it again"
+          ],
+          [
+            "Μιλάτε αγγλικά;",
+            "you need English"
+          ],
+          [
+            "Τι σημαίνει «χάλια»;",
+            "you don't know a word"
+          ]
+        ]
+      },
+      {
+        "h": "Mistakes to avoid"
+      },
+      {
+        "type": "write",
+        "prompt": "Find the mistake and write the sentence correctly.",
+        "questions": [
+          {
+            "q": "Όχι είμαι καλά.",
+            "a": [
+              "Δεν είμαι καλά.",
+              "Δεν ειμαι καλα."
+            ]
+          },
+          {
+            "q": "Εγώ είσαι η Άννα.",
+            "a": [
+              "Εγώ είμαι η Άννα.",
+              "Εγω ειμαι η Αννα."
+            ]
+          },
+          {
+            "q": "Τι κάνεις?",
+            "a": [
+              "Τι κάνεις;",
+              "Τι κανεις;"
+            ]
+          },
+          {
+            "q": "Καληνύχτα! (You arrive at a dinner at 8 pm.)",
+            "a": [
+              "Καλησπέρα!",
+              "Καλησπερα!",
+              "Καλησπέρα",
+              "Καλησπερα"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronunciation and spelling"
+      },
+      {
+        "text": [
+          "Many Greek verb forms end in *-αι*, which is read *e*: *είμαι* (íme), *είσαι* (íse), *είναι* (íne). The first syllable is *ει*, read *i*. So these forms sound like *íme, íse, íne*, but are always written with *ει* and *αι*. *Είμαστε* and *είστε* are written with *ει* too."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which spelling is right?",
+        "questions": [
+          {
+            "q": "*íme* (I am)",
+            "options": [
+              "*είμαι",
+              "ίμε",
+              "είμε"
+            ]
+          },
+          {
+            "q": "*íne* (he is, they are)",
+            "options": [
+              "*είναι",
+              "ίνε",
+              "είνε"
+            ]
+          },
+          {
+            "q": "*íse* (you are)",
+            "options": [
+              "*είσαι",
+              "ίσε",
+              "είσε"
+            ]
+          },
+          {
+            "q": "*ímaste* (we are)",
+            "options": [
+              "*είμαστε",
+              "ίμαστε",
+              "είμεστε"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "My portfolio"
+      },
+      {
+        "text": [
+          "What can you do after this lesson? Tick the sentences that are true for you."
+        ]
+      },
+      {
+        "checklist": [
+          "I can use the verb *είμαι* with all the persons.",
+          "I know the personal pronouns and when to leave them out.",
+          "I can put *ο* or *η* before a name, and leave it out when I speak to someone.",
+          "I can say *no* with *δεν* and ask a question.",
+          "I know when to use *εσύ* and when *εσείς*.",
+          "I can say hello and goodbye at any time of day, and *please*, *thank you* and *sorry*.",
+          "I can say that I don't understand and ask someone to speak more slowly."
+        ]
+      },
+      {
+        "h": "Read"
+      },
+      {
+        "picture": "Two Greek friends greeting each other with a kiss on each cheek in a village square"
+      },
+      {
+        "text": [
+          "**Health, many years and a kiss**",
+          "The Greek *γεια* comes from *υγεία*, *health*. When Greeks say *Γεια σου*, they wish you good health, and when they raise their glasses they say *Γεια μας!* (to our health!).",
+          "On birthdays, but also on name days and on holidays, you hear *Χρόνια πολλά!* (many years!). In Greece many people celebrate the day of the saint they are named after, the name day (*ονομαστική γιορτή*), and for some it is as important as their birthday.",
+          "Friends and relatives often greet each other with a kiss on each cheek. With people you don't know, a handshake is enough.",
+          "Watch out for *yes* and *no*: *ναι* (yes) sounds like English *no*, and a quick tilt of the head upwards, sometimes with a click of the tongue, means *no*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "*Γεια* comes from the word for *health*.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Greeks say *Γεια μας!* when they raise their glasses.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "*Χρόνια πολλά* is only for birthdays.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Friends often greet each other with a kiss on each cheek.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "A tilt of the head upwards means *yes*.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "How do people greet each other in your country? Is it like in Greece?",
+        "open": true,
+        "questions": [
+          {
+            "q": "In my country…"
+          }
+        ]
+      },
+      {
+        "h": "Write"
+      },
+      {
+        "type": "free",
+        "prompt": "Write a short dialogue in Greek: two people meet in the evening, ask how they are and say goodbye.",
+        "cues": [
+          "Say hello: *Καλησπέρα! Γεια σου!*",
+          "Ask how the other person is: *Τι κάνεις; Πώς είσαι;*",
+          "Answer: *Καλά, ευχαριστώ. Εσύ;*",
+          "Say goodbye: *Καληνύχτα! Τα λέμε!*"
+        ],
+        "start": "",
+        "model": "— Καλησπέρα, Μαρία!\n— Γεια σου, Νίκο! Τι κάνεις;\n— Πολύ καλά, ευχαριστώ. Εσύ;\n— Έτσι κι έτσι. Είμαι λίγο κουρασμένη.\n— Συγγνώμη, δεν καταλαβαίνω. Τι σημαίνει «κουρασμένη»;\n— Tired!\n— Α! Καληνύχτα, λοιπόν! Τα λέμε αύριο!\n— Καληνύχτα!"
+      }
+    ]
+  }
+}

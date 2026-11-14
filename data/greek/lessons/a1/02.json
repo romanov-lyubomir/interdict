@@ -1,0 +1,461 @@
+{
+  "title": "Νερό",
+  "translation": "Water",
+  "topics": "Letters that look familiar but aren't: Β β, Η η, Ρ ρ, Υ υ, Χ χ, Ω ω; three letters for i and two for o",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "αβεηικλμνοπρστςυχωάέήίόύώ",
+  "grammar": {
+    "explain": [
+      "Some Greek letters look exactly like English ones but stand for a different sound. They are the trickiest: an English reader sees *ΡΗΧ* and wants to say *p-h-x*, but it is *r-i-ch*. Learn these six well.",
+      {
+        "h": "False friends"
+      },
+      {
+        "letters": [
+          {
+            "letter": "Β β",
+            "latin": "v",
+            "say": "like the v in van, never a b",
+            "word": "βιβλίο",
+            "word_latin": "vivlío",
+            "meaning": "book"
+          },
+          {
+            "letter": "Η η",
+            "latin": "i",
+            "say": "like the ee in see, never an h",
+            "word": "ήλιος",
+            "word_latin": "ílios",
+            "meaning": "sun"
+          },
+          {
+            "letter": "Ρ ρ",
+            "latin": "r",
+            "say": "a rolled r, as in Italian; never a p",
+            "word": "νερό",
+            "word_latin": "neró",
+            "meaning": "water"
+          },
+          {
+            "letter": "Υ υ",
+            "latin": "i",
+            "say": "also like the ee in see, never a u or a y",
+            "word": "μύτη",
+            "word_latin": "míti",
+            "meaning": "nose"
+          },
+          {
+            "letter": "Χ χ",
+            "latin": "ch",
+            "say": "like the ch in Scottish loch; softer, like the h in huge, before e and i",
+            "word": "χέρι",
+            "word_latin": "chéri",
+            "meaning": "hand"
+          },
+          {
+            "letter": "Ω ω",
+            "latin": "o",
+            "say": "like the o in for: the same sound as ο",
+            "word": "ώρα",
+            "word_latin": "óra",
+            "meaning": "hour"
+          }
+        ],
+        "lang": "el"
+      },
+      {
+        "h": "One sound, several letters"
+      },
+      "Greek has three letters for the sound *i* and two for the sound *o*. They are read in exactly the same way: the difference is only in the spelling, as in English *meat* and *meet*. So when you see a word you can always read it, but when you hear it you have to learn how it is written.",
+      {
+        "table": {
+          "head": [
+            "sound",
+            "letters",
+            "examples"
+          ],
+          "rows": [
+            [
+              "i",
+              "ι, η, υ",
+              "*σπίτι, ήλιος, μύτη*"
+            ],
+            [
+              "o",
+              "ο, ω",
+              "*κιλό, ώρα*"
+            ]
+          ]
+        }
+      },
+      "The other capitals you have met, Α Ε Ι Κ Μ Ν Ο Τ, look like English capitals and also sound like them. It is the small letters that change shape: ν (n), η (i), ρ (r), υ (i), ω (o).",
+      {
+        "h": "Try reading"
+      },
+      "Read each word aloud, then tap it to check. With the letters of the first two lessons you can already say good morning: *καλημέρα*!",
+      {
+        "flash": [
+          [
+            "καλημέρα",
+            "kaliméra",
+            "good morning"
+          ],
+          [
+            "νερό",
+            "neró",
+            "water"
+          ],
+          [
+            "ώρα",
+            "óra",
+            "hour, time"
+          ],
+          [
+            "ήλιος",
+            "ílios",
+            "sun"
+          ],
+          [
+            "χέρι",
+            "chéri",
+            "hand"
+          ],
+          [
+            "μύτη",
+            "míti",
+            "nose"
+          ],
+          [
+            "βιβλίο",
+            "vivlío",
+            "book"
+          ],
+          [
+            "τυρί",
+            "tirí",
+            "cheese"
+          ],
+          [
+            "βροχή",
+            "vrochí",
+            "rain"
+          ],
+          [
+            "χορός",
+            "chorós",
+            "dance"
+          ]
+        ],
+        "lang": "el"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "What sound does this letter make?",
+        "questions": [
+          {
+            "q": "η",
+            "options": [
+              "*i",
+              "h",
+              "n"
+            ]
+          },
+          {
+            "q": "υ",
+            "options": [
+              "*i",
+              "u",
+              "y"
+            ]
+          },
+          {
+            "q": "ω",
+            "options": [
+              "*o",
+              "w",
+              "u"
+            ]
+          },
+          {
+            "q": "ρ",
+            "options": [
+              "*r",
+              "p",
+              "b"
+            ]
+          },
+          {
+            "q": "β",
+            "options": [
+              "*v",
+              "b",
+              "p"
+            ]
+          },
+          {
+            "q": "χ",
+            "options": [
+              "*ch",
+              "x",
+              "k"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each capital letter to its sound.",
+        "pairs": [
+          [
+            "Β",
+            "v"
+          ],
+          [
+            "Η",
+            "i"
+          ],
+          [
+            "Ρ",
+            "r"
+          ],
+          [
+            "Χ",
+            "ch"
+          ],
+          [
+            "Ω",
+            "o"
+          ],
+          [
+            "Ν",
+            "n"
+          ]
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each capital letter to its small letter.",
+        "pairs": [
+          [
+            "Β",
+            "β"
+          ],
+          [
+            "Η",
+            "η"
+          ],
+          [
+            "Ρ",
+            "ρ"
+          ],
+          [
+            "Υ",
+            "υ"
+          ],
+          [
+            "Χ",
+            "χ"
+          ],
+          [
+            "Ω",
+            "ω"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which word is it?",
+        "questions": [
+          {
+            "q": "*neró* (water)",
+            "options": [
+              "*νερό",
+              "νεπό",
+              "μερό"
+            ]
+          },
+          {
+            "q": "*óra* (hour)",
+            "options": [
+              "*ώρα",
+              "όπα",
+              "ώπα"
+            ]
+          },
+          {
+            "q": "*vivlío* (book)",
+            "options": [
+              "*βιβλίο",
+              "μπιμπλίο",
+              "υιυλίο"
+            ]
+          },
+          {
+            "q": "*chéri* (hand)",
+            "options": [
+              "*χέρι",
+              "χέπι",
+              "κέρι"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "καλημέρα",
+        "kaliméra — good morning"
+      ],
+      [
+        "νερό",
+        "neró — water"
+      ],
+      [
+        "ώρα",
+        "óra — hour, time"
+      ],
+      [
+        "ήλιος",
+        "ílios — sun"
+      ],
+      [
+        "χέρι",
+        "chéri — hand"
+      ],
+      [
+        "μύτη",
+        "míti — nose"
+      ],
+      [
+        "βιβλίο",
+        "vivlío — book"
+      ],
+      [
+        "τυρί",
+        "tirí — cheese"
+      ],
+      [
+        "βροχή",
+        "vrochí — rain"
+      ],
+      [
+        "χορός",
+        "chorós — dance"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "καλημέρα",
+            "a": [
+              "kaliméra",
+              "kalimera"
+            ]
+          },
+          {
+            "q": "νερό",
+            "a": [
+              "neró",
+              "nero"
+            ]
+          },
+          {
+            "q": "ήλιος",
+            "a": [
+              "ílios",
+              "ilios"
+            ]
+          },
+          {
+            "q": "χέρι",
+            "a": [
+              "chéri",
+              "cheri",
+              "héri",
+              "heri",
+              "kheri",
+              "khéri"
+            ]
+          },
+          {
+            "q": "βιβλίο",
+            "a": [
+              "vivlío",
+              "vivlio"
+            ]
+          },
+          {
+            "q": "τυρί",
+            "a": [
+              "tirí",
+              "tiri"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "καλημέρα",
+            "good morning"
+          ],
+          [
+            "νερό",
+            "water"
+          ],
+          [
+            "ήλιος",
+            "sun"
+          ],
+          [
+            "χέρι",
+            "hand"
+          ],
+          [
+            "μύτη",
+            "nose"
+          ],
+          [
+            "βροχή",
+            "rain"
+          ]
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Greek. Use the keys above if you don't have a Greek keyboard.",
+        "questions": [
+          "water (*neró*) → [[νερό|νερο]]",
+          "sun (*ílios*) → [[ήλιος|ηλιος]]",
+          "hand (*chéri*) → [[χέρι|χερι]]",
+          "cheese (*tirí*) → [[τυρί|τυρι]]",
+          "good morning (*kaliméra*) → [[καλημέρα|καλημερα]]"
+        ]
+      }
+    ]
+  }
+}

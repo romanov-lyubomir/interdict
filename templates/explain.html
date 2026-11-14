@@ -385,7 +385,9 @@
     <table class="{% if block.table.bulleted %}bulleted{% endif %}{% if block.table.nowrap %} nowrap{% endif %}{% if block.table.compact %} compact{% endif %}">
         {% if block.table.title %}
         {% set width = block.table.rows | map("length") | max %}
-        <tr class="table-title"><th colspan="{{ width }}">{{ block.table.title | rich }}</th></tr>
+        {# The language of the lesson, so that capitals follow its rules (Greek
+           drops the accent marks when a title is shown in capitals) #}
+        <tr class="table-title"><th colspan="{{ width }}"{% if lang_code is defined and lang_code %} lang="{{ lang_code }}"{% endif %}>{{ block.table.title | rich }}</th></tr>
         {% endif %}
         {% if block.table.groups %}
         <tr class="brace-row">

@@ -100,11 +100,13 @@ LANGUAGES = {
         "flag": "de",
         "native": "Deutsch",
     },
+    # The new A1 lessons (data/greek/lessons) replace the old alphabet page
     "greek": {
-        "lessons": ["the_alphabet"],
+        "lessons": [],
         "cities": ["thessaloniki"],
         "flag": "gr",
         "native": "Ελληνικά",
+        "lessons_blurb": "The alphabet, then your first words and sentences",
     },
     # Everything but the search so far (see FEATURES)
     "georgian": {
@@ -575,30 +577,30 @@ def hide_missing_features():
     return None
 
 
-def load_reviewed(lang):
-    # The lessons already brought up to date, as {level: {numbers}}
-    path = os.path.join(DATA_DIR, lang, "lessons", "reviewed.json")
+def load_not_updated(lang):
+    # The lessons still waiting to be brought up to date, as {level: {numbers}}
+    path = os.path.join(DATA_DIR, lang, "lessons", "not_updated.json")
     if not os.path.exists(path):
         return {}
-    with open(path, encoding="utf-8") as reviewed_file:
-        data = json.load(reviewed_file)
+    with open(path, encoding="utf-8") as not_updated_file:
+        data = json.load(not_updated_file)
     return {level: set(numbers) for level, numbers in data.items() if not level.startswith("_")}
 
 
-REVIEWED_LESSONS = {lang: load_reviewed(lang) for lang in LANGUAGES}
+NOT_UPDATED_LESSONS = {lang: load_not_updated(lang) for lang in LANGUAGES}
 LOCAL_HOSTS = {"localhost", "127.0.0.1", "::1", "[::1]"}
 
 
 @app.context_processor
-def inject_reviewed():
-    # A temporary mark on the lessons already updated. It only shows on a
+def inject_not_updated():
+    # A temporary mark on the lessons not yet updated. It only shows on a
     # local development server, never on the deployed site
-    def is_reviewed(level, number):
+    def is_not_updated(level, number):
         if request.host.rsplit(":", 1)[0] not in LOCAL_HOSTS:
             return False
-        return number in REVIEWED_LESSONS.get(get_lang(), {}).get(level.upper(), set())
+        return number in NOT_UPDATED_LESSONS.get(get_lang(), {}).get(level.upper(), set())
 
-    return dict(is_reviewed=is_reviewed)
+    return dict(is_not_updated=is_not_updated)
 
 
 @app.template_filter("format")

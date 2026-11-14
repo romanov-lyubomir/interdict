@@ -120,7 +120,7 @@
             <span class="lesson-number">{{ lesson.shown }}</span>
             <div>
                 <h3>{{ lesson.title | rich }}</h3>
-                {% if is_reviewed(level, lesson.number) %}<span class="reviewed-mark" title="Already updated (only shown locally)">✓ updated</span>{% endif %}
+                {% if is_not_updated(level, lesson.number) %}<span class="update-mark" title="Not yet updated (only shown locally)">not updated</span>{% endif %}
                 <p>{{ lesson.topics | rich }}</p>
             </div>
             <span class="arrow">&rarr;</span>
