@@ -42,6 +42,14 @@ PERSONS = {
         ("eseis", "εσείς", 5),
         ("aftoi", "αυτοί/αυτές/αυτά", 6),
     ],
+    "georgian": [
+        ("me", "მე", None),
+        ("shen", "შენ", None),
+        ("is", "ის", None),
+        ("chven", "ჩვენ", None),
+        ("tkven", "თქვენ", None),
+        ("isini", "ისინი", None),
+    ],
 }
 
 # In the imperative the 3rd person is the polite form
@@ -50,6 +58,12 @@ IMPERATIVE_LABELS = {
     "spanish": {"el": "usted", "nosotros": "nosotros", "vosotros": "vosotros", "ellos": "ustedes"},
     "german": {"sie": "Sie"},
     "greek": {},
+    "georgian": {},
+}
+# Forms whose subject takes another case: in the Georgian aorist the subject
+# of these verbs is in the ergative, so "he" is მან and "they" მათ
+FORM_PERSON_LABELS = {
+    "georgian": {"aorist": {"is": "მან", "isini": "მათ"}},
 }
 IMPERATIVE_FORMS = {"imperativo", "imperativo_afirmativo", "imperativo_negativo", "imperativ", "prostaktiki"}
 
@@ -160,11 +174,20 @@ FORM_GROUPS = {
             ("prostaktiki", "Προστακτική"),
         ]),
     ],
+    # The three screeves a beginner meets first; the drill asks only the
+    # subject person (the verb also changes with the object, which isn't asked)
+    "georgian": [
+        ("მწკრივები", [
+            ("present", "აწმყო (present)"),
+            ("future", "მყოფადი (future)"),
+            ("aorist", "წყვეტილი (aorist)"),
+        ]),
+    ],
 }
 
 # Groups whose forms are named on their own in the drill ("Gerundio",
 # "Imperativo"), the rest get the group name too ("Congiuntivo – Passato")
-STANDALONE_GROUPS = {"Forme indefinite", "Formas no personales", "Imperativ", "Partizipien"}
+STANDALONE_GROUPS = {"Forme indefinite", "Formas no personales", "Imperativ", "Partizipien", "მწკრივები"}
 
 # Extra checkboxes for Spanish: which second persons to practise
 PRONOUN_OPTIONS = {
@@ -180,6 +203,7 @@ DEFAULT_FORMS = {
     "spanish": ["presente"],
     "german": ["praesens"],
     "greek": ["enestotas"],
+    "georgian": ["present"],
 }
 DEFAULT_PRONOUNS = {"spanish": ["tu", "vosotros"]}
 
@@ -226,6 +250,8 @@ def person_label(language, form, person):
         return None
     if form in IMPERATIVE_FORMS and person in IMPERATIVE_LABELS[language]:
         return IMPERATIVE_LABELS[language][person]
+    if person in FORM_PERSON_LABELS.get(language, {}).get(form, {}):
+        return FORM_PERSON_LABELS[language][form][person]
     return next(label for key, label, _ in PERSONS[language] if key == person)
 
 

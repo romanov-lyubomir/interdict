@@ -1,195 +1,331 @@
 {
-  "title": "{fa:Avrà dimenticato} le chiavi: io {cpa:avrei telefonato}",
-  "translation": "He must have forgotten the keys: I would have phoned",
-  "topics": "[fs:Futuro semplice] and [fa:futuro anteriore], [cop:condizionale presente] and [cpa:condizionale passato], and what each expresses",
+  "title": "Il ladro {cpa:sarebbe entrato} dalla finestra",
+  "translation": "",
+  "topics": "Fare ipotesi: il [fs:futuro] e il [fa:futuro anteriore] di supposizione, *dovere* + infinito, *può darsi che*; il condizionale di cronaca e le fonti; il condizionale che attenua; notizie, misteri e indagini",
   "grammar": {
     "explain": [
+      "Dal livello B1 conosci il [fa:futuro anteriore] e il [cpa:condizionale passato]. Qui impari a usarli come fanno gli italiani ogni giorno: per fare ipotesi, per dire quanto sei sicuro e, nei giornali, per dare una notizia che nessuno ha ancora confermato.",
       {
-        "h": "The future is not only about the future"
-      },
-      "Italians constantly use the future to make a guess. The simple future guesses about now, and the [fa:futuro anteriore] guesses about the past.",
-      {
-        "table": {
-          "head": [
-            "Use",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Plan or prediction",
-              "L'anno prossimo {fs:cambierò} lavoro.",
-              "Next year I'll change jobs."
-            ],
-            [
-              "Guess about now",
-              "{fs:Saranno} le tre.",
-              "It must be about three."
-            ],
-            [
-              "Guess about the past",
-              "{fa:Avrà dimenticato} le chiavi.",
-              "He must have forgotten the keys."
-            ],
-            [
-              "Before another future action",
-              "Quando {fa:avrò finito}, {fs:uscirò}.",
-              "When I've finished, I'll go out."
-            ],
-            [
-              "Concession",
-              "{fs:Sarà} anche bravo, ma {ip:è} antipatico.",
-              "He may well be good, but he's unpleasant."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Quanto sei sicuro?",
+              "head": [
+                "",
+                "frase",
+                "quanto sei sicuro"
+              ],
+              "rows": [
+                [
+                  "la certezza",
+                  "Marco **{ip:è}** a casa.",
+                  "lo so"
+                ],
+                [
+                  "*dovere* + infinito",
+                  "Marco **{ip:deve}** essere a casa.",
+                  "quasi sicuro: ci sono buoni motivi"
+                ],
+                [
+                  "il [fs:futuro]",
+                  "Marco **{fs:sarà}** a casa.",
+                  "lo penso, ma non lo so"
+                ],
+                [
+                  "*probabilmente*",
+                  "Marco **probabilmente** {ip:è} a casa.",
+                  "lo penso, ma non lo so"
+                ],
+                [
+                  "*forse*",
+                  "**Forse** Marco {ip:è} a casa.",
+                  "non ne sono sicuro"
+                ],
+                [
+                  "*può darsi che* + congiuntivo",
+                  "**Può darsi che** Marco {csp:sia} a casa.",
+                  "è possibile, niente di più"
+                ]
+              ]
+            },
+            "note": "Il [fs:futuro] di supposizione non parla del futuro: *{fs:Sarà} a casa* vuol dire *probabilmente è a casa adesso*. Nel parlato è molto frequente."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Ipotesi su adesso e sul passato",
+              "head": [
+                "",
+                "su adesso",
+                "sul passato"
+              ],
+              "rows": [
+                [
+                  "il futuro",
+                  "{fs:**Sarà**} stanco.",
+                  "{fa:**Avrà dormito**} poco."
+                ],
+                [
+                  "*dovere* + infinito",
+                  "**{ip:Deve}** essere stanco.",
+                  "**{ip:Deve}** aver dormito poco."
+                ],
+                [
+                  "*può darsi che*",
+                  "Può darsi che {csp:**sia**} stanco.",
+                  "Può darsi che {csa:**abbia dormito**} poco."
+                ]
+              ]
+            },
+            "note": [
+              "Per un'ipotesi sul passato si usa il [fa:futuro anteriore]: *{fa:avrà dormito}* = *probabilmente ha dormito*.",
+              "Con *dovere* l'ipotesi sul passato si fa con l'infinito passato: *deve aver dormito, deve essere uscito*."
             ]
-          ]
-        }
-      },
-      {
-        "h": "What the conditional can do"
-      },
-      {
-        "table": {
-          "head": [
-            "Use",
-            "Present",
-            "Past"
-          ],
-          "rows": [
-            [
-              "Polite request or wish",
-              "{cop:Vorrei} un caffè.",
-              "{cpa:Avrei voluto} un caffè."
-            ],
-            [
-              "Advice or regret",
-              "{cop:Dovresti} parlargli.",
-              "{cpa:Avresti dovuto} parlargli."
-            ],
-            [
-              "Imagined choice",
-              "{cop:Accetterei}.",
-              "{cpa:Avrei accettato}."
-            ],
-            [
-              "Unconfirmed news",
-              "Il presidente {cop:partirebbe} domani.",
-              "Il presidente {cpa:sarebbe partito} ieri."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le domande che facciamo a noi stessi",
+              "head": [
+                "domanda",
+                "che cosa vuol dire"
+              ],
+              "rows": [
+                [
+                  "Che ore **{fs:saranno}**?",
+                  "Non ho l'orologio: chissà che ore sono."
+                ],
+                [
+                  "Chi **{fs:sarà}** a quest'ora?",
+                  "Suonano alla porta: chi può essere?"
+                ],
+                [
+                  "Dove **{fa:avrò messo}** le chiavi?",
+                  "Non mi ricordo dove le ho messe."
+                ],
+                [
+                  "Che cosa le **{fa:sarà successo}**?",
+                  "Sono preoccupato: che cosa le è successo?"
+                ]
+              ]
+            },
+            "note": "Con il futuro una domanda diventa un dubbio: non chiediamo una risposta, ci chiediamo qualcosa. Spesso si aggiunge *chissà*: *Chissà dove {fa:avrò messo} le chiavi!*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il condizionale di cronaca",
+              "head": [
+                "notizia sicura",
+                "notizia non confermata"
+              ],
+              "rows": [
+                [
+                  "I ladri **{pp:sono entrati}** dalla finestra.",
+                  "I ladri **{cpa:sarebbero entrati}** dalla finestra."
+                ],
+                [
+                  "Il ministro **{ip:vuole}** dimettersi.",
+                  "Il ministro **{cop:vorrebbe}** dimettersi."
+                ],
+                [
+                  "Un testimone **{pp:ha visto}** tutto.",
+                  "Un testimone **{cpa:avrebbe visto}** tutto."
+                ]
+              ]
+            },
+            "note": [
+              "I giornalisti usano il condizionale quando una notizia non è ancora confermata: il lettore capisce che il giornale la riporta, ma non garantisce che sia vera.",
+              "Il [cop:condizionale presente] è per i fatti di adesso o del futuro, il [cpa:condizionale passato] per i fatti già successi."
             ]
-          ]
-        }
-      },
-      "The last use is typical of newspapers. It tells the reader that the journalist is reporting something not yet confirmed: *Secondo alcune fonti, il ministro si {cpa:sarebbe dimesso}* (According to some sources, the minister has resigned).",
-      {
-        "h": "The future seen from the past"
-      },
-      "When you talk about a future from a point in the past, Italian always uses the [cpa:condizionale passato], even where English has a simple *would*: *{im:Sapevo} che {cpa:avresti capito}* (I knew you would understand).",
-      {
-        "h": "Present or past conditional?"
-      },
-      "Ask whether the opportunity is still open. *{cop:Accetterei}* means that I could still accept. *{cpa:Avrei accettato}* means it's too late.",
-      {
-        "h": "Things people often mix up"
-      },
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Tense",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "{fs:parler**emo**}",
-              "Futuro",
-              "we will speak"
-            ],
-            [
-              "{cop:parler**emmo**}",
-              "Condizionale",
-              "we would speak"
-            ],
-            [
-              "{cpa:avr**ei** detto}",
-              "[cpa:Condizionale passato]",
-              "I would have said"
-            ],
-            [
-              "{fa:avr**ò** detto}",
-              "[fa:Futuro anteriore]",
-              "I will have said, I must have said"
-            ]
-          ]
-        }
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Dire da dove viene una notizia",
+              "head": [
+                "espressione",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*secondo* + nome",
+                  "**Secondo** la polizia, i ladri {cpa:sarebbero} due."
+                ],
+                [
+                  "*a quanto pare*",
+                  "**A quanto pare**, il museo {pp:ha riaperto}."
+                ],
+                [
+                  "*pare che* + congiuntivo",
+                  "**Pare che** il quadro {csp:sia} falso."
+                ],
+                [
+                  "*si dice che* + congiuntivo",
+                  "**Si dice che** il sindaco {csa:abbia saputo} tutto."
+                ],
+                [
+                  "*sembra che* + congiuntivo",
+                  "**Sembra che** nessuno {csa:abbia visto} niente."
+                ]
+              ]
+            },
+            "note": "Dopo *secondo* si usa spesso il condizionale; dopo *pare che, si dice che, sembra che* il congiuntivo."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il condizionale che attenua",
+              "head": [
+                "più diretto",
+                "più morbido",
+                "a che cosa serve"
+              ],
+              "rows": [
+                [
+                  "Il treno **{ip:arriva}** alle cinque.",
+                  "Il treno **{cop:dovrebbe}** arrivare alle cinque.",
+                  "una previsione, non una certezza"
+                ],
+                [
+                  "No.",
+                  "**{cop:Direi}** di no.",
+                  "un'opinione detta con cautela"
+                ],
+                [
+                  "Non lo so.",
+                  "Non **{cop:saprei}**.",
+                  "una risposta più gentile"
+                ],
+                [
+                  "**{ip:Ho}** una domanda.",
+                  "**{cop:Avrei}** una domanda.",
+                  "per chiedere la parola con cortesia"
+                ]
+              ]
+            },
+            "note": "Il condizionale rende la frase meno sicura e meno diretta: per questo si usa per essere gentili e per non sembrare troppo sicuri di sé."
+          }
+        ]
       }
     ]
   },
   "use": {
     "exercises": [
       {
+        "type": "gap",
+        "prompt": "Fai un'ipotesi su adesso: riscrivi con il [fs:futuro].",
+        "questions": [
+          "Probabilmente {ip:è} stanco. → [[Sarà#fs]] stanco.",
+          "Probabilmente {ip:sono} le sette. → [[Saranno#fs]] le sette.",
+          "Probabilmente {ip:ha} fame. → [[Avrà#fs]] fame.",
+          "Probabilmente {ip:abitano} in centro. → [[Abiteranno#fs]] in centro.",
+          "Probabilmente {ip:sta} lavorando. → [[Starà#fs]] lavorando."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Fai un'ipotesi sul passato: riscrivi con il [fa:futuro anteriore].",
+        "questions": [
+          "Probabilmente {pp:ha perso} il treno. → [[Avrà perso#fa]] il treno.",
+          "Probabilmente {pp:sono usciti}. → [[Saranno usciti#fa]].",
+          "Probabilmente {pp:ha dimenticato} l'appuntamento. → [[Avrà dimenticato#fa]] l'appuntamento.",
+          "Probabilmente {pp:è andata} dal medico. → [[Sarà andata#fa]] dal medico.",
+          "Probabilmente {pp:hanno sbagliato} strada. → [[Avranno sbagliato#fa]] strada."
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "What does the verb express here?",
+        "prompt": "Ipotesi su adesso o sul passato? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Non {ip:risponde}: {fs:starà} dormendo.",
+            "q": "Anna non {ip:risponde}: ___ in riunione.",
             "options": [
-              "a plan",
-              "*a guess about now",
-              "a regret"
+              "*{fs:sarà}",
+              "{fa:sarà stata}"
             ]
           },
           {
-            "q": "Luca {ip:è} in ritardo: {fa:avrà perso} il treno.",
+            "q": "Ha gli occhi rossi: ___ tutta la notte.",
             "options": [
-              "*a guess about the past",
-              "a future event",
-              "an order"
+              "*{fa:avrà pianto}",
+              "{fs:piangerà}"
             ]
           },
           {
-            "q": "Il sindaco {cpa:avrebbe lasciato} la città.",
+            "q": "Il negozio è chiuso: ___ già le otto.",
             "options": [
-              "a regret",
-              "a polite request",
-              "*unconfirmed news"
+              "*{fs:saranno}",
+              "{fa:saranno state}"
             ]
           },
           {
-            "q": "{cpa:Avrei dovuto} ascoltarti.",
+            "q": "Le strade sono bagnate: ___ stanotte.",
             "options": [
-              "a guess",
-              "*a regret",
-              "a future plan"
+              "*{fa:avrà piovuto}",
+              "{fs:pioverà}"
             ]
           },
           {
-            "q": "{fs:Sarà} anche ricco, ma non {ip:è} felice.",
+            "q": "Luca non {ip:è} ancora qui: ___ aver perso l'autobus.",
             "options": [
-              "a prediction",
-              "*a concession",
-              "a wish"
+              "*{ip:deve}",
+              "{fs:dovrà}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the [fs:futuro semplice] or [fa:futuro anteriore] to make a guess.",
+        "prompt": "Riscrivi la notizia con il condizionale di cronaca: non è ancora confermata.",
         "questions": [
-          "Che ore {ip:sono}? [[Saranno#fs]] le sei. (essere, now)",
-          "Marco non c'{ip:è}: [[sarà uscito#fa]]. (uscire, past)",
-          "Anna {ip:è} molto stanca: [[avrà lavorato#fa]] tutta la notte. (lavorare, past)",
-          "Quanti anni {ip:ha}? [[Avrà#fs]] quarant'anni. (avere, now)"
+          "I ladri {pp:sono fuggiti} in moto. → I ladri [[sarebbero fuggiti#cpa]] in moto.",
+          "Il sindaco {pp:ha firmato} il contratto. → Il sindaco [[avrebbe firmato#cpa]] il contratto.",
+          "Il cantante {ip:vuole} lasciare il gruppo. → Il cantante [[vorrebbe#cop]] lasciare il gruppo.",
+          "Il quadro {ip:vale} due milioni di euro. → Il quadro [[varrebbe#cop]] due milioni di euro.",
+          "Due persone {pp:hanno visto} l'incidente. → Due persone [[avrebbero visto#cpa]] l'incidente."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the [cop:condizionale presente] or passato.",
+        "prompt": "Completa con il congiuntivo dopo *pare che, si dice che, sembra che, può darsi che*.",
         "questions": [
-          "Se {csi:potessi}, [[accetterei#cop]] subito. (accettare, io, still possible)",
-          "Ormai {ip:è} tardi, ma io [[avrei accettato#cpa]]. (accettare, too late)",
-          "{im:Sapevo} che voi [[avreste capito#cpa]]. (capire)",
-          "Secondo la polizia, i ladri [[sarebbero fuggiti#cop]] in moto. (fuggire, news)",
-          "[[Dovresti#cop]] parlare con lui. (dovere, tu, advice)"
+          "Pare che il direttore (essere) [[sia#csp]] malato.",
+          "Si dice che i due attori (sposarsi) [[si siano sposati#csa]] in segreto l'anno scorso.",
+          "Sembra che nessuno (sentire) [[abbia sentito#csa]] niente quella notte.",
+          "Può darsi che domani (piovere) [[piova#csp]].",
+          "Pare che il museo (riaprire) [[riapra#csp]] a maggio."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase a che cosa esprime.",
+        "pairs": [
+          [
+            "{cop:Avrei} una domanda.",
+            "una richiesta gentile"
+          ],
+          [
+            "Il volo {cop:dovrebbe} atterrare alle nove.",
+            "una previsione"
+          ],
+          [
+            "Il ministro si {cpa:sarebbe dimesso}.",
+            "una notizia non confermata"
+          ],
+          [
+            "{fa:Avrà dimenticato} le chiavi.",
+            "un'ipotesi sul passato"
+          ],
+          [
+            "{fs:Saranno} le dieci.",
+            "un'ipotesi su adesso"
+          ],
+          [
+            "Al posto tuo {cpa:avrei detto} la verità.",
+            "un rimpianto o un consiglio tardivo"
+          ]
         ]
       }
     ]
@@ -198,134 +334,265 @@
     "words": [
       [
         "la fonte",
-        "source"
+        "la persona o il documento da cui viene una notizia"
       ],
       [
         "l'ipotesi",
-        "hypothesis"
+        "un'idea su quello che è successo o succederà, non ancora sicura"
       ],
       [
         "la previsione",
-        "forecast"
+        "quello che si pensa succederà in futuro"
       ],
       [
         "il sospetto",
-        "suspicion"
+        "l'idea che qualcuno abbia fatto qualcosa di male"
       ],
       [
         "l'indagine",
-        "investigation"
+        "il lavoro della polizia per scoprire la verità"
       ],
       [
         "il testimone",
-        "witness"
+        "chi ha visto un fatto e può raccontarlo"
+      ],
+      [
+        "il furto",
+        "il fatto di prendere una cosa che non è tua"
+      ],
+      [
+        "il ladro",
+        "chi ruba"
+      ],
+      [
+        "la cronaca",
+        "la parte del giornale con i fatti di ogni giorno"
+      ],
+      [
+        "il rimpianto",
+        "la tristezza per una cosa che non hai fatto"
       ],
       [
         "ipotizzare",
-        "to assume"
+        "fare un'ipotesi"
+      ],
+      [
+        "supporre",
+        "pensare che una cosa sia probabile"
       ],
       [
         "dimettersi",
-        "to resign"
-      ],
-      [
-        "smentire",
-        "to deny"
+        "lasciare un lavoro o un incarico importante"
       ],
       [
         "confermare",
-        "to confirm"
+        "dire che una notizia è vera"
+      ],
+      [
+        "smentire",
+        "dire che una notizia non è vera"
+      ],
+      [
+        "scomparire",
+        "non trovarsi più, sparire"
+      ],
+      [
+        "pentirsi",
+        "essere dispiaciuto di aver fatto qualcosa"
       ],
       [
         "presunto",
-        "alleged"
+        "che si pensa sia così, ma non è sicuro"
       ],
       [
-        "probabilmente",
-        "probably"
+        "chissà",
+        "chi lo sa, non si sa"
+      ],
+      [
+        "a quanto pare",
+        "a quanto sembra, secondo quello che si dice"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la fonte",
-            "source"
-          ],
-          [
-            "l'indagine",
-            "investigation"
-          ],
-          [
-            "il testimone",
-            "witness"
-          ],
-          [
-            "dimettersi",
-            "to resign"
+            "confermare",
+            "dire che una notizia è vera"
           ],
           [
             "smentire",
-            "to deny"
+            "dire che una notizia non è vera"
           ],
           [
-            "presunto",
-            "alleged"
+            "dimettersi",
+            "lasciare un lavoro o un incarico importante"
+          ],
+          [
+            "il testimone",
+            "chi ha visto un fatto e può raccontarlo"
+          ],
+          [
+            "il rimpianto",
+            "la tristezza per una cosa che non hai fatto"
+          ],
+          [
+            "scomparire",
+            "non trovarsi più, sparire"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Le [[previsioni]] del tempo {ip:dicono} che {fs:pioverà}. (forecasts)",
-          "La notizia non {pp:è stata} [[confermata#pp]]. (confirmed)",
-          "{ip:Ho} un [[sospetto]] su di lui. (suspicion)",
-          "{ip:È} [[probabilmente]] la soluzione migliore. (probably)"
+          {
+            "q": "La polizia {pp:ha aperto} un'___ sul furto.",
+            "options": [
+              "*indagine",
+              "ipotesi",
+              "previsione"
+            ]
+          },
+          {
+            "q": "Il giornale non {ip:dice} chi {ip:è} la sua ___.",
+            "options": [
+              "*fonte",
+              "cronaca",
+              "testimone"
+            ]
+          },
+          {
+            "q": "Il ___ colpevole {ip:dice} di essere innocente.",
+            "options": [
+              "*presunto",
+              "probabile",
+              "sospetto"
+            ]
+          },
+          {
+            "q": "Le ___ del tempo per domani non {ip:sono} buone.",
+            "options": [
+              "*previsioni",
+              "ipotesi",
+              "fonti"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "[[Chissà]] dove {fa:avrò messo} gli occhiali!",
+          "A quanto [[pare]], domani c'{ip:è} sciopero dei treni.",
+          "Non {ip:mi pento} di niente: non {ip:ho} [[rimpianti]].",
+          "Il [[ladro]] {pp:è entrato} dalla finestra del bagno.",
+          "{ip:Leggo} sempre la [[cronaca]] della mia città."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Secondo alcune fonti, l'assessore alla cultura si {cpa:sarebbe dimesso} ieri sera, dopo l'apertura di un'indagine sui lavori al teatro comunale. Il comune non {pp:ha} ancora {pp:confermato} né smentito la notizia. Un testimone {cpa:avrebbe visto} l'assessore uscire dal municipio con una scatola di documenti.",
-      "«{fa:Avrà avuto} le sue ragioni», {ip:commenta} un collega. «Io al suo posto {cpa:avrei parlato} subito con i giornalisti.» L'opposizione {ip:chiede} chiarezza: «Quando {fa:avremo letto} i documenti, {fs:sapremo} la verità. {cop:Dovrebbe} essere il sindaco a spiegare che cosa {pp:è successo}.»"
+      {
+        "h": "Mistero al museo civico"
+      },
+      "*Cronaca locale, martedì.* Il quadro più famoso del piccolo museo civico, un ritratto di donna del Seicento, {pp:è scomparso} nella notte tra domenica e lunedì. Se n'{pp:è accorto} il custode, ieri mattina, all'apertura.",
+      "Secondo i carabinieri, i ladri {cpa:sarebbero entrati} da una finestra del primo piano e {cpa:avrebbero portato} via il quadro senza toccare nient'altro. Un testimone {cpa:avrebbe visto} un furgone bianco fermo davanti al museo verso le tre di notte. Il quadro {cop:varrebbe} circa duecentomila euro.",
+      "In paese tutti {ip:hanno} un'ipotesi. «{fs:Saranno} ladri professionisti», {ip:dice} il barista. «{fa:Avranno studiato} il museo per settimane.» Una signora {ip:è} meno sicura: «Può darsi che {csp:sia} stato qualcuno del paese. Chissà…»",
+      "*Aggiornamento, ore 18.* Il mistero {ip:è} risolto, e non c'{ip:è} stato nessun furto. Il quadro {ip:si trova} in un laboratorio di restauro a Firenze. Il direttore del museo lo {tp:aveva mandato} a pulire venerdì, ma {tp:aveva dimenticato} di avvisare il custode. Il furgone bianco? {im:Era} quello del restauratore, arrivato in anticipo. «{cpa:Avrei dovuto} lasciare un biglietto», {pp:ha ammesso} il direttore. «Mi {ip:dispiace} per lo spavento.»"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The resignation has been officially confirmed.",
+            "q": "Chi si {pp:è accorto} che il quadro non c'{im:era} più?",
             "options": [
-              "True",
-              "*False"
+              "*il custode",
+              "il direttore",
+              "un carabiniere"
             ]
           },
           {
-            "q": "There is an investigation into work at the theatre.",
+            "q": "Secondo i carabinieri, da dove {cpa:sarebbero entrati} i ladri?",
             "options": [
-              "*True",
-              "False"
+              "*da una finestra del primo piano",
+              "dalla porta principale",
+              "dal tetto"
             ]
           },
           {
-            "q": "The colleague would have spoken to the journalists at once.",
+            "q": "Dov'{ip:era} davvero il quadro?",
             "options": [
-              "*True",
-              "False"
+              "*in un laboratorio di restauro",
+              "a casa del direttore",
+              "in un altro museo"
             ]
           },
           {
-            "q": "The opposition says the mayor should explain.",
+            "q": "Di chi {im:era} il furgone bianco?",
             "options": [
-              "*True",
-              "False"
+              "*del restauratore",
+              "dei ladri",
+              "del custode"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il quadro {ip:è} un ritratto del Seicento.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "I carabinieri {ip:sanno} con certezza come {ip:sono} entrati i ladri.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il barista {ip:pensa} che i ladri {csa:siano stati} professionisti.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Alla fine il quadro {pp:è stato} davvero rubato.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il direttore {tp:aveva dimenticato} di avvisare il custode.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme che esprimono una notizia non confermata o un'ipotesi.",
+        "questions": [
+          "Secondo i carabinieri, i ladri [[sarebbero entrati#cpa]] da una finestra.",
+          "Un testimone [[avrebbe visto#cpa]] un furgone bianco.",
+          "«[[Saranno#fs]] ladri professionisti», {ip:dice} il barista.",
+          "«[[Avranno studiato#fa]] il museo per settimane.»"
         ]
       }
     ]
@@ -333,51 +600,67 @@
   "listening": {
     "transcript": [
       [
-        "Vera",
-        "Che strano, Paolo non {pp:è} ancora {pp:arrivato}."
+        "Marta",
+        "{pp:Hai sentito}? {pp:Hanno suonato} alla porta. Chi {fs:sarà} a quest'ora?"
       ],
       [
-        "Gianni",
-        "{fa:Avrà perso} il treno. O {fa:sarà rimasto} in ufficio."
+        "Luca",
+        "Che ore {fs:saranno}… le undici e mezza? {fs:Sarà} il vicino del terzo piano. {fa:Avrà dimenticato} di nuovo le chiavi."
       ],
       [
-        "Vera",
-        "{cpa:Avrebbe potuto} telefonare, però."
+        "Marta",
+        "Non credo, stasera {ip:è} fuori città. Può darsi che {csp:sia} Giorgio."
       ],
       [
-        "Gianni",
-        "{fa:Avrà dimenticato} il telefono. {ip:Sai} com'{pp:è fatto}."
+        "Luca",
+        "Giorgio {ip:è} in camera sua, {ip:deve} essersi addormentato davanti al computer."
       ],
       [
-        "Vera",
-        "Io al posto suo {cpa:avrei mandato} almeno un messaggio."
+        "Marta",
+        "Allora {ip:apro} io… Luca! {ip:È} il ragazzo delle pizze! {ip:Dice} che le {pp:ha ordinate} Giorgio."
       ],
       [
-        "Gianni",
-        "Quando {fa:sarà arrivato}, glielo {fs:dirai} tu!"
+        "Luca",
+        "Tre pizze? {fa:Avrà pensato} anche a noi. Io al posto suo {cpa:avrei avvisato}, però!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Avrà#fa]] {fa:perso} il treno.",
-          "[[Avrebbe#cpa]] {cpa:potuto} telefonare, però.",
-          "Io al posto suo [[avrei#cpa]] {cpa:mandato} almeno un messaggio.",
-          "Quando [[sarà#fa]] {fa:arrivato}, glielo {fs:dirai} tu!"
+          "Chi [[sarà#fs]] a quest'ora?",
+          "[[Avrà dimenticato#fa]] di nuovo le chiavi.",
+          "Può darsi che [[sia#csp]] Giorgio.",
+          "Io al posto suo [[avrei avvisato#cpa]], però!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Does anyone know why Paolo is late?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "They…",
+            "q": "Perché non {ip:può} essere il vicino?",
             "options": [
-              "have received a message from him",
-              "*are only guessing",
-              "have spoken to his boss"
+              "*Stasera {ip:è} fuori città.",
+              "{ip:Ha} sempre le chiavi.",
+              "{ip:Dorme} già."
+            ]
+          },
+          {
+            "q": "Chi {pp:ha suonato} alla porta?",
+            "options": [
+              "*il ragazzo delle pizze",
+              "Giorgio",
+              "il vicino"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:pensa} Luca delle tre pizze?",
+            "options": [
+              "*Giorgio {fa:avrà pensato} anche a loro.",
+              "{ip:Sono} un errore del ristorante.",
+              "{ip:Sono} tutte per Giorgio."
             ]
           }
         ]
@@ -388,43 +671,451 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione per fare ipotesi.",
+        "open": true,
         "questions": [
           {
-            "q": "He must have forgotten the keys.",
-            "a": [
-              "Avrà dimenticato le chiavi.",
-              "Lui avrà dimenticato le chiavi."
+            "q": "Un amico non {ip:risponde} al telefono da due giorni. Che cosa gli {fa:sarà successo}? Fai tre ipotesi."
+          },
+          {
+            "q": "Pensa a una persona che {ip:vedi} spesso per strada. Chi {fs:sarà}? Che lavoro {fs:farà}?"
+          },
+          {
+            "q": "Qual {ip:è} l'ultima volta che {pp:hai perso} qualcosa di importante? Dove l'{im:avevi messo}?"
+          },
+          {
+            "q": "Ti {ip:fidi} delle notizie che {ip:leggi} sui social? Come {ip:capisci} se una notizia {ip:è} vera?"
+          },
+          {
+            "q": "{ip:Hai} un rimpianto? Che cosa {cpa:avresti fatto} di diverso?"
+          },
+          {
+            "q": "Secondo te, come {fs:sarà} la tua città tra vent'anni?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa sarà successo?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni ipotesi all'immagine giusta.",
+        "pictures": [
+          "A — Un uomo dorme su una panchina della stazione con la valigia accanto",
+          "B — Una cucina in disordine: piatti sporchi, una torta a metà, bicchieri ovunque",
+          "C — Una ragazza sorride al telefono e salta di gioia",
+          "D — Un'auto ferma sul bordo della strada con il cofano aperto e il fumo"
+        ],
+        "pairs": [
+          [
+            "{fa:Avrà perso} l'ultimo treno.",
+            "immagine A"
+          ],
+          [
+            "Ci {fa:sarà stata} una festa.",
+            "immagine B"
+          ],
+          [
+            "{fa:Avrà ricevuto} una bella notizia.",
+            "immagine C"
+          ],
+          [
+            "Il motore si {fa:sarà rotto}.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il [fa:futuro anteriore].",
+        "questions": [
+          "Mara non {pp:è venuta} a lezione: (ammalarsi) [[si sarà ammalata#fa]].",
+          "Il bambino {ip:ha} il viso pieno di cioccolato: (mangiare) [[avrà mangiato#fa]] la torta.",
+          "La casa {ip:è} buia: i vicini (partire) [[saranno partiti#fa]] per le vacanze.",
+          "{ip:Sei} così abbronzato! (Stare) [[Sarai stato|Sarai stata#fa]] al mare."
+        ]
+      },
+      {
+        "h": "Chissà…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Trasforma le domande in dubbi con il futuro.",
+        "questions": [
+          "Che ore {ip:sono}? → Che ore [[saranno#fs]]?",
+          "Dove {pp:ho lasciato} il portafoglio? → Dove [[avrò lasciato#fa]] il portafoglio?",
+          "Quanti anni {ip:ha} quella signora? → Quanti anni [[avrà#fs]] quella signora?",
+          "Perché non {pp:è venuto}? → Perché non [[sarà venuto#fa]]?"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Guarda una persona intorno a te (o pensa a una persona sul treno). Chi {fs:sarà}? Dove {fs:andrà}? Che cosa {fa:avrà fatto} oggi?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Le mie ipotesi:"
+          }
+        ]
+      },
+      {
+        "h": "Deve essere… deve aver…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi l'ipotesi con *dovere* + infinito.",
+        "questions": [
+          "{fs:Sarà} molto ricco. → [[Deve#ip]] essere molto ricco.",
+          "{fa:Avrà lavorato} tutta la notte. → Deve [[aver lavorato|avere lavorato]] tutta la notte.",
+          "{fa:Saranno usciti} presto. → [[Devono#ip]] essere usciti presto.",
+          "{fa:Avrà capito} tutto. → Deve [[aver capito|avere capito]] tutto."
+        ]
+      },
+      {
+        "h": "Le notizie del giorno"
+      },
+      {
+        "text": [
+          "**Titoli di oggi.** Roma: un attore famoso {cpa:avrebbe comprato} un castello in Umbria. — Milano: chiude lo storico cinema del centro. — Napoli: un turista {cpa:avrebbe trovato} una moneta romana sulla spiaggia. — Torino: domani sciopero dei tram dalle 8 alle 17."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi i titoli. La notizia {ip:è} confermata o non ancora confermata?",
+        "questions": [
+          {
+            "q": "Un attore famoso {pp:ha comprato} un castello.",
+            "options": [
+              "*non ancora confermata",
+              "confermata"
             ]
           },
           {
-            "q": "It must be about six.",
-            "a": [
-              "Saranno le sei."
+            "q": "Lo storico cinema di Milano chiude.",
+            "options": [
+              "*confermata",
+              "non ancora confermata"
             ]
           },
           {
-            "q": "I would have accepted.",
-            "a": [
-              "Avrei accettato.",
-              "Io avrei accettato."
+            "q": "Un turista {pp:ha trovato} una moneta romana.",
+            "options": [
+              "*non ancora confermata",
+              "confermata"
             ]
           },
           {
-            "q": "You should have talked to him. (informal)",
-            "a": [
-              "Avresti dovuto parlargli.",
-              "Avresti dovuto parlare con lui.",
-              "Gli avresti dovuto parlare."
-            ]
-          },
-          {
-            "q": "I knew you would understand. (informal)",
-            "a": [
-              "Sapevo che avresti capito."
+            "q": "Domani c'{ip:è} sciopero dei tram a Torino.",
+            "options": [
+              "*confermata",
+              "non ancora confermata"
             ]
           }
         ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Sei un giornalista: scrivi la notizia con il condizionale di cronaca.",
+        "questions": [
+          "Secondo la polizia, il ladro (fuggire) [[sarebbe fuggito#cpa]] in bicicletta.",
+          "Secondo alcune fonti, la cantante (aspettare) [[aspetterebbe#cop]] un bambino.",
+          "Secondo i testimoni, l'incendio (cominciare) [[sarebbe cominciato#cpa]] in cucina.",
+          "Secondo il giornale, la squadra (volere) [[vorrebbe#cop]] cambiare allenatore."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Indicativo, condizionale o congiuntivo? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Pare che il ministro ___ dimettersi.",
+            "options": [
+              "*{csp:voglia}",
+              "{ip:vuole}"
+            ]
+          },
+          {
+            "q": "Secondo il ministro, la crisi ___ presto.",
+            "options": [
+              "*{cop:finirebbe}",
+              "{csp:finisca}"
+            ]
+          },
+          {
+            "q": "Si dice che quel ristorante ___ il migliore della città.",
+            "options": [
+              "*{csp:sia}",
+              "{ip:è}"
+            ]
+          },
+          {
+            "q": "{ip:È} ufficiale: il museo ___ domani.",
+            "options": [
+              "*{ip:riapre}",
+              "{cop:riaprirebbe}"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Detto con garbo"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase diretta alla frase più morbida.",
+        "pairs": [
+          [
+            "Voglio un caffè.",
+            "{cop:Vorrei} un caffè."
+          ],
+          [
+            "Non lo so.",
+            "Non {cop:saprei}."
+          ],
+          [
+            "Ho una domanda.",
+            "{cop:Avrei} una domanda."
+          ],
+          [
+            "Il treno arriva alle tre.",
+            "Il treno {cop:dovrebbe} arrivare alle tre."
+          ],
+          [
+            "Devi riposarti.",
+            "{cop:Dovresti} riposarti."
+          ]
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Non risponde: avrà uscito.",
+            "a": [
+              "Non risponde: sarà uscito."
+            ]
+          },
+          {
+            "q": "Pare che il quadro è falso.",
+            "a": [
+              "Pare che il quadro sia falso."
+            ]
+          },
+          {
+            "q": "Dove avrei messo le chiavi?",
+            "a": [
+              "Dove avrò messo le chiavi?"
+            ]
+          },
+          {
+            "q": "Secondo la polizia, i ladri sarebbero entrato dalla finestra.",
+            "a": [
+              "Secondo la polizia, i ladri sarebbero entrati dalla finestra."
+            ]
+          },
+          {
+            "q": "Deve avere uscito presto.",
+            "a": [
+              "Deve essere uscito presto.",
+              "Dev'essere uscito presto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "avrò / dove / chiavi / messo / le",
+            "a": [
+              "Dove avrò messo le chiavi?"
+            ]
+          },
+          {
+            "q": "che / sia / pare / falso / il quadro",
+            "a": [
+              "Pare che il quadro sia falso."
+            ]
+          },
+          {
+            "q": "sarebbero / i ladri / dalla finestra / entrati",
+            "a": [
+              "I ladri sarebbero entrati dalla finestra."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Futuro e condizionale si somigliano molto nella persona *noi*: *parleremo* (futuro) ha una *m*, *parleremmo* (condizionale) ne ha due. Quando parli, tieni la *mm* un po' più lunga: *saremo / saremmo, avremo / avremmo*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Futuro o condizionale? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Domani ___ alle otto, come sempre.",
+            "options": [
+              "*{fs:partiremo}",
+              "{cop:partiremmo}"
+            ]
+          },
+          {
+            "q": "Con più soldi ___ subito per il Giappone.",
+            "options": [
+              "*{cop:partiremmo}",
+              "{fs:partiremo}"
+            ]
+          },
+          {
+            "q": "Se tu {csi:fossi} d'accordo, ___ felici.",
+            "options": [
+              "*{cop:saremmo}",
+              "{fs:saremo}"
+            ]
+          },
+          {
+            "q": "Quando {fa:avremo finito}, ___ finalmente liberi.",
+            "options": [
+              "*{fs:saremo}",
+              "{cop:saremmo}"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So fare un'ipotesi su adesso con il futuro: *Sarà a casa.*",
+          "So fare un'ipotesi sul passato con il [fa:futuro anteriore]: *Avrà perso il treno.*",
+          "So dire quanto sono sicuro: *deve essere, sarà, forse, può darsi che…*",
+          "So riconoscere una notizia non confermata nel giornale.",
+          "So dire da dove viene una notizia: *secondo, a quanto pare, pare che…*",
+          "So parlare con garbo: *Avrei una domanda, Non saprei.*"
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una parete di museo vuota con quattro ganci di ferro, dove prima c'era un quadro"
+      },
+      {
+        "text": [
+          "**Il furto della Gioconda**",
+          "La mattina del 21 agosto 1911 la Gioconda di Leonardo {pr:scomparve} dal museo del Louvre, a Parigi. Il museo {im:era} chiuso per pulizie e per più di un giorno nessuno si {pr:accorse} di niente: tutti {im:pensavano} che il quadro {csi:fosse} dal fotografo.",
+          "La polizia {pr:fece} molte ipotesi. Tra le persone interrogate {pr:ci furono} anche il poeta Guillaume Apollinaire e il giovane Pablo Picasso, che però non {im:avevano} niente a che fare con il furto.",
+          "Per più di due anni il quadro {pr:restò} nascosto in una stanza di Parigi. Nel dicembre del 1913 un uomo {pr:portò} la Gioconda a Firenze e {pr:cercò} di venderla a un antiquario, che {pr:chiamò} subito il direttore degli Uffizi. Il ladro {im:era} Vincenzo Peruggia, un italiano che {tp:aveva lavorato} al Louvre. {pr:Disse} di averla presa per riportarla in Italia.",
+          "Prima di tornare a Parigi, la Gioconda {pr:fu} esposta per qualche giorno a Firenze e in altre città italiane. Si dice che proprio questo furto l'{csa:abbia resa} il quadro più famoso del mondo."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La Gioconda {pr:scomparve} nel 1911.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il furto {pr:fu} scoperto subito.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Picasso {pr:fu} interrogato dalla polizia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il ladro {pr:portò} il quadro a Roma.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Peruggia {tp:aveva lavorato} al Louvre.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Perché all'inizio nessuno si {pr:preoccupò}?",
+            "options": [
+              "*Tutti {im:pensavano} che il quadro {csi:fosse} dal fotografo.",
+              "Il museo {im:aveva} una copia.",
+              "Il direttore {im:era} in vacanza."
+            ]
+          },
+          {
+            "q": "Dove {pr:restò} nascosto il quadro per due anni?",
+            "options": [
+              "*a Parigi",
+              "a Firenze",
+              "in Svizzera"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Conosci un mistero famoso del tuo paese? Racconta che cosa {pr:successe} e quali ipotesi si {ip:fanno} ancora oggi.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi un breve articolo di cronaca su un fatto strano successo nella tua città (vero o inventato).",
+        "cues": [
+          "Che cosa {ip:è} successo, dove e quando?",
+          "Che cosa {ip:dicono} le fonti? (*Secondo…, a quanto pare…*) Usa il condizionale di cronaca.",
+          "Quali ipotesi {ip:fanno} le persone? (*Sarà…, Avrà…, Può darsi che…*)",
+          "Come {ip:finisce} la storia, o che cosa non {ip:sappiamo} ancora?"
+        ],
+        "start": "",
+        "model": "Mucche in piazza\nIeri mattina gli abitanti di un piccolo paese delle Alpi si sono svegliati con una sorpresa: cinque mucche passeggiavano tranquille nella piazza del municipio.\nSecondo il sindaco, gli animali sarebbero scappati da una fattoria vicina durante la notte. Un testimone avrebbe visto il cancello aperto verso le due.\nIn paese tutti hanno un'ipotesi. «Qualcuno avrà dimenticato di chiudere il cancello», dice il panettiere. Un ragazzo pensa che sia stato uno scherzo: «Può darsi che degli amici abbiano voluto fare una sorpresa al contadino.»\nVerso mezzogiorno il contadino è arrivato a prendere le sue mucche. A quanto pare, non era per niente divertito."
       }
     ]
   }

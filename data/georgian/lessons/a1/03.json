@@ -1,0 +1,444 @@
+{
+  "title": "პური და ჩაი",
+  "translation": "Bread and tea",
+  "topics": "The tight consonants კ ტ პ ჭ წ and their pairs ქ თ ფ ჩ ც",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "აბგდევთიკლმნოპრსტუფქჩცწჭხ",
+  "grammar": {
+    "explain": [
+      "This is the lesson that makes Georgian sound Georgian. Five sounds come in pairs: one with a puff of air, as in English, and one *tight*, with no air at all. In Latin letters the tight one gets an apostrophe: *k'*, *t'*, *p'*, *ch'*, *ts'*.",
+      "How to make a tight sound: close your throat as if you were holding your breath, say the consonant, and let it go with a small pop. Put your hand in front of your mouth: with ქ you feel air, with კ you don't.",
+      {
+        "table": {
+          "head": [
+            "with air",
+            "tight, no air",
+            "example"
+          ],
+          "rows": [
+            [
+              "ქ *k*",
+              "კ *k'*",
+              "ქალაქი *kalaki* (city) · კატა *k'at'a* (cat)"
+            ],
+            [
+              "თ *t*",
+              "ტ *t'*",
+              "თბილისი *tbilisi* · ტბა *t'ba* (lake)"
+            ],
+            [
+              "ფ *p*",
+              "პ *p'*",
+              "ფული *puli* (money) · პური *p'uri* (bread)"
+            ],
+            [
+              "ჩ *ch*",
+              "ჭ *ch'*",
+              "ჩაი *chai* (tea) · ჭიქა *ch'ika* (glass)"
+            ],
+            [
+              "ც *ts*",
+              "წ *ts'*",
+              "ცა *tsa* (sky) · წიგნი *ts'igni* (book)"
+            ]
+          ]
+        }
+      },
+      "The difference changes the meaning, so it's worth practising: but don't worry if it takes time. Georgians will understand you anyway.",
+      {
+        "h": "With air"
+      },
+      {
+        "letters": [
+          {
+            "letter": "ქ",
+            "latin": "k",
+            "say": "like the k in kit, with a puff of air",
+            "word": "ქალაქი",
+            "word_latin": "kalaki",
+            "meaning": "city"
+          },
+          {
+            "letter": "ფ",
+            "latin": "p",
+            "say": "like the p in pen, with a puff of air",
+            "word": "ფული",
+            "word_latin": "puli",
+            "meaning": "money"
+          },
+          {
+            "letter": "ჩ",
+            "latin": "ch",
+            "say": "like the ch in church, with a puff of air",
+            "word": "ჩაი",
+            "word_latin": "chai",
+            "meaning": "tea"
+          },
+          {
+            "letter": "ც",
+            "latin": "ts",
+            "say": "like the ts in cats, with a puff of air",
+            "word": "ცა",
+            "word_latin": "tsa",
+            "meaning": "sky"
+          }
+        ],
+        "lang": "ka"
+      },
+      {
+        "h": "Tight, with no air"
+      },
+      {
+        "letters": [
+          {
+            "letter": "კ",
+            "latin": "k'",
+            "say": "a tight k, with no air: hold your breath and let it pop",
+            "word": "კატა",
+            "word_latin": "k'at'a",
+            "meaning": "cat"
+          },
+          {
+            "letter": "ტ",
+            "latin": "t'",
+            "say": "a tight t, with no air",
+            "word": "ტბა",
+            "word_latin": "t'ba",
+            "meaning": "lake"
+          },
+          {
+            "letter": "პ",
+            "latin": "p'",
+            "say": "a tight p, with no air",
+            "word": "პური",
+            "word_latin": "p'uri",
+            "meaning": "bread"
+          },
+          {
+            "letter": "ჭ",
+            "latin": "ch'",
+            "say": "a tight ch, with no air",
+            "word": "ჭიქა",
+            "word_latin": "ch'ika",
+            "meaning": "glass (for drinking)"
+          },
+          {
+            "letter": "წ",
+            "latin": "ts'",
+            "say": "a tight ts, with no air",
+            "word": "წიგნი",
+            "word_latin": "ts'igni",
+            "meaning": "book"
+          }
+        ],
+        "lang": "ka"
+      },
+      {
+        "h": "Try reading"
+      },
+      "Read each word aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "პური",
+            "p'uri",
+            "bread"
+          ],
+          [
+            "ჩაი",
+            "chai",
+            "tea"
+          ],
+          [
+            "კატა",
+            "k'at'a",
+            "cat"
+          ],
+          [
+            "ქალაქი",
+            "kalaki",
+            "city"
+          ],
+          [
+            "ფული",
+            "puli",
+            "money"
+          ],
+          [
+            "ცა",
+            "tsa",
+            "sky"
+          ],
+          [
+            "წიგნი",
+            "ts'igni",
+            "book"
+          ],
+          [
+            "ჭიქა",
+            "ch'ika",
+            "glass"
+          ]
+        ],
+        "lang": "ka"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "With air or tight? Choose the right letter.",
+        "questions": [
+          {
+            "q": "*k* (with air)",
+            "options": [
+              "*ქ",
+              "კ"
+            ]
+          },
+          {
+            "q": "*k'* (tight)",
+            "options": [
+              "*კ",
+              "ქ"
+            ]
+          },
+          {
+            "q": "*t'* (tight)",
+            "options": [
+              "*ტ",
+              "თ"
+            ]
+          },
+          {
+            "q": "*p* (with air)",
+            "options": [
+              "*ფ",
+              "პ"
+            ]
+          },
+          {
+            "q": "*ch'* (tight)",
+            "options": [
+              "*ჭ",
+              "ჩ"
+            ]
+          },
+          {
+            "q": "*ts* (with air)",
+            "options": [
+              "*ც",
+              "წ"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each letter to its sound.",
+        "pairs": [
+          [
+            "ქ",
+            "k"
+          ],
+          [
+            "კ",
+            "k'"
+          ],
+          [
+            "ტ",
+            "t'"
+          ],
+          [
+            "თ",
+            "t"
+          ],
+          [
+            "ფ",
+            "p"
+          ],
+          [
+            "პ",
+            "p'"
+          ]
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each letter to its sound.",
+        "pairs": [
+          [
+            "ჩ",
+            "ch"
+          ],
+          [
+            "ჭ",
+            "ch'"
+          ],
+          [
+            "ც",
+            "ts"
+          ],
+          [
+            "წ",
+            "ts'"
+          ],
+          [
+            "ხ",
+            "kh"
+          ],
+          [
+            "გ",
+            "g"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "პური",
+        "p'uri — bread"
+      ],
+      [
+        "ჩაი",
+        "chai — tea"
+      ],
+      [
+        "კატა",
+        "k'at'a — cat"
+      ],
+      [
+        "ქალაქი",
+        "kalaki — city"
+      ],
+      [
+        "ფული",
+        "puli — money"
+      ],
+      [
+        "ცა",
+        "tsa — sky"
+      ],
+      [
+        "წიგნი",
+        "ts'igni — book"
+      ],
+      [
+        "ჭიქა",
+        "ch'ika — glass"
+      ],
+      [
+        "ტბა",
+        "t'ba — lake"
+      ],
+      [
+        "კარი",
+        "k'ari — door"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters (with or without the apostrophes).",
+        "keys": "",
+        "questions": [
+          {
+            "q": "პური",
+            "a": [
+              "p'uri",
+              "puri"
+            ]
+          },
+          {
+            "q": "ჩაი",
+            "a": [
+              "chai"
+            ]
+          },
+          {
+            "q": "კატა",
+            "a": [
+              "k'at'a",
+              "kata"
+            ]
+          },
+          {
+            "q": "ქალაქი",
+            "a": [
+              "kalaki"
+            ]
+          },
+          {
+            "q": "წიგნი",
+            "a": [
+              "ts'igni",
+              "tsigni"
+            ]
+          },
+          {
+            "q": "ფული",
+            "a": [
+              "puli"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "პური",
+            "bread"
+          ],
+          [
+            "ჩაი",
+            "tea"
+          ],
+          [
+            "კატა",
+            "cat"
+          ],
+          [
+            "ქალაქი",
+            "city"
+          ],
+          [
+            "წიგნი",
+            "book"
+          ],
+          [
+            "ფული",
+            "money"
+          ]
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Georgian. Mind the tight letters!",
+        "questions": [
+          "bread (*p'uri*) → [[პური]]",
+          "tea (*chai*) → [[ჩაი]]",
+          "cat (*k'at'a*) → [[კატა]]",
+          "sky (*tsa*) → [[ცა]]",
+          "lake (*t'ba*) → [[ტბა]]"
+        ]
+      }
+    ]
+  }
+}

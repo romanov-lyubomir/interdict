@@ -1,195 +1,398 @@
 {
   "title": "Pur avendo studiato, non {pr:superò} l'esame",
-  "translation": "Despite having studied, he didn't pass the exam",
-  "topics": "Infinitive, gerund and participle in shortened clauses, keeping track of the subject",
+  "translation": "",
+  "topics": "Le forme implicite a livello avanzato: chi fa l'azione, il gerundio e il participio con un soggetto proprio, i participi diventati preposizioni (*visto, dato, fatta eccezione per*), *a forza di, pur di, anziché* + infinito, i pronomi nelle forme passate, *mettersi a, finire per, non fare che*; università, esami e fallimenti",
   "grammar": {
     "explain": [
+      "Conosci il gerundio presente e passato, *pur* + gerundio, il participio da solo, *a, nel, dopo* + infinito e *tanto da*. A questo livello impari a controllare chi fa l'azione, a usare il participio e il gerundio con un soggetto proprio, i participi diventati preposizioni, altre costruzioni con l'infinito e i pronomi nelle forme passate.",
       {
-        "h": "Who is doing the action?"
-      },
-      "A gerund or an infinitive has no subject of its own, so it takes that of the main verb. This rule prevents a very common mistake.",
-      {
-        "table": {
-          "head": [
-            "Wrong",
-            "Right"
-          ],
-          "rows": [
-            [
-              "Entrando in casa, il telefono squillò.",
-              "Mentre {im:entravo} in casa, il telefono squillò."
-            ],
-            [
-              "Essendo in ritardo, il capo si {pp:è arrabbiato} con me.",
-              "Poiché {im:ero} in ritardo, il capo si {pp:è arrabbiato} con me."
-            ]
-          ]
-        }
-      },
-      "The first wrong sentence says that the telephone was entering the house.",
-      {
-        "h": "The participle can have its own subject"
-      },
-      "Unlike the gerund, the absolute participle can have a subject that differs from the main verb. It comes after the participle: *Partito il treno, {pr:tornammo} a casa*. A gerund can do this only in formal style: *Essendo il treno partito, {pr:tornammo} a casa*.",
-      {
-        "h": "One idea, several shortened forms"
-      },
-      {
-        "table": {
-          "head": [
-            "Meaning",
-            "Form",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Time",
-              "nel + infinitive",
-              "Nel vederla, {pr:sorrise}."
-            ],
-            [
-              "Time",
-              "absolute participle",
-              "Finita la cena, {pr:uscimmo}."
-            ],
-            [
-              "Cause",
-              "gerund",
-              "Non avendo soldi, {pr:rinunciò}."
-            ],
-            [
-              "Cause",
-              "per + past infinitive",
-              "{pr:Fu licenziato} per aver mentito."
-            ],
-            [
-              "Condition",
-              "a + infinitive",
-              "A pensarci bene, {ip:hai} ragione."
-            ],
-            [
-              "Condition",
-              "gerund",
-              "Partendo ora, {cop:arriveresti} in tempo."
-            ],
-            [
-              "Concession",
-              "pur + gerund",
-              "Pur avendo studiato, non {pr:superò} l'esame."
-            ],
-            [
-              "Result",
-              "da + infinitive",
-              "{ip:È} così stanco da non reggersi in piedi."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "The tense of the shortened form"
-      },
-      "The simple form shows that the action happens at the same time. The compound form shows that it comes first.",
-      {
-        "table": {
-          "head": [
-            "Same time",
-            "Before"
-          ],
-          "rows": [
-            [
-              "Studiando, ascolto musica.",
-              "Avendo studiato, {pp:ho superato} l'esame."
-            ],
-            [
-              "{ip:Credo} di capire.",
-              "{ip:Credo} di aver capito."
-            ],
-            [
-              "Prima di partire",
-              "Dopo essere partito"
-            ]
-          ]
-        }
-      },
-      "With a past infinitive, *essere* verbs keep their agreement with the subject: *Dopo essere arrivat**a**, Anna {pr:telefonò}.*"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Chi fa l'azione?",
+              "head": [
+                "✗ frase sbagliata",
+                "✓ frase giusta",
+                "perché"
+              ],
+              "rows": [
+                [
+                  "Entrando in casa, il telefono squillò.",
+                  "Mentre {im:entravo} in casa, il telefono {pr:squillò}.",
+                  "il telefono non entrava in casa"
+                ],
+                [
+                  "Essendo in ritardo, il capo si è arrabbiato.",
+                  "Poiché {im:ero} in ritardo, il capo si {pp:è arrabbiato}.",
+                  "in ritardo ero io, non il capo"
+                ],
+                [
+                  "Dopo aver mangiato, il cameriere ci portò il conto.",
+                  "Dopo aver mangiato, {pr:chiedemmo} il conto.",
+                  "l'infinito prende il soggetto della frase"
+                ],
+                [
+                  "",
+                  "Sbagliando s'{ip:impara}.",
+                  "giusta: il soggetto è *chiunque*"
+                ]
+              ]
+            },
+            "note": "Il gerundio e l'infinito non hanno un soggetto loro: prendono quello del verbo principale. Se il soggetto è diverso, usa una frase con il verbo coniugato (*mentre, poiché, dopo che*) o il participio con il suo soggetto."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Gerundio e participio con un soggetto proprio",
+              "head": [
+                "forma",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "participio + soggetto",
+                  "Partito il treno, {pr:tornammo} a casa.",
+                  "il soggetto va dopo il participio"
+                ],
+                [
+                  "participio + soggetto",
+                  "Finite le lezioni, gli studenti {pr:uscirono}.",
+                  "il participio si accorda con il suo soggetto"
+                ],
+                [
+                  "gerundio + soggetto",
+                  "Essendo il treno partito, {pr:tornammo} a casa.",
+                  "molto formale"
+                ],
+                [
+                  "gerundio dei verbi del tempo",
+                  "Piovendo, {pr:restammo} a casa.",
+                  "*piovere* non ha soggetto"
+                ],
+                [
+                  "formule fisse",
+                  "Stando così le cose, {ip:è} meglio rinunciare.",
+                  "= se le cose stanno così"
+                ],
+                [
+                  "formule fisse",
+                  "Permettendolo il tempo, {fs:partiremo} domani.",
+                  "= se il tempo lo permette (formale)"
+                ]
+              ]
+            },
+            "note": "Il participio con un soggetto proprio è normale nello scritto; il gerundio con un soggetto proprio è raro e molto formale. In tutti e due i casi il soggetto viene dopo la forma verbale."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Participi diventati preposizioni",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*visto, dato* + nome",
+                  "considerando",
+                  "Visto il ritardo, {pp:abbiamo preso} un taxi."
+                ],
+                [
+                  "*visto che, dato che*",
+                  "poiché",
+                  "Dato che {ip:piove}, {ip:resto} a casa."
+                ],
+                [
+                  "*considerato, tenuto conto di*",
+                  "considerando (formale)",
+                  "Tenuto conto dei risultati, la commissione {pp:ha deciso} di continuare."
+                ],
+                [
+                  "*fatta eccezione per*",
+                  "tranne",
+                  "Tutti {pp:hanno superato} l'esame, fatta eccezione per due studenti."
+                ],
+                [
+                  "*detto questo, ciò detto*",
+                  "dopo aver detto questo",
+                  "Detto questo, {ip:passo} alla seconda parte."
+                ],
+                [
+                  "*a partire da*",
+                  "da… in poi",
+                  "A partire da lunedì, l'aula {fs:resterà} chiusa."
+                ]
+              ]
+            },
+            "note": "*Visto, dato, considerato* si accordano di solito con il nome che segue (*vista la situazione, date le circostanze*); *visto che* e *dato che* non cambiano mai."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Preposizioni + infinito",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*a forza di*",
+                  "facendo una cosa molte volte",
+                  "A forza di provare, ce l'{pp:ha fatta}."
+                ],
+                [
+                  "*pur di*",
+                  "per ottenere qualcosa, a qualunque costo",
+                  "Pur di non ripetere l'esame, {pp:ha studiato} giorno e notte."
+                ],
+                [
+                  "*invece di, anziché*",
+                  "al posto di",
+                  "Anziché studiare, {pp:è uscito}."
+                ],
+                [
+                  "*oltre a*",
+                  "non solo",
+                  "Oltre a studiare, {ip:lavora} in un bar."
+                ],
+                [
+                  "*fino a*",
+                  "al punto di",
+                  "{pp:Ha studiato} fino a sentirsi male."
+                ]
+              ]
+            },
+            "note": "Tutte queste forme hanno lo stesso soggetto del verbo principale. *Pur di* mostra quanto si è disposti a fare: *{cop:Farebbe} di tutto pur di laurearsi.* Non confonderlo con *pur* + gerundio (*pur avendo studiato* = anche se ha studiato)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I pronomi nelle forme passate",
+              "head": [
+                "forma",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "infinito passato + pronome",
+                  "Dopo averlo letto, l'{pp:ho restituito}.",
+                  "il pronome va dopo *avere*"
+                ],
+                [
+                  "infinito passato riflessivo",
+                  "Dopo essersi laureata, Anna {pp:è partita}.",
+                  "il participio si accorda con il soggetto"
+                ],
+                [
+                  "gerundio passato + pronomi",
+                  "Avendoglielo promesso, non {ip:posso} tirarmi indietro.",
+                  "tutti i pronomi dopo *avendo*"
+                ],
+                [
+                  "gerundio passato riflessivo",
+                  "Essendosi accorto dell'errore, {pr:corresse} il compito.",
+                  ""
+                ],
+                [
+                  "con *ne*",
+                  "Dopo essersene andato, {pp:ha chiamato}.",
+                  "*essersene*: *si* + *ne*"
+                ],
+                [
+                  "participio da solo + pronome",
+                  "Rimessosi a studiare, si {pr:laureò}.",
+                  "il pronome si attacca al participio"
+                ]
+              ]
+            },
+            "note": "Nelle forme composte i pronomi si attaccano all'ausiliare, non al participio: *averlo letto* (✗ *aver lettolo*). Con il participio da solo, invece, si attaccano al participio: *rimessosi, salutatala*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Verbi + infinito che descrivono l'azione",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*mettersi a*",
+                  "cominciare, spesso all'improvviso",
+                  "Si {pp:è messo} a piangere."
+                ],
+                [
+                  "*tornare a*",
+                  "fare di nuovo",
+                  "{pp:È tornata} a studiare dopo dieci anni."
+                ],
+                [
+                  "*finire per (col)*",
+                  "alla fine, anche senza volerlo",
+                  "{fs:Finirai} per abituarti."
+                ],
+                [
+                  "*arrivare a*",
+                  "spingersi fino a un eccesso",
+                  "{pp:È arrivato} a copiare all'esame."
+                ],
+                [
+                  "*stare a*",
+                  "perdere tempo a, rimanere a",
+                  "Non {imv:stare} a preoccuparti."
+                ],
+                [
+                  "*non fare che*",
+                  "fare continuamente solo questo",
+                  "Non {ip:fa} che lamentarsi."
+                ]
+              ]
+            },
+            "note": "Il primo verbo dice *come* va l'azione (comincia, si ripete, finisce, arriva a un eccesso); l'infinito dice *quale* azione."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Which sentence is correct?",
+        "prompt": "Quale frase è corretta?",
         "questions": [
           {
-            "q": "Choose one.",
+            "q": "Il telefono e io:",
             "options": [
-              "Tornando a casa, la pioggia mi {ip:ha} bagnato.",
-              "*Mentre {im:tornavo} a casa, la pioggia mi {ip:ha} bagnato."
+              "*Mentre entravo in casa, il telefono squillò.",
+              "Entrando in casa, il telefono squillò."
             ]
           },
           {
-            "q": "Choose one.",
+            "q": "Il capo e io:",
             "options": [
-              "*Partito il treno, {pr:tornammo} a casa.",
-              "Partendo il treno, {pr:tornammo} a casa."
+              "*Poiché ero in ritardo, il capo si è arrabbiato.",
+              "Essendo in ritardo, il capo si è arrabbiato."
             ]
           },
           {
-            "q": "Choose one.",
+            "q": "La lezione e gli studenti:",
             "options": [
-              "*Avendo perso il treno, Marco {pp:è arrivato} tardi.",
-              "Avendo perso il treno, il capo si {pp:è arrabbiato} con Marco."
+              "*Finita la lezione, gli studenti uscirono.",
+              "Finendo la lezione, gli studenti uscirono."
             ]
           },
           {
-            "q": "He was fired for lying.",
+            "q": "Noi e il conto:",
             "options": [
-              "*{pr:Fu licenziato} per aver mentito.",
-              "{pr:Fu licenziato} per mentendo."
+              "*Dopo aver mangiato, chiedemmo il conto.",
+              "Dopo aver mangiato, il cameriere ci portò il conto."
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the shortened form of the verb in brackets.",
+        "prompt": "Riscrivi con il participio da solo.",
         "questions": [
-          "Pur [[avendo studiato]], non {pr:superò} l'esame. (studiare, before)",
-          "[[Finita]] la cena, {pr:uscimmo}. (finire)",
-          "[[Nel]] vederla, {pr:sorrise}.",
-          "A [[pensarci]] bene, {ip:hai} ragione. (pensare + ci)",
-          "{ip:È} così stanco [[da]] non reggersi in piedi.",
-          "{ip:Credo} di [[aver capito]]. (capire, before)"
+          "Dopo che {pp:sono finite} le lezioni, gli studenti {pp:sono usciti}. → [[Finite]] le lezioni, gli studenti {pp:sono usciti}.",
+          "Quando {pp:è partito} il treno, {pp:siamo tornati} a casa. → [[Partito]] il treno, {pp:siamo tornati} a casa.",
+          "Dopo che {pp:ha detto} questo, {pp:è uscito}. → [[Detto]] questo, {pp:è uscito}.",
+          "Quando {pp:hanno spento} le luci, il film {pp:è cominciato}. → [[Spente]] le luci, il film {pp:è cominciato}."
         ]
       },
       {
-        "type": "write",
-        "prompt": "Shorten the clause, using the form in brackets.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
           {
-            "q": "Benché {csi:fosse} stanco, {pr:lavorò}. (pur)",
-            "a": [
-              "Pur essendo stanco, lavorò."
+            "q": "___ il ritardo, {pp:abbiamo preso} un taxi.",
+            "options": [
+              "*Visto",
+              "Detto",
+              "Fatta"
             ]
           },
           {
-            "q": "Dopo che la cena {tr:fu finita}, {pr:uscimmo}. (participle)",
-            "a": [
-              "Finita la cena, uscimmo."
+            "q": "Tutti {pp:sono venuti}, ___ eccezione per Luca.",
+            "options": [
+              "*fatta",
+              "data",
+              "vista"
             ]
           },
           {
-            "q": "Poiché non {im:aveva} soldi, {pr:rinunciò}. (gerund)",
-            "a": [
-              "Non avendo soldi, rinunciò."
+            "q": "___ questo, {ip:passo} al punto successivo.",
+            "options": [
+              "*Detto",
+              "Tenuto",
+              "Fatta"
             ]
           },
           {
-            "q": "Se ci {ip:pensi} bene, {ip:hai} ragione. (a + infinitive)",
-            "a": [
-              "A pensarci bene, hai ragione."
+            "q": "___ conto dei risultati, la commissione {pp:ha deciso} di continuare.",
+            "options": [
+              "*Tenuto",
+              "Fatta",
+              "Detto"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la preposizione giusta.",
+        "questions": [
+          "[[A]] forza di provare, ce l'{pp:ha fatta}.",
+          "{cop:Farebbe} di tutto pur [[di]] laurearsi.",
+          "[[Anziché|Invece di]] studiare, {pp:è uscito} con gli amici.",
+          "[[Oltre]] a studiare, {ip:lavora} in un bar.",
+          "{pp:Ha studiato} [[fino]] a sentirsi male."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con l'infinito o il gerundio passato e i pronomi.",
+        "questions": [
+          "Dopo (leggere + lo) [[averlo letto|averlo già letto]], l'{pp:ho restituito}.",
+          "Dopo (laurearsi) [[essersi laureata]], Anna {pp:è partita} per Londra.",
+          "(promettere + glielo, gerundio) [[Avendoglielo promesso]], non {ip:posso} tirarmi indietro.",
+          "(accorgersi, gerundio) [[Essendosi accorto]] dell'errore, Marco {pp:ha corretto} il compito."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni costruzione al suo significato.",
+        "pairs": [
+          [
+            "mettersi a + infinito",
+            "cominciare, spesso all'improvviso"
+          ],
+          [
+            "tornare a + infinito",
+            "fare di nuovo"
+          ],
+          [
+            "finire per + infinito",
+            "alla fine, anche senza volerlo"
+          ],
+          [
+            "arrivare a + infinito",
+            "spingersi fino a un eccesso"
+          ],
+          [
+            "non fare che + infinito",
+            "fare continuamente solo questo"
+          ],
+          [
+            "pur di + infinito",
+            "per ottenere qualcosa, a qualunque costo"
+          ]
         ]
       }
     ]
@@ -198,134 +401,274 @@
     "words": [
       [
         "l'ateneo",
-        "university"
+        "l'università (parola formale)"
+      ],
+      [
+        "la matricola",
+        "lo studente del primo anno di università"
+      ],
+      [
+        "il fuoricorso",
+        "lo studente che non finisce gli esami nel tempo previsto"
+      ],
+      [
+        "l'appello",
+        "una delle date in cui si può sostenere un esame"
+      ],
+      [
+        "la sessione",
+        "il periodo dell'anno in cui si fanno gli esami"
       ],
       [
         "la bocciatura",
-        "failure (in an exam)"
-      ],
-      [
-        "il voto",
-        "grade"
+        "il fatto di non superare un esame"
       ],
       [
         "la tesi",
-        "thesis"
+        "il lavoro scritto che si presenta per laurearsi"
       ],
       [
         "il relatore",
-        "supervisor"
+        "il professore che segue la tesi"
       ],
       [
-        "l'impegno",
-        "commitment"
+        "il piano di studi",
+        "l'elenco degli esami che uno studente deve fare"
       ],
       [
-        "bocciare",
-        "to fail (someone)"
+        "la borsa di studio",
+        "i soldi dati a uno studente bravo o con poco reddito"
+      ],
+      [
+        "la lode",
+        "un riconoscimento in più sul voto massimo (*trenta e lode*)"
+      ],
+      [
+        "sostenere un esame",
+        "fare un esame"
+      ],
+      [
+        "superare",
+        "passare con successo"
+      ],
+      [
+        "ritirarsi",
+        "lasciare un esame o un corso prima della fine"
       ],
       [
         "laurearsi",
-        "to graduate"
+        "finire l'università, discutendo la tesi"
       ],
       [
-        "reggersi in piedi",
-        "to stay on one's feet"
+        "ripassare",
+        "studiare di nuovo cose già studiate"
       ],
       [
-        "licenziare",
-        "to dismiss"
+        "il secchione",
+        "chi studia moltissimo (colloquiale, un po' ironico)"
       ],
       [
-        "mentire",
-        "to lie"
+        "sudare sette camicie",
+        "faticare moltissimo"
       ],
       [
-        "esaurito",
-        "exhausted"
+        "stare sui libri",
+        "studiare a lungo"
+      ],
+      [
+        "in bocca al lupo",
+        "un augurio prima di una prova (si risponde *crepi!*)"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "l'ateneo",
-            "university"
+            "la matricola",
+            "lo studente del primo anno di università"
           ],
           [
-            "la tesi",
-            "thesis"
+            "il fuoricorso",
+            "lo studente che non finisce gli esami nel tempo previsto"
+          ],
+          [
+            "l'appello",
+            "una delle date in cui si può sostenere un esame"
           ],
           [
             "il relatore",
-            "supervisor"
+            "il professore che segue la tesi"
           ],
           [
-            "laurearsi",
-            "to graduate"
+            "sudare sette camicie",
+            "faticare moltissimo"
           ],
           [
-            "licenziare",
-            "to dismiss"
-          ],
-          [
-            "mentire",
-            "to lie"
+            "il secchione",
+            "chi studia moltissimo (colloquiale, un po' ironico)"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Si {pp:è} [[laureato#pp]] in medicina. (graduated)",
-          "Ci {ip:vuole} molto [[impegno]]. (commitment)",
-          "{ip:Sto} scrivendo la [[tesi]]. (thesis)",
-          "Dopo la [[bocciatura]], {pp:ha riprovato}. (failure)"
+          {
+            "q": "{pp:Ho preso} trenta e ___ in storia!",
+            "options": [
+              "*lode",
+              "tesi",
+              "sessione"
+            ]
+          },
+          {
+            "q": "Grazie alla ___ di studio, non {ip:paga} le tasse universitarie.",
+            "options": [
+              "*borsa",
+              "sessione",
+              "matricola"
+            ]
+          },
+          {
+            "q": "La ___ estiva {ip:comincia} a giugno.",
+            "options": [
+              "*sessione",
+              "lode",
+              "tesi"
+            ]
+          },
+          {
+            "q": "{ip:Ho} un esame domani. – In bocca al lupo! – ___ !",
+            "options": [
+              "*Crepi",
+              "Grazie al lupo",
+              "Anche a te"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Domani {ip:devo} [[sostenere]] l'esame di diritto.",
+          "{pp:Ho} [[superato#pp]] l'esame al primo appello!",
+          "La sera prima dell'esame {ip:preferisco} [[ripassare]] che studiare cose nuove.",
+          "{pp:Ha passato} tutto l'inverno sui [[libri]].",
+          "Mia sorella si [[è laureata#pp]] in medicina l'anno scorso."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Pur avendo studiato per mesi, Paolo non {pr:superò} l'esame di diritto. Nel leggere il risultato, {pr:rimase} immobile davanti alla bacheca. Tornato a casa, {pr:decise} di non dire nulla ai genitori. Non volendo deluderli, {pr:finse} per settimane di frequentare l'ateneo.",
-      "Scoperta la verità, il padre gli {pr:parlò} a lungo. «A pensarci bene», gli {pr:disse}, «anch'io mi {pp:sono ritirato} dopo aver fallito due volte.» Paolo {im:era} così sorpreso da non riuscire a rispondere. Rimessosi a studiare, si {pr:laureò} due anni dopo, avendo finalmente imparato a non aver paura di sbagliare."
+      {
+        "h": "Trent'anni e una tesi"
+      },
+      "Pur avendo superato quasi tutti gli esami in tre anni, Marta {pp:è rimasta} fuoricorso per altri cinque: le {im:mancava} soltanto la tesi. A forza di rimandare, {pp:è arrivata} a non parlarne più con nessuno. Alle cene di famiglia, anziché rispondere alle domande dei parenti, {im:cambiava} discorso.",
+      "Poi, compiuti trent'anni, {pp:ha deciso} di farla finita. Tornata all'ateneo, {pp:è andata} dal suo vecchio relatore, il quale, dopo averla ascoltata, le {pp:ha detto} soltanto: «{ip:Ha} tre mesi.» Visto il poco tempo, Marta {pp:ha preso} le ferie e si {pp:è messa} a scrivere dalla mattina alla sera.",
+      "Non {pp:è stato} facile. Essendosi abituata a lavorare, {im:faceva} fatica a stare sui libri, e a volte {im:finiva} per addormentarsi sulla scrivania. Ma pur di non mollare di nuovo, {pp:ha rinunciato} a tutto: uscite, vacanze, perfino la partita di calcetto del giovedì.",
+      "Il giorno della laurea, finita la discussione, il relatore si {pp:è alzato} e {pp:ha annunciato} il voto: centodieci e lode. Detto questo, {pp:ha aggiunto}, sorridendo, che in quarant'anni non {tp:aveva} mai {tp:ricevuto} una tesi con una settimana di anticipo."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Paolo hadn't studied.",
+            "q": "Perché Marta {pp:è rimasta} fuoricorso?",
             "options": [
-              "True",
-              "*False"
+              "*Non {im:riusciva} a scrivere la tesi.",
+              "Non {pp:ha superato} gli esami.",
+              "{pp:Ha cambiato} università."
             ]
           },
           {
-            "q": "He hid his failure from his parents.",
+            "q": "Che cosa {im:faceva} alle cene di famiglia?",
             "options": [
-              "*True",
-              "False"
+              "*{im:Cambiava} discorso.",
+              "{im:Raccontava} della tesi.",
+              "Non ci {im:andava} mai."
             ]
           },
           {
-            "q": "His father had also failed exams.",
+            "q": "Quanto tempo le {pp:ha dato} il relatore?",
             "options": [
-              "*True",
-              "False"
+              "*tre mesi",
+              "un anno",
+              "una settimana"
             ]
           },
           {
-            "q": "Paolo never graduated.",
+            "q": "Perché il relatore {pp:ha sorriso}?",
             "options": [
-              "True",
-              "*False"
+              "*La tesi {ip:è} arrivata in anticipo.",
+              "Marta {pp:ha preso} un voto basso.",
+              "{ip:Va} in pensione."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Marta {pp:ha superato} quasi tutti gli esami in tre anni.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il relatore si {pp:è arrabbiato} con lei.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Per scrivere la tesi Marta {pp:ha preso} le ferie.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Marta {pp:ha preso} il voto più alto.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni espressione del testo al suo significato.",
+        "pairs": [
+          [
+            "a forza di rimandare",
+            "rimandando molte volte"
+          ],
+          [
+            "anziché rispondere",
+            "al posto di rispondere"
+          ],
+          [
+            "visto il poco tempo",
+            "considerando il poco tempo"
+          ],
+          [
+            "si {pp:è messa} a scrivere",
+            "ha cominciato a scrivere"
+          ],
+          [
+            "pur di non mollare",
+            "per non mollare, a qualunque costo"
+          ]
         ]
       }
     ]
@@ -334,50 +677,62 @@
     "transcript": [
       [
         "Tea",
-        "Pur avendo studiato tanto, non {pp:ho passato} l'esame."
+        "Non ci {ip:credo}: {pp:ho studiato} un mese e mi {pp:hanno bocciata}."
       ],
       [
         "Livio",
-        "Mi {ip:dispiace}. A pensarci bene, {im:era} molto difficile."
+        "Dai, {ip:capita}. A forza di ripassare, magari ti {pp:sei confusa}."
       ],
       [
         "Tea",
-        "Nel vedere il voto, mi {pp:sono sentita} male."
+        "Può darsi. Arrivata all'ultima domanda, non {im:ricordavo} più niente. Mi {pp:sono messa} a ridere per il nervoso."
       ],
       [
         "Livio",
-        "Finito l'esame, {tp:avevi capito} qualcosa?"
+        "E il professore?"
       ],
       [
         "Tea",
-        "No, {im:ero} così stanca da non capire nulla."
+        "Dopo avermi ascoltata in silenzio, mi {pp:ha detto} di tornare al prossimo appello. Anziché arrabbiarsi, {pp:è stato} gentilissimo."
       ],
       [
         "Livio",
-        "Riposandoti un po', la prossima volta {fs:andrà} meglio."
+        "Vedi? Non {imv:stare} a disperarti. Se {ip:vuoi}, ti {ip:aiuto} io a ripassare. In bocca al lupo!"
+      ],
+      [
+        "Tea",
+        "Crepi!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Pur]] avendo studiato tanto, non {pp:ho passato} l'esame.",
-          "[[Nel]] vedere il voto, mi {pp:sono sentita} male.",
-          "[[Finito]] l'esame, {tp:avevi capito} qualcosa?",
-          "{im:Ero} così stanca [[da]] non capire nulla."
+          "Mi {pp:sono messa} [[a]] ridere per il nervoso.",
+          "Dopo [[avermi]] ascoltata in silenzio, mi {pp:ha detto} di tornare.",
+          "[[Anziché|Invece di]] arrabbiarsi, {pp:è stato} gentilissimo.",
+          "Non {imv:stare} [[a]] disperarti."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does Livio suggest?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Livio suggests…",
+            "q": "Che cosa {pp:è successo} a Tea?",
             "options": [
-              "studying more",
-              "changing university",
-              "*getting some rest"
+              "*Non {pp:ha superato} l'esame.",
+              "{pp:È arrivata} in ritardo all'esame.",
+              "{pp:Ha litigato} con il professore."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:propone} Livio?",
+            "options": [
+              "*di aiutarla a ripassare",
+              "di cambiare professore",
+              "di ritirarsi dal corso"
             ]
           }
         ]
@@ -388,40 +743,362 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "Despite having studied, he didn't pass the exam.",
-            "a": [
-              "Pur avendo studiato, non superò l'esame.",
-              "Pur avendo studiato, non ha superato l'esame."
+            "q": "{pp:Hai} mai {pp:sudato} sette camicie per un esame? Com'{pp:è andata}?"
+          },
+          {
+            "q": "Che cosa {cop:saresti} disposto a fare pur di realizzare un sogno?"
+          },
+          {
+            "q": "C'{ip:è} qualcosa che {pp:hai imparato} a forza di sbagliare?"
+          },
+          {
+            "q": "Che cosa {ip:fai}, anziché studiare o lavorare, quando non ne {ip:hai} voglia?"
+          },
+          {
+            "q": "Dopo esserti diplomato o laureato, che cosa {pp:hai fatto}? (Oppure: che cosa {fs:farai}?)"
+          },
+          {
+            "q": "Nel tuo paese come {ip:funzionano} gli esami all'università? C'{ip:è} qualcosa come il *trenta e lode*?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Sessione d'esami"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una studentessa addormentata su una pila di libri",
+          "B — Un ragazzo con una corona d'alloro in testa, tra amici che applaudono",
+          "C — Studenti davanti a una bacheca con i voti di un esame",
+          "D — Una ragazza che ride nervosamente davanti a un professore"
+        ],
+        "pairs": [
+          [
+            "{pp:Ha studiato} fino ad addormentarsi sui libri.",
+            "immagine A"
+          ],
+          [
+            "Finita la discussione, {pp:ha festeggiato} con gli amici.",
+            "immagine B"
+          ],
+          [
+            "Nel leggere il voto, {pp:è rimasto} senza parole.",
+            "immagine C"
+          ],
+          [
+            "Si {pp:è messa} a ridere per il nervoso.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale frase è corretta?",
+        "questions": [
+          {
+            "q": "In biblioteca:",
+            "options": [
+              "*Mentre studiavo, è entrato un mio amico.",
+              "Studiando, è entrato un mio amico."
             ]
           },
           {
-            "q": "Once dinner was finished, we went out. (participle, [pr:passato remoto])",
-            "a": [
-              "Finita la cena, uscimmo."
+            "q": "All'esame:",
+            "options": [
+              "*Essendo nervosa, ho sbagliato la prima domanda.",
+              "Essendo nervosa, la prima domanda è andata male."
             ]
           },
           {
-            "q": "On seeing her, he smiled. (nel + infinitive, [pr:passato remoto])",
-            "a": [
-              "Nel vederla, sorrise."
-            ]
-          },
-          {
-            "q": "He was fired for lying. (past infinitive, [pr:passato remoto])",
-            "a": [
-              "Fu licenziato per aver mentito."
-            ]
-          },
-          {
-            "q": "On reflection, you're right. (a + infinitive, informal)",
-            "a": [
-              "A pensarci bene, hai ragione."
+            "q": "Dopo la laurea:",
+            "options": [
+              "*Dopo che mi sono laureato, mio padre mi ha regalato un viaggio.",
+              "Dopo essermi laureato, mio padre mi ha regalato un viaggio."
             ]
           }
         ]
+      },
+      {
+        "h": "Visto il ritardo…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *visto, fatta, a partire, detto*.",
+        "questions": [
+          "[[Visto]] il maltempo, la gita {pp:è stata} rinviata.",
+          "[[Fatta]] eccezione per la matematica, {pp:ha preso} ottimi voti.",
+          "[[A partire]] da lunedì, la biblioteca {fs:aprirà} alle otto.",
+          "[[Detto]] questo, il professore {pp:è uscito}."
+        ]
+      },
+      {
+        "h": "Pur di laurearsi"
+      },
+      {
+        "type": "write",
+        "prompt": "Unisci le frasi con la costruzione tra parentesi.",
+        "questions": [
+          {
+            "q": "Ha provato molte volte. Alla fine ce l'ha fatta. (a forza di)",
+            "a": [
+              "A forza di provare, alla fine ce l'ha fatta.",
+              "A forza di provare, ce l'ha fatta."
+            ]
+          },
+          {
+            "q": "Vuole laurearsi. Farebbe di tutto. (pur di)",
+            "a": [
+              "Farebbe di tutto pur di laurearsi.",
+              "Pur di laurearsi, farebbe di tutto."
+            ]
+          },
+          {
+            "q": "Non ha studiato. È uscito. (anziché)",
+            "a": [
+              "Anziché studiare, è uscito.",
+              "È uscito anziché studiare."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola che manca.",
+        "questions": [
+          "Quando {pp:ha visto} il voto, si {pp:è messo} [[a]] piangere.",
+          "Dopo dieci anni {pp:è tornata} [[a]] studiare.",
+          "Se {ip:continui} così, {fs:finirai} [[per|col]] farti bocciare.",
+          "Non {ip:fa} [[che]] lamentarsi."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Dopo aver lettolo, l'ho restituito.",
+            "a": [
+              "Dopo averlo letto, l'ho restituito."
+            ]
+          },
+          {
+            "q": "Uscendo dall'aula, il professore mi ha fermato. (uscivo io)",
+            "a": [
+              "Mentre uscivo dall'aula, il professore mi ha fermato."
+            ]
+          },
+          {
+            "q": "Dopo essersi laureato, Anna è partita.",
+            "a": [
+              "Dopo essersi laureata, Anna è partita."
+            ]
+          },
+          {
+            "q": "Pur studiato tanto, non ha superato l'esame.",
+            "a": [
+              "Pur avendo studiato tanto, non ha superato l'esame."
+            ]
+          },
+          {
+            "q": "Farebbe di tutto pur da laurearsi.",
+            "a": [
+              "Farebbe di tutto pur di laurearsi."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "a forza di / ce l'ha fatta / provare",
+            "a": [
+              "A forza di provare, ce l'ha fatta.",
+              "A forza di provare ce l'ha fatta."
+            ]
+          },
+          {
+            "q": "la lezione / gli studenti / finita / uscirono",
+            "a": [
+              "Finita la lezione, gli studenti uscirono.",
+              "Finita la lezione gli studenti uscirono."
+            ]
+          },
+          {
+            "q": "lamentarsi / non fa / che",
+            "a": [
+              "Non fa che lamentarsi."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Davanti a una consonante l'infinito perde spesso la *-e* finale: *aver fatto, esser partito, poter dire, far vedere*. È un troncamento, non un'elisione, e perciò non vuole l'apostrofo: ✗ *aver' fatto*. Anche la forma intera è sempre giusta: *avere fatto, essere partito*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "Dopo ___ finito, {pp:è uscito}.",
+            "options": [
+              "*aver",
+              "aver'",
+              "avé"
+            ]
+          },
+          {
+            "q": "Mi {ip:puoi} ___ vedere le foto?",
+            "options": [
+              "*far",
+              "far'",
+              "fà"
+            ]
+          },
+          {
+            "q": "Dopo ___ partito, {pp:ha chiamato} a casa.",
+            "options": [
+              "*esser",
+              "esser'",
+              "essér"
+            ]
+          },
+          {
+            "q": "{ip:Spero} di ___ venire.",
+            "options": [
+              "*poter",
+              "poter'",
+              "potér"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So che il gerundio e l'infinito prendono il soggetto del verbo principale.",
+          "So usare il participio con un soggetto proprio: *Partito il treno…*",
+          "So usare *visto, dato, tenuto conto di, fatta eccezione per, detto questo*.",
+          "So usare *a forza di, pur di, anziché, oltre a* + infinito.",
+          "So mettere i pronomi nelle forme passate: *dopo averlo letto, essendosi accorto*.",
+          "So usare *mettersi a, tornare a, finire per, non fare che* + infinito."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il cortile dell'Archiginnasio di Bologna, con gli stemmi degli studenti sulle pareti"
+      },
+      {
+        "text": [
+          "**L'università più antica**",
+          "Fondata, secondo la tradizione, nel 1088, l'Università di Bologna {ip:è} considerata la più antica del mondo occidentale. La data {pp:è stata} fissata alla fine dell'Ottocento da una commissione guidata dal poeta Giosuè Carducci, in vista dell'ottavo centenario, festeggiato nel 1888.",
+          "Nata dall'incontro tra studenti e maestri di diritto, l'università {pr:attirò} giovani da tutta Europa. Tra loro ci {pr:fu} anche Niccolò Copernico, che a Bologna {pr:studiò} diritto canonico alla fine del Quattrocento.",
+          "Nel 1732, dopo essersi laureata in filosofia, Laura Bassi {pr:ottenne} una cattedra nella stessa università: {pr:fu} una delle prime donne in Europa a insegnare in un ateneo.",
+          "Ancora oggi, finita la discussione della tesi, molti neolaureati italiani {ip:festeggiano} con una corona d'alloro in testa, un'usanza che {ip:ricorda} gli antichi poeti."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La data del 1088 {pp:è stata} fissata nell'Ottocento.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Carducci {pr:fondò} l'università.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Copernico {pr:studiò} medicina a Bologna.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Laura Bassi {pr:insegnò} all'Università di Bologna.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La corona d'alloro {ip:è} un'usanza nata da poco.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme che mancano.",
+        "questions": [
+          "[[Fondata]], secondo la tradizione, nel 1088, l'Università di Bologna {ip:è} la più antica del mondo occidentale.",
+          "Dopo [[essersi]] laureata in filosofia, Laura Bassi {pr:ottenne} una cattedra.",
+          "[[Finita]] la discussione della tesi, molti neolaureati {ip:festeggiano} con una corona d'alloro."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Qual è l'università più antica o più famosa del tuo paese? Che cosa ne sai?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Nel mio paese…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta un esame o una prova importante della tua vita, usando le forme implicite.",
+        "cues": [
+          "Che cosa {pp:hai fatto} per prepararti? (*a forza di, pur di*)",
+          "Com'{pp:è andata}? (*Arrivato all'esame…, Nel vedere…*)",
+          "Che cosa {pp:hai fatto} dopo? (*Finito l'esame…, Dopo aver…*)",
+          "Che cosa ne {pp:hai imparato}? (*Pur avendo…*)"
+        ],
+        "start": "",
+        "model": "L'esame di guida\nPur avendo fatto venti lezioni, la prima volta all'esame di guida sono stato bocciato. Arrivato al primo incrocio, ho dimenticato di dare la precedenza a destra, e l'esaminatore mi ha fatto fermare subito.\nTornato a casa, non volevo parlarne con nessuno. Ma a forza di sentire mio padre raccontare le sue tre bocciature, ho finito per riderci sopra anch'io.\nIl mese dopo, dopo essermi esercitato ogni sera nel parcheggio del supermercato, l'ho rifatto. Visto il mio nervosismo, l'esaminatore mi ha detto di stare tranquillo. Finito il percorso, mi ha dato la patente sorridendo. Pur di non ripetere quell'esperienza, da allora guido con una prudenza che fa ridere tutti."
       }
     ]
   }

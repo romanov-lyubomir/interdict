@@ -1,207 +1,341 @@
 {
   "title": "Il libro {pp:è stato} {pp:pubblicato} e si {ip:vende} bene",
-  "translation": "The book has been published and it sells well",
-  "topics": "The passive with essere, venire and andare, si as passive and as impersonal",
+  "translation": "",
+  "topics": "Il *si* impersonale e il *si* passivante, *ci si*, il *si* con *essere* e nei tempi composti, *lo si fa, se ne parla*, *andare* + participio di perdita, passivo, *si* o *loro*: scegliere la forma, libri, giornali e cultura",
   "grammar": {
     "explain": [
+      "Dal livello B1 conosci il passivo con *essere, venire, andare* e il *si* passivante. Qui impari il *si* impersonale, che gli italiani usano continuamente per parlare della gente in generale, e i suoi casi difficili.",
       {
-        "h": "Three auxiliaries for the passive"
-      },
-      "Each one adds its own shade of meaning.",
-      {
-        "table": {
-          "head": [
-            "Auxiliary",
-            "Meaning",
-            "Tenses",
-            "Example"
-          ],
-          "rows": [
-            [
-              "essere",
-              "neutral, or a resulting state",
-              "all",
-              "Il libro {pp:è stato} {pp:pubblicato}."
-            ],
-            [
-              "venire",
-              "the action as it takes place",
-              "simple tenses only",
-              "Il libro {ip:viene} pubblicato ogni anno."
-            ],
-            [
-              "andare",
-              "necessity: it must be done",
-              "simple tenses",
-              "Questo libro {ip:va} letto."
-            ]
-          ]
-        }
-      },
-      "*La porta {ip:è chiusa}* can describe a state, whereas *La porta {ip:viene} chiusa alle otto* can only be an action.",
-      {
-        "h": "Why use the passive?"
-      },
-      "It moves the focus onto what the action affects, and it lets you leave out who did it. That is why you find it so often in news and official language: *{pp:Sono stati} arrestati due uomini.*",
-      {
-        "h": "Two different kinds of si"
-      },
-      "Look at what follows the verb. If there is no direct object, *si* is impersonal and means *people in general*. If there is one, *si* is passive and the verb agrees with it.",
-      {
-        "table": {
-          "head": [
-            "Kind",
-            "Example",
-            "Verb"
-          ],
-          "rows": [
-            [
-              "Impersonal, no object",
-              "In Italia si {ip:cena} tardi.",
-              "always singular"
-            ],
-            [
-              "Passive, singular object",
-              "Si {ip:vend**e**} la casa.",
-              "singular"
-            ],
-            [
-              "Passive, plural object",
-              "Si {ip:vend**ono**} appartamenti.",
-              "plural"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Si in more complex sentences"
-      },
-      {
-        "table": {
-          "head": [
-            "Situation",
-            "Rule",
-            "Example"
-          ],
-          "rows": [
-            [
-              "With a reflexive verb",
-              "si becomes ci si",
-              "Ci si {ip:alza} presto."
-            ],
-            [
-              "With essere + adjective",
-              "the adjective is plural",
-              "Quando si {ip:è} giovan**i**…"
-            ],
-            [
-              "Past, verb with avere",
-              "participle in -o",
-              "Si {pp:è mangiat**o**} bene."
-            ],
-            [
-              "Past, verb with essere",
-              "participle in -i",
-              "Si {pp:è arrivat**i**} tardi."
-            ],
-            [
-              "Past, passive",
-              "participle agrees",
-              "Si {pp:è vendut**a**} la casa."
-            ]
-          ]
-        }
-      },
-      "In the past, the auxiliary is always *essere*, even for verbs that normally take *avere*."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Due *si* diversi",
+              "head": [
+                "",
+                "frase",
+                "il verbo"
+              ],
+              "rows": [
+                [
+                  "*si* impersonale: senza oggetto",
+                  "In Italia **si {ip:cena}** tardi.",
+                  "sempre singolare"
+                ],
+                [
+                  "*si* passivante: oggetto singolare",
+                  "Qui **si {ip:vende}** la frutta.",
+                  "singolare"
+                ],
+                [
+                  "*si* passivante: oggetto plurale",
+                  "Qui **si {ip:vendono}** libri usati.",
+                  "plurale"
+                ]
+              ]
+            },
+            "note": "Tutti e due vogliono dire *la gente, le persone in generale*. Per capire quale *si* è, guarda se dopo il verbo c'è un oggetto: se è plurale, anche il verbo è plurale."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Ci si* e *si* con *essere*",
+              "head": [
+                "caso",
+                "regola",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "un verbo riflessivo",
+                  "*si* + *si* diventa **ci si**",
+                  "D'estate **ci si {ip:alza}** presto."
+                ],
+                [
+                  "*essere* + aggettivo",
+                  "l'aggettivo è **plurale**",
+                  "Quando **si {ip:è}** giovan**i**, si {ip:ha} molta energia."
+                ],
+                [
+                  "*diventare, sentirsi* + aggettivo",
+                  "l'aggettivo è **plurale**",
+                  "Con l'età **si {ip:diventa}** più pazient**i**."
+                ]
+              ]
+            },
+            "note": "Il verbo resta singolare, ma l'aggettivo va al plurale perché parla di tutte le persone: *si è stanchi, ci si sente soli*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il *si* nei tempi composti",
+              "head": [
+                "il verbo di solito vuole…",
+                "participio",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*avere*, senza oggetto",
+                  "in **-o**",
+                  "In quel ristorante **si {pp:è mangiato}** bene."
+                ],
+                [
+                  "*avere*, con un oggetto (*si* passivante)",
+                  "come l'oggetto",
+                  "**Si {pp:sono vendute}** mille copie."
+                ],
+                [
+                  "*essere*",
+                  "in **-i**",
+                  "Ieri **si {pp:è partiti}** all'alba."
+                ]
+              ]
+            },
+            "note": "Con il *si* l'ausiliare è sempre *essere*, anche per i verbi che di solito vogliono *avere*: *si è mangiato* (non *si ha mangiato*)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il *si* con i pronomi e i verbi modali",
+              "head": [
+                "caso",
+                "esempio",
+                "attenzione"
+              ],
+              "rows": [
+                [
+                  "*lo, la, li, le* + *si*",
+                  "Il pane **lo si {ip:compra}** la mattina.",
+                  "il pronome va **prima** di *si*"
+                ],
+                [
+                  "*ne* + *si*",
+                  "**Se ne {ip:parla}** molto.",
+                  "*si ne* diventa **se ne**"
+                ],
+                [
+                  "*si* + verbo modale",
+                  "Qui non **si {ip:può}** fumare. **Si {ip:devono}** spegnere i telefoni.",
+                  "il modale si accorda con l'oggetto"
+                ]
+              ]
+            },
+            "note": "*Si deve leggere il libro*, ma *si devono leggere i libri*: con un oggetto plurale anche il verbo modale va al plurale."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Andare* + participio: una perdita",
+              "head": [
+                "espressione",
+                "esempio",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "*andare perso*",
+                  "La lettera **{pp:è andata} persa**.",
+                  "si è persa"
+                ],
+                [
+                  "*andare distrutto*",
+                  "Molti documenti **{pp:sono andati} distrutti** nell'incendio.",
+                  "sono stati distrutti"
+                ],
+                [
+                  "*andare esaurito*",
+                  "I biglietti **{pp:sono andati} esauriti** in un'ora.",
+                  "sono stati venduti tutti"
+                ],
+                [
+                  "*andare sprecato*",
+                  "Tanto cibo **{ip:va} sprecato**.",
+                  "viene buttato via"
+                ]
+              ]
+            },
+            "note": "*Andare* + participio vuol dire *dover essere fatto* (*il libro va letto*, lezione B1/9), ma con questi verbi, anche nei tempi composti, indica una perdita."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Chi l'ha fatto? Scegliere la forma",
+              "head": [
+                "forma",
+                "esempio",
+                "dove si usa"
+              ],
+              "rows": [
+                [
+                  "passivo con *da*",
+                  "Il nuovo ponte di Genova **{pp:è stato progettato}** da Renzo Piano.",
+                  "quando chi agisce è importante"
+                ],
+                [
+                  "passivo senza *da*",
+                  "**{pp:Sono stati arrestati}** due uomini.",
+                  "giornali, documenti"
+                ],
+                [
+                  "*si* passivante",
+                  "**Si {pp:sono vendute}** mille copie.",
+                  "per la gente in generale"
+                ],
+                [
+                  "terza persona plurale",
+                  "Mi **{pp:hanno rubato}** la bici.",
+                  "nel parlato: qualcuno, non so chi"
+                ]
+              ]
+            },
+            "note": "Tutte queste forme lasciano in secondo piano chi fa l'azione. Il passivo è più formale, la terza persona plurale (*hanno rubato*) più colloquiale."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Singolare o plurale? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Il negozio ___ chiuso ogni sera alle otto. (action)",
+            "q": "In questo negozio si ___ dischi usati.",
             "options": [
-              "*{ip:viene}",
-              "{ip:va}",
-              "{pp:è stato}"
+              "*{ip:vendono}",
+              "{ip:vende}"
             ]
           },
           {
-            "q": "Questo modulo ___ compilato in stampatello. (must be)",
+            "q": "In Italia si ___ molto caffè.",
             "options": [
-              "{ip:viene}",
-              "*{ip:va}",
-              "{ip:ha}"
+              "*{ip:beve}",
+              "{ip:bevono}"
             ]
           },
           {
-            "q": "Il romanzo ___ pubblicato nel 1980.",
+            "q": "D'estate si ___ fino a tardi.",
             "options": [
-              "{ip:va}",
-              "*{pp:è stato}",
-              "{ip:ha}"
+              "*{ip:esce}",
+              "{ip:escono}"
             ]
           },
           {
-            "q": "In questo ristorante si ___ bene.",
+            "q": "Da qui si ___ le Alpi.",
             "options": [
-              "*{ip:mangia}",
-              "{ip:mangiano}"
+              "*{ip:vedono}",
+              "{ip:vede}"
             ]
           },
           {
-            "q": "Qui si ___ prodotti locali.",
+            "q": "Si ___ sempre troppe parole.",
             "options": [
-              "{ip:vende}",
-              "*{ip:vendono}"
-            ]
-          },
-          {
-            "q": "La mattina ___ {ip:alza} presto.",
-            "options": [
-              "si si",
-              "*ci si",
-              "si ci"
-            ]
-          }
-        ]
-      },
-      {
-        "type": "write",
-        "prompt": "Make each sentence passive with essere.",
-        "questions": [
-          {
-            "q": "La polizia {ip:ha} arrestato due uomini.",
-            "a": [
-              "Due uomini sono stati arrestati dalla polizia."
-            ]
-          },
-          {
-            "q": "Il comune {fs:restaurerà} il teatro.",
-            "a": [
-              "Il teatro sarà restaurato dal comune."
-            ]
-          },
-          {
-            "q": "L'autore {im:presentava} il libro.",
-            "a": [
-              "Il libro era presentato dall'autore.",
-              "Il libro veniva presentato dall'autore."
+              "*{ip:dicono}",
+              "{ip:dice}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the past with si.",
+        "prompt": "Completa con *ci si* o *si* e il verbo al presente.",
         "questions": [
-          "Ieri [[si è mangiato#pp]] benissimo. (mangiare)",
-          "A quella festa [[si è ballato#pp]] molto. (ballare)",
-          "Con il treno [[si è arrivati#pp]] in orario. (arrivare)",
-          "Finalmente [[si è venduta#pp]] la casa. (vendere)"
+          "In vacanza (riposarsi) [[ci si riposa#ip]].",
+          "A Natale (mangiare) [[si mangia#ip]] troppo.",
+          "Quando (svegliarsi) [[ci si sveglia#ip]] presto, la giornata {ip:è} più lunga.",
+          "In questa città (annoiarsi) [[ci si annoia#ip]] facilmente.",
+          "In biblioteca (parlare) [[si parla#ip]] a bassa voce."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con l'aggettivo giusto.",
+        "questions": [
+          "Quando si {ip:è} (stanco) [[stanchi]], non si {ip:lavora} bene.",
+          "Dopo una vacanza ci si {ip:sente} (rilassato) [[rilassati]].",
+          "Quando si {ip:è} (giovane) [[giovani]], si {ip:ha} poca pazienza.",
+          "In una città nuova si {ip:diventa} (curioso) [[curiosi]] di tutto."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Passa al [pp:passato prossimo].",
+        "questions": [
+          "Si {ip:mangia} bene. → Si [[è mangiato#pp]] bene.",
+          "Si {ip:vendono} molte copie. → Si [[sono vendute#pp]] molte copie.",
+          "Si {ip:parte} alle sei. → Si [[è partiti#pp]] alle sei.",
+          "Ci si {ip:diverte} molto. → Ci si [[è divertiti#pp]] molto.",
+          "Si {ip:legge} un libro. → Si [[è letto#pp]] un libro."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Di questo problema ___ molto.",
+            "options": [
+              "*se ne {ip:parla}",
+              "si ne {ip:parla}"
+            ]
+          },
+          {
+            "q": "La pasta, in Italia, ___ al dente.",
+            "options": [
+              "*la si {ip:mangia}",
+              "si la {ip:mangia}"
+            ]
+          },
+          {
+            "q": "Qui non ___ fare foto.",
+            "options": [
+              "*si {ip:possono}",
+              "si {ip:può}"
+            ]
+          },
+          {
+            "q": "Le regole ___ rispettare.",
+            "options": [
+              "*si {ip:devono}",
+              "si {ip:deve}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Andare* + participio: dovere o perdita?",
+        "questions": [
+          {
+            "q": "Questo modulo va firmato entro lunedì.",
+            "options": [
+              "*dovere",
+              "perdita"
+            ]
+          },
+          {
+            "q": "Tutte le foto {pp:sono andate} perse.",
+            "options": [
+              "*perdita",
+              "dovere"
+            ]
+          },
+          {
+            "q": "Il latte va tenuto in frigo.",
+            "options": [
+              "*dovere",
+              "perdita"
+            ]
+          },
+          {
+            "q": "I biglietti {pp:sono andati} esauriti.",
+            "options": [
+              "*perdita",
+              "dovere"
+            ]
+          }
         ]
       }
     ]
@@ -210,134 +344,257 @@
     "words": [
       [
         "la casa editrice",
-        "publishing house"
+        "l'azienda che pubblica libri"
+      ],
+      [
+        "l'editore",
+        "chi pubblica libri o giornali"
       ],
       [
         "l'edizione",
-        "edition"
+        "tutte le copie di un libro stampate in un certo momento"
       ],
       [
         "la tiratura",
-        "print run"
+        "il numero di copie stampate"
       ],
       [
         "la recensione",
-        "review"
+        "un articolo che giudica un libro, un film, uno spettacolo"
       ],
       [
-        "il successo",
-        "success"
+        "il romanzo",
+        "un racconto lungo, di solito inventato"
       ],
       [
-        "il pubblico",
-        "audience"
+        "il romanzo d'esordio",
+        "il primo romanzo di uno scrittore"
+      ],
+      [
+        "la trama",
+        "la storia che si racconta in un libro o in un film"
+      ],
+      [
+        "il lettore",
+        "chi legge"
+      ],
+      [
+        "il premio",
+        "quello che si riceve come riconoscimento per un lavoro"
+      ],
+      [
+        "la traduzione",
+        "un testo passato da una lingua a un'altra"
+      ],
+      [
+        "pubblicare",
+        "far uscire un libro o un articolo"
+      ],
+      [
+        "stampare",
+        "riprodurre un testo su carta con una macchina"
       ],
       [
         "tradurre",
-        "to translate"
+        "passare un testo da una lingua a un'altra"
       ],
       [
         "diffondere",
-        "to spread"
+        "far conoscere a molte persone"
       ],
       [
         "premiare",
-        "to award"
+        "dare un premio"
       ],
       [
         "vietare",
-        "to forbid"
+        "dire che una cosa non si può fare"
       ],
       [
         "esaurito",
-        "sold out"
+        "finito, non ce n'è più"
       ],
       [
-        "locale",
-        "local"
+        "il best seller",
+        "un libro che vende moltissimo"
+      ],
+      [
+        "a bassa voce",
+        "parlando piano"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la casa editrice",
-            "publishing house"
+            "la recensione",
+            "un articolo che giudica un libro, un film, uno spettacolo"
           ],
           [
             "la tiratura",
-            "print run"
+            "il numero di copie stampate"
           ],
           [
-            "la recensione",
-            "review"
+            "il romanzo d'esordio",
+            "il primo romanzo di uno scrittore"
           ],
           [
-            "diffondere",
-            "to spread"
-          ],
-          [
-            "premiare",
-            "to award"
+            "la trama",
+            "la storia che si racconta in un libro o in un film"
           ],
           [
             "esaurito",
-            "sold out"
+            "finito, non ce n'è più"
+          ],
+          [
+            "vietare",
+            "dire che una cosa non si può fare"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Il romanzo {pp:ha avuto} molto [[successo]]. (success)",
-          "Il libro {pp:è stato} [[tradotto#pp]] in dieci lingue. (translated)",
-          "La prima [[edizione]] {ip:è} del 1950. (edition)",
-          "Il [[pubblico]] {ip:ha} applaudito. (audience)"
+          {
+            "q": "Il libro {pp:è uscito} in una nuova ___ con le illustrazioni.",
+            "options": [
+              "*edizione",
+              "recensione",
+              "trama"
+            ]
+          },
+          {
+            "q": "Una piccola ___ di Bari {pp:ha pubblicato} il suo romanzo.",
+            "options": [
+              "*casa editrice",
+              "tiratura",
+              "edizione"
+            ]
+          },
+          {
+            "q": "Quel romanzo {pp:ha vinto} un ___ importante.",
+            "options": [
+              "*premio",
+              "lettore",
+              "best seller"
+            ]
+          },
+          {
+            "q": "{ip:Leggo} sempre le ___ prima di comprare un libro.",
+            "options": [
+              "*recensioni",
+              "trame",
+              "tirature"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Il romanzo {pp:è stato} [[tradotto]] in venti lingue.",
+          "{ip:È} vietato fumare: lo [[vieta]] la legge.",
+          "La prima edizione {pp:è stata} [[stampata]] in mille copie.",
+          "In biblioteca si {ip:parla} a [[bassa]] voce.",
+          "I biglietti del concerto {ip:sono} già [[esauriti]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Il romanzo d'esordio di Laura Conti {pp:è stato} {pp:pubblicato} a marzo da una piccola casa editrice di Lecce. La prima tiratura, di appena mille copie, {pp:è andata} esaurita in due settimane. Ora il libro {ip:viene} tradotto in sei lingue e si {ip:vende} benissimo anche all'estero.",
-      "«Quando si {ip:è} giovani si {ip:pensa} di poter cambiare il mondo», {ip:dice} l'autrice. «Poi ci si {ip:accorge} che {ip:basta} raccontarlo bene.» Il libro {ip:va} letto lentamente, {ip:scrivono} i critici. In città si {ip:parla} già di un film: si {pp:sono svolti} i primi incontri con un regista."
+      {
+        "h": "Il nome della rosa"
+      },
+      "Nel 1980 Umberto Eco, professore di semiotica all'Università di Bologna, {pp:ha pubblicato} il suo romanzo d'esordio. {im:Aveva} quasi cinquant'anni e {im:era} conosciuto soprattutto come studioso. Il libro, «Il nome della rosa», {ip:è} un giallo che si {ip:svolge} nel 1327 in un'abbazia del Nord Italia: un frate, Guglielmo da Baskerville, {ip:deve} scoprire chi {ip:uccide} i monaci, uno dopo l'altro.",
+      "Non {im:sembrava} un libro per tutti: ci si {ip:trovano} pagine in latino, discussioni di filosofia, lunghe descrizioni della biblioteca. Eppure la prima tiratura {pp:è andata} esaurita quasi subito. Nel 1981 il romanzo {pp:è stato premiato} con lo Strega, il premio letterario più importante d'Italia, e in seguito {pp:è stato tradotto} in decine di lingue. Nel 1986 ne {pp:è stato tratto} un film con Sean Connery.",
+      "Come si {ip:spiega} un successo così? Forse perché lo si {ip:può} leggere in molti modi: come un giallo, come un romanzo storico, come un libro sui libri. Eco stesso {ip:diceva} che un romanzo {ip:è} «una macchina per generare interpretazioni». Ancora oggi se ne {ip:parla}, lo si {ip:studia} a scuola e se ne {ip:vendono} copie in tutto il mondo."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The first print run was large.",
+            "q": "Che lavoro {im:faceva} Umberto Eco?",
             "options": [
-              "True",
-              "*False"
+              "*il professore universitario",
+              "il giornalista",
+              "il regista"
             ]
           },
           {
-            "q": "The novel is being translated into six languages.",
+            "q": "Dove si {ip:svolge} il romanzo?",
             "options": [
-              "*True",
-              "False"
+              "*in un'abbazia del Nord Italia",
+              "in una biblioteca di Bologna",
+              "in un'università inglese"
             ]
           },
           {
-            "q": "Critics say it should be read quickly.",
+            "q": "Che premio {pp:ha vinto} il libro?",
             "options": [
-              "True",
-              "*False"
+              "*il premio Strega",
+              "il premio Nobel",
+              "un Oscar"
             ]
           },
           {
-            "q": "There has been talk of a film.",
+            "q": "Perché il libro {ip:piace} a tanti lettori, secondo il testo?",
             "options": [
-              "*True",
-              "False"
+              "*perché si {ip:può} leggere in molti modi",
+              "perché {ip:è} molto breve",
+              "perché {ip:è} scritto tutto in latino"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "«Il nome della rosa» {ip:è} il primo romanzo di Eco.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Nel libro non c'{ip:è} nemmeno una parola in latino.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La prima tiratura si {pp:è venduta} lentamente.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Dal libro {pp:è stato tratto} un film.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme passive e il *si*.",
+        "questions": [
+          "La prima tiratura {pp:è} [[andata#pp]] esaurita quasi subito.",
+          "Nel 1981 il romanzo {pp:è stato} [[premiato#pp]] con lo Strega.",
+          "Come si [[spiega#ip]] un successo così?",
+          "Ancora oggi se ne {ip:parla}, lo si [[studia#ip]] a scuola."
         ]
       }
     ]
@@ -345,51 +602,68 @@
   "listening": {
     "transcript": [
       [
-        "Cliente",
-        "{imv:Scusi}, il nuovo libro di Conti?"
+        "Visitatore",
+        "Buongiorno, {ip:volevo} sapere: al museo si {ip:entra} gratis la domenica?"
       ],
       [
-        "Libraio",
-        "Purtroppo {ip:è esaurito}. {pp:È stato} {pp:venduto} tutto in un giorno."
+        "Guida",
+        "Sì, la prima domenica del mese. Ma i biglietti si {ip:prenotano} online: oggi {pp:sono} già {pp:andati} esauriti."
       ],
       [
-        "Cliente",
-        "Davvero? {ip:Viene} ristampato?"
+        "Visitatore",
+        "Peccato! E per domani? Si {ip:possono} fare foto nelle sale?"
       ],
       [
-        "Libraio",
-        "Sì, la nuova edizione {fs:sarà} pronta tra una settimana."
+        "Guida",
+        "Sì, ma senza flash. Gli zaini {ip:vanno} lasciati al guardaroba, e nelle sale non si {ip:mangia}."
       ],
       [
-        "Cliente",
-        "Si {ip:può} prenotare?"
+        "Visitatore",
+        "E quanto ci si {ip:mette} a vedere tutto?"
       ],
       [
-        "Libraio",
-        "Certo. Il modulo {ip:va} compilato qui."
+        "Guida",
+        "Di solito due ore. Ma quando si {ip:è} appassionati d'arte, se ne {ip:passano} anche quattro!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{pp:È stato} [[venduto#pp]] tutto in un giorno.",
-          "[[Viene#ip]] ristampato?",
-          "[[Si]] {ip:può} prenotare?",
-          "Il modulo [[va#ip]] compilato qui."
+          "Al museo si [[entra#ip]] gratis la domenica?",
+          "I biglietti si [[prenotano#ip]] online.",
+          "Gli zaini [[vanno#ip]] lasciati al guardaroba.",
+          "Quanto [[ci si]] {ip:mette} a vedere tutto?",
+          "Quando si {ip:è} [[appassionati]] d'arte, se ne {ip:passano} anche quattro!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "When will the book be available again?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The new edition will be ready…",
+            "q": "Quando si {ip:entra} gratis?",
             "options": [
-              "tomorrow",
-              "*in a week",
-              "in a month"
+              "*la prima domenica del mese",
+              "ogni domenica",
+              "il lunedì"
+            ]
+          },
+          {
+            "q": "Che cosa non si {ip:può} fare nelle sale?",
+            "options": [
+              "*mangiare",
+              "fare foto",
+              "parlare"
+            ]
+          },
+          {
+            "q": "Dove {ip:vanno} lasciati gli zaini?",
+            "options": [
+              "*al guardaroba",
+              "all'ingresso delle sale",
+              "in macchina"
             ]
           }
         ]
@@ -400,41 +674,404 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando il *si* impersonale o passivante dove puoi.",
+        "open": true,
         "questions": [
           {
-            "q": "The book has been published.",
-            "a": [
-              "Il libro è stato pubblicato."
+            "q": "Che cosa si {ip:fa} nel tuo paese la domenica?"
+          },
+          {
+            "q": "A che ora si {ip:cena} di solito nel tuo paese? E che cosa si {ip:mangia}?"
+          },
+          {
+            "q": "Qual {ip:è} l'ultimo libro che {pp:hai letto}? Di che cosa {ip:parla}?"
+          },
+          {
+            "q": "C'{ip:è} un libro che, secondo te, {ip:va} letto da tutti? Perché?"
+          },
+          {
+            "q": "Che cosa {ip:è} vietato fare nella tua scuola, nel tuo ufficio o nella tua città?"
+          },
+          {
+            "q": "Ti {pp:è} mai {pp:andato} perso qualcosa di importante? Che cosa?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa si fa qui?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una sala di lettura silenziosa con lunghi tavoli e lampade verdi",
+          "B — Un mercato con banchi di frutta e verdura e tanta gente",
+          "C — Una spiaggia piena di ombrelloni in agosto",
+          "D — Un cinema all'aperto in una piazza, di sera"
+        ],
+        "pairs": [
+          [
+            "Qui si {ip:legge} e si {ip:parla} a bassa voce.",
+            "immagine A"
+          ],
+          [
+            "Qui si {ip:comprano} frutta e verdura fresche.",
+            "immagine B"
+          ],
+          [
+            "Qui ci si {ip:abbronza} e si {ip:fa} il bagno.",
+            "immagine C"
+          ],
+          [
+            "Qui si {ip:guardano} film sotto le stelle.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Le abitudini degli italiani. Completa con il *si* e il verbo al presente.",
+        "questions": [
+          "A colazione (bere) [[si beve#ip]] un cappuccino, ma mai dopo pranzo!",
+          "La domenica (pranzare) [[si pranza#ip]] con la famiglia.",
+          "In agosto (andare) [[si va#ip]] al mare.",
+          "Al bar il caffè (prendere) [[si prende#ip]] in piedi, al banco.",
+          "A Natale (fare) [[si fanno#ip]] tanti regali."
+        ]
+      },
+      {
+        "h": "Quando si è giovani…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con l'aggettivo al plurale.",
+        "questions": [
+          "Quando si {ip:è} (innamorato) [[innamorati]], si {ip:vede} tutto rosa.",
+          "Dopo una lunga passeggiata ci si {ip:sente} (stanco) [[stanchi]] ma (felice) [[felici]].",
+          "Quando si {ip:è} (malato) [[malati]], {ip:è} meglio restare a casa.",
+          "In una città straniera ci si {ip:sente} spesso (solo) [[soli]]."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Completa la frase come vuoi tu: *Quando si è giovani…, Quando si è stanchi…, Quando ci si innamora…*",
+        "open": true,
+        "questions": [
+          {
+            "q": "Quando si è…"
+          }
+        ]
+      },
+      {
+        "h": "Si è mangiato bene"
+      },
+      {
+        "type": "gap",
+        "prompt": "Una gita in montagna. Passa al [pp:passato prossimo].",
+        "ordered": true,
+        "questions": [
+          "Si {ip:parte} alle sei. → Si [[è partiti#pp]] alle sei.",
+          "Si {ip:cammina} per tre ore. → Si [[è camminato#pp]] per tre ore.",
+          "Si {ip:arriva} al rifugio stanchi. → Si [[è arrivati#pp]] al rifugio stanchi.",
+          "Si {ip:mangiano} i panini. → Si [[sono mangiati#pp]] i panini.",
+          "Ci si {ip:riposa} al sole. → Ci si [[è riposati#pp]] al sole."
+        ]
+      },
+      {
+        "h": "Lo si fa, se ne parla"
+      },
+      {
+        "type": "gap",
+        "prompt": "Sostituisci le parole tra parentesi con *lo, la, li, le* o *ne*.",
+        "questions": [
+          "Si {ip:beve} (il vino) a cena. → [[Lo]] si {ip:beve} a cena.",
+          "Si {ip:parla} molto (di questo film). → [[Se ne]] {ip:parla} molto.",
+          "Si {ip:mangiano} (le lasagne) la domenica. → [[Le]] si {ip:mangiano} la domenica.",
+          "Si {ip:comprano} (molti libri) a Natale. → [[Se ne]] {ip:comprano} molti a Natale."
+        ]
+      },
+      {
+        "h": "È vietato!"
+      },
+      {
+        "text": [
+          "**Regolamento della biblioteca comunale.** In sala lettura non si {ip:possono} portare cibo e bevande, tranne l'acqua. Si {ip:parla} a bassa voce e i telefoni {ip:vanno} tenuti in silenzioso. I libri si {ip:prendono} in prestito per un mese; se ne {ip:possono} prendere al massimo cinque alla volta. I libri rari non si {ip:prestano}: si {ip:leggono} solo in sala. Un libro che {ip:va} perso {ip:deve} essere ripagato."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi il regolamento. Vero o falso?",
+        "questions": [
+          {
+            "q": "In sala lettura si {ip:può} bere acqua.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           },
           {
-            "q": "Local products are sold here. (use si)",
-            "a": [
-              "Qui si vendono prodotti locali.",
-              "Si vendono prodotti locali qui."
+            "q": "Si {ip:possono} prendere in prestito dieci libri.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "In Italy people have dinner late.",
-            "a": [
-              "In Italia si cena tardi."
+            "q": "I libri rari si {ip:possono} portare a casa.",
+            "options": [
+              "Vero",
+              "*Falso"
             ]
           },
           {
-            "q": "This book must be read. (use andare)",
-            "a": [
-              "Questo libro va letto."
-            ]
-          },
-          {
-            "q": "In the morning people get up early. (use ci si)",
-            "a": [
-              "La mattina ci si alza presto.",
-              "Di mattina ci si alza presto."
+            "q": "Se si {ip:perde} un libro, {ip:bisogna} pagarlo.",
+            "options": [
+              "*Vero",
+              "Falso"
             ]
           }
         ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi le regole del tuo museo. Completa con *si può, si possono, si deve, si devono*.",
+        "questions": [
+          "Nelle sale non [[si possono#ip]] toccare le opere.",
+          "All'ingresso [[si deve#ip]] mostrare il biglietto.",
+          "Le borse grandi [[si devono#ip]] lasciare al guardaroba.",
+          "Nel giardino [[si può#ip]] mangiare."
+        ]
+      },
+      {
+        "h": "Andato perso"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *andare* + participio al [pp:passato prossimo].",
+        "questions": [
+          "Nel trasloco (perdere) [[sono andate perse#pp]] due scatole di libri.",
+          "I biglietti per la finale (esaurire) [[sono andati esauriti#pp]] in un'ora.",
+          "Nell'alluvione (distruggere) [[è andato distrutto#pp]] l'archivio del comune.",
+          "Tutta la torta (sprecare) [[è andata sprecata#pp]]: nessuno l'{pp:ha mangiata}."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Qui si vende libri usati.",
+            "a": [
+              "Qui si vendono libri usati."
+            ]
+          },
+          {
+            "q": "In vacanza si si riposa.",
+            "a": [
+              "In vacanza ci si riposa."
+            ]
+          },
+          {
+            "q": "Quando si è stanco, si dorme bene.",
+            "a": [
+              "Quando si è stanchi, si dorme bene."
+            ]
+          },
+          {
+            "q": "Ieri si ha mangiato benissimo.",
+            "a": [
+              "Ieri si è mangiato benissimo."
+            ]
+          },
+          {
+            "q": "Di questo si ne parla molto.",
+            "a": [
+              "Di questo se ne parla molto.",
+              "Se ne parla molto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "si / presto / ci / alza",
+            "a": [
+              "Ci si alza presto."
+            ]
+          },
+          {
+            "q": "ne / parla / se / molto",
+            "a": [
+              "Se ne parla molto."
+            ]
+          },
+          {
+            "q": "vendono / si / usati / libri",
+            "a": [
+              "Si vendono libri usati."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*Si* senza accento è un pronome: *si mangia, si alza*. *Sì* con l'accento vuol dire *yes*, la risposta positiva: *Vieni? — Sì!* Quando si parla non c'è differenza, ma per scrivere l'accento è importante."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Si* o *sì*?",
+        "questions": [
+          {
+            "q": "{ip:Vieni} al cinema? — ___, volentieri!",
+            "options": [
+              "*Sì",
+              "Si"
+            ]
+          },
+          {
+            "q": "In questo ristorante ___ {ip:mangia} benissimo.",
+            "options": [
+              "*si",
+              "sì"
+            ]
+          },
+          {
+            "q": "Ti {ip:piace}? — Mah, ___ e no.",
+            "options": [
+              "*sì",
+              "si"
+            ]
+          },
+          {
+            "q": "Luca ___ {ip:sveglia} sempre tardi.",
+            "options": [
+              "*si",
+              "sì"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So distinguere il *si* impersonale e il *si* passivante: *si cena / si vendono libri*.",
+          "So usare *ci si* con i verbi riflessivi.",
+          "So usare il *si* con *essere* + aggettivo: *quando si è giovani*.",
+          "So usare il *si* nei tempi composti: *si è mangiato, si è partiti*.",
+          "So usare *lo si fa, se ne parla*.",
+          "So parlare di libri, regole e abitudini."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una lunga sala con volte bianche e file di banchi di legno; sui banchi, grossi libri antichi legati con catene"
+      },
+      {
+        "text": [
+          "**La Biblioteca Malatestiana**",
+          "A Cesena, in Romagna, c'{ip:è} una biblioteca che {ip:è} considerata la prima biblioteca civica d'Europa. {pr:Fu} voluta da Malatesta Novello, signore della città, e {pr:fu} aperta nel 1454.",
+          "Che cosa la {ip:rende} speciale? {ip:È} arrivata fino a noi quasi come {im:era} cinquecento anni fa. Si {ip:entra} in una lunga sala con tre navate, come una chiesa, e si {ip:vedono} file di banchi di legno. Sui banchi i libri antichi {ip:sono} ancora legati con le catene: all'epoca i libri {im:erano} preziosissimi e non si {im:potevano} portare via.",
+          "La biblioteca {im:apparteneva} alla città, non a una famiglia o a un convento, e {im:era} aperta ai cittadini che {im:volevano} studiare. Per questo nel 2005 l'UNESCO l'{pp:ha inserita} nel registro della «Memoria del mondo». Oggi la si {ip:può} visitare, ma i libri non si {ip:toccano}: si {ip:guardano} soltanto."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La Biblioteca Malatestiana si {ip:trova} a Cesena.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "{pr:Fu} aperta nel Novecento.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "I libri {im:erano} legati per non essere portati via.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La biblioteca {im:apparteneva} a un convento.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Oggi i visitatori {ip:possono} sfogliare i libri antichi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il *si* e le forme passive.",
+        "questions": [
+          "[[Fu#pr]] voluta da Malatesta Novello.",
+          "Si [[entra#ip]] in una lunga sala con tre navate.",
+          "I libri non si [[potevano#im]] portare via.",
+          "Oggi la si [[può#ip]] visitare."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Qual {ip:è} la biblioteca, la libreria o il posto dove ti {ip:piace} leggere? Com'{ip:è}? Che cosa ci si {ip:fa}?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi la recensione di un libro che ti {pp:è piaciuto} (o che non ti {pp:è piaciuto}).",
+        "cues": [
+          "Chi l'{pp:ha scritto}? Quando {pp:è stato pubblicato}?",
+          "Dove e quando si {ip:svolge} la storia? Qual {ip:è} la trama, in poche righe?",
+          "Che cosa ti {pp:è piaciuto} e che cosa no?",
+          "A chi lo {cop:consiglieresti}? Secondo te, {ip:va} letto? Perché?"
+        ],
+        "start": "",
+        "model": "«Il barone rampante» di Italo Calvino\nQuesto romanzo è stato pubblicato nel 1957 e si svolge nel Settecento, in Liguria. Il protagonista, Cosimo, ha dodici anni quando, dopo una lite con i genitori, sale su un albero e decide di non scendere mai più.\nE lo fa davvero: passa tutta la vita sugli alberi, ma non si isola dal mondo. Studia, si innamora, aiuta il suo paese. Mentre si legge, ci si dimentica che è una storia impossibile.\nMi è piaciuto lo stile di Calvino, leggero e pieno di ironia. Alcune pagine sulla politica mi sono sembrate un po' lunghe.\nSecondo me è un libro che va letto da giovani, quando si sogna di cambiare il mondo, e poi di nuovo da adulti."
       }
     ]
   }

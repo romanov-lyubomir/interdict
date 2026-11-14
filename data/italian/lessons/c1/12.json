@@ -1,206 +1,418 @@
 {
   "title": "Con la presente, {ip:desideriamo} informarLa",
-  "translation": "We hereby wish to inform you",
-  "topics": "Word formation and compounds, register and style, punctuation in long sentences",
+  "translation": "",
+  "topics": "La lingua e i suoi registri: il plurale dei nomi composti difficili, gli elementi colti (*-logia, -fobia, -crazia, neo-*), le parole accorciate (*la bici, le foto*), una notizia in quattro registri, il burocratese e l'italiano chiaro, la punteggiatura nei periodi lunghi; lettere formali e messaggi",
   "grammar": {
     "explain": [
+      "Sei arrivato all'ultima lezione del C1. Conosci gli alterati, i prefissi, i suffissi, i nomi composti e la differenza tra registro formale e informale. Qui impari i casi difficili della formazione delle parole, le parole colte e quelle accorciate, come cambia una frase salendo di registro, come riconoscere ed evitare il burocratese e la punteggiatura dei periodi lunghi.",
       {
-        "h": "Compound words"
-      },
-      "Italian forms compounds by joining two words, and the type of compound decides its plural.",
-      {
-        "table": {
-          "head": [
-            "Parts",
-            "Example",
-            "Plural"
-          ],
-          "rows": [
-            [
-              "verb + noun",
-              "il portafoglio, l'asciugamano",
-              "i portafogli, gli asciugamani"
-            ],
-            [
-              "noun + noun",
-              "il capolavoro, l'arcobaleno",
-              "i capolavori, gli arcobaleni"
-            ],
-            [
-              "noun + adjective",
-              "la cassaforte",
-              "le casseforti"
-            ],
-            [
-              "capo + person",
-              "il capostazione",
-              "i capistazione"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "The feeling behind a suffix"
-      },
-      "The same suffix can praise or belittle, depending on the context. *Un lavoretto* may be a small job or a pat on the back, and *un ministrucolo* is clearly contemptuous. *-astro* (*poetastro*) and *-ucolo* always carry a negative judgement. A suffix can also make a new word: *cavallo → cavalletto* (an easel).",
-      {
-        "h": "Nouns from verbs"
-      },
-      "Formal writing replaces verbs with nouns. This is called nominal style: *Dopo che il contratto {pp:è stato} {pp:firmato}* becomes *Dopo la firma del contratto*. Use it moderately, as too much of it makes a text heavy.",
-      {
-        "h": "Four registers, one idea"
-      },
-      {
-        "table": {
-          "head": [
-            "Register",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Conversation",
-              "Se non {ip:paghi}, {ip:sono} guai."
-            ],
-            [
-              "Journalism",
-              "In caso di mancato pagamento, {ip:sono previste} sanzioni."
-            ],
-            [
-              "Academic",
-              "Il mancato pagamento {cop:comporterebbe} l'applicazione di sanzioni."
-            ],
-            [
-              "Bureaucratic",
-              "Il mancato versamento {fs:darà} luogo all'irrogazione delle sanzioni previste."
-            ]
-          ]
-        }
-      },
-      "Formal texts prefer verbs like *recarsi* (*andare*), *effettuare* (*fare*), *comunicare* (*dire*) and *ritenere* (*pensare*). Formulas include *Con la presente* (Hereby), *In riferimento a* (With reference to) and *Restando in attesa* (Looking forward to).",
-      "In a very formal letter, the courtesy pronouns are capitalised, even when attached: *informarLa, inviarLe*.",
-      {
-        "h": "Punctuation in long sentences"
-      },
-      {
-        "table": {
-          "head": [
-            "Case",
-            "Example"
-          ],
-          "rows": [
-            [
-              "A comma before and after an insertion",
-              "Il direttore, a quanto {ip:pare}, si {pp:è dimesso}."
-            ],
-            [
-              "Both commas or none",
-              "Il sindaco, che {im:era} assente, {pp:ha scritto}."
-            ],
-            [
-              "A semicolon between long items",
-              "{ip:Sono} presenti: Rossi, sindaco; Bianchi, assessore."
-            ],
-            [
-              "Dashes for a stronger break",
-              "La decisione – presa ieri – {ip:è} definitiva."
-            ],
-            [
-              "No comma before che in a restrictive clause",
-              "Il libro che {pp:ho letto} {ip:è} bello."
-            ]
-          ]
-        }
-      },
-      "A subordinate clause placed before the main clause is followed by a comma: *Sebbene {csi:fosse} tardi, {pr:continuò}*. After the main clause, a comma depends on how closely the two parts are linked."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il plurale dei nomi composti",
+              "head": [
+                "composto",
+                "plurale",
+                "regola"
+              ],
+              "rows": [
+                [
+                  "il capolavoro, il capoluogo",
+                  "i capolavori, i capoluoghi",
+                  "*capo* = il più importante: cambia la fine"
+                ],
+                [
+                  "il capostazione, il caporeparto",
+                  "i capistazione, i capireparto",
+                  "*capo* = chi dirige: cambia *capo*"
+                ],
+                [
+                  "la cassaforte",
+                  "le casseforti",
+                  "nome + aggettivo: cambiano tutti e due"
+                ],
+                [
+                  "il pescecane",
+                  "i pescecani (o pescicani)",
+                  "due forme possibili"
+                ],
+                [
+                  "l'asciugamano, il cavolfiore, il gentiluomo",
+                  "gli asciugamani, i cavolfiori, i gentiluomini",
+                  "cambia la fine"
+                ],
+                [
+                  "il portaombrelli, il senzatetto, il dopocena",
+                  "i portaombrelli, i senzatetto, i dopocena",
+                  "non cambiano"
+                ]
+              ]
+            },
+            "note": "Non c'è una regola sola. Di solito cambia la fine; i composti con *capo* che indicano chi dirige cambiano *capo*; i composti con un nome già plurale (*portaombrelli*) o con una preposizione (*senzatetto, dopocena*) non cambiano. Nel dubbio, il dizionario."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Gli elementi colti",
+              "head": [
+                "elemento",
+                "significato",
+                "esempi"
+              ],
+              "rows": [
+                [
+                  "*-logia, -logo*",
+                  "studio, esperto",
+                  "la sociologia, il sociologo"
+                ],
+                [
+                  "*-fobia, -fobo*",
+                  "paura di",
+                  "la claustrofobia, xenofobo"
+                ],
+                [
+                  "*-crazia*",
+                  "potere di",
+                  "la democrazia, la burocrazia"
+                ],
+                [
+                  "*-filo, -filia*",
+                  "che ama",
+                  "il cinefilo, l'anglofilia"
+                ],
+                [
+                  "*-cida*",
+                  "che uccide",
+                  "l'insetticida, l'omicida"
+                ],
+                [
+                  "*neo-*",
+                  "nuovo",
+                  "il neolaureato, il neonato"
+                ],
+                [
+                  "*iper-, ipo-*",
+                  "sopra, sotto",
+                  "iperattivo, l'ipotermia"
+                ],
+                [
+                  "*auto-*",
+                  "di sé; automobile",
+                  "l'autostima; l'autoscuola"
+                ]
+              ]
+            },
+            "note": "Vengono dal greco e dal latino e formano molte parole della scienza e dei giornali. *Auto-* ha due sensi: *di sé* (*autobiografia*) e *automobile* (*autostrada, autoscuola*)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le parole accorciate",
+              "head": [
+                "parola accorciata",
+                "parola intera",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "la bici",
+                  "la bicicletta",
+                  "non cambia al plurale: *le bici*"
+                ],
+                [
+                  "la foto",
+                  "la fotografia",
+                  "*le foto*"
+                ],
+                [
+                  "la moto, l'auto",
+                  "la motocicletta, l'automobile",
+                  "femminili, come la parola intera"
+                ],
+                [
+                  "il frigo",
+                  "il frigorifero",
+                  "*i frigo*"
+                ],
+                [
+                  "il prof, la prof",
+                  "il professore, la professoressa",
+                  "parlato, soprattutto a scuola"
+                ],
+                [
+                  "la tele",
+                  "la televisione",
+                  "familiare"
+                ]
+              ]
+            },
+            "note": "Le parole accorciate non cambiano al plurale e tengono il genere della parola intera, come *la radio, le radio*. Alcune sono normali anche nello scritto (*foto, moto, bici*), altre restano familiari (*prof, tele*)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Una notizia, quattro registri",
+              "head": [
+                "registro",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "familiare",
+                  "Se non {ip:paghi} entro venerdì, {ip:sono} guai."
+                ],
+                [
+                  "giornalistico",
+                  "Ritardi nei pagamenti: in arrivo le multe."
+                ],
+                [
+                  "accademico",
+                  "Il mancato pagamento {cop:comporterebbe} l'applicazione di sanzioni."
+                ],
+                [
+                  "burocratico",
+                  "Il mancato versamento entro i termini {fs:darà} luogo all'applicazione delle sanzioni previste."
+                ]
+              ]
+            },
+            "note": "Salendo di registro aumentano i nomi astratti (*il mancato pagamento*), i verbi generici (*comportare, dare luogo a*) e le frasi impersonali; spariscono le persone e i verbi concreti."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il burocratese e l'italiano chiaro",
+              "head": [
+                "burocratese",
+                "italiano chiaro"
+              ],
+              "rows": [
+                [
+                  "effettuare un acquisto",
+                  "comprare"
+                ],
+                [
+                  "procedere alla verifica",
+                  "verificare"
+                ],
+                [
+                  "provvedere al pagamento",
+                  "pagare"
+                ],
+                [
+                  "in data odierna",
+                  "oggi"
+                ],
+                [
+                  "porre in essere",
+                  "fare, realizzare"
+                ],
+                [
+                  "risulta essere",
+                  "è"
+                ],
+                [
+                  "recarsi presso",
+                  "andare a, andare da"
+                ],
+                [
+                  "nella misura in cui",
+                  "se, quanto"
+                ]
+              ]
+            },
+            "note": "Il burocratese sostituisce i verbi con nomi e con verbi vuoti (*effettuare, procedere a, provvedere a*). Le guide alla scrittura per la pubblica amministrazione consigliano il contrario: frasi brevi, verbi concreti, forma attiva."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La punteggiatura nei periodi lunghi",
+              "head": [
+                "caso",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "un inciso: due virgole",
+                  "Il direttore, a quanto {ip:pare}, si {pp:è dimesso}."
+                ],
+                [
+                  "una relativa esplicativa: due virgole",
+                  "Il sindaco, che {im:era} assente, {pp:ha scritto} una lettera."
+                ],
+                [
+                  "una relativa restrittiva: nessuna virgola",
+                  "Il libro che {pp:ho letto} {ip:è} bello."
+                ],
+                [
+                  "la subordinata prima della principale",
+                  "Sebbene {csi:fosse} tardi, {pr:continuò} a lavorare."
+                ],
+                [
+                  "elementi lunghi in un elenco: punto e virgola",
+                  "{ip:Sono} presenti: Rossi, sindaco; Bianchi, assessore; Verdi, consigliere."
+                ],
+                [
+                  "un inciso forte: lineette o parentesi",
+                  "La decisione – presa ieri sera – {ip:è} definitiva."
+                ]
+              ]
+            },
+            "note": "L'errore più comune è chiudere un inciso con una virgola sola: ✗ *Il direttore, a quanto pare si è dimesso*. E non si separano mai con la virgola il verbo e il suo oggetto: ✗ *Ha comunicato, la decisione*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Write the plural of each compound.",
+        "prompt": "Scrivi il plurale.",
         "questions": [
-          "il portafoglio → i [[portafogli]]",
           "il capolavoro → i [[capolavori]]",
-          "l'asciugamano → gli [[asciugamani]]",
           "la cassaforte → le [[casseforti]]",
-          "il capostazione → i [[capistazione]]"
+          "il capostazione → i [[capistazione]]",
+          "il portaombrelli → i [[portaombrelli]]",
+          "il gentiluomo → i [[gentiluomini]]"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni elemento al suo significato.",
+        "pairs": [
+          [
+            "-fobia",
+            "paura di"
+          ],
+          [
+            "-crazia",
+            "potere di"
+          ],
+          [
+            "-logia",
+            "studio di"
+          ],
+          [
+            "-cida",
+            "che uccide"
+          ],
+          [
+            "-filo",
+            "che ama"
+          ],
+          [
+            "neo-",
+            "nuovo"
+          ]
         ]
       },
       {
         "type": "choice",
-        "prompt": "Which version suits the register in brackets?",
+        "prompt": "Scegli la forma giusta.",
         "questions": [
           {
-            "q": "(formal letter)",
+            "q": "{pp:Ho comprato} ___ moto.",
             "options": [
-              "Ti {ip:scrivo} per dirti che…",
-              "*Con la presente, {ip:desideriamo} informarLa che…"
+              "*una",
+              "un"
             ]
           },
           {
-            "q": "(conversation)",
+            "q": "{pp:Ho fatto} tante ___ in vacanza.",
             "options": [
-              "*Se non {ip:paghi}, {ip:sono} guai.",
-              "Il mancato versamento {fs:darà} luogo a sanzioni."
+              "*foto",
+              "fote",
+              "foti"
             ]
           },
           {
-            "q": "(bureaucratic: andare)",
+            "q": "Le ___ {ip:sono} in garage.",
             "options": [
-              "andare",
-              "*recarsi"
+              "*bici",
+              "bicie",
+              "bicis"
             ]
           },
           {
-            "q": "(contemptuous: a bad poet)",
+            "q": "{imv:Metti} il latte ___ .",
             "options": [
-              "*un poetastro",
-              "un poetino",
-              "un poetone"
-            ]
-          },
-          {
-            "q": "Correct punctuation?",
-            "options": [
-              "*Il direttore, a quanto {ip:pare}, si {pp:è dimesso}.",
-              "Il direttore a quanto {ip:pare}, si {pp:è dimesso}."
-            ]
-          },
-          {
-            "q": "Correct punctuation?",
-            "options": [
-              "Il libro, che {pp:ho letto} ieri {ip:è} bello.",
-              "*Il libro che {pp:ho letto} ieri {ip:è} bello."
+              "*in frigo",
+              "nella frigo"
             ]
           }
         ]
       },
       {
-        "type": "write",
-        "prompt": "Replace the clause with a noun, in nominal style.",
+        "type": "match",
+        "prompt": "Abbina ogni espressione burocratica all'italiano chiaro.",
+        "pairs": [
+          [
+            "effettuare un acquisto",
+            "comprare"
+          ],
+          [
+            "in data odierna",
+            "oggi"
+          ],
+          [
+            "procedere alla verifica",
+            "verificare"
+          ],
+          [
+            "porre in essere",
+            "fare, realizzare"
+          ],
+          [
+            "risulta essere",
+            "è"
+          ],
+          [
+            "recarsi presso",
+            "andare a, andare da"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Dallo stile nominale a quello verbale: completa.",
+        "questions": [
+          "Dopo la firma del contratto… → Dopo che {pp:abbiamo} [[firmato#pp]] il contratto…",
+          "Prima della partenza… → Prima di [[partire]]…",
+          "Per l'acquisto dei biglietti… → Per [[comprare|acquistare]] i biglietti…",
+          "La chiusura degli uffici {fs:avverrà} alle 13. → Gli uffici [[chiuderanno#fs]] alle 13."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale frase ha la punteggiatura giusta?",
         "questions": [
           {
-            "q": "Dopo che il contratto {pp:è stato} {pp:firmato}… (la firma)",
-            "a": [
-              "Dopo la firma del contratto…",
-              "Dopo la firma del contratto"
+            "q": "Un inciso:",
+            "options": [
+              "*Il direttore, a quanto pare, si è dimesso.",
+              "Il direttore, a quanto pare si è dimesso."
             ]
           },
           {
-            "q": "Prima che il treno {csp:parta}… (la partenza)",
-            "a": [
-              "Prima della partenza del treno…",
-              "Prima della partenza del treno"
+            "q": "Una relativa esplicativa:",
+            "options": [
+              "*Il sindaco, che era assente, ha scritto una lettera.",
+              "Il sindaco, che era assente ha scritto una lettera."
             ]
           },
           {
-            "q": "Poiché il pagamento non {pp:è stato} {pp:effettuato}… (il mancato pagamento)",
-            "a": [
-              "A causa del mancato pagamento…",
-              "A causa del mancato pagamento",
-              "Per il mancato pagamento…",
-              "Per il mancato pagamento"
+            "q": "Una subordinata:",
+            "options": [
+              "*Sebbene fosse tardi, continuò a lavorare.",
+              "Sebbene fosse tardi continuò, a lavorare."
+            ]
+          },
+          {
+            "q": "Una relativa restrittiva:",
+            "options": [
+              "*Il libro che ho letto è bello.",
+              "Il libro, che ho letto è bello."
             ]
           }
         ]
@@ -211,138 +423,274 @@
     "words": [
       [
         "la presente",
-        "this letter"
+        "questa lettera (nelle lettere formali)"
       ],
       [
         "il versamento",
-        "payment"
+        "il pagamento fatto in banca o in un ufficio"
       ],
       [
         "la sanzione",
-        "penalty"
+        "la punizione prevista da una regola, spesso una multa"
       ],
       [
         "l'adempimento",
-        "fulfilment"
+        "il fatto di eseguire un obbligo"
       ],
       [
         "il destinatario",
-        "addressee"
+        "la persona a cui è diretta una lettera"
       ],
       [
         "il mittente",
-        "sender"
+        "chi manda una lettera"
+      ],
+      [
+        "l'allegato",
+        "il documento mandato insieme a una lettera o a una mail"
+      ],
+      [
+        "il burocratese",
+        "la lingua complicata degli uffici"
+      ],
+      [
+        "il linguaggio settoriale",
+        "la lingua di una professione o di una scienza"
+      ],
+      [
+        "il registro",
+        "il livello di formalità di un testo"
       ],
       [
         "recarsi",
-        "to go"
-      ],
-      [
-        "inoltrare",
-        "to forward"
+        "andare (formale)"
       ],
       [
         "pervenire",
-        "to reach, to arrive"
+        "arrivare (formale)"
       ],
       [
         "sollecitare",
-        "to urge"
+        "chiedere di nuovo, con insistenza"
+      ],
+      [
+        "porgere",
+        "offrire, dare (formale: *porgere i saluti*)"
+      ],
+      [
+        "provvedere a",
+        "occuparsi di fare qualcosa"
       ],
       [
         "suddetto",
-        "aforesaid"
+        "nominato prima nel testo"
+      ],
+      [
+        "odierno",
+        "di oggi"
+      ],
+      [
+        "munito di",
+        "che ha con sé"
       ],
       [
         "distinti saluti",
-        "yours faithfully"
+        "la formula finale di una lettera formale"
+      ],
+      [
+        "in parole povere",
+        "in modo semplice"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "il versamento",
-            "payment"
+            "l'adempimento",
+            "il fatto di eseguire un obbligo"
           ],
           [
-            "la sanzione",
-            "penalty"
+            "il burocratese",
+            "la lingua complicata degli uffici"
           ],
           [
-            "il mittente",
-            "sender"
-          ],
-          [
-            "inoltrare",
-            "to forward"
-          ],
-          [
-            "pervenire",
-            "to reach, to arrive"
+            "sollecitare",
+            "chiedere di nuovo, con insistenza"
           ],
           [
             "suddetto",
-            "aforesaid"
+            "nominato prima nel testo"
+          ],
+          [
+            "munito di",
+            "che ha con sé"
+          ],
+          [
+            "in parole povere",
+            "in modo semplice"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Il [[destinatario]] {ip:è} assente. (addressee)",
-          "La {ip:invitiamo} a [[recarsi]] presso i nostri uffici. (to go)",
-          "Con la [[presente]], La {ip:informiamo}. (this letter)",
-          "[[Distinti]] saluti. (yours faithfully)"
+          {
+            "q": "{ip:Trova} il contratto in ___ a questa mail.",
+            "options": [
+              "*allegato",
+              "versamento",
+              "registro"
+            ]
+          },
+          {
+            "q": "Sulla busta {ip:manca} l'indirizzo del ___ : il postino non {ip:sa} a chi portarla.",
+            "options": [
+              "*destinatario",
+              "mittente",
+              "registro"
+            ]
+          },
+          {
+            "q": "Per chi non {ip:paga} {ip:è} prevista una ___ .",
+            "options": [
+              "*sanzione",
+              "presente",
+              "allegato"
+            ]
+          },
+          {
+            "q": "Il medico {ip:usa} un ___ settoriale: non {ip:capisco} niente.",
+            "options": [
+              "*linguaggio",
+              "versamento",
+              "adempimento"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{imv:Si rechi} [[presso]] lo sportello numero tre.",
+          "La Sua domanda non ci {pp:è} ancora [[pervenuta#pp]].",
+          "Le [[porgiamo]] distinti saluti.",
+          "Il [[versamento]] {ip:va} fatto entro il 30 giugno.",
+          "Con la [[presente]] La informiamo che…"
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Gentile Signora Moretti, con la presente {ip:desideriamo} informarLa che, in riferimento alla Sua richiesta del 3 marzo, non {pp:è stato} possibile procedere al rimborso, in quanto il suddetto versamento non {ip:risulta} pervenuto. La {ip:invitiamo} pertanto a recarsi presso i nostri uffici, muniti di ricevuta, entro trenta giorni. Restando a disposizione, {ip:porgiamo} distinti saluti.",
-      "«Marta, ti {ip:giuro}, che lettera! Non {pp:ho capito} un tubo. In pratica, {ip:dicono} che i soldi non {pp:sono arrivati} e che {ip:devo} andare lì con la ricevuta. Ma {ip:dico} io, non {im:potevano} scriverlo così? Quei burocrati da quattro soldi!»"
+      {
+        "h": "Due testi, una notizia"
+      },
+      "Gentile Signor Ferrara, con la presente La informiamo che in data 12 maggio {fs:verranno} effettuati lavori di manutenzione dell'impianto idrico del condominio. Durante l'intervento, previsto dalle ore 8 alle ore 14, l'erogazione dell'acqua {fs:sarà} sospesa. La {ip:preghiamo} pertanto di provvedere per tempo alle Sue esigenze. Restando a disposizione per ogni chiarimento, Le {ip:porgiamo} distinti saluti. L'Amministrazione",
+      "Il signor Ferrara {ip:ha} ottantadue anni, e la lettera l'{pp:ha letta} tre volte. Poi {pp:ha chiamato} la nipote: «Giulia, che cosa {ip:vuol} dire *erogazione*?» Giulia gliel'{pp:ha spiegato} in parole povere e, già che c'{im:era}, {pp:ha scritto} lei un messaggio per tutti i vicini:",
+      "«Ciao a tutti! Il 12 maggio {ip:rifanno} i tubi dell'acqua: dalle 8 alle 2 niente acqua in casa. {imv:Riempite} qualche bottiglia la sera prima. Per qualsiasi cosa, {imv:scrivete} all'amministratore.»",
+      "Due testi, la stessa notizia: il primo {ip:usa} una lingua impersonale, piena di nomi (*l'intervento, l'erogazione, le esigenze*) e di formule; il secondo {ip:va} dritto al punto. Nessuno dei due {ip:è} sbagliato: ogni registro {ip:ha} il suo posto. Il problema {ip:nasce} quando chi {ip:scrive} {ip:dimentica} chi {fs:leggerà}."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Why was the refund not made?",
+            "q": "Che cosa {ip:annuncia} la lettera?",
             "options": [
-              "The request was late",
-              "*The payment hasn't been received",
-              "The office was closed"
+              "*lavori all'impianto dell'acqua",
+              "un aumento delle spese",
+              "un'assemblea di condominio"
             ]
           },
           {
-            "q": "What must Signora Moretti bring?",
+            "q": "Perché il signor Ferrara {pp:ha chiamato} la nipote?",
             "options": [
-              "Her passport",
-              "*The receipt",
-              "A letter"
+              "*Non {im:capiva} una parola della lettera.",
+              "{im:Voleva} invitarla a pranzo.",
+              "Non {im:aveva} acqua in casa."
             ]
           },
           {
-            "q": "What is the difference between the two texts?",
+            "q": "Che cosa {pp:ha fatto} Giulia?",
             "options": [
-              "*Register: formal letter against spoken complaint",
-              "They contain different facts",
-              "One is older"
+              "*{pp:Ha scritto} un messaggio ai vicini.",
+              "{pp:Ha chiamato} l'amministratore.",
+              "{pp:Ha riparato} i tubi."
             ]
           },
           {
-            "q": "«Non {pp:ho capito} un tubo» means…",
+            "q": "Qual {ip:è} il problema, secondo il testo?",
             "options": [
-              "I understood the plumbing",
-              "*I understood nothing at all",
-              "I understood everything"
+              "*Chi {ip:scrive} a volte {ip:dimentica} chi {fs:leggerà}.",
+              "Le lettere formali {ip:sono} sempre sbagliate.",
+              "I messaggi informali {ip:sono} troppo lunghi."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "L'acqua {fs:mancherà} per tutta la giornata.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il signor Ferrara {pp:ha letto} la lettera più volte.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Giulia {ip:consiglia} ai vicini di riempire delle bottiglie.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Secondo il testo, il registro formale {ip:è} sempre da evitare.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni espressione della lettera alla frase del messaggio.",
+        "pairs": [
+          [
+            "in data 12 maggio",
+            "il 12 maggio"
+          ],
+          [
+            "lavori di manutenzione dell'impianto idrico",
+            "rifanno i tubi dell'acqua"
+          ],
+          [
+            "l'erogazione dell'acqua sarà sospesa",
+            "niente acqua in casa"
+          ],
+          [
+            "provvedere per tempo alle Sue esigenze",
+            "riempite qualche bottiglia la sera prima"
+          ],
+          [
+            "restando a disposizione per ogni chiarimento",
+            "per qualsiasi cosa, scrivete all'amministratore"
+          ]
         ]
       }
     ]
@@ -351,7 +699,7 @@
     "transcript": [
       [
         "Impiegato",
-        "Le {ip:comunichiamo} che la Sua pratica {pp:è stata} {pp:inoltrata}."
+        "Buongiorno. Le {ip:comunico} che la Sua domanda {pp:è stata} accolta, ma {ip:risulta} mancante la documentazione relativa al reddito."
       ],
       [
         "Utente",
@@ -359,42 +707,54 @@
       ],
       [
         "Impiegato",
-        "{pp:Abbiamo mandato} la domanda all'ufficio giusto."
+        "La domanda {ip:va} bene, ma ci {ip:manca} la dichiarazione dei redditi."
       ],
       [
         "Utente",
-        "E quando {fs:riceverò} una risposta?"
+        "Ah! E entro quando {ip:devo} portarla?"
       ],
       [
         "Impiegato",
-        "L'esito Le {fs:perverrà} entro trenta giorni."
+        "{ip:È} tenuto a presentarla entro e non oltre trenta giorni dalla data odierna."
       ],
       [
         "Utente",
-        "Cioè, mi {ip:scrivete} entro un mese. Grazie!"
+        "Cioè entro un mese da oggi. Ma {imv:senta}, perché non lo {ip:scrivete} così anche nelle lettere?"
+      ],
+      [
+        "Impiegato",
+        "Bella domanda. Se {csi:dipendesse} da me, lo {cop:farei}!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "La Sua pratica {pp:è stata} [[inoltrata#pp]].",
+          "{ip:Risulta} [[mancante]] la documentazione relativa al reddito.",
           "{imv:Scusi}, in parole [[povere]]?",
-          "L'esito Le [[perverrà#fs]] entro trenta giorni.",
-          "Cioè, mi {ip:scrivete} [[entro]] un mese."
+          "Entro e non oltre trenta giorni dalla data [[odierna]].",
+          "Se [[dipendesse#csi]] da me, lo {cop:farei}!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "What is the citizen doing?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The citizen…",
+            "q": "Che cosa {ip:manca} all'utente?",
             "options": [
-              "is complaining about a fine",
-              "*keeps asking for plain language",
-              "is writing a letter"
+              "*la dichiarazione dei redditi",
+              "la domanda",
+              "un documento d'identità"
+            ]
+          },
+          {
+            "q": "Entro quando {ip:deve} portarla?",
+            "options": [
+              "*entro un mese",
+              "entro una settimana",
+              "oggi stesso"
             ]
           }
         ]
@@ -405,47 +765,372 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Rewrite each sentence in a more formal register.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "Ti scrivo per dirti che… (start with Con la presente, La)",
+            "q": "{imv:Riscrivi} in parole povere una frase burocratica che {pp:hai letto} di recente."
+          },
+          {
+            "q": "Quale registro {ip:usi} di più nella tua vita: familiare, standard o formale?"
+          },
+          {
+            "q": "C'{ip:è} una parola composta italiana che ti {ip:piace} particolarmente? Perché?"
+          },
+          {
+            "q": "Nella tua lingua ci {ip:sono} parole accorciate come *bici* o *frigo*? Quali?"
+          },
+          {
+            "q": "{pp:Hai} mai {pp:ricevuto} una lettera ufficiale incomprensibile? Che cosa {im:diceva}?"
+          },
+          {
+            "q": "Che cosa {pp:hai imparato} nel livello C1 che ti {ip:sembra} più utile?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Parole che si costruiscono"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una cassaforte aperta, piena di gioielli",
+          "B — Un arcobaleno sopra le colline dopo un temporale",
+          "C — Un capostazione con la paletta in mano sul binario",
+          "D — Un frigo aperto e vuoto"
+        ],
+        "pairs": [
+          [
+            "La cassaforte {ip:è} aperta.",
+            "immagine A"
+          ],
+          [
+            "Dopo il temporale {pp:è uscito} l'arcobaleno.",
+            "immagine B"
+          ],
+          [
+            "Il capostazione {ip:dà} il via al treno.",
+            "immagine C"
+          ],
+          [
+            "Il frigo {ip:è} vuoto: {ip:bisogna} fare la spesa.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il plurale.",
+        "questions": [
+          "il pescecane → i [[pescecani|pescicani]]",
+          "l'asciugamano → gli [[asciugamani]]",
+          "il senzatetto → i [[senzatetto]]",
+          "il capoluogo → i [[capoluoghi]]"
+        ]
+      },
+      {
+        "h": "Dal burocratese all'italiano"
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi in italiano chiaro.",
+        "questions": [
+          {
+            "q": "Il cliente è tenuto a recarsi presso lo sportello.",
             "a": [
-              "Con la presente, La informo che…",
-              "Con la presente, desidero informarLa che…",
-              "Con la presente, La informiamo che…",
-              "Con la presente, desideriamo informarLa che…",
-              "Con la presente La informo che…"
+              "Il cliente deve andare allo sportello."
             ]
           },
           {
-            "q": "{ip:Devi} andare in ufficio. (Lei, recarsi)",
+            "q": "La documentazione risulta essere incompleta.",
             "a": [
-              "Deve recarsi in ufficio.",
-              "La invitiamo a recarsi in ufficio."
+              "La documentazione è incompleta.",
+              "I documenti sono incompleti."
             ]
           },
           {
-            "q": "Ci {pp:hanno detto} che… (use comunicare)",
+            "q": "Si prega di provvedere al pagamento in data odierna.",
             "a": [
-              "Ci hanno comunicato che…",
-              "Ci è stato comunicato che…"
-            ]
-          },
-          {
-            "q": "Ciao, a presto! (a closing for a formal letter)",
-            "a": [
-              "Distinti saluti.",
-              "Cordiali saluti."
-            ]
-          },
-          {
-            "q": "I soldi non {pp:sono arrivati}. (use il versamento, pervenire)",
-            "a": [
-              "Il versamento non è pervenuto.",
-              "Il versamento non risulta pervenuto."
+              "Per favore, pagate oggi.",
+              "Per favore, paghi oggi.",
+              "Pagate oggi, per favore.",
+              "Paghi oggi, per favore."
             ]
           }
         ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale registro?",
+        "questions": [
+          {
+            "q": "«Se non {ip:paghi}, {ip:sono} guai.»",
+            "options": [
+              "*familiare",
+              "burocratico",
+              "accademico"
+            ]
+          },
+          {
+            "q": "«Il mancato versamento {fs:darà} luogo a sanzioni.»",
+            "options": [
+              "*burocratico",
+              "familiare",
+              "giornalistico"
+            ]
+          },
+          {
+            "q": "«Multe per chi non {ip:paga}: {ip:arriva} la stretta.»",
+            "options": [
+              "*giornalistico",
+              "accademico",
+              "familiare"
+            ]
+          },
+          {
+            "q": "«Il mancato pagamento {cop:comporterebbe} conseguenze rilevanti.»",
+            "options": [
+              "*accademico",
+              "familiare",
+              "giornalistico"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Bici, foto, prof"
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi la parola accorciata.",
+        "questions": [
+          "Domani {ip:vado} al lavoro in [[bici]]. (bicicletta)",
+          "{pp:Ho fatto} cento [[foto]] in vacanza. (fotografie)",
+          "La [[prof]] di storia {ip:è} simpaticissima. (professoressa)",
+          "{imv:Metti} il latte in [[frigo]]. (frigorifero)"
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "In banca hanno due casseforte.",
+            "a": [
+              "In banca hanno due casseforti."
+            ]
+          },
+          {
+            "q": "Le fote delle vacanze sono bellissime.",
+            "a": [
+              "Le foto delle vacanze sono bellissime."
+            ]
+          },
+          {
+            "q": "Il libro, che ho letto ieri è bellissimo.",
+            "a": [
+              "Il libro che ho letto ieri è bellissimo.",
+              "Il libro, che ho letto ieri, è bellissimo."
+            ]
+          },
+          {
+            "q": "Il direttore ha comunicato, la sua decisione.",
+            "a": [
+              "Il direttore ha comunicato la sua decisione."
+            ]
+          },
+          {
+            "q": "I capostazioni hanno scioperato.",
+            "a": [
+              "I capistazione hanno scioperato."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "distinti / porgiamo / saluti / Le",
+            "a": [
+              "Le porgiamo distinti saluti."
+            ]
+          },
+          {
+            "q": "in parole / me lo spieghi / povere",
+            "a": [
+              "Me lo spieghi in parole povere?"
+            ]
+          },
+          {
+            "q": "a disposizione / resto / per ogni chiarimento",
+            "a": [
+              "Resto a disposizione per ogni chiarimento."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nelle lettere formali i pronomi di cortesia si scrivono spesso con la maiuscola, anche attaccati al verbo: *La ringrazio, informarLa, inviarLe*. I titoli si abbreviano: *Sig.* (signore), *Sig.ra* (signora), *Dott.* e *Dott.ssa* (dottore, dottoressa), *Egr.* (egregio), *Gent.mo, Gent.ma* (gentilissimo, gentilissima), *Spett.le* (spettabile, per le aziende). Il punto segna la parte che manca."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli l'abbreviazione giusta.",
+        "questions": [
+          {
+            "q": "signora",
+            "options": [
+              "*Sig.ra",
+              "Sig.a",
+              "Sgr."
+            ]
+          },
+          {
+            "q": "spettabile (ditta)",
+            "options": [
+              "*Spett.le",
+              "Spet.",
+              "Sp.le"
+            ]
+          },
+          {
+            "q": "dottore",
+            "options": [
+              "*Dott.",
+              "Dot.",
+              "Dtt."
+            ]
+          },
+          {
+            "q": "egregio",
+            "options": [
+              "*Egr.",
+              "Eg.",
+              "Egg."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So fare il plurale dei nomi composti difficili: *casseforti, capistazione, portaombrelli*.",
+          "Capisco le parole formate con *-logia, -fobia, -crazia, neo-, iper-*.",
+          "So usare le parole accorciate: *la bici, le foto, la prof*.",
+          "So riconoscere i registri familiare, giornalistico, accademico e burocratico.",
+          "So riscrivere il burocratese in italiano chiaro.",
+          "So usare la punteggiatura nei periodi lunghi e le abbreviazioni delle lettere formali."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una vecchia macchina per scrivere con un foglio pieno di timbri"
+      },
+      {
+        "text": [
+          "**L'antilingua**",
+          "Nel febbraio del 1965 Italo Calvino {pr:pubblicò} sul quotidiano *Il Giorno* un articolo rimasto famoso, in cui {pr:diede} un nome a un fenomeno che tutti {im:conoscevano}: l'antilingua.",
+          "Per spiegarlo, {pr:immaginò} una scena in una caserma. Un uomo {ip:racconta} con parole semplici che la mattina {pp:è sceso} in cantina ad accendere la stufa e {pp:ha trovato} delle bottiglie di vino. Il brigadiere, scrivendo il verbale, {ip:trasforma} ogni parola: la cantina {ip:diventa} *i locali dello scantinato*, la stufa *l'impianto termico*, il vino *prodotti vinicoli*.",
+          "Secondo Calvino, chi {ip:usa} l'antilingua {ip:ha} paura delle parole concrete e {ip:preferisce} quelle astratte, che {ip:sembrano} più importanti ma {ip:dicono} meno. Sessant'anni dopo, il suo articolo {ip:è} ancora citato in molti corsi di scrittura."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Calvino {pr:pubblicò} l'articolo su un quotidiano.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'articolo {pr:uscì} negli anni Ottanta.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Nella scena il brigadiere {ip:usa} parole più semplici dell'uomo.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Nel verbale la stufa {ip:diventa} un impianto termico.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Secondo Calvino l'antilingua {ip:preferisce} le parole astratte.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le parole che mancano.",
+        "questions": [
+          "Nel verbale la stufa {ip:diventa} l'impianto [[termico]].",
+          "Il vino {ip:diventa} prodotti [[vinicoli]].",
+          "Chi {ip:usa} l'antilingua {ip:ha} paura delle parole [[concrete]]."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Prova anche tu: scrivi una frase semplice e poi trasformala in antilingua.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La frase semplice… L'antilingua…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi la stessa notizia due volte: in una lettera formale (di un'amministrazione o di un'azienda) e in un messaggio a un amico.",
+        "cues": [
+          "Nella lettera: *Con la presente…, in data…, La preghiamo di…, Distinti saluti*.",
+          "Usa almeno un nome al posto di un verbo (*la chiusura, l'erogazione*).",
+          "Nel messaggio: frasi brevi, verbi concreti, il *tu*.",
+          "Rileggi: chi legge capirà subito che cosa deve fare?"
+        ],
+        "start": "",
+        "model": "Gentile Cliente,\ncon la presente La informiamo che, a causa di lavori di ristrutturazione, la filiale di via Roma resterà chiusa dal 3 al 17 luglio. Per tutte le operazioni potrà recarsi presso la filiale di piazza Garibaldi, aperta con il consueto orario. Scusandoci per il disagio, Le porgiamo distinti saluti.\nLa Direzione\n\nCiao Sara! Hai visto? La nostra banca di via Roma chiude due settimane, dal 3 al 17 luglio, per lavori. Se ti serve qualcosa, vai a quella di piazza Garibaldi: gli orari sono gli stessi. Ci vediamo stasera?"
       }
     ]
   }

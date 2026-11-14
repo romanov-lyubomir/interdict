@@ -1,0 +1,9 @@
+title: მოგზაურობა ყაზბეგში
+translation: A trip to Kazbegi
+level: A2
+
+გასულ{გასული: last} ზაფხულს{ზაფხული: summer} მე{I} და{and} ჩემი{my} მეგობრები{მეგობარი = friend: friends} ყაზბეგში{ყაზბეგი: in Kazbegi} ვიყავით{ყოფნა: we were}. თბილისიდან{თბილისი: from Tbilisi} მარშრუტკით{მარშრუტკა = minibus: by minibus} წავედით{წასვლა: we went}. გზა{the road} ძალიან{very} ლამაზი{beautiful} იყო{ყოფნა: was}.
+
+სტეფანწმინდაში{სტეფანწმინდა: in Stepantsminda} სასტუმროში{სასტუმრო: at a hotel} დავრჩით{დარჩენა: we stayed}. მეორე{second} დღეს{დღე: day} გერგეტის{გერგეტი: of Gergeti} სამების{სამება: Trinity} ეკლესიამდე{ეკლესია = church: up to the church} ავედით{ასვლა: we went up}. იქიდან{from there} ყაზბეგის{ყაზბეგი: Kazbek's} მწვერვალი{peak} დავინახეთ{დანახვა: we saw}.
+
+საღამოს{in the evening} ხინკალი{khinkali} ვჭამეთ{ჭამა: we ate} და{and} ქართული{Georgian} სიმღერები{სიმღერა = song: songs} ვიმღერეთ{სიმღერა: we sang}. ეს{this} იყო{ყოფნა: was} საუკეთესო{the best} მოგზაურობა{trip}!

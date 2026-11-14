@@ -1,231 +1,393 @@
 {
   "title": "{ip:Conviene} partire il più presto possibile",
-  "translation": "It's best to leave as early as possible",
-  "topics": "Impersonal verbs and expressions, comparatives and superlatives at a higher level",
+  "translation": "",
+  "topics": "I verbi impersonali (*bisogna, occorre, basta, conviene, serve, capita*) con l'infinito, con *che* e con i pronomi, i verbi del tempo atmosferico, confronti avanzati (*più… più, sempre più, più di quanto*), *migliore* o *meglio*, i superlativi della lingua parlata, spese, offerte e risparmio",
   "grammar": {
     "explain": [
+      "In questa lezione impari a dire che cosa è necessario o utile senza un soggetto preciso, e a fare confronti più ricchi di quelli del livello A2: *più passa il tempo, più costa*, *è più caro di quanto pensassi*.",
       {
-        "h": "Impersonal verbs"
-      },
-      "These verbs have no real subject and appear in the third person. Use the infinitive for a general statement, and *che* with the *congiuntivo* when you name who is concerned.",
-      {
-        "table": {
-          "head": [
-            "Verb",
-            "Meaning",
-            "General",
-            "For someone"
-          ],
-          "rows": [
-            [
-              "{ip:bisogna}",
-              "it is necessary",
-              "{ip:Bisogna} fare attenzione.",
-              "{ip:Bisogna} che tu {csp:faccia} attenzione."
-            ],
-            [
-              "{ip:occorre}",
-              "it is necessary",
-              "{ip:Occorre} prenotare.",
-              "{ip:Occorre} che {csp:prenotiate}."
-            ],
-            [
-              "{ip:conviene}",
-              "it's better, it pays",
-              "{ip:Conviene} partire presto.",
-              "Ti {ip:conviene} partire presto."
-            ],
-            [
-              "{ip:basta}",
-              "it is enough",
-              "{ip:Basta} chiedere.",
-              "{ip:Basta} che tu lo {csp:chieda}."
-            ],
-            [
-              "{ip:sembra} / {ip:pare}",
-              "it seems",
-              "{ip:Sembra} facile.",
-              "{ip:Sembra} che {csp:sia} facile."
-            ],
-            [
-              "{ip:capita}",
-              "it happens",
-              "{ip:Capita} di sbagliare.",
-              "{ip:Capita} che {csp:piova}."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "I verbi impersonali",
+              "head": [
+                "verbo",
+                "per tutti: + infinito",
+                "per qualcuno: *che* + congiuntivo",
+                "con un pronome"
+              ],
+              "rows": [
+                [
+                  "*bisogna*",
+                  "**{ip:Bisogna}** prenotare.",
+                  "**{ip:Bisogna}** che tu {csp:prenoti}.",
+                  "—"
+                ],
+                [
+                  "*occorre*",
+                  "**{ip:Occorre}** pagare in contanti.",
+                  "**{ip:Occorre}** che {csp:paghiate}.",
+                  "Mi **{ip:occorre}** un'ora."
+                ],
+                [
+                  "*conviene*",
+                  "**{ip:Conviene}** comprare online.",
+                  "**{ip:Conviene}** che {csp:partiate} presto.",
+                  "Ti **{ip:conviene}** aspettare i saldi."
+                ],
+                [
+                  "*basta*",
+                  "**{ip:Basta}** chiedere.",
+                  "**{ip:Basta}** che tu lo {csp:dica}.",
+                  "Mi **{ip:basta}** poco."
+                ],
+                [
+                  "*serve*",
+                  "Non **{ip:serve}** prenotare.",
+                  "Non **{ip:serve}** che {csp:veniate}.",
+                  "Mi **{ip:serve}** una mano."
+                ],
+                [
+                  "*capita, succede*",
+                  "**{ip:Capita}** di sbagliare.",
+                  "**{ip:Capita}** che il treno {csp:sia} in ritardo.",
+                  "Mi **{ip:capita}** spesso."
+                ]
+              ]
+            },
+            "note": [
+              "*Bisogna* non cambia mai e non vuole un nome: ✗ *bisogna un'ora*, ✓ *ci vuole un'ora, occorre un'ora*.",
+              "*Occorrere, bastare, servire* si accordano con quello che serve: *{ip:Basta} un minuto, {ip:bastano} due minuti. Mi {ip:servono} due uova.*"
             ]
-          ]
-        }
-      },
-      "*Occorrere* and *bastare* can agree with what is needed: *{ip:Occorre} un'ora. {ip:Occorrono} due uova. {ip:Basta} un minuto. {ip:Bastano} due minuti.* *{ip:Bisogna}* never changes, and it is never followed by a noun.",
-      "*{ip:È}* + adjective works the same way: *{ip:È} importante studiare. {ip:È} importante che tu {csp:studi}.*",
-      {
-        "h": "More ways of comparing"
-      },
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "tanto… quanto",
-              "as… as",
-              "{ip:È} tanto bravo quanto simpatico."
-            ],
-            [
-              "sempre più",
-              "more and more",
-              "{ip:È} sempre più difficile."
-            ],
-            [
-              "più… più",
-              "the more… the more",
-              "Più studio, più {ip:capisco}."
-            ],
-            [
-              "il più… possibile",
-              "as… as possible",
-              "{imv:Parti} il più presto possibile."
-            ],
-            [
-              "il più + adj. + che + congiuntivo",
-              "the most… that",
-              "{ip:È} il più bello che {csa:abbia visto}."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il tempo atmosferico",
+              "head": [
+                "verbo",
+                "presente",
+                "passato prossimo"
+              ],
+              "rows": [
+                [
+                  "*piovere*",
+                  "{ip:Piove}.",
+                  "{pp:**È piovuto**} / {pp:**Ha piovuto**} tutta la notte."
+                ],
+                [
+                  "*nevicare*",
+                  "{ip:Nevica}.",
+                  "{pp:**È nevicato**} / {pp:**Ha nevicato**} in montagna."
+                ],
+                [
+                  "*grandinare*",
+                  "{ip:Grandina}.",
+                  "{pp:**È grandinato**} / {pp:**Ha grandinato**} ieri."
+                ],
+                [
+                  "*fare* + tempo",
+                  "{ip:Fa} caldo. {ip:Fa} bel tempo.",
+                  "{pp:**Ha fatto**} freddo."
+                ]
+              ]
+            },
+            "note": "I verbi del tempo non hanno un soggetto. Nel passato si possono usare con *essere* o con *avere*: tutte e due le forme sono giuste."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Confronti più ricchi",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*tanto… quanto, così… come*",
+                  "nello stesso modo",
+                  "{ip:È} **tanto** bello **quanto** caro. Non {ip:è} **così** facile **come** sembra."
+                ],
+                [
+                  "*sempre più, sempre meno*",
+                  "cresce o diminuisce",
+                  "I prezzi {ip:sono} **sempre più** alti."
+                ],
+                [
+                  "*più… più, meno… meno*",
+                  "le due cose crescono insieme",
+                  "**Più** {ip:aspetti}, **più** {ip:paghi}."
+                ],
+                [
+                  "*il più… possibile*",
+                  "al massimo",
+                  "{imv:Vieni} **il più** presto **possibile**."
+                ],
+                [
+                  "*più… di quanto* + congiuntivo",
+                  "rispetto a un'idea",
+                  "{ip:Costa} **più di quanto** {csi:pensassi}."
+                ],
+                [
+                  "*meglio di come, più di quello che*",
+                  "rispetto a un'idea",
+                  "{pp:È andata} **meglio di come** {csi:sperassi}. {ip:È} **più** bravo **di quello che** {ip:credi}."
+                ]
+              ]
+            },
+            "note": "Dopo *più di quanto* il congiuntivo è la scelta più curata: *è più difficile di quanto {csp:sembri}*. Nel parlato si sente anche l'indicativo: *di quanto sembra*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Migliore* o *meglio*?",
+              "head": [
+                "aggettivo (con un nome)",
+                "avverbio (con un verbo)"
+              ],
+              "rows": [
+                [
+                  "*buono* → **migliore**: {ip:È} il **migliore** ristorante.",
+                  "*bene* → **meglio**: Qui si {ip:mangia} **meglio**."
+                ],
+                [
+                  "*cattivo* → **peggiore**: La **peggiore** offerta.",
+                  "*male* → **peggio**: Oggi {ip:sto} **peggio**."
+                ],
+                [
+                  "*grande* → **maggiore**: Il fratello **maggiore**.",
+                  "*molto* → **più**: {ip:Lavora} **più** di me."
+                ],
+                [
+                  "*piccolo* → **minore**: La sorella **minore**.",
+                  "*poco* → **meno**: {ip:Spendo} **meno** di te."
+                ]
+              ]
+            },
+            "note": [
+              "L'aggettivo si accorda (*i migliori, le peggiori*), l'avverbio non cambia mai.",
+              "*Ottimo, pessimo, massimo, minimo* sono già superlativi: non dire ✗ *molto ottimo*."
             ]
-          ]
-        }
-      },
-      {
-        "h": "Migliore or meglio?"
-      },
-      "It's the difference between an adjective and an adverb. An adjective describes a noun, so it can take an article and change in the plural. An adverb describes a verb and never changes.",
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Type",
-            "Example"
-          ],
-          "rows": [
-            [
-              "buono → migliore",
-              "adjective",
-              "{ip:È} il migliore amico. {ip:Sono} i migliori."
-            ],
-            [
-              "bene → meglio",
-              "adverb",
-              "{ip:Canta} meglio di me."
-            ],
-            [
-              "cattivo → peggiore",
-              "adjective",
-              "La peggiore idea."
-            ],
-            [
-              "male → peggio",
-              "adverb",
-              "{ip:Sto} peggio di ieri."
-            ]
-          ]
-        }
-      },
-      "There are also the absolute forms *ottimo* (very good) and *pessimo* (very bad), which you shouldn't combine with *molto*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Superiore, inferiore* e gli altri",
+              "head": [
+                "parola",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*superiore a*",
+                  "più alto, migliore di",
+                  "Una qualità **superiore alla** media."
+                ],
+                [
+                  "*inferiore a*",
+                  "più basso, peggiore di",
+                  "Un prezzo **inferiore a** 10 euro."
+                ],
+                [
+                  "*esterno, interno*",
+                  "fuori, dentro",
+                  "La parte **esterna** del palazzo."
+                ],
+                [
+                  "*massimo, minimo*",
+                  "il più grande, il più piccolo",
+                  "Il prezzo **minimo** {ip:è} di 5 euro."
+                ]
+              ]
+            },
+            "note": "*Superiore* e *inferiore* vogliono *a*, non *di*: *superiore alla media*, ✗ *superiore della media*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I superlativi della lingua parlata",
+              "head": [
+                "forma",
+                "esempio",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "*-issimo*",
+                  "{ip:È} **carissimo**.",
+                  "molto caro"
+                ],
+                [
+                  "la parola ripetuta",
+                  "{imv:Parla} **piano piano**. Un caffè **caldo caldo**.",
+                  "molto piano, molto caldo"
+                ],
+                [
+                  "*stra-, super-*",
+                  "Il negozio {im:era} **strapieno**. {ip:Sono} **superstanco**.",
+                  "pienissimo, stanchissimo"
+                ],
+                [
+                  "espressioni fisse",
+                  "**stanco morto**, **pieno zeppo**, **ricco sfondato**, **bagnato fradicio**",
+                  "stanchissimo, pienissimo, ricchissimo, bagnatissimo"
+                ]
+              ]
+            },
+            "note": "Queste forme sono tipiche della lingua parlata e informale. In una lettera formale usa *-issimo* o *molto*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Scegli la forma giusta.",
         "questions": [
           {
-            "q": "___ fare attenzione.",
+            "q": "Per fare la torta ___ tre uova.",
+            "options": [
+              "*{ip:servono}",
+              "{ip:bisogna}",
+              "{ip:serve}"
+            ]
+          },
+          {
+            "q": "___ prenotare con almeno una settimana di anticipo.",
             "options": [
               "*{ip:Bisogna}",
               "Bisognano",
-              "{ip:È} bisogno"
+              "{ip:Servono}"
             ]
           },
           {
-            "q": "___ due uova per questa torta.",
+            "q": "Per arrivare in centro ___ venti minuti.",
             "options": [
-              "{ip:Occorre}",
-              "*{ip:Occorrono}",
-              "{ip:Bisogna}"
-            ]
-          },
-          {
-            "q": "{ip:Bisogna} che tu ___ subito.",
-            "options": [
-              "{ip:parti}",
-              "*{csp:parta}",
-              "partire"
-            ]
-          },
-          {
-            "q": "Mi ___ di dimenticare le chiavi.",
-            "options": [
-              "*{ip:capita}",
-              "{ip:capitano}",
+              "*{ip:bastano}",
+              "{ip:basta}",
               "{ip:bisogna}"
             ]
           },
           {
-            "q": "Ti ___ prendere il treno, {ip:costa} meno.",
+            "q": "Ti ___ comprare il biglietto online: {ip:costa} meno.",
             "options": [
               "*{ip:conviene}",
-              "{ip:occorrono}",
-              "{ip:pare} che"
-            ]
-          }
-        ]
-      },
-      {
-        "type": "choice",
-        "prompt": "Migliore or meglio, peggiore or peggio?",
-        "questions": [
-          {
-            "q": "Questo vino {ip:è} ___ di quello.",
-            "options": [
-              "*migliore",
-              "meglio"
+              "{ip:convengono}",
+              "{ip:bisogna}"
             ]
           },
           {
-            "q": "Luca {ip:parla} inglese ___ di me.",
+            "q": "Mi ___ spesso di dimenticare le chiavi.",
             "options": [
-              "migliore",
-              "*meglio"
-            ]
-          },
-          {
-            "q": "{pp:È stata} la ___ giornata della mia vita.",
-            "options": [
-              "*peggiore",
-              "peggio"
-            ]
-          },
-          {
-            "q": "Oggi mi {ip:sento} ___ di ieri.",
-            "options": [
-              "peggiore",
-              "*peggio"
+              "*{ip:capita}",
+              "{ip:capitano}",
+              "{ip:serve}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete the comparisons.",
+        "prompt": "Dall'infinito a *che* + congiuntivo.",
         "questions": [
-          "{imv:Torna} il più presto [[possibile]]. (as… as possible)",
-          "[[Più]] studio, più {ip:capisco}. (the more)",
-          "La vita {ip:è} [[sempre]] più cara. (more and more)",
-          "Lei {ip:è} tanto bella [[quanto]] intelligente. (as… as)",
-          "{ip:È} il film più lungo che io [[abbia#csa]] {csa:visto}. (avere)"
+          "{ip:Bisogna} partire presto. → {ip:Bisogna} che (noi) [[partiamo#csp]] presto.",
+          "{ip:Basta} chiedere. → {ip:Basta} che tu lo [[chieda#csp]].",
+          "{ip:Conviene} aspettare i saldi. → {ip:Conviene} che (voi) [[aspettiate#csp]] i saldi.",
+          "Non {ip:serve} portare niente. → Non {ip:serve} che (tu) [[porti#csp]] niente.",
+          "{ip:Occorre} avere un documento. → {ip:Occorre} che (Lei) [[abbia#csp]] un documento."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa i confronti.",
+        "questions": [
+          "[[Più]] {ip:studio}, più {ip:capisco}.",
+          "I prezzi {ip:sono} [[sempre]] più alti.",
+          "{imv:Rispondimi} il più presto [[possibile]].",
+          "Il viaggio {pp:è stato} [[tanto|così]] lungo quanto piacevole.",
+          "Meno {ip:dormo}, [[meno]] {ip:riesco} a concentrarmi."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il congiuntivo dopo *di quanto*.",
+        "questions": [
+          "Il film {ip:è} più bello di quanto (pensare, io) [[pensassi#csi]].",
+          "L'esame {ip:è} più facile di quanto (sembrare) [[sembri#csp]].",
+          "{pp:Abbiamo speso} più di quanto (volere, noi) [[volessimo#csi]].",
+          "Lei {ip:è} più giovane di quanto tu (credere) [[creda#csp]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Migliore* o *meglio*? *Peggiore* o *peggio*?",
+        "questions": [
+          {
+            "q": "{ip:È} la ___ pizza della città.",
+            "options": [
+              "*migliore",
+              "meglio"
+            ]
+          },
+          {
+            "q": "Oggi {ip:sto} ___ di ieri: {ip:ho} ancora la febbre.",
+            "options": [
+              "*peggio",
+              "peggiore"
+            ]
+          },
+          {
+            "q": "{ip:Canta} ___ di tutti.",
+            "options": [
+              "*meglio",
+              "migliore"
+            ]
+          },
+          {
+            "q": "{ip:Sono} i ___ prezzi che {csa:abbia} mai {csa:visto}: altissimi!",
+            "options": [
+              "*peggiori",
+              "peggio"
+            ]
+          },
+          {
+            "q": "Mia sorella ___ {ip:ha} vent'anni, io ne {ip:ho} venticinque.",
+            "options": [
+              "*minore",
+              "minima"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni espressione al suo significato.",
+        "pairs": [
+          [
+            "stanco morto",
+            "stanchissimo"
+          ],
+          [
+            "pieno zeppo",
+            "pienissimo"
+          ],
+          [
+            "ricco sfondato",
+            "ricchissimo"
+          ],
+          [
+            "bagnato fradicio",
+            "bagnatissimo"
+          ],
+          [
+            "piano piano",
+            "molto lentamente"
+          ]
         ]
       }
     ]
@@ -234,138 +396,258 @@
     "words": [
       [
         "il consumo",
-        "consumption"
+        "quello che si usa o si spende, per esempio di luce o di gas"
       ],
       [
         "il risparmio",
-        "saving"
+        "i soldi che non si spendono e si mettono da parte"
       ],
       [
         "l'offerta",
-        "offer"
+        "un prezzo speciale, più basso del normale"
       ],
       [
         "lo sconto",
-        "discount"
+        "la parte del prezzo che non si paga"
+      ],
+      [
+        "i saldi",
+        "il periodo in cui i negozi abbassano i prezzi"
       ],
       [
         "la tariffa",
-        "rate, fare"
+        "il prezzo fisso di un servizio"
+      ],
+      [
+        "la bolletta",
+        "il conto della luce, del gas, dell'acqua"
       ],
       [
         "il vantaggio",
-        "advantage"
+        "un aspetto positivo"
       ],
       [
         "lo svantaggio",
-        "disadvantage"
+        "un aspetto negativo"
+      ],
+      [
+        "il rapporto qualità-prezzo",
+        "quanto vale una cosa rispetto a quanto costa"
       ],
       [
         "convenire",
-        "to be worthwhile"
+        "essere utile, vantaggioso"
       ],
       [
         "occorrere",
-        "to be needed"
+        "essere necessario"
       ],
       [
         "capitare",
-        "to happen"
+        "succedere, spesso per caso"
+      ],
+      [
+        "risparmiare",
+        "spendere meno, mettere da parte"
+      ],
+      [
+        "trattare",
+        "discutere il prezzo per pagare meno"
       ],
       [
         "conveniente",
-        "good value"
+        "che costa poco rispetto a quello che vale"
       ],
       [
         "ottimo",
-        "excellent"
+        "molto buono, il migliore possibile"
+      ],
+      [
+        "pessimo",
+        "molto cattivo, il peggiore possibile"
+      ],
+      [
+        "a rate",
+        "pagando un po' alla volta, ogni mese"
+      ],
+      [
+        "in contanti",
+        "con le monete e le banconote, non con la carta"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "il risparmio",
-            "saving"
+            "la bolletta",
+            "il conto della luce, del gas, dell'acqua"
           ],
           [
-            "lo sconto",
-            "discount"
+            "i saldi",
+            "il periodo in cui i negozi abbassano i prezzi"
           ],
           [
-            "la tariffa",
-            "rate, fare"
+            "trattare",
+            "discutere il prezzo per pagare meno"
           ],
           [
-            "il vantaggio",
-            "advantage"
-          ],
-          [
-            "capitare",
-            "to happen"
+            "a rate",
+            "pagando un po' alla volta, ogni mese"
           ],
           [
             "conveniente",
-            "good value"
+            "che costa poco rispetto a quello che vale"
+          ],
+          [
+            "lo svantaggio",
+            "un aspetto negativo"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "C'{ip:è} un'[[offerta]] speciale. (offer)",
-          "{ip:È} un [[ottimo]] ristorante. (excellent)",
-          "Il [[consumo]] di energia {ip:è} aumentato. (consumption)",
-          "Quali {ip:sono} gli [[svantaggi]]? (disadvantages)"
+          {
+            "q": "Con questa ___ {ip:paghi} venti euro al mese per internet.",
+            "options": [
+              "*tariffa",
+              "bolletta",
+              "rata"
+            ]
+          },
+          {
+            "q": "Il negozio {ip:fa} uno ___ del 30% su tutto.",
+            "options": [
+              "*sconto",
+              "svantaggio",
+              "consumo"
+            ]
+          },
+          {
+            "q": "Questo ristorante {ip:ha} un ottimo rapporto ___.",
+            "options": [
+              "*qualità-prezzo",
+              "risparmio",
+              "costo-qualità"
+            ]
+          },
+          {
+            "q": "{ip:Posso} pagare con la carta? — No, solo in ___.",
+            "options": [
+              "*contanti",
+              "rate",
+              "saldi"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{ip:Spegni} la luce: {ip:dobbiamo} [[risparmiare]].",
+          "Quest'anno la [[bolletta]] del gas {pp:è stata} altissima.",
+          "Il servizio {pp:è stato} [[pessimo]]: non ci {fs:torneremo}.",
+          "{pp:Ho comprato} il frigorifero a [[rate]]: dodici mesi.",
+          "Il vantaggio {ip:è} il prezzo; lo [[svantaggio]] {ip:è} la distanza."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Se {ip:volete} visitare Roma in agosto, vi {ip:conviene} partire il più presto possibile al mattino. {ip:Bisogna} prenotare i musei con largo anticipo, perché i posti {ip:sono} sempre più limitati. {ip:Basta} un clic, ma {ip:occorrono} almeno due settimane per trovare gli orari migliori.",
-      "{ip:Capita} spesso che i turisti si {csp:lamentino} del caldo. Più si {ip:aspetta}, peggio {ip:è}: a mezzogiorno il sole {ip:è} implacabile. {ip:È} meglio camminare la mattina presto e riposarsi nel pomeriggio. Il treno {ip:è} tanto comodo quanto economico, ed {ip:è} certamente il mezzo più conveniente che ci {csp:sia}."
+      {
+        "h": "Milano–Roma: treno o aereo?"
+      },
+      "Chi {ip:deve} andare da Milano a Roma {ip:ha} due scelte: il treno ad alta velocità o l'aereo. Quale {ip:conviene} di più? {ip:Dipende}, ma la risposta {ip:è} meno ovvia di quanto si {csp:pensi}.",
+      "Il volo {ip:dura} poco più di un'ora, mentre il treno ci {ip:mette} circa tre ore. Ma gli aeroporti {ip:sono} fuori città: {ip:bisogna} arrivarci, {ip:occorre} essere lì almeno un'ora prima e poi {ip:serve} altro tempo per arrivare in centro. Il treno, invece, {ip:parte} e {ip:arriva} in centro, e {ip:basta} essere in stazione dieci minuti prima. Alla fine, spesso, il treno {ip:è} tanto veloce quanto l'aereo, e molto più comodo.",
+      "E il prezzo? Per tutti e due {ip:vale} la stessa regola: più presto si {ip:prenota}, meno si {ip:paga}. Chi {ip:compra} il biglietto all'ultimo momento {ip:spende} sempre di più. Per questo ti {ip:conviene} prenotare il prima possibile e controllare le offerte.",
+      "Infine c'{ip:è} l'ambiente: il treno {ip:inquina} molto meno dell'aereo. Non {ip:è} un caso che sempre più persone, oggi, {csp:scelgano} il treno anche per lavoro: si {ip:legge}, si {ip:lavora} al computer e, quando si {ip:arriva}, si {ip:è} già in centro."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "When should you go out in August?",
+            "q": "Quanto ci {ip:mette} il treno da Milano a Roma?",
             "options": [
-              "At midday",
-              "*Early in the morning",
-              "Only in the evening"
+              "*circa tre ore",
+              "poco più di un'ora",
+              "cinque ore"
             ]
           },
           {
-            "q": "How far ahead should you book?",
+            "q": "Qual {ip:è} il problema degli aeroporti?",
             "options": [
-              "One day",
-              "*At least two weeks",
-              "Two months"
+              "*{ip:Sono} fuori città.",
+              "{ip:Sono} troppo piccoli.",
+              "Non {ip:hanno} parcheggi."
             ]
           },
           {
-            "q": "What do tourists often complain about?",
+            "q": "Qual {ip:è} la regola per il prezzo?",
             "options": [
-              "The prices",
-              "The queues",
-              "*The heat"
+              "*Più presto si {ip:prenota}, meno si {ip:paga}.",
+              "Il treno {ip:costa} sempre meno.",
+              "L'aereo {ip:costa} sempre meno."
             ]
           },
           {
-            "q": "How is the train described?",
+            "q": "Perché il treno {ip:è} migliore per l'ambiente?",
             "options": [
-              "*Comfortable and cheap",
-              "Fast but expensive",
-              "Crowded and slow"
+              "*{ip:Inquina} meno.",
+              "{ip:È} più veloce.",
+              "{ip:Costa} meno."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "In aereo il viaggio {ip:dura} di più che in treno.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Per il treno {ip:basta} arrivare in stazione poco prima.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Chi {ip:prenota} all'ultimo momento {ip:risparmia}.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Sempre più persone {ip:viaggiano} in treno per lavoro.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i verbi impersonali e i confronti.",
+        "questions": [
+          "La risposta {ip:è} meno ovvia di quanto si [[pensi#csp]].",
+          "[[Bisogna#ip]] arrivarci, [[occorre#ip]] essere lì almeno un'ora prima.",
+          "Il treno {ip:è} [[tanto]] veloce [[quanto]] l'aereo.",
+          "[[Più]] presto si {ip:prenota}, [[meno]] si {ip:paga}."
         ]
       }
     ]
@@ -373,51 +655,71 @@
   "listening": {
     "transcript": [
       [
-        "Agente",
-        "Le {ip:conviene} prenotare subito: lo sconto {ip:finisce} oggi."
+        "Commessa",
+        "Buongiorno, {ip:posso} aiutarla?"
       ],
       [
         "Cliente",
-        "{ip:Bisogna} pagare tutto adesso?"
+        "Sì, {ip:cerco} una nuova tariffa per il telefono. Quella che {ip:ho} adesso {ip:costa} più di quanto {csi:pensassi}."
       ],
       [
-        "Agente",
-        "No, {ip:basta} un acconto. {ip:Occorrono} solo i documenti."
-      ],
-      [
-        "Cliente",
-        "{ip:È} il volo più economico che ci {csp:sia}?"
-      ],
-      [
-        "Agente",
-        "Sì, e anche il migliore come orario."
+        "Commessa",
+        "Quanto internet le {ip:serve} al mese?"
       ],
       [
         "Cliente",
-        "Bene. Più ci {ip:penso}, più mi {ip:sembra} un affare."
+        "Non tanto. Mi {ip:bastano} venti giga, al massimo."
+      ],
+      [
+        "Commessa",
+        "Allora le {ip:conviene} questa offerta: dieci euro al mese, ed {ip:è} la più economica che {csp:abbiamo}."
+      ],
+      [
+        "Cliente",
+        "Ottimo! E che cosa {ip:occorre} per attivarla?"
+      ],
+      [
+        "Commessa",
+        "{ip:Basta} un documento. Ma {ip:bisogna} che {csp:paghi} il primo mese in contanti."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Le [[conviene#ip]] prenotare subito.",
-          "[[Bisogna#ip]] pagare tutto adesso?",
-          "[[Occorrono#ip]] solo i documenti.",
-          "[[Più]] ci {ip:penso}, più mi {ip:sembra} un affare."
+          "Quella che {ip:ho} adesso {ip:costa} più di quanto [[pensassi#csi]].",
+          "Mi [[bastano#ip]] venti giga, al massimo.",
+          "Allora le [[conviene#ip]] questa offerta.",
+          "{ip:Bisogna} che [[paghi#csp]] il primo mese in contanti."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does the customer have to pay now?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The customer pays…",
+            "q": "Perché il cliente {ip:vuole} cambiare tariffa?",
             "options": [
-              "the whole price",
-              "*a deposit",
-              "nothing"
+              "*{ip:Spende} troppo.",
+              "Non {ip:ha} internet.",
+              "Il telefono {ip:è} rotto."
+            ]
+          },
+          {
+            "q": "Quanto {ip:costa} la nuova offerta?",
+            "options": [
+              "*dieci euro al mese",
+              "venti euro al mese",
+              "dieci euro all'anno"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:serve} per attivarla?",
+            "options": [
+              "*un documento",
+              "la carta di credito",
+              "il vecchio telefono"
             ]
           }
         ]
@@ -428,41 +730,452 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando i verbi impersonali e i confronti.",
+        "open": true,
         "questions": [
           {
-            "q": "It's necessary to be careful. (use bisogna)",
-            "a": [
-              "Bisogna fare attenzione.",
-              "Bisogna stare attenti."
+            "q": "Che cosa {ip:bisogna} fare, secondo te, per risparmiare un po' di soldi ogni mese?"
+          },
+          {
+            "q": "Ti {ip:capita} di comprare cose che non ti {ip:servono}? Che cosa?"
+          },
+          {
+            "q": "Nel tuo paese {ip:conviene} di più viaggiare in treno, in macchina o in aereo? Perché?"
+          },
+          {
+            "q": "{ip:Sai} trattare sul prezzo? Dove si {ip:tratta} nel tuo paese?"
+          },
+          {
+            "q": "Qual {ip:è} stata la cosa più cara che {csa:abbia} mai {csa:comprato}? Ne {pp:è valsa} la pena?"
+          },
+          {
+            "q": "Qual {ip:è} il miglior ristorante della tua città, per rapporto qualità-prezzo?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa serve?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un negozio con grandi cartelli «Saldi -50%» in vetrina",
+          "B — Una persona allo sportello di una stazione che mostra un documento",
+          "C — Una cucina con farina, uova e zucchero sul tavolo",
+          "D — Una coda lunghissima davanti a un museo sotto il sole"
+        ],
+        "pairs": [
+          [
+            "Ti {ip:conviene} aspettare: {ip:è} tutto a metà prezzo.",
+            "immagine A"
+          ],
+          [
+            "{ip:Occorre} un documento d'identità.",
+            "immagine B"
+          ],
+          [
+            "Per la torta {ip:servono} tre uova e un po' di zucchero.",
+            "immagine C"
+          ],
+          [
+            "{ip:Bisognava} prenotare: adesso {ip:è} troppo tardi.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *bisogna, occorre/occorrono, basta/bastano, serve/servono*.",
+        "questions": [
+          "Per la carbonara [[servono|occorrono]] uova, guanciale e pecorino.",
+          "Non [[bisogna]] prenotare: si {ip:entra} liberamente.",
+          "Per questo lavoro [[bastano|servono|occorrono]] due persone.",
+          "[[Basta]] un clic e il biglietto {ip:è} sul telefono."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Con un pronome: completa.",
+        "questions": [
+          "Mi (servire) [[serve#ip]] una penna: ce l'{ip:hai}?",
+          "Ti (convenire) [[conviene#ip]] partire prima del traffico.",
+          "Ci (bastare) [[bastano#ip]] due ore per vedere il museo.",
+          "Gli (capitare) [[capita#ip]] spesso di perdere il treno."
+        ]
+      },
+      {
+        "h": "Che tempo ha fatto?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta il tempo di ieri al [pp:passato prossimo].",
+        "questions": [
+          "Ieri mattina [[è piovuto|ha piovuto#pp]] per tre ore.",
+          "Nel pomeriggio [[è nevicato|ha nevicato#pp]] in montagna.",
+          "La sera [[ha fatto#pp]] molto freddo.",
+          "Di notte [[è grandinato|ha grandinato#pp]] e la macchina si {pp:è rovinata}."
+        ]
+      },
+      {
+        "h": "Più… più"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina le due parti della frase.",
+        "pairs": [
+          [
+            "Più {ip:mangi},",
+            "più {ip:ingrassi}."
+          ],
+          [
+            "Meno {ip:dormo},",
+            "più {ip:sono} nervoso."
+          ],
+          [
+            "Più {ip:leggi},",
+            "più {ip:impari}."
+          ],
+          [
+            "Più {ip:aspetti} a prenotare,",
+            "più {ip:paghi}."
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi tre frasi vere per te con *più… più* o *meno… meno*.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Più…, più…"
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *di quanto* e il congiuntivo.",
+        "questions": [
+          "La vacanza {pp:è costata} meno di quanto (temere, noi) [[temessimo#csi]].",
+          "Il viaggio {pp:è stato} più lungo di quanto (immaginare, io) [[immaginassi#csi]].",
+          "Questo telefono {ip:vale} più di quanto (costare) [[costi#csp]].",
+          "Lui {ip:sa} più cose di quanto (sembrare) [[sembri#csp]]."
+        ]
+      },
+      {
+        "h": "Al mercato"
+      },
+      {
+        "text": [
+          "**Al mercato.** — Quanto {ip:viene} questa borsa? — Trenta euro, signora. {ip:È} pelle vera, la migliore che {csp:abbia}. — Trenta? {ip:È} carissima! Al negozio qui accanto {ip:costa} meno. — Ma la qualità {ip:è} superiore, {imv:guardi}! — Facciamo venti? — Venti {ip:è} troppo poco… Venticinque, ed {ip:è} il mio prezzo minimo. — D'accordo, venticinque. Ma solo se {ip:posso} pagare con la carta. — Mi {ip:dispiace}, signora: solo in contanti!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi il dialogo e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Quanto {ip:costava} la borsa all'inizio?",
+            "options": [
+              "*trenta euro",
+              "venticinque euro",
+              "venti euro"
             ]
           },
           {
-            "q": "It's best to leave as early as possible. (use conviene)",
-            "a": [
-              "Conviene partire il più presto possibile."
+            "q": "Quanto {ip:paga} alla fine la signora?",
+            "options": [
+              "*venticinque euro",
+              "venti euro",
+              "trenta euro"
             ]
           },
           {
-            "q": "The more I study, the more I understand.",
-            "a": [
-              "Più studio, più capisco."
-            ]
-          },
-          {
-            "q": "He sings better than me.",
-            "a": [
-              "Canta meglio di me.",
-              "Lui canta meglio di me."
-            ]
-          },
-          {
-            "q": "Two eggs are needed. (use occorrere)",
-            "a": [
-              "Occorrono due uova."
+            "q": "Come {ip:deve} pagare?",
+            "options": [
+              "*in contanti",
+              "con la carta",
+              "a rate"
             ]
           }
         ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
+        "questions": [
+          {
+            "q": "Questo vino {ip:è} ___: {ip:è} il migliore che {csa:abbia} mai {csa:bevuto}.",
+            "options": [
+              "*ottimo",
+              "molto ottimo",
+              "più ottimo"
+            ]
+          },
+          {
+            "q": "Il prezzo {ip:è} ___ a cento euro.",
+            "options": [
+              "*inferiore",
+              "minore",
+              "meno"
+            ]
+          },
+          {
+            "q": "Oggi {ip:sto} ___ di ieri, grazie.",
+            "options": [
+              "*meglio",
+              "migliore",
+              "più bene"
+            ]
+          },
+          {
+            "q": "{ip:È} un risultato ___ alla media.",
+            "options": [
+              "*superiore",
+              "maggiore",
+              "più alto"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Stanco morto"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *morto, zeppo, sfondato, fradicio*.",
+        "questions": [
+          "{pp:Ho camminato} tutto il giorno: {ip:sono} stanco [[morto]].",
+          "Il treno {im:era} pieno [[zeppo]]: non c'{im:era} un posto libero.",
+          "{ip:Ha} tre ville e due barche: {ip:è} ricco [[sfondato]].",
+          "{pp:Sono uscito} senza ombrello e {pp:sono tornato} bagnato [[fradicio]]."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Bisogna due ore per arrivare.",
+            "a": [
+              "Ci vogliono due ore per arrivare.",
+              "Occorrono due ore per arrivare.",
+              "Servono due ore per arrivare."
+            ]
+          },
+          {
+            "q": "Questa pizza è molto ottima.",
+            "a": [
+              "Questa pizza è ottima.",
+              "Questa pizza è buonissima."
+            ]
+          },
+          {
+            "q": "Oggi sto migliore.",
+            "a": [
+              "Oggi sto meglio."
+            ]
+          },
+          {
+            "q": "Questo ristorante è il più meglio.",
+            "a": [
+              "Questo ristorante è il migliore."
+            ]
+          },
+          {
+            "q": "Il prezzo è superiore della media.",
+            "a": [
+              "Il prezzo è superiore alla media."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "possibile / il più / vieni / presto",
+            "a": [
+              "Vieni il più presto possibile.",
+              "Vieni il più presto possibile!"
+            ]
+          },
+          {
+            "q": "più / studi / impari / più",
+            "a": [
+              "Più studi, più impari.",
+              "Più studi più impari."
+            ]
+          },
+          {
+            "q": "conviene / ti / aspettare",
+            "a": [
+              "Ti conviene aspettare."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*Qual è* si scrive **senza** apostrofo: *qual* esiste anche da solo (*qual buon vento?*), quindi non ha perso una lettera. *Un po'* invece si scrive **con** l'apostrofo, perché è la forma breve di *un poco*. Sono due errori molto comuni, anche tra gli italiani."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "___ il prezzo migliore?",
+            "options": [
+              "*Qual è",
+              "Qual'è",
+              "Quale'è"
+            ]
+          },
+          {
+            "q": "Mi {ip:dai} ___ di pane?",
+            "options": [
+              "*un po'",
+              "un pò",
+              "un po"
+            ]
+          },
+          {
+            "q": "___ la tua offerta?",
+            "options": [
+              "*Qual è",
+              "Qual'è",
+              "Qualè"
+            ]
+          },
+          {
+            "q": "{imv:Aspetta} ___!",
+            "options": [
+              "*un po'",
+              "un pò",
+              "un pó"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare *bisogna, occorre, basta, conviene, serve, capita*.",
+          "So dire per chi: *Ti conviene aspettare. Bisogna che tu venga.*",
+          "So parlare del tempo al passato: *è piovuto, ha fatto freddo*.",
+          "So fare confronti: *più… più, sempre più, tanto… quanto, più di quanto pensassi*.",
+          "So scegliere tra *migliore* e *meglio*, *peggiore* e *peggio*.",
+          "So trattare sul prezzo e parlare di spese e risparmio."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una lunga strada piena di bancarelle con vestiti usati, vecchi dischi e oggetti antichi; tanta gente cammina e guarda"
+      },
+      {
+        "text": [
+          "**Porta Portese, la domenica mattina**",
+          "Se {ip:siete} a Roma di domenica, vi {ip:conviene} svegliarvi presto e andare a Porta Portese, nel quartiere di Trastevere. Qui ogni domenica mattina c'{ip:è} il mercato delle pulci più famoso della città: chilometri di bancarelle dove si {ip:vende} di tutto, dai vestiti usati ai vecchi dischi, dalle macchine fotografiche ai mobili antichi.",
+          "Il mercato {pp:è nato} subito dopo la Seconda guerra mondiale, quando molte persone {im:avevano} bisogno di vendere e comprare a poco prezzo. Da allora non si {pp:è} mai {pp:fermato}.",
+          "Qualche consiglio. Più presto {ip:arrivate}, più cose interessanti {fs:troverete}: verso mezzogiorno il mercato {ip:è} già pieno zeppo. Il prezzo non {ip:è} quasi mai fisso: {ip:bisogna} trattare, e chi lo {ip:sa} fare {ip:spende} molto meno di quanto si {csp:aspetti}. Ma {imv:fate} attenzione: tra la folla {ip:basta} un attimo per perdere il portafoglio. E {imv:portate} contanti, perché non tutti {ip:accettano} la carta."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Porta Portese {ip:è} aperto tutti i giorni.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il mercato {ip:è} nato dopo la Seconda guerra mondiale.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Verso mezzogiorno c'{ip:è} pochissima gente.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Di solito i prezzi {ip:sono} fissi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "{ip:È} meglio avere soldi in contanti.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i verbi impersonali e i confronti.",
+        "questions": [
+          "Vi [[conviene#ip]] svegliarvi presto.",
+          "[[Più]] presto {ip:arrivate}, più cose interessanti {fs:troverete}.",
+          "[[Bisogna#ip]] trattare.",
+          "Tra la folla [[basta#ip]] un attimo per perdere il portafoglio."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "C'{ip:è} un mercato famoso nella tua città? Che cosa si {ip:vende}? Si {ip:tratta} sul prezzo?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Un amico {ip:deve} scegliere tra due cose (due città per una vacanza, due telefoni, due appartamenti). Scrivigli un messaggio e consigliagli quale gli {ip:conviene}.",
+        "cues": [
+          "Quali {ip:sono} le due possibilità?",
+          "Quali {ip:sono} i vantaggi e gli svantaggi di ognuna? (*più… di, meno… di, tanto… quanto*)",
+          "Che cosa {ip:bisogna} sapere, che cosa {ip:serve}, che cosa {ip:basta}?",
+          "Quale gli {ip:conviene}, secondo te, e perché?"
+        ],
+        "start": "Caro Andrea,",
+        "model": "Caro Andrea,\nmi hai chiesto se ti conviene prendere l'appartamento in centro o quello in periferia. Ci ho pensato e ti scrivo che cosa ne penso.\nL'appartamento in centro è più piccolo e più caro, ma è a cinque minuti dal tuo ufficio. Quello in periferia è tanto grande quanto luminoso, e costa duecento euro in meno al mese. Però per arrivare al lavoro ti servirebbe quasi un'ora.\nPiù ci penso, più credo che il tempo valga più dei soldi. Basta fare un calcolo: due ore al giorno sui mezzi sono quaranta ore al mese!\nSecondo me ti conviene il centro. Ma bisogna che tu lo veda di persona prima di decidere.\nUn abbraccio,\nPaola"
       }
     ]
   }

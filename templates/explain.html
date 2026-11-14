@@ -202,6 +202,155 @@
         overflow-x: auto;
     }
 
+    /* The letters of a new alphabet: tiles, and a card for the one tapped */
+    .letter-explorer {
+        margin: 6px 0 20px;
+    }
+
+    .letter-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+        gap: 8px;
+    }
+
+    .letter-tile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        padding: 10px 4px 8px;
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-small);
+        background: var(--surface-2);
+        color: var(--text);
+        cursor: pointer;
+    }
+
+    .letter-tile:hover,
+    .letter-tile.current {
+        border-color: var(--accent);
+    }
+
+    .letter-tile.current {
+        background: var(--surface-3);
+    }
+
+    .letter-tile .glyph {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .letter-tile .latin {
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    /* Testing yourself: the sounds are hidden until a tile is tapped */
+    .letter-explorer.quiz .letter-tile:not(.seen) .latin {
+        visibility: hidden;
+    }
+
+    .letter-card {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        margin-top: 12px;
+        padding: 14px 18px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-small);
+        background: var(--surface-2);
+        min-height: 110px;
+    }
+
+    .letter-card .big {
+        flex: none;
+        min-width: 64px;
+        color: var(--accent);
+        font-size: 64px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .letter-card p {
+        margin: 0 0 4px !important;
+    }
+
+    .letter-hint {
+        color: var(--muted);
+    }
+
+    .letter-sound {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .letter-word .word {
+        font-size: 18px;
+    }
+
+    .letter-word .word-latin {
+        color: var(--muted);
+    }
+
+    .hide-sounds {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    /* Words to read: tap to see how they are read */
+    .flash-words {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 6px 0 18px;
+    }
+
+    .flash-word {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 96px;
+        padding: 10px 14px;
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-small);
+        background: var(--surface-2);
+        color: var(--text);
+        cursor: pointer;
+    }
+
+    .flash-word:hover {
+        border-color: var(--accent);
+    }
+
+    .flash-front {
+        font-size: 22px;
+    }
+
+    .flash-back {
+        visibility: hidden;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    .flash-back b {
+        color: var(--text);
+    }
+
+    /* A word already turned over: the colour of the language, not the green
+       of a right answer (there is nothing to check here) */
+    .flash-word[aria-expanded="true"] {
+        border-color: var(--accent);
+    }
+
+    .flash-word[aria-expanded="true"] .flash-back {
+        visibility: visible;
+    }
+
     @media screen and (max-width: 560px) {
         .lesson-section {
             padding: 16px;
@@ -316,6 +465,42 @@
 <ul>
     {% for entry in block.ul %}<li>{{ entry | rich }}</li>{% endfor %}
 </ul>
+{% elif block.letters %}
+{# The letters of a new alphabet as tiles: tapping one shows it big, with its
+   sound and an example word (static/letters.js). {"letters": [{"letter",
+   "latin", "say", "word", "word_latin", "meaning"}], "lang": "ka"} #}
+<div class="letter-explorer">
+    <div class="letter-grid" lang="{{ block.lang or 'ka' }}">
+        {% for item in block.letters %}
+        <button class="letter-tile" type="button" data-latin="{{ item.latin }}" data-say="{{ item.say or '' }}"
+            data-word="{{ item.word or '' }}" data-word-latin="{{ item.word_latin or '' }}" data-meaning="{{ item.meaning or '' }}">
+            <span class="glyph">{{ item.letter }}</span><span class="latin">{{ item.latin }}</span>
+        </button>
+        {% endfor %}
+    </div>
+    <div class="letter-card" aria-live="polite">
+        <span class="big" lang="{{ block.lang or 'ka' }}"></span>
+        <div class="letter-info">
+            <p class="letter-hint">Tap a letter to see how it sounds.</p>
+            <p class="letter-sound"></p>
+            <p class="letter-say"></p>
+            <p class="letter-word"><span class="word" lang="{{ block.lang or 'ka' }}"></span> <span class="word-latin"></span> <span class="meaning"></span></p>
+            <button class="button-secondary letter-listen" type="button" hidden>&#128264; Listen</button>
+        </div>
+    </div>
+    <label class="hide-sounds"><input type="checkbox"> Hide the sounds and test yourself</label>
+</div>
+{% elif block.flash %}
+{# Words to read on your own: tap one to see how it is read and what it
+   means. {"flash": [["მამა", "mama", "dad"], …]} #}
+<div class="flash-words">
+    {% for word, latin, meaning in block.flash %}
+    <button class="flash-word" type="button" aria-expanded="false">
+        <span class="flash-front" lang="{{ block.lang or 'ka' }}">{{ word }}</span>
+        <span class="flash-back"><b>{{ latin }}</b> {{ meaning }}</span>
+    </button>
+    {% endfor %}
+</div>
 {% else %}
 {{ table(block) }}
 {% endif %}

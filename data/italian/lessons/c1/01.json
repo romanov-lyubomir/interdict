@@ -1,151 +1,355 @@
 {
   "title": "{im:Pensavo} che {cst:avessero} già {cst:deciso}",
-  "translation": "I thought they had already decided",
-  "topics": "Choosing mood and tense precisely, the sequence of tenses in complex sentences",
+  "translation": "",
+  "topics": "Scegliere il modo per il senso: i verbi che cambiano significato, *di* + infinito presente e passato, la concordanza completa e quando si rompe, il condizionale come verbo principale, il congiuntivo nel parlato e nello scritto; decisioni, istituzioni e opinioni",
   "grammar": {
     "explain": [
+      "A questo livello conosci tutti i modi e tutti i tempi. La domanda diventa: che cosa voglio dire esattamente? Il modo non è una regola da applicare, ma una scelta di significato: l'indicativo afferma, il congiuntivo presenta senza affermare, il condizionale fa dipendere o prende le distanze.",
       {
-        "h": "What each mood really does"
-      },
-      "At this level, the choice of mood is a choice of meaning. The indicative asserts something, the *congiuntivo* presents it without asserting it, and the conditional makes it depend on something or distances the speaker from it.",
-      {
-        "table": {
-          "head": [
-            "Verb",
-            "With the indicative",
-            "With the congiuntivo"
-          ],
-          "rows": [
-            [
-              "capire che",
-              "Capisco che è stanco. (I realise it.)",
-              "{ip:Capisco} che {csp:sia} stanco. (I sympathise.)"
-            ],
-            [
-              "dire che",
-              "Dico che viene. (I'm stating it.)",
-              "Dico che venga. (I want him to come.)"
-            ],
-            [
-              "ammettere che",
-              "Ammetto che ho sbagliato. (I confess it.)",
-              "{ip:Ammettiamo} che {csa:abbia sbagliato}. (Let's {pr:suppose}.)"
-            ],
-            [
-              "il fatto che",
-              "Il fatto {ip:è} che {ip:ha} ragione. (assertion)",
-              "Il fatto che {csp:abbia} ragione non {ip:cambia} nulla. (topic)"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "The complete sequence of tenses"
-      },
-      "Two things determine the tense of the dependent verb: the time of the main verb, and whether the action comes before, during or after it.",
-      {
-        "table": {
-          "head": [
-            "Main verb",
-            "Before",
-            "During",
-            "After"
-          ],
-          "rows": [
-            [
-              "{ip:Credo} che (congiuntivo)",
-              "{csa:abbiano deciso}",
-              "{csp:decidano}",
-              "{fs:decideranno}"
-            ],
-            [
-              "{im:Credevo} che (congiuntivo)",
-              "{cst:avessero deciso}",
-              "{csi:decidessero}",
-              "{cpa:avrebbero deciso}"
-            ],
-            [
-              "So che (indicative)",
-              "{pp:hanno deciso}",
-              "{ip:decidono}",
-              "{fs:decideranno}"
-            ],
-            [
-              "{im:Sapevo} che (indicative)",
-              "{tp:avevano deciso}",
-              "{im:decidevano}",
-              "{cpa:avrebbero deciso}"
-            ]
-          ]
-        }
-      },
-      "Note that the future after a main verb in the past is always the [cpa:condizionale passato], whatever the mood of the main clause.",
-      {
-        "h": "A main verb in the conditional"
-      },
-      "*{cop:Vorrei}* and similar verbs count as past tenses for this purpose: *{cop:Vorrei} che {csi:decidessero}*. With the past conditional, the choice shows when the wish applied: *{cpa:Avrei voluto} che {csi:decidessero}* (at that time) or *che {cst:avessero deciso}* (before that).",
-      {
-        "h": "When the sequence is broken"
-      },
-      "A statement that is always true can stay in the present: *Galileo {pr:sostenne} che la Terra {ip:gira} attorno al Sole.* In speech, the [im:imperfetto] often replaces the [cpa:condizionale passato] for a future in the past: *Mi {pp:ha detto} che {im:veniva}*. Keep the full form in writing."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Lo stesso verbo, due significati",
+              "head": [
+                "verbo",
+                "con l'indicativo",
+                "con il congiuntivo"
+              ],
+              "rows": [
+                [
+                  "*capire che*",
+                  "{ip:Capisco} che {ip:è} stanco. (me ne rendo conto)",
+                  "{ip:Capisco} che {csp:sia} stanco. (lo giustifico)"
+                ],
+                [
+                  "*dire che*",
+                  "Gli {pp:ho detto} che {ip:viene} Anna. (informo)",
+                  "Gli {pp:ho detto} che {csp:venga} subito. (ordino)"
+                ],
+                [
+                  "*pensare che*",
+                  "{imv:Pensa} che domani {ip:è} festa! (considera)",
+                  "{ip:Penso} che {csp:sia} festa. (credo)"
+                ],
+                [
+                  "*sentire che*",
+                  "{ip:Sento} che {ip:arriva} qualcuno. (lo sento con le orecchie)",
+                  "{ip:Sento} che {csp:sia} la scelta giusta. (lo percepisco)"
+                ],
+                [
+                  "*non sapere che*",
+                  "Non {im:sapevo} che {im:era} sposato. (ora lo so: è un fatto)",
+                  "Non {im:sapevo} che {csi:fosse} sposato. (più curato)"
+                ]
+              ]
+            },
+            "note": "Dopo *non sapere che* tutti e due i modi sono possibili: il congiuntivo è più formale, l'indicativo sottolinea che il fatto è vero."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Stesso soggetto: *di* + infinito",
+              "head": [
+                "frase con *che*",
+                "con l'infinito (stesso soggetto)",
+                "quando"
+              ],
+              "rows": [
+                [
+                  "✗ *{ip:Credo} che io {csp:abbia} ragione.*",
+                  "{ip:Credo} **di avere** ragione.",
+                  "nello stesso momento"
+                ],
+                [
+                  "✗ *{ip:Penso} che io {csa:abbia capito}.*",
+                  "{ip:Penso} **di aver capito**.",
+                  "prima"
+                ],
+                [
+                  "✗ *{ip:Spero} che io {csp:venga}.*",
+                  "{ip:Spero} **di venire**.",
+                  "dopo"
+                ],
+                [
+                  "*{pp:Ha ammesso} che {tp:aveva sbagliato}.*",
+                  "{pp:Ha ammesso} **di aver sbagliato**.",
+                  "prima"
+                ]
+              ]
+            },
+            "note": "Quando chi pensa e chi agisce sono la stessa persona, si usa l'infinito: presente per lo stesso momento o per il dopo, passato per il prima. *Che* + congiuntivo con lo stesso soggetto suona sbagliato."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La concordanza completa",
+              "head": [
+                "verbo principale",
+                "prima",
+                "nello stesso momento",
+                "dopo"
+              ],
+              "rows": [
+                [
+                  "*{ip:Credo} che* (presente)",
+                  "{csa:abbiano deciso}",
+                  "{csp:decidano}",
+                  "{fs:decideranno}"
+                ],
+                [
+                  "*{im:Credevo} che* (passato)",
+                  "{cst:avessero deciso}",
+                  "{csi:decidessero}",
+                  "{cpa:avrebbero deciso}"
+                ],
+                [
+                  "*{ip:So} che* (presente)",
+                  "{pp:hanno deciso}",
+                  "{ip:decidono}",
+                  "{fs:decideranno}"
+                ],
+                [
+                  "*{im:Sapevo} che* (passato)",
+                  "{tp:avevano deciso}",
+                  "{im:decidevano}",
+                  "{cpa:avrebbero deciso}"
+                ]
+              ]
+            },
+            "note": "Il futuro nel passato è sempre il [cpa:condizionale passato], con l'indicativo e con il congiuntivo: *{im:Credevo} che {cpa:avrebbero deciso} il giorno dopo.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il condizionale come verbo principale",
+              "head": [
+                "verbo principale",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "*{cop:vorrei}, {cop:preferirei}*",
+                  "{cop:Vorrei} che {csi:decidessero} oggi.",
+                  "si comporta come un passato: [csi:congiuntivo imperfetto]"
+                ],
+                [
+                  "*{cop:sarebbe} meglio, {cop:mi piacerebbe}*",
+                  "{cop:Sarebbe} meglio che tu {csi:partissi} presto.",
+                  "anche le espressioni impersonali"
+                ],
+                [
+                  "*{cpa:avrei voluto}* (nello stesso momento)",
+                  "{cpa:Avrei voluto} che {csi:decidessero} subito.",
+                  "il desiderio di allora"
+                ],
+                [
+                  "*{cpa:avrei voluto}* (prima)",
+                  "{cpa:Avrei voluto} che {cst:avessero deciso} prima.",
+                  "un fatto ancora precedente"
+                ]
+              ]
+            },
+            "note": "✗ *Vorrei che tu venga* è un errore frequente anche tra gli italiani: dopo il condizionale va il [csi:congiuntivo imperfetto], *{cop:vorrei} che tu {csi:venissi}*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Quando la concordanza si rompe",
+              "head": [
+                "caso",
+                "esempio",
+                "perché"
+              ],
+              "rows": [
+                [
+                  "una verità di sempre",
+                  "Galileo {pr:sostenne} che la Terra **{ip:gira}** intorno al Sole.",
+                  "il fatto vale anche oggi"
+                ],
+                [
+                  "un fatto ancora vero",
+                  "Mi {pp:ha detto} che **{ip:è}** incinta.",
+                  "lo è ancora adesso"
+                ],
+                [
+                  "un passato appena successo",
+                  "{pp:Ho saputo} che **{ip:arriva}** domani.",
+                  "il passato prossimo è vicino al presente"
+                ],
+                [
+                  "il parlato",
+                  "Mi {pp:ha detto} che **{im:veniva}**.",
+                  "l'[im:imperfetto] al posto del [cpa:condizionale passato]"
+                ]
+              ]
+            },
+            "note": "Nello scritto curato si preferisce la forma completa: *Mi {pp:ha detto} che {cpa:sarebbe venuto}.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il congiuntivo nel parlato e nello scritto",
+              "head": [
+                "forma",
+                "dove",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "congiuntivo",
+                  "scritto, parlato curato",
+                  "{ip:Penso} che {csp:sia} giusto."
+                ],
+                [
+                  "indicativo al posto del congiuntivo",
+                  "parlato informale, da evitare per scritto",
+                  "✗ *Penso che è giusto.*"
+                ],
+                [
+                  "congiuntivo senza *che*",
+                  "scritto formale, giornali",
+                  "Si {ip:ritiene} {csp:sia} necessario intervenire."
+                ],
+                [
+                  "futuro al posto del congiuntivo",
+                  "parlato, per il dopo",
+                  "{ip:Penso} che {fs:verrà} domani."
+                ]
+              ]
+            },
+            "note": "Molti italiani nel parlato usano l'indicativo dopo *penso che*. Lo sentirai spesso, ma in un testo scritto, in un esame o al lavoro dà un'impressione di trascuratezza."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the form that expresses the meaning given in brackets.",
+        "prompt": "Indicativo o congiuntivo? Leggi il senso tra parentesi e scegli.",
         "questions": [
           {
-            "q": "{ip:Capisco} che tu ___ deluso. (I sympathise)",
+            "q": "{ip:Capisco} che tu ___ deluso. (ti giustifico)",
             "options": [
-              "{ip:sei}",
-              "*{csp:sia}"
+              "*{csp:sia}",
+              "{ip:sei}"
             ]
           },
           {
-            "q": "Dico che ___ subito. (I want them to leave)",
+            "q": "{pp:Ho capito} che non ___ niente da fare. (me ne sono reso conto)",
             "options": [
-              "{ip:partono}",
-              "*{csp:partano}"
+              "*c'{im:era}",
+              "ci {csi:fosse}"
             ]
           },
           {
-            "q": "Il fatto che non ___ risposto mi {ip:preoccupa}.",
+            "q": "Le {pp:ho detto} che ___ subito a casa. (un ordine)",
             "options": [
-              "{ip:ha}",
-              "*{csp:abbia}",
-              "{cop:avrebbe}"
+              "*{csi:tornasse}",
+              "{im:tornava}"
             ]
           },
           {
-            "q": "{im:Sapevo} che ___ il giorno dopo. (later)",
+            "q": "{imv:Pensa} che domani ___ sciopero! (considera)",
             "options": [
-              "*{cpa:sarebbe tornato}",
-              "{pp:è tornato}",
-              "{cst:fosse tornato}"
+              "*c'{ip:è}",
+              "ci {csp:sia}"
             ]
           },
           {
-            "q": "{im:Pensavo} che ___ già deciso. (earlier)",
+            "q": "{ip:Sento} che ___ la persona giusta. (lo percepisco)",
             "options": [
-              "{csp:abbiano}",
-              "{cop:avrebbero}",
-              "*{csi:avessero}"
+              "*{csp:sia}",
+              "{ip:è}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the right tense and mood.",
+        "prompt": "Stesso soggetto: riscrivi con *di* + infinito presente o passato.",
         "questions": [
-          "{ip:Credo} che ieri [[abbiano firmato#csa]] il contratto. (firmare, before)",
-          "{im:Credevo} che il giorno prima [[avessero firmato#cst]] il contratto. (firmare, before)",
-          "Non {im:immaginavo} che lui [[sarebbe partito#cpa]] la settimana dopo. (partire, after)",
-          "{cpa:Avrei voluto} che tu [[fossi#csi]] qui in quel momento. (essere, during)",
-          "Galileo {pr:sostenne} che la Terra [[gira#ip]] attorno al Sole. (girare, general truth)",
-          "{im:Sapevo} che loro [[stavano#im]] già lavorando. (stare, during)"
+          "{ip:Credo} che {ip:ho} ragione. → {ip:Credo} di [[avere]] ragione.",
+          "{ip:Penso} che {pp:ho capito}. → {ip:Penso} di [[aver capito|avere capito]].",
+          "{ip:Spero} che {fs:verrò} anch'io. → {ip:Spero} di [[venire]] anch'io.",
+          "{pp:Ha ammesso} che {tp:aveva mentito}. → {pp:Ha ammesso} di [[aver mentito|avere mentito]].",
+          "{ip:Temiamo} che {pp:abbiamo sbagliato}. → {ip:Temiamo} di [[aver sbagliato|avere sbagliato]]."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il tempo giusto del congiuntivo o del condizionale.",
+        "questions": [
+          "{im:Credevo} che la commissione (decidere) [[avesse deciso#cst]] il giorno prima.",
+          "{ip:Credo} che la commissione (decidere) [[abbia deciso#csa]] ieri.",
+          "{im:Pensavo} che (votare, loro) [[avrebbero votato#cpa]] il giorno dopo.",
+          "{cop:Vorrei} che tu mi (ascoltare) [[ascoltassi#csi]].",
+          "{cpa:Avrei voluto} che voi me lo (dire) [[aveste detto#cst]] prima."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "La concordanza si rompe? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "A scuola {pp:ho imparato} che l'acqua ___ a cento gradi.",
+            "options": [
+              "*{ip:bolle}",
+              "{csi:bollisse}",
+              "{cpa:sarebbe bollita}"
+            ]
+          },
+          {
+            "q": "Mi {pp:ha appena detto} che ___ in ritardo, lo {ip:aspettiamo}.",
+            "options": [
+              "*{ip:arriva}",
+              "{tp:era arrivato}",
+              "{csi:arrivasse}"
+            ]
+          },
+          {
+            "q": "Nel 1950 nessuno {im:immaginava} che l'uomo ___ sulla Luna.",
+            "options": [
+              "*{cpa:sarebbe andato}",
+              "{fs:andrà}",
+              "{ip:va}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase al registro.",
+        "pairs": [
+          [
+            "Penso che è giusto.",
+            "parlato informale"
+          ],
+          [
+            "{ip:Penso} che {csp:sia} giusto.",
+            "scritto o parlato curato"
+          ],
+          [
+            "Si {ip:ritiene} {csp:sia} necessario intervenire.",
+            "scritto formale"
+          ],
+          [
+            "Mi {pp:ha detto} che {im:veniva}.",
+            "parlato"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Correggi: dopo il condizionale va il [csi:congiuntivo imperfetto].",
+        "questions": [
+          "Vorrei che tu venga. → {cop:Vorrei} che tu [[venissi#csi]].",
+          "Sarebbe meglio che partiate. → {cop:Sarebbe} meglio che [[partiste#csi]].",
+          "Mi piacerebbe che lui capisca. → Mi {cop:piacerebbe} che lui [[capisse#csi]].",
+          "Preferirei che non dica niente. → {cop:Preferirei} che non [[dicesse#csi]] niente."
         ]
       }
     ]
@@ -154,138 +358,259 @@
     "words": [
       [
         "la decisione",
-        "decision"
+        "la scelta finale su che cosa fare"
       ],
       [
         "il compromesso",
-        "compromise"
+        "un accordo in cui ognuno rinuncia a qualcosa"
       ],
       [
         "l'esito",
-        "outcome"
+        "il risultato finale"
       ],
       [
         "la premessa",
-        "premise"
+        "quello che si dice o si sa prima di una decisione"
       ],
       [
         "la presa di posizione",
-        "stance"
+        "il fatto di dire pubblicamente che cosa si pensa"
+      ],
+      [
+        "il consiglio comunale",
+        "il gruppo di persone elette che governa una città con il sindaco"
+      ],
+      [
+        "il bilancio",
+        "il conto delle entrate e delle spese"
       ],
       [
         "deliberare",
-        "to resolve formally"
+        "decidere ufficialmente, dopo una discussione"
       ],
       [
         "ponderare",
-        "to weigh up"
+        "pensare con attenzione prima di decidere"
       ],
       [
         "prevedere",
-        "to foresee"
+        "pensare in anticipo che una cosa succederà"
       ],
       [
         "esitare",
-        "to hesitate"
+        "non decidere subito, avere dubbi"
       ],
       [
         "presumere",
-        "to presume"
+        "pensare che una cosa sia vera, senza esserne sicuri"
+      ],
+      [
+        "rinviare",
+        "spostare a un altro momento"
+      ],
+      [
+        "smentire",
+        "dire che una notizia non è vera"
       ],
       [
         "inequivocabile",
-        "unambiguous"
+        "chiarissimo, senza dubbi"
       ],
       [
         "tempestivamente",
-        "promptly"
+        "al momento giusto, senza ritardo"
+      ],
+      [
+        "a ragion veduta",
+        "dopo averci pensato bene"
+      ],
+      [
+        "prendere tempo",
+        "aspettare prima di decidere"
+      ],
+      [
+        "fare marcia indietro",
+        "cambiare idea, tornare su una decisione"
+      ],
+      [
+        "mettere ai voti",
+        "far votare una proposta"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "il compromesso",
-            "compromise"
-          ],
-          [
-            "l'esito",
-            "outcome"
-          ],
-          [
-            "la presa di posizione",
-            "stance"
-          ],
-          [
             "ponderare",
-            "to weigh up"
+            "pensare con attenzione prima di decidere"
           ],
           [
-            "presumere",
-            "to presume"
+            "fare marcia indietro",
+            "cambiare idea, tornare su una decisione"
+          ],
+          [
+            "prendere tempo",
+            "aspettare prima di decidere"
           ],
           [
             "inequivocabile",
-            "unambiguous"
+            "chiarissimo, senza dubbi"
+          ],
+          [
+            "l'esito",
+            "il risultato finale"
+          ],
+          [
+            "a ragion veduta",
+            "dopo averci pensato bene"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "{ip:Bisogna} intervenire [[tempestivamente]]. (promptly)",
-          "L'[[esito]] della votazione {ip:è} incerto. (outcome)",
-          "Non {pp:abbiamo} [[esitato#pp]] un attimo. (hesitated)",
-          "{pp:Hanno raggiunto} un [[compromesso]]. (compromise)"
+          {
+            "q": "Dopo ore di discussione {pp:hanno trovato} un ___ che {ip:va} bene a tutti.",
+            "options": [
+              "*compromesso",
+              "esito",
+              "bilancio"
+            ]
+          },
+          {
+            "q": "Il consiglio comunale {pp:ha} ___ di chiudere il centro alle auto.",
+            "options": [
+              "*deliberato",
+              "esitato",
+              "presunto"
+            ]
+          },
+          {
+            "q": "Il sindaco {pp:ha} ___ la notizia: non si {ip:dimette}.",
+            "options": [
+              "*smentito",
+              "ponderato",
+              "previsto"
+            ]
+          },
+          {
+            "q": "Il voto {pp:è stato} ___ alla settimana prossima.",
+            "options": [
+              "*rinviato",
+              "deliberato",
+              "smentito"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{pp:Hanno messo} la proposta ai [[voti]]: {pp:ha vinto} il sì.",
+          "Non {imv:rispondere} subito: {imv:prendi} [[tempo]].",
+          "Se {ip:arriva} un problema, {imv:avvisateci} [[tempestivamente]].",
+          "Il [[bilancio]] del comune {ip:è} in rosso.",
+          "{ip:Presumo} che non {csa:abbiate} ancora deciso. — No, {ip:stiamo} ancora [[esitando]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Fino all'ultimo, i consiglieri {im:erano convinti} che il sindaco {cst:avesse} già {cst:deciso} e che la riunione {csi:fosse} una pura formalità. Nessuno {im:sospettava} che, poche ore prima, egli {cst:avesse ricevuto} una lettera dei commercianti, nella quale si {im:minacciava} una protesta se il progetto {cst:fosse stato} {cst:approvato}.",
-      "Il fatto che il sindaco non ne {csa:abbia fatto} parola {pp:ha irritato} molti. {ip:Capisco} che {csa:abbia voluto} ponderare la questione, {pp:ha ammesso} un consigliere, ma {cpa:avrei preferito} che ci {csi:informasse} prima. Oggi nessuno {ip:può} prevedere quale {fs:sarà} l'esito, e c'{ip:è} già chi {ip:dice} che il progetto non {fs:vedrà} mai la luce."
+      {
+        "h": "La piazza senza auto"
+      },
+      "Fino all'ultimo, i consiglieri comunali {im:erano} convinti che il sindaco {cst:avesse} già {cst:deciso} e che la seduta {csi:fosse} una pura formalità: la piazza del centro {cpa:sarebbe diventata} pedonale, come {tp:aveva promesso} in campagna elettorale.",
+      "Nessuno {im:sospettava} che, la sera prima, il sindaco {cst:avesse ricevuto} una lettera firmata da quaranta commercianti. {im:Temevano} che, senza parcheggi, i clienti {csi:smettessero} di venire in centro, e {im:chiedevano} che la decisione {csi:fosse} almeno rinviata.",
+      "Quando il sindaco {pp:ha preso} la parola, {pp:ha ammesso} di aver esitato a lungo. «{ip:Capisco} che i commercianti {csp:siano} preoccupati», {pp:ha detto}, «e {cop:vorrei} che nessuno si {csi:sentisse} escluso. Per questo {ip:propongo} un compromesso: la piazza {fs:sarà} pedonale solo nei fine settimana, per un anno. Poi {fs:valuteremo} l'esito.»",
+      "La proposta, messa ai voti, {pp:è passata} con un solo voto contrario. Il fatto che il sindaco non ne {csa:abbia parlato} prima con la sua maggioranza {pp:ha irritato} qualcuno; altri, invece, {pp:hanno apprezzato} che {csa:abbia deciso} a ragion veduta. Un consigliere {pp:ha commentato}: «{cpa:Avrei preferito} che ci {csi:informasse} prima, ma {ip:credo} che {csa:abbia trovato} la soluzione giusta.»"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "What did the councillors believe?",
+            "q": "Che cosa {im:pensavano} i consiglieri prima della seduta?",
             "options": [
-              "*That the mayor had already decided",
-              "That the meeting was cancelled",
-              "That the shopkeepers agreed"
+              "*che il sindaco {cst:avesse} già {cst:deciso}",
+              "che il sindaco {csi:volesse} dimettersi",
+              "che la seduta {cpa:sarebbe stata} rinviata"
             ]
           },
           {
-            "q": "What did the letter contain?",
+            "q": "Che cosa {im:temevano} i commercianti?",
             "options": [
-              "An offer of money",
-              "*The threat of a protest",
-              "The mayor's resignation"
+              "*che i clienti non {csi:venissero} più in centro",
+              "che i prezzi {csi:aumentassero}",
+              "che la piazza {csi:fosse} chiusa per lavori"
             ]
           },
           {
-            "q": "«Capisco che abbia voluto» suggests that the councillor…",
+            "q": "Qual {ip:è} il compromesso del sindaco?",
             "options": [
-              "doesn't know the facts",
-              "*shows some sympathy",
-              "is giving an order"
+              "*la piazza pedonale solo nei fine settimana, per un anno",
+              "nessuna piazza pedonale",
+              "la piazza pedonale tutti i giorni"
             ]
           },
           {
-            "q": "What is the situation now?",
+            "q": "Com'{pp:è finito} il voto?",
             "options": [
-              "The project has been approved",
-              "*The outcome is uncertain",
-              "The mayor has resigned"
+              "*La proposta {pp:è passata} con un solo voto contrario.",
+              "La proposta {pp:è stata respinta}.",
+              "Il voto {pp:è stato rinviato}."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il sindaco {tp:aveva promesso} la piazza pedonale prima delle elezioni.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "I consiglieri {im:sapevano} della lettera dei commercianti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il sindaco {pp:ha negato} di aver avuto dubbi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Tutti {pp:hanno apprezzato} il modo in cui il sindaco {pp:ha deciso}.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme che esprimono il prima, il dopo e il desiderio.",
+        "questions": [
+          "I consiglieri {im:erano} convinti che il sindaco [[avesse#cst]] già [[deciso#cst]].",
+          "La piazza [[sarebbe diventata#cpa]] pedonale.",
+          "{pp:Ha ammesso} di [[aver esitato|avere esitato]] a lungo.",
+          "{cop:Vorrei} che nessuno si [[sentisse#csi]] escluso.",
+          "{cpa:Avrei preferito} che ci [[informasse#csi]] prima."
         ]
       }
     ]
@@ -298,46 +623,63 @@
       ],
       [
         "Vito",
-        "Anch'io. Invece la commissione {pp:ha chiesto} più tempo."
+        "Anch'io. Invece la commissione {pp:ha chiesto} altro tempo."
       ],
       [
         "Renata",
-        "Il fatto che rinviino di nuovo non mi {ip:stupisce}."
+        "Il fatto che {csp:rinviino} di nuovo non mi {ip:stupisce}. {ip:Temo} che non {csp:abbiano} idee chiare."
       ],
       [
         "Vito",
-        "Mi {tp:avevano assicurato} che {cpa:avrebbero votato} oggi."
+        "Mi {tp:avevano assicurato} che {cpa:avrebbero votato} oggi. {cpa:Avrei voluto} che almeno ce lo {cst:avessero comunicato} prima."
       ],
       [
         "Renata",
-        "{ip:Capisco} che tu {csp:sia} deluso, ma {im:era} prevedibile."
+        "{ip:Credo} di aver capito il motivo: {ip:aspettano} l'esito delle elezioni regionali."
       ],
       [
         "Vito",
-        "{cpa:Avrei voluto} che qualcuno me lo {csi:dicesse} prima."
+        "Può darsi. Ma {cop:sarebbe} meglio che {csi:decidessero} tempestivamente, prima che {csi:scadesse} il termine."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{im:Pensavo} che [[avessero#cst]] già {cst:deciso} sul bilancio.",
-          "Il fatto che [[rinviino]] di nuovo non mi {ip:stupisce}.",
-          "Mi {tp:avevano assicurato} che [[avrebbero#cpa]] {cpa:votato} oggi.",
-          "{ip:Capisco} che tu [[sia#csp]] deluso."
+          "{im:Pensavo} che [[avessero#cst]] già [[deciso#cst]] sul bilancio.",
+          "Il fatto che [[rinviino#csp]] di nuovo non mi {ip:stupisce}.",
+          "Mi {tp:avevano assicurato} che [[avrebbero votato#cpa]] oggi.",
+          "{ip:Credo} di [[aver capito|avere capito]] il motivo.",
+          "{cop:Sarebbe} meglio che [[decidessero#csi]] tempestivamente."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What did the commission do?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The commission…",
+            "q": "Che cosa {pp:ha fatto} la commissione?",
             "options": [
-              "approved the budget",
-              "*asked for more time",
-              "rejected the budget"
+              "*{pp:Ha chiesto} altro tempo.",
+              "{pp:Ha approvato} il bilancio.",
+              "Si {pp:è dimessa}."
+            ]
+          },
+          {
+            "q": "Perché, secondo Renata, {ip:rinviano}?",
+            "options": [
+              "*{ip:Aspettano} l'esito delle elezioni regionali.",
+              "Non {ip:hanno} soldi.",
+              "Il presidente {ip:è} malato."
+            ]
+          },
+          {
+            "q": "Che cosa {cpa:avrebbe voluto} Vito?",
+            "options": [
+              "*che glielo {cst:avessero comunicato} prima",
+              "che {csi:votassero} contro il bilancio",
+              "che {csi:rinviassero} ancora"
             ]
           }
         ]
@@ -348,44 +690,396 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi scegliendo con cura il modo e il tempo.",
+        "open": true,
         "questions": [
           {
-            "q": "I thought they had already decided.",
-            "a": [
-              "Pensavo che avessero già deciso.",
-              "Credevo che avessero già deciso."
+            "q": "Qual {ip:è} una decisione importante che {pp:hai preso} a ragion veduta? Che cosa {im:temevi} che {csi:succedesse}?"
+          },
+          {
+            "q": "C'{ip:è} qualcosa che {cpa:avresti voluto} che qualcuno ti {cst:avesse detto} prima?"
+          },
+          {
+            "q": "Che cosa {cop:vorresti} che {csi:cambiasse} nella tua città?"
+          },
+          {
+            "q": "{ip:Credi} di aver fatto la scelta giusta con i tuoi studi o il tuo lavoro? Perché?"
+          },
+          {
+            "q": "Quando {ip:sei} stato costretto a fare marcia indietro su una decisione?"
+          },
+          {
+            "q": "Nella tua lingua c'{ip:è} un modo come il congiuntivo? Gli italiani lo {ip:usano} sempre, secondo te?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa intendi?"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase al suo significato.",
+        "pairs": [
+          [
+            "{ip:Capisco} che {ip:è} tardi.",
+            "Me ne {ip:rendo} conto."
+          ],
+          [
+            "{ip:Capisco} che {csp:sia} stanco.",
+            "Lo {ip:giustifico}."
+          ],
+          [
+            "Gli {pp:ho detto} che {ip:viene} Anna.",
+            "Gli {pp:ho dato} un'informazione."
+          ],
+          [
+            "Gli {pp:ho detto} che {csp:venga}.",
+            "Gli {pp:ho dato} un ordine."
+          ],
+          [
+            "{imv:Pensa} che domani {ip:è} festa!",
+            "{imv:Considera} questo fatto."
+          ],
+          [
+            "{ip:Penso} che {csp:sia} festa.",
+            "Lo {ip:credo}, ma non ne {ip:sono} sicuro."
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "*Di* + infinito o *che* + congiuntivo? Completa.",
+        "questions": [
+          "{ip:Spero} [[di]] arrivare in tempo. (io arrivo)",
+          "{ip:Spero} [[che]] tu {csp:arrivi} in tempo. (tu arrivi)",
+          "{ip:Credo} di [[aver sbagliato|avere sbagliato]]. (io ho sbagliato)",
+          "{ip:Credo} che [[abbiate sbagliato#csa]]. (voi avete sbagliato)"
+        ]
+      },
+      {
+        "h": "Prima, durante, dopo"
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta: completa con il tempo giusto.",
+        "ordered": true,
+        "questions": [
+          "Quando {pp:sono arrivata} alla riunione, {im:pensavo} che tutti (andare) [[fossero andati#cst]] già via.",
+          "Invece {im:erano} lì: {im:sembrava} che (aspettare) [[aspettassero#csi]] proprio me.",
+          "Il direttore mi {pp:ha detto} che (parlare) [[avrebbe parlato#cpa]] subito dopo di me.",
+          "{cpa:Avrei preferito} che mi (avvisare) [[avesse avvisato#cst]] prima!"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Pensa a un momento in cui ti {pp:sei sbagliato} su qualcosa. Che cosa {im:pensavi} che {cst:fosse successo}? Che cosa {pp:è successo} davvero?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Pensavo che…"
+          }
+        ]
+      },
+      {
+        "h": "Vorrei che…"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "{cop:Vorrei} che voi ___ più attenzione.",
+            "options": [
+              "*{csi:faceste}",
+              "{csp:facciate}",
+              "{fs:farete}"
             ]
           },
           {
-            "q": "I knew he would come back.",
-            "a": [
-              "Sapevo che sarebbe tornato.",
-              "Io sapevo che sarebbe tornato."
+            "q": "{cop:Sarebbe} bello che ___ anche i tuoi.",
+            "options": [
+              "*{csi:venissero}",
+              "{csp:vengano}",
+              "{ip:vengono}"
             ]
           },
           {
-            "q": "I understand that you may be tired. (sympathising, informal)",
-            "a": [
-              "Capisco che tu sia stanco.",
-              "Capisco che tu sia stanca.",
-              "Capisco che sia stanco."
+            "q": "{cpa:Avrei voluto} che tu ___ con me quel giorno.",
+            "options": [
+              "*{csi:fossi}",
+              "{csp:sia}",
+              "{ip:sei}"
             ]
           },
           {
-            "q": "The fact that he hasn't answered worries me.",
-            "a": [
-              "Il fatto che non abbia risposto mi preoccupa."
-            ]
-          },
-          {
-            "q": "I would have liked you to be here. (informal)",
-            "a": [
-              "Avrei voluto che tu fossi qui.",
-              "Avrei voluto che fossi qui."
+            "q": "{cpa:Avrei voluto} che me lo ___ prima di partire.",
+            "options": [
+              "*{cst:avessi detto}",
+              "{csa:abbia detto}",
+              "{csp:dica}"
             ]
           }
         ]
+      },
+      {
+        "h": "Regole e eccezioni"
+      },
+      {
+        "text": [
+          "**Dal giornale.** Il ministro {pp:ha dichiarato} che la riforma {fs:entrerà} in vigore a gennaio. Un portavoce {pp:ha precisato} che il testo {ip:è} ancora in discussione e che {cop:potrebbe} cambiare. Gli esperti {ip:ritengono} {csp:sia} difficile rispettare i tempi."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi la notizia e scegli.",
+        "questions": [
+          {
+            "q": "Perché il giornalista {ip:scrive} «{fs:entrerà}» e non «{cpa:sarebbe entrata}»?",
+            "options": [
+              "*Perché gennaio {ip:è} ancora nel futuro.",
+              "Perché {ip:è} un errore.",
+              "Perché {ip:è} una verità di sempre."
+            ]
+          },
+          {
+            "q": "«Gli esperti {ip:ritengono} {csp:sia} difficile»: che cosa manca?",
+            "options": [
+              "*il *che*, come spesso nei giornali",
+              "il soggetto",
+              "il verbo principale"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi nella lingua scritta curata.",
+        "questions": [
+          "Penso che è troppo tardi. → {ip:Penso} che [[sia#csp]] troppo tardi.",
+          "Mi ha detto che veniva. → Mi {pp:ha detto} che [[sarebbe venuto|sarebbe venuta#cpa]].",
+          "Vorrei che tu resti. → {cop:Vorrei} che tu [[restassi#csi]].",
+          "Credo che ho ragione. → {ip:Credo} di [[avere]] ragione."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Spero che io possa venire.",
+            "a": [
+              "Spero di poter venire.",
+              "Spero di potere venire."
+            ]
+          },
+          {
+            "q": "Vorrei che tu mi aiuti.",
+            "a": [
+              "Vorrei che tu mi aiutassi."
+            ]
+          },
+          {
+            "q": "Credevo che avranno deciso il giorno dopo.",
+            "a": [
+              "Credevo che avrebbero deciso il giorno dopo."
+            ]
+          },
+          {
+            "q": "Avrei voluto che tu me lo dica.",
+            "a": [
+              "Avrei voluto che tu me lo dicessi.",
+              "Avrei voluto che tu me l'avessi detto.",
+              "Avrei voluto che tu me lo avessi detto."
+            ]
+          },
+          {
+            "q": "Spero che io finisca presto.",
+            "a": [
+              "Spero di finire presto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "di / aver capito / credo",
+            "a": [
+              "Credo di aver capito."
+            ]
+          },
+          {
+            "q": "venissi / vorrei / tu / che",
+            "a": [
+              "Vorrei che tu venissi."
+            ]
+          },
+          {
+            "q": "avrebbero / che / pensavo / votato",
+            "a": [
+              "Pensavo che avrebbero votato."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "La *d* eufonica (*ed, ad, od*) si usa oggi soprattutto quando la parola dopo comincia con la stessa vocale: *ed era, ad andare, ad aspettare*. Davanti a un'altra vocale è meglio la forma semplice: *e anche, a esempio*. Fanno eccezione alcune espressioni fisse: *ad esempio, fino ad ora*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma consigliata.",
+        "questions": [
+          {
+            "q": "Marco ___ Elena sono partiti.",
+            "options": [
+              "*ed",
+              "e d'"
+            ]
+          },
+          {
+            "q": "Siamo andati ___ aspettarlo alla stazione.",
+            "options": [
+              "*ad",
+              "a d'"
+            ]
+          },
+          {
+            "q": "Lavora molto, ___ anche la sera.",
+            "options": [
+              "*e",
+              "ed"
+            ]
+          },
+          {
+            "q": "Si usa, ___ esempio, nelle lettere.",
+            "options": [
+              "*ad",
+              "a d'"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So scegliere il modo per il senso: *capisco che è / che sia*.",
+          "So usare *di* + infinito presente e passato con lo stesso soggetto.",
+          "So usare la concordanza completa, anche con il futuro nel passato.",
+          "So usare il congiuntivo dopo un condizionale: *vorrei che venissi*.",
+          "So quando la concordanza si rompe: verità di sempre, fatti ancora veri.",
+          "So distinguere il congiuntivo dello scritto dall'indicativo del parlato."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una giovane donna sorridente che mostra la scheda elettorale davanti a un seggio, in bianco e nero"
+      },
+      {
+        "text": [
+          "**2 giugno 1946: monarchia o repubblica?**",
+          "Il 2 e il 3 giugno 1946, dopo la guerra e la dittatura, gli italiani {pr:furono} chiamati a decidere se l'Italia {csi:dovesse} restare una monarchia o diventare una repubblica. Per la prima volta in un voto nazionale {pr:votarono} anche le donne.",
+          "Molti {im:pensavano} che la monarchia {cpa:avrebbe vinto}, soprattutto al Sud. Invece la repubblica {pr:ottenne} circa il 54 per cento dei voti. Il Nord {tp:aveva votato} in maggioranza per la repubblica, il Sud per la monarchia: un'Italia divisa, che {im:doveva} ancora imparare a sentirsi un solo paese.",
+          "Il re Umberto II, benché {csi:contestasse} alcuni aspetti del voto, {pr:lasciò} l'Italia il 13 giugno per andare in esilio in Portogallo. Nello stesso giorno del referendum gli italiani {tp:avevano eletto} anche l'Assemblea costituente, che {pr:scrisse} la Costituzione, entrata in vigore il primo gennaio 1948.",
+          "Ancora oggi il 2 giugno {ip:è} la Festa della Repubblica. E molte donne che {pr:votarono} quel giorno {pp:hanno raccontato} di essersi sentite, per la prima volta, cittadine come gli altri."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Nel 1946 le donne {pr:votarono} per la prima volta in un voto nazionale.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La monarchia {pr:vinse} il referendum.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il Sud {pr:votò} in maggioranza per la monarchia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Umberto II {pr:restò} in Italia.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La Costituzione {pr:entrò} in vigore nel 1948.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il futuro nel passato e il congiuntivo.",
+        "questions": [
+          "Decidere se l'Italia [[dovesse#csi]] restare una monarchia.",
+          "Molti {im:pensavano} che la monarchia [[avrebbe vinto#cpa]].",
+          "Benché [[contestasse#csi]] alcuni aspetti del voto, {pr:lasciò} l'Italia."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "C'{ip:è} stato nel tuo paese un voto o una decisione che {pp:ha cambiato} la storia? Racconta.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi una lettera al giornale della tua città su una decisione del comune che non ti {pp:è piaciuta} (o che ti {pp:è piaciuta}).",
+        "cues": [
+          "Che cosa {pp:ha deciso} il comune? Che cosa {im:pensavi} che {cpa:avrebbe deciso}?",
+          "Che cosa {ip:capisci} delle sue ragioni? (*Capisco che… + congiuntivo*)",
+          "Che cosa {cpa:avresti voluto} che {csi:facesse} o {cst:avesse fatto}?",
+          "Che cosa {cop:vorresti} che {csi:succedesse} ora? Usa almeno una volta *di* + infinito."
+        ],
+        "start": "Egregio Direttore,",
+        "model": "Egregio Direttore,\nLe scrivo a proposito della decisione del comune di chiudere la biblioteca di quartiere il sabato. Come molti, pensavo che, dopo i lavori, l'avrebbero aperta più ore, non meno.\nCapisco che il bilancio sia difficile e che il comune debba risparmiare. Tuttavia avrei voluto che i cittadini fossero informati prima, e che si cercasse un compromesso con le associazioni del quartiere.\nCredo di non essere l'unico a pensarla così: il sabato è l'unico giorno in cui molti studenti e lavoratori possono andarci.\nVorrei che il consiglio comunale ponderasse di nuovo la questione e che, almeno in via sperimentale, la biblioteca restasse aperta la mattina.\nDistinti saluti,\nGiorgio Neri"
       }
     ]
   }

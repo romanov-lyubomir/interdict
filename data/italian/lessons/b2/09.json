@@ -1,108 +1,215 @@
 {
   "title": "Finito il lavoro, {im:camminava} parlando al telefono",
-  "translation": "Once work was over, he walked along talking on the phone",
-  "topics": "Participle clauses, the gerund, infinitive constructions",
+  "translation": "",
+  "topics": "Il participio passato da solo (*finito il lavoro*), il participio presente, il gerundio passato e *pur* + gerundio, *stare per*, *andare* + gerundio, l'infinito come nome, *a* + infinito, *fare* e *lasciare* + infinito, la vita in città, fretta e pendolari",
   "grammar": {
     "explain": [
+      "Dal livello B1 conosci il gerundio e l'infinito dopo *prima di, dopo, senza*. Qui vedi le forme che rendono la frase più breve ed elegante, soprattutto nella lingua scritta, e come si dice *far fare qualcosa a qualcuno*.",
       {
-        "h": "The past participle on its own"
-      },
-      "A past participle can replace a whole time clause. It means *once this was done* and it's typical of written Italian. It agrees with the noun that follows, which is the thing that was completed.",
-      {
-        "table": {
-          "head": [
-            "Full clause",
-            "Participle clause"
-          ],
-          "rows": [
-            [
-              "Dopo che il lavoro {pp:è finito}, {pp:siamo usciti}.",
-              "Finit**o** il lavoro, {pp:siamo usciti}."
-            ],
-            [
-              "Dopo che {pp:ha letto} la lettera, {pp:ha pianto}.",
-              "Lett**a** la lettera, {pp:ha pianto}."
-            ],
-            [
-              "Dopo che {tp:erano arrivati} gli ospiti, {pp:abbiamo cenato}.",
-              "Arrivat**i** gli ospiti, {pp:abbiamo cenato}."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il participio passato da solo",
+              "head": [
+                "frase completa",
+                "con il participio"
+              ],
+              "rows": [
+                [
+                  "Dopo che {pp:ha finito} il lavoro, {ip:esce}.",
+                  "**Finito** il lavoro, {ip:esce}."
+                ],
+                [
+                  "Dopo che {pp:ha letto} la lettera, {pp:ha pianto}.",
+                  "**Letta** la lettera, {pp:ha pianto}."
+                ],
+                [
+                  "Quando {pp:sono arrivati} a casa, {pp:hanno cenato}.",
+                  "**Arrivati** a casa, {pp:hanno cenato}."
+                ],
+                [
+                  "Dopo che l'{pp:ha salutata}, {pp:è uscito}.",
+                  "**Salutatala**, {pp:è uscito}."
+                ]
+              ]
+            },
+            "note": [
+              "Il participio da solo vuol dire *dopo che, una volta che*. È tipico della lingua scritta.",
+              "Con i verbi con *avere* si accorda con l'oggetto (*letta la lettera*); con i verbi con *essere*, con il soggetto (*arrivati a casa*). I pronomi si attaccano alla fine: *salutatala*."
             ]
-          ]
-        }
-      },
-      "Pronouns attach to the participle: *Salutatolo, {pp:è uscita}* (Having said goodbye to him, she left).",
-      {
-        "h": "The present participle"
-      },
-      "It is rarely a verb in modern Italian. Mostly it has become an adjective or a noun: *interessante, divertente, importante; il cantante, l'insegnante, lo studente*.",
-      {
-        "h": "What the gerund can mean"
-      },
-      "The gerund can express time, manner, cause or concession. Its subject must be the same as that of the main verb.",
-      {
-        "table": {
-          "head": [
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "While",
-              "{im:Camminava} parlando al telefono."
-            ],
-            [
-              "How",
-              "{pp:Ha imparato} leggendo."
-            ],
-            [
-              "Because",
-              "Avendo fame, {pp:ha mangiato}."
-            ],
-            [
-              "Although, with pur",
-              "Pur essendo stanco, {pp:ha lavorato}."
-            ]
-          ]
-        }
-      },
-      "The compound gerund shows that the action came first: *Avendo finito, {pp:sono uscito}. Essendo partita presto, {pp:è arrivata} prima.*",
-      {
-        "h": "Stare + gerund and andare + gerund"
-      },
-      "*Stare* shows an action in progress: *{ip:Sto} leggendo*. It cannot be used with a future idea, so *{ip:Sto} partendo domani* is wrong. *Andare* + gerund shows gradual progress: *La situazione {ip:va} migliorando.*",
-      {
-        "h": "The infinitive in linked clauses"
-      },
-      "When both parts have the same subject, the infinitive is usually preferred to a full clause.",
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Example"
-          ],
-          "rows": [
-            [
-              "prima di + infinitive",
-              "Prima di uscire, {imv:chiudi} la porta."
-            ],
-            [
-              "dopo aver + participle",
-              "Dopo aver mangiato, {pp:siamo usciti}."
-            ],
-            [
-              "dopo essere + participle",
-              "Dopo essere arrivat**i**, {pp:abbiamo mangiato}."
-            ],
-            [
-              "senza + infinitive",
-              "{pp:È uscito} senza salutare."
-            ],
-            [
-              "per + infinitive",
-              "{ip:Studio} per superare l'esame."
-            ]
-          ]
-        }
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il participio presente",
+              "head": [
+                "verbo",
+                "participio presente",
+                "uso"
+              ],
+              "rows": [
+                [
+                  "*cantare*",
+                  "cant**ante**",
+                  "nome: *il cantante*"
+                ],
+                [
+                  "*interessare*",
+                  "interess**ante**",
+                  "aggettivo: *un libro interessante*"
+                ],
+                [
+                  "*insegnare*",
+                  "insegn**ante**",
+                  "nome: *l'insegnante*"
+                ],
+                [
+                  "*risiedere*",
+                  "resid**ente**",
+                  "= *che risiede*: *i cittadini residenti*"
+                ],
+                [
+                  "*seguire*",
+                  "segu**ente**",
+                  "aggettivo: *il giorno seguente*"
+                ]
+              ]
+            },
+            "note": "I verbi in *-are* prendono **-ante**, i verbi in *-ere* e *-ire* prendono **-ente**. Oggi il participio presente si usa quasi solo come aggettivo o come nome; come verbo, al posto di *che* + verbo, si trova nei testi ufficiali."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il gerundio: presente, passato e con *pur*",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "gerundio presente",
+                  "nello stesso momento",
+                  "{ip:Ascolta} la musica **cucinando**."
+                ],
+                [
+                  "gerundio passato: *avendo, essendo* + participio",
+                  "prima, ed è la causa",
+                  "**Avendo finito** i soldi, {pp:sono tornato} a casa. **Essendo arrivata** tardi, {pp:ha perso} l'inizio."
+                ],
+                [
+                  "*pur* + gerundio",
+                  "anche se",
+                  "**Pur essendo** stanco, {pp:ha lavorato} fino a sera."
+                ]
+              ]
+            },
+            "note": "Il soggetto del gerundio deve essere lo stesso del verbo principale: *Uscendo di casa, {pp:ho visto} Marco* = io uscivo e io ho visto Marco."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Stare per, stare* e *andare* + gerundio",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*stare per* + infinito",
+                  "fra un attimo",
+                  "Il treno **{ip:sta} per partire**."
+                ],
+                [
+                  "*stare* + gerundio",
+                  "proprio adesso",
+                  "**{ip:Sto} leggendo**, non {ip:posso} uscire."
+                ],
+                [
+                  "*andare* + gerundio",
+                  "a poco a poco",
+                  "La situazione **{ip:va} migliorando**."
+                ],
+                [
+                  "*venire* + gerundio",
+                  "un'azione che continua nel tempo",
+                  "Ti **{ip:vengo} dicendo** da anni che {ip:è} pericoloso."
+                ]
+              ]
+            },
+            "note": "*Stare* + gerundio non si usa per il futuro: ✗ *sto partendo domani*, ✓ *parto domani*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "L'infinito al posto di una frase",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "l'infinito come nome",
+                  "l'azione, l'abitudine",
+                  "**Il camminare** {ip:fa} bene. Mi {ip:piace} **il suo modo di parlare**."
+                ],
+                [
+                  "*a* + infinito",
+                  "se, quando",
+                  "**A pensarci bene**, {ip:hai} ragione. **A sentirlo**, {ip:sembra} facile."
+                ],
+                [
+                  "*nel* + infinito",
+                  "mentre",
+                  "**Nel salire** sul treno, {pp:ho perso} il biglietto."
+                ],
+                [
+                  "*dopo* + infinito passato",
+                  "dopo che",
+                  "**Dopo essere arrivati**, {pp:abbiamo mangiato}."
+                ]
+              ]
+            },
+            "note": "L'infinito come nome è maschile e prende l'articolo: *il mangiare, il bere, il viaggiare, il sapere*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Fare* e *lasciare* + infinito",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*fare* + infinito",
+                  "un'altra persona fa l'azione",
+                  "{pp:Ho fatto} **riparare** la macchina. Mi {ip:fai} **vedere** le foto?"
+                ],
+                [
+                  "*farsi* + infinito",
+                  "per sé",
+                  "Mi {pp:sono fatto} **tagliare** i capelli."
+                ],
+                [
+                  "*fare* + infinito + *a*",
+                  "chi fa l'azione",
+                  "{pp:Ho fatto} leggere la lettera **a** Marco."
+                ],
+                [
+                  "*lasciare* + infinito",
+                  "permettere",
+                  "**{imv:Lasciami} parlare!** I miei mi {ip:lasciano} uscire fino a mezzanotte."
+                ]
+              ]
+            },
+            "note": "Con *fare* e *lasciare* i pronomi vanno prima di *fare*, non dell'infinito: *Gliel'ho fatta leggere. Me li fai vedere?*"
+          }
+        ]
       }
     ]
   },
@@ -110,68 +217,116 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the participle clause. Make the participle agree.",
+        "prompt": "Riscrivi con il participio passato da solo.",
         "questions": [
-          "[[Finito]] il lavoro, {pp:siamo usciti}. (finire)",
-          "[[Letta]] la lettera, {pp:ha pianto}. (leggere)",
-          "[[Arrivati]] gli ospiti, {pp:abbiamo cenato}. (arrivare)",
-          "[[Chiuse#pr]] le finestre, {pp:è andato} a letto. (chiudere)"
+          "Dopo che {pp:ha finito} i compiti, {ip:esce}. → [[Finiti]] i compiti, {ip:esce}.",
+          "Dopo che {pp:abbiamo visto} il film, {pp:siamo andati} a cena. → [[Visto]] il film, {pp:siamo andati} a cena.",
+          "Quando {pp:è arrivata} in ufficio, {pp:ha acceso} il computer. → [[Arrivata]] in ufficio, {pp:ha acceso} il computer.",
+          "Dopo che {pp:ho chiuso} la porta, {pp:sono partito}. → [[Chiusa]] la porta, {pp:sono partito}.",
+          "Dopo che {pp:hanno mangiato} la pizza, {pp:hanno pagato}. → [[Mangiata]] la pizza, {pp:hanno pagato}."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Use the gerund, simple or compound.",
+        "prompt": "Scrivi il participio presente.",
         "questions": [
-          "{im:Camminava} [[parlando]] al telefono. (parlare)",
-          "{pp:Ha imparato} [[leggendo]] molti libri. (leggere)",
-          "[[Avendo finito]], {pp:sono uscito}. (finire, earlier)",
-          "[[Essendo partita]] presto, {pp:è arrivata} prima. (partire, earlier)",
-          "Pur [[essendo]] stanco, {pp:ha lavorato}. (essere)"
+          "chi canta → il [[cantante]]",
+          "chi abita in una città, ufficialmente → il [[residente]]",
+          "che sorprende → una notizia [[sorprendente]]",
+          "che diverte → un film [[divertente]]",
+          "chi assiste il medico → l'[[assistente]]"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi con il gerundio passato.",
+        "questions": [
+          "Siccome {tp:aveva finito} i soldi, {pp:è tornato} a casa. → [[Avendo finito]] i soldi, {pp:è tornato} a casa.",
+          "Siccome {tp:era partita} tardi, {pp:ha perso} il treno. → [[Essendo partita]] tardi, {pp:ha perso} il treno.",
+          "Siccome {tp:avevamo dormito} poco, {im:eravamo} stanchi. → [[Avendo dormito]] poco, {im:eravamo} stanchi.",
+          "Siccome {tp:erano arrivati} presto, {pp:hanno trovato} posto. → [[Essendo arrivati]] presto, {pp:hanno trovato} posto."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Dopo ___ mangiato, {pp:siamo usciti}.",
+            "q": "___ stanco, {pp:è andato} in palestra.",
             "options": [
-              "*aver",
-              "essere",
-              "avendo"
+              "*Pur essendo",
+              "Essendo",
+              "Pur essere"
             ]
           },
           {
-            "q": "Dopo ___ arrivati, {pp:abbiamo telefonato}.",
+            "q": "{imv:Sbrigati}: il film {ip:sta} ___!",
             "options": [
-              "aver",
-              "*essere",
-              "avendo"
+              "*per cominciare",
+              "cominciando",
+              "a cominciare"
             ]
           },
           {
-            "q": "{pp:È uscito} ___ salutare.",
+            "q": "Domani ___ per Parigi.",
             "options": [
-              "*senza",
-              "prima",
-              "dopo"
-            ]
-          },
-          {
-            "q": "___ di uscire, {imv:chiudi} la porta.",
-            "options": [
-              "Dopo",
-              "*Prima",
-              "Senza"
-            ]
-          },
-          {
-            "q": "Domani ___ .",
-            "options": [
+              "*{ip:parto}",
               "{ip:sto} partendo",
-              "*{ip:parto}"
+              "sto per partendo"
+            ]
+          },
+          {
+            "q": "Le cose {ip:vanno} ___ di giorno in giorno.",
+            "options": [
+              "*migliorando",
+              "migliorate",
+              "per migliorare"
+            ]
+          },
+          {
+            "q": "___ bene, non {ip:è} una cattiva idea.",
+            "options": [
+              "*A pensarci",
+              "Pensandoci a",
+              "Nel pensarci"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *fare* o *farsi* + infinito al [pp:passato prossimo].",
+        "questions": [
+          "La macchina non {im:partiva}: l'[[ho fatta riparare#pp]] dal meccanico. (riparare)",
+          "{ip:Hai} i capelli corti! Ti [[sei fatto tagliare|sei fatta tagliare#pp]] i capelli? (tagliare)",
+          "La professoressa ci [[ha fatto leggere#pp]] un romanzo di Calvino. (leggere)",
+          "Mi [[sono fatta fare|sono fatto fare#pp]] un vestito su misura. (fare)"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase al suo significato.",
+        "pairs": [
+          [
+            "{imv:Lasciami} parlare!",
+            "Non interrompermi!"
+          ],
+          [
+            "Mi {ip:fai} vedere le foto?",
+            "{imv:Mostrami} le foto."
+          ],
+          [
+            "Il treno {ip:sta} per partire.",
+            "Il treno {ip:parte} tra un attimo."
+          ],
+          [
+            "Nel salire sul treno…",
+            "Mentre {im:salivo} sul treno…"
+          ],
+          [
+            "Il camminare {ip:fa} bene.",
+            "{ip:È} sano camminare."
+          ]
         ]
       }
     ]
@@ -180,134 +335,259 @@
     "words": [
       [
         "il pendolare",
-        "commuter"
+        "chi viaggia ogni giorno per andare al lavoro o a scuola"
       ],
       [
         "la fretta",
-        "hurry"
+        "il bisogno di fare una cosa velocemente"
       ],
       [
         "il marciapiede",
-        "pavement"
+        "la parte della strada per chi va a piedi"
       ],
       [
         "il passante",
-        "passer-by"
+        "una persona che passa per la strada"
       ],
       [
-        "il cantante",
-        "singer"
+        "l'incrocio",
+        "il punto dove due strade si incontrano"
       ],
       [
-        "l'insegnante",
-        "teacher"
+        "il semaforo",
+        "la luce rossa, gialla e verde agli incroci"
       ],
       [
-        "camminare",
-        "to walk"
+        "l'ora di punta",
+        "l'ora con più traffico e più gente sui mezzi"
+      ],
+      [
+        "i mezzi (pubblici)",
+        "l'autobus, il tram, la metropolitana"
+      ],
+      [
+        "il residente",
+        "chi abita ufficialmente in un posto"
       ],
       [
         "attraversare",
-        "to cross"
+        "passare da una parte all'altra della strada"
       ],
       [
         "inciampare",
-        "to trip"
+        "toccare qualcosa con il piede e quasi cadere"
       ],
       [
         "distrarsi",
-        "to get distracted"
+        "non fare più attenzione"
+      ],
+      [
+        "sbrigarsi",
+        "fare in fretta"
+      ],
+      [
+        "dirigersi verso",
+        "andare in una direzione"
+      ],
+      [
+        "rialzarsi",
+        "alzarsi di nuovo dopo essere caduto"
       ],
       [
         "distratto",
-        "absent-minded"
+        "che non fa attenzione"
+      ],
+      [
+        "affollato",
+        "pieno di gente"
       ],
       [
         "di corsa",
-        "in a rush"
+        "correndo, molto in fretta"
+      ],
+      [
+        "a poco a poco",
+        "lentamente, un po' alla volta"
+      ],
+      [
+        "su misura",
+        "fatto apposta per una persona"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
             "il pendolare",
-            "commuter"
-          ],
-          [
-            "il marciapiede",
-            "pavement"
-          ],
-          [
-            "il passante",
-            "passer-by"
+            "chi viaggia ogni giorno per andare al lavoro o a scuola"
           ],
           [
             "inciampare",
-            "to trip"
+            "toccare qualcosa con il piede e quasi cadere"
           ],
           [
-            "distrarsi",
-            "to get distracted"
+            "l'ora di punta",
+            "l'ora con più traffico e più gente sui mezzi"
           ],
           [
-            "di corsa",
-            "in a rush"
+            "sbrigarsi",
+            "fare in fretta"
+          ],
+          [
+            "affollato",
+            "pieno di gente"
+          ],
+          [
+            "a poco a poco",
+            "lentamente, un po' alla volta"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "{ip:Ho} sempre [[fretta]] la mattina. (hurry)",
-          "Il mio [[insegnante]] {ip:è} molto bravo. (teacher)",
-          "{ip:Sei} proprio [[distratto]] oggi! (absent-minded)",
-          "{ip:È} pericoloso [[attraversare]] qui. (to cross)"
+          {
+            "q": "{imv:Aspetta} il verde al ___ prima di attraversare.",
+            "options": [
+              "*semaforo",
+              "marciapiede",
+              "incrocio"
+            ]
+          },
+          {
+            "q": "Le biciclette non {ip:devono} andare sul ___.",
+            "options": [
+              "*marciapiede",
+              "semaforo",
+              "passante"
+            ]
+          },
+          {
+            "q": "Alle otto la metropolitana {ip:è} sempre ___.",
+            "options": [
+              "*affollata",
+              "distratta",
+              "residente"
+            ]
+          },
+          {
+            "q": "{ip:Esco} sempre di ___: {ip:sono} in ritardo.",
+            "options": [
+              "*corsa",
+              "fretta",
+              "punta"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{ip:Vado} al lavoro con i [[mezzi]] pubblici.",
+          "Non {ip:ho} [[fretta]]: {imv:fai} con calma.",
+          "{pp:È caduto}, ma si {pp:è} subito [[rialzato#pp]].",
+          "{ip:Gira} a destra al prossimo [[incrocio]].",
+          "Se ti [[distrai]], {ip:sbagli} strada."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Finito il turno in ufficio, Claudio {ip:esce} di corsa e si {ip:dirige} verso la stazione camminando con il telefono in mano. Pur sapendo che {ip:è} pericoloso, {ip:risponde} ai messaggi attraversando la strada. Ieri, distrattosi per un attimo, {pp:è inciampato} sul marciapiede davanti a tutti i passanti.",
-      "Dopo essersi rialzato, {pp:ha guardato} il telefono: {im:era rotto}. Avendo perso anche il treno, {pp:è tornato} a piedi, senza poter avvisare la moglie. Arrivato a casa, {pp:ha trovato} la cena fredda e un biglietto: «Prima di rispondere ai messaggi, {imv:guarda} dove {ip:metti} i piedi!»"
+      {
+        "h": "La mattina di un pendolare"
+      },
+      "Ogni mattina Claudio {ip:esce} di casa alle sei e mezza. Chiusa la porta, {ip:corre} alla fermata dell'autobus mangiando un cornetto. Non {ip:ha} mai tempo per fare colazione al bar: a pensarci bene, non ce l'{ip:ha} da anni.",
+      "Arrivato in stazione, {ip:prende} il treno delle sette per Milano. Il treno {ip:è} sempre affollato, ma Claudio, pur essendo stanco, non {ip:dorme} mai: {ip:legge}, {ip:risponde} alle e-mail, {ip:studia} lo spagnolo ascoltando un corso sul telefono. «Il viaggiare {ip:è} tempo perso solo se lo {ip:lasci} perdere», {ip:dice}.",
+      "Ieri però, avendo dormito poco, si {pp:è distratto}. Nello scendere dal treno {pp:ha lasciato} lo zaino sul sedile e, accortosene troppo tardi, l'{pp:ha visto} ripartire verso Venezia. {pp:Ha dovuto} farsi accompagnare all'ufficio oggetti smarriti da un controllore molto gentile.",
+      "La sera, tornando a casa, {im:pensava} che le cose {im:stavano} cambiando: la sua azienda {im:stava} per permettere a tutti di lavorare da casa due giorni alla settimana. «Lo {ip:vengo} chiedendo da anni», {pp:ha detto} ridendo. «Finalmente!»"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Claudio knows that using his phone while walking is dangerous.",
+            "q": "Che cosa {ip:fa} Claudio mentre {ip:corre} alla fermata?",
             "options": [
-              "*True",
-              "False"
+              "*{ip:mangia} un cornetto",
+              "{ip:beve} un caffè",
+              "{ip:telefona} alla moglie"
             ]
           },
           {
-            "q": "He tripped on the pavement.",
+            "q": "Che cosa {ip:fa} in treno?",
             "options": [
-              "*True",
-              "False"
+              "*{ip:legge}, {ip:lavora} e {ip:studia}",
+              "{ip:dorme}",
+              "{ip:guarda} il paesaggio"
             ]
           },
           {
-            "q": "He managed to catch the train.",
+            "q": "Che cosa gli {pp:è successo} ieri?",
             "options": [
-              "True",
-              "*False"
+              "*{pp:Ha dimenticato} lo zaino sul treno.",
+              "{pp:Ha perso} il treno.",
+              "{pp:È caduto} dal treno."
             ]
           },
           {
-            "q": "He called his wife to warn her.",
+            "q": "Che novità c'{ip:è} nella sua azienda?",
             "options": [
-              "True",
-              "*False"
+              "*Si {fs:potrà} lavorare da casa due giorni.",
+              "{fs:Chiuderà} l'ufficio di Milano.",
+              "Gli {fs:daranno} una macchina."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Claudio {ip:fa} colazione al bar ogni mattina.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "In treno Claudio {ip:dorme} sempre.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Lo zaino {pp:è ripartito} con il treno verso Venezia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Claudio {im:chiedeva} da tempo di lavorare da casa.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il participio, il gerundio e l'infinito.",
+        "questions": [
+          "[[Chiusa]] la porta, {ip:corre} alla fermata dell'autobus.",
+          "[[Arrivato]] in stazione, {ip:prende} il treno delle sette.",
+          "Claudio, pur [[essendo]] stanco, non {ip:dorme} mai.",
+          "Ieri, [[avendo dormito]] poco, si {pp:è distratto}.",
+          "La sua azienda {im:stava} per [[permettere]] a tutti di lavorare da casa."
         ]
       }
     ]
@@ -315,51 +595,72 @@
   "listening": {
     "transcript": [
       [
-        "Ida",
-        "Che cosa {ip:stai} facendo?"
+        "Anna",
+        "Ma come {ip:sei} elegante! Ti {pp:sei fatto tagliare} i capelli?"
       ],
       [
-        "Tullio",
-        "{ip:Sto} finendo la relazione. Finita quella, {ip:esco}."
+        "Michele",
+        "Sì, e {pp:ho fatto} anche lavare la macchina. Stasera {ip:conosco} i genitori di Silvia."
       ],
       [
-        "Ida",
-        "{pp:Hai mangiato} qualcosa prima di metterti al lavoro?"
+        "Anna",
+        "Ah, ecco! E sei nervoso?"
       ],
       [
-        "Tullio",
-        "No, {pp:ho lavorato} senza fermarmi."
+        "Michele",
+        "Un po'. Silvia mi {pp:ha fatto} vedere le loro foto: {ip:sembrano} severissimi."
       ],
       [
-        "Ida",
-        "Lavorando così ti {fs:ammalerai}!"
+        "Anna",
+        "Ma no! Pur non conoscendoli, {ip:sono} sicura che {fs:andrà} benissimo. {imv:Lasciali} parlare e {imv:sorridi}."
       ],
       [
-        "Tullio",
-        "Avendo una scadenza domani, non {pp:ho scelta}."
+        "Michele",
+        "{ip:Sto} per uscire. A pensarci bene, {ip:porto} anche dei fiori?"
+      ],
+      [
+        "Anna",
+        "Certo! Comprati i fiori, {imv:vai} tranquillo."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:Sto} [[finendo]] la relazione.",
-          "[[Finita]] quella, {ip:esco}.",
-          "{pp:Ho lavorato} [[senza]] fermarmi.",
-          "[[Avendo]] una scadenza domani, non {pp:ho scelta}."
+          "Ti {pp:sei fatto} [[tagliare]] i capelli?",
+          "Silvia mi {pp:ha fatto} [[vedere]] le loro foto.",
+          "Pur non [[conoscendoli]], {ip:sono} sicura che {fs:andrà} benissimo.",
+          "{ip:Sto} per [[uscire]].",
+          "[[Comprati]] i fiori, {imv:vai} tranquillo."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Why can't Tullio stop working?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Tullio…",
+            "q": "Perché Michele {ip:è} elegante?",
             "options": [
-              "is going on holiday",
-              "*has a deadline tomorrow",
-              "is ill"
+              "*{ip:Conosce} i genitori di Silvia.",
+              "{ip:Ha} un colloquio di lavoro.",
+              "{ip:Va} a un matrimonio."
+            ]
+          },
+          {
+            "q": "Com'{ip:è} Michele?",
+            "options": [
+              "*un po' nervoso",
+              "molto tranquillo",
+              "arrabbiato"
+            ]
+          },
+          {
+            "q": "Che cosa gli {ip:consiglia} Anna?",
+            "options": [
+              "*di lasciarli parlare e sorridere",
+              "di parlare molto",
+              "di non portare niente"
             ]
           }
         ]
@@ -370,39 +671,406 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando il gerundio, il participio o l'infinito dove puoi.",
+        "open": true,
         "questions": [
           {
-            "q": "Once work was finished, we went out. (use finito)",
-            "a": [
-              "Finito il lavoro, siamo usciti."
+            "q": "Come {ip:vai} al lavoro o a scuola? Che cosa {ip:fai} durante il viaggio?"
+          },
+          {
+            "q": "Che cosa {ip:fai} di solito appena arrivato a casa la sera?"
+          },
+          {
+            "q": "Che cosa ti {ip:fai} fare da altre persone (dal parrucchiere, dal meccanico…)?"
+          },
+          {
+            "q": "Che cosa ti {im:lasciavano} fare i tuoi genitori da ragazzo? E che cosa no?"
+          },
+          {
+            "q": "Ti {ip:piace} il camminare? Dove {ip:cammini} volentieri?"
+          },
+          {
+            "q": "Che cosa {ip:sta} cambiando nella tua città negli ultimi anni?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Di corsa"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una ragazza attraversa la strada guardando il telefono, un'auto frena",
+          "B — Un uomo inciampa sul marciapiede e gli cadono i fogli",
+          "C — Una metropolitana piena di gente in piedi, alle otto di mattina",
+          "D — Un treno fermo al binario, il capotreno con il fischietto in bocca"
+        ],
+        "pairs": [
+          [
+            "{ip:Attraversa} la strada guardando il telefono.",
+            "immagine A"
+          ],
+          [
+            "Distrattosi un attimo, {pp:è inciampato}.",
+            "immagine B"
+          ],
+          [
+            "All'ora di punta i mezzi {ip:sono} affollati.",
+            "immagine C"
+          ],
+          [
+            "Il treno {ip:sta} per partire.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta la giornata di Laura con il participio passato.",
+        "ordered": true,
+        "questions": [
+          "Dopo che {pp:ha fatto} la doccia, {pp:ha preparato} il caffè. → [[Fatta]] la doccia, {pp:ha preparato} il caffè.",
+          "Dopo che {pp:ha bevuto} il caffè, {pp:è uscita}. → [[Bevuto]] il caffè, {pp:è uscita}.",
+          "Quando {pp:è arrivata} in ufficio, {pp:ha salutato} i colleghi. → [[Arrivata]] in ufficio, {pp:ha salutato} i colleghi.",
+          "Dopo che {pp:ha finito} le riunioni, {pp:è tornata} a casa. → [[Finite]] le riunioni, {pp:è tornata} a casa."
+        ]
+      },
+      {
+        "h": "Pur essendo…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi con *pur* + gerundio.",
+        "questions": [
+          "Anche se {ip:è} ricco, {ip:vive} in modo semplice. → [[Pur essendo]] ricco, {ip:vive} in modo semplice.",
+          "Anche se {ip:ha} poco tempo, {ip:legge} molto. → [[Pur avendo]] poco tempo, {ip:legge} molto.",
+          "Anche se {ip:abita} lontano, {ip:arriva} sempre per primo. → [[Pur abitando]] lontano, {ip:arriva} sempre per primo.",
+          "Anche se {ip:sa} la risposta, non {ip:dice} niente. → [[Pur sapendo]] la risposta, non {ip:dice} niente."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi due frasi vere per te con *pur* + gerundio. (*Pur essendo…, pur avendo…*)",
+        "open": true,
+        "questions": [
+          {
+            "q": "Pur…"
+          }
+        ]
+      },
+      {
+        "h": "Sto per…"
+      },
+      {
+        "type": "choice",
+        "prompt": "*Stare per* o *stare* + gerundio?",
+        "questions": [
+          {
+            "q": "{imv:Corri}! Il treno ___!",
+            "options": [
+              "*{ip:sta} per partire",
+              "{ip:sta} partendo domani"
             ]
           },
           {
-            "q": "After eating, we went out. (use dopo aver)",
-            "a": [
-              "Dopo aver mangiato, siamo usciti."
+            "q": "Non {ip:posso} parlare adesso: ___ guidando.",
+            "options": [
+              "*{ip:sto}",
+              "{ip:sto} per"
             ]
           },
           {
-            "q": "He was walking along talking on the phone.",
-            "a": [
-              "Camminava parlando al telefono."
+            "q": "{imv:Prendi} l'ombrello: ___ piovere.",
+            "options": [
+              "*{ip:sta} per",
+              "{ip:sta}"
             ]
           },
           {
-            "q": "Although he was tired, he worked. (use pur)",
+            "q": "Zitti! Il film ___ cominciando.",
+            "options": [
+              "*{ip:sta}",
+              "{ip:sta} per"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mangiare, il bere…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con l'infinito usato come nome.",
+        "questions": [
+          "Il [[viaggiare]] {ip:apre} la mente.",
+          "Il [[mangiare]] bene {ip:è} importante per la salute.",
+          "Mi {ip:piace} il suo modo di [[parlare]]: {ip:è} così calmo!",
+          "Il [[sapere]] non {ip:occupa} spazio. (proverbio)"
+        ]
+      },
+      {
+        "h": "Me lo fai vedere?"
+      },
+      {
+        "text": [
+          "**Dal parrucchiere.** — Buongiorno, signora, che cosa si {ip:fa} fare oggi? — {cop:Vorrei} farmi tagliare i capelli, ma non troppo corti. — E il colore? — Mia figlia mi {pp:ha fatto} vedere una foto su internet: questo castano chiaro. Me lo {ip:fa} provare? — Certo. {imv:Si sieda} e mi {imv:lasci} lavorare: tra un'ora {fs:sarà} un'altra persona!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi il dialogo e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Che cosa {ip:vuole} la signora?",
+            "options": [
+              "*tagliarsi i capelli e cambiare colore",
+              "solo lavarsi i capelli",
+              "farsi i capelli cortissimi"
+            ]
+          },
+          {
+            "q": "Chi le {pp:ha fatto} vedere la foto?",
+            "options": [
+              "*sua figlia",
+              "la parrucchiera",
+              "un'amica"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *fare* o *lasciare* + infinito.",
+        "questions": [
+          "Non mi {ip:interrompere}: [[lasciami#imv]] finire!",
+          "Mi [[fai#ip]] vedere il tuo nuovo telefono?",
+          "{pp:Ho fatto} [[riparare]] la bici dal meccanico.",
+          "I miei genitori non mi [[lasciavano#im]] uscire la sera."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Domani sto partendo per Roma.",
+            "a": [
+              "Domani parto per Roma.",
+              "Domani partirò per Roma."
+            ]
+          },
+          {
+            "q": "Finito la cena, siamo usciti.",
+            "a": [
+              "Finita la cena, siamo usciti."
+            ]
+          },
+          {
+            "q": "Pur essere stanco, ha lavorato.",
             "a": [
               "Pur essendo stanco, ha lavorato."
             ]
           },
           {
-            "q": "Before going out, close the door. (informal)",
+            "q": "Ho riparato la macchina dal meccanico.",
             "a": [
-              "Prima di uscire, chiudi la porta."
+              "Ho fatto riparare la macchina dal meccanico.",
+              "Ho fatto riparare la macchina al meccanico."
+            ]
+          },
+          {
+            "q": "Il treno sta a partire.",
+            "a": [
+              "Il treno sta per partire."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "per / sta / il film / cominciare",
+            "a": [
+              "Il film sta per cominciare."
+            ]
+          },
+          {
+            "q": "fatto / tagliare / i capelli / mi sono",
+            "a": [
+              "Mi sono fatto tagliare i capelli.",
+              "Mi sono fatta tagliare i capelli."
+            ]
+          },
+          {
+            "q": "essendo / pur / stanco / lavora",
+            "a": [
+              "Pur essendo stanco, lavora.",
+              "Pur essendo stanco lavora.",
+              "Lavora pur essendo stanco."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Il participio presente si scrive **-ante** se il verbo finisce in *-are* (*cantare → cantante*) e **-ente** se finisce in *-ere* o *-ire* (*vincere → vincente*, *dormire → dormiente*). Lo stesso vale per il gerundio: *-ando* per i verbi in *-are*, *-endo* per gli altri. L'accento cade sempre sulla *a* o sulla *e*: *cantànte, vincènte, parlàndo, leggèndo*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "*insegnare* → l'___",
+            "options": [
+              "*insegnante",
+              "insegnente"
+            ]
+          },
+          {
+            "q": "*partecipare* → i ___",
+            "options": [
+              "*partecipanti",
+              "partecipenti"
+            ]
+          },
+          {
+            "q": "*dipendere* → un ___",
+            "options": [
+              "*dipendente",
+              "dipendante"
+            ]
+          },
+          {
+            "q": "*sorridere* → ___",
+            "options": [
+              "*sorridendo",
+              "sorridando"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare il participio passato da solo: *Finito il lavoro, esce.*",
+          "So riconoscere il participio presente: *cantante, interessante, residente*.",
+          "So usare il gerundio passato e *pur* + gerundio.",
+          "So distinguere *sto per partire* e *sto partendo*.",
+          "So usare l'infinito come nome e *a pensarci bene*.",
+          "So dire che faccio fare qualcosa a qualcuno: *Mi sono fatto tagliare i capelli.*"
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il corso principale di una piccola città al tramonto, pieno di persone eleganti che passeggiano chiacchierando"
+      },
+      {
+        "text": [
+          "**La passeggiata**",
+          "In molte città italiane, soprattutto al Sud e nei paesi, c'{ip:è} un'abitudine che {ip:resiste} al tempo: la passeggiata della sera. Finito il lavoro, e prima di cena, la gente {ip:esce} di casa e {ip:cammina} lentamente lungo il corso principale o intorno alla piazza.",
+          "Non si {ip:va} da nessuna parte: si {ip:cammina} per il piacere di camminare. Passeggiando, si {ip:incontrano} gli amici, si {ip:salutano} i vicini, ci si {ip:ferma} a prendere un gelato o un aperitivo. Molti, pur essendo stanchi dopo una giornata di lavoro, si {ip:cambiano} e si {ip:vestono} bene: il guardare e l'essere guardati {ip:fanno} parte del gioco.",
+          "Ogni città {ip:ha} il suo nome per questa abitudine. A Napoli si {ip:dice} «lo struscio», dal verbo *strusciare*, cioè camminare trascinando i piedi; in alcune città del Nord i ragazzi {ip:dicono} «fare le vasche», perché si {ip:va} avanti e indietro come in piscina.",
+          "Negli ultimi anni, con i centri commerciali e i telefoni, la passeggiata {ip:sta} cambiando, ma non {ip:sembra} sul punto di scomparire. A pensarci bene, {ip:è} uno dei modi più semplici ed economici per stare insieme."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La passeggiata si {ip:fa} di solito prima di cena.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Si {ip:passeggia} per arrivare in un posto preciso.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Molte persone si {ip:vestono} bene per la passeggiata.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "«Fare le vasche» {ip:è} un'espressione di Napoli.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo il testo, la passeggiata {ip:sta} per scomparire.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il participio, il gerundio e l'infinito come nome.",
+        "questions": [
+          "[[Finito]] il lavoro, la gente {ip:esce} di casa.",
+          "[[Passeggiando]], si {ip:incontrano} gli amici.",
+          "[[Pur]] essendo stanchi, si {ip:vestono} bene.",
+          "Il [[guardare]] e l'essere guardati {ip:fanno} parte del gioco."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Nel tuo paese c'{ip:è} un'abitudine simile alla passeggiata? Dove e quando si {ip:passeggia}?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta una giornata in cui tutto {pp:è andato} storto (o benissimo) mentre {im:andavi} al lavoro, a scuola o in viaggio.",
+        "cues": [
+          "Come {pp:è cominciata} la giornata? (*Svegliatomi…, Uscito di casa…*)",
+          "Che cosa {pp:è successo}? (*Avendo dormito poco…, Pur essendo…*)",
+          "Chi ti {pp:ha aiutato}? Che cosa {pp:hai fatto} fare? (*Mi sono fatto…*)",
+          "Com'{pp:è finita}? A pensarci bene, che cosa {pp:hai imparato}?"
+        ],
+        "start": "",
+        "model": "Lunedì scorso, avendo dormito pochissimo, mi sono svegliata tardi. Vestitami di corsa, sono uscita senza fare colazione.\nArrivata alla fermata, ho visto l'autobus partire. Pur sapendo che era tardi, ho deciso di andare a piedi. Camminando veloce e guardando il telefono, sono inciampata sul marciapiede e mi si è rotto un tacco.\nUn signore gentilissimo mi ha aiutato a rialzarmi e mi ha fatto vedere un calzolaio proprio lì vicino. Mi sono fatta riparare la scarpa in dieci minuti.\nSono arrivata in ufficio con un'ora di ritardo, ma la riunione era stata spostata. A pensarci bene, è stata una giornata fortunata!"
       }
     ]
   }

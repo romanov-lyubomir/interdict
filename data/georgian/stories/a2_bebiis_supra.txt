@@ -1,0 +1,9 @@
+title: ბებიის სუფრა
+translation: Grandma's table
+level: A2
+
+კვირაობით{on Sundays} ბებიასთან{ბებია = grandmother: at grandma's} ვსადილობთ{სადილობა: we have lunch} სოფელში{სოფელი: in the village}. ბებია{grandma} ადრე{early} დგება{ადგომა: gets up} და{and} ბევრ{a lot of} კერძს{კერძი: dishes} ამზადებს{მომზადება: makes}.
+
+სუფრაზე{სუფრა: on the table} არის{ყოფნა: there is} ხაჭაპური{khachapuri}, ლობიო{beans}, მწვადი{grilled meat} და{and} ბევრი{a lot of} მწვანილი{herbs}. ბაბუა{grandpa} თამადაა{თამადა: is the toastmaster}. ის{he} სადღეგრძელოებს{სადღეგრძელო = toast: toasts} ამბობს{თქმა: says} და{and} ყველა{everyone} ღვინოს{ღვინო: wine} სვამს{სმა: drinks}.
+
+პირველი{the first} სადღეგრძელო{toast} ხშირად{often} მშვიდობისაა{მშვიდობა = peace: is to peace}. ბოლოს{at the end} ბებია{grandma} ჩაის{ჩაი: tea} და{and} ნამცხვარს{ნამცხვარი: cake} გვთავაზობს{შეთავაზება: offers us}. ძალიან{very much} მიყვარს{სიყვარული: I love} ეს{these} დღეები{დღე = day: days}.

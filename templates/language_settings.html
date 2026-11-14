@@ -12,7 +12,7 @@
     }
 
     .language-settings .settings-card {
-        margin: 0;
+        margin: 0 0 16px;
         padding: 20px 25px;
     }
 
@@ -53,7 +53,11 @@
         <h2>Language</h2>
         <p class="hint">The language you are learning. Choose another one to switch.</p>
         {% import "language_picker.html" as language_picker %}
-        {{ language_picker.picker(languages, user_language, "language_settings") }}
+        {{ language_picker.picker(languages, user_language, "language_settings", script=script) }}
     </div>
+    {% if script %}
+    {% import "script_picker.html" as script_picker %}
+    {{ script_picker.picker(script, scripts, "language_settings") }}
+    {% endif %}
 </div>
 {% endblock %}

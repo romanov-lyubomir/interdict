@@ -146,8 +146,13 @@
             <h2>Language</h2>
             <p class="hint">The language you are learning. Choose another one to switch.</p>
             {% import "language_picker.html" as language_picker %}
-            {{ language_picker.picker(languages, user_language, "profile") }}
+            {{ language_picker.picker(languages, user_language, "profile", script=script) }}
         </div>
+
+        {% if script %}
+        {% import "script_picker.html" as script_picker %}
+        {{ script_picker.picker(script, scripts, "profile") }}
+        {% endif %}
 
         <form class="shadow settings-card" action="{{ url_for('change_username') }}" method="POST">
             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">

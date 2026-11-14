@@ -1,215 +1,404 @@
 {
   "title": "La proposta {ip:va} rivista: si {ip:ritiene} che {csp:sia} troppo costosa",
-  "translation": "The proposal must be revised: it is considered too expensive",
-  "topics": "Passive constructions with essere, venire, andare and rimanere, impersonal and passive si",
+  "translation": "",
+  "topics": "Il passivo oltre le basi: *rimanere, restare, risultare*, *essere da* + infinito, *farsi, lasciarsi, vedersi* + infinito, il passivo e l'oggetto indiretto, i verbi modali nel passivo, le opinioni impersonali e il modo giusto, la lingua degli avvisi e dei documenti; comune, uffici e burocrazia",
   "grammar": {
     "explain": [
+      "Conosci il passivo con *essere, venire* e *andare*, il *si* passivante e impersonale e *andare* + participio di perdita. A questo livello impari le altre forme che danno un senso passivo, i casi in cui il passivo italiano funziona diversamente da altre lingue e la lingua impersonale dei documenti e degli avvisi.",
       {
-        "h": "Choosing the right passive"
-      },
-      {
-        "table": {
-          "head": [
-            "Form",
-            "What it adds",
-            "Example"
-          ],
-          "rows": [
-            [
-              "essere",
-              "neutral, all tenses",
-              "La proposta {pp:è stata} {pp:rivista}."
-            ],
-            [
-              "venire",
-              "the process, simple tenses only",
-              "La proposta {ip:viene} discussa ogni anno."
-            ],
-            [
-              "andare",
-              "obligation, simple tenses only",
-              "La proposta {ip:va} rivista."
-            ],
-            [
-              "rimanere",
-              "an unexpected result",
-              "{pp:È rimasto} ferito nell'incidente."
-            ],
-            [
-              "essere da + infinitive",
-              "something still to be done",
-              "La proposta {ip:è} da rivedere."
-            ]
-          ]
-        }
-      },
-      "*Andare* with verbs such as *perdere, smarrire* or *distruggere* does not express an obligation but a loss: *I documenti {pp:sono andati} perduti.*",
-      {
-        "h": "The passive in formal and academic writing"
-      },
-      "Omitting the agent makes a text sound impersonal and objective. That is why it is common in reports and science: *I dati {pp:sono stati} {pp:raccolti} in tre fasi*. Use it deliberately, because a long chain of passives quickly makes a text heavy.",
-      {
-        "h": "Si with verbs of thinking and saying"
-      },
-      "These impersonal expressions present an opinion as generally held. After a verb of opinion, formal Italian uses the *congiuntivo*.",
-      {
-        "table": {
-          "head": [
-            "Expression",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "si {ip:ritiene} che",
-              "Si {ip:ritiene} che {csp:sia} troppo costosa.",
-              "It is considered…"
-            ],
-            [
-              "si {ip:pensa} che",
-              "Si {ip:pensa} che {csi:fosse} un pittore.",
-              "He is thought to have been…"
-            ],
-            [
-              "si {ip:dice} che",
-              "Si {ip:dice} che {csa:abbia venduto} tutto.",
-              "They say that…"
-            ],
-            [
-              "si {ip:prevede} che",
-              "Si {ip:prevede} che aumenterà.",
-              "It is expected that…"
-            ]
-          ]
-        }
-      },
-      "*Si {ip:prevede}* looks to the future, so it usually takes the future: *Si {ip:prevede} che i prezzi aumenteranno*.",
-      {
-        "h": "Agreement with si: a full summary"
-      },
-      {
-        "table": {
-          "head": [
-            "Case",
-            "Verb",
-            "Example"
-          ],
-          "rows": [
-            [
-              "No object",
-              "singular",
-              "Si {pp:è parlato} molto."
-            ],
-            [
-              "Singular object",
-              "singular, agrees",
-              "Si {pp:è venduta} la casa."
-            ],
-            [
-              "Plural object",
-              "plural, agrees",
-              "Si {pp:sono vendut**i**} tutti i biglietti."
-            ],
-            [
-              "Verb normally with essere",
-              "participle plural",
-              "Si {pp:è partit**i**} presto."
-            ],
-            [
-              "Adjective after essere",
-              "adjective plural",
-              "Si {ip:è} content**i**."
-            ]
-          ]
-        }
-      },
-      "Unlike the passive with *essere*, a sentence with *si* can't name the agent: *Si {pp:è venduta} la casa da Marco* is wrong."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Altri modi per dire il passivo",
+              "head": [
+                "forma",
+                "esempio",
+                "sfumatura"
+              ],
+              "rows": [
+                [
+                  "*rimanere* + participio",
+                  "Tre persone {pp:sono rimaste} ferite nell'incidente.",
+                  "il risultato di un fatto improvviso"
+                ],
+                [
+                  "*restare* + participio",
+                  "La strada {fs:resterà} chiusa fino a lunedì.",
+                  "uno stato che dura"
+                ],
+                [
+                  "*risultare* + participio",
+                  "Il signor Rossi {ip:risulta} iscritto all'anagrafe.",
+                  "quello che dicono i documenti"
+                ],
+                [
+                  "*essere da* + infinito",
+                  "La proposta {ip:è} da rivedere.",
+                  "una cosa ancora da fare (= *va rivista*)"
+                ],
+                [
+                  "nome + *da* + infinito",
+                  "Ci {ip:sono} tre pratiche da firmare.",
+                  "= pratiche che devono essere firmate"
+                ]
+              ]
+            },
+            "note": "Con *rimanere, restare* e *risultare* il participio si accorda con il soggetto, come con *essere*. *Essere da* + infinito è un po' meno formale di *andare* + participio: *è da rifare* = *va rifatto*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Farsi, lasciarsi, vedersi* + infinito",
+              "head": [
+                "forma",
+                "esempio",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "*farsi* + infinito",
+                  "Si {pp:è fatto} ingannare da un finto tecnico.",
+                  "non è stato attento, e l'hanno ingannato"
+                ],
+                [
+                  "*farsi* + infinito",
+                  "Il nuovo sindaco si {pp:è fatto} conoscere subito.",
+                  "ha fatto in modo che lo conoscessero"
+                ],
+                [
+                  "*lasciarsi* + infinito",
+                  "Non {imv:lasciarti} convincere.",
+                  "non permettere che ti convincano"
+                ],
+                [
+                  "*vedersi* + infinito",
+                  "Si {pp:è visto} rifiutare il permesso.",
+                  "gli hanno rifiutato il permesso"
+                ],
+                [
+                  "*vedersi* + participio",
+                  "Si {pp:è vista} costretta a dimettersi.",
+                  "è stata costretta, e lo subisce"
+                ]
+              ]
+            },
+            "note": "Queste forme hanno un senso passivo, ma dicono anche qualcosa sul soggetto: con *farsi* e *lasciarsi* ha una parte di responsabilità, con *vedersi* subisce. Il participio di *vedersi* si accorda con il soggetto: *Anna si è vista rifiutare…*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "A chi? Il passivo e l'oggetto indiretto",
+              "head": [
+                "✗ non si dice",
+                "✓ si dice",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "Marco è stato dato un premio.",
+                  "A Marco {pp:è stato dato} un premio.",
+                  "il soggetto è *il premio*"
+                ],
+                [
+                  "I cittadini sono stati chiesti di pagare.",
+                  "Ai cittadini {pp:è stato chiesto} di pagare.",
+                  "*chiedere qualcosa a qualcuno*"
+                ],
+                [
+                  "Lei è stata detta la verità.",
+                  "Le {pp:è stata detta} la verità.",
+                  "il pronome indiretto resta"
+                ],
+                [
+                  "Sono stato rubato il portafoglio.",
+                  "Mi {pp:hanno rubato} il portafoglio.",
+                  "nel parlato, la forma attiva"
+                ]
+              ]
+            },
+            "note": "In italiano solo l'oggetto diretto può diventare il soggetto del passivo. Chi riceve resta con *a* o con un pronome indiretto, e il verbo si accorda con la cosa: *Ai cittadini {pp:sono state chieste} spiegazioni.* Per mettere la persona in primo piano: *Marco {pp:ha ricevuto} un premio*, *Marco si {pp:è visto} assegnare un premio*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I verbi modali nel passivo",
+              "head": [
+                "attivo",
+                "passivo",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "Il comune {ip:deve} chiudere la strada.",
+                  "La strada {ip:deve} essere chiusa.",
+                  "= *va chiusa*"
+                ],
+                [
+                  "Il comune {pp:ha dovuto} chiudere la strada.",
+                  "La strada {pp:è dovuta} essere chiusa.",
+                  "il modale prende *essere*"
+                ],
+                [
+                  "Il comune {cpa:avrebbe dovuto} avvisare i cittadini.",
+                  "I cittadini {cpa:sarebbero dovuti} essere avvisati.",
+                  "un obbligo non rispettato"
+                ],
+                [
+                  "{ip:Possiamo} consultare i documenti online.",
+                  "I documenti {ip:possono} essere consultati online.",
+                  "= *si possono consultare*"
+                ]
+              ]
+            },
+            "note": "Nel passivo il modale va davanti a *essere* + participio. Nei tempi composti prende di solito *essere*, perché è *essere* l'infinito che lo segue: *è dovuta essere chiusa*. Nel parlato si sente anche *ha dovuto essere chiusa*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le opinioni senza soggetto",
+              "head": [
+                "espressione",
+                "modo",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*si ritiene che, si pensa che*",
+                  "congiuntivo",
+                  "Si {ip:ritiene} che la proposta {csp:sia} troppo costosa."
+                ],
+                [
+                  "*si dice che, pare che, sembra che*",
+                  "congiuntivo",
+                  "Pare che il sindaco {csa:abbia deciso} di dimettersi."
+                ],
+                [
+                  "*si prevede che*",
+                  "futuro",
+                  "Si {ip:prevede} che i lavori {fs:dureranno} due anni."
+                ],
+                [
+                  "*è noto che, risulta che, è dimostrato che*",
+                  "indicativo",
+                  "{ip:Risulta} che la ditta non {pp:ha pagato} le tasse."
+                ],
+                [
+                  "costruzione personale",
+                  "*essere* + participio",
+                  "La proposta {ip:è ritenuta} troppo costosa."
+                ]
+              ]
+            },
+            "note": "Quando l'opinione è incerta o di altri serve il congiuntivo; quando il fatto è accertato (*è noto, risulta, è dimostrato*) serve l'indicativo. La costruzione personale accorcia la frase: *Si ritiene che il danno sia grave → Il danno è ritenuto grave.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La lingua degli avvisi e dei documenti",
+              "head": [
+                "formula",
+                "esempio",
+                "in parole semplici"
+              ],
+              "rows": [
+                [
+                  "*si comunica che*",
+                  "Si {ip:comunica} che gli uffici {fs:resteranno} chiusi il 2 giugno.",
+                  "vi diciamo che"
+                ],
+                [
+                  "*si prega di*",
+                  "Si {ip:prega} di non lasciare i bagagli incustoditi.",
+                  "per favore, non lasciate"
+                ],
+                [
+                  "*si rende noto che*",
+                  "Si {ip:rende} noto che {pp:è stato pubblicato} il bando.",
+                  "facciamo sapere a tutti che"
+                ],
+                [
+                  "*è fatto divieto di*",
+                  "{ip:È} fatto divieto di fumare nei locali.",
+                  "è vietato"
+                ],
+                [
+                  "stile nominale",
+                  "Chiusura uffici per inventario.",
+                  "gli uffici sono chiusi perché…"
+                ],
+                [
+                  "*previo, entro e non oltre*",
+                  "Ingresso previo appuntamento, entro e non oltre le ore 12.",
+                  "solo con un appuntamento, al più tardi a mezzogiorno"
+                ]
+              ]
+            },
+            "note": "Nei testi ufficiali chi scrive si nasconde dietro il *si* e il passivo, e spesso usa nomi al posto dei verbi (*la chiusura* invece di *chiudere*). Capire queste formule è utile; quando scrivi tu, una frase più diretta è spesso più chiara."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
+        "type": "gap",
+        "prompt": "Completa con *rimanere, restare, risultare* o *essere da*.",
+        "questions": [
+          "Nell'incidente due persone (rimanere) [[sono rimaste#pp]] ferite.",
+          "Il museo (restare, futuro) [[resterà#fs]] chiuso fino a marzo.",
+          "Questa relazione {ip:è} piena di errori: {ip:è} da [[rifare]].",
+          "Dal controllo, il signor Bianchi (risultare) [[risulta#ip]] residente a Pisa."
+        ]
+      },
+      {
         "type": "choice",
-        "prompt": "Choose the form that fits the meaning.",
+        "prompt": "*Farsi, lasciarsi* o *vedersi*? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "La proposta ___ rivista entro lunedì. (must be)",
+            "q": "Dopo dieci anni di lavoro, Anna ___ licenziare senza spiegazioni. (l'ha subito)",
             "options": [
-              "*{ip:va}",
-              "{ip:viene}",
-              "{ip:ha}"
+              "*{pp:si è vista}",
+              "{pp:si è fatta}"
             ]
           },
           {
-            "q": "Due persone {ip:sono} ___ ferite nello scontro. (unexpected result)",
+            "q": "Non ___ convincere: quell'offerta {ip:è} una truffa!",
             "options": [
-              "{ip:andate}",
-              "*rimaste",
-              "venute"
+              "*{imv:lasciarti}",
+              "{imv:vederti}"
             ]
           },
           {
-            "q": "Molti documenti {ip:sono} ___ perduti nell'incendio.",
+            "q": "Il nuovo direttore ___ subito conoscere da tutti.",
             "options": [
-              "*andati",
-              "venuti",
-              "fatti"
+              "*{pp:si è fatto}",
+              "{pp:si è visto}"
             ]
           },
           {
-            "q": "Questo testo {ip:è} ___ correggere.",
+            "q": "La ditta ___ negare il permesso per la terza volta.",
             "options": [
-              "per",
-              "a",
-              "*da"
-            ]
-          },
-          {
-            "q": "Si ___ tutti i biglietti.",
-            "options": [
-              "{ip:è venduto}",
-              "*{ip:sono venduti}",
-              "{pp:ha venduti}"
-            ]
-          },
-          {
-            "q": "Si {ip:ritiene} che il progetto ___ troppo costoso.",
-            "options": [
-              "{pp:è stato}",
-              "*{csp:sia}",
-              "essere"
+              "*{pp:si è vista}",
+              "{pp:si è fatta}"
             ]
           }
         ]
       },
       {
-        "type": "write",
-        "prompt": "Rewrite with the construction in brackets.",
+        "type": "choice",
+        "prompt": "Quale frase è corretta?",
         "questions": [
           {
-            "q": "{ip:Bisogna} rivedere la proposta. (andare)",
-            "a": [
-              "La proposta va rivista."
+            "q": "Un premio per Marco:",
+            "options": [
+              "*A Marco è stato dato un premio.",
+              "Marco è stato dato un premio."
             ]
           },
           {
-            "q": "Tutti {ip:pensano} che {csp:sia} troppo costosa. (si {ip:pensa})",
-            "a": [
-              "Si pensa che sia troppo costosa."
+            "q": "Una richiesta ai cittadini:",
+            "options": [
+              "*Ai cittadini è stato chiesto di pagare.",
+              "I cittadini sono stati chiesti di pagare."
             ]
           },
           {
-            "q": "Il comune {pp:ha chiuso} il teatro. (essere)",
-            "a": [
-              "Il teatro è stato chiuso dal comune."
+            "q": "La verità per lei:",
+            "options": [
+              "*Le è stata detta la verità.",
+              "Lei è stata detta la verità."
             ]
           },
           {
-            "q": "{pp:Hanno venduto} tutti i biglietti. (si)",
-            "a": [
-              "Si sono venduti tutti i biglietti."
+            "q": "Nuove regole per gli studenti:",
+            "options": [
+              "*Agli studenti sono state date nuove regole.",
+              "Gli studenti sono stati dati nuove regole."
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Volgi al passivo: completa con il verbo modale.",
+        "questions": [
+          "Il comune {ip:deve} chiudere la strada. → La strada [[deve#ip]] essere chiusa.",
+          "Il comune {pp:ha dovuto} chiudere la strada. → La strada [[è dovuta|ha dovuto#pp]] essere chiusa.",
+          "Il comune {cpa:avrebbe dovuto} avvisare i cittadini. → I cittadini [[sarebbero dovuti|avrebbero dovuto#cpa]] essere avvisati.",
+          "Nessuno {ip:può} consultare questi documenti. → Questi documenti non [[possono#ip]] essere consultati da nessuno."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Indicativo, congiuntivo o futuro?",
+        "questions": [
+          {
+            "q": "Si {ip:ritiene} che il progetto ___ troppo costoso.",
+            "options": [
+              "*{csp:sia}",
+              "{ip:è}"
+            ]
+          },
+          {
+            "q": "{ip:È} noto che il progetto ___ troppo.",
+            "options": [
+              "*{ip:costa}",
+              "{csp:costi}"
+            ]
+          },
+          {
+            "q": "Pare che il sindaco ___ di dimettersi.",
+            "options": [
+              "*{csa:abbia deciso}",
+              "{pp:ha deciso}"
+            ]
+          },
+          {
+            "q": "{ip:Risulta} dai documenti che la ditta non ___ le tasse.",
+            "options": [
+              "*{pp:ha pagato}",
+              "{csi:pagasse}"
+            ]
+          },
+          {
+            "q": "Si {ip:prevede} che i lavori ___ due anni.",
+            "options": [
+              "*{fs:dureranno}",
+              "{csi:durassero}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni formula ufficiale alla frase in parole semplici.",
+        "pairs": [
+          [
+            "Si {ip:prega} di non fumare.",
+            "Per favore, non fumate."
+          ],
+          [
+            "{ip:È} fatto divieto di sostare.",
+            "È vietato parcheggiare."
+          ],
+          [
+            "Si {ip:rende} noto che il bando {ip:è} aperto.",
+            "Facciamo sapere a tutti che il bando è aperto."
+          ],
+          [
+            "Ingresso previo appuntamento.",
+            "Si entra solo con un appuntamento."
+          ],
+          [
+            "Chiusura per inventario.",
+            "Il negozio è chiuso perché si contano le merci."
+          ],
+          [
+            "Il modulo {ip:va} compilato in stampatello.",
+            "Scrivete in lettere maiuscole."
+          ]
         ]
       }
     ]
@@ -218,138 +407,274 @@
     "words": [
       [
         "il bilancio",
-        "budget"
+        "il conto delle entrate e delle spese di un ente o di un'azienda"
       ],
       [
         "lo stanziamento",
-        "allocation of funds"
+        "la somma di denaro destinata a uno scopo"
       ],
       [
         "la delibera",
-        "resolution"
+        "la decisione ufficiale di un consiglio o di una giunta"
       ],
       [
         "la bozza",
-        "draft"
+        "la prima versione, non definitiva, di un testo"
       ],
       [
         "l'emendamento",
-        "amendment"
+        "una modifica proposta a un testo di legge"
       ],
       [
-        "il rapporto",
-        "report"
+        "il bando",
+        "l'avviso pubblico di un concorso o di una gara"
       ],
       [
-        "rivedere",
-        "to revise"
+        "la graduatoria",
+        "la classifica dei candidati di un concorso"
+      ],
+      [
+        "il modulo",
+        "il foglio da compilare per fare una richiesta"
+      ],
+      [
+        "lo sportello",
+        "il punto di un ufficio dove si parla con il pubblico"
+      ],
+      [
+        "l'anagrafe",
+        "l'ufficio del comune che registra nascite, residenze e morti"
+      ],
+      [
+        "la scadenza",
+        "l'ultimo giorno utile per fare qualcosa"
       ],
       [
         "stanziare",
-        "to allocate"
-      ],
-      [
-        "approvare",
-        "to approve"
+        "destinare una somma a uno scopo"
       ],
       [
         "bocciare",
-        "to reject"
+        "respingere una proposta (o non promuovere uno studente)"
       ],
       [
         "smarrire",
-        "to mislay"
+        "perdere (formale)"
+      ],
+      [
+        "inoltrare",
+        "mandare una domanda o un documento all'ufficio giusto"
+      ],
+      [
+        "protocollare",
+        "registrare ufficialmente un documento che arriva"
+      ],
+      [
+        "sottostimare",
+        "valutare meno di quanto è in realtà"
       ],
       [
         "oneroso",
-        "costly"
+        "che costa molto, che pesa"
+      ],
+      [
+        "entro e non oltre",
+        "al più tardi (negli avvisi)"
+      ],
+      [
+        "a norma di legge",
+        "come vuole la legge"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
+            "la graduatoria",
+            "la classifica dei candidati di un concorso"
+          ],
+          [
+            "protocollare",
+            "registrare ufficialmente un documento che arriva"
+          ],
+          [
+            "sottostimare",
+            "valutare meno di quanto è in realtà"
+          ],
+          [
             "lo stanziamento",
-            "allocation of funds"
+            "la somma di denaro destinata a uno scopo"
           ],
           [
             "la bozza",
-            "draft"
+            "la prima versione, non definitiva, di un testo"
           ],
           [
-            "l'emendamento",
-            "amendment"
-          ],
-          [
-            "stanziare",
-            "to allocate"
-          ],
-          [
-            "bocciare",
-            "to reject"
-          ],
-          [
-            "oneroso",
-            "costly"
+            "entro e non oltre",
+            "al più tardi (negli avvisi)"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Il [[bilancio]] {pp:è stato} {pp:approvato}. (budget)",
-          "Il [[rapporto]] {fs:sarà pubblicato} domani. (report)",
-          "La proposta {pp:è stata} [[bocciata#pp]]. (rejected)",
-          "{pp:Ho} [[smarrito#pp]] la ricevuta. (mislaid)"
+          {
+            "q": "Per cambiare residenza {ip:devi} andare all'___ .",
+            "options": [
+              "*anagrafe",
+              "emendamento",
+              "bilancio"
+            ]
+          },
+          {
+            "q": "Il consiglio {pp:ha bocciato} l'___ dell'opposizione.",
+            "options": [
+              "*emendamento",
+              "anagrafe",
+              "sportello"
+            ]
+          },
+          {
+            "q": "{pp:È uscito} il ___ per il concorso per insegnanti.",
+            "options": [
+              "*bando",
+              "bilancio",
+              "modulo"
+            ]
+          },
+          {
+            "q": "{pp:Ho smarrito} la carta d'identità: {ip:devo} fare la denuncia allo ___ .",
+            "options": [
+              "*sportello",
+              "stanziamento",
+              "bando"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Il comune {pp:ha} [[stanziato#pp]] due milioni per le scuole.",
+          "La [[scadenza]] per le domande {ip:è} il 30 aprile.",
+          "Il progetto {pp:è stato} [[bocciato#pp]] dal consiglio.",
+          "L'impianto {ip:è} a norma di [[legge]].",
+          "Il [[bilancio]] del comune {ip:è} in rosso."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "La proposta di riforma dei trasporti urbani, presentata lo scorso anno, {ip:va} rivista in profondità. {ip:È} quanto {ip:emerge} dal rapporto pubblicato ieri dalla commissione. Si {ip:ritiene} che i costi {csa:siano stati} sottostimati di almeno il trenta per cento e si {ip:prevede} che i lavori {fs:dureranno} più a lungo del previsto.",
-      "Alcuni documenti, inoltre, {cpa:sarebbero andati} perduti durante il trasloco degli uffici. Tre consiglieri {pp:sono rimasti} sorpresi dalla severità del giudizio. La bozza {ip:viene} ora discussa in sede tecnica: gli stanziamenti {ip:sono} ancora da definire e la delibera finale non {fs:sarà votata} prima di giugno."
+      {
+        "h": "Il ponte va rifatto"
+      },
+      "Il ponte pedonale sul fiume, chiuso da marzo, {ip:va} demolito e ricostruito. {ip:È} quanto {ip:emerge} dalla relazione tecnica presentata ieri in consiglio comunale. Si {ip:ritiene} che i costi del primo progetto {csa:siano stati} sottostimati di almeno il trenta per cento, e si {ip:prevede} che i lavori {fs:dureranno} più del previsto.",
+      "La relazione {ip:è} severa anche con l'amministrazione: il ponte {cpa:sarebbe dovuto} essere controllato ogni anno, ma dal 2015 non {ip:risulta} alcuna ispezione. Alcuni documenti, inoltre, {cpa:sarebbero andati} perduti durante il trasloco degli uffici.",
+      "Il sindaco {pp:è rimasto} sorpreso dalla severità del giudizio e si {pp:è visto} rivolgere dure critiche dall'opposizione. {pp:Ha promesso} che i cittadini {fs:verranno} informati di ogni passaggio.",
+      "La bozza della delibera {ip:viene} ora discussa in commissione: lo stanziamento {ip:è} ancora da definire, e il voto finale non {fs:ci sarà} prima di giugno. Fino ad allora il ponte {fs:resterà} chiuso, e ai residenti {pp:è stato chiesto} di usare il passaggio provvisorio."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "What does the report conclude about the reform?",
+            "q": "Che cosa {ip:dice} la relazione tecnica?",
             "options": [
-              "It should be approved at once",
-              "*It must be thoroughly revised",
-              "It has been cancelled"
+              "*Il ponte {ip:va} demolito e ricostruito.",
+              "Il ponte {ip:può} essere riaperto subito.",
+              "Il ponte {ip:va} solo ridipinto."
             ]
           },
           {
-            "q": "What is said about the costs?",
+            "q": "Di quanto {cpa:sarebbero stati} sottostimati i costi?",
             "options": [
-              "They were overestimated",
-              "*They were underestimated by at least 30%",
-              "They are final"
+              "*di almeno il trenta per cento",
+              "di due milioni",
+              "del dieci per cento"
             ]
           },
           {
-            "q": "«sarebbero andati perduti» tells us that…",
+            "q": "Che cosa non {ip:risulta} dal 2015?",
             "options": [
-              "*the loss is reported, not confirmed",
-              "the documents were found",
-              "someone must lose them"
+              "*nessuna ispezione del ponte",
+              "nessun documento sul ponte",
+              "nessun voto del consiglio"
             ]
           },
           {
-            "q": "When will the final resolution be voted?",
+            "q": "Che cosa {ip:devono} fare i residenti per ora?",
             "options": [
-              "Tomorrow",
-              "This year in March",
-              "*Not before June"
+              "*usare il passaggio provvisorio",
+              "votare la delibera",
+              "pagare lo stanziamento"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il ponte {ip:è} chiuso da marzo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Si {ip:pensa} che il primo progetto {csi:costasse} meno del previsto.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Alcuni documenti {cpa:sarebbero stati} persi durante un trasloco.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Lo stanziamento {pp:è} già {pp:stato} deciso.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase del testo alla forma che usa.",
+        "pairs": [
+          [
+            "Il ponte {ip:va} demolito.",
+            "andare + participio: un obbligo"
+          ],
+          [
+            "Il sindaco {pp:è rimasto} sorpreso.",
+            "rimanere + participio"
+          ],
+          [
+            "Si {pp:è visto} rivolgere dure critiche.",
+            "vedersi + infinito"
+          ],
+          [
+            "Ai residenti {pp:è stato chiesto} di usare il passaggio.",
+            "passivo con l'oggetto indiretto"
+          ],
+          [
+            "Lo stanziamento {ip:è} ancora da definire.",
+            "essere da + infinito"
+          ]
         ]
       }
     ]
@@ -357,51 +682,59 @@
   "listening": {
     "transcript": [
       [
-        "Direttore",
-        "La bozza {pp:è stata} {pp:letta} da tutti?"
+        "Impiegata",
+        "Buongiorno. Il modulo {ip:va} compilato in stampatello e firmato in fondo."
       ],
       [
-        "Assistente",
-        "Sì, ma {ip:va} rivista: si {ip:ritiene} che {csp:sia} troppo onerosa."
+        "Luca",
+        "L'{pp:ho} già {pp:compilato} online un mese fa, ma mi {ip:dicono} che la mia domanda non {pp:è} mai {pp:stata} protocollata."
       ],
       [
-        "Direttore",
-        "Chi lo {ip:dice}? Si {pp:è parlato} di cifre precise?"
+        "Impiegata",
+        "{imv:Vediamo}… No, qui non {ip:risulta} niente. Si {ip:vede} che la domanda {pp:è andata} persa."
       ],
       [
-        "Assistente",
-        "Si {pp:sono discussi} tutti i punti. Il capitolo sui costi {ip:è} da rifare."
+        "Luca",
+        "Persa? Mi {pp:sono} già {pp:visto} rimandare a casa due volte!"
       ],
       [
-        "Direttore",
-        "E i dati del 2022?"
+        "Impiegata",
+        "Mi {ip:dispiace}. La domanda {ip:deve} essere inoltrata di nuovo, entro e non oltre venerdì."
       ],
       [
-        "Assistente",
-        "Purtroppo {pp:sono andati} perduti."
+        "Luca",
+        "Va bene, ma questa volta {cop:vorrei} la ricevuta: non mi {ip:faccio} più prendere in giro!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Sì, ma [[va#ip]] rivista.",
-          "[[Si]] {ip:ritiene} che {csp:sia} troppo onerosa.",
-          "Il capitolo sui costi {ip:è} [[da]] rifare.",
-          "Purtroppo {pp:sono} [[andati#pp]] perduti."
+          "Il modulo [[va#ip]] compilato in stampatello.",
+          "Si {ip:vede} che la domanda {pp:è} [[andata#pp]] persa.",
+          "La domanda [[deve#ip]] essere inoltrata di nuovo.",
+          "Non mi {ip:faccio} più [[prendere]] in giro!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "What must be redone?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The part to redo is…",
+            "q": "Perché Luca {ip:è} arrabbiato?",
             "options": [
-              "the introduction",
-              "*the chapter on costs",
-              "the 2022 data"
+              "*La sua domanda {pp:è andata} persa.",
+              "Non {ip:sa} compilare il modulo.",
+              "L'ufficio {ip:è} chiuso."
+            ]
+          },
+          {
+            "q": "Entro quando {ip:deve} inoltrare di nuovo la domanda?",
+            "options": [
+              "*entro venerdì",
+              "entro lunedì",
+              "entro un mese"
             ]
           }
         ]
@@ -412,41 +745,425 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "The proposal must be revised. (use andare)",
-            "a": [
-              "La proposta va rivista."
+            "q": "Ti {ip:è} mai capitato che una tua domanda {csi:andasse} persa o {csi:restasse} ferma in un ufficio? Com'{pp:è finita}?"
+          },
+          {
+            "q": "Ti {pp:sei} mai {pp:lasciato} convincere a comprare qualcosa che non ti {im:serviva}?"
+          },
+          {
+            "q": "Che cosa, nella tua città, {cop:andrebbe} cambiato o rifatto? Perché?"
+          },
+          {
+            "q": "Quale avviso o cartello ufficiale del tuo paese {ip:trovi} difficile da capire? {imv:Riscrivilo} in parole semplici."
+          },
+          {
+            "q": "Che cosa si {ip:dice} del tuo paese all'estero? Secondo te {ip:è} vero?"
+          },
+          {
+            "q": "Quali documenti {ip:servono}, nel tuo paese, per cambiare residenza o rinnovare la carta d'identità?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "In comune"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un cartello stradale con la scritta «Strada chiusa per lavori»",
+          "B — Un uomo con il braccio ingessato, seduto in un pronto soccorso",
+          "C — Una pila di cartelline su una scrivania, con un timbro accanto",
+          "D — Un'impiegata dietro uno sportello che scuote la testa davanti a un uomo"
+        ],
+        "pairs": [
+          [
+            "La strada {fs:resterà} chiusa fino a lunedì.",
+            "immagine A"
+          ],
+          [
+            "{pp:È rimasto} ferito in un incidente.",
+            "immagine B"
+          ],
+          [
+            "Ci {ip:sono} ancora dieci pratiche da firmare.",
+            "immagine C"
+          ],
+          [
+            "Mi {pp:sono visto} respingere la domanda.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "*Essere da* + infinito o *andare* + participio? Riscrivi.",
+        "questions": [
+          "La relazione {ip:è} da rifare. → La relazione [[va#ip]] [[rifatta]].",
+          "Il modulo {ip:va} firmato. → Il modulo {ip:è} da [[firmare]].",
+          "Le bollette {ip:vanno} pagate entro il 15. → Le bollette {ip:sono} da [[pagare]] entro il 15.",
+          "Il contratto {ip:è} da rivedere. → Il contratto [[va#ip]] [[rivisto]]."
+        ]
+      },
+      {
+        "h": "Subire o permettere?"
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa vuol dire la frase?",
+        "questions": [
+          {
+            "q": "Si {pp:è fatto} rubare il portafoglio sull'autobus.",
+            "options": [
+              "*Non {pp:è stato} attento, e gliel'{pp:hanno rubato}.",
+              "{pp:Ha rubato} un portafoglio.",
+              "{pp:Ha chiesto} a qualcuno di rubarlo."
             ]
           },
           {
-            "q": "It is thought that it is too expensive. (use si, la proposta)",
-            "a": [
-              "Si ritiene che sia troppo costosa.",
-              "Si pensa che sia troppo costosa."
+            "q": "Si {pp:è vista} rifiutare il visto.",
+            "options": [
+              "*Le {pp:hanno rifiutato} il visto.",
+              "{pp:Ha rifiutato} il visto.",
+              "Non {pp:ha chiesto} il visto."
             ]
           },
           {
-            "q": "All the tickets have been sold. (use si)",
-            "a": [
-              "Si sono venduti tutti i biglietti."
+            "q": "Non si {ip:lascia} convincere facilmente.",
+            "options": [
+              "*{ip:È} difficile convincerlo.",
+              "{ip:Convince} tutti facilmente.",
+              "Non {ip:vuole} convincere nessuno."
             ]
           },
           {
-            "q": "Two people were injured. (use rimanere)",
-            "a": [
-              "Due persone sono rimaste ferite."
-            ]
-          },
-          {
-            "q": "The documents were lost. (use andare)",
-            "a": [
-              "I documenti sono andati perduti.",
-              "I documenti sono andati persi."
+            "q": "Il cantante si {pp:è fatto} conoscere con una sola canzone.",
+            "options": [
+              "*{pp:È diventato} famoso con una canzone.",
+              "{pp:Ha conosciuto} molte persone.",
+              "{pp:Ha scritto} una canzone su di sé."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi la frase con *vedersi* + infinito.",
+        "questions": [
+          {
+            "q": "Gli hanno negato il permesso.",
+            "a": [
+              "Si è visto negare il permesso."
+            ]
+          },
+          {
+            "q": "Le hanno assegnato una borsa di studio.",
+            "a": [
+              "Si è vista assegnare una borsa di studio."
+            ]
+          },
+          {
+            "q": "Ci hanno respinto la domanda. (noi = due uomini)",
+            "a": [
+              "Ci siamo visti respingere la domanda."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "A chi è stato detto?"
+      },
+      {
+        "type": "write",
+        "prompt": "Volgi al passivo senza dire chi fa l'azione.",
+        "questions": [
+          {
+            "q": "Il comune ha dato un premio a Marco.",
+            "a": [
+              "A Marco è stato dato un premio.",
+              "Un premio è stato dato a Marco."
+            ]
+          },
+          {
+            "q": "Hanno chiesto ai cittadini di pagare.",
+            "a": [
+              "Ai cittadini è stato chiesto di pagare."
+            ]
+          },
+          {
+            "q": "Hanno promesso nuovi parcheggi ai residenti.",
+            "a": [
+              "Ai residenti sono stati promessi nuovi parcheggi.",
+              "Nuovi parcheggi sono stati promessi ai residenti."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Si dice che…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi con la costruzione personale.",
+        "questions": [
+          "Si {ip:ritiene} che il progetto {csp:sia} troppo costoso. → Il progetto {ip:è} [[ritenuto]] troppo costoso.",
+          "Si {ip:considera} che Matera {csp:sia} unica al mondo. → Matera {ip:è} [[considerata]] unica al mondo.",
+          "Si {ip:stima} che il danno {csp:sia} di un milione. → Il danno {ip:è} [[stimato]] in un milione."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Indicativo o congiuntivo?",
+        "questions": [
+          {
+            "q": "Si {ip:dice} che il ministro ___ malato.",
+            "options": [
+              "*{csp:sia}",
+              "{ip:è}"
+            ]
+          },
+          {
+            "q": "{ip:È} dimostrato che il fumo ___ male.",
+            "options": [
+              "*{ip:fa}",
+              "{csp:faccia}"
+            ]
+          },
+          {
+            "q": "Sembra che il treno ___ in ritardo.",
+            "options": [
+              "*{csa:sia partito}",
+              "{pp:è partito}"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Marco è stato dato un premio.",
+            "a": [
+              "A Marco è stato dato un premio."
+            ]
+          },
+          {
+            "q": "La strada è venuta chiusa ieri.",
+            "a": [
+              "La strada è stata chiusa ieri."
+            ]
+          },
+          {
+            "q": "Si ritiene che il progetto è troppo costoso.",
+            "a": [
+              "Si ritiene che il progetto sia troppo costoso."
+            ]
+          },
+          {
+            "q": "La domanda va inoltrata entro e non oltre di venerdì.",
+            "a": [
+              "La domanda va inoltrata entro e non oltre venerdì."
+            ]
+          },
+          {
+            "q": "Anna si è visto rifiutare il permesso.",
+            "a": [
+              "Anna si è vista rifiutare il permesso."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "da rifare / è / la relazione / tutta",
+            "a": [
+              "La relazione è tutta da rifare.",
+              "La relazione è da rifare tutta."
+            ]
+          },
+          {
+            "q": "il permesso / si è visto / negare / Marco",
+            "a": [
+              "Marco si è visto negare il permesso."
+            ]
+          },
+          {
+            "q": "di fumare / divieto / è fatto / nei locali",
+            "a": [
+              "È fatto divieto di fumare nei locali."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Davanti a una sigla l'articolo dipende da come la sigla si legge. Se si legge come una parola, l'articolo è quello della parola: *l'IVA, l'INPS* (vocale), *lo SPID* (*s* + consonante), *il PIL*. Se si leggono le lettere una per una, conta il suono della prima lettera: *il CNR* (*ci*), *l'SMS* (*esse*). Il genere è quello della parola principale: *la Rai* (*la Radiotelevisione italiana*)."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli l'articolo giusto.",
+        "questions": [
+          {
+            "q": "{pp:Hai pagato} ___ IVA?",
+            "options": [
+              "*l'",
+              "la",
+              "lo"
+            ]
+          },
+          {
+            "q": "Per entrare nel sito {ip:serve} ___ SPID.",
+            "options": [
+              "*lo",
+              "il",
+              "l'"
+            ]
+          },
+          {
+            "q": "___ PIL italiano {pp:è cresciuto} poco.",
+            "options": [
+              "*Il",
+              "Lo",
+              "L'"
+            ]
+          },
+          {
+            "q": "{pp:Hai letto} ___ SMS che ti {pp:ho mandato}?",
+            "options": [
+              "*l'",
+              "il",
+              "lo"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare *rimanere, restare* ed *essere da* + infinito con senso passivo.",
+          "So usare *farsi, lasciarsi* e *vedersi* + infinito.",
+          "So che l'oggetto indiretto non diventa soggetto: *A Marco è stato dato un premio.*",
+          "So usare i verbi modali nel passivo: *La strada è dovuta essere chiusa.*",
+          "So scegliere il modo dopo *si ritiene che, è noto che, risulta che*.",
+          "Capisco le formule degli avvisi ufficiali e so riscriverle in parole semplici."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il testo originale della Costituzione italiana, aperto sulla pagina con le firme"
+      },
+      {
+        "text": [
+          "**Come è nata la Costituzione**",
+          "Il 2 giugno 1946 gli italiani {pr:furono} chiamati a scegliere tra monarchia e repubblica e, nello stesso giorno, {pr:elessero} l'Assemblea Costituente, che {im:doveva} scrivere la nuova Costituzione. Per la prima volta in un voto nazionale {pr:votarono} anche le donne.",
+          "L'Assemblea {im:era} formata da 556 membri, tra cui 21 donne, oggi ricordate come le «madri costituenti». Il testo {pr:venne} preparato da una commissione di 75 membri e poi discusso in aula articolo per articolo.",
+          "La Costituzione {pr:fu} approvata il 22 dicembre 1947, {pr:fu} promulgata dal capo provvisorio dello Stato, Enrico De Nicola, il 27 dicembre ed {pr:entrò} in vigore il 1° gennaio 1948. {im:Contava} 139 articoli, più alcune disposizioni transitorie e finali.",
+          "Da allora {pp:è stata} modificata più volte: nel 2022, per esempio, all'articolo 9 {pp:è stata} aggiunta la tutela dell'ambiente."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il 2 giugno 1946 gli italiani {pr:votarono} anche per l'Assemblea Costituente.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Nel 1946 le donne {pr:votarono} per la prima volta in un voto nazionale.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Nell'Assemblea non c'{im:erano} donne.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La Costituzione {pr:entrò} in vigore nel 1947.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La Costituzione non {pp:è} mai {pp:stata} modificata.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme del passivo.",
+        "questions": [
+          "Gli italiani [[furono#pr]] chiamati a scegliere tra monarchia e repubblica.",
+          "Il testo [[venne#pr]] preparato da una commissione di 75 membri.",
+          "La Costituzione [[fu#pr]] approvata il 22 dicembre 1947.",
+          "Nel 2022 all'articolo 9 [[è stata#pp]] aggiunta la tutela dell'ambiente."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "C'è un articolo della Costituzione del tuo paese che ti sembra particolarmente importante? Quale e perché?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Secondo me…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi un avviso ufficiale (del comune, della scuola o del condominio). Poi spiega lo stesso avviso a un amico, in una mail con parole semplici.",
+        "cues": [
+          "Che cosa si {ip:comunica}, e perché? (*Si comunica che…, verrà…*)",
+          "Che cosa {ip:va} fatto? (*Si prega di…, va…*)",
+          "Usa almeno una formula: *entro e non oltre, previo, è fatto divieto di*.",
+          "Poi spiega tutto all'amico in modo diretto."
+        ],
+        "start": "",
+        "model": "COMUNE DI SAN VITO – AVVISO\nSi comunica che, a causa di lavori sulla rete idrica, l'acqua verrà sospesa martedì 12 marzo dalle 8 alle 14. Si prega la cittadinanza di fare scorta d'acqua per tempo. Eventuali richieste di informazioni vanno inoltrate all'Ufficio tecnico, previo appuntamento, entro e non oltre lunedì 11 marzo.\n\nCiao Giulia,\nhai visto l'avviso del comune? In pratica martedì mattina restiamo senza acqua, dalle otto alle due, perché rifanno i tubi. Conviene riempire qualche bottiglia lunedì sera. Se vuoi sapere di più devi telefonare in comune, ma solo per prendere un appuntamento, e al massimo entro lunedì. Che fatica, eh?\nUn abbraccio,\nPaolo"
       }
     ]
   }

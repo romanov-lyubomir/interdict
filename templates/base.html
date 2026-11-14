@@ -5,7 +5,7 @@
     <meta property="site_name" content="InterDict">
     <meta name="title" content="InterDict">
     <meta property="title" content="InterDict">
-    <meta name="description" content="An application to learn Italian, Spanish, German and Greek more easily">
+    <meta name="description" content="An application to learn Italian, Spanish, German, Greek and Georgian more easily">
     <meta name="keywords" content="Italian, Italiano, Learn Italian, Imparare l'Italiano, German, Deutsch, Learn German, Lerne Deutsch">
     <meta property="url" content="https://eurodict.herokuapp.com/">
     <meta property="type" content="website">
@@ -17,6 +17,7 @@
         "german": ("#D4002E", "#AA0025"),
         "spanish": ("#E8730C", "#C85F06"),
         "greek": ("#1E6FD9", "#1659B3"),
+        "georgian": ("#B0234F", "#911C41"),
     } %}
     {% set accent, accent_hover = accents.get(user_language, ("#7C5CFF", "#6646E8")) %}
     <meta name="theme-color" content="#141518">
@@ -58,10 +59,21 @@
             --gradient-right: var(--surface-2);
         }
 
+        /* Droid Sans Georgian (Apache 2.0, static/fonts/droid-sans-georgian-
+           LICENSE.txt), for the Georgian letters only: the unicode-range
+           leaves digits, punctuation and Latin letters to Bahnschrift, and
+           Bahnschrift has no Georgian letters, so the two never compete */
+        @font-face {
+            font-family: "Georgian Letters";
+            src: url("{{ url_for('static', filename='fonts/droid-sans-georgian.ttf') }}") format("truetype");
+            unicode-range: U+10A0-10C5, U+10C7, U+10CD, U+10D0-10FA, U+10FC-10FF;
+            font-display: swap;
+        }
+
         * {
             margin: 0;
             padding: 0;
-            font-family: "Bahnschrift", "DIN Alternate", "Arial Narrow", sans-serif;
+            font-family: "Bahnschrift", "Georgian Letters", "DIN Alternate", "Arial Narrow", sans-serif;
         }
 
         html {
@@ -591,6 +603,76 @@
         .lang-option .check {
             margin-left: auto;
             color: var(--accent);
+        }
+
+        /* Georgian script setting: two choices side by side */
+        .script-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            /* Not a card of its own inside the settings card */
+            margin: 0;
+            padding: 0;
+            border: none;
+            background: none;
+            box-shadow: none;
+            width: auto;
+            max-width: none;
+        }
+
+        .script-option {
+            flex: 1 1 140px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2px;
+            padding: 10px 12px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-small);
+            background: var(--surface-2);
+            box-shadow: none;
+            color: var(--text);
+            font-weight: 500;
+            text-align: left;
+            position: relative;
+        }
+
+        .script-option:hover {
+            background-color: var(--surface-3);
+            transform: none;
+        }
+
+        .script-option.current {
+            border-color: var(--accent);
+            background-color: var(--accent-soft);
+        }
+
+        .script-option .sample {
+            font-size: 20px;
+        }
+
+        .script-option .check {
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            color: var(--accent);
+        }
+
+        /* In the bar (for guests): just the flag and a small arrow */
+        .lang-switch.compact .lang-current {
+            gap: 4px;
+            padding: 4px 6px;
+            background: none;
+            border-color: transparent;
+        }
+
+        .lang-switch.compact .lang-current:hover,
+        .lang-switch.compact.open .lang-current {
+            background-color: var(--surface-2);
+            border-color: var(--border);
+        }
+
+        .lang-switch.compact .chevron {
+            font-size: 9px;
         }
 
         .menu-toggle {
@@ -1226,13 +1308,14 @@
 <body>
     {# Lessons come first and are lightly highlighted (.nav-featured): they
        are the heart of the site. There is no Home link: the logo leads home #}
+    {# Only the parts the language has (FEATURES in main.py) #}
     {% set feature_links = [
         ("lessons", "Lessons"),
         ("vocabulary_topics", "Vocabulary"),
         ("conjugation_drill", "Conjugation"),
         ("stories_list", "Stories"),
         ("cheat_sheets", "Cheat sheets"),
-    ] if user_language else [] %}
+    ] | selectattr(0, "in", features) | list if user_language else [] %}
     {# The section of the site the current page belongs to #}
     {% set sections = {
         "vocabulary_for_topic": "vocabulary_topics",
@@ -1252,7 +1335,7 @@
             <a class="brand" href="{{ url_for('index') }}">
                 <img class="brand-mark" src="{{ url_for('static', filename='icons/icon-192.png') }}" alt="">InterDict
             </a>
-            {% if user_language %}
+            {% if user_language and "search" in features %}
             <form class="nav-search" action="{{ url_for('search_results') }}" method="GET" role="search"
                 data-suggest="{{ url_for('search_suggest') }}">
                 <button class="search-toggle" type="button" aria-label="Search lessons and stories" aria-expanded="false">
@@ -1271,10 +1354,13 @@
             {% set _ = main_links.append((url_for(endpoint), label, section == endpoint, "featured" if endpoint == "lessons" else false)) %}
             {% endfor %}
             {% if current_user.is_authenticated %}
-            {% set account_links = [(url_for('profile'), "Profile", section == 'profile', false),
+            {% set account_links = [(url_for('profile'), "Profile and settings", section == 'profile', false),
                                     (url_for('logout'), "Log out", false, false)] %}
             {% else %}
-            {% set account_links = [(url_for('login'), "Log in", section == 'login', false),
+            {# Guests have no profile: their settings (language, Georgian
+               script) are on a page of their own #}
+            {% set account_links = [(url_for('language_settings'), "Settings", section == 'language_settings', false),
+                                    (url_for('login'), "Log in", section == 'login', false),
                                     (url_for('register'), "Sign up", false, true)] %}
             {% endif %}
             {# cta is true for the "Sign up" button, "featured" for the lessons #}
@@ -1310,9 +1396,15 @@
             {# Only the flag of the language being learnt, as a plain picture; the
                language is changed in the settings (the profile, or the language
                page for guests) #}
-            {% if user_language %}
+            {# Guests have no profile, so for them the flag opens the language
+               picker, the same as in the profile (it comes back to this page
+               when it can, see LANGUAGE_SWITCH_TARGETS) #}
+            {% if user_language and current_user.is_authenticated %}
             <img class="flag-icon nav-flag" src="{{ url_for('static', filename='images/flags/' ~ languages[user_language].flag ~ '.png') }}"
                 alt="{{ user_language | capitalize }}" title="{{ user_language | capitalize }}">
+            {% elif user_language %}
+            {% import "language_picker.html" as language_picker %}
+            {{ language_picker.picker(languages, user_language, request.endpoint, compact=true, script=script) }}
             {% endif %}
         </div>
     </nav>
@@ -1323,7 +1415,7 @@
     <footer>
         <div class="footer-inner">
             <span>InterDict</span>
-            <span>Learn Italian, Spanish, German and Greek, one word at a time.</span>
+            <span>Learn Italian, Spanish, German, Greek and Georgian, one word at a time.</span>
         </div>
     </footer>
     <script>

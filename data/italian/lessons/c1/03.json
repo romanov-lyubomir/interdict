@@ -1,201 +1,383 @@
 {
   "title": "Se {cst:avessi accettato}, ora {cop:lavorerei} a Roma",
-  "translation": "If I had accepted, I would now be working in Rome",
-  "topics": "Conditional sentences in all their forms, the uses of the condizionale",
+  "translation": "",
+  "topics": "Il periodo ipotetico in tutte le forme: con l'indicativo, *dovesse* + infinito, *fosse per me*, le congiunzioni formali (*posto che, sempre che, salvo che*); il condizionale oltre l'ipotesi: citazione, sdegno, probabilità; lavoro, carriera e occasioni perse",
   "grammar": {
     "explain": [
+      "Conosci i tre tipi di periodo ipotetico e il periodo misto. A questo livello impari le forme che li rendono più vari e più eleganti, e gli usi del condizionale che non hanno niente a che fare con il *se*.",
       {
-        "h": "Mixed conditions"
-      },
-      "A real or unreal condition can belong to one time and its result to another. Each half simply takes the form that matches its own time.",
-      {
-        "table": {
-          "head": [
-            "Condition",
-            "Result",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Past, unreal",
-              "Present",
-              "Se {cst:avessi accettato}, ora {cop:lavorerei} a Roma."
-            ],
-            [
-              "Present, unreal",
-              "Past",
-              "Se {csi:fossi} più attento, non {cpa:avresti sbagliato}."
-            ],
-            [
-              "Present, unreal",
-              "Future",
-              "Se non {csi:fosse} così tardi, domani {cop:partirei}."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Conditions without se"
-      },
-      "Written and spoken Italian often replace the *se* clause with a shorter form.",
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Example",
-            "Equivalent"
-          ],
-          "rows": [
-            [
-              "a + infinitive",
-              "A saperlo, {cpa:sarei venuto}.",
-              "Se l'{cst:avessi saputo}…"
-            ],
-            [
-              "gerund",
-              "Volendo, {cop:potresti} farlo.",
-              "Se {csi:volessi}…"
-            ],
-            [
-              "past participle",
-              "Fatto per tempo, {cpa:sarebbe costato} meno.",
-              "Se {cst:fosse stato} {cst:fatto}…"
-            ],
-            [
-              "con / senza + noun",
-              "Senza il tuo aiuto, {cpa:avrei rinunciato}.",
-              "Se non ci {cst:fosse stato}…"
-            ],
-            [
-              "congiuntivo alone",
-              "{csi:Avessi} vent'anni di meno!",
-              "Se {csi:avessi}…"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Other conjunctions"
-      },
-      "*Qualora*, *nel caso in cui*, *ammesso che*, *posto che* and *sempre che* all take the *congiuntivo*. They are typical of formal and legal writing: *Qualora il pagamento non {csi:venisse} effettuato, il contratto si {fs:intenderà} risolto.*",
-      {
-        "h": "The condizionale beyond conditions"
-      },
-      {
-        "table": {
-          "head": [
-            "Use",
-            "Example",
-            "Effect"
-          ],
-          "rows": [
-            [
-              "Courtesy",
-              "Le {cop:dispiacerebbe} chiudere?",
-              "softens a request"
-            ],
-            [
-              "Attenuation",
-              "{cop:Direi} che {ip:è} sufficiente.",
-              "softens an opinion"
-            ],
-            [
-              "Unconfirmed report",
-              "Il ministro si {cpa:sarebbe dimesso}.",
-              "distances the writer"
-            ],
-            [
-              "Future in the past",
-              "{im:Sapevo} che {cpa:avrebbe rinunciato}.",
-              "future seen from the past"
-            ],
-            [
-              "Rhetorical question",
-              "E chi lo {cop:direbbe}?",
-              "expresses surprise"
-            ]
-          ]
-        }
-      },
-      "The conditional of reporting needs a source to be fair: *Secondo alcune fonti…*, *Stando alle prime ricostruzioni…*. A reader takes the same sentence in the indicative as an established fact."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Ripasso: i tempi delle due parti",
+              "head": [
+                "condizione",
+                "conseguenza",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "passata, impossibile",
+                  "presente",
+                  "Se {cst:avessi accettato}, ora {cop:lavorerei} a Roma."
+                ],
+                [
+                  "di sempre",
+                  "passata",
+                  "Se {csi:fossi} più attento, non {cpa:avresti sbagliato}."
+                ],
+                [
+                  "passata, impossibile",
+                  "passata",
+                  "Se {cst:fossi partito} prima, {cpa:sarei arrivato} in tempo."
+                ],
+                [
+                  "possibile",
+                  "presente o futura",
+                  "Se {csi:vincessi}, {cop:smetterei} di lavorare."
+                ]
+              ]
+            },
+            "note": "Ogni parte prende il tempo che corrisponde al suo momento: per questo si possono mescolare."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il periodo ipotetico con l'indicativo",
+              "head": [
+                "la condizione",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "reale, con l'imperativo",
+                  "Se lo {ip:vedi}, **{imv:salutalo}** da parte mia.",
+                  "un consiglio, un ordine"
+                ],
+                [
+                  "reale nel futuro",
+                  "Se {fs:verrai} a Napoli, ti {fs:porterò} a mangiare la pizza.",
+                  "*se* + futuro, nello scritto"
+                ],
+                [
+                  "reale nel passato",
+                  "Se l'{pp:ha detto} lui, **{fs:sarà}** vero.",
+                  "un fatto passato che si dà per vero"
+                ],
+                [
+                  "reale nel passato",
+                  "Se {im:eri} a casa, perché non {pp:hai risposto}?",
+                  "*se* = visto che"
+                ]
+              ]
+            },
+            "note": "Con l'indicativo la condizione è presentata come vera o molto probabile, anche nel passato: *se* vuol dire quasi *visto che*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le ipotesi senza *se*",
+              "head": [
+                "forma",
+                "esempio",
+                "con *se*"
+              ],
+              "rows": [
+                [
+                  "*dovesse* + infinito",
+                  "**Dovesse** piovere, {fs:resteremo} a casa.",
+                  "Se per caso {csi:piovesse}…"
+                ],
+                [
+                  "*fosse per me*",
+                  "**Fosse per me**, {cop:partirei} domani.",
+                  "Se {csi:dipendesse} da me…"
+                ],
+                [
+                  "*avessi* + participio",
+                  "**Avessi saputo**, non {cpa:sarei venuto}.",
+                  "Se l'{cst:avessi saputo}…"
+                ],
+                [
+                  "participio passato",
+                  "**Fatto** per tempo, il lavoro {cpa:sarebbe stato} perfetto.",
+                  "Se {cst:fosse stato} fatto…"
+                ],
+                [
+                  "gerundio",
+                  "**Volendo**, {cop:potresti} farlo da casa.",
+                  "Se {csi:volessi}…"
+                ],
+                [
+                  "*a* + infinito",
+                  "**A sentirlo**, {ip:sembra} tutto facile.",
+                  "Se lo {ip:senti}…"
+                ]
+              ]
+            },
+            "note": "*Dovesse* + infinito presenta un caso possibile ma poco probabile, e la conseguenza resta spesso all'indicativo: *Dovesse chiamare, {imv:digli} che {ip:sono} uscito.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le congiunzioni formali",
+              "head": [
+                "congiunzione",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*qualora*",
+                  "se, nel caso che",
+                  "**Qualora** il pagamento non {csi:venisse} effettuato, il contratto si {fs:intenderà} risolto."
+                ],
+                [
+                  "*posto che*",
+                  "ammesso che sia vero",
+                  "**Posto che** {csp:abbia} ragione lui, che cosa {ip:cambia}?"
+                ],
+                [
+                  "*sempre che*",
+                  "a condizione che",
+                  "{fs:Partiremo} alle otto, **sempre che** il treno {csp:sia} in orario."
+                ],
+                [
+                  "*salvo che, tranne che*",
+                  "a meno che",
+                  "Il volo {ip:parte} alle sei, **salvo che** non {csp:nevichi}."
+                ],
+                [
+                  "*ammesso e non concesso che*",
+                  "anche se fosse vero (ma non lo credo)",
+                  "**Ammesso e non concesso che** {csa:abbia detto} la verità, {pp:ha sbagliato} lo stesso."
+                ]
+              ]
+            },
+            "note": "Tutte vogliono il congiuntivo. Sono tipiche dei contratti, dei regolamenti e dei testi formali."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il condizionale senza *se*",
+              "head": [
+                "uso",
+                "esempio",
+                "effetto"
+              ],
+              "rows": [
+                [
+                  "cortesia",
+                  "Le {cop:dispiacerebbe} chiudere la finestra?",
+                  "rende gentile una richiesta"
+                ],
+                [
+                  "attenuazione",
+                  "{cop:Direi} che {ip:basta} così.",
+                  "rende meno netta un'opinione"
+                ],
+                [
+                  "notizia non confermata",
+                  "L'amministratore {cpa:avrebbe lasciato} l'azienda.",
+                  "il giornale non garantisce"
+                ],
+                [
+                  "idea di un altro",
+                  "Secondo Platone, l'anima {cop:sarebbe} immortale.",
+                  "chi scrive non la fa sua"
+                ],
+                [
+                  "sdegno",
+                  "Io {cop:sarei} un bugiardo?!",
+                  "rifiuta un'accusa"
+                ],
+                [
+                  "probabilità",
+                  "Il treno {cop:dovrebbe} arrivare alle sei.",
+                  "una previsione"
+                ]
+              ]
+            },
+            "note": "Il condizionale prende le distanze: da una richiesta troppo diretta, da una notizia non sicura, dall'opinione di un altro o da un'accusa."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Espressioni con *se*",
+              "head": [
+                "espressione",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*se non fosse che*",
+                  "ma c'è un problema:",
+                  "Lo {cop:comprerei}, **se non fosse che** {ip:costa} troppo."
+                ],
+                [
+                  "*se non fosse per*",
+                  "senza",
+                  "**Se non fosse per** te, {cop:sarei} perso."
+                ],
+                [
+                  "*come se niente fosse*",
+                  "con indifferenza",
+                  "{pp:È entrato} **come se niente fosse**."
+                ],
+                [
+                  "*se non altro*",
+                  "almeno",
+                  "{pp:Ha perso}, ma **se non altro** {pp:ha giocato} bene."
+                ],
+                [
+                  "*semmai*",
+                  "se mai, eventualmente",
+                  "**Semmai** ti {ip:chiamo} io."
+                ]
+              ]
+            },
+            "note": "*Se non fosse che* vuole l'indicativo: il problema è un fatto reale."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete these conditions, watching the time of each half.",
+        "prompt": "Completa il periodo ipotetico: ogni parte ha il suo tempo.",
         "questions": [
-          "Se [[avessi accettato#cst]], ora [[lavorerei#cop]] a Roma. (accettare, lavorare – io)",
-          "Se tu {csi:fossi} più attenta, non [[avresti sbagliato#cpa]] ieri. (sbagliare)",
-          "Se l'[[avessimo saputo#cst]] prima, oggi non {cop:saremmo} qui. (sapere, noi)",
-          "Se non [[fosse#csi]] così pigro, ieri {cpa:sarebbe venuto}. (essere, in general)",
-          "Qualora il treno [[fosse#csi]] in ritardo, {imv:avvisami}. (essere)"
-        ]
-      },
-      {
-        "type": "write",
-        "prompt": "Rewrite each sentence with se.",
-        "questions": [
-          {
-            "q": "A saperlo, {cpa:sarei venuto}.",
-            "a": [
-              "Se l'avessi saputo, sarei venuto.",
-              "Se lo avessi saputo, sarei venuto."
-            ]
-          },
-          {
-            "q": "Volendo, {cop:potresti} farlo.",
-            "a": [
-              "Se volessi, potresti farlo."
-            ]
-          },
-          {
-            "q": "Senza il tuo aiuto, {cpa:avrei rinunciato}.",
-            "a": [
-              "Se non ci fosse stato il tuo aiuto, avrei rinunciato.",
-              "Se tu non mi avessi aiutato, avrei rinunciato.",
-              "Se non mi avessi aiutato, avrei rinunciato."
-            ]
-          }
+          "Se (accettare, io) [[avessi accettato#cst]] quel lavoro, ora (vivere) [[vivrei#cop]] a Milano.",
+          "Se (essere, tu) [[fossi#csi]] più prudente, ieri non (avere) [[avresti avuto#cpa]] l'incidente.",
+          "Se (sapere, noi) [[avessimo saputo#cst]] dello sciopero, (prendere) [[avremmo preso#cpa]] la macchina.",
+          "Se (vincere, io) [[vincessi#csi]] alla lotteria, (comprare) [[comprerei#cop]] una casa al mare."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does the condizionale do here?",
+        "prompt": "Indicativo o congiuntivo? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Secondo la polizia, l'uomo {cop:sarebbe} fuggito in Svizzera.",
+            "q": "Se lo ___, {imv:digli} di chiamarmi.",
             "options": [
-              "a regret",
-              "*an unconfirmed report",
-              "a future plan"
+              "*{ip:vedi}",
+              "{csi:vedessi}"
             ]
           },
           {
-            "q": "Le {cop:dispiacerebbe} aprire la finestra?",
+            "q": "Se ___ a casa, perché non {pp:hai risposto}?",
             "options": [
-              "*courtesy",
-              "a guess",
-              "a warning"
+              "*{im:eri}",
+              "{cst:fossi stato}"
             ]
           },
           {
-            "q": "{cop:Direi} che {ip:può} bastare.",
+            "q": "Se l'{pp:ha detto} il professore, ___ vero.",
             "options": [
-              "a fact",
-              "an order",
-              "*a softened opinion"
+              "*{fs:sarà}",
+              "{cop:sarebbe}"
             ]
           },
           {
-            "q": "{im:Ero} certa che ci {cpa:avresti pensato} tu.",
+            "q": "Se ___ più tempo, {cop:verrei} anch'io.",
             "options": [
-              "*a future seen from the past",
-              "a polite request",
-              "unconfirmed news"
+              "*{csi:avessi}",
+              "{ip:ho}"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi senza *se*.",
+        "questions": [
+          "Se per caso {csi:piovesse}, {fs:resteremo} a casa. → [[Dovesse]] piovere, {fs:resteremo} a casa.",
+          "Se {csi:dipendesse} da me, {cop:partirei} domani. → [[Fosse]] per me, {cop:partirei} domani.",
+          "Se l'{cst:avessi saputo}, non {cpa:sarei venuto}. → [[Avessi saputo#cst]], non {cpa:sarei venuto}.",
+          "Se {csi:volessi}, {cop:potresti} lavorare da casa. → [[Volendo]], {cop:potresti} lavorare da casa."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la congiunzione giusta.",
+        "questions": [
+          {
+            "q": "___ il cliente non {csi:pagasse}, il contratto {fs:sarà} annullato.",
+            "options": [
+              "*Qualora",
+              "Se non fosse che",
+              "Semmai"
+            ]
+          },
+          {
+            "q": "{fs:Arriveremo} alle nove, ___ non ci {csp:sia} traffico.",
+            "options": [
+              "*sempre che",
+              "posto che",
+              "come se"
+            ]
+          },
+          {
+            "q": "___ {csa:abbia} ragione lui, non {ip:cambia} niente.",
+            "options": [
+              "*Posto che",
+              "Salvo che",
+              "Se non altro"
+            ]
+          },
+          {
+            "q": "Il negozio {ip:è} aperto tutti i giorni, ___ non {csp:sia} festa.",
+            "options": [
+              "*salvo che",
+              "posto che",
+              "qualora"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase all'uso del condizionale.",
+        "pairs": [
+          [
+            "Le {cop:dispiacerebbe} aspettare un momento?",
+            "cortesia"
+          ],
+          [
+            "Il ministro si {cpa:sarebbe dimesso}.",
+            "notizia non confermata"
+          ],
+          [
+            "Secondo Freud, i sogni {cop:sarebbero} desideri nascosti.",
+            "idea di un altro"
+          ],
+          [
+            "Io {cop:sarei} egoista?! Ma se ti {ip:aiuto} sempre!",
+            "sdegno"
+          ],
+          [
+            "Il pacco {cop:dovrebbe} arrivare domani.",
+            "probabilità"
+          ],
+          [
+            "{cop:Direi} che {ip:possiamo} cominciare.",
+            "attenuazione"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *se non fosse che, se non fosse per, come se niente fosse, se non altro, semmai*.",
+        "questions": [
+          "Lo {cop:comprerei}, [[se non fosse che]] {ip:costa} troppo.",
+          "[[Se non fosse per]] mia sorella, non {cop:saprei} come fare.",
+          "{pp:Ha rotto} il vaso e {pp:è uscito} [[come se niente fosse]].",
+          "{pp:Abbiamo perso}, ma [[se non altro]] ci {pp:siamo divertiti}.",
+          "Ora non {ip:posso}; [[semmai|se mai]] ne {ip:parliamo} domani."
         ]
       }
     ]
@@ -204,138 +386,274 @@
     "words": [
       [
         "la fonte",
-        "source"
+        "la persona o il documento da cui viene una notizia"
       ],
       [
         "la ricostruzione",
-        "account, reconstruction"
-      ],
-      [
-        "l'inadempienza",
-        "breach of contract"
-      ],
-      [
-        "la clausola",
-        "clause"
+        "il racconto dei fatti come si pensa che siano andati"
       ],
       [
         "l'inchiesta",
-        "inquiry"
+        "un'indagine dei giornalisti o dei giudici"
       ],
       [
-        "rinunciare",
-        "to decline"
+        "la clausola",
+        "una condizione scritta in un contratto"
+      ],
+      [
+        "l'inadempienza",
+        "il fatto di non rispettare un contratto o un dovere"
+      ],
+      [
+        "la buonuscita",
+        "i soldi che si ricevono quando si lascia un lavoro"
+      ],
+      [
+        "l'amministratore delegato",
+        "chi dirige un'azienda"
+      ],
+      [
+        "l'occasione mancata",
+        "un'opportunità che non si è presa"
       ],
       [
         "effettuare",
-        "to carry out"
-      ],
-      [
-        "risolvere",
-        "to terminate, to solve"
+        "fare, eseguire (formale)"
       ],
       [
         "rescindere",
-        "to rescind"
+        "annullare un contratto"
       ],
       [
         "trapelare",
-        "to leak out"
+        "venire fuori, diventare noto anche se era segreto"
+      ],
+      [
+        "rinunciare a",
+        "decidere di non avere o non fare qualcosa"
+      ],
+      [
+        "dimettersi",
+        "lasciare un incarico importante"
+      ],
+      [
+        "smentire",
+        "dire che una notizia non è vera"
       ],
       [
         "stando a",
-        "according to"
+        "secondo, in base a"
       ],
       [
         "per tempo",
-        "in good time"
+        "presto, prima che sia tardi"
+      ],
+      [
+        "a tutti gli effetti",
+        "in tutto e per tutto, completamente"
+      ],
+      [
+        "in via ufficiosa",
+        "non ufficialmente"
+      ],
+      [
+        "col senno di poi",
+        "sapendo come è andata a finire"
+      ],
+      [
+        "cogliere al volo",
+        "prendere subito un'occasione"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "l'inadempienza",
-            "breach of contract"
-          ],
-          [
-            "la clausola",
-            "clause"
-          ],
-          [
-            "l'inchiesta",
-            "inquiry"
+            "trapelare",
+            "venire fuori, diventare noto anche se era segreto"
           ],
           [
             "rescindere",
-            "to rescind"
+            "annullare un contratto"
           ],
           [
-            "trapelare",
-            "to leak out"
+            "la buonuscita",
+            "i soldi che si ricevono quando si lascia un lavoro"
           ],
           [
-            "stando a",
-            "according to"
+            "col senno di poi",
+            "sapendo come è andata a finire"
+          ],
+          [
+            "cogliere al volo",
+            "prendere subito un'occasione"
+          ],
+          [
+            "in via ufficiosa",
+            "non ufficialmente"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Il pagamento {ip:va} [[effettuato]] entro il 30. (carried out)",
-          "Secondo alcune [[fonti]], si {cpa:sarebbe dimesso}. (sources)",
-          "{ip:Bisogna} intervenire [[per tempo]]. (in good time)",
-          "{pp:Ha} [[rinunciato#pp]] all'incarico. (declined)"
+          {
+            "q": "Il contratto {ip:ha} una ___ sulle ferie.",
+            "options": [
+              "*clausola",
+              "fonte",
+              "buonuscita"
+            ]
+          },
+          {
+            "q": "___ alle prime ricostruzioni, l'incidente {cpa:sarebbe avvenuto} alle tre.",
+            "options": [
+              "*Stando",
+              "Per tempo",
+              "Col senno"
+            ]
+          },
+          {
+            "q": "Il giornale {pp:ha aperto} un'___ sui conti del comune.",
+            "options": [
+              "*inchiesta",
+              "inadempienza",
+              "occasione"
+            ]
+          },
+          {
+            "q": "Il pagamento {pp:è stato} ___ ieri.",
+            "options": [
+              "*effettuato",
+              "trapelato",
+              "rescisso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Col senno di [[poi]], {cpa:avrei dovuto} accettare.",
+          "{imv:Iscriviti} per [[tempo]]: i posti {ip:finiscono} presto.",
+          "{ip:È} un'occasione unica: {imv:coglila} al [[volo]]!",
+          "La notizia {ip:è} ancora riservata, ma {pp:è} già [[trapelata#pp]].",
+          "Da oggi {ip:sei} a tutti gli [[effetti]] un dipendente dell'azienda."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Stando alle prime ricostruzioni, l'amministratore delegato {cpa:avrebbe lasciato} l'azienda dopo un duro scontro con il consiglio. Secondo fonti interne, gli {cpa:sarebbe stata} {cpa:offerta} una buonuscita di due milioni, che egli {cpa:avrebbe rifiutato}. Nessuna conferma ufficiale {ip:è} finora trapelata.",
-      "«A saperlo prima, {cpa:avremmo agito} diversamente», {ip:ammette} un dipendente. «Se la crisi {cst:fosse stata} affrontata per tempo, oggi non {cop:saremmo} in questa situazione.» Qualora le voci {csi:venissero} {ip:confermate}, l'azienda {cop:dovrebbe} nominare un successore entro trenta giorni, come previsto da una clausola dello statuto."
+      {
+        "h": "Lo chef e la stella"
+      },
+      "*Cronaca, giovedì.* Stando alle prime ricostruzioni, lo chef del ristorante «La Pergola d'Oro», premiato l'anno scorso con una stella, {cpa:avrebbe lasciato} la cucina martedì sera, nel mezzo del servizio. Secondo fonti interne, alla base della decisione ci {cop:sarebbe} un duro scontro con i proprietari sul menù della prossima stagione.",
+      "Nessuna conferma ufficiale {ip:è} finora arrivata, ma in via ufficiosa {pp:è trapelato} che allo chef {cpa:sarebbe stata offerta} una buonuscita, che egli {cpa:avrebbe rifiutato}. I proprietari si {ip:limitano} a dire che il contratto «non {pp:è stato} rescisso» e che, qualora lo chef non {csi:tornasse} entro lunedì, {fs:valuteranno} come procedere.",
+      "Raggiunto al telefono, lo chef {pp:ha reagito} con sdegno: «Io {cop:sarei} scappato? {ip:Ho} lavorato qui dieci anni. Se non fosse per i miei collaboratori, {cop:sarei} già lontano.» E {pp:ha aggiunto}: «Col senno di poi, {cpa:avrei dovuto} parlare per tempo. Fosse per me, {cop:tornerei} domani, sempre che mi {csp:lascino} cucinare come {ip:so}.»",
+      "Intanto i clienti {ip:continuano} a prenotare, come se niente fosse. Se non altro, il ristorante non {pp:è} mai {pp:stato} così famoso."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "How does the article present the departure?",
+            "q": "Che cosa {cpa:avrebbe fatto} lo chef, secondo le prime ricostruzioni?",
             "options": [
-              "As a confirmed fact",
-              "*As unconfirmed",
-              "As a future plan"
+              "*{cpa:Avrebbe lasciato} la cucina durante il servizio.",
+              "{cpa:Avrebbe comprato} il ristorante.",
+              "{cpa:Avrebbe perso} la stella."
             ]
           },
           {
-            "q": "What was he reportedly offered?",
+            "q": "Qual {cop:sarebbe} il motivo?",
             "options": [
-              "A new role",
-              "*A severance payment",
-              "A place on the board"
+              "*uno scontro sul menù con i proprietari",
+              "un problema di salute",
+              "un'offerta di un altro ristorante"
             ]
           },
           {
-            "q": "What does the employee regret?",
+            "q": "Che cosa {fs:succederà} se lo chef non {ip:torna} entro lunedì?",
             "options": [
-              "*The crisis was not tackled in time",
-              "The size of the payment",
-              "The new successor"
+              "*I proprietari {fs:valuteranno} come procedere.",
+              "Il ristorante {fs:chiuderà}.",
+              "Lo chef {fs:perderà} la buonuscita."
             ]
           },
           {
-            "q": "What happens if the rumours are confirmed?",
+            "q": "A quale condizione lo chef {cop:tornerebbe}?",
             "options": [
-              "The firm will close",
-              "*A successor must be appointed within 30 days",
-              "The clause will be changed"
+              "*se lo {csi:lasciassero} cucinare come {ip:sa}",
+              "se gli {csi:dessero} più soldi",
+              "se i proprietari {csi:vendessero} il ristorante"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La notizia {ip:è} confermata ufficialmente.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Lo chef {ip:accetta} l'idea di essere scappato.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Lo chef {pp:ha ammesso} di aver sbagliato qualcosa.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Dopo la notizia i clienti {pp:hanno smesso} di prenotare.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase del testo all'uso del condizionale o all'ipotesi.",
+        "pairs": [
+          [
+            "Lo chef {cpa:avrebbe lasciato} la cucina.",
+            "notizia non confermata"
+          ],
+          [
+            "Io {cop:sarei} scappato?",
+            "sdegno"
+          ],
+          [
+            "Fosse per me, {cop:tornerei} domani.",
+            "ipotesi senza *se*"
+          ],
+          [
+            "{cpa:Avrei dovuto} parlare per tempo.",
+            "rimpianto"
+          ],
+          [
+            "Qualora non {csi:tornasse}…",
+            "congiunzione formale"
+          ]
         ]
       }
     ]
@@ -343,51 +661,59 @@
   "listening": {
     "transcript": [
       [
-        "Mara",
-        "Ti {pp:sei} mai {pp:pentito} di aver rifiutato quel posto?"
+        "Sara",
+        "Allora, {pp:hai deciso}? {ip:Accetti} il posto a Milano?"
       ],
       [
-        "Sergio",
-        "Ogni tanto. Se {cst:avessi accettato}, ora {cop:lavorerei} a Roma."
+        "Davide",
+        "Non {ip:so}. Fosse per me, {cop:accetterei} subito: {ip:è} un'occasione da cogliere al volo."
       ],
       [
-        "Mara",
-        "A saperlo prima, ti {cpa:avrei consigliato} di andare."
+        "Sara",
+        "E allora? Che cosa ti {ip:ferma}?"
       ],
       [
-        "Sergio",
-        "Senza mia moglie, l'{cpa:avrei fatto}."
+        "Davide",
+        "Dovessi trasferirmi, Giulia {cop:dovrebbe} lasciare il suo lavoro. E non {ip:è} detto che {csp:voglia}."
       ],
       [
-        "Mara",
-        "E se te lo {csi:riproponessero}?"
+        "Sara",
+        "{cop:Potreste} provare a distanza per un anno, sempre che l'azienda ti {csp:lasci} lavorare un po' da casa."
       ],
       [
-        "Sergio",
-        "{cop:Direi} che {ip:è} troppo tardi. Ma non si {ip:sa} mai."
+        "Davide",
+        "{ip:È} un'idea. Se non altro, ne {cop:parlerei} con lei stasera. Se non fosse per lei, {cop:sarei} già a Milano!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Se {cst:avessi accettato}, ora [[lavorerei#cop]] a Roma.",
-          "[[A]] saperlo prima, ti {cpa:avrei consigliato} di andare.",
-          "[[Senza]] mia moglie, l'{cpa:avrei fatto}.",
-          "[[Direi#cop]] che {ip:è} troppo tardi."
+          "[[Fosse]] per me, {cop:accetterei} subito.",
+          "[[Dovessi]] trasferirmi, Giulia {cop:dovrebbe} lasciare il suo lavoro.",
+          "{cop:Potreste} provare a distanza, [[sempre che]] l'azienda ti {csp:lasci} lavorare da casa.",
+          "Se non [[fosse]] per lei, {cop:sarei} già a Milano!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Why did Sergio turn the job down?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Probably because of…",
+            "q": "Perché Davide non {ip:decide} subito?",
             "options": [
-              "the salary",
-              "*his wife",
-              "Mara's advice"
+              "*Giulia {cop:dovrebbe} lasciare il suo lavoro.",
+              "Il posto non gli {ip:piace}.",
+              "Milano {ip:è} troppo cara."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:propone} Sara?",
+            "options": [
+              "*provare a distanza per un anno",
+              "rifiutare l'offerta",
+              "trasferirsi tutti e due subito"
             ]
           }
         ]
@@ -398,40 +724,397 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "If I had accepted, I would now be working in Rome.",
-            "a": [
-              "Se avessi accettato, ora lavorerei a Roma.",
-              "Se avessi accettato, adesso lavorerei a Roma."
+            "q": "Qual {ip:è} un'occasione che {pp:hai colto} al volo, o che {pp:hai perso}? Col senno di poi, che cosa {cpa:avresti fatto}?"
+          },
+          {
+            "q": "Fosse per te, che cosa {cop:cambieresti} nel tuo lavoro o nella tua scuola?"
+          },
+          {
+            "q": "Dovessi trasferirti in un altro paese, quale {cop:sceglieresti} e perché?"
+          },
+          {
+            "q": "C'{ip:è} qualcosa che {cop:faresti}, se non fosse che {ip:costa} troppo o {ip:è} troppo difficile?"
+          },
+          {
+            "q": "Ti {ip:è} mai capitato che qualcuno ti {csi:accusasse} ingiustamente? Che cosa {pp:hai risposto}? (*Io sarei…?!*)"
+          },
+          {
+            "q": "Se non fosse per una persona importante, dove {cop:saresti} oggi?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Bivi"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una donna davanti a un cartello con due frecce: «Roma» e «Londra»",
+          "B — Un uomo che corre verso un treno che parte",
+          "C — Un gruppo di persone sotto un ombrello, con il cielo nero",
+          "D — Un uomo indignato che si indica il petto con la mano"
+        ],
+        "pairs": [
+          [
+            "Fosse per me, {cop:sceglierei} Roma.",
+            "immagine A"
+          ],
+          [
+            "Se {cst:fossi uscito} prima, non lo {cpa:avrei perso}.",
+            "immagine B"
+          ],
+          [
+            "Dovesse piovere, {ip:restiamo} sotto il portico.",
+            "immagine C"
+          ],
+          [
+            "Io {cop:sarei} il colpevole?!",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Il periodo ipotetico misto: completa.",
+        "questions": [
+          "Se (studiare, io) [[avessi studiato#cst]] medicina, adesso (fare) [[farei#cop]] il medico.",
+          "Se (essere, lei) [[fosse#csi]] meno timida, alla festa (parlare) [[avrebbe parlato#cpa]] con tutti.",
+          "Se ieri (dormire, voi) [[aveste dormito#cst]] di più, oggi non (essere) [[sareste#cop]] così stanchi."
+        ]
+      },
+      {
+        "h": "Dovesse succedere…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi con *dovesse* + infinito.",
+        "questions": [
+          "Se per caso {csi:chiamasse} Marco, {imv:digli} che {ip:sono} uscito. → [[Dovesse]] chiamare Marco, {imv:digli} che {ip:sono} uscito.",
+          "Se per caso {csi:nevicasse}, la gara {fs:sarà} rinviata. → [[Dovesse]] nevicare, la gara {fs:sarà} rinviata.",
+          "Se per caso {csi:perdessi} il treno, {imv:prendi} un taxi. → [[Dovessi]] perdere il treno, {imv:prendi} un taxi."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Completa come vuoi tu: *Fosse per me…, Dovessi vincere alla lotteria…, Avessi saputo…*",
+        "open": true,
+        "questions": [
+          {
+            "q": "Fosse per me…"
+          }
+        ]
+      },
+      {
+        "h": "Il contratto"
+      },
+      {
+        "text": [
+          "**Contratto di affitto, articolo 7.** Qualora l'inquilino non {csi:pagasse} l'affitto per due mesi, il proprietario {fs:potrà} rescindere il contratto. L'inquilino {fs:potrà} lasciare l'appartamento in qualsiasi momento, sempre che ne {csi:dia} comunicazione con tre mesi di anticipo. Salvo che le parti non {csp:decidano} diversamente, il contratto si {fs:rinnoverà} automaticamente ogni quattro anni."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi l'articolo del contratto e scegli.",
+        "questions": [
+          {
+            "q": "Quando il proprietario {ip:può} rescindere il contratto?",
+            "options": [
+              "*se l'inquilino non {ip:paga} per due mesi",
+              "quando {ip:vuole}",
+              "dopo un anno"
             ]
           },
           {
-            "q": "Had I known, I would have come. (a man speaking, use a + infinitive)",
-            "a": [
-              "A saperlo, sarei venuto."
+            "q": "Che cosa {ip:deve} fare l'inquilino per andarsene?",
+            "options": [
+              "*avvisare tre mesi prima",
+              "pagare una multa",
+              "trovare un altro inquilino"
             ]
           },
           {
-            "q": "According to some sources, the minister has resigned. (reported)",
-            "a": [
-              "Secondo alcune fonti, il ministro si sarebbe dimesso."
-            ]
-          },
-          {
-            "q": "Would you mind closing the window? (polite)",
-            "a": [
-              "Le dispiacerebbe chiudere la finestra?"
-            ]
-          },
-          {
-            "q": "Should the train be late, let me know. (informal, use qualora)",
-            "a": [
-              "Qualora il treno fosse in ritardo, avvisami."
+            "q": "Il contratto si {ip:rinnova}…",
+            "options": [
+              "*automaticamente, ogni quattro anni",
+              "solo se lo {ip:chiede} l'inquilino",
+              "mai"
             ]
           }
         ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *qualora, posto che, sempre che, salvo che*.",
+        "questions": [
+          "[[Qualora]] il prodotto {csi:risultasse} difettoso, {fs:verrà} sostituito.",
+          "{fs:Partiremo} domani, [[sempre che]] il tempo lo {csp:permetta}.",
+          "[[Posto che]] {csa:abbia} ragione tu, che cosa {ip:dobbiamo} fare?",
+          "Il museo {ip:è} aperto ogni giorno, [[salvo che]] non {csp:sia} festa."
+        ]
+      },
+      {
+        "h": "Prendere le distanze"
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa {ip:esprime} il condizionale?",
+        "questions": [
+          {
+            "q": "Secondo la leggenda, Romolo e Remo {cpa:sarebbero stati} allattati da una lupa.",
+            "options": [
+              "*l'idea di altri",
+              "la cortesia",
+              "lo sdegno"
+            ]
+          },
+          {
+            "q": "Io {cpa:avrei rubato} i soldi?! Ma {ip:scherzi}?",
+            "options": [
+              "*lo sdegno",
+              "una notizia",
+              "la cortesia"
+            ]
+          },
+          {
+            "q": "{cop:Vorrei} un'informazione, per favore.",
+            "options": [
+              "*la cortesia",
+              "l'idea di altri",
+              "lo sdegno"
+            ]
+          },
+          {
+            "q": "Il prezzo {cop:dovrebbe} scendere a gennaio.",
+            "options": [
+              "*la probabilità",
+              "lo sdegno",
+              "la cortesia"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Se avrei saputo, sarei venuto.",
+            "a": [
+              "Se avessi saputo, sarei venuto.",
+              "Se l'avessi saputo, sarei venuto."
+            ]
+          },
+          {
+            "q": "Qualora il treno è in ritardo, chiamami.",
+            "a": [
+              "Qualora il treno fosse in ritardo, chiamami.",
+              "Qualora il treno sia in ritardo, chiamami."
+            ]
+          },
+          {
+            "q": "Se avessi studiato, ora avrei fatto il medico.",
+            "a": [
+              "Se avessi studiato, ora farei il medico."
+            ]
+          },
+          {
+            "q": "Dovrebbe piovere, resteremo a casa.",
+            "a": [
+              "Dovesse piovere, resteremo a casa."
+            ]
+          },
+          {
+            "q": "Lo comprerei, se non fosse che costasse troppo.",
+            "a": [
+              "Lo comprerei, se non fosse che costa troppo."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "per me / partirei / fosse / domani",
+            "a": [
+              "Fosse per me, partirei domani.",
+              "Fosse per me partirei domani."
+            ]
+          },
+          {
+            "q": "piovere / dovesse / a casa / resteremo",
+            "a": [
+              "Dovesse piovere, resteremo a casa.",
+              "Dovesse piovere resteremo a casa."
+            ]
+          },
+          {
+            "q": "di poi / col senno / accettato / avrei",
+            "a": [
+              "Col senno di poi, avrei accettato.",
+              "Col senno di poi avrei accettato."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Alcune espressioni si scrivono in una parola o in due: *semmai* e *se mai*, *sennò* e *se no* sono tutte giuste. Quando si scrivono unite, la consonante raddoppia, perché la pronuncia la allunga: *se + mai → semmai*, *se + no → sennò*. *Qualora*, invece, si scrive sempre unito."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "___ ti chiamo io domani.",
+            "options": [
+              "*Semmai",
+              "Semai",
+              "Sem mai"
+            ]
+          },
+          {
+            "q": "Sbrigati, ___ perdiamo il treno!",
+            "options": [
+              "*sennò",
+              "senò",
+              "sen nò"
+            ]
+          },
+          {
+            "q": "___ ci fossero problemi, avvisateci.",
+            "options": [
+              "*Qualora",
+              "Qual ora",
+              "Quallora"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare tutti i tipi di periodo ipotetico, anche misti.",
+          "So usare il periodo ipotetico con l'indicativo e l'imperativo.",
+          "So fare un'ipotesi senza *se*: *Dovesse piovere…, Fosse per me…*",
+          "So usare *qualora, posto che, sempre che, salvo che*.",
+          "So usare il condizionale per citare, prendere le distanze o rifiutare un'accusa.",
+          "So usare *se non fosse che, come se niente fosse, se non altro, semmai*."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Una vecchia calcolatrice da tavolo Olivetti, color crema, con la tastiera e un rotolo di carta"
+      },
+      {
+        "text": [
+          "**E se Olivetti…?**",
+          "Negli anni Cinquanta, a Ivrea, in Piemonte, Adriano Olivetti {im:guidava} un'azienda di macchine per scrivere e calcolatrici diversa da tutte le altre. Le fabbriche {im:avevano} grandi finestre, biblioteche, asili per i figli dei dipendenti. Olivetti {im:era} convinto che un'impresa {csi:dovesse} rendere migliore la vita di chi ci {im:lavorava}.",
+          "A metà del decennio l'azienda {pr:aprì} un laboratorio di elettronica, guidato da un giovane ingegnere, Mario Tchou. Ma nel 1960 Adriano Olivetti {pr:morì} improvvisamente, e un anno dopo anche Tchou {pr:perse} la vita in un incidente stradale. Nel 1964 la divisione elettronica {pr:fu} venduta a un'azienda americana.",
+          "Eppure, proprio a Ivrea, un piccolo gruppo di tecnici {pr:continuò} a lavorare a un progetto: la Programma 101, presentata a New York nel 1965. Molti la {ip:considerano} uno dei primi personal computer della storia: {ip:stava} su una scrivania e chiunque {im:poteva} usarla.",
+          "Ci si {ip:chiede} spesso che cosa {cpa:sarebbe successo} se Olivetti non {cst:fosse morto} così presto. Forse oggi un'azienda italiana {cop:sarebbe} tra i giganti dell'informatica; forse no. Sia come sia, nel 2018 l'UNESCO {pp:ha riconosciuto} Ivrea come patrimonio dell'umanità, «città industriale del XX secolo»."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Le fabbriche Olivetti {im:avevano} biblioteche e asili.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Adriano Olivetti {pr:morì} nel 1960.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La divisione elettronica {pr:restò} sempre italiana.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La Programma 101 {pr:fu} presentata nel 1965.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Ivrea {ip:è} patrimonio dell'UNESCO.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il periodo ipotetico e il congiuntivo.",
+        "questions": [
+          "Olivetti {im:era} convinto che un'impresa [[dovesse#csi]] rendere migliore la vita.",
+          "Che cosa [[sarebbe successo#cpa]] se Olivetti non [[fosse morto#cst]] così presto.",
+          "Forse oggi un'azienda italiana [[sarebbe#cop]] tra i giganti dell'informatica."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Pensa a un momento della storia del tuo paese. Che cosa {cpa:sarebbe successo} se le cose {cst:fossero andate} diversamente?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Se…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi un breve articolo di cronaca su un fatto non ancora confermato (vero o inventato), con le parole di un testimone o di un protagonista.",
+        "cues": [
+          "Che cosa {cop:sarebbe} successo, secondo le fonti? (*Stando a…, secondo…*)",
+          "Che cosa {ip:dice} il protagonista? (*Io sarei…?!, Fosse per me…*)",
+          "Che cosa {fs:succederà}, qualora…?",
+          "Chiudi con un commento (*Se non altro…, Col senno di poi…*)."
+        ],
+        "start": "",
+        "model": "Il sindaco e il monopattino\nStando alle prime ricostruzioni, il sindaco della città sarebbe stato fermato ieri sera dai vigili mentre andava in monopattino sul marciapiede del corso principale. Secondo alcuni testimoni, avrebbe chiesto scusa e pagato subito la multa.\nRaggiunto al telefono, il sindaco ha reagito con ironia: «Io sarei un pericolo pubblico? Andavo a cinque all'ora!». Ma ha aggiunto: «Col senno di poi, avrei dovuto scendere e camminare. Le regole valgono per tutti, piaccia o no.»\nL'opposizione chiede chiarezza: qualora la notizia fosse confermata, presenterà un'interrogazione in consiglio comunale.\nSe non altro, da oggi tutti in città sanno dove non si può andare in monopattino."
       }
     ]
   }

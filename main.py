@@ -26,6 +26,7 @@ from flask_login import LoginManager, UserMixin, current_user, login_user, logou
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect
 from markupsafe import Markup, escape
+import sqlalchemy
 from sqlalchemy.exc import IntegrityError
 from werkzeug.security import check_password_hash, generate_password_hash
 
@@ -105,10 +106,41 @@ LANGUAGES = {
         "flag": "gr",
         "native": "Ελληνικά",
     },
+    # Everything but the search so far (see FEATURES)
+    "georgian": {
+        "lessons": [],
+        "cities": ["europe"],
+        "flag": "ge",
+        "native": "ქართული",
+        "features": ["lessons", "vocabulary_topics", "conjugation_drill", "stories_list", "cheat_sheets"],
+        "lessons_blurb": "The alphabet, then your first words and sentences",
+    },
 }
 
+# The parts of the site, by the endpoint of their main page. A language
+# without "features" has them all; one with "features" shows only those (in
+# the navigation, on the home page and in the search), and the pages of the
+# others send its learners to the lessons
+FEATURES = ["lessons", "vocabulary_topics", "conjugation_drill", "stories_list", "cheat_sheets", "search"]
+# The pages that belong to each part
+FEATURE_ENDPOINTS = {
+    "vocabulary_topics": {
+        "vocabulary_topics", "vocabulary_for_topic", "topic_words", "vocabulary_practice",
+        "word_list", "word_list_quiz", "word_list_practice", "export_topic", "quiz_report",
+    },
+    "conjugation_drill": {"conjugation_drill", "conjugation_drill_tenses", "conjugation_practice", "verb_page"},
+    "stories_list": {"stories_list", "story"},
+    "cheat_sheets": {"cheat_sheets", "tense_article"},
+    "search": {"search_results", "search_suggest"},
+}
+
+
+def language_features(lang):
+    return set(LANGUAGES.get(lang, {}).get("features", FEATURES))
+
+
 # The codes for the lang attribute of text in each language
-LANGUAGE_CODES = {"italian": "it", "spanish": "es", "german": "de", "greek": "el"}
+LANGUAGE_CODES = {"italian": "it", "spanish": "es", "german": "de", "greek": "el", "georgian": "ka"}
 
 # Pages the language switcher may send the user back to
 LANGUAGE_SWITCH_TARGETS = {
@@ -151,7 +183,10 @@ def word_gender(lang, foreign):
 
 def load_vocabulary(lang, topic):
     words = []
-    for row in read_csv(os.path.join(DATA_DIR, lang, "vocabulary", f"{topic}.csv")):
+    path = os.path.join(DATA_DIR, lang, "vocabulary", f"{topic}.csv")
+    if not os.path.exists(path):
+        return words  # a language that has no vocabulary drill yet
+    for row in read_csv(path):
         foreign, english, word_id, image = list(row.values())[:4]
         words.append(
             {
@@ -172,6 +207,8 @@ VOCABULARY = {
 }
 STORIES = {lang: stories.load_stories(lang) for lang in LANGUAGES}
 LESSONS = {lang: grammar_lessons.load_lessons(lang) for lang in LANGUAGES}
+# Georgian for those who learn it in Latin letters (see get_script)
+LATIN_LESSONS = {"georgian": grammar_lessons.latin_lessons(LESSONS["georgian"])}
 SEARCH_INDEX = {
     lang: search.build(
         LESSONS[lang],
@@ -203,6 +240,14 @@ GLOSSARY = {
         verbs.TAGS,
     )
     for lang in LANGUAGES
+}
+# The Georgian words of the balloons in Latin letters, for the lessons in Latin
+LATIN_GLOSSARY = {
+    grammar_lessons.to_latin(word): [
+        {**entry, "w": grammar_lessons.to_latin(entry["w"]), "m": grammar_lessons.to_latin(entry["m"])}
+        for entry in entries
+    ]
+    for word, entries in GLOSSARY["georgian"].items()
 }
 VERB_SUGGESTIONS = 2
 VERB_RESULTS = 8
@@ -254,6 +299,9 @@ class User(UserMixin, db.Model):
     password = db.Column(db.String(100), nullable=False)
     username = db.Column(db.String(100), unique=True, nullable=False)
     language = db.Column(db.String(10), nullable=False)
+    # How Georgian is written for this user: "georgian" (its own letters,
+    # the default) or "latin" (see GEORGIAN_SCRIPTS)
+    script = db.Column(db.String(10), nullable=True)
     word_lists = db.relationship("WordList", cascade="all, delete-orphan")
     lesson_progress = db.relationship("LessonProgress", cascade="all, delete-orphan")
 
@@ -390,12 +438,38 @@ def load_user(user_id):
 
 with app.app_context():
     db.create_all()
+    # Columns added after a table already existed: create_all doesn't add
+    # them to an existing table, so they are added here, empty
+    if "script" not in {column["name"] for column in sqlalchemy.inspect(db.engine).get_columns("users")}:
+        with db.engine.begin() as connection:
+            connection.execute(sqlalchemy.text("ALTER TABLE users ADD COLUMN script VARCHAR(10)"))
 
 
 def get_lang():
     if current_user.is_authenticated:
         return current_user.language
     return session.get("language")
+
+
+# Georgian can be learnt in its own letters or in Latin letters. In Latin the
+# Georgian letters disappear from the lessons (they are transliterated, see
+# grammar_lessons.latin_lessons) and the alphabet lessons are hidden
+GEORGIAN_SCRIPTS = {"georgian": "Georgian letters", "latin": "Latin letters"}
+
+
+def get_script():
+    # The script of the language being learnt; None for languages with one
+    if get_lang() != "georgian":
+        return None
+    value = current_user.script if current_user.is_authenticated else session.get("script")
+    return value if value in GEORGIAN_SCRIPTS else "georgian"
+
+
+def visible_lessons(lang):
+    # The lessons as this learner sees them: {level: [lessons]}
+    if lang == "georgian" and get_script() == "latin":
+        return LATIN_LESSONS[lang]
+    return LESSONS[lang]
 
 
 def safe_next():
@@ -443,7 +517,62 @@ def language_required(f):
 
 @app.context_processor
 def inject_language():
-    return dict(user_language=get_lang(), languages=LANGUAGES)
+    return dict(user_language=get_lang(), languages=LANGUAGES, features=language_features(get_lang()),
+                script=get_script(), scripts=GEORGIAN_SCRIPTS)
+
+
+KEEP_SCRIPT = re.compile(r"(<!--keep-script-->.*?<!--/keep-script-->)", re.S)
+
+
+@app.after_request
+def georgian_in_latin(response):
+    # Learners of Georgian who chose Latin letters never see a Georgian
+    # letter: every page and every answer sent back is transliterated. Only
+    # what is marked <!--keep-script-->…<!--/keep-script--> stays (the sample
+    # of the Georgian letters in the setting itself)
+    if (
+        response.direct_passthrough
+        or response.mimetype not in ("text/html", "application/json")
+        or get_script() != "latin"
+    ):
+        return response
+    if response.mimetype == "application/json":
+        # JSON writes Georgian letters as \u escapes, so the data is
+        # transliterated rather than the text
+        response.set_data(app.json.dumps(grammar_lessons.latin_value(response.get_json())))
+        return response
+    text = response.get_data(as_text=True)
+    response.set_data("".join(
+        part if part.startswith("<!--keep-script-->") else grammar_lessons.to_latin(part)
+        for part in KEEP_SCRIPT.split(text)
+    ))
+    return response
+
+
+def latin_answers(answers):
+    # In Latin letters the answer is accepted as the page shows it, and also
+    # without the apostrophes of the tight sounds (k'at'a, kata)
+    if get_script() != "latin":
+        return list(answers)
+    result = []
+    for answer in answers:
+        for form in (grammar_lessons.to_latin(answer), grammar_lessons.to_latin(answer).replace("'", "")):
+            if form not in result:
+                result.append(form)
+    return result
+
+
+@app.before_request
+def hide_missing_features():
+    # A language that doesn't have a part of the site yet (Georgian has only
+    # its lessons) is sent to the lessons instead of a page with nothing in it
+    lang = get_lang()
+    if lang not in LANGUAGES:
+        return None
+    for feature in FEATURES:
+        if request.endpoint in FEATURE_ENDPOINTS.get(feature, ()) and feature not in language_features(lang):
+            return redirect(url_for("lessons"))
+    return None
 
 
 def load_reviewed(lang):
@@ -483,6 +612,7 @@ TENSE_NAME = re.compile(r"\[(\w+):([^\[\]]+)\]")
 
 
 app.jinja_env.globals["exercise_pages"] = grammar_lessons.exercise_pages
+app.jinja_env.globals["visible_text"] = grammar_lessons.visible_text
 
 
 @app.template_filter("shuffled")
@@ -514,9 +644,10 @@ def rich(text):
 
 def check_answer(user_input, answer):
     # Returns (is_correct, missed_one_letter)
-    typed, expected = functions.fold_accents(user_input), functions.fold_accents(answer)
-    is_correct = typed == expected
-    return is_correct, not is_correct and functions.differ_by_single_char(typed, expected)
+    typed = functions.fold_accents(user_input)
+    expected = [functions.fold_accents(form) for form in latin_answers([answer])]
+    is_correct = typed in expected
+    return is_correct, not is_correct and any(functions.differ_by_single_char(typed, form) for form in expected)
 
 
 def drill_row(drill, row_count, **expected):
@@ -584,7 +715,7 @@ def lessons_overview(lang):
     """The Lessons card of the home page: where to continue, and how far each
     level has got. Progress counts finished exercises, in whatever order they
     were done, so skipping around is fine."""
-    order = [(level, lesson) for level in stories.LEVELS for lesson in LESSONS[lang].get(level, [])]
+    order = [(level, lesson) for level in stories.LEVELS for lesson in visible_lessons(lang).get(level, [])]
     if not order:
         return None
     checkable = CHECKABLE[lang]
@@ -608,7 +739,7 @@ def lessons_overview(lang):
 
     levels = []
     for level in stories.LEVELS:
-        level_lessons = LESSONS[lang].get(level, [])
+        level_lessons = visible_lessons(lang).get(level, [])
         if not level_lessons:
             continue
         exercises = [(lesson["number"], ex) for lesson in level_lessons
@@ -636,6 +767,7 @@ def lessons_overview(lang):
         return {
             "level": level,
             "number": lesson["number"],
+            "shown": lesson.get("shown", lesson["number"]),
             "title": lesson["title"],
             "where": f"{ui['sections'][part]} · {ui['exercise']} {position}" if part else "",
             "url": url,
@@ -690,7 +822,7 @@ def index():
         lessons_list=home_page_lessons(lang),
         lessons_overview=lessons_overview(lang),
         story_count=len(STORIES[lang]),
-        story_levels=stories.LEVELS,
+        story_levels=[level for level in stories.LEVELS if any(story["level"] == level for story in STORIES[lang].values())],
         random_city=random.choice(config["cities"]),
         word_lists=user_word_lists(),
     )
@@ -735,7 +867,7 @@ def lessons():
     return render_template(
         "lessons.html",
         levels=stories.LEVELS,
-        lessons_by_level=LESSONS[lang],
+        lessons_by_level=visible_lessons(lang),
         older=LANGUAGES[lang]["lessons"],
         current_user=current_user,
     )
@@ -745,11 +877,14 @@ def lessons():
 @language_required
 def lesson(level, number):
     level = level.upper()
-    level_lessons = LESSONS[get_lang()].get(level, [])
+    level_lessons = visible_lessons(get_lang()).get(level, [])
     position = next(
         (index for index, item in enumerate(level_lessons) if item["number"] == number), None
     )
     if position is None:
+        # An alphabet lesson, hidden for those who learn Georgian in Latin letters
+        if any(item["number"] == number for item in LESSONS[get_lang()].get(level, [])):
+            return redirect(url_for("lessons"))
         abort(404)
     return render_template(
         "lesson.html",
@@ -763,7 +898,9 @@ def lesson(level, number):
         ],
         previous=level_lessons[position - 1] if position else None,
         following=level_lessons[position + 1] if position + 1 < len(level_lessons) else None,
-        glossary=glossary.for_lesson(GLOSSARY[get_lang()], level_lessons[position]),
+        glossary=glossary.for_lesson(
+            LATIN_GLOSSARY if get_script() == "latin" else GLOSSARY[get_lang()], level_lessons[position]
+        ),
         progress=saved_progress(level, number),
         lang_code=LANGUAGE_CODES[get_lang()],
         current_user=current_user,
@@ -784,7 +921,12 @@ def saved_progress(level, number):
     ).order_by(LessonProgress.updated.desc())
     progress = {}
     for row in rows:
-        progress.setdefault(row.exercise, []).append(json.loads(row.state))
+        # Answers typed in Georgian letters show in Latin letters for those who
+        # switched to Latin (only on the page: the saved row stays as it is)
+        state = json.loads(row.state)
+        progress.setdefault(row.exercise, []).append(
+            grammar_lessons.latin_value(state) if get_script() == "latin" else state
+        )
     return progress
 
 
@@ -1384,7 +1526,7 @@ def conjugation_practice():
             # The question expired, so just show a new one
             return jsonify(next=next_conjugation_question(lang, forms, pronouns, question))
         verb_is_correct, missed_one_letter, answer = conjugation.check(
-            user_input, accepted
+            user_input, latin_answers(accepted)
         )
         if missed_one_letter:
             record_answer(quiz, False)
@@ -1576,7 +1718,9 @@ def vocabulary_for_topic(topic):
         "vocabulary",
         topic,
         format(topic),
-        f"Translate each word into {get_lang().capitalize()}, together with its definite article.",
+        # Georgian has no articles
+        f"Translate each word into {get_lang().capitalize()}"
+        + ("." if get_lang() == "georgian" else ", together with its definite article."),
         url_for("vocabulary_practice", topic=topic),
         url_for("topic_words", topic=topic),
     )
@@ -1762,10 +1906,25 @@ def profile():
     return render_template("profile.html", current_user=current_user)
 
 
+@app.route("/set_script", methods=["POST"])
+def set_script():
+    # Georgian letters or Latin letters, in the settings
+    script = request.form.get("script")
+    if script in GEORGIAN_SCRIPTS:
+        if current_user.is_authenticated:
+            current_user.script = script
+            db.session.commit()
+        else:
+            session["script"] = script
+    target = request.form.get("next")
+    return redirect(url_for(target if target in ("profile", "language_settings") else "index", _anchor="script"))
+
+
+@app.route("/settings")
 @app.route("/language")
 def language_settings():
-    # Guests have no profile: this is where they change the language they
-    # learn (the flag in the bar leads here; signed-in users go to the profile)
+    # The settings of guests, who have no profile: the language they learn
+    # and, for Georgian, the script. Signed-in users have them in the profile
     if current_user.is_authenticated:
         return redirect(url_for("profile", _anchor="language"))
     return render_template("language_settings.html", current_user=current_user)

@@ -1,0 +1,9 @@
+title: ჩემი დღე
+translation: My day
+level: A1
+
+მე{I} ნინო{Nino} ვარ{ყოფნა: I am}. ოცდახუთი{twenty-five} წლის{წელი = year: years old} ვარ{ყოფნა: I am} და{and} თბილისში{თბილისი: in Tbilisi} ვცხოვრობ{ცხოვრება: I live}. დილით{in the morning} ადრე{early} ვდგები{ადგომა: I get up}, ვსვამ{სმა: I drink} ყავას{ყავა: coffee} და{and} ვჭამ{ჭამა: I eat} პურს{პური: bread} ყველით{ყველი = cheese: with cheese}.
+
+მერე{then} მეტროთი{მეტრო: by metro} მივდივარ{მისვლა: I go} სამსახურში{სამსახური: to work}. მე{I} მასწავლებელი{teacher} ვარ{ყოფნა: I am}. ბავშვებს{ბავშვი = child: children} ინგლისურს{ინგლისური: English} ვასწავლი{სწავლება: I teach}.
+
+საღამოს{in the evening} მეგობრებთან{მეგობარი = friend: with friends} ერთად{together} ვსეირნობ{სეირნობა: I go for a walk}. ძალიან{very much} მიყვარს{სიყვარული: I love} ჩემი{my} ქალაქი{city}!

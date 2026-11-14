@@ -242,6 +242,8 @@
                 <input spellcheck="false" autocomplete="off" autocapitalize="off" autocorrect="off" id="inputField"
                     class="big" type="text" name="user_input" autofocus>
             </div>
+            {% import "letter_keys.html" as letter_keys %}
+            {{ letter_keys.keys(user_language, script) }}
             <input type="submit" hidden />
             {% endif %}
         </form>

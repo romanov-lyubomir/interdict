@@ -1,0 +1,200 @@
+{
+ "series_1": {
+  "title": "I სერია (series I)",
+  "style": "",
+  "summary": "The present and future screeves.",
+  "body": [
+   "Georgian groups its verb forms, the screeves (მწკრივები), in three series. Series I has the present group (present, imperfect…) and the future group (future, conditional…).",
+   "In series I the subject is in the nominative and the direct object in the dative: *ის წერილს წერს* (*he writes a letter*).",
+   {
+    "h": "Present and future"
+   },
+   "Most future forms are the present with a preverb in front: *ვწერ* → *დავწერ*, *ვაკეთებ* → *გავაკეთებ*. The preverb (და-, გა-, მო-, წა-…) depends on the verb and has to be learnt with it."
+  ]
+ },
+ "present": {
+  "title": "აწმყო (present)",
+  "style": "t-ip",
+  "summary": "What happens now, or usually.",
+  "body": [
+   "*ვწერ* — *I write, I am writing*. Georgian has one present for both.",
+   {
+    "table": {
+     "head": [
+      "",
+      "წერა (to write)",
+      "კეთება (to do)"
+     ],
+     "rows": [
+      [
+       "მე",
+       "ვწერ",
+       "ვაკეთებ"
+      ],
+      [
+       "შენ",
+       "წერ",
+       "აკეთებ"
+      ],
+      [
+       "ის",
+       "წერს",
+       "აკეთებს"
+      ],
+      [
+       "ჩვენ",
+       "ვწერთ",
+       "ვაკეთებთ"
+      ],
+      [
+       "თქვენ",
+       "წერთ",
+       "აკეთებთ"
+      ],
+      [
+       "ისინი",
+       "წერენ",
+       "აკეთებენ"
+      ]
+     ]
+    }
+   },
+   "ვ- marks *I* and *we*, -ს marks *he/she*, -თ marks the plural of *we* and *you*, and -ენ (or -ან) marks *they*."
+  ]
+ },
+ "imperfect": {
+  "title": "უწყვეტელი (imperfect)",
+  "style": "t-im",
+  "summary": "What was going on, or used to happen.",
+  "body": [
+   "*ვწერდი* — *I was writing, I used to write*. It is formed from the present with -დ- and its own endings:",
+   {
+    "table": {
+     "head": [
+      "",
+      "წერა (to write)"
+     ],
+     "rows": [
+      [
+       "მე",
+       "ვწერდი"
+      ],
+      [
+       "შენ",
+       "წერდი"
+      ],
+      [
+       "ის",
+       "წერდა"
+      ],
+      [
+       "ჩვენ",
+       "ვწერდით"
+      ],
+      [
+       "თქვენ",
+       "წერდით"
+      ],
+      [
+       "ისინი",
+       "წერდნენ"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "future": {
+  "title": "მყოფადი (future)",
+  "style": "t-fs",
+  "summary": "What will happen.",
+  "body": [
+   "*დავწერ* — *I will write*. Usually the present with a preverb: *ვწერ* → *დავწერ*, *ვაკეთებ* → *გავაკეთებ*. Some verbs change more: *ვსვამ* (I drink) → *დავლევ* (I will drink).",
+   "The preverb also makes the action complete: *დავწერ* is *I'll write it (and finish)*."
+  ]
+ },
+ "series_2": {
+  "title": "II სერია (series II)",
+  "style": "",
+  "summary": "The aorist and the optative.",
+  "body": [
+   "Series II has the aorist (a completed action in the past) and the optative (wishes, *let's…*, *I should…*).",
+   "With most verbs that have an object, the subject of series II is in the ergative case: *მან დაწერა* (*he wrote*), *მათ დაწერეს* (*they wrote*), instead of ის and ისინი. With მე, შენ, ჩვენ, თქვენ nothing changes."
+  ]
+ },
+ "aorist": {
+  "title": "წყვეტილი (aorist)",
+  "style": "t-pr",
+  "summary": "A completed action in the past.",
+  "body": [
+   "*დავწერე* — *I wrote*. It keeps the preverb of the future:",
+   {
+    "table": {
+     "head": [
+      "",
+      "წერა (to write)",
+      "კეთება (to do)"
+     ],
+     "rows": [
+      [
+       "მე",
+       "დავწერე",
+       "გავაკეთე"
+      ],
+      [
+       "შენ",
+       "დაწერე",
+       "გააკეთე"
+      ],
+      [
+       "მან",
+       "დაწერა",
+       "გააკეთა"
+      ],
+      [
+       "ჩვენ",
+       "დავწერეთ",
+       "გავაკეთეთ"
+      ],
+      [
+       "თქვენ",
+       "დაწერეთ",
+       "გააკეთეთ"
+      ],
+      [
+       "მათ",
+       "დაწერეს",
+       "გააკეთეს"
+      ]
+     ]
+    }
+   },
+   "In the aorist the direct object is in the nominative: *მან წერილი დაწერა* (*he wrote a letter*)."
+  ]
+ },
+ "optative": {
+  "title": "II კავშირებითი (optative)",
+  "style": "t-csp",
+  "summary": "Wishes, suggestions, what should happen.",
+  "body": [
+   "*დავწერო* — *(that) I write, should I write?* It is used after *უნდა* (must): *უნდა დავწერო* (*I have to write*), and for suggestions: *დავწეროთ!* (*let's write!*)."
+  ]
+ },
+ "series_3": {
+  "title": "III სერია (series III)",
+  "style": "",
+  "summary": "The perfect forms.",
+  "body": [
+   "Series III has the perfect forms (*apparently…, I have…*). Here the person who does the action is in the dative, as with *მიყვარს* (*I love*)."
+  ]
+ },
+ "perfect": {
+  "title": "I თურმეობითი (perfect)",
+  "style": "t-pp",
+  "summary": "What has happened, or apparently happened.",
+  "body": [
+   "*დამიწერია* — *I have written (it)*. It also tells something you didn't see yourself: *ის წასულა* (*apparently he has left*).",
+   "The person is marked as with *მიყვარს*: *დამიწერია* (I have written), *დაგიწერია* (you have written), *დაუწერია* (he has written)."
+  ]
+ }
+}

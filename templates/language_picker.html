@@ -1,13 +1,17 @@
 {# The language picker: a button with the flag and the name of the language
    being learnt, and a menu of all the languages. It opens on hover, or on tap
    on touch screens (the script in base.html). The styles are in base.html.
-   `next` is the page to return to after a change (LANGUAGE_SWITCH_TARGETS). #}
-{% macro picker(languages, user_language, next) %}
-<div class="lang-switch">
-    <button class="button lang-current" type="button" aria-haspopup="true" aria-expanded="false">
+   `next` is the page to return to after a change (LANGUAGE_SWITCH_TARGETS).
+   `compact` shows only the flag on the button: the navigation bar uses it for
+   guests, who have no profile to change the language in. `script` is the
+   Georgian script setting (get_script in main.py). #}
+{% macro picker(languages, user_language, next, compact=false, script=none) %}
+<div class="lang-switch{% if compact %} compact nav-flag{% endif %}">
+    <button class="button lang-current" type="button" aria-haspopup="true" aria-expanded="false"
+        {% if compact %}aria-label="Language: {{ (user_language or '') | capitalize }}. Change language" title="Change language"{% endif %}>
         {% if user_language %}
         <img class="flag-icon" src="{{ url_for('static', filename='images/flags/' ~ languages[user_language].flag ~ '.png') }}" alt="">
-        <span class="lang-name">{{ user_language | capitalize }}</span>
+        {% if not compact %}<span class="lang-name">{{ user_language | capitalize }}</span>{% endif %}
         {% else %}
         <span class="lang-name">Choose language</span>
         {% endif %}
@@ -21,7 +25,8 @@
             {% for code, info in languages.items() %}
             <button class="lang-option{% if code == user_language %} current{% endif %}" type="submit" name="language" value="{{ code }}">
                 <img class="flag-icon" src="{{ url_for('static', filename='images/flags/' ~ info.flag ~ '.png') }}" alt="">
-                <span>{{ code | capitalize }}<small>{{ info.native }}</small></span>
+                {# In Latin letters Georgian shows no Georgian letters at all #}
+                <span>{{ code | capitalize }}<small>{{ 'Kartuli' if code == 'georgian' and script == 'latin' else info.native }}</small></span>
                 {% if code == user_language %}<span class="check" aria-hidden="true">&#10003;</span>{% endif %}
             </button>
             {% endfor %}

@@ -1,184 +1,317 @@
 {
   "title": "Una casetta inutile, gentile signora",
-  "translation": "A useless little house, dear madam",
-  "topics": "Prefixes and suffixes, register and polite language",
+  "translation": "",
+  "topics": "Formare le parole: gli alterati (*-ino, -one, -accio*), i prefissi (*in-, s-, dis-, ri-*), i suffissi (*-mente, -zione, -tore, -ità, -bile*), i nomi composti; il registro formale e la mail formale",
   "grammar": {
     "explain": [
+      "L'italiano ama trasformare le parole: con un suffisso una casa diventa piccola, grande o brutta; con un prefisso *utile* diventa *inutile*. E la stessa cosa si dice in modo diverso con un amico o in una mail a un ufficio.",
       {
-        "h": "Changing the meaning with an ending"
-      },
-      "Italian can add a shade of size or feeling to a word with a suffix, so a single word does the work of an adjective.",
-      {
-        "table": {
-          "head": [
-            "Suffix",
-            "Meaning",
-            "Examples"
-          ],
-          "rows": [
-            [
-              "-ino, -etto, -ello",
-              "small, dear",
-              "tavol**ino**, cas**etta**, albero → alber**ello**"
-            ],
-            [
-              "-one",
-              "big",
-              "libr**one**, nas**one**"
-            ],
-            [
-              "-accio",
-              "bad, ugly",
-              "temp**accio**, parol**accia**"
-            ],
-            [
-              "-uccio",
-              "small and endearing",
-              "cas**uccia**, cald**uccio**"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Gli alterati",
+              "head": [
+                "suffisso",
+                "che cosa aggiunge",
+                "esempi"
+              ],
+              "rows": [
+                [
+                  "*-ino, -etto, -ello*",
+                  "piccolo, spesso caro",
+                  "tavol**ino**, cas**etta**, albero → alber**ello**"
+                ],
+                [
+                  "*-uccio*",
+                  "piccolo e affettuoso",
+                  "cas**uccia**, bocc**uccia**"
+                ],
+                [
+                  "*-one*",
+                  "grande",
+                  "libr**one**, nas**one**, la porta → il port**one**"
+                ],
+                [
+                  "*-accio*",
+                  "brutto, cattivo",
+                  "temp**accio**, parol**accia**, ragazz**accio**"
+                ]
+              ]
+            },
+            "note": [
+              "Con *-one* un nome femminile spesso diventa maschile: *la porta → il portone, la donna → il donnone*.",
+              "Si usano anche con gli aggettivi e gli avverbi: *carino, benino, pochino*."
             ]
-          ]
-        }
-      },
-      "A feminine noun can become masculine with *-one*: *la porta → il portone*. Be careful with words that only look altered: *il bottone* isn't a big *botte*, *il lampone* is a raspberry, and *il mattone* is a brick.",
-      {
-        "h": "Changing the meaning with a prefix"
-      },
-      {
-        "table": {
-          "head": [
-            "Prefix",
-            "Meaning",
-            "Examples"
-          ],
-          "rows": [
-            [
-              "in- (im-, il-, ir-)",
-              "not",
-              "**in**utile, **im**possibile, **il**legale, **ir**regolare"
-            ],
-            [
-              "s-",
-              "opposite, not",
-              "**s**contento, **s**fortuna"
-            ],
-            [
-              "dis-",
-              "opposite",
-              "**dis**ordine, **dis**onesto"
-            ],
-            [
-              "ri-",
-              "again",
-              "**ri**fare, **ri**leggere"
-            ],
-            [
-              "pre-",
-              "before",
-              "**pre**vedere"
-            ]
-          ]
-        }
-      },
-      "*In-* changes with the next letter, so that it is easier to say: *im-* before *p, b, m*, *il-* before *l* and *ir-* before *r*.",
-      {
-        "h": "Making new words from old ones"
-      },
-      {
-        "table": {
-          "head": [
-            "From",
-            "Ending",
-            "Result"
-          ],
-          "rows": [
-            [
-              "Adjective → adverb",
-              "-mente",
-              "lento → lenta**mente**"
-            ],
-            [
-              "Verb → noun",
-              "-zione",
-              "spiegare → spiega**zione**"
-            ],
-            [
-              "Verb → person",
-              "-tore / -trice",
-              "scrivere → scrit**tore**, scrit**trice**"
-            ],
-            [
-              "Adjective → noun",
-              "-ità",
-              "facile → facil**ità**"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Register: choosing how formal to be"
-      },
-      "Register is the level of formality that suits the situation. Formal Italian uses *Lei* with the verb in the third person, the conditional for requests, and more precise words.",
-      {
-        "table": {
-          "head": [
-            "Informal",
-            "Formal"
-          ],
-          "rows": [
-            [
-              "Ciao!",
-              "Buongiorno. / Salve."
-            ],
-            [
-              "{ip:Puoi} aiutarmi?",
-              "{cop:Potrebbe} aiutarmi, per cortesia?"
-            ],
-            [
-              "Ti {ip:scrivo} per…",
-              "Le {ip:scrivo} per…"
-            ],
-            [
-              "Ti {ip:chiedo} scusa.",
-              "La prego di scusarmi."
-            ],
-            [
-              "dare",
-              "fornire"
-            ],
-            [
-              "dire",
-              "comunicare"
-            ],
-            [
-              "avere",
-              "disporre di"
-            ],
-            [
-              "chiedere",
-              "richiedere"
-            ]
-          ]
-        }
-      },
-      "In a formal letter, open with *Gentile Signora* or *Egregio Dottore*, and close with *Cordiali saluti* or *Distinti saluti*. *Ciao* and *un abbraccio* are for friends."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I falsi alterati",
+              "head": [
+                "sembra…",
+                "ma è",
+                "significa"
+              ],
+              "rows": [
+                [
+                  "una botte grande",
+                  "il **bottone**",
+                  "il piccolo disco per chiudere la camicia"
+                ],
+                [
+                  "un matto grande",
+                  "il **mattone**",
+                  "il blocco per costruire i muri"
+                ],
+                [
+                  "un lampo grande",
+                  "il **lampone**",
+                  "un piccolo frutto rosso"
+                ],
+                [
+                  "un tacco piccolo",
+                  "il **tacchino**",
+                  "un grande uccello che si mangia a Natale in molti paesi"
+                ],
+                [
+                  "una posta piccola",
+                  "il **postino**",
+                  "chi porta la posta"
+                ]
+              ]
+            },
+            "note": "Molte parole finiscono come un alterato ma sono parole autonome. Nel dubbio, il dizionario risponde."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I prefissi",
+              "head": [
+                "prefisso",
+                "significato",
+                "esempi"
+              ],
+              "rows": [
+                [
+                  "*in-* (*im-, il-, ir-*)",
+                  "non",
+                  "**in**utile, **im**possibile, **il**legale, **ir**regolare"
+                ],
+                [
+                  "*s-*",
+                  "il contrario, non",
+                  "**s**contento, **s**fortuna, **s**caricare"
+                ],
+                [
+                  "*dis-*",
+                  "il contrario",
+                  "**dis**ordine, **dis**onesto, **dis**fare"
+                ],
+                [
+                  "*ri-*",
+                  "di nuovo",
+                  "**ri**fare, **ri**leggere, **ri**partire"
+                ],
+                [
+                  "*pre-, post-*",
+                  "prima, dopo",
+                  "**pre**vedere, **post**partita"
+                ],
+                [
+                  "*anti-, co-*",
+                  "contro, insieme",
+                  "**anti**furto, **co**inquilino"
+                ]
+              ]
+            },
+            "note": "*In-* cambia davanti ad alcune lettere, perché si pronunci meglio: *im-* davanti a *p, b, m*, *il-* davanti a *l*, *ir-* davanti a *r*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I suffissi che fanno parole nuove",
+              "head": [
+                "da…",
+                "suffisso",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "aggettivo → avverbio",
+                  "*-mente*",
+                  "lento → lenta**mente**, facile → facil**mente**"
+                ],
+                [
+                  "verbo → azione",
+                  "*-zione, -sione, -mento*",
+                  "spiegare → spiega**zione**, decidere → deci**sione**, cambiare → cambia**mento**"
+                ],
+                [
+                  "verbo → persona",
+                  "*-tore / -trice*",
+                  "scrivere → scrit**tore**, scrit**trice**"
+                ],
+                [
+                  "aggettivo → qualità",
+                  "*-ità, -ezza*",
+                  "facile → facil**ità**, bello → bell**ezza**"
+                ],
+                [
+                  "verbo → possibilità",
+                  "*-bile*",
+                  "lavare → lava**bile**, leggere → leggi**bile**"
+                ],
+                [
+                  "nome → mestiere, negozio",
+                  "*-aio, -ista, -eria*",
+                  "forno → forn**aio**, dente → dent**ista**, pizza → pizz**eria**"
+                ]
+              ]
+            },
+            "note": "L'avverbio in *-mente* si fa dal femminile dell'aggettivo (*lenta → lentamente*); gli aggettivi in *-le* e *-re* perdono la *e*: *facilmente, regolarmente*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I nomi composti",
+              "head": [
+                "formati da…",
+                "esempio",
+                "plurale"
+              ],
+              "rows": [
+                [
+                  "verbo + nome",
+                  "l'**apriscatole**, il **portafoglio**",
+                  "gli apriscatole, i portafogli"
+                ],
+                [
+                  "nome + nome",
+                  "il **pomodoro**, la **ferrovia**",
+                  "i pomodori, le ferrovie"
+                ],
+                [
+                  "nome + aggettivo",
+                  "la **cassaforte**",
+                  "le casseforti"
+                ],
+                [
+                  "aggettivo + nome",
+                  "il **francobollo**",
+                  "i francobolli"
+                ]
+              ]
+            },
+            "note": "Di solito cambia solo l'ultima parte: *i pomodori, le ferrovie*. Con verbo + nome plurale la parola non cambia: *l'apriscatole, gli apriscatole*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il registro: informale e formale",
+              "head": [
+                "con un amico",
+                "in una mail formale"
+              ],
+              "rows": [
+                [
+                  "dare, mandare",
+                  "fornire, inviare"
+                ],
+                [
+                  "dire, chiedere",
+                  "comunicare, richiedere"
+                ],
+                [
+                  "cominciare, finire",
+                  "iniziare, terminare"
+                ],
+                [
+                  "avere",
+                  "disporre di"
+                ],
+                [
+                  "per quanto riguarda…",
+                  "in merito a…, in riferimento a…"
+                ],
+                [
+                  "Ti {ip:mando} il file.",
+                  "Le {ip:invio} il documento in allegato."
+                ],
+                [
+                  "{ip:Puoi} dirmi…?",
+                  "{cop:Potrebbe} cortesemente comunicarmi…?"
+                ],
+                [
+                  "Ciao! Un abbraccio",
+                  "Gentile Signora / Egregio Dottore … Cordiali saluti"
+                ]
+              ]
+            },
+            "note": "Nel registro formale si usa il *Lei* (con la maiuscola nelle lettere: *Le scrivo, La ringrazio*), il condizionale per le richieste e parole più precise."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Form the word with the suffix.",
+        "prompt": "Completa con l'alterato giusto.",
         "questions": [
-          "una piccola casa → una [[casetta]] (-etta)",
-          "un grande libro → un [[librone]] (-one)",
-          "un brutto tempo → un [[tempaccio]] (-accio)",
-          "una piccola borsa → una [[borsetta]] (-etta)",
-          "un piccolo gatto → un [[gattino]] (-ino)"
+          "Un piccolo tavolo {ip:è} un [[tavolino]].",
+          "Una piccola casa {ip:è} una [[casetta|casina|casuccia]].",
+          "Un libro molto grande {ip:è} un [[librone]].",
+          "Un tempo molto brutto {ip:è} un [[tempaccio]].",
+          "Una parola volgare {ip:è} una [[parolaccia]].",
+          "La porta grande di un palazzo {ip:è} il [[portone]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Alterato o falso alterato?",
+        "questions": [
+          {
+            "q": "*tavolino*",
+            "options": [
+              "*alterato: un piccolo tavolo",
+              "falso alterato"
+            ]
+          },
+          {
+            "q": "*bottone*",
+            "options": [
+              "*falso alterato",
+              "alterato: una botte grande"
+            ]
+          },
+          {
+            "q": "*librone*",
+            "options": [
+              "*alterato: un libro grande",
+              "falso alterato"
+            ]
+          },
+          {
+            "q": "*mattone*",
+            "options": [
+              "*falso alterato",
+              "alterato: un grande matto"
+            ]
+          },
+          {
+            "q": "*ragazzaccio*",
+            "options": [
+              "*alterato: un ragazzo cattivo",
+              "falso alterato"
+            ]
+          }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Write the opposite with the right prefix.",
+        "prompt": "Scrivi il contrario con un prefisso.",
         "questions": [
           "utile → [[inutile]]",
           "possibile → [[impossibile]]",
@@ -189,41 +322,56 @@
         ]
       },
       {
-        "type": "choice",
-        "prompt": "Which version is right for a formal email?",
+        "type": "gap",
+        "prompt": "Forma la parola nuova.",
         "questions": [
-          {
-            "q": "Opening",
-            "options": [
-              "Ciao Marco,",
-              "*Gentile Dottor Rossi,",
-              "Ehi Marco!"
-            ]
-          },
-          {
-            "q": "A request",
-            "options": [
-              "Mi {ip:mandi} il file?",
-              "{imv:Mandami} il file!",
-              "*{cop:Potrebbe} inviarmi il documento?"
-            ]
-          },
-          {
-            "q": "Apologising",
-            "options": [
-              "*La prego di scusarmi.",
-              "{imv:Scusa} tanto!",
-              "Sorry!"
-            ]
-          },
-          {
-            "q": "Closing",
-            "options": [
-              "Un abbraccio",
-              "Ciao ciao",
-              "*Cordiali saluti"
-            ]
-          }
+          "lento → (avverbio) [[lentamente]]",
+          "spiegare → (azione) [[spiegazione]]",
+          "scrivere → (persona, donna) [[scrittrice]]",
+          "facile → (qualità) [[facilità]]",
+          "lavare → (che si può lavare) [[lavabile]]",
+          "dente → (mestiere) [[dentista]]"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Scrivi il plurale dei nomi composti.",
+        "questions": [
+          "il pomodoro → i [[pomodori]]",
+          "il portafoglio → i [[portafogli]]",
+          "l'apriscatole → gli [[apriscatole]]",
+          "la cassaforte → le [[casseforti]]",
+          "il francobollo → i [[francobolli]]"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Dal registro informale a quello formale: abbina.",
+        "pairs": [
+          [
+            "mandare",
+            "inviare"
+          ],
+          [
+            "dare",
+            "fornire"
+          ],
+          [
+            "dire",
+            "comunicare"
+          ],
+          [
+            "finire",
+            "terminare"
+          ],
+          [
+            "avere",
+            "disporre di"
+          ],
+          [
+            "chiedere",
+            "richiedere"
+          ]
         ]
       }
     ]
@@ -232,139 +380,254 @@
     "words": [
       [
         "la richiesta",
-        "request"
+        "quello che si chiede, spesso per scritto"
       ],
       [
-        "la domanda",
-        "application, question"
+        "la domanda (di lavoro)",
+        "la richiesta di un posto di lavoro"
       ],
       [
         "il curriculum",
-        "CV"
+        "il documento con gli studi e le esperienze di lavoro"
       ],
       [
         "l'allegato",
-        "attachment"
+        "un documento mandato insieme a una mail"
       ],
       [
-        "l'oggetto",
-        "subject (of an email)"
+        "l'oggetto (di una mail)",
+        "la riga che dice di che cosa parla la mail"
       ],
       [
         "la disponibilità",
-        "availability"
+        "il fatto di essere pronto ad aiutare o libero"
+      ],
+      [
+        "il riscontro",
+        "la risposta a una mail o a una richiesta"
+      ],
+      [
+        "il modulo",
+        "il foglio da compilare"
+      ],
+      [
+        "la scadenza",
+        "l'ultimo giorno per fare una cosa"
       ],
       [
         "fornire",
-        "to provide"
+        "dare (formale)"
       ],
       [
         "comunicare",
-        "to inform"
+        "dire, far sapere (formale)"
+      ],
+      [
+        "inviare",
+        "mandare (formale)"
       ],
       [
         "allegare",
-        "to attach"
+        "mandare un documento insieme a una mail"
+      ],
+      [
+        "compilare",
+        "scrivere i dati in un modulo"
       ],
       [
         "ringraziare",
-        "to thank"
+        "dire grazie"
       ],
       [
         "cordiale",
-        "cordial"
+        "gentile, amichevole"
+      ],
+      [
+        "in merito a",
+        "riguardo a, per quanto riguarda (formale)"
       ],
       [
         "in attesa di",
-        "looking forward to"
+        "aspettando"
+      ],
+      [
+        "cortesemente",
+        "per favore, con gentilezza (formale)"
+      ],
+      [
+        "distinti saluti",
+        "un saluto formale alla fine di una lettera"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la richiesta",
-            "request"
-          ],
-          [
             "l'allegato",
-            "attachment"
+            "un documento mandato insieme a una mail"
           ],
           [
-            "la disponibilità",
-            "availability"
+            "la scadenza",
+            "l'ultimo giorno per fare una cosa"
+          ],
+          [
+            "compilare",
+            "scrivere i dati in un modulo"
+          ],
+          [
+            "il riscontro",
+            "la risposta a una mail o a una richiesta"
+          ],
+          [
+            "in merito a",
+            "riguardo a, per quanto riguarda (formale)"
           ],
           [
             "fornire",
-            "to provide"
-          ],
-          [
-            "allegare",
-            "to attach"
-          ],
-          [
-            "in attesa di",
-            "looking forward to"
+            "dare (formale)"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete the formal letter.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "[[Gentile]] Signora Rossi, (dear)",
-          "La [[ringrazio#ip]] per la Sua risposta. (I thank)",
-          "In allegato {ip:trova} il mio [[curriculum]]. (CV)",
-          "[[Cordiali]] saluti. (kind)"
+          {
+            "q": "Le {ip:invio} il mio ___ in allegato.",
+            "options": [
+              "*curriculum",
+              "oggetto",
+              "riscontro"
+            ]
+          },
+          {
+            "q": "La {ip:ringrazio} per la Sua ___.",
+            "options": [
+              "*disponibilità",
+              "scadenza",
+              "richiesta"
+            ]
+          },
+          {
+            "q": "In ___ di una Sua risposta, Le {ip:porgo} cordiali saluti.",
+            "options": [
+              "*attesa",
+              "merito",
+              "allegato"
+            ]
+          },
+          {
+            "q": "{imv:Compili} il ___ e lo {imv:consegni} allo sportello.",
+            "options": [
+              "*modulo",
+              "curriculum",
+              "oggetto"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{pp:Ho dimenticato} di [[allegare]] il documento alla mail!",
+          "La [[scadenza]] per le iscrizioni {ip:è} il 30 giugno.",
+          "{cop:Potrebbe} [[cortesemente]] inviarmi il modulo?",
+          "Le {ip:scrivo} in [[merito]] all'annuncio di lavoro.",
+          "[[Distinti]] saluti, Maria Rossi"
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Gentile Signora Ferri, Le {ip:scrivo} in merito alla casetta che Lei {ip:affitta} in via dei Pini. {pp:Ho letto} il Suo annuncio e {cop:sarei} interessato a visitarla. Mi {ip:sono} però accorto che il giardino non {ip:è indicato} sulla planimetria che mi {ip:ha} inviato. {cop:Potrebbe} gentilmente fornirmi qualche informazione? La {ip:ringrazio} per la disponibilità. Cordiali saluti, Mario Lodi",
-      "Caro Mario, {pp:ho visto} quella casuccia di cui mi {im:parlavi}. Ti {ip:dico} la verità: {ip:è} una topaia! Il giardinetto {ip:è} pieno di erbacce e la porta non si {ip:chiude}. {imv:Lascia} perdere, {ip:è} un postaccio. Un abbraccio, Gigi"
+      {
+        "h": "Due messaggi sulla stessa casa"
+      },
+      "*Oggetto: Richiesta di informazioni sull'appartamento in via dei Pini*",
+      "Gentile Signora Ferri, Le {ip:scrivo} in merito all'annuncio dell'appartamento in via dei Pini, pubblicato sul sito dell'agenzia. {cop:Sarei} interessato a visitarlo nei prossimi giorni. {cop:Potrebbe} cortesemente comunicarmi se il giardino {ip:è} compreso nell'affitto e se l'appartamento {ip:dispone} di un posto auto? In allegato Le {ip:invio} una copia del mio documento. La {ip:ringrazio} per la disponibilità e resto in attesa di un Suo cortese riscontro. Distinti saluti, Mario Lodi",
+      "*Messaggio di Mario alla sorella, il giorno dopo*",
+      "Ciao Giulia! {pp:Ho visto} la casa di cui ti {im:parlavo}. Che delusione! Nell'annuncio {ip:sembrava} una villetta, invece {ip:è} una casetta piccolina con un giardinetto pieno di erbacce. Il «posto auto» {ip:è} un pezzettino di strada davanti al portone. E la signora, gentilissima per mail, al telefono {ip:è} un donnone che {ip:parla} solo di soldi! Insomma, {ip:continuo} a cercare. Un abbraccione, Mario"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "What is Mario asking about?",
+            "q": "Perché Mario {ip:scrive} alla signora Ferri?",
             "options": [
-              "The rent",
-              "*The garden",
-              "The neighbours"
+              "*Per avere informazioni sull'appartamento.",
+              "Per lamentarsi del giardino.",
+              "Per pagare l'affitto."
             ]
           },
           {
-            "q": "Which text is formal?",
+            "q": "Che cosa {ip:allega} alla mail?",
             "options": [
-              "*The first",
-              "The second",
-              "Both"
-            ],
-            "ordered": true
-          },
-          {
-            "q": "What does Gigi think of the house?",
-            "options": [
-              "It's a bargain",
-              "*It's a dump",
-              "It's too expensive"
+              "*una copia del suo documento",
+              "il contratto",
+              "una foto della casa"
             ]
           },
           {
-            "q": "What does the suffix in «postaccio» express?",
+            "q": "Com'{ip:è} davvero il giardino?",
             "options": [
-              "A big place",
-              "A small place",
-              "*A nasty place"
+              "*piccolo e pieno di erbacce",
+              "grande e curato",
+              "non c'{ip:è}"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:decide} Mario?",
+            "options": [
+              "*di continuare a cercare",
+              "di affittare la casa",
+              "di comprare la casa"
             ]
           }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Mail formale o messaggio a un'amica? Abbina ogni frase.",
+        "pairs": [
+          [
+            "Le {ip:scrivo} in merito all'annuncio…",
+            "mail formale"
+          ],
+          [
+            "{ip:Ho visto} la casa di cui ti {im:parlavo}.",
+            "messaggio informale"
+          ],
+          [
+            "Resto in attesa di un Suo cortese riscontro.",
+            "mail formale"
+          ],
+          [
+            "Un abbraccione, Mario",
+            "messaggio informale"
+          ],
+          [
+            "Distinti saluti",
+            "mail formale"
+          ],
+          [
+            "Che delusione!",
+            "messaggio informale"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo gli alterati.",
+        "questions": [
+          "Nell'annuncio {ip:sembrava} una [[villetta]].",
+          "Invece {ip:è} una [[casetta]] piccolina.",
+          "Con un [[giardinetto]] pieno di [[erbacce]].",
+          "Il posto auto {ip:è} un [[pezzettino]] di strada davanti al [[portone]]."
         ]
       }
     ]
@@ -372,51 +635,70 @@
   "listening": {
     "transcript": [
       [
-        "Segretaria",
-        "Buongiorno, dottoressa. In cosa {ip:posso} esserLe utile?"
+        "Impiegata",
+        "Ufficio anagrafe, buongiorno. Mi {imv:dica}."
       ],
       [
-        "Cliente",
-        "{cop:Avrei} bisogno di un'informazione sul contratto."
+        "Signor Bassi",
+        "Buongiorno. {cop:Vorrei} sapere come si {ip:richiede} il certificato di residenza."
       ],
       [
-        "Segretaria",
-        "Certamente. {cop:Potrebbe} comunicarmi il numero?"
+        "Impiegata",
+        "{ip:Deve} compilare il modulo sul nostro sito e inviarlo per mail, con la copia di un documento in allegato."
       ],
       [
-        "Cliente",
-        "Sì. Le {ip:chiedo} scusa, ma non l'{ip:ho} con me."
+        "Signor Bassi",
+        "Entro quando {ip:devo} inviarlo?"
       ],
       [
-        "Segretaria",
-        "Non si {ip:preoccupi}. {ip:Può} inviarcelo per email."
+        "Impiegata",
+        "Non c'{ip:è} una scadenza. Le {fs:comunicheremo} noi quando il certificato {fs:sarà} pronto."
       ],
       [
-        "Cliente",
-        "La {ip:ringrazio}. Arrivederci."
+        "Signor Bassi",
+        "Perfetto. La {ip:ringrazio} per la disponibilità."
+      ],
+      [
+        "Impiegata",
+        "Si {csp:figuri}. Buona giornata."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "[[Avrei#cop]] bisogno di un'informazione sul contratto.",
-          "[[Potrebbe#cop]] comunicarmi il numero?",
-          "[[Le]] {ip:chiedo} scusa.",
-          "Non si [[preoccupi#ip]]."
+          "{ip:Deve} [[compilare]] il modulo sul nostro sito.",
+          "…con la copia di un documento in [[allegato]].",
+          "Non c'{ip:è} una [[scadenza]].",
+          "La {ip:ringrazio} per la [[disponibilità]]."
         ]
       },
       {
         "type": "choice",
-        "prompt": "How do the speakers address each other?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "They use…",
+            "q": "Che cosa {ip:vuole} il signor Bassi?",
             "options": [
-              "tu",
-              "voi",
-              "*Lei"
+              "*un certificato di residenza",
+              "un passaporto",
+              "un appuntamento con il sindaco"
+            ]
+          },
+          {
+            "q": "Come {ip:deve} inviare il modulo?",
+            "options": [
+              "*per mail",
+              "per posta",
+              "di persona"
+            ]
+          },
+          {
+            "q": "Il registro del dialogo {ip:è}…",
+            "options": [
+              "*formale",
+              "informale"
             ]
           }
         ]
@@ -427,42 +709,443 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Rewrite these sentences in formal Italian, using Lei.",
+        "prompt": "E tu? Rispondi usando le parole della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "{ip:Puoi} aiutarmi?",
-            "a": [
-              "Potrebbe aiutarmi?",
-              "Può aiutarmi?",
-              "Mi potrebbe aiutare?"
+            "q": "Quali alterati {ip:usi} spesso nella tua lingua? Ce n'{ip:è} uno che ti {ip:piace} in italiano?"
+          },
+          {
+            "q": "Qual {ip:è} stata l'ultima mail formale che {pp:hai scritto}? A chi e perché?"
+          },
+          {
+            "q": "Ti {ip:è} mai successo che una cosa {csi:fosse} molto diversa dall'annuncio? Racconta."
+          },
+          {
+            "q": "Nella tua lingua ci {ip:sono} due registri, come *tu* e *Lei*? Quando {ip:usi} quello formale?"
+          },
+          {
+            "q": "Che lavoro {cop:faresti}? Scrivi il nome del mestiere (*-tore, -trice, -ista, -aio…*)."
+          },
+          {
+            "q": "Qual {ip:è} il modulo più difficile che {csa:abbia} mai {csa:compilato}?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Piccolo, grande, brutto"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni parola all'immagine giusta.",
+        "pictures": [
+          "A — Un enorme portone di legno in un palazzo antico",
+          "B — Una minuscola casa di montagna con un comignolo che fuma",
+          "C — Un cielo nero, pioggia e vento forte su una spiaggia",
+          "D — Un gattino che dorme in una scatola"
+        ],
+        "pairs": [
+          [
+            "il portone",
+            "immagine A"
+          ],
+          [
+            "la casetta",
+            "immagine B"
+          ],
+          [
+            "il tempaccio",
+            "immagine C"
+          ],
+          [
+            "il gattino",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con l'alterato giusto.",
+        "questions": [
+          "Mia nonna {ip:ha} un [[giardinetto|giardinino]] con le rose. (piccolo giardino)",
+          "Che [[tempaccio]]! Non si {ip:può} uscire. (brutto tempo)",
+          "{ip:Ha} un [[nasone]] come un personaggio dei fumetti. (grande naso)",
+          "{ip:Vuoi} un [[pezzettino|pezzetto]] di torta? (piccolo pezzo)"
+        ]
+      },
+      {
+        "h": "Il contrario"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli il prefisso giusto.",
+        "questions": [
+          {
+            "q": "Questa regola {ip:è} ___logica.",
+            "options": [
+              "*il",
+              "in",
+              "dis"
             ]
           },
           {
-            "q": "Ti {ip:scrivo} per chiederti un'informazione.",
-            "a": [
-              "Le scrivo per chiederLe un'informazione.",
-              "Le scrivo per chiederle un'informazione."
+            "q": "Il cassetto {ip:è} in ___ordine.",
+            "options": [
+              "*dis",
+              "in",
+              "ri"
             ]
           },
           {
-            "q": "Ti {ip:ringrazio}.",
-            "a": [
-              "La ringrazio."
+            "q": "Un numero ___pari {ip:è} 3, 5 o 7.",
+            "options": [
+              "*dis",
+              "in",
+              "s"
             ]
           },
           {
-            "q": "{imv:Scusami}.",
-            "a": [
-              "Mi scusi."
+            "q": "{ip:Devo} ___fare l'esame: {pp:sono stato} bocciato.",
+            "options": [
+              "*ri",
+              "dis",
+              "pre"
             ]
           },
           {
-            "q": "{imv:Dimmi} quando {ip:sei} libero.",
-            "a": [
-              "Mi dica quando è libero."
+            "q": "{ip:È} una persona molto ___paziente.",
+            "options": [
+              "*im",
+              "in",
+              "dis"
             ]
           }
         ]
+      },
+      {
+        "h": "Mestieri e negozi"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni mestiere al posto dove si lavora.",
+        "pairs": [
+          [
+            "il fornaio",
+            "il forno"
+          ],
+          [
+            "il pizzaiolo",
+            "la pizzeria"
+          ],
+          [
+            "il libraio",
+            "la libreria"
+          ],
+          [
+            "il gelataio",
+            "la gelateria"
+          ],
+          [
+            "il farmacista",
+            "la farmacia"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Forma l'avverbio in *-mente*.",
+        "questions": [
+          "rapido → [[rapidamente]]",
+          "gentile → [[gentilmente]]",
+          "regolare → [[regolarmente]]",
+          "vero → [[veramente]]"
+        ]
+      },
+      {
+        "h": "La mail formale"
+      },
+      {
+        "text": [
+          "**Le parti di una mail formale.** *Oggetto:* in poche parole, di che cosa si tratta. *Saluto:* Gentile Signora / Gentile Dottor Rossi / Spettabile Ditta. *Apertura:* Le scrivo in merito a… / in riferimento a… *Richiesta:* Vorrei sapere se… / Le sarei grato se potesse… *Chiusura:* In attesa di un Suo cortese riscontro, porgo cordiali saluti. *Firma:* nome e cognome."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la mail formale.",
+        "ordered": true,
+        "questions": [
+          "[[Gentile]] Dottoressa Bianchi,",
+          "Le scrivo in [[merito|riferimento]] all'annuncio di lavoro pubblicato sul Vostro sito.",
+          "In [[allegato]] Le invio il mio curriculum.",
+          "Le [[sarei]] grata se potesse fissarmi un colloquio.",
+          "In attesa di un Suo cortese [[riscontro]], porgo [[cordiali|distinti]] saluti."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Dal messaggio alla mail formale: abbina.",
+        "pairs": [
+          [
+            "Ciao Marco!",
+            "Gentile Dottor Rossi,"
+          ],
+          [
+            "Ti mando il file.",
+            "Le invio il documento in allegato."
+          ],
+          [
+            "Mi dici quando sei libero?",
+            "Potrebbe comunicarmi la Sua disponibilità?"
+          ],
+          [
+            "Grazie mille!",
+            "La ringrazio per l'attenzione."
+          ],
+          [
+            "Un abbraccio",
+            "Cordiali saluti"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi una breve mail formale a una scuola di lingue per chiedere informazioni su un corso di italiano.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Gentile Segreteria,"
+          }
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Questa risposta è inregolare.",
+            "a": [
+              "Questa risposta è irregolare."
+            ]
+          },
+          {
+            "q": "Ho comprato due portafoglii.",
+            "a": [
+              "Ho comprato due portafogli."
+            ]
+          },
+          {
+            "q": "Gentile Signora, ti scrivo per chiederti un'informazione.",
+            "a": [
+              "Gentile Signora, Le scrivo per chiederLe un'informazione.",
+              "Gentile Signora, Le scrivo per chiederle un'informazione."
+            ]
+          },
+          {
+            "q": "Parla molto lentomente.",
+            "a": [
+              "Parla molto lentamente."
+            ]
+          },
+          {
+            "q": "Ciao Dottore, distinti saluti.",
+            "a": [
+              "Gentile Dottore, distinti saluti.",
+              "Egregio Dottore, distinti saluti."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "in allegato / invio / Le / il curriculum",
+            "a": [
+              "Le invio il curriculum in allegato.",
+              "In allegato Le invio il curriculum.",
+              "Le invio in allegato il curriculum."
+            ]
+          },
+          {
+            "q": "per la disponibilità / ringrazio / La",
+            "a": [
+              "La ringrazio per la disponibilità."
+            ]
+          },
+          {
+            "q": "cordiali / porgo / saluti",
+            "a": [
+              "Porgo cordiali saluti."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Molti suffissi hanno una consonante doppia, e si sente: *cas**ett**a, alber**ell**o, parol**acc**ia, bocc**ucc**ia*. Tieni la consonante più lunga quando parli, e scrivila doppia: *caseta* o *parolacia* sono errori."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "Una piccola casa: una ___",
+            "options": [
+              "*casetta",
+              "caseta",
+              "cassetta"
+            ]
+          },
+          {
+            "q": "Una brutta parola: una ___",
+            "options": [
+              "*parolaccia",
+              "parolacia",
+              "parollaccia"
+            ]
+          },
+          {
+            "q": "Un piccolo albero: un ___",
+            "options": [
+              "*alberello",
+              "albereló",
+              "alberrello"
+            ]
+          },
+          {
+            "q": "Una piccola bocca: una ___",
+            "options": [
+              "*boccuccia",
+              "bocuccia",
+              "boccucia"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare gli alterati: *casetta, librone, tempaccio*.",
+          "So riconoscere i falsi alterati: *bottone, mattone, tacchino*.",
+          "So formare il contrario con *in-, s-, dis-*.",
+          "So formare parole nuove con *-mente, -zione, -tore, -ità, -bile*.",
+          "So formare il plurale dei nomi composti.",
+          "So scrivere una mail formale con il *Lei*."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Un menù di un ristorante all'estero con scritto «spaghetti, zucchini, broccoli», accanto a un fotografo con il flash"
+      },
+      {
+        "text": [
+          "**Le parole italiane nel mondo**",
+          "Molte parole italiane {pp:hanno fatto} il giro del mondo, e non poche sono proprio alterati. *Spaghetti* {ip:è} il plurale di *spaghetto*, un piccolo *spago*, cioè una cordicella. *Zucchini* {ip:sono} piccole zucche, e *broccoli* piccoli germogli di cavolo.",
+          "Anche *casino* {ip:è} un alterato: all'inizio {im:era} una piccola casa, poi {pr:diventò} il nome dei luoghi dove si {im:giocava} d'azzardo. In inglese {ip:è} rimasto questo significato; in italiano, invece, *casino* oggi {ip:vuol} dire soprattutto *confusione, disordine*.",
+          "Altre parole {ip:hanno} una storia curiosa. *Paparazzo* {ip:è} il cognome di un fotografo nel film «La dolce vita» di Federico Fellini (1960): da allora i fotografi che {ip:inseguono} le persone famose si {ip:chiamano} così in tutto il mondo. E *ciao* {ip:viene} dal veneziano *s-ciào vostro*, cioè *sono vostro servo*: un saluto molto formale che {pp:è diventato} il più informale di tutti."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "*Spaghetti* {ip:viene} da *spago*.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "In italiano *casino* {ip:significa} soprattutto *casa da gioco*.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Paparazzo {ip:è} un personaggio di un film di Fellini.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "All'origine *ciao* {im:era} un saluto informale.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni parola alla sua origine.",
+        "pairs": [
+          [
+            "spaghetti",
+            "piccoli spaghi"
+          ],
+          [
+            "zucchini",
+            "piccole zucche"
+          ],
+          [
+            "casino",
+            "una piccola casa"
+          ],
+          [
+            "ciao",
+            "sono vostro servo"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Quali parole italiane si {ip:usano} nella tua lingua? Sai da dove {ip:vengono}?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Hai visto un annuncio interessante (una casa, un lavoro, un corso). Scrivi una mail formale per chiedere informazioni.",
+        "cues": [
+          "Scrivi l'oggetto e il saluto (*Gentile…, Spettabile…*).",
+          "Spiega perché {ip:scrivi} (*Le scrivo in merito a…*).",
+          "Fai due o tre domande con il condizionale (*Potrebbe…?, Vorrei sapere se…*).",
+          "Chiudi la mail in modo formale (*In attesa di un Suo cortese riscontro…*)."
+        ],
+        "start": "Oggetto: ",
+        "model": "Oggetto: Richiesta di informazioni sul corso di cucina\nSpettabile Scuola di Cucina Toscana,\nLe scrivo in merito al corso di cucina tradizionale pubblicato sul Vostro sito. Sono molto interessata a partecipare nel mese di settembre.\nVorrei sapere se il corso è adatto anche a chi non ha esperienza e se il prezzo comprende gli ingredienti. Potrebbe inoltre comunicarmi se è possibile pagare in due rate?\nLa ringrazio per la disponibilità e resto in attesa di un Suo cortese riscontro.\nCordiali saluti,\nAnna Petrova"
       }
     ]
   }

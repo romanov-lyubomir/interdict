@@ -57,11 +57,11 @@ def lesson_entries(level, lesson, url, ui):
                 yield entry("lesson", title, sections["grammar"], url, f"grammar-{index}-{position}", item)
         else:
             yield entry("lesson", title, sections["grammar"], url, f"grammar-{index}", block)
-    for index, (word, meaning) in enumerate(lesson["vocabulary"].get("words", [])):
+    for index, (word, meaning) in enumerate(lesson.get("vocabulary", {}).get("words", [])):
         yield entry("lesson", title, sections["vocabulary"], url, f"vocabulary-w{index}", f"{word} — {meaning}")
-    for index, paragraph in enumerate(lesson["reading"].get("text", [])):
+    for index, paragraph in enumerate(lesson.get("reading", {}).get("text", [])):
         yield entry("lesson", title, sections["reading"], url, f"reading-p{index}", paragraph)
-    for index, (speaker, line) in enumerate(lesson["listening"].get("transcript", [])):
+    for index, (speaker, line) in enumerate(lesson.get("listening", {}).get("transcript", [])):
         yield entry("lesson", title, sections["listening"], url, f"listening-l{index}", f"{speaker}: {line}")
     for index, paragraph in enumerate(lesson.get("italy", {}).get("text", [])):
         yield entry("lesson", title, sections["italy"], url, f"italy-p{index}", paragraph)

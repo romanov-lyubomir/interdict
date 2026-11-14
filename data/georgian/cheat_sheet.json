@@ -1,0 +1,85 @@
+{
+ "title": "Verb forms",
+ "intro": "The main screeves (the Georgian tenses and moods) at a glance, grouped in their three series. The examples use წერა (to write) with მე (I).",
+ "moods": [
+  {
+   "article": "series_1",
+   "name": "I სერია (series I)",
+   "color": "grey",
+   "children": [
+    {
+     "name": "აწმყოს ჯგუფი (present group)",
+     "color": "grey",
+     "children": [
+      {
+       "stack": [
+        {
+         "article": "present",
+         "name": "აწმყო (present)",
+         "example": "ვწერ",
+         "color": "orange",
+         "style": "t-ip"
+        },
+        {
+         "article": "imperfect",
+         "name": "უწყვეტელი (imperfect)",
+         "example": "ვწერდი",
+         "color": "green",
+         "style": "t-im"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "მყოფადის ჯგუფი (future group)",
+     "color": "grey",
+     "children": [
+      {
+       "article": "future",
+       "name": "მყოფადი (future)",
+       "example": "დავწერ",
+       "color": "pink",
+       "style": "t-fs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "article": "series_2",
+   "name": "II სერია (series II)",
+   "color": "grey",
+   "children": [
+    {
+     "article": "aorist",
+     "name": "წყვეტილი (aorist)",
+     "example": "დავწერე",
+     "color": "blue",
+     "style": "t-pr"
+    },
+    {
+     "article": "optative",
+     "name": "II კავშირებითი (optative)",
+     "example": "დავწერო",
+     "color": "purple",
+     "style": "t-csp"
+    }
+   ]
+  },
+  {
+   "article": "series_3",
+   "name": "III სერია (series III)",
+   "color": "grey",
+   "children": [
+    {
+     "article": "perfect",
+     "name": "I თურმეობითი (perfect)",
+     "example": "დამიწერია",
+     "color": "red",
+     "style": "t-pp"
+    }
+   ]
+  }
+ ]
+}

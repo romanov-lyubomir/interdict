@@ -1,214 +1,391 @@
 {
   "title": "{im:Speravo} che {csi:venissi}: {im:credevo} che {cst:fossi partito}",
-  "translation": "I hoped you would come: I thought you had left",
-  "topics": "All four tenses of the congiuntivo and how to choose among them",
+  "translation": "",
+  "topics": "I quattro tempi del congiuntivo insieme, la concordanza completa, il congiuntivo nelle frasi relative e dopo *chiunque, qualunque, dovunque*, quando il congiuntivo cambia il senso, il congiuntivo da solo, aspettative, delusioni ed equivoci",
   "grammar": {
     "explain": [
+      "Dal livello B1 conosci tutti e quattro i tempi del congiuntivo. Qui li mettiamo insieme: come si sceglie il tempo giusto, dove si usa il congiuntivo oltre a *penso che* e *spero che*, e quando cambia il senso della frase.",
       {
-        "h": "Two questions decide the tense"
-      },
-      "First, is the main verb in the present or in the past? Second, does the action in the *che* part happen at the same time or earlier? The answers lead to one of four tenses.",
-      {
-        "table": {
-          "head": [
-            "Main verb",
-            "Same time or later",
-            "Earlier"
-          ],
-          "rows": [
-            [
-              "Present: {ip:Spero} che…",
-              "tu {csp:venga}",
-              "tu {csa:sia venuto}"
-            ],
-            [
-              "Past: {im:Speravo} che…",
-              "tu {csi:venissi}",
-              "tu {cst:fossi venuto}"
-            ],
-            [
-              "Conditional: {cop:Vorrei} che…",
-              "tu {csi:venissi}",
-              "tu {cst:fossi venuto}"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "La concordanza dei tempi: il quadro completo",
+              "head": [
+                "verbo principale",
+                "prima",
+                "nello stesso momento",
+                "dopo"
+              ],
+              "rows": [
+                [
+                  "[ip:presente]: *{ip:Spero} che…*",
+                  "{csa:**sia venuto**}",
+                  "{csp:**venga**}",
+                  "{csp:**venga**} / {fs:**verrà**}"
+                ],
+                [
+                  "passato: *{im:Speravo} che…*",
+                  "{cst:**fosse venuto**}",
+                  "{csi:**venisse**}",
+                  "{cpa:**sarebbe venuto**} / {csi:**venisse**}"
+                ],
+                [
+                  "condizionale: *{cop:Vorrei} che…*",
+                  "{cst:**fosse venuto**}",
+                  "{csi:**venisse**}",
+                  "{csi:**venisse**}"
+                ]
+              ]
+            },
+            "note": [
+              "Due domande decidono il tempo: il verbo principale è al presente o al passato? E il fatto della frase con *che* viene prima, nello stesso momento o dopo?",
+              "Il condizionale si comporta come un passato: *{cop:Vorrei} che tu {csi:venissi}*, mai *vorrei che tu venga*.",
+              "Dopo un verbo al passato, per un fatto successivo il [cpa:condizionale passato] è più chiaro: *{im:Credevo} che {cpa:sarebbe venuto}*."
             ]
-          ]
-        }
-      },
-      "The conditional behaves like a past tense, so *{cop:Vorrei} che tu {csp:venga}* is wrong. The same holds for its past: *{cpa:Avrei voluto} che tu {csi:venissi}*.",
-      {
-        "h": "After the main verb in the past: a future"
-      },
-      "When the *che* part is future in relation to a past main verb, you can use the [csi:congiuntivo imperfetto] or the [cpa:condizionale passato]: *{im:Credevo} che {csi:venisse}* or *{im:Credevo} che {cpa:sarebbe venuto}*. The second one makes the future meaning clearer.",
-      {
-        "h": "Where the congiuntivo appears"
-      },
-      {
-        "table": {
-          "head": [
-            "After",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Opinion, doubt",
-              "{ip:Penso} che {csp:sia} utile."
-            ],
-            [
-              "Wish",
-              "{cop:Vorrei} che {csi:fosse} qui."
-            ],
-            [
-              "Emotion",
-              "Mi {ip:dispiace} che tu {csa:sia partito}."
-            ],
-            [
-              "Necessity",
-              "{ip:È} necessario che tu {csp:venga}."
-            ],
-            [
-              "A negated fact",
-              "Non {ip:è} vero che {csa:sia partito}."
-            ],
-            [
-              "A superlative",
-              "{ip:È} il film più bello che {csa:abbia visto}."
-            ],
-            [
-              "A sought person or thing",
-              "{ip:Cerco} qualcuno che {csp:parli} russo."
-            ],
-            [
-              "Whoever, whatever",
-              "Chiunque {csp:sia}, non aprire."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Indicative or congiuntivo?"
-      },
-      "The choice can change the meaning. The indicative presents a fact and the *congiuntivo* something that isn't certain.",
-      {
-        "table": {
-          "head": [
-            "Indicative: it exists",
-            "Congiuntivo: I hope it exists"
-          ],
-          "rows": [
-            [
-              "{ip:Conosco} una persona che {ip:parla} russo.",
-              "{ip:Cerco} una persona che {csp:parli} russo."
-            ],
-            [
-              "So che è arrivato.",
-              "Non so se sia arrivato."
-            ]
-          ]
-        }
-      },
-      "After *non {ip:so} se*, both are possible: *Non {ip:so} se {pp:è arrivato}* is simply less formal."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il congiuntivo nelle frasi relative",
+              "head": [
+                "quando",
+                "indicativo: la cosa esiste",
+                "congiuntivo: la cerco, non so se esiste"
+              ],
+              "rows": [
+                [
+                  "si cerca qualcosa o qualcuno",
+                  "{ip:Ho} un amico che **{ip:parla}** cinese.",
+                  "{ip:Cerco} qualcuno che **{csp:parli}** cinese."
+                ],
+                [
+                  "dopo una negazione",
+                  "C'{ip:è} qualcuno che lo **{ip:sa}**.",
+                  "Non c'{ip:è} nessuno che lo **{csp:sappia}**."
+                ],
+                [
+                  "dopo un superlativo",
+                  "",
+                  "{ip:È} il film più bello che **{csa:abbia visto}**."
+                ],
+                [
+                  "dopo *l'unico, il solo, il primo*",
+                  "",
+                  "{ip:Sei} l'unica persona che mi **{csp:capisca}**."
+                ]
+              ]
+            },
+            "note": "Dopo un superlativo e dopo *l'unico, il solo* il congiuntivo è la scelta più curata; nel parlato si sente anche l'indicativo: *il film più bello che ho visto*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Chiunque, qualunque, dovunque, comunque*",
+              "head": [
+                "parola",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*chiunque*",
+                  "qualsiasi persona",
+                  "**Chiunque** {csp:venga}, {imv:digli} che non ci {ip:sono}."
+                ],
+                [
+                  "*qualunque, qualsiasi*",
+                  "qualsiasi cosa",
+                  "**Qualunque** cosa tu {csp:dica}, non ti {ip:credo}."
+                ],
+                [
+                  "*dovunque, ovunque*",
+                  "in qualsiasi posto",
+                  "**Dovunque** tu {csp:vada}, ti {fs:penserò}."
+                ],
+                [
+                  "*comunque*",
+                  "in qualsiasi modo",
+                  "**Comunque** {csp:vada}, {fs:sarà} un'esperienza."
+                ]
+              ]
+            },
+            "note": "Quando introducono una frase con un verbo, queste parole vogliono il congiuntivo. Da solo, *comunque* vuol dire anche *in ogni caso*: *Comunque, ti {ip:chiamo} domani.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Indicativo o congiuntivo: cambia il senso",
+              "head": [
+                "",
+                "con l'indicativo",
+                "con il congiuntivo"
+              ],
+              "rows": [
+                [
+                  "*dire che*",
+                  "Gli {pp:ho detto} che **{ip:viene}** anche Anna. (un'informazione)",
+                  "Gli {pp:ho detto} che **{csp:venga}** subito. (un ordine)"
+                ],
+                [
+                  "*capire che*",
+                  "{pp:Ho capito} che **{im:era}** tardi. (me ne sono accorto)",
+                  "{ip:Capisco} che tu **{csp:sia}** stanco. (lo accetto, lo giustifico)"
+                ],
+                [
+                  "*non sapere se*",
+                  "Non {ip:so} se **{pp:è arrivato}**. (parlato)",
+                  "Non {ip:so} se **{csa:sia arrivato}**. (più curato)"
+                ]
+              ]
+            },
+            "note": "Con *il fatto che* e con una frase con *che* all'inizio si usa il congiuntivo: ***Il fatto che** non {csa:abbia telefonato} mi {ip:preoccupa}. **Che** {csp:sia} bravo, lo {ip:sanno} tutti.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il congiuntivo da solo",
+              "head": [
+                "per esprimere",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "un augurio",
+                  "**Che {csp:vinca}** il migliore! **Che** tu {csp:sia} felice!"
+                ],
+                [
+                  "un dubbio",
+                  "Non {ip:risponde}… **Che {csa:sia} già {csa:partito}**?"
+                ],
+                [
+                  "un desiderio impossibile o difficile",
+                  "**Magari {csi:fosse}** vero! **Se** {cst:avessi saputo}…"
+                ],
+                [
+                  "un invito con il *Lei*",
+                  "**{csp:Entri}** pure, **si {csp:accomodi}**."
+                ]
+              ]
+            },
+            "note": "Senza un verbo principale, il congiuntivo esprime da solo un augurio, un dubbio o un desiderio. Il congiuntivo con il *Lei* lo conosci già come imperativo formale."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Aspettative e delusioni",
+              "head": [
+                "espressione",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*mi aspettavo che* + congiuntivo",
+                  "Mi {im:aspettavo} che {csi:fosse} più facile."
+                ],
+                [
+                  "*non pensavo che* + congiuntivo",
+                  "Non {im:pensavo} che {cst:avessi capito} male."
+                ],
+                [
+                  "*peccato che* + congiuntivo",
+                  "Peccato che tu non {csa:sia potuto} venire."
+                ],
+                [
+                  "*mi dispiace che* + congiuntivo",
+                  "Mi {ip:dispiace} che {csa:sia andata} così."
+                ],
+                [
+                  "*avrei voluto che* + congiuntivo",
+                  "{cpa:Avrei voluto} che tu mi {csi:dicessi} la verità."
+                ]
+              ]
+            },
+            "note": "Dopo *{cpa:avrei voluto} che* si usa il [csi:congiuntivo imperfetto] per un fatto dello stesso momento e il [cst:congiuntivo trapassato] per un fatto precedente: *{cpa:Avrei voluto} che {cst:fossi venuto} anche tu.*"
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right tense of the congiuntivo.",
+        "prompt": "Presente, passato o condizionale? Scegli il tempo del congiuntivo.",
         "questions": [
           {
-            "q": "{ip:Spero} che tu ___ domani.",
+            "q": "{ip:Spero} che tu ___ bene stanotte.",
             "options": [
-              "*{imv:venga}",
-              "{csi:venissi}",
-              "{cst:fossi venuto}"
+              "*{csa:abbia dormito}",
+              "{cst:avessi dormito}",
+              "{csi:dormissi}"
             ]
           },
           {
-            "q": "{im:Speravo} che tu ___ ieri.",
+            "q": "{im:Speravo} che tu ___ alla festa.",
             "options": [
-              "{imv:venga}",
               "*{csi:venissi}",
+              "{csp:venga}",
               "{csa:sia venuto}"
             ]
           },
           {
-            "q": "{ip:Credo} che Anna ___ ieri.",
+            "q": "{cop:Vorrei} che mi ___ di più.",
             "options": [
-              "{csp:parta}",
-              "{csi:partisse}",
-              "*{csa:sia partita}"
+              "*{csi:ascoltassi}",
+              "{csp:ascolti}",
+              "{csa:abbia ascoltato}"
             ]
           },
           {
-            "q": "{im:Credevo} che Anna ___ il giorno prima.",
+            "q": "{im:Credevo} che ___ già, invece {im:erano} ancora lì.",
             "options": [
-              "{csp:parta}",
-              "{csa:sia partita}",
-              "*{cst:fosse partita}"
+              "*{cst:fossero partiti}",
+              "{csa:siano partiti}",
+              "{csp:partano}"
             ]
           },
           {
-            "q": "{cop:Vorrei} che voi ___ qui adesso.",
+            "q": "Non {ip:credo} che Luca ___ ieri.",
             "options": [
-              "{csp:siate}",
-              "*{csi:foste}",
-              "{cst:foste stati}"
+              "*{csa:sia uscito}",
+              "{cst:fosse uscito}",
+              "{csp:esca}"
             ]
           },
           {
-            "q": "{ip:È} il libro più bello che io ___ .",
+            "q": "{cpa:Avrei voluto} che tu ___ con me.",
             "options": [
-              "{pp:ho letto}",
-              "*{csa:abbia letto}",
-              "{csi:leggessi}"
+              "*{csi:restassi}",
+              "{csp:resti}",
+              "{csa:sia restato}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the right tense of the congiuntivo.",
+        "prompt": "Passa dal presente al passato: cambia i due verbi.",
         "questions": [
-          "{ip:Penso} che Marco [[abbia#csp]] ragione. (avere, now)",
-          "{im:Pensavo} che Marco [[avesse#csi]] ragione. (avere, then)",
-          "Mi {ip:dispiace} che voi non [[siate venuti#csa]]. (venire, earlier – a group of men)",
-          "Non {im:sapevo} che lei [[fosse tornata#cst]]. (tornare, earlier)",
-          "{cop:Vorrei} che tu mi [[ascoltassi#csi]]. (ascoltare)",
-          "{ip:Cerco} un collega che [[sappia#csp]] il tedesco. (sapere)"
+          "{ip:Penso} che {csp:sia} tardi. → {im:Pensavo} che [[fosse#csi]] tardi.",
+          "{ip:Credo} che {csa:abbia capito}. → {im:Credevo} che [[avesse capito#cst]].",
+          "{ip:Spero} che {csp:venga}. → {im:Speravo} che [[venisse#csi]].",
+          "{ip:Temo} che {csa:siano partiti}. → {im:Temevo} che [[fossero partiti#cst]].",
+          "{ip:È} strano che non {csp:chiami}. → {im:Era} strano che non [[chiamasse#csi]]."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Indicative or congiuntivo?",
+        "prompt": "Indicativo o congiuntivo nella frase relativa?",
         "questions": [
           {
-            "q": "So che Luca ___ qui.",
+            "q": "{ip:Abbiamo} una vicina che ___ il pianoforte.",
             "options": [
-              "*{ip:abita}",
-              "{ip:abiti}"
+              "*{ip:suona}",
+              "{csp:suoni}"
             ]
           },
           {
-            "q": "Non {ip:è} vero che Luca ___ qui.",
+            "q": "{ip:Cerchiamo} un appartamento che ___ un balcone.",
             "options": [
-              "{ip:abita}",
-              "*{ip:abiti}"
+              "*{csp:abbia}",
+              "{ip:ha}"
             ]
           },
           {
-            "q": "{ip:Ho} un amico che ___ il cinese.",
+            "q": "Non c'{ip:è} nessuno che mi ___ aiutare.",
             "options": [
-              "*{ip:parla}",
-              "{ip:parli}"
+              "*{csp:possa}",
+              "{ip:può}"
             ]
           },
           {
-            "q": "{ip:Cerchiamo} un'assistente che ___ il cinese.",
+            "q": "{ip:È} la persona più gentile che ___.",
             "options": [
-              "{ip:parla}",
-              "*{ip:parli}"
+              "*{csp:conosca}",
+              "{cop:conoscerei}"
+            ]
+          },
+          {
+            "q": "{pp:Ho trovato} un lavoro che mi ___ molto.",
+            "options": [
+              "*{ip:piace}",
+              "{csp:piaccia}"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *chiunque, qualunque, dovunque, comunque* e il congiuntivo.",
+        "questions": [
+          "[[Chiunque]] (telefonare) [[telefoni#csp]], {imv:di'} che {ip:sono} in riunione.",
+          "[[Dovunque]] tu (andare) [[vada#csp]], {imv:portami} un ricordo.",
+          "[[Qualunque]] cosa (succedere) [[succeda#csp]], {imv:chiamami}.",
+          "[[Comunque]] (andare) [[vada#csp]] l'esame, {fs:festeggeremo}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Indicativo o congiuntivo? Leggi il senso tra parentesi e scegli.",
+        "questions": [
+          {
+            "q": "Le {pp:ho detto} che ___ subito a casa. (un ordine)",
+            "options": [
+              "*{csp:torni}",
+              "{ip:torna}"
+            ]
+          },
+          {
+            "q": "Le {pp:ho detto} che il treno ___ alle sei. (un'informazione)",
+            "options": [
+              "*{ip:parte}",
+              "{csp:parta}"
+            ]
+          },
+          {
+            "q": "{pp:Ho capito} che non mi ___ più. (me ne sono accorto)",
+            "options": [
+              "*{im:amava}",
+              "{csi:amasse}"
+            ]
+          },
+          {
+            "q": "{ip:Capisco} che tu ___ arrabbiato. (lo accetto)",
+            "options": [
+              "*{csp:sia}",
+              "{ip:sei}"
+            ]
+          },
+          {
+            "q": "Il fatto che non ___ mi {ip:preoccupa}.",
+            "options": [
+              "*{csa:abbia chiamato}",
+              "{pp:ha chiamato}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Il congiuntivo da solo: abbina ogni frase a che cosa esprime.",
+        "pairs": [
+          [
+            "Che {csp:vinca} il migliore!",
+            "un augurio"
+          ],
+          [
+            "Non {ip:risponde}… che {csp:stia} male?",
+            "un dubbio"
+          ],
+          [
+            "Magari {csi:avessi} più tempo!",
+            "un desiderio"
+          ],
+          [
+            "Si {csp:accomodi}, prego.",
+            "un invito con il *Lei*"
+          ]
         ]
       }
     ]
@@ -217,138 +394,258 @@
     "words": [
       [
         "l'aspettativa",
-        "expectation"
+        "quello che speri o pensi che succederà"
       ],
       [
         "la delusione",
-        "disappointment"
+        "la tristezza quando una cosa va peggio di come speravi"
       ],
       [
         "il rimprovero",
-        "reproach"
-      ],
-      [
-        "la nostalgia",
-        "homesickness, nostalgia"
+        "le parole dure per dire a qualcuno che ha sbagliato"
       ],
       [
         "l'equivoco",
-        "misunderstanding"
+        "un errore: una persona capisce una cosa diversa da un'altra"
+      ],
+      [
+        "il malinteso",
+        "un equivoco tra due persone"
+      ],
+      [
+        "la fiducia",
+        "il sentimento di chi crede che un'altra persona non lo tradirà"
+      ],
+      [
+        "l'orgoglio",
+        "il sentimento di chi non vuole ammettere di avere torto; anche la soddisfazione per qualcosa"
       ],
       [
         "aspettarsi",
-        "to expect"
+        "pensare che una cosa succederà"
       ],
       [
         "deludere",
-        "to disappoint"
+        "essere peggio di come qualcuno sperava"
       ],
       [
         "illudersi",
-        "to fool oneself"
+        "credere a una cosa bella che non è vera"
       ],
       [
         "rimproverare",
-        "to reproach"
+        "dire a qualcuno, con parole dure, che ha sbagliato"
       ],
       [
         "pretendere",
-        "to demand"
+        "volere qualcosa come se fosse un diritto"
+      ],
+      [
+        "chiarire",
+        "spiegare per eliminare un dubbio o un malinteso"
+      ],
+      [
+        "fraintendere",
+        "capire male"
+      ],
+      [
+        "fidarsi di",
+        "avere fiducia in qualcuno"
+      ],
+      [
+        "fare pace",
+        "tornare amici dopo una lite"
       ],
       [
         "inaspettato",
-        "unexpected"
+        "che non si aspettava, una sorpresa"
+      ],
+      [
+        "deluso",
+        "triste perché una cosa è andata peggio di come sperava"
       ],
       [
         "chiunque",
-        "whoever"
+        "qualsiasi persona"
+      ],
+      [
+        "peccato!",
+        "che dispiacere!"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "l'aspettativa",
-            "expectation"
-          ],
-          [
-            "la delusione",
-            "disappointment"
-          ],
-          [
-            "deludere",
-            "to disappoint"
+            "fraintendere",
+            "capire male"
           ],
           [
             "illudersi",
-            "to fool oneself"
+            "credere a una cosa bella che non è vera"
           ],
           [
             "pretendere",
-            "to demand"
+            "volere qualcosa come se fosse un diritto"
+          ],
+          [
+            "chiarire",
+            "spiegare per eliminare un dubbio o un malinteso"
+          ],
+          [
+            "fare pace",
+            "tornare amici dopo una lite"
           ],
           [
             "inaspettato",
-            "unexpected"
+            "che non si aspettava, una sorpresa"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Non mi [[aspettavo#im]] una cosa simile. (expected)",
-          "{pp:È stato} un [[equivoco]]. (misunderstanding)",
-          "[[Chiunque]] {csp:venga}, {imv:digli} che non ci {ip:sono}. (whoever)",
-          "Non mi {ip:devi} [[rimproverare]]. (to reproach)"
+          {
+            "q": "Il film {pp:è stato} una ___: me lo {im:aspettavo} molto più bello.",
+            "options": [
+              "*delusione",
+              "fiducia",
+              "aspettativa"
+            ]
+          },
+          {
+            "q": "Non {pp:abbiamo litigato}: {pp:è stato} solo un ___.",
+            "options": [
+              "*malinteso",
+              "rimprovero",
+              "orgoglio"
+            ]
+          },
+          {
+            "q": "Per ___ non {ip:vuole} chiedere scusa.",
+            "options": [
+              "*orgoglio",
+              "fiducia",
+              "delusione"
+            ]
+          },
+          {
+            "q": "{imv:Fidati}: non ti {fs:deluderò}! Puoi avere ___ in me.",
+            "options": [
+              "*fiducia",
+              "aspettativa",
+              "equivoco"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Mi [[aspettavo#im]] che {csi:fosse} più caro.",
+          "Non {ip:è} quello che {pp:ho detto}: mi {pp:hai} [[frainteso#pp]].",
+          "Dopo una settimana di silenzio, {pp:abbiamo fatto} [[pace]].",
+          "{ip:Sono} un po' [[deluso|delusa]]: {im:speravo} in un voto più alto.",
+          "Non {ip:posso} venire stasera. — Che [[peccato]]!"
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Cara Giovanna, ti {ip:scrivo} perché {cop:vorrei} che tu {csi:sapessi} la verità. Quando {pp:sei partita}, {im:credevo} che {cst:fossi arrabbiata} con me e {pp:ho pensato} che non {csi:volessi} più vedermi. {im:Speravo} che mi {csi:telefonassi}, ma non l'{pp:hai fatto}.",
-      "Solo adesso {pp:ho scoperto} che ti {tp:avevano detto} che {tp:ero partito} anch'io. Mi {ip:dispiace} che tu {csa:abbia creduto} a quella storia. {ip:È} la cosa più triste che mi {csa:sia capitata}. Non {ip:pretendo} che tu mi {csp:perdoni} subito, ma {ip:spero} che tu {csp:possa} leggere queste righe senza rabbia. Tuo, Andrea"
+      {
+        "h": "La posta dei lettori"
+      },
+      "*Cara Silvia,* {ip:ho} trentacinque anni e fino a un mese fa {im:avevo} un'amica, Elena, che {ip:conosco} dalle elementari. Al mio compleanno l'{pp:ho invitata} a cena con altri amici. {im:Speravo} tanto che {csi:venisse}, e invece non {pp:è venuta} e non mi {pp:ha} nemmeno {pp:scritto}. Io {pp:ho pensato} che si {cst:fosse dimenticata} di me e non l'{pp:ho} più {pp:chiamata}.",
+      "Ieri {pp:ho scoperto} che quella sera suo padre {im:era} all'ospedale. Lei {im:credeva} che qualcuno me l'{cst:avesse detto}; io {im:pensavo} che non le {csi:importasse} niente. Adesso {ip:mi vergogno}, ma {ip:ho} paura che {csp:sia} troppo tardi. {ip:È} l'amica più cara che {csa:abbia mai avuto}. Che cosa {ip:devo} fare? *Marta*",
+      "*Cara Marta,* non {ip:credo} che {csp:sia} troppo tardi. Un malinteso come il vostro {ip:è} il più comune che ci {csp:sia}: ognuna {im:pensava} che l'altra {csi:sapesse} tutto. Non c'{ip:è} niente che tu non {csp:possa} chiarire con una telefonata. Chiunque al tuo posto {cpa:avrebbe pensato} la stessa cosa, quindi non essere troppo dura con te stessa. {imv:Chiamala} oggi, non domani: qualunque cosa ti {csp:dica}, {fs:sarà} meglio del silenzio. *Silvia*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "What did Andrea think when Giovanna left?",
+            "q": "Da quanto tempo Marta {ip:conosce} Elena?",
             "options": [
-              "*That she was angry with him",
-              "That she was ill",
-              "That she would be back soon"
+              "*dalle elementari",
+              "dall'università",
+              "da un mese"
             ]
           },
           {
-            "q": "What was Giovanna told?",
+            "q": "Perché Elena non {pp:è venuta} alla cena?",
             "options": [
-              "That Andrea had married",
-              "*That Andrea had left too",
-              "That Andrea was angry"
+              "*Suo padre {im:era} all'ospedale.",
+              "Si {tp:era dimenticata}.",
+              "{im:Era} arrabbiata con Marta."
             ]
           },
           {
-            "q": "What does Andrea hope?",
+            "q": "Che cosa {im:credeva} Elena?",
             "options": [
-              "That she will come back tomorrow",
-              "That she will phone at once",
-              "*That she can read the letter without anger"
+              "*che qualcuno {cst:avesse avvisato} Marta",
+              "che Marta non la {csi:volesse} più vedere",
+              "che la cena {csi:fosse} un altro giorno"
             ]
           },
           {
-            "q": "Why does the letter use the congiuntivo so much?",
+            "q": "Che cosa le {ip:consiglia} Silvia?",
             "options": [
-              "Because it is about the future",
-              "*Because it expresses feelings, hopes and beliefs",
-              "Because it is very informal"
+              "*di telefonare a Elena subito",
+              "di scriverle una lettera",
+              "di aspettare che {csp:chiami} Elena"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Elena {pp:ha mandato} un messaggio a Marta per scusarsi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Marta {pp:ha pensato} che Elena l'{cst:avesse dimenticata}.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Adesso Marta si {ip:vergogna}.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Silvia {ip:pensa} che sia ormai troppo tardi.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme del congiuntivo.",
+        "questions": [
+          "{im:Speravo} tanto che [[venisse#csi]].",
+          "{pp:Ho pensato} che si [[fosse dimenticata#cst]] di me.",
+          "{ip:È} l'amica più cara che [[abbia mai avuto#csa]].",
+          "Non c'{ip:è} niente che tu non [[possa#csp]] chiarire.",
+          "Qualunque cosa ti [[dica#csp]], {fs:sarà} meglio del silenzio."
         ]
       }
     ]
@@ -356,51 +653,67 @@
   "listening": {
     "transcript": [
       [
-        "Irma",
-        "Ma come? {im:Credevo} che {cst:fossi partito}!"
+        "Sara",
+        "Allora, che tipo di coinquilino {ip:cerchiamo}?"
       ],
       [
-        "Bruno",
-        "{pp:Ho perso} l'aereo. {im:Pensavo} che te l'{cst:avesse detto} Luca."
+        "Davide",
+        "Qualcuno che {csp:sia} ordinato e che non {csp:faccia} feste ogni sera."
       ],
       [
-        "Irma",
-        "No. {im:Speravo} tanto che {csi:venissi} alla festa."
+        "Sara",
+        "E che {csp:paghi} l'affitto puntuale! Quello di prima {im:pensava} che {csi:potessimo} aspettare per mesi."
       ],
       [
-        "Bruno",
-        "Mi {ip:dispiace} che tu {csa:abbia aspettato}."
+        "Davide",
+        "Ieri {pp:ha chiamato} un ragazzo, Matteo. {ip:Sembra} la persona più tranquilla che {csa:abbia mai sentito}."
       ],
       [
-        "Irma",
-        "Non {ip:importa}. {cop:Vorrei} solo che mi {csi:avvisassi} la prossima volta."
+        "Sara",
+        "Speriamo! Chiunque {csp:venga}, {ip:voglio} che le regole {csp:siano} chiare fin dall'inizio."
       ],
       [
-        "Bruno",
-        "Promesso. {ip:È} la cosa minima che io {csp:possa} fare."
+        "Davide",
+        "Hai ragione. Io {cop:vorrei} che {csi:cucinasse} ogni tanto anche per noi!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{im:Credevo} che [[fossi#cst]] {cst:partito}!",
-          "{im:Pensavo} che te l'[[avesse#cst]] {cst:detto} Luca.",
-          "{im:Speravo} tanto che [[venissi#csi]] alla festa.",
-          "{ip:È} la cosa minima che io [[possa#csp]] fare."
+          "Qualcuno che [[sia#csp]] ordinato e che non [[faccia#csp]] feste ogni sera.",
+          "Quello di prima {im:pensava} che [[potessimo#csi]] aspettare per mesi.",
+          "[[Chiunque]] {csp:venga}, {ip:voglio} che le regole {csp:siano} chiare.",
+          "Io {cop:vorrei} che [[cucinasse#csi]] ogni tanto anche per noi!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Why is Bruno still there?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Bruno…",
+            "q": "Che problema c'{im:era} con il coinquilino di prima?",
             "options": [
-              "changed his mind",
-              "*missed his plane",
-              "was waiting for Luca"
+              "*Non {im:pagava} l'affitto puntuale.",
+              "{im:Faceva} troppe feste.",
+              "Non {im:cucinava} mai."
+            ]
+          },
+          {
+            "q": "Com'{ip:è} Matteo, al telefono?",
+            "options": [
+              "*molto tranquillo",
+              "molto disordinato",
+              "molto simpatico ma rumoroso"
+            ]
+          },
+          {
+            "q": "Che cosa {cop:vorrebbe} Davide?",
+            "options": [
+              "*che il nuovo coinquilino {csi:cucinasse} qualche volta",
+              "che {csi:pagasse} di più",
+              "che non {csi:invitasse} nessuno"
             ]
           }
         ]
@@ -411,44 +724,406 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando il congiuntivo dove serve.",
+        "open": true,
         "questions": [
           {
-            "q": "I hoped you would come. (informal)",
-            "a": [
-              "Speravo che venissi.",
-              "Speravo che tu venissi."
+            "q": "Qual {ip:è} la cosa più bella che ti {csa:sia} mai {csa:successa}?"
+          },
+          {
+            "q": "Racconta un malinteso: che cosa {im:pensavi} che {csi:fosse} successo, e che cosa {im:era} successo davvero?"
+          },
+          {
+            "q": "Che tipo di persona {ip:cerchi} come amico o come coinquilino? (*Cerco qualcuno che…*)"
+          },
+          {
+            "q": "Quando {ip:è} stata l'ultima volta che qualcosa ti {pp:ha deluso}? Che cosa ti {im:aspettavi}?"
+          },
+          {
+            "q": "C'{ip:è} qualcosa che {cpa:avresti voluto} che i tuoi genitori ti {cst:avessero detto} prima?"
+          },
+          {
+            "q": "Che cosa {cop:vorresti} che {csi:cambiasse} nella tua città?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Me l'aspettavo diverso"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una coppia davanti a un albergo vecchio e brutto, con la foto del sito internet in mano",
+          "B — Un ragazzo con un regalo in mano davanti a una porta chiusa",
+          "C — Una donna sorpresa davanti a una torta, gli amici dietro gridano «Sorpresa!»",
+          "D — Due amiche che si abbracciano sorridendo dopo una lite"
+        ],
+        "pairs": [
+          [
+            "Ci {im:aspettavamo} che l'albergo {csi:fosse} più bello.",
+            "immagine A"
+          ],
+          [
+            "{im:Pensavo} che {csi:fosse} a casa.",
+            "immagine B"
+          ],
+          [
+            "Non {im:immaginavo} che {cst:aveste organizzato} una festa!",
+            "immagine C"
+          ],
+          [
+            "Per fortuna {pp:abbiamo fatto} pace.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il congiuntivo giusto.",
+        "questions": [
+          "Mi {im:aspettavo} che il concerto (durare) [[durasse#csi]] di più.",
+          "Non {im:pensavo} che tu (partire) [[fossi partito|fossi partita#cst]] già.",
+          "Peccato che ieri non (potere, tu) [[sia potuto|abbia potuto|sia potuta#csa]] venire.",
+          "Mi {ip:dispiace} che le cose (andare) [[siano andate#csa]] così.",
+          "{cpa:Avrei voluto} che (esserci) [[ci foste#csi]] anche voi."
+        ]
+      },
+      {
+        "h": "Prima, durante, dopo"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "{ip:Sono} contento che tu ___ lavoro.",
+            "options": [
+              "*{csa:abbia trovato}",
+              "{cst:avessi trovato}"
             ]
           },
           {
-            "q": "I thought you had left. (informal, to a man)",
-            "a": [
-              "Credevo che fossi partito.",
-              "Pensavo che fossi partito.",
-              "Credevo che tu fossi partito."
+            "q": "{im:Ero} contento che ___ lavoro.",
+            "options": [
+              "*{cst:avessi trovato}",
+              "{csa:abbia trovato}"
             ]
           },
           {
-            "q": "I'm sorry you waited. (informal)",
-            "a": [
-              "Mi dispiace che tu abbia aspettato."
+            "q": "{im:Sapevo} che ___ presto. (dopo)",
+            "options": [
+              "*{cpa:saresti tornato}",
+              "{csi:tornassi}"
             ]
           },
           {
-            "q": "It's the most beautiful film I have seen.",
-            "a": [
-              "È il film più bello che abbia visto.",
-              "È il film più bello che io abbia visto."
-            ]
-          },
-          {
-            "q": "I'm looking for someone who speaks Russian.",
-            "a": [
-              "Cerco qualcuno che parli russo.",
-              "Cerco una persona che parli russo."
+            "q": "{cop:Preferirei} che tu non lo ___ a nessuno.",
+            "options": [
+              "*{csi:dicessi}",
+              "{csp:dica}"
             ]
           }
         ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la storia: prima ([cst:congiuntivo trapassato]), nello stesso momento ([csi:congiuntivo imperfetto]) o dopo ([cpa:condizionale passato]).",
+        "ordered": true,
+        "questions": [
+          "Quando {pp:sono arrivata} alla stazione, {im:pensavo} che il treno (partire) [[fosse partito#cst]] già.",
+          "Invece {im:era} lì: {im:sembrava} che (aspettare) [[aspettasse#csi]] proprio me.",
+          "{im:Ero} sicura che (arrivare, noi) [[saremmo arrivati|saremmo arrivate#cpa]] in orario.",
+          "Ma {pp:abbiamo aspettato} un'ora: {im:pareva} che (esserci) [[ci fosse#csi]] un guasto."
+        ]
+      },
+      {
+        "h": "Cerco qualcuno che…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Annunci: completa con il [csp:congiuntivo presente].",
+        "questions": [
+          "Famiglia con due bambini cerca una baby-sitter che (parlare) [[parli#csp]] inglese.",
+          "Cerco un appartamento che (avere) [[abbia#csp]] un giardino.",
+          "Ristorante cerca un cuoco che (sapere) [[sappia#csp]] fare la pasta fresca.",
+          "Studente cerca qualcuno che gli (dare) [[dia#csp]] lezioni di chitarra."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi un annuncio: che cosa o chi {ip:cerchi}? (*Cerco qualcuno che…, Cerco una casa che…*)",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il mio annuncio:"
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Il più… che: completa con il [csa:congiuntivo passato].",
+        "questions": [
+          "{ip:È} il libro più bello che (leggere, io) [[abbia letto#csa]].",
+          "{ip:È} la città più cara che (visitare, noi) [[abbiamo visitato#csa]].",
+          "{ip:Sei} la persona più simpatica che (conoscere, io) [[abbia conosciuto#csa]].",
+          "{ip:È} stato il viaggio più lungo che (fare, loro) [[abbiano fatto#csa]]."
+        ]
+      },
+      {
+        "h": "Chiunque, dovunque…"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina le due parti della frase.",
+        "pairs": [
+          [
+            "Chiunque {csp:chiami},",
+            "{imv:di'} che non {ip:sono} in casa."
+          ],
+          [
+            "Dovunque {csp:vada},",
+            "{ip:porta} sempre la sua macchina fotografica."
+          ],
+          [
+            "Qualunque cosa {csp:succeda},",
+            "{fs:resteremo} amici."
+          ],
+          [
+            "Comunque {csp:vada},",
+            "{pp:hai fatto} del tuo meglio."
+          ]
+        ]
+      },
+      {
+        "h": "Che sia vero?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Il congiuntivo da solo: completa.",
+        "questions": [
+          "Che (vincere) [[vinca#csp]] il migliore!",
+          "Anna non {ip:risponde} da ieri… che (stare) [[stia#csp]] male?",
+          "Magari (avere, io) [[avessi#csi]] vent'anni di meno!",
+          "Prego, signora, (accomodarsi) [[si accomodi#csp]]."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Vorrei che tu venga con me.",
+            "a": [
+              "Vorrei che tu venissi con me."
+            ]
+          },
+          {
+            "q": "Pensavo che sei già partito.",
+            "a": [
+              "Pensavo che fossi già partito.",
+              "Pensavo che fossi partito."
+            ]
+          },
+          {
+            "q": "Cerco una casa che ha un giardino.",
+            "a": [
+              "Cerco una casa che abbia un giardino."
+            ]
+          },
+          {
+            "q": "Chiunque viene, digli che non ci sono.",
+            "a": [
+              "Chiunque venga, digli che non ci sono."
+            ]
+          },
+          {
+            "q": "Speravo che sei venuto.",
+            "a": [
+              "Speravo che venissi.",
+              "Speravo che fossi venuto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "venissi / che / speravo",
+            "a": [
+              "Speravo che venissi."
+            ]
+          },
+          {
+            "q": "il migliore / vinca / che",
+            "a": [
+              "Che vinca il migliore!",
+              "Che vinca il migliore."
+            ]
+          },
+          {
+            "q": "che / qualcuno / sappia / cerco / cucinare",
+            "a": [
+              "Cerco qualcuno che sappia cucinare."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Il [csi:congiuntivo imperfetto] si scrive sempre con la doppia *s*: *fossi, avessi, parlassi*. Nelle persone *noi* e *loro* l'accento non cade sulla fine: *parlàssimo, venìssero, fòssimo*. E non confondere *noi* del congiuntivo con il [pr:passato remoto]: *che noi parlassimo*, ma *noi parlammo*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "{im:Credevo} che tu ___ a casa.",
+            "options": [
+              "*fossi",
+              "fosi",
+              "fussi"
+            ]
+          },
+          {
+            "q": "{im:Volevano} che noi ___ con loro.",
+            "options": [
+              "*venissimo",
+              "venisimo",
+              "venimmo"
+            ]
+          },
+          {
+            "q": "Se ___ più tempo, {cop:leggerei} di più.",
+            "options": [
+              "*avessi",
+              "avesi",
+              "avvessi"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So scegliere il tempo del congiuntivo: *spero che venga, speravo che venisse, vorrei che venisse*.",
+          "So dire che cerco qualcuno o qualcosa: *Cerco qualcuno che parli cinese.*",
+          "So usare il congiuntivo dopo un superlativo: *il libro più bello che abbia letto*.",
+          "So usare *chiunque, qualunque, dovunque, comunque*.",
+          "So esprimere un augurio o un dubbio: *Che vinca il migliore! Che sia malato?*",
+          "So raccontare un malinteso e parlare di aspettative e delusioni."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Un piccolo cortile di Verona con un balcone di pietra; sotto, una folla di turisti e un muro pieno di bigliettini"
+      },
+      {
+        "text": [
+          "**Le lettere a Giulietta**",
+          "Romeo e Giulietta {ip:sono} personaggi inventati: la loro storia {ip:esisteva} già in alcuni racconti italiani del Cinquecento, e Shakespeare la {pr:rese} famosa in tutto il mondo. Eppure ogni anno migliaia di persone {ip:scrivono} a Giulietta, come se {csi:fosse} una persona vera, e le {ip:spediscono} lettere con un indirizzo semplicissimo: «Giulietta, Verona».",
+          "Negli anni Trenta il custode della cosiddetta tomba di Giulietta {pr:cominciò} a rispondere alle lettere che i visitatori {im:lasciavano}. Oggi lo {ip:fanno} i volontari del Club di Giulietta, le «segretarie di Giulietta»: {ip:rispondono} a tutti, in molte lingue diverse.",
+          "Chi {ip:scrive}? Chiunque {csp:abbia} una pena d'amore: ragazzi che {ip:cercano} qualcuno che li {csp:capisca}, persone che {cop:vorrebbero} che un amore finito {csi:tornasse}, altri che {ip:ringraziano} Giulietta per un matrimonio felice. Molti {ip:scrivono} che non {im:pensavano} che qualcuno gli {cpa:avrebbe risposto} davvero.",
+          "Anche il famoso balcone della Casa di Giulietta ha una storia curiosa: non {ip:è} antico, ma {pp:è stato aggiunto} nel Novecento. Ai visitatori, però, non {ip:sembra} importare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Giulietta {pp:è esistita} davvero.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La storia di Romeo e Giulietta {ip:esisteva} prima di Shakespeare.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Le prime risposte le {pr:scrisse} un custode.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Le segretarie di Giulietta {ip:rispondono} solo in italiano.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il balcone {ip:è} del Trecento.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme del congiuntivo.",
+        "questions": [
+          "{ip:Scrivono} a Giulietta come se [[fosse#csi]] una persona vera.",
+          "Chiunque [[abbia#csp]] una pena d'amore.",
+          "Ragazzi che {ip:cercano} qualcuno che li [[capisca#csp]].",
+          "Persone che {cop:vorrebbero} che un amore finito [[tornasse#csi]]."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Se {csi:dovessi} scrivere a Giulietta, che cosa le {cop:chiederesti}?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Cara Giulietta,"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi una lettera alla rubrica «La posta dei lettori»: racconta un malinteso con un amico, un collega o un familiare e chiedi un consiglio.",
+        "cues": [
+          "Chi {ip:è} questa persona e che rapporto {im:avevate}?",
+          "Che cosa {im:speravi} o ti {im:aspettavi} che {csi:facesse}?",
+          "Che cosa {pp:è successo} davvero? Che cosa {im:pensavi} che {cst:fosse successo}?",
+          "Che cosa {cop:vorresti} che {csi:succedesse} adesso? Che cosa {ip:chiedi} alla rubrica?"
+        ],
+        "start": "Cara Silvia,",
+        "model": "Cara Silvia,\nda tre anni lavoro in un ufficio con Paolo, un collega con cui sono sempre andata d'accordo. Il mese scorso abbiamo preparato insieme un progetto importante, e speravo che alla riunione dicesse che l'avevamo fatto in due.\nInvece ha presentato il progetto come se fosse solo suo. Io ci sono rimasta malissimo e non gli ho più rivolto la parola.\nLa settimana scorsa ho scoperto che il capo gli aveva chiesto di presentarlo da solo, perché io quel giorno ero in ferie. Paolo pensava che lo sapessi.\nVorrei che tornassimo come prima, ma ho paura che sia arrabbiato per il mio silenzio. Che cosa mi consigli?\nGiulia"
       }
     ]
   }

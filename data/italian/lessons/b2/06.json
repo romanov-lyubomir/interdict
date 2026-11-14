@@ -1,158 +1,357 @@
 {
   "title": "La persona a cui {pp:ho telefonato} {pp:ha detto} che {cpa:sarebbe arrivata} tardi",
-  "translation": "The person I phoned said she would arrive late",
-  "topics": "Reported statements, questions and commands, relative clauses with prepositions",
+  "translation": "",
+  "topics": "Il discorso indiretto completo: il congiuntivo e il periodo ipotetico riferiti, i verbi per riferire e le loro costruzioni, *di* + infinito passato, i relativi *il che, per cui, colui che, quanto*, interviste, dichiarazioni e notizie",
   "grammar": {
     "explain": [
+      "Dal livello B1 conosci il discorso indiretto e i pronomi relativi. Qui li usiamo come nei giornali e nelle interviste: per riferire anche frasi con il congiuntivo e il periodo ipotetico, scegliendo il verbo giusto al posto di *dire*.",
       {
-        "h": "Reported speech: the full picture"
-      },
-      "After a reporting verb in the past, each tense moves one step back. Tenses that cannot move further stay as they are.",
-      {
-        "table": {
-          "head": [
-            "Direct",
-            "Reported"
-          ],
-          "rows": [
-            [
-              "[ip:Presente]: «{ip:Parto}.»",
-              "[im:Imperfetto]: {im:partiva}"
-            ],
-            [
-              "[pp:Passato prossimo]: «{pp:Sono partito}.»",
-              "Trapassato: {tp:era partito}"
-            ],
-            [
-              "Futuro: «{fs:Partirò}.»",
-              "[cpa:Condizionale passato]: {cpa:sarebbe partito}"
-            ],
-            [
-              "Condizionale: «{cop:Partirei}.»",
-              "[cpa:Condizionale passato]: {cpa:sarebbe partito}"
-            ],
-            [
-              "[csp:Congiuntivo presente]: «{ip:Penso} che {csp:parta}.»",
-              "[csi:Congiuntivo imperfetto]: {im:pensava} che {csi:partisse}"
-            ],
-            [
-              "[im:Imperfetto], trapassato: no change",
-              "{im:partiva}, {tp:era partito}"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Reported questions"
-      },
-      "A reported question can use the indicative or, more formally, the *congiuntivo*: *Mi {pp:ha chiesto} dove {im:andavo}* or *dove {csi:andassi}*. A question with no question word takes *se*.",
-      {
-        "h": "Reported commands"
-      },
-      "A command becomes *di* + infinitive: *«{imv:Vieni}!» → Mi {pp:ha detto} di venire*. To express strong will, you can use *che* + *congiuntivo*: *{pp:Ha ordinato} che tutti {csi:uscissero}*.",
-      {
-        "h": "Reporting verbs"
-      },
-      "To avoid repeating *dire*, choose a verb that shows the speaker's intention: *affermare* (state), *spiegare* (explain), *rispondere* (answer), *ammettere* (admit), *negare* (deny), *promettere* (promise), *suggerire* (suggest).",
-      {
-        "h": "Relative clauses: the choices"
-      },
-      {
-        "table": {
-          "head": [
-            "Pronoun",
-            "When",
-            "Example"
-          ],
-          "rows": [
-            [
-              "che",
-              "subject or direct object",
-              "La persona che {pp:ho chiamato}."
-            ],
-            [
-              "cui",
-              "after a preposition",
-              "La persona a cui {pp:ho telefonato}."
-            ],
-            [
-              "il quale",
-              "formal, or to avoid ambiguity",
-              "Il fratello di Anna, il quale {ip:vive} a Roma."
-            ],
-            [
-              "il cui",
-              "whose",
-              "Lo scrittore il cui libro {pp:ho letto}."
-            ]
-          ]
-        }
-      },
-      "*Il quale* shows gender and number, so it can clear up doubts. In *Il fratello di Anna, che {ip:vive} a Roma* it's unclear who lives there. In *Il fratello di Anna, la quale {ip:vive} a Roma* it is Anna.",
-      "*Il cui* agrees with the thing possessed, not with the owner: *la scrittrice **il** cui libro*, *lo scrittore **la** cui opera*."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il discorso indiretto: il quadro completo",
+              "head": [
+                "discorso diretto",
+                "discorso indiretto (*Ha detto che…*)"
+              ],
+              "rows": [
+                [
+                  "[ip:presente]: «{ip:Sono} stanco.»",
+                  "[im:imperfetto]: {im:**era**} stanco"
+                ],
+                [
+                  "[pp:passato prossimo]: «{pp:Ho finito}.»",
+                  "[tp:trapassato prossimo]: {tp:**aveva finito**}"
+                ],
+                [
+                  "[fs:futuro]: «{fs:Verrò}.»",
+                  "[cpa:condizionale passato]: {cpa:**sarebbe venuto**}"
+                ],
+                [
+                  "[cop:condizionale presente]: «{cop:Verrei}.»",
+                  "[cpa:condizionale passato]: {cpa:**sarebbe venuto**}"
+                ],
+                [
+                  "[csp:congiuntivo presente]: «{ip:Penso} che {csp:sia} vero.»",
+                  "[csi:congiuntivo imperfetto]: {im:pensava} che {csi:**fosse**} vero"
+                ],
+                [
+                  "[csa:congiuntivo passato]: «{ip:Credo} che {csa:sia partito}.»",
+                  "[cst:congiuntivo trapassato]: {im:credeva} che {cst:**fosse partito**}"
+                ],
+                [
+                  "[imv:imperativo]: «{imv:Vieni}!»",
+                  "*di* + infinito: di **venire**"
+                ]
+              ]
+            },
+            "note": "L'[im:imperfetto], il [tp:trapassato prossimo], il [cpa:condizionale passato], il [csi:congiuntivo imperfetto] e il [cst:congiuntivo trapassato] non cambiano: non possono andare più indietro."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il periodo ipotetico nel discorso indiretto",
+              "head": [
+                "discorso diretto",
+                "discorso indiretto"
+              ],
+              "rows": [
+                [
+                  "«Se {ip:ho} tempo, {fs:verrò}.»",
+                  "{pp:Ha detto} che se {im:**aveva**} tempo, {cpa:**sarebbe venuto**}."
+                ],
+                [
+                  "«Se {csi:avessi} tempo, {cop:verrei}.»",
+                  "{pp:Ha detto} che se {cst:**avesse avuto**} tempo, {cpa:**sarebbe venuto**}."
+                ],
+                [
+                  "«Se {cst:avessi avuto} tempo, {cpa:sarei venuto}.»",
+                  "{pp:Ha detto} che se {cst:**avesse avuto**} tempo, {cpa:**sarebbe venuto**}."
+                ]
+              ]
+            },
+            "note": "Nel discorso indiretto al passato il secondo e il terzo tipo diventano uguali: *se* + [cst:congiuntivo trapassato] e [cpa:condizionale passato]. Solo il contesto dice se la cosa era ancora possibile. Anche il primo tipo può prendere questa forma: *se avesse avuto tempo, sarebbe venuto*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Al posto di *dire*",
+              "head": [
+                "verbo",
+                "costruzione",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*affermare, sostenere*",
+                  "che + indicativo",
+                  "{pp:Ha sostenuto} che il progetto {im:era} pronto."
+                ],
+                [
+                  "*ammettere, negare*",
+                  "di + infinito passato",
+                  "{pp:Ha ammesso} **di aver sbagliato**. {pp:Ha negato} **di averlo visto**."
+                ],
+                [
+                  "*promettere, assicurare*",
+                  "di + infinito",
+                  "Ci {pp:ha promesso} **di tornare** presto."
+                ],
+                [
+                  "*consigliare, suggerire*",
+                  "di + infinito",
+                  "Mi {pp:ha consigliato} **di riposarmi**."
+                ],
+                [
+                  "*invitare, convincere*",
+                  "a + infinito",
+                  "Ci {pp:ha invitato} **a restare** a cena."
+                ],
+                [
+                  "*chiedere, domandare*",
+                  "se / dove / come…",
+                  "Mi {pp:ha chiesto} **se** {im:ero} libero."
+                ],
+                [
+                  "*rivelare, confessare*",
+                  "che + indicativo",
+                  "{pp:Ha rivelato} che {tp:aveva vissuto} in Giappone."
+                ]
+              ]
+            },
+            "note": "Quando chi parla e chi fa l'azione sono la stessa persona, si usa *di* + infinito; per un fatto già successo, l'infinito passato: *Ha ammesso di aver mentito* (= che lui aveva mentito)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le domande indirette",
+              "head": [
+                "discorso diretto",
+                "indicativo (più comune)",
+                "congiuntivo (più curato)"
+              ],
+              "rows": [
+                [
+                  "«Dove {ip:vai}?»",
+                  "Mi {pp:ha chiesto} dove {im:**andavo**}.",
+                  "Mi {pp:ha chiesto} dove {csi:**andassi**}."
+                ],
+                [
+                  "«{pp:Hai capito}?»",
+                  "Mi {pp:ha chiesto} se {tp:**avevo capito**}.",
+                  "Mi {pp:ha chiesto} se {cst:**avessi capito**}."
+                ],
+                [
+                  "«Che cosa {fs:farai}?»",
+                  "Mi {pp:ha chiesto} che cosa {cpa:**avrei fatto**}.",
+                  "Mi {pp:ha chiesto} che cosa {cpa:**avrei fatto**}."
+                ]
+              ]
+            },
+            "note": "Nelle domande indirette tutte e due le forme sono giuste: il congiuntivo è più formale e si usa soprattutto per scritto."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Altri relativi",
+              "head": [
+                "relativo",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*il che*",
+                  "e questa cosa",
+                  "{pp:Ha} {pp:smesso} di fumare, **il che** mi {ip:fa} molto piacere."
+                ],
+                [
+                  "*per cui*",
+                  "per questo motivo, quindi",
+                  "{im:Pioveva}, **per cui** {pp:siamo restati} a casa."
+                ],
+                [
+                  "*colui che, coloro che*",
+                  "la persona che, le persone che (formale)",
+                  "**Coloro che** {ip:arrivano} in ritardo non {ip:entrano}."
+                ],
+                [
+                  "*quanto*",
+                  "tutto quello che",
+                  "{imv:Fai} **quanto** {ip:puoi}."
+                ],
+                [
+                  "*dove*",
+                  "in cui",
+                  "La città **dove** {ip:sono nato} {ip:è} piccola."
+                ]
+              ]
+            },
+            "note": "*Il che* si riferisce a tutta la frase prima, non a una parola: *Ha vinto, il che non mi sorprende* = *e il fatto che ha vinto non mi sorprende*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Ripasso: le preposizioni con *cui*",
+              "head": [
+                "",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*a cui*",
+                  "La persona **a cui** {pp:ho telefonato} {pp:ha detto} che {cpa:sarebbe arrivata} tardi."
+                ],
+                [
+                  "*di cui*",
+                  "Il libro **di cui** ti {pp:ho parlato} {ip:è} uscito."
+                ],
+                [
+                  "*con cui*",
+                  "Il collega **con cui** {ip:lavoro} {ip:è} di Napoli."
+                ],
+                [
+                  "*da cui*",
+                  "Il paese **da cui** {ip:vengo} {ip:è} in montagna."
+                ],
+                [
+                  "*il cui*",
+                  "La scrittrice **il cui** libro {pp:ha vinto} {ip:è} giovanissima."
+                ]
+              ]
+            },
+            "note": "*Il cui, la cui, i cui, le cui* si accordano con la cosa posseduta, non con chi la possiede: *lo scrittore **la** cui opera*, *la scrittrice **il** cui libro*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Report each sentence, changing the tense.",
+        "prompt": "Riferisci le frasi: *Marco ha detto che…*",
         "questions": [
-          "«{ip:Arrivo} tardi.» → {pp:Ha detto} che [[arrivava#im]] tardi.",
-          "«{pp:Ho perso} il treno.» → {pp:Ha detto} che [[aveva perso#tp]] il treno.",
-          "«{fs:Arriverò} tardi.» → {pp:Ha detto} che [[sarebbe arrivato#cpa]] tardi.",
-          "«{imv:Telefona} a Maria!» → Mi {pp:ha detto} [[di telefonare]] a Maria.",
-          "«{ip:Sei} stanco?» → Mi {pp:ha chiesto} [[se ero#im]] stanco.",
-          "«{ip:Credo} che {csp:sia} vero.» → {pp:Ha detto} che {im:credeva} che [[fosse#csi]] vero."
+          "«{ip:Sono} in ritardo.» → Marco {pp:ha detto} che [[era#im]] in ritardo.",
+          "«{pp:Ho perso} il treno.» → Marco {pp:ha detto} che [[aveva perso#tp]] il treno.",
+          "«{fs:Arriverò} alle dieci.» → Marco {pp:ha detto} che [[sarebbe arrivato#cpa]] alle dieci.",
+          "«{cop:Vorrei} un caffè.» → Marco {pp:ha detto} che [[avrebbe voluto#cpa]] un caffè.",
+          "«{ip:Credo} che Anna {csp:sia} a casa.» → Marco {pp:ha detto} che {im:credeva} che Anna [[fosse#csi]] a casa."
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with che, cui, or the right form of il quale or il cui.",
+        "prompt": "Il periodo ipotetico nel discorso indiretto: completa.",
         "questions": [
-          "La persona [[a cui]] {pp:ho telefonato} non {ip:risponde}. (to whom)",
-          "Il film [[che]] {pp:ho visto} {im:era} noioso.",
-          "L'azienda [[per cui]] lavoro {ip:è} tedesca. (for which)",
-          "La signora [[con la quale]] {im:parlavi} {ip:è} la mia vicina. (with whom, il quale)",
-          "Lo scrittore [[il cui]] libro {pp:ho letto} {ip:è} di Bari. (whose, masculine thing)"
+          "«Se {csi:potessi}, {cop:partirei}.» → {pp:Ha detto} che se [[avesse potuto#cst]], [[sarebbe partito|sarebbe partita#cpa]].",
+          "«Se {cst:avessi saputo}, {cpa:sarei venuta}.» → {pp:Ha detto} che se [[avesse saputo#cst]], [[sarebbe venuta#cpa]].",
+          "«Se {csi:vincessimo}, {cop:faremmo} una festa.» → {pp:Hanno detto} che se [[avessero vinto#cst]], [[avrebbero fatto#cpa]] una festa."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the best reporting verb.",
+        "prompt": "Scegli il verbo che si adatta alla frase diretta.",
         "questions": [
           {
-            "q": "«{ip:È} vero, {pp:ho sbagliato} io.» → {ip:Ha} ___ di aver sbagliato.",
+            "q": "«Sì, {pp:ho sbagliato} io.» → {pp:Ha} ___ di aver sbagliato.",
             "options": [
               "*ammesso",
-              "promesso",
-              "suggerito"
-            ]
-          },
-          {
-            "q": "«Non l'{pp:ho fatto} io!» → {ip:Ha} ___ di averlo fatto.",
-            "options": [
-              "ammesso",
-              "*negato",
+              "negato",
               "promesso"
             ]
           },
           {
-            "q": "«Ti {fs:aiuterò}.» → {ip:Ha} ___ di aiutarmi.",
+            "q": "«Non l'{pp:ho mai visto}!» → {pp:Ha} ___ di averlo visto.",
             "options": [
-              "negato",
-              "*promesso",
-              "ammesso"
+              "*negato",
+              "ammesso",
+              "suggerito"
             ]
           },
           {
-            "q": "«Perché non {ip:prendi} il treno?» → Mi {ip:ha} ___ di prendere il treno.",
+            "q": "«{fs:Tornerò} presto, {ip:è} sicuro.» → {pp:Ha} ___ di tornare presto.",
             "options": [
-              "*suggerito",
-              "negato",
-              "ammesso"
+              "*promesso",
+              "ammesso",
+              "chiesto"
+            ]
+          },
+          {
+            "q": "«Perché non {ip:resti} a cena?» → Mi {pp:ha} ___ a restare a cena.",
+            "options": [
+              "*invitato",
+              "consigliato",
+              "promesso"
+            ]
+          },
+          {
+            "q": "«{cop:Dovresti} riposarti.» → Mi {pp:ha} ___ di riposarmi.",
+            "options": [
+              "*consigliato",
+              "invitato",
+              "negato"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *di* + infinito passato.",
+        "questions": [
+          "«{pp:Ho mentito}.» → {pp:Ha ammesso} di [[aver mentito|avere mentito]].",
+          "«Non {pp:ho preso} io i soldi.» → {pp:Ha negato} di [[aver preso|avere preso]] i soldi.",
+          "«{pp:Sono uscita} tardi.» → {pp:Ha detto} di [[essere uscita]] tardi.",
+          "«{pp:Abbiamo vinto}!» → {pp:Hanno annunciato} di [[aver vinto|avere vinto]]."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Riferisci le domande: scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "«{ip:Sei} libero stasera?» → Mi {pp:ha chiesto} ___ libero.",
+            "options": [
+              "*se {csi:fossi}",
+              "che {csi:fossi}",
+              "se {fs:sarò}"
+            ]
+          },
+          {
+            "q": "«Dove {ip:abiti}?» → Mi {pp:ha chiesto} dove ___.",
+            "options": [
+              "*{im:abitavo}",
+              "{ip:abito}",
+              "{fs:abiterò}"
+            ]
+          },
+          {
+            "q": "«Che cosa {fs:farai} dopo?» → Mi {pp:ha chiesto} che cosa ___ dopo.",
+            "options": [
+              "*{cpa:avrei fatto}",
+              "{fs:farei}",
+              "{ip:faccio}"
+            ]
+          },
+          {
+            "q": "«{pp:Hai mangiato}?» → Mi {pp:ha chiesto} se ___.",
+            "options": [
+              "*{cst:avessi mangiato}",
+              "{csi:mangiassi}",
+              "{pp:ho mangiato}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *il che, per cui, coloro che, quanto, il cui*.",
+        "questions": [
+          "{ip:Era} tardi, [[per cui]] {pp:abbiamo preso} un taxi.",
+          "{pp:Ha} {pp:superato} l'esame, [[il che]] {ip:è} una bella sorpresa.",
+          "[[Coloro che]] {ip:vogliono} partecipare {ip:devono} iscriversi entro lunedì.",
+          "Ti {fs:dirò} [[quanto]] {ip:so}.",
+          "{ip:È} un regista [[il cui]] ultimo film {pp:ha vinto} a Venezia."
         ]
       }
     ]
@@ -161,138 +360,258 @@
     "words": [
       [
         "l'intervista",
-        "interview"
+        "le domande di un giornalista e le risposte di una persona"
       ],
       [
         "la dichiarazione",
-        "statement"
+        "quello che una persona dice in modo ufficiale"
       ],
       [
         "il portavoce",
-        "spokesperson"
+        "chi parla a nome di un'azienda o di un gruppo"
+      ],
+      [
+        "la conferenza stampa",
+        "un incontro in cui una persona parla ai giornalisti"
       ],
       [
         "la smentita",
-        "denial"
+        "una dichiarazione che dice che una notizia non è vera"
       ],
       [
-        "la riunione",
-        "meeting"
+        "la testimonianza",
+        "il racconto di chi ha visto o vissuto un fatto"
+      ],
+      [
+        "il pettegolezzo",
+        "una chiacchiera, spesso cattiva, sulla vita degli altri"
       ],
       [
         "affermare",
-        "to state"
+        "dire con sicurezza"
+      ],
+      [
+        "sostenere",
+        "affermare un'opinione e difenderla"
       ],
       [
         "ammettere",
-        "to admit"
+        "dire che una cosa è vera, anche se non fa piacere"
       ],
       [
-        "suggerire",
-        "to suggest"
-      ],
-      [
-        "garantire",
-        "to guarantee"
+        "negare",
+        "dire che una cosa non è vera"
       ],
       [
         "rivelare",
-        "to reveal"
+        "far sapere una cosa segreta"
+      ],
+      [
+        "confessare",
+        "ammettere una colpa o un segreto"
+      ],
+      [
+        "suggerire",
+        "dare un'idea o un consiglio"
+      ],
+      [
+        "garantire",
+        "promettere che una cosa sarà così"
+      ],
+      [
+        "lamentarsi",
+        "dire che non si è contenti"
+      ],
+      [
+        "insistere",
+        "chiedere o dire una cosa molte volte"
       ],
       [
         "ufficiale",
-        "official"
+        "deciso o detto da chi ne ha l'autorità"
       ],
       [
         "riservato",
-        "confidential"
+        "che non si può dire a tutti; anche una persona che parla poco di sé"
+      ],
+      [
+        "a nome di",
+        "al posto di, per conto di"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la dichiarazione",
-            "statement"
-          ],
-          [
             "il portavoce",
-            "spokesperson"
+            "chi parla a nome di un'azienda o di un gruppo"
           ],
           [
             "la smentita",
-            "denial"
+            "una dichiarazione che dice che una notizia non è vera"
           ],
           [
-            "affermare",
-            "to state"
+            "rivelare",
+            "far sapere una cosa segreta"
           ],
           [
-            "garantire",
-            "to guarantee"
+            "insistere",
+            "chiedere o dire una cosa molte volte"
           ],
           [
             "riservato",
-            "confidential"
+            "che non si può dire a tutti; anche una persona che parla poco di sé"
+          ],
+          [
+            "il pettegolezzo",
+            "una chiacchiera, spesso cattiva, sulla vita degli altri"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "La [[riunione]] {ip:è} alle dieci. (meeting)",
-          "{pp:Ha} [[ammesso#pp]] il suo errore. (admitted)",
-          "{pp:Ho letto} un'[[intervista]] al ministro. (interview)",
-          "Non {pp:ha voluto} [[rivelare]] il nome. (to reveal)"
+          {
+            "q": "Il ministro {pp:ha parlato} ai giornalisti in una ___.",
+            "options": [
+              "*conferenza stampa",
+              "smentita",
+              "testimonianza"
+            ]
+          },
+          {
+            "q": "{pp:Ha} ___ di aver rubato il portafoglio: {im:era} lui il ladro.",
+            "options": [
+              "*confessato",
+              "negato",
+              "garantito"
+            ]
+          },
+          {
+            "q": "Il vicino si {ip:lamenta} sempre ___ rumore.",
+            "options": [
+              "*del",
+              "al",
+              "per il"
+            ]
+          },
+          {
+            "q": "Questa informazione {ip:è} ___: non {imv:dirla} a nessuno.",
+            "options": [
+              "*riservata",
+              "ufficiale",
+              "garantita"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{pp:Ho letto} un'[[intervista]] con il regista sul giornale di oggi.",
+          "{ip:Parlo} a [[nome]] di tutti i colleghi.",
+          "La notizia non {ip:è} ancora [[ufficiale]].",
+          "{pp:Ha} [[insistito]] tanto che alla fine {pp:ho accettato}.",
+          "Il testimone {pp:ha} [[negato]] di aver visto l'incidente."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Il portavoce dell'azienda per cui {ip:lavora} mio cugino {pp:ha dichiarato} ieri che i licenziamenti annunciati non ci {cpa:sarebbero stati}. {pp:Ha spiegato} che la società {tp:aveva trovato} un nuovo investitore, il cui nome {cpa:sarebbe stato} {cpa:reso} noto entro la fine del mese.",
-      "I sindacati, con i quali l'azienda si {tp:era incontrata} la settimana prima, {pp:hanno chiesto} se le promesse {csi:fossero garantite} per iscritto. Il portavoce {pp:ha risposto} di non preoccuparsi. Mio cugino, che ci {ip:lavora} da vent'anni, mi {pp:ha detto} che ci {cpa:avrebbe creduto} solo vedendo il contratto."
+      {
+        "h": "Una giornata in bottega"
+      },
+      "*Cremona.* {pp:Abbiamo incontrato} Giulia Ferri, trentadue anni, liutaia: {ip:costruisce} violini a mano, come si {ip:fa} in questa città dal Cinquecento. La sua bottega {ip:è} a due passi dal Museo del Violino, dove {ip:sono} esposti strumenti di Stradivari, il cui nome {ip:è} conosciuto in tutto il mondo.",
+      "Giulia ci {pp:ha raccontato} che da bambina {im:suonava} il violino, ma che {im:era} più curiosa di sapere come {csi:fosse} fatto dentro. {pp:Ha ammesso} di non essere mai stata una grande musicista, il che, {pp:ha aggiunto} ridendo, {pp:è stato} una fortuna: altrimenti non {cpa:avrebbe frequentato} la scuola di liuteria.",
+      "Le {pp:abbiamo chiesto} quanto tempo ci {csi:volesse} per costruire un violino. Ci {pp:ha spiegato} che {ip:servono} circa due mesi di lavoro e che ogni strumento {ip:è} diverso, per cui non {ip:esistono} due violini uguali. {pp:Ha sostenuto} che il segreto non {ip:è} nel legno, ma nella pazienza.",
+      "Alla fine le {pp:abbiamo domandato} che cosa {cpa:avrebbe fatto} se non {cst:fosse diventata} liutaia. {pp:Ha risposto} che non ci {tp:aveva} mai {tp:pensato} e che se {cst:avesse dovuto} ricominciare da capo, {cpa:avrebbe scelto} la stessa strada. Ci {pp:ha invitato} a tornare a maggio, quando il suo primo violoncello {cpa:sarebbe stato} pronto."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "What did the spokesperson announce?",
+            "q": "Che lavoro {ip:fa} Giulia?",
             "options": [
-              "New redundancies",
-              "*That there would be no redundancies",
-              "That the firm had closed"
+              "*{ip:costruisce} violini",
+              "{ip:suona} in un'orchestra",
+              "{ip:lavora} al Museo del Violino"
             ]
           },
           {
-            "q": "What did the firm find?",
+            "q": "Che cosa le {im:interessava} da bambina?",
             "options": [
-              "*A new investor",
-              "A new director",
-              "A new factory"
+              "*come {csi:fosse} fatto il violino dentro",
+              "diventare una grande musicista",
+              "la storia di Stradivari"
             ]
           },
           {
-            "q": "What did the unions ask for?",
+            "q": "Quanto tempo ci {ip:vuole} per costruire un violino?",
             "options": [
-              "Higher pay",
-              "A new meeting",
-              "*Written guarantees"
+              "*circa due mesi",
+              "due settimane",
+              "un anno"
             ]
           },
           {
-            "q": "What will convince the cousin?",
+            "q": "Qual {ip:è} il segreto, secondo Giulia?",
             "options": [
-              "The spokesperson's words",
-              "*Seeing the contract",
-              "The unions"
+              "*la pazienza",
+              "il legno",
+              "la musica"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Giulia {ip:dice} di essere sempre stata una grande violinista.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo Giulia, non {ip:esistono} due violini uguali.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Se {csi:potesse} ricominciare, {cop:sceglierebbe} un altro lavoro.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "A maggio {cpa:sarebbe stato} pronto il suo primo violoncello.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i verbi che riferiscono e le forme del discorso indiretto.",
+        "questions": [
+          "{pp:Ha} [[ammesso#pp]] di non essere mai stata una grande musicista.",
+          "Le {pp:abbiamo chiesto} quanto tempo ci [[volesse#csi]] per costruire un violino.",
+          "{pp:Ha} [[sostenuto#pp]] che il segreto non {ip:è} nel legno, ma nella pazienza.",
+          "Se {cst:avesse dovuto} ricominciare da capo, [[avrebbe scelto#cpa]] la stessa strada."
         ]
       }
     ]
@@ -300,51 +619,67 @@
   "listening": {
     "transcript": [
       [
-        "Capo",
-        "{pp:Ha telefonato} la signora Neri?"
+        "Elisa",
+        "Allora, com'{pp:è andata} la riunione con il nuovo direttore?"
       ],
       [
-        "Segretaria",
-        "Sì. {pp:Ha detto} che {cpa:sarebbe arrivata} tardi."
+        "Tommaso",
+        "Bene, credo. Mi {pp:ha chiesto} se {cst:avessi finito} la relazione e io {pp:ho ammesso} di non averla ancora finita."
       ],
       [
-        "Capo",
-        "Le {pp:ha chiesto} se {im:aveva} i documenti?"
+        "Elisa",
+        "E lui?"
       ],
       [
-        "Segretaria",
-        "Sì, e {pp:ha risposto} che li {tp:aveva} già {tp:spediti}."
+        "Tommaso",
+        "Mi {pp:ha detto} di non preoccuparmi, ma di consegnarla entro venerdì. Poi {pp:ha aggiunto} che se {cst:avessimo lavorato} bene, a giugno ci {cpa:sarebbe stato} un premio per tutti."
       ],
       [
-        "Capo",
-        "A chi?"
+        "Elisa",
+        "Davvero? E Bruno, che {pp:ha detto}?"
       ],
       [
-        "Segretaria",
-        "Alla collega con cui {pp:ha parlato} ieri. Mi {pp:ha detto} di ricordarglielo."
+        "Tommaso",
+        "{pp:Ha insistito} per sapere quando {cpa:avremmo avuto} i computer nuovi, il che {pp:ha fatto} ridere tutti."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{pp:Ha detto} che [[sarebbe#cpa]] {cpa:arrivata} tardi.",
-          "Le {pp:ha chiesto} [[se]] {im:aveva} i documenti?",
-          "{pp:Ha risposto} che li [[aveva#tp]] già {tp:spediti}.",
-          "Alla collega con [[cui]] {pp:ha parlato} ieri."
+          "Mi {pp:ha chiesto} se [[avessi finito#cst]] la relazione.",
+          "{pp:Ho ammesso} di non [[averla]] ancora finita.",
+          "Mi {pp:ha detto} di non [[preoccuparmi]].",
+          "{pp:Ha insistito} per sapere quando [[avremmo avuto#cpa]] i computer nuovi, [[il che]] {pp:ha fatto} ridere tutti."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Who received the documents?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The documents were sent to…",
+            "q": "Entro quando Tommaso {ip:deve} consegnare la relazione?",
             "options": [
-              "the boss",
-              "the secretary",
-              "*a colleague"
+              "*entro venerdì",
+              "entro giugno",
+              "entro domani"
+            ]
+          },
+          {
+            "q": "Che cosa {pp:ha promesso} il direttore?",
+            "options": [
+              "*un premio a giugno, se {csi:lavorassero} bene",
+              "computer nuovi per tutti",
+              "un giorno libero"
+            ]
+          },
+          {
+            "q": "Perché tutti {pp:hanno riso}?",
+            "options": [
+              "*per la domanda di Bruno sui computer",
+              "per una battuta del direttore",
+              "perché Tommaso non {tp:aveva finito}"
             ]
           }
         ]
@@ -355,41 +690,410 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi riferendo quello che le persone {pp:hanno detto}.",
+        "open": true,
         "questions": [
           {
-            "q": "He said he would arrive late.",
-            "a": [
-              "Ha detto che sarebbe arrivato tardi."
+            "q": "Qual {ip:è} il miglior consiglio che ti {csa:abbiano} mai {csa:dato}? Chi te l'{pp:ha dato}?"
+          },
+          {
+            "q": "Che cosa ti {im:dicevano} sempre i tuoi genitori quando {im:eri} piccolo?"
+          },
+          {
+            "q": "Racconta una promessa che qualcuno ti {pp:ha fatto}. L'{pp:ha mantenuta}?"
+          },
+          {
+            "q": "Ti {pp:è} mai {pp:capitato} di ammettere di aver sbagliato? Che cosa {pp:hai detto}?"
+          },
+          {
+            "q": "Che cosa ti {pp:hanno chiesto} all'ultimo colloquio di lavoro o all'ultimo esame?"
+          },
+          {
+            "q": "Se {csi:potessi} intervistare una persona famosa, chi {cop:sceglieresti} e che cosa le {cop:chiederesti}?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Che cosa ha detto?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un uomo davanti ai microfoni di molti giornalisti",
+          "B — Un bambino con le mani sporche di marmellata che dice «Non sono stato io!»",
+          "C — Una donna che dà una scatola di cioccolatini a un'amica e sorride",
+          "D — Un medico che parla a un paziente seduto"
+        ],
+        "pairs": [
+          [
+            "{pp:Ha dichiarato} che si {cpa:sarebbe dimesso}.",
+            "immagine A"
+          ],
+          [
+            "{pp:Ha negato} di aver mangiato la marmellata.",
+            "immagine B"
+          ],
+          [
+            "{pp:Ha ringraziato} l'amica per l'aiuto.",
+            "immagine C"
+          ],
+          [
+            "Gli {pp:ha consigliato} di fare più sport.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riferisci con il verbo tra parentesi.",
+        "questions": [
+          "«{fs:Pagherò} io.» (promettere) → {pp:Ha promesso} di [[pagare]] lui.",
+          "«{ip:È} colpa mia.» (ammettere) → {pp:Ha ammesso} che [[era#im]] colpa sua.",
+          "«{imv:Prendete} il treno delle otto.» (consigliare) → Ci {pp:ha consigliato} di [[prendere]] il treno delle otto.",
+          "«Non {pp:ho rubato} niente!» (negare) → {pp:Ha negato} di [[aver rubato|avere rubato]] qualcosa."
+        ]
+      },
+      {
+        "h": "L'intervista"
+      },
+      {
+        "text": [
+          "**Domande a una giovane chef.** — Quando {pp:ha deciso} di diventare cuoca? — A quindici anni, quando {pp:ho cucinato} per la prima volta per tutta la famiglia. — Qual {ip:è} il piatto che le {ip:piace} di più? — Le lasagne di mia nonna. — Che cosa {fs:farà} l'anno prossimo? — {fs:Aprirò} un ristorante tutto mio a Bologna. — Se non {csi:facesse} la cuoca, che cosa {cop:farebbe}? — {cop:Farei} la pasticciera!"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riferisci l'intervista: completa.",
+        "ordered": true,
+        "questions": [
+          "{pp:Ha raccontato} che [[aveva deciso#tp]] di diventare cuoca a quindici anni.",
+          "{pp:Ha detto} che il piatto che le [[piaceva#im]] di più {im:erano} le lasagne di sua nonna.",
+          "{pp:Ha annunciato} che l'anno dopo [[avrebbe aperto#cpa]] un ristorante a Bologna.",
+          "{pp:Ha detto} che se non [[avesse fatto#cst]] la cuoca, [[avrebbe fatto#cpa]] la pasticciera."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Persone, luoghi e tempo: scegli la parola giusta.",
+        "questions": [
+          {
+            "q": "«{fs:Partirò} domani.» → {pp:Ha detto} che {cpa:sarebbe partito} ___.",
+            "options": [
+              "*il giorno dopo",
+              "domani",
+              "ieri"
             ]
           },
           {
-            "q": "She told me to phone Maria.",
-            "a": [
-              "Mi ha detto di telefonare a Maria."
+            "q": "«{ip:Abito} qui da due anni.» → {pp:Ha detto} che {im:abitava} ___ da due anni.",
+            "options": [
+              "*lì",
+              "qui",
+              "qua"
             ]
           },
           {
-            "q": "He asked me if I was tired. (a man speaking)",
-            "a": [
-              "Mi ha chiesto se ero stanco.",
-              "Mi ha chiesto se fossi stanco."
+            "q": "«Questa {ip:è} la mia macchina.» → {pp:Ha detto} che ___ {im:era} la sua macchina.",
+            "options": [
+              "*quella",
+              "questa",
+              "codesta"
             ]
           },
           {
-            "q": "The person I phoned doesn't answer.",
-            "a": [
-              "La persona a cui ho telefonato non risponde."
-            ]
-          },
-          {
-            "q": "The company I work for is German.",
-            "a": [
-              "L'azienda per cui lavoro è tedesca.",
-              "La ditta per cui lavoro è tedesca."
+            "q": "«{pp:Ho finito} ieri.» → {pp:Ha detto} che {tp:aveva finito} ___.",
+            "options": [
+              "*il giorno prima",
+              "ieri",
+              "domani"
             ]
           }
         ]
+      },
+      {
+        "h": "Domande indirette"
+      },
+      {
+        "type": "gap",
+        "prompt": "Riferisci le domande con il congiuntivo.",
+        "questions": [
+          "«Dove {ip:lavori}?» → Mi {pp:ha chiesto} dove [[lavorassi#csi]].",
+          "«{ip:Sei} sposato?» → Mi {pp:ha chiesto} se [[fossi#csi]] sposato.",
+          "«Quando {pp:sei arrivato}?» → Mi {pp:ha chiesto} quando [[fossi arrivato#cst]].",
+          "«{ip:Avete} figli?» → Ci {pp:ha chiesto} se [[avessimo#csi]] figli."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Pensa all'ultima volta che hai conosciuto una persona nuova. Che cosa ti {pp:ha chiesto}? Che cosa le {pp:hai chiesto} tu?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Mi ha chiesto se…"
+          }
+        ]
+      },
+      {
+        "h": "Il che, per cui…"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina le due parti della frase.",
+        "pairs": [
+          [
+            "{pp:Ha} {pp:perso} il treno,",
+            "per cui {pp:è arrivato} tardi."
+          ],
+          [
+            "{pp:Abbiamo vinto} la partita,",
+            "il che non {im:succedeva} da anni."
+          ],
+          [
+            "Coloro che {ip:hanno} il biglietto",
+            "{ip:possono} entrare."
+          ],
+          [
+            "{ip:Prendi}",
+            "quanto ti {ip:serve}."
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il relativo giusto: *a cui, di cui, con cui, da cui, il cui, la cui*.",
+        "questions": [
+          "Il ristorante [[di cui]] ti {pp:ho parlato} {ip:è} chiuso il lunedì.",
+          "L'amica [[con cui]] {pp:sono andata} in vacanza {ip:vive} a Bari.",
+          "{ip:È} un pittore [[i cui]] quadri {ip:sono} al museo.",
+          "Il collega [[a cui]] {pp:ho chiesto} aiuto {pp:è stato} gentilissimo.",
+          "{ip:È} una città [[la cui]] storia {ip:è} antichissima."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Ha detto che verrà il giorno dopo.",
+            "a": [
+              "Ha detto che sarebbe venuto il giorno dopo.",
+              "Ha detto che sarebbe venuta il giorno dopo."
+            ]
+          },
+          {
+            "q": "Ha ammesso di ha sbagliato.",
+            "a": [
+              "Ha ammesso di aver sbagliato.",
+              "Ha ammesso di avere sbagliato."
+            ]
+          },
+          {
+            "q": "Mi ha chiesto se sono libero.",
+            "a": [
+              "Mi ha chiesto se ero libero.",
+              "Mi ha chiesto se fossi libero."
+            ]
+          },
+          {
+            "q": "Ha detto che se avrebbe avuto tempo, sarebbe venuto.",
+            "a": [
+              "Ha detto che se avesse avuto tempo, sarebbe venuto."
+            ]
+          },
+          {
+            "q": "È uno scrittore il cui libri sono famosi.",
+            "a": [
+              "È uno scrittore i cui libri sono famosi."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "di / sbagliato / aver / ha ammesso",
+            "a": [
+              "Ha ammesso di aver sbagliato."
+            ]
+          },
+          {
+            "q": "fossi / mi ha chiesto / libero / se",
+            "a": [
+              "Mi ha chiesto se fossi libero."
+            ]
+          },
+          {
+            "q": "sarebbe / ha detto / tornato / che",
+            "a": [
+              "Ha detto che sarebbe tornato."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Le parole che finiscono in *-ché* hanno l'accento acuto, chiuso: *perché, poiché, affinché, benché, finché*. Così anche *né* (*né… né…*). La *è* con l'accento grave, aperto, è il verbo: *è vero*. Per scrivere *perché* con la tastiera, cerca la *é*: *perchè* è un errore molto comune."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "Mi {pp:ha chiesto} ___ non {im:fossi} venuto.",
+            "options": [
+              "*perché",
+              "perchè",
+              "perche"
+            ]
+          },
+          {
+            "q": "Non {ip:mangia} ___ carne ___ pesce.",
+            "options": [
+              "*né… né",
+              "nè… nè",
+              "ne… ne"
+            ]
+          },
+          {
+            "q": "{ip:Aspetto} ___ non {ip:arrivi}.",
+            "options": [
+              "*finché",
+              "finchè",
+              "finche"
+            ]
+          },
+          {
+            "q": "{ip:Esco}, ___ {csp:piova}.",
+            "options": [
+              "*benché",
+              "benchè",
+              "benche"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So riferire una frase con il congiuntivo: *pensava che fosse vero*.",
+          "So riferire un periodo ipotetico: *ha detto che se avesse avuto tempo, sarebbe venuto*.",
+          "So usare verbi come *ammettere, negare, promettere, consigliare, invitare*.",
+          "So usare *di* + infinito passato: *ha ammesso di aver sbagliato*.",
+          "So riferire una domanda con il congiuntivo: *mi ha chiesto dove abitassi*.",
+          "So usare *il che, per cui, coloro che, quanto*."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Un maestro in giacca e cravatta disegna con il carboncino su un grande blocco di fogli bianchi; davanti a un vecchio televisore, adulti seduti con un quaderno"
+      },
+      {
+        "text": [
+          "**Non è mai troppo tardi**",
+          "Negli anni Cinquanta molti italiani, soprattutto nelle campagne e al Sud, non {im:sapevano} né leggere né scrivere. Inoltre in molte famiglie si {im:parlava} solo il dialetto, per cui l'italiano {im:era} quasi una lingua straniera.",
+          "Nel 1960 la RAI {pr:decise} di provare una cosa nuova: un corso di lettura e scrittura in televisione, per adulti. Si {pr:chiamò} «Non è mai troppo tardi» e il maestro {pr:fu} Alberto Manzi, un giovane insegnante di Roma. Manzi non {im:usava} la lavagna: {im:disegnava} con il carboncino su grandi fogli bianchi, e le lettere {im:diventavano} immagini.",
+          "In tutta Italia la gente si {im:riuniva} davanti a un televisore, spesso l'unico del paese, nei bar o nelle scuole. Chi {im:seguiva} il corso {im:poteva} poi fare l'esame della scuola elementare. Il programma {pr:durò} fino al 1968, e si {ip:dice} che grazie a Manzi moltissimi adulti {csa:abbiano imparato} a leggere e a scrivere.",
+          "Gli storici della lingua {ip:sostengono} che proprio la televisione di quegli anni {csa:abbia aiutato} gli italiani a parlare finalmente una lingua comune."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Negli anni Cinquanta tutti gli italiani {im:sapevano} leggere.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il corso {im:era} per bambini.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Manzi {im:disegnava} su grandi fogli bianchi.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Spesso la gente {im:guardava} il programma tutta insieme.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il programma {pr:durò} solo un anno.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo i relativi e le forme del congiuntivo.",
+        "questions": [
+          "In molte famiglie si {im:parlava} solo il dialetto, [[per cui]] l'italiano {im:era} quasi una lingua straniera.",
+          "[[Chi]] {im:seguiva} il corso {im:poteva} poi fare l'esame.",
+          "Si {ip:dice} che moltissimi adulti [[abbiano imparato#csa]] a leggere.",
+          "Gli storici {ip:sostengono} che la televisione [[abbia aiutato#csa]] gli italiani."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Chi {pp:è stato} l'insegnante più importante per te? Che cosa ti {im:diceva}? Che cosa ti {pp:ha insegnato}?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Hai intervistato una persona che fa un lavoro interessante (vera o inventata). Scrivi un articolo e riferisci le sue risposte con il discorso indiretto.",
+        "cues": [
+          "Chi {ip:è}, dove {ip:lavora} e che cosa {ip:fa}?",
+          "Che cosa le {pp:hai chiesto}? Che cosa {pp:ha risposto}? (*Le abbiamo chiesto se…, Ci ha spiegato che…*)",
+          "Usa almeno tre verbi diversi da *dire*: *ammettere, sostenere, raccontare, promettere…*",
+          "Che cosa {cpa:avrebbe fatto} se non {cst:avesse scelto} questo lavoro?"
+        ],
+        "start": "",
+        "model": "Il guardiano del faro\nAbbiamo incontrato Sandro, sessant'anni, che da trent'anni si occupa di un faro su una piccola isola della Toscana.\nGli abbiamo chiesto se non si sentisse solo. Ci ha spiegato che d'inverno a volte non vede nessuno per settimane, ma ha ammesso di non annoiarsi mai: legge, ripara il faro e guarda il mare, il che, secondo lui, basta per essere felici.\nHa raccontato che da ragazzo lavorava in una fabbrica a Milano e che un giorno aveva letto un annuncio sul giornale. Ha sostenuto che quella è stata la decisione più importante della sua vita.\nAlla fine gli abbiamo domandato che cosa avrebbe fatto se non fosse venuto sull'isola. Ha risposto che probabilmente sarebbe rimasto in fabbrica e ci ha invitato a tornare d'estate, quando il mare è più calmo."
       }
     ]
   }

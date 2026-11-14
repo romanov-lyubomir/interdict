@@ -1,0 +1,346 @@
+{
+  "title": "ერთი ყავა, გთხოვთ!",
+  "translation": "One coffee, please!",
+  "topics": "In a café: ordering with *მინდა* (I want) and *გთხოვთ* (please), asking the price, the lari",
+  "interface": "english",
+  "titles": {
+    "grammar": "Grammar",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+  "grammar": {
+    "explain": [
+      "Georgian cafés and restaurants are a big part of daily life. In this lesson you learn to order, ask how much it costs and pay.",
+      {
+        "h": "I want…"
+      },
+      "*მინდა* means *I want*: *მინდა ყავა* (*I want a coffee*). *Do you want…?* to a friend is *გინდა*…? The thing you want doesn't change: *ყავა, ჩაი, წყალი*.",
+      {
+        "table": {
+          "head": [
+            "Georgian",
+            "meaning"
+          ],
+          "rows": [
+            [
+              "რა გნებავთ?",
+              "what would you like? (the waiter, politely)"
+            ],
+            [
+              "მინდა…",
+              "I want…"
+            ],
+            [
+              "ერთი ყავა, გთხოვთ.",
+              "one coffee, please."
+            ],
+            [
+              "ყავა თუ ჩაი?",
+              "coffee or tea?"
+            ],
+            [
+              "რა ღირს?",
+              "how much is it?"
+            ],
+            [
+              "ანგარიში, გთხოვთ.",
+              "the bill, please."
+            ],
+            [
+              "ინებეთ.",
+              "here you are."
+            ]
+          ]
+        }
+      },
+      "*გთხოვთ* is the polite *please*; to a friend you can say *გთხოვ*. *თუ* means *or* in a question: *ყავა თუ ჩაი?*",
+      {
+        "h": "Paying"
+      },
+      "The Georgian money is the lari (*ლარი*); one lari has 100 tetri (*თეთრი*). After a number, *ლარი* stays singular: *ხუთი ლარი* (*five lari*).",
+      "More numbers: 11 *თერთმეტი*, 12 *თორმეტი*, 15 *თხუთმეტი*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "What do you say?",
+        "questions": [
+          {
+            "q": "You want to order a tea.",
+            "options": [
+              "*ერთი ჩაი, გთხოვთ.",
+              "ანგარიში, გთხოვთ.",
+              "რა ღირს?"
+            ]
+          },
+          {
+            "q": "You want to pay.",
+            "options": [
+              "*ანგარიში, გთხოვთ.",
+              "მინდა ყავა.",
+              "ინებეთ."
+            ]
+          },
+          {
+            "q": "You want to know the price.",
+            "options": [
+              "*რა ღირს?",
+              "რა გნებავთ?",
+              "ყავა თუ ჩაი?"
+            ]
+          },
+          {
+            "q": "You give the money to the waiter.",
+            "options": [
+              "*ინებეთ.",
+              "გთხოვთ.",
+              "სასიამოვნოა."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the order.",
+        "questions": [
+          "[[მინდა]] ერთი ხაჭაპური. (I want)",
+          "ორი ყავა, [[გთხოვთ]]. (please)",
+          "ყავა [[თუ]] ჩაი? (or)",
+          "რა [[ღირს]]? (how much)"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each price to the number.",
+        "pairs": [
+          [
+            "5 ლარი",
+            "ხუთი ლარი"
+          ],
+          [
+            "10 ლარი",
+            "ათი ლარი"
+          ],
+          [
+            "12 ლარი",
+            "თორმეტი ლარი"
+          ],
+          [
+            "15 ლარი",
+            "თხუთმეტი ლარი"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "ყავა",
+        "coffee"
+      ],
+      [
+        "ჩაი",
+        "tea"
+      ],
+      [
+        "წყალი",
+        "water"
+      ],
+      [
+        "ღვინო",
+        "wine"
+      ],
+      [
+        "ლუდი",
+        "beer"
+      ],
+      [
+        "წვენი",
+        "juice"
+      ],
+      [
+        "ხაჭაპური",
+        "khachapuri, cheese bread"
+      ],
+      [
+        "ხინკალი",
+        "khinkali, dumplings"
+      ],
+      [
+        "სალათი",
+        "salad"
+      ],
+      [
+        "ნამცხვარი",
+        "cake"
+      ],
+      [
+        "მინდა",
+        "I want"
+      ],
+      [
+        "გთხოვთ",
+        "please (polite)"
+      ],
+      [
+        "ანგარიში",
+        "the bill"
+      ],
+      [
+        "ლარი",
+        "lari (Georgian money)"
+      ],
+      [
+        "გემრიელი",
+        "tasty"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "ყავა",
+            "coffee"
+          ],
+          [
+            "წყალი",
+            "water"
+          ],
+          [
+            "ლუდი",
+            "beer"
+          ],
+          [
+            "წვენი",
+            "juice"
+          ],
+          [
+            "ნამცხვარი",
+            "cake"
+          ],
+          [
+            "ანგარიში",
+            "the bill"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Which one is not a drink?",
+        "questions": [
+          {
+            "q": "Choose the food.",
+            "options": [
+              "*ხინკალი",
+              "ჩაი",
+              "ღვინო"
+            ]
+          },
+          {
+            "q": "Choose the food.",
+            "options": [
+              "*სალათი",
+              "წვენი",
+              "წყალი"
+            ]
+          },
+          {
+            "q": "Choose the food.",
+            "options": [
+              "*ხაჭაპური",
+              "ლუდი",
+              "ყავა"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      {
+        "h": "Luka orders"
+      },
+      "მიმტანი: გამარჯობათ! რა გნებავთ?",
+      "ლუკა: ერთი ყავა და ერთი ხაჭაპური, გთხოვთ.",
+      "მიმტანი: ყავა რძით?",
+      "ლუკა: არა, შავი, გთხოვთ. და ერთი წყალიც.",
+      "…",
+      "ლუკა: ძალიან გემრიელია! ანგარიში, გთხოვთ. რა ღირს?",
+      "მიმტანი: თხუთმეტი ლარი.",
+      "ლუკა: ინებეთ. მადლობა!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Read the dialogue and choose.",
+        "questions": [
+          {
+            "q": "What does Luka eat?",
+            "options": [
+              "*khachapuri",
+              "khinkali",
+              "a salad"
+            ]
+          },
+          {
+            "q": "How does he want his coffee?",
+            "options": [
+              "*black, without milk",
+              "with milk",
+              "with sugar"
+            ]
+          },
+          {
+            "q": "What else does he order?",
+            "options": [
+              "*water",
+              "wine",
+              "juice"
+            ]
+          },
+          {
+            "q": "How much does he pay?",
+            "options": [
+              "*15 lari",
+              "5 lari",
+              "50 lari"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the order in Georgian.",
+        "questions": [
+          "One tea, please. → ერთი [[ჩაი]], გთხოვთ.",
+          "I want water. → მინდა [[წყალი]].",
+          "The bill, please. → [[ანგარიში]], გთხოვთ.",
+          "Thank you! → [[მადლობა]]!"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "You are in a café in Tbilisi. Write what you order.",
+        "open": true,
+        "questions": [
+          {
+            "q": "გამარჯობა! მინდა…"
+          }
+        ]
+      }
+    ]
+  }
+}

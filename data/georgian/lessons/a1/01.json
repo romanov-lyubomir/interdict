@@ -1,0 +1,422 @@
+{
+  "title": "მამა",
+  "translation": "Dad",
+  "topics": "The Georgian script, the five vowels ა ე ი ო უ and the letters მ ნ ლ რ ს",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "აეილმნორსუ",
+  "grammar": {
+    "explain": [
+      "Georgian has its own alphabet, *mkhedruli*: 33 round, curly letters, used only for Georgian and its sister languages. It looks hard, but it is one of the most regular alphabets in the world:",
+      {
+        "ul": [
+          "One letter, one sound: every letter is always read the same way, and every sound has its own letter. Once you know the letters, you can read any word aloud.",
+          "No capital letters: a sentence or a name starts with the same letter as any other word.",
+          "It is written from left to right, like English.",
+          "Every letter is pronounced, also at the end of a word: there are no silent letters."
+        ]
+      },
+      "The writing of Georgian is so special that UNESCO lists it as part of the world's cultural heritage. In this lesson you learn the five vowels and five consonants: with them you can already read your first words.",
+      {
+        "h": "The vowels"
+      },
+      "Georgian vowels are short and clear, as in Italian or Spanish. Tap each letter to see how it sounds and a word that has it.",
+      {
+        "letters": [
+          {
+            "letter": "ა",
+            "latin": "a",
+            "say": "like the a in father",
+            "word": "არა",
+            "word_latin": "ara",
+            "meaning": "no"
+          },
+          {
+            "letter": "ე",
+            "latin": "e",
+            "say": "like the e in bed",
+            "word": "ერთი",
+            "word_latin": "erti",
+            "meaning": "one"
+          },
+          {
+            "letter": "ი",
+            "latin": "i",
+            "say": "like the ee in see, but short",
+            "word": "ია",
+            "word_latin": "ia",
+            "meaning": "violet (the flower)"
+          },
+          {
+            "letter": "ო",
+            "latin": "o",
+            "say": "like the o in for, but short",
+            "word": "ორი",
+            "word_latin": "ori",
+            "meaning": "two"
+          },
+          {
+            "letter": "უ",
+            "latin": "u",
+            "say": "like the oo in food, but short",
+            "word": "უბანი",
+            "word_latin": "ubani",
+            "meaning": "neighbourhood"
+          }
+        ],
+        "lang": "ka"
+      },
+      {
+        "h": "The first consonants"
+      },
+      "The რ is rolled with the tip of the tongue. The ს is always a hissing s, also between two vowels.",
+      {
+        "letters": [
+          {
+            "letter": "მ",
+            "latin": "m",
+            "say": "like the m in mum",
+            "word": "მამა",
+            "word_latin": "mama",
+            "meaning": "dad"
+          },
+          {
+            "letter": "ნ",
+            "latin": "n",
+            "say": "like the n in no",
+            "word": "ნიორი",
+            "word_latin": "niori",
+            "meaning": "garlic"
+          },
+          {
+            "letter": "ლ",
+            "latin": "l",
+            "say": "like the l in lamp",
+            "word": "ლომი",
+            "word_latin": "lomi",
+            "meaning": "lion"
+          },
+          {
+            "letter": "რ",
+            "latin": "r",
+            "say": "a rolled r, as in Italian or Spanish",
+            "word": "რძე",
+            "word_latin": "rdze",
+            "meaning": "milk"
+          },
+          {
+            "letter": "ს",
+            "latin": "s",
+            "say": "like the s in sun, never like a z",
+            "word": "სახლი",
+            "word_latin": "sakhli",
+            "meaning": "house"
+          }
+        ],
+        "lang": "ka"
+      },
+      {
+        "h": "A tip"
+      },
+      "Many letters look alike at first: look at where the loops and tails are, and say the sound aloud each time you write a letter. Tick the box under the letters to hide the sounds and test yourself.",
+      {
+        "h": "Try reading"
+      },
+      "Read each word aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "მამა",
+            "mama",
+            "dad"
+          ],
+          [
+            "ლომი",
+            "lomi",
+            "lion"
+          ],
+          [
+            "ორი",
+            "ori",
+            "two"
+          ],
+          [
+            "სამი",
+            "sami",
+            "three"
+          ],
+          [
+            "მე",
+            "me",
+            "I, me"
+          ],
+          [
+            "ია",
+            "ia",
+            "violet"
+          ],
+          [
+            "ლიმონი",
+            "limoni",
+            "lemon"
+          ],
+          [
+            "მარილი",
+            "marili",
+            "salt"
+          ]
+        ],
+        "lang": "ka"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which letter makes this sound?",
+        "questions": [
+          {
+            "q": "*a*",
+            "options": [
+              "*ა",
+              "ო",
+              "უ"
+            ]
+          },
+          {
+            "q": "*o*",
+            "options": [
+              "*ო",
+              "ა",
+              "ი"
+            ]
+          },
+          {
+            "q": "*i*",
+            "options": [
+              "*ი",
+              "ე",
+              "ლ"
+            ]
+          },
+          {
+            "q": "*m*",
+            "options": [
+              "*მ",
+              "ნ",
+              "ლ"
+            ]
+          },
+          {
+            "q": "*n*",
+            "options": [
+              "*ნ",
+              "მ",
+              "რ"
+            ]
+          },
+          {
+            "q": "*r*",
+            "options": [
+              "*რ",
+              "ს",
+              "ლ"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each letter to its sound.",
+        "pairs": [
+          [
+            "ა",
+            "a"
+          ],
+          [
+            "ე",
+            "e"
+          ],
+          [
+            "ი",
+            "i"
+          ],
+          [
+            "ო",
+            "o"
+          ],
+          [
+            "უ",
+            "u"
+          ],
+          [
+            "მ",
+            "m"
+          ]
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each letter to its sound.",
+        "pairs": [
+          [
+            "ნ",
+            "n"
+          ],
+          [
+            "ლ",
+            "l"
+          ],
+          [
+            "რ",
+            "r"
+          ],
+          [
+            "ს",
+            "s"
+          ],
+          [
+            "ი",
+            "i"
+          ],
+          [
+            "ო",
+            "o"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "მამა",
+        "mama — dad"
+      ],
+      [
+        "ლომი",
+        "lomi — lion"
+      ],
+      [
+        "ორი",
+        "ori — two"
+      ],
+      [
+        "სამი",
+        "sami — three"
+      ],
+      [
+        "მე",
+        "me — I, me"
+      ],
+      [
+        "ლიმონი",
+        "limoni — lemon"
+      ],
+      [
+        "მარილი",
+        "marili — salt"
+      ],
+      [
+        "რა",
+        "ra — what"
+      ],
+      [
+        "ის",
+        "is — he, she, it"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "მამა",
+            "a": [
+              "mama"
+            ]
+          },
+          {
+            "q": "ლომი",
+            "a": [
+              "lomi"
+            ]
+          },
+          {
+            "q": "სამი",
+            "a": [
+              "sami"
+            ]
+          },
+          {
+            "q": "მარილი",
+            "a": [
+              "marili"
+            ]
+          },
+          {
+            "q": "ლიმონი",
+            "a": [
+              "limoni"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "ორი",
+            "two"
+          ],
+          [
+            "სამი",
+            "three"
+          ],
+          [
+            "ლომი",
+            "lion"
+          ],
+          [
+            "მარილი",
+            "salt"
+          ],
+          [
+            "რა",
+            "what"
+          ],
+          [
+            "მე",
+            "I, me"
+          ]
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Georgian. Use the keys above if you don't have a Georgian keyboard.",
+        "questions": [
+          "dad (*mama*) → [[მამა]]",
+          "two (*ori*) → [[ორი]]",
+          "lion (*lomi*) → [[ლომი]]",
+          "I (*me*) → [[მე]]",
+          "three (*sami*) → [[სამი]]"
+        ]
+      }
+    ]
+  }
+}

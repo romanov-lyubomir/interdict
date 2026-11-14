@@ -1,195 +1,381 @@
 {
   "title": "Non ci {ip:credo}: te ne {tp:avevo} già {tp:parlato}",
-  "translation": "I don't believe it: I had already told you about it",
-  "topics": "Combined pronouns in all positions, the different meanings of ci and ne",
+  "translation": "",
+  "topics": "Tutti gli usi di *ci* e *ne*, *ci* e *ne* con gli altri pronomi (*ce l'ho, ce ne, gliene*), il participio con *ne*, i verbi con *ci* (*entrarci, tenerci, starci*) e con *la* o *ne* (*cavarsela, smetterla, intendersene*), notizie, voci e novità",
   "grammar": {
     "explain": [
+      "*Ci* e *ne* sono due parole piccole, ma gli italiani le usano in ogni frase. Qui vediamo tutto quello che possono sostituire e i verbi in cui hanno un significato tutto loro.",
       {
-        "h": "Combined pronouns: where they stand"
-      },
-      "Before a conjugated verb, they stay separate, except *glie-*, which joins the next pronoun. After an infinitive, a gerund or an informal imperative, they form one word with the verb.",
-      {
-        "table": {
-          "head": [
-            "Position",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Before the verb",
-              "Te lo {ip:dico}. Glielo {ip:dico}. Ce li {ip:porta}."
-            ],
-            [
-              "After an infinitive",
-              "{ip:Voglio} dirtelo. {ip:Devo} portarglieli."
-            ],
-            [
-              "With a modal: both are possible",
-              "Te lo {ip:voglio} dire. {ip:Voglio} dirtelo."
-            ],
-            [
-              "After an informal command",
-              "{imv:Dammelo}! {imv:Portaglieli}!"
-            ],
-            [
-              "With a formal command",
-              "Me lo {imv:dia}! Gliela {imv:porti}!"
-            ],
-            [
-              "Negative command",
-              "Non dirmelo! Non me lo dire!"
-            ]
-          ]
-        }
-      },
-      "In the compound tenses, the participle agrees with *lo, la, li, le*, and with *ne* when it means a quantity: *Gliel'{pp:ho dat**a**}. Ce li {pp:ha portat**i**}. Ne {pp:ho mangiat**e**} due.*",
-      {
-        "h": "What ci can replace"
-      },
-      {
-        "table": {
-          "head": [
-            "It replaces",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "a place",
-              "Ci {ip:vado} domani.",
-              "there"
-            ],
-            [
-              "a + thing (idea)",
-              "Non ci {ip:credo}. (credere a)",
-              "in it"
-            ],
-            [
-              "a + thing",
-              "Ci {ip:penso} io. (pensare a)",
-              "about it"
-            ],
-            [
-              "su + thing",
-              "{ip:Puoi} contarci. (contare su)",
-              "on it"
-            ],
-            [
-              "con + person or thing",
-              "Ci {ip:esco} stasera. (uscire con)",
-              "with him / her"
-            ]
-          ]
-        }
-      },
-      "With people, *ci* is usually avoided: *{ip:Penso} a mia madre → {ip:Penso} a lei*, and verbs like *telefonare a* take *gli* or *le*.",
-      {
-        "h": "What ne can replace"
-      },
-      {
-        "table": {
-          "head": [
-            "It replaces",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "a quantity",
-              "Ne {ip:voglio} due.",
-              "of them"
-            ],
-            [
-              "di + thing",
-              "Ne {pp:abbiamo parlato}. (parlare di)",
-              "about it"
-            ],
-            [
-              "da + place",
-              "Ne {pp:sono} appena {pp:uscito}. (uscire da)",
-              "from there"
-            ],
-            [
-              "di + cause",
-              "Ne {ip:sono} contento. (contento di)",
-              "about it"
-            ]
-          ]
-        }
-      },
-      "Many verbs and adjectives take *a* or *di*, so that the preposition tells you which pronoun you need: *ricordarsi di → Me ne {ip:ricordo}*, *riuscire a → Ci riesco*."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Che cosa sostituisce *ci*",
+              "head": [
+                "sostituisce",
+                "esempio",
+                "da dove viene"
+              ],
+              "rows": [
+                [
+                  "un luogo (*a, in, da*)",
+                  "{ip:Vai} a Roma? Sì, **ci** {ip:vado} domani.",
+                  "*andare a Roma*"
+                ],
+                [
+                  "*a* + una cosa",
+                  "Non **ci** {ip:credo}. **Ci** {ip:penso} io.",
+                  "*credere a, pensare a*"
+                ],
+                [
+                  "*su* + una cosa",
+                  "{ip:Puoi} contar**ci**.",
+                  "*contare su*"
+                ],
+                [
+                  "*con* + qualcosa o qualcuno",
+                  "{pp:Hai parlato} con Luca? Sì, **ci** {pp:ho parlato}.",
+                  "*parlare con*"
+                ],
+                [
+                  "*in* + una cosa",
+                  "{ip:Credi} nei fantasmi? No, non **ci** {ip:credo}.",
+                  "*credere in*"
+                ]
+              ]
+            },
+            "note": "Con le persone, dopo *a*, non si usa *ci* ma *gli, le* o *a lui, a lei*: *{ip:Penso} a mia madre → {ip:Penso} a lei.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Che cosa sostituisce *ne*",
+              "head": [
+                "sostituisce",
+                "esempio",
+                "da dove viene"
+              ],
+              "rows": [
+                [
+                  "una quantità",
+                  "Quante mele {ip:vuoi}? **Ne** {ip:voglio} tre.",
+                  "*tre mele*"
+                ],
+                [
+                  "*di* + una cosa",
+                  "Che **ne** {ip:pensi}? Non **ne** {ip:so} niente.",
+                  "*pensare di, sapere di*"
+                ],
+                [
+                  "*di* + una persona",
+                  "{ip:Parlano} sempre di Anna: **ne** {ip:parlano} bene.",
+                  "*parlare di Anna*"
+                ],
+                [
+                  "*da* + un luogo",
+                  "{ip:Entri} nel negozio e **ne** {ip:esci} subito.",
+                  "*uscire dal negozio*"
+                ]
+              ]
+            },
+            "note": "Con una quantità, *ne* è obbligatorio: *Quanti caffè {ip:bevi}? **Ne** {ip:bevo} due* (non *bevo due*)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Ci* e *ne* con gli altri pronomi",
+              "head": [
+                "forma",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "**ce lo, ce la, ce li, ce le**",
+                  "{ip:Porti} tu i bambini al mare? Sì, **ce li** {ip:porto} io."
+                ],
+                [
+                  "**ce l'ho** (*avere* + cosa)",
+                  "{ip:Hai} la patente? Sì, **ce l'ho**. Le chiavi? **Ce le** {ip:ho}."
+                ],
+                [
+                  "**ce n'è, ce ne sono**",
+                  "C'{ip:è} pane? Sì, **ce n'è** ancora. **Ce ne sono** due pezzi."
+                ],
+                [
+                  "**me ne, te ne, ve ne**",
+                  "**Te ne** {ip:do} un po'. **Ve ne** {ip:parlo} domani."
+                ],
+                [
+                  "**gliene**",
+                  "{pp:Ho parlato} a Marco del problema: **gliene** {pp:ho parlato} ieri."
+                ]
+              ]
+            },
+            "note": "Davanti a *lo, la, li, le, ne*, la *i* di *ci, mi, ti, vi* diventa *e*: *ce lo, me ne, te ne, ve ne*. Nel parlato *avere* + oggetto prende spesso *ci*: *ce l'ho, ce li ho*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il participio con *ne*",
+              "head": [
+                "*ne* sostituisce…",
+                "il participio",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "una quantità",
+                  "si accorda con la cosa",
+                  "Di torte, **ne** {pp:ho mangiat**e**} due. Di libri, **ne** {pp:ho lett**i**} tre."
+                ],
+                [
+                  "*di* + una cosa",
+                  "non si accorda",
+                  "Di quella storia **ne** {pp:abbiamo parlat**o**} a lungo."
+                ]
+              ]
+            },
+            "note": "Quando *ne* è una quantità, il participio prende il genere e il numero della cosa: *Di birre, ne {pp:ho bevut**e**} troppe!*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Verbi con *ci*",
+              "head": [
+                "verbo",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*entrarci*",
+                  "avere a che fare",
+                  "Io non **c'{ip:entro}** niente! Che **c'{ip:entra}**?"
+                ],
+                [
+                  "*tenerci*",
+                  "essere molto importante per qualcuno",
+                  "**Ci {ip:tengo}** molto a questo lavoro."
+                ],
+                [
+                  "*starci*",
+                  "essere d'accordo, partecipare",
+                  "{ip:Facciamo} una gita? **Ci {ip:sto}**!"
+                ],
+                [
+                  "*poterci (fare)*",
+                  "poter cambiare una cosa",
+                  "Non **ci {ip:posso}** fare niente."
+                ],
+                [
+                  "*vederci, sentirci*",
+                  "vedere, sentire bene",
+                  "Senza occhiali non **ci {ip:vedo}**. Mio nonno non **ci {ip:sente}**."
+                ],
+                [
+                  "*metterci, volerci*",
+                  "il tempo necessario (lezione B1/12)",
+                  "**Ci {ip:metto}** un'ora. **Ci {ip:vogliono}** due ore."
+                ]
+              ]
+            },
+            "note": "In questi verbi *ci* non sostituisce niente: fa parte del verbo e ne cambia il significato."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Verbi con *la* e con *ne*",
+              "head": [
+                "verbo",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*cavarsela*",
+                  "riuscire in qualche modo",
+                  "Non {ip:parlo} bene il tedesco, ma **me la {ip:cavo}**."
+                ],
+                [
+                  "*passarsela*",
+                  "vivere, stare (bene o male)",
+                  "Come **te la {ip:passi}**? — **Me la {ip:passo}** bene."
+                ],
+                [
+                  "*smetterla*",
+                  "smettere di fare una cosa fastidiosa",
+                  "**{imv:Smettila}** di urlare!"
+                ],
+                [
+                  "*aspettarsela*",
+                  "prevedere una cosa (spesso brutta)",
+                  "Non **me l'{tp:aspettavo}**!"
+                ],
+                [
+                  "*intendersene*",
+                  "conoscere bene un argomento",
+                  "**Me ne {ip:intendo}** di vini."
+                ],
+                [
+                  "*sentirsela*",
+                  "avere il coraggio o la forza",
+                  "Non **me la {ip:sento}** di guidare di notte."
+                ]
+              ]
+            },
+            "note": "Anche qui *la* e *ne* non sostituiscono niente di preciso: fanno parte del verbo. Nei tempi composti il participio si accorda con *la*: *me la sono cavata*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Replace the words in brackets with combined pronouns.",
+        "prompt": "Rispondi con *ci*.",
         "questions": [
-          "[[Te ne]] {pp:ho} già {pp:parlato}. (a te, di questo)",
-          "[[Glielo]] {ip:spiego} io. (a Marco, il problema)",
-          "[[Ce li]] {pp:hanno portati} ieri. (a noi, i documenti)",
-          "{ip:Voglio} [[dirtelo]] adesso. (a te, il segreto – attach to dire)",
-          "[[Portaglieli#imv]] subito! (a lui, i libri – attach to porta)",
-          "[[Me la]] {imv:dia}, per favore. (a me, la ricevuta)"
+          "{ip:Vai} spesso in montagna? — Sì, [[ci]] {ip:vado} ogni inverno.",
+          "{ip:Credi} all'oroscopo? — No, non [[ci]] {ip:credo}.",
+          "{pp:Hai pensato} al regalo per Anna? — Sì, [[ci]] {pp:ho pensato} io.",
+          "{ip:Posso} contare su di te? — Certo, {ip:puoi} [[contarci]].",
+          "{pp:Hai parlato} con il direttore? — Sì, [[ci]] {pp:ho parlato} stamattina."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Rispondi con *ne*.",
+        "questions": [
+          "Quanti fratelli {ip:hai}? — [[Ne]] {ip:ho} due.",
+          "Che cosa {ip:pensi} di questo film? — Che [[ne]] {ip:pensi} tu?",
+          "{ip:Sai} qualcosa della festa? — No, non [[ne]] {ip:so} niente.",
+          "{ip:Vuoi} ancora un po' di caffè? — Sì, [[ne]] {ip:prendo} ancora un po'.",
+          "Quando {ip:esci} dall'ufficio? — [[Ne]] {ip:esco} alle sei."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose ci or ne.",
+        "prompt": "Scegli la forma giusta.",
         "questions": [
           {
-            "q": "Non ___ {ip:credo}. (credere a)",
+            "q": "{ip:Hai} l'ombrello? — Sì, ___.",
             "options": [
-              "*ci",
-              "ne"
+              "*ce l'ho",
+              "c'è l'ho",
+              "ci lo ho"
             ]
           },
           {
-            "q": "___ {pp:abbiamo parlato} ieri. (parlare di)",
+            "q": "C'{ip:è} ancora latte? — Sì, ___ un po'.",
             "options": [
-              "Ci",
-              "*Ne"
+              "*ce n'è",
+              "c'è ne",
+              "ci ne è"
             ]
           },
           {
-            "q": "Non ___ riesco. (riuscire a)",
+            "q": "{pp:Hai parlato} a Luca del viaggio? — Sì, ___ {pp:ho parlato}.",
             "options": [
-              "*ci",
-              "ne"
+              "*gliene",
+              "gli ne",
+              "ce ne"
             ]
           },
           {
-            "q": "Me ___ ricordo bene. (ricordarsi di)",
+            "q": "{ip:Porti} tu le bambine a scuola? — Sì, ___ {ip:porto} io.",
             "options": [
-              "ci",
-              "*ne"
+              "*ce le",
+              "ci le",
+              "ce li"
             ]
           },
           {
-            "q": "{ip:Puoi} contar___ . (contare su)",
+            "q": "Quanti biscotti ti {ip:do}? — ___ due.",
             "options": [
-              "*ci",
-              "ne"
-            ]
-          },
-          {
-            "q": "___ {ip:sono} contento. (contento di)",
-            "options": [
-              "Ci",
-              "*Ne"
+              "*Dammene",
+              "Dammine",
+              "Damme ne"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Agree the participle.",
+        "prompt": "Completa il participio con *ne*.",
         "questions": [
-          "La lettera? Gliel'{pp:ho} [[data#pp]].",
-          "I libri? Ce li {pp:ha} [[portati#pp]].",
-          "Quante mele {pp:hai mangiato}? Ne {pp:ho} [[mangiate#pp]] due.",
-          "Le chiavi? Me le {pp:ha} [[restituite#pp]]."
+          "Di pizze, ne {pp:abbiamo} [[mangiate#pp]] tre.",
+          "Di libri, quest'anno ne {pp:ho} [[letti#pp]] dieci.",
+          "Di quel film ne {pp:abbiamo} [[parlato#pp]] tutta la sera.",
+          "Di lettere, ne {pp:ho} [[ricevute#pp]] molte.",
+          "Di birra, ne {pp:hai} [[bevuta#pp]] troppa!"
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase al suo significato.",
+        "pairs": [
+          [
+            "Io non c'{ip:entro}.",
+            "Non {ip:ho} niente a che fare con questo."
+          ],
+          [
+            "Ci {ip:tengo} molto.",
+            "Per me {ip:è} molto importante."
+          ],
+          [
+            "Ci {ip:sto}!",
+            "{ip:Sono} d'accordo, {ip:partecipo}."
+          ],
+          [
+            "Me la {ip:cavo}.",
+            "{ip:Riesco} in qualche modo."
+          ],
+          [
+            "Non me l'{tp:aspettavo}.",
+            "{ip:È} una sorpresa."
+          ],
+          [
+            "Me ne {ip:intendo}.",
+            "{ip:Conosco} bene l'argomento."
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Completa con il verbo giusto.",
+        "questions": [
+          {
+            "q": "{imv:Smettila} di lamentarti! Non ci {ip:posso} ___ niente.",
+            "options": [
+              "*fare",
+              "entrare",
+              "stare"
+            ]
+          },
+          {
+            "q": "Senza occhiali non ci ___ bene.",
+            "options": [
+              "*vedo",
+              "sto",
+              "tengo"
+            ]
+          },
+          {
+            "q": "Come ___ passi, Marco? Tutto bene?",
+            "options": [
+              "*te la",
+              "te ne",
+              "ce la"
+            ]
+          },
+          {
+            "q": "{ip:Andiamo} al mare domenica? — Ci ___!",
+            "options": [
+              "*sto",
+              "entro",
+              "tengo"
+            ]
+          }
         ]
       }
     ]
@@ -197,135 +383,260 @@
   "vocabulary": {
     "words": [
       [
-        "la fiducia",
-        "trust"
-      ],
-      [
-        "il pettegolezzo",
-        "gossip"
+        "la novità",
+        "una cosa nuova, una notizia fresca"
       ],
       [
         "la voce",
-        "rumour, voice"
+        "una notizia che gira, non sicura"
       ],
       [
-        "la novità",
-        "news, novelty"
+        "il pettegolezzo",
+        "una chiacchiera sulla vita degli altri"
+      ],
+      [
+        "la fiducia",
+        "il sentimento di chi crede in qualcuno"
+      ],
+      [
+        "la sorpresa",
+        "una cosa che non ci si aspettava"
       ],
       [
         "contare su",
-        "to count on"
-      ],
-      [
-        "fidarsi di",
-        "to trust"
+        "avere fiducia nell'aiuto di qualcuno"
       ],
       [
         "accorgersi di",
-        "to notice"
+        "capire, vedere una cosa che prima non si notava"
       ],
       [
         "rendersi conto di",
-        "to realise"
-      ],
-      [
-        "rinunciare a",
-        "to give up"
+        "capire bene una situazione"
       ],
       [
         "riuscire a",
-        "to manage to"
+        "essere capace di fare una cosa, farcela"
       ],
       [
         "credere a",
-        "to believe"
+        "pensare che una cosa sia vera"
+      ],
+      [
+        "credere in",
+        "avere fiducia in qualcuno o in un'idea"
+      ],
+      [
+        "entrarci",
+        "avere a che fare con qualcosa"
+      ],
+      [
+        "tenerci",
+        "essere molto importante per qualcuno"
+      ],
+      [
+        "starci",
+        "essere d'accordo, partecipare"
+      ],
+      [
+        "cavarsela",
+        "riuscire in qualche modo, anche con difficoltà"
+      ],
+      [
+        "smetterla",
+        "smettere di fare una cosa fastidiosa"
+      ],
+      [
+        "intendersene",
+        "conoscere bene un argomento"
+      ],
+      [
+        "girare (una voce)",
+        "passare da una persona all'altra"
       ],
       [
         "sul serio",
-        "seriously"
+        "davvero, non per scherzo"
+      ],
+      [
+        "figurati!",
+        "ma no, non c'è problema; oppure: non ci credo!"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "la fiducia",
-            "trust"
-          ],
-          [
-            "fidarsi di",
-            "to trust"
+            "la voce",
+            "una notizia che gira, non sicura"
           ],
           [
             "accorgersi di",
-            "to notice"
+            "capire, vedere una cosa che prima non si notava"
           ],
           [
             "rendersi conto di",
-            "to realise"
+            "capire bene una situazione"
           ],
           [
-            "rinunciare a",
-            "to give up"
+            "cavarsela",
+            "riuscire in qualche modo, anche con difficoltà"
           ],
           [
             "sul serio",
-            "seriously"
+            "davvero, non per scherzo"
+          ],
+          [
+            "la novità",
+            "una cosa nuova, una notizia fresca"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the preposition each verb takes.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Mi {ip:fido} [[di]] te.",
-          "Non {pp:ho rinunciato} [[al]] viaggio.",
-          "{pp:Sei riuscito} [[a]] finire?",
-          "Non mi {pp:sono reso} conto [[del]] problema."
+          {
+            "q": "In ufficio {ip:gira} ___ che il capo {fs:andrà} in pensione.",
+            "options": [
+              "*voce",
+              "sorpresa",
+              "fiducia"
+            ]
+          },
+          {
+            "q": "Non mi {pp:sono} ___ che {im:era} così tardi!",
+            "options": [
+              "*accorto",
+              "reso",
+              "riuscito"
+            ]
+          },
+          {
+            "q": "Non {ip:credo} ___ fantasmi.",
+            "options": [
+              "*nei",
+              "ai",
+              "dei"
+            ]
+          },
+          {
+            "q": "Grazie mille! — ___! {pp:È stato} un piacere.",
+            "options": [
+              "*Figurati",
+              "Sul serio",
+              "Ci sto"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{ip:Dici} sul [[serio]]? Non ci {ip:credo}!",
+          "Non mi {ip:rendo} [[conto]] di quanto {csp:sia} difficile.",
+          "Ci {ip:sono} [[novità]]? — Sì, Laura {ip:aspetta} un bambino!",
+          "{ip:Sei} la persona su cui {ip:conto} di più: {ip:ho} [[fiducia]] in te.",
+          "Non {pp:sono} [[riuscito|riuscita]] a finire in tempo."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Ti {ip:ricordi} di Davide, il nostro compagno di università? Te ne {tp:avevo} già {tp:parlato}: {pp:ha lasciato} un ottimo lavoro in banca per aprire un agriturismo in Abruzzo. All'inizio nessuno ci {im:credeva}. Sua madre non se n'{pp:è} neppure {pp:accorta} per mesi, perché lui non gliel'{tp:aveva detto}.",
-      "Ora ci {ip:vive} tutto l'anno con la moglie e tre cani. {pp:Sono andata} a trovarlo: ci {pp:sono stata} una settimana e me ne {ip:sono} innamorata. Mi {pp:ha dato} due bottiglie del suo olio, ma ne {pp:ho} già {pp:regalata} una. Se {ip:vuoi}, te la {ip:porto}. {ip:Puoi} contarci!"
+      {
+        "h": "Una casa a un euro"
+      },
+      "Cara Laura, {pp:hai sentito} l'ultima novità? Ti {ip:ricordi} di Marta, la mia collega di Torino? Te ne {tp:avevo} già {tp:parlato}: quella che {ip:voleva} cambiare vita. Beh, l'{pp:ha fatto} sul serio! {pp:Ha comprato} una casa a un euro in un paesino della Sicilia.",
+      "Quando me l'{pp:ha detto}, non ci {pp:ho creduto}. Ma {ip:è} vero: da qualche anno alcuni paesi, soprattutto al Sud, {ip:vendono} così le case vecchie e vuote, perché la gente se n'{pp:è andata}. C'{ip:è} però una condizione: chi le {ip:compra} {ip:deve} rimetterle a posto entro pochi anni.",
+      "Marta ci {pp:è andata} a vivere a marzo. Mi {ip:dice} che in paese ci {ip:sono} più gatti che abitanti, ma lei ci {ip:sta} benissimo. Per i lavori ci {pp:sono voluti} molti più soldi di quanto {csi:pensasse}, ma se la {ip:cava}: {ip:lavora} online e la sera {ip:va} in piazza a chiacchierare con i vicini.",
+      "Io non me l'{cop:sentirei}, lo {ip:ammetto}. Ma lei ci {ip:tiene} tanto e {ip:dice} che non se n'{pp:è} mai {pp:pentita}. Se {ip:vuoi}, quest'estate ci {ip:andiamo} insieme: mi {pp:ha invitato} e io gliel'{pp:ho promesso}. Ci {ip:stai}? Un abbraccio, Sara"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Davide used to work in a bank.",
+            "q": "Chi {ip:è} Marta?",
             "options": [
-              "*True",
-              "False"
+              "*una collega di Sara",
+              "la sorella di Laura",
+              "una vicina di casa di Sara"
             ]
           },
           {
-            "q": "His mother knew from the start.",
+            "q": "Perché alcuni paesi {ip:vendono} case a un euro?",
             "options": [
-              "True",
-              "*False"
+              "*perché molti abitanti {pp:sono andati} via",
+              "perché le case {ip:sono} nuove",
+              "perché {ip:vogliono} attirare i gatti"
             ]
           },
           {
-            "q": "The writer spent a week at the farm.",
+            "q": "Che cosa {ip:deve} fare chi {ip:compra} la casa?",
             "options": [
-              "*True",
-              "False"
+              "*rimetterla a posto entro pochi anni",
+              "viverci tutto l'anno",
+              "pagare le tasse del paese"
             ]
           },
           {
-            "q": "She still has both bottles of oil.",
+            "q": "Che cosa {ip:propone} Sara a Laura?",
             "options": [
-              "True",
-              "*False"
+              "*di andare insieme da Marta quest'estate",
+              "di comprare anche lei una casa",
+              "di scrivere a Marta"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Sara {pp:ha creduto} subito alla notizia.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "I lavori {pp:sono costati} più del previsto.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Marta si {pp:è pentita} della sua scelta.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Sara {cop:farebbe} volentieri la stessa scelta.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo *ci* e *ne*, da soli o con altri pronomi.",
+        "questions": [
+          "[[Te ne]] {tp:avevo} già {tp:parlato}.",
+          "Quando me l'{pp:ha detto}, non [[ci]] {pp:ho creduto}.",
+          "Per i lavori [[ci]] {pp:sono voluti} molti più soldi.",
+          "Ma se [[la]] {ip:cava}: {ip:lavora} online.",
+          "{ip:Dice} che non [[se n']]{pp:è} mai {pp:pentita}."
         ]
       }
     ]
@@ -333,51 +644,76 @@
   "listening": {
     "transcript": [
       [
-        "Lea",
-        "{pp:Hai saputo} di Davide? Non ci {ip:credo} ancora."
+        "Pietro",
+        "Ciao Giada! Quanto tempo! Come te la {ip:passi}?"
       ],
       [
-        "Nico",
-        "Sì, me l'{pp:ha detto} Paola. Ne {pp:avete parlato}?"
+        "Giada",
+        "Me la {ip:cavo}, dai. {pp:Ho cambiato} lavoro, sai? Non me l'{im:aspettavo} nemmeno io."
       ],
       [
-        "Lea",
-        "Certo, gliel'{pp:ho chiesto} ieri, ma non me ne {pp:ha voluto} parlare."
+        "Pietro",
+        "Sul serio? E come ti {ip:trovi}?"
       ],
       [
-        "Nico",
-        "Si {ip:fida} di te. {fs:Riproverò} io a dirglielo."
+        "Giada",
+        "Bene, ma ci {ip:metto} un'ora per arrivare in ufficio. Senti, {ip:hai} una penna? {ip:Devo} scrivermi un numero."
       ],
       [
-        "Lea",
-        "Ci {fs:riuscirai}?"
+        "Pietro",
+        "Sì, ce l'{ip:ho}… eccola. Ah, sabato {ip:facciamo} una cena da me. Ci {ip:stai}?"
       ],
       [
-        "Nico",
-        "Non lo {ip:so}, ma ci {ip:provo}. {imv:Contaci}!"
+        "Giada",
+        "Ci {ip:sto}! Ma non {imv:dirlo} a Franco, per favore."
+      ],
+      [
+        "Pietro",
+        "Perché? Che c'{ip:entra} Franco?"
+      ],
+      [
+        "Giada",
+        "Niente, niente… te ne {ip:parlo} sabato!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Non [[ci]] {ip:credo} ancora.",
-          "[[Me l']]{pp:ha detto} Paola.",
-          "Non me [[ne]] {pp:ha voluto} parlare.",
-          "{fs:Riproverò} io a [[dirglielo]]."
+          "Come te la [[passi#ip]]?",
+          "Me la [[cavo#ip]], dai.",
+          "{ip:Hai} una penna? — Sì, [[ce l']]{ip:ho}.",
+          "Sabato {ip:facciamo} una cena da me. Ci [[stai#ip]]?",
+          "Che c'[[entra#ip]] Franco?"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Who told Nico?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Nico heard the news from…",
+            "q": "Che novità {ip:ha} Giada?",
             "options": [
-              "Lea",
-              "*Paola",
-              "Davide"
+              "*{pp:Ha cambiato} lavoro.",
+              "Si {pp:è sposata}.",
+              "{pp:Ha comprato} casa."
+            ]
+          },
+          {
+            "q": "Quanto ci {ip:mette} Giada per andare in ufficio?",
+            "options": [
+              "*un'ora",
+              "mezz'ora",
+              "due ore"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:chiede} Giada a Pietro?",
+            "options": [
+              "*di non dire niente a Franco",
+              "di invitare Franco",
+              "di prestarle la macchina"
             ]
           }
         ]
@@ -388,44 +724,408 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando *ci* e *ne* dove puoi.",
+        "open": true,
         "questions": [
           {
-            "q": "I don't believe it.",
-            "a": [
-              "Non ci credo.",
-              "Io non ci credo."
+            "q": "Quante lingue {ip:parli}? E quante ne {cop:vorresti} imparare?"
+          },
+          {
+            "q": "Che cosa {ip:pensi} delle case a un euro? Ci {cop:andresti} a vivere?"
+          },
+          {
+            "q": "C'{ip:è} un argomento di cui te ne {ip:intendi} molto?"
+          },
+          {
+            "q": "A che cosa ci {ip:tieni} di più nella vita?"
+          },
+          {
+            "q": "Racconta una volta in cui {pp:hai dovuto} cavartela da solo in una situazione difficile."
+          },
+          {
+            "q": "Qual {ip:è} l'ultima notizia che ti {pp:ha sorpreso}? Te l'{im:aspettavi}?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Ce l'hai?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una ragazza mostra una patente nuova e sorride",
+          "B — Un frigorifero quasi vuoto con una sola bottiglia di latte",
+          "C — Un uomo anziano con la mano dietro l'orecchio per sentire meglio",
+          "D — Un turista con una cartina che parla a gesti con un passante"
+        ],
+        "pairs": [
+          [
+            "Finalmente ce l'{ip:ho}!",
+            "immagine A"
+          ],
+          [
+            "Di latte ce n'{ip:è} ancora un po'.",
+            "immagine B"
+          ],
+          [
+            "Non ci {ip:sente} bene.",
+            "immagine C"
+          ],
+          [
+            "Non {ip:parla} la lingua, ma se la {ip:cava}.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Rispondi con *ce l'ho, ce li ho, ce le ho* o *non ce l'ho*.",
+        "questions": [
+          "{ip:Hai} il passaporto? — Sì, [[ce l'ho]].",
+          "{ip:Hai} le chiavi? — Sì, [[ce le ho]].",
+          "{ip:Hai} i biglietti? — Sì, [[ce li ho]].",
+          "{ip:Hai} la macchina? — No, non [[ce l'ho]]."
+        ]
+      },
+      {
+        "h": "Quanti ne vuoi?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Al mercato. Rispondi con *ne*.",
+        "ordered": true,
+        "questions": [
+          "Quante arance {ip:vuole}? — [[Ne]] {ip:vorrei} un chilo.",
+          "E pomodori? — [[Ne]] {ip:prendo} mezzo chilo.",
+          "Le {ip:serve} anche del basilico? — Sì, [[ne]] {ip:prendo} un mazzetto.",
+          "{ip:Vuole} delle uova? — No, grazie, [[ne]] {ip:ho} ancora a casa."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa il participio con *ne*.",
+        "questions": [
+          "Quante foto {pp:hai fatto}? — Ne {pp:ho} [[fatte#pp]] duecento!",
+          "Quanti esami {pp:hai dato}? — Ne {pp:ho} [[dati#pp]] quattro.",
+          "Quante città {pp:avete visitato}? — Ne {pp:abbiamo} [[visitate#pp]] cinque.",
+          "Quanto vino {pp:avete bevuto}? — Ne {pp:abbiamo} [[bevuto#pp]] poco."
+        ]
+      },
+      {
+        "h": "Ci penso io"
+      },
+      {
+        "type": "choice",
+        "prompt": "*Ci* o *ne*?",
+        "questions": [
+          {
+            "q": "{ip:Pensi} spesso al futuro? — Sì, ___ {ip:penso} spesso.",
+            "options": [
+              "*ci",
+              "ne"
             ]
           },
           {
-            "q": "We talked about it yesterday.",
-            "a": [
-              "Ne abbiamo parlato ieri.",
-              "Ieri ne abbiamo parlato."
+            "q": "Che cosa {ip:pensi} di Roma? — ___ {ip:penso} tutto il bene possibile.",
+            "options": [
+              "*Ne",
+              "Ci"
             ]
           },
           {
-            "q": "I had already told you about it. (informal)",
-            "a": [
-              "Te ne avevo già parlato."
+            "q": "{ip:Sei} contento del risultato? — Sì, ___ {ip:sono} molto contento.",
+            "options": [
+              "*ne",
+              "ci"
             ]
           },
           {
-            "q": "I'll explain it to him. (a problem, il problema)",
-            "a": [
-              "Glielo spiego io.",
-              "Glielo spiego.",
-              "Glielo spiegherò."
+            "q": "{ip:Credi} a quello che {ip:dice}? — No, non ___ {ip:credo}.",
+            "options": [
+              "*ci",
+              "ne"
             ]
           },
           {
-            "q": "You can count on it. (informal)",
-            "a": [
-              "Puoi contarci.",
-              "Ci puoi contare."
+            "q": "{ip:Hai} paura dei ragni? — Sì, ___ {ip:ho} paura.",
+            "options": [
+              "*ne",
+              "ci"
             ]
           }
         ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Rispondi con due pronomi: *gliene, ce ne, me ne, te ne, ve ne*.",
+        "questions": [
+          "{pp:Hai parlato} a Luisa del problema? — Sì, [[gliene]] {pp:ho parlato}.",
+          "Quanti biglietti ci {ip:dai}? — [[Ve ne]] {ip:do} due.",
+          "Mi {ip:presti} qualche libro? — Sì, [[te ne]] {ip:presto} tre.",
+          "Ci {ip:sono} posti liberi? — Sì, [[ce ne]] {ip:sono} ancora molti."
+        ]
+      },
+      {
+        "h": "Ci sto!"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *entrarci, tenerci, starci, poterci, vederci* al presente.",
+        "questions": [
+          "Senza luce non [[ci vedo]] niente.",
+          "{ip:Andiamo} al cinema stasera? — Sì, [[ci sto]]!",
+          "Lascialo stare, lui non [[c'entra]] niente.",
+          "Mi {ip:dispiace}, ma non [[ci posso]] fare niente.",
+          "{imv:Vieni} alla mia festa: [[ci tengo]] molto!"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Che cosa ti {ip:propongono} gli amici di solito? Quando {ip:dici} «Ci sto!» e quando no?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Me la cavo"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *cavarsela, smetterla, aspettarsela, sentirsela, intendersene*.",
+        "questions": [
+          "{ip:Parlo} poco il francese, ma [[me la cavo]].",
+          "[[Smettila|Smettetela]] di fare rumore!",
+          "{pp:Ha vinto} lui? Non [[me l'aspettavo]] proprio!",
+          "{ip:È} troppo alto: non [[me la sento]] di saltare.",
+          "{imv:Chiedi} a Paolo, lui [[se ne intende]] di computer."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Quanti figli hai? Ho due.",
+            "a": [
+              "Quanti figli hai? Ne ho due."
+            ]
+          },
+          {
+            "q": "Hai la patente? Sì, c'è l'ho.",
+            "a": [
+              "Hai la patente? Sì, ce l'ho."
+            ]
+          },
+          {
+            "q": "Di mele ne ho mangiato tre.",
+            "a": [
+              "Di mele ne ho mangiate tre."
+            ]
+          },
+          {
+            "q": "Ho parlato a Marco e gli ne ho parlato bene.",
+            "a": [
+              "Ho parlato a Marco e gliene ho parlato bene."
+            ]
+          },
+          {
+            "q": "Penso a mia madre: ci penso sempre.",
+            "a": [
+              "Penso a mia madre: penso sempre a lei."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "l' / ce / ho",
+            "a": [
+              "Ce l'ho.",
+              "Ce l'ho!"
+            ]
+          },
+          {
+            "q": "intendo / ne / me",
+            "a": [
+              "Me ne intendo."
+            ]
+          },
+          {
+            "q": "c' / niente / entro / non / io",
+            "a": [
+              "Io non c'entro niente.",
+              "Non c'entro niente io."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*C'è* (*ci* + *è*) vuol dire *esiste, si trova*: *c'è un problema*. *Ce* senza apostrofo si usa davanti a *lo, la, li, le, ne*: *ce l'ho, ce n'è, ce ne sono*. Attenzione: *c'è l'ho* e *c'è n'è* sono errori molto comuni, anche tra gli italiani."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "___ un messaggio per te.",
+            "options": [
+              "*C'è",
+              "Ce",
+              "Cè"
+            ]
+          },
+          {
+            "q": "Il pane? Sì, ___ ancora.",
+            "options": [
+              "*ce n'è",
+              "c'è n'è",
+              "c'è ne"
+            ]
+          },
+          {
+            "q": "Le chiavi? Sì, ___ io.",
+            "options": [
+              "*ce le ho",
+              "c'è le ho",
+              "ce l'ho"
+            ]
+          },
+          {
+            "q": "Quanti posti ___ ancora?",
+            "options": [
+              "*ce ne sono",
+              "c'è ne sono",
+              "ce n'è"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare *ci* per un luogo o una cosa: *ci vado, ci penso, ci credo*.",
+          "So usare *ne* per una quantità o un argomento: *ne voglio due, ne parliamo*.",
+          "So usare *ce l'ho, ce n'è, gliene*.",
+          "So accordare il participio con *ne*: *ne ho mangiate tre*.",
+          "So usare *entrarci, tenerci, starci*.",
+          "So usare *cavarsela, smetterla, aspettarsela, intendersene*."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il banco di un vecchio bar di Napoli con le tazzine bianche e una lavagnetta con scritto «Caffè sospesi: 3»"
+      },
+      {
+        "text": [
+          "**Il caffè sospeso**",
+          "A Napoli il caffè {ip:è} quasi una cosa sacra: se ne {ip:bevono} tanti al giorno, al banco, in piedi, e ognuno {ip:ha} il suo bar preferito. Da questa passione {ip:è} nata un'abitudine gentile: il caffè sospeso.",
+          "Come {ip:funziona}? Chi {ip:entra} al bar ed {ip:è} di buon umore {ip:paga} due caffè, ma ne {ip:beve} solo uno. L'altro {ip:resta} «sospeso»: il barista se lo {ip:segna} e lo {ip:offre} più tardi a una persona che non {ip:può} permetterselo e che {ip:entra} a chiedere: «C'{ip:è} un sospeso?»",
+          "Nessuno {ip:sa} con precisione quando {csa:sia nata} questa tradizione. Lo scrittore napoletano Luciano De Crescenzo, che ci {im:teneva} molto, ne {pr:scrisse} come di un caffè offerto all'umanità. Negli ultimi anni l'idea {pp:ha fatto} il giro del mondo, e oggi ci {ip:sono} bar in molti paesi dove si {ip:può} lasciare un caffè, ma anche un panino o un libro, a chi ne {ip:ha} bisogno."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "A Napoli il caffè si {ip:beve} spesso in piedi al banco.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Chi {ip:lascia} un caffè sospeso ne {ip:paga} due e ne {ip:beve} uno.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il caffè sospeso {ip:è} per il barista.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Si {ip:sa} esattamente in che anno {ip:è} nata la tradizione.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Oggi l'idea {ip:esiste} solo a Napoli.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo *ci* e *ne*.",
+        "questions": [
+          "Se [[ne]] {ip:bevono} tanti al giorno.",
+          "{ip:Paga} due caffè, ma [[ne]] {ip:beve} solo uno.",
+          "Luciano De Crescenzo, che [[ci]] {im:teneva} molto…",
+          "Si {ip:può} lasciare un caffè a chi [[ne]] {ip:ha} bisogno."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Nel tuo paese c'{ip:è} un'abitudine gentile come il caffè sospeso? Ne {ip:conosci} qualcuna?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi un'e-mail a un amico per raccontargli una novità su una persona che conoscete tutti e due.",
+        "cues": [
+          "Di chi si {ip:tratta}? {imv:Ricordagli} chi {ip:è}: *Ti ricordi di…? Te ne avevo parlato…*",
+          "Qual {ip:è} la novità? Come l'{pp:hai saputo}? Ci {pp:hai creduto} subito?",
+          "Come se la {ip:cava} questa persona adesso? Ci {ip:tiene} alla sua scelta?",
+          "{imv:Proponi} all'amico di fare qualcosa insieme: *Ci stai?*"
+        ],
+        "start": "Caro Matteo,",
+        "model": "Caro Matteo,\nti ricordi di Gianni, il nostro compagno di classe che suonava la chitarra in fondo all'aula? Te ne avevo parlato l'anno scorso, quando l'avevo incontrato a Bologna.\nBeh, ho saputo una novità incredibile: ha lasciato il lavoro in banca e ha aperto una scuola di musica! Quando me l'hanno detto, non ci ho creduto, ma è proprio così.\nL'ho chiamato ieri: mi ha detto che all'inizio ci sono voluti molti sacrifici, ma che adesso se la cava bene e ha già quaranta allievi. Si vede che ci tiene tantissimo.\nA dicembre fa un concerto con i suoi studenti. Io ci vado di sicuro. Ci stai? Fammi sapere!\nUn abbraccio,\nLuca"
       }
     ]
   }

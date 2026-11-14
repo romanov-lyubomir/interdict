@@ -1,225 +1,419 @@
 {
   "title": "{ip:Accetto}, a condizione che tu {csp:resti}; ciononostante, {ip:ho} dei dubbi",
-  "translation": "I accept, on condition that you stay; nevertheless, I have doubts",
-  "topics": "Subordinate clauses and the choice of mood, precise logical connectors",
+  "translation": "",
+  "topics": "Le relazioni logiche a livello avanzato: le congiunzioni che cambiano senso con il modo, la concessione formale e parlata (*quantunque, quand'anche, comunque vada*), opposizione ed eccezione (*bensì, piuttosto che, fuorché, se non*), i connettivi formali (*pertanto, ciononostante, peraltro*), le relazioni con un nome (*in caso di, a fronte di*); lavoro, sindacati e trattative",
   "grammar": {
     "explain": [
+      "Conosci le congiunzioni di causa, conseguenza, scopo e concessione e i connettivi più comuni (*tuttavia, eppure, anzi, infatti*). A questo livello impari le congiunzioni che cambiano senso con il modo, le forme più formali (e più colloquiali) della concessione, come esprimere un'opposizione o un'eccezione, i connettivi della lingua scritta e il modo di dire una relazione con un solo nome.",
       {
-        "h": "Mood follows meaning"
-      },
-      {
-        "table": {
-          "head": [
-            "Relation",
-            "Conjunctions",
-            "Mood"
-          ],
-          "rows": [
-            [
-              "Cause",
-              "poiché, giacché, dal momento che, visto che, in quanto",
-              "indicative"
-            ],
-            [
-              "Result",
-              "così… che, tanto… che, sicché, cosicché",
-              "indicative"
-            ],
-            [
-              "Purpose",
-              "affinché, acciocché, perché, di modo che",
-              "congiuntivo"
-            ],
-            [
-              "Condition",
-              "purché, a condizione che, a patto che, sempre che, qualora",
-              "congiuntivo"
-            ],
-            [
-              "Concession",
-              "benché, sebbene, quantunque, malgrado, per quanto",
-              "congiuntivo"
-            ],
-            [
-              "Exclusion",
-              "senza che, a meno che",
-              "congiuntivo"
-            ],
-            [
-              "Opposition",
-              "mentre, laddove, anziché",
-              "indicative"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "One conjunction, two moods"
-      },
-      "Some conjunctions change their meaning with the mood.",
-      {
-        "table": {
-          "head": [
-            "Conjunction",
-            "With the indicative",
-            "With the congiuntivo"
-          ],
-          "rows": [
-            [
-              "perché",
-              "Cause: {ip:Resto} perché {ip:piove}.",
-              "Purpose: {ip:Resto} perché tu {csp:possa} uscire."
-            ],
-            [
-              "di modo che",
-              "Result: {pp:Ha parlato} chiaro, di modo che tutti {pp:hanno capito}.",
-              "Purpose: {imv:Parla} chiaro, di modo che tutti {csp:capiscano}."
-            ],
-            [
-              "come",
-              "Manner: {ip:Fai} come {ip:vuoi}.",
-              "Formal indirect question: Non so come sia andata."
-            ]
-          ]
-        }
-      },
-      "*In quanto* has two uses: as a conjunction it gives a cause, *Non partecipa in quanto {ip:è} malato*, and before a noun it gives a role, *In quanto medico, non {ip:posso} tacere*.",
-      {
-        "h": "Connectors between sentences"
-      },
-      "These words make logical relations explicit, and using the right one is a sign of mature writing. They don't affect the mood.",
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Relation",
-            "Example"
-          ],
-          "rows": [
-            [
-              "pertanto",
-              "conclusion, formal",
-              "I dati {ip:sono} incompleti; pertanto, non {ip:possiamo} procedere."
-            ],
-            [
-              "ciononostante",
-              "contrast with what precedes",
-              "{im:Era} malato; ciononostante, {pp:è venuto}."
-            ],
-            [
-              "nondimeno",
-              "contrast, literary",
-              "Il compito {ip:è} arduo; nondimeno, {ip:va} svolto."
-            ],
-            [
-              "tuttavia",
-              "contrast, neutral",
-              "{ip:È} caro; tuttavia, lo {ip:compro}."
-            ],
-            [
-              "bensì",
-              "correction after a negative",
-              "Non {ip:è} un errore, bensì una scelta."
-            ],
-            [
-              "ovvero, ossia",
-              "that is, in other words",
-              "L'ateneo, ossia l'università."
-            ],
-            [
-              "difatti",
-              "confirmation",
-              "{im:Era} tardi; difatti non c'{im:era} nessuno."
-            ]
-          ]
-        }
-      },
-      "*Bensì* appears only after a negative. *Ma* is more general, while *bensì* replaces one idea with another."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Una congiunzione, due significati",
+              "head": [
+                "congiunzione",
+                "primo significato",
+                "secondo significato"
+              ],
+              "rows": [
+                [
+                  "*perché*",
+                  "causa (indicativo): {ip:Resto} perché {ip:piove}.",
+                  "scopo (congiuntivo): {ip:Resto} perché tu {csp:possa} uscire."
+                ],
+                [
+                  "*di modo che*",
+                  "risultato (indicativo): {pp:Ha parlato} chiaro, di modo che tutti {pp:hanno capito}.",
+                  "scopo (congiuntivo): {imv:Parla} chiaro, di modo che tutti {csp:capiscano}."
+                ],
+                [
+                  "*come*",
+                  "modo: {imv:Fai} come {ip:vuoi}.",
+                  "domanda indiretta (formale con il congiuntivo): Non {ip:so} come {csa:sia andata}."
+                ],
+                [
+                  "*mentre*",
+                  "tempo: Mentre {im:parlava}, {pp:è entrato} Luca.",
+                  "contrasto: Lui {ip:lavora}, mentre tu {ip:dormi}."
+                ],
+                [
+                  "*in quanto*",
+                  "causa: Non {ip:partecipa} in quanto {ip:è} malato.",
+                  "ruolo, + nome: In quanto medico, non {ip:posso} tacere."
+                ]
+              ]
+            },
+            "note": "Con *perché* e *di modo che* il modo decide il senso: l'indicativo presenta un fatto (la causa, il risultato), il congiuntivo uno scopo, una cosa che si vuole ottenere."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La concessione: forme formali e parlate",
+              "head": [
+                "forma",
+                "registro",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*quantunque* + congiuntivo",
+                  "formale",
+                  "Quantunque {csi:fosse} stanco, {pp:ha continuato} a trattare."
+                ],
+                [
+                  "*ancorché* + congiuntivo o aggettivo",
+                  "molto formale",
+                  "L'accordo, ancorché provvisorio, {ip:è} valido."
+                ],
+                [
+                  "*quand'anche* + congiuntivo",
+                  "formale: anche nel caso che",
+                  "Quand'anche {csi:accettassero}, il problema {cop:resterebbe}."
+                ],
+                [
+                  "*comunque* + congiuntivo",
+                  "in qualunque modo",
+                  "Comunque {csp:vada}, {fs:sarà} un'esperienza utile."
+                ],
+                [
+                  "*anche a costo di* + infinito",
+                  "anche se dovessi",
+                  "Lo {fs:difenderò}, anche a costo di perdere il posto."
+                ],
+                [
+                  "*con tutto che* + indicativo",
+                  "parlato",
+                  "Con tutto che {pp:ha lavorato} tanto, non l'{pp:hanno promosso}."
+                ]
+              ]
+            },
+            "note": "*Quantunque* e *ancorché* introducono un fatto vero; *quand'anche* un'ipotesi poco probabile. *Con tutto che* è familiare: nello scritto è meglio *benché*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Opposizione e sostituzione",
+              "head": [
+                "forma",
+                "uso",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*bensì*",
+                  "corregge dopo una negazione",
+                  "Non {ip:chiedo} un rinvio, bensì una verifica."
+                ],
+                [
+                  "*piuttosto che, anziché* + infinito",
+                  "preferenza: una cosa invece di un'altra",
+                  "{cop:Preferirei} trattare piuttosto che scioperare."
+                ],
+                [
+                  "✗ *piuttosto che* = *oppure*",
+                  "uso diffuso ma criticato",
+                  "Possiamo vederci lunedì piuttosto che martedì. → lunedì oppure martedì"
+                ],
+                [
+                  "*mentre*",
+                  "contrasto tra due fatti",
+                  "L'azienda {ip:offre} il due per cento, mentre il sindacato ne {ip:chiede} il cinque."
+                ],
+                [
+                  "*laddove*",
+                  "contrasto, molto formale",
+                  "Il primo contratto {im:era} chiaro, laddove questo {ip:è} ambiguo."
+                ],
+                [
+                  "*se non*",
+                  "= soltanto, dopo una negazione",
+                  "Non {ip:resta} altro da fare se non firmare."
+                ]
+              ]
+            },
+            "note": "*Bensì* si usa solo dopo una frase negativa e sostituisce un'idea con un'altra; *ma* è più generale. *Piuttosto che* vuol dire *invece di*: usarlo al posto di *o* crea equivoci (*il tè piuttosto che il caffè* vuol dire che preferisci il tè)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le eccezioni",
+              "head": [
+                "forma",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "*tranne, eccetto, salvo* + nome",
+                  "{pp:Hanno firmato} tutti, tranne due delegati.",
+                  ""
+                ],
+                [
+                  "*fuorché, tranne che* + infinito",
+                  "{cop:Farei} di tutto fuorché licenziarmi.",
+                  ""
+                ],
+                [
+                  "*a parte, a parte che*",
+                  "A parte lo stipendio, il lavoro mi {ip:piace}.",
+                  "parlato e scritto"
+                ],
+                [
+                  "*se non*",
+                  "Non {ip:conosco} nessuno se non il direttore.",
+                  "dopo una negazione"
+                ],
+                [
+                  "*all'infuori di*",
+                  "Non {pp:ha parlato} con nessuno all'infuori di me.",
+                  "formale, dopo una negazione"
+                ],
+                [
+                  "*salvo che* + congiuntivo",
+                  "{fs:Firmeremo} domani, salvo che non {csp:cambi} qualcosa.",
+                  "una condizione (= a meno che)"
+                ]
+              ]
+            },
+            "note": "*Salvo che* + congiuntivo non indica un'eccezione ma una condizione: *firmeremo, a meno che qualcosa non cambi*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I connettivi della lingua formale",
+              "head": [
+                "connettivo",
+                "relazione",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*pertanto*",
+                  "conclusione",
+                  "I dati {ip:sono} incompleti; pertanto, non {ip:possiamo} procedere."
+                ],
+                [
+                  "*ciononostante*",
+                  "contrasto con quello che precede",
+                  "{im:Era} malato; ciononostante, {pp:è venuto}."
+                ],
+                [
+                  "*nondimeno*",
+                  "contrasto, letterario",
+                  "Il compito {ip:è} arduo; nondimeno, {ip:va} svolto."
+                ],
+                [
+                  "*peraltro*",
+                  "aggiunge un'informazione, spesso critica",
+                  "Il piano {ip:è} costoso e, peraltro, poco chiaro."
+                ],
+                [
+                  "*d'altronde, del resto*",
+                  "giustifica con una cosa nota",
+                  "Non {pp:ha accettato}; d'altronde, l'offerta {im:era} bassa."
+                ],
+                [
+                  "*ossia, ovvero*",
+                  "spiega con altre parole",
+                  "Il TFR, ossia la liquidazione, {ip:spetta} a tutti i dipendenti."
+                ],
+                [
+                  "*per giunta*",
+                  "aggiunge qualcosa di negativo",
+                  "{pp:È arrivato} tardi e, per giunta, senza documenti."
+                ]
+              ]
+            },
+            "note": "Questi connettivi non cambiano il modo del verbo. Di solito vanno dopo il punto e virgola o tra virgole. Nella lingua antica e in quella giuridica *ovvero* può significare anche *oppure*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le relazioni con un nome",
+              "head": [
+                "forma",
+                "relazione",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*in caso di*",
+                  "condizione",
+                  "In caso di sciopero, il servizio {fs:sarà} ridotto."
+                ],
+                [
+                  "*in mancanza di*",
+                  "condizione negativa",
+                  "In mancanza di un accordo, si {fs:andrà} in tribunale."
+                ],
+                [
+                  "*in seguito a, a seguito di*",
+                  "causa (formale)",
+                  "In seguito alle proteste, l'azienda {pp:ha ritirato} il piano."
+                ],
+                [
+                  "*in vista di*",
+                  "scopo: un evento futuro",
+                  "In vista delle trattative, il sindacato {pp:ha raccolto} i dati."
+                ],
+                [
+                  "*a fronte di*",
+                  "in cambio di, rispetto a",
+                  "A fronte di un aumento del tre per cento, i lavoratori {ip:accettano} turni più lunghi."
+                ],
+                [
+                  "*in virtù di*",
+                  "sulla base di, grazie a",
+                  "In virtù dell'accordo, i dipendenti {ip:hanno} diritto a un premio."
+                ],
+                [
+                  "*a prescindere da*",
+                  "senza considerare",
+                  "A prescindere dal risultato, la trattativa {pp:è stata} utile."
+                ]
+              ]
+            },
+            "note": "Un nome al posto di una frase rende il testo più compatto e più formale: *Se c'è uno sciopero…* → *In caso di sciopero…* È lo stile dei contratti, dei comunicati e degli articoli."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right mood.",
+        "prompt": "Indicativo o congiuntivo? Scegli secondo il senso.",
         "questions": [
           {
-            "q": "Poiché non ___ risposto, {pp:ho scritto} di nuovo.",
+            "q": "Ti {ip:presto} la macchina perché tu ___ arrivare in tempo.",
             "options": [
-              "*{im:aveva}",
-              "{csi:avesse}"
+              "*{csp:possa}",
+              "{ip:puoi}"
             ]
           },
           {
-            "q": "Malgrado ___ tardi, {pp:ha continuato}.",
+            "q": "Non {ip:esco} perché ___ freddo.",
             "options": [
-              "{im:era}",
-              "*{csi:fosse}"
+              "*{ip:fa}",
+              "{csp:faccia}"
             ]
           },
           {
-            "q": "Ha parlato chiaro, di modo che tutti ___ . (result, it happened)",
+            "q": "In una relazione formale: non {ip:sappiamo} come ___ andata la trattativa.",
             "options": [
-              "*{pp:hanno capito}",
-              "{csi:capissero}"
+              "*{csa:sia}",
+              "{pp:è}"
             ]
           },
           {
-            "q": "{imv:Parla} chiaro, di modo che tutti ___ . (purpose)",
+            "q": "{imv:Parla} chiaro, di modo che tutti ___ .",
             "options": [
-              "{ip:capiscono}",
-              "*{csp:capiscano}"
+              "*{csp:capiscano}",
+              "{ip:capiscono}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "___ {csi:fosse} stanco, {pp:ha continuato} a trattare.",
+            "options": [
+              "*Quantunque",
+              "Con tutto",
+              "Anche a costo"
             ]
           },
           {
-            "q": "{ip:Vengo}, sempre che non ___ .",
+            "q": "___ {csi:accettassero}, il problema {cop:resterebbe}.",
             "options": [
-              "{ip:piove}",
-              "*{csp:piova}"
+              "*Quand'anche",
+              "Con tutto che",
+              "A costo di"
             ]
           },
           {
-            "q": "{ip:Resto} perché tu ___ uscire. (purpose)",
+            "q": "___ {csp:vada}, {fs:sarà} un'esperienza utile.",
             "options": [
-              "{ip:puoi}",
-              "*{csp:possa}"
+              "*Comunque",
+              "Bensì",
+              "Pertanto"
+            ]
+          },
+          {
+            "q": "Lo {fs:difenderò}, anche a costo di ___ il posto.",
+            "options": [
+              "*perdere",
+              "{csp:perda}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the connector: pertanto, ciononostante, bensì or ossia.",
+        "prompt": "Completa con *bensì, mentre, se non, tranne, fuorché*.",
         "questions": [
-          "I dati {ip:sono} incompleti; [[pertanto]], non {ip:possiamo} procedere. (conclusion)",
-          "{im:Era} malato; [[ciononostante]], {pp:è venuto} al lavoro. (contrast)",
-          "Non {ip:è} un errore, [[bensì]] una scelta. (correction)",
-          "L'ateneo, [[ossia]] l'università. (that is)"
+          "Non {ip:chiedo} un rinvio, [[bensì]] una verifica dei dati.",
+          "L'azienda {ip:offre} il due per cento, [[mentre]] il sindacato ne {ip:chiede} il cinque.",
+          "Non {ip:resta} altro da fare [[se non]] firmare.",
+          "{pp:Hanno firmato} tutti, [[tranne|eccetto|salvo]] due delegati.",
+          "{cop:Farei} di tutto [[fuorché|tranne che]] licenziarmi."
         ]
       },
       {
-        "type": "write",
-        "prompt": "Join the two ideas with the word in brackets.",
+        "type": "match",
+        "prompt": "Abbina ogni connettivo alla relazione che esprime.",
+        "pairs": [
+          [
+            "pertanto",
+            "conclusione"
+          ],
+          [
+            "ciononostante",
+            "contrasto con quello che precede"
+          ],
+          [
+            "peraltro",
+            "aggiunge un'informazione, spesso critica"
+          ],
+          [
+            "d'altronde",
+            "giustifica con una cosa nota"
+          ],
+          [
+            "ossia",
+            "spiega con altre parole"
+          ],
+          [
+            "per giunta",
+            "aggiunge qualcosa di negativo"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il connettivo giusto.",
         "questions": [
-          {
-            "q": "{ip:Accetto}. {ip:Devi} restare. (a condizione che)",
-            "a": [
-              "Accetto, a condizione che tu resti."
-            ]
-          },
-          {
-            "q": "{im:Era} tardi. {pp:Ha continuato}. (sebbene)",
-            "a": [
-              "Sebbene fosse tardi, ha continuato.",
-              "Ha continuato sebbene fosse tardi."
-            ]
-          },
-          {
-            "q": "Non {ip:è} malato. {ip:È} stanco. (bensì)",
-            "a": [
-              "Non è malato, bensì stanco."
-            ]
-          }
+          "I dati {ip:sono} incompleti; [[pertanto]], non {ip:possiamo} procedere.",
+          "{im:Era} malato; [[ciononostante|ciò nonostante]], {pp:è venuto} alla riunione.",
+          "Non {pp:ha accettato}; [[d'altronde|del resto]], l'offerta {im:era} bassa.",
+          "Il TFR, [[ossia|ovvero|cioè]] la liquidazione, {ip:spetta} a tutti i dipendenti.",
+          "{pp:È arrivato} tardi e, per [[giunta]], senza documenti."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la relazione con un nome.",
+        "questions": [
+          "In [[caso]] di sciopero, il servizio {fs:sarà} ridotto.",
+          "In [[mancanza]] di un accordo, si {fs:andrà} in tribunale.",
+          "In [[seguito]] alle proteste, l'azienda {pp:ha ritirato} il piano.",
+          "In [[vista]] delle trattative, il sindacato {pp:ha raccolto} i dati.",
+          "A [[prescindere]] dal risultato, la trattativa {pp:è stata} utile."
         ]
       }
     ]
@@ -228,138 +422,274 @@
     "words": [
       [
         "la trattativa",
-        "negotiation"
+        "una discussione per arrivare a un accordo"
       ],
       [
-        "l'accordo",
-        "agreement"
+        "l'intesa",
+        "un accordo raggiunto dopo una discussione"
       ],
       [
         "la controversia",
-        "dispute"
+        "un disaccordo, spesso legale, tra due parti"
       ],
       [
-        "l'ipotesi",
-        "hypothesis"
+        "il sindacato",
+        "l'associazione che difende i diritti dei lavoratori"
+      ],
+      [
+        "lo sciopero",
+        "il fatto di smettere di lavorare per protesta"
+      ],
+      [
+        "il contratto collettivo",
+        "il contratto che vale per tutti i lavoratori di un settore"
+      ],
+      [
+        "la busta paga",
+        "il documento che mostra lo stipendio del mese"
+      ],
+      [
+        "la liquidazione",
+        "i soldi che si ricevono alla fine di un rapporto di lavoro (il TFR)"
+      ],
+      [
+        "il preavviso",
+        "il tempo di avviso prima di lasciare un lavoro o di licenziare qualcuno"
       ],
       [
         "il presupposto",
-        "assumption"
+        "la condizione da cui si parte"
       ],
       [
         "il vincolo",
-        "constraint"
+        "un obbligo che limita la libertà"
       ],
       [
         "concordare",
-        "to agree"
+        "decidere insieme"
       ],
       [
         "negoziare",
-        "to negotiate"
+        "discutere per arrivare a un accordo"
       ],
       [
         "contestare",
-        "to challenge"
+        "dire di non essere d'accordo, opporsi"
       ],
       [
-        "procedere",
-        "to proceed"
+        "recedere",
+        "ritirarsi da un contratto"
+      ],
+      [
+        "scioperare",
+        "fare sciopero"
       ],
       [
         "arduo",
-        "arduous"
+        "molto difficile"
       ],
       [
         "in linea di massima",
-        "broadly speaking"
+        "in generale, salvo eccezioni"
+      ],
+      [
+        "venirsi incontro",
+        "fare ciascuno un passo verso l'altro"
+      ],
+      [
+        "tirare la corda",
+        "insistere troppo, rischiando di rompere tutto"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "la trattativa",
-            "negotiation"
-          ],
-          [
-            "la controversia",
-            "dispute"
-          ],
-          [
-            "il presupposto",
-            "assumption"
+            "il preavviso",
+            "il tempo di avviso prima di lasciare un lavoro o di licenziare qualcuno"
           ],
           [
             "il vincolo",
-            "constraint"
+            "un obbligo che limita la libertà"
           ],
           [
-            "contestare",
-            "to challenge"
+            "recedere",
+            "ritirarsi da un contratto"
           ],
           [
             "in linea di massima",
-            "broadly speaking"
+            "in generale, salvo eccezioni"
+          ],
+          [
+            "venirsi incontro",
+            "fare ciascuno un passo verso l'altro"
+          ],
+          [
+            "tirare la corda",
+            "insistere troppo, rischiando di rompere tutto"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "{pp:Hanno raggiunto} un [[accordo]]. (agreement)",
-          "{ip:Possiamo} [[procedere]] con il piano. (to proceed)",
-          "{ip:È} un compito molto [[arduo]]. (arduous)",
-          "{ip:Dobbiamo} [[concordare]] una data. (to agree on)"
+          {
+            "q": "Alla fine del mese {ip:controllo} sempre la ___ .",
+            "options": [
+              "*busta paga",
+              "trattativa",
+              "controversia"
+            ]
+          },
+          {
+            "q": "Per dare le dimissioni {ip:serve} un mese di ___ .",
+            "options": [
+              "*preavviso",
+              "presupposto",
+              "sindacato"
+            ]
+          },
+          {
+            "q": "Il ___ {pp:ha proclamato} uno sciopero di otto ore.",
+            "options": [
+              "*sindacato",
+              "vincolo",
+              "preavviso"
+            ]
+          },
+          {
+            "q": "Dopo una lunga trattativa {ip:è} stata raggiunta un'___ .",
+            "options": [
+              "*intesa",
+              "liquidazione",
+              "busta paga"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "I lavoratori {pp:hanno} [[scioperato#pp]] per due giorni.",
+          "Le parti {pp:hanno} [[concordato#pp]] un nuovo orario.",
+          "La decisione {pp:è stata} [[contestata#pp]] da metà dei delegati.",
+          "{ip:È} un compito [[arduo]], ma non impossibile.",
+          "In linea di [[massima]] {ip:sono} d'accordo con te."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Le trattative tra il sindacato e l'azienda si {pp:sono concluse} ieri sera, sebbene {csp:restino} aperti alcuni punti. L'accordo {ip:prevede} un aumento salariale del tre per cento, a condizione che la produttività {csp:cresca} nel prossimo biennio. Dal momento che i dati di mercato {ip:sono} incerti, la clausola {pp:è stata} {pp:contestata} da una parte dei lavoratori.",
-      "L'azienda {ip:sostiene} che non si {ip:tratti} di un vincolo, bensì di una garanzia. Ciononostante, molti delegati {pp:hanno votato} contro, affinché il dissenso {csi:restasse} agli atti. Il testo {fs:sarà}, pertanto, sottoposto a referendum, sempre che il consiglio direttivo non {csp:decida} altrimenti."
+      {
+        "h": "L'accordo della notte"
+      },
+      "Dopo diciotto ore di trattativa, alle quattro del mattino, sindacati e azienda {pp:hanno firmato} l'intesa sul nuovo contratto dei duecento dipendenti della cartiera. In seguito alla crisi dell'anno scorso, la proprietà {im:voleva} ridurre il personale; i sindacati, dal canto loro, {im:minacciavano} uno sciopero a oltranza.",
+      "L'accordo {ip:prevede} un aumento del tre per cento, a condizione che la produzione {csp:cresca} nei prossimi due anni. A fronte di questo, i lavoratori {ip:accettano} turni più flessibili. Nessun licenziamento, dunque, bensì un piano di uscite volontarie, con un incentivo per chi {ip:sceglie} di andare in pensione prima.",
+      "Non tutti {ip:sono} soddisfatti. Una parte dei delegati {pp:ha votato} contro, affinché il dissenso {csi:restasse} agli atti: l'aumento, {ip:sostengono}, {ip:è} troppo basso e, per giunta, legato a obiettivi difficili. D'altronde, {ip:ammette} il direttore, quantunque i conti {csa:siano migliorati}, il mercato della carta {ip:resta} incerto.",
+      "In mancanza di un'intesa, l'azienda {cpa:avrebbe dovuto} chiudere uno dei due reparti. Ciononostante, la parola finale {fs:spetterà} ai lavoratori: il testo {fs:sarà} sottoposto a referendum la settimana prossima, salvo che il sindacato non {csp:decida} altrimenti."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "On what is the pay rise conditional?",
+            "q": "Che cosa {im:voleva} fare la proprietà?",
             "options": [
-              "*Productivity growing",
-              "A referendum",
-              "Market data improving"
+              "*ridurre il personale",
+              "chiudere la cartiera",
+              "vendere l'azienda"
             ]
           },
           {
-            "q": "Why was the clause challenged?",
+            "q": "A quale condizione {ip:arriva} l'aumento?",
             "options": [
-              "The rise was too small",
-              "*Market data are uncertain",
-              "It was illegal"
+              "*se la produzione {ip:cresce}",
+              "se i lavoratori {ip:scioperano}",
+              "se il mercato {ip:migliora} subito"
             ]
           },
           {
-            "q": "Why did some delegates vote against?",
+            "q": "Che cosa {ip:accettano} i lavoratori in cambio?",
             "options": [
-              "To stop the deal",
-              "*To put their dissent on record",
-              "To get a higher rise"
+              "*turni più flessibili",
+              "uno stipendio più basso",
+              "meno ferie"
             ]
           },
           {
-            "q": "What happens next?",
+            "q": "Che cosa {fs:succederà} la settimana prossima?",
             "options": [
-              "The deal comes into force at once",
-              "*A referendum, unless the board decides otherwise",
-              "New negotiations"
+              "*un referendum tra i lavoratori",
+              "uno sciopero",
+              "una nuova trattativa"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "L'accordo {ip:prevede} alcuni licenziamenti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Chi {ip:va} in pensione prima {ip:riceve} un incentivo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Tutti i delegati {pp:hanno votato} a favore.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Senza accordo, un reparto {cpa:sarebbe stato} chiuso.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni espressione del testo alla relazione che esprime.",
+        "pairs": [
+          [
+            "In seguito alla crisi…",
+            "causa"
+          ],
+          [
+            "…bensì un piano di uscite volontarie",
+            "correzione dopo una negazione"
+          ],
+          [
+            "A fronte di questo…",
+            "in cambio"
+          ],
+          [
+            "…quantunque i conti {csa:siano migliorati}",
+            "concessione"
+          ],
+          [
+            "In mancanza di un'intesa…",
+            "condizione negativa"
+          ]
         ]
       }
     ]
@@ -368,50 +698,58 @@
     "transcript": [
       [
         "Avvocata",
-        "Il cliente {ip:accetta}, a condizione che i termini {csp:restino} invariati."
+        "Allora, la controparte {ip:accetta}, a condizione che il pagamento {csp:avvenga} in due rate."
       ],
       [
         "Socio",
-        "Sebbene {csp:sia} un buon accordo, {ip:ho} ancora dei dubbi."
+        "Due rate? Quand'anche {csi:pagassero} tutto subito, non mi {cop:fiderei}."
       ],
       [
         "Avvocata",
-        "Dal momento che il tempo {ip:stringe}, {ip:dobbiamo} decidere."
+        "Lo {ip:capisco}. Peraltro, il contratto {ip:prevede} una penale in caso di ritardo."
       ],
       [
         "Socio",
-        "Non {ip:chiedo} un rinvio, bensì una verifica dei dati."
+        "Va bene, ma non {ip:voglio} un rinvio, bensì una data precisa."
       ],
       [
         "Avvocata",
-        "{ip:Va} bene; pertanto, ci {ip:vediamo} domani."
+        "D'accordo. Non {imv:tiriamo} troppo la corda, però: in mancanza di un'intesa, {fs:finiremo} in tribunale."
       ],
       [
         "Socio",
-        "Purché {csp:arrivino} i documenti."
+        "E allora {imv:veniamoci} incontro. {imv:Proponga} il 30 marzo, e {imv:vediamo} che cosa {ip:rispondono}."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "A condizione che i termini [[restino#csp]] invariati.",
-          "[[Sebbene]] {csp:sia} un buon accordo, {ip:ho} ancora dei dubbi.",
-          "Non {ip:chiedo} un rinvio, [[bensì]] una verifica dei dati.",
-          "[[Purché]] {csp:arrivino} i documenti."
+          "Quand'anche [[pagassero#csi]] tutto subito, non mi {cop:fiderei}.",
+          "[[Peraltro]], il contratto {ip:prevede} una penale in caso di ritardo.",
+          "Non {ip:voglio} un rinvio, [[bensì]] una data precisa.",
+          "In [[mancanza]] di un'intesa, {fs:finiremo} in tribunale."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does the partner want?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "He wants…",
+            "q": "Che cosa {ip:chiede} la controparte?",
             "options": [
-              "a postponement",
-              "*the data to be checked",
-              "a new contract"
+              "*di pagare in due rate",
+              "un rinvio",
+              "di andare in tribunale"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:vuole} il socio?",
+            "options": [
+              "*una data precisa",
+              "una penale più alta",
+              "chiudere la trattativa subito"
             ]
           }
         ]
@@ -422,42 +760,389 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "I accept, on condition that you stay. (informal)",
-            "a": [
-              "Accetto, a condizione che tu resti.",
-              "Accetto a condizione che tu resti."
+            "q": "{pp:Hai} mai {pp:dovuto} negoziare qualcosa (uno stipendio, un affitto, un prezzo)? Com'{pp:è andata}?"
+          },
+          {
+            "q": "Che cosa {cop:faresti}, anche a costo di perdere il lavoro?"
+          },
+          {
+            "q": "Quand'anche ti {csi:offrissero} il doppio, c'{ip:è} un lavoro che non {cop:faresti} mai?"
+          },
+          {
+            "q": "Nel tuo paese gli scioperi {ip:sono} frequenti? Che cosa ne {ip:pensi}?"
+          },
+          {
+            "q": "{ip:Preferisci} un lavoro sicuro piuttosto che un lavoro interessante? Perché?"
+          },
+          {
+            "q": "In una discussione {ip:sei} una persona che {ip:viene} incontro agli altri o che {ip:tira} la corda?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Al tavolo delle trattative"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Due gruppi di persone seduti ai lati di un lungo tavolo, pieno di documenti",
+          "B — Lavoratori con bandiere e striscioni davanti al cancello di una fabbrica",
+          "C — Due persone che si stringono la mano sorridendo",
+          "D — Un uomo che tira una corda finché si spezza"
+        ],
+        "pairs": [
+          [
+            "Le trattative {ip:durano} da diciotto ore.",
+            "immagine A"
+          ],
+          [
+            "In mancanza di un accordo, {pp:hanno scioperato}.",
+            "immagine B"
+          ],
+          [
+            "Alla fine si {pp:sono venuti} incontro.",
+            "immagine C"
+          ],
+          [
+            "{pp:Ha tirato} troppo la corda.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale frase è corretta?",
+        "questions": [
+          {
+            "q": "Una preferenza:",
+            "options": [
+              "*Preferisco scioperare piuttosto che accettare queste condizioni.",
+              "Preferisco scioperare oppure accettare queste condizioni."
             ]
           },
           {
-            "q": "It is not a mistake, but a choice. (use bensì)",
-            "a": [
-              "Non è un errore, bensì una scelta."
+            "q": "Due possibilità uguali:",
+            "options": [
+              "*Possiamo vederci lunedì oppure martedì: per me è uguale.",
+              "Possiamo vederci lunedì piuttosto che martedì: per me è uguale."
             ]
           },
           {
-            "q": "The data are incomplete; therefore, we cannot proceed. (use pertanto)",
-            "a": [
-              "I dati sono incompleti; pertanto, non possiamo procedere.",
-              "I dati sono incompleti, pertanto non possiamo procedere."
-            ]
-          },
-          {
-            "q": "He was ill; nevertheless, he came. (use ciononostante)",
-            "a": [
-              "Era malato; ciononostante, è venuto.",
-              "Era malato, ciononostante è venuto."
-            ]
-          },
-          {
-            "q": "As a doctor, I cannot remain silent. (use in quanto)",
-            "a": [
-              "In quanto medico, non posso tacere."
+            "q": "Una correzione:",
+            "options": [
+              "*Non è un vincolo, bensì una garanzia.",
+              "È un vincolo, bensì una garanzia."
             ]
           }
         ]
+      },
+      {
+        "h": "Comunque vada"
+      },
+      {
+        "type": "write",
+        "prompt": "Unisci o riscrivi le frasi con la parola tra parentesi.",
+        "questions": [
+          {
+            "q": "Era stanco. Ha continuato a trattare. (quantunque)",
+            "a": [
+              "Quantunque fosse stanco, ha continuato a trattare."
+            ]
+          },
+          {
+            "q": "Se c'è uno sciopero, il servizio sarà ridotto. (in caso di)",
+            "a": [
+              "In caso di sciopero, il servizio sarà ridotto.",
+              "In caso di sciopero il servizio sarà ridotto."
+            ]
+          },
+          {
+            "q": "Non chiediamo un aumento. Chiediamo più sicurezza. (bensì)",
+            "a": [
+              "Non chiediamo un aumento, bensì più sicurezza."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la frase concessiva.",
+        "questions": [
+          "[[Comunque]] {csp:vada}, {fs:sarà} una bella esperienza.",
+          "[[Quantunque|Benché|Sebbene]] il lavoro {csp:sia} duro, mi {ip:piace}.",
+          "Quand'[[anche]] {csi:volessi}, non {cop:potrei}.",
+          "L'accordo, [[ancorché]] provvisorio, {ip:è} valido."
+        ]
+      },
+      {
+        "h": "Pertanto…"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli il connettivo giusto.",
+        "questions": [
+          {
+            "q": "Il piano {ip:è} costoso e, ___ , poco chiaro.",
+            "options": [
+              "*peraltro",
+              "pertanto",
+              "bensì"
+            ]
+          },
+          {
+            "q": "I dati {ip:sono} incompleti; ___ , non {ip:possiamo} decidere.",
+            "options": [
+              "*pertanto",
+              "peraltro",
+              "bensì"
+            ]
+          },
+          {
+            "q": "Non {pp:ha accettato}; ___ , l'offerta {im:era} bassa.",
+            "options": [
+              "*d'altronde",
+              "pertanto",
+              "bensì"
+            ]
+          },
+          {
+            "q": "La liquidazione, ___ il TFR, {ip:spetta} a tutti i dipendenti.",
+            "options": [
+              "*ossia",
+              "bensì",
+              "pertanto"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Ti presto la macchina perché tu puoi arrivare in tempo.",
+            "a": [
+              "Ti presto la macchina perché tu possa arrivare in tempo."
+            ]
+          },
+          {
+            "q": "È un vincolo, bensì una garanzia.",
+            "a": [
+              "Non è un vincolo, bensì una garanzia."
+            ]
+          },
+          {
+            "q": "Quantunque era stanco, ha continuato.",
+            "a": [
+              "Quantunque fosse stanco, ha continuato."
+            ]
+          },
+          {
+            "q": "In caso che piova, restiamo a casa.",
+            "a": [
+              "In caso di pioggia, restiamo a casa.",
+              "Nel caso in cui piova, restiamo a casa.",
+              "Nel caso che piova, restiamo a casa."
+            ]
+          },
+          {
+            "q": "Non conosco nessuno se no il direttore.",
+            "a": [
+              "Non conosco nessuno se non il direttore."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "bensì / non è / una garanzia / un vincolo",
+            "a": [
+              "Non è un vincolo, bensì una garanzia."
+            ]
+          },
+          {
+            "q": "di sciopero / ridotto / in caso / il servizio sarà",
+            "a": [
+              "In caso di sciopero, il servizio sarà ridotto.",
+              "In caso di sciopero il servizio sarà ridotto."
+            ]
+          },
+          {
+            "q": "vada / comunque / ci proveremo",
+            "a": [
+              "Comunque vada, ci proveremo.",
+              "Comunque vada ci proveremo."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Molti connettivi sono nati unendo più parole, e così si scrivono: *pertanto, nondimeno, perciò, sicché, dopodiché*. *Ciononostante* si può scrivere anche staccato: *ciò nonostante*. I composti di *che* hanno l'accento acuto, perché la *e* è chiusa: *affinché, cosicché, sicché*. *D'altronde* vuole l'apostrofo, mentre *per giunta* resta in due parole."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "I dati {ip:sono} incompleti; ___ , non {ip:possiamo} decidere.",
+            "options": [
+              "*pertanto",
+              "pertantò",
+              "per-tanto"
+            ]
+          },
+          {
+            "q": "Non {ip:è} difficile; ___ , {ip:è} lungo.",
+            "options": [
+              "*d'altronde",
+              "daltronde",
+              "d'altrónde"
+            ]
+          },
+          {
+            "q": "{imv:Parla} piano, ___ nessuno ti {csp:senta}.",
+            "options": [
+              "*affinché",
+              "affinchè",
+              "affin che"
+            ]
+          },
+          {
+            "q": "{im:Era} stanco; ___ , {pp:è venuto}.",
+            "options": [
+              "*ciononostante",
+              "cio nonostante",
+              "ciononostanté"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So che *perché* e *di modo che* cambiano senso con il modo.",
+          "So usare *quantunque, ancorché, quand'anche, comunque* + congiuntivo.",
+          "So usare *bensì* e so che *piuttosto che* non vuol dire *oppure*.",
+          "So esprimere un'eccezione con *tranne, fuorché, se non, all'infuori di*.",
+          "So usare *pertanto, ciononostante, peraltro, d'altronde, ossia*.",
+          "So usare *in caso di, in mancanza di, in seguito a, a fronte di*."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Operai in tuta davanti ai cancelli di una fabbrica, nell'autunno del 1969"
+      },
+      {
+        "text": [
+          "**Lo Statuto dei lavoratori**",
+          "Alla fine degli anni Sessanta le fabbriche italiane {im:erano} in fermento: nell'autunno del 1969, il cosiddetto *autunno caldo*, milioni di lavoratori {pr:scioperarono} per il rinnovo dei contratti. In seguito a quelle lotte, il 20 maggio 1970 il Parlamento {pr:approvò} la legge numero 300, nota come Statuto dei lavoratori.",
+          "La legge {tp:era stata} voluta dal ministro del Lavoro Giacomo Brodolini, che però {tp:era morto} nel 1969, prima di vederla approvata. A scriverla {pr:fu} soprattutto il giurista Gino Giugni, ricordato ancora oggi come il padre dello Statuto.",
+          "Lo Statuto {pr:portò} i diritti della Costituzione dentro i luoghi di lavoro: la libertà di opinione, il diritto di assemblea, la tutela dei sindacati. Il suo articolo più famoso, il 18, {im:prevedeva} che nelle aziende con più di quindici dipendenti il lavoratore licenziato senza giusta causa {csi:fosse} reintegrato nel suo posto. Proprio per questo {pp:è stato} al centro di lunghe controversie, finché le riforme del 2012 e del 2015 non ne {pp:hanno limitato} fortemente l'applicazione."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Lo Statuto dei lavoratori {pr:fu} approvato nel 1970.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il ministro Brodolini {pr:vide} la legge approvata.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Gino Giugni {ip:è} considerato il padre dello Statuto.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'articolo 18 {im:riguardava} i licenziamenti.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'articolo 18 non {pp:è} mai {pp:stato} modificato.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le parole che mancano.",
+        "questions": [
+          "In [[seguito]] a quelle lotte, il Parlamento {pr:approvò} la legge numero 300.",
+          "Brodolini {tp:era morto} nel 1969, [[prima]] di vederla approvata.",
+          "Il lavoratore licenziato senza giusta causa [[fosse#csi]] reintegrato nel suo posto."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Nel tuo paese c'è una legge o una data importante per i diritti dei lavoratori? Raccontala.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Nel mio paese…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi una breve lettera formale (al tuo datore di lavoro, al proprietario di casa o a un'azienda) per proporre un accordo.",
+        "cues": [
+          "Che cosa {ip:chiedi} e perché? (*dal momento che, in seguito a*)",
+          "A quali condizioni? (*a condizione che, a fronte di*)",
+          "Che cosa {ip:sei} disposto a concedere? (*ciononostante, bensì*)",
+          "Come {ip:chiudi} la lettera? (*pertanto, resto a disposizione*)"
+        ],
+        "start": "",
+        "model": "Gentile dott.ssa Ferri,\nLe scrivo in seguito al nostro colloquio di lunedì. Dal momento che da due anni mi occupo anche dei clienti esteri, Le chiedo di rivedere il mio stipendio.\nNon Le chiedo un semplice aumento, bensì un riconoscimento del lavoro in più: a fronte di un aumento del cinque per cento, sarei disposto a seguire anche i nuovi progetti, a condizione che mi venga affiancato un collega per le pratiche ordinarie.\nSo che il periodo non è facile; ciononostante, credo che la proposta convenga a entrambi. Peraltro, i risultati dell'ultimo anno mi sembrano incoraggianti.\nResto pertanto a disposizione per discuterne quando Le sarà più comodo.\nCordiali saluti,\nMarco Bianchi"
       }
     ]
   }

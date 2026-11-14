@@ -1,200 +1,420 @@
 {
   "title": "Non contarci: ne {ip:ho} abbastanza e me ne {ip:vado}",
-  "translation": "Don't count on it: I've had enough and I'm leaving",
-  "topics": "Pronoun combinations in all positions, ci and ne as pronouns, adverbs and in idioms",
+  "translation": "",
+  "topics": "I pronomi oltre le regole: il *lo* neutro, il pronome affettivo (*mi sono bevuto un caffè*), i pronomi tonici, *gli, le, loro* e *a me mi*, il *ci* del parlato (*ce l'ho, c'ho*), altre espressioni con *la, ci* e *ne*; litigi, pazienza e riconciliazioni",
   "grammar": {
     "explain": [
+      "Conosci i pronomi combinati, tutti gli usi di *ci* e *ne* e i verbi come *farcela, cavarsela, entrarci, tenerci*. A questo livello impari i pronomi che non sostituiscono quasi niente ma cambiano il tono della frase, le differenze tra lingua parlata e scritta e altre espressioni fisse con *la, ci* e *ne*.",
       {
-        "h": "Pronouns with fare and lasciare"
-      },
-      "With *fare* or *lasciare* + infinitive, pronouns stand before the first verb, because the two verbs act as one unit: *Glielo {ip:faccio} fare*, *Me lo {ip:lasci} vedere?*",
-      {
-        "table": {
-          "head": [
-            "Without pronouns",
-            "With pronouns"
-          ],
-          "rows": [
-            [
-              "{ip:Faccio} riparare la macchina a Luca.",
-              "Gliela {ip:faccio} riparare."
-            ],
-            [
-              "Mi {ip:lasci} leggere la lettera?",
-              "Me la {ip:lasci} leggere?"
-            ],
-            [
-              "Ci {pp:ha fatto} vedere le foto.",
-              "Ce le {pp:ha fatte} vedere."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Where each combination goes"
-      },
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Example"
-          ],
-          "rows": [
-            [
-              "ce ne",
-              "Ce ne {ip:vogliono} due."
-            ],
-            [
-              "ve li",
-              "Ve li {ip:porto} domani."
-            ],
-            [
-              "se ne",
-              "Se ne {pp:è andato}."
-            ],
-            [
-              "With infinitive",
-              "Non {ip:voglio} parlartene."
-            ],
-            [
-              "With tu command",
-              "{imv:Portamene} due!"
-            ],
-            [
-              "With Lei command",
-              "Me ne {imv:porti} due!"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Ci and ne: beyond replacing words"
-      },
-      "In many everyday expressions, *ci* and *ne* no longer replace anything specific. They are part of the verb, and its meaning has to be learned as a whole.",
-      {
-        "table": {
-          "head": [
-            "Expression",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "contarci",
-              "to count on it",
-              "Non contarci!"
-            ],
-            [
-              "vederci",
-              "to be able to see",
-              "Non ci {ip:vedo} bene."
-            ],
-            [
-              "sentirci",
-              "to be able to hear",
-              "Non ci {ip:sento} da questo orecchio."
-            ],
-            [
-              "entrarci",
-              "to be relevant",
-              "Che c'{ip:entra}?"
-            ],
-            [
-              "tenerci",
-              "to care about it",
-              "Ci {ip:tengo} molto."
-            ],
-            [
-              "averne abbastanza",
-              "to have had enough",
-              "Ne {ip:ho} abbastanza."
-            ],
-            [
-              "andarsene",
-              "to leave",
-              "Me ne {ip:vado}."
-            ],
-            [
-              "farne a meno",
-              "to do without it",
-              "Non {ip:posso} farne a meno."
-            ],
-            [
-              "valerne la pena",
-              "to be worth it",
-              "Ne {ip:vale} la pena."
-            ],
-            [
-              "non poterne più",
-              "not to be able to stand it",
-              "Non ne {ip:posso} più!"
-            ],
-            [
-              "infischiarsene",
-              "not to care",
-              "Me ne {ip:infischio}."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "With la: more fixed verbs"
-      },
-      "The pronoun *la* is also fixed in some verbs: *farcela* (to manage), *cavarsela* (to get by), *prendersela* (to take offence), *smetterla* (to stop it), *avercela con* (to have it in for).",
-      "In the compound tenses, *la* makes the participle feminine: *Ce l'{pp:ho fatta}. Se l'{pp:è cavata}. Se l'{pp:è presa}.*"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il *lo* neutro",
+              "head": [
+                "uso",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "al posto di un aggettivo",
+                  "«{ip:Sei} stanca?» «Sì, lo {ip:sono}.»",
+                  "sempre *lo*, anche al femminile e al plurale"
+                ],
+                [
+                  "al posto di un nome",
+                  "{ip:Sembra} un professore, ma non lo {ip:è}.",
+                  "con *essere, sembrare, diventare*"
+                ],
+                [
+                  "al posto di una frase",
+                  "«Marco {ip:parte}.» «Lo {ip:so}.»",
+                  "= so che parte"
+                ],
+                [
+                  "nei tempi composti",
+                  "Te l'{tp:avevo detto}!",
+                  "il participio resta al maschile"
+                ],
+                [
+                  "espressioni fisse",
+                  "Lo {ip:credo} bene! Se lo {ip:dici} tu…",
+                  "certezza; dubbio"
+                ]
+              ]
+            },
+            "note": "*Lo* neutro non cambia: *Le tue amiche sono simpatiche? – Sì, lo sono* (✗ *le sono*). Si può anche ripetere l'aggettivo (*Sì, sono stanca*), ma non si dice ✗ *Sì, sono*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il pronome affettivo",
+              "head": [
+                "senza pronome",
+                "con il pronome",
+                "che cosa aggiunge"
+              ],
+              "rows": [
+                [
+                  "{pp:Ho bevuto} un caffè.",
+                  "Mi {pp:sono bevuto} un caffè.",
+                  "il piacere di chi parla"
+                ],
+                [
+                  "{pp:Abbiamo fatto} una bella vacanza.",
+                  "Ci {pp:siamo fatti} una bella vacanza.",
+                  "partecipazione"
+                ],
+                [
+                  "{pp:Hai mangiato} tutta la torta?",
+                  "Te la {pp:sei mangiata} tutta?",
+                  "stupore, rimprovero"
+                ],
+                [
+                  "{imv:Guarda} questo film!",
+                  "{imv:Guardati} questo film!",
+                  "un consiglio affettuoso"
+                ],
+                [
+                  "Che cosa {ip:combini}?",
+                  "Che cosa mi {ip:combini}?",
+                  "chi parla si sente coinvolto"
+                ]
+              ]
+            },
+            "note": "Il pronome non serve al senso: rende la frase più personale e più parlata. Con il pronome l'ausiliare diventa *essere*. Il participio di solito si accorda con il soggetto (*Anna si è bevuta un caffè*), ma con *lo, la, li, le* si accorda con il pronome (*se l'è bevuta tutta*)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Pronomi tonici, *gli, le, loro*",
+              "head": [
+                "forma",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "tonico per contrasto",
+                  "{ip:Cercano} te, non lui.",
+                  "*ti* e *lo* non possono avere l'accento della frase"
+                ],
+                [
+                  "*a me* in testa",
+                  "A me questo film non {ip:piace}.",
+                  "mette in evidenza chi parla"
+                ],
+                [
+                  "✗ *a me mi*",
+                  "A me mi piace.",
+                  "parlato informale: da evitare nello scritto"
+                ],
+                [
+                  "*gli* = *a loro*",
+                  "{pp:Ho chiamato} i miei e gli {pp:ho detto} tutto.",
+                  "normale nell'italiano di oggi"
+                ],
+                [
+                  "*loro* dopo il verbo",
+                  "{pp:Abbiamo comunicato} loro la decisione.",
+                  "formale"
+                ],
+                [
+                  "✗ *gli* = *a lei*",
+                  "Ho visto Anna e gli ho detto… → le {pp:ho detto}",
+                  "un errore: per una donna si usa *le*"
+                ]
+              ]
+            },
+            "note": "*Gli* per *a loro* è accettato da tutte le grammatiche moderne; *loro* resta nei testi formali. *Gli* al posto di *le*, invece, è un errore anche nel parlato curato."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Ci* nel parlato",
+              "head": [
+                "forma",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "*averci* + *lo, la, li, le*",
+                  "«Ce l'{ip:hai} una penna?» «Sì, ce l'{ip:ho}.»",
+                  "con questi pronomi il *ci* è obbligatorio"
+                ],
+                [
+                  "*c'ho, ci ho*",
+                  "C'ho fame.",
+                  "molto colloquiale; nello scritto: *Ho fame*"
+                ],
+                [
+                  "*ci* = *con lui, con lei*",
+                  "Ci {ip:parlo} io, con Marco.",
+                  "parlato"
+                ],
+                [
+                  "*ci* = *a lui, a lei*",
+                  "A tua madre ci {ip:penso} io.",
+                  "parlato; nello scritto: *penso io a lei*"
+                ]
+              ]
+            },
+            "note": "Nel parlato *ci* entra in moltissime frasi. Nei testi curati si evitano *c'ho* e il *ci* per le persone, ma *ce l'ho, ce li ho* sono normali anche nello scritto."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Altre espressioni con *la*",
+              "head": [
+                "espressione",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*darsela a gambe*",
+                  "scappare",
+                  "Appena {pp:ha visto} il cane, se l'{pp:è data} a gambe."
+                ],
+                [
+                  "*godersela*",
+                  "stare bene, divertirsi",
+                  "In pensione se la {ip:gode}."
+                ],
+                [
+                  "*prendersela comoda*",
+                  "fare con calma",
+                  "{imv:Prenditela} comoda, non c'{ip:è} fretta."
+                ],
+                [
+                  "*cercarsela*",
+                  "meritarsi un guaio",
+                  "Se l'{pp:è cercata}!"
+                ],
+                [
+                  "*farla finita*",
+                  "smettere per sempre",
+                  "{imv:Facciamola} finita con questa storia!"
+                ],
+                [
+                  "*farla franca*",
+                  "non essere scoperto o punito",
+                  "Questa volta non la {fs:farai} franca."
+                ],
+                [
+                  "*legarsela al dito*",
+                  "non dimenticare un'offesa",
+                  "Se l'{pp:è legata} al dito."
+                ]
+              ]
+            },
+            "note": "Nei tempi composti il participio si accorda con *la*: *se l'è data, se l'è cercata, l'ha fatta franca*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Altre espressioni con *ci* e *ne*",
+              "head": [
+                "espressione",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*dormirci sopra*",
+                  "aspettare prima di decidere",
+                  "Ci {fs:dormirò} sopra."
+                ],
+                [
+                  "*rimetterci*",
+                  "perdere, avere un danno",
+                  "Ci {pp:ho rimesso} cento euro."
+                ],
+                [
+                  "*rimanerci male*",
+                  "sentirsi deluso o offeso",
+                  "Ci {pp:sono rimasta} male."
+                ],
+                [
+                  "*cascarci*",
+                  "credere a un inganno",
+                  "Ci {pp:sei cascato} di nuovo!"
+                ],
+                [
+                  "*farci caso*",
+                  "notare",
+                  "Non ci {pp:ho fatto} caso."
+                ],
+                [
+                  "*farci l'abitudine*",
+                  "abituarsi",
+                  "Ci {fs:farai} l'abitudine."
+                ],
+                [
+                  "*andarci piano*",
+                  "essere prudente",
+                  "{imv:Vacci} piano con il vino!"
+                ],
+                [
+                  "*uscirne*",
+                  "superare una difficoltà",
+                  "Ne {pp:siamo usciti} più forti."
+                ],
+                [
+                  "*venirne a capo*",
+                  "risolvere",
+                  "Non ne {ip:vengo} a capo."
+                ]
+              ]
+            },
+            "note": "Qui *ci* e *ne* non sostituiscono più niente di preciso: fanno parte dell'espressione, come in *entrarci, tenerci, metterci*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Replace the words with pronouns.",
+        "prompt": "Completa con il *lo* neutro.",
         "questions": [
-          "{ip:Faccio} riparare la macchina a Luca. → [[Gliela]] {ip:faccio} riparare.",
-          "Ci {pp:ha fatto} vedere le foto. → [[Ce le]] {pp:ha fatte} vedere.",
-          "Non {ip:voglio} parlarti di questo. → Non {ip:voglio} [[parlartene]].",
-          "{imv:Porta} due caffè a me! → [[Portamene#imv]] due!",
-          "Vi {ip:porto} i documenti domani. → [[Ve li]] {ip:porto} domani."
+          "«{ip:Siete} pronti?» «Sì, [[lo]] {ip:siamo}.»",
+          "{ip:Sembra} facile, ma non [[lo]] {ip:è}.",
+          "«{ip:Sai} che Luca si {ip:sposa}?» «Sì, [[lo]] {ip:so}.»",
+          "«Le tue sorelle {ip:sono} sposate?» «Una [[lo]] {ip:è}, l'altra no.»"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Aggiungi il pronome affettivo.",
+        "questions": [
+          "{pp:Ho bevuto} un caffè. → Mi [[sono bevuto|sono bevuta#pp]] un caffè.",
+          "{pp:Abbiamo fatto} una passeggiata. → Ci [[siamo fatti|siamo fatte#pp]] una passeggiata.",
+          "{pp:Hai mangiato} tutta la torta? → Te la [[sei mangiata#pp]] tutta?",
+          "{imv:Guarda} questo film! → [[Guardati#imv]] questo film!"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli il pronome giusto.",
+        "questions": [
+          {
+            "q": "{pp:Ho visto} Anna e ___ {pp:ho detto} la verità.",
+            "options": [
+              "*le",
+              "gli"
+            ]
+          },
+          {
+            "q": "{pp:Ho chiamato} i miei e ___ {pp:ho spiegato} tutto.",
+            "options": [
+              "*gli",
+              "le"
+            ]
+          },
+          {
+            "q": "In una lettera formale: {pp:Abbiamo comunicato} ___ la decisione.",
+            "options": [
+              "*loro",
+              "li"
+            ]
+          },
+          {
+            "q": "{ip:Vogliono} ___ , non me.",
+            "options": [
+              "*te",
+              "ti"
+            ]
+          },
+          {
+            "q": "In un tema scritto: ___ questo film non {ip:piace}.",
+            "options": [
+              "*A me",
+              "A me mi"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "«{ip:Hai} la patente?» «Sì, ___ .»",
+            "options": [
+              "*ce l'ho",
+              "c'è l'ho",
+              "l'ho ci"
+            ]
+          },
+          {
+            "q": "«{ip:Hai} le chiavi?» «No, non ___ ho.»",
+            "options": [
+              "*ce le",
+              "ci le",
+              "ce li"
+            ]
+          },
+          {
+            "q": "«{ip:Avete} i biglietti?» «Sì, ___ .»",
+            "options": [
+              "*ce li abbiamo",
+              "li ci abbiamo",
+              "ce le abbiamo"
+            ]
+          },
+          {
+            "q": "In una mail formale: ___ bisogno di una conferma.",
+            "options": [
+              "*Ho",
+              "C'ho",
+              "Ciò"
+            ]
+          }
         ]
       },
       {
         "type": "match",
-        "prompt": "Match each expression with its meaning.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "Non ne {ip:posso} più!",
-            "I can't stand it any more!"
+            "darsela a gambe",
+            "scappare"
           ],
           [
-            "Che c'{ip:entra}?",
-            "What's that got to do with it?"
+            "godersela",
+            "stare bene, divertirsi"
           ],
           [
-            "Ne {ip:vale} la pena.",
-            "It's worth it."
+            "prendersela comoda",
+            "fare con calma"
           ],
           [
-            "Non contarci!",
-            "Don't count on it!"
+            "farla franca",
+            "non essere scoperto o punito"
           ],
           [
-            "Ci {ip:tengo}.",
-            "It matters to me."
+            "legarsela al dito",
+            "non dimenticare un'offesa"
           ],
           [
-            "Non {ip:posso} farne a meno.",
-            "I can't do without it."
+            "farla finita",
+            "smettere per sempre"
           ]
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the participle. Remember that la makes it feminine.",
+        "prompt": "Completa l'espressione con *ci* o *ne*.",
         "questions": [
-          "Finalmente ce l'{pp:ho} [[fatta#pp]]. (fare)",
-          "Marco se l'{pp:è} [[cavata#pp]] bene. (cavare)",
-          "Non {im:volevo} offenderla, ma se l'{pp:è} [[presa#pp]]. (prendere)",
-          "Se n'{pp:è} [[andato#pp]] senza salutare. (andare, lui)"
+          "Non {ip:so} ancora: ci [[dormo#ip]] sopra.",
+          "Ci {pp:ho} [[rimesso#pp]] cento euro.",
+          "Ci {pp:sei} [[cascato|cascata#pp]] di nuovo!",
+          "Non ci {pp:ho} [[fatto#pp]] caso.",
+          "{imv:Vacci} [[piano]] con il vino!"
         ]
       }
     ]
@@ -202,139 +422,275 @@
   "vocabulary": {
     "words": [
       [
-        "la pazienza",
-        "patience"
-      ],
-      [
         "il rancore",
-        "resentment"
+        "una rabbia che resta a lungo dopo un'offesa"
       ],
       [
         "la lite",
-        "argument"
-      ],
-      [
-        "l'offesa",
-        "insult"
+        "una discussione piena di rabbia"
       ],
       [
         "la ripicca",
-        "spite"
+        "una piccola vendetta per rispondere a un torto"
+      ],
+      [
+        "il dispetto",
+        "un'azione fatta apposta per dare fastidio"
+      ],
+      [
+        "il malinteso",
+        "un errore nel capire le parole o le intenzioni di un altro"
+      ],
+      [
+        "il torto",
+        "un'azione ingiusta verso qualcuno"
+      ],
+      [
+        "la riconciliazione",
+        "il fatto di fare pace dopo una lite"
+      ],
+      [
+        "lo sfogo",
+        "il momento in cui si dice tutto quello che si ha dentro"
       ],
       [
         "sopportare",
-        "to put up with"
-      ],
-      [
-        "litigare",
-        "to quarrel"
+        "accettare qualcosa di sgradevole senza reagire"
       ],
       [
         "sfogarsi",
-        "to let off steam"
+        "liberarsi della rabbia o del dolore parlando o facendo qualcosa"
       ],
       [
-        "scusarsi",
-        "to apologise"
+        "rinfacciare",
+        "ricordare a qualcuno, per rimprovero, quello che si è fatto per lui"
+      ],
+      [
+        "chiarirsi",
+        "parlare per risolvere un malinteso"
+      ],
+      [
+        "fare pace",
+        "tornare amici dopo una lite"
+      ],
+      [
+        "tenere il broncio",
+        "mostrarsi offeso e non parlare"
       ],
       [
         "permaloso",
-        "touchy"
+        "che si offende facilmente"
       ],
       [
         "testardo",
-        "stubborn"
+        "che non cambia mai idea"
+      ],
+      [
+        "conciliante",
+        "che cerca l'accordo"
       ],
       [
         "una volta per tutte",
-        "once and for all"
+        "definitivamente"
+      ],
+      [
+        "a muso duro",
+        "in modo deciso, senza gentilezza"
+      ],
+      [
+        "lavare i panni sporchi in famiglia",
+        "risolvere i problemi privati senza farli sapere agli altri"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "il rancore",
-            "resentment"
-          ],
-          [
             "la ripicca",
-            "spite"
+            "una piccola vendetta per rispondere a un torto"
           ],
           [
-            "sopportare",
-            "to put up with"
+            "rinfacciare",
+            "ricordare a qualcuno, per rimprovero, quello che si è fatto per lui"
           ],
           [
-            "sfogarsi",
-            "to let off steam"
+            "tenere il broncio",
+            "mostrarsi offeso e non parlare"
           ],
           [
             "permaloso",
-            "touchy"
+            "che si offende facilmente"
           ],
           [
-            "testardo",
-            "stubborn"
+            "a muso duro",
+            "in modo deciso, senza gentilezza"
+          ],
+          [
+            "lavare i panni sporchi in famiglia",
+            "risolvere i problemi privati senza farli sapere agli altri"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "{pp:Abbiamo} [[litigato#pp]] per una sciocchezza. (quarrelled)",
-          "{pp:Ho perso} la [[pazienza]]. (patience)",
-          "{imv:Parliamone} [[una volta per tutte]]. (once and for all)",
-          "Almeno si {pp:è} [[scusato#pp]]. (apologised)"
+          {
+            "q": "Non {pp:volevo} offenderti: {pp:è stato} un ___ .",
+            "options": [
+              "*malinteso",
+              "rancore",
+              "dispetto"
+            ]
+          },
+          {
+            "q": "Dopo anni di silenzio, finalmente {ip:è} arrivata la ___ tra i due fratelli.",
+            "options": [
+              "*riconciliazione",
+              "lite",
+              "ripicca"
+            ]
+          },
+          {
+            "q": "Non {ip:cambia} mai idea: {ip:è} proprio ___ .",
+            "options": [
+              "*testardo",
+              "conciliante",
+              "permaloso"
+            ]
+          },
+          {
+            "q": "{ip:Sono} passati dieci anni, ma {ip:prova} ancora ___ verso di lui.",
+            "options": [
+              "*rancore",
+              "sfogo",
+              "torto"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{pp:Hanno litigato} ieri, ma oggi {pp:hanno} già [[fatto#pp]] pace.",
+          "{imv:Parliamone} e chiudiamo la questione una volta per [[tutte]].",
+          "Non {ip:riesco} più a [[sopportare]] il rumore dei vicini.",
+          "Dopo la lite {im:avevo} bisogno di uno [[sfogo]]: {pp:sono andato} a correre.",
+          "Mi {pp:ha fatto} un [[dispetto]]: {pp:ha nascosto} le mie chiavi."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "«Ne {ip:ho} abbastanza», {pr:disse} Ada posando le chiavi sul tavolo. «Me ne {ip:vado}.» Pietro {pr:alzò} appena gli occhi dal giornale. «E non {ip:pensi} che ci {csp:sia} qualcosa da dire?» «Non ne {ip:vale} la pena. Te ne {pp:ho parlato} cento volte. Tu te ne {ip:infischi}.»",
-      "Lui se la {pr:prese} subito: «Che c'{ip:entra} adesso? Ci {im:tenevo} anche io!» «Non contarci più, Pietro. Da sola me la {fs:caverò} benissimo.» Gliele {tp:aveva dette} tutte, finalmente. Uscendo {pr:sentì} che non ne {im:poteva} davvero più, ma per la prima volta dopo anni si {pr:accorse} che ce l'{cpa:avrebbe fatta}."
+      {
+        "h": "Il pranzo della domenica"
+      },
+      "Ogni domenica, da trent'anni, la famiglia Ferri si {ip:ritrova} a pranzo dalla nonna. E ogni domenica, puntuale come le campane, {ip:scoppia} una lite. Questa volta {pp:ha cominciato} zio Franco: si {pp:è mangiato} mezza teglia di lasagne e poi {pp:ha detto} che {im:erano} troppo salate.",
+      "Zia Rita, che le {tp:aveva preparate}, se l'{pp:è legata} al dito. «Troppo salate? Però te le {pp:sei mangiate} tutte!» Franco {pp:ha risposto} che lui {ip:dice} sempre quello che {ip:pensa}, e che se qualcuno {ip:è} permaloso, {ip:è} un problema suo. Gli altri {pp:sono rimasti} zitti: ci {pp:hanno fatto} l'abitudine da anni.",
+      "Solo Giulia, la nipote più giovane, non ne {ip:può} più di questi pranzi. «{imv:Fatela} finita, tutti e due!» {pp:ha detto}. «Zio, tu {ip:sei} sempre troppo diretto, e tu, zia, poi {ip:tieni} il broncio per una settimana. Testardi? Lo {ip:siete}, ma {ip:siete} anche fratelli.»",
+      "Per un attimo nessuno {pp:ha parlato}. Poi Franco {pp:ha guardato} la teglia vuota e {pp:ha ammesso} che, a pensarci bene, le lasagne non {im:erano} poi così salate. Rita {pp:ha fatto} finta di non sentire, ma {im:sorrideva}. La pace, almeno fino alla domenica dopo, {pp:è tornata}."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "What does Ada decide?",
+            "q": "Perché {pp:è cominciata} la lite?",
             "options": [
-              "To talk it over",
-              "*To leave",
-              "To read the newspaper"
+              "*Franco {pp:ha detto} che le lasagne {im:erano} troppo salate.",
+              "Rita {pp:ha bruciato} le lasagne.",
+              "Giulia {ip:è} arrivata in ritardo."
             ]
           },
           {
-            "q": "According to Ada, Pietro…",
+            "q": "Come {pp:ha reagito} Rita?",
             "options": [
-              "*doesn't care",
-              "is too jealous",
-              "works too much"
+              "*Se l'{pp:è presa} e {pp:ha risposto} male.",
+              "{pp:Ha riso} e {pp:ha cambiato} discorso.",
+              "{pp:È uscita} di casa."
             ]
           },
           {
-            "q": "How does Pietro react?",
+            "q": "Che cosa {ip:fanno} di solito gli altri parenti?",
             "options": [
-              "He apologises",
-              "*He takes offence",
-              "He leaves as well"
+              "*{ip:Fanno} finta di niente.",
+              "{ip:Difendono} Rita.",
+              "{ip:Danno} ragione a Franco."
             ]
           },
           {
-            "q": "How does Ada feel at the end?",
+            "q": "Come {pp:è finita}?",
             "options": [
-              "Regretful",
-              "Frightened",
-              "*Confident she will manage"
+              "*Franco {pp:ha ammesso} di aver esagerato.",
+              "Rita {pp:ha lasciato} la tavola.",
+              "Giulia {pp:ha litigato} con tutti."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "I Ferri {ip:litigano} quasi ogni domenica.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Franco non {pp:ha mangiato} le lasagne.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo Giulia, Rita {ip:resta} offesa a lungo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Alla fine Rita {ip:è} ancora arrabbiata.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase del testo a quello che esprime.",
+        "pairs": [
+          [
+            "Si {pp:è mangiato} mezza teglia di lasagne.",
+            "pronome affettivo"
+          ],
+          [
+            "Se l'{pp:è legata} al dito.",
+            "non dimenticare un'offesa"
+          ],
+          [
+            "Ci {pp:hanno fatto} l'abitudine.",
+            "abituarsi"
+          ],
+          [
+            "Testardi? Lo {ip:siete}.",
+            "lo neutro"
+          ],
+          [
+            "{imv:Fatela} finita!",
+            "smettere per sempre"
+          ]
         ]
       }
     ]
@@ -343,50 +699,58 @@
     "transcript": [
       [
         "Gina",
-        "Non ne {ip:posso} più di questo ufficio!"
+        "Non ne {ip:posso} più di Marta: {pp:ha detto} a tutti che lo sbaglio {pp:è stato} mio."
       ],
       [
         "Ugo",
-        "Che c'{ip:entra} l'ufficio? Te la {pp:sei presa} con il capo?"
+        "E tu ci {pp:sei rimasta} male, lo {ip:vedo}. {pp:Avete provato} a chiarirvi?"
       ],
       [
         "Gina",
-        "Sì, e ora me ne {ip:vado}. Non contarci più per il progetto."
+        "Chiarirci? Le {pp:ho scritto} tre messaggi e non mi {pp:ha risposto}. Se l'{pp:è legata} al dito."
       ],
       [
         "Ugo",
-        "Ma ci {im:tenevi} tanto!"
+        "{imv:Lasciala} stare per qualche giorno. Ci {ip:parlo} io, se {ip:vuoi}."
       ],
       [
         "Gina",
-        "Ne {ip:ho} abbastanza. Non ne {ip:vale} la pena."
+        "No, {ip:faccio} da sola. Ma questa volta non la {fs:passerà} liscia."
       ],
       [
         "Ugo",
-        "{fs:Vedrai} che te la {fs:caverai}."
+        "Gina, {imv:vacci} piano. {ip:Siete} amiche da vent'anni: {imv:dormici} sopra, prima di fare qualcosa."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Non [[ne]] {ip:posso} più di questo ufficio!",
-          "Te la {pp:sei} [[presa#pp]] con il capo?",
-          "Non [[contarci]] più per il progetto.",
-          "{fs:Vedrai} che te la [[caverai#fs]]."
+          "E tu ci [[sei rimasta#pp]] male.",
+          "Se l'[[è legata#pp]] al dito.",
+          "Ci [[parlo#ip]] io, se {ip:vuoi}.",
+          "{imv:Dormici} [[sopra]], prima di fare qualcosa."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What is Gina going to do?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Gina…",
+            "q": "Perché Gina {ip:è} arrabbiata?",
             "options": [
-              "will finish the project",
-              "*is leaving",
-              "will talk to the boss again"
+              "*Marta le {pp:ha dato} la colpa davanti a tutti.",
+              "Marta {pp:ha dimenticato} il suo compleanno.",
+              "Ugo non {ip:vuole} aiutarla."
+            ]
+          },
+          {
+            "q": "Che cosa le {ip:consiglia} Ugo?",
+            "options": [
+              "*di aspettare prima di fare qualcosa",
+              "di scrivere altri messaggi",
+              "di non parlare più con Marta"
             ]
           }
         ]
@@ -397,40 +761,375 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "I've had enough and I'm leaving.",
+            "q": "Ti {ip:è} mai capitato di legartela al dito? Per che cosa?"
+          },
+          {
+            "q": "Dopo una lite {ip:tieni} il broncio o {ip:cerchi} subito di chiarirti?"
+          },
+          {
+            "q": "C'{ip:è} una cosa a cui non {pp:hai} mai {pp:fatto} l'abitudine?"
+          },
+          {
+            "q": "Ci {pp:sei} mai {pp:cascato} in uno scherzo o in una truffa? {imv:Racconta}."
+          },
+          {
+            "q": "Ti {ip:è} mai capitato di rimetterci per aiutare qualcuno?"
+          },
+          {
+            "q": "Nella tua lingua c'{ip:è} un modo per dire *mi sono bevuto un caffè* o *ci siamo fatti una vacanza*?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Litigi di famiglia"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un ragazzo che scappa di corsa da un giardino, inseguito da un cane",
+          "B — Un signore anziano su un'amaca, con un libro e un bicchiere di limonata",
+          "C — Una bambina con le braccia incrociate e il muso lungo",
+          "D — Una donna seduta al bar con una tazza di caffè e un cornetto"
+        ],
+        "pairs": [
+          [
+            "Se l'{pp:è data} a gambe.",
+            "immagine A"
+          ],
+          [
+            "Adesso che {ip:è} in pensione, se la {ip:gode}.",
+            "immagine B"
+          ],
+          [
+            "{ip:Tiene} il broncio da stamattina.",
+            "immagine C"
+          ],
+          [
+            "Si {pp:è presa} un caffè e un cornetto.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il pronome giusto: *lo, te, le, loro*.",
+        "questions": [
+          "«{ip:Sono} gentili i tuoi vicini?» «Sì, [[lo]] {ip:sono}.»",
+          "Non {ip:cercano} me, {ip:cercano} [[te]].",
+          "{pp:Ho visto} Laura e [[le]] {pp:ho dato} il libro.",
+          "In una lettera formale: {pp:Abbiamo comunicato} [[loro]] la decisione."
+        ]
+      },
+      {
+        "h": "Me lo sono goduto"
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi la frase con il pronome affettivo.",
+        "questions": [
+          {
+            "q": "Ho letto tutto il libro in una notte.",
             "a": [
-              "Ne ho abbastanza e me ne vado."
+              "Mi sono letto tutto il libro in una notte.",
+              "Mi sono letta tutto il libro in una notte."
             ]
           },
           {
-            "q": "Don't count on it! (informal)",
+            "q": "Abbiamo visto un bel film.",
             "a": [
-              "Non contarci!",
-              "Non ci contare!"
+              "Ci siamo visti un bel film.",
+              "Ci siamo viste un bel film."
             ]
           },
           {
-            "q": "I can't stand it any more!",
+            "q": "Hai mangiato tutte le ciliegie?",
             "a": [
-              "Non ne posso più!"
-            ]
-          },
-          {
-            "q": "It's worth it.",
-            "a": [
-              "Ne vale la pena."
-            ]
-          },
-          {
-            "q": "I made it! (farcela, past)",
-            "a": [
-              "Ce l'ho fatta!"
+              "Ti sei mangiato tutte le ciliegie?",
+              "Ti sei mangiata tutte le ciliegie?"
             ]
           }
         ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la parola che completa l'espressione.",
+        "questions": [
+          {
+            "q": "Il ladro non {pp:è stato} preso: l'{pp:ha fatta} ___ .",
+            "options": [
+              "*franca",
+              "finita",
+              "comoda"
+            ]
+          },
+          {
+            "q": "{pp:È uscito} senza ombrello sotto il diluvio: se l'{pp:è} ___ !",
+            "options": [
+              "*cercata",
+              "goduta",
+              "data"
+            ]
+          },
+          {
+            "q": "Non c'{ip:è} fretta: {imv:prenditela} ___ .",
+            "options": [
+              "*comoda",
+              "franca",
+              "finita"
+            ]
+          },
+          {
+            "q": "Basta litigare: {imv:facciamola} ___ !",
+            "options": [
+              "*finita",
+              "franca",
+              "comoda"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Ci sei cascato!"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa l'espressione.",
+        "questions": [
+          "Il primo anno {ip:è} difficile, ma ci {fs:farai} l'[[abitudine]].",
+          "{ip:È} un problema complicato: non ne {ip:vengo} a [[capo]].",
+          "{pp:È stata} una crisi dura, ma ne {pp:siamo} [[usciti|uscite#pp]].",
+          "Quando {pp:ha saputo} la notizia, ci {pp:è} [[rimasta#pp]] male."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Ho visto Anna e gli ho detto tutto.",
+            "a": [
+              "Ho visto Anna e le ho detto tutto."
+            ]
+          },
+          {
+            "q": "Le tue amiche sono simpatiche? Sì, le sono.",
+            "a": [
+              "Le tue amiche sono simpatiche? Sì, lo sono."
+            ]
+          },
+          {
+            "q": "Hai la penna? Sì, c'è l'ho.",
+            "a": [
+              "Hai la penna? Sì, ce l'ho."
+            ]
+          },
+          {
+            "q": "Ciò fame.",
+            "a": [
+              "Ho fame.",
+              "C'ho fame.",
+              "Ci ho fame."
+            ]
+          },
+          {
+            "q": "Il ladro se l'è data a gamba.",
+            "a": [
+              "Il ladro se l'è data a gambe."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "a gambe / se l'è / il ladro / data",
+            "a": [
+              "Il ladro se l'è data a gambe."
+            ]
+          },
+          {
+            "q": "sopra / ci / dormirò / prima di decidere",
+            "a": [
+              "Ci dormirò sopra prima di decidere.",
+              "Ci dormirò sopra, prima di decidere."
+            ]
+          },
+          {
+            "q": "tutta / te la / mangiata / sei",
+            "a": [
+              "Te la sei mangiata tutta?",
+              "Te la sei mangiata tutta!",
+              "Te la sei mangiata tutta."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nel parlato *ci* davanti ad *avere* si unisce al verbo: *c'ho* si pronuncia come *ciò*. Ma si scrive *c'ho* o *ci ho*, mai *ciò*, che vuol dire *questo* (*ciò che dici*). Con *lo, la, li, le* si scrive *ce l'ho, ce li ho, ce le ho* (✗ *c'è l'ho*: *c'è* vuol dire *ci* + *è*). Con *ne*: *ce n'è* (*ce ne* + *è*), ma *ce ne sono*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "Il biglietto? Sì, ___ .",
+            "options": [
+              "*ce l'ho",
+              "c'è l'ho",
+              "cel'ho"
+            ]
+          },
+          {
+            "q": "Di pane ___ ancora un po'.",
+            "options": [
+              "*ce n'è",
+              "c'è n'è",
+              "cen'è"
+            ]
+          },
+          {
+            "q": "___ che {ip:dici} non {ip:è} vero.",
+            "options": [
+              "*Ciò",
+              "C'ho",
+              "Ci ho"
+            ]
+          },
+          {
+            "q": "Le chiavi? Non ___ .",
+            "options": [
+              "*ce le ho",
+              "c'è le ho",
+              "cele ho"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare il *lo* neutro: *Stanca? Sì, lo sono.*",
+          "So usare il pronome affettivo: *Mi sono bevuto un caffè.*",
+          "So quando usare *gli, le* e *loro*, ed evito *a me mi* nello scritto.",
+          "So scrivere *ce l'ho, ce n'è* e so che *c'ho* è solo del parlato.",
+          "Conosco espressioni con *la*: *darsela a gambe, farla franca, legarsela al dito*.",
+          "Conosco espressioni con *ci* e *ne*: *dormirci sopra, rimetterci, cascarci, venirne a capo*."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il frontespizio di un'antica edizione del Galateo di Giovanni Della Casa"
+      },
+      {
+        "text": [
+          "**Il Galateo**",
+          "Quando un italiano {ip:dice} che qualcuno non {ip:conosce} il galateo, {ip:vuole} dire che non {ip:sa} comportarsi. Pochi, però, {ip:sanno} che *Galateo* {ip:è} il titolo di un libro. Lo {pr:scrisse} monsignor Giovanni Della Casa tra il 1551 e il 1555, e {pr:uscì} a Venezia nel 1558, due anni dopo la morte dell'autore.",
+          "Il titolo {ip:viene} dal nome latino di un amico dell'autore, Galeazzo Florimonte, vescovo di Sessa: *Galatheus*. Nel libro un uomo anziano {ip:insegna} a un ragazzo come comportarsi in società: a tavola, nella conversazione, nel modo di vestire.",
+          "Molti consigli {ip:sono} ancora attuali. Della Casa {ip:scrive}, per esempio, che non bisogna raccontare i propri sogni, perché agli altri non {ip:interessano}, e che dopo essersi soffiati il naso non si {ip:deve} guardare nel fazzoletto. Ci {pp:sono voluti} quasi cinque secoli, ma il suo libro {pp:è diventato} una parola: oggi in italiano il galateo {ip:è} l'insieme delle regole di buona educazione."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "*Galateo* {ip:è} il titolo di un libro.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il libro {pr:uscì} quando l'autore {im:era} ancora vivo.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il titolo {ip:viene} dal nome di un amico dell'autore.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Nel libro una donna {ip:insegna} le buone maniere a sua figlia.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo Della Casa, raccontare i propri sogni {ip:è} una buona idea.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme che mancano.",
+        "questions": [
+          "Lo [[scrisse#pr]] monsignor Giovanni Della Casa.",
+          "Il libro [[uscì#pr]] a Venezia nel 1558.",
+          "Ci [[sono voluti#pp]] quasi cinque secoli."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Quali sono le regole di buona educazione più importanti nel tuo paese? Ce n'è qualcuna che ti sembra superata?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Nel mio paese…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta una lite (vera o inventata) e come è finita.",
+        "cues": [
+          "Chi {pp:ha litigato} e perché? (*prendersela, legarsela al dito*)",
+          "Che cosa si {pp:sono detti}? (*Ne ho abbastanza, Fatela finita*)",
+          "Come {pp:è finita}? (*fare pace, chiarirsi, dormirci sopra*)",
+          "Che cosa ne {pp:hai} {pp:imparato}?"
+        ],
+        "start": "",
+        "model": "Le chiavi della macchina\nL'estate scorsa io e mio fratello abbiamo litigato per una sciocchezza: lui ha preso la mia macchina senza chiedermelo e me l'ha riportata con il serbatoio vuoto. Gliel'ho rinfacciato a muso duro, lui se l'è presa e per una settimana non ci siamo parlati.\nAll'inizio ero convinto di avere ragione, e in parte lo ero. Ma più ci pensavo, più mi sembrava una cosa ridicola. Così ci ho dormito sopra e la domenica dopo l'ho chiamato.\nCi siamo chiariti in dieci minuti: lui si è scusato, io ho ammesso di aver esagerato. Poi ci siamo mangiati una pizza insieme, e il conto, per farsi perdonare, l'ha pagato lui."
       }
     ]
   }

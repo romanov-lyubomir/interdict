@@ -1,178 +1,409 @@
 {
   "title": "{pr:Disse} che il libro di cui {im:parlavamo} {tp:era uscito}",
-  "translation": "He said that the book we were talking about had come out",
-  "topics": "Reported speech in different time frames, relative clauses of all kinds",
+  "translation": "",
+  "topics": "Riportare parole e pensieri: discorso diretto, indiretto e indiretto libero, riferire con un solo verbo (*si scusò, mi ringraziò*); le relative restrittive ed esplicative, le relative implicite, i relativi della lingua scritta (*cui, di cui, quanti, laddove*), le domande indirette con l'infinito e il congiuntivo; libri, editori e scrittori",
   "grammar": {
     "explain": [
+      "Sai trasformare il discorso diretto in indiretto con tutti i tempi e conosci i relativi *che, cui, il quale, il cui, chi, il che, quanto*. A questo livello impari come i romanzi riportano i pensieri, come riassumere in un verbo quello che qualcuno ha detto, e le relative che cambiano il senso con una virgola o che fanno a meno del verbo coniugato.",
       {
-        "h": "Three time frames"
-      },
-      "What changes in reported speech depends on the time of the reporting verb.",
-      {
-        "table": {
-          "head": [
-            "Reporting verb",
-            "«Partirò domani.»"
-          ],
-          "rows": [
-            [
-              "Present: {ip:Dice} che…",
-              "{fs:partirà} domani."
-            ],
-            [
-              "Recent past, still relevant: {pp:Ha detto} che…",
-              "{fs:partirà} domani. / {cpa:sarebbe partito} domani."
-            ],
-            [
-              "Past, closed: {pr:Disse} che…",
-              "{cpa:sarebbe partito} il giorno dopo."
-            ]
-          ]
-        }
-      },
-      "If what was said is still true or still to come, spoken Italian often keeps the original tense: *{pp:Ha detto} che {ip:arriva} alle otto*. Formal texts and exams prefer the full shift.",
-      {
-        "h": "Questions, commands and a choice of mood"
-      },
-      {
-        "table": {
-          "head": [
-            "Direct",
-            "Reported, ordinary",
-            "Reported, formal"
-          ],
-          "rows": [
-            [
-              "«Dove {ip:sei}?»",
-              "{pr:Chiese} dov'{im:ero}.",
-              "{pr:Chiese} dove {csi:fossi}."
-            ],
-            [
-              "«{imv:Vieni}!»",
-              "Mi {pr:disse} di venire.",
-              "{pr:Ordinò} che {csi:venissi}."
-            ],
-            [
-              "«{pp:Hai finito}?»",
-              "{pr:Chiese} se {tp:avevo finito}.",
-              "{pr:Chiese} se {cst:avessi finito}."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Restrictive or explanatory?"
-      },
-      "A restrictive clause identifies which one you mean and has no commas. An explanatory clause adds information about someone already identified and sits between commas.",
-      {
-        "table": {
-          "head": [
-            "Type",
-            "Example",
-            "Meaning"
-          ],
-          "rows": [
-            [
-              "Restrictive",
-              "Gli studenti che {pp:hanno studiato} {pp:hanno passato} l'esame.",
-              "only those who studied"
-            ],
-            [
-              "Explanatory",
-              "Gli studenti, che {pp:hanno studiato}, {pp:hanno passato} l'esame.",
-              "all of them, and they had studied"
-            ]
-          ]
-        }
-      },
-      "*Il quale* is possible in an explanatory clause, but it can't introduce a restrictive one as a subject or object: *Gli studenti i quali {pp:hanno studiato}* sounds wrong in this sense.",
-      {
-        "h": "More relative forms"
-      },
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Refers to",
-            "Example"
-          ],
-          "rows": [
-            [
-              "cui (no preposition)",
-              "indirect object, formal",
-              "La persona cui mi {ip:rivolgo}."
-            ],
-            [
-              "il cui",
-              "possession",
-              "Un autore i cui romanzi {ip:amo}."
-            ],
-            [
-              "chi",
-              "whoever, singular verb",
-              "Chi {ip:tace} {ip:acconsente}."
-            ],
-            [
-              "colui che",
-              "the one who, formal",
-              "Colui che {ip:parla} {ip:è} il direttore."
-            ],
-            [
-              "quanto",
-              "all that",
-              "{pp:Ho fatto} quanto {im:potevo}."
-            ],
-            [
-              "il che",
-              "the whole previous clause",
-              "Non {pp:ha risposto}, il che mi {ip:preoccupa}."
-            ]
-          ]
-        }
-      },
-      "Don't confuse *il che*, which sums up a whole idea, with *che*, which refers to a single noun."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Quattro modi di riportare parole e pensieri",
+              "head": [
+                "modo",
+                "esempio",
+                "come si riconosce"
+              ],
+              "rows": [
+                [
+                  "discorso diretto",
+                  "Marco {pr:disse}: «Domani {ip:parto}.»",
+                  "le parole esatte, tra virgolette"
+                ],
+                [
+                  "discorso indiretto",
+                  "Marco {pr:disse} che il giorno dopo {cpa:sarebbe partito}.",
+                  "*disse che*, i tempi e le parole di tempo cambiano"
+                ],
+                [
+                  "indiretto libero",
+                  "Marco {pr:guardò} la valigia. Il giorno dopo {cpa:sarebbe partito}, e questa volta per sempre!",
+                  "senza *disse che*: i tempi dell'indiretto, il tono di chi pensa"
+                ],
+                [
+                  "diretto libero",
+                  "Marco {pr:guardò} la valigia. Domani {ip:parto}, e questa volta per sempre.",
+                  "senza virgolette, al presente, come un pensiero"
+                ]
+              ]
+            },
+            "note": "L'indiretto libero è tipico del romanzo moderno: lo usano Verga, Svevo, Pirandello. Il narratore entra nella testa del personaggio: i tempi sono quelli del racconto (*imperfetto*, *condizionale passato*), ma restano le esclamazioni e le domande di chi pensa: *Che stupido {tp:era stato}! E adesso chi glielo {im:diceva}?*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Riferire con un solo verbo",
+              "head": [
+                "parole dette",
+                "riferite in breve"
+              ],
+              "rows": [
+                [
+                  "«Grazie dell'aiuto!»",
+                  "Mi {pp:ha ringraziato} dell'aiuto."
+                ],
+                [
+                  "«Scusate il ritardo.»",
+                  "Si {pp:è scusato} del ritardo."
+                ],
+                [
+                  "«Buon viaggio!»",
+                  "Ci {pp:ha augurato} buon viaggio."
+                ],
+                [
+                  "«Sei arrivato di nuovo tardi!»",
+                  "Mi {pp:ha rimproverato} di essere arrivato tardi."
+                ],
+                [
+                  "«Che rumore insopportabile!»",
+                  "Si {pp:è lamentato} del rumore."
+                ],
+                [
+                  "«Venite a cena da noi sabato?»",
+                  "Ci {pp:ha invitati} a cena per sabato."
+                ],
+                [
+                  "«Bravissimo, complimenti!»",
+                  "Si {pp:è complimentato} con me."
+                ]
+              ]
+            },
+            "note": "Chi riassume non ripete le parole, ma dice che cosa ha fatto chi parlava: *ringraziare, scusarsi, augurare, rimproverare, lamentarsi, invitare, salutare, complimentarsi*. È il modo più naturale per riferire saluti, auguri ed esclamazioni, che nel discorso indiretto suonerebbero strani."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Relative restrittive ed esplicative",
+              "head": [
+                "tipo",
+                "esempio",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "restrittiva, senza virgole",
+                  "Gli studenti che {tp:avevano studiato} {pp:hanno superato} l'esame.",
+                  "solo quelli che avevano studiato"
+                ],
+                [
+                  "esplicativa, tra virgole",
+                  "Gli studenti, che {tp:avevano studiato}, {pp:hanno superato} l'esame.",
+                  "tutti, e tutti avevano studiato"
+                ],
+                [
+                  "restrittiva",
+                  "Mia sorella che {ip:vive} a Roma {ip:è} medico.",
+                  "ho più sorelle: parlo di quella di Roma"
+                ],
+                [
+                  "esplicativa",
+                  "Mia sorella, che {ip:vive} a Roma, {ip:è} medico.",
+                  "ho una sola sorella"
+                ]
+              ]
+            },
+            "note": "La restrittiva dice *quale*, l'esplicativa aggiunge un'informazione su qualcuno che è già chiaro. Con un nome proprio la relativa è quasi sempre esplicativa: *Dante, che {pr:nacque} a Firenze, …* *Il quale* si usa soprattutto nelle esplicative."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le relative implicite",
+              "head": [
+                "forma",
+                "esempio",
+                "con il verbo coniugato"
+              ],
+              "rows": [
+                [
+                  "*con cui, a cui, su cui* + infinito",
+                  "Non {ip:ha} nessuno con cui parlare.",
+                  "nessuno con cui possa parlare"
+                ],
+                [
+                  "*il primo, l'ultimo, l'unico a* + infinito",
+                  "{pr:Fu} la prima a capire il problema.",
+                  "la prima che capì"
+                ],
+                [
+                  "participio passato",
+                  "I libri pubblicati quest'anno {ip:sono} pochi.",
+                  "che sono stati pubblicati"
+                ],
+                [
+                  "participio presente",
+                  "I cittadini residenti all'estero {ip:votano} per posta.",
+                  "che risiedono all'estero"
+                ],
+                [
+                  "✗ gerundio",
+                  "✗ Ho visto un ragazzo correndo. → {pp:Ho visto} un ragazzo che {im:correva}.",
+                  "il gerundio non fa da relativa"
+                ]
+              ]
+            },
+            "note": "Le relative implicite rendono il testo più breve e sono tipiche dello scritto. Il gerundio si riferisce al soggetto della frase, non a un nome: *{pp:Ho visto} un ragazzo correndo* vuol dire che correvo io."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "I relativi della lingua scritta",
+              "head": [
+                "forma",
+                "uso",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*cui* senza *a*",
+                  "= *a cui*, formale",
+                  "La persona cui mi {ip:rivolgo} {ip:è} il direttore."
+                ],
+                [
+                  "*il quale* per chiarezza",
+                  "evita un equivoco",
+                  "{pp:Ho visto} la sorella di Marco, la quale {ip:vive} a Roma."
+                ],
+                [
+                  "*di cui, dei quali*",
+                  "una parte di un gruppo",
+                  "{pp:Hanno risposto} dieci candidati, di cui tre stranieri."
+                ],
+                [
+                  "*quanti*",
+                  "tutti quelli che",
+                  "{ip:Ringrazio} quanti {pp:hanno partecipato}."
+                ],
+                [
+                  "*laddove*",
+                  "dove, nel caso in cui (molto formale)",
+                  "Laddove {csp:sia} possibile, si {ip:prega} di usare la mail."
+                ]
+              ]
+            },
+            "note": "*La sorella di Marco, che vive a Roma* non dice chi vive a Roma; *la quale* mostra subito che si parla della sorella. *Quanti* è il plurale di persona di *quanto*: *Ho fatto quanto potevo*, *Ringrazio quanti mi hanno aiutato*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Domande indirette: infinito e congiuntivo",
+              "head": [
+                "forma",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "infinito",
+                  "Non {ip:so} che cosa fare. Non {im:sapevo} a chi rivolgermi.",
+                  "stesso soggetto: = che cosa devo fare"
+                ],
+                [
+                  "congiuntivo",
+                  "Mi {ip:chiedo} se {csp:valga} la pena.",
+                  "più formale"
+                ],
+                [
+                  "indicativo",
+                  "Mi {ip:chiedo} se {ip:vale} la pena.",
+                  "più parlato"
+                ],
+                [
+                  "*se non* + congiuntivo",
+                  "Mi {ip:chiedo} se non {csp:sia} meglio aspettare.",
+                  "= forse è meglio aspettare"
+                ],
+                [
+                  "*chissà* + futuro",
+                  "Chissà dove {fs:sarà} adesso.",
+                  "una supposizione"
+                ]
+              ]
+            },
+            "note": "Dopo *chiedersi, domandarsi, non sapere* il congiuntivo è più formale e l'indicativo più parlato. Con l'infinito la domanda diventa più breve e più naturale."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "gap",
-        "prompt": "Report in a closed past, shifting tenses and time words.",
+        "type": "choice",
+        "prompt": "Come sono riportate le parole o i pensieri?",
         "questions": [
-          "«Il libro {pp:è uscito}.» → {pr:Disse} che il libro [[era uscito#tp]].",
-          "«{fs:Partirò} domani.» → {pr:Disse} che [[sarebbe partito#cpa]] [[il giorno dopo]].",
-          "«{imv:Vieni} qui!» → Mi {pr:disse} di [[venire]] [[lì]].",
-          "«Che cosa {ip:vuoi}?» → Mi {pr:chiese} che cosa [[volessi|volevo#csi]].",
-          "«Ieri {im:ero} malato.» → {pr:Disse} che [[il giorno prima]] {im:era} malato."
+          {
+            "q": "Anna {pr:guardò} l'orologio. {im:Era} tardi! Che cosa {cpa:avrebbe detto} sua madre?",
+            "options": [
+              "*indiretto libero",
+              "discorso indiretto",
+              "discorso diretto",
+              "diretto libero"
+            ]
+          },
+          {
+            "q": "Anna {pr:disse} che {im:era} tardi e che sua madre si {cpa:sarebbe arrabbiata}.",
+            "options": [
+              "*discorso indiretto",
+              "indiretto libero",
+              "discorso diretto",
+              "diretto libero"
+            ]
+          },
+          {
+            "q": "Anna {pr:disse}: «{ip:È} tardi, mia madre si {fs:arrabbierà}!»",
+            "options": [
+              "*discorso diretto",
+              "discorso indiretto",
+              "indiretto libero",
+              "diretto libero"
+            ]
+          },
+          {
+            "q": "Anna {pr:guardò} l'orologio. {ip:È} tardi, mia madre si {fs:arrabbierà}.",
+            "options": [
+              "*diretto libero",
+              "discorso diretto",
+              "discorso indiretto",
+              "indiretto libero"
+            ]
+          }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the right relative form.",
+        "prompt": "Riferisci con un solo verbo al passato prossimo.",
         "questions": [
-          "Il libro [[di cui]] {im:parlavamo} {pp:è uscito}. (about which)",
-          "{ip:È} un autore [[i cui]] romanzi {ip:amo} molto. (whose, plural)",
-          "Non {pp:ha risposto}, [[il che]] mi {ip:preoccupa}. (which, the whole idea)",
-          "[[Chi]] {ip:tace} {ip:acconsente}. (whoever)",
-          "{pp:Ho fatto} [[quanto]] {im:potevo}. (all that)"
+          "«Grazie del regalo!» → Paolo mi [[ha ringraziato|ha ringraziata#pp]] del regalo.",
+          "«Scusate il ritardo.» → Il professore si [[è scusato#pp]] del ritardo.",
+          "«Buon compleanno!» → Tutti mi [[hanno augurato#pp]] buon compleanno.",
+          "«Che caldo insopportabile!» → La nonna si [[è lamentata#pp]] del caldo.",
+          "«Venite a cena sabato?» → Ci [[ha invitati|ha invitato|ha invitate#pp]] a cena per sabato."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does the punctuation tell you?",
+        "prompt": "Restrittiva o esplicativa? Che cosa vuol dire la frase?",
         "questions": [
           {
-            "q": "I turisti, che {tp:avevano prenotato}, {pp:sono entrati}.",
+            "q": "I turisti, che {im:avevano} il biglietto, {pp:sono entrati}.",
             "options": [
-              "*All the tourists had booked and went in.",
-              "Only some of the tourists went in."
+              "*Tutti i turisti avevano il biglietto.",
+              "Solo alcuni turisti avevano il biglietto."
             ]
           },
           {
-            "q": "I turisti che {tp:avevano prenotato} {pp:sono entrati}.",
+            "q": "I turisti che {im:avevano} il biglietto {pp:sono entrati}.",
             "options": [
-              "All the tourists had booked and went in.",
-              "*Only the tourists who had booked went in."
+              "*Sono entrati solo quelli con il biglietto.",
+              "Sono entrati tutti i turisti."
+            ]
+          },
+          {
+            "q": "Mio fratello, che {ip:vive} a Londra, {ip:fa} il cuoco.",
+            "options": [
+              "*Ho un solo fratello.",
+              "Ho più fratelli."
+            ]
+          },
+          {
+            "q": "Mio fratello che {ip:vive} a Londra {ip:fa} il cuoco.",
+            "options": [
+              "*Ho più fratelli.",
+              "Ho un solo fratello."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la relativa implicita.",
+        "questions": [
+          "Non {ip:ho} nessuno con [[cui]] parlare.",
+          "{pr:Fu} la prima [[a]] laurearsi in famiglia.",
+          "I libri che {pp:sono stati pubblicati} quest'anno → I libri [[pubblicati]] quest'anno",
+          "I cittadini che {ip:risiedono} all'estero → I cittadini [[residenti]] all'estero"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli il relativo giusto.",
+        "questions": [
+          {
+            "q": "La persona ___ mi {ip:rivolgo} {ip:è} molto gentile.",
+            "options": [
+              "*cui",
+              "che",
+              "di cui"
+            ]
+          },
+          {
+            "q": "{pp:Sono arrivati} venti candidati, ___ cinque stranieri.",
+            "options": [
+              "*di cui",
+              "dei cui",
+              "che"
+            ]
+          },
+          {
+            "q": "{ip:Ringraziamo} ___ {pp:hanno partecipato}.",
+            "options": [
+              "*quanti",
+              "quanto",
+              "cui"
+            ]
+          },
+          {
+            "q": "{pp:Ho conosciuto} la moglie di Paolo, ___ {ip:lavora} in banca. (lei, non Paolo)",
+            "options": [
+              "*la quale",
+              "il quale",
+              "cui"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta nella domanda indiretta.",
+        "questions": [
+          {
+            "q": "Non {ip:so} che cosa ___ : {imv:aiutami}!",
+            "options": [
+              "*fare",
+              "facendo"
+            ]
+          },
+          {
+            "q": "Mi {ip:chiedo} se non ___ meglio aspettare.",
+            "options": [
+              "*{csp:sia}",
+              "essere"
+            ]
+          },
+          {
+            "q": "Chissà dove ___ adesso Marco.",
+            "options": [
+              "*{fs:sarà}",
+              "{pr:fu}"
+            ]
+          },
+          {
+            "q": "Non {im:sapevo} a chi ___ .",
+            "options": [
+              "*rivolgermi",
+              "rivolgendomi"
             ]
           }
         ]
@@ -183,134 +414,274 @@
     "words": [
       [
         "l'editore",
-        "publisher"
+        "chi pubblica libri, o la sua azienda"
+      ],
+      [
+        "la casa editrice",
+        "l'azienda che pubblica libri"
       ],
       [
         "il saggio",
-        "essay"
+        "un testo che ragiona su un tema, senza raccontare una storia"
       ],
       [
         "la citazione",
-        "quotation"
+        "le parole di un altro riportate in un testo"
       ],
       [
         "la prefazione",
-        "preface"
+        "il testo all'inizio di un libro che lo presenta"
       ],
       [
         "il manoscritto",
-        "manuscript"
+        "il testo di un libro prima della stampa"
       ],
       [
-        "l'autore",
-        "author"
+        "il refuso",
+        "un errore di stampa"
+      ],
+      [
+        "la tiratura",
+        "il numero di copie stampate in una volta"
+      ],
+      [
+        "la ristampa",
+        "una nuova stampa di un libro già uscito"
+      ],
+      [
+        "la stesura",
+        "il lavoro di scrivere un testo, o una sua versione"
+      ],
+      [
+        "l'esordio",
+        "il primo libro, il debutto di un autore"
+      ],
+      [
+        "il narratore",
+        "la voce che racconta la storia"
       ],
       [
         "citare",
-        "to quote"
-      ],
-      [
-        "rivolgersi a",
-        "to address, to turn to"
-      ],
-      [
-        "acconsentire",
-        "to consent"
+        "riportare le parole di un altro"
       ],
       [
         "attribuire",
-        "to attribute"
+        "dire che qualcosa è di qualcuno"
+      ],
+      [
+        "rivolgersi a",
+        "andare da qualcuno per chiedere qualcosa"
+      ],
+      [
+        "acconsentire",
+        "dire di sì, permettere"
       ],
       [
         "inedito",
-        "unpublished"
+        "mai pubblicato"
       ],
       [
-        "l'indomani",
-        "the next day"
+        "postumo",
+        "pubblicato dopo la morte dell'autore"
+      ],
+      [
+        "introvabile",
+        "che non si riesce a trovare"
+      ],
+      [
+        "a detta di",
+        "secondo quello che dice"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "il saggio",
-            "essay"
+            "il refuso",
+            "un errore di stampa"
           ],
           [
-            "il manoscritto",
-            "manuscript"
+            "la tiratura",
+            "il numero di copie stampate in una volta"
           ],
           [
-            "rivolgersi a",
-            "to address, to turn to"
+            "l'esordio",
+            "il primo libro, il debutto di un autore"
           ],
           [
-            "acconsentire",
-            "to consent"
-          ],
-          [
-            "attribuire",
-            "to attribute"
+            "postumo",
+            "pubblicato dopo la morte dell'autore"
           ],
           [
             "inedito",
-            "unpublished"
+            "mai pubblicato"
+          ],
+          [
+            "a detta di",
+            "secondo quello che dice"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "La [[citazione]] {ip:è} di Dante. (quotation)",
-          "{pr:Disse} che {cpa:sarebbe tornato} l'[[indomani]]. (next day)",
-          "L'[[editore]] {pp:ha accettato} il testo. (publisher)",
-          "{pp:Ha scritto} la [[prefazione]] al romanzo. (preface)"
+          {
+            "q": "Nella ___ l'autore {ip:ringrazia} la sua famiglia.",
+            "options": [
+              "*prefazione",
+              "tiratura",
+              "ristampa"
+            ]
+          },
+          {
+            "q": "Il libro {pp:è andato} esaurito: la casa editrice {ip:prepara} una ___ .",
+            "options": [
+              "*ristampa",
+              "stesura",
+              "citazione"
+            ]
+          },
+          {
+            "q": "Questa frase {ip:viene} spesso ___ a Dante, ma non {ip:è} sua.",
+            "options": [
+              "*attribuita",
+              "citata",
+              "acconsentita"
+            ]
+          },
+          {
+            "q": "La prima ___ del romanzo {pp:è durata} tre anni.",
+            "options": [
+              "*stesura",
+              "tiratura",
+              "prefazione"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Per avere il permesso mi {pp:sono} [[rivolto|rivolta#pp]] direttamente al direttore.",
+          "{pp:È stato} pubblicato un racconto [[inedito]] di Calvino.",
+          "Il romanzo {pp:è uscito} dopo la morte dell'autore: {ip:è} un libro [[postumo]].",
+          "La prima edizione {ip:è} ormai [[introvabile]].",
+          "{pp:Ho chiesto} il permesso e il direttore {pp:ha} [[acconsentito#pp]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Il vecchio editore mi {pr:ricevette} nel suo studio e mi {pr:disse} che il manoscritto di cui {tp:avevamo parlato} {im:era scomparso}. {pr:Spiegò} che l'{tp:aveva affidato} a un collaboratore, il quale si {tp:era trasferito} a Parigi senza lasciare un indirizzo, il che {im:rendeva} ogni ricerca assai difficile.",
-      "Gli {pr:chiesi} se {csi:avesse} almeno una copia. {pr:Rispose} di non averne e {pr:aggiunse} che, chi l'{cst:avesse trovata}, {cpa:avrebbe avuto} tra le mani un romanzo inedito di un autore i cui libri {im:erano} ormai introvabili. L'indomani {pr:tornai} con una lettera. Mi {pr:disse} di lasciarla sul tavolo, accanto a quanto {im:restava} del suo archivio."
+      {
+        "h": "Il dattiloscritto"
+      },
+      "Il pacco {pr:arrivò} un lunedì di novembre, senza mittente. Dentro c'{im:era} un dattiloscritto di trecento pagine, ingiallito, con una sola riga a matita sulla prima pagina: *per chi avrà il coraggio di pubblicarlo*. Livia, che da vent'anni {im:lavorava} come lettrice per una piccola casa editrice di Torino, lo {pr:aprì} senza troppa curiosità.",
+      "Alle due di notte {im:era} ancora sveglia. Chi {im:poteva} averlo scritto? Lo stile {im:era} quello di un grande scrittore, eppure nessuno dei nomi che {im:conosceva} {im:corrispondeva}. E se {csi:fosse} uno scherzo? No: nessuno {cpa:avrebbe perso} mesi a scrivere trecento pagine per uno scherzo.",
+      "La mattina dopo {pr:telefonò} al direttore, il quale {pr:ascoltò} in silenzio e poi le {pr:chiese} se {csi:fosse} sicura. Livia {pr:rispose} che non lo {im:era} affatto, ma che quel libro {im:andava} letto. Il direttore si {pr:lamentò} dei costi, la {pr:rimproverò} di farsi sempre trascinare dall'entusiasmo e alla fine {pr:acconsentì}: {cpa:avrebbero stampato} mille copie, non una di più.",
+      "Il romanzo {pr:uscì} un anno dopo, con una prefazione in cui Livia {pr:raccontò} come l'{tp:aveva trovato}. La prima tiratura {pr:andò} esaurita in un mese, e oggi i lettori che {ip:cercano} quella prima edizione {ip:sanno} che {ip:è} introvabile. L'autore, invece, non si {pp:è} mai {pp:fatto} vivo."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The manuscript had been entrusted to a collaborator.",
+            "q": "Che cosa c'{im:era} nel pacco?",
             "options": [
-              "*True",
-              "False"
+              "*un dattiloscritto senza il nome dell'autore",
+              "una lettera del direttore",
+              "la prima edizione di un romanzo"
             ]
           },
           {
-            "q": "The collaborator left a forwarding address.",
+            "q": "Perché Livia {pr:escluse} che {csi:fosse} uno scherzo?",
             "options": [
-              "True",
-              "*False"
+              "*Nessuno {cpa:avrebbe scritto} trecento pagine per scherzo.",
+              "Il pacco {im:aveva} un mittente.",
+              "Il direttore le {pp:aveva detto} che {im:era} vero."
             ]
           },
           {
-            "q": "The publisher had a copy of the text.",
+            "q": "Di che cosa si {pr:lamentò} il direttore?",
             "options": [
-              "True",
-              "*False"
+              "*dei costi",
+              "dello stile del libro",
+              "del ritardo di Livia"
             ]
           },
           {
-            "q": "In «il che rendeva», «il che» refers to the whole situation described.",
+            "q": "Che cosa non {pp:è} mai {pp:successo}?",
             "options": [
-              "*True",
-              "False"
+              "*L'autore non si {pp:è} mai {pp:fatto} vivo.",
+              "Il libro non {pp:è} mai {pp:uscito}.",
+              "Livia non {pp:ha} mai {pp:scritto} la prefazione."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Livia {im:lavorava} da poco per la casa editrice.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Livia {im:era} sicurissima del valore del libro.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il direttore {pr:accettò} di stampare mille copie.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La prima tiratura {pr:andò} esaurita in un mese.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase del testo alla forma che usa.",
+        "pairs": [
+          [
+            "Chi {im:poteva} averlo scritto?",
+            "indiretto libero"
+          ],
+          [
+            "Le {pr:chiese} se {csi:fosse} sicura.",
+            "domanda indiretta"
+          ],
+          [
+            "Il direttore si {pr:lamentò} dei costi.",
+            "riferire con un solo verbo"
+          ],
+          [
+            "…al direttore, il quale {pr:ascoltò} in silenzio.",
+            "relativa esplicativa"
+          ],
+          [
+            "I lettori che {ip:cercano} quella prima edizione…",
+            "relativa restrittiva"
+          ]
         ]
       }
     ]
@@ -319,50 +690,62 @@
     "transcript": [
       [
         "Dora",
-        "Che cosa ti {pp:ha detto} l'editore?"
+        "Allora, che cosa ti {pp:ha detto} l'editore?"
       ],
       [
         "Leo",
-        "Mi {pp:ha detto} che il libro di cui {im:parlavamo} {pp:è uscito}."
+        "Si {pp:è complimentato} per il romanzo, ma mi {pp:ha chiesto} se {csi:fossi} disposto a tagliare cinquanta pagine."
       ],
       [
         "Dora",
-        "Ti {pp:ha chiesto} se {cst:avessi} già {cst:letto} le bozze?"
+        "Cinquanta? E tu che cosa gli {pp:hai risposto}?"
       ],
       [
         "Leo",
-        "Sì, e mi {pp:ha detto} di mandargli la prefazione."
+        "Gli {pp:ho detto} che ci {cpa:avrei pensato}. Ma non {ip:so} proprio che cosa fare."
       ],
       [
         "Dora",
-        "Non mi {pp:ha} ancora {pp:risposto}, il che {ip:è} strano."
+        "Le pagine di cui {ip:parla} {ip:sono} quelle del viaggio, vero? Quelle a cui {ip:tieni} di più."
       ],
       [
         "Leo",
-        "Chi {ip:lavora} con lui {ip:sa} che {ip:è} sempre in ritardo."
+        "Proprio quelle. Però mi {ip:chiedo} se non {csp:abbia} ragione lui. {ip:Sei} l'unica a cui {ip:posso} chiederlo: le {fs:leggerai}?"
+      ],
+      [
+        "Dora",
+        "Certo. Ma ti {imv:avverto}: io {ip:sono} più severa di qualunque editore!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Il libro [[di]] cui {im:parlavamo} {pp:è uscito}.",
-          "Ti {pp:ha chiesto} se [[avessi#cst]] già {cst:letto} le bozze?",
-          "Non mi {pp:ha} ancora {pp:risposto}, [[il]] che {ip:è} strano.",
-          "[[Chi]] {ip:lavora} con lui {ip:sa} che {ip:è} sempre in ritardo."
+          "Mi {pp:ha chiesto} se [[fossi#csi]] disposto a tagliare cinquanta pagine.",
+          "Gli {pp:ho detto} che ci [[avrei pensato#cpa]].",
+          "Non {ip:so} proprio che cosa [[fare]].",
+          "Mi {ip:chiedo} se non [[abbia#csp]] ragione lui."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What did the publisher ask Leo to send?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Leo should send…",
+            "q": "Che cosa {ip:chiede} l'editore a Leo?",
             "options": [
-              "the proofs",
-              "*the preface",
-              "a letter"
+              "*di tagliare cinquanta pagine",
+              "di scrivere un altro romanzo",
+              "di cambiare il titolo"
+            ]
+          },
+          {
+            "q": "Che cosa {fs:farà} Dora?",
+            "options": [
+              "*{fs:Leggerà} le pagine del viaggio.",
+              "{fs:Telefonerà} all'editore.",
+              "{fs:Taglierà} le pagine."
             ]
           }
         ]
@@ -373,41 +756,378 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "He said that the book we were talking about had come out. (use disse)",
+            "q": "Qual {ip:è} l'ultimo libro che {pp:hai letto}? {imv:Racconta} la trama a un amico che non l'{pp:ha letto}."
+          },
+          {
+            "q": "Che cosa ti {pp:ha detto} di importante una persona, di recente? {imv:Riferiscilo} senza virgolette."
+          },
+          {
+            "q": "C'{ip:è} un libro che {cop:consiglieresti} a chiunque? Perché?"
+          },
+          {
+            "q": "Ti {ip:è} mai capitato di non sapere a chi rivolgerti? Che cosa {pp:hai fatto}?"
+          },
+          {
+            "q": "Chi {ip:è} la persona con cui {ip:parli} più volentieri dei tuoi problemi?"
+          },
+          {
+            "q": "Ti {cop:piacerebbe} scrivere un libro? Di che cosa {cop:parlerebbe}?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "In libreria"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una donna che legge un dattiloscritto alla scrivania, di notte, con una lampada accesa",
+          "B — Un uomo che stringe la mano a un altro e sorride",
+          "C — Una pila di libri con una fascetta rossa: «Esaurito»",
+          "D — Un ragazzo solo su una panchina, con il telefono in mano"
+        ],
+        "pairs": [
+          [
+            "Non {im:riusciva} a smettere: chi {im:poteva} averlo scritto?",
+            "immagine A"
+          ],
+          [
+            "Si {pp:è complimentato} con l'autore.",
+            "immagine B"
+          ],
+          [
+            "La prima tiratura {pp:è andata} esaurita.",
+            "immagine C"
+          ],
+          [
+            "Non {im:aveva} nessuno con cui parlare.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Riferisci con un solo verbo al passato prossimo.",
+        "questions": [
+          "«Scusami, ho sbagliato.» → Marco si [[è scusato#pp]] con me.",
+          "«Complimenti per il libro!» → Il critico si [[è complimentato#pp]] con l'autrice.",
+          "«Ciao a tutti!» → Entrando, Sara [[ha salutato#pp]] tutti.",
+          "«Ancora in ritardo!» → Il capo mi [[ha rimproverato|ha rimproverata#pp]] per il ritardo."
+        ]
+      },
+      {
+        "h": "Dentro la testa del personaggio"
+      },
+      {
+        "text": [
+          "Sara {pr:guardò} il telefono e {pr:pensò}: «{ip:È} mezzanotte e Luca non {pp:ha} ancora {pp:chiamato}. Che stupida {pp:sono stata} a litigare! Domani lo {fs:chiamerò} io.»"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta i pensieri di Sara con l'indiretto libero.",
+        "ordered": true,
+        "questions": [
+          "Sara {pr:guardò} il telefono. [[Era#im]] mezzanotte e Luca non [[aveva#tp]] ancora {tp:chiamato}.",
+          "Che stupida [[era stata#tp]] a litigare!",
+          "Il giorno dopo lo [[avrebbe chiamato#cpa]] lei."
+        ]
+      },
+      {
+        "h": "Quale sorella?"
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le virgole se la relativa è esplicativa; se è restrittiva, riscrivi la frase così com'è.",
+        "questions": [
+          {
+            "q": "Mia madre che è nata a Napoli fa la sarta. (ho una sola madre)",
             "a": [
-              "Disse che il libro di cui parlavamo era uscito."
+              "Mia madre, che è nata a Napoli, fa la sarta."
             ]
           },
           {
-            "q": "He asked me where I was. (formal, congiuntivo; use chiese)",
+            "q": "I passeggeri che non hanno il biglietto devono scendere.",
             "a": [
-              "Mi chiese dove fossi."
+              "I passeggeri che non hanno il biglietto devono scendere."
             ]
           },
           {
-            "q": "He didn't answer, which worries me.",
+            "q": "Roma che è la capitale d'Italia si trova sul Tevere.",
             "a": [
-              "Non ha risposto, il che mi preoccupa."
-            ]
-          },
-          {
-            "q": "An author whose novels I love.",
-            "a": [
-              "Un autore i cui romanzi amo."
-            ]
-          },
-          {
-            "q": "I did all I could.",
-            "a": [
-              "Ho fatto quanto potevo.",
-              "Ho fatto tutto quello che potevo.",
-              "Ho fatto quanto ho potuto."
+              "Roma, che è la capitale d'Italia, si trova sul Tevere."
             ]
           }
         ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli il relativo giusto.",
+        "questions": [
+          {
+            "q": "{ip:Ho} tre fratelli, ___ due {ip:vivono} all'estero.",
+            "options": [
+              "*di cui",
+              "che",
+              "cui"
+            ]
+          },
+          {
+            "q": "{ip:È} un libro ___ titolo non {ip:ricordo}.",
+            "options": [
+              "*il cui",
+              "di cui",
+              "che"
+            ]
+          },
+          {
+            "q": "La signora ___ {pp:ho dato} le chiavi {ip:è} la vicina.",
+            "options": [
+              "*cui",
+              "che",
+              "di cui"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Non so che cosa fare"
+      },
+      {
+        "type": "gap",
+        "prompt": "Trasforma la domanda in una domanda indiretta con l'infinito.",
+        "questions": [
+          "«Che cosa {ip:devo} fare?» → Non {ip:so} che cosa [[fare]].",
+          "«Dove {ip:posso} andare?» → Non {im:sapeva} dove [[andare]].",
+          "«A chi mi {ip:rivolgo}?» → Non {ip:so} a chi [[rivolgermi]]."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Ho visto un ragazzo correndo nel parco. (il ragazzo correva)",
+            "a": [
+              "Ho visto un ragazzo che correva nel parco."
+            ]
+          },
+          {
+            "q": "Mia madre che si chiama Rosa, è nata a Bari.",
+            "a": [
+              "Mia madre, che si chiama Rosa, è nata a Bari."
+            ]
+          },
+          {
+            "q": "Non ho nessuno con chi parlare.",
+            "a": [
+              "Non ho nessuno con cui parlare."
+            ]
+          },
+          {
+            "q": "Fu il primo di capire il problema.",
+            "a": [
+              "Fu il primo a capire il problema."
+            ]
+          },
+          {
+            "q": "Ringrazio quanto hanno partecipato.",
+            "a": [
+              "Ringrazio quanti hanno partecipato.",
+              "Ringrazio tutti quelli che hanno partecipato."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "a cui / la persona / mi rivolgo / è gentile",
+            "a": [
+              "La persona a cui mi rivolgo è gentile."
+            ]
+          },
+          {
+            "q": "con cui / nessuno / parlare / non ha",
+            "a": [
+              "Non ha nessuno con cui parlare."
+            ]
+          },
+          {
+            "q": "a capire / la prima / fu / il problema",
+            "a": [
+              "Fu la prima a capire il problema."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Dopo alcune parole brevi (*a, da, e, chi, che, tra, fra, più, sopra*), dopo *è, già, può* e dopo le parole con l'accento sull'ultima sillaba, la prima consonante della parola che segue si pronuncia doppia: *a casa* si dice *akkasa*, *chi sa* *kissa*, *è vero* *evvero*. È il raddoppiamento sintattico: nel Centro e nel Sud si sente chiaramente, al Nord molto meno. Quando le due parole si uniscono in una, il raddoppio si scrive: *chi + sa → chissà*, *da + vero → davvero*, *sopra + tutto → soprattutto*, *e + pure → eppure*, *da + per + tutto → dappertutto*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "{ip:Sei} ___ sicuro?",
+            "options": [
+              "*davvero",
+              "davero",
+              "dav vero"
+            ]
+          },
+          {
+            "q": "Mi {ip:piace} la frutta, ___ le pesche.",
+            "options": [
+              "*soprattutto",
+              "sopratutto",
+              "soprattuto"
+            ]
+          },
+          {
+            "q": "{pp:Ho cercato} le chiavi ___ .",
+            "options": [
+              "*dappertutto",
+              "dapertutto",
+              "dappertuto"
+            ]
+          },
+          {
+            "q": "___ dove {fs:sarà} adesso.",
+            "options": [
+              "*Chissà",
+              "Chisà",
+              "Chissa"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "Riconosco il discorso indiretto libero in un romanzo.",
+          "So riferire saluti, scuse, auguri e lamentele con un solo verbo.",
+          "So distinguere una relativa restrittiva da una esplicativa, anche con le virgole.",
+          "So usare le relative implicite: *nessuno con cui parlare, il primo a capire*.",
+          "So usare *cui* senza preposizione, *di cui* e *quanti*.",
+          "So fare domande indirette con l'infinito e con il congiuntivo."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "La copertina della prima edizione del Gattopardo, pubblicata da Feltrinelli nel 1958"
+      },
+      {
+        "text": [
+          "**Il libro che nessuno voleva**",
+          "Giuseppe Tomasi, principe di Lampedusa, {pr:scrisse} *Il Gattopardo* tra il 1954 e il 1956, a Palermo. Il romanzo {ip:racconta} la vita di una famiglia nobile siciliana negli anni in cui la Sicilia {pr:passò} dai Borbone al Regno d'Italia.",
+          "L'autore lo {pr:propose} a due grandi case editrici, Mondadori ed Einaudi, che lo {pr:rifiutarono} tutte e due. Tra chi lo {pr:bocciò} c'{im:era} anche lo scrittore Elio Vittorini. Tomasi di Lampedusa {pr:morì} nel luglio del 1957, convinto che nessuno l'{cpa:avrebbe} mai {cpa:pubblicato}.",
+          "Poco dopo il dattiloscritto {pr:arrivò} a Giorgio Bassani, che {pr:capì} subito di avere tra le mani un capolavoro. Il libro {pr:uscì} da Feltrinelli nel novembre del 1958, con una prefazione dello stesso Bassani, e l'anno dopo {pr:vinse} il Premio Strega. Nel 1963 Luchino Visconti ne {pr:trasse} un film che {pr:vinse} la Palma d'oro a Cannes.",
+          "Ancora oggi molti {ip:citano} il passo in cui il giovane Tancredi {ip:spiega} allo zio che, se {ip:vogliono} che tutto {csp:rimanga} com'{ip:è}, bisogna che tutto {csp:cambi}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "*Il Gattopardo* {pr:fu} pubblicato prima della morte dell'autore.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Mondadori ed Einaudi {pr:rifiutarono} il romanzo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Giorgio Bassani {pr:scrisse} la prefazione della prima edizione.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il romanzo {pr:vinse} il Premio Strega.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il film di Visconti {pr:uscì} negli anni Ottanta.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme che mancano.",
+        "questions": [
+          "Tra chi lo [[bocciò#pr]] c'{im:era} anche Elio Vittorini.",
+          "{pr:Morì} convinto che nessuno l'[[avrebbe#cpa]] mai {cpa:pubblicato}.",
+          "Se {ip:vogliono} che tutto [[rimanga#csp]] com'{ip:è}, bisogna che tutto [[cambi#csp]]."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Conosci un libro famoso che all'inizio è stato rifiutato o ignorato? Raccontane la storia.",
+        "open": true,
+        "questions": [
+          {
+            "q": "All'inizio…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta una conversazione importante (vera o inventata) senza discorso diretto: riferisci le parole con il discorso indiretto, con un solo verbo e almeno una volta con l'indiretto libero.",
+        "cues": [
+          "Chi {pr:parlò}, quando e dove?",
+          "Che cosa {pr:disse}? (*disse che…, mi chiese se…*)",
+          "Riassumi con un verbo: *si scusò, mi ringraziò, si lamentò*.",
+          "Che cosa {pr:pensò} il personaggio? (*E adesso? Che cosa avrebbe fatto?*)"
+        ],
+        "start": "",
+        "model": "La telefonata\nMia sorella mi chiamò una sera di dicembre, tardi. Si scusò per l'ora e mi chiese se stessi già dormendo. Le risposi di no, anche se non era vero.\nMi disse che aveva lasciato il lavoro. Così, all'improvviso, dopo dieci anni. Che cosa le era venuto in mente? E l'affitto, e il mutuo? Non dissi niente di tutto questo. Le chiesi soltanto che cosa avrebbe fatto adesso.\nRispose che non lo sapeva, e che per la prima volta non le importava. Poi mi ringraziò di averla ascoltata, mi augurò la buonanotte e riattaccò.\nIo rimasi sveglio fino all'alba, chiedendomi se non avesse ragione lei."
       }
     ]
   }

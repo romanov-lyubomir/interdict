@@ -1,0 +1,384 @@
+{
+  "title": "ეს ჩემი ოჯახია",
+  "translation": "This is my family",
+  "topics": "The family, my and your (*ჩემი, შენი*…), the numbers from 1 to 10, age, and *I have* (*მყავს*)",
+  "interface": "english",
+  "titles": {
+    "grammar": "Grammar",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+  "grammar": {
+    "explain": [
+      "Now you can talk about your family: say who is who, how old they are, and how many brothers and sisters you have.",
+      {
+        "h": "This is…"
+      },
+      "*ეს არის* means *this is*: *ეს არის ჩემი დედა* (*this is my mother*). In speech *არის* is often shortened to -*ა* at the end of the last word: *ეს ჩემი დედაა, ეს ჩემი ოჯახია* (*this is my family*).",
+      {
+        "h": "My, your…"
+      },
+      {
+        "table": {
+          "head": [
+            "",
+            "",
+            "example"
+          ],
+          "rows": [
+            [
+              "ჩემი",
+              "my",
+              "ჩემი ძმა (my brother)"
+            ],
+            [
+              "შენი",
+              "your",
+              "შენი და (your sister)"
+            ],
+            [
+              "მისი",
+              "his, her",
+              "მისი ქმარი (her husband)"
+            ],
+            [
+              "ჩვენი",
+              "our",
+              "ჩვენი ოჯახი (our family)"
+            ],
+            [
+              "თქვენი",
+              "your (polite or plural)",
+              "თქვენი შვილი (your child)"
+            ],
+            [
+              "მათი",
+              "their",
+              "მათი ბებია (their grandmother)"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Numbers from 1 to 10"
+      },
+      {
+        "table": {
+          "rows": [
+            [
+              "1 ერთი",
+              "2 ორი",
+              "3 სამი",
+              "4 ოთხი"
+            ],
+            [
+              "5 ხუთი",
+              "6 ექვსი",
+              "7 შვიდი",
+              "8 რვა"
+            ],
+            [
+              "9 ცხრა",
+              "10 ათი",
+              "20 ოცი",
+              "30 ოცდაათი"
+            ]
+          ]
+        }
+      },
+      "Georgian counts in twenties: 30 is *ოცდაათი*, *twenty and ten*. After a number the noun stays singular: *ორი ძმა* (*two brothers*, literally *two brother*).",
+      {
+        "h": "How old are you?"
+      },
+      "*რამდენი წლის ხარ?* (*How old are you?*) — *ოცი წლის ვარ*. (*I'm twenty.*)",
+      {
+        "h": "I have"
+      },
+      "For people and animals, *I have* is *მყავს*: *მყავს ერთი ძმა და ორი და* (*I have one brother and two sisters*). *You have* is *გყავს*: *შენ გყავს და?* (*Do you have a sister?*)"
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right word.",
+        "questions": [
+          {
+            "q": "ეს ___ დედაა. (my)",
+            "options": [
+              "*ჩემი",
+              "შენი",
+              "მათი"
+            ]
+          },
+          {
+            "q": "ეს ___ ძმაა? (your)",
+            "options": [
+              "*შენი",
+              "ჩემი",
+              "ჩვენი"
+            ]
+          },
+          {
+            "q": "ეს ___ ოჯახია. (our)",
+            "options": [
+              "*ჩვენი",
+              "მისი",
+              "შენი"
+            ]
+          },
+          {
+            "q": "მე ___ ორი და. (I have)",
+            "options": [
+              "*მყავს",
+              "გყავს",
+              "ვარ"
+            ]
+          },
+          {
+            "q": "ნინო ოცი წლის ___.",
+            "options": [
+              "*არის",
+              "ვარ",
+              "ხარ"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each number to its word.",
+        "pairs": [
+          [
+            "2",
+            "ორი"
+          ],
+          [
+            "4",
+            "ოთხი"
+          ],
+          [
+            "5",
+            "ხუთი"
+          ],
+          [
+            "7",
+            "შვიდი"
+          ],
+          [
+            "9",
+            "ცხრა"
+          ],
+          [
+            "10",
+            "ათი"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Write the numbers in Georgian.",
+        "questions": [
+          "1 → [[ერთი]]",
+          "3 → [[სამი]]",
+          "6 → [[ექვსი]]",
+          "8 → [[რვა]]",
+          "20 → [[ოცი]]"
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "ოჯახი",
+        "family"
+      ],
+      [
+        "დედა",
+        "mother"
+      ],
+      [
+        "მამა",
+        "father"
+      ],
+      [
+        "და",
+        "sister; and"
+      ],
+      [
+        "ძმა",
+        "brother"
+      ],
+      [
+        "ბებია",
+        "grandmother"
+      ],
+      [
+        "ბაბუა",
+        "grandfather"
+      ],
+      [
+        "ცოლი",
+        "wife"
+      ],
+      [
+        "ქმარი",
+        "husband"
+      ],
+      [
+        "შვილი",
+        "child (son or daughter)"
+      ],
+      [
+        "ჩემი",
+        "my"
+      ],
+      [
+        "შენი",
+        "your"
+      ],
+      [
+        "მყავს",
+        "I have (a person, an animal)"
+      ],
+      [
+        "წელი",
+        "year"
+      ],
+      [
+        "რამდენი?",
+        "how many?"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "ოჯახი",
+            "family"
+          ],
+          [
+            "ძმა",
+            "brother"
+          ],
+          [
+            "ცოლი",
+            "wife"
+          ],
+          [
+            "ქმარი",
+            "husband"
+          ],
+          [
+            "შვილი",
+            "child (son or daughter)"
+          ],
+          [
+            "ბაბუა",
+            "grandfather"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Who is it? Complete with the family word.",
+        "questions": [
+          "My mother's mother is my [[ბებია]].",
+          "My father's son is my [[ძმა]].",
+          "My father's daughter is my [[და]].",
+          "My mother's husband is my [[მამა]]."
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      {
+        "h": "Ana's photos"
+      },
+      "ეს ჩემი ოჯახია. ეს არის ჩემი დედა, ნანა. ის ექიმია.",
+      "ეს ჩემი მამაა, დავითი. ის მასწავლებელია.",
+      "მე მყავს ერთი ძმა, გიორგი. ის ოცდაათი წლის არის.",
+      "მე ოცი წლის ვარ და სტუდენტი ვარ.",
+      "ეს ჩვენი ძაღლია, ბობი."
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Read about Ana's family and choose.",
+        "questions": [
+          {
+            "q": "What is Ana's mother's name?",
+            "options": [
+              "*Nana",
+              "Nino",
+              "Tamar"
+            ]
+          },
+          {
+            "q": "What does her father do?",
+            "options": [
+              "*He is a teacher.",
+              "He is a doctor.",
+              "He is a student."
+            ]
+          },
+          {
+            "q": "How old is Giorgi?",
+            "options": [
+              "*30",
+              "20",
+              "10"
+            ]
+          },
+          {
+            "q": "How many brothers does Ana have?",
+            "options": [
+              "*one",
+              "two",
+              "none"
+            ]
+          },
+          {
+            "q": "Who is Bobi?",
+            "options": [
+              "*the dog",
+              "her brother",
+              "her grandfather"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write in Georgian.",
+        "questions": [
+          "This is my family. → ეს [[ჩემი]] ოჯახია.",
+          "I have two sisters. → მყავს [[ორი]] და.",
+          "I'm twenty. → [[ოცი]] წლის ვარ.",
+          "This is my brother. → ეს ჩემი [[ძმაა]]."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Write about your family: who they are and how old they are.",
+        "open": true,
+        "questions": [
+          {
+            "q": "ეს ჩემი ოჯახია…"
+          }
+        ]
+      }
+    ]
+  }
+}

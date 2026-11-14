@@ -1,0 +1,13 @@
+title: ბაზარში
+translation: At the market
+level: A1
+
+დღეს{today} შაბათია{შაბათი: it's Saturday}. მე{I} და{and} დედა{mum} ბაზარში{ბაზარი: to the market} მივდივართ{მისვლა: we go}.
+
+ბაზარზე{ბაზარი: at the market} ბევრი{a lot of} ხალხია{ხალხი: there are people}. აქ{here} არის{ყოფნა: there is} ხილი{fruit}, ბოსტნეული{vegetables}, ყველი{cheese} და{and} თაფლი{honey}.
+
+დედა{mum} ყიდულობს{ყიდვა: buys} პომიდორს{პომიდორი: tomatoes}, კიტრს{კიტრი: cucumbers} და{and} ყურძენს{ყურძენი: grapes}. მე{I} მინდა{ნდომა: want} ჩურჩხელა{churchkhela}.
+
+— რა{what} ღირს{ღირება: does it cost}? — ორი{two} ლარი{lari}.
+
+ჩურჩხელა{churchkhela} ძალიან{very} გემრიელია{გემრიელი: is tasty}!

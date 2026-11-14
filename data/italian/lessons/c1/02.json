@@ -1,187 +1,340 @@
 {
   "title": "Qualunque cosa {csp:accada}, {ip:è} giusto che lo {csp:sappia}",
-  "translation": "Whatever happens, it's right that he should know",
-  "topics": "The full range of the congiuntivo: judgements, relative and impersonal constructions, independent uses",
+  "translation": "",
+  "topics": "Il congiuntivo in tutte le sue forme: il principio, i verbi di giudizio, volontà ed emozione meno comuni, *non è che, non che*, *come se* e *quasi*, la frase con *che* in testa, le espressioni fisse (*che io sappia, costi quel che costi*); opinioni, valori e dibattiti",
   "grammar": {
     "explain": [
+      "Il congiuntivo non è una lista di verbi da imparare a memoria. C'è un principio: la frase con il congiuntivo non afferma un fatto, ma lo presenta come desiderato, giudicato, temuto, dubbio o semplicemente come argomento di cui si parla.",
       {
-        "h": "The principle behind every use"
-      },
-      "The *congiuntivo* appears when a clause isn't asserted as fact but is instead wished for, evaluated, doubted, assumed or simply presented as a topic.",
-      {
-        "table": {
-          "head": [
-            "Attitude",
-            "Introduced by",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Opinion",
-              "{ip:ritengo} che, {ip:suppongo} che",
-              "{ip:Ritengo} che {csp:sia} opportuno."
-            ],
-            [
-              "Doubt",
-              "{ip:dubito} che, non {ip:è detto} che",
-              "Non {ip:è detto} che {csp:accetti}."
-            ],
-            [
-              "Emotion",
-              "mi {ip:rallegro} che, mi {ip:stupisce} che",
-              "Mi {ip:stupisce} che non lo {csp:sappia}."
-            ],
-            [
-              "Will",
-              "{ip:esigo} che, {ip:pretendo} che",
-              "{ip:Esigo} che si {imv:scusi}."
-            ],
-            [
-              "Evaluation",
-              "{ip:è} giusto che, {ip:è} assurdo che",
-              "{ip:È} giusto che lo {csp:sappia}."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "In relative clauses"
-      },
-      "A relative clause takes the *congiuntivo* when it describes something that may not exist, or something singled out as unique.",
-      {
-        "table": {
-          "head": [
-            "Type",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Sought, not yet found",
-              "{ip:Cerco} un traduttore che {csp:conosca} il finlandese."
-            ],
-            [
-              "Denied",
-              "Non c'{ip:è} nessuno che {csp:possa} aiutarti."
-            ],
-            [
-              "After a superlative",
-              "{ip:È} la persona più onesta che io {csp:conosca}."
-            ],
-            [
-              "After unico, solo, primo, ultimo",
-              "{ip:È} l'unico che {csa:abbia capito}."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "After indefinite words"
-      },
-      {
-        "table": {
-          "head": [
-            "Word",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "chiunque",
-              "whoever",
-              "Chiunque {csp:sia}, non aprire."
-            ],
-            [
-              "qualunque, qualsiasi",
-              "whatever, any",
-              "Qualunque cosa {csp:accada}, {imv:resta} qui."
-            ],
-            [
-              "ovunque, dovunque",
-              "wherever",
-              "Ovunque tu {csp:vada}, ti seguirò."
-            ],
-            [
-              "comunque",
-              "however",
-              "Comunque {csp:vada}, {fs:sarà} un successo."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "A clause moved to the front"
-      },
-      "When a *che* clause is placed at the start as a topic, it takes the *congiuntivo* even if the fact is certain: *Che {csp:sia} intelligente {ip:è} fuori discussione*.",
-      {
-        "h": "Without a main verb"
-      },
-      "The *congiuntivo* can stand alone to express a wish, a resigned permission or a doubt: *Che {csp:venga} pure! Magari {csi:fosse} vero! Non che mi {csp:dispiaccia}, ma…*",
-      {
-        "h": "A question of register"
-      },
-      "In relaxed speech, Italians often say *{ip:Penso} che {ip:è} vero*. It's widely heard, but in formal writing it's considered a mistake."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il principio: affermare o non affermare",
+              "head": [
+                "atteggiamento",
+                "introdotto da",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "opinione",
+                  "*ritengo, suppongo, mi sembra che*",
+                  "{ip:Ritengo} che {csp:sia} opportuno intervenire."
+                ],
+                [
+                  "dubbio",
+                  "*dubito, non è detto che*",
+                  "Non {ip:è detto} che {csp:accetti}."
+                ],
+                [
+                  "volontà",
+                  "*esigo, pretendo, mi aspetto che*",
+                  "{ip:Esigo} che mi {csp:rispondiate} entro domani."
+                ],
+                [
+                  "emozione",
+                  "*mi rallegro, mi rammarico, mi stupisce che*",
+                  "Mi {ip:stupisce} che nessuno ne {csp:parli}."
+                ],
+                [
+                  "giudizio",
+                  "*è giusto, è assurdo, è ora che*",
+                  "{ip:È} ora che tu {csp:prenda} una decisione."
+                ]
+              ]
+            },
+            "note": "Con *sapere, essere sicuro, è vero, è evidente* il fatto è affermato, quindi si usa l'indicativo: *{ip:È} evidente che {ip:ha} ragione.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Non è che, non che, il fatto che*",
+              "head": [
+                "espressione",
+                "esempio",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "*non è che* + congiuntivo",
+                  "**Non è che** tu {csp:abbia} torto, ma…",
+                  "attenua una critica"
+                ],
+                [
+                  "*non che* + congiuntivo",
+                  "**Non che** mi {csp:dispiaccia}, ma {cop:preferirei} restare.",
+                  "una concessione"
+                ],
+                [
+                  "*il fatto che* + congiuntivo",
+                  "**Il fatto che** {csa:sia partito} senza salutare mi {ip:ha} offeso.",
+                  "il fatto come argomento"
+                ],
+                [
+                  "*il fatto che* + indicativo",
+                  "**Il fatto che** {ip:è} partito {ip:è} certo.",
+                  "il fatto come notizia (più parlato)"
+                ]
+              ]
+            },
+            "note": "*Non è che* in una domanda chiede con gentilezza: *Non è che {cop:potresti} aiutarmi?* (= per caso puoi aiutarmi?)"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Come se* e *quasi*",
+              "head": [
+                "il fatto immaginato è…",
+                "forma",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "nello stesso momento",
+                  "*come se* + [csi:congiuntivo imperfetto]",
+                  "Mi {ip:guarda} **come se** non mi {csi:conoscesse}."
+                ],
+                [
+                  "prima",
+                  "*come se* + [cst:congiuntivo trapassato]",
+                  "Mi {pp:ha salutato} **come se** non {cst:fosse successo} niente."
+                ],
+                [
+                  "(più formale)",
+                  "*quasi* + congiuntivo",
+                  "{ip:Parla} piano, **quasi** {csi:avesse} paura."
+                ]
+              ]
+            },
+            "note": "Dopo *come se* il tempo dipende solo dal rapporto con il verbo principale: imperfetto per lo stesso momento, trapassato per il prima, anche se il verbo principale è al presente."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La frase con *che* in testa",
+              "head": [
+                "ordine normale",
+                "con la frase *che* all'inizio"
+              ],
+              "rows": [
+                [
+                  "{ip:È} chiaro che {ip:è} intelligente.",
+                  "**Che {csp:sia}** intelligente {ip:è} chiaro."
+                ],
+                [
+                  "Tutti {ip:sanno} che {ip:ha} ragione.",
+                  "**Che {csp:abbia}** ragione lo {ip:sanno} tutti."
+                ],
+                [
+                  "{ip:È} vero che {pp:ha sbagliato}.",
+                  "**Che {csa:abbia sbagliato}** {ip:è} vero, ma…"
+                ]
+              ]
+            },
+            "note": "Quando la frase con *che* va all'inizio, diventa l'argomento del discorso e vuole il congiuntivo, anche se il fatto è sicuro."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le espressioni fisse",
+              "head": [
+                "espressione",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*che io sappia*",
+                  "per quello che so",
+                  "**Che io sappia**, non {pp:è} ancora {pp:arrivato}."
+                ],
+                [
+                  "*sia chiaro*",
+                  "voglio che sia chiaro",
+                  "Non {ip:pago} io, **sia chiaro**."
+                ],
+                [
+                  "*costi quel che costi*",
+                  "a qualunque prezzo",
+                  "{fs:Finiremo} in tempo, **costi quel che costi**."
+                ],
+                [
+                  "*vada come vada*",
+                  "comunque vada",
+                  "**Vada come vada**, ci {pp:abbiamo provato}."
+                ],
+                [
+                  "*piaccia o no*",
+                  "che piaccia o non piaccia",
+                  "Le regole, **piaccia o no**, {ip:valgono} per tutti."
+                ],
+                [
+                  "*sia come sia*",
+                  "comunque siano le cose",
+                  "**Sia come sia**, {ip:dobbiamo} decidere."
+                ]
+              ]
+            },
+            "note": "Sono congiuntivi senza un verbo principale, ormai fissi: si usano come parole sole."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Congiuntivo o infinito?",
+              "head": [
+                "per tutti: infinito",
+                "per qualcuno: *che* + congiuntivo"
+              ],
+              "rows": [
+                [
+                  "{ip:È} importante studiare.",
+                  "{ip:È} importante che tu {csp:studi}."
+                ],
+                [
+                  "{ip:Bisogna} decidere.",
+                  "{ip:Bisogna} che {csp:decidiate}."
+                ],
+                [
+                  "{ip:Spero} di riuscire.",
+                  "{ip:Spero} che tu ci {csp:riesca}."
+                ]
+              ]
+            },
+            "note": "Con le espressioni impersonali l'infinito vale per tutti; il congiuntivo indica chi deve fare l'azione."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "gap",
-        "prompt": "Put the verb in the congiuntivo.",
+        "type": "choice",
+        "prompt": "Il fatto è affermato o no? Scegli il modo giusto.",
         "questions": [
-          "Non {ip:è detto} che [[accetti#csp]]. (accettare, lui)",
-          "Mi {ip:stupisce} che voi non lo [[sappiate#csp]]. (sapere)",
-          "{ip:Cerco} un assistente che [[conosca#csp]] il cinese. (conoscere)",
-          "{ip:È} l'unico che [[abbia capito#csa]] il problema. (capire, past)",
-          "Qualunque cosa [[accada#csp]], {imv:resta} qui. (accadere)",
-          "Ovunque tu [[vada#csp]], ti seguirò. (andare)",
-          "Che [[sia#csp]] intelligente {ip:è} fuori discussione. (essere)"
+          {
+            "q": "{ip:È} evidente che ___ stanco.",
+            "options": [
+              "*{ip:è}",
+              "{csp:sia}"
+            ]
+          },
+          {
+            "q": "Non {ip:è detto} che ___ stanco.",
+            "options": [
+              "*{csp:sia}",
+              "{ip:è}"
+            ]
+          },
+          {
+            "q": "Mi {ip:rammarico} che non ___ potuto venire.",
+            "options": [
+              "*{csa:abbiate}",
+              "{ip:avete}"
+            ]
+          },
+          {
+            "q": "{ip:Sono} sicuro che ___ ragione.",
+            "options": [
+              "*{ip:hai}",
+              "{csp:abbia}"
+            ]
+          },
+          {
+            "q": "{ip:Esigo} che mi ___ la verità.",
+            "options": [
+              "*{csp:diciate}",
+              "{ip:dite}"
+            ]
+          },
+          {
+            "q": "{ip:È} ora che tu ___ una decisione.",
+            "options": [
+              "*{csp:prenda}",
+              "{ip:prendi}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il congiuntivo dopo *non è che, non che, il fatto che*.",
+        "questions": [
+          "Non {ip:è} che tu (avere) [[abbia#csp]] torto, ma {cop:potresti} essere più gentile.",
+          "Non che mi (dispiacere) [[dispiaccia#csp]], ma {cop:preferirei} restare a casa.",
+          "Il fatto che non mi (chiamare, lui) [[abbia chiamato#csa]] mi {ip:preoccupa}.",
+          "Non {ip:è} che (volere, io) [[voglia#csp]] criticarti, ma…"
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "*Come se* + congiuntivo imperfetto o trapassato.",
+        "questions": [
+          "Mi {ip:tratta} come se (essere, io) [[fossi#csi]] un bambino.",
+          "{ip:Parla} italiano come se (vivere, lui) [[avesse vissuto#cst]] sempre in Italia.",
+          "Mi {pp:ha salutato} come se non (succedere) [[fosse successo#cst]] niente.",
+          "{ip:Spende} come se (avere, lei) [[avesse#csi]] un milione di euro."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Metti la frase con *che* all'inizio.",
+        "questions": [
+          "{ip:È} chiaro che {ip:è} bravo. → Che [[sia#csp]] bravo {ip:è} chiaro.",
+          "{ip:È} vero che {pp:ha sbagliato}. → Che [[abbia sbagliato#csa]] {ip:è} vero.",
+          "Tutti {ip:sanno} che {ip:ama} il calcio. → Che [[ami#csp]] il calcio lo {ip:sanno} tutti."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni espressione fissa al suo significato.",
+        "pairs": [
+          [
+            "che io sappia",
+            "per quello che so"
+          ],
+          [
+            "costi quel che costi",
+            "a qualunque prezzo"
+          ],
+          [
+            "vada come vada",
+            "comunque vada"
+          ],
+          [
+            "piaccia o no",
+            "che piaccia o non piaccia"
+          ],
+          [
+            "sia chiaro",
+            "voglio che sia chiaro"
+          ]
         ]
       },
       {
         "type": "choice",
-        "prompt": "Indicative or congiuntivo?",
+        "prompt": "Infinito o congiuntivo?",
         "questions": [
           {
-            "q": "{pp:Ho trovato} un traduttore che ___ il finlandese.",
+            "q": "{ip:È} importante ___ bene. (per tutti)",
             "options": [
-              "*{ip:conosce}",
-              "{csp:conosca}"
+              "*dormire",
+              "che {csp:dorma}"
             ]
           },
           {
-            "q": "Non c'{ip:è} nessuno che ___ aiutarti.",
+            "q": "{ip:È} importante che tu ___ bene.",
             "options": [
-              "{ip:può}",
-              "*{csp:possa}"
+              "*{csp:dorma}",
+              "dormire"
             ]
           },
           {
-            "q": "{ip:È} la persona più onesta che io ___ .",
+            "q": "{ip:Spero} ___ in tempo. (io arrivo)",
             "options": [
-              "{ip:conosco}",
-              "*{csp:conosca}"
-            ]
-          },
-          {
-            "q": "Il libro che ___ {ip:è} molto bello.",
-            "options": [
-              "*{ip:sto} leggendo",
-              "{csp:stia} leggendo"
-            ]
-          },
-          {
-            "q": "So che è vero, ma che ___ vero non basta.",
-            "options": [
-              "{ip:è}",
-              "*{csp:sia}"
-            ]
-          },
-          {
-            "q": "___ cosa tu {csp:dica}, non ti {ip:credo}.",
-            "options": [
-              "*Qualunque",
-              "Chiunque",
-              "Comunque"
+              "*di arrivare",
+              "che {csp:arrivi}"
             ]
           }
         ]
@@ -192,134 +345,252 @@
     "words": [
       [
         "il pregiudizio",
-        "prejudice"
+        "un'idea negativa che si ha prima di conoscere"
       ],
       [
         "la convinzione",
-        "belief"
+        "un'idea in cui si crede fermamente"
       ],
       [
         "la perplessità",
-        "misgiving"
+        "il dubbio di chi non è convinto"
       ],
       [
         "il rammarico",
-        "regret"
+        "il dispiacere per una cosa andata male"
+      ],
+      [
+        "il dibattito",
+        "una discussione pubblica tra opinioni diverse"
+      ],
+      [
+        "il punto fermo",
+        "un'idea su cui tutti sono d'accordo"
       ],
       [
         "esigere",
-        "to demand"
+        "pretendere con forza, come un diritto"
       ],
       [
         "ritenere",
-        "to consider"
+        "pensare, giudicare (formale)"
       ],
       [
         "supporre",
-        "to suppose"
+        "pensare che una cosa sia probabile"
+      ],
+      [
+        "dubitare",
+        "non essere sicuro, non credere del tutto"
       ],
       [
         "rallegrarsi",
-        "to be glad"
+        "essere contento di qualcosa"
+      ],
+      [
+        "rammaricarsi",
+        "essere dispiaciuto di qualcosa"
       ],
       [
         "stupire",
-        "to astonish"
+        "sorprendere"
       ],
       [
         "opportuno",
-        "appropriate"
+        "adatto al momento, giusto da fare"
       ],
       [
         "assurdo",
-        "absurd"
+        "senza senso, incredibile"
+      ],
+      [
+        "discutibile",
+        "su cui non tutti sono d'accordo"
       ],
       [
         "fuori discussione",
-        "beyond question"
+        "sicuro, oppure impossibile"
+      ],
+      [
+        "a mio avviso",
+        "secondo me (formale)"
+      ],
+      [
+        "d'altro canto",
+        "d'altra parte"
+      ],
+      [
+        "in fin dei conti",
+        "alla fine, considerando tutto"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
             "la perplessità",
-            "misgiving"
+            "il dubbio di chi non è convinto"
           ],
           [
             "il rammarico",
-            "regret"
+            "il dispiacere per una cosa andata male"
           ],
           [
             "esigere",
-            "to demand"
+            "pretendere con forza, come un diritto"
           ],
           [
-            "supporre",
-            "to suppose"
+            "discutibile",
+            "su cui non tutti sono d'accordo"
           ],
           [
-            "opportuno",
-            "appropriate"
+            "a mio avviso",
+            "secondo me (formale)"
           ],
           [
-            "fuori discussione",
-            "beyond question"
+            "in fin dei conti",
+            "alla fine, considerando tutto"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "[[Ritengo#ip]] che {csp:sia} la scelta giusta. (I consider)",
-          "{ip:È} [[assurdo]] che {csp:debba} aspettare. (absurd)",
-          "{pp:Ha espresso} un forte [[rammarico]]. (regret)",
-          "Non {ip:ha} alcun [[pregiudizio]]. (prejudice)"
+          {
+            "q": "Bisogna superare i ___: non tutti i giovani {ip:sono} pigri.",
+            "options": [
+              "*pregiudizi",
+              "rammarichi",
+              "dibattiti"
+            ]
+          },
+          {
+            "q": "La sua proposta {ip:è} ___: non tutti la {ip:approvano}.",
+            "options": [
+              "*discutibile",
+              "opportuna",
+              "fuori discussione"
+            ]
+          },
+          {
+            "q": "{ip:Ritengo} ___ rimandare la riunione: mancano troppi colleghi.",
+            "options": [
+              "*opportuno",
+              "assurdo",
+              "discutibile"
+            ]
+          },
+          {
+            "q": "Il ___ in televisione {pp:è durato} due ore.",
+            "options": [
+              "*dibattito",
+              "pregiudizio",
+              "punto fermo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "A mio [[avviso]], {ip:è} una buona idea.",
+          "{ip:È} caro; d'altro [[canto]], {ip:è} di ottima qualità.",
+          "{ip:Dubito} che [[accetti#csp]]: non {ip:è} il tipo. (accettare)",
+          "Mi [[rallegro]] che {csa:abbiate trovato} casa!",
+          "Che io {csp:sappia}, il prezzo {ip:è} [[fuori]] discussione: non {ip:cambia}."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Che il medico {csp:debba} dire la verità al paziente {ip:è}, oggi, un principio generalmente accettato. Non {ip:è detto}, tuttavia, che ogni malato {csp:desideri} conoscerla fino in fondo. Mi {ip:stupisce} che se ne {csp:parli} così poco: chiunque {csa:abbia assistito} un familiare {ip:sa} quanto {csp:sia} difficile trovare le parole.",
-      "{ip:È} giusto che il paziente {csp:sappia}, {ip:ritengono} i più, qualunque {csp:sia} la diagnosi. Eppure non c'{ip:è} protocollo che {csp:possa} sostituire la sensibilità di chi {ip:comunica}. {ip:È} forse l'aspetto più delicato che la medicina {csp:debba} affrontare, e l'unico che nessuna tecnologia {fs:riuscirà} a risolvere."
+      {
+        "h": "Dire tutta la verità?"
+      },
+      "Che il medico {csp:debba} dire la verità al paziente {ip:è}, oggi, un principio che nessuno {ip:mette} in discussione. Non {ip:è detto}, tuttavia, che ogni malato {csp:desideri} conoscerla fino in fondo, né che {csp:sia} pronto ad ascoltarla nel momento in cui il medico {ip:decide} di parlare.",
+      "Mi {ip:stupisce} che se ne {csp:parli} così poco. Chiunque {csa:abbia assistito} un familiare in ospedale {ip:sa} quanto {csp:sia} difficile trovare le parole giuste. Non {ip:è} che i medici {csp:siano} insensibili, anzi: molti {ip:temono} che una verità detta male {csp:faccia} più danni della malattia stessa.",
+      "A mio avviso, il punto non {ip:è} se dire la verità, ma come dirla. {ip:È} giusto che il paziente {csp:sappia}; {ip:è} altrettanto giusto che {csp:possa} scegliere quando e quanto sapere, e che nessuno lo {csp:tratti} come se non {csi:fosse} in grado di capire.",
+      "In fin dei conti, {ip:dubito} che {csp:esista} una regola valida per tutti. Che io {csp:sappia}, i medici migliori {ip:sono} quelli che {ip:ascoltano} prima di parlare."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The author believes every patient wants the whole truth.",
+            "q": "Su che cosa {ip:sono} oggi tutti d'accordo, secondo l'autore?",
             "options": [
-              "True",
-              "*False"
+              "*Il medico {ip:deve} dire la verità al paziente.",
+              "Il paziente non {ip:deve} sapere tutto.",
+              "I medici {ip:sono} insensibili."
             ]
           },
           {
-            "q": "The author is surprised that this is discussed so little.",
+            "q": "Che cosa {ip:temono} molti medici?",
             "options": [
-              "*True",
-              "False"
+              "*che una verità detta male {csp:faccia} danni",
+              "che il paziente non {csp:paghi}",
+              "di perdere il lavoro"
             ]
           },
           {
-            "q": "According to the text, a protocol can replace sensitivity.",
+            "q": "Qual {ip:è} il vero problema, secondo l'autore?",
             "options": [
-              "True",
-              "*False"
+              "*come dire la verità",
+              "se dire la verità",
+              "quando andare in ospedale"
             ]
           },
           {
-            "q": "The author thinks technology cannot solve this issue.",
+            "q": "Chi {ip:sono} i medici migliori, per l'autore?",
             "options": [
-              "*True",
-              "False"
+              "*quelli che {ip:ascoltano} prima di parlare",
+              "quelli che {ip:parlano} poco",
+              "quelli che non {ip:dicono} mai la verità"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "L'autore {ip:pensa} che ogni malato {csp:voglia} sapere tutto.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo l'autore, se ne {ip:parla} troppo.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "L'autore {ip:crede} che esista una regola per tutti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il congiuntivo e spiega perché c'{ip:è}.",
+        "questions": [
+          "Che il medico [[debba#csp]] dire la verità {ip:è} un principio… (frase con *che* in testa)",
+          "Non {ip:è detto} che ogni malato [[desideri#csp]] conoscerla. (dubbio)",
+          "Non {ip:è} che i medici [[siano#csp]] insensibili. (*non è che*)",
+          "Nessuno lo {csp:tratti} come se non [[fosse#csi]] in grado di capire. (*come se*)",
+          "Che io [[sappia#csp]], i medici migliori {ip:sono} quelli che {ip:ascoltano}. (espressione fissa)"
         ]
       }
     ]
@@ -327,51 +598,60 @@
   "listening": {
     "transcript": [
       [
-        "Alda",
-        "{ip:Cerchiamo} qualcuno che {csp:sappia} gestire il gruppo."
+        "Elena",
+        "{pp:Hai visto} Paolo? Mi {pp:ha salutata} come se non mi {csi:conoscesse}."
       ],
       [
-        "Ezio",
-        "Non c'{ip:è} nessuno che {csp:abbia} più esperienza di Rita."
+        "Carlo",
+        "Non {ip:è} che {csp:sia} arrabbiato con te? L'altra sera {im:sembrava} offeso."
       ],
       [
-        "Alda",
-        "Non {ip:è detto} che {csp:accetti}, però."
+        "Elena",
+        "Offeso? Non che {csa:abbia fatto} qualcosa di male, ma {ip:ammetto} di aver riso della sua cravatta."
       ],
       [
-        "Ezio",
-        "Qualunque {csp:sia} la sua risposta, {ip:è} giusto che glielo {csp:chiediamo}."
+        "Carlo",
+        "Ecco. Il fatto che tu {csa:abbia riso} davanti a tutti l'{pp:avrà} ferito."
       ],
       [
-        "Alda",
-        "Non che mi {csp:dispiaccia}, ma {ip:temo} che {csp:sia} troppo impegnata."
+        "Elena",
+        "Va bene, gli {ip:chiedo} scusa, costi quel che costi. Ma {ip:è} assurdo che se la {csp:prenda} per una cravatta!"
       ],
       [
-        "Ezio",
-        "Chiunque {csp:scegliamo}, {fs:avrà} bisogno di aiuto."
+        "Carlo",
+        "Sia come sia, {ip:è} ora che {csp:facciate} pace."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:Cerchiamo} qualcuno che [[sappia#csp]] gestire il gruppo.",
-          "Non c'{ip:è} nessuno che [[abbia#csp]] più esperienza di Rita.",
-          "[[Qualunque]] {csp:sia} la sua risposta, {ip:è} giusto che glielo {csp:chiediamo}.",
-          "[[Chiunque]] {csp:scegliamo}, {fs:avrà} bisogno di aiuto."
+          "Mi {pp:ha salutata} come se non mi [[conoscesse#csi]].",
+          "Non {ip:è} che [[sia#csp]] arrabbiato con te?",
+          "Il fatto che tu [[abbia riso#csa]] davanti a tutti l'{pp:avrà} ferito.",
+          "{ip:È} assurdo che se la [[prenda#csp]] per una cravatta!",
+          "{ip:È} ora che [[facciate#csp]] pace."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What is Alda's concern about Rita?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Alda fears Rita is…",
+            "q": "Perché Paolo {ip:è} offeso?",
             "options": [
-              "not experienced",
-              "*too busy",
-              "unwilling to work with Ezio"
+              "*Elena {pp:ha riso} della sua cravatta.",
+              "Elena non lo {pp:ha salutato}.",
+              "Elena {pp:ha dimenticato} il suo compleanno."
+            ]
+          },
+          {
+            "q": "Che cosa {fs:farà} Elena?",
+            "options": [
+              "*{fs:Chiederà} scusa a Paolo.",
+              "Non gli {fs:parlerà} più.",
+              "Gli {fs:regalerà} una cravatta."
             ]
           }
         ]
@@ -382,41 +662,387 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando il congiuntivo dove serve.",
+        "open": true,
         "questions": [
           {
-            "q": "Whatever happens, it's right that he should know.",
-            "a": [
-              "Qualunque cosa accada, è giusto che lo sappia.",
-              "Qualsiasi cosa accada, è giusto che lo sappia."
+            "q": "C'{ip:è} un pregiudizio sul tuo paese che ti {ip:dà} fastidio? Che cosa {ip:pensi} che la gente {csp:debba} sapere?"
+          },
+          {
+            "q": "Che cosa {ip:esigi} dalle persone con cui {ip:lavori} o {ip:studi}?"
+          },
+          {
+            "q": "Ti {ip:è} mai capitato che qualcuno ti {csi:trattasse} come se non {csi:sapessi} niente?"
+          },
+          {
+            "q": "Su quale argomento, secondo te, {ip:è} ora che si {csp:apra} un dibattito pubblico?"
+          },
+          {
+            "q": "Che cosa {fs:farai}, costi quel che costi, nei prossimi anni?"
+          },
+          {
+            "q": "Il medico {ip:deve} sempre dire tutta la verità, a tuo avviso?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Opinioni e sentimenti"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un uomo che guarda un altro uomo come se fosse un estraneo",
+          "B — Un capo che indica l'orologio a un impiegato in ritardo",
+          "C — Una donna felice che abbraccia un'amica con la laurea in mano",
+          "D — Uno studente perplesso davanti a un problema alla lavagna"
+        ],
+        "pairs": [
+          [
+            "Mi {ip:guarda} come se non mi {csi:conoscesse}.",
+            "immagine A"
+          ],
+          [
+            "{ip:Esigo} che {csp:arriviate} in orario.",
+            "immagine B"
+          ],
+          [
+            "Mi {ip:rallegro} che tu ti {csa:sia laureata}!",
+            "immagine C"
+          ],
+          [
+            "{ip:Dubito} che la soluzione {csp:sia} giusta.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il congiuntivo presente o passato.",
+        "questions": [
+          "Mi {ip:rammarico} che non (potere, voi) [[abbiate potuto#csa]] venire ieri.",
+          "{ip:Pretendo} che tutti (rispettare) [[rispettino#csp]] le regole.",
+          "Mi {ip:aspetto} che mi (chiamare, tu) [[chiami#csp]] appena {ip:arrivi}.",
+          "{ip:Suppongo} che (partire, loro) [[siano partiti|siano partite#csa]] stamattina."
+        ]
+      },
+      {
+        "h": "Come se…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *come se* e il congiuntivo.",
+        "questions": [
+          "{ip:Mangia} come se non (mangiare) [[avesse mangiato#cst]] da giorni.",
+          "Ci {ip:parla} come se (essere, noi) [[fossimo#csi]] stupidi.",
+          "{ip:Fa} come se (essere) [[fosse#csi]] a casa sua.",
+          "{pp:Ha reagito} come se (aspettarsi, lui) [[se lo fosse aspettato#cst]]."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Descrivi una persona che {ip:conosci} con due frasi con *come se*. (*Parla come se…, Si veste come se…*)",
+        "open": true,
+        "questions": [
+          {
+            "q": "…come se…"
+          }
+        ]
+      },
+      {
+        "h": "Non è che…"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Non {ip:è} che ___ voglia di uscire stasera.",
+            "options": [
+              "*{csp:abbia}",
+              "{ip:ho}"
             ]
           },
           {
-            "q": "It's not certain that he will accept. (use non è detto)",
+            "q": "Non che il film ___ brutto, ma {im:era} troppo lungo.",
+            "options": [
+              "*{csi:fosse}",
+              "{im:era}"
+            ]
+          },
+          {
+            "q": "Non {ip:è} che {cop:potresti} prestarmi la macchina?",
+            "options": [
+              "*una domanda gentile",
+              "un rifiuto"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Dibattito"
+      },
+      {
+        "text": [
+          "**Il telefono a scuola: sì o no?** — *Giulia:* Che i ragazzi {csp:passino} troppe ore sul telefono {ip:è} fuori discussione. {ip:Ritengo} che a scuola {csp:debba} restare spento. — *Marco:* Non {ip:è} che {csp:abbia} torto, ma {ip:dubito} che vietarlo {csp:serva}. {ip:È} meglio che gli insegnanti lo {csp:usino} per lavorare. — *Giulia:* Sia come sia, {ip:è} ora che se ne {csp:discuta} seriamente."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi il dibattito e scegli.",
+        "questions": [
+          {
+            "q": "Che cosa {ip:propone} Giulia?",
+            "options": [
+              "*Il telefono a scuola {ip:deve} restare spento.",
+              "Il telefono {ip:serve} per lavorare.",
+              "Non {ip:ha} un'opinione."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:pensa} Marco?",
+            "options": [
+              "*{ip:Dubita} che vietarlo {csp:serva}.",
+              "{ip:È} d'accordo con Giulia su tutto.",
+              "{ip:Pensa} che i ragazzi non {csp:usino} il telefono."
+            ]
+          },
+          {
+            "q": "Su che cosa {ip:sono} d'accordo?",
+            "options": [
+              "*Che i ragazzi {csp:passino} troppe ore sul telefono.",
+              "Che il telefono {csp:debba} essere vietato.",
+              "Su niente."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con le espressioni fisse.",
+        "questions": [
+          "[[Che io sappia]], la riunione {ip:è} alle tre. (per quello che so)",
+          "{fs:Arriveremo} in cima, [[costi quel che costi]]. (a qualunque prezzo)",
+          "Le tasse, [[piaccia o no]], {ip:vanno} pagate.",
+          "[[Vada come vada]], {ip:sono} contento di averci provato."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "È evidente che sia stanco.",
+            "a": [
+              "È evidente che è stanco."
+            ]
+          },
+          {
+            "q": "Non è detto che accetta.",
             "a": [
               "Non è detto che accetti."
             ]
           },
           {
-            "q": "I'm looking for a translator who knows Finnish.",
+            "q": "Mi guarda come se non mi conosce.",
             "a": [
-              "Cerco un traduttore che conosca il finlandese."
+              "Mi guarda come se non mi conoscesse."
             ]
           },
           {
-            "q": "He is the only one who has understood.",
+            "q": "Che è intelligente lo sanno tutti.",
             "a": [
-              "È l'unico che abbia capito."
+              "Che sia intelligente lo sanno tutti."
             ]
           },
           {
-            "q": "Wherever you go, I will follow you. (informal)",
+            "q": "È importante che studiare.",
             "a": [
-              "Ovunque tu vada, ti seguirò.",
-              "Dovunque tu vada, ti seguirò."
+              "È importante studiare.",
+              "È importante che tu studi."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "come se / conoscesse / mi guarda / non mi",
+            "a": [
+              "Mi guarda come se non mi conoscesse."
+            ]
+          },
+          {
+            "q": "sappia / che / io",
+            "a": [
+              "Che io sappia",
+              "Che io sappia,"
+            ]
+          },
+          {
+            "q": "è ora / decida / che / tu",
+            "a": [
+              "È ora che tu decida.",
+              "È ora che tu decida!"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nel congiuntivo dei verbi in *-ciare* e *-giare* la *i* sparisce davanti a un'altra *i*: *che tu cominci, che noi mangiamo* (non *comincii, mangiiamo*). Nei verbi in *-gnare*, invece, la *i* resta nelle persone *noi* e *voi*: *che noi sogniamo, che voi disegniate*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "Spero che tu ___ presto. (cominciare)",
+            "options": [
+              "*cominci",
+              "comincii",
+              "comincie"
+            ]
+          },
+          {
+            "q": "È meglio che noi ___ a casa. (mangiare)",
+            "options": [
+              "*mangiamo",
+              "mangiiamo",
+              "mangamo"
+            ]
+          },
+          {
+            "q": "Voglio che voi ___ di più. (sognare)",
+            "options": [
+              "*sogniate",
+              "sognate",
+              "sogniatte"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So perché si usa il congiuntivo: il fatto non è affermato.",
+          "So usare *esigere, rammaricarsi, non è detto che, è ora che*.",
+          "So usare *non è che, non che, il fatto che*.",
+          "So usare *come se* con l'imperfetto e il trapassato.",
+          "So mettere una frase con *che* all'inizio: *Che sia bravo è chiaro.*",
+          "So usare *che io sappia, costi quel che costi, vada come vada*."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il simbolo dell'Accademia della Crusca: un setaccio di legno, con la farina da una parte e la crusca dall'altra"
+      },
+      {
+        "text": [
+          "**L'Accademia della Crusca e il «petaloso»**",
+          "A Firenze c'{ip:è} un'istituzione che, da più di quattro secoli, si {ip:occupa} della lingua italiana: l'Accademia della Crusca. {pr:Nacque} nel 1583, e il suo nome {ip:viene} dalla *crusca*, la parte del grano che si {ip:separa} dalla farina. L'idea {im:era} che {csi:bisognasse} separare la lingua buona, la farina, da quella cattiva. Il suo simbolo, infatti, {ip:è} un setaccio. Nel 1612 {pr:pubblicò} il primo grande vocabolario della lingua italiana.",
+          "Oggi la Crusca non {ip:pretende} che gli italiani {csp:parlino} come nel Cinquecento: {ip:studia} la lingua com'{ip:è} davvero e {ip:risponde} alle domande di chiunque le {csp:scriva}.",
+          "Nel 2016 le {pr:scrisse} anche un bambino di otto anni, Matteo. A scuola {tp:aveva definito} un fiore «petaloso», cioè pieno di petali, e la maestra, pur considerandolo un errore, {tp:aveva trovato} la parola bellissima. La Crusca {pr:rispose} che la parola {im:era} formata benissimo, ma che {cpa:sarebbe entrata} nel vocabolario solo se molte persone l'{cst:avessero usata}. Una parola bella, {pr:spiegò}, non {im:bastava}: {im:era} necessario che la {csi:usassero} in tanti.",
+          "In pochi giorni «petaloso» {pr:fece} il giro dei giornali e dei social. Che la lingua {csp:appartenga} a chi la {ip:parla}, quella volta, lo {pr:capirono} tutti."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "L'Accademia della Crusca {ip:è} a Firenze.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il nome {ip:viene} da una parte del grano.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Oggi la Crusca {ip:vuole} che gli italiani {csp:parlino} come nel Cinquecento.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La Crusca {pr:disse} che «petaloso» {im:era} una parola sbagliata.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Una parola nuova {ip:entra} nel vocabolario se la {ip:usano} in tanti.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il congiuntivo.",
+        "questions": [
+          "La Crusca non {ip:pretende} che gli italiani [[parlino#csp]] come nel Cinquecento.",
+          "{ip:Risponde} alle domande di chiunque le [[scriva#csp]].",
+          "{im:Era} necessario che la [[usassero#csi]] in tanti.",
+          "Che la lingua [[appartenga#csp]] a chi la {ip:parla}, lo {pr:capirono} tutti."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Se {csi:potessi} inventare una parola nuova in italiano, quale {cop:sarebbe}? Che cosa {cop:vorrebbe} dire?",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia parola:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi un breve intervento per un dibattito: un argomento su cui le opinioni sono divise (il telefono a scuola, il lavoro da casa, il turismo nelle città d'arte…).",
+        "cues": [
+          "Presenta il tema con una frase con *che* in testa (*Che… è un fatto*).",
+          "Dai la tua opinione (*Ritengo che…, A mio avviso…*).",
+          "Rispondi a chi la pensa diversamente (*Non è che…, Non è detto che…*).",
+          "Concludi (*In fin dei conti…, È ora che…*)."
+        ],
+        "start": "",
+        "model": "Che il turismo porti lavoro e ricchezza alle città d'arte è fuori discussione. Tuttavia ritengo che a Venezia, a Firenze o a Roma si sia superato un limite.\nNon è che i turisti siano il problema: il problema è che troppi arrivano negli stessi giorni, negli stessi luoghi. Molti abitanti si lamentano che i centri storici sembrino ormai parchi a tema, e che sia impossibile trovare una casa in affitto.\nC'è chi pensa che basti alzare i prezzi. Non è detto, però, che questa sia la soluzione: rischieremmo che solo i ricchi possano viaggiare.\nIn fin dei conti, è ora che le città scelgano quale futuro vogliono, prima che sia troppo tardi."
       }
     ]
   }

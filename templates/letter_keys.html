@@ -1,0 +1,57 @@
+{# Buttons with the Georgian letters under the answer box of a drill, for
+   keyboards without them. Only while learning Georgian in its own letters.
+   A tap writes the letter where the cursor is. #}
+{% macro keys(user_language, script) %}
+{% if user_language == "georgian" and script == "georgian" %}
+<div class="drill-keys" lang="ka" aria-label="Georgian letters">
+    {% for letter in "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ" %}<button class="drill-key" type="button" tabindex="-1">{{ letter }}</button>{% endfor %}
+    <button class="drill-key backspace" type="button" tabindex="-1" aria-label="Delete">&#9003;</button>
+</div>
+<style>
+    .drill-keys {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        max-width: 520px;
+        margin: 12px auto 0;
+    }
+
+    .drill-key {
+        min-width: 34px;
+        height: 34px;
+        padding: 0 6px;
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-small);
+        background: var(--surface-2);
+        color: var(--text);
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .drill-key:hover {
+        border-color: var(--accent);
+    }
+</style>
+<script>
+    document.querySelectorAll(".drill-keys").forEach((bar) => {
+        const input = document.getElementById("inputField");
+        bar.querySelectorAll(".drill-key").forEach((key) => {
+            // The answer box keeps the focus, so the cursor stays where it was
+            key.addEventListener("mousedown", (event) => event.preventDefault());
+            key.addEventListener("click", () => {
+                if (key.classList.contains("backspace")) {
+                    const start = input.selectionStart === input.selectionEnd
+                        ? Math.max(0, input.selectionStart - 1) : input.selectionStart;
+                    input.setRangeText("", start, input.selectionEnd, "end");
+                } else {
+                    input.setRangeText(key.textContent, input.selectionStart, input.selectionEnd, "end");
+                }
+                input.focus();
+                input.dispatchEvent(new Event("input", { bubbles: true }));
+            });
+        });
+    });
+</script>
+{% endif %}
+{% endmacro %}

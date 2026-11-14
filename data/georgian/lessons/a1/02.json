@@ -1,0 +1,387 @@
+{
+  "title": "დედა და ბებია",
+  "translation": "Mum and grandma",
+  "topics": "The letters ბ გ დ ვ თ ხ, the sound kh and the first family words",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "აბგდევთილმნორსუხ",
+  "grammar": {
+    "explain": [
+      "Six new letters, and with them the words for the family. Two of them need attention: თ is a *t* with a little puff of air, as in English, and ხ is a sound English doesn't have.",
+      {
+        "h": "New letters"
+      },
+      {
+        "letters": [
+          {
+            "letter": "ბ",
+            "latin": "b",
+            "say": "like the b in bed",
+            "word": "ბებია",
+            "word_latin": "bebia",
+            "meaning": "grandmother"
+          },
+          {
+            "letter": "გ",
+            "latin": "g",
+            "say": "like the g in go, always hard",
+            "word": "გული",
+            "word_latin": "guli",
+            "meaning": "heart"
+          },
+          {
+            "letter": "დ",
+            "latin": "d",
+            "say": "like the d in dog",
+            "word": "დედა",
+            "word_latin": "deda",
+            "meaning": "mother"
+          },
+          {
+            "letter": "ვ",
+            "latin": "v",
+            "say": "like the v in van",
+            "word": "ვაშლი",
+            "word_latin": "vashli",
+            "meaning": "apple"
+          },
+          {
+            "letter": "თ",
+            "latin": "t",
+            "say": "like the t in top, with a puff of air",
+            "word": "თბილისი",
+            "word_latin": "tbilisi",
+            "meaning": "Tbilisi"
+          },
+          {
+            "letter": "ხ",
+            "latin": "kh",
+            "say": "like the ch in Scottish loch",
+            "word": "ხე",
+            "word_latin": "khe",
+            "meaning": "tree"
+          }
+        ],
+        "lang": "ka"
+      },
+      {
+        "h": "Watch out"
+      },
+      {
+        "ul": [
+          "გ (*g*) is always hard, as in *go*, also before ე and ი: გიტარა is *gitara* (guitar).",
+          "ხ (*kh*) is the sound at the end of Scottish *loch* or German *Bach*: breathe out through a narrow throat.",
+          "დ (*d*) and და: the word და means *and* and also *sister*."
+        ]
+      },
+      {
+        "h": "Try reading"
+      },
+      "Read each word aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "დედა",
+            "deda",
+            "mother"
+          ],
+          [
+            "ბებია",
+            "bebia",
+            "grandmother"
+          ],
+          [
+            "ბაბუა",
+            "babua",
+            "grandfather"
+          ],
+          [
+            "და",
+            "da",
+            "and; sister"
+          ],
+          [
+            "თბილისი",
+            "tbilisi",
+            "Tbilisi"
+          ],
+          [
+            "ხე",
+            "khe",
+            "tree"
+          ],
+          [
+            "გული",
+            "guli",
+            "heart"
+          ],
+          [
+            "ვარდი",
+            "vardi",
+            "rose"
+          ]
+        ],
+        "lang": "ka"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which letter makes this sound?",
+        "questions": [
+          {
+            "q": "*b*",
+            "options": [
+              "*ბ",
+              "დ",
+              "გ"
+            ]
+          },
+          {
+            "q": "*g*",
+            "options": [
+              "*გ",
+              "ბ",
+              "ვ"
+            ]
+          },
+          {
+            "q": "*d*",
+            "options": [
+              "*დ",
+              "ბ",
+              "თ"
+            ]
+          },
+          {
+            "q": "*v*",
+            "options": [
+              "*ვ",
+              "გ",
+              "ხ"
+            ]
+          },
+          {
+            "q": "*t*",
+            "options": [
+              "*თ",
+              "დ",
+              "ლ"
+            ]
+          },
+          {
+            "q": "*kh*",
+            "options": [
+              "*ხ",
+              "ვ",
+              "რ"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each letter to its sound.",
+        "pairs": [
+          [
+            "ბ",
+            "b"
+          ],
+          [
+            "გ",
+            "g"
+          ],
+          [
+            "დ",
+            "d"
+          ],
+          [
+            "ვ",
+            "v"
+          ],
+          [
+            "თ",
+            "t"
+          ],
+          [
+            "ხ",
+            "kh"
+          ]
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Revise: match each letter to its sound.",
+        "pairs": [
+          [
+            "ა",
+            "a"
+          ],
+          [
+            "მ",
+            "m"
+          ],
+          [
+            "ნ",
+            "n"
+          ],
+          [
+            "რ",
+            "r"
+          ],
+          [
+            "ს",
+            "s"
+          ],
+          [
+            "უ",
+            "u"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "დედა",
+        "deda — mother"
+      ],
+      [
+        "მამა",
+        "mama — father"
+      ],
+      [
+        "ბებია",
+        "bebia — grandmother"
+      ],
+      [
+        "ბაბუა",
+        "babua — grandfather"
+      ],
+      [
+        "და",
+        "da — and; sister"
+      ],
+      [
+        "ძმა",
+        "dzma — brother"
+      ],
+      [
+        "თბილისი",
+        "tbilisi — Tbilisi"
+      ],
+      [
+        "ხე",
+        "khe — tree"
+      ],
+      [
+        "გული",
+        "guli — heart"
+      ],
+      [
+        "ვარდი",
+        "vardi — rose"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "დედა",
+            "a": [
+              "deda"
+            ]
+          },
+          {
+            "q": "ბებია",
+            "a": [
+              "bebia"
+            ]
+          },
+          {
+            "q": "ბაბუა",
+            "a": [
+              "babua"
+            ]
+          },
+          {
+            "q": "თბილისი",
+            "a": [
+              "tbilisi"
+            ]
+          },
+          {
+            "q": "ვარდი",
+            "a": [
+              "vardi"
+            ]
+          },
+          {
+            "q": "ხე",
+            "a": [
+              "khe"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "დედა",
+            "mother"
+          ],
+          [
+            "ბებია",
+            "grandmother"
+          ],
+          [
+            "ბაბუა",
+            "grandfather"
+          ],
+          [
+            "ხე",
+            "tree"
+          ],
+          [
+            "გული",
+            "heart"
+          ],
+          [
+            "ვარდი",
+            "rose"
+          ]
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Georgian.",
+        "questions": [
+          "mother (*deda*) → [[დედა]]",
+          "grandmother (*bebia*) → [[ბებია]]",
+          "tree (*khe*) → [[ხე]]",
+          "heart (*guli*) → [[გული]]",
+          "and (*da*) → [[და]]"
+        ]
+      }
+    ]
+  }
+}

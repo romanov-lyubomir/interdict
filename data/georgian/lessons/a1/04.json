@@ -1,0 +1,693 @@
+{
+  "title": "ღვინო და ყველი",
+  "translation": "Wine and cheese",
+  "topics": "The last letters ზ ჟ შ ძ ჯ ღ ყ ჰ, and the whole alphabet",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+  "grammar": {
+    "explain": [
+      "The last eight letters. Most have an English twin; two of them, ღ and ყ, are made in the throat. After this lesson you know all 33 letters.",
+      {
+        "h": "New letters"
+      },
+      {
+        "letters": [
+          {
+            "letter": "ზ",
+            "latin": "z",
+            "say": "like the z in zoo",
+            "word": "ზღვა",
+            "word_latin": "zghva",
+            "meaning": "sea"
+          },
+          {
+            "letter": "ჟ",
+            "latin": "zh",
+            "say": "like the s in pleasure",
+            "word": "ჟურნალი",
+            "word_latin": "zhurnali",
+            "meaning": "magazine"
+          },
+          {
+            "letter": "შ",
+            "latin": "sh",
+            "say": "like the sh in ship",
+            "word": "შენ",
+            "word_latin": "shen",
+            "meaning": "you"
+          },
+          {
+            "letter": "ძ",
+            "latin": "dz",
+            "say": "like the ds in kids",
+            "word": "ძაღლი",
+            "word_latin": "dzaghli",
+            "meaning": "dog"
+          },
+          {
+            "letter": "ჯ",
+            "latin": "j",
+            "say": "like the j in jam",
+            "word": "ჯიბე",
+            "word_latin": "jibe",
+            "meaning": "pocket"
+          },
+          {
+            "letter": "ღ",
+            "latin": "gh",
+            "say": "a soft sound in the throat, like the French r",
+            "word": "ღვინო",
+            "word_latin": "ghvino",
+            "meaning": "wine"
+          },
+          {
+            "letter": "ყ",
+            "latin": "q'",
+            "say": "a tight k made deep in the throat",
+            "word": "ყველი",
+            "word_latin": "q'veli",
+            "meaning": "cheese"
+          },
+          {
+            "letter": "ჰ",
+            "latin": "h",
+            "say": "like the h in hat",
+            "word": "ჰაერი",
+            "word_latin": "haeri",
+            "meaning": "air"
+          }
+        ],
+        "lang": "ka"
+      },
+      {
+        "h": "Watch out"
+      },
+      {
+        "ul": [
+          "ღ (*gh*) is soft, like a French *r* or a Spanish *g* in *agua*: ღვინო *ghvino* (wine).",
+          "ყ (*q'*) is a tight *k* made far back in the throat: ყველი *q'veli* (cheese). It is the hardest sound of Georgian: listen to Georgians and try.",
+          "Georgian loves groups of consonants: ზღვა *zghva* (sea), მწვრთნელი *mts'vrtneli* (coach). Read them letter by letter, without adding vowels."
+        ]
+      },
+      {
+        "h": "The whole alphabet"
+      },
+      "Here are all 33 letters in their order. Tap the ones you're not sure about, or tick the box below to hide the sounds and test yourself.",
+      {
+        "letters": [
+          {
+            "letter": "ა",
+            "latin": "a",
+            "say": "like the a in father",
+            "word": "არა",
+            "word_latin": "ara",
+            "meaning": "no"
+          },
+          {
+            "letter": "ბ",
+            "latin": "b",
+            "say": "like the b in bed",
+            "word": "ბებია",
+            "word_latin": "bebia",
+            "meaning": "grandmother"
+          },
+          {
+            "letter": "გ",
+            "latin": "g",
+            "say": "like the g in go, always hard",
+            "word": "გული",
+            "word_latin": "guli",
+            "meaning": "heart"
+          },
+          {
+            "letter": "დ",
+            "latin": "d",
+            "say": "like the d in dog",
+            "word": "დედა",
+            "word_latin": "deda",
+            "meaning": "mother"
+          },
+          {
+            "letter": "ე",
+            "latin": "e",
+            "say": "like the e in bed",
+            "word": "ერთი",
+            "word_latin": "erti",
+            "meaning": "one"
+          },
+          {
+            "letter": "ვ",
+            "latin": "v",
+            "say": "like the v in van",
+            "word": "ვაშლი",
+            "word_latin": "vashli",
+            "meaning": "apple"
+          },
+          {
+            "letter": "ზ",
+            "latin": "z",
+            "say": "like the z in zoo",
+            "word": "ზღვა",
+            "word_latin": "zghva",
+            "meaning": "sea"
+          },
+          {
+            "letter": "თ",
+            "latin": "t",
+            "say": "like the t in top, with a puff of air",
+            "word": "თბილისი",
+            "word_latin": "tbilisi",
+            "meaning": "Tbilisi"
+          },
+          {
+            "letter": "ი",
+            "latin": "i",
+            "say": "like the ee in see, but short",
+            "word": "ია",
+            "word_latin": "ia",
+            "meaning": "violet (the flower)"
+          },
+          {
+            "letter": "კ",
+            "latin": "k'",
+            "say": "a tight k, with no air: hold your breath and let it pop",
+            "word": "კატა",
+            "word_latin": "k'at'a",
+            "meaning": "cat"
+          },
+          {
+            "letter": "ლ",
+            "latin": "l",
+            "say": "like the l in lamp",
+            "word": "ლომი",
+            "word_latin": "lomi",
+            "meaning": "lion"
+          },
+          {
+            "letter": "მ",
+            "latin": "m",
+            "say": "like the m in mum",
+            "word": "მამა",
+            "word_latin": "mama",
+            "meaning": "dad"
+          },
+          {
+            "letter": "ნ",
+            "latin": "n",
+            "say": "like the n in no",
+            "word": "ნიორი",
+            "word_latin": "niori",
+            "meaning": "garlic"
+          },
+          {
+            "letter": "ო",
+            "latin": "o",
+            "say": "like the o in for, but short",
+            "word": "ორი",
+            "word_latin": "ori",
+            "meaning": "two"
+          },
+          {
+            "letter": "პ",
+            "latin": "p'",
+            "say": "a tight p, with no air",
+            "word": "პური",
+            "word_latin": "p'uri",
+            "meaning": "bread"
+          },
+          {
+            "letter": "ჟ",
+            "latin": "zh",
+            "say": "like the s in pleasure",
+            "word": "ჟურნალი",
+            "word_latin": "zhurnali",
+            "meaning": "magazine"
+          },
+          {
+            "letter": "რ",
+            "latin": "r",
+            "say": "a rolled r, as in Italian or Spanish",
+            "word": "რძე",
+            "word_latin": "rdze",
+            "meaning": "milk"
+          },
+          {
+            "letter": "ს",
+            "latin": "s",
+            "say": "like the s in sun, never like a z",
+            "word": "სახლი",
+            "word_latin": "sakhli",
+            "meaning": "house"
+          },
+          {
+            "letter": "ტ",
+            "latin": "t'",
+            "say": "a tight t, with no air",
+            "word": "ტბა",
+            "word_latin": "t'ba",
+            "meaning": "lake"
+          },
+          {
+            "letter": "უ",
+            "latin": "u",
+            "say": "like the oo in food, but short",
+            "word": "უბანი",
+            "word_latin": "ubani",
+            "meaning": "neighbourhood"
+          },
+          {
+            "letter": "ფ",
+            "latin": "p",
+            "say": "like the p in pen, with a puff of air",
+            "word": "ფული",
+            "word_latin": "puli",
+            "meaning": "money"
+          },
+          {
+            "letter": "ქ",
+            "latin": "k",
+            "say": "like the k in kit, with a puff of air",
+            "word": "ქალაქი",
+            "word_latin": "kalaki",
+            "meaning": "city"
+          },
+          {
+            "letter": "ღ",
+            "latin": "gh",
+            "say": "a soft sound in the throat, like the French r",
+            "word": "ღვინო",
+            "word_latin": "ghvino",
+            "meaning": "wine"
+          },
+          {
+            "letter": "ყ",
+            "latin": "q'",
+            "say": "a tight k made deep in the throat",
+            "word": "ყველი",
+            "word_latin": "q'veli",
+            "meaning": "cheese"
+          },
+          {
+            "letter": "შ",
+            "latin": "sh",
+            "say": "like the sh in ship",
+            "word": "შენ",
+            "word_latin": "shen",
+            "meaning": "you"
+          },
+          {
+            "letter": "ჩ",
+            "latin": "ch",
+            "say": "like the ch in church, with a puff of air",
+            "word": "ჩაი",
+            "word_latin": "chai",
+            "meaning": "tea"
+          },
+          {
+            "letter": "ც",
+            "latin": "ts",
+            "say": "like the ts in cats, with a puff of air",
+            "word": "ცა",
+            "word_latin": "tsa",
+            "meaning": "sky"
+          },
+          {
+            "letter": "ძ",
+            "latin": "dz",
+            "say": "like the ds in kids",
+            "word": "ძაღლი",
+            "word_latin": "dzaghli",
+            "meaning": "dog"
+          },
+          {
+            "letter": "წ",
+            "latin": "ts'",
+            "say": "a tight ts, with no air",
+            "word": "წიგნი",
+            "word_latin": "ts'igni",
+            "meaning": "book"
+          },
+          {
+            "letter": "ჭ",
+            "latin": "ch'",
+            "say": "a tight ch, with no air",
+            "word": "ჭიქა",
+            "word_latin": "ch'ika",
+            "meaning": "glass (for drinking)"
+          },
+          {
+            "letter": "ხ",
+            "latin": "kh",
+            "say": "like the ch in Scottish loch",
+            "word": "ხე",
+            "word_latin": "khe",
+            "meaning": "tree"
+          },
+          {
+            "letter": "ჯ",
+            "latin": "j",
+            "say": "like the j in jam",
+            "word": "ჯიბე",
+            "word_latin": "jibe",
+            "meaning": "pocket"
+          },
+          {
+            "letter": "ჰ",
+            "latin": "h",
+            "say": "like the h in hat",
+            "word": "ჰაერი",
+            "word_latin": "haeri",
+            "meaning": "air"
+          }
+        ],
+        "lang": "ka"
+      },
+      {
+        "h": "Try reading"
+      },
+      "Read each word aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "ღვინო",
+            "ghvino",
+            "wine"
+          ],
+          [
+            "ყველი",
+            "q'veli",
+            "cheese"
+          ],
+          [
+            "ზღვა",
+            "zghva",
+            "sea"
+          ],
+          [
+            "შენ",
+            "shen",
+            "you"
+          ],
+          [
+            "ძაღლი",
+            "dzaghli",
+            "dog"
+          ],
+          [
+            "ჯიბე",
+            "jibe",
+            "pocket"
+          ],
+          [
+            "ჟურნალი",
+            "zhurnali",
+            "magazine"
+          ],
+          [
+            "ხაჭაპური",
+            "khach'ap'uri",
+            "khachapuri"
+          ]
+        ],
+        "lang": "ka"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Which letter makes this sound?",
+        "questions": [
+          {
+            "q": "*z*",
+            "options": [
+              "*ზ",
+              "ჟ",
+              "ს"
+            ]
+          },
+          {
+            "q": "*zh*",
+            "options": [
+              "*ჟ",
+              "ზ",
+              "შ"
+            ]
+          },
+          {
+            "q": "*sh*",
+            "options": [
+              "*შ",
+              "ჩ",
+              "ს"
+            ]
+          },
+          {
+            "q": "*dz*",
+            "options": [
+              "*ძ",
+              "ც",
+              "ზ"
+            ]
+          },
+          {
+            "q": "*j*",
+            "options": [
+              "*ჯ",
+              "ჩ",
+              "ჟ"
+            ]
+          },
+          {
+            "q": "*gh*",
+            "options": [
+              "*ღ",
+              "გ",
+              "ხ"
+            ]
+          },
+          {
+            "q": "*q'*",
+            "options": [
+              "*ყ",
+              "კ",
+              "ქ"
+            ]
+          },
+          {
+            "q": "*h*",
+            "options": [
+              "*ჰ",
+              "ხ",
+              "ღ"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each letter to its sound.",
+        "pairs": [
+          [
+            "ზ",
+            "z"
+          ],
+          [
+            "ჟ",
+            "zh"
+          ],
+          [
+            "შ",
+            "sh"
+          ],
+          [
+            "ძ",
+            "dz"
+          ],
+          [
+            "ჯ",
+            "j"
+          ],
+          [
+            "ღ",
+            "gh"
+          ]
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "The whole alphabet: match each letter to its sound.",
+        "pairs": [
+          [
+            "ყ",
+            "q'"
+          ],
+          [
+            "ჰ",
+            "h"
+          ],
+          [
+            "წ",
+            "ts'"
+          ],
+          [
+            "ჭ",
+            "ch'"
+          ],
+          [
+            "ხ",
+            "kh"
+          ],
+          [
+            "თ",
+            "t"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "ღვინო",
+        "ghvino — wine"
+      ],
+      [
+        "ყველი",
+        "q'veli — cheese"
+      ],
+      [
+        "ზღვა",
+        "zghva — sea"
+      ],
+      [
+        "შენ",
+        "shen — you"
+      ],
+      [
+        "ძაღლი",
+        "dzaghli — dog"
+      ],
+      [
+        "ჯიბე",
+        "jibe — pocket"
+      ],
+      [
+        "ჟურნალი",
+        "zhurnali — magazine"
+      ],
+      [
+        "ხაჭაპური",
+        "khach'ap'uri — khachapuri (cheese bread)"
+      ],
+      [
+        "წყალი",
+        "ts'q'ali — water"
+      ],
+      [
+        "ჰაერი",
+        "haeri — air"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "ღვინო",
+            "a": [
+              "ghvino"
+            ]
+          },
+          {
+            "q": "ზღვა",
+            "a": [
+              "zghva"
+            ]
+          },
+          {
+            "q": "შენ",
+            "a": [
+              "shen"
+            ]
+          },
+          {
+            "q": "ძაღლი",
+            "a": [
+              "dzaghli"
+            ]
+          },
+          {
+            "q": "ჯიბე",
+            "a": [
+              "jibe"
+            ]
+          },
+          {
+            "q": "ხაჭაპური",
+            "a": [
+              "khach'ap'uri",
+              "khachapuri"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "ღვინო",
+            "wine"
+          ],
+          [
+            "ყველი",
+            "cheese"
+          ],
+          [
+            "ზღვა",
+            "sea"
+          ],
+          [
+            "ძაღლი",
+            "dog"
+          ],
+          [
+            "წყალი",
+            "water"
+          ],
+          [
+            "შენ",
+            "you"
+          ]
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Georgian.",
+        "questions": [
+          "wine (*ghvino*) → [[ღვინო]]",
+          "cheese (*q'veli*) → [[ყველი]]",
+          "sea (*zghva*) → [[ზღვა]]",
+          "you (*shen*) → [[შენ]]",
+          "pocket (*jibe*) → [[ჯიბე]]"
+        ]
+      }
+    ]
+  }
+}

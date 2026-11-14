@@ -117,7 +117,7 @@
         </h2>
         {% for lesson in level_lessons %}
         <a class="container shadow lesson-card" href="{{ url_for('lesson', level=level | lower, number=lesson.number) }}">
-            <span class="lesson-number">{{ lesson.number }}</span>
+            <span class="lesson-number">{{ lesson.shown }}</span>
             <div>
                 <h3>{{ lesson.title | rich }}</h3>
                 {% if is_reviewed(level, lesson.number) %}<span class="reviewed-mark" title="Already updated (only shown locally)">✓ updated</span>{% endif %}

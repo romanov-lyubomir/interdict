@@ -62,6 +62,14 @@ import re
 
 from stories import LEVELS, ROOT
 
+MARKS = re.compile(r"\{\w+:([^{}]+)\}|\[\w+:([^\[\]]+)\]")
+
+
+def visible_text(text):
+    # A text as the reader sees it: tense marks and asterisks removed. Used
+    # where markup can't be shown, such as the options of a drop-down list
+    return MARKS.sub(lambda match: match.group(1) or match.group(2), text).replace("*", "")
+
 SECTIONS = [
     ("grammar", "Grammar"),
     ("use", "Use of {language}"),
@@ -107,6 +115,7 @@ UI = {
         "score": "{right} of {total} correct",
         "parts": "Parts of this lesson",
         "accents": "Letters with accents",
+        "letters": "Letters",
         "answer": "Answer",
         "meaning_of": "Meaning of",
         "word": "{language}",
@@ -229,8 +238,9 @@ def prepare_exercise(exercise, path):
     elif kind == "choice":
         exercise["questions"] = [prepare_choice(question, path) for question in exercise["questions"]]
     elif kind == "match":
-        # Sorted, so the answers don't appear in the same order as the words
-        exercise["options"] = sorted({right for _, right in exercise["pairs"]})
+        # Sorted by the text the reader sees (without tense marks or
+        # asterisks), so the answers don't appear in the same order as the words
+        exercise["options"] = sorted({right for _, right in exercise["pairs"]}, key=visible_text)
     elif kind == "write":
         if exercise.get("open"):
             if any(question.get("a") for question in exercise["questions"]):
@@ -293,9 +303,16 @@ def load_lesson(path):
     with open(path, encoding="utf-8") as lesson_file:
         lesson = json.load(lesson_file)
     lesson["number"] = int(os.path.splitext(os.path.basename(path))[0])
+    lesson["shown"] = lesson["number"]  # the number on the page (see latin_lessons)
     if lesson.get("interface") not in (None, "english"):
         raise LessonError(f"{path}: unknown interface {lesson['interface']!r}")
+    # Every lesson has the explanation; the alphabet lessons of a new
+    # language (Georgian) can leave out parts such as the listening
+    if "grammar" not in lesson:
+        raise LessonError(f"{path}: the lesson has no explanation (grammar)")
     for key, _ in SECTIONS[1:]:
+        if key not in lesson:
+            continue
         if not lesson[key]["exercises"]:
             raise LessonError(f"{path}: {key} has no exercises")
         lesson[key]["exercises"] = [
@@ -313,6 +330,89 @@ def load_lesson(path):
             for block in lesson["practice"]["blocks"]
         ]
     return lesson
+
+
+# Georgian in Latin letters (the national transliteration). The tight
+# (ejective) sounds have an apostrophe; answers are also accepted without it
+GEORGIAN_TO_LATIN = {
+    "ა": "a", "ბ": "b", "გ": "g", "დ": "d", "ე": "e", "ვ": "v", "ზ": "z", "თ": "t", "ი": "i",
+    "კ": "k'", "ლ": "l", "მ": "m", "ნ": "n", "ო": "o", "პ": "p'", "ჟ": "zh", "რ": "r", "ს": "s",
+    "ტ": "t'", "უ": "u", "ფ": "p", "ქ": "k", "ღ": "gh", "ყ": "q'", "შ": "sh", "ჩ": "ch", "ც": "ts",
+    "ძ": "dz", "წ": "ts'", "ჭ": "ch'", "ხ": "kh", "ჯ": "j", "ჰ": "h",
+}
+GEORGIAN_LETTER = re.compile("[" + "".join(GEORGIAN_TO_LATIN) + "]")
+
+
+def to_latin(text):
+    return GEORGIAN_LETTER.sub(lambda match: GEORGIAN_TO_LATIN[match.group(0)], text)
+
+
+def latin_value(value):
+    # Every string of a lesson, at any depth, in Latin letters
+    if isinstance(value, str):
+        return to_latin(value)
+    if isinstance(value, list):
+        return [latin_value(item) for item in value]
+    if isinstance(value, tuple):
+        return tuple(latin_value(item) for item in value)
+    if isinstance(value, dict):
+        return {key: latin_value(item) for key, item in value.items()}
+    return value
+
+
+def _with_plain(answers):
+    # The answers, and the same without the apostrophes of the tight sounds
+    result = list(answers)
+    for answer in answers:
+        if answer.replace("'", "") not in result:
+            result.append(answer.replace("'", ""))
+    return result
+
+
+def _latin_exercise(exercise):
+    exercise = latin_value(exercise)
+    exercise["keys"] = ""  # no Georgian letters to type
+    if exercise["type"] == "gap":
+        for line in exercise["questions"]:
+            for part in line:
+                if "accepted" in part:
+                    part["accepted"] = _with_plain(part["accepted"])
+                    part["width"] = max(map(len, part["accepted"])) + 3
+    elif exercise["type"] == "write" and not exercise.get("open"):
+        for question in exercise["questions"]:
+            question["a"] = _with_plain(question["a"])
+    elif exercise["type"] == "match":
+        exercise["options"] = sorted({right for _, right in exercise["pairs"]}, key=visible_text)
+    return exercise
+
+
+def latin_lessons(levels):
+    """The lessons of a language with its own alphabet, for learners who
+    chose Latin letters: every letter transliterated, and the lessons about
+    the alphabet itself ("alphabet": true) left out. The others keep their
+    numbers (saved progress is kept by them) but are shown counted from 1
+    ("shown")."""
+    result = {}
+    for level, lessons in levels.items():
+        kept = []
+        for lesson in lessons:
+            if lesson.get("alphabet"):
+                continue
+            latin = latin_value(lesson)
+            latin["keys"] = ""
+            for key in [key for key, _ in SECTIONS[1:]] + ["italy"]:
+                if key in latin:
+                    latin[key]["exercises"] = [_latin_exercise(exercise) for exercise in lesson[key]["exercises"]]
+            if "practice" in latin:
+                latin["practice"]["blocks"] = [
+                    _latin_exercise(block) if "type" in block and block["type"] != "free" else latin_value(block)
+                    for block in lesson["practice"]["blocks"]
+                ]
+            latin["shown"] = len(kept) + 1
+            kept.append(latin)
+        if kept:
+            result[level] = kept
+    return result
 
 
 def load_lessons(language):

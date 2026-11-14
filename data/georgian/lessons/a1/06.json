@@ -1,0 +1,421 @@
+{
+  "title": "გამარჯობა! მე ნინო ვარ",
+  "translation": "Hello! I'm Nino",
+  "topics": "Greetings, saying who you are and where you are from: the verb *to be* (*ვარ, ხარ, არის*) and -*დან* (from)",
+  "interface": "english",
+  "titles": {
+    "grammar": "Grammar",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+  "grammar": {
+    "explain": [
+      "In this lesson you learn to greet people, say your name and where you come from. Georgian has no articles (*a*, *the*) and no grammatical gender: *he*, *she* and *it* are all *ის*.",
+      {
+        "h": "Greetings"
+      },
+      {
+        "table": {
+          "head": [
+            "Georgian",
+            "meaning",
+            "when"
+          ],
+          "rows": [
+            [
+              "გამარჯობა",
+              "hello",
+              "any time of day"
+            ],
+            [
+              "გაგიმარჯოს",
+              "hello (in reply)",
+              "the answer to გამარჯობა"
+            ],
+            [
+              "როგორ ხარ?",
+              "how are you?",
+              "to a friend"
+            ],
+            [
+              "კარგად, მადლობა",
+              "fine, thank you",
+              "the usual answer"
+            ],
+            [
+              "სასიამოვნოა",
+              "nice to meet you",
+              "when you meet someone"
+            ],
+            [
+              "ნახვამდის",
+              "goodbye",
+              "when you leave"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "The verb *to be*"
+      },
+      {
+        "table": {
+          "head": [
+            "",
+            "to be",
+            "example"
+          ],
+          "rows": [
+            [
+              "მე (I)",
+              "ვარ",
+              "მე ნინო ვარ."
+            ],
+            [
+              "შენ (you)",
+              "ხარ",
+              "შენ მარკო ხარ."
+            ],
+            [
+              "ის (he, she, it)",
+              "არის",
+              "ის ბათუმიდან არის."
+            ],
+            [
+              "ჩვენ (we)",
+              "ვართ",
+              "ჩვენ სტუდენტები ვართ."
+            ],
+            [
+              "თქვენ (you, polite or plural)",
+              "ხართ",
+              "თქვენ საიდან ხართ?"
+            ],
+            [
+              "ისინი (they)",
+              "არიან",
+              "ისინი თბილისიდან არიან."
+            ]
+          ]
+        }
+      },
+      "The verb usually comes at the end: *მე ნინო ვარ* (*I Nino am*). You can also say *მე ვარ ნინო*. And since the verb already says who it is, *მე* can be left out: *ნინო ვარ*.",
+      "A question sounds like a statement, with the voice going up at the end: *შენ ნინო ხარ?* (*Are you Nino?*). Answer with *კი* or *დიახ* (*yes*, *დიახ* is more polite) or *არა* (*no*).",
+      {
+        "h": "Where are you from?"
+      },
+      "To say *from* a country or a city, add -*დან* to its name. Names that end in -*ი* or -*ა* keep their last letter:",
+      {
+        "table": {
+          "head": [
+            "place",
+            "from"
+          ],
+          "rows": [
+            [
+              "ბულგარეთი (Bulgaria)",
+              "ბულგარეთიდან"
+            ],
+            [
+              "იტალია (Italy)",
+              "იტალიიდან"
+            ],
+            [
+              "საქართველო (Georgia)",
+              "საქართველოდან"
+            ],
+            [
+              "თბილისი",
+              "თბილისიდან"
+            ],
+            [
+              "ბათუმი",
+              "ბათუმიდან"
+            ]
+          ]
+        }
+      },
+      "*საიდან ხარ?* — *ბულგარეთიდან ვარ*. (*Where are you from? — I'm from Bulgaria.*)",
+      {
+        "h": "Your name"
+      },
+      "*რა გქვია?* (*What's your name?*) — *მე მქვია ნინო*. (*My name is Nino.*) To someone you don't know, say *რა გქვიათ?* and use *თქვენ ხართ* instead of *შენ ხარ*."
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Choose the right form of *to be*.",
+        "questions": [
+          {
+            "q": "მე ნინო ___.",
+            "options": [
+              "*ვარ",
+              "ხარ",
+              "არის"
+            ]
+          },
+          {
+            "q": "შენ საიდან ___?",
+            "options": [
+              "*ხარ",
+              "ვარ",
+              "არიან"
+            ]
+          },
+          {
+            "q": "ის თბილისიდან ___.",
+            "options": [
+              "*არის",
+              "ხარ",
+              "ვართ"
+            ]
+          },
+          {
+            "q": "ჩვენ სტუდენტები ___.",
+            "options": [
+              "*ვართ",
+              "ხართ",
+              "არიან"
+            ]
+          },
+          {
+            "q": "ისინი იტალიიდან ___.",
+            "options": [
+              "*არიან",
+              "არის",
+              "ვართ"
+            ]
+          },
+          {
+            "q": "თქვენ საიდან ___?",
+            "options": [
+              "*ხართ",
+              "ხარ",
+              "ვართ"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Say where they are from: add -დან.",
+        "questions": [
+          "ბულგარეთი → მე [[ბულგარეთიდან]] ვარ.",
+          "იტალია → მარკო [[იტალიიდან]] არის.",
+          "ბათუმი → ნინო [[ბათუმიდან]] არის.",
+          "საქართველო → ჩვენ [[საქართველოდან]] ვართ.",
+          "თბილისი → ისინი [[თბილისიდან]] არიან."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each question to its answer.",
+        "pairs": [
+          [
+            "როგორ ხარ?",
+            "კარგად, მადლობა."
+          ],
+          [
+            "რა გქვია?",
+            "მე მქვია ნინო."
+          ],
+          [
+            "საიდან ხარ?",
+            "ბულგარეთიდან ვარ."
+          ],
+          [
+            "გამარჯობა!",
+            "გაგიმარჯოს!"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "გამარჯობა",
+        "hello"
+      ],
+      [
+        "გაგიმარჯოს",
+        "hello (in reply)"
+      ],
+      [
+        "როგორ ხარ?",
+        "how are you?"
+      ],
+      [
+        "კარგად",
+        "well, fine"
+      ],
+      [
+        "მადლობა",
+        "thank you"
+      ],
+      [
+        "სასიამოვნოა",
+        "nice to meet you"
+      ],
+      [
+        "ნახვამდის",
+        "goodbye"
+      ],
+      [
+        "კი",
+        "yes"
+      ],
+      [
+        "დიახ",
+        "yes (polite)"
+      ],
+      [
+        "არა",
+        "no"
+      ],
+      [
+        "რა გქვია?",
+        "what's your name?"
+      ],
+      [
+        "მქვია",
+        "my name is"
+      ],
+      [
+        "საიდან?",
+        "where from?"
+      ],
+      [
+        "სტუდენტი",
+        "student"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "მადლობა",
+            "thank you"
+          ],
+          [
+            "ნახვამდის",
+            "goodbye"
+          ],
+          [
+            "სასიამოვნოა",
+            "nice to meet you"
+          ],
+          [
+            "კარგად",
+            "well, fine"
+          ],
+          [
+            "არა",
+            "no"
+          ],
+          [
+            "დიახ",
+            "yes (polite)"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Complete the greetings.",
+        "questions": [
+          "— გამარჯობა! — [[გაგიმარჯოს]]!",
+          "— როგორ ხარ? — კარგად, [[მადლობა]].",
+          "— მე ნინო ვარ. — [[სასიამოვნოა]], ნინო!",
+          "— [[ნახვამდის]]! — ნახვამდის!"
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "text": [
+      {
+        "h": "In a café in Tbilisi"
+      },
+      "ნინო: გამარჯობა! მე ნინო ვარ. შენ?",
+      "მარკო: გაგიმარჯოს! მე მარკო ვარ.",
+      "ნინო: სასიამოვნოა, მარკო! საიდან ხარ?",
+      "მარკო: იტალიიდან ვარ, რომიდან. შენ თბილისიდან ხარ?",
+      "ნინო: არა, ბათუმიდან ვარ. როგორ ხარ?",
+      "მარკო: კარგად, მადლობა!"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "True or false?",
+        "questions": [
+          {
+            "q": "Marco is from Italy.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Marco is from Milan.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Nino is from Tbilisi.",
+            "options": [
+              "True",
+              "*False"
+            ]
+          },
+          {
+            "q": "Nino is from Batumi.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          },
+          {
+            "q": "Marco is fine.",
+            "options": [
+              "*True",
+              "False"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the answers in Georgian.",
+        "questions": [
+          "Hello! (in reply) → [[გაგიმარჯოს]]!",
+          "I'm from Georgia. → [[საქართველოდან]] ვარ.",
+          "Thank you! → [[მადლობა]]!",
+          "Goodbye! → [[ნახვამდის]]!"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Introduce yourself in Georgian: say hello, your name and where you are from.",
+        "open": true,
+        "questions": [
+          {
+            "q": "გამარჯობა! მე…"
+          }
+        ]
+      }
+    ]
+  }
+}

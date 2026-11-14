@@ -1,205 +1,411 @@
 {
   "title": "{ip:È} proprio questo che {ip:intendo}",
-  "translation": "This is exactly what I mean",
-  "topics": "Word order and information focus, advanced comparative patterns",
+  "translation": "",
+  "topics": "L'ordine delle parole a livello avanzato: la frase pseudoscissa, la scissa con le circostanze (*è per questo che, com'è che*), tema e fuoco, la posizione dell'aggettivo (*un grande uomo, un uomo grande*), i confronti della lingua colta (*tanto più che, quanto mai, a dir poco*), la sintassi dei titoli; comunicazione, giornali e malintesi",
   "grammar": {
     "explain": [
+      "Conosci la frase scissa (*È Maria che ho chiamato*), il tema in testa o in coda con il pronome e i confronti come *più… più, sempre più*. A questo livello impari altri modi per mettere in rilievo un'informazione, la differenza tra tema e fuoco, come la posizione dell'aggettivo cambia il senso, i confronti della lingua colta e le regole particolari dei titoli di giornale.",
       {
-        "h": "Tools for focusing information"
-      },
-      {
-        "table": {
-          "head": [
-            "Construction",
-            "Example",
-            "What it does"
-          ],
-          "rows": [
-            [
-              "Explicit cleft",
-              "{ip:È} proprio questo che {ip:intendo}.",
-              "isolates the key element"
-            ],
-            [
-              "Cleft with a + infinitive",
-              "{pp:È stato} Luca a dirmelo.",
-              "focuses on who did it"
-            ],
-            [
-              "Pseudo-cleft",
-              "Quello che mi {ip:sorprende} {ip:è} il silenzio.",
-              "builds up to the key point"
-            ],
-            [
-              "Subject after the verb",
-              "{pp:Sono arrivati} i tuoi.",
-              "presents new information"
-            ],
-            [
-              "Moved to the front",
-              "Di questo, {fs:parleremo} domani.",
-              "sets the topic"
-            ],
-            [
-              "Moved to the end",
-              "Non l'{pp:ho} ancora {pp:letto}, il giornale.",
-              "adds the topic afterwards"
-            ]
-          ]
-        }
-      },
-      "A cleft sentence often names one thing and quietly excludes others: *{ip:È} Luca che {ip:deve} scusarsi* implies that nobody else needs to.",
-      {
-        "h": "Pronouns with moved elements"
-      },
-      "A direct object moved to the front must be repeated by a pronoun: *Il libro l'{pp:ho letto}*. An element with a preposition can do without it in formal style: *A Marco {pp:ho scritto} ieri*. Doubling it with a pronoun is typical of speech: *A me mi {ip:piace}* is considered a mistake in careful writing.",
-      {
-        "h": "A topic with no grammatical link"
-      },
-      "In conversation, a topic can simply be placed first, and the sentence then continues with a pronoun: *Marco, non gli {ip:parlo} più*. It's lively, but avoid it in formal texts.",
-      {
-        "h": "Comparative patterns"
-      },
-      {
-        "table": {
-          "head": [
-            "Pattern",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "tanto più… quanto più",
-              "the more… the more",
-              "Si {ip:impara} tanto più quanto più si {ip:legge}."
-            ],
-            [
-              "quanto più… tanto più",
-              "the more… the more",
-              "Quanto più lo {ip:conosco}, tanto più lo {ip:stimo}."
-            ],
-            [
-              "tanto più che",
-              "all the more since",
-              "{ip:Resto}, tanto più che {ip:piove}."
-            ],
-            [
-              "sempre meno",
-              "less and less",
-              "Lo {ip:vedo} sempre meno."
-            ],
-            [
-              "il meno possibile",
-              "as little as possible",
-              "{ip:Spendo} il meno possibile."
-            ],
-            [
-              "più che altro",
-              "more than anything",
-              "{ip:È} stanco, più che altro."
-            ],
-            [
-              "a dir poco",
-              "to say the least",
-              "{pp:È stato} a dir poco imbarazzante."
-            ],
-            [
-              "il più delle volte",
-              "most of the time",
-              "Il più delle volte {ip:ha} ragione."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Più di or più che?"
-      },
-      "Use *di* when comparing two different people or things by the same quality. Use *che* when comparing two qualities, two actions, or two elements preceded by prepositions: *{ip:È} più furbo che intelligente. Meglio tardi che mai. {ip:Lavora} più a Roma che a Milano.*"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "La frase pseudoscissa",
+              "head": [
+                "forma",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "*quello che, ciò che* … *è*",
+                  "Quello che mi {ip:sorprende} {ip:è} il silenzio.",
+                  "crea attesa: il nuovo arriva alla fine"
+                ],
+                [
+                  "*ciò di cui, ciò a cui* … *è*",
+                  "Ciò di cui {ip:ho} bisogno {ip:è} un po' di tempo.",
+                  "con la preposizione del verbo"
+                ],
+                [
+                  "*chi* … *essere*",
+                  "Chi {pp:ha sbagliato} {ip:sei} tu.",
+                  "*essere* si accorda con quello che segue"
+                ],
+                [
+                  "*il fatto è che, il problema è che*",
+                  "Il fatto {ip:è} che non {ip:ho} tempo.",
+                  "molto comune nel parlato"
+                ],
+                [
+                  "*l'unica cosa che* … *è*",
+                  "L'unica cosa che {ip:chiedo} {ip:è} un po' di rispetto.",
+                  ""
+                ]
+              ]
+            },
+            "note": "La pseudoscissa sposta l'informazione nuova alla fine, dopo *è*. *Essere* si accorda con quello che segue: *Quello che mi manca {ip:sono} gli amici*, *Chi deve scusarsi {ip:sei} tu*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La scissa con le circostanze",
+              "head": [
+                "forma",
+                "esempio",
+                "che cosa mette in rilievo"
+              ],
+              "rows": [
+                [
+                  "*è per questo che*",
+                  "{ip:È} per questo che non ti {pp:ho chiamato}.",
+                  "la causa"
+                ],
+                [
+                  "*è qui che, è lì che*",
+                  "{ip:È} qui che ci {pp:siamo conosciuti}.",
+                  "il luogo"
+                ],
+                [
+                  "*è stato allora che*",
+                  "{pp:È stato} allora che {pp:ho capito}.",
+                  "il momento (nel racconto: *fu allora che*)"
+                ],
+                [
+                  "*non è per… che*",
+                  "Non {ip:è} per i soldi che lo {ip:faccio}.",
+                  "nega una causa"
+                ],
+                [
+                  "*è solo quando… che*",
+                  "{ip:È} solo quando {ip:manca} che {ip:capisci} quanto {ip:vale} una cosa.",
+                  "una condizione"
+                ],
+                [
+                  "*com'è che*",
+                  "Com'{ip:è} che non {ip:rispondi} mai?",
+                  "parlato: = perché"
+                ]
+              ]
+            },
+            "note": "Dopo l'elemento in rilievo si usa sempre *che*, anche per il luogo e la causa: ✗ *È qui dove…*, ✗ *È per questo perché…*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Tema o fuoco?",
+              "head": [
+                "forma",
+                "esempio",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "tema in testa, con il pronome",
+                  "Il libro, l'{pp:ho letto}.",
+                  "parlo del libro, che è già noto"
+                ],
+                [
+                  "fuoco in testa, senza pronome",
+                  "IL LIBRO {pp:ho letto}, non il giornale.",
+                  "contrasto: la parola ha l'accento della frase"
+                ],
+                [
+                  "tema con preposizione",
+                  "Di questo ne {fs:parleremo} domani.",
+                  "il pronome si può anche omettere"
+                ],
+                [
+                  "fuoco con preposizione",
+                  "A MARCO {pp:ho scritto}, non a te.",
+                  "contrasto"
+                ],
+                [
+                  "tema sospeso (parlato)",
+                  "Marco, non gli {ip:parlo} più.",
+                  "il tema non ha legami grammaticali con la frase"
+                ]
+              ]
+            },
+            "note": "Il tema è quello di cui si parla; il fuoco è l'informazione più importante, spesso in contrasto con un'altra. Con il tema l'oggetto diretto vuole sempre il pronome; con il fuoco, mai: ✗ *IL LIBRO l'ho letto, non il giornale*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La posizione dell'aggettivo",
+              "head": [
+                "prima del nome",
+                "dopo il nome"
+              ],
+              "rows": [
+                [
+                  "un grande uomo (importante)",
+                  "un uomo grande (alto, grosso)"
+                ],
+                [
+                  "un povero uomo (che fa pena)",
+                  "un uomo povero (senza soldi)"
+                ],
+                [
+                  "un vecchio amico (da molti anni)",
+                  "un amico vecchio (anziano)"
+                ],
+                [
+                  "certe notizie (alcune)",
+                  "notizie certe (sicure)"
+                ],
+                [
+                  "diversi libri (parecchi)",
+                  "libri diversi (differenti)"
+                ],
+                [
+                  "un'unica occasione (una sola)",
+                  "un'occasione unica (speciale)"
+                ],
+                [
+                  "una nuova macchina (un'altra)",
+                  "una macchina nuova (mai usata)"
+                ]
+              ]
+            },
+            "note": "Prima del nome l'aggettivo ha spesso un senso figurato o soggettivo; dopo, un senso letterale, che distingue una cosa dalle altre. I colori e le nazionalità vanno quasi sempre dopo: *una macchina rossa, un vino italiano*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Confronti della lingua colta",
+              "head": [
+                "forma",
+                "significato",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*quanto più… tanto più*",
+                  "le due cose crescono insieme",
+                  "Quanto più lo {ip:conosco}, tanto più lo {ip:stimo}."
+                ],
+                [
+                  "*tanto più che*",
+                  "a maggior ragione perché",
+                  "{ip:Resto} a casa, tanto più che {ip:piove}."
+                ],
+                [
+                  "*tanto meno*",
+                  "e ancora meno",
+                  "Non lo {cop:farei} per te, tanto meno per lui."
+                ],
+                [
+                  "*più che altro*",
+                  "soprattutto",
+                  "Non {ip:è} triste: {ip:è} stanco, più che altro."
+                ],
+                [
+                  "*quanto mai, più che mai*",
+                  "moltissimo; ora più di prima",
+                  "Una scelta quanto mai opportuna. Oggi {ip:è} più che mai necessario."
+                ],
+                [
+                  "*a dir poco*",
+                  "come minimo",
+                  "Il risultato {ip:è} a dir poco deludente."
+                ],
+                [
+                  "*non più di tanto*",
+                  "non molto",
+                  "La notizia non mi {pp:ha sorpreso} più di tanto."
+                ]
+              ]
+            },
+            "note": "*Quanto più… tanto più* è la versione formale di *più… più*: *Più lo conosco, più lo stimo*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La sintassi dei titoli",
+              "head": [
+                "forma",
+                "titolo",
+                "frase completa"
+              ],
+              "rows": [
+                [
+                  "luogo + verbo + soggetto",
+                  "Roma, crolla un palazzo.",
+                  "A Roma {pp:è crollato} un palazzo."
+                ],
+                [
+                  "participio senza ausiliare",
+                  "Arrestato il sindaco di Borgo.",
+                  "Il sindaco di Borgo {pp:è stato arrestato}."
+                ],
+                [
+                  "frase senza verbo",
+                  "Pioggia record al Nord.",
+                  "Al Nord {pp:è caduta} una pioggia record."
+                ],
+                [
+                  "tema + nome",
+                  "Scuola, via libera alla riforma.",
+                  "La riforma della scuola {pp:è stata approvata}."
+                ],
+                [
+                  "citazione dopo i due punti",
+                  "Il ministro: «Nessun aumento delle tasse».",
+                  "Il ministro {pp:ha detto} che le tasse non {fs:aumenteranno}."
+                ],
+                [
+                  "presente per il passato",
+                  "Vince l'Italia, festa nelle piazze.",
+                  "L'Italia {pp:ha vinto} e si {pp:è festeggiato} nelle piazze."
+                ]
+              ]
+            },
+            "note": "Nei titoli si tolgono articoli, ausiliari e verbi poco importanti, e il presente racconta anche fatti passati. La virgola separa il luogo o l'argomento dalla notizia."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "write",
-        "prompt": "Rewrite each sentence using the construction in brackets.",
-        "questions": [
-          {
-            "q": "Luca me l'{pp:ha detto}. ({pp:è stato}… a)",
-            "a": [
-              "È stato Luca a dirmelo."
-            ]
-          },
-          {
-            "q": "{ip:Intendo} proprio questo. ({ip:è}… che)",
-            "a": [
-              "È proprio questo che intendo."
-            ]
-          },
-          {
-            "q": "Il silenzio mi {ip:sorprende}. (quello che)",
-            "a": [
-              "Quello che mi sorprende è il silenzio.",
-              "Ciò che mi sorprende è il silenzio."
-            ]
-          },
-          {
-            "q": "Ho letto il libro. (move the object to the front)",
-            "a": [
-              "Il libro l'ho letto."
-            ]
-          }
-        ]
-      },
-      {
         "type": "gap",
-        "prompt": "Complete the comparative patterns.",
+        "prompt": "Completa la frase pseudoscissa.",
         "questions": [
-          "Quanto più lo {ip:conosco}, [[tanto]] più lo {ip:stimo}.",
-          "{ip:Spendo} il [[meno]] possibile.",
-          "{ip:Resto} a casa, tanto più [[che]] {ip:piove}.",
-          "{pp:È stato}, a dir [[poco]], imbarazzante.",
-          "Lo {ip:vedo} [[sempre]] meno."
+          "Quello che mi {ip:manca} [[sono#ip]] gli amici.",
+          "Chi {pp:ha sbagliato} [[sei#ip]] tu.",
+          "Ciò di [[cui]] {ip:ho} bisogno {ip:è} un po' di tempo.",
+          "Il fatto [[è#ip]] che non {ip:ho} tempo."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Di or che?",
+        "prompt": "Scegli la forma giusta.",
         "questions": [
           {
-            "q": "{ip:È} più furbo ___ intelligente.",
+            "q": "___ per questo che non ti {pp:ho chiamato}.",
             "options": [
-              "di",
-              "*che"
+              "*{ip:È}",
+              "{ip:C'è}"
             ]
           },
           {
-            "q": "Marco {ip:è} più alto ___ Luca.",
+            "q": "{ip:È} qui ___ ci {pp:siamo conosciuti}.",
             "options": [
-              "*di",
-              "che"
+              "*che",
+              "dove",
+              "cui"
             ]
           },
           {
-            "q": "{ip:Lavoro} più a Roma ___ a Milano.",
+            "q": "Non {ip:è} per i soldi ___ lo {ip:faccio}.",
             "options": [
-              "di",
-              "*che"
+              "*che",
+              "perché"
             ]
           },
           {
-            "q": "Meglio tardi ___ mai.",
+            "q": "Com'{ip:è} ___ non {ip:rispondi} mai?",
             "options": [
-              "di",
-              "*che"
-            ]
-          },
-          {
-            "q": "Which is careful written Italian?",
-            "options": [
-              "A me mi {ip:piace} il mare.",
-              "*A me {ip:piace} il mare."
+              "*che",
+              "perché"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Tema o fuoco? Scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "«{pp:Hai letto} il libro?» «Sì, ___ ieri.»",
+            "options": [
+              "*il libro l'ho letto",
+              "il libro ho letto"
+            ]
+          },
+          {
+            "q": "«{pp:Hai letto} il giornale?» «No: ___ , non il giornale.»",
+            "options": [
+              "*IL LIBRO ho letto",
+              "IL LIBRO l'ho letto"
+            ]
+          },
+          {
+            "q": "«Di che cosa {fs:parlerete}?» «___ domani.»",
+            "options": [
+              "*Di questo ne parleremo",
+              "Di questo lo parleremo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni espressione al suo significato.",
+        "pairs": [
+          [
+            "un grande uomo",
+            "un uomo importante"
+          ],
+          [
+            "un uomo grande",
+            "un uomo alto e grosso"
+          ],
+          [
+            "un povero uomo",
+            "un uomo che fa pena"
+          ],
+          [
+            "un uomo povero",
+            "un uomo senza soldi"
+          ],
+          [
+            "certe notizie",
+            "alcune notizie"
+          ],
+          [
+            "notizie certe",
+            "notizie sicure"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa il confronto.",
+        "questions": [
+          "[[Quanto]] più lo {ip:conosco}, tanto più lo {ip:stimo}.",
+          "{ip:Resto} a casa, tanto più [[che]] {ip:piove}.",
+          "Non lo {cop:farei} per te, tanto [[meno]] per lui.",
+          "Il risultato {ip:è} a dir [[poco]] deludente.",
+          "La notizia non mi {pp:ha sorpreso} più di [[tanto]]."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni titolo alla frase completa.",
+        "pairs": [
+          [
+            "Roma, crolla un palazzo.",
+            "A Roma è crollato un palazzo."
+          ],
+          [
+            "Arrestato il sindaco di Borgo.",
+            "Il sindaco di Borgo è stato arrestato."
+          ],
+          [
+            "Pioggia record al Nord.",
+            "Al Nord è caduta una pioggia record."
+          ],
+          [
+            "Scuola, via libera alla riforma.",
+            "La riforma della scuola è stata approvata."
+          ],
+          [
+            "Vince l'Italia, festa nelle piazze.",
+            "L'Italia ha vinto e si è festeggiato nelle piazze."
+          ]
         ]
       }
     ]
@@ -207,135 +413,275 @@
   "vocabulary": {
     "words": [
       [
-        "il malinteso",
-        "misunderstanding"
-      ],
-      [
-        "il nocciolo",
-        "heart of the matter"
+        "il nocciolo della questione",
+        "il punto centrale di un problema"
       ],
       [
         "la sfumatura",
-        "nuance"
+        "una piccola differenza di significato o di colore"
       ],
       [
         "l'enfasi",
-        "emphasis"
+        "la forza particolare data a una parola o a un'idea"
+      ],
+      [
+        "il sottinteso",
+        "quello che si fa capire senza dirlo"
+      ],
+      [
+        "il sommario",
+        "le righe sotto il titolo che riassumono un articolo"
+      ],
+      [
+        "la testata",
+        "il nome di un giornale, o il giornale stesso"
+      ],
+      [
+        "lo scoop",
+        "una notizia importante data per primi"
+      ],
+      [
+        "la smentita",
+        "la dichiarazione che una notizia non è vera"
+      ],
+      [
+        "il divario",
+        "una grande differenza tra due cose o due gruppi"
       ],
       [
         "intendere",
-        "to mean"
+        "voler dire"
       ],
       [
         "ribadire",
-        "to reiterate"
+        "dire di nuovo, con forza"
       ],
       [
-        "alludere",
-        "to allude"
+        "alludere a",
+        "far capire qualcosa senza dirlo apertamente"
       ],
       [
         "precisare",
-        "to specify"
+        "dire in modo più esatto"
       ],
       [
-        "stimare",
-        "to esteem"
+        "sottolineare",
+        "mettere in evidenza"
       ],
       [
-        "furbo",
-        "cunning"
+        "travisare",
+        "capire o riferire in modo sbagliato"
       ],
       [
-        "imbarazzante",
-        "embarrassing"
+        "fraintendere",
+        "capire male"
+      ],
+      [
+        "eloquente",
+        "che dice molto, anche senza parole"
       ],
       [
         "per l'appunto",
-        "precisely"
+        "proprio così, precisamente"
+      ],
+      [
+        "mettere i puntini sulle i",
+        "precisare ogni dettaglio, con pignoleria"
+      ],
+      [
+        "andare al sodo",
+        "arrivare al punto essenziale"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "il nocciolo",
-            "heart of the matter"
+            "il nocciolo della questione",
+            "il punto centrale di un problema"
           ],
           [
-            "la sfumatura",
-            "nuance"
+            "il sottinteso",
+            "quello che si fa capire senza dirlo"
           ],
           [
-            "ribadire",
-            "to reiterate"
+            "la smentita",
+            "la dichiarazione che una notizia non è vera"
           ],
           [
-            "alludere",
-            "to allude"
+            "travisare",
+            "capire o riferire in modo sbagliato"
           ],
           [
-            "furbo",
-            "cunning"
+            "mettere i puntini sulle i",
+            "precisare ogni dettaglio, con pignoleria"
           ],
           [
-            "per l'appunto",
-            "precisely"
+            "andare al sodo",
+            "arrivare al punto essenziale"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Che cosa [[intendi#ip]] dire? (do you mean)",
-          "{cop:Vorrei} [[precisare]] un punto. (to specify)",
-          "{pp:È stato} un semplice [[malinteso]]. (misunderstanding)",
-          "{ip:È} una situazione [[imbarazzante]]. (embarrassing)"
+          {
+            "q": "Non {pp:hai} capito: mi {pp:hai} ___ .",
+            "options": [
+              "*frainteso",
+              "ribadito",
+              "sottolineato"
+            ]
+          },
+          {
+            "q": "Il giornale {pp:ha pubblicato} una ___ : la notizia {im:era} falsa.",
+            "options": [
+              "*smentita",
+              "sfumatura",
+              "enfasi"
+            ]
+          },
+          {
+            "q": "Tra Nord e Sud c'{ip:è} ancora un forte ___ .",
+            "options": [
+              "*divario",
+              "sommario",
+              "scoop"
+            ]
+          },
+          {
+            "q": "Il suo silenzio {pp:è stato} più ___ di mille parole.",
+            "options": [
+              "*eloquente",
+              "travisato",
+              "precisato"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Che cosa [[intendi#ip]] dire?",
+          "Il ministro {pp:ha} [[ribadito#pp]] che le tasse non {fs:aumenteranno}.",
+          "{imv:Lascia} perdere i dettagli e {imv:vieni} al [[sodo]].",
+          "Prima di cominciare, {cop:vorrei} [[precisare]] una cosa.",
+          "Questa {ip:è} per l'[[appunto]] la questione."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Non {ip:è} la mancanza di tempo che {ip:impedisce} agli italiani di leggere: {ip:è}, piuttosto, la mancanza di abitudine. Quello che {ip:colpisce}, nei dati di quest'anno, {ip:è} il divario fra le regioni. Il Nord {ip:legge} più del Sud, ma {ip:è} nelle città medie che si {ip:registrano} i progressi maggiori.",
-      "I libri, li {ip:comprano} soprattutto le donne. {pp:Sono state} loro, negli ultimi vent'anni, a sostenere il mercato. Quanto più si {ip:è} istruiti, tanto più si {ip:legge}, e il dato non {ip:stupisce}. {ip:Stupisce}, semmai, che un laureato su quattro {csp:dichiari} di non aprire un libro da un anno: un risultato, a dir poco, preoccupante."
+      {
+        "h": "Il titolo sbagliato"
+      },
+      "«Caffè, la scienza assolve: tre tazze al giorno allungano la vita.» {pp:È stato} questo il titolo che lunedì mattina {pp:ha fatto} il giro del web. Peccato che la ricercatrice intervistata, la dottoressa Rinaldi, non {cst:avesse} mai {cst:detto} niente del genere.",
+      "Quello che la ricercatrice {pp:ha spiegato}, in un'intervista di un'ora, {ip:è} molto più sfumato: chi {ip:beve} caffè con moderazione non {ip:sembra} correre rischi particolari, ma {ip:è} presto per parlare di benefici. «Il nocciolo della questione {ip:è} la moderazione», {pp:ha ribadito} ieri. «E non {ip:è} per difendere il caffè che {pp:ho studiato} questi dati.»",
+      "Com'{ip:è} che una notizia {ip:viene} travisata così? {ip:È} nel passaggio dall'articolo al titolo che si {ip:perdono} le sfumature. Il titolo, lo {ip:legge} quasi chiunque; l'articolo, pochi. E quanto più un titolo {ip:è} sorprendente, tanto più {ip:viene} condiviso.",
+      "La testata {pp:ha pubblicato} una precisazione, ma il danno, a dir poco, {im:era} già fatto. Più che altro, la vicenda {ip:insegna} una cosa: {ip:è} ai lettori che {ip:spetta} l'ultima parola, purché {csp:leggano} fino in fondo."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The author blames lack of time above all.",
+            "q": "Che cosa {im:diceva} il titolo?",
             "options": [
-              "True",
-              "*False"
+              "*che tre caffè al giorno {ip:allungano} la vita",
+              "che il caffè {ip:fa} male",
+              "che la ricercatrice non {ip:beve} caffè"
             ]
           },
           {
-            "q": "The greatest progress is in medium-sized cities.",
+            "q": "Che cosa {pp:ha detto} davvero la ricercatrice?",
             "options": [
-              "*True",
-              "False"
+              "*Con moderazione il caffè non {ip:sembra} pericoloso.",
+              "Tre caffè al giorno {ip:fanno} bene.",
+              "Il caffè {ip:allunga} la vita."
             ]
           },
           {
-            "q": "Women have supported the book market.",
+            "q": "Dove si {ip:perdono} le sfumature, secondo il testo?",
             "options": [
-              "*True",
-              "False"
+              "*nel passaggio dall'articolo al titolo",
+              "nell'intervista",
+              "nei commenti dei lettori"
             ]
           },
           {
-            "q": "The author is not concerned by the graduates' figure.",
+            "q": "Che cosa {ip:devono} fare i lettori?",
             "options": [
-              "True",
-              "*False"
+              "*leggere fino in fondo",
+              "leggere solo i titoli",
+              "smettere di bere caffè"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La ricercatrice {pp:ha confermato} il titolo.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "L'intervista {pp:è durata} un'ora.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Secondo il testo, gli articoli {ip:sono} letti più dei titoli.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "La testata {pp:ha pubblicato} una precisazione.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase del testo alla costruzione che usa.",
+        "pairs": [
+          [
+            "{pp:È stato} questo il titolo che…",
+            "frase scissa"
+          ],
+          [
+            "Quello che la ricercatrice {pp:ha spiegato} {ip:è} molto più sfumato.",
+            "frase pseudoscissa"
+          ],
+          [
+            "Il titolo, lo {ip:legge} quasi chiunque.",
+            "tema in testa con il pronome"
+          ],
+          [
+            "Quanto più un titolo {ip:è} sorprendente, tanto più {ip:viene} condiviso.",
+            "due cose che crescono insieme"
+          ],
+          [
+            "Caffè, la scienza assolve.",
+            "sintassi dei titoli"
+          ]
         ]
       }
     ]
@@ -348,7 +694,7 @@
       ],
       [
         "Agata",
-        "Non {pp:ho detto} questo. {ip:È} il modo che non mi {pp:è piaciuto}."
+        "Non {pp:ho detto} questo. Quello che non mi {pp:è piaciuto} {ip:è} il modo. Non {ip:è} quello che {pp:hai detto}, {ip:è} come l'{pp:hai detto}."
       ],
       [
         "Mirko",
@@ -356,38 +702,46 @@
       ],
       [
         "Agata",
-        "Luca, non gli {ip:parlo} da una settimana."
+        "Luca, non gli {ip:parlo} da una settimana. Ma chi {ip:deve} chiedere scusa a Paola {ip:sei} tu."
       ],
       [
         "Mirko",
-        "Quello che {ip:voglio} {ip:è} solo chiarire."
+        "Va bene. Più che altro, non {ip:voglio} che {csp:pensi} che ce l'{csp:abbia} con lei."
       ],
       [
         "Agata",
-        "{ip:È} proprio questo che {ip:intendo}. Tanto più che {ip:lavoriamo} insieme."
+        "{ip:È} proprio questo che {ip:intendo}. Tanto più che {ip:lavorate} insieme: {imv:vai} al sodo e {imv:chiarisci}."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:È} il modo [[che]] non mi {pp:è piaciuto}.",
-          "{pp:È stato} Luca [[a]] cominciare!",
-          "Luca, non [[gli]] {ip:parlo} da una settimana.",
-          "Tanto più [[che]] {ip:lavoriamo} insieme."
+          "Quello che non mi {pp:è piaciuto} [[è#ip]] il modo.",
+          "Ma {pp:è stato} Luca [[a]] cominciare!",
+          "Chi {ip:deve} chiedere scusa a Paola [[sei#ip]] tu.",
+          "[[Tanto]] più che {ip:lavorate} insieme."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What didn't Agata like?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Agata didn't like…",
+            "q": "Che cosa {ip:rimprovera} Agata a Mirko?",
             "options": [
-              "what Mirko said",
-              "*the way he did it",
-              "Luca's work"
+              "*il modo in cui {pp:ha parlato}",
+              "quello che {pp:ha detto}",
+              "di aver litigato con Luca"
+            ]
+          },
+          {
+            "q": "Che cosa gli {ip:consiglia}?",
+            "options": [
+              "*di chiarire con Paola",
+              "di parlare con Luca",
+              "di cambiare lavoro"
             ]
           }
         ]
@@ -398,40 +752,401 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "This is exactly what I mean.",
+            "q": "Quello che ti {ip:piace} di più del tuo lavoro o dei tuoi studi {ip:è}…? {imv:Continua} la frase e {imv:spiega}."
+          },
+          {
+            "q": "Qualcuno {pp:ha} mai {pp:travisato} le tue parole? Com'{pp:è andata}?"
+          },
+          {
+            "q": "{ip:Leggi} solo i titoli o anche gli articoli? Perché?"
+          },
+          {
+            "q": "Chi {ip:è} la persona che ti {ip:conosce} meglio? (*La persona che mi conosce meglio è…*)"
+          },
+          {
+            "q": "{imv:Completa}: *Quanto più passano gli anni, tanto più…*"
+          },
+          {
+            "q": "Nella tua lingua c'{ip:è} un aggettivo che {ip:cambia} senso se {ip:cambia} posizione?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "In redazione"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un giocatore di basket altissimo accanto a un bambino",
+          "B — Due signori anziani che si abbracciano davanti a una stazione",
+          "C — Una prima pagina di giornale con un titolo enorme",
+          "D — Una donna che indica sé stessa con il dito"
+        ],
+        "pairs": [
+          [
+            "{ip:È} un uomo grande: {ip:è} alto due metri.",
+            "immagine A"
+          ],
+          [
+            "{ip:Sono} vecchi amici: si {ip:conoscono} da sessant'anni.",
+            "immagine B"
+          ],
+          [
+            "Roma, crolla un palazzo: nessun ferito.",
+            "immagine C"
+          ],
+          [
+            "{ip:Sono} io che {ip:devo} decidere.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa vuol dire?",
+        "questions": [
+          {
+            "q": "un grande uomo",
+            "options": [
+              "*un uomo importante",
+              "un uomo alto"
+            ]
+          },
+          {
+            "q": "una notizia certa",
+            "options": [
+              "*una notizia sicura",
+              "una notizia qualunque"
+            ]
+          },
+          {
+            "q": "diversi amici",
+            "options": [
+              "*alcuni amici",
+              "amici differenti"
+            ]
+          },
+          {
+            "q": "un'unica occasione",
+            "options": [
+              "*una sola occasione",
+              "un'occasione speciale"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Quello che conta"
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi la frase come pseudoscissa, con l'inizio tra parentesi.",
+        "questions": [
+          {
+            "q": "Mi sorprende il silenzio. (Quello che…)",
+            "a": [
+              "Quello che mi sorprende è il silenzio."
+            ]
+          },
+          {
+            "q": "Ho bisogno di tempo. (Ciò di cui…)",
+            "a": [
+              "Ciò di cui ho bisogno è tempo.",
+              "Ciò di cui ho bisogno è il tempo."
+            ]
+          },
+          {
+            "q": "Hai sbagliato tu. (Chi…)",
+            "a": [
+              "Chi ha sbagliato sei tu."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa la frase scissa.",
+        "questions": [
+          "{ip:È} [[per]] questo che non ti {pp:ho chiamato}.",
+          "{ip:È} qui [[che]] ci {pp:siamo conosciuti}.",
+          "{pp:È stato} allora [[che]] {pp:ho capito} tutto.",
+          "Com'{ip:è} [[che]] non {ip:rispondi} mai?"
+        ]
+      },
+      {
+        "h": "Tanto più…"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli l'espressione giusta.",
+        "questions": [
+          {
+            "q": "{ip:Resto} a casa, ___ che {ip:piove}.",
+            "options": [
+              "*tanto più",
+              "più che altro",
+              "quanto mai"
+            ]
+          },
+          {
+            "q": "Non lo {cop:farei} per te, e ___ per lui.",
+            "options": [
+              "*tanto meno",
+              "più che mai",
+              "a dir poco"
+            ]
+          },
+          {
+            "q": "{ip:È} una scelta ___ opportuna.",
+            "options": [
+              "*quanto mai",
+              "tanto meno",
+              "più che altro"
+            ]
+          },
+          {
+            "q": "La riunione {pp:è stata} lunga e, ___ , noiosa.",
+            "options": [
+              "*a dir poco",
+              "tanto meno",
+              "tanto più che"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Dal titolo alla frase completa: completa con il verbo.",
+        "questions": [
+          "*Arrestato il sindaco di Borgo.* → Il sindaco di Borgo [[è stato#pp]] arrestato.",
+          "*Roma, crolla un palazzo.* → A Roma [[è crollato#pp]] un palazzo.",
+          "*Scuola, via libera alla riforma.* → Il governo [[ha approvato#pp]] la riforma della scuola."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Chi deve scusarsi è tu.",
+            "a": [
+              "Chi deve scusarsi sei tu."
+            ]
+          },
+          {
+            "q": "È stato Luca che me lo ha detto a me.",
+            "a": [
+              "È stato Luca a dirmelo.",
+              "È stato Luca che me l'ha detto.",
+              "È stato Luca che me lo ha detto."
+            ]
+          },
+          {
+            "q": "Il giornale non ho ancora letto. (parlo del giornale, non c'è un contrasto)",
+            "a": [
+              "Il giornale non l'ho ancora letto.",
+              "Il giornale, non l'ho ancora letto."
+            ]
+          },
+          {
+            "q": "È un mio amico vecchio: ci conosciamo da trent'anni.",
+            "a": [
+              "È un mio vecchio amico: ci conosciamo da trent'anni."
+            ]
+          },
+          {
+            "q": "È per questo perché sono venuto.",
+            "a": [
+              "È per questo che sono venuto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "che / è / intendo / proprio questo",
             "a": [
               "È proprio questo che intendo."
             ]
           },
           {
-            "q": "It was Luca who told me. (use a + infinitive)",
+            "q": "il silenzio / quello che / è / mi sorprende",
+            "a": [
+              "Quello che mi sorprende è il silenzio."
+            ]
+          },
+          {
+            "q": "a dirmelo / Luca / stato / è",
             "a": [
               "È stato Luca a dirmelo."
             ]
-          },
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nel parlato il tema in testa o in coda è separato da una pausa, che nello scritto diventa una virgola: *Il giornale, non l'ho letto*; *Non l'ho letto, il giornale*. Nei titoli la virgola separa il luogo o l'argomento dalla notizia: *Roma, crolla un palazzo*. Non si mette mai la virgola, invece, tra il soggetto e il verbo, nemmeno quando il soggetto è lungo: ✗ *Quello che mi sorprende, è il silenzio*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la punteggiatura giusta.",
+        "questions": [
           {
-            "q": "The more I know him, the more I respect him. (quanto più… tanto più)",
-            "a": [
-              "Quanto più lo conosco, tanto più lo stimo.",
-              "Quanto più lo conosco, tanto più lo rispetto."
+            "q": "Il tema in testa:",
+            "options": [
+              "*Il giornale, non l'ho ancora letto.",
+              "Il giornale non, l'ho ancora letto."
             ]
           },
           {
-            "q": "I spend as little as possible.",
-            "a": [
-              "Spendo il meno possibile."
+            "q": "Il tema sospeso:",
+            "options": [
+              "*Marco, non gli parlo più.",
+              "Marco non, gli parlo più."
             ]
           },
           {
-            "q": "He is more cunning than intelligent.",
-            "a": [
-              "È più furbo che intelligente."
+            "q": "Un titolo:",
+            "options": [
+              "*Roma, crolla un palazzo.",
+              "Roma crolla, un palazzo."
+            ]
+          },
+          {
+            "q": "Una pseudoscissa:",
+            "options": [
+              "*Quello che mi sorprende è il silenzio.",
+              "Quello che mi sorprende, è il silenzio."
             ]
           }
         ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare la frase pseudoscissa: *Quello che mi sorprende è…, Chi ha sbagliato sei tu.*",
+          "So mettere in rilievo una circostanza: *È per questo che…, È stato allora che…*",
+          "So distinguere il tema (*Il libro, l'ho letto*) dal fuoco (*IL LIBRO ho letto, non il giornale*).",
+          "So come cambia il senso di un aggettivo prima o dopo il nome.",
+          "So usare *tanto più che, tanto meno, quanto mai, a dir poco*.",
+          "Capisco la sintassi dei titoli di giornale."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Un'edicola italiana con i giornali appesi, tra cui la Gazzetta dello Sport, rosa"
+      },
+      {
+        "text": [
+          "**Tre giornali, tre storie**",
+          "{ip:È} a Milano che, il 5 marzo 1876, {pr:uscì} il primo numero del *Corriere della Sera*, ancora oggi uno dei quotidiani più letti del paese.",
+          "Quello che {ip:distingue} *La Gazzetta dello Sport*, invece, {ip:è} il colore: dal 1899 {ip:è} stampata su carta rosa, tanto che gli italiani la {ip:chiamano} semplicemente *la rosea*. E {pr:fu} proprio la *Gazzetta* a organizzare, nel 1909, il primo Giro d'Italia: per questo chi {ip:è} primo in classifica {ip:indossa} la maglia rosa.",
+          "Molto più giovane {ip:è} *la Repubblica*, fondata a Roma nel 1976 dal giornalista Eugenio Scalfari e diventata in pochi anni uno dei principali quotidiani nazionali.",
+          "I titoli di tutti questi giornali {ip:seguono} regole proprie: verbi senza ausiliare, nomi al posto dei verbi, il luogo in testa. Leggerli bene {ip:è} il primo passo per capire la notizia; leggere soltanto quelli {ip:è}, quasi sempre, il modo più sicuro per fraintenderla."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il *Corriere della Sera* {pr:nacque} a Milano.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "*La Gazzetta dello Sport* {ip:è} stampata su carta rosa.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La *Gazzetta* {pr:organizzò} il primo Giro d'Italia.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "*La Repubblica* {pr:fu} fondata nell'Ottocento.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "I titoli {ip:seguono} le stesse regole degli articoli.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le parole che mancano.",
+        "questions": [
+          "{ip:È} a Milano [[che]] {pr:uscì} il primo numero del *Corriere della Sera*.",
+          "[[Quello]] che {ip:distingue} la *Gazzetta* {ip:è} il colore.",
+          "{pr:Fu} proprio la *Gazzetta* [[a]] organizzare il primo Giro d'Italia."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Quali sono i giornali più importanti del tuo paese? Ce n'è uno con una storia curiosa?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Nel mio paese…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi un breve articolo di cronaca, vero o inventato, con un titolo da giornale.",
+        "cues": [
+          "Il titolo: *Luogo, verbo + soggetto*, o una frase senza verbo.",
+          "Che cosa {pp:è successo}? (*È stato… a…, È qui che…*)",
+          "Che cosa {ip:colpisce} di più? (*Quello che ha colpito tutti è…*)",
+          "Un commento: *più che altro, a dir poco, tanto più che*."
+        ],
+        "start": "",
+        "model": "Bologna, un violino dimenticato in autobus\nÈ stato un autista a trovarlo, venerdì sera, sotto un sedile della linea 13: un violino del Settecento, dimenticato da una giovane musicista dopo un concerto. Quello che ha colpito tutti è stata la calma della proprietaria, che si era accorta della perdita solo la mattina dopo.\n«È proprio sull'autobus che ho pensato di essere stanca», ha raccontato ridendo, «ma non così stanca.» Lo strumento, il cui valore è a dir poco inestimabile, le è stato restituito ieri nella sede dell'azienda dei trasporti.\nL'autista ha rifiutato qualunque ricompensa. Più che altro, ha precisato, gli piacerebbe sentirla suonare."
       }
     ]
   }

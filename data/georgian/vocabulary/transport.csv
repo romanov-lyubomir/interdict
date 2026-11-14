@@ -1,0 +1,17 @@
+Georgian,English,word_id,img
+მანქანა,car,57,None
+ავტობუსი,bus,58,None
+მარშრუტკა,marshrutka (minibus),59,None
+მეტრო,"underground, metro",60,underground.webp
+ტაქსი,taxi,61,None
+მატარებელი,train,62,train.webp
+თვითმფრინავი,plane,63,None
+ველოსიპედი,bicycle,64,None
+მოტოციკლი,motorbike,65,None
+გემი,ship,66,None
+ნავი,boat,67,None
+საბაგირო,cable car,68,None
+სადგური,station,69,None
+აეროპორტი,airport,70,None
+გაჩერება,"stop (bus, tram)",71,stop.webp
+ბილეთი,ticket,72,ticket.webp

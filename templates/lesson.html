@@ -690,9 +690,13 @@
 <div class="exercise" data-find="{{ id }}" data-type="{{ ex.type }}{% if ex.open %}-open{% endif %}">
     <h3>{{ ex.prompt | rich }}</h3>
     {% if ex.pictures %}{{ pictures(ex.pictures) }}{% endif %}
-    {% if ex.type in ("gap", "write") %}
-    <div class="accents" aria-label="{{ ui.accents }}">
-        {% for letter in "àèéìòù" %}<button class="accent" type="button">{{ letter }}</button>{% endfor %}
+    {# Keys for letters a keyboard may not have: the Italian accents, or
+       "keys" on the exercise or the lesson (the Georgian letters learnt so
+       far); "keys": "" shows none #}
+    {% set keys = ex["keys"] if "keys" in ex else lesson.get("keys", "àèéìòù") %}
+    {% if ex.type in ("gap", "write") and keys %}
+    <div class="accents{% if keys | length > 8 %} letter-keys{% endif %}" aria-label="{{ ui.accents if keys == 'àèéìòù' else ui.letters }}"{% if lang_code != "it" %} lang="{{ lang_code }}"{% endif %}>
+        {% for letter in keys %}<button class="accent" type="button">{{ letter }}</button>{% endfor %}
     </div>
     {% endif %}
     <ol class="ex-list">
@@ -729,7 +733,9 @@
             <span>{{ left | rich }}</span>
             <select class="field" data-index="{{ index }}" aria-label="{{ ui.meaning_of }} {{ left | plain }}" data-accepted='{{ [right] | tojson }}'>
                 <option value=""></option>
-                {% for option in ex.options %}<option>{{ option }}</option>{% endfor %}
+                {# The value stays the text as written, so checking and saved
+                   answers don't change; the label hides the markup #}
+                {% for option in ex.options %}<option value="{{ option }}">{{ visible_text(option) }}</option>{% endfor %}
             </select>
             <span class="mark" aria-hidden="true"></span>
         </li>
@@ -775,15 +781,15 @@
     <header class="container shadow lesson-head" data-find="head">
         <span class="level-badge level-{{ level | lower }}">{{ level }}</span>
         {% if is_reviewed(level, lesson.number) %}<span class="reviewed-mark" title="Already updated (only shown locally)">✓ updated</span>{% endif %}
-        <h1>{{ lesson.number }}. {{ lesson.title | rich }}</h1>
+        <h1>{{ lesson.shown }}. {{ lesson.title | rich }}</h1>
         {% if lesson.translation %}<p class="subtitle">{{ lesson.translation }}</p>{% endif %}
         <p class="topics">{{ lesson.topics | rich }}</p>
         <div class="lesson-nav">
             {% if previous %}
-            <a class="button button-secondary" href="{{ url_for('lesson', level=level | lower, number=previous.number) }}">&larr; {{ ui.lesson }} {{ previous.number }}</a>
+            <a class="button button-secondary" href="{{ url_for('lesson', level=level | lower, number=previous.number) }}">&larr; {{ ui.lesson }} {{ previous.shown }}</a>
             {% else %}<span></span>{% endif %}
             {% if following %}
-            <a class="button" href="{{ url_for('lesson', level=level | lower, number=following.number) }}">{{ ui.lesson }} {{ following.number }} &rarr;</a>
+            <a class="button" href="{{ url_for('lesson', level=level | lower, number=following.number) }}">{{ ui.lesson }} {{ following.shown }} &rarr;</a>
             {% else %}
             <a class="button" href="{{ url_for('lessons', _anchor=level | lower) }}">{{ ui.all_lessons }}</a>
             {% endif %}
@@ -1220,4 +1226,5 @@
 <script src="{{ url_for('static', filename='lesson.js') }}"></script>
 <script src="{{ url_for('static', filename='tabs.js') }}"></script>
 <script src="{{ url_for('static', filename='pager.js') }}"></script>
+<script src="{{ url_for('static', filename='letters.js') }}"></script>
 {% endblock %}

@@ -441,7 +441,7 @@
                 </span>
                 <div>
                     <h3 class="hover-arrow">Lessons</h3>
-                    <p>{% if lessons_overview %}Grammar, reading, listening and writing, from A1 to C2{% else %}Grammar and pronunciation{% endif %}</p>
+                    <p>{% if languages[user_language].lessons_blurb %}{{ languages[user_language].lessons_blurb }}{% elif lessons_overview %}Grammar, reading, listening and writing, from A1 to C2{% else %}Grammar and pronunciation{% endif %}</p>
                 </div>
             </div>
             {% if lessons_overview %}
@@ -451,7 +451,7 @@
             {% if next_step %}
             <a class="resume" href="{{ next_step.url }}">
                 <span class="resume-label">{{ "Continue" if lessons_overview.resume else "Start here" }}</span>
-                <span class="resume-lesson hover-arrow">{{ next_step.level }}/{{ next_step.number }} · {{ next_step.title | rich }}</span>
+                <span class="resume-lesson hover-arrow">{{ next_step.level }}/{{ next_step.shown }} · {{ next_step.title | rich }}</span>
                 {% if lessons_overview.resume and next_step.where %}<span class="resume-where">{{ next_step.where }}</span>{% endif %}
                 <span class="resume-go" aria-hidden="true">&rarr;</span>
             </a>
@@ -484,6 +484,8 @@
             {% endif %}
         </div>
 
+        {# The other parts, for the languages that have them (FEATURES in main.py) #}
+        {% if "vocabulary_topics" in features %}
         <div class="container shadow feature linked-feature">
             {# Covers the whole card; the topics sit above it with their own links #}
             <a class="card-link" href="{{ url_for('vocabulary_topics') }}" aria-label="All topics"></a>
@@ -498,10 +500,10 @@
                 </span>
                 <div>
                     <h3 class="hover-arrow">Vocabulary</h3>
-                    <p>{{ topics | length }} topics with pictures and audio</p>
+                    <p>{{ topics | length }} topics with pictures{% if user_language != 'georgian' %} and audio{% endif %}</p>
                 </div>
             </div>
-            <p>Translate everyday words, together with their article, and hear how they sound.</p>
+            <p>{% if user_language == 'georgian' %}Translate everyday words, from bread to khachapuri.{% else %}Translate everyday words, together with their article, and hear how they sound.{% endif %}</p>
             <ul class="lesson-list">
                 {% for topic in topics %}
                 <li><a href="{{ url_for('topic_words', topic=topic) }}">
@@ -523,7 +525,9 @@
                 {% endfor %}
             </ul>
         </div>
+        {% endif %}
 
+        {% if "conjugation_drill" in features %}
         <a class="container shadow feature" href="{{ url_for('conjugation_drill') }}">
             <div class="feature-head">
                 <span class="feature-icon">
@@ -541,7 +545,9 @@
             <p>Choose the tenses and moods you want to practise and get a report on what you got right first
                 time.</p>
         </a>
+        {% endif %}
 
+        {% if "stories_list" in features %}
         <a class="container shadow feature" href="{{ url_for('stories_list') }}">
             <div class="feature-head">
                 <span class="feature-icon">
@@ -563,7 +569,9 @@
                 {% endfor %}
             </div>
         </a>
+        {% endif %}
 
+        {% if "cheat_sheets" in features %}
         <a class="container shadow feature" href="{{ url_for('cheat_sheets') }}">
             <div class="feature-head">
                 <span class="feature-icon">
@@ -578,14 +586,15 @@
                     <p>Tenses and moods at a glance</p>
                 </div>
             </div>
-            <p>See how every tense is formed and used, and compare the moods across Italian, Spanish, Portuguese and
-                German.</p>
+            <p>{% if user_language == 'georgian' %}The main screeves of the Georgian verb, in their three series.{% else %}See how every tense is formed and used, and compare the moods across Italian, Spanish, Portuguese and
+                German.{% endif %}</p>
         </a>
+        {% endif %}
     </div>
     {% else %}
     <section class="hero">
         <div class="hero-content">
-            <span class="eyebrow">Italian &middot; Spanish &middot; German &middot; Greek</span>
+            <span class="eyebrow">{% for language in languages %}{{ language | capitalize }}{% if not loop.last %} &middot; {% endif %}{% endfor %}</span>
             <h1>Learn a European language, <span>one word at a time.</span></h1>
             <p class="lead">Vocabulary quizzes with audio, conjugation drills and graded stories from A1 to C2.
                 Pick a language to get started, no account needed.</p>

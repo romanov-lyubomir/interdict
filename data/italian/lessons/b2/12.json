@@ -1,186 +1,336 @@
 {
   "title": "{ip:È} a Maria che {pp:ho telefonato}",
-  "translation": "It was Maria I phoned",
-  "topics": "Word order and emphasis, punctuation in complex sentences",
+  "translation": "",
+  "topics": "L'ordine delle parole: il nuovo alla fine, la frase scissa (*è… che, è… a* + infinito), il tema in testa o in coda con il pronome (*il pane l'ho comprato io*), *proprio, solo, perfino*; la punteggiatura: virgola, due punti, punto e virgola, virgolette",
   "grammar": {
     "explain": [
+      "In italiano l'ordine delle parole è libero, ma non casuale: spostare una parola cambia quello che si vuole mettere in evidenza. E anche una virgola può cambiare il senso di una frase.",
       {
-        "h": "New information goes last"
-      },
-      "Italian word order is flexible. Normally what's already known comes first and what's new comes at the end. Moving a word changes what the sentence emphasises.",
-      {
-        "table": {
-          "head": [
-            "Question",
-            "Natural answer"
-          ],
-          "rows": [
-            [
-              "Che cosa {pp:ha fatto} Maria?",
-              "Maria {pp:ha telefonato}."
-            ],
-            [
-              "Chi {pp:ha telefonato}?",
-              "{pp:Ha telefonato} Maria."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Three ways of moving the focus"
-      },
-      {
-        "table": {
-          "head": [
-            "Name",
-            "How it works",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Cleft sentence",
-              "è + the focus + che",
-              "{ip:È} a Maria che {pp:ho telefonato}."
-            ],
-            [
-              "Moving to the front",
-              "topic first, pronoun repeats it",
-              "Il pane l'{pp:ho comprato} io."
-            ],
-            [
-              "Moving to the end",
-              "pronoun first, topic after it",
-              "L'{pp:ho comprato} io, il pane."
-            ]
-          ]
-        }
-      },
-      "In a cleft sentence, a preposition stays with the focus: *{ip:È} di questo che {im:volevo} parlarti*. When a direct object is moved in front of the verb, a pronoun must repeat it: *La pizza la {ip:prendo} io*. Without the pronoun, the sentence sounds wrong in everyday use.",
-      {
-        "h": "When is a comma needed?"
-      },
-      {
-        "table": {
-          "head": [
-            "Rule",
-            "Right",
-            "Wrong"
-          ],
-          "rows": [
-            [
-              "Never between subject and verb",
-              "Mia sorella {ip:abita} a Roma.",
-              "Mia sorella, {ip:abita} a Roma."
-            ],
-            [
-              "Never between verb and object",
-              "{pp:Ho comprato} il pane.",
-              "{pp:Ho comprato}, il pane."
-            ],
-            [
-              "Before ma, però, tuttavia",
-              "{ip:È} tardi, ma {ip:esco}.",
-              "{ip:È} tardi ma, {ip:esco}."
-            ],
-            [
-              "After a subordinate clause at the start",
-              "Se {ip:piove}, {ip:resto}.",
-              "Se {ip:piove} {ip:resto},"
-            ],
-            [
-              "Around extra information",
-              "Mio padre, che {ip:è} medico, {ip:lavora}.",
-              "Mio padre che {ip:è} medico, {ip:lavora}."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Relative clauses and commas"
-      },
-      "A comma changes the meaning. *I ragazzi, che {im:erano} stanchi, {pp:sono andati} a letto* means all the boys were tired. *I ragazzi che {im:erano} stanchi {pp:sono andati} a letto* means only some went: those who were tired.",
-      {
-        "h": "Colon and semicolon"
-      },
-      "A colon (:) introduces an explanation, a list or a quotation: *{pp:Ho capito} una cosa: non {ip:devo} arrendermi.* A semicolon (;) separates two independent but closely linked thoughts: *Lui {pp:è partito}; lei {pp:è rimasta}.*"
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Prima il noto, poi il nuovo",
+              "head": [
+                "domanda",
+                "risposta naturale",
+                "che cosa è nuovo"
+              ],
+              "rows": [
+                [
+                  "Che cosa {pp:ha fatto} Maria?",
+                  "Maria **{pp:ha telefonato}**.",
+                  "l'azione"
+                ],
+                [
+                  "Chi {pp:ha telefonato}?",
+                  "{pp:Ha telefonato} **Maria**.",
+                  "la persona"
+                ],
+                [
+                  "Che cosa {pp:è successo}?",
+                  "{pp:È arrivato} **il treno**.",
+                  "tutto"
+                ]
+              ]
+            },
+            "note": "Quello che si sa già va all'inizio, l'informazione nuova alla fine. Per questo il soggetto nuovo va spesso dopo il verbo: *{pp:Ha telefonato} tua madre. {ip:Arriva} l'autobus.*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La frase scissa",
+              "head": [
+                "forma",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "*è* + parola + *che*",
+                  "**{ip:È}** a Maria **che** {pp:ho telefonato}.",
+                  "la preposizione resta con la parola: *è a Maria*"
+                ],
+                [
+                  "*è* + soggetto + *a* + infinito",
+                  "**{pp:È stato}** Marco **a** rompere il vaso.",
+                  "solo con il soggetto"
+                ],
+                [
+                  "*sono* + plurale",
+                  "**{ip:Sono}** i ragazzi **che** {pp:hanno vinto}.",
+                  "*essere* si accorda"
+                ],
+                [
+                  "domanda",
+                  "**Chi {ip:è} che** {pp:ha chiamato}? **Cos'{ip:è} che** non {ip:va}?",
+                  "molto parlato"
+                ]
+              ]
+            },
+            "note": "La frase scissa dice: *proprio questo, e non un'altra cosa*. *{pp:È stato} Marco a rompere il vaso* = Marco, non io."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il tema all'inizio: un pronome lo ripete",
+              "head": [
+                "la parola spostata",
+                "il pronome",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "un oggetto",
+                  "*lo, la, li, le*",
+                  "**Il pane l'**{pp:ho comprato} io. **Le chiavi le** {ip:ha} Luca."
+                ],
+                [
+                  "*di* + una cosa, una quantità",
+                  "*ne*",
+                  "**Di soldi**, non **ne** {ip:ho}. **Di vino**, **ne** {ip:beve} troppo."
+                ],
+                [
+                  "un luogo, *a* + una cosa",
+                  "*ci*",
+                  "**A Roma ci** {ip:vado} domani. **A queste cose** non **ci** {ip:penso}."
+                ]
+              ]
+            },
+            "note": "Quando un oggetto va prima del verbo, il pronome che lo ripete è obbligatorio: ✓ *La pizza la {ip:prendo} io*, ✗ *La pizza prendo io*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il tema alla fine (parlato)",
+              "head": [
+                "frase",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "**Lo** {ip:vuoi}, **un caffè**?",
+                  "{ip:Vuoi} un caffè?"
+                ],
+                [
+                  "**Ce l'**{ip:hai}, **la patente**?",
+                  "{ip:Hai} la patente?"
+                ],
+                [
+                  "Non **ci** {ip:credo}, **a questa storia**.",
+                  "Non {ip:credo} a questa storia."
+                ]
+              ]
+            },
+            "note": "Nel parlato si dice prima il pronome e poi, dopo una virgola, la cosa di cui si parla. Nello scritto formale si preferisce l'ordine normale."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*Proprio, solo, perfino, anche*",
+              "head": [
+                "parola",
+                "esempio",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "*solo, soltanto*",
+                  "**Solo** Marco {pp:ha capito}. / Marco {pp:ha capito} **solo** la prima parte.",
+                  "nessun altro / niente di più"
+                ],
+                [
+                  "*perfino, persino*",
+                  "{pp:Ha riso} **perfino** il professore.",
+                  "anche chi non te lo aspetti"
+                ],
+                [
+                  "*proprio*",
+                  "{ip:È} **proprio** lui. {ip:Cercavo} **proprio** te!",
+                  "esattamente"
+                ],
+                [
+                  "*neanche, nemmeno*",
+                  "Non {pp:è venuto} **nemmeno** Luca.",
+                  "anche… non"
+                ]
+              ]
+            },
+            "note": "Queste parole vanno subito prima di quello a cui si riferiscono: *Solo Marco ha capito* non è la stessa cosa di *Marco ha capito solo questo*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "La punteggiatura",
+              "head": [
+                "segno",
+                "quando",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "la virgola ,",
+                  "mai tra soggetto e verbo; prima di *ma, però*; intorno a un inciso",
+                  "Mia sorella, che {ip:vive} a Roma, {ip:viene} domani."
+                ],
+                [
+                  "i due punti :",
+                  "una spiegazione, un elenco, una citazione",
+                  "{pp:Ho capito} una cosa: non {ip:devo} arrendermi."
+                ],
+                [
+                  "il punto e virgola ;",
+                  "due idee separate ma vicine",
+                  "Lui {pp:è partito}; lei {pp:è rimasta}."
+                ],
+                [
+                  "le virgolette « »",
+                  "le parole di qualcuno, un titolo",
+                  "{pp:Ha detto}: «{ip:Vengo} anch'io.»"
+                ]
+              ]
+            },
+            "note": "La virgola cambia il senso delle frasi relative: *I ragazzi, che {im:erano} stanchi, {pp:sono andati} a letto* (tutti erano stanchi); *I ragazzi che {im:erano} stanchi {pp:sono andati} a letto* (solo quelli stanchi)."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
-        "type": "write",
-        "prompt": "Rewrite each sentence as a cleft sentence that stresses the words in brackets.",
+        "type": "choice",
+        "prompt": "Qual {ip:è} la risposta più naturale?",
         "questions": [
           {
-            "q": "{pp:Ho telefonato} a Maria. (a Maria)",
-            "a": [
-              "È a Maria che ho telefonato."
+            "q": "Chi {pp:ha mangiato} la torta?",
+            "options": [
+              "*{pp:L'ha mangiata} Luca.",
+              "Luca {pp:ha mangiato} la torta.",
+              "La torta Luca {pp:ha mangiato}."
             ]
           },
           {
-            "q": "Luca {pp:ha rotto} il vaso. (Luca)",
-            "a": [
-              "È Luca che ha rotto il vaso.",
-              "È stato Luca a rompere il vaso."
+            "q": "Che cosa {pp:ha fatto} Luca?",
+            "options": [
+              "*Luca {pp:ha mangiato} la torta.",
+              "{pp:Ha mangiato} la torta Luca.",
+              "{pp:È stato} Luca."
             ]
           },
           {
-            "q": "{im:Volevo} parlarti di questo. (di questo)",
-            "a": [
-              "È di questo che volevo parlarti."
+            "q": "Chi {ip:arriva}?",
+            "options": [
+              "*{ip:Arriva} il direttore.",
+              "Il direttore {ip:arriva}.",
+              "{ip:Arriva}, il direttore."
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Add the pronoun that repeats the moved word.",
+        "prompt": "Metti in evidenza la parola sottolineata con la frase scissa.",
         "questions": [
-          "Il pane [[l']]{pp:ho comprato} io.",
-          "La pizza [[la]] {ip:prendo} io.",
-          "I libri [[li]] {ip:porto} domani.",
-          "[[L']]{pp:ho vista} ieri, Anna."
+          "{pp:Ho telefonato} **a Maria**. → {ip:È} [[a Maria]] che {pp:ho telefonato}.",
+          "**Marco** {pp:ha rotto} il vaso. → {pp:È stato} Marco [[a]] rompere il vaso.",
+          "{ip:Penso} **a te**. → {ip:È} [[a te]] che {ip:penso}.",
+          "**I ragazzi** {pp:hanno vinto}. → [[Sono]] i ragazzi che {pp:hanno vinto}.",
+          "{ip:Parliamo} **di questo**. → {ip:È} [[di questo]] che {ip:parliamo}."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Sposta il tema all'inizio e aggiungi il pronome.",
+        "questions": [
+          "{pp:Ho comprato} io il pane. → Il pane [[l'ho comprato|lo ho comprato]] io.",
+          "{ip:Prendo} io la pizza. → La pizza [[la prendo]] io.",
+          "Non {ip:ho} soldi. → Di soldi, non [[ne ho]].",
+          "{ip:Vado} a Roma domani. → A Roma [[ci vado]] domani.",
+          "{ip:Ha} Luca le chiavi. → Le chiavi [[le ha]] Luca."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Which sentence is punctuated correctly?",
+        "prompt": "Dove va *solo*? Scegli la frase con il significato giusto.",
         "questions": [
           {
-            "q": "Choose one.",
+            "q": "Nessun altro {pp:ha capito}, solo Marco.",
             "options": [
-              "Mia sorella, {ip:abita} a Roma.",
-              "*Mia sorella {ip:abita} a Roma."
+              "*Solo Marco {pp:ha capito}.",
+              "Marco {pp:ha} solo {pp:capito}."
             ]
           },
           {
-            "q": "Choose one.",
+            "q": "Marco non {pp:ha capito} tutto, ma una parte.",
             "options": [
-              "*Se {ip:piove}, {ip:restiamo} a casa.",
-              "Se {ip:piove} {ip:restiamo}, a casa."
+              "*Marco {pp:ha capito} solo una parte.",
+              "Solo Marco {pp:ha capito} una parte."
             ]
           },
           {
-            "q": "Choose one.",
+            "q": "Anche lui, che di solito non {ip:ride} mai.",
             "options": [
-              "{pp:Ho comprato}, il pane e il latte.",
-              "*{pp:Ho comprato} il pane e il latte."
-            ]
-          },
-          {
-            "q": "Choose one.",
-            "options": [
-              "*{pp:Ho capito} una cosa: non {ip:devo} arrendermi.",
-              "{pp:Ho capito}: una cosa non {ip:devo} arrendermi."
-            ]
-          },
-          {
-            "q": "«I ragazzi che {im:erano} stanchi {pp:sono andati} a letto.» means…",
-            "options": [
-              "all the boys were tired",
-              "*only the tired boys went to bed"
+              "*{pp:Ha riso} perfino il professore.",
+              "Perfino {pp:ha riso} il professore."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Con o senza virgola? Scegli la frase che {ip:dice} quello tra parentesi.",
+        "questions": [
+          {
+            "q": "(Tutti gli studenti {im:erano} stanchi.)",
+            "options": [
+              "*Gli studenti, che {im:erano} stanchi, {pp:sono usciti}.",
+              "Gli studenti che {im:erano} stanchi {pp:sono usciti}."
+            ]
+          },
+          {
+            "q": "(Solo alcuni studenti {im:erano} stanchi.)",
+            "options": [
+              "*Gli studenti che {im:erano} stanchi {pp:sono usciti}.",
+              "Gli studenti, che {im:erano} stanchi, {pp:sono usciti}."
+            ]
+          },
+          {
+            "q": "(Una frase giusta.)",
+            "options": [
+              "*Mia sorella {ip:abita} a Roma.",
+              "Mia sorella, {ip:abita} a Roma."
+            ]
+          },
+          {
+            "q": "(Una frase giusta.)",
+            "options": [
+              "*{ip:È} tardi, ma {ip:resto}.",
+              "{ip:È} tardi ma, {ip:resto}."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni segno al suo uso.",
+        "pairs": [
+          [
+            "i due punti",
+            "introducono una spiegazione o un elenco"
+          ],
+          [
+            "il punto e virgola",
+            "separa due idee vicine"
+          ],
+          [
+            "le virgolette",
+            "riportano le parole di qualcuno"
+          ],
+          [
+            "la virgola",
+            "separa un inciso dal resto della frase"
+          ]
         ]
       }
     ]
@@ -189,134 +339,252 @@
     "words": [
       [
         "l'argomento",
-        "topic"
+        "la cosa di cui si parla o si scrive"
       ],
       [
         "il punto di vista",
-        "point of view"
+        "il modo di vedere una questione"
       ],
       [
-        "la frase",
-        "sentence"
-      ],
-      [
-        "la virgola",
-        "comma"
-      ],
-      [
-        "il punto",
-        "full stop"
-      ],
-      [
-        "i due punti",
-        "colon"
-      ],
-      [
-        "il punto e virgola",
-        "semicolon"
+        "l'equivoco",
+        "un errore di comprensione tra due persone"
       ],
       [
         "il tono",
-        "tone"
+        "il modo di dire una cosa: gentile, arrabbiato, ironico"
+      ],
+      [
+        "la frase",
+        "un gruppo di parole con un senso compiuto"
+      ],
+      [
+        "la virgola",
+        "il segno , che separa le parti di una frase"
+      ],
+      [
+        "il punto",
+        "il segno . alla fine di una frase"
+      ],
+      [
+        "i due punti",
+        "il segno : prima di una spiegazione o di un elenco"
+      ],
+      [
+        "il punto e virgola",
+        "il segno ; tra due idee vicine"
+      ],
+      [
+        "le virgolette",
+        "i segni « » intorno alle parole di qualcuno"
+      ],
+      [
+        "l'inciso",
+        "una parte di frase aggiunta, tra due virgole"
       ],
       [
         "sottolineare",
-        "to underline"
+        "mettere in evidenza, dare importanza"
       ],
       [
         "mettere in evidenza",
-        "to highlight"
+        "far notare, mettere in primo piano"
       ],
       [
-        "riassumere",
-        "to summarise"
+        "fraintendere",
+        "capire male"
       ],
       [
         "chiarire",
-        "to clarify"
+        "rendere chiaro, spiegare meglio"
+      ],
+      [
+        "riassumere",
+        "dire in poche parole le cose principali"
+      ],
+      [
+        "ribattere",
+        "rispondere a qualcuno che non è d'accordo"
+      ],
+      [
+        "perfino",
+        "anche (quando non te lo aspetti)"
+      ],
+      [
+        "proprio",
+        "esattamente, davvero"
+      ],
+      [
+        "nemmeno",
+        "neanche, anche… non"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
-            "l'argomento",
-            "topic"
-          ],
-          [
-            "la virgola",
-            "comma"
-          ],
-          [
-            "i due punti",
-            "colon"
-          ],
-          [
-            "il punto e virgola",
-            "semicolon"
+            "l'inciso",
+            "una parte di frase aggiunta, tra due virgole"
           ],
           [
             "sottolineare",
-            "to underline"
+            "mettere in evidenza, dare importanza"
           ],
           [
             "riassumere",
-            "to summarise"
+            "dire in poche parole le cose principali"
+          ],
+          [
+            "ribattere",
+            "rispondere a qualcuno che non è d'accordo"
+          ],
+          [
+            "il tono",
+            "il modo di dire una cosa: gentile, arrabbiato, ironico"
+          ],
+          [
+            "perfino",
+            "anche (quando non te lo aspetti)"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Questa [[frase]] {ip:è} troppo lunga. (sentence)",
-          "{cop:Vorrei} [[chiarire]] un punto. (to clarify)",
-          "Dal mio [[punto]] di vista, {ip:hai} ragione. (point)",
-          "Non mi {ip:piace} il [[tono]] di questa lettera. (tone)"
+          {
+            "q": "Dal mio punto di ___, {ip:hai} ragione tu.",
+            "options": [
+              "*vista",
+              "virgola",
+              "tono"
+            ]
+          },
+          {
+            "q": "Non {ip:è} quello che {pp:ho detto}: mi {pp:hai} ___!",
+            "options": [
+              "*frainteso",
+              "riassunto",
+              "sottolineato"
+            ]
+          },
+          {
+            "q": "Prima di un elenco si {ip:mettono} i ___.",
+            "options": [
+              "*due punti",
+              "punti e virgola",
+              "toni"
+            ]
+          },
+          {
+            "q": "{ip:Cambiamo} ___: {ip:parliamo} d'altro.",
+            "options": [
+              "*argomento",
+              "inciso",
+              "punto"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{imv:Scusa}, {cop:potresti} [[chiarire]] cosa {ip:intendi}?",
+          "Non {pp:è venuto} [[nemmeno|neanche]] Luca, che {ip:viene} sempre.",
+          "{ip:Cercavo} [[proprio]] te!",
+          "Le parole di qualcuno si {ip:scrivono} tra [[virgolette]].",
+          "Il suo [[tono]] {im:era} così ironico che nessuno {pp:ha capito} se {csi:scherzasse}."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Una virgola {ip:può} cambiare tutto. Si {ip:racconta} di un re che {im:doveva} decidere la sorte di un prigioniero e che {pr:scrisse}: «Grazia impossibile, mandare in Siberia.» Il ministro, che {im:era} un uomo buono, {pr:spostò} la virgola: «Grazia, impossibile mandare in Siberia.» Il prigioniero {pr:fu liberato}.",
-      "{ip:È} proprio questo che molti studenti non {ip:capiscono}: la punteggiatura non {ip:è} un dettaglio. Le virgole, le insegnanti le {ip:spiegano} per anni, eppure gli errori {ip:restano}. Non si {ip:separa} mai il soggetto dal verbo; si {ip:usano} i due punti per spiegare. Una regola, questa, che {ip:vale} la pena ricordare."
+      {
+        "h": "Una virgola salva la nonna"
+      },
+      "«Andiamo a mangiare nonna!» Senza la virgola, questa frase {ip:fa} paura: {ip:sembra} che qualcuno {csp:voglia} mangiare la nonna. Con la virgola, invece, {ip:è} solo un invito a tavola: «Andiamo a mangiare, nonna!»",
+      "{ip:È} proprio con esempi come questo che molti insegnanti {ip:spiegano} la punteggiatura. La virgola, infatti, non {ip:è} un dettaglio: {ip:cambia} il senso delle frasi. «I ragazzi, che {im:erano} stanchi, {pp:sono andati} a casa» non {ip:dice} la stessa cosa di «I ragazzi che {im:erano} stanchi {pp:sono andati} a casa»: nella prima frase tutti {im:erano} stanchi, nella seconda solo alcuni.",
+      "Oggi, con i messaggi sul telefono, la punteggiatura la {ip:usiamo} sempre meno. Eppure {ip:è} proprio nei messaggi che {ip:nascono} i malintesi più comici. Un'amica mi {pp:ha scritto}: «Ok grazie». Io {pp:ho pensato} che {csi:fosse} arrabbiata; lei, invece, {im:era} solo di fretta.",
+      "Perfino i grandi scrittori ci {pp:hanno pensato} a lungo. Le virgole, Alessandro Manzoni le {pp:ha cambiate} centinaia di volte, da un'edizione all'altra dei «Promessi sposi». Forse {ip:aveva} ragione lui: scrivere bene {ip:vuol} dire anche sapere dove fermarsi."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The minister changed the position of a comma.",
+            "q": "Perché «Andiamo a mangiare nonna!» {ip:fa} paura?",
             "options": [
-              "*True",
-              "False"
+              "*Sembra che qualcuno {csp:voglia} mangiare la nonna.",
+              "La nonna non {ip:vuole} mangiare.",
+              "Non c'{ip:è} niente da mangiare."
             ]
           },
           {
-            "q": "Thanks to this, the prisoner was sent to Siberia.",
+            "q": "Che cosa {ip:significa} «I ragazzi che {im:erano} stanchi {pp:sono andati} a casa»?",
             "options": [
-              "True",
-              "*False"
+              "*Solo alcuni ragazzi {im:erano} stanchi.",
+              "Tutti i ragazzi {im:erano} stanchi.",
+              "Nessuno {im:era} stanco."
             ]
           },
           {
-            "q": "The text says punctuation is a minor detail.",
+            "q": "Perché l'autrice {pp:ha pensato} che l'amica {csi:fosse} arrabbiata?",
             "options": [
-              "True",
-              "*False"
+              "*Per il messaggio breve e senza punteggiatura.",
+              "Perché non {pp:ha risposto}.",
+              "Perché {pp:ha scritto} in maiuscolo."
             ]
           },
           {
-            "q": "The sentence «Le virgole, le insegnanti le spiegano» moves the object to the front.",
+            "q": "Che cosa {pp:ha fatto} Manzoni?",
             "options": [
-              "*True",
-              "False"
+              "*{pp:Ha cambiato} molte volte le virgole del suo romanzo.",
+              "{pp:Ha scritto} un libro sulla punteggiatura.",
+              "Non {pp:ha mai usato} le virgole."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Secondo il testo la virgola {ip:è} solo un dettaglio.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Nei messaggi sul telefono {ip:usiamo} meno punteggiatura.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'amica {im:era} davvero arrabbiata.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le frasi che mettono in evidenza una parola.",
+        "questions": [
+          "{ip:È} proprio con esempi come questo [[che]] molti insegnanti {ip:spiegano} la punteggiatura.",
+          "La punteggiatura [[la]] {ip:usiamo} sempre meno.",
+          "{ip:È} proprio nei messaggi [[che]] {ip:nascono} i malintesi più comici.",
+          "Le virgole, Alessandro Manzoni [[le]] {pp:ha cambiate} centinaia di volte.",
+          "[[Perfino]] i grandi scrittori ci {pp:hanno pensato} a lungo."
         ]
       }
     ]
@@ -324,51 +592,68 @@
   "listening": {
     "transcript": [
       [
-        "Paola",
-        "Chi {pp:ha telefonato} alla direttrice? {pp:Sei stato} tu?"
+        "Mamma",
+        "Chi {ip:è} che {pp:ha mangiato} la torta? Ne {ip:è} rimasta solo una fetta!"
       ],
       [
-        "Enzo",
-        "No, {ip:è} Giulia che le {pp:ha telefonato}."
+        "Luca",
+        "Non {pp:sono stato} io! {pp:È stata} Sofia a mangiarla."
       ],
       [
-        "Paola",
-        "Ma il contratto, l'{pp:hai firmato}?"
+        "Sofia",
+        "Io? Io {pp:ho mangiato} solo un pezzettino. {ip:È} il cane che {pp:ha fatto} il resto!"
       ],
       [
-        "Enzo",
-        "Il contratto l'{pp:ho firmato} ieri. Il problema {ip:è} un altro."
+        "Mamma",
+        "Il cane? E le briciole sul tuo letto, Luca, chi ce le {pp:ha messe}?"
       ],
       [
-        "Paola",
-        "Cioè?"
+        "Luca",
+        "Va bene, va bene… {ip:È} vero, un pezzo l'{pp:ho mangiato} anch'io."
       ],
       [
-        "Enzo",
-        "{ip:È} di soldi che {ip:dobbiamo} parlare."
+        "Mamma",
+        "La prossima torta la {ip:nascondo}. E perfino il cane {fs:resterà} senza!"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "No, {ip:è} Giulia [[che]] le {pp:ha telefonato}.",
-          "Ma il contratto, [[l']]{pp:hai firmato}?",
-          "Il contratto [[l']]{pp:ho firmato} ieri.",
-          "{ip:È} [[di]] soldi che {ip:dobbiamo} parlare."
+          "Chi {ip:è} [[che]] {pp:ha mangiato} la torta?",
+          "{pp:È stata} Sofia [[a]] mangiarla.",
+          "{ip:È} il cane [[che]] {pp:ha fatto} il resto!",
+          "Un pezzo [[l']]{pp:ho mangiato} anch'io.",
+          "La prossima torta [[la]] {ip:nascondo}."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does Enzo really want to discuss?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "He wants to talk about…",
+            "q": "Quanta torta {ip:è} rimasta?",
             "options": [
-              "the director",
-              "the contract",
-              "*money"
+              "*una fetta",
+              "metà",
+              "niente"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:trova} la mamma sul letto di Luca?",
+            "options": [
+              "*le briciole",
+              "il cane",
+              "la torta"
+            ]
+          },
+          {
+            "q": "Alla fine Luca…",
+            "options": [
+              "*{ip:ammette} di averne mangiato un pezzo",
+              "{ip:dice} che {pp:è stato} il cane",
+              "non {ip:dice} niente"
             ]
           }
         ]
@@ -379,40 +664,391 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi mettendo in evidenza le parole importanti.",
+        "open": true,
         "questions": [
           {
-            "q": "It was Maria I phoned.",
+            "q": "Chi {ip:è} la persona a cui {ip:telefoni} più spesso? (*È a… che telefono più spesso.*)"
+          },
+          {
+            "q": "Che cosa {ip:fai} con i tuoi soldi? (*I soldi li…*)"
+          },
+          {
+            "q": "Ti {ip:è} mai capitato un malinteso per un messaggio scritto male? Racconta."
+          },
+          {
+            "q": "Che cosa {ip:è} che proprio non {ip:sopporti}?"
+          },
+          {
+            "q": "C'{ip:è} qualcosa che {ip:sai} fare solo tu nella tua famiglia?"
+          },
+          {
+            "q": "Nella tua lingua la punteggiatura {ip:è} simile a quella italiana? Che differenze {ip:noti}?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Chi è stato?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un vaso rotto per terra e un gatto che scappa",
+          "B — Una ragazza che telefona sorridendo",
+          "C — Un tavolo con una sola fetta di torta e tante briciole",
+          "D — Un uomo che mostra le chiavi della macchina"
+        ],
+        "pairs": [
+          [
+            "{pp:È stato} il gatto a rompere il vaso.",
+            "immagine A"
+          ],
+          [
+            "{ip:È} a sua madre che {ip:telefona}.",
+            "immagine B"
+          ],
+          [
+            "La torta l'{pp:hanno mangiata} quasi tutta.",
+            "immagine C"
+          ],
+          [
+            "Le chiavi le {ip:ha} lui.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Rispondi con la frase scissa.",
+        "questions": [
+          "Chi {pp:ha rotto} il vaso? (il gatto) → {pp:È stato} il gatto [[a]] rompere il vaso.",
+          "A chi {pp:hai scritto}? (a Giulia) → {ip:È} [[a Giulia]] che {pp:ho scritto}.",
+          "Di che cosa {ip:parlate}? (del viaggio) → {ip:È} [[del viaggio]] che {ip:parliamo}.",
+          "Chi {pp:ha vinto}? (i ragazzi) → [[Sono]] i ragazzi che {pp:hanno vinto}."
+        ]
+      },
+      {
+        "h": "Lo vuoi, un caffè?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il pronome giusto: *lo, la, li, le, ne, ci*.",
+        "questions": [
+          "Il caffè [[lo]] {ip:prendo} amaro.",
+          "Le lettere [[le]] {pp:ho spedite} ieri.",
+          "{ip:Ha} poca pazienza. → Di pazienza, [[ne]] {ip:ha} poca.",
+          "In montagna [[ci]] {ip:andiamo} ogni estate.",
+          "[[Lo]] {ip:vuoi}, un gelato?"
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi tre frasi vere per te con il tema all'inizio. (*Il caffè lo bevo…, Di sport ne faccio…, In Italia ci vado…*)",
+        "open": true,
+        "questions": [
+          {
+            "q": "Il… lo…"
+          }
+        ]
+      },
+      {
+        "h": "Solo, perfino, proprio"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
+        "questions": [
+          {
+            "q": "{pp:Hanno ballato} tutti, ___ il nonno di novant'anni!",
+            "options": [
+              "*perfino",
+              "solo",
+              "nemmeno"
+            ]
+          },
+          {
+            "q": "Non {pp:è venuto} nessuno, ___ i suoi amici.",
+            "options": [
+              "*nemmeno",
+              "perfino",
+              "proprio"
+            ]
+          },
+          {
+            "q": "{ip:È} ___ la persona che {im:cercavo}!",
+            "options": [
+              "*proprio",
+              "nemmeno",
+              "perfino"
+            ]
+          },
+          {
+            "q": "{ip:Ho} ___ dieci euro: non {ip:basta} per la cena.",
+            "options": [
+              "*solo",
+              "perfino",
+              "proprio"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "La virgola"
+      },
+      {
+        "text": [
+          "**Quattro regole d'oro.** 1) Mai la virgola tra il soggetto e il verbo. 2) Mai tra il verbo e il suo oggetto. 3) Sempre prima di *ma, però, tuttavia*. 4) Due virgole intorno a un inciso: *Roma, la capitale, è bellissima.*"
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale frase {ip:è} scritta bene?",
+        "questions": [
+          {
+            "q": "Scegli.",
+            "options": [
+              "*Mio fratello {ip:lavora} a Milano.",
+              "Mio fratello, {ip:lavora} a Milano."
+            ]
+          },
+          {
+            "q": "Scegli.",
+            "options": [
+              "*{ip:Volevo} venire, ma non {ip:potevo}.",
+              "{ip:Volevo} venire ma, non {ip:potevo}."
+            ]
+          },
+          {
+            "q": "Scegli.",
+            "options": [
+              "*Firenze, la città di Dante, {ip:è} in Toscana.",
+              "Firenze, la città di Dante {ip:è} in Toscana."
+            ]
+          },
+          {
+            "q": "Scegli.",
+            "options": [
+              "*{pp:Ho comprato} il pane e il latte.",
+              "{pp:Ho comprato}, il pane e il latte."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Metti il segno giusto: *: ; « »*.",
+        "questions": [
+          "{pp:Ho capito} una cosa[[:]] non {ip:devo} arrendermi.",
+          "Lui {pp:è partito}[[;]] lei {pp:è rimasta} a casa.",
+          "Mi {pp:ha detto}: [[«]]{ip:Vengo} anch'io.»",
+          "Al mercato {pp:ho comprato} tre cose[[:]] pane, frutta e formaggio."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "La pizza prendo io.",
+            "a": [
+              "La pizza la prendo io."
+            ]
+          },
+          {
+            "q": "È stato Marco che rompere il vaso.",
+            "a": [
+              "È stato Marco a rompere il vaso.",
+              "È stato Marco che ha rotto il vaso."
+            ]
+          },
+          {
+            "q": "Mia sorella, abita a Roma.",
+            "a": [
+              "Mia sorella abita a Roma."
+            ]
+          },
+          {
+            "q": "È Maria che ho telefonato.",
             "a": [
               "È a Maria che ho telefonato."
             ]
           },
           {
-            "q": "The bread, I bought it. (move the bread to the front)",
+            "q": "Le chiavi ha Luca.",
             "a": [
-              "Il pane l'ho comprato io.",
-              "Il pane l'ho comprato."
-            ]
-          },
-          {
-            "q": "It's about this that I wanted to talk to you. (informal)",
-            "a": [
-              "È di questo che volevo parlarti."
-            ]
-          },
-          {
-            "q": "Luca phoned. (stress who phoned, verb first)",
-            "a": [
-              "Ha telefonato Luca."
-            ]
-          },
-          {
-            "q": "I understood one thing: I must not give up.",
-            "a": [
-              "Ho capito una cosa: non devo arrendermi."
+              "Le chiavi le ha Luca."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "a Maria / ho telefonato / che / è",
+            "a": [
+              "È a Maria che ho telefonato."
+            ]
+          },
+          {
+            "q": "il pane / io / l'ho comprato",
+            "a": [
+              "Il pane l'ho comprato io."
+            ]
+          },
+          {
+            "q": "è stato / il vaso / Marco / a rompere",
+            "a": [
+              "È stato Marco a rompere il vaso."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "La frase scissa comincia spesso con *È*: si scrive con l'accento, anche in maiuscolo. ✗ *E' stato lui*, ✓ *È stato lui*. Sulla tastiera italiana la *È* si trova con il tasto delle maiuscole sulla *è*; sul telefono, tenendo premuta la *E*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "___ stato Marco a rompere il vaso.",
+            "options": [
+              "*È",
+              "E'",
+              "É"
+            ]
+          },
+          {
+            "q": "___ a te che penso.",
+            "options": [
+              "*È",
+              "E'",
+              "E"
+            ]
+          },
+          {
+            "q": "Marco ___ Luca sono fratelli.",
+            "options": [
+              "*e",
+              "è",
+              "è'"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So mettere l'informazione nuova alla fine: *Ha telefonato Maria.*",
+          "So usare la frase scissa: *È a Maria che ho telefonato, È stato Marco a…*",
+          "So spostare il tema all'inizio con il pronome: *Il pane l'ho comprato io.*",
+          "So usare *solo, perfino, proprio, nemmeno* al posto giusto.",
+          "So usare la virgola, i due punti, il punto e virgola e le virgolette.",
+          "So capire come una virgola cambia il senso di una frase."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Un vecchio libro aperto, con molte correzioni a penna nei margini; dietro, il fiume Arno a Firenze"
+      },
+      {
+        "text": [
+          "**Manzoni e i panni in Arno**",
+          "Alessandro Manzoni {pr:pubblicò} «I promessi sposi» per la prima volta nel 1827. Il romanzo {pr:ebbe} subito molto successo, eppure lui non {im:era} contento: la lingua del libro {im:era} piena di parole lombarde e di forme dei libri antichi, e non {im:era} la lingua che {im:parlavano} gli italiani.",
+          "{pr:Decise} quindi di andare a Firenze, perché {im:era} il fiorentino colto, secondo lui, la lingua che {cpa:avrebbe potuto} unire gli italiani. Lui stesso {pr:disse} che {im:andava} a «risciacquare i panni in Arno», cioè a lavare la sua lingua nel fiume di Firenze.",
+          "Per più di dieci anni {pr:riscrisse} il romanzo parola per parola, virgola per virgola. La nuova edizione {pr:uscì} tra il 1840 e il 1842. {ip:È} questa la versione che ancora oggi {ip:leggono} gli studenti italiani a scuola, ed {ip:è} anche grazie a lei che l'italiano moderno {ip:è} quello che {ip:conosciamo}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "La prima edizione {ip:è} del 1827.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Manzoni {im:era} contento della lingua della prima edizione.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "«Risciacquare i panni in Arno» {ip:vuol} dire lavare i vestiti a Firenze.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Oggi a scuola si {ip:legge} l'edizione del 1840–1842.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le frasi che mettono in evidenza una parola.",
+        "questions": [
+          "{ip:È} questa la versione [[che]] ancora oggi {ip:leggono} gli studenti.",
+          "{ip:È} anche grazie a lei [[che]] l'italiano moderno {ip:è} quello che {ip:conosciamo}."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "C'{ip:è} un libro o uno scrittore che {pp:ha cambiato} la lingua del tuo paese? Racconta.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta un malinteso nato da un messaggio, da una parola o da una virgola.",
+        "cues": [
+          "Chi {pp:ha scritto} che cosa? (Riporta il messaggio tra virgolette.)",
+          "Che cosa {pp:hai capito} tu? Che cosa {im:voleva} dire davvero?",
+          "Metti in evidenza le parole importanti (*È stato… a…, È proprio… che…*).",
+          "Com'{pp:è finita}? (*Insomma…*)"
+        ],
+        "start": "",
+        "model": "La settimana scorsa il mio capo mi ha scritto: «Domani riunione alle nove non tardare». Io ho pensato che fosse arrabbiato con me, perché il giorno prima ero arrivata tardi.\nHo passato la sera a preparare una lunga spiegazione. La mattina dopo, alla riunione, ho scoperto che non era affatto arrabbiato: il messaggio l'aveva scritto di fretta, dal treno, e lo stesso messaggio l'avevano ricevuto tutti i colleghi.\nÈ stato proprio quel messaggio senza virgole a farmi passare una notte agitata. Insomma, da quel giorno, i messaggi importanti li rileggo due volte, prima di preoccuparmi."
       }
     ]
   }

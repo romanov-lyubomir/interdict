@@ -142,10 +142,69 @@ left). In the lesson file it is `"italy": {"text": [...], "exercises": [...]}`
 time; so far A2/3 (scams with bracelets and signatures) and A2/6 (tourist
 traps: gelato, people calling you in, restaurants by the monuments) and
 A2/9 (smaller places: Comacchio instead of Venice, Lucca and Certaldo in
-Tuscany, told with comparatives).
+Tuscany, told with comparatives) and B2/1 (Giovanni Falcone, the
+maxiprocesso and Capaci, and how Italians answered: Libera, Addiopizzo and
+its stickers for travellers; told with the *passato remoto*).
 
 - Tie each text to the lesson's topic and write it with the grammar the
   learner already has at that point (A2/3 comes before the imperative, so it
   uses *dovete* + infinitive and *è meglio*; A2/6 uses the imperative).
 - Describe what scammers do, not who they are.
+- On the mafia: respectful, never romantic, and never "Italy = mafia"; show
+  the Italians who fight it. Only checked facts. The famous photo of Falcone
+  and Borsellino laughing is by Tony Gentile and under copyright: keep the
+  picture frame unless the user gets permission.
 - Add the new words to the glossary, like any lesson text.
+
+The options of a match exercise are a drop-down list, which can't show
+markup: the page shows them through `visible_text` (`grammar_lessons.py`),
+while each option's value stays the text as written, so checking and saved
+answers are unchanged.
+
+## Georgian
+
+Georgian (`georgian`, flag `ge`) has its alphabet lessons
+(`data/georgian/lessons/a1/01–05.json`, marked `"alphabet": true`), the
+first A1 lessons (06–08: greetings and *to be*, the family and numbers, the
+café), all with an English interface, and, since 2026-11-14, the other parts
+of the site: vocabulary (4 topics, no audio, the shared pictures where they
+fit), 4 stories (A1–A2 only, at the user's choice: write higher levels only
+when asked), the conjugation drill (16 verbs, present, future and aorist, by
+subject person; the aorist shows the ergative მან / მათ, see
+`FORM_PERSON_LABELS` in `conjugation.py`) and a cheat sheet of the main
+screeves with short articles. Only the search is still off (`"features"` in
+`LANGUAGES`, `FEATURES`, `FEATURE_ENDPOINTS`, `hide_missing_features`).
+
+- The lessons use two blocks made for a new alphabet (`explain.html`,
+  `static/letters.js`): `{"letters": [...]}`, tiles that show a letter's
+  sound and an example word when tapped, with a "hide the sounds" self-test,
+  and `{"flash": [[word, reading, meaning], …]}`, words to read that show how
+  they are read when tapped. Neither is saved.
+- `"keys"` on a lesson or an exercise replaces the Italian accent buttons
+  above gap and writing exercises (the Georgian letters learnt so far);
+  `"keys": ""` shows none.
+- Readings in Latin letters mark the tight (ejective) sounds with an
+  apostrophe (*k'at'a*); answers are also accepted without it.
+- A lesson can leave out parts other than the explanation (`load_lesson` in
+  `grammar_lessons.py`): the Georgian ones have no listening.
+- The scratchpad script that wrote them is not kept; edit the JSON directly.
+- Georgian script setting: in the settings (Settings for guests, Profile and
+  settings for signed-in users) a learner picks Georgian letters or Latin
+  letters (`get_script`, `User.script`, `session["script"]` in `main.py`).
+  Latin hides the alphabet lessons and transliterates everything else when
+  the page is made (`grammar_lessons.latin_lessons`, `to_latin`); the other
+  lessons are then shown counted from 1 (`"shown"`), but keep their real
+  numbers in links and saved progress. Answers are also accepted without the
+  apostrophes. Every other page and JSON answer is transliterated when it is
+  sent (`georgian_in_latin` in `main.py`), and the drills accept Latin answers
+  (`latin_answers`); only what is wrapped in `<!--keep-script-->…
+  <!--/keep-script-->` stays in Georgian (the sample in the setting). So write Georgian lessons only in Georgian letters, and write
+  every Georgian word in an English sentence in *italics* (in Latin letters
+  *is* would otherwise read as English).
+- In Georgian letters the drills show buttons with the 33 letters under the
+  answer box (`templates/letter_keys.html`), like the keys of the lessons.
+- Georgian letters use Droid Sans Georgian (`static/fonts/`, Apache 2.0:
+  keep `droid-sans-georgian-LICENSE.txt` with it). Its `@font-face` in
+  `base.html` covers only the Georgian letters (`unicode-range`); everything
+  else, digits and punctuation included, stays Bahnschrift, as the user
+  asked. Don't give `[lang="ka"]` a font of its own.

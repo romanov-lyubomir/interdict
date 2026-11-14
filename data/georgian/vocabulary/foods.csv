@@ -1,0 +1,30 @@
+Georgian,English,word_id,img
+საუზმე,breakfast,1,breakfast.webp
+სადილი,"lunch, the main meal",2,lunch.webp
+ვახშამი,"dinner, supper",3,dinner.webp
+პური,bread,4,bread.webp
+ყველი,cheese,5,None
+კვერცხი,egg,6,None
+კარაქი,butter,7,butter.webp
+თაფლი,honey,8,honey.webp
+მაწონი,matsoni (Georgian yogurt),9,None
+ხორცი,meat,10,None
+ქათამი,chicken,11,None
+თევზი,fish,12,None
+ბრინჯი,rice,13,None
+კარტოფილი,potato,14,None
+პომიდორი,tomato,15,None
+კიტრი,cucumber,16,None
+ხახვი,onion,17,None
+ნიორი,garlic,18,None
+ლობიო,beans,19,None
+სალათი,salad,20,None
+სუპი,soup,21,None
+მარილი,salt,22,salt.webp
+შაქარი,sugar,23,sugar.webp
+ნიგოზი,walnut,24,None
+ნამცხვარი,cake,25,None
+ხაჭაპური,khachapuri (cheese bread),26,None
+ხინკალი,khinkali (dumplings),27,None
+მწვადი,mtsvadi (grilled meat),28,None
+ჩურჩხელა,churchkhela (walnuts in grape juice),29,None

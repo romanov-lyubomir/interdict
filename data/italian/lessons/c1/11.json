@@ -1,148 +1,255 @@
 {
-  "title": "{ip:Dipende} da te: non rinunciare a insistere",
-  "translation": "It's up to you: don't give up insisting",
-  "topics": "Choosing prepositions, verbs and adjectives with fixed constructions",
+  "title": "{ip:Dipende} da te: non {imv:rinunciare} a insistere",
+  "translation": "",
+  "topics": "Le costruzioni dei verbi: verbi e preposizioni, *a, di* o niente davanti all'infinito, lo stesso verbo con due costruzioni (*pensare a / di, credere a / in, tenere a / per*), verbi con e senza preposizione, aggettivi e nomi con la preposizione, costruzioni che ingannano (*si tratta di, fare a meno di*); imparare le lingue e cambiare paese",
   "grammar": {
     "explain": [
+      "Quale preposizione vuole un verbo? Spesso non c'è una logica: *dipendere da*, *insistere su*, *rinunciare a*. A questo livello conviene imparare ogni verbo, aggettivo e nome insieme alla sua costruzione, come una sola parola, e conoscere i casi in cui l'italiano funziona diversamente dalle altre lingue.",
       {
-        "h": "Learn the verb together with its preposition"
-      },
-      "The preposition often can't be deduced by logic, so a verb and its preposition should be treated as one item. Grouping them by preposition makes them easier to remember.",
-      {
-        "table": {
-          "head": [
-            "Preposition",
-            "Verbs"
-          ],
-          "rows": [
-            [
-              "a",
-              "contribuire a, rinunciare a, tendere a, abituarsi a, riferirsi a, servire a"
-            ],
-            [
-              "di",
-              "accorgersi di, occuparsi di, fidarsi di, trattarsi di, vergognarsi di, dubitare di"
-            ],
-            [
-              "da",
-              "dipendere da, derivare da, provenire da, astenersi da, guardarsi da"
-            ],
-            [
-              "su",
-              "insistere su, basarsi su, contare su, riflettere su, soffermarsi su"
-            ],
-            [
-              "in",
-              "consistere in, credere in, specializzarsi in, sfociare in"
-            ],
-            [
-              "con",
-              "confrontarsi con, scontrarsi con, congratularsi con"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Before an infinitive"
-      },
-      "A verb also decides how an infinitive is linked to it.",
-      {
-        "table": {
-          "head": [
-            "Link",
-            "Verbs",
-            "Example"
-          ],
-          "rows": [
-            [
-              "a",
-              "cominciare, riuscire, convincere, costringere, continuare",
-              "L'{pp:ho convinto} a restare."
-            ],
-            [
-              "di",
-              "decidere, smettere, finire, rischiare, cercare, permettere",
-              "{pp:Ha smesso} di fumare."
-            ],
-            [
-              "nothing",
-              "potere, volere, dovere, sapere, preferire, bisognare",
-              "{ip:Preferisco} restare."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "One verb, two prepositions, two meanings"
-      },
-      {
-        "table": {
-          "head": [
-            "Verb",
-            "First meaning",
-            "Second meaning"
-          ],
-          "rows": [
-            [
-              "pensare",
-              "pensare a: have in mind",
-              "pensare di: have an opinion, or to intend"
-            ],
-            [
-              "credere",
-              "credere a: believe what's said",
-              "credere in: have faith in"
-            ],
-            [
-              "finire",
-              "finire di: stop doing",
-              "finire per: end up doing"
-            ],
-            [
-              "decidere",
-              "decidere di: choose to",
-              "decidersi a: make up one's mind"
-            ],
-            [
-              "tenere",
-              "tenere a: care about",
-              "tenere per: support (a team)"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Adjectives and nouns"
-      },
-      {
-        "table": {
-          "head": [
-            "Preposition",
-            "Examples"
-          ],
-          "rows": [
-            [
-              "a",
-              "incline a, disposto a, adatto a, contrario a, attento a"
-            ],
-            [
-              "di",
-              "capace di, degno di, ricco di, privo di, consapevole di"
-            ],
-            [
-              "in",
-              "esperto in, fiducia in"
-            ],
-            [
-              "per",
-              "interesse per, rispetto per, passione per"
-            ],
-            [
-              "verso",
-              "gentile verso, atteggiamento verso"
-            ]
-          ]
-        }
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Verbi e preposizioni",
+              "head": [
+                "preposizione",
+                "verbi",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*a*",
+                  "contribuire, rinunciare, tendere, abituarsi, riferirsi, servire",
+                  "{pp:Ha rinunciato} al viaggio."
+                ],
+                [
+                  "*di*",
+                  "accorgersi, occuparsi, fidarsi, vergognarsi, dubitare, approfittare",
+                  "Non mi {ip:fido} di lui."
+                ],
+                [
+                  "*da*",
+                  "dipendere, derivare, provenire, astenersi, guardarsi",
+                  "Il ritardo {ip:dipende} dal traffico."
+                ],
+                [
+                  "*su*",
+                  "insistere, basarsi, contare, riflettere, soffermarsi",
+                  "{ip:Posso} contare su di te?"
+                ],
+                [
+                  "*in*",
+                  "consistere, credere, specializzarsi, sfociare, cimentarsi",
+                  "La protesta {pp:è sfociata} in uno sciopero."
+                ],
+                [
+                  "*con*",
+                  "confrontarsi, scontrarsi, congratularsi, prendersela",
+                  "Mi {ip:congratulo} con te!"
+                ]
+              ]
+            },
+            "note": "Davanti a un pronome personale *su* vuole spesso *di*: *contare su di me, su di te*. Lo stesso succede con *contro, dopo, senza, sopra, sotto, dentro*: *contro di lui, senza di te*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "*A, di* o niente davanti all'infinito",
+              "head": [
+                "costruzione",
+                "verbi",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*a* + infinito",
+                  "cominciare, continuare, riuscire, imparare, convincere, costringere, abituarsi",
+                  "L'{pp:ho convinto} a restare."
+                ],
+                [
+                  "*di* + infinito",
+                  "decidere, smettere, finire, cercare, rischiare, permettere, ricordarsi, sperare",
+                  "{pp:Ha smesso} di fumare."
+                ],
+                [
+                  "nessuna preposizione",
+                  "potere, volere, dovere, sapere, preferire, osare, bisogna, basta",
+                  "{ip:Preferisco} restare."
+                ],
+                [
+                  "*da* + infinito",
+                  "*avere* (qualcosa) *da*, *esserci da*, un nome + *da*",
+                  "{ip:Ho} molto da fare."
+                ]
+              ]
+            },
+            "note": "*Cominciare* e *continuare* vogliono *a*; *finire* e *smettere* vogliono *di*. Davanti a vocale *a* diventa spesso *ad*: *riuscire ad arrivare*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Lo stesso verbo, due costruzioni",
+              "head": [
+                "verbo",
+                "prima costruzione",
+                "seconda costruzione"
+              ],
+              "rows": [
+                [
+                  "*pensare*",
+                  "*a*: {ip:Penso} a te. (ho in mente)",
+                  "*di* + infinito: {ip:Penso} di partire. (ho intenzione)"
+                ],
+                [
+                  "*credere*",
+                  "*a*: Non {ip:credo} a quello che {ip:dici}. (lo ritengo vero)",
+                  "*in*: {ip:Credo} in te. (ho fiducia)"
+                ],
+                [
+                  "*tenere*",
+                  "*a*: Ci {ip:tengo} molto. (è importante per me)",
+                  "*per*: {ip:Tengo} per la Roma. (faccio il tifo)"
+                ],
+                [
+                  "*decidere*",
+                  "*di*: {pp:Ho deciso} di partire.",
+                  "*decidersi a*: Finalmente mi {pp:sono deciso} a partire. (dopo molti dubbi)"
+                ],
+                [
+                  "*servire*",
+                  "*a*: A che cosa {ip:serve}? (è utile)",
+                  "*servirsi di*: Si {ip:serve} di un dizionario. (lo usa)"
+                ],
+                [
+                  "*trattare*",
+                  "*di*: Il libro {ip:tratta} di una guerra.",
+                  "*si tratta di* (impersonale): Si {ip:tratta} di un errore."
+                ]
+              ]
+            },
+            "note": "La preposizione cambia il senso: *penso a partire* non si dice, *penso di partire* sì. *Si tratta di* non ha mai un soggetto: ✗ *Il libro si tratta di…*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Con o senza preposizione?",
+              "head": [
+                "in italiano",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "{ip:Ascolto} la radio.",
+                  "senza *a*: *ascoltare qualcosa*"
+                ],
+                [
+                  "{ip:Aspetto} Marco. {ip:Cerco} le chiavi.",
+                  "senza *per*"
+                ],
+                [
+                  "{pp:Ho pagato} il conto.",
+                  "senza *per*"
+                ],
+                [
+                  "{ip:Telefono} a Marco.",
+                  "con *a*: *telefonare a qualcuno*"
+                ],
+                [
+                  "{pp:Ho partecipato} alla riunione. {pp:Ho assistito} alla partita.",
+                  "con *a*"
+                ],
+                [
+                  "{pp:Ho ringraziato} Marco per il regalo.",
+                  "la persona senza preposizione, la cosa con *per* o *di*"
+                ]
+              ]
+            },
+            "note": "Molti di questi verbi hanno un'altra costruzione in altre lingue: conviene impararli insieme al loro complemento."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Aggettivi e nomi con la preposizione",
+              "head": [
+                "preposizione",
+                "aggettivi e nomi",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*a*",
+                  "incline, disposto, abituato, contrario, attento",
+                  "{ip:Sono} disposto ad aiutarti."
+                ],
+                [
+                  "*di*",
+                  "capace, degno, ricco, privo, consapevole, sicuro",
+                  "{ip:È} un film privo di senso."
+                ],
+                [
+                  "*in*",
+                  "esperto, bravo, la fiducia",
+                  "{ip:È} esperta in diritto."
+                ],
+                [
+                  "*per*",
+                  "l'interesse, il rispetto, la passione",
+                  "{ip:Ha} una passione per il jazz."
+                ],
+                [
+                  "*con, verso*",
+                  "gentile, severo, paziente; l'atteggiamento",
+                  "{ip:È} gentile con tutti."
+                ]
+              ]
+            },
+            "note": "Alcuni ne vogliono due: *esperto in* o *di* (*esperto di vini*), *adatto a* o *per* (*adatto ai bambini, adatto per l'inverno*)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Costruzioni che ingannano",
+              "head": [
+                "✗ non si dice",
+                "✓ si dice",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "Il libro si tratta di una guerra.",
+                  "Il libro {ip:parla} (o {ip:tratta}) di una guerra.",
+                  "*si tratta di* è impersonale"
+                ],
+                [
+                  "Dipende di te.",
+                  "{ip:Dipende} da te.",
+                  ""
+                ],
+                [
+                  "Il lavoro consiste a controllare.",
+                  "Il lavoro {ip:consiste} nel controllare i dati.",
+                  "*consistere in*"
+                ],
+                [
+                  "Sono d'accordo a te.",
+                  "{ip:Sono} d'accordo con te su questo.",
+                  "*con* la persona, *su* la cosa"
+                ],
+                [
+                  "Non posso fare senza caffè.",
+                  "Non {ip:posso} fare a meno del caffè.",
+                  "*fare a meno di*"
+                ],
+                [
+                  "Non ho niente da fare con lui.",
+                  "Non {ip:ho} niente a che fare con lui.",
+                  "*avere a che fare con* = avere un rapporto"
+                ]
+              ]
+            },
+            "note": "*Non ho niente da fare* esiste, ma vuol dire *sono libero*; *non ho niente a che fare con lui* vuol dire *non ho nessun rapporto con lui*."
+          }
+        ]
       }
     ]
   },
@@ -150,86 +257,78 @@
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete with the right preposition (joined with the article if needed).",
+        "prompt": "Completa con la preposizione giusta.",
         "questions": [
-          "Tutto {ip:dipende} [[da]] te.",
-          "Non rinunciare [[a]] insistere.",
-          "{ip:Insiste} [[su]] questo punto.",
-          "Non mi {pp:sono accorto} [[del]] problema.",
-          "Il lavoro {ip:consiste} [[nel]] tradurre testi.",
-          "{ip:Hanno} contribuito [[al]] successo del progetto.",
-          "{ip:È} una persona incline [[alla]] polemica."
+          "Il risultato {ip:dipende} [[da]] te.",
+          "Non mi {ip:fido} [[di]] lui.",
+          "{ip:Insiste} [[su]] questo punto da anni.",
+          "Il lavoro {ip:consiste} [[nel]] controllare i dati.",
+          "Mi {ip:congratulo} [[con]] te!",
+          "Non {ip:riesco} ad abituarmi [[a]] questo freddo."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right link before the infinitive.",
+        "prompt": "*A, di* o niente? Scegli la forma giusta.",
         "questions": [
           {
-            "q": "L'{pp:ho convinto} ___ restare.",
+            "q": "L'{pp:ho convinto} ___ .",
             "options": [
-              "*a",
-              "di",
-              "—"
+              "*a restare",
+              "di restare",
+              "restare"
             ]
           },
           {
-            "q": "{pp:Ha smesso} ___ fumare.",
+            "q": "{pp:Ha smesso} ___ .",
             "options": [
-              "a",
-              "*di",
-              "—"
+              "*di fumare",
+              "a fumare",
+              "fumare"
             ]
           },
           {
-            "q": "{ip:Preferisco} ___ restare a casa.",
+            "q": "{ip:Preferisco} ___ a casa.",
             "options": [
-              "a",
-              "di",
-              "*—"
+              "*restare",
+              "di restare",
+              "a restare"
             ]
           },
           {
-            "q": "{ip:Rischi} ___ perdere il treno.",
+            "q": "{pp:Sono riuscito} ___ in tempo.",
             "options": [
-              "a",
-              "*di",
-              "—"
+              "*ad arrivare",
+              "di arrivare",
+              "arrivare"
             ]
           },
           {
-            "q": "{pp:Sono riuscita} ___ finire.",
+            "q": "{ip:Rischi} ___ il treno.",
             "options": [
-              "*a",
-              "di",
-              "—"
+              "*di perdere",
+              "a perdere",
+              "perdere"
             ]
           }
         ]
       },
       {
         "type": "choice",
-        "prompt": "Which preposition gives the meaning in brackets?",
+        "prompt": "Scegli la preposizione giusta per il senso.",
         "questions": [
           {
-            "q": "Penso ___ partire. (I intend to)",
+            "q": "{ip:Penso} ___ partire domani. (ho intenzione)",
             "options": [
-              "a",
-              "*di"
+              "*di",
+              "a"
             ]
           },
           {
-            "q": "Penso ___ te. (you are on my mind)",
+            "q": "{ip:Penso} sempre ___ te.",
             "options": [
               "*a",
               "di"
-            ]
-          },
-          {
-            "q": "Non {ip:credo} ___ Dio. (faith)",
-            "options": [
-              "a",
-              "*in"
             ]
           },
           {
@@ -240,10 +339,104 @@
             ]
           },
           {
-            "q": "{pp:Ha finito} ___ accettare. (ended up)",
+            "q": "{ip:Credo} ___ te: ce la {fs:farai}.",
             "options": [
-              "di",
-              "*per"
+              "*in",
+              "a"
+            ]
+          },
+          {
+            "q": "{ip:Tengo} ___ la Juventus da quando {im:ero} bambino.",
+            "options": [
+              "*per",
+              "a"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Con o senza preposizione?",
+        "questions": [
+          {
+            "q": "{ip:Ascolto} ___ ogni mattina.",
+            "options": [
+              "*la radio",
+              "alla radio"
+            ]
+          },
+          {
+            "q": "{ip:Aspetto} ___ da un'ora.",
+            "options": [
+              "*Marco",
+              "per Marco",
+              "a Marco"
+            ]
+          },
+          {
+            "q": "{ip:Telefono} ___ ogni domenica.",
+            "options": [
+              "*a mia madre",
+              "mia madre"
+            ]
+          },
+          {
+            "q": "{pp:Ho pagato} ___ .",
+            "options": [
+              "*il conto",
+              "per il conto"
+            ]
+          },
+          {
+            "q": "{pp:Ho partecipato} ___ .",
+            "options": [
+              "*alla riunione",
+              "la riunione"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la preposizione dell'aggettivo o del nome.",
+        "questions": [
+          "{ip:Sono} disposto [[ad|a]] aiutarti.",
+          "{ip:È} un discorso privo [[di]] senso.",
+          "Non {ip:ho} fiducia [[in]] lui.",
+          "{ip:Ha} una grande passione [[per]] la musica.",
+          "{ip:Sei} stato molto gentile [[con|verso]] me."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale frase è corretta?",
+        "questions": [
+          {
+            "q": "Un film:",
+            "options": [
+              "*Il film parla di una famiglia.",
+              "Il film si tratta di una famiglia."
+            ]
+          },
+          {
+            "q": "Un errore:",
+            "options": [
+              "*Si tratta di un errore.",
+              "Questo si tratta di un errore."
+            ]
+          },
+          {
+            "q": "Il caffè:",
+            "options": [
+              "*Non posso fare a meno del caffè.",
+              "Non posso fare senza del caffè."
+            ]
+          },
+          {
+            "q": "Un accordo:",
+            "options": [
+              "*Sono d'accordo con te su questo.",
+              "Sono d'accordo a te di questo."
             ]
           }
         ]
@@ -254,138 +447,274 @@
     "words": [
       [
         "l'attitudine",
-        "aptitude"
+        "una capacità naturale per qualcosa"
       ],
       [
         "la consapevolezza",
-        "awareness"
+        "il fatto di sapere e capire bene qualcosa"
       ],
       [
         "la tendenza",
-        "tendency"
+        "l'inclinazione a fare o a essere qualcosa"
       ],
       [
         "il contributo",
-        "contribution"
+        "quello che si dà per aiutare un risultato comune"
       ],
       [
-        "astenersi",
-        "to abstain"
+        "la madrelingua",
+        "la prima lingua che si impara da bambini"
       ],
       [
-        "soffermarsi",
-        "to dwell on"
+        "il prestito",
+        "una parola presa da un'altra lingua (anche: soldi dati da restituire)"
       ],
       [
-        "sfociare",
-        "to lead to, to flow into"
+        "la reggenza",
+        "la preposizione o la costruzione che un verbo richiede"
       ],
       [
-        "provenire",
-        "to come from"
+        "l'abbinamento",
+        "l'unione di due cose che stanno bene insieme"
       ],
       [
-        "degno",
-        "worthy"
+        "la padronanza",
+        "la conoscenza sicura di qualcosa"
       ],
       [
-        "privo",
-        "lacking"
+        "astenersi da",
+        "non fare qualcosa, per scelta"
       ],
       [
-        "consapevole",
-        "aware"
+        "soffermarsi su",
+        "fermarsi a lungo su un punto"
       ],
       [
-        "incline",
-        "prone"
+        "sfociare in",
+        "finire in, avere come risultato"
+      ],
+      [
+        "provenire da",
+        "venire da, avere origine"
+      ],
+      [
+        "cimentarsi in",
+        "provare a fare una cosa difficile"
+      ],
+      [
+        "degno di",
+        "che merita"
+      ],
+      [
+        "privo di",
+        "senza"
+      ],
+      [
+        "consapevole di",
+        "che sa e capisce"
+      ],
+      [
+        "incline a",
+        "che tende a"
+      ],
+      [
+        "avere a che fare con",
+        "avere un rapporto con"
+      ],
+      [
+        "fare a meno di",
+        "vivere o lavorare senza qualcosa"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "l'attitudine",
-            "aptitude"
+            "la reggenza",
+            "la preposizione o la costruzione che un verbo richiede"
           ],
           [
-            "astenersi",
-            "to abstain"
+            "la padronanza",
+            "la conoscenza sicura di qualcosa"
           ],
           [
-            "soffermarsi",
-            "to dwell on"
+            "soffermarsi su",
+            "fermarsi a lungo su un punto"
           ],
           [
-            "sfociare",
-            "to lead to, to flow into"
+            "sfociare in",
+            "finire in, avere come risultato"
           ],
           [
-            "privo",
-            "lacking"
+            "cimentarsi in",
+            "provare a fare una cosa difficile"
           ],
           [
-            "incline",
-            "prone"
+            "incline a",
+            "che tende a"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "{ip:Sono} [[consapevole]] del rischio. (aware)",
-          "{ip:È} un gesto [[degno]] di rispetto. (worthy)",
-          "{pp:Ha dato} un grande [[contributo]]. (contribution)",
-          "C'{ip:è} una [[tendenza]] a semplificare. (tendency)"
+          {
+            "q": "*Weekend* {ip:è} un ___ dall'inglese.",
+            "options": [
+              "*prestito",
+              "abbinamento",
+              "contributo"
+            ]
+          },
+          {
+            "q": "{ip:Ha} una vera ___ per le lingue: {ip:impara} in fretta.",
+            "options": [
+              "*attitudine",
+              "reggenza",
+              "tendenza"
+            ]
+          },
+          {
+            "q": "L'italiano non {ip:è} la mia ___ : {ip:sono} nato in Brasile.",
+            "options": [
+              "*madrelingua",
+              "padronanza",
+              "consapevolezza"
+            ]
+          },
+          {
+            "q": "Grazie a tutti per il vostro ___ al progetto!",
+            "options": [
+              "*contributo",
+              "prestito",
+              "abbinamento"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Molte parole italiane {ip:provengono} [[dal]] latino.",
+          "Il consigliere si {pp:è} [[astenuto#pp]] dal voto.",
+          "{ip:È} un'idea degna [[di]] attenzione.",
+          "{ip:Sei} consapevole [[dei]] rischi?",
+          "Non {ip:voglio} avere niente a che [[fare]] con lui."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Il successo di una lingua non {ip:dipende} dalla facilità della sua grammatica, bensì dal prestigio di chi la {ip:parla}. Il linguista Marini {ip:insiste} su questo punto da anni e si {ip:sofferma}, nel suo ultimo saggio, sul caso dell'italiano, che {pp:ha finito} per affermarsi grazie alla letteratura più che alla politica.",
-      "Chi {ip:impara} una lingua {ip:tende} a credere che {csp:basti} studiare le regole. Eppure, consapevole o no, ogni studente si {ip:scontra} con centinaia di costruzioni che {ip:consistono} in abbinamenti fissi. Non si {ip:tratta} di logica, ma di abitudine. Chi {ip:rinuncia} a memorizzarle {ip:rischia} di restare, per sempre, privo di naturalezza."
+      {
+        "h": "L'italiano di Ana"
+      },
+      "Quando {pp:è arrivata} a Bologna dal Brasile, Ana {im:era} convinta di sapere l'italiano: {tp:aveva studiato} la grammatica per due anni e {im:riusciva} a leggere i giornali senza difficoltà. Il primo giorno di lavoro, però, si {pp:è accorta} che non {im:bastava}.",
+      "A pranzo un collega le {pp:ha chiesto}: «Tu per chi {ip:tieni}?» Ana, che non {im:sapeva} che *tenere per* {ip:vuol} dire *fare il tifo per una squadra*, {pp:ha risposto} che {im:teneva} molto alla sua famiglia. Tutti {pp:hanno riso}, e lei con loro.",
+      "Da quel giorno {pp:ha smesso} di vergognarsi dei suoi errori e {pp:ha cominciato} a raccoglierli in un quaderno: *dipendere da*, *insistere su*, *fare a meno di*. Non si {ip:tratta} di logica, {ip:dice}: {ip:è} come imparare i nomi delle persone. Bisogna sentirli e usarli, finché non {ip:diventano} naturali.",
+      "Oggi, dopo sei anni, Ana {ip:insegna} portoghese agli italiani, e ai suoi studenti {ip:consiglia} di non rinunciare mai a parlare per paura di sbagliare. Lei, comunque, {ip:continua} a non tenere per nessuna squadra."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "According to Marini, what does a language's success depend on?",
+            "q": "Che cosa {im:sapeva} fare Ana quando {pp:è arrivata}?",
             "options": [
-              "Its easy grammar",
-              "*The prestige of its speakers",
-              "Its age"
+              "*leggere i giornali senza difficoltà",
+              "parlare senza errori",
+              "capire tutti i dialetti"
             ]
           },
           {
-            "q": "What helped Italian to establish itself?",
+            "q": "Che cosa le {pp:ha chiesto} il collega?",
             "options": [
-              "*Literature more than politics",
-              "Trade",
-              "Television"
+              "*per quale squadra {im:faceva} il tifo",
+              "quanto {ip:tiene} alla famiglia",
+              "se {im:aveva} fame"
             ]
           },
           {
-            "q": "What are fixed pairings a matter of?",
+            "q": "Che cosa {ip:raccoglie} Ana nel quaderno?",
             "options": [
-              "Logic",
-              "*Habit",
-              "Pronunciation"
+              "*le costruzioni che {ip:sbaglia}",
+              "le ricette italiane",
+              "i nomi dei colleghi"
             ]
           },
           {
-            "q": "What is the risk of not memorising them?",
+            "q": "Che cosa {ip:consiglia} ai suoi studenti?",
             "options": [
-              "*A lack of naturalness",
-              "Failing exams",
-              "Forgetting words"
+              "*di parlare senza paura di sbagliare",
+              "di studiare solo la grammatica",
+              "di tenere per una squadra"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Ana {tp:aveva studiato} l'italiano prima di partire.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Ana si {pp:è offesa} quando i colleghi {pp:hanno riso}.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo Ana, le preposizioni si {ip:imparano} con la logica.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Oggi Ana {ip:fa} l'insegnante.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni espressione del testo al suo significato.",
+        "pairs": [
+          [
+            "tenere per",
+            "fare il tifo per una squadra"
+          ],
+          [
+            "tenere a",
+            "considerare importante"
+          ],
+          [
+            "vergognarsi di",
+            "provare vergogna per"
+          ],
+          [
+            "fare a meno di",
+            "vivere senza"
+          ],
+          [
+            "rinunciare a",
+            "decidere di non fare o non avere"
+          ]
         ]
       }
     ]
@@ -394,50 +723,58 @@
     "transcript": [
       [
         "Laura",
-        "{pp:Hai deciso} di accettare?"
+        "Allora, {pp:hai deciso} di accettare il posto a Londra?"
       ],
       [
         "Bruno",
-        "Non {ip:so}. {ip:Dipende} da quello che {fs:dirà} il direttore."
+        "Non ancora. {ip:Dipende} da quello che mi {fs:offriranno}. E poi {ip:devo} riflettere su tante cose."
       ],
       [
         "Laura",
-        "Non rinunciare a un'occasione così."
+        "Per esempio?"
       ],
       [
         "Bruno",
-        "Si {ip:tratta} di trasferirsi a Londra. {ip:Devo} riflettere su tutto."
+        "Mia madre. {ip:Conta} su di me per tutto, e io ci {ip:tengo} a starle vicino."
       ],
       [
         "Laura",
-        "{ip:Credo} in te. {fs:Finirai} per accettare."
+        "Lo {ip:capisco}. Ma non {imv:rinunciare} a un'occasione così per paura. {ip:Credo} in te: ce la {cop:faresti} benissimo."
       ],
       [
         "Bruno",
-        "{ip:Sono} consapevole dei rischi, ma ci {ip:tengo}."
+        "Forse {ip:hai} ragione. {fs:Finirò} per accettare, lo {ip:so}. {ip:Devo} solo decidermi a dirlo a mia madre."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:Dipende} [[da]] quello che {fs:dirà} il direttore.",
-          "Non rinunciare [[a]] un'occasione così.",
-          "{ip:Devo} riflettere [[su]] tutto.",
-          "{fs:Finirai} [[per]] accettare."
+          "{ip:Dipende} [[da]] quello che mi {fs:offriranno}.",
+          "{ip:Devo} riflettere [[su]] tante cose.",
+          "{ip:Conta} [[su]] di me per tutto.",
+          "Non {imv:rinunciare} [[a]] un'occasione così."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What would the new job involve?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Bruno would have to…",
+            "q": "Che cosa {ip:frena} Bruno?",
             "options": [
-              "change career",
-              "*move to London",
-              "work with Laura"
+              "*la madre, che {ip:conta} su di lui",
+              "lo stipendio basso",
+              "la paura dell'inglese"
+            ]
+          },
+          {
+            "q": "Che cosa {ip:pensa} Laura?",
+            "options": [
+              "*che Bruno ce la {cop:farebbe}",
+              "che {ip:è} meglio restare",
+              "che Londra {ip:è} troppo cara"
             ]
           }
         ]
@@ -448,41 +785,365 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "It's up to you. (informal, use dipendere)",
+            "q": "C'{ip:è} qualcosa di cui non {cop:potresti} mai fare a meno?"
+          },
+          {
+            "q": "Per chi {ip:tieni}? Oppure: a che cosa {ip:tieni} di più?"
+          },
+          {
+            "q": "Ti {ip:vergogni} dei tuoi errori quando {ip:parli} italiano? Perché?"
+          },
+          {
+            "q": "In che cosa {ip:credi}? C'{ip:è} una persona che {ip:crede} in te?"
+          },
+          {
+            "q": "Su chi {ip:puoi} contare nei momenti difficili?"
+          },
+          {
+            "q": "Quali costruzioni italiane ti {ip:sembrano} più difficili? Che differenze ci {ip:sono} con la tua lingua?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Una nuova vita"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una tifosa allo stadio, con la sciarpa della sua squadra",
+          "B — Una donna con una tazzina di caffè, gli occhi chiusi e un sorriso felice",
+          "C — Un uomo che stringe la mano a una collega che tiene in mano un premio",
+          "D — Un ragazzo che scrive parole in un quaderno"
+        ],
+        "pairs": [
+          [
+            "{ip:Tiene} per la sua squadra da sempre.",
+            "immagine A"
+          ],
+          [
+            "Non {ip:può} fare a meno del caffè.",
+            "immagine B"
+          ],
+          [
+            "Si {ip:congratula} con lei.",
+            "immagine C"
+          ],
+          [
+            "{ip:Raccoglie} i suoi errori in un quaderno.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la preposizione giusta.",
+        "questions": [
+          "Il problema {ip:deriva} [[da]] un errore di calcolo.",
+          "Mia sorella si {pp:è specializzata} [[in]] cardiologia.",
+          "{imv:Approfitta} [[di]] questa occasione!",
+          "La riunione {pp:è sfociata} [[in]] una lite."
+        ]
+      },
+      {
+        "h": "Penso di… o penso a…?"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "{pp:Ho deciso} ___ partire.",
+            "options": [
+              "*di",
+              "a"
+            ]
+          },
+          {
+            "q": "Dopo mesi di dubbi, finalmente mi {pp:sono deciso} ___ partire.",
+            "options": [
+              "*a",
+              "di"
+            ]
+          },
+          {
+            "q": "A che cosa ___ questo pulsante?",
+            "options": [
+              "*{ip:serve}",
+              "si {ip:serve}"
+            ]
+          },
+          {
+            "q": "Il libro ___ di una guerra.",
+            "options": [
+              "*{ip:tratta}",
+              "si {ip:tratta}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Scrivi la frase con il verbo e il pronome tra parentesi.",
+        "questions": [
+          {
+            "q": "Posso contare… (su + tu)?",
+            "a": [
+              "Posso contare su di te?"
+            ]
+          },
+          {
+            "q": "Non mi fido… (di + lui).",
+            "a": [
+              "Non mi fido di lui."
+            ]
+          },
+          {
+            "q": "Non posso vivere… (senza + tu).",
+            "a": [
+              "Non posso vivere senza di te."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Degno di fiducia"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la preposizione giusta (semplice o articolata).",
+        "questions": [
+          "Questo film non {ip:è} adatto [[ai|per i]] bambini.",
+          "{ip:È} una persona degna [[di]] fiducia.",
+          "{ip:Sei} consapevole [[dei]] rischi?",
+          "{ip:Ha} molto rispetto [[per]] i suoi studenti."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Il libro si tratta di una guerra.",
+            "a": [
+              "Il libro parla di una guerra.",
+              "Il libro tratta di una guerra."
+            ]
+          },
+          {
+            "q": "Ascolto alla radio ogni mattina.",
+            "a": [
+              "Ascolto la radio ogni mattina."
+            ]
+          },
+          {
+            "q": "Dipende di te.",
             "a": [
               "Dipende da te."
             ]
           },
           {
-            "q": "Don't give up! (informal, use rinunciare and a + it)",
+            "q": "Sono riuscito di finire in tempo.",
             "a": [
-              "Non rinunciarci!",
-              "Non ci rinunciare!"
+              "Sono riuscito a finire in tempo."
             ]
           },
           {
-            "q": "I am aware of the risk.",
+            "q": "Aspetto per l'autobus da mezz'ora.",
             "a": [
-              "Sono consapevole del rischio."
-            ]
-          },
-          {
-            "q": "He has stopped smoking.",
-            "a": [
-              "Ha smesso di fumare."
-            ]
-          },
-          {
-            "q": "I convinced him to stay.",
-            "a": [
-              "L'ho convinto a restare.",
-              "L'ho convinto a rimanere."
+              "Aspetto l'autobus da mezz'ora."
             ]
           }
         ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "da te / tutto / dipende",
+            "a": [
+              "Tutto dipende da te.",
+              "Dipende tutto da te."
+            ]
+          },
+          {
+            "q": "a meno / non posso / del caffè / fare",
+            "a": [
+              "Non posso fare a meno del caffè."
+            ]
+          },
+          {
+            "q": "di te / contare / posso / su",
+            "a": [
+              "Posso contare su di te?"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*Con* si unisce all'articolo solo in *col* e *coi*, che sono normali anche nello scritto: *col treno, coi bambini*. Le forme *colla, collo, cogli, colle* sono antiche e si confondono con altre parole (*la colla* per incollare, *il collo*): oggi si scrive *con la, con lo, con gli, con le*. *Per* non si unisce mai all'articolo: *per il, per la* (✗ *pel*)."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "{ip:Vado} al lavoro ___ treno.",
+            "options": [
+              "*col",
+              "co'l",
+              "coll"
+            ]
+          },
+          {
+            "q": "{ip:Gioca} ___ bambini in giardino.",
+            "options": [
+              "*coi",
+              "co' i",
+              "colli"
+            ]
+          },
+          {
+            "q": "{ip:Parlo} ___ ragazza nuova.",
+            "options": [
+              "*con la",
+              "colla",
+              "co la"
+            ]
+          },
+          {
+            "q": "{ip:È} un regalo ___ papà.",
+            "options": [
+              "*per il",
+              "pel",
+              "per'l"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So quali preposizioni vogliono molti verbi: *dipendere da, insistere su, fidarsi di*.",
+          "So scegliere tra *a*, *di* e nessuna preposizione davanti all'infinito.",
+          "So la differenza tra *pensare a / di, credere a / in, tenere a / per*.",
+          "So quali verbi non vogliono la preposizione: *ascoltare, aspettare, cercare, pagare*.",
+          "So usare *si tratta di, consistere in, fare a meno di, avere a che fare con*.",
+          "So scrivere *col, coi* e *con la, con lo*."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Un vecchio televisore in bianco e nero: un maestro scrive su un grande foglio bianco"
+      },
+      {
+        "text": [
+          "**Come gli italiani hanno imparato l'italiano**",
+          "Per secoli l'italiano {pp:è stato} soprattutto una lingua scritta. Nel 1525 Pietro Bembo, nelle *Prose della volgar lingua*, {pr:propose} come modelli Petrarca per la poesia e Boccaccio per la prosa, e nel 1612 l'Accademia della Crusca, nata a Firenze alla fine del Cinquecento, {pr:pubblicò} il suo primo *Vocabolario*.",
+          "Nella vita di tutti i giorni, però, quasi tutti {im:parlavano} il dialetto. Quando Alessandro Manzoni {pr:decise} di riscrivere *I promessi sposi* nella lingua di Firenze, nel 1827 {pr:andò} a vivere per qualche mese in città: da allora *risciacquare i panni in Arno* {ip:è} un modo di dire.",
+          "Al momento dell'unità, nel 1861, secondo il linguista Tullio De Mauro soltanto il 2,5 per cento degli italiani {im:sapeva} usare l'italiano; altri studiosi {ip:parlano} di circa il 10 per cento. A cambiare le cose {pr:contribuirono} la scuola, il servizio militare, le migrazioni interne e, dal 1954, la televisione. Dal 1960 al 1968 il maestro Alberto Manzi {pr:insegnò} a leggere e a scrivere a moltissimi adulti con il programma *Non è mai troppo tardi*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Bembo {pr:propose} Boccaccio come modello per la prosa.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'Accademia della Crusca {pr:nacque} a Roma.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Nel 1861 la maggior parte degli italiani {im:parlava} il dialetto.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La televisione {pr:contribuì} a diffondere l'italiano.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il programma di Manzi {im:era} per i bambini.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le preposizioni che mancano.",
+        "questions": [
+          "Manzoni {pr:decise} [[di]] riscrivere *I promessi sposi*.",
+          "[[A]] cambiare le cose {pr:contribuirono} la scuola e la televisione.",
+          "Manzi {pr:insegnò} [[a]] leggere e a scrivere a moltissimi adulti."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Nel tuo paese ci sono dialetti o lingue regionali? Chi li parla ancora?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Nel mio paese…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi una lettera a un amico che sta per trasferirsi in Italia: dagli consigli su come imparare l'italiano.",
+        "cues": [
+          "Su che cosa {ip:deve} insistere? (*insistere su, concentrarsi su*)",
+          "Di che cosa non {ip:deve} vergognarsi? (*vergognarsi di, avere paura di*)",
+          "A che cosa {ip:deve} abituarsi? (*abituarsi a, rinunciare a*)",
+          "Di che cosa non {fs:potrà} fare a meno?"
+        ],
+        "start": "",
+        "model": "Caro Tomás,\nso che stai per partire per Torino e ci tengo a darti qualche consiglio. Il primo: non vergognarti dei tuoi errori. Tutti si accorgeranno che sei straniero, ma nessuno ci farà caso.\nInsisti sull'ascolto: guarda la televisione italiana, anche se all'inizio non capirai quasi niente. Ti abituerai presto al ritmo e alla musica della lingua.\nNon rinunciare a parlare per paura di sbagliare, e non contare solo sulla grammatica: le preposizioni, per esempio, si imparano usandole, non studiandole.\nInfine, ti avverto: dopo un mese non potrai più fare a meno del caffè al bar.\nUn abbraccio, e in bocca al lupo!\nGiulia"
       }
     ]
   }

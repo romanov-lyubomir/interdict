@@ -1,197 +1,329 @@
 {
   "title": "Se {cst:avessi studiato}, {cpa:avrei superato} l'esame",
-  "translation": "If I had studied, I would have passed the exam",
-  "topics": "Real, possible and unreal conditions, mixed conditions, alternatives to se",
+  "translation": "",
+  "topics": "Il periodo ipotetico: ripasso e periodo misto nei due sensi, il *se* con l'[im:imperfetto] nel parlato, *qualora, nel caso in cui, ammesso che, casomai*, le ipotesi senza *se*, il *se* nelle domande indirette, rischi, imprevisti e scelte",
   "grammar": {
     "explain": [
+      "Dal livello B1 conosci i tre tipi di periodo ipotetico. Qui vediamo come li usano davvero gli italiani: quando si mescolano i tempi, come si dice *se* in altri modi e quando il condizionale dopo *se* è giusto.",
       {
-        "h": "The three types at a glance"
-      },
-      {
-        "table": {
-          "head": [
-            "Type",
-            "Condition",
-            "Result",
-            "Example"
-          ],
-          "rows": [
-            [
-              "Real",
-              "se + present or future",
-              "present, future or imperative",
-              "Se {ip:hai} tempo, {ip:vieni}."
-            ],
-            [
-              "Possible",
-              "se + [csi:congiuntivo imperfetto]",
-              "[cop:condizionale presente]",
-              "Se {csi:avessi} tempo, {cop:viaggerei}."
-            ],
-            [
-              "Unreal",
-              "se + [cst:congiuntivo trapassato]",
-              "[cpa:condizionale passato]",
-              "Se {cst:avessi studiato}, {cpa:avrei superato} l'esame."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Ripasso: i tre tipi",
+              "head": [
+                "quanto è reale?",
+                "*se* + …",
+                "conseguenza",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "reale",
+                  "[ip:presente], [fs:futuro]",
+                  "[ip:presente], [fs:futuro], [imv:imperativo]",
+                  "Se **{ip:piove}**, {ip:resto} a casa."
+                ],
+                [
+                  "possibile o immaginato",
+                  "[csi:congiuntivo imperfetto]",
+                  "[cop:condizionale presente]",
+                  "Se **{csi:piovesse}**, {cop:resterei} a casa."
+                ],
+                [
+                  "impossibile, ormai passato",
+                  "[cst:congiuntivo trapassato]",
+                  "[cpa:condizionale passato]",
+                  "Se **{cst:fosse piovuto}**, {cpa:sarei restato} a casa."
+                ]
+              ]
+            },
+            "note": "Il tipo dipende da come chi parla vede il fatto: *Se {ip:vinco}, {ip:compro} una casa* è una persona sicura di sé; *Se {csi:vincessi}, {cop:comprerei} una casa* è un sogno."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il periodo misto, nei due sensi",
+              "head": [
+                "la condizione",
+                "la conseguenza",
+                "frase"
+              ],
+              "rows": [
+                [
+                  "nel passato ([cst:congiuntivo trapassato])",
+                  "adesso ([cop:condizionale presente])",
+                  "Se **{cst:avessi studiato}** medicina, adesso **{cop:farei}** il medico."
+                ],
+                [
+                  "sempre vera ([csi:congiuntivo imperfetto])",
+                  "nel passato ([cpa:condizionale passato])",
+                  "Se **{csi:fossi}** più prudente, non **{cpa:avresti avuto}** quell'incidente."
+                ]
+              ]
+            },
+            "note": "Nel primo caso un fatto passato cambia il presente. Nel secondo una caratteristica di sempre (*sei poco prudente*) spiega un fatto passato."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Se lo sapevo, venivo: il parlato",
+              "head": [
+                "lingua scritta e curata",
+                "lingua parlata"
+              ],
+              "rows": [
+                [
+                  "Se l'**{cst:avessi saputo}**, **{cpa:sarei venuto}**.",
+                  "Se lo **{im:sapevo}**, **{im:venivo}**."
+                ],
+                [
+                  "Se **{cst:fossi partito}** prima, non **{cpa:avresti perso}** il treno.",
+                  "Se **{im:partivi}** prima, non **{im:perdevi}** il treno."
+                ]
+              ]
+            },
+            "note": "Nel parlato si sente spesso l'[im:imperfetto] nelle due parti del periodo ipotetico dell'impossibilità. Va bene in una conversazione tra amici, ma per scrivere, e agli esami, usa la forma completa."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Altri modi di dire *se*",
+              "head": [
+                "parola",
+                "che cosa aggiunge",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "*qualora* + congiuntivo",
+                  "formale, nei documenti",
+                  "**Qualora** il volo {csi:fosse} cancellato, {ip:riceverete} un rimborso."
+                ],
+                [
+                  "*nel caso in cui* + congiuntivo",
+                  "per prepararsi a un imprevisto",
+                  "**Nel caso in cui** {csp:piova}, la festa {fs:sarà} al chiuso."
+                ],
+                [
+                  "*ammesso che* + congiuntivo",
+                  "una condizione di cui si dubita",
+                  "{fs:Arriveremo} alle otto, **ammesso che** il treno {csp:parta} in orario."
+                ],
+                [
+                  "*casomai* + congiuntivo",
+                  "nel parlato: se per caso",
+                  "**Casomai** {csi:avessi} bisogno, {imv:chiamami}."
+                ],
+                [
+                  "*in caso di* + nome",
+                  "senza verbo",
+                  "**In caso di** pioggia, la festa {fs:sarà} al chiuso."
+                ]
+              ]
+            },
+            "note": "Tutte queste espressioni, quando hanno un verbo, vogliono il congiuntivo. Conosci già *purché, a patto che, a meno che* (lezione B1/12)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Ipotesi senza *se*",
+              "head": [
+                "forma",
+                "esempio",
+                "con *se*"
+              ],
+              "rows": [
+                [
+                  "solo il congiuntivo",
+                  "**{cst:Avessi saputo}**! **{csi:Fossi}** in te, non lo {cop:farei}.",
+                  "Se l'{cst:avessi saputo}… Se {csi:fossi} in te…"
+                ],
+                [
+                  "il gerundio",
+                  "**Volendo**, {cop:potremmo} partire domani.",
+                  "Se {csi:volessimo}, {cop:potremmo}…"
+                ],
+                [
+                  "*a* + infinito",
+                  "**A saperlo**, {cpa:sarei venuto} prima.",
+                  "Se l'{cst:avessi saputo}…"
+                ],
+                [
+                  "*senza, con* + nome",
+                  "**Senza il tuo aiuto** non ce l'{cpa:avrei fatta}.",
+                  "Se tu non mi {cst:avessi aiutato}…"
+                ]
+              ]
+            },
+            "note": "Queste forme rendono la frase più breve e più naturale. *A saperlo!* da solo vuol dire *se l'avessi saputo prima!*"
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Quando dopo *se* va il condizionale",
+              "head": [
+                "*se* = a condizione che",
+                "*se* = domanda indiretta"
+              ],
+              "rows": [
+                [
+                  "Se **{csi:avessi}** tempo, {cop:verrei}.",
+                  "Non {ip:so} se **{cop:verrei}**, anche con più tempo."
+                ],
+                [
+                  "Se **{cst:avesse chiamato}**, {cpa:avrei risposto}.",
+                  "Mi {ip:chiedo} se **{cpa:avrebbe accettato}**."
+                ]
+              ]
+            },
+            "note": [
+              "Nel periodo ipotetico, dopo *se* il condizionale non va mai: ✗ *se avrei tempo*.",
+              "Ma quando *se* introduce una domanda indiretta (dopo *non so, mi chiedo, chissà*), il condizionale è giusto: *Mi chiedo se {cop:sarebbe} contento.*"
             ]
-          ]
-        }
-      },
-      "The type depends on the speaker's view rather than on the facts. *Se {ip:vinco}, {ip:compro} una casa* sounds confident. *Se {csi:vincessi}, {cop:comprerei} una casa* treats it as a dream.",
-      {
-        "h": "Mixed conditions"
-      },
-      "Past and present can cross when the condition and the result belong to different times.",
-      {
-        "table": {
-          "head": [
-            "Condition",
-            "Result",
-            "Example"
-          ],
-          "rows": [
-            [
-              "In the past",
-              "Now",
-              "Se {cst:avessi studiato}, ora {cop:avrei} un lavoro migliore."
-            ],
-            [
-              "Always true",
-              "In the past",
-              "Se {csi:fossi} più prudente, non {cpa:avresti avuto} quell'incidente."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "A colloquial shortcut"
-      },
-      "In everyday speech, you will hear the [im:imperfetto] in both halves of an unreal condition: *Se lo {im:sapevo}, {im:venivo}* instead of *Se l'{cst:avessi saputo}, {cpa:sarei venuto}*. It is fine in conversation, but keep the full form in writing and exams.",
-      {
-        "h": "Other ways of saying if"
-      },
-      "These words are more formal, or add a nuance, and they are followed by the *congiuntivo*.",
-      {
-        "table": {
-          "head": [
-            "Conjunction",
-            "Meaning",
-            "Example"
-          ],
-          "rows": [
-            [
-              "qualora",
-              "if, should",
-              "Qualora {csi:arrivasse}, {imv:avvisami}."
-            ],
-            [
-              "nel caso in cui",
-              "in case",
-              "Nel caso in cui {csp:piova}, {ip:restiamo}."
-            ],
-            [
-              "a condizione che",
-              "on condition that",
-              "{ip:Accetto}, a condizione che {csp:paghi} tu."
-            ],
-            [
-              "a meno che (non)",
-              "unless",
-              "{ip:Vengo}, a meno che non {csp:piova}."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Without any se"
-      },
-      "The *congiuntivo* alone can express a wish or a regret, and the *se* disappears: *{cst:Avessi saputo}!* (If only I had known!) *{csi:Fossi} in te, non lo {cop:farei}.*",
-      "And the rule stays the same at every level: the conditional never comes directly after *se*."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete these conditions with the right forms.",
+        "prompt": "Completa il periodo ipotetico. Attenzione al tipo.",
         "questions": [
-          "Se [[avessi#csi]] tempo, [[viaggerei#cop]]. (avere, viaggiare – io, possible)",
-          "Se [[avessi studiato#cst]], [[avrei superato#cpa]] l'esame. (studiare, superare – io, unreal)",
-          "Se tu mi [[avessi ascoltato#cst]], ora non [[saresti#cop]] nei guai. (ascoltare, essere – mixed)",
-          "Se [[vieni#ip]], ti [[preparo#ip]] la cena. (venire – tu; preparare – io, real)",
-          "Se {csi:fossi} più gentile, [[avresti#cop]] più amici. (avere, possible)"
+          "Se (avere, io) [[avessi#csi]] più tempo, {cop:imparerei} il giapponese.",
+          "Se (sapere, noi) [[avessimo saputo#cst]] dello sciopero, {cpa:saremmo partiti} in macchina.",
+          "Se domani (fare) [[fa#ip]] bel tempo, {ip:andiamo} al mare.",
+          "Se tu me l'{cst:avessi chiesto}, ti (aiutare, io) [[avrei aiutato|avrei aiutata#cpa]].",
+          "Se {csi:fossi} in te, non gli (dire) [[direi#cop]] niente."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the right form.",
+        "prompt": "Il periodo misto: scegli la forma giusta.",
         "questions": [
           {
-            "q": "Se ___ prima, {cpa:avremmo preso} il treno.",
+            "q": "Se {cst:avessi accettato} quel lavoro, adesso ___ a Londra.",
             "options": [
-              "{cpa:saremmo partiti}",
-              "*{cst:fossimo partiti}",
-              "{im:partivano}"
+              "*{cop:vivrei}",
+              "{cpa:avrei vissuto}",
+              "{csi:vivessi}"
             ]
           },
           {
-            "q": "Se {cst:avessi vinto}, ora ___ ricco.",
+            "q": "Se {cst:avessimo prenotato}, ora ___ un tavolo.",
             "options": [
-              "*{cop:sarei}",
-              "{csi:fossi}",
-              "{fs:sarò}"
+              "*{cop:avremmo}",
+              "{cpa:avremmo avuto}",
+              "{fs:avremo}"
             ]
           },
           {
-            "q": "{ip:Vengo}, a meno che non ___ .",
+            "q": "Se {csi:fosse} meno timido, ___ a quella ragazza alla festa.",
             "options": [
-              "{ip:piove}",
-              "*{csp:piova}",
-              "{cop:pioverebbe}"
+              "*{cpa:avrebbe parlato}",
+              "{cop:parlerebbe}",
+              "{csi:parlasse}"
             ]
           },
           {
-            "q": "Qualora ___ , {imv:avvisami}.",
+            "q": "Se non {cst:avessi bevuto} tre caffè, adesso ___.",
             "options": [
-              "{ip:arriva}",
-              "{cop:arriverebbe}",
-              "*{csi:arrivasse}"
-            ]
-          },
-          {
-            "q": "___ saputo! (If only I had known!)",
-            "options": [
-              "*{csi:Avessi}",
-              "{cop:Avrei}",
-              "{ip:Ho}"
+              "*{cop:dormirei}",
+              "{cpa:avrei dormito}",
+              "{ip:dormo}"
             ]
           }
         ]
       },
       {
-        "type": "write",
-        "prompt": "Rewrite these colloquial sentences in standard Italian.",
+        "type": "gap",
+        "prompt": "Dal parlato allo scritto: riscrivi con il congiuntivo e il condizionale.",
+        "questions": [
+          "Se lo {im:sapevo}, {im:venivo}. → Se l'[[avessi saputo#cst]], [[sarei venuto|sarei venuta#cpa]].",
+          "Se {im:studiavi}, {im:passavi} l'esame. → Se [[avessi studiato#cst]], [[avresti passato#cpa]] l'esame.",
+          "Se {im:partivamo} prima, {im:arrivavamo} in tempo. → Se [[fossimo partiti|fossimo partite#cst]] prima, [[saremmo arrivati|saremmo arrivate#cpa]] in tempo."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli l'espressione giusta.",
         "questions": [
           {
-            "q": "Se lo {im:sapevo}, {im:venivo}.",
-            "a": [
-              "Se l'avessi saputo, sarei venuto.",
-              "Se lo avessi saputo, sarei venuto.",
-              "Se l'avessi saputo, sarei venuta.",
-              "Se lo avessi saputo, sarei venuta."
+            "q": "___ il pagamento non {csi:arrivasse} entro il 30, il contratto {fs:sarà} annullato.",
+            "options": [
+              "*Qualora",
+              "In caso di",
+              "Se no"
             ]
           },
           {
-            "q": "Se {im:studiavi}, {im:passavi} l'esame.",
-            "a": [
-              "Se avessi studiato, avresti passato l'esame."
+            "q": "___ ritardo, {imv:avvisate} la segreteria.",
+            "options": [
+              "*In caso di",
+              "Nel caso in cui",
+              "Qualora"
             ]
           },
           {
-            "q": "Se {im:partivamo} prima, {im:arrivavamo} in tempo.",
-            "a": [
-              "Se fossimo partiti prima, saremmo arrivati in tempo.",
-              "Se fossimo partite prima, saremmo arrivate in tempo."
+            "q": "Ti {ip:lascio} le chiavi, ___ tornassi prima di me.",
+            "options": [
+              "*casomai",
+              "in caso di",
+              "a meno che"
+            ]
+          },
+          {
+            "q": "{ip:Finiamo} entro venerdì, ___ nessuno si {csp:ammali}.",
+            "options": [
+              "*ammesso che",
+              "in caso di",
+              "casomai"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Ipotesi senza *se*: riscrivi la frase in forma breve.",
+        "questions": [
+          "Se l'{cst:avessi saputo}, {cpa:sarei venuto}. → A [[saperlo]], {cpa:sarei venuto}.",
+          "Se {csi:volessi}, {cop:potresti} restare. → [[Volendo]], {cop:potresti} restare.",
+          "Se {csi:fossi} in te, {cop:accetterei}. → [[Fossi#csi]] in te, {cop:accetterei}.",
+          "Se tu non mi {cst:avessi aiutato}, non ce l'{cpa:avrei fatta}. → [[Senza]] il tuo aiuto, non ce l'{cpa:avrei fatta}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Periodo ipotetico o domanda indiretta? Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Se ___ più soldi, {cop:viaggerei} di più.",
+            "options": [
+              "*{csi:avessi}",
+              "{cop:avrei}"
+            ]
+          },
+          {
+            "q": "Non {ip:so} se i miei genitori ___ d'accordo, se glielo {csi:chiedessi}.",
+            "options": [
+              "*{cop:sarebbero}",
+              "{csi:fossero}"
+            ]
+          },
+          {
+            "q": "Chissà se Marco ___ contento, se lo {csi:invitassimo}.",
+            "options": [
+              "*{cop:sarebbe}",
+              "{csi:fosse}"
+            ]
+          },
+          {
+            "q": "Se ___ prima, {cpa:avremmo visto} l'inizio.",
+            "options": [
+              "*{cst:fossimo arrivati}",
+              "{cpa:saremmo arrivati}"
             ]
           }
         ]
@@ -202,134 +334,258 @@
     "words": [
       [
         "la condizione",
-        "condition"
+        "quello che deve succedere perché succeda un'altra cosa"
       ],
       [
         "il rischio",
-        "risk"
+        "la possibilità che succeda qualcosa di brutto"
       ],
       [
         "la conseguenza",
-        "consequence"
+        "quello che succede dopo e a causa di un fatto"
       ],
       [
         "l'imprevisto",
-        "unforeseen event"
+        "un fatto che non si aspettava, di solito un problema"
       ],
       [
         "il guaio",
-        "trouble"
+        "un problema serio, una situazione difficile"
       ],
       [
         "l'assicurazione",
-        "insurance"
+        "il contratto che paga i danni se succede qualcosa"
+      ],
+      [
+        "il rimborso",
+        "i soldi che ti restituiscono"
+      ],
+      [
+        "la scelta",
+        "il fatto di decidere tra più cose"
+      ],
+      [
+        "il caso",
+        "quello che succede senza che nessuno lo decida"
+      ],
+      [
+        "la fortuna",
+        "il caso quando è favorevole"
       ],
       [
         "evitare",
-        "to avoid"
+        "fare in modo che una cosa non succeda"
       ],
       [
         "rischiare",
-        "to risk"
-      ],
-      [
-        "avvisare",
-        "to warn"
+        "fare una cosa pericolosa, che può andare male"
       ],
       [
         "rimediare",
-        "to put right"
+        "trovare una soluzione a un errore o a un problema"
+      ],
+      [
+        "pentirsi di",
+        "essere dispiaciuto di aver fatto una cosa"
+      ],
+      [
+        "rinunciare a",
+        "decidere di non fare o non avere più una cosa"
+      ],
+      [
+        "cogliere l'occasione",
+        "approfittare di un momento favorevole"
       ],
       [
         "prudente",
-        "cautious"
+        "che fa attenzione ai pericoli"
       ],
       [
         "altrimenti",
-        "otherwise"
+        "se no, in caso contrario"
+      ],
+      [
+        "per caso",
+        "senza averlo deciso"
+      ],
+      [
+        "a saperlo!",
+        "se l'avessi saputo prima!"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni parola al suo significato.",
         "pairs": [
           [
             "l'imprevisto",
-            "unforeseen event"
-          ],
-          [
-            "il guaio",
-            "trouble"
-          ],
-          [
-            "evitare",
-            "to avoid"
+            "un fatto che non si aspettava, di solito un problema"
           ],
           [
             "rimediare",
-            "to put right"
+            "trovare una soluzione a un errore o a un problema"
           ],
           [
-            "prudente",
-            "cautious"
+            "rinunciare a",
+            "decidere di non fare o non avere più una cosa"
+          ],
+          [
+            "cogliere l'occasione",
+            "approfittare di un momento favorevole"
           ],
           [
             "altrimenti",
-            "otherwise"
+            "se no, in caso contrario"
+          ],
+          [
+            "il rimborso",
+            "i soldi che ti restituiscono"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Ogni scelta {ip:ha} una [[conseguenza]]. (consequence)",
-          "Non {ip:voglio} correre questo [[rischio]]. (risk)",
-          "Mi {pp:hai fatto} un [[guaio]]! (trouble)",
-          "{ip:Devi} [[avvisare]] tua madre. (to warn)"
+          {
+            "q": "Se {ip:guidi} così veloce, {ip:rischi} di fare un ___.",
+            "options": [
+              "*incidente",
+              "rimborso",
+              "caso"
+            ]
+          },
+          {
+            "q": "{imv:Prendi} l'ombrello, ___ ti {fs:bagnerai}.",
+            "options": [
+              "*altrimenti",
+              "per caso",
+              "qualora"
+            ]
+          },
+          {
+            "q": "Non {pp:ho mai} {pp:rinunciato} ___ un sogno.",
+            "options": [
+              "*a",
+              "di",
+              "per"
+            ]
+          },
+          {
+            "q": "{pp:Abbiamo incontrato} Marco ___ in centro.",
+            "options": [
+              "*per caso",
+              "altrimenti",
+              "in caso di"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{ip:Sei} sempre troppo [[prudente]]: ogni tanto {imv:rischia} un po'!",
+          "{pp:Ho perso} il passaporto: che [[guaio]]!",
+          "Con un'[[assicurazione]] di viaggio, ti {ip:rimborsano} il biglietto.",
+          "La festa {ip:è} stasera? A [[saperlo]]!",
+          "{ip:Hai} sbagliato, ma {ip:puoi} ancora [[rimediare]]."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Se tre anni fa non {cst:avessi perso} quel treno, oggi non {cop:sarei} qui a raccontarlo. {im:Stavo} andando a un colloquio a Milano. Se {cst:fossi arrivato} in tempo, probabilmente {cpa:avrei accettato} il lavoro e adesso {cop:vivrei} in un ufficio al ventesimo piano.",
-      "Invece {pp:ho chiesto} un caffè nel bar della stazione e {pp:ho conosciuto} Lucia, che {tp:aveva} appena {tp:aperto} una piccola casa editrice. «Se {csi:sapessi} scrivere, ti {cop:assumerei}», mi {pp:ha detto} ridendo. Le {pp:ho mostrato} un racconto. Da allora {ip:lavoriamo} insieme. A volte {ip:penso}: {cst:avessi preso} quel treno, che vita {cpa:avrei fatto}?"
+      {
+        "h": "Tutta colpa di un modulo"
+      },
+      "Dieci anni fa, al terzo anno di università, {pp:ho fatto} domanda per l'Erasmus. {im:Volevo} andare a Valencia, come metà dei miei compagni: sole, mare e spagnolo, che {im:studiavo} già da tre anni. Ma nel modulo {pp:ho sbagliato} una casella, e la segreteria mi {pp:ha mandato} a Tallinn, in Estonia.",
+      "All'inizio {im:ero} disperato. Se {cst:avessi controllato} meglio quel modulo, {cpa:avrei passato} l'inverno in spiaggia invece che a meno quindici gradi. Ma non {pp:ho rinunciato}: {pp:ho pensato} che, se {im:dovevo} stare lì sei mesi, tanto valeva imparare qualcosa.",
+      "A Tallinn {pp:ho conosciuto} Kadri, che oggi {ip:è} mia moglie, e un gruppo di ragazzi che {im:volevano} aprire un'azienda di software. Se non {cst:fossi finito} lì per caso, adesso non {cop:lavorerei} con loro e non {cop:parlerei} l'estone, che {ip:è} una lingua difficilissima.",
+      "A volte mi {ip:chiedo} che cosa {cpa:sarebbe successo} se {cst:fossi andato} a Valencia. Forse {cop:sarei} felice lo stesso, chissà. Ma una cosa la {ip:so}: se {csi:potessi} tornare indietro, {cop:sbaglierei} di nuovo quella casella. *Davide*"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The narrator caught the train to Milan.",
+            "q": "Dove {im:voleva} andare Davide?",
             "options": [
-              "True",
-              "*False"
+              "*a Valencia",
+              "a Tallinn",
+              "a Lisbona"
             ]
           },
           {
-            "q": "He met Lucia in a station bar.",
+            "q": "Perché {pp:è finito} in Estonia?",
             "options": [
-              "*True",
-              "False"
+              "*{pp:Ha sbagliato} una casella del modulo.",
+              "Valencia {im:era} troppo cara.",
+              "{im:Voleva} imparare l'estone."
             ]
           },
           {
-            "q": "Lucia runs a small publishing house.",
+            "q": "Chi {pp:ha conosciuto} a Tallinn?",
             "options": [
-              "*True",
-              "False"
+              "*sua moglie e i suoi futuri colleghi",
+              "un professore di spagnolo",
+              "i suoi vecchi compagni"
             ]
           },
           {
-            "q": "He works in an office on the twentieth floor.",
+            "q": "Che cosa {cop:farebbe} se {csi:potesse} tornare indietro?",
             "options": [
-              "True",
-              "*False"
+              "*{cop:sbaglierebbe} di nuovo la casella",
+              "{cop:andrebbe} a Valencia",
+              "non {cop:farebbe} l'Erasmus"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Davide {im:studiava} lo spagnolo da tre anni.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "All'inizio {im:era} contento di andare a Tallinn.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Oggi Davide {ip:parla} l'estone.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Davide {ip:è} sicuro che a Valencia {cpa:sarebbe stato} infelice.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme del periodo ipotetico.",
+        "questions": [
+          "Se {cst:avessi controllato} meglio quel modulo, [[avrei passato#cpa]] l'inverno in spiaggia.",
+          "Se non [[fossi finito#cst]] lì per caso, adesso non [[lavorerei#cop]] con loro.",
+          "Mi {ip:chiedo} che cosa [[sarebbe successo#cpa]] se {cst:fossi andato} a Valencia.",
+          "Se [[potessi#csi]] tornare indietro, {cop:sbaglierei} di nuovo quella casella."
         ]
       }
     ]
@@ -337,51 +593,67 @@
   "listening": {
     "transcript": [
       [
-        "Olga",
-        "{pp:Hai saputo}? Mauro {pp:ha avuto} un incidente."
+        "Rita",
+        "Allora, {ip:partiamo} sabato all'alba. Nel caso in cui {csp:nevichi}, {ip:prendiamo} il treno invece della macchina."
       ],
       [
-        "Remo",
-        "Te l'{tp:avevo detto}! Se {cst:fosse stato} più prudente, non {cpa:sarebbe successo}."
+        "Fabio",
+        "D'accordo. {pp:Hai fatto} l'assicurazione di viaggio?"
       ],
       [
-        "Olga",
-        "Sì, ma se {cst:avesse avuto} l'assicurazione, adesso non {cop:avrebbe} tutti questi guai."
+        "Rita",
+        "Sì. Qualora il rifugio {csi:fosse} chiuso, ci {ip:rimborsano} tutto."
       ],
       [
-        "Remo",
-        "Se {csi:fossi} in lui, {cop:venderei} la moto."
+        "Fabio",
+        "Perfetto. Casomai {csi:avessi} freddo, ti {ip:porto} il mio piumino rosso."
       ],
       [
-        "Olga",
-        "A meno che non la {csp:ripari} suo fratello."
+        "Rita",
+        "Grazie! L'anno scorso, se {cst:avessimo avuto} i vestiti giusti, non {cpa:saremmo tornati} indietro a metà strada."
       ],
       [
-        "Remo",
-        "{csi:Avessi} ancora i miei vent'anni, la {cop:riparerei} io!"
+        "Fabio",
+        "A saperlo, {cpa:avremmo portato} più coperte! Quest'anno non {ip:rischiamo}."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Se {cst:fosse stato} più prudente, non [[sarebbe#cpa]] {cpa:successo}.",
-          "Se [[avesse#cst]] {cst:avuto} l'assicurazione, adesso non {cop:avrebbe} tutti questi guai.",
-          "Se [[fossi#csi]] in lui, {cop:venderei} la moto.",
-          "A meno che non la [[ripari#csp]] suo fratello."
+          "Nel caso in cui [[nevichi#csp]], {ip:prendiamo} il treno.",
+          "[[Qualora]] il rifugio {csi:fosse} chiuso, ci {ip:rimborsano} tutto.",
+          "Casomai [[avessi#csi]] freddo, ti {ip:porto} il mio piumino.",
+          "Se {cst:avessimo avuto} i vestiti giusti, non [[saremmo tornati#cpa]] indietro."
         ]
       },
       {
         "type": "choice",
-        "prompt": "What does Remo advise?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "If he were Mauro, Remo would…",
+            "q": "Che cosa {fs:faranno} se {ip:nevica}?",
             "options": [
-              "buy a new motorbike",
-              "*sell the motorbike",
-              "get insurance"
+              "*{fs:Prenderanno} il treno.",
+              "{fs:Resteranno} a casa.",
+              "{fs:Partiranno} domenica."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:succede} se il rifugio {ip:è} chiuso?",
+            "options": [
+              "*{ip:Ricevono} un rimborso.",
+              "{ip:Dormono} in macchina.",
+              "{ip:Tornano} indietro."
+            ]
+          },
+          {
+            "q": "Che cosa {pp:è successo} l'anno scorso?",
+            "options": [
+              "*{pp:sono tornati} indietro a metà strada",
+              "{pp:hanno perso} il treno",
+              "il rifugio {im:era} chiuso"
             ]
           }
         ]
@@ -392,44 +664,432 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi con il periodo ipotetico.",
+        "open": true,
         "questions": [
           {
-            "q": "If I had studied, I would have passed the exam.",
-            "a": [
-              "Se avessi studiato, avrei superato l'esame.",
-              "Se avessi studiato, avrei passato l'esame."
+            "q": "Che cosa {cop:faresti} se {csi:avessi} un anno libero e tutti i soldi necessari?"
+          },
+          {
+            "q": "C'{ip:è} una scelta che {cop:cambieresti}, se {csi:potessi}? Che cosa {cpa:sarebbe successo}?"
+          },
+          {
+            "q": "Racconta un incontro o un fatto successo per caso che {pp:ha cambiato} qualcosa nella tua vita."
+          },
+          {
+            "q": "Se non {cst:avessi scelto} il tuo lavoro o la tua scuola, che cosa {cop:faresti} adesso?"
+          },
+          {
+            "q": "Che cosa {ip:porti} sempre con te in viaggio, casomai ci {csi:fosse} un imprevisto?"
+          },
+          {
+            "q": "{ip:Sei} una persona prudente o ti piace rischiare? Fai un esempio."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "E se…?"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un uomo bagnato fradicio sotto la pioggia, senza ombrello",
+          "B — Una ragazza corre sul binario mentre il treno parte",
+          "C — Una famiglia davanti a un ristorante con il cartello «Completo»",
+          "D — Un ragazzo davanti a un esame con il foglio bianco"
+        ],
+        "pairs": [
+          [
+            "Se {cst:avesse preso} l'ombrello, non si {cpa:sarebbe bagnato}.",
+            "immagine A"
+          ],
+          [
+            "Se {cst:fosse uscita} prima, non {cpa:avrebbe perso} il treno.",
+            "immagine B"
+          ],
+          [
+            "Se {cst:avessimo prenotato}, adesso {cop:saremmo} a tavola.",
+            "immagine C"
+          ],
+          [
+            "Se {cst:avessi studiato}, {cop:saprei} rispondere.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Che cosa {cop:direbbero}? Completa con il periodo ipotetico dell'impossibilità.",
+        "questions": [
+          "Se (prendere, io) [[avessi preso#cst]] l'ombrello, non mi {cpa:sarei bagnato}.",
+          "Se (svegliarsi, lei) [[si fosse svegliata#cst]] prima, non {cpa:avrebbe perso} il treno.",
+          "Se {cst:avessimo prenotato}, (trovare, noi) [[avremmo trovato#cpa]] un tavolo.",
+          "Se (sapere, tu) [[avessi saputo#cst]] le risposte, {cpa:avresti passato} l'esame."
+        ]
+      },
+      {
+        "h": "Ieri e oggi"
+      },
+      {
+        "type": "gap",
+        "prompt": "Il periodo misto: completa con il [cop:condizionale presente] (adesso) o il [cpa:condizionale passato] (prima).",
+        "questions": [
+          "Se {cst:avessi imparato} a nuotare da bambino, adesso non (avere) [[avrei#cop]] paura dell'acqua.",
+          "Se {csi:fossi} più organizzato, ieri non (dimenticare) [[avresti dimenticato#cpa]] le chiavi.",
+          "Se {cst:fossimo rimasti} in Italia, adesso (vivere) [[vivremmo#cop]] vicino ai nonni.",
+          "Se Anna {csi:parlasse} tedesco, l'anno scorso (trovare) [[avrebbe trovato#cpa]] lavoro a Berlino."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Pensa a una scelta del passato. Se {cst:avessi fatto} il contrario, come {cop:sarebbe} la tua vita adesso?",
+        "open": true,
+        "questions": [
+          {
+            "q": "Se non avessi…, adesso…"
+          }
+        ]
+      },
+      {
+        "h": "Tra amici"
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina la frase del parlato alla frase scritta.",
+        "pairs": [
+          [
+            "Se lo {im:sapevo}, {im:venivo}.",
+            "Se l'{cst:avessi saputo}, {cpa:sarei venuto}."
+          ],
+          [
+            "Se {im:chiamavi}, ti {im:aspettavo}.",
+            "Se {cst:avessi chiamato}, ti {cpa:avrei aspettato}."
+          ],
+          [
+            "Se {im:partivamo} prima, {im:arrivavamo} in tempo.",
+            "Se {cst:fossimo partiti} prima, {cpa:saremmo arrivati} in tempo."
+          ],
+          [
+            "Se me lo {im:dicevi}, ti {im:aiutavo}.",
+            "Se me l'{cst:avessi detto}, ti {cpa:avrei aiutato}."
+          ]
+        ]
+      },
+      {
+        "h": "Casomai…"
+      },
+      {
+        "text": [
+          "**Regolamento della piscina comunale.** Qualora la temperatura dell'acqua {csi:fosse} inferiore a 24 gradi, la piscina {fs:resterà} chiusa. In caso di temporale, i bagnanti {ip:devono} uscire subito dall'acqua. Nel caso in cui un bambino {csp:abbia} meno di dieci anni, {ip:deve} essere accompagnato da un adulto. L'abbonamento {ip:è} rimborsabile, a condizione che non {csa:sia} stato usato."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Leggi il regolamento e scegli la risposta giusta.",
+        "questions": [
+          {
+            "q": "Quando {ip:resta} chiusa la piscina?",
+            "options": [
+              "*quando l'acqua {ip:è} sotto i 24 gradi",
+              "quando {ip:piove}",
+              "la domenica"
             ]
           },
           {
-            "q": "If I had time, I would travel.",
-            "a": [
-              "Se avessi tempo, viaggerei."
+            "q": "Un bambino di otto anni {ip:può} nuotare da solo?",
+            "options": [
+              "*No, {ip:deve} essere con un adulto.",
+              "Sì, sempre.",
+              "Sì, ma solo d'estate."
             ]
           },
           {
-            "q": "If you had listened to me, you wouldn't be in trouble now. (informal)",
-            "a": [
-              "Se mi avessi ascoltato, ora non saresti nei guai.",
-              "Se mi avessi ascoltato, adesso non saresti nei guai."
-            ]
-          },
-          {
-            "q": "I'll come, unless it rains.",
-            "a": [
-              "Vengo, a meno che non piova.",
-              "Verrò, a meno che non piova."
-            ]
-          },
-          {
-            "q": "If only I had known!",
-            "a": [
-              "Avessi saputo!",
-              "Se avessi saputo!",
-              "Se l'avessi saputo!"
+            "q": "Quando ti {ip:rimborsano} l'abbonamento?",
+            "options": [
+              "*se non l'{pp:hai} ancora {pp:usato}",
+              "sempre",
+              "solo in caso di temporale"
             ]
           }
         ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *qualora, nel caso in cui, ammesso che, casomai, in caso di*.",
+        "questions": [
+          "[[In caso di]] incendio, non {imv:usate} l'ascensore.",
+          "[[Casomai]] {csi:passassi} da Roma, {imv:fammi} sapere!",
+          "{fs:Finiremo} il lavoro entro giugno, [[ammesso che]] non ci {csp:siano} imprevisti.",
+          "[[Qualora|Nel caso in cui]] il prodotto {csi:fosse} difettoso, {ip:potete} restituirlo entro 14 giorni."
+        ]
+      },
+      {
+        "h": "A saperlo!"
+      },
+      {
+        "type": "gap",
+        "prompt": "Riscrivi senza *se*.",
+        "questions": [
+          "Se {csi:fossi} in te, {cop:aspetterei}. → [[Fossi#csi]] in te, {cop:aspetterei}.",
+          "Se l'{cst:avessi saputo} prima! → [[Avessi saputo#cst]] prima!",
+          "Se {csi:volessimo}, {cop:potremmo} andare a piedi. → [[Volendo]], {cop:potremmo} andare a piedi.",
+          "Se {cst:avessi saputo} che {ip:eri} qui, {cpa:sarei passato}. → A [[saperlo]], {cpa:sarei passato}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Condizionale o congiuntivo dopo *se*?",
+        "questions": [
+          {
+            "q": "Se ___ tempo, {cop:verrei} con te.",
+            "options": [
+              "*{csi:avessi}",
+              "{cop:avrei}"
+            ]
+          },
+          {
+            "q": "Non {ip:so} se ___ il coraggio di farlo, al posto tuo.",
+            "options": [
+              "*{cop:avrei}",
+              "{csi:avessi}"
+            ]
+          },
+          {
+            "q": "Chissà se ___ accettato, se gliel'{cst:avessimo chiesto}.",
+            "options": [
+              "*{cpa:avrebbe}",
+              "{cst:avesse}"
+            ]
+          },
+          {
+            "q": "Se ___ la verità, non {cpa:avrebbe fatto} quell'errore.",
+            "options": [
+              "*{cst:avesse saputo}",
+              "{cpa:avrebbe saputo}"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Se avrei tempo, verrei.",
+            "a": [
+              "Se avessi tempo, verrei."
+            ]
+          },
+          {
+            "q": "Se avessi studiato, avrei passato l'esame ieri e adesso sarei stato tranquillo.",
+            "a": [
+              "Se avessi studiato, avrei passato l'esame ieri e adesso sarei tranquillo."
+            ]
+          },
+          {
+            "q": "Se fossi in te, avrei accettato subito domani.",
+            "a": [
+              "Se fossi in te, accetterei subito domani.",
+              "Se fossi in te, domani accetterei subito."
+            ]
+          },
+          {
+            "q": "Qualora il treno è in ritardo, chiamami.",
+            "a": [
+              "Qualora il treno fosse in ritardo, chiamami.",
+              "Qualora il treno sia in ritardo, chiamami."
+            ]
+          },
+          {
+            "q": "Se sarebbe venuto, l'avrei visto.",
+            "a": [
+              "Se fosse venuto, l'avrei visto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "in te / fossi / accetterei",
+            "a": [
+              "Fossi in te, accetterei.",
+              "Fossi in te accetterei."
+            ]
+          },
+          {
+            "q": "saperlo / a",
+            "a": [
+              "A saperlo!",
+              "A saperlo."
+            ]
+          },
+          {
+            "q": "avessi / se / tempo / verrei",
+            "a": [
+              "Se avessi tempo, verrei.",
+              "Se avessi tempo verrei.",
+              "Verrei se avessi tempo."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "*Se* senza accento introduce una condizione: *se piove*. *Sé* con l'accento è un pronome e vuol dire *se stesso*: *Pensa solo a sé.* Attenzione: davanti a *stesso* l'accento si può anche non scrivere: *se stesso* e *sé stesso* sono giusti tutti e due."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*Se* o *sé*?",
+        "questions": [
+          {
+            "q": "___ {ip:hai} fame, {imv:mangia}.",
+            "options": [
+              "*Se",
+              "Sé"
+            ]
+          },
+          {
+            "q": "Marco {ip:parla} sempre di ___.",
+            "options": [
+              "*sé",
+              "se"
+            ]
+          },
+          {
+            "q": "Non {ip:so} ___ {fs:verrà}.",
+            "options": [
+              "*se",
+              "sé"
+            ]
+          },
+          {
+            "q": "{ip:Hanno} portato con ___ tutti i bagagli.",
+            "options": [
+              "*sé",
+              "se"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So usare i tre tipi di periodo ipotetico.",
+          "So usare il periodo misto: *Se avessi studiato, adesso farei il medico.*",
+          "So riconoscere *Se lo sapevo, venivo* e trasformarlo nella forma scritta.",
+          "So usare *qualora, nel caso in cui, ammesso che, casomai, in caso di*.",
+          "So fare un'ipotesi senza *se*: *Fossi in te…, A saperlo!, Volendo…*",
+          "So parlare di scelte, rischi e imprevisti."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Un vasetto di crema al cacao e nocciole accanto a un cesto di nocciole e a una fetta di pane"
+      },
+      {
+        "text": [
+          "**Se il cacao non fosse stato così caro…**",
+          "Molte cose buone {ip:nascono} per caso, o per necessità. All'inizio dell'Ottocento, durante le guerre di Napoleone, in Europa il cacao {im:arrivava} poco e {im:costava} moltissimo. Si {ip:racconta} che a Torino i cioccolatieri {csa:abbiano avuto} un'idea: mescolare il poco cacao con le nocciole del Piemonte, che {im:costavano} molto meno. {pp:È nato} così il gianduia, il cioccolato alle nocciole che ancora oggi {ip:è} tipico della città.",
+          "Più di un secolo dopo, la storia si {pr:ripeté}. Nel 1946, subito dopo la guerra, il cacao {im:era} di nuovo carissimo. Ad Alba, in Piemonte, un pasticciere, Pietro Ferrero, {pr:preparò} un panetto dolce di nocciole e un po' di cacao, che si {im:tagliava} a fette e si {im:mangiava} sul pane. Qualche anno dopo la crema {pr:diventò} spalmabile e nel 1964 {pr:prese} il nome che oggi {ip:conoscono} tutti: Nutella.",
+          "Se il cacao non {cst:fosse stato} così caro, forse oggi non {cop:esisterebbero} né il gianduia né la Nutella. E le colline delle Langhe, dove {ip:crescono} le nocciole, non {cop:sarebbero} così famose."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "All'inizio dell'Ottocento il cacao {im:costava} poco.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il gianduia {ip:è} un cioccolato alle nocciole.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Pietro Ferrero {im:lavorava} a Torino.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "All'inizio la crema di Ferrero si {im:tagliava} a fette.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Il nome Nutella {ip:esiste} dal 1946.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo il periodo ipotetico.",
+        "questions": [
+          "Se il cacao non [[fosse stato#cst]] così caro, forse oggi non [[esisterebbero#cop]] né il gianduia né la Nutella."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Conosci un piatto o un prodotto del tuo paese nato per caso o per necessità? Racconta.",
+        "open": true,
+        "questions": [
+          {
+            "q": "La mia risposta:"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta un momento in cui una piccola cosa (un ritardo, un errore, un incontro) {pp:ha cambiato} la tua vita, o quella di una persona che conosci.",
+        "cues": [
+          "Che cosa {pp:è successo}, quando e dove?",
+          "Che cosa {cpa:sarebbe successo} se le cose {cst:fossero andate} diversamente?",
+          "Come {cop:sarebbe} la tua vita adesso? (periodo misto)",
+          "Se {csi:potessi} tornare indietro, che cosa {cop:faresti}?"
+        ],
+        "start": "",
+        "model": "Sette anni fa ho perso l'autobus per andare a un colloquio di lavoro in banca. Era l'ultimo della mattina e il colloquio era alle dieci.\nMentre aspettavo un taxi che non arrivava, ho visto un cartello sulla porta di una libreria: «Cercasi commessa». Sono entrata quasi per scherzo e il proprietario mi ha offerto il lavoro quel giorno stesso.\nSe avessi preso quell'autobus, probabilmente avrei avuto il posto in banca e adesso lavorerei con i numeri, non con i libri. Avrei forse uno stipendio più alto, ma non sarei così felice.\nOggi la libreria è mia: il vecchio proprietario me l'ha lasciata quando è andato in pensione. Se potessi tornare indietro, perderei di nuovo quell'autobus."
       }
     ]
   }

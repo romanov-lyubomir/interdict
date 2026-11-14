@@ -1,0 +1,415 @@
+{
+  "title": "გამარჯობა!",
+  "translation": "Hello!",
+  "topics": "Reading on your own: greetings, signs in the street and words you already know",
+  "interface": "english",
+  "alphabet": true,
+  "titles": {
+    "grammar": "The letters",
+    "use": "Practice",
+    "vocabulary": "Words",
+    "reading": "Read",
+    "writing": "Write"
+  },
+  "keys": "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+  "grammar": {
+    "explain": [
+      "You know all the letters: now it's time to read. Georgian has many words you already know, because they come from other languages: მეტრო *met'ro*, ტაქსი *t'aksi*, ბანკი *bank'i*. Reading them is a good way to get faster.",
+      {
+        "h": "Words you already know"
+      },
+      "Read each word aloud, then tap it to check.",
+      {
+        "flash": [
+          [
+            "მეტრო",
+            "met'ro",
+            "metro"
+          ],
+          [
+            "ტაქსი",
+            "t'aksi",
+            "taxi"
+          ],
+          [
+            "ბანკი",
+            "bank'i",
+            "bank"
+          ],
+          [
+            "რესტორანი",
+            "rest'orani",
+            "restaurant"
+          ],
+          [
+            "ტელეფონი",
+            "t'eleponi",
+            "telephone"
+          ],
+          [
+            "ავტობუსი",
+            "avt'obusi",
+            "bus"
+          ],
+          [
+            "ფოტო",
+            "pot'o",
+            "photo"
+          ],
+          [
+            "კაფე",
+            "k'ape",
+            "café"
+          ]
+        ],
+        "lang": "ka"
+      },
+      "Notice that Georgian has no *f*: foreign words get ფ (*p*), as in ტელეფონი *t'eleponi*.",
+      {
+        "h": "Greetings"
+      },
+      {
+        "flash": [
+          [
+            "გამარჯობა",
+            "gamarjoba",
+            "hello"
+          ],
+          [
+            "მადლობა",
+            "madloba",
+            "thank you"
+          ],
+          [
+            "ნახვამდის",
+            "nakhvamdis",
+            "goodbye"
+          ],
+          [
+            "დიახ",
+            "diakh",
+            "yes (polite)"
+          ],
+          [
+            "კი",
+            "k'i",
+            "yes"
+          ],
+          [
+            "არა",
+            "ara",
+            "no"
+          ],
+          [
+            "ბოდიში",
+            "bodishi",
+            "sorry"
+          ],
+          [
+            "გაუმარჯოს!",
+            "gaumarjos!",
+            "cheers!"
+          ]
+        ],
+        "lang": "ka"
+      },
+      {
+        "h": "In the street"
+      },
+      {
+        "flash": [
+          [
+            "შესასვლელი",
+            "shesasvleli",
+            "entrance"
+          ],
+          [
+            "გასასვლელი",
+            "gasasvleli",
+            "exit"
+          ],
+          [
+            "ღიაა",
+            "ghiaa",
+            "open"
+          ],
+          [
+            "დაკეტილია",
+            "dak'et'ilia",
+            "closed"
+          ],
+          [
+            "აფთიაქი",
+            "aptiaki",
+            "pharmacy"
+          ],
+          [
+            "ტუალეტი",
+            "t'ualet'i",
+            "toilet"
+          ]
+        ],
+        "lang": "ka"
+      }
+    ]
+  },
+  "use": {
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "What does the sign say?",
+        "questions": [
+          {
+            "q": "გასასვლელი",
+            "options": [
+              "*exit",
+              "entrance",
+              "closed"
+            ]
+          },
+          {
+            "q": "შესასვლელი",
+            "options": [
+              "*entrance",
+              "exit",
+              "open"
+            ]
+          },
+          {
+            "q": "აფთიაქი",
+            "options": [
+              "*pharmacy",
+              "bank",
+              "toilet"
+            ]
+          },
+          {
+            "q": "დაკეტილია",
+            "options": [
+              "*closed",
+              "open",
+              "exit"
+            ]
+          },
+          {
+            "q": "ღიაა",
+            "options": [
+              "*open",
+              "closed",
+              "entrance"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Match each word to what it means.",
+        "pairs": [
+          [
+            "მეტრო",
+            "metro"
+          ],
+          [
+            "ტაქსი",
+            "taxi"
+          ],
+          [
+            "ბანკი",
+            "bank"
+          ],
+          [
+            "ავტობუსი",
+            "bus"
+          ],
+          [
+            "კაფე",
+            "café"
+          ],
+          [
+            "ტელეფონი",
+            "telephone"
+          ]
+        ]
+      }
+    ]
+  },
+  "vocabulary": {
+    "words": [
+      [
+        "გამარჯობა",
+        "gamarjoba — hello"
+      ],
+      [
+        "მადლობა",
+        "madloba — thank you"
+      ],
+      [
+        "ნახვამდის",
+        "nakhvamdis — goodbye"
+      ],
+      [
+        "დიახ",
+        "diakh — yes (polite)"
+      ],
+      [
+        "კი",
+        "k'i — yes"
+      ],
+      [
+        "არა",
+        "ara — no"
+      ],
+      [
+        "ბოდიში",
+        "bodishi — sorry"
+      ],
+      [
+        "საქართველო",
+        "sakartvelo — Georgia"
+      ],
+      [
+        "ქართული",
+        "kartuli — Georgian (the language)"
+      ],
+      [
+        "გაუმარჯოს",
+        "gaumarjos — cheers"
+      ]
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "prompt": "Match each word to its meaning.",
+        "pairs": [
+          [
+            "გამარჯობა",
+            "hello"
+          ],
+          [
+            "მადლობა",
+            "thank you"
+          ],
+          [
+            "ნახვამდის",
+            "goodbye"
+          ],
+          [
+            "ბოდიში",
+            "sorry"
+          ],
+          [
+            "არა",
+            "no"
+          ],
+          [
+            "საქართველო",
+            "Georgia"
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "How is it read? Type each word in Latin letters.",
+        "keys": "",
+        "questions": [
+          {
+            "q": "გამარჯობა",
+            "a": [
+              "gamarjoba"
+            ]
+          },
+          {
+            "q": "მადლობა",
+            "a": [
+              "madloba"
+            ]
+          },
+          {
+            "q": "საქართველო",
+            "a": [
+              "sakartvelo"
+            ]
+          },
+          {
+            "q": "ქართული",
+            "a": [
+              "kartuli"
+            ]
+          },
+          {
+            "q": "ნახვამდის",
+            "a": [
+              "nakhvamdis"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "lang": "en",
+    "text": [
+      {
+        "h": "A day in Tbilisi"
+      },
+      "Anna is in Tbilisi for the first time. Help her read what she sees.",
+      "მეტრო · ტაქსი · აფთიაქი · რესტორანი · ბანკი",
+      "In the restaurant: ხაჭაპური · ხინკალი · ღვინო · ჩაი · წყალი",
+      "On the door: ღიაა 10:00–22:00"
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Read the text and choose.",
+        "questions": [
+          {
+            "q": "Anna wants to take the underground. Which word does she look for?",
+            "options": [
+              "*მეტრო",
+              "ტაქსი",
+              "ბანკი"
+            ]
+          },
+          {
+            "q": "She has a headache. Where does she go?",
+            "options": [
+              "*აფთიაქი",
+              "რესტორანი",
+              "ბანკი"
+            ]
+          },
+          {
+            "q": "She is thirsty and doesn't drink alcohol. What does she order?",
+            "options": [
+              "*წყალი",
+              "ღვინო",
+              "ხინკალი"
+            ]
+          },
+          {
+            "q": "Is the place open at 9 in the evening?",
+            "options": [
+              "*Yes",
+              "No"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "exercises": [
+      {
+        "type": "gap",
+        "prompt": "Write the words in Georgian.",
+        "questions": [
+          "hello (*gamarjoba*) → [[გამარჯობა]]",
+          "thank you (*madloba*) → [[მადლობა]]",
+          "no (*ara*) → [[არა]]",
+          "yes (*k'i*) → [[კი]]",
+          "Georgia (*sakartvelo*) → [[საქართველო]]"
+        ]
+      }
+    ]
+  }
+}

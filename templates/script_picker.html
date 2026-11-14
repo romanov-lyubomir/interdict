@@ -1,0 +1,24 @@
+{# The setting for how Georgian is written: in its own letters, or in Latin
+   letters (no Georgian letters anywhere, and no alphabet lessons). Shown in
+   the settings while learning Georgian. `next` is the settings page. #}
+{% macro picker(script, scripts, next) %}
+<div class="container shadow settings-card" id="script">
+    <h2>Georgian script</h2>
+    <p class="hint">Learn Georgian in its own letters, or in Latin letters if you only want to speak it. Latin
+        letters hide the alphabet lessons; the tight sounds get an apostrophe (<i>k'at'a</i>).</p>
+    <form class="script-options" action="{{ url_for('set_script') }}" method="POST">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <input type="hidden" name="next" value="{{ next }}">
+        {% for value, label in scripts.items() %}
+        <button class="script-option{% if value == script %} current{% endif %}" type="submit" name="script" value="{{ value }}"
+            aria-pressed="{{ 'true' if value == script else 'false' }}">
+            {# The sample of the Georgian letters stays Georgian even in Latin mode
+               (georgian_in_latin in main.py), so the choice can be seen #}
+            <span class="sample"{% if value == "georgian" %} lang="ka"{% endif %}>{% if value == "georgian" %}<!--keep-script-->ქართული<!--/keep-script-->{% else %}kartuli{% endif %}</span>
+            <span>{{ label }}</span>
+            {% if value == script %}<span class="check" aria-hidden="true">&#10003;</span>{% endif %}
+        </button>
+        {% endfor %}
+    </form>
+</div>
+{% endmacro %}

@@ -1,184 +1,444 @@
 {
   "title": "Mio nonno {pr:partì} nel '50 e non {pp:è} più {pp:tornato}",
-  "translation": "My grandfather left in 1950 and has never come back",
-  "topics": "Fine distinctions among the past tenses, regional and stylistic differences",
+  "translation": "",
+  "topics": "Il passato a livello avanzato: [pp:passato prossimo] e [pr:passato remoto] tra regioni e registri, l'[im:imperfetto] oltre il racconto (cortesia, sogno, gioco, cronaca, fatti quasi successi), i verbi che cambiano senso con il tempo, il [tr:trapassato remoto], le forme del [pr:passato remoto] che ingannano, il presente e il futuro storico; memoria, emigrazione e storie di famiglia",
   "grammar": {
     "explain": [
+      "Sai scegliere tra [pp:passato prossimo], [im:imperfetto], [tp:trapassato prossimo] e [pr:passato remoto] e conosci le forme del [pr:passato remoto]. A questo livello impari le sfumature: come cambia l'uso dei tempi da una regione all'altra e da un testo all'altro, gli usi meno ovvi dell'[im:imperfetto], il [tr:trapassato remoto] e le forme del [pr:passato remoto] che mettono in difficoltà anche molti italiani.",
       {
-        "h": "[pp:Passato prossimo] or [pr:passato remoto]: three factors"
-      },
-      {
-        "table": {
-          "head": [
-            "Factor",
-            "[pp:Passato prossimo]",
-            "[pr:Passato remoto]"
-          ],
-          "rows": [
-            [
-              "Link with the present",
-              "still felt today",
-              "closed and detached"
-            ],
-            [
-              "Text type",
-              "conversation, journalism",
-              "novels, history, biography"
-            ],
-            [
-              "Region",
-              "North: almost the only form",
-              "South: common in speech too; Tuscany: for finished time"
-            ]
-          ]
-        }
-      },
-      "Both tenses can appear in one sentence, because a closed event can have effects that last until today: *Mio nonno {pr:partì} nel '50 e non {pp:è} più {pp:tornato}.* The first verb is history, and the second one reaches up to now.",
-      {
-        "h": "Uses of the [im:imperfetto] you may not expect"
-      },
-      {
-        "table": {
-          "head": [
-            "Use",
-            "Example",
-            "Effect"
-          ],
-          "rows": [
-            [
-              "Courtesy",
-              "{im:Volevo} un caffè.",
-              "softens a request in the present"
-            ],
-            [
-              "Narrative, in journalism and novels",
-              "Un attimo dopo, il treno {im:deragliava}.",
-              "makes one event vivid, as if on film"
-            ],
-            [
-              "Future in the past, in speech",
-              "Mi {pp:ha detto} che {im:veniva}.",
-              "replaces {cpa:sarebbe venuto}"
-            ],
-            [
-              "Unreal condition, in speech",
-              "Se lo {im:sapevo}, {im:venivo}.",
-              "replaces the full conditional"
-            ],
-            [
-              "Children's games",
-              "{ip:Facciamo} che io {im:ero} il re.",
-              "creates an imagined world"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Verbs that change meaning with the tense"
-      },
-      "With some verbs, the tense decides what actually happened.",
-      {
-        "table": {
-          "head": [
-            "Verb",
-            "[im:Imperfetto]",
-            "[pp:Passato prossimo]"
-          ],
-          "rows": [
-            [
-              "sapere",
-              "{im:Sapevo}. (I knew.)",
-              "{pp:Ho saputo}. (I found out.)"
-            ],
-            [
-              "conoscere",
-              "Conoscevo Anna. (I knew her.)",
-              "Ho conosciuto Anna. (I met her.)"
-            ],
-            [
-              "dovere",
-              "Dovevo uscire. (I was supposed to.)",
-              "Ho dovuto uscire. (I had to, and did.)"
-            ],
-            [
-              "potere",
-              "Potevo farlo. (I had the chance.)",
-              "{pp:Ho potuto} farlo. (I managed.)"
-            ],
-            [
-              "volere",
-              "Volevo partire. (That was my wish.)",
-              "Ho voluto partire. (I insisted and did.)"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "The [tr:trapassato remoto]"
-      },
-      "It's found only in formal narrative, right after *appena*, *dopo che* or *quando*, with a main verb in the [pr:passato remoto]: *Appena {tr:ebbe finito}, {pr:uscì}*. In everyday writing, use *Dopo aver finito, {pr:uscì}*."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Il passato in Italia: regioni e registri",
+              "head": [
+                "dove, in quale testo",
+                "che cosa si usa",
+                "esempio"
+              ],
+              "rows": [
+                [
+                  "Nord, nel parlato",
+                  "quasi solo il [pp:passato prossimo], anche per fatti lontani",
+                  "Mio nonno {pp:è nato} nel 1920."
+                ],
+                [
+                  "Toscana, nel parlato",
+                  "il [pr:passato remoto] per un tempo già chiuso, anche vicino",
+                  "Ieri {pr:andai} al mercato."
+                ],
+                [
+                  "Sud e Sicilia, nel parlato",
+                  "il [pr:passato remoto] anche per fatti di oggi",
+                  "Stamattina {pr:uscii} presto."
+                ],
+                [
+                  "romanzi, storia, biografie",
+                  "il [pr:passato remoto] in tutta Italia",
+                  "Garibaldi {pr:sbarcò} a Marsala nel 1860."
+                ],
+                [
+                  "giornali, mail, conversazione",
+                  "il [pp:passato prossimo] in tutta Italia",
+                  "Il governo {pp:ha approvato} la legge."
+                ]
+              ]
+            },
+            "note": "Nell'italiano standard decide il legame con il presente, ma nel parlato conta molto anche la regione. I due tempi possono stare nella stessa frase: *Mio nonno {pr:partì} nel '50 e non {pp:è} più {pp:tornato}* (un fatto chiuso, con conseguenze che arrivano fino a oggi)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "L'[im:imperfetto] oltre il racconto",
+              "head": [
+                "uso",
+                "esempio",
+                "effetto"
+              ],
+              "rows": [
+                [
+                  "cortesia",
+                  "Buongiorno, {im:volevo} un caffè.",
+                  "rende più gentile una richiesta di adesso"
+                ],
+                [
+                  "cronaca",
+                  "Alle sei la polizia {im:entrava} nell'appartamento.",
+                  "mostra il fatto come in un film"
+                ],
+                [
+                  "sogno",
+                  "{pp:Ho sognato} che {im:volavo} sopra Roma.",
+                  "racconta un mondo che non esiste"
+                ],
+                [
+                  "gioco dei bambini",
+                  "{ip:Facciamo} che io {im:ero} il re.",
+                  "crea un mondo immaginario"
+                ],
+                [
+                  "futuro nel passato (parlato)",
+                  "Mi {pp:ha detto} che {im:veniva}.",
+                  "al posto di *sarebbe venuto*"
+                ],
+                [
+                  "fatto quasi successo",
+                  "Ancora un secondo e {im:perdevo} il treno.",
+                  "un fatto possibile, che non è avvenuto"
+                ]
+              ]
+            },
+            "note": "In questi usi l'[im:imperfetto] non descrive e non racconta un'abitudine: mette il fatto a distanza, come in un film, in un sogno o in un mondo possibile."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Verbi che cambiano senso con il tempo",
+              "head": [
+                "verbo",
+                "[im:imperfetto]: uno stato, una possibilità",
+                "[pp:passato prossimo]: un fatto avvenuto"
+              ],
+              "rows": [
+                [
+                  "*sapere*",
+                  "{im:Sapevo} che {im:era} sposato. (lo sapevo già)",
+                  "{pp:Ho saputo} che {ip:è} sposato. (l'ho scoperto)"
+                ],
+                [
+                  "*conoscere*",
+                  "{im:Conoscevo} Anna da anni. (eravamo amiche)",
+                  "{pp:Ho conosciuto} Anna a una festa. (l'ho incontrata la prima volta)"
+                ],
+                [
+                  "*dovere*",
+                  "{im:Dovevo} partire. (era previsto: non si sa se sono partito)",
+                  "{pp:Sono dovuto} partire. (sono partito davvero)"
+                ],
+                [
+                  "*potere*",
+                  "{im:Potevo} dirglielo. (ne avevo la possibilità)",
+                  "{pp:Ho potuto} dirglielo. (ci sono riuscito)"
+                ],
+                [
+                  "*volere*",
+                  "{im:Volevo} restare. (era il mio desiderio)",
+                  "{pp:Ho voluto} restare. (l'ho deciso e l'ho fatto)"
+                ],
+                [
+                  "*avere*",
+                  "{im:Avevo} una lettera in tasca. (la possedevo)",
+                  "{pp:Ho avuto} una lettera. (l'ho ricevuta)"
+                ]
+              ]
+            },
+            "note": "Lo stesso vale per il [pr:passato remoto], che si comporta come il [pp:passato prossimo]: *{pr:Seppe} la notizia* (la scoprì), *{pr:Conobbe} sua moglie a Napoli* (la incontrò)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il [tr:trapassato remoto] e le alternative",
+              "head": [
+                "frase",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "Appena {tr:ebbe finito} la lettera, la {pr:spedì}.",
+                  "letterario: [tr:trapassato remoto] + [pr:passato remoto]"
+                ],
+                [
+                  "Dopo che gli ospiti {tr:furono partiti}, la casa {pr:tornò} silenziosa.",
+                  "letterario"
+                ],
+                [
+                  "Appena {pr:finì} la lettera, la {pr:spedì}.",
+                  "più semplice, comune nella prosa di oggi"
+                ],
+                [
+                  "Dopo aver finito la lettera, la {pr:spedì}.",
+                  "lo stesso soggetto: *dopo* + infinito passato"
+                ],
+                [
+                  "Finita la lettera, la {pr:spedì}.",
+                  "il participio da solo, conciso"
+                ],
+                [
+                  "Quando {tp:aveva finito}, {im:usciva} sempre a passeggiare.",
+                  "un'abitudine: [tp:trapassato prossimo] + [im:imperfetto]"
+                ]
+              ]
+            },
+            "note": "Il [tr:trapassato remoto] si forma con il [pr:passato remoto] di *avere* o *essere* e il participio: *ebbi finito, fu uscito, furono partiti*. Si usa solo dopo *appena, non appena, dopo che, quando, come*, con il verbo principale al [pr:passato remoto]. Oggi si trova quasi solo nei romanzi e nei testi formali."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le forme del [pr:passato remoto] che ingannano",
+              "head": [
+                "forma giusta",
+                "errore frequente",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "tu {pr:dicesti}",
+                  "✗ tu {csi:dicessi}",
+                  "*che tu dicessi* è il [csi:congiuntivo imperfetto]"
+                ],
+                [
+                  "noi {pr:andammo}",
+                  "✗ noi {csi:andassimo}",
+                  "*che noi andassimo* è il [csi:congiuntivo imperfetto]"
+                ],
+                [
+                  "lui {pr:diede}, lui {pr:dette}",
+                  "✗ lui diette",
+                  "tutte e due giuste; *diede* è più comune"
+                ],
+                [
+                  "lui {pr:credette}, lui {pr:credé}",
+                  "",
+                  "molti verbi in *-ere* hanno due forme: *ricevette / ricevé*"
+                ],
+                [
+                  "lui {pr:stette}",
+                  "✗ lui stiede",
+                  "*stiede* è una forma popolare, da evitare"
+                ],
+                [
+                  "io {pr:vidi}, lui {pr:vide}",
+                  "✗ lui vedé",
+                  "*vedere* è irregolare (1-3-3)"
+                ]
+              ]
+            },
+            "note": "La seconda persona del [pr:passato remoto] finisce in *-sti* (*tu andasti*), il [csi:congiuntivo imperfetto] in *-ssi* (*che tu andassi*). Con *voi*, invece, le due forme sono uguali: *voi andaste*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Raccontare la storia al presente",
+              "head": [
+                "tempo",
+                "esempio",
+                "effetto"
+              ],
+              "rows": [
+                [
+                  "presente storico",
+                  "Nel 1265 {ip:nasce} a Firenze Dante Alighieri.",
+                  "avvicina i fatti a chi legge"
+                ],
+                [
+                  "futuro storico",
+                  "Nel 1302 {fs:sarà} esiliato e non {fs:rivedrà} più la sua città.",
+                  "un fatto che viene dopo, visto dal racconto"
+                ],
+                [
+                  "presente di cronaca",
+                  "Roma, ore dieci: i manifestanti {ip:arrivano} in piazza.",
+                  "dà l'idea della diretta"
+                ],
+                [
+                  "presente nel parlato",
+                  "Ieri {ip:entro} in un bar e chi {ip:vedo}? Marco!",
+                  "rende vivo il racconto"
+                ],
+                [
+                  "[pr:passato remoto]",
+                  "Dante {pr:morì} a Ravenna nel 1321.",
+                  "racconto tradizionale, distaccato"
+                ]
+              ]
+            },
+            "note": "Biografie, libri di storia e guide usano spesso il presente storico. In un testo, però, conviene scegliere un tempo per il racconto e mantenerlo."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the form that fits the meaning.",
+        "prompt": "Imperfetto o passato prossimo? Scegli la forma con il senso giusto.",
         "questions": [
           {
-            "q": "Ieri ___ che Anna {ip:è} incinta. (I found out)",
+            "q": "Ieri ___ che Paola {ip:aspetta} un bambino. (l'ho scoperto)",
             "options": [
-              "{im:sapevo}",
-              "*{pp:ho saputo}"
+              "*{pp:ho saputo}",
+              "{im:sapevo}"
             ]
           },
           {
-            "q": "___ Marco a una festa nel 2010. (I met him)",
+            "q": "___ già la notizia: me l'{tp:aveva detta} Marco.",
             "options": [
-              "{im:Conoscevo}",
-              "*{pp:Ho conosciuto}"
+              "*{im:Sapevo}",
+              "{pp:Ho saputo}"
             ]
           },
           {
-            "q": "___ uscire, ma poi {pp:sono rimasta} a casa.",
+            "q": "___ mio marito a una festa, nel 2005.",
+            "options": [
+              "*{pp:Ho conosciuto}",
+              "{im:Conoscevo}"
+            ]
+          },
+          {
+            "q": "{im:Era} un paese piccolo: tutti ___ tutti.",
+            "options": [
+              "*{im:conoscevano}",
+              "{pp:hanno conosciuto}"
+            ]
+          },
+          {
+            "q": "___ partire alle otto, ma {pp:ho perso} il treno.",
             "options": [
               "*{im:Dovevo}",
-              "{pp:Ho dovuto}"
+              "{pp:Sono dovuto}"
             ]
           },
           {
-            "q": "Ho perso le chiavi e ___ chiamare un fabbro. (I actually did)",
+            "q": "Lo sciopero {pp:è finito} tardi e ___ prendere un taxi. (l'ho preso)",
             "options": [
-              "{im:dovevo}",
-              "*{pp:ho dovuto}"
+              "*{pp:ho dovuto}",
+              "{im:dovevo}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase all'uso dell'imperfetto.",
+        "pairs": [
+          [
+            "Buongiorno, {im:volevo} un'informazione.",
+            "cortesia"
+          ],
+          [
+            "Stanotte {pp:ho sognato} che {im:volavo}.",
+            "sogno"
+          ],
+          [
+            "{ip:Facciamo} che tu {im:eri} la regina.",
+            "gioco dei bambini"
+          ],
+          [
+            "Mi {pp:ha detto} che {im:veniva} anche lui.",
+            "futuro nel passato"
+          ],
+          [
+            "Ancora un metro e {im:finivamo} nel fiume.",
+            "fatto quasi successo"
+          ],
+          [
+            "Alle sei del mattino la polizia {im:entrava} nell'appartamento.",
+            "cronaca"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il trapassato remoto.",
+        "questions": [
+          "Appena (finire, lui) [[ebbe finito#tr]] di parlare, tutti {pr:applaudirono}.",
+          "Dopo che (partire, loro) [[furono partiti|furono partite#tr]], la casa {pr:sembrò} vuota.",
+          "Non appena (leggere, io) [[ebbi letto#tr]] la lettera, {pr:scoppiai} a piangere.",
+          "Quando (arrivare, noi) [[fummo arrivati|fummo arrivate#tr]] in cima, {pr:vedemmo} il mare."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Passato remoto o congiuntivo imperfetto?",
+        "questions": [
+          {
+            "q": "Quel giorno tu ___ la verità, e io ti {pr:credetti}.",
+            "options": [
+              "*{pr:dicesti}",
+              "{csi:dicessi}"
             ]
           },
           {
-            "q": "Buongiorno, ___ un'informazione. (polite)",
+            "q": "Non {im:credevo} che tu ___ la verità.",
             "options": [
-              "*{im:volevo}",
-              "{pp:ho voluto}"
+              "*{csi:dicessi}",
+              "{pr:dicesti}"
             ]
           },
           {
-            "q": "Appena ___ , {pr:uscì}. (formal narrative)",
+            "q": "{pr:Fu} allora che tu ___ per l'America.",
             "options": [
-              "{pp:è finito}",
-              "*{tr:ebbe finito}",
-              "{csi:finisse}"
+              "*{pr:partisti}",
+              "{csi:partissi}"
+            ]
+          },
+          {
+            "q": "{im:Speravo} che tu ___ con me.",
+            "options": [
+              "*{csi:partissi}",
+              "{pr:partisti}"
+            ]
+          },
+          {
+            "q": "Noi ___ all'alba, senza salutare nessuno.",
+            "options": [
+              "*{pr:partimmo}",
+              "{csi:partissimo}"
+            ]
+          },
+          {
+            "q": "{im:Bisognava} che noi ___ all'alba.",
+            "options": [
+              "*{csi:partissimo}",
+              "{pr:partimmo}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Put the verb in the most suitable past tense for the text type.",
+        "prompt": "Dal presente storico al passato remoto: riscrivi il verbo.",
+        "ordered": true,
         "questions": [
-          "Napoleone [[morì#pr]] a Sant'Elena nel 1821. (morire, history)",
-          "{imv:Scusa}, ieri non [[ho potuto#pp]] chiamarti. (potere, conversation)",
-          "Mio nonno [[nacque#pr]] nel 1920 e non [[ha#pp]] mai {pp:smesso} di lavorare. (nascere; avere)",
-          "Da ragazzo [[conoscevo#im]] tutti nel quartiere. (conoscere)",
-          "Finalmente ieri [[ho conosciuto#pp]] i tuoi genitori. (conoscere)"
+          "Nel 1860 Garibaldi {ip:sbarca} a Marsala. → Nel 1860 Garibaldi [[sbarcò#pr]] a Marsala.",
+          "Nel 1861 {ip:nasce} il Regno d'Italia. → Nel 1861 [[nacque#pr]] il Regno d'Italia.",
+          "Nel 1946 gli italiani {ip:scelgono} la repubblica. → Nel 1946 gli italiani [[scelsero#pr]] la repubblica.",
+          "Il 1° gennaio 1948 {ip:entra} in vigore la Costituzione. → Il 1° gennaio 1948 [[entrò#pr]] in vigore la Costituzione."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Nell'italiano standard, quale tempo è più adatto al tipo di testo?",
+        "questions": [
+          {
+            "q": "Una mail a un collega: «Ieri ti ___ il documento.»",
+            "options": [
+              "*{pp:ho mandato}",
+              "{pr:mandai}"
+            ]
+          },
+          {
+            "q": "Un libro di storia: «Nel 1492 Colombo ___ in America.»",
+            "options": [
+              "*{pr:arrivò}",
+              "{pp:è arrivato}"
+            ]
+          },
+          {
+            "q": "Un messaggio a un amico: «Stamattina ___ tardi.»",
+            "options": [
+              "*{pp:mi sono svegliato}",
+              "{pr:mi svegliai}"
+            ]
+          },
+          {
+            "q": "Una fiaba: «Il principe ___ a cavallo e partì.»",
+            "options": [
+              "*{pr:salì}",
+              "{pp:è salito}"
+            ]
+          }
         ]
       }
     ]
@@ -186,135 +446,275 @@
   "vocabulary": {
     "words": [
       [
-        "l'emigrazione",
-        "emigration"
+        "l'emigrante",
+        "chi lascia il proprio paese per vivere e lavorare altrove"
       ],
       [
-        "il fabbro",
-        "locksmith"
+        "il bastimento",
+        "una grande nave, come quelle degli emigranti di una volta"
       ],
       [
-        "il dialetto",
-        "dialect"
+        "l'antenato",
+        "una persona della famiglia vissuta molto prima di noi"
       ],
       [
-        "la cronaca",
-        "news report"
+        "l'albero genealogico",
+        "lo schema che mostra le generazioni di una famiglia"
       ],
       [
-        "il romanzo storico",
-        "historical novel"
+        "l'archivio",
+        "il luogo dove si conservano documenti, anche antichi"
+      ],
+      [
+        "l'atto di nascita",
+        "il documento che dice quando e dove una persona è nata"
+      ],
+      [
+        "lo sradicamento",
+        "il fatto di essere strappati dal proprio luogo d'origine"
+      ],
+      [
+        "la testimonianza",
+        "il racconto di chi ha visto o vissuto un fatto"
+      ],
+      [
+        "il cimelio",
+        "un oggetto che si conserva come ricordo prezioso"
       ],
       [
         "la lapide",
-        "memorial stone"
+        "una pietra con un'iscrizione in memoria di qualcuno o di qualcosa"
       ],
       [
-        "emigrare",
-        "to emigrate"
+        "la soffitta",
+        "la stanza sotto il tetto, dove si mettono le cose vecchie"
       ],
       [
-        "deragliare",
-        "to derail"
+        "sbiadito",
+        "che ha perso colore o chiarezza (una foto, un ricordo)"
       ],
       [
         "tramandare",
-        "to hand down"
+        "passare ricordi, tradizioni o storie a chi viene dopo"
       ],
       [
-        "svanire",
-        "to fade away"
+        "rievocare",
+        "far tornare alla mente un fatto del passato"
       ],
       [
-        "remoto",
-        "distant"
+        "espatriare",
+        "lasciare il proprio paese per andare a vivere all'estero"
       ],
       [
-        "tutt'oggi",
-        "to this day"
+        "approdare",
+        "arrivare a riva con una nave; arrivare dopo un lungo percorso"
+      ],
+      [
+        "a malincuore",
+        "contro la propria volontà, con dispiacere"
+      ],
+      [
+        "di generazione in generazione",
+        "dai genitori ai figli, per molto tempo"
+      ],
+      [
+        "fare fortuna",
+        "diventare ricco"
+      ],
+      [
+        "sbarcare il lunario",
+        "guadagnare appena il necessario per vivere"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "il fabbro",
-            "locksmith"
+            "il bastimento",
+            "una grande nave, come quelle degli emigranti di una volta"
           ],
           [
-            "la lapide",
-            "memorial stone"
+            "il cimelio",
+            "un oggetto che si conserva come ricordo prezioso"
           ],
           [
-            "tramandare",
-            "to hand down"
+            "lo sradicamento",
+            "il fatto di essere strappati dal proprio luogo d'origine"
           ],
           [
-            "svanire",
-            "to fade away"
+            "sbarcare il lunario",
+            "guadagnare appena il necessario per vivere"
           ],
           [
-            "remoto",
-            "distant"
+            "a malincuore",
+            "contro la propria volontà, con dispiacere"
           ],
           [
-            "tutt'oggi",
-            "to this day"
+            "rievocare",
+            "far tornare alla mente un fatto del passato"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Molti italiani [[emigrarono#pr]] in America. (emigrated)",
-          "Mia nonna {im:parlava} solo il [[dialetto]]. (dialect)",
-          "L'[[emigrazione]] {pp:ha cambiato} il Sud. (emigration)",
-          "{pp:Ho letto} la notizia nella [[cronaca]] locale. (news report)"
+          {
+            "q": "Per ricostruire l'___ della famiglia {pp:ho consultato} molti archivi.",
+            "options": [
+              "*albero genealogico",
+              "atto di nascita",
+              "antenato"
+            ]
+          },
+          {
+            "q": "La foto {ip:è} vecchia e ___ : non si {ip:riconosce} nessuno.",
+            "options": [
+              "*sbiadita",
+              "sradicata",
+              "tramandata"
+            ]
+          },
+          {
+            "q": "Dopo due settimane di mare, la nave ___ a New York.",
+            "options": [
+              "*{pr:approdò}",
+              "{pr:espatriò}",
+              "{pr:rievocò}"
+            ]
+          },
+          {
+            "q": "Nel museo si {ip:può} ascoltare la ___ di un sopravvissuto.",
+            "options": [
+              "*testimonianza",
+              "lapide",
+              "soffitta"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{pp:È partito} a [[malincuore]]: non {im:voleva} lasciare la famiglia.",
+          "Molti {pr:partirono} per fare [[fortuna]], ma pochi ci {pr:riuscirono}.",
+          "La ricetta della torta si {ip:tramanda} di generazione in [[generazione]].",
+          "Le vecchie lettere {ip:sono} in [[soffitta]], sotto il tetto.",
+          "Nel 1960 tutta la mia famiglia [[espatriò#pr]] in Australia."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Mio nonno {pr:partì} da Avellino nel 1950, con una valigia di cartone e l'indirizzo di un cugino a Buenos Aires. Non {pr:tornò} mai, e la sua casa, tutt'oggi, {pp:è rimasta} chiusa. Mia nonna lo {pr:seppe} da una lettera: lui {tp:aveva trovato} lavoro in un cantiere e l'{cpa:avrebbe chiamata} presto. Non lo {pr:fece}.",
-      "Quando io {pp:ho conosciuto} questa storia {im:avevo} quindici anni, e fino ad allora {im:credevo} che {cst:fosse morto} in guerra. Da mia nonna non {pp:ho} mai {pp:saputo} altro. Eppure, ogni domenica, {im:apparecchiava} per due. Ci {ip:sono} famiglie in cui il passato remoto non {ip:finisce} mai."
+      {
+        "h": "La valigia del bisnonno"
+      },
+      "L'anno scorso, mentre {im:mettevamo} in ordine la soffitta della nonna, {pp:abbiamo trovato} una valigia di cartone. Dentro c'{im:erano} un passaporto, alcune lettere sbiadite e la foto di un ragazzo con il cappello in mano: il mio bisnonno Vincenzo. Così {pp:ho saputo} una storia che in famiglia nessuno mi {tp:aveva} mai {tp:raccontato}.",
+      "Vincenzo {pr:partì} da un paese della Calabria nel 1909, a diciannove anni, a malincuore. {im:Doveva} restare in America solo il tempo di fare fortuna. Il viaggio in bastimento {pr:durò} due settimane; appena {tr:fu sbarcato} a New York, {pr:passò} i controlli di Ellis Island e {pr:trovò} lavoro in un cantiere. Per anni {pr:sbarcò} il lunario a fatica, ma ogni mese {im:mandava} a casa qualche dollaro.",
+      "Nel 1913 {pr:volle} tornare per sposare la ragazza che {im:conosceva} fin da bambino. Le lettere {ip:raccontano} che il viaggio di ritorno {pr:fu} pieno di imprevisti: un giorno di ritardo e {im:perdeva} la nave. {pr:Riuscì} a imbarcarsi all'ultimo momento, e quella ragazza {pr:diventò} la mia bisnonna.",
+      "Vincenzo non {pr:ripartì} più, ma per tutta la vita {pr:parlò} dell'America come di un posto sognato. Oggi quella valigia {ip:è} in salotto, e io {pp:ho cominciato} a ricostruire l'albero genealogico della famiglia, tra archivi e atti di nascita."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The grandfather eventually came home.",
+            "q": "Che cosa {pp:ha trovato} la famiglia in soffitta?",
             "options": [
-              "True",
-              "*False"
+              "*una valigia con un passaporto, lettere e una foto",
+              "un albero genealogico già pronto",
+              "il modellino di un bastimento"
             ]
           },
           {
-            "q": "The grandmother learned of his job from a letter.",
+            "q": "Perché Vincenzo {pr:partì}?",
             "options": [
-              "*True",
-              "False"
+              "*per fare fortuna",
+              "per sposarsi in America",
+              "per studiare"
             ]
           },
           {
-            "q": "The narrator had believed he died in the war.",
+            "q": "Che cosa {pr:fece} appena {tr:fu sbarcato}?",
             "options": [
-              "*True",
-              "False"
+              "*{pr:Passò} i controlli e {pr:trovò} lavoro.",
+              "{pr:Tornò} subito in Calabria.",
+              "{pr:Scrisse} alla fidanzata."
             ]
           },
           {
-            "q": "The grandmother continued to set the table for two.",
+            "q": "Che cosa {ip:fa} oggi il narratore?",
             "options": [
-              "*True",
-              "False"
+              "*{ip:Ricostruisce} la storia della famiglia.",
+              "{ip:Scrive} un romanzo sull'America.",
+              "{ip:Vuole} vendere la valigia."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il narratore {im:conosceva} già la storia del bisnonno.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Vincenzo {pr:partì} volentieri.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Nel viaggio di ritorno Vincenzo {pr:rischiò} di perdere la nave.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Dopo il matrimonio Vincenzo {pr:tornò} in America.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase del testo a quello che esprime il tempo del verbo.",
+        "pairs": [
+          [
+            "Così {pp:ho saputo} una storia…",
+            "una scoperta"
+          ],
+          [
+            "{im:Doveva} restare solo il tempo di fare fortuna.",
+            "un progetto, un'intenzione"
+          ],
+          [
+            "Appena {tr:fu sbarcato}, {pr:passò} i controlli.",
+            "un fatto subito prima di un altro"
+          ],
+          [
+            "Un giorno di ritardo e {im:perdeva} la nave.",
+            "un fatto quasi successo"
+          ],
+          [
+            "Nel 1913 {pr:volle} tornare.",
+            "una decisione presa e realizzata"
+          ]
         ]
       }
     ]
@@ -322,51 +722,63 @@
   "listening": {
     "transcript": [
       [
-        "Nina",
-        "{im:Sapevi} che Tullio si {pp:è trasferito}?"
+        "Salvo",
+        "Stamattina {pr:andai} al mercato e {pr:comprai} il pesce per stasera."
       ],
       [
-        "Carlo",
-        "L'{pp:ho saputo} ieri. {im:Dovevo} vederlo, ma non {pp:ha potuto}."
+        "Giulia",
+        "{pr:Andai}? Ma {ip:parli} come un libro! Da noi a Milano {ip:diciamo} *sono andato*, anche per una cosa di cent'anni fa."
       ],
       [
-        "Nina",
-        "Vi {im:conoscevate} da tanto?"
+        "Salvo",
+        "E io che {im:credevo} di parlare normale! In Sicilia il passato remoto lo {ip:usano} tutti, anche i ragazzi."
       ],
       [
-        "Carlo",
-        "Ci {pp:siamo conosciuti} all'università, nel '98."
+        "Giulia",
+        "Lo {ip:so}, l'{pp:ho capito} quando {pp:sono venuta} a Palermo la prima volta. {im:Dovevo} restare una settimana…"
       ],
       [
-        "Nina",
-        "E tu? Non {im:volevi} andare via anche tu?"
+        "Salvo",
+        "…e invece {pp:sei rimasta} tre anni. Un altro mese e {im:diventavi} siciliana!"
       ],
       [
-        "Carlo",
-        "Sì, ma poi {pp:ho voluto} restare per i miei."
+        "Giulia",
+        "Magari! Però il passato remoto non lo {fs:imparerò} mai: si {ip:dice} *tu dicesti* o *tu dicessi*?"
+      ],
+      [
+        "Salvo",
+        "*Dicesti*! *Dicessi* {ip:è} il congiuntivo: *se tu dicessi la verità*…"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "L'{pp:ho} [[saputo#pp]] ieri.",
-          "[[Dovevo#im]] vederlo, ma non {pp:ha potuto}.",
-          "Ci {pp:siamo} [[conosciuti#pp]] all'università.",
-          "Ma poi {pp:ho} [[voluto#pp]] restare per i miei."
+          "Stamattina [[andai#pr]] al mercato e [[comprai#pr]] il pesce.",
+          "E io che [[credevo#im]] di parlare normale!",
+          "[[Dovevo#im]] restare una settimana…",
+          "Un altro mese e [[diventavi#im]] siciliana!"
         ]
       },
       {
         "type": "choice",
-        "prompt": "Did Carlo see Tullio?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Carlo…",
+            "q": "Perché Giulia {ip:ride} di Salvo?",
             "options": [
-              "saw him yesterday",
-              "*didn't manage to see him",
-              "went away with him"
+              "*{ip:Usa} il passato remoto per una cosa di stamattina.",
+              "{ip:Parla} in dialetto siciliano.",
+              "{pp:Ha comprato} troppo pesce."
+            ]
+          },
+          {
+            "q": "Quanto tempo {pp:è rimasta} Giulia a Palermo?",
+            "options": [
+              "*tre anni",
+              "una settimana",
+              "un mese"
             ]
           }
         ]
@@ -377,42 +789,419 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "My grandfather left in 1950 and has never come back. (remoto + prossimo)",
+            "q": "Qual {ip:è} la storia più antica della tua famiglia che {ip:conosci}? Chi te l'{pp:ha raccontata}?"
+          },
+          {
+            "q": "Nella tua lingua c'{ip:è} differenza tra un passato vicino e uno lontano, come tra il [pp:passato prossimo] e il [pr:passato remoto]?"
+          },
+          {
+            "q": "Racconta una cosa che {im:dovevi} fare, ma che alla fine non {pp:hai fatto}. Perché?"
+          },
+          {
+            "q": "Ti {ip:è} mai capitato di evitare un guaio per un soffio? (*Ancora un secondo e…*)"
+          },
+          {
+            "q": "Che cosa {pp:hai saputo} di recente che ti {pp:ha sorpreso}?"
+          },
+          {
+            "q": "Dal tuo paese molte persone {pp:sono emigrate}, o ci {pp:sono arrivate}? Dove, quando e perché?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Album di famiglia"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Una nave piena di persone che salutano dal ponte",
+          "B — Un bambino con una corona di carta in testa",
+          "C — Una ragazza che salta su un autobus che sta partendo",
+          "D — Un uomo al bancone di un bar che sorride al barista"
+        ],
+        "pairs": [
+          [
+            "Mio nonno {pr:partì} da Napoli nel 1950.",
+            "immagine A"
+          ],
+          [
+            "{ip:Facciamo} che io {im:ero} il re!",
+            "immagine B"
+          ],
+          [
+            "Ancora un secondo e {im:perdevo} l'autobus.",
+            "immagine C"
+          ],
+          [
+            "Buongiorno, {im:volevo} un caffè.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Imperfetto o passato prossimo? Completa con il verbo tra parentesi.",
+        "questions": [
+          "Non ne (sapere, io) [[sapevo#im]] niente: l'{pp:ho saputo} solo ieri.",
+          "Ieri (conoscere, io) [[ho conosciuto#pp]] i genitori di Luca.",
+          "Da giovane mia madre (conoscere) [[conosceva#im]] tutti in paese.",
+          "La festa {im:era} noiosa, ma (dovere, io) [[sono dovuto|sono dovuta|ho dovuto#pp]] restare fino alla fine."
+        ]
+      },
+      {
+        "h": "Raccontare una vita"
+      },
+      {
+        "text": [
+          "**Grazia Deledda**",
+          "Grazia Deledda {ip:nasce} a Nuoro, in Sardegna, nel 1871. {ip:Studia} quasi da sola e {ip:comincia} a scrivere giovanissima. Nel 1900 si {ip:sposa} e si {ip:trasferisce} a Roma, dove {fs:vivrà} fino alla morte. Nel 1926 {ip:riceve} il premio Nobel per la letteratura: {ip:è} la prima e, ancora oggi, l'unica scrittrice italiana ad averlo vinto. {ip:Muore} a Roma nel 1936."
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Racconta la vita di Grazia Deledda con il passato remoto.",
+        "ordered": true,
+        "questions": [
+          "Grazia Deledda [[nacque#pr]] a Nuoro nel 1871.",
+          "[[Cominciò#pr]] a scrivere giovanissima.",
+          "Nel 1900 si [[trasferì#pr]] a Roma,",
+          "dove [[visse#pr]] fino alla morte.",
+          "Nel 1926 [[ricevette|ricevé#pr]] il premio Nobel per la letteratura.",
+          "[[Morì#pr]] a Roma nel 1936."
+        ]
+      },
+      {
+        "h": "Appena ebbe finito…"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con il trapassato remoto.",
+        "questions": [
+          "Appena (spegnere, lei) [[ebbe spento#tr]] la luce, {pr:sentì} un rumore.",
+          "Dopo che gli ospiti (uscire) [[furono usciti#tr]], {pr:chiuse} la porta.",
+          "Non appena (arrivare, noi) [[fummo arrivati|fummo arrivate#tr]] alla stazione, il treno {pr:partì}."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi la frase con *dopo* + infinito passato.",
+        "questions": [
+          {
+            "q": "Dopo che ebbe letto la lettera, la bruciò.",
             "a": [
-              "Mio nonno partì nel 1950 e non è più tornato.",
-              "Mio nonno partì nel '50 e non è più tornato."
+              "Dopo aver letto la lettera, la bruciò.",
+              "Dopo avere letto la lettera, la bruciò."
             ]
           },
           {
-            "q": "I found out yesterday.",
+            "q": "Dopo che fu arrivato a Roma, cercò lavoro.",
             "a": [
-              "L'ho saputo ieri.",
-              "Ieri l'ho saputo."
+              "Dopo essere arrivato a Roma, cercò lavoro."
             ]
           },
           {
-            "q": "I met Anna at a party. (for the first time)",
+            "q": "Dopo che ebbe salutato tutti, partì.",
             "a": [
-              "Ho conosciuto Anna a una festa."
-            ]
-          },
-          {
-            "q": "I was supposed to go out, but I stayed at home. (a woman speaking)",
-            "a": [
-              "Dovevo uscire, ma sono rimasta a casa."
-            ]
-          },
-          {
-            "q": "Good morning, I wanted some information. (polite)",
-            "a": [
-              "Buongiorno, volevo un'informazione.",
-              "Buongiorno, volevo delle informazioni."
+              "Dopo aver salutato tutti, partì.",
+              "Dopo avere salutato tutti, partì."
             ]
           }
         ]
+      },
+      {
+        "h": "Tu dicesti o tu dicessi?"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Quel giorno tu ___ tardi e {pr:perdesti} il treno.",
+            "options": [
+              "*{pr:arrivasti}",
+              "{csi:arrivassi}"
+            ]
+          },
+          {
+            "q": "{cpa:Avrei voluto} che tu ___ prima.",
+            "options": [
+              "*{csi:arrivassi}",
+              "{pr:arrivasti}"
+            ]
+          },
+          {
+            "q": "Quella notte noi ___ fino all'alba.",
+            "options": [
+              "*{pr:parlammo}",
+              "{csi:parlassimo}"
+            ]
+          },
+          {
+            "q": "{im:Era} meglio che noi ___ meno.",
+            "options": [
+              "*{csi:parlassimo}",
+              "{pr:parlammo}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Quale forma del passato remoto non esiste nell'italiano standard?",
+        "questions": [
+          {
+            "q": "*dare*, lui:",
+            "options": [
+              "*diette",
+              "diede",
+              "dette"
+            ]
+          },
+          {
+            "q": "*stare*, lui:",
+            "options": [
+              "*stiede",
+              "stette"
+            ]
+          },
+          {
+            "q": "*credere*, lui:",
+            "options": [
+              "*credò",
+              "credette",
+              "credé"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Quel giorno tu dicessi la verità.",
+            "a": [
+              "Quel giorno tu dicesti la verità."
+            ]
+          },
+          {
+            "q": "Ieri ho conosciuto che Anna è incinta.",
+            "a": [
+              "Ieri ho saputo che Anna è incinta."
+            ]
+          },
+          {
+            "q": "Il nonno stiede in America dieci anni.",
+            "a": [
+              "Il nonno stette in America dieci anni."
+            ]
+          },
+          {
+            "q": "Appena ebbe finito, è uscito.",
+            "a": [
+              "Appena ebbe finito, uscì."
+            ]
+          },
+          {
+            "q": "Non ha potuto venire, ma alla fine è venuto.",
+            "a": [
+              "Non poteva venire, ma alla fine è venuto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "ero / facciamo / il re / che / io",
+            "a": [
+              "Facciamo che io ero il re.",
+              "Facciamo che io ero il re!"
+            ]
+          },
+          {
+            "q": "ancora / e / il treno / un secondo / perdevo",
+            "a": [
+              "Ancora un secondo e perdevo il treno.",
+              "Ancora un secondo e perdevo il treno!"
+            ]
+          },
+          {
+            "q": "partì / nel '50 / tornato / mio nonno / e non è più",
+            "a": [
+              "Mio nonno partì nel '50 e non è più tornato.",
+              "Mio nonno partì nel '50, e non è più tornato."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nella terza persona singolare del [pr:passato remoto] dei verbi regolari l'accento cade sull'ultima sillaba e si scrive sempre: *parlò, finì, credé, poté*. Senza accento la parola cambia o non esiste: *parlo* è il presente, *fini* è il plurale di *fine*. Sulla *e* l'accento è acuto (*credé*), perché la vocale è chiusa. *Fu, diede, fece* e le altre forme irregolari, invece, non hanno accento."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "Ieri Marco ___ con il direttore.",
+            "options": [
+              "*parlò",
+              "parlo'",
+              "parló"
+            ]
+          },
+          {
+            "q": "Il film ___ a mezzanotte.",
+            "options": [
+              "*finì",
+              "finí",
+              "fini"
+            ]
+          },
+          {
+            "q": "Non ___ venire alla festa.",
+            "options": [
+              "*poté",
+              "potè",
+              "pote"
+            ]
+          },
+          {
+            "q": "Quella sera ___ molto freddo.",
+            "options": [
+              "*fece",
+              "fecè",
+              "féce"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So scegliere tra [pp:passato prossimo] e [pr:passato remoto] secondo il tipo di testo, e so come cambia l'uso da una regione all'altra.",
+          "So usare l'[im:imperfetto] per la cortesia, il sogno, il gioco e i fatti quasi successi.",
+          "So come cambia il senso di *sapere, conoscere, dovere, potere, volere* con il tempo.",
+          "So riconoscere il [tr:trapassato remoto] e so con che cosa sostituirlo.",
+          "Non confondo *tu dicesti* e *che tu dicessi*.",
+          "So raccontare una vita con il presente storico o con il [pr:passato remoto]."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "La torre di estrazione della miniera del Bois du Cazier, a Marcinelle, sotto un cielo grigio"
+      },
+      {
+        "text": [
+          "**Marcinelle, 8 agosto 1956**",
+          "Nel 1946 l'Italia e il Belgio {pr:firmarono} un accordo: l'Italia {cpa:avrebbe mandato} in Belgio migliaia di lavoratori per le miniere, e in cambio {cpa:avrebbe ricevuto} carbone a buon prezzo. Negli anni successivi decine di migliaia di italiani {pr:partirono} per le miniere della Vallonia, spesso senza sapere che cosa li {im:aspettava}.",
+          "La mattina dell'8 agosto 1956, nella miniera del Bois du Cazier, a Marcinelle, vicino a Charleroi, {pr:scoppiò} un incendio a quasi mille metri di profondità. Le vittime {pr:furono} 262, di dodici nazionalità diverse; 136 di loro {im:erano} italiani, e molti {im:venivano} dall'Abruzzo.",
+          "Oggi il Bois du Cazier {ip:è} un luogo della memoria e, dal 2012, fa parte del patrimonio dell'UNESCO. In Italia, dal 2001, l'8 agosto {ip:è} la Giornata nazionale del sacrificio del lavoro italiano nel mondo."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "L'accordo del 1946 {im:prevedeva} lavoratori in cambio di carbone.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'incendio {pr:scoppiò} in superficie.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Le vittime {pr:furono} tutte italiane.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il Bois du Cazier {ip:è} patrimonio dell'UNESCO.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "L'8 agosto in Italia si {ip:ricorda} il lavoro italiano nel mondo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme del passato.",
+        "questions": [
+          "Nel 1946 l'Italia e il Belgio [[firmarono#pr]] un accordo.",
+          "L'Italia [[avrebbe mandato#cpa]] in Belgio migliaia di lavoratori.",
+          "Molti italiani {pr:partirono}, spesso senza sapere che cosa li [[aspettava#im]].",
+          "Le vittime [[furono#pr]] 262."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Nel tuo paese c'è un luogo o una data che ricorda una tragedia del lavoro o dell'emigrazione? Raccontala.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Nel mio paese…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta la storia di una persona della tua famiglia (vera o inventata), da quando è nata a oggi.",
+        "cues": [
+          "Dove e quando {pr:nacque}? ([pr:passato remoto] o presente storico)",
+          "Che cosa {im:doveva} fare e che cosa {pp:ha fatto} davvero? (*doveva / è dovuto*)",
+          "Un fatto subito prima di un altro: *Appena ebbe…, …*",
+          "Che cosa {ip:resta} oggi di quella storia? ([pp:passato prossimo])"
+        ],
+        "start": "",
+        "model": "La storia di nonna Rosa\nMia nonna Rosa nacque nel 1938 in un paesino dell'Abruzzo. Suo padre partì per il Belgio quando lei aveva otto anni: doveva restare due anni, ma ne restò dieci. Rosa lo conobbe davvero solo da ragazza, quando lui tornò con una valigia piena di regali e la tosse dei minatori.\nAppena ebbe compiuto diciotto anni, Rosa si trasferì a Torino e trovò lavoro in una fabbrica. Lì conobbe mio nonno. Non è mai più tornata a vivere in Abruzzo, ma ogni estate ci portava tutti al paese.\nQuando ero piccola mi raccontava questa storia la sera, e io facevo finta di dormire per sentirla ancora. Oggi l'ho scritta, perché non svanisca."
       }
     ]
   }
