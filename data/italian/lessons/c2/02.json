@@ -1,154 +1,358 @@
 {
   "title": "{im:Temevo} che, se {cst:fosse arrivato}, {cpa:avrebbe capito} che {tp:avevo mentito}",
-  "translation": "I was afraid that, if he arrived, he would realise I had lied",
-  "topics": "The sequence of tenses in sentences with several levels of dependence",
+  "translation": "",
+  "topics": "La concordanza a più livelli: il punto di riferimento di ogni verbo, il futuro anteriore visto dal passato (*appena avesse finito*), congiuntivo imperfetto o passato dopo un presente, il reggente non coniugato (nome, infinito, gerundio), il condizionale passato per il dopo, gli errori più comuni; inganni, segreti e confessioni",
   "grammar": {
     "explain": [
+      "Conosci la concordanza dei tempi e i casi in cui si rompe. Al livello C2 i periodi diventano lunghi, con tre o quattro livelli di dipendenza: il problema non è più conoscere le forme, ma tenere sotto controllo il punto di riferimento di ogni verbo.",
       {
-        "h": "Every verb has an anchor"
-      },
-      "In a sentence with several levels, each verb depends on the one directly above it. To choose its tense, find that verb and ask how the action relates to it.",
-      {
-        "table": {
-          "head": [
-            "Verb",
-            "Depends on",
-            "Relation",
-            "Form"
-          ],
-          "rows": [
-            [
-              "{im:Temevo}",
-              "the moment of narration",
-              "past",
-              "[im:imperfetto]"
-            ],
-            [
-              "se {cst:fosse arrivato}",
-              "{im:Temevo}",
-              "future, a hypothesis",
-              "[cst:congiuntivo trapassato]"
-            ],
-            [
-              "{cpa:avrebbe capito}",
-              "{im:Temevo}",
-              "future from the past",
-              "[cpa:condizionale passato]"
-            ],
-            [
-              "che {tp:avevo mentito}",
-              "{cpa:avrebbe capito}",
-              "before",
-              "[tp:trapassato prossimo]"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Future within a future in the past"
-      },
-      "When something is future from a past viewpoint and comes before another such future, both can go in the [cpa:condizionale passato], and Italian often simplifies them with the [im:imperfetto] or the *congiuntivo*: *{im:Sapevo} che, quando {cpa:avresti letto} la lettera, {cpa:sarei} già {cpa:partito}.*",
-      {
-        "h": "Point of view decides"
-      },
-      "The same fact can be reported from different moments in time.",
-      {
-        "table": {
-          "head": [
-            "Sentence",
-            "Point of view"
-          ],
-          "rows": [
-            [
-              "{pr:Disse} che {cpa:sarebbe partito} domani.",
-              "Reporter's now: domani is still to come."
-            ],
-            [
-              "{pr:Disse} che {fs:partirà} domani.",
-              "Highlights that it's still valid."
-            ],
-            [
-              "{pr:Disse} che {cpa:sarebbe partito} il giorno dopo.",
-              "Entirely inside the past."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "Probability inside the chain"
-      },
-      "Dependent verbs can also carry a shade of probability, using the future or the conditional: *Mi {ip:chiedo} dove {fa:sarà andato}* expresses wondering now, *Mi {im:chiedevo} dove {cpa:sarebbe andato}* refers to the past, and *Mi {im:chiedevo} dove {cst:fosse andato}* looks at a past event.",
-      {
-        "h": "A practical method for long sentences"
-      },
-      "Mark each verb, draw an arrow to the verb it depends on, then note whether it's before, during or after. If a sentence needs more than three levels, consider splitting it. Clarity outranks virtuosity."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Ogni verbo ha il suo punto di riferimento",
+              "head": [
+                "verbo",
+                "dipende da",
+                "rapporto",
+                "forma"
+              ],
+              "rows": [
+                [
+                  "{im:Temevo}",
+                  "il momento del racconto",
+                  "passato",
+                  "[im:imperfetto]"
+                ],
+                [
+                  "se {cst:fosse arrivato}",
+                  "*temevo*",
+                  "un'ipotesi, dopo",
+                  "[cst:congiuntivo trapassato]"
+                ],
+                [
+                  "{cpa:avrebbe capito}",
+                  "*temevo*",
+                  "dopo: futuro nel passato",
+                  "[cpa:condizionale passato]"
+                ],
+                [
+                  "che {tp:avevo mentito}",
+                  "*avrebbe capito*",
+                  "prima",
+                  "[tp:trapassato prossimo]"
+                ]
+              ]
+            },
+            "note": "In un periodo a più livelli ogni verbo dipende da quello immediatamente sopra di lui: per scegliere il tempo bisogna trovarlo e chiedersi se l'azione viene prima, nello stesso momento o dopo. Un metodo pratico: sottolinea i verbi, collega ognuno al suo reggente con una freccia e scrivi accanto *prima, durante* o *dopo*. Se servono più di tre livelli, spesso conviene spezzare la frase."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il futuro anteriore visto dal passato",
+              "head": [
+                "dal presente",
+                "dal passato",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "{ip:Dice} che {fs:partirà} appena {fa:avrà finito}.",
+                  "{pr:Disse} che {cpa:sarebbe partito} appena {cst:avesse finito}.",
+                  "il futuro anteriore diventa [cst:congiuntivo trapassato]"
+                ],
+                [
+                  "{ip:Dice} che, quando {fs:arriverai}, {fa:sarà} già {fa:uscito}.",
+                  "{pr:Disse} che, quando {cst:fossi arrivato}, {cpa:sarebbe} già {cpa:uscito}.",
+                  "*quando* + congiuntivo trapassato"
+                ],
+                [
+                  "{ip:Promette} che, finché non {fa:avrà pagato}, non {fs:uscirà}.",
+                  "{pr:Promise} che, finché non {cst:avesse pagato}, non {cpa:sarebbe uscito}.",
+                  "*finché non* + congiuntivo trapassato"
+                ],
+                [
+                  "parlato",
+                  "{pr:Disse} che {cpa:sarebbe partito} appena {im:finiva}.",
+                  "l'[im:imperfetto] semplifica"
+                ]
+              ]
+            },
+            "note": "Dopo *appena, quando, finché non, dopo che*, un futuro anteriore visto dal passato diventa nella lingua curata un [cst:congiuntivo trapassato]. Il condizionale passato in questa posizione (*appena avrebbe finito*) è diffuso, ma meno elegante."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Dopo un presente: congiuntivo imperfetto o passato?",
+              "head": [
+                "frase",
+                "che cosa dice"
+              ],
+              "rows": [
+                [
+                  "{ip:Credo} che da bambino {csi:fosse} timido.",
+                  "uno stato, un'abitudine del passato"
+                ],
+                [
+                  "{ip:Credo} che ieri {csa:sia stato} male.",
+                  "un fatto concluso"
+                ],
+                [
+                  "{ip:Penso} che allora {csi:vivesse} a Roma.",
+                  "una situazione in corso in quel momento"
+                ],
+                [
+                  "{ip:Penso} che {csa:abbia vissuto} a Roma per dieci anni.",
+                  "un periodo visto per intero"
+                ],
+                [
+                  "{ip:Sembra} che, quando {pp:è arrivata} la polizia, il ladro {csi:dormisse}.",
+                  "un'azione in corso mentre succede altro"
+                ]
+              ]
+            },
+            "note": "Dopo un presente, per il passato si sceglie come all'indicativo tra [im:imperfetto] e [pp:passato prossimo]: il [csi:congiuntivo imperfetto] per gli stati, le abitudini e le azioni in corso, il [csa:congiuntivo passato] per i fatti conclusi."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Quando il reggente non è un verbo coniugato",
+              "head": [
+                "reggente",
+                "esempio",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "un infinito",
+                  "{im:Sembrava} credere che tutto {csi:fosse} finito.",
+                  "conta il tempo di *sembrava*"
+                ],
+                [
+                  "un nome",
+                  "L'idea che {csi:potesse} tornare mi {im:spaventava}.",
+                  "*l'idea, la paura, il timore che* + congiuntivo"
+                ],
+                [
+                  "un aggettivo",
+                  "{im:Era} sicuro che {cpa:avrebbe vinto}.",
+                  "*sicuro, convinto, certo che*"
+                ],
+                [
+                  "un gerundio",
+                  "Pensando che {csi:fosse} tardi, se ne {pr:andò}.",
+                  "conta il tempo di *andò*"
+                ],
+                [
+                  "un participio",
+                  "Convinto che nessuno lo {csi:vedesse}, {pr:aprì} il cassetto.",
+                  "conta il tempo di *aprì*"
+                ]
+              ]
+            },
+            "note": "Infiniti, gerundi e participi non hanno un tempo loro: la dipendente si regola sul verbo coniugato da cui dipendono, anche se è lontano nella frase."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Dopo, visto dal passato: congiuntivo o condizionale passato?",
+              "head": [
+                "frase",
+                "che cosa dice"
+              ],
+              "rows": [
+                [
+                  "{im:Temevo} che {csi:arrivasse}.",
+                  "il momento resta vago: allora o in genere"
+                ],
+                [
+                  "{im:Temevo} che {cpa:sarebbe arrivato}.",
+                  "dopo: la posteriorità è chiara"
+                ],
+                [
+                  "Non {im:pensavo} che {cpa:avrebbe accettato}.",
+                  "anche dopo un verbo che vuole il congiuntivo"
+                ],
+                [
+                  "{im:Speravo} che {csi:venisse}. / {im:Speravo} che {cpa:sarebbe venuto}.",
+                  "tutte e due giuste; il condizionale insiste sul dopo"
+                ]
+              ]
+            },
+            "note": "Il congiuntivo non ha un futuro: per dire *dopo* rispetto a un passato si usa il [cpa:condizionale passato], anche dove il verbo reggente vorrebbe il congiuntivo."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Gli errori più comuni",
+              "head": [
+                "✗ da evitare",
+                "✓ corretto"
+              ],
+              "rows": [
+                [
+                  "Pensavo che verrà.",
+                  "{im:Pensavo} che {cpa:sarebbe venuto}."
+                ],
+                [
+                  "Speravo che venga.",
+                  "{im:Speravo} che {csi:venisse}."
+                ],
+                [
+                  "Credevo che sia partito.",
+                  "{im:Credevo} che {cst:fosse partito}."
+                ],
+                [
+                  "Disse che sarebbe venuto se avrebbe potuto.",
+                  "{pr:Disse} che {cpa:sarebbe venuto} se {cst:avesse potuto}."
+                ],
+                [
+                  "Vorrei che tu sia felice.",
+                  "{cop:Vorrei} che tu {csi:fossi} felice."
+                ]
+              ]
+            },
+            "note": "Quasi tutti questi errori nascono dallo stesso riflesso: il verbo dipendente segue il tempo di quello che si pensa, invece del tempo del verbo da cui dipende."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Find the anchor of each verb, and complete.",
+        "prompt": "Completa il periodo: trova per ogni verbo il suo reggente.",
         "questions": [
-          "{im:Temevo} che, se [[fosse arrivato#cst]], {cpa:avrebbe capito} che [[avevo mentito#tp]]. (arrivare; mentire)",
-          "{im:Sapevo} che, quando [[avresti letto#cpa]] la lettera, {cpa:sarei} già {cpa:partito}. (leggere)",
-          "{im:Credevo} che, una volta finito il lavoro, lui [[sarebbe tornato#cpa]]. (tornare)",
-          "Mi {pr:disse} che {im:pensava} che tu [[fossi partita#cst]] il giorno prima. (partire)",
-          "{ip:Spero} che, quando [[avrai finito#fa]], tu {csp:possa} riposarti. (finire)",
-          "{im:Ero} certo che [[avrebbe negato#cpa]] di aver [[parlato]]. (negare; parlare)"
+          "{im:Temevo} che, se (arrivare, lui) [[fosse arrivato#cst]], (capire) [[avrebbe capito#cpa]] che (mentire, io) [[avevo mentito#tp]].",
+          "{pr:Scrisse} che (arrivare, lui) [[sarebbe arrivato#cpa]] di lì a poco e che (sperare) [[sperava#im]] che (conservare, io) [[avessi conservato#cst]] le sue lettere.",
+          "{ip:So} che, quando (leggere, tu) [[leggerai#fs]] questa lettera, (partire, io) [[sarò#fa]] già {fa:partito}."
         ]
       },
       {
         "type": "choice",
-        "prompt": "Choose the sentence that matches the point of view.",
+        "prompt": "Il futuro anteriore visto dal passato: scegli la forma della lingua curata.",
         "questions": [
           {
-            "q": "He's still expected tomorrow, and I stress that.",
+            "q": "{pr:Disse} che {cpa:sarebbe partito} appena ___ .",
             "options": [
-              "*{pp:Ha detto} che {fs:arriverà} domani.",
-              "{pr:Disse} che {cpa:sarebbe arrivato} il giorno dopo."
+              "*{cst:avesse finito}",
+              "{fa:avrà finito}",
+              "{pp:ha finito}"
             ]
           },
           {
-            "q": "In a novel set in 1920.",
+            "q": "{pr:Promise} che, finché non ___ , non {cpa:sarebbe uscito}.",
             "options": [
-              "{pr:Disse} che {fs:arriverà} domani.",
-              "*{pr:Disse} che {cpa:sarebbe arrivato} il giorno dopo."
+              "*{cst:avesse pagato}",
+              "{fa:avrà pagato}",
+              "{pp:ha pagato}"
             ]
           },
           {
-            "q": "I'm wondering now about something in the past.",
+            "q": "Mi {pr:disse} che, quando ___ , lui {cpa:sarebbe} già {cpa:uscito}.",
             "options": [
-              "*Mi {ip:chiedo} dove {fa:sarà andato}.",
-              "Mi {im:chiedevo} dove {csi:andasse}."
+              "*{cst:fossi arrivato}",
+              "{fs:arriverai}",
+              "{pp:sei arrivato}"
             ]
           },
           {
-            "q": "I was wondering then about something earlier.",
+            "q": "{im:Sapevo} che, appena ___ il cassetto vuoto, {cpa:avrebbe capito}.",
             "options": [
-              "Mi {ip:chiedo} dove {csa:sia andato}.",
-              "*Mi {im:chiedevo} dove {cst:fosse andato}."
+              "*{cst:avesse visto}",
+              "{fa:avrà visto}",
+              "{pp:ha visto}"
             ]
           }
         ]
       },
       {
-        "type": "write",
-        "prompt": "Split or simplify each long sentence into two sentences, keeping the meaning. Use the words given.",
+        "type": "choice",
+        "prompt": "Congiuntivo imperfetto o passato? Scegli secondo il senso.",
         "questions": [
           {
-            "q": "{im:Temevo} che {cpa:avrebbe capito} che {tp:avevo mentito}. ({tp:Avevo mentito}. {im:Temevo}…)",
-            "a": [
-              "Avevo mentito. Temevo che l'avrebbe capito.",
-              "Avevo mentito. Temevo che lo capisse."
+            "q": "{ip:Credo} che da giovane ___ molto bello.",
+            "options": [
+              "*{csi:fosse}",
+              "{csa:sia stato}"
             ]
           },
           {
-            "q": "{im:Sapevo} che {cpa:sarebbe partito} dopo aver firmato. ({cpa:Avrebbe firmato}. Poi…)",
-            "a": [
-              "Avrebbe firmato. Poi sarebbe partito."
+            "q": "{ip:Credo} che ieri ___ male tutto il giorno.",
+            "options": [
+              "*{csa:sia stato}",
+              "{csi:fosse}"
+            ]
+          },
+          {
+            "q": "{ip:Sembra} che, quando {pp:è arrivata} la polizia, il ladro ___ .",
+            "options": [
+              "*{csi:dormisse}",
+              "{csa:abbia dormito}"
+            ]
+          },
+          {
+            "q": "{ip:Pare} che ___ a Parigi per vent'anni, dal 1950 al 1970.",
+            "options": [
+              "*{csa:abbia vissuto}",
+              "{csi:vivesse}"
             ]
           }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Il reggente è un infinito, un nome o un gerundio: completa.",
+        "questions": [
+          "{im:Sembrava} credere che tutto (essere) [[fosse#csi]] finito.",
+          "La paura che lo (scoprire, loro) [[scoprissero#csi]] non lo {im:lasciava} dormire.",
+          "Convinto che nessuno lo (vedere) [[vedesse#csi]], {pr:aprì} il cassetto.",
+          "Pensando che (essere) [[fosse#csi]] tardi, se ne {pr:andò}."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Dopo, visto dal passato: scegli la forma giusta.",
+        "questions": [
+          {
+            "q": "Non {im:pensavo} che ___ .",
+            "options": [
+              "*{cpa:avrebbe accettato}",
+              "{fs:accetterà}"
+            ]
+          },
+          {
+            "q": "{im:Temevo} che il giorno dopo ___ tutto.",
+            "options": [
+              "*{cpa:avrebbe scoperto}",
+              "{fs:scoprirà}"
+            ]
+          },
+          {
+            "q": "{im:Ero} certo che ___ la gara.",
+            "options": [
+              "*{cpa:avrebbe vinto}",
+              "{csa:abbia vinto}"
+            ]
+          },
+          {
+            "q": "{im:Speravo} che mi ___ presto.",
+            "options": [
+              "*{cpa:avrebbe chiamato}",
+              "{fs:chiamerà}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Dal presente al passato: riscrivi le dipendenti.",
+        "questions": [
+          "{ip:Dice} che {fs:partirà} appena {fa:avrà finito}. → {pr:Disse} che [[sarebbe partito#cpa]] appena [[avesse finito#cst]].",
+          "{ip:Spera} che tu {csp:venga}. → {im:Sperava} che tu [[venissi#csi]].",
+          "{ip:Credo} che {csa:sia partito}. → {im:Credevo} che [[fosse partito#cst]].",
+          "{ip:Penso} che, se {csi:potesse}, {cop:verrebbe}. → {im:Pensavo} che, se [[avesse potuto#cst]], [[sarebbe venuto#cpa]]."
         ]
       }
     ]
@@ -157,134 +361,274 @@
     "words": [
       [
         "il sotterfugio",
-        "subterfuge"
+        "un mezzo nascosto e poco onesto per ottenere qualcosa"
       ],
       [
         "l'inganno",
-        "deception"
+        "un'azione fatta per far credere il falso"
+      ],
+      [
+        "la menzogna",
+        "una bugia (parola letteraria)"
       ],
       [
         "il sospetto",
-        "suspicion"
-      ],
-      [
-        "l'attesa",
-        "wait"
+        "il dubbio che qualcuno abbia fatto qualcosa di male"
       ],
       [
         "il presagio",
-        "foreboding"
+        "un segno che sembra annunciare il futuro"
+      ],
+      [
+        "il rimorso",
+        "il dolore per aver fatto qualcosa di male"
+      ],
+      [
+        "lo scrigno",
+        "una piccola cassa preziosa per gioielli e ricordi"
+      ],
+      [
+        "l'astuccio",
+        "una piccola custodia per oggetti delicati"
       ],
       [
         "presagire",
-        "to foretell"
+        "prevedere il futuro da piccoli segni"
       ],
       [
         "paventare",
-        "to dread"
+        "temere (letterario); presentare come un pericolo"
       ],
       [
         "svelare",
-        "to reveal"
-      ],
-      [
-        "ingannare",
-        "to deceive"
+        "rivelare un segreto"
       ],
       [
         "celare",
-        "to hide"
+        "nascondere (letterario)"
+      ],
+      [
+        "ingannare",
+        "far credere il falso"
+      ],
+      [
+        "tergiversare",
+        "evitare di rispondere o di decidere, prendendo tempo"
+      ],
+      [
+        "rimuginare",
+        "pensare a lungo e con ansia alla stessa cosa"
       ],
       [
         "ignaro",
-        "unaware"
+        "che non sa niente"
+      ],
+      [
+        "sprovveduto",
+        "ingenuo, senza esperienza"
       ],
       [
         "di lì a poco",
-        "shortly afterwards"
+        "poco tempo dopo"
+      ],
+      [
+        "a lungo andare",
+        "con il passare del tempo"
+      ],
+      [
+        "gettare la maschera",
+        "mostrarsi finalmente per quello che si è"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
             "il sotterfugio",
-            "subterfuge"
+            "un mezzo nascosto e poco onesto per ottenere qualcosa"
           ],
           [
             "il presagio",
-            "foreboding"
+            "un segno che sembra annunciare il futuro"
           ],
           [
-            "paventare",
-            "to dread"
+            "tergiversare",
+            "evitare di rispondere o di decidere, prendendo tempo"
           ],
           [
-            "celare",
-            "to hide"
+            "rimuginare",
+            "pensare a lungo e con ansia alla stessa cosa"
           ],
           [
-            "ignaro",
-            "unaware"
+            "sprovveduto",
+            "ingenuo, senza esperienza"
           ],
           [
-            "di lì a poco",
-            "shortly afterwards"
+            "gettare la maschera",
+            "mostrarsi finalmente per quello che si è"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "Non {ip:vuole} [[svelare]] il segreto. (to reveal)",
-          "{pp:È stato} vittima di un [[inganno]]. (deception)",
-          "Nell'[[attesa]], {pr:lesse} un libro. (wait)",
-          "{im:Avevo} un brutto [[presagio]]. (foreboding)"
+          {
+            "q": "Dopo anni di silenzio {pp:ha deciso} di ___ il segreto.",
+            "options": [
+              "*svelare",
+              "celare",
+              "paventare"
+            ]
+          },
+          {
+            "q": "{ip:Prova} un forte ___ per quello che {pp:ha fatto}.",
+            "options": [
+              "*rimorso",
+              "presagio",
+              "astuccio"
+            ]
+          },
+          {
+            "q": "{im:Era} del tutto ___ di quello che {im:succedeva}.",
+            "options": [
+              "*ignaro",
+              "sprovveduto",
+              "celato"
+            ]
+          },
+          {
+            "q": "{ip:Conserva} le lettere della nonna in uno ___ di legno.",
+            "options": [
+              "*scrigno",
+              "inganno",
+              "sospetto"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "{imv:Smettila} di [[tergiversare]] e {imv:rispondimi}: sì o no?",
+          "{pr:Arrivò} alle otto, e di lì a [[poco]] {pr:cominciò} a piovere.",
+          "A lungo [[andare]], la verità {ip:viene} sempre fuori.",
+          "Il ministro {pp:ha} [[paventato#pp]] il rischio di una crisi.",
+          "Non mi {ip:fido}: {ip:ho} il [[sospetto]] che {csp:menta}."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "{im:Paventavo} che, se mio fratello {cst:avesse aperto} quel cassetto, {cpa:avrebbe scoperto} che {tp:avevo venduto} l'orologio di nostro padre. Mi {im:ero} illuso che, una volta trovato un compratore discreto, la cosa {cpa:sarebbe rimasta} segreta e che, quando lui {cst:fosse tornato}, {cpa:avrei} già {cpa:ricomprato} l'oggetto.",
-      "Ignaro di tutto, egli mi {pr:scrisse} che {cpa:sarebbe arrivato} di lì a poco e che {im:sperava} che {cst:avessi conservato} i ricordi di famiglia. {im:Sapevo} che, appena {cst:avesse visto} il vuoto nell'astuccio, {cpa:avrebbe capito}. Quella sera mi {pr:chiesi} quanto tempo {cpa:sarebbe durata} ancora la mia menzogna."
+      {
+        "h": "L'orologio"
+      },
+      "{im:Paventavo} che, se mio fratello {cst:avesse aperto} quel cassetto, {cpa:avrebbe scoperto} che {tp:avevo venduto} l'orologio di nostro padre. Mi {tp:ero illuso} che, una volta trovato un compratore discreto, la cosa {cpa:sarebbe rimasta} segreta e che, quando lui {cst:fosse tornato} dall'estero, {cpa:avrei} già {cpa:ricomprato} l'orologio.",
+      "Ignaro di tutto, Paolo mi {pr:scrisse} che {cpa:sarebbe arrivato} di lì a poco e che {im:sperava} che {cst:avessi conservato} con cura i ricordi di famiglia. {im:Sapevo} che, appena {cst:avesse visto} l'astuccio vuoto, {cpa:avrebbe capito} tutto.",
+      "Per giorni {pr:rimuginai}. {cpa:Avrei potuto} inventare un furto, ma {im:temevo} che, se {cst:avessi mentito} ancora, il sotterfugio {cpa:sarebbe diventato} più grave della colpa. Pensando che {csi:fosse} meglio gettare la maschera, gli {pr:telefonai} la sera prima del suo arrivo.",
+      "Paolo {pr:ascoltò} senza interrompermi. Poi {pr:disse} una cosa che non mi {cpa:sarei} mai {cpa:aspettato}: che quell'orologio lo {tp:aveva} sempre {tp:trovato} orribile, e che {cpa:avrebbe preferito} mille volte che gliel'{cst:avessi detto} subito."
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "True or false?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "The narrator had sold his father's watch.",
+            "q": "Che cosa {tp:aveva fatto} il narratore?",
             "options": [
-              "*True",
-              "False"
+              "*{tp:Aveva venduto} l'orologio del padre.",
+              "{tp:Aveva perso} l'orologio.",
+              "{tp:Aveva regalato} l'orologio a Paolo."
             ]
           },
           {
-            "q": "The brother knew about it when he wrote.",
+            "q": "Che cosa {im:sperava} di fare prima del ritorno del fratello?",
             "options": [
-              "True",
-              "*False"
+              "*ricomprare l'orologio",
+              "vendere anche l'astuccio",
+              "partire per l'estero"
             ]
           },
           {
-            "q": "The narrator hoped to buy the watch back.",
+            "q": "Perché non {pr:inventò} un furto?",
             "options": [
-              "*True",
-              "False"
+              "*{im:Temeva} che una nuova bugia {csi:fosse} peggio della colpa.",
+              "Paolo {tp:aveva} già {tp:scoperto} tutto.",
+              "Non {im:aveva} tempo."
             ]
           },
           {
-            "q": "«appena avesse visto» refers to something that had already happened.",
+            "q": "Come {pr:reagì} Paolo?",
             "options": [
-              "True",
-              "*False"
+              "*{pr:Disse} che {cpa:avrebbe preferito} la verità subito.",
+              "Si {pr:arrabbiò} moltissimo.",
+              "{pr:Pretese} che {csi:ricomprasse} l'orologio."
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Paolo {im:sapeva} già della vendita.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il narratore {pr:confessò} tutto prima dell'arrivo di Paolo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Paolo {im:teneva} molto a quell'orologio.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Il narratore si {im:aspettava} la reazione di Paolo.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni forma del testo a quello che esprime.",
+        "pairs": [
+          [
+            "…quando lui {cst:fosse tornato}…",
+            "futuro anteriore visto dal passato"
+          ],
+          [
+            "…{cpa:sarebbe arrivato} di lì a poco",
+            "futuro nel passato"
+          ],
+          [
+            "…che {tp:avevo venduto} l'orologio",
+            "un fatto precedente"
+          ],
+          [
+            "Pensando che {csi:fosse} meglio…",
+            "dipendente da un gerundio"
+          ],
+          [
+            "…se {cst:avessi mentito} ancora",
+            "ipotesi nel passato"
+          ]
         ]
       }
     ]
@@ -292,51 +636,59 @@
   "listening": {
     "transcript": [
       [
-        "Ines",
-        "{im:Temevo} che, se ti {cst:avessi chiamato}, {cpa:avresti capito} tutto."
+        "Livia",
+        "{im:Ero} convinta che, se nessuno {cst:avesse parlato}, la festa {cpa:sarebbe stata} una sorpresa."
       ],
       [
-        "Dario",
-        "{im:Pensavi} che non me ne {cst:fossi accorto}?"
+        "Marco",
+        "E invece? Chi l'{pp:ha detto} a Giulia?"
       ],
       [
-        "Ines",
-        "{im:Speravo} che, quando {cst:avessi saputo}, mi {cpa:avresti perdonata}."
+        "Livia",
+        "Sua madre. {im:Pensava} che Giulia lo {csi:sapesse} già e che {csi:fingesse} di non saperlo."
       ],
       [
-        "Dario",
-        "Mi {im:chiedevo} solo perché non me l'{cst:avessi detto} prima."
+        "Marco",
+        "Che pasticcio! E Giulia come l'{pp:ha presa}?"
       ],
       [
-        "Ines",
-        "{im:Credevo} che ti {cpa:saresti arrabbiato}."
+        "Livia",
+        "Benissimo. {pp:Ha detto} che {cpa:avrebbe fatto} finta di niente finché non {cst:fossimo stati} tutti pronti."
       ],
       [
-        "Dario",
-        "E {im:avevi} ragione."
+        "Marco",
+        "Allora nessuno se ne {fs:accorgerà}. {ip:Credo} che da piccola {csi:fosse} già un'ottima attrice."
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "Se ti [[avessi#cst]] {cst:chiamato}, {cpa:avresti capito} tutto.",
-          "{im:Pensavi} che non me ne [[fossi#cst]] {cst:accorto}?",
-          "Mi {im:chiedevo} solo perché non me l'[[avessi#cst]] {cst:detto} prima.",
-          "{im:Credevo} che ti [[saresti#cpa]] {cpa:arrabbiato}."
+          "Se nessuno [[avesse parlato#cst]], la festa {cpa:sarebbe stata} una sorpresa.",
+          "{im:Pensava} che Giulia lo [[sapesse#csi]] già.",
+          "{cpa:Avrebbe fatto} finta di niente finché non [[fossimo stati#cst]] tutti pronti.",
+          "{ip:Credo} che da piccola [[fosse#csi]] già un'ottima attrice."
         ]
       },
       {
         "type": "choice",
-        "prompt": "How does the conversation end?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Dario…",
+            "q": "Perché la madre {pp:ha parlato} della festa?",
             "options": [
-              "forgives her at once",
-              "*admits that he is angry",
-              "didn't know anything"
+              "*{im:Credeva} che Giulia lo {csi:sapesse} già.",
+              "{im:Voleva} rovinare la sorpresa.",
+              "Non {im:sapeva} che {csi:fosse} un segreto."
+            ]
+          },
+          {
+            "q": "Che cosa {fs:farà} Giulia?",
+            "options": [
+              "*{fs:Farà} finta di non sapere niente.",
+              "Non {fs:verrà} alla festa.",
+              "{fs:Organizzerà} un'altra festa."
             ]
           }
         ]
@@ -347,42 +699,363 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "I was afraid that, if he arrived, he would realise I had lied.",
-            "a": [
-              "Temevo che, se fosse arrivato, avrebbe capito che avevo mentito."
+            "q": "Racconta una volta in cui {im:temevi} che qualcuno {cpa:avrebbe scoperto} qualcosa. Com'{pp:è andata}?"
+          },
+          {
+            "q": "Che cosa {im:pensavi}, da bambino, che {cpa:avresti fatto} da grande?"
+          },
+          {
+            "q": "Che cosa {ip:credi} che {csi:facessero} i tuoi nonni alla tua età?"
+          },
+          {
+            "q": "Ti {pp:hanno} mai {pp:promesso} qualcosa \"appena avessero potuto\"? L'{pp:hanno fatto}?"
+          },
+          {
+            "q": "{ip:È} meglio dire subito una verità scomoda o aspettare il momento giusto? Perché?"
+          },
+          {
+            "q": "Scrivi una frase lunga, con almeno tre livelli di dipendenza, su un ricordo della tua infanzia."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Un passo alla volta"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un uomo davanti a un cassetto aperto e vuoto, con un astuccio in mano",
+          "B — Una donna che guarda l'orologio sul binario deserto di una stazione",
+          "C — Un bambino timido nascosto dietro la gonna della madre",
+          "D — Un uomo che esce di nascosto da una porta sul retro"
+        ],
+        "pairs": [
+          [
+            "Appena {cst:avesse aperto} il cassetto, {cpa:avrebbe capito}.",
+            "immagine A"
+          ],
+          [
+            "{im:Temeva} che il treno non {cpa:sarebbe} mai {cpa:arrivato}.",
+            "immagine B"
+          ],
+          [
+            "{ip:Credo} che da piccolo {csi:fosse} molto timido.",
+            "immagine C"
+          ],
+          [
+            "Convinto che nessuno lo {csi:vedesse}, {pr:uscì} dal retro.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "*{im:Temevo} che, se {cst:fosse arrivato}, {cpa:avrebbe capito} che {tp:avevo mentito}.* Da quale verbo dipende…",
+        "questions": [
+          {
+            "q": "…*avevo mentito*?",
+            "options": [
+              "*da *avrebbe capito*",
+              "da *temevo*",
+              "da *fosse arrivato*"
             ]
           },
           {
-            "q": "I knew that, by the time you read the letter, I would already have left. (a man speaking, informal)",
-            "a": [
-              "Sapevo che, quando avresti letto la lettera, sarei già partito."
+            "q": "…*avrebbe capito*?",
+            "options": [
+              "*da *temevo*",
+              "da *fosse arrivato*",
+              "da *avevo mentito*"
             ]
           },
           {
-            "q": "I wondered where he had gone.",
-            "a": [
-              "Mi chiedevo dove fosse andato.",
-              "Mi chiesi dove fosse andato."
-            ]
-          },
-          {
-            "q": "He told me he thought you had left. (informal, to a woman)",
-            "a": [
-              "Mi ha detto che pensava che fossi partita.",
-              "Mi disse che pensava che fossi partita."
-            ]
-          },
-          {
-            "q": "I hope that, when you've finished, you can rest. (informal)",
-            "a": [
-              "Spero che, quando avrai finito, tu possa riposarti.",
-              "Spero che, quando avrai finito, tu possa riposare."
+            "q": "…*fosse arrivato*?",
+            "options": [
+              "*da *temevo*",
+              "da *avrebbe capito*",
+              "dal momento del racconto"
             ]
           }
         ]
+      },
+      {
+        "h": "Appena avesse finito"
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi la frase al passato, cominciando con il verbo tra parentesi.",
+        "questions": [
+          {
+            "q": "Dice che partirà appena avrà finito. (Disse…)",
+            "a": [
+              "Disse che sarebbe partito appena avesse finito.",
+              "Disse che sarebbe partito non appena avesse finito."
+            ]
+          },
+          {
+            "q": "Promette che, quando arriverai, sarà già pronto. (Promise…)",
+            "a": [
+              "Promise che, quando fossi arrivato, sarebbe già stato pronto.",
+              "Promise che quando fossi arrivato sarebbe già stato pronto."
+            ]
+          },
+          {
+            "q": "Spero che, quando tornerà, avrà cambiato idea. (Speravo…)",
+            "a": [
+              "Speravo che, quando fosse tornato, avrebbe cambiato idea.",
+              "Speravo che quando fosse tornato avrebbe cambiato idea."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Fosse o sia stato?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Congiuntivo imperfetto o passato? Completa con il verbo tra parentesi.",
+        "questions": [
+          "{ip:Credo} che da ragazza mia nonna (essere) [[fosse#csi]] molto vivace.",
+          "{ip:Credo} che la settimana scorsa (essere, lui) [[sia stato#csa]] a Milano.",
+          "{ip:Pare} che, quando {pp:è scoppiato} l'incendio, tutti (dormire) [[dormissero#csi]].",
+          "{ip:Penso} che (lavorare, lei) [[abbia lavorato#csa]] in quell'azienda per trent'anni."
+        ]
+      },
+      {
+        "h": "Lontano dal reggente"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa: il tempo dipende dal verbo coniugato.",
+        "questions": [
+          "{im:Sembrava} sapere che il treno (essere) [[fosse#csi]] già {csi:partito}.",
+          "Nel timore che (piovere) [[piovesse#csi]], {pr:prese} l'ombrello.",
+          "Certi che (vincere, loro) [[avrebbero vinto#cpa]], {pr:festeggiarono} prima della fine."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Pensavo che verrà anche lui.",
+            "a": [
+              "Pensavo che sarebbe venuto anche lui."
+            ]
+          },
+          {
+            "q": "Speravo che tu venga.",
+            "a": [
+              "Speravo che tu venissi.",
+              "Speravo che tu saresti venuto."
+            ]
+          },
+          {
+            "q": "Credevo che sia già partito.",
+            "a": [
+              "Credevo che fosse già partito."
+            ]
+          },
+          {
+            "q": "Disse che sarebbe venuto se avrebbe potuto.",
+            "a": [
+              "Disse che sarebbe venuto se avesse potuto."
+            ]
+          },
+          {
+            "q": "Vorrei che tu sia felice.",
+            "a": [
+              "Vorrei che tu fossi felice."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "appena avesse finito / che sarebbe partito / disse",
+            "a": [
+              "Disse che sarebbe partito appena avesse finito."
+            ]
+          },
+          {
+            "q": "che nessuno lo vedesse / il cassetto / convinto / aprì",
+            "a": [
+              "Convinto che nessuno lo vedesse, aprì il cassetto.",
+              "Convinto che nessuno lo vedesse aprì il cassetto."
+            ]
+          },
+          {
+            "q": "che da piccolo / fosse / credo / timido",
+            "a": [
+              "Credo che da piccolo fosse timido."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Alcune parole si scrivono allo stesso modo ma hanno l'accento in un posto diverso, e cambiano senso: *sùbito* (immediatamente) e *subìto* (participio di *subire*), *àncora* (della nave) e *ancóra* (di nuovo), *prìncipi* (figli di re) e *princìpi* (regole morali), *càpitano* (verbo *capitare*) e *capitàno*. Di solito l'accento non si scrive, perché il contesto basta; si può segnare quando c'è il rischio di un equivoco: *i princìpi della democrazia*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Dove cade l'accento? Scegli il senso giusto.",
+        "questions": [
+          {
+            "q": "Ha subito un torto.",
+            "options": [
+              "*subìto: ha sopportato",
+              "sùbito: immediatamente"
+            ]
+          },
+          {
+            "q": "Vieni subito!",
+            "options": [
+              "*sùbito: immediatamente",
+              "subìto: ha sopportato"
+            ]
+          },
+          {
+            "q": "La nave ha gettato l'ancora.",
+            "options": [
+              "*àncora: della nave",
+              "ancóra: di nuovo"
+            ]
+          },
+          {
+            "q": "È un uomo di sani principi.",
+            "options": [
+              "*princìpi: regole morali",
+              "prìncipi: figli di re"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So trovare il reggente di ogni verbo in un periodo con più livelli.",
+          "So esprimere un futuro anteriore visto dal passato: *appena avesse finito*.",
+          "So scegliere tra *fosse* e *sia stato* dopo un verbo al presente.",
+          "So regolare la concordanza quando il reggente è un nome, un infinito o un gerundio.",
+          "So usare il condizionale passato per il futuro nel passato, anche dopo un verbo che vuole il congiuntivo.",
+          "Riconosco e correggo gli errori di concordanza più comuni."
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Tre teste di pietra allungate, stese su un telo accanto a un canale di Livorno, circondate da fotografi"
+      },
+      {
+        "text": [
+          "**Le false teste di Modigliani**",
+          "Nell'estate del 1984 Livorno {im:festeggiava} il centenario della nascita di Amedeo Modigliani. Una vecchia leggenda {im:raccontava} che nel 1909 l'artista, deluso dalle critiche, {cst:avesse gettato} alcune sue sculture nel Fosso Reale, il canale che {ip:attraversa} la città. Il museo {pr:decise} di dragare il canale, convinto che, se le teste {cst:fossero state} ritrovate, la leggenda {cpa:sarebbe diventata} storia.",
+          "Tra luglio e agosto dal fango {pr:emersero} tre teste di pietra, e diversi esperti {pr:dichiararono} che {im:erano} autentiche. Pochi {im:immaginavano} che, nel giro di qualche settimana, la scoperta {cpa:sarebbe finita} in una delle beffe più famose della storia dell'arte italiana.",
+          "Tre studenti universitari {pr:rivelarono} infatti di aver scolpito una delle teste con un trapano elettrico, per vedere fin dove {csi:arrivasse} la credulità degli esperti, e lo {pr:dimostrarono} rifacendone una davanti alle telecamere. Anche le altre due {pr:risultarono} opera di un giovane artista livornese.",
+          "Gli studenti {pr:dissero} di non aver previsto che lo scherzo {cpa:avrebbe avuto} tanta eco. Da allora, la vicenda delle teste di Modì {ip:viene} ricordata ogni volta che si {ip:discute} di falsi e di autenticità."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Il 1984 {im:era} il centenario della nascita di Modigliani.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Secondo la leggenda, Modigliani {tp:aveva gettato} le sculture nel mare.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Alcuni esperti {pr:considerarono} autentiche le teste ritrovate.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Gli studenti {pr:scolpirono} una testa davanti alle telecamere.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Tutte e tre le teste {im:erano} opera degli studenti.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme che mancano.",
+        "questions": [
+          "Il museo {im:era} convinto che, se le teste [[fossero state#cst]] ritrovate, la leggenda [[sarebbe diventata#cpa]] storia.",
+          "Pochi {im:immaginavano} che la scoperta [[sarebbe finita#cpa]] in una beffa.",
+          "{pr:Dissero} di non aver previsto che lo scherzo [[avrebbe avuto#cpa]] tanta eco."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Conosci un altro falso o una beffa famosa, nell'arte o nella cronaca? Raccontala.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Tutti erano convinti che…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Racconta una bugia (vera o inventata) e il momento in cui è venuta fuori, usando periodi con più livelli di dipendenza.",
+        "cues": [
+          "Che cosa {im:temevi}? (*Temevo che, se…, avrebbe…*)",
+          "Che cosa {im:pensavi} che {cpa:sarebbe successo}? (*appena avesse…*)",
+          "Come {pp:è venuta} fuori la verità? (*Convinto che…, Pensando che…*)",
+          "Com'{pp:è finita}? (*Non mi sarei mai aspettato che…*)"
+        ],
+        "start": "",
+        "model": "Il voto\nAl liceo, per due mesi, avevo nascosto ai miei genitori un quattro in latino. Temevo che, se l'avessero scoperto, mi avrebbero impedito di partire per la gita di classe, a cui tenevo più di ogni altra cosa.\nMi ero convinto che, appena avessi preso un voto migliore, avrei potuto confessare tutto senza conseguenze. Così, ogni sera, rispondevo che a scuola andava benissimo.\nUn giorno, pensando che fossi già uscito, mia madre telefonò alla professoressa. Sentii tutto dal corridoio. Ero sicuro che la sera stessa sarebbe scoppiato un dramma.\nInvece mio padre mi chiamò e mi disse soltanto che non si sarebbe mai aspettato che gli mentissi così a lungo. Alla gita andai lo stesso; il latino, da quel giorno, lo studiai davvero."
       }
     ]
   }

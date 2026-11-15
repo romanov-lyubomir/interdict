@@ -1703,6 +1703,10 @@
             console.log("You are online");
         }, false);
     </script>
+    {% if user_language == "greek" %}
+    {# Latin keys write Greek letters in the answer boxes #}
+    <script src="{{ url_for('static', filename='greek_keys.js') }}"></script>
+    {% endif %}
 </body>
 
 </html>

@@ -1,192 +1,390 @@
 {
   "title": "Che lo {csi:sapesse} o no, poco {ip:importa}",
-  "translation": "Whether he knew or not hardly matters",
-  "topics": "Choosing mood and tense according to meaning, including the less common forms",
+  "translation": "",
+  "topics": "Scegliere il modo per il senso al livello C2: indicativo, congiuntivo e condizionale nella relativa, le concessive colte (*per bravo che sia, checché, che… o che, foss'anche*), il *non* espletivo, congiuntivo o condizionale dopo *che*, la causa negata, le forme retoriche (*sarà…, io, tradirti?, che fare?*); segreti, eredità e verità taciute",
   "grammar": {
     "explain": [
+      "Conosci tutti i modi e tutti i tempi, le regole della concordanza e le espressioni fisse con il congiuntivo. Al livello C2 non si impara una forma nuova, ma si sceglie: lo stesso contenuto, detto con un modo o con un altro, dice qualcosa di diverso, e chi parla rivela con quella scelta quanto è sicuro, quanto prende le distanze e a quale registro appartiene.",
       {
-        "h": "From rules to meaning"
-      },
-      "There are no new forms here. The point is that a competent writer can change a mood and thereby change what's being said.",
-      {
-        "table": {
-          "head": [
-            "Sentence",
-            "What it implies"
-          ],
-          "rows": [
-            [
-              "{ip:Cerco} una casa che {ip:ha} il giardino.",
-              "I have a particular house in mind."
-            ],
-            [
-              "{ip:Cerco} una casa che {csp:abbia} il giardino.",
-              "Any house with a garden will do."
-            ],
-            [
-              "Non {ip:dico} che {ip:ha} torto.",
-              "He is wrong, but I'm not saying so."
-            ],
-            [
-              "Non {ip:dico} che {csp:abbia} torto.",
-              "I'm not claiming that he is wrong."
-            ],
-            [
-              "{ip:Temo} che {fs:verrà}.",
-              "I'm afraid that he will come: I expect it."
-            ],
-            [
-              "{ip:Temo} che {csp:venga}.",
-              "I'm afraid that he may come."
-            ]
-          ]
-        }
-      },
-      {
-        "h": "A denied cause"
-      },
-      "A cause that's being rejected isn't asserted, so it takes the *congiuntivo*: *{pp:È partito} perché {im:era} stanco*, but *{pp:È partito} non perché {csi:fosse} stanco, ma perché si annoiava*.",
-      {
-        "h": "Forms worth having in your range"
-      },
-      {
-        "table": {
-          "head": [
-            "Form",
-            "Example",
-            "Effect"
-          ],
-          "rows": [
-            [
-              "Alternative with che",
-              "Che lo {csi:sapesse} o no, poco {ip:importa}.",
-              "whether… or not"
-            ],
-            [
-              "Exhortation",
-              "{imv:Dicano} pure ciò che {ip:vogliono}.",
-              "let them…"
-            ],
-            [
-              "Come se",
-              "{ip:Parla} come se {csi:sapesse} tutto.",
-              "as if"
-            ],
-            [
-              "Comparison",
-              "{ip:È} più difficile di quanto {csi:pensassi}.",
-              "than I thought"
-            ],
-            [
-              "Future of doubt",
-              "{fs:Sarà}, ma non ci {ip:credo}.",
-              "that may be, but…"
-            ],
-            [
-              "Exclamatory infinitive",
-              "Io, tradirti?",
-              "indignant rejection"
-            ],
-            [
-              "Conditional in a question",
-              "{cop:Sarebbe} a dire?",
-              "meaning what?"
-            ]
-          ]
-        }
-      },
-      {
-        "h": "When more than one form is right"
-      },
-      "After *{ip:spero} che*, both *{imv:venga}* and *{fs:verrà}* are correct: the future sounds more confident. After *{ip:credo} che*, the indicative is heard in speech, but it lowers the register. The skill at this level isn't knowing what's possible, but knowing what each choice says about you."
+        "grid": [
+          {
+            "wide": true,
+            "table": {
+              "title": "Tre modi nella relativa",
+              "head": [
+                "frase",
+                "modo",
+                "che cosa dice"
+              ],
+              "rows": [
+                [
+                  "{ip:Cerco} una segretaria che {ip:parla} tedesco.",
+                  "indicativo",
+                  "ne ho in mente una precisa: esiste"
+                ],
+                [
+                  "{ip:Cerco} una segretaria che {csp:parli} tedesco.",
+                  "congiuntivo",
+                  "una qualsiasi, purché abbia questa qualità"
+                ],
+                [
+                  "{ip:Conosco} qualcuno che ti {cop:aiuterebbe}.",
+                  "condizionale",
+                  "lo farebbe, se glielo chiedessi"
+                ],
+                [
+                  "{ip:È} il libro più bello che {csa:abbia} mai {csa:letto}.",
+                  "congiuntivo",
+                  "dopo un superlativo: registro curato"
+                ],
+                [
+                  "{ip:È} il libro più bello che {pp:ho} mai {pp:letto}.",
+                  "indicativo",
+                  "dopo un superlativo: registro parlato"
+                ]
+              ]
+            },
+            "note": "Nella relativa il modo dice quanto esiste ciò di cui si parla: l'indicativo lo dà per reale, il congiuntivo lo presenta come un requisito, il condizionale come una possibilità legata a una condizione."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Le concessive della lingua colta",
+              "head": [
+                "forma",
+                "esempio",
+                "significato"
+              ],
+              "rows": [
+                [
+                  "*per* + aggettivo + *che* + congiuntivo",
+                  "Per bravo che {csp:sia}, non ce la {fs:farà}.",
+                  "anche se è molto bravo"
+                ],
+                [
+                  "*per poco che* + congiuntivo",
+                  "Per poco che {csp:costi}, non lo {ip:compro}.",
+                  "anche se costa poco"
+                ],
+                [
+                  "*checché* + congiuntivo",
+                  "Checché se ne {csp:dica}, {ip:è} un buon libro.",
+                  "qualunque cosa se ne dica"
+                ],
+                [
+                  "*che… o che* + congiuntivo",
+                  "Che {csp:piova} o che {csp:faccia} bello, {ip:partiamo}.",
+                  "in tutti e due i casi"
+                ],
+                [
+                  "*che… o no*",
+                  "Che lo {csi:sapesse} o no, poco {ip:importa}.",
+                  "non importa se lo sapeva"
+                ],
+                [
+                  "*foss'anche*",
+                  "Lo {fs:farò}, foss'anche l'ultima cosa che {ip:faccio}.",
+                  "anche se dovesse essere"
+                ]
+              ]
+            },
+            "note": "Sono forme scritte o molto curate. *Per… che* e *checché* vogliono sempre il congiuntivo; *che… o che* presenta due possibilità come indifferenti per il risultato."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Il *non* che non nega",
+              "head": [
+                "frase",
+                "significato",
+                "nota"
+              ],
+              "rows": [
+                [
+                  "{ip:Resto} finché non {ip:arrivi}.",
+                  "resto fino al momento in cui arrivi",
+                  "*finché* e *finché non* hanno lo stesso senso"
+                ],
+                [
+                  "{ip:Esco}, a meno che non {csp:piova}.",
+                  "esco, se non piove",
+                  "il *non* si può togliere"
+                ],
+                [
+                  "{ip:È} più facile di quanto non {csp:sembri}.",
+                  "sembra più difficile di quello che è",
+                  "nei confronti, registro colto"
+                ],
+                [
+                  "Per poco non {im:cadevo}.",
+                  "sono quasi caduto",
+                  "*per poco non* + imperfetto o passato prossimo"
+                ],
+                [
+                  "{ip:Temo} che non {csp:venga}.",
+                  "ho paura che non venga",
+                  "qui il *non* nega davvero"
+                ]
+              ]
+            },
+            "note": "In queste frasi il *non* (detto *espletivo*) non cambia il senso: rafforza l'idea di attesa, di limite o di confronto. Attenzione a *temere che non*, dove invece il *non* nega: *Temo che venga* (ho paura che venga), *Temo che non venga* (ho paura che non venga)."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Congiuntivo o condizionale dopo *che*?",
+              "head": [
+                "frase",
+                "modo",
+                "perché"
+              ],
+              "rows": [
+                [
+                  "{ip:Credo} che {csa:sia} già {csa:partito}.",
+                  "congiuntivo",
+                  "un'opinione su un fatto"
+                ],
+                [
+                  "{ip:Credo} che, se glielo {csi:chiedessi}, {cop:accetterebbe}.",
+                  "condizionale",
+                  "la conseguenza di un'ipotesi"
+                ],
+                [
+                  "Non {ip:penso} che, anche invitato, {cop:verrebbe}.",
+                  "condizionale",
+                  "l'ipotesi è sottintesa"
+                ],
+                [
+                  "{im:Ero} sicuro che {cpa:avrebbe accettato}.",
+                  "condizionale passato",
+                  "il futuro visto dal passato"
+                ],
+                [
+                  "{ip:Penso} che {cop:sarebbe} meglio aspettare.",
+                  "condizionale",
+                  "se aspettassimo: un consiglio attenuato"
+                ]
+              ]
+            },
+            "note": "Dopo un verbo di opinione il congiuntivo è la regola, ma quando la dipendente è la conseguenza di un'ipotesi (detta o sottintesa) serve il condizionale: ✗ *Credo che, se glielo chiedessi, accettasse*."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Negare una causa",
+              "head": [
+                "forma",
+                "esempio",
+                "modo"
+              ],
+              "rows": [
+                [
+                  "*non perché…, ma perché…*",
+                  "{pp:È partito} non perché {csi:fosse} stanco, ma perché si {im:annoiava}.",
+                  "congiuntivo la causa negata, indicativo quella vera"
+                ],
+                [
+                  "*non che…, ma*",
+                  "Non che non mi {csp:piaccia}, ma {ip:costa} troppo.",
+                  "congiuntivo"
+                ],
+                [
+                  "*non tanto perché… quanto perché*",
+                  "{pp:Ha accettato} non tanto perché {im:voleva} i soldi, quanto perché {im:amava} quel lavoro.",
+                  "indicativo: tutte e due le cause sono vere"
+                ],
+                [
+                  "*non già che*",
+                  "Non già che {csi:avesse} torto: {im:era} solo troppo sicuro di sé.",
+                  "congiuntivo, letterario"
+                ]
+              ]
+            },
+            "note": "Una causa che si nega non è affermata, e per questo vuole il congiuntivo. Con *non tanto… quanto* invece nessuna causa è negata: una è solo meno importante dell'altra."
+          },
+          {
+            "wide": true,
+            "table": {
+              "title": "Forme con valore retorico",
+              "head": [
+                "forma",
+                "esempio",
+                "effetto"
+              ],
+              "rows": [
+                [
+                  "futuro concessivo",
+                  "{fs:Sarà}, ma non ci {ip:credo}. {fs:Avrà} anche ragione, ma…",
+                  "ammetto, ma dubito"
+                ],
+                [
+                  "infinito esclamativo",
+                  "Io, tradirti? Lui, chiedere scusa?",
+                  "rifiuto indignato di un'idea"
+                ],
+                [
+                  "infinito deliberativo",
+                  "Che fare? A chi rivolgersi?",
+                  "un dubbio su che cosa fare"
+                ],
+                [
+                  "condizionale nella domanda",
+                  "{cop:Sarebbe} a dire?",
+                  "chiedo di spiegare un'allusione"
+                ],
+                [
+                  "*vuoi vedere che* + indicativo",
+                  "Vuoi vedere che {ip:piove}?",
+                  "scommetto che succederà"
+                ]
+              ]
+            },
+            "note": "Queste forme non informano: commentano. Il futuro concessivo (*sarà…, avrà anche…*) concede qualcosa solo per contestarlo subito dopo."
+          }
+        ]
+      }
     ]
   },
   "use": {
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Which form conveys the meaning in brackets?",
+        "prompt": "Indicativo, congiuntivo o condizionale? Scegli secondo il senso.",
         "questions": [
           {
-            "q": "{ip:Cerco} un medico che ___ il russo. (any such doctor)",
-            "options": [
-              "{ip:parla}",
-              "*{ip:parli}"
-            ]
-          },
-          {
-            "q": "{ip:Cerco} un medico che ___ il russo: me ne {pp:ha parlato} Anna. (a particular one)",
+            "q": "{ip:Cerco} una segretaria che ___ tedesco: me ne {pp:hanno parlato} ieri, si chiama Elena.",
             "options": [
               "*{ip:parla}",
-              "{ip:parli}"
+              "{csp:parli}"
             ]
           },
           {
-            "q": "Non {ip:dico} che ___ torto. (I'm making no such claim)",
+            "q": "{ip:Cerco} una segretaria che ___ tedesco: una qualsiasi, purché lo {csp:sappia} bene.",
             "options": [
-              "{ip:ha}",
-              "*{csp:abbia}"
+              "*{csp:parli}",
+              "{ip:parla}"
             ]
           },
           {
-            "q": "{pp:È partito} non perché ___ stanco, ma per noia.",
+            "q": "{ip:Conosco} qualcuno che ti ___ volentieri, se glielo {csi:chiedessi}.",
             "options": [
-              "{im:era}",
-              "*{csi:fosse}"
+              "*{cop:aiuterebbe}",
+              "{csp:aiuti}"
             ]
           },
           {
-            "q": "{ip:È} più difficile di quanto ___ . (formal)",
+            "q": "In una recensione: {ip:è} il romanzo più bello che io ___ mai ___ .",
             "options": [
-              "*{csi:pensassi}",
-              "{ip:penso}",
-              "{cop:penserei}"
-            ]
-          },
-          {
-            "q": "{ip:Parla} come se ___ tutto.",
-            "options": [
-              "{ip:sa}",
-              "*{csi:sapesse}",
-              "{cop:saprebbe}"
+              "*{csa:abbia letto}",
+              "{cpa:avrei letto}"
             ]
           }
         ]
       },
       {
         "type": "gap",
-        "prompt": "Complete with the form that the sense requires.",
+        "prompt": "Completa la concessiva.",
         "questions": [
-          "Che lo [[sapesse#csi]] o no, poco {ip:importa}. (sapere, past)",
-          "[[Dicano#imv]] pure ciò che {ip:vogliono}. (dire, loro)",
-          "Si {ip:comporta} come se nulla [[fosse#cst]] {cst:successo}. (essere)",
-          "Non che io [[voglia#csp]] criticarti, ma… (volere)",
-          "Chiunque l'[[abbia#csa]] {csa:detto}, {pp:ha mentito}. (avere)"
+          "Per bravo che [[sia#csp]], non ce la {fs:farà}.",
+          "[[Checché]] se ne {csp:dica}, {ip:è} un buon libro.",
+          "Lo {fs:farò}, [[foss'anche|fosse anche]] l'ultima cosa che {ip:faccio}.",
+          "Che {csp:piova} [[o che]] {csp:faccia} bello, {ip:partiamo}.",
+          "Per [[poco]] che {csp:costi}, non lo {ip:compro}."
         ]
       },
       {
         "type": "match",
-        "prompt": "Match each sentence with what it conveys.",
+        "prompt": "Abbina ogni frase al suo significato.",
+        "pairs": [
+          [
+            "{ip:Resto} finché non {ip:arrivi}.",
+            "resto fino al momento in cui arrivi"
+          ],
+          [
+            "Per poco non {im:cadevo}.",
+            "sono quasi caduto"
+          ],
+          [
+            "{ip:È} più facile di quanto non {csp:sembri}.",
+            "sembra più difficile di quello che è"
+          ],
+          [
+            "{ip:Esco}, a meno che non {csp:piova}.",
+            "esco, se non piove"
+          ],
+          [
+            "{ip:Temo} che non {csp:venga}.",
+            "ho paura che non venga"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Congiuntivo o condizionale?",
+        "questions": [
+          {
+            "q": "{ip:Credo} che, se glielo {csi:chiedessi}, ___ .",
+            "options": [
+              "*{cop:accetterebbe}",
+              "{csi:accettasse}"
+            ]
+          },
+          {
+            "q": "{ip:Credo} che ___ già ___ : la sua macchina non c'{ip:è}.",
+            "options": [
+              "*{csa:sia partito}",
+              "{cpa:sarebbe partito}"
+            ]
+          },
+          {
+            "q": "{im:Ero} sicuro che ___ , e infatti {pp:è venuto}.",
+            "options": [
+              "*{cpa:sarebbe venuto}",
+              "{csi:venisse}"
+            ]
+          },
+          {
+            "q": "Non {ip:penso} che, anche se lo {csi:invitassimo}, ___ .",
+            "options": [
+              "*{cop:verrebbe}",
+              "{csp:venga}"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa: quale causa è negata e quale è vera?",
+        "questions": [
+          "{pp:È partito} non perché [[fosse#csi]] stanco, ma perché si {im:annoiava}.",
+          "Non che non mi [[piaccia#csp]], ma {ip:costa} troppo.",
+          "{pp:Ha accettato} non tanto perché {im:voleva} i soldi, [[quanto]] perché {im:amava} quel lavoro.",
+          "{pp:Ha taciuto} non perché {csi:avesse} paura, ma perché non {im:voleva} [[ferire|offendere]] nessuno."
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase all'effetto che produce.",
         "pairs": [
           [
             "{fs:Sarà}, ma non ci {ip:credo}.",
-            "polite disbelief"
+            "ammetto l'ipotesi, ma dubito"
           ],
           [
             "Io, tradirti?",
-            "indignant rejection"
+            "rifiuto indignato"
+          ],
+          [
+            "Che fare?",
+            "dubbio su che cosa fare"
           ],
           [
             "{cop:Sarebbe} a dire?",
-            "a request to explain"
+            "chiedo di spiegare un'allusione"
           ],
           [
-            "Magari {csi:fosse} così!",
-            "a wish thought unlikely"
-          ],
-          [
-            "{imv:Dicano} pure.",
-            "a resigned permission"
+            "Vuoi vedere che {ip:piove}?",
+            "scommetto che succederà"
           ]
         ]
       }
@@ -195,139 +393,275 @@
   "vocabulary": {
     "words": [
       [
-        "l'allusione",
-        "allusion"
+        "l'eredità",
+        "i beni che si ricevono da chi è morto"
       ],
       [
-        "l'insinuazione",
-        "insinuation"
+        "l'erede",
+        "chi riceve un'eredità"
       ],
       [
-        "il sottinteso",
-        "implied meaning"
+        "il testamento",
+        "il documento con cui si decide a chi lasciare i propri beni"
+      ],
+      [
+        "il lascito",
+        "una parte dell'eredità lasciata a qualcuno"
+      ],
+      [
+        "il notaio",
+        "il professionista che rende ufficiali atti e contratti"
       ],
       [
         "la reticenza",
-        "reticence"
+        "il tacere di proposito una parte della verità"
       ],
       [
-        "l'ambiguità",
-        "ambiguity"
+        "l'insinuazione",
+        "un'accusa fatta capire senza dirla apertamente"
+      ],
+      [
+        "l'allusione",
+        "un riferimento indiretto a qualcosa"
+      ],
+      [
+        "la diceria",
+        "una voce che circola senza prove"
+      ],
+      [
+        "la congettura",
+        "un'ipotesi non ancora dimostrata"
+      ],
+      [
+        "il movente",
+        "la ragione che spinge a compiere un'azione, spesso un reato"
       ],
       [
         "insinuare",
-        "to insinuate"
+        "far capire qualcosa di negativo senza dirlo"
       ],
       [
         "sottintendere",
-        "to imply"
+        "lasciar capire senza dire"
       ],
       [
-        "tradire",
-        "to betray"
+        "avallare",
+        "confermare con la propria autorità"
       ],
       [
-        "disilluso",
-        "disillusioned"
+        "sviare",
+        "allontanare dalla direzione giusta (*sviare i sospetti*)"
+      ],
+      [
+        "dissimulare",
+        "nascondere ciò che si pensa o si prova"
+      ],
+      [
+        "reticente",
+        "che non dice tutto quello che sa"
       ],
       [
         "ambiguo",
-        "ambiguous"
+        "che si può capire in più modi"
       ],
       [
         "beninteso",
-        "of course, mind you"
+        "certo, naturalmente (per precisare)"
       ],
       [
-        "semmai",
-        "if anything"
+        "a mezza bocca",
+        "dicendo e non dicendo, con reticenza"
       ]
     ],
     "exercises": [
       {
         "type": "match",
-        "prompt": "Match each word with its translation.",
+        "prompt": "Abbina ogni espressione al suo significato.",
         "pairs": [
           [
-            "l'insinuazione",
-            "insinuation"
-          ],
-          [
-            "il sottinteso",
-            "implied meaning"
+            "il lascito",
+            "una parte dell'eredità lasciata a qualcuno"
           ],
           [
             "la reticenza",
-            "reticence"
+            "il tacere di proposito una parte della verità"
           ],
           [
-            "sottintendere",
-            "to imply"
+            "la diceria",
+            "una voce che circola senza prove"
           ],
           [
-            "disilluso",
-            "disillusioned"
+            "il movente",
+            "la ragione che spinge a compiere un'azione, spesso un reato"
           ],
           [
-            "semmai",
-            "if anything"
+            "avallare",
+            "confermare con la propria autorità"
+          ],
+          [
+            "a mezza bocca",
+            "dicendo e non dicendo, con reticenza"
           ]
         ]
       },
       {
-        "type": "gap",
-        "prompt": "Complete with the Italian word.",
+        "type": "choice",
+        "prompt": "Scegli la parola giusta.",
         "questions": [
-          "La sua frase {ip:è} volutamente [[ambigua]]. (ambiguous)",
-          "Non {ip:accetto} queste [[insinuazioni]]! (insinuations)",
-          "Non mi {pp:ha} [[tradito#pp]] mai. (betrayed)",
-          "[[Beninteso]], si {ip:tratta} di un'ipotesi. (mind you)"
+          {
+            "q": "Nel ___ il nonno {pp:ha lasciato} la casa ai nipoti.",
+            "options": [
+              "*testamento",
+              "movente",
+              "lascito"
+            ]
+          },
+          {
+            "q": "La polizia non {ip:ha} ancora capito il ___ del furto.",
+            "options": [
+              "*movente",
+              "notaio",
+              "testamento"
+            ]
+          },
+          {
+            "q": "Non {ip:è} un fatto, {ip:è} solo una ___ .",
+            "options": [
+              "*congettura",
+              "eredità",
+              "erede"
+            ]
+          },
+          {
+            "q": "{ip:Ha} parlato in modo ___ : ognuno {pp:ha capito} una cosa diversa.",
+            "options": [
+              "*ambiguo",
+              "reticente",
+              "disilluso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con la parola giusta.",
+        "questions": [
+          "Che cosa {ip:vuoi} [[insinuare]]? {imv:Dillo} chiaramente!",
+          "Il direttore non {pp:ha} [[avallato#pp]] la decisione.",
+          "Con quella telefonata {pp:ha} [[sviato#pp]] i sospetti.",
+          "{ip:Sorrideva} per [[dissimulare]] la rabbia.",
+          "L'unico [[erede]] {ip:è} il figlio maggiore."
         ]
       }
     ]
   },
   "reading": {
     "text": [
-      "Che il vecchio notaio {csi:sapesse} o no di quella seconda famiglia, poco {ip:importa}, ormai. Non {ip:è} che gli eredi {csi:volessero} nascondere qualcosa; semmai, {cpa:avrebbero preferito} che nessuno {csi:ponesse} domande. {fs:Sarà}, {im:diceva} il maresciallo, ma una lettera non si {ip:smarrisce} come se {csi:fosse} un ombrello.",
-      "{pr:Fu} più difficile di quanto chiunque {csi:immaginasse}. {im:Cercavano} una persona che {csi:ricordasse} quegli anni, e l'unica che ne {csi:fosse} in grado {im:era} una domestica ultranovantenne. {pr:Parlò} non perché la {csi:interrogassero}, ma perché, {pr:disse}, a una certa età si {ip:ha} fretta di dire il vero. {imv:Dicano} pure, {pr:aggiunse}, che {ip:sono} pazza."
+      {
+        "h": "La lettera del notaio"
+      },
+      "Che il vecchio notaio Ferri {csi:sapesse} o no dell'esistenza di quella seconda famiglia, ormai poco {ip:importa}. Quello che {ip:è} certo {ip:è} che nel suo testamento c'{im:era} un lascito per una donna di cui nessuno, in paese, {tp:aveva} mai {tp:sentito} parlare. Gli eredi, beninteso, non ne {pr:fecero} parola con nessuno: non perché {csi:avessero} qualcosa da nascondere, {pr:dissero}, ma perché la cosa non {im:riguardava} che loro.",
+      "Per discreti che {csi:fossero}, le dicerie {pr:cominciarono} presto. La faccenda {im:era} più complicata di quanto non {csi:sembrasse}: la donna {im:risultava} irreperibile, e l'unica persona che {cpa:avrebbe potuto} spiegare tutto {im:era} la domestica del notaio, che {im:aveva} più di novant'anni.",
+      "Il maresciallo {pr:andò} a trovarla, convinto che non {cpa:avrebbe parlato}. Invece la donna {pr:raccontò} tutto senza farsi pregare. «Tacere, io? A novant'anni?» {pr:disse}. «Per poco non me lo {im:portavo} nella tomba, questo segreto.»",
+      "La donna del lascito, {pr:spiegò}, {im:era} la figlia che il notaio {tp:aveva avuto} in gioventù e che non {tp:aveva} mai {tp:potuto} riconoscere. «{fs:Sarà} anche uno scandalo», {pr:concluse}, «ma io {ip:credo} che oggi lui {cop:sarebbe} contento di sapere che finalmente si {ip:sa}.»"
     ],
     "exercises": [
       {
         "type": "choice",
-        "prompt": "Choose the right answer.",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "«Che il notaio sapesse o no» suggests that…",
+            "q": "Che cosa c'{im:era} di strano nel testamento?",
             "options": [
-              "he certainly knew",
-              "*the question no longer matters",
-              "he certainly didn't know"
+              "*un lascito per una donna sconosciuta",
+              "un debito nascosto",
+              "una casa all'estero"
             ]
           },
           {
-            "q": "What would the heirs have preferred?",
+            "q": "Perché gli eredi {pr:tacquero}, secondo loro?",
             "options": [
-              "A public inquiry",
-              "*That nobody asked questions",
-              "To sell the house"
+              "*La cosa {im:riguardava} solo loro.",
+              "{im:Avevano} qualcosa da nascondere.",
+              "Non {im:sapevano} niente."
             ]
           },
           {
-            "q": "Why did the maid speak?",
+            "q": "Che cosa si {im:aspettava} il maresciallo?",
             "options": [
-              "She was questioned",
-              "She was paid",
-              "*She felt the urge to tell the truth"
+              "*che la domestica non {csi:parlasse}",
+              "che la domestica {csi:mentisse}",
+              "che la donna {csi:tornasse}"
             ]
           },
           {
-            "q": "«{imv:Dicano} pure» expresses…",
+            "q": "Chi {im:era} la donna del lascito?",
             "options": [
-              "*defiant indifference",
-              "a formal request",
-              "uncertainty about the past"
+              "*una figlia del notaio",
+              "la domestica",
+              "una nipote degli eredi"
             ]
           }
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "In paese tutti {im:conoscevano} la donna del lascito.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Le dicerie {pr:cominciarono} nonostante la discrezione degli eredi.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "La domestica {pr:rifiutò} di parlare.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo la domestica, il notaio oggi {cop:sarebbe} contento che la verità si {csi:sapesse}.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "match",
+        "prompt": "Abbina ogni frase del testo alla forma che usa.",
+        "pairs": [
+          [
+            "Che il notaio {csi:sapesse} o no…",
+            "alternativa: che… o no"
+          ],
+          [
+            "…non perché {csi:avessero} qualcosa da nascondere",
+            "causa negata"
+          ],
+          [
+            "Per discreti che {csi:fossero}…",
+            "concessiva: per… che"
+          ],
+          [
+            "…più complicata di quanto non {csi:sembrasse}",
+            "non espletivo"
+          ],
+          [
+            "Tacere, io?",
+            "infinito esclamativo"
+          ]
         ]
       }
     ]
@@ -336,50 +670,58 @@
     "transcript": [
       [
         "Anselmo",
-        "{ip:Dicono} che {csi:sapesse} tutto fin dall'inizio."
+        "{pp:Hai sentito}? {ip:Dicono} che il notaio {csi:sapesse} tutto fin dall'inizio."
       ],
       [
         "Bice",
-        "{fs:Sarà}. Non che mi {csp:stupisca}, comunque."
+        "{fs:Sarà}. Non che mi {csp:stupisca}, comunque: {im:era} un uomo che non {im:diceva} mai più di quanto non {csi:fosse} necessario."
       ],
       [
         "Anselmo",
-        "Si {ip:comporta} come se nulla {csi:fosse}."
+        "Sì, ma perché tacere per cinquant'anni? Che senso {ip:ha}?"
       ],
       [
         "Bice",
-        "Non {ip:dico} che {csa:abbia mentito}, ma {ip:è} strano."
+        "Non perché se ne {csi:vergognasse}, secondo me. Per riservato che {csi:fosse}, quella figlia l'{pp:ha aiutata} sempre, di nascosto."
       ],
       [
         "Anselmo",
-        "{cop:Sarebbe} a dire?"
+        "E tu come lo {ip:sai}?"
       ],
       [
         "Bice",
-        "{ip:È} più furbo di quanto tu {csp:creda}."
+        "Lo {ip:sa} mezzo paese, solo che ne {ip:parla} a mezza bocca. Vuoi vedere che adesso tutti {fs:diranno} di averlo sempre saputo?"
       ]
     ],
     "exercises": [
       {
         "type": "gap",
-        "prompt": "Complete the sentences from the dialogue.",
+        "prompt": "Completa con le parole del dialogo.",
         "questions": [
-          "{ip:Dicono} che [[sapesse#csi]] tutto fin dall'inizio.",
-          "Non che mi [[stupisca#csp]], comunque.",
-          "Non {ip:dico} che [[abbia#csa]] {csa:mentito}.",
-          "{ip:È} più furbo di quanto tu [[creda#csp]]."
+          "{ip:Dicono} che il notaio [[sapesse#csi]] tutto fin dall'inizio.",
+          "Non {im:diceva} mai più di quanto non [[fosse#csi]] necessario.",
+          "Non perché se ne [[vergognasse#csi]], secondo me.",
+          "Per riservato che [[fosse#csi]], quella figlia l'{pp:ha aiutata} sempre."
         ]
       },
       {
         "type": "choice",
-        "prompt": "How does Bice express her view?",
+        "prompt": "Scegli la risposta giusta.",
         "questions": [
           {
-            "q": "Bice…",
+            "q": "Che cosa {ip:pensa} Bice delle voci sul notaio?",
             "options": [
-              "accuses him openly",
-              "*hints, without quite accusing him",
-              "defends him fully"
+              "*Non la {ip:stupiscono}.",
+              "Le {ip:sembrano} false.",
+              "Non le {pp:ha} mai {pp:sentite}."
+            ]
+          },
+          {
+            "q": "Che cosa {ip:prevede} Bice?",
+            "options": [
+              "*che tutti {fs:diranno} di averlo sempre saputo",
+              "che il paese {fs:dimenticherà} la storia",
+              "che la figlia {fs:tornerà}"
             ]
           }
         ]
@@ -390,45 +732,400 @@
     "exercises": [
       {
         "type": "write",
-        "prompt": "Write in Italian.",
+        "prompt": "E tu? Rispondi usando le forme della lezione.",
+        "open": true,
         "questions": [
           {
-            "q": "Whether he knew or not hardly matters.",
-            "a": [
-              "Che lo sapesse o no, poco importa.",
-              "Che lo sapesse o meno, poco importa."
+            "q": "C'{ip:è} un segreto di famiglia, vero o inventato, che ti {cop:piacerebbe} raccontare? Che lo {csi:sapessero} tutti o no, che cosa {pp:ha cambiato}?"
+          },
+          {
+            "q": "{ip:Cerchi} una casa, un lavoro o una persona che {csp:abbia} certe qualità? Quali?"
+          },
+          {
+            "q": "C'{ip:è} qualcosa che {cop:faresti}, foss'anche l'ultima cosa della tua vita?"
+          },
+          {
+            "q": "Racconta una volta in cui per poco non {pp:è successo} un guaio."
+          },
+          {
+            "q": "Per bravo che {csp:sia} qualcuno, che cosa non {fs:potrà} mai fare senza l'aiuto degli altri?"
+          },
+          {
+            "q": "È giusto tacere una verità per proteggere qualcuno? Non tanto per…, quanto per…"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "blocks": [
+      {
+        "h": "Una casa che abbia il giardino"
+      },
+      {
+        "type": "match",
+        "prompt": "Guarda le immagini e abbina ogni frase all'immagine giusta.",
+        "pictures": [
+          "A — Un uomo che sfoglia annunci immobiliari con una matita in mano",
+          "B — Un signore anziano che inciampa su un gradino e si aggrappa alla ringhiera",
+          "C — Una donna che alza le spalle davanti a una lettera aperta",
+          "D — Un ciclista che pedala sotto la pioggia, sorridendo"
+        ],
+        "pairs": [
+          [
+            "{ip:Cerco} un appartamento che {csp:abbia} la terrazza.",
+            "immagine A"
+          ],
+          [
+            "Per poco non {im:cadeva}.",
+            "immagine B"
+          ],
+          [
+            "Che {csp:sia} vero o no, poco {ip:importa}.",
+            "immagine C"
+          ],
+          [
+            "Che {csp:piova} o che {csp:faccia} bello, {ip:esce} in bicicletta.",
+            "immagine D"
+          ]
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Che cosa dice la frase?",
+        "questions": [
+          {
+            "q": "{ip:Cerco} un medico che {ip:parla} inglese.",
+            "options": [
+              "*Ne ho in mente uno preciso.",
+              "Mi va bene uno qualsiasi che parli inglese."
             ]
           },
           {
-            "q": "He behaves as if nothing had happened.",
-            "a": [
-              "Si comporta come se nulla fosse successo.",
-              "Si comporta come se niente fosse successo."
+            "q": "{ip:Cerco} un medico che {csp:parli} inglese.",
+            "options": [
+              "*Mi va bene uno qualsiasi che parli inglese.",
+              "Ne ho in mente uno preciso."
             ]
           },
           {
-            "q": "It's harder than I thought.",
-            "a": [
-              "È più difficile di quanto pensassi.",
-              "È più difficile di quanto credessi."
-            ]
-          },
-          {
-            "q": "He left not because he was tired, but because he was bored.",
-            "a": [
-              "È partito non perché fosse stanco, ma perché si annoiava.",
-              "Se n'è andato non perché fosse stanco, ma perché si annoiava."
-            ]
-          },
-          {
-            "q": "Let them say what they want.",
-            "a": [
-              "Dicano ciò che vogliono.",
-              "Dicano pure ciò che vogliono.",
-              "Dicano quello che vogliono."
+            "q": "{ip:Conosco} un avvocato che ti {cop:difenderebbe}.",
+            "options": [
+              "*Lo farebbe, se glielo chiedessi.",
+              "Ti difende già."
             ]
           }
         ]
+      },
+      {
+        "h": "Per bravo che sia"
+      },
+      {
+        "type": "gap",
+        "prompt": "Completa con *per… che, checché, che… o che, foss'anche*.",
+        "questions": [
+          "[[Per]] ricco che {csp:sia}, non {ip:è} felice.",
+          "[[Checché]] ne {csp:pensino} gli altri, io {ip:resto}.",
+          "Che {csp:vinca} [[o che]] {csp:perda}, {ip:sarò} fiero di lui.",
+          "{fs:Andrò} fino in fondo, [[foss'anche|fosse anche]] da solo."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Riscrivi la frase con la forma tra parentesi.",
+        "questions": [
+          {
+            "q": "Anche se è molto bravo, non ce la farà. (per… che)",
+            "a": [
+              "Per bravo che sia, non ce la farà.",
+              "Per quanto bravo sia, non ce la farà."
+            ]
+          },
+          {
+            "q": "Qualunque cosa dicano, io parto. (checché)",
+            "a": [
+              "Checché dicano, io parto.",
+              "Checché ne dicano, io parto."
+            ]
+          },
+          {
+            "q": "Non importa se lo sapeva o no. (che… o no)",
+            "a": [
+              "Che lo sapesse o no, non importa.",
+              "Che lo sapesse o no, poco importa."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il non che non nega"
+      },
+      {
+        "type": "choice",
+        "prompt": "In queste frasi il *non* nega davvero?",
+        "questions": [
+          {
+            "q": "{ip:Aspetto} finché non {ip:arriva}.",
+            "options": [
+              "*No: vuol dire *fino a quando arriva*.",
+              "Sì: vuol dire che non arriva."
+            ]
+          },
+          {
+            "q": "{ip:Temo} che non {csp:venga}.",
+            "options": [
+              "*Sì: ho paura che non venga.",
+              "No: ho paura che venga."
+            ]
+          },
+          {
+            "q": "{ip:È} più bravo di quanto non {csp:sembri}.",
+            "options": [
+              "*No: è un confronto.",
+              "Sì: non sembra bravo."
+            ]
+          },
+          {
+            "q": "Per poco non {pp:ho perso} il treno.",
+            "options": [
+              "*No: l'ho quasi perso, ma l'ho preso.",
+              "Sì: non l'ho perso affatto, ero in anticipo."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Sarebbe o sia?"
+      },
+      {
+        "type": "gap",
+        "prompt": "Congiuntivo o condizionale? Completa con il verbo tra parentesi.",
+        "questions": [
+          "{ip:Credo} che, se lo {csi:sapesse}, (arrabbiarsi) [[si arrabbierebbe#cop]].",
+          "{ip:Credo} che (essere, lui) [[sia#csp]] già a casa: la luce {ip:è} accesa.",
+          "{im:Eravamo} certi che (vincere, loro) [[avrebbero vinto#cpa]].",
+          "{ip:Penso} che, al tuo posto, (accettare, io) [[accetterei#cop]]."
+        ]
+      },
+      {
+        "h": "Attenzione agli errori"
+      },
+      {
+        "type": "write",
+        "prompt": "Trova l'errore e riscrivi la frase giusta.",
+        "questions": [
+          {
+            "q": "Per bravo che è, non ce la farà.",
+            "a": [
+              "Per bravo che sia, non ce la farà."
+            ]
+          },
+          {
+            "q": "È partito non perché era stanco, ma perché si annoiava.",
+            "a": [
+              "È partito non perché fosse stanco, ma perché si annoiava."
+            ]
+          },
+          {
+            "q": "Credo che, se glielo chiedessi, accettasse.",
+            "a": [
+              "Credo che, se glielo chiedessi, accetterebbe."
+            ]
+          },
+          {
+            "q": "Checché dicono, è un buon libro.",
+            "a": [
+              "Checché dicano, è un buon libro.",
+              "Checché se ne dica, è un buon libro."
+            ]
+          },
+          {
+            "q": "Cerco una casa che abbia il giardino: l'ho vista ieri in via Roma.",
+            "a": [
+              "Cerco una casa che ha il giardino: l'ho vista ieri in via Roma.",
+              "Cerco la casa che ha il giardino: l'ho vista ieri in via Roma."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Metti le parole in ordine e scrivi la frase.",
+        "questions": [
+          {
+            "q": "o no / che lo sapesse / poco importa",
+            "a": [
+              "Che lo sapesse o no, poco importa.",
+              "Che lo sapesse o no poco importa."
+            ]
+          },
+          {
+            "q": "di quanto / è più facile / non sembri",
+            "a": [
+              "È più facile di quanto non sembri."
+            ]
+          },
+          {
+            "q": "non / per poco / cadevo",
+            "a": [
+              "Per poco non cadevo."
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Pronuncia e grafia"
+      },
+      {
+        "text": [
+          "Nella lingua curata la vocale finale di una parola cade spesso davanti a un'altra vocale, e al suo posto si mette l'apostrofo: *quand'anche, foss'anche, tutt'altro, pover'uomo, sant'Antonio*. È un'elisione, e si scrive sempre staccata, con l'apostrofo: ✗ *quandanche*, ✗ *tuttaltro*. Davanti a consonante, invece, la vocale può cadere senza apostrofo (troncamento): *fosse pure → fosse pur*, *un buon libro*."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Scegli la forma scritta bene.",
+        "questions": [
+          {
+            "q": "___ fosse vero, non cambierebbe niente.",
+            "options": [
+              "*Quand'anche",
+              "Quandanche",
+              "Quand anche"
+            ]
+          },
+          {
+            "q": "Non è stupido, ___ !",
+            "options": [
+              "*tutt'altro",
+              "tuttaltro",
+              "tutt altro"
+            ]
+          },
+          {
+            "q": "Quel ___ non sa più che fare.",
+            "options": [
+              "*pover'uomo",
+              "poveruomo",
+              "pover uomo"
+            ]
+          },
+          {
+            "q": "Lo farò, ___ l'ultima cosa che faccio.",
+            "options": [
+              "*foss'anche",
+              "fossanche",
+              "foss anche"
+            ]
+          }
+        ]
+      },
+      {
+        "h": "Il mio portfolio"
+      },
+      {
+        "text": [
+          "Che cosa sai fare dopo questa lezione? Spunta le frasi vere per te."
+        ]
+      },
+      {
+        "checklist": [
+          "So scegliere tra indicativo, congiuntivo e condizionale in una relativa, secondo il senso.",
+          "So usare le concessive colte: *per bravo che sia, checché, che… o che, foss'anche*.",
+          "Riconosco il *non* che non nega: *finché non, più di quanto non, per poco non*.",
+          "So quando dopo *che* serve il condizionale e non il congiuntivo.",
+          "So negare una causa con il congiuntivo: *non perché fosse…, ma perché…*",
+          "Capisco e uso le forme retoriche: *Sarà, ma…; Io, tradirti?; Che fare?*"
+        ]
+      },
+      {
+        "h": "Leggere"
+      },
+      {
+        "picture": "Il molo del porto di Palermo negli anni Trenta, con una nave per Napoli pronta a partire"
+      },
+      {
+        "text": [
+          "**La scomparsa di Majorana**",
+          "Ettore Majorana, nato a Catania nel 1906, {im:era} uno dei fisici più brillanti del gruppo di Enrico Fermi, i cosiddetti ragazzi di via Panisperna. Nel marzo del 1938, a trentun anni, {pr:salì} su una nave da Palermo a Napoli, e da quel momento nessuno lo {pr:rivide} più.",
+          "Prima di partire {tp:aveva scritto} lettere che {im:sembravano} annunciare un suicidio; poi, da Palermo, {tp:aveva mandato} un telegramma e una lettera in cui {im:diceva} di aver cambiato idea. Che si {csa:sia tolto} la vita, che si {csa:sia ritirato} in un convento o che {csa:sia fuggito} all'estero: per decenni ogni ipotesi {pp:è rimasta} aperta.",
+          "Nel 1975 Leonardo Sciascia gli {pr:dedicò} un libro, *La scomparsa di Majorana*, in cui {im:immaginava} che il fisico {cst:avesse scelto} di sparire per non contribuire alla costruzione di armi atomiche.",
+          "Nel 2015 la Procura di Roma, chiudendo un'indagine, {pp:ha concluso} che tra il 1955 e il 1959 Majorana {im:era} vivo e si {im:trovava} in Venezuela. Perché se ne {cst:fosse andato}, però, nessuno lo {ip:sa} ancora con certezza."
+        ]
+      },
+      {
+        "type": "choice",
+        "prompt": "Vero o falso?",
+        "questions": [
+          {
+            "q": "Majorana {im:faceva} parte del gruppo di Enrico Fermi.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Majorana {pr:scomparve} dopo essersi imbarcato a Napoli.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Da Palermo {pr:scrisse} di aver cambiato idea.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          },
+          {
+            "q": "Sciascia {im:sosteneva} che Majorana {csi:fosse} morto in un incidente.",
+            "options": [
+              "Vero",
+              "*Falso"
+            ]
+          },
+          {
+            "q": "Secondo la Procura di Roma, negli anni Cinquanta Majorana {im:era} vivo.",
+            "options": [
+              "*Vero",
+              "Falso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "prompt": "Trova nel testo le forme che mancano.",
+        "questions": [
+          "Che si [[sia tolto#csa]] la vita, che si {csa:sia ritirato} in un convento o che {csa:sia fuggito} all'estero…",
+          "Sciascia {im:immaginava} che il fisico [[avesse scelto#cst]] di sparire.",
+          "Perché se ne [[fosse andato#cst]], nessuno lo {ip:sa} ancora con certezza."
+        ]
+      },
+      {
+        "type": "write",
+        "prompt": "Conosci un altro mistero (storico, artistico, di cronaca) che non è mai stato risolto? Raccontalo, presentando le ipotesi.",
+        "open": true,
+        "questions": [
+          {
+            "q": "Che… o che…"
+          }
+        ]
+      },
+      {
+        "h": "Scrivere"
+      },
+      {
+        "type": "free",
+        "prompt": "Scrivi un breve racconto su un segreto che viene a galla dopo molti anni (vero o inventato).",
+        "cues": [
+          "Comincia con un'alternativa: *Che lo sapessero o no…*",
+          "Nega una causa: *non perché…, ma perché…*",
+          "Usa una concessiva colta: *per… che, checché, foss'anche*.",
+          "Chiudi con una forma retorica: *Sarà, ma…; Che fare?*"
+        ],
+        "start": "",
+        "model": "La fotografia\nChe i miei genitori sapessero o no di quella fotografia, non l'ho mai capito. L'ho trovata per caso, in un libro di mia nonna: una ragazza in costume da bagno, su una spiaggia che non conoscevo, con una dedica in francese.\nPer discreta che fosse, mia nonna non era una donna che si potesse ingannare facilmente, e quando gliel'ho mostrata non ha fatto finta di niente. Ha taciuto per qualche minuto, non perché si vergognasse, mi ha detto poi, ma perché non riusciva a scegliere da dove cominciare.\nQuella ragazza era lei, a diciannove anni, a Nizza, l'estate prima di sposarsi. La dedica era di un pittore che l'aveva amata e che lei, checché ne pensasse la famiglia, non aveva mai dimenticato.\nSarà una storia come tante, ma da allora quella fotografia sta sulla mia scrivania."
       }
     ]
   }

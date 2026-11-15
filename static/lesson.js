@@ -8,12 +8,17 @@
 // its own (data-option); saving and restoring only ever use those, never the
 // order on the page, so a shuffle can't put a saved answer in the wrong place.
 
+// The same letter can be stored in more than one way (ί as one character or
+// as ι + an accent): NFC makes them one. A Greek σ at the end of a word
+// counts as ς, for learners who type the Latin s on any key
 const normalise = (text) => text
+    .normalize("NFC")
     .trim()
     .replace(/[’`´]/g, "'")
     .replace(/\s+/g, " ")
     .replace(/[.!?]+$/, "")
-    .toLowerCase();
+    .toLowerCase()
+    .replace(/σ(?!\p{L})/gu, "ς");
 
 const lessonRoot = document.querySelector(".lesson");
 

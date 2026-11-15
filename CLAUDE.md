@@ -224,3 +224,9 @@ plan for the rest of A1 is in the assistant's memory (greek-a1-plan).
 - `"keys"` holds the Greek letters learnt so far, with the accented vowels.
 - New words go in `data/greek/glossary_1.txt`; for a word written without
   its accent (signs in capitals) add `word > accented word = meaning`.
+- Learners of Greek without a Greek keyboard can type Latin letters: in the
+  answer boxes they become the Greek letter on the same key of a Greek
+  keyboard (`static/greek_keys.js`, loaded from `base.html` only for Greek):
+  the drills, free writing, and the lesson exercises that show the Greek
+  letter keys. Exercises that ask for a reading in Latin letters must keep
+  `"keys": ""`, so their boxes stay Latin.
